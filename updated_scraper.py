@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     # Export the Metadata to a JSON file for the LLM Screening Group
     if collected_papers:
-        output_filename = 'hybrede_metadata_v2.json'
+        output_filename = 'data/hybrede_metadata_v2.json'
         with open(output_filename, 'w', encoding='utf-8') as json_file:
             json.dump(collected_papers, json_file, ensure_ascii=False, indent=4)
         

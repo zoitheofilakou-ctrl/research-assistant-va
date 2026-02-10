@@ -49,7 +49,7 @@ Abstract:
 """
 
 # load json
-with open("hybrede_metadata_v2.json", "r", encoding="utf-8") as f:
+with open("data/hybrede_metadata_v2.json", "r", encoding="utf-8") as f:
     papers = json.load(f)
 
 
@@ -159,7 +159,7 @@ for idx, paper in enumerate(papers, start=1):
             "justification": justification
         })
 
-with open("filtered_papers.json", "w", encoding="utf-8") as f:
+with open("data/filtered_papers.json", "w", encoding="utf-8") as f:
     json.dump(included_papers, f, ensure_ascii=False, indent=4)
 
 print("Saved filtered papers to 'filtered_papers.json'")
