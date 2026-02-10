@@ -1,0 +1,915 @@
+[
+    {
+        "paperId": "2f06cdba66b60003ceb92579cef8ce8f3058940b",
+        "externalIds": {
+            "PubMedCentral": "11518668",
+            "DOI": "10.1017/S0022215124000550",
+            "CorpusId": 269213760,
+            "PubMed": "38634374"
+        },
+        "url": "https://www.semanticscholar.org/paper/2f06cdba66b60003ceb92579cef8ce8f3058940b",
+        "title": "Understanding, experience and attitudes towards artificial intelligence technologies for clinical decision support in hearing health: a mixed-methods survey of healthcare professionals in the UK",
+        "year": 2024,
+        "citationCount": 6,
+        "openAccessPdf": {
+            "url": "",
+            "status": "CLOSED",
+            "license": "CCBY",
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11518668, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "2282116496",
+                "name": "Babatunde Oremule"
+            },
+            {
+                "authorId": "2297182354",
+                "name": "Gabrielle H Saunders"
+            },
+            {
+                "authorId": "2257821088",
+                "name": "Karolina Kluk"
+            },
+            {
+                "authorId": "2297183937",
+                "name": "Alexander d'Elia"
+            },
+            {
+                "authorId": "2237797882",
+                "name": "Iain A. Bruce"
+            }
+        ],
+        "abstract": "Abstract Objectives Clinician acceptance influences technology adoption, but UK health professionals' attitudes towards artificial intelligence (AI) in hearing healthcare are unclear. This study aimed to address this knowledge gap. Methods An online survey, based on the Checklist for Reporting Results of Internet E-Surveys, was distributed to audiologists, ENT specialists and general practitioners. The survey collected quantitative and qualitative data on demographics and attitudes to AI in hearing healthcare. Results Ninety-three participants (mean age 39 years, 56 per cent female) from three professional groups (21 audiologists, 24 ENT specialists and 48 general practitioners) responded. They acknowledged AI's benefits, emphasised the importance of the clinician–patient relationship, and stressed the need for proper training and ethical considerations to ensure successful AI integration in hearing healthcare. Conclusion This study provides valuable insights into UK healthcare professionals' attitudes towards AI in hearing health and highlights the need for further research to address specific concerns and uncertainties surrounding AI integration in hearing healthcare."
+    },
+    {
+        "paperId": "169316c86726d0d48fd3cee927cf25197c2eb74c",
+        "externalIds": {
+            "PubMedCentral": "11564663",
+            "DOI": "10.1038/s41598-024-78736-1",
+            "CorpusId": 274057334,
+            "PubMed": "39543323"
+        },
+        "url": "https://www.semanticscholar.org/paper/169316c86726d0d48fd3cee927cf25197c2eb74c",
+        "title": "Knowledge, attitudes, and concerns about psilocybin and MDMA as novel therapies among U.S. healthcare professionals",
+        "year": 2024,
+        "citationCount": 11,
+        "openAccessPdf": {
+            "url": "",
+            "status": null,
+            "license": "CCBY",
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11564663, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "2212556504",
+                "name": "Erin Wang"
+            },
+            {
+                "authorId": "2322581020",
+                "name": "David S. Mathai"
+            },
+            {
+                "authorId": "2323529653",
+                "name": "Natalie Gukasyan"
+            },
+            {
+                "authorId": "2327369966",
+                "name": "Sandeep M. Nayak"
+            },
+            {
+                "authorId": "1401828924",
+                "name": "Albert Garcia-Romeu"
+            }
+        ],
+        "abstract": "Psychedelic-assisted therapy (PAT) with substances like psilocybin and MDMA has shown promise for conditions including depression and post-traumatic stress disorder. Psilocybin and MDMA may become approved medicines in the coming decade. This study assessed knowledge and attitudes regarding PAT among 879 U.S. healthcare professionals via anonymous online survey. Multivariable linear regression was used to identify predictors of openness to clinical use. Most participants (71.2%) were female and White (85.8%), with a mean (SD) age of 45.5 (12.7) years. Registered nurses (25.4%) and physicians (17.7%) comprised the largest professional groups. Respondents endorsed strong belief in therapeutic promise, and moderate openness to clinical use and support for legal access to both substances, with higher overall ratings for psilocybin compared to MDMA. Objective knowledge items revealed low knowledge of therapeutic uses, risks, and pharmacology. Primary concerns were lack of trained providers, financial cost, and potential contraindications. Prior psychedelic use, self-rated knowledge, younger age, and professional role predicted openness to clinical use of psilocybin and MDMA, with physicians reporting lower openness. As psychedelics continue to garner popular and scientific interest, results indicate a pressing need for additional formal training to provide balanced, evidence-based information from trusted sources."
+    },
+    {
+        "paperId": "f86bbf1f6be39fe5c3fc8373e832b16bd828a405",
+        "externalIds": {
+            "PubMedCentral": "10068196",
+            "DOI": "10.1007/s40520-023-02394-y",
+            "CorpusId": 257910748,
+            "PubMed": "37009966"
+        },
+        "url": "https://www.semanticscholar.org/paper/f86bbf1f6be39fe5c3fc8373e832b16bd828a405",
+        "title": "Healthcare professionals’ perception of using a web-based reminiscence therapy to support person with dementia during the COVID-19 pandemic",
+        "year": 2023,
+        "citationCount": 5,
+        "openAccessPdf": {
+            "url": "https://link.springer.com/content/pdf/10.1007/s40520-023-02394-y.pdf",
+            "status": "BRONZE",
+            "license": null,
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10068196, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "2139901387",
+                "name": "R. Akhter"
+            },
+            {
+                "authorId": "2216407140",
+                "name": "Winnie Sun"
+            },
+            {
+                "authorId": "2064267693",
+                "name": "A. Quevedo"
+            },
+            {
+                "authorId": "1960655",
+                "name": "M. Lemonde"
+            },
+            {
+                "authorId": "1681715",
+                "name": "R. Liscano"
+            },
+            {
+                "authorId": "8789743",
+                "name": "S. Horsburgh"
+            }
+        ],
+        "abstract": "Background Reminiscence therapy (RT) is the most common non-pharmacological treatment for dementia care. The therapy stimulates the senses to evoke memories having the potential to reduce Behavioral and Psychological Symptoms of Dementia (BPSD). Digital RT, such as web-based reminiscence therapy (WBRT), has the potential to support dementia care and reduce the caregiving burden. Aims This study aimed to explore healthcare professionals (HCPs) perceptions of utilizing WBRT in institutionalized settings to support persons with dementia during the COVID-19 pandemic. Methods A qualitative phenomenological descriptive study was adopted and guided by Graham's Knowledge to Action framework. Online training on the use of WBRT was conducted, followed by interviews with HCPs. Results Four major themes were identified on the potential use of WBRT in dementia care, including usability and efficacy, impact on caregiving, capability of reducing BPSD, and. feasibility during COVID-19 social distancing. Discussion This study recognized the potential use of WBRT to support the person with dementia during the pandemic in institutionalized settings. Conclusion The knowledge generated from this study will guide the future application of WBRT to support dementia care in diverse healthcare settings."
+    },
+    {
+        "paperId": "5f1a24be097954cb8a5ca1bee1a12a45a460bf04",
+        "externalIds": {
+            "MAG": "3007905263",
+            "DOI": "10.1136/jramc-2019-001328",
+            "CorpusId": 211246715,
+            "PubMed": "32086275"
+        },
+        "url": "https://www.semanticscholar.org/paper/5f1a24be097954cb8a5ca1bee1a12a45a460bf04",
+        "title": "Education and clinical decision support for healthcare professionals on emergency preparedness for extremely dangerous pathogens: report of a conference workshop",
+        "year": 2020,
+        "citationCount": 3,
+        "openAccessPdf": {
+            "url": "https://militaryhealth.bmj.com/content/jramc/166/2/103.full.pdf",
+            "status": "BRONZE",
+            "license": null,
+            "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1136/jramc-2019-001328?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1136/jramc-2019-001328, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "46862258",
+                "name": "K. Walsh"
+            },
+            {
+                "authorId": "2254199465",
+                "name": "N. Seyidov"
+            },
+            {
+                "authorId": "2750577",
+                "name": "M. Wroczynski"
+            },
+            {
+                "authorId": "117932821",
+                "name": "G. Payne"
+            },
+            {
+                "authorId": "8536192",
+                "name": "L. Bhagavatheeswaran"
+            }
+        ],
+        "abstract": "Clinical decision support and e-learning will be essential if we are to achieve the goal of preventing outbreaks of infectious diseases caused by extremely dangerous pathogens. However, these resources on their own will not be enough to achieve this outcome. To achieve this outcome, resources must be integrated into undergraduate and postgraduate educational curricula, accredited as part of continuous professional development programmes, built around the knowledge and skills gaps of learners and developed using an evidence-based methodology that will enable healthcare professionals to put their learning into action for the benefit of both patients and populations. This article describes and contextualises the personal views discussed at a workshop on education and clinical decision support for healthcare professionals reacting to an infectious disease outbreak from extremely dangerous pathogens."
+    },
+    {
+        "paperId": "bb133c9343bfc2f2788f16c32f09c94acdab5a06",
+        "externalIds": {
+            "DOI": "10.1111/jocn.16506",
+            "CorpusId": 252896900,
+            "PubMed": "36229896"
+        },
+        "url": "https://www.semanticscholar.org/paper/bb133c9343bfc2f2788f16c32f09c94acdab5a06",
+        "title": "Instruments for assessing healthcare professionals' knowledge and skills of evidence-based practice: A scoping review.",
+        "year": 2022,
+        "citationCount": 13,
+        "openAccessPdf": {
+            "url": "https://doi.org/10.1111/jocn.16506",
+            "status": "HYBRID",
+            "license": "CCBY",
+            "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/jocn.16506?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/jocn.16506, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "46811500",
+                "name": "E. Haavisto"
+            },
+            {
+                "authorId": "48039565",
+                "name": "Hannele Siltanen"
+            },
+            {
+                "authorId": "1729432750",
+                "name": "Anna Tolvanen"
+            },
+            {
+                "authorId": "10309021",
+                "name": "A. Holopainen"
+            }
+        ],
+        "abstract": "OBJECTIVE\nThe aim of this scoping review was to describe the instruments used to assess the knowledge and skills of evidence-based practice (EBP) in healthcare settings.\n\n\nMETHODS\nA scoping review was undertaken. Three electronic databases (CINAHL, PubMed and Cochrane) were searched in January 2022. The search phrases consisted of the following terms: healthcare professionals, EBP, competence and instrument and their synonyms, keywords and MeSH terms. The database search was run without any limitations. The Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines were followed to support reporting.\n\n\nRESULTS\nUltimately, 39 studies were included; most of them (35) were cross-sectional studies. The studies were conducted in 17 countries. A total of 17 evidence-based knowledge and skills instruments were identified. The Upton and Upton instrument was used in 19 studies. Twelve self-reported instruments were used only once. The psychometric properties of the instruments varied. The reliability was typically reported with Cronbach's alpha coefficient. The content of the EBP knowledge/skills instruments consists of five main categories: EBP, evaluation of current practice, preparation for the implementation of EBP, implementation of evidence and active participation in the development of EBP.\n\n\nCONCLUSION\nAlmost all instruments are self-assessment instruments. Validated knowledge tests should be further developed. The instruments emphasise the preparation for the implementation of EBP. Further research is needed to develop instruments for healthcare professionals to assess the knowledge and skills of the implementation of evidence."
+    },
+    {
+        "paperId": "8ba8ed724bdf25a39aed605132a92ac0773c9a82",
+        "externalIds": {
+            "PubMedCentral": "9226873",
+            "DOI": "10.1136/bmjsem-2021-001280",
+            "CorpusId": 263161726,
+            "PubMed": "35813130"
+        },
+        "url": "https://www.semanticscholar.org/paper/8ba8ed724bdf25a39aed605132a92ac0773c9a82",
+        "title": "What do healthcare professionals want from a resource to support person-centred conversations on physical activity? A mixed-methods, user-centric approach to developing educational resources",
+        "year": 2022,
+        "citationCount": 10,
+        "openAccessPdf": {
+            "url": "https://bmjopensem.bmj.com/content/bmjosem/8/2/e001280.full.pdf",
+            "status": "GOLD",
+            "license": "CCBYNC",
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9226873, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "50713059",
+                "name": "Hamish Reid"
+            },
+            {
+                "authorId": "2248394316",
+                "name": "Jessica Caterson"
+            },
+            {
+                "authorId": "2248012366",
+                "name": "Ralph Smith"
+            },
+            {
+                "authorId": "2248391244",
+                "name": "James Baldock"
+            },
+            {
+                "authorId": "2315534379",
+                "name": "Natasha Jones"
+            },
+            {
+                "authorId": "2263741127",
+                "name": "Robert J. Copeland"
+            }
+        ],
+        "abstract": "Objectives Healthcare is a fundamental action area in population efforts to address the global disease burden from physical inactivity. However, healthcare professionals lack the knowledge, skills and confidence to have regular conversations about physical activity. This study aimed to: (1) understand the requirements of healthcare professionals and patients from a resource to support routine physical activity conversations in clinical consultations and (2) develop such a resource. Methods This study used codesign principles across two phases, actively involving relevant stakeholders in an iterative development process. The preparatory phase included a scoping literature review and workshops with multidisciplinary healthcare professionals and patients. The Delphi phase included the development of a draft resource, a three-stage modified online Delphi study and an external review. Results The scoping review highlighted the importance of addressing time restrictions, a behaviour change skill deficit, the need for resources to fit into existing systems and meeting patient expectations. Consultation included 69 participants across two clinical workshops. They recommended using the internet, valued guidance on all aspects of physical activity conversations and were concerned about how to use a person-centred approach. The Delphi phase, including 15 expert participants, met agreement criteria in two stages to develop the resource. Conclusion This mixed-methods study delivered an online resource that was codesigned with and based on the requirements of healthcare professionals and patients. The resource presents condition-specific ‘1-minute’, ‘5-minute’ and ‘more minute’ person-centred and evidence-based conversation templates on physical activity in an accessible and usable format to meet the needs of real-life clinical practice."
+    },
+    {
+        "paperId": "4ad09107c87cf61ebe5187f1419d69e7b89b0331",
+        "externalIds": {
+            "PubMedCentral": "8447063",
+            "DOI": "10.1111/jan.14998",
+            "CorpusId": 236927764,
+            "PubMed": "34347887"
+        },
+        "url": "https://www.semanticscholar.org/paper/4ad09107c87cf61ebe5187f1419d69e7b89b0331",
+        "title": "Exploration of the views and experiences of research healthcare professionals during their redeployment to clinical roles during the COVID‐19 pandemic",
+        "year": 2021,
+        "citationCount": 19,
+        "openAccessPdf": {
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8447063",
+            "status": "GREEN",
+            "license": null,
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8447063, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "2122800065",
+                "name": "Jessry D Veerapen"
+            },
+            {
+                "authorId": "2152427",
+                "name": "E. McKeown"
+            }
+        ],
+        "abstract": "Abstract Aim This study aimed to explore the views and experiences of research healthcare professionals towards their redeployment to frontline clinical roles during the COVID‐19 pandemic. Background Healthcare professionals working in research were redeployed during the COVID‐19 pandemic to support the delivery of clinical services across the National Health Service. They are experienced clinicians with research knowledge and skills, and specific working patterns. It is important to understand how these professionals were used and supported during their transition to clinical roles during the pandemic. Method Between July and September 2020, 15 research healthcare professionals were recruited into this qualitative study. Each participant completed a single semi‐structured interview lasting approximately 30–60 min, conducted remotely using a teleconferencing platform. Interviews were transcribed verbatim, and data analysed by the process of inductive thematic analysis with the assistance of NVivo 12.06 (Nov, 2019). Findings Four main themes were identified from analysis of the transcripts: (a) initial personal response to the pandemic (subthemes: of anxieties due to unknown disease impact and concern for others); (b) mobilization for clinical redeployment (subthemes: motivations for voluntary redeployment, the professional challenges, personal fears and the organization and preparedness for redeployment); (c) adaptive deployment to clinical roles (subthemes: adapting to new roles and responsibilities, challenges faced and coping mechanisms), (d) reflections and learnings (subthemes: reintegration to original roles and sense of achievement). Conclusion Research healthcare professionals are highly adaptable professionals equipped with core transferable skills. With the appropriate support, re‐familiarization and induction they are a valuable resource during the pandemic response. Implications to practice Research healthcare professionals are experienced practitioners with transferrable skills and strong sense of duty and resilience. Induction programmes to promote recalibration to clinical settings would improve their adaptability, foster confidence and emotional well‐being. Careful consideration is required prior to mass redeployment to ensure research continuity in both COVID‐19 and other health conditions."
+    },
+    {
+        "paperId": "b1a1948e5b8ec9b431fa98a2960f5cbd1715cd80",
+        "externalIds": {
+            "PubMedCentral": "11616819",
+            "DOI": "10.1371/journal.pgph.0003833",
+            "CorpusId": 274512012,
+            "PubMed": "39630684"
+        },
+        "url": "https://www.semanticscholar.org/paper/b1a1948e5b8ec9b431fa98a2960f5cbd1715cd80",
+        "title": "ImpENSA eHealthy Conversation Skills training for healthcare professionals aimed at improving micronutrient status during the first 1000 days in South Africa",
+        "year": 2024,
+        "citationCount": 2,
+        "openAccessPdf": {
+            "url": "",
+            "status": null,
+            "license": "CCBY",
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11616819, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "1397069851",
+                "name": "B. Patro-Golab"
+            },
+            {
+                "authorId": "2334952107",
+                "name": "Sunhea Choi"
+            },
+            {
+                "authorId": "2171610332",
+                "name": "Jan Lukasik"
+            },
+            {
+                "authorId": "2243959676",
+                "name": "C. Walsh"
+            },
+            {
+                "authorId": "2333865783",
+                "name": "Maciej Kolodziej"
+            },
+            {
+                "authorId": "1412773147",
+                "name": "Lize Havemann-Nel"
+            },
+            {
+                "authorId": "2333865747",
+                "name": "Estelle Venter"
+            },
+            {
+                "authorId": "2333865834",
+                "name": "Kerry Sexton"
+            },
+            {
+                "authorId": "2305580166",
+                "name": "Selma Omer"
+            },
+            {
+                "authorId": "2333861483",
+                "name": "Liz Goddard"
+            },
+            {
+                "authorId": "2265225309",
+                "name": "Keith M. Godfrey"
+            },
+            {
+                "authorId": "2305581517",
+                "name": "W. Lawrence"
+            },
+            {
+                "authorId": "2285471396",
+                "name": "Berthold Koletzko"
+            }
+        ],
+        "abstract": "Individuals’ lifestyle behaviours determine health. Improving Early Nutrition and Health in South Africa (“ImpENSA”), an EU Erasmus+ co-funded project, aims to tackle the triple burden of malnutrition in South Africa through equipping healthcare professionals (HCPs) with knowledge and skills to effectively support healthy nutritional choices among pregnant women and mothers/infant caregivers. Healthy Conversation Skills (HCS) is a behaviour change intervention utilising open discovery questions, active listening, reflection on practice and goal-setting support through SMARTER (Specific, Measured, Action-oriented, Realistic, Timed, Evaluated and Reviewed) planning as core competences. We integrated HCS training delivered online (eHCS training) as practical skills training for HCPs following two eLearning modules on micronutrient nutrition and person-centred behaviour change support. In a programme pilot (2021–22) we investigated participant training experiences, application of HCS and changes in clinical practice using assessments, questionnaires, and interviews at baseline, pre- and post-training and at 3-month follow-up. Of 36 participants (mainly dietitians) initially enrolled, 27 completed eHCS training and 24 participated in the follow-up evaluation. All applied open discovery questions and listened to their patients more actively (spending less time giving information) during consultations. Many participants (63%) reported that they frequently supported their patients using SMARTER planning for a behaviour change. All reflected on their practice and how they consulted their patients. Participants gave very positive feedback on eHCS training, finding it relevant and enjoyable. Contextual (micronutrient nutrition) and theoretical (person-centred behaviour change and HCS) knowledge established prior to eHCS training enabled participants to focus during the training on practising and mastering HCS and observing others. This facilitated reflection, deepened understanding of patient-centred care and accelerated the application of HCS to implement person-centred care in their practice. We conclude that eHCS training delivered online, integrated with knowledge-based modules, can effectively enhance the way HCPs support their patients to ultimately optimise early life nutrition."
+    },
+    {
+        "paperId": "d339c190259035de7d11ebb8965c4f613618f2ea",
+        "externalIds": {
+            "DOI": "10.1186/s44247-024-00071-2",
+            "CorpusId": 268863490
+        },
+        "url": "https://www.semanticscholar.org/paper/d339c190259035de7d11ebb8965c4f613618f2ea",
+        "title": "Perspectives of healthcare professionals on the use of immersive virtual reality in teenage and young adult oncology: a qualitative interview study",
+        "year": 2024,
+        "citationCount": 1,
+        "openAccessPdf": {
+            "url": "https://bmcdigitalhealth.biomedcentral.com/counter/pdf/10.1186/s44247-024-00071-2",
+            "status": "GOLD",
+            "license": "CCBY",
+            "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1186/s44247-024-00071-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1186/s44247-024-00071-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "2214750959",
+                "name": "M. Deighan"
+            },
+            {
+                "authorId": "2294629763",
+                "name": "Daniel Simpson"
+            },
+            {
+                "authorId": "4354055",
+                "name": "Amberly Brigden"
+            },
+            {
+                "authorId": "2294627217",
+                "name": "Kirsten Cater"
+            }
+        ],
+        "abstract": "Applications of Virtual Reality (VR) in healthcare continue to grow at a rapid pace, yet the challenges and opportunities associated with VR from the perspective of clinicians and healthcare staff remain underexplored, particularly in the context of Teenage and Young Adult (TYA) oncology. This study aims to bridge this knowledge gap by interviewing clinicians and staff regarding the use of VR in TYA cancer care. Fourteen semi-structured qualitative interviews were conducted with a diverse range of healthcare professionals working in TYA oncology within the United Kingdom including oncologists, hematologists, clinical nurse specialists, clinical psychologists, radiographers, play specialists, clinical social workers and youth support coordinators. Data were analysed thematically with three themes and ten sub-themes developed. The findings reveal that TYA healthcare professionals are optimistic and enthusiastic about the potential of using VR to enhance cancer care for teenagers and young adults. However, they also expressed notable concerns related to the practical implementation of VR in clinical settings. These concerns included infection and safety risks, privacy and security concerns, cost implications, storage requirements and staff burden. Clinicians and staff proposed valuable applications for VR in TYA oncology specifically in patient distraction, physiotherapy, procedure preparation, and the delivery of psychotherapy, including acceptance and commitment therapy. This research has demonstrated that despite an enthusiasm to adopt VR in TYA oncology there are still many challenges, both practical and ethical, that must be addressed to enable the successful implementation of VR in hospitals within the UK. Further research into applications of VR for TYA oncology is warranted, particularly in areas of psychology, physiotherapy, and procedure preparation."
+    },
+    {
+        "paperId": "f7dd443c4920fd1a247d6ef479e0de42308ac219",
+        "externalIds": {
+            "DOI": "10.1111/hsc.13434",
+            "CorpusId": 235168144,
+            "PubMed": "34028118"
+        },
+        "url": "https://www.semanticscholar.org/paper/f7dd443c4920fd1a247d6ef479e0de42308ac219",
+        "title": "Knowledge and attitudes towards living wills among healthcare professionals, residents and relatives in nursing homes: A qualitative study.",
+        "year": 2021,
+        "citationCount": 4,
+        "openAccessPdf": {
+            "url": "https://doi.org/10.1111/hsc.13434",
+            "status": "GOLD",
+            "license": null,
+            "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/hsc.13434?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/hsc.13434, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "1421930648",
+                "name": "Á. Fernández-Rodríguez"
+            },
+            {
+                "authorId": "1399329611",
+                "name": "C. Sarabia-Cobo"
+            },
+            {
+                "authorId": "1399357082",
+                "name": "J. Molina-Mula"
+            }
+        ],
+        "abstract": "Living wills are a tool to support the principle of autonomy in end-of-life situations, when the person does not have the capacity to make decisions. The aim was to explore the knowledge and attitudes of residents, relatives and healthcare professionals in nursing homes in Cantabria regarding living wills. A qualitative phenomenological design was conducted. Two focus groups were held with seven participants in each group. A sample of 14 people participated in this study: four residents, five relatives and five professionals. This study was approved by the Clinical Research Ethics Committee of Cantabria. Two main categories were found, with six subcategories each: death, with six subcategories-as a social taboo, as a natural process, facing death, accompanying uncertainties, unnecessary lengthening of life and guilt-and living wills, with six subcategories-knowledge, unknowingness or misconceptions, usefulness, strategies to promote dissemination, intention of granting a living will and the professional's role in restricting or promoting autonomy. Unknowingness or misconceptions and uncertainties in relation to death were the most represented subcategories of each category. Although the attitudes among the study participants were mostly positive, there is a lack of knowledge concerning living wills, which is enhanced by the social taboo related to death."
+    },
+    {
+        "paperId": "6c089fa2f6d6c29fcf0ba8c4f5609f47c2d2712d",
+        "externalIds": {
+            "MAG": "3036846162",
+            "PubMedCentral": "7304621",
+            "DOI": "10.1371/journal.pone.0235001",
+            "CorpusId": 219949131,
+            "PubMed": "32559245"
+        },
+        "url": "https://www.semanticscholar.org/paper/6c089fa2f6d6c29fcf0ba8c4f5609f47c2d2712d",
+        "title": "The difference in knowledge and concerns between healthcare professionals and patients about genetic-related issues: A questionnaire-based study",
+        "year": 2020,
+        "citationCount": 4,
+        "openAccessPdf": {
+            "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0235001&type=printable",
+            "status": "GOLD",
+            "license": "CCBY",
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7304621, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "4794272",
+                "name": "B. Almomani"
+            },
+            {
+                "authorId": "1390035956",
+                "name": "Nour A. Al-Sawalha"
+            },
+            {
+                "authorId": "1390035995",
+                "name": "M. Al-Keilani"
+            },
+            {
+                "authorId": "1388291805",
+                "name": "Hatem A. Aman"
+            }
+        ],
+        "abstract": "Effective adoption of genetics in clinical practice requires the support of and interaction between the different partners of healthcare system; healthcare professionals (HCPs) and patients. The study aimed to assess and compare the knowledge, factors affecting the knowledge, and concerns of HCPs and patients regarding genetic-related issues such as lack of knowledge about genetics and genetic conditions, awareness of the importance of genetics in clinical practice and genetic services and resources deficits. A cross sectional study was conducted in different areas of Jordan using a convenient sampling approach. An English questionnaire was self-administered to HCPs. Face-to-face interviews were conducted with patients in Arabic by trained researcher. A total of 1000 HCPs and 1448 patients were recruited. There was a significant difference (p<0.001) in the knowledge between HCPs and patients. Among HCPs, physicians (OR = 2.278, 95%CI = 1.410–3.680, p = 0.001) and pharmacists (OR = 2.163, 95%CI = 1.362–3.436, p = 0.001) were more knowledgeable than nurses. In addition, females were more knowledgeable than males (OR = 1.717, 95%CI = 1.203–2.451, p = 0.003). Among patients, participants who had a bachelor degree (OR = 1.579, 95%CI = 1.231–2.025, p<0.001) were more knowledgeable compared to those who only had school education. HCPs appeared to have more concerns than patients (p<0.001) regarding all genetic-related issues. These findings suggested a positive association between education and genetic knowledge as well as concerns; as HCPs were more knowledgeable and concerned than patients. Appropriate integration and expansion of basic genetic knowledge courses and clinical genetic training in the curriculum should be adopted to prepare HCPs to enhance the integration of genetic information in clinical settings."
+    },
+    {
+        "paperId": "59dcc110966f5f099e9eb6fd05768673a8791134",
+        "externalIds": {
+            "PubMedCentral": "10131407",
+            "DOI": "10.1186/s12913-023-09386-8",
+            "CorpusId": 258314245,
+            "PubMed": "37101266"
+        },
+        "url": "https://www.semanticscholar.org/paper/59dcc110966f5f099e9eb6fd05768673a8791134",
+        "title": "Empowered patients and informal care-givers as partners?—a survey study of healthcare professionals’ perceptions",
+        "year": 2023,
+        "citationCount": 8,
+        "openAccessPdf": {
+            "url": "https://bmchealthservres.biomedcentral.com/counter/pdf/10.1186/s12913-023-09386-8",
+            "status": "GOLD",
+            "license": "CCBY",
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10131407, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "15864866",
+                "name": "Therese Scott Duncan"
+            },
+            {
+                "authorId": "6500774",
+                "name": "Sara Riggare"
+            },
+            {
+                "authorId": "15657541",
+                "name": "Ami Bylund"
+            },
+            {
+                "authorId": "2503614",
+                "name": "M. Hägglund"
+            },
+            {
+                "authorId": "1753484",
+                "name": "T. Stenfors"
+            },
+            {
+                "authorId": "34533322",
+                "name": "L. Sharp"
+            },
+            {
+                "authorId": "47083087",
+                "name": "S. Koch"
+            }
+        ],
+        "abstract": "Background More knowledge is needed regarding the perceptions of healthcare professionals when encountering empowered patients and informal caregivers in clinical settings. This study aimed to investigate healthcare professionals’ attitudes towards and experiences of working with empowered patients and informal caregivers, and perception of workplace support in these situations. Methods A multi-centre web survey was conducted using a non-probability sampling of both primary and specialized healthcare professionals across Sweden. A total of 279 healthcare professionals completed the survey. Data was analysed using descriptive statistics and Thematic analysis. Results Most respondents perceived empowered patients and informal caregivers as positive and had to some extent experience of learning new knowledge and skills from them. However, few respondents stated that these experiences were regularly followed-up at their workplace. Potentially negative consequences such as increased inequality and additional workload were, however, mentioned. Patients’ engagement in the development of clinical workplaces was seen as positive by the respondents, but few had own experience of such engagement and considered it difficult to be achieved . Conclusion Overall positive attitudes of healthcare professionals are a fundamental prerequisite to the transition of the healthcare system recognizing empowered patients and informal caregivers as partners."
+    },
+    {
+        "paperId": "b7173949b349921d7d31536ce28b91071e272b2c",
+        "externalIds": {
+            "PubMedCentral": "10751936",
+            "DOI": "10.1017/S0007114523001666",
+            "CorpusId": 260819057,
+            "PubMed": "37642175"
+        },
+        "url": "https://www.semanticscholar.org/paper/b7173949b349921d7d31536ce28b91071e272b2c",
+        "title": "Dietary intervention in gestational diabetes: a qualitative study of the acceptability and feasibility of a novel whole-diet intervention in healthcare professionals",
+        "year": 2023,
+        "citationCount": 2,
+        "openAccessPdf": {
+            "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/119858ABCF09EEE4A3D2C2954196C799/S0007114523001666a.pdf/div-class-title-dietary-intervention-in-gestational-diabetes-a-qualitative-study-of-the-acceptability-and-feasibility-of-a-novel-whole-diet-intervention-in-healthcare-professionals-div.pdf",
+            "status": "HYBRID",
+            "license": "CCBY",
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10751936, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "3642896",
+                "name": "Laura C. Kusinski"
+            },
+            {
+                "authorId": "2113468245",
+                "name": "R. Richards"
+            },
+            {
+                "authorId": "2118728178",
+                "name": "Danielle L. Jones"
+            },
+            {
+                "authorId": "2083414219",
+                "name": "Elizabeth Turner"
+            },
+            {
+                "authorId": "153791764",
+                "name": "Deborah J Hughes"
+            },
+            {
+                "authorId": "144193906",
+                "name": "P. Dyson"
+            },
+            {
+                "authorId": "3778888",
+                "name": "A. Ahern"
+            },
+            {
+                "authorId": "35013476",
+                "name": "C. Meek"
+            }
+        ],
+        "abstract": "Abstract Gestational diabetes is treated with medical nutrition therapy, delivered by healthcare professionals; however, the optimal diet for affected women is unknown. Randomised controlled trials, such as the DiGest (Dietary Intervention in Gestational Diabetes) trial, will address this knowledge gap, but the acceptability of whole-diet interventions in pregnancy is unclear. Whole-diet approaches reduce bias but require high levels of participant commitment and long intervention periods to generate meaningful clinical outcomes. We aimed to assess healthcare professionals’ views on the acceptability of the DiGest dietbox intervention for women with gestational diabetes and to identify any barriers to adherence which could be addressed to support good recruitment and retention to the DiGest trial. Female healthcare professionals (n 16) were randomly allocated to receive a DiGest dietbox containing 1200 or 2000 kcal/d including at least one weeks’ food. A semi-structured interview was conducted to explore participants’ experience of the intervention. Interviews were audio-recorded, transcribed verbatim and analysed thematically using NVivo software. Based on the findings of qualitative interviews, modifications were made to the dietboxes. Participants found the dietboxes convenient and enjoyed the variety and taste of the meals. Factors which facilitated adherence included participants having a good understanding of study aims and sufficient organisational skills to facilitate weekly meal planning in advance. Barriers to adherence included peer pressure during social occasions and feelings of deprivation or hunger (affecting both standard and reduced calorie groups). Healthcare professionals considered random allocation to a whole-diet replacement intervention to be acceptable and feasible in a clinical environment and offered benefits to participants including convenience."
+    },
+    {
+        "paperId": "c624607d09dc1e4807381b72ed5178c0436cfe1b",
+        "externalIds": {
+            "PubMedCentral": "11041021",
+            "DOI": "10.3389/fmed.2024.1252386",
+            "CorpusId": 269083620,
+            "PubMed": "38660422"
+        },
+        "url": "https://www.semanticscholar.org/paper/c624607d09dc1e4807381b72ed5178c0436cfe1b",
+        "title": "Bioethical knowledge in students and health professionals: a systematic review",
+        "year": 2024,
+        "citationCount": 5,
+        "openAccessPdf": {
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11041021",
+            "status": "GREEN",
+            "license": "CCBY",
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11041021, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "2296214875",
+                "name": "Francisco Javier González-Blázquez"
+            },
+            {
+                "authorId": "2079428845",
+                "name": "Antonio Ruíz-Hontangas"
+            },
+            {
+                "authorId": "2296214902",
+                "name": "Clara López-Mora"
+            }
+        ],
+        "abstract": "Introduction Bioethics training is essential for healthcare professionals as it enables them to address ethical dilemmas in their clinical practice. However, there is still a lack of rigorous teaching programs, and assessing bioethical knowledge poses challenges. Methodology: Systematic review using the PRISMA method. Results Analysis of 27 studies reveals a lack of ethical knowledge and skills among healthcare professionals and students. Specific training in bioethics is effective in developing bioethical competencies. Different approaches have been employed, including integrated training in academic curricula and intensive or ongoing programs. The results demonstrate improvements in knowledge, attitudes, and ethical values, although regularly updating these courses is recommended. Conclusion Specific training, institutional support, and considering regional and disciplinary differences are necessary to enhance ethics in the practice of healthcare professionals. Systematic review registration https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42023437146, identifier CRD42023437146"
+    },
+    {
+        "paperId": "49bbb4bb4c1a086d721223c121669ef2e791f104",
+        "externalIds": {
+            "DBLP": "conf/mie/RajabiE21",
+            "DOI": "10.3233/SHTI210215",
+            "CorpusId": 235217921,
+            "PubMed": "34042621"
+        },
+        "url": "https://www.semanticscholar.org/paper/49bbb4bb4c1a086d721223c121669ef2e791f104",
+        "title": "Towards a Knowledge Graph-Based Explainable Decision Support System in Healthcare",
+        "year": 2021,
+        "citationCount": 7,
+        "openAccessPdf": {
+            "url": "https://doi.org/10.3233/shti210215",
+            "status": "HYBRID",
+            "license": "CCBYNC",
+            "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3233/SHTI210215?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3233/SHTI210215, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "2603473",
+                "name": "Enayat Rajabi"
+            },
+            {
+                "authorId": "2578319",
+                "name": "Kobra Etminani"
+            }
+        ],
+        "abstract": "The decisions derived from AI-based clinical decision support systems should be explainable and transparent so that the healthcare professionals can understand the rationale behind the predictions. To improve the explanations, knowledge graphs are a well-suited choice to be integrated into eXplainable AI. In this paper, we introduce a knowledge graph-based explainable framework for AI-based clinical decision support systems to increase their level of explainability."
+    },
+    {
+        "paperId": "dc3d01368bf4a77f61ac1b4e040e431a5c0977e0",
+        "externalIds": {
+            "PubMedCentral": "10837676",
+            "DOI": "10.14744/AnatolJCardiol.2023.3685",
+            "CorpusId": 266753191,
+            "PubMed": "38168009"
+        },
+        "url": "https://www.semanticscholar.org/paper/dc3d01368bf4a77f61ac1b4e040e431a5c0977e0",
+        "title": "Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases",
+        "year": 2024,
+        "citationCount": 46,
+        "openAccessPdf": {
+            "url": "https://doi.org/10.14744/anatoljcardiol.2023.3685",
+            "status": "GOLD",
+            "license": "CCBYNC",
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10837676, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "4535421",
+                "name": "S. Bozyel"
+            },
+            {
+                "authorId": "2258608988",
+                "name": "Evrim Şimşek"
+            },
+            {
+                "authorId": "2282454507",
+                "name": "Duygu Koçyiğit"
+            },
+            {
+                "authorId": "51146226",
+                "name": "A. Güler"
+            },
+            {
+                "authorId": "15392793",
+                "name": "Y. Korkmaz"
+            },
+            {
+                "authorId": "2130326530",
+                "name": "M. Şeker"
+            },
+            {
+                "authorId": "2277721881",
+                "name": "Mehmet Ertürk"
+            },
+            {
+                "authorId": "2277721926",
+                "name": "Nurgül Keser"
+            }
+        ],
+        "abstract": "Despite all the advancements in science, medical knowledge, healthcare, and the healthcare industry, cardiovascular disease (CVD) remains the leading cause of morbidity and mortality worldwide. The main reasons are the inadequacy of preventive health services and delays in diagnosis due to the increasing population, the failure of physicians to apply guide-based treatments, the lack of continuous patient follow-up, and the low compliance of patients with doctors’ recommendations. Artificial intelligence (AI)-based clinical decision support systems (CDSSs) are systems that support complex decision-making processes by using AI techniques such as data analysis, foresight, and optimization. Artificial intelligence-based CDSSs play an important role in patient care by providing more accurate and personalized information to healthcare professionals in risk assessment, diagnosis, treatment optimization, and monitoring and early warning of CVD. These are just some examples, and the use of AI for CVD decision support systems is rapidly evolving. However, for these systems to be fully reliable and effective, they need to be trained with accurate data and carefully evaluated by medical professionals."
+    },
+    {
+        "paperId": "e7e8de3fd7dbc1fa0effa103506429264ce24cab",
+        "externalIds": {
+            "PubMedCentral": "9483292",
+            "DOI": "10.1007/s10072-022-06402-3",
+            "CorpusId": 252334849,
+            "PubMed": "36114980"
+        },
+        "url": "https://www.semanticscholar.org/paper/e7e8de3fd7dbc1fa0effa103506429264ce24cab",
+        "title": "Unmet needs and gaps in the identification of secondary progression in multiple sclerosis: a Southern Italy healthcare professionals’ perspective",
+        "year": 2022,
+        "citationCount": 4,
+        "openAccessPdf": {
+            "url": "https://link.springer.com/content/pdf/10.1007/s10072-022-06402-3.pdf",
+            "status": "HYBRID",
+            "license": "CCBY",
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9483292, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "4671941",
+                "name": "G. Lus"
+            },
+            {
+                "authorId": "2075488876",
+                "name": "M. A. Bassano"
+            },
+            {
+                "authorId": "144455341",
+                "name": "V. Brescia Morra"
+            },
+            {
+                "authorId": "5233292",
+                "name": "S. Bonavita"
+            },
+            {
+                "authorId": "145185060",
+                "name": "A. Gallo"
+            },
+            {
+                "authorId": "46818105",
+                "name": "D. Maimone"
+            },
+            {
+                "authorId": "120362479",
+                "name": "L. Malerba"
+            },
+            {
+                "authorId": "4058191",
+                "name": "G. Maniscalco"
+            },
+            {
+                "authorId": "2970363",
+                "name": "F. Saccà"
+            },
+            {
+                "authorId": "2438037",
+                "name": "G. Salemi"
+            },
+            {
+                "authorId": "143724195",
+                "name": "R. Turrini"
+            },
+            {
+                "authorId": "34902224",
+                "name": "S. Cottone"
+            },
+            {
+                "authorId": "50640626",
+                "name": "E. Sessa"
+            },
+            {
+                "authorId": "6316468",
+                "name": "M. buccafusca"
+            },
+            {
+                "authorId": "2126934720",
+                "name": "Luigi Maria Edoardo Grimaldi"
+            }
+        ],
+        "abstract": "Objective Multiple sclerosis (MS) is a chronic disease with different clinical courses and a tendency to worsening. The relapsing–remitting MS presents acute onset and relapses of neurological symptoms, followed by their remission. This form can convert to secondary progressive MS (SPMS) with irreversible neurological worsening and disability. The identification of signs, symptoms, markers of progression, and strategies to manage MS patients is mandatory to allow early identification of those at higher risk of conversion to SPMS, for prompt intervention to cope with the progression of the disease. Methods A panel of Italian experts from Southern Italy have reviewed the current knowledge on MS and its management and identified the crucial tools for SPMS recognition. Results More effective communication between patients and clinicians should be established, with the support of digital tools. Moreover, the improvement in the clinical use of biomarkers for progression (cellular structures and tissue organization, such as neurofilaments and chitinase 3-like 1, axonal and neurons density) and of instrumental analyses for recognition of whole-brain atrophy, chronic active lesions, spinal cord lesions and atrophy, and the improvement the combination of the Expanded Disability Status Scale and the evaluation of cognitive dysfunction are discussed. Conclusion Given the availability of a pharmacological option, adequate education both for patients, regarding the evolution of the disease and the specific treatment, and for professionals, to allow more effective and sensitive communication and the best use of diagnostic and management tools, could represent a strategy to improve patient management and their quality of life."
+    },
+    {
+        "paperId": "f2c42c77b77854d9d2ecf720e70b058123d66a12",
+        "externalIds": {
+            "PubMedCentral": "8152035",
+            "DOI": "10.3390/ijerph18105147",
+            "CorpusId": 235214367,
+            "PubMed": "34066296"
+        },
+        "url": "https://www.semanticscholar.org/paper/f2c42c77b77854d9d2ecf720e70b058123d66a12",
+        "title": "Using an Activity Tracker in Healthcare: Experiences of Healthcare Professionals and Patients",
+        "year": 2021,
+        "citationCount": 11,
+        "openAccessPdf": {
+            "url": "https://www.mdpi.com/1660-4601/18/10/5147/pdf?version=1621427333",
+            "status": "GOLD",
+            "license": "CCBY",
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8152035, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "29953197",
+                "name": "Darcy Ummels"
+            },
+            {
+                "authorId": "6183646",
+                "name": "Emmylou Beekman"
+            },
+            {
+                "authorId": "31453091",
+                "name": "S. Braun"
+            },
+            {
+                "authorId": "4464613",
+                "name": "A. Beurskens"
+            }
+        ],
+        "abstract": "Despite the increased use of activity trackers, little is known about how they can be used in healthcare settings. This study aimed to support healthcare professionals and patients with embedding an activity tracker in the daily clinical practice of a specialized mental healthcare center and gaining knowledge about the implementation process. An action research design was used to let healthcare professionals and patients learn about how and when they can use an activity tracker. Data collection was performed in the specialized center with audio recordings of conversations during therapy, reflection sessions with the therapists, and semi-structured interviews with the patients. Analyses were performed by directed content analyses. Twenty-eight conversations during therapy, four reflection sessions, and eleven interviews were recorded. Both healthcare professionals and patients were positive about the use of activity trackers and experienced it as an added value. Therapists formulated exclusion criteria for patients, a flowchart on when to use the activity tracker, defined goals, and guidance on how to discuss (the data of) the activity tracker. The action research approach was helpful to allow therapists to learn and reflect with each other and embed the activity trackers into their clinical practice at a specialized mental healthcare center."
+    },
+    {
+        "paperId": "58444ef0794b7aeb9117156a5c97c6abc7c08ca2",
+        "externalIds": {
+            "PubMedCentral": "8378526",
+            "DOI": "10.1007/s43441-021-00333-5",
+            "CorpusId": 237254902,
+            "PubMed": "34417761"
+        },
+        "url": "https://www.semanticscholar.org/paper/58444ef0794b7aeb9117156a5c97c6abc7c08ca2",
+        "title": "The Medical Science Liaison Role in Spain: A Survey About the Opinion of HealthCare Professionals",
+        "year": 2021,
+        "citationCount": 5,
+        "openAccessPdf": {
+            "url": "https://link.springer.com/content/pdf/10.1007/s43441-021-00333-5.pdf",
+            "status": "BRONZE",
+            "license": null,
+            "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8378526, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "2124000518",
+                "name": "Antonio González del Castillo"
+            },
+            {
+                "authorId": "2111061977",
+                "name": "Cristina García"
+            },
+            {
+                "authorId": "1403222909",
+                "name": "Adela Matesanz-Marín"
+            },
+            {
+                "authorId": "2029321949",
+                "name": "M. Gómez-Sánchez"
+            },
+            {
+                "authorId": "2075113477",
+                "name": "Víctor Sastre"
+            }
+        ],
+        "abstract": "There are limited studies addressing the knowledge of healthcare professionals (HCPs) on the Medical Science Liaison (MSL) role. The objective of this study was to determine the percentage of HCPs that know the role, and to describe their opinion about the utility of the MSL activities on their clinical practice. An online survey was completed by 107 HCPs between June 2019 and January 2020 through three Scientific Societies. It consisted of 17 or 25 questions, depending on the answers. Most HCPs (73.8%) knew the MSL role inside the pharmaceutical industry and were able to differentiate the MSL role from others in marketing/sales departments (77.6%). Support for research projects (70.8%) and training courses (68.1%) were the most valuable activities. Participants scored the credibility of data provided by the MSL with a mean of 7.5 (out of 10), and the added value that the MSL provides to their clinical practice with a mean of 6.9. Among HCPs unfamiliar with the role (26.2%), 60% of them are interested in meeting with the local MSL. Our study demonstrates that the MSL role is well-known by HCPs, mostly Key Opinion Leaders, and they agree on the importance of working together in scientific projects on, e.g., disease awareness, medical training, or clinical trials. Given the advance of targeted therapies and the move toward personalized medicine, the MSL role will be in more demand and necessary for HCPs in the years to come."
+    },
+    {
+        "paperId": "cc2ad19bf5420b740d14a66a97420b7a6a5e63ec",
+        "externalIds": {
+            "MAG": "3082359457",
+            "DOI": "10.1093/europace/euaa269",
+            "CorpusId": 221360364,
+            "PubMed": "32853369"
+        },
+        "url": "https://www.semanticscholar.org/paper/cc2ad19bf5420b740d14a66a97420b7a6a5e63ec",
+        "title": "Mobile health applications for managing atrial fibrillation for healthcare professionals and patients: a systematic review.",
+        "year": 2020,
+        "citationCount": 33,
+        "openAccessPdf": {
+            "url": "https://academic.oup.com/europace/article-pdf/22/10/1567/33854234/euaa269.pdf",
+            "status": "BRONZE",
+            "license": null,
+            "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1093/europace/euaa269?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/europace/euaa269, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+            {
+                "authorId": "3293987",
+                "name": "D. Lane"
+            },
+            {
+                "authorId": "4025315",
+                "name": "Naoimh E. McMahon"
+            },
+            {
+                "authorId": "46856404",
+                "name": "Josephine M. E. Gibson"
+            },
+            {
+                "authorId": "37544881",
+                "name": "Jo C Weldon"
+            },
+            {
+                "authorId": "50144764",
+                "name": "M. Farkowski"
+            },
+            {
+                "authorId": "52203943",
+                "name": "R. Lenarczyk"
+            },
+            {
+                "authorId": "2926984",
+                "name": "C. Watkins"
+            },
+            {
+                "authorId": "3622211",
+                "name": "P. Dilaveris"
+            },
+            {
+                "authorId": "2349020",
+                "name": "E. Caiani"
+            },
+            {
+                "authorId": "6611599",
+                "name": "T. Potpara"
+            }
+        ],
+        "abstract": "AIMS\nA plethora of mobile health applications (m-health apps) to support healthcare are available for both patients and healthcare professionals (HCPs) but content and quality vary considerably and few have undergone formal assessment. The aim is to systematically review the literature on m-health apps for managing atrial fibrillation (AF) that examine the impact on knowledge of AF, patient and HCP behaviour, patients' quality-of-life, and user engagement.\n\n\nMETHODS AND RESULTS\nMEDLINE, EMBASE, CINAHL, and PsychInfo were searched from 1 January 2005 to 5 September 2019, with hand-searching of clinical trial registers and grey literature. Studies were eligible for inclusion if they reported changes in any of the following: (i) knowledge of AF; (ii) provider behaviour (e.g. guideline adherence); (iii) patient behaviour (e.g. medication adherence); (iv) patient quality-of-life; and (v) user engagement. Two reviewers independently assessed articles for eligibility. A narrative review was undertaken as included studies varied widely in their design, interventions, comparators, and outcomes. Seven studies were included; six m-health apps aimed at patients and one at HCPs. Mobile health apps ranged widely in design, features, and method of delivery. Four studies reported patient knowledge of AF; three demonstrated significant knowledge improvement post-intervention or compared to usual care. One study reported greater HCP adherence to oral anticoagulation guidelines after m-health app implementation. Two studies reported on patient medication adherence and quality-of-life; both showed improved quality-of-life post-intervention but only one observed increased adherence. Regarding user engagement, five studies reported patient perspectives on usability, three on acceptability, and one on feasibility; overall all m-health apps were rated positively.\n\n\nCONCLUSION\nMobile health apps demonstrate improvements in patient knowledge, behaviour, and quality of life. Studies formally evaluating the impact of m-health on HCP behaviour are scarce and larger-scale studies with representative patient cohorts, appropriate comparators, and longer-term assessment of the impact of m-health apps are warranted."
+    }
+]
