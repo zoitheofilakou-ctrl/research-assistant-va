@@ -49,7 +49,8 @@ Abstract:
 """
 
 # load json
-with open("hybrede_metadata_v2.json", "r", encoding="utf-8") as f:
+with open("../data/raw/hybrede_metadata_v2.json", "r", encoding="utf-8") as f:
+
     papers = json.load(f)
 
 
@@ -139,10 +140,9 @@ def parse_llm_response(response_text):
 #create client
 client = OpenAI()
 
+print(f"Total papers loaded: {len(papers)}")
 
 # TEST 
-
-
 for idx, paper in enumerate(papers, start=1):
     title, abstract = extract_screening_text(paper)
 
@@ -159,7 +159,8 @@ for idx, paper in enumerate(papers, start=1):
             "justification": justification
         })
 
-with open("filtered_papers.json", "w", encoding="utf-8") as f:
+with open("../data/processed/filtered_papers.json", "w", encoding="utf-8") as f:
+
     json.dump(included_papers, f, ensure_ascii=False, indent=4)
 
 print("Saved filtered papers to 'filtered_papers.json'")

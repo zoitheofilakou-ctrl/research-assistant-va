@@ -9,7 +9,7 @@ import json
 API_KEY = "enNDvnOC1o2JsroJ9Xi2z7TiDYINheFv8uFKDAGe"
 BASE_URL = "https://api.semanticscholar.org/graph/v1"
 
-def fetch_rehabilitation_papers(search_query, result_limit=20):
+def fetch_rehabilitation_papers(search_query, result_limit=50):
     """
     Retrieves research paper metadata based on specific keywords.
     Filters for recent publications (2020-2024) and extracts key fields for RAG processing.
@@ -55,11 +55,11 @@ if __name__ == "__main__":
     target_keyword = "clinical knowledge support healthcare professionals"
     
     # Execute the fetch process
-    collected_papers = fetch_rehabilitation_papers(target_keyword, result_limit=20)
+    collected_papers = fetch_rehabilitation_papers(target_keyword, result_limit=50)
 
     # Export the Metadata to a JSON file for the LLM Screening Group
     if collected_papers:
-        output_filename = 'hybrede_metadata_v2.json'
+        output_filename = r"C:\Users\zoeth\OneDrive - Turun ammattikorkeakoulu\ICT\4th semester\Capstone\gitlab\data\raw\hybrede_metadata_v2.json"
         with open(output_filename, 'w', encoding='utf-8') as json_file:
             json.dump(collected_papers, json_file, ensure_ascii=False, indent=4)
         
