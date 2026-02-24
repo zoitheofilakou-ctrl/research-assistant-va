@@ -1,0 +1,433 @@
+Scott Duncan et al. BMC Health Services Research (2023) 23:404 BMC Health Services Research
+https://doi.org/10.1186/s12913-023-09386-8
+RESEARCH Open Access
+Empowered patients and informal care-givers
+as partners?—a survey study of healthcare
+professionals’ perceptions
+Therese Scott Duncan1* , Sara Riggare2 , Ami Bylund1,3 , Maria Hägglund1,2 , Terese Stenfors1 , Lena Sharp4,5
+and Sabine Koch1
+Abstract
+Background More knowledge is needed regarding the perceptions of healthcare professionals when encountering
+empowered patients and informal caregivers in clinical settings. This study aimed to investigate healthcare
+professionals’ attitudes towards and experiences of working with empowered patients and informal caregivers, and
+perception of workplace support in these situations.
+Methods A multi-centre web survey was conducted using a non-probability sampling of both primary and
+specialized healthcare professionals across Sweden. A total of 279 healthcare professionals completed the survey.
+Data was analysed using descriptive statistics and Thematic analysis.
+Results Most respondents perceived empowered patients and informal caregivers as positive and had to some
+extent experience of learning new knowledge and skills from them. However, few respondents stated that these
+experiences were regularly followed-up at their workplace. Potentially negative consequences such as increased
+inequality and additional workload were, however, mentioned. Patients’ engagement in the development of
+clinical workplaces was seen as positive by the respondents, but few had own experience of such engagement and
+considered it difficult to be achieved .
+Conclusion Overall positive attitudes of healthcare professionals are a fundamental prerequisite to the transition of
+the healthcare system recognizing empowered patients and informal caregivers as partners.
+Keywords Patient empowerment, Patient-centered care, Primary Health Care, Specialized Healthcare, Secondary
+care, Healthcare professionals’ perceptions, Sweden
+*Correspondence:
+Therese Scott Duncan
+therese.scott.duncan@ki.se
+1Karolinska Institutet, LIME, Stockholm S-171 77, Sweden
+2Department of Women’s and Children’s Health, Uppsala University,
+Uppsala, Sweden
+3Sophiahemmet University, Stockholm, Sweden
+4Regional Cancer Centre Stockholm – Gotland, Stockholm Region,
+Sweden
+5Department of Nursing, Umeå University, Umeå, Sweden
+© The Author(s) 2023. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use,
+sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and
+the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The
+Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available
+in this article, unless otherwise stated in a credit line to the data.
+Scott Duncan et al. BMC Health Services Research (2023) 23:404 Page 2 of 10
+Introduction
+the knowledge seeker, the academic, the patient researcher,
+The healthcare system has a focus on patient empower- the tracker, the coping-expert, and the exposed and the
+ment today with the goal to empower patients to become influencing behaviors as the innovator, the entrepreneur,
+active participants in their care [1]. This requires not only the communicator, the mentor, the healthcare coordina-
+an understanding of patients’ experiences from disease tor, the healthcare partner, and the activist [11]. These
+and illness, but also expectations of healthcare profes- empowering behaviors have evolved in parallel to the
+sionals providing patient involvement and organizational digital transformation in society [7] and require patients
+support for these efforts [2]. Empowered patients are and informal caregivers to be involved and receive feed-
+described through several concepts in the literature, back. Due to the development of digital solutions for self-
+often as active, engaged, empowered, and knowledgeable management, technological information systems, and
+participants, even though there is no consensus of the focus on patient involvement during the 21st century in
+definition in the literature [3]. In the early 2000s the term Sweden [1], patients’ and informal caregivers’ behaviors
+e-patient was initially coined by Ferguson and Frydman have changed. Swedish healthcare is nationally regulated,
+inspired by the digital development within society which tax-funded, and locally administrated. Inhabitants of
+was reflected in many patients’ and informal caregivers’ all social groups are entitled to a strong safety net since
+behaviors [4]. E-patients were originally described as everyone have the same benefits and a maximum out-of-
+patients or informal caregivers (such as a family member pocket cost [12, 13]. There is a high use of the Internet
+or other persons with a close relationship to the patient) in the Swedish population (94% on a daily basis in 2022)
+who used the Internet to find guidance regarding their [14], and, in line with other Scandinavian countries, long-
+own, or someone else’s, health challenge. E-patients use term experiences of end user involvement in digital tech-
+their own health data to learn from and engage in inno- nology [15]. This might increase a movement towards
+vations of digital tools to meet health-related needs. They more empowered patients and informal caregivers in
+find ways to actively make their current situation more Sweden.
+sustainable, rather than passively waiting for potential However, studies researching healthcare profession-
+future solutions or cures [5–7]. A concept in close rela- als’ knowledge and perception of these patient behaviors
+tion to e-patients, is patient lead user (“Spetspatienter” in are scarce. Some studies describe healthcare profession-
+Swedish) defined by Riggare [8] as: als’ concerns about patients’ online information seeking
+which might lead to stressful encounters with unrealistic
+“Patients or family members who take a larger
+expectations from patients [16, 17], as well as the con-
+responsibility for their own health and well-being.
+cern of patients or informal caregivers finding harm-
+They meet their health-related challenges in a con-
+ful information [17]. Other studies show that healthcare
+structive and knowledge-based way, while taking
+professionals believe ideas and questions raised from
+their physical and mental abilities as well as capac-
+patients’ online information searches could improve
+ity into account. Patient lead users make use of their
+diagnostic decision making [18] and the patient-profes-
+own experiences to improve healthcare, on all levels
+sional relationship [19]. There seem to be opportunities
+of the system, for the sake of both themselves and
+for healthcare professionals to ensure quality-controlled
+other patients. Often you do not become a patient
+information access of their patients, for example by pro-
+lead user by choice, it is something that you do to be
+viding recommendations of websites, referrals to different
+able to manage and navigate the complex health-
+peer-communities (e.g. patient associations), explaining
+care system” [8].
+or discussing research results with patients, or including
+patients’ own self-generated data into medical decision
+The concept of patient lead user originates from Von making [20]. Still, research indicate a continued concern
+Hippel’s lead users, describing lay persons having a great from healthcare professionals regarding patients and
+need within a specific context, without any available solu- informal caregivers searching medical information online
+tions at the market. Lead users will then innovate solu- [17, 20].
+tions for that need, and the general market will follow More knowledge is needed regarding the experiences
+[9, 10]. These concepts describe patients’ and informal and attitudes of healthcare professionals when encoun-
+caregivers’ active engagement, however their self-man- tering empowered patients and informal caregivers in
+agement tasks and healthcare system involvement are clinical settings, and to what extent clinical workplaces
+further described in a recent study of empowering behav- offer strategies and support for this. Could empowered
+iors of patients and informal caregivers. Here exploratory patients and informal caregivers contribute to improving
+and influencing activities that patients and informal care- the quality of health care? Therefore, the aim of this study
+givers perform are characterized [11]. The exploratory was to investigate healthcare professionals’ (1) attitudes
+empowering behaviors are labelled as the self-care expert, towards and (2) experiences of working with empowered
+Scott Duncan et al. BMC Health Services Research (2023) 23:404 Page 3 of 10
+patients and informal caregivers, and (3) perception of Data analysis
+workplace support with regards to collaborating with A descriptive quantitative approach was used to analyse
+empowered patient and informal caregivers. demographic characteristics and survey responses from
+a frequency perspective [21]. Similar responses were
+Method
+dichotomized according to being positive (“agree” and
+Study and survey design “strongly agree”) or being negative (“somewhat disagree”
+This cross-sectional study had a descriptive design [21] and “strongly disagree”). The analysis was performed
+with a multi-centre web survey conducted in Swedish. using Microsoft Excel © [23]. Survey responses were
+Using descriptions of empowering behaviors from a pre- summarised into three main topics based on the nine
+vious study as a guide [11], a study specific questionnaire sections in the survey. The nine sections are displayed in
+was developed by the research team. The survey ques- an additional file [see Additional file 1]. A brief Thematic
+tions are presented in an additional file [see Additional analysis was performed of the qualitative data from the
+file 1]. Before distributing the web survey, six cognitive open-ended responses, to see if the narrative changed.
+interviews were performed to validate the questions. An inductive coding was performed when grouping
+The web survey was pilot tested among 30 healthcare codes generated from the data into categories. From this
+professionals (being part of the respondents) before the a deductive approach was performed using the three
+final distribution. The final web-survey consisted of a main topics to locate the categories [24].
+demographic section with five closed multiple-choice
+Results
+options, nine sections containing a total of 42 statements
+(5-point Likert-scale from strongly disagree to strongly Demographics
+agree) and nine free text options, as well as an additional In total, 279 healthcare professionals completed the sur-
+section with four open-ended response questions. The vey. In the first distribution, 478 surveys were sent out,
+open-ended questions and free text options were used resulting in a response rate of 18% (n = 86). The second
+as follow-ups to the closed multiple-choice options and distribution, through social media, resulted in 193 com-
+non-mandatory. All other questions were mandatory to pleted responses (out of 536 hits on the link to the sur-
+answer. vey), equivalent to a response rate of 36%. Respondents
+from both distributions included healthcare professionals
+Data collection working in different specialist settings, as well as primary
+Non-probability sampling was performed, acknowl- and secondary healthcare (Fig. 1).
+edging the consequence of an exploratory sample not In sample one 26% (n = 22) were physicians compared
+reaching the whole study population [22]. The link to to 13% (n = 25) in sample two. Respondents in sample
+the survey was first distributed to operational manag- one answered the free-text questions to a greater extent
+ers at different specialist healthcare settings managing (90%/n = 77) in comparison to (84%/n = 162) sample two.
+oncology, diabetes, neurology, psychiatry, and rheumatic Further, respondents in sample one reported to be more
+patients. These settings were representing the five patient aware of the concept of patient lead users (“spetspatien-
+driven innovations facilitating co-care within the ter” in Swedish) (49%/n = 42) compared to (23%/n = 44)
+research programme entitled “The patient in the driver in sample two. No other differences between the samples
+seat”, that this study is part of. Managers distributed the were found. The demographic characteristics of both
+link to their employees’ e-mail addresses. Two reminders samples are presented in Table 1. They show a fair dis-
+were sent out. However, this approach resulted in a low tribution across age, gender, workplace, and occupation.
+response rate (18%). As a second distribution, an adver- However, specialist healthcare professionals are some-
+tisement strategically targeting healthcare professionals what over-represented, as well as women, reflecting the
+with interest in health care, speaking Swedish, and age female dominance in Swedish health care.
+over 18 years old, was posted in social media (Facebook) The data from both data collections were summarized
+for two weeks. The advertisement was distributed by under three main topics, based on the nine sections
+Karolinska Institute’s Communications and public rela- from the web survey [see Additional file 1]: (1) Patient
+tions office, and reaching healthcare professionals within knowledge (including the subsections: Knowledgeable
+specialized, primary, and secondary healthcare settings patients and informal caregivers, To learn from patients
+in Sweden. Inclusion criteria for both samples were being and informal caregivers, Patients and informal caregivers
+a healthcare professional, older than 18 years, and Swed- communicating their experiences), (2) Innovative patient
+ish speaking. The web survey was developed, distributed, self-care behaviors (including the subsections: Patients
+and collected through Microsoft Teams, and data were performing self-tracking by own initiative, Needs of
+collected between April 2021 and February 2022. alternative ways to interact with health care, Use of digi-
+tal solutions to manage disease, Patient and informal
+Scott Duncan et al. BMC Health Services Research (2023) 23:404 Page 4 of 10
+Fig. 1 Flow chart for the data collection process
+caregiver innovations), and, (3) Patients navigating the Patient knowledge
+healthcare system (including the subsections: Coordi- The respondents showed a positive attitude towards
+nating healthcare contact between different healthcare knowledgeable patients (96%/n = 268) and informal
+units, Patients’ and informal caregivers’ engagement in caregivers (97%/n = 270) and stated the importance
+the healthcare unit’s development). Results are presented of and their interest in effective knowledge exchange.
+per topic, listing respondents’ attitudes, experiences, The respondents were also positive towards patients
+and perceived workplace support for each. Free-text (85%/n = 237) and informal caregivers (83%/n = 231)
+responses are summarized under each topic, illustrated sharing knowledge and experiences with each other,
+by a quote. since it has the potential to lead to better everyday life
+Scott Duncan et al. BMC Health Services Research (2023) 23:404 Page 5 of 10
+Table 1 Characteristics of respondents from the first and second data collection
+Age n (%) Gender n (%) Workplace (multiple answers) n (%) Occupation n (%)
+1st data collection 1st data collection 1st data collection 1st data collection
+2nd data collection 2nd data collection 2nd data collection 2nd data collection
+18–29 9 (10) Men 19 (22) Primary healthcare 0 (0) Nurse 19 (22)
+21(11) 8 (4) 70 (37) 110 (57)
+30–39 16 (19) Women 63 (73) Specialized healthcare 86 (100) Physician 22 (26)
+56 (29) 185 (96) 109 (56) 25 (13)
+40–49 18 (21) Digital healthcare 0 (0) Other health professions with license 35 (41)
+63 (33) 3 (2) 31 (16)
+50–59 26 (31) Non-licensed health professions 10 (11)
+42 (22) 27 (14)
+60- 15 (17)
+11 (5)
+Prefer not to say 2 (2) 4 (5) Other 0 (0)
+0 (0) 0 (0) 30 (16)
+experiences. However, the free-text responses revealed Overall, the free-text responses showed that respon-
+that individual patient knowledge might also be irrelevant dents had great support from their co-workers regard-
+if patients and informal caregivers lack an understanding ing existing challenges with demanding patients and
+of the overall situation. Further, respondents mentioned informal caregivers, but less support from existing
+the risk of incorrect knowledge being shared, which structures within their workplace and from operational
+might lead to unrealistic expectations and demands from management.
+healthcare professionals. This was described by some
+respondents to make it harder to build a mutual trusting Innovative patient self-care behaviors
+patient-healthcare professional relationship. Most participants reported a positive attitude towards
+patients (85%/n = 237) and informal caregivers
+Intellectually, it is generally positive with knowl-
+(76%/n = 212) creating innovations for their own health
+edgeable patents and informal caregivers, however,
+conditions. Similar results were reported for patients
+emotionally there is one negative aspect. There is a
+(88%/n = 245) and informal caregivers (77%/n = 215)
+concern of getting out of balance in my profession if
+that used digital solutions to manage their own condi-
+they are highly competent and at the same time crit-
+tion. The respondents also showed a positive attitude
+ical… If so, they might not feel confidence in me as a
+towards patients (75%/n = 209) that use alternative ways
+healthcare professional and this will aggravate our
+to interact with health care. Patients who perform self-
+partnership. (Nurse, Specialized healthcare, Data
+tracking on their own initiative were considered posi-
+collection two)
+tive (76%/n = 212) by the participants. A majority of the
+respondents confirmed having given feedback vari-
+Most respondents had experiences of learning from ous times to patients own collected data (65%/n = 181)
+patients (88%/n = 246) and informal caregivers (Fig. 3). More than half of the respondents had experi-
+(69%/n = 193). Respondents also described experiences ences of using digital solutions together with patients
+of discussing existing knowledge with their patients (57%/n = 159) to some degree, however it was less com-
+(88%/n = 246) and the informal caregivers (65%/n = 181). mon together with informal caregivers (33%/n = 92). The
+Such discussions often included the latest standard of respondents also reported some experience from patient
+care, patient symptoms, and the complexity of the con- innovations (59%/n = 165), but less from innovations
+dition. However, few respondents stated having regular performed by informal caregivers (44%/n = 123). How-
+follow-ups regarding what they learned from individual ever, only 34% (n = 95) of the respondents perceived that
+patients and informal caregivers (24%/n = 67) (Fig. 2). In their workplace provided the right conditions for them
+the free-text responses, some respondents described not to manage innovations created by patients or informal
+having the time and support from their workplace to do caregivers. Just over half of the respondents (58%/n = 162)
+so. Half of the respondents stated having experiences of stated to have a workplace that regularly followed up
+encouraging patients (56%/n = 156) and informal care- patients’ needs for alternative ways to interact. Half of the
+givers (47%/n = 131) to share their experiences with their respondents considered their workplace to be encourag-
+peers, and almost the same number of participants con- ing towards patients performing self-tracking to some
+firmed that their workplace supported them to do so degree (52%/n = 145) (Fig. 3). Some concerns were raised
+(patients 51%/n = 142) (informal caregivers 46%/n = 128). related to patients using non-validated methods for
+Scott Duncan et al. BMC Health Services Research (2023) 23:404 Page 6 of 10
+Fig. 2 Attitudes and experiences of knowledgeable patients and informal caregivers (ic) (n = 279)
+self-tracking which was considered being too subjective. Patients and informal caregivers navigating the healthcare
+Even though the healthcare professionals’ attitudes were system
+positive regarding use of digital solutions, they reported Most respondents had positive attitudes towards patients
+that their organizations were not encouraging to the same engaging in the development of health care (81%/n = 226)
+extent (57%/n = 159) (Fig. 3). In the free-text responses, (Fig. 4). It was not considered equally positive when infor-
+some respondents described negative experiences such mal caregivers engaged in the development (66%/n = 184).
+as increased anxiety for patients and informal caregiv- A majority of the respondents showed positive attitudes
+ers using digital solutions, since they were not consid- towards patients (75%/n = 209) and informal caregivers
+ered evidence-based. Some respondents also expressed (78%/n = 218) coordinating their own healthcare contacts
+concerns that digital solutions potentially could lead to between different healthcare units. Some respondents
+less face-to-face interactions, increased inequality, and raised a concern that not everyone can or should coor-
+unnecessary additional work for healthcare profession- dinate their own health care. The free-text responses also
+als. Overall, the respondents reported that the main chal- indicated that the respondents considered themselves
+lenges were lack of time and flexibility when engaging helping patients and informal caregivers coordinating
+with empowered patients and informal caregivers. their healthcare contacts. However, only 58% (n = 162)
+confirmed to be doing so in the closed survey questions
+To ”google” your symptoms and condition might be
+(Fig. 4). Even though it was considered positive with
+very misleading. Since treatments can be individu-
+patients and informal caregivers navigating the health-
+ally adapted, these are often questioned (mainly
+care system in different ways, relatively few respondents
+from informal caregivers) which leads to long dis-
+stated that they had experience of encouraging patients
+cussions that we do not have time for, unfortunately.
+(39%/n = 109) to engage in the development of the clini-
+(Nurse, Specialized healthcare, Data collection two)
+cal workplace. Even fewer respondents reported having
+encouraged informal caregivers to do so (27%/n = 75).
+Respondents’ experiences were often exclusively con-
+nected to engagement with patients, but less with infor-
+mal caregivers (as this group was not considered always
+representing the patients’ needs, and as a group consid-
+ered more difficult to satisfy). However, in the free-text
+Scott Duncan et al. BMC Health Services Research (2023) 23:404 Page 7 of 10
+Fig. 3 Attitudes and experiences of innovative patient self-care behaviors (n = 279)
+responses some of the respondents reported trying to provide the optimal conditions to involve patients and
+involve informal caregivers in the patients’ care. Some informal caregivers as well as support the respondents
+respondents saw possibilities for patients (45%/n = 126) when difficult situations occurred. The questionnaire
+and informal caregivers (33%/n = 92) to engage in the developed for this study was based on the self-empower-
+development of the clinical workplace, because of exist- ing behaviors found by Scott Duncan et al. [11]. Meeting
+ing inadequacies in the healthcare system. These inad- the influencing self-empowering behaviors [11] showed
+equacies could be lack of organizational guidelines, that our respondents had positive attitudes towards
+routines, resources, and forums for engagement. patients (85%) and informal caregivers (83%) sharing
+their knowledge with other peers as mentors or commu-
+It is difficult to encourage this when there is no exist-
+nicators. The respondents had encouraged this to some
+ing plan for it within our organization. (Physician,
+degree, and it existed some organizational support. It was
+Specialized healthcare, Data collection two)
+as well positive attitudes regarding patients (85%) inno-
+vating for their needs, as well as for informal caregivers
+(76%). The respondents were to some degree involved
+in patient and informal caregiver innovations. However,
+Discussion
+the support from their organization regarding managing
+Overall, the healthcare professionals participating in this these innovations was rather low (34%). Being engaged
+survey revealed a positive attitude towards empowered in healthcare development as activist or healthcare part-
+patients and informal caregivers, despite lack of experi- ner was considered positive if being a patient (81%) and
+ences of working together with them. Only a small pro- somewhat positive being an informal caregiver (66%).
+portion of respondents considered their organizations to However, workplace support was rather low for involving
+Scott Duncan et al. BMC Health Services Research (2023) 23:404 Page 8 of 10
+Fig. 4 Attitudes and experiences of patients navigating the healthcare system (n = 279)
+patients (45%) and informal caregivers (33%) in health- professionals as informal caregivers [30–32] as a confir-
+care development. Even though there are overall positive mation of these barriers.
+attitudes from healthcare professionals, it was reported A weakness of our study is the low response rate. Still,
+in Scott Duncan et al. [11] that patients and informal the sample included a total of 279 participants in an
+caregivers considered having low support for their efforts online survey despite a demanding time in society and
+and wished to do more than was expected from them by health care because of the COVID-19 pandemic. Web
+healthcare professionals [11]. The respondents also con- surveys also tend to generate lower average (44,1%) in
+sidered it to be positive when patients (75%) and infor- response rate than paper and telephone surveys [33]. Not
+mal caregivers (78%) coordinated their own health and using a validated survey could be a weakness, however,
+care, whereas patients and informal caregivers consid- both cognitive interviews and pilots were performed to
+ered coordinating their own care as a burden [11]. The ensure the relevance of the questions. A non-probability
+respondents did as well have less experience of helping sampling was used, which might have caused a selection
+out coordinating the care (58%), even though patients bias and a skewed sample [23], since we do not know if
+and informal caregivers have reported a need for better the respondents were more positive towards empow-
+support [11]. ered patients and informal caregivers in general. Given
+The participants’ positive attitudes are contradictory to the healthcare professionals’ positive attitudes, future
+other studies [25, 26], where rather negative attitudes are research needs to investigate how healthcare systems
+displayed from healthcare professionals regarding patient can better meet the willingness to involve empowered
+involvement. Less experiences of working together with patients and informal caregivers to a larger extent.
+empowered patients and informal caregivers among
+Conclusion
+our respondents could be the result of different barri-
+ers for patient involvement. One barrier reported in the The healthcare professionals who responded to this sur-
+literature is lack of communication and confidence of vey lacked experiences of working with empowered
+physicians [27, 28]. Other barriers reported are the pater- patients and informal caregivers, and workplace sup-
+nalistic structure within the healthcare organization and port for involving patients and informal caregivers. It
+lack of time and encouragement [28, 29]. It seemed to was considered difficult to engage empowered patients
+be even more difficult to involve informal caregivers for and informal caregivers in the way the respondents pre-
+our respondents. The literature expresses lack of involve- ferred, and could lead to less active patient participation.
+ment, support, and being acknowledged by healthcare The overall positive attitudes of healthcare professionals
+Scott Duncan et al. BMC Health Services Research (2023) 23:404 Page 9 of 10
+4. Ferguson T, Frydman G. The first generation of e-patients. BMJ.
+suggest however possible implications for health care and 2004;328(7449):1148–9. PMID:15142894.
+policymakers to provide better structures for involving 5. deBronkart D. From patient centered to people powered: autonomy on the
+rise. BMJ. 2015;350:h148.
+patients and informal caregivers. These positive attitudes
+6. Risling T, Martinez J, Young J, Thorp-Froslie N. Evaluating patient empower-
+are a fundamental prerequisite towards a transition of the ment in Association with eHealth Technology: scoping review. J Med Internet
+healthcare system into recognizing empowered patients Res. 2017;19(9):e329.
+7. Scott Duncan T, Riggare S, Koch S, Sharp L, Hägglund M. From information
+and informal caregivers as partners.
+seekers to innovators: qualitative analysis describing experiences of the
+second generation of e-patients. J Med Internet Res. 2019;21(8):e13022.
+Supplementary Information PMID:31418421.
+The online version contains supplementary material available at https://doi. 8. Riggare S. Spetspatienterna. A blog about lead patients. 2019. https://www.
+org/10.1186/s12913-023-09386-8. spetspatienterna.se/in-english/. Accessed 12 July 2022.
+9. von Hippel E. Lead users: a source of Novel Product Concepts. Manage Sci.
+Supplementary Material 1 1986;32(7):791–805.
+10. von Hippel C. A next generation assets-based public health interven-
+tion development model: the public as innovators. Front Public Health.
+Acknowledgements 2018;6:248.
+The authors wish to thank the research project “The patient in the driver seat” 11. Duncan Scott T, Engström J, Riggare S, Hägglund M, Koch S. Meeting
+for contributing with contacts for data collection, as well as consulting during the Burden of Self-Management: qualitative study investigating the
+the planning and conducting of this study. empowering behaviors of patients and Informal Caregivers. J Particip Med.
+2022;14(1):e39174.
+Author Contribution 12. Glenngård AH. The Swedish Health Care System. The Commonwealth Fund.
+All seven authors have contributed to the study design, reviewed, and 2016. URL: https://international.commonwealthfund.org/countries/sweden/
+endorsed the final manuscript. The first author collected the data, and T.SD, [accessed 2023-03-27]
+S.R, and A.B analyzed the data. T.SD and S.K wrote the manuscript. 13. Glenngård A, Mossialos E, Djordjevic A, Osborn R, Tikkanen R, Wharton GA.
+The Swedish Health Care System, International health care systems profiles
+Funding (s. 147–154). 2017. (International profiles of health care systems). URL:
+Open access funding provided by Karolinska Institute. www.international.commonwealthfund.org/countries/sweden/ [accessed
+2023-03-27].
+Data Availability 14. Internetstiftelsen. The Swedes and the Internet 2022. URL: www.svens-
+According to the EU General Data Protection Act personal data is restricted karnaochinternet.se/rapporter/svenskarna-och-internet-2022/ [accessed
+and anonymized. Data in Swedish is available by the corresponding author. 2023-03-27].
+15. Bødker S, Ehn P, Sjögren D, Sundblad Y. Co-operative Design – perspectives
+on 20 years with ’the Scandinavian IT Design Model’. Centre for User Oriented
+Declarations IT Design (CID). 2000. CID-104. ISSN 1403-073X. URL: http://cid.nada.kth.se/
+pdf/cid_104.pdf [accessed 2023-03-27].
+Ethical approval and consent to participate 16. Roper L, Jorm C. Please leave your phone outside: policymakers and medical
+An ethical approval has been applied for, however, according to Swedish app providers are encouraging patient participation, but doctors in the
+Ethical Review Authority (that we have in Sweden now days, before it was a consult room are not. BMJ Innov. 2017;0:1–6.
+Regional Ethical Review Board) has ruled that the legislation regarding ethical 17. Boivin J, Bunting L, Koert E, Chin Leng U, Verhaak C. Perceived challenges of
+review is not applicable for this study, according to decision 2020–05805. We working in a fertility clinic: a qualitative analysis of work stressors and difficul-
+do not have an institutional review board, it is a review authority in Sweden. ties working with patients. Hum Reprod. 2017;32(2):403–8.
+Written information about the aim of the study, description of the data 18. Van Riel N, Auwerx K, Debbaut P, Van Hees S, Schoenmakers B. The effect
+management, and the possibility to opt-out at any time were provided to the of Dr Google on doctor-patient encounters in primary care: a quantitative,
+participants before starting the survey. All participants gave informed consent observational, cross-sectional study. BJGP Open. 2017;1(2):1–10.
+to participate in the survey, and all methods were conducted according to 19. Tan Swee-Lin S, Goonawardene N. Internet Health Information seeking and
+relevant guidelines and regulations in the Declaration of Helsinki as well as the the patient-physician relationship: a systematic review. J Med Internet Res.
+European General Data Protection Regulation (GDPR). 2017;19(1):e9.
+20. McMullan M. Patient using the internet to obtain health information: how
+Consent for publication this affects the patient-health professional relationship. Patient Educ Couns.
+Not applicable. 2005;63(206):24–8.
+21. Campbell MJ, Machin D, Walters SJ. Medical statistics: a textbook for the
+Competing interest health science. 4th ed. West Sussex: John Wiley & Sons Ldt; 2007.
+None to declare. 22. Denscombe M. The Good Research Guide: for small-scale social research
+projects. 4 ed. th ed. Glasgow: Bell and Bain Ltd; 2010.
+Received: 22 December 2022 / Accepted: 11 April 2023 23. Graiano AM, Raulin ML. Research Methods – A process of inquiry. 6th ed. USA:
+Pearson Education Inc; 2007.
+24. Singer E, Couper MP. Some Methodological Use of Responses to Open Ques-
+tions and Other Verbatim Comments in Quantitative Surveys.Methods, data,
+analyses. 2017;11(2).
+25. Song W, Hao Y, Cui Y, Zhao X, Liu W, Tao S, et al. Attitudes of medical profes-
+sionals towards patient-centeredness: a cross-sectional study in H City, China.
+References
+BMJ Open. 2022;12:e045542.
+1. Eriksson N, Söderström E, Åhlfeldt R-M. Patient empowerment and its con-
+26. Kemal Alimoglu M, Alparslan D, Daloglu M, Mamakli S, Ozgonul L. Does
+nection to Trust. Health Inform Manage Res. 2022. https://doi.org/10.15626/
+clinical training period support patient-centeredness perceptions of medical
+ishimr.2020.06
+students? Med Educ Online. 2019;24(1):1603525.
+2. Bergerum C, Thor J, Josefsson K, Wolmesjö M. How might patient involve-
+27. Visser M, Deliens L, Houttekier D. Physician-related barriers to communication
+ment in healthcare quality improvement efforts work – A realist literature
+and patient- and family-centred decision-making towards the end of life in
+review. Health Expect. 2019;22(5):952–64.
+intensive care: a systematic review. Crit Care. 2014;18(6):604.
+3. Barr PJ, Scholl I, Bravo P, Faber MJ, Elwyn G, McAllister M. Assessment of
+28. Jiang N, Sun M-M, Zhou Y-Y, Feng X-X. Significance of patient participation in
+patient empowerment-a systematic review of measures.PloS one. 2015; 10(5).
+nursing care. Altern Ther Health Med. 2021;27(5):115–9.
+Scott Duncan et al. BMC Health Services Research (2023) 23:404 Page 10 of 10
+29. Busch IM, Saxena A, Wu A. Putting the patient in Patient Safety Investigations: caregivers’ experiences of problems and unmet needs. Support Care Cancer.
+barriers and strategies for involvement. J Patient Saf. 2021;17(5):358–62. 2015;23(6):1719–33.
+30. Gusdal AK, Josefsson K, Thors Adolfsson E, Martin L. Informal Caregivers’ Expe- 33. Wu M-J, Zhao K, Fils-Aime F. Response rates of online surveys in published
+riences and needs when caring for a relative with Hearth failure: an interview research: A meta-analysis.Computer in Human Behavior Reports. 2022;7
+study. J Cardiovasc Nurs. 2016;31(4):e1–8.
+31. Grant SJ, Graven JL. Problems experienced by informal caregivers of individu-
+als with heart failure: an integrative review. Int J Nurs Stud. 2018;80:41–66. Publisher’s Note
+32. Lund L, Ross L, Aagaard Petersen M, Groenvold M. The interaction between Springer Nature remains neutral with regard to jurisdictional claims in
+informal cancer caregivers and health care professionals: a survey of published maps and institutional affiliations.

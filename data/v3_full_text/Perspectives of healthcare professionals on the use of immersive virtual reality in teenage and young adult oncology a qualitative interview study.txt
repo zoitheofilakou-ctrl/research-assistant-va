@@ -1,0 +1,1016 @@
+Deighan et al. BMC Digital Health (2024) 2:22 BMC Digital Health
+https://doi.org/10.1186/s44247-024-00071-2
+RESEARCH Open Access
+Perspectives of healthcare professionals
+on the use of immersive virtual reality
+in teenage and young adult oncology:
+a qualitative interview study
+Mairi Therese Deighan1*, Daniel Simpson1, Amberly Brigden1 and Kirsten Cater2
+Abstract
+Background Applications of Virtual Reality (VR) in healthcare continue to grow at a rapid pace, yet the challenges
+and opportunities associated with VR from the perspective of clinicians and healthcare staff remain underexplored,
+particularly in the context of Teenage and Young Adult (TYA) oncology. This study aims to bridge this knowledge gap
+by interviewing clinicians and staff regarding the use of VR in TYA cancer care.
+Method Fourteen semi-structured qualitative interviews were conducted with a diverse range of healthcare pro-
+fessionals working in TYA oncology within the United Kingdom including oncologists, hematologists, clinical nurse
+specialists, clinical psychologists, radiographers, play specialists, clinical social workers and youth support coordina-
+tors. Data were analysed thematically with three themes and ten sub-themes developed.
+Results The findings reveal that TYA healthcare professionals are optimistic and enthusiastic about the potential
+of using VR to enhance cancer care for teenagers and young adults. However, they also expressed notable concerns
+related to the practical implementation of VR in clinical settings. These concerns included infection and safety risks,
+privacy and security concerns, cost implications, storage requirements and staff burden. Clinicians and staff proposed
+valuable applications for VR in TYA oncology specifically in patient distraction, physiotherapy, procedure preparation,
+and the delivery of psychotherapy, including acceptance and commitment therapy.
+Conclusions This research has demonstrated that despite an enthusiasm to adopt VR in TYA oncology there are still
+many challenges, both practical and ethical, that must be addressed to enable the successful implementation of VR
+in hospitals within the UK. Further research into applications of VR for TYA oncology is warranted, particularly in areas
+of psychology, physiotherapy, and procedure preparation.
+Keywords TYA oncology, Virtual reality, Medical virtual reality, Qualitative, Digital health
+Introduction
+*Correspondence:
+Mairi Therese Deighan Virtual Reality (VR) has become increasingly popular
+mairi.deighan@bristol.ac.uk around the world, largely due to the increased acces-
+1 Digital Health, School of Engineering, Mathematics and Technology,
+sibility and affordability of VR headsets [1]. Immersive
+University of Bristol, 1 Cathedral Square, Bristol, BS1 5DD Bristol, England
+2 Computer Science, University of Bristol, Bristol, England VR allows users to interact within simulated 3D virtual
+environments, typically via a head-mounted display.
+© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/.
+Deighan et al. BMC Digital Health (2024) 2:22 Page 2 of 15
+Users can experience a sense of physical presence when [16], nursing education [17] and in care homes [18].
+immersed in VR, this phenomenon has been exploited These studies revealed that while healthcare profession-
+in healthcare [2]. Over the last decade, the use of VR in als are enthusiastic about adopting VR technology, they
+healthcare has grown, with many potential applications have many concerns regarding the feasibility and safety
+emerging from academia, clinical settings and indus- of using VR technology in care settings as well as con-
+try. Applications of VR in healthcare have demonstrated cerns about the effectiveness of using VR to deliver treat-
+considerable success in rehabilitation, psychotherapy, ment (e.g., delivery of psychotherapy). Qualitative studies
+surgical training and as a distraction mechanism [3–7]. involving healthcare professionals in VR research remain
+Recently, VR has been implemented across different scarce and there is currently a gap in the literature,
+phases of the oncology pathway [8, 9]. Most notably in namely the lack of comprehensive insight into the spe-
+the distraction of patients during treatment to lower pain cific needs and requirements of healthcare professionals
+and anxiety [5, 10]. Other applications include the use of regarding the use of VR in TYA oncology. This study was
+VR to decrease hospital anxiety, improve cancer-related conducted to address this gap by examining the opinions
+symptoms, alleviate symptoms of psychological distress and perspectives of healthcare professionals working in
+and promote patient autonomy [9, 11]. Despite a grow- TYA oncology. The primary aim of the study was to pro-
+ing literature base, clinical applications of VR in oncology vide insights into the use of VR in TYA oncology through
+remain limited and predominantly focused on the adult qualitative research that can lead to the generation of
+population. There are currently no studies to date explor- novel hypotheses.
+ing the use of VR in Teenage and Young Adult (TYA) This paper reports on an in-depth qualitative inter-
+oncology. view study conducted with clinicians and healthcare staff
+As avid technology users, teenagers and young adults working in TYA oncology in the United Kingdom (UK).
+stand to benefit greatly from the integration of digi- The interviews explored participants perspectives on
+tal technologies into care pathways [12–14]. The TYA VR technology and potential use cases in TYA oncology.
+population exhibit unique developmental characteristics The study also explored the feasibility of introducing VR
+meaning that they differ from the paediatric and adult into TYA oncology, with discussions around the practical
+population both in physical and neurocognitive matura- considerations for successfully deploying VR in clinic. By
+tion [15]. Despite this, studies exploring applications of interviewing a diverse range of healthcare workers span-
+VR in healthcare continue to group the TYA population ning the full range of disciplines in oncology including
+with young children or adults. This limits our knowledge oncologists, haematologists, radiographers, clinical nurse
+and understanding of TYA specific outcomes. In the UK, specialists, play specialists, physiotherapists and social
+there are designated hospital units for TYAs diagnosed workers, this study outlines the barriers for VR adoption
+with cancer. The units are designed specifically to meet and highlights potential areas for future VR research and
+the needs of teenagers and young adults aged 16–24 years development in TYA oncology.
+of age. TYA units differ from adult wards in that there
+Background
+are additional specialised staff members, clinical and
+non-clinical, employed to meet the holistic care needs Applications of VR in oncology
+of young people. These roles include designated TYA Oncology is a complex care pathway involving a wide
+social workers, clinical nurse specialists and Youth Sup- range of treatments and disciplines. VR therefore has
+port Coordinators (YSC). TYA units in the UK present potential across different areas of the pathway. Below,
+as novel environments to explore applications of VR for current uses of VR in oncology have been presented,
+young people with cancer. No studies to date have con- specifically in the areas of physiotherapy, rehabilitation,
+ducted qualitative VR research within TYA units thus treatment, mental health and procedure preparation.
+our understanding of the challenges and opportunities Applications of VR in physiotherapy for oncology
+for VR in this population within this context are limited. patients remain scarce. Uses of VR in other disciplines
+While VR technology continues to accelerate at a rapid of physiotherapy such as neurology and rheumatology
+pace, it is of paramount importance that the design, are steadily increasing, with a recent review of knowl-
+development and deployment of medical VR applica- edge stating the many benefits of VR physiotherapy [19].
+tions take a human-centered and collaborative approach. Reported benefits include improved balance and daily
+This ensures that applications of VR in clinical settings actions in a shorter time than expected, reduced pain
+are driven by a clinical need rather than by technologi- during physiotherapy and improving patient independ-
+cal advances. Qualitative studies exploring the perspec- ence. Of the 152 articles included in the review, only two
+tives of healthcare professionals on the use of VR have were specific to cancer [20, 21], both were small-scale
+been conducted in areas of healthcare such as psychiatry feasibility studies focusing on the adult population. The
+D eighan et al. BMC Digital Health (2024) 2:22 Page 3 of 15
+first study found that using upper-extremity virtual reha- psychological distress, and improve the quality of life
+bilitation therapy for the management of chronic pain in breast cancer survivors [36]. Immersive VR has the
+in cancer patients post-surgery, can indicate improve- potential to widen access to psychological therapies
+ment in cognition, shoulder range, strength, function and reduce the burden on healthcare services by pro-
+and depression [20]. The second study found that using viding automated interventions in a safe and controlled
+VR improved adherence to physical therapy exercises and environment. This could be of particular benefit to
+helped patients with hematologic malignancies receiving young people with cancer, given that studies in this area
+chemotherapy to maintain physical fitness [21]. However, continue to highlight the unmet physical, psychological
+the study included elderly patients with cancer therefore and psychosocial needs of TYAs with cancer [37, 38].
+had a high-dropout rate of 44% due to declining health Research has also suggested that using digital technolo-
+during the study period. This was similar to findings from gies to support and deliver psychological interventions
+a narrative review which found nine uses of VR in can- may improve the engagement of the TYA population in
+cer rehabilitation [22]. Of the nine studies in the review, such therapies [39].
+none focused on TYA population. Given that VR has Finally, VR is used as a tool to prepare people for hos-
+demonstrated increased engagement with physiotherapy pitalization, treatment and procedures. In oncology
+exercises, and in some cases even improved treatment this has included allowing patients to experience virtual
+outcomes when compared to traditional physiotherapy radiotherapy, MRI scans and tours of cancer wards. In
+[23], it appears that the potential advantages of VR in England, four hospital trusts have created 360-degree
+the context of physiotherapy and the rehabilitation of video tours of their hospital wards, waiting rooms and
+cancer patients remains largely unexplored, especially in theatres [40–43]. The Kings College Hospital in London
+younger populations. have a smartphone VR application that allows children
+VR has been explored as a distraction mechanism for to experience an MRI scan remotely before their hospi-
+people undergoing chemotherapy and painful procedures tal visit, with a qualitative study reporting that patients
+[24, 25]. These studies are predominantly conducted in felt more positive about their MRI after using the app
+the adult population [25–27], with a recent systematic [44].
+review reporting only nine studies exploring the use While research into VR in oncology continue to
+of VR as a distraction for children undergoing chemo- increase, there remains limited translational research in
+therapy [28]. The findings across the nine studies dem- this domain, with only a limited number of VR tools for
+onstrated that immersion in virtual environments can oncology reaching clinical practice [44] and none cur-
+effectively reduce cancer-related procedural pain. Partici- rently used in TYA oncology. Increasingly, researchers
+pants ranged from ages 6–18 years old, with no studies have suggested that the lack of translation of VR into
+differentiating between the outcomes of younger children clinical practise is due to the lack of engagement with
+and adolescents, despite research demonstrating that clinicians during the development phase of VR applica-
+children and adolescents experience VR differently [29]. tions [45]. Moreover, studies of VR in oncology, similar to
+Other studies have investigated the use of VR to reduce those reported above, often explore VR within disparate
+procedural pain, such as a mixed-method usability study parts of the cancer pathway, rarely adopting a more com-
+[24]. This study explored the usability of an interactive prehensive approach that looks at the cancer pathway as
+mobile-based VR experience for children (0–18 years) a whole. Understanding the perspectives of a wide range
+with cancer and found high acceptability rates of the VR of TYA healthcare workers, from play specialists and
+experience. Many studies outside the oncology context social workers to clinical nurse specialists and oncolo-
+have demonstrated the success of VR as a distraction gists, could elicit more nuanced use cases for VR in TYA
+tool [27, 30–32], suggesting the potential value of further oncology and provide actionable insight into TYA spe-
+exploration into additional applications of VR as a dis- cific challenges of integrating VR technology across dif-
+traction intervention in teenage cancer care. ferent disciplines of TYA oncology [46–48].
+VR has been applied extensively in the field of men-
+tal health and psychiatry [33, 34]. With significant
+research in this area demonstrating the effective use of Method
+VR to deliver various forms of psychotherapy includ- Study design
+ing Cognitive Behavioural Therapy (CBT) and exposure A qualitative study, involving semi-structured one-to-
+therapy [3, 35]. In oncology, novel VR applications have one interviews with healthcare professionals working in
+been developed to deliver psychological interventions TYA cancer services in the UK was conducted. Ethical
+tailored to cancer patients. For example, VR-Calm, a approval was granted by the University of Bristol Engi-
+VR app used to manage symptoms of cancer, relieve neering Faculty Research Ethics Committee.
+Deighan et al. BMC Digital Health (2024) 2:22 Page 4 of 15
+Participants and recruitment power. The richness of data collected was sufficient to
+Fourteen clinicians and healthcare staff members work- address the research aims and conduct a thorough the-
+ing in TYA oncology in the UK were recruited for semi- matic analysis.
+structured interviews. Clinical and non-clinical staff
+members (e.g., social workers and youth support coor- Data collection
+dinators) working in or with TYA cancer units were Interviews were conducted remotely via Microsoft Teams
+eligible for participation. This included paediatric staff and lasted on average 1 hour (range 30 minutes – 1 hour
+members who work in transitioning children into TYA 35 minutes). The interviews were semi-structured and
+units. The inclusion of all staff members working with focussed on 3 main areas. Semi-structured interviews
+the TYA unit ensures a wide range of views and per- allowed for adequate flexibility in the interviews given
+spectives were gathered, helping to create a pragmatic the diverse range of participants recruited. Data were
+view of the challenges and opportunities for adopting collected using a semi-structured interview guide (Text
+and deploying VR in TYA oncology. The job roles of the file in Additional file 1) jointly developed by the research
+participants are detailed in Table 1. team. Firstly, participants were asked to summarise their
+Participants were identified through professional daily routines and general role in oncology. The aim of
+networks of the researcher and supervisory team. this was to gather contextual information about TYA
+Originally, purposive sampling was planned, aiming oncology pathways, helping to contextualise their per-
+for diversity with regards to gender, ethnicity, disci- spectives and experience of technology in healthcare.
+pline/professional background. However, in practise The second part of the interview focused on their cur-
+this proved challenging given the busy schedules of rent use of technology within their jobs. This provided
+clinicians and staff working in oncology and health- insight into what technologies, if any, are currently
+care worker strikes in the UK. We therefore adopted used in oncology services and how these technologies
+opportunistic and snowball sampling methods whereby were deployed. This part of the interview also explored
+interview participants recruited through profes- the challenges and opportunities of using technology in
+sional networks were asked to reach out to people in oncology and the feasibility of implementing new tech-
+their professional networks who may be interested in nologies. This discussion then led to the final part of
+participating. the interview which focussed on VR. Participants were
+We undertook iterative sampling, analysis and the asked about their opinions on VR technology, specifi-
+sample size was determined using the principles of cally immersive virtual reality headsets, and their views
+information power [49]. Participants all had exten- on using VR in oncology. They were also asked about the
+sive expertise in the field of oncology therefore pro- feasibility of using VR in their jobs and discussed poten-
+vided highly specific and in-depth knowledge in the tial use cases as well as potential challenges to adopting
+interviews, thus generating a high level of information VR in their role.
+Data analysis
+Table 1 Summary of Interview Participants Job Roles
+We applied an inductive thematic analysis to the quali-
+Participant Job Title tative data [50]. The pseudonymised transcripts, created
+directly after the interviews using audio recordings, were
+P1 Therapeutic radiographer
+reviewed independently by the first and second authors
+P2 Consultant paediatric and TYA haematologist
+(MD and DS). The first author has a background in bio-
+and oncologist
+engineering and digital health, the second author is a
+P3 TYA clinical nurse specialist
+medical doctor with experience working in TYA oncol-
+P4 Health Play Specialist
+ogy. Both authors read through each interview transcript
+P5 TYA clinical liaison nurse
+independently to familiarise themselves with the data,
+P6 Bone marrow transplant clinical nurse specialist
+creating notes of initial impressions and suggesting ideas
+P7 Clinical psychologist
+for codes. The authors then met up to discuss and refine
+P8 TYA Social worker
+their codes and create a coding framework. Using NVivo
+P9 Clinical psychologist
+12 software [51], this framework was applied to the rest
+P10 TYA clinical nurse specialist
+of the transcripts and refined with each new transcript.
+P11 Clinical psychologist
+In collaboration over the course of several meetings, the
+P12 Youth Support Coordinator
+authors then created themes around the experiences
+P13 Youth Support Coordinator
+of participants use of technology in their role and their
+P14 Clinical nurse specialist
+perspectives on introducing VR into TYA oncology. This
+D eighan et al. BMC Digital Health (2024) 2:22 Page 5 of 15
+was done by organising and grouping codes together, for Theme 1: technology used in TYA oncology: valuable
+example grouping all codes that pertained to the use of but burdensome
+technology together under one theme. Sub-themes were Participants all had experience using varied forms
+also created within each theme. The first author met of technology in their day-to-day roles. This theme
+regularly with the remaining authors AB and KC to dis- describes the experiences of participants using technol-
+cuss codes and refine themes and sub-themes. AB has ogy within their role. Specifically outlining the value of
+an academic background in health psychology and digi- technology in oncology and the struggles to access and
+tal health and KC has a background in computer science maintain technology in hospitals. The sub-themes within
+and Human Computer Interaction. Once all authors had also describe the attitudes of adopting and maintaining
+agreed on the grouping of codes into themes and sub- new technologies in oncology, which are largely based on
+themes within, the first author read through the tran- their previous experiences with technology.
+scripts again to ensure no data had been overlooked and
+the themes accurately captured the sentiments of the The burden of tech responsibility
+participants. The analysis was then stopped and quotes While some participants only had experience using com-
+from each theme and sub-theme were extracted from the puters to access health records and record notes, others
+transcripts and are presented below. had vast experience using a range of technologies from
+laptops and tablets to movement sensors and VR head-
+Reflexivity sets. For most participants, any type of technology was
+The author conducting the interviews currently conducts considered a valuable and limited resource. While experi-
+research in the medical VR field; we therefore acknowl- ence with technology differed, all participants explained
+edge that this may influence the interpretation and analy- they were solely responsible for the technology they
+sis of the findings. As such, steps were taken to consider used daily. For tablets this meant updating, charging and
+the positions and intentions of each researcher and downloading apps for use with patients. For VR head-
+ensure transparency in the reporting process. Firstly, the sets this meant finding suitable storage, implementing
+two authors conducting the analysis had different aca- cleaning protocols and downloading content. This led to
+demic backgrounds and interests; one was an engineer technology being viewed as a burden, with participants
+with research interests in medical VR while the other was commenting on the lack of technical support available in
+a medical doctor with no experience in VR. The medical the hospitals, attributed mostly to short staffing of hospi-
+doctor independently read the verbatim transcripts after tal IT departments. This left them solely responsible for
+each interview and developed codes and initial thoughts making sure the technology was functioning correctly
+before meeting with the author conducting the interview. which added to their stress and workload.
+This ensured the interpretation was not biased by the All participants who had access to an iPad or tablet
+research interests of the first author and provided a more device, explained that they were responsible for screen-
+comprehensive understanding of the data collected from ing and vetting apps to use with patients. For example, P4
+clinical participants. All four authors work in different discussed finding apps and content online to help prepare
+research areas and have different academic backgrounds children for procedures, scans and surgery. When asked
+bringing diverse perspectives and lenses through which about the process of vetting apps P4 explained:
+the data was interpreted and analysed. The author con-
+“it’s quite often if we find something that we think
+ducting the interviews did not discuss their background
+could be useful we’ll just go for it. And that might be
+or interests in VR with the participants in the interview
+shared amongst other play therapists like if someone
+and encouraged participants to discuss their concerns
+found something that’s particularly good then yeah
+openly. There was no existing relationship between the
+we’ll share it about but mostly just leading ourselves.
+research team and the participants.
+There aren’t many scenarios, I guess, where there’s
+Results someone external coming into introduce tech to us or
+show us other Apps now.” [P4]
+Through thematic analysis, three themes and 10 sub-
+themes were developed. The first theme outlines partici- This same process was described by 5 other participants
+pants past and present experiences of using technology in who were solely responsible for finding suitable apps to
+their job. The second theme highlights the opportunities recommend and use with young people. This was seen
+for VR in TYA oncology including potential use cases for as a barrier to using the technology as they knew they’d
+VR in oncology. The third theme is centred around the have to spend time researching and vetting applications.
+perceived challenges surrounding the successful develop- Negative experiences with technology deployment
+ment and adoption of VR in TYA oncology. led to technological scepticism. Participants described
+Deighan et al. BMC Digital Health (2024) 2:22 Page 6 of 15
+experiences where technologies were introduced into as models. So we’re looking at some funding we’ve got
+their services and later removed. This led to technology to be able to get a couple that we can just give out to
+scepticism amongst clinical participants as they didn’t patients” [P4]
+want to risk introducing technology to patients that may
+This again led to scepticism of using technology as they
+not be permanent. An example of this was in radiother-
+couldn’t be certain of the reliability and longevity of the
+apy where a tablet was introduced to allow radiotherapy
+technology.
+patients to visualise their breathing when learning Deep
+Attitudes towards adopting new technologies: per-
+Inspiration Breath Hold (a technique commonly used
+ceived effectiveness and efficiency.
+during radiation to minimise the dose of radiation reach-
+Participants shared past experiences, both positive and
+ing the heart [52]). P1 describes how the visual aid was
+negative, of adopting a new technology into their job
+“really helpful for patients as they could see when they
+roles. Most participants indicated that the adoption of a
+weren’t correctly performing the technique and adjust
+new technology was likely to be driven by its perceived
+without our help” [P1]. Unfortunately, due to security and
+effectiveness and its potential to save time: “If it works
+privacy concerns, the tablet device was no longer permit-
+and will save time then I’ll learn how to use it” [P14]. This
+ted for use. P1 explained “I don’t know, in the long run,
+was a recurring sentiment across participants, whereby
+what the actual problem for that is and why they’ve not
+the introduction of a technology was measured based
+implemented it again” [P1], indicating that there was no
+on the perceived usefulness and value of the technology
+clear reason for the removal of the technology or for the
+both for their patients and themselves. Most participants
+future introduction of it despite its success with patients.
+were passionate about adopting new technologies in their
+Other participants shared similar experiences, with three
+role but explained that time was their most valuable and
+participants describing a mobile app that was launched
+scarce resource:
+and then “paused with no reason given at all” [P5]. The
+app was intended as a social media platform for young “is this going to save me a job? you know how is this
+people with cancer. Participants shared frustrations gonna is this going to stop me needing to sit in the
+over this and discussed the negative impact of providing room, with this young person? Does this require my
+patients with a support platform that they couldn’t guar- supervision? does this require me to set it up?” [P2]
+antee would always be available. Ensuring new technolo-
+These concerns were raised by many participants, par-
+gies were reliable, safe and permanent was considered
+ticularly the clinical participants who must prioritise
+essential for all participants. The lack of clarity around
+their clinical work and have an increasing patient load.
+the reasons that technologies are paused or removed also
+adds to scepticism and uncertainty surrounding future
+technological implementations.
+Theme 2: VR is well suited to the TYA population
+In some instances, participants viewed using technol-
+and has potential across oncology disciplines
+ogy as a hindrance to their job and therefore were scep-
+All participants were enthusiastic about introducing VR
+tical about future technology adoption. For some, this
+into TYA oncology. They discussed the potential use
+was because they did not see themselves as competent
+cases for VR in psychological therapy, rehabilitation, alle-
+technology users and didn’t think technology would save
+viating loneliness, distracting patients and procedural
+them time as described:
+preparation. This theme highlights participants views
+“I’m not the most sort of technical minded person, on the opportunities for VR in TYA oncology. The sub-
+so it’s not something I naturally gravitate towards. I themes within discuss current and potential use cases
+never sort of think, Oh, I’m gonna get X that could of VR in TYA oncology, the potential impact of VR on
+really save me time. Because yeah, I know, person- patient care and the benefits of VR for staff and clinicians.
+ally, by the time I’ve learnt to use it, or do it, prob-
+ably could have just done what I need to do myself”
+Digital health for a digital generation
+[P6]
+Participants described the TYA population as “tech-
+Some participants explained that if technology became
+savvy” and “fully equipped with technologies” [P12]. Par-
+outdated or stopped working, there would be no replace-
+ticipants therefore stated that they were keen to keep up
+ment unless they could find additional funding:
+with technology advancements and ensure their patients
+“We did have a couple of ipads on [ward name] were benefitting from them. Participants described tech-
+which basically got to the point where they weren’t nologies such as VR had to be the future of TYA oncology
+updating in terms of like software, they were too old care and stated “for young people, especially their genera-
+tion you know technology is their world” [P2], indicating
+D eighan et al. BMC Digital Health (2024) 2:22 Page 7 of 15
+that there is an enthusiasm to adopt novel and advanced to provide an anonymous form of communication may
+technologies to engage young people. offer benefit to some patients. For others, they envi-
+sioned VR providing an immersive platform to talk to
+Potential use cases of VR in oncology friends and family in a more realistic way.
+This sub-theme highlights all potential applications of VR Participants working in clinical psychology were
+in oncology suggested by the participants. aware of VR psychotherapy interventions and research,
+most commonly the use of VR to deliver exposure ther-
+Distraction tool apy. Participants stated they thought VR had potential
+Most participants suggested using VR as a distraction in this area but were cautious about replacing exist-
+tool during extended hospital stays and periods of isola- ing practices of care. Moreover, clinical psychologists
+tion. This was suggested as being particularly useful for stated that they can envision VR being used as a tool
+bone marrow transplant patients who are often isolated to help them deliver exposure therapy but that it would
+in one room for extended periods of time before and after be best incorporated into their current practices and be
+their transplant. Participants also described using VR as a used in a controlled gradual way, as explained below:
+tool to escape:
+“I guess you would do that very gradually. And
+“So I think just as a distraction tool, you know, the staged, you know, kind of working up to using a VR
+equivalent of like a PlayStation effectively, but differ- headset, and then it might be just like, you just put
+ence is like it could be they could be in their room the headset on, and then you just have 10 seconds,
+but not in their room. That can be really, really help- and then you say ok now let’s talk about staying in
+ful. So a bit of an escape” [P11] longer…So, you know, obviously, you would have to
+do that in a very sort of controlled, gradual way.”
+[P7]
+“I think distraction is a huge one. When they’re here
+we get a lot of transplant patients, so they are here
+Moreover, a clinical psychologist suggested a shift in
+from minimum of 3 weeks, and for most of those 3
+research directions for VR in psychotherapy for oncol-
+weeks they can’t come out of their room” [P13]
+ogy patients by highlighting that most research in the
+The use of VR for distracting patients before surgeries field was focused on CBT and exposure therapy. In
+and painful procedures was also suggested as this is usu- their experience however, Acceptance and Commit-
+ally a time of heightened anxiety and stress. Participants ment Therapy (ACT) and Compassion Focused Therapy
+described sometimes struggling for resources to distract (CFT) were more commonly used in TYA oncology: “I
+patients, stating that “I think, most of us would say in our think there is a role for CBT. But probably more of our
+team that we will take kind of anything that’s going to sup- work is using ACT, Overall, I’d say.” [P11].
+port and potentially distract patients when they are strug- The participant therefore discussed the possibility of
+developing, or amending existing apps, to create a value
+gling” [P4].
+based ACT VR application that may be beneficial for
+Psychotherapy and mental health applications the TYA population:
+Using VR to support mental health and deliver psy- “I’m wondering if with the ACT stuff, there might
+chotherapy was suggested by participants. Suggested be already this or not, I talked to people a lot
+use cases for supporting mental health included mind- about rather than focus rather than getting kind
+fulness applications that would allow patients to be of caught up and stuck with difficult stuff, focusing
+immersed in relaxing environments and “connect to more on the values and things that are important
+things outside of hospital” [P11]. Other suggestions for them that come out of focus. So I’m wondering if
+included the use of VR to support social connectedness there’s any kind of values based act apps that have
+for patients who were isolated. Participants described already been developed that could be tweaked for
+that many young people experience isolation and lone- this population? Because it would need to be quite
+liness in oncology wards. Participants therefore sug- sensitive because people aren’t. They’re not deliber-
+gested using VR to allow patients to socialize and ately getting caught in suffering. They’re not delib-
+connect with others virtually. Particularly for patients erately ruminating on things or anything like that.
+who had been isolated for extended periods of time It’s it’s the situation often is that, but that’s what
+who were “unable to kind of have any social interaction” I say to people often. This is the situation causing
+[P6]. Participants emphasized how every patient was the problem, really. So something like that might
+different in terms of how much they wanted to inter- be helpful”. [P11]
+act with other patients and staff but having the option
+Deighan et al. BMC Digital Health (2024) 2:22 Page 8 of 15
+Physiotherapy and rehabilitation Information needs
+One of the participants had experience using VR with Meeting information needs of young people with cancer
+children undergoing physiotherapy. This participant was described as being challenging as all young people
+stated that the “uptake has been good” [P6] but that have very different needs and these needs evolve dur-
+more engaging content that incorporated the full body ing their cancer journey. VR was suggested as a tool for
+would be more useful for older patients (aged 13+). The explaining medical concepts to patients in an engaging
+focus on mainly upper body movements and the VR way. Participants stated that “in terms of meeting infor-
+hardware only allowing for head and hand tracking was mation needs, I could absolutely see VR playing a role”
+viewed as a restriction on the potential benefits for vir- [P2]. This was mainly due to VR being viewed as engag-
+tual physiotherapy. Multiple participants could foresee ing and visual. Visual mediums, such as pictures and
+VR being used in rehabilitation and physiotherapy for leaflets, had shown to be more effective for participants
+oncology patients. Participants also suggested the use when explaining concepts and procedures to patients, VR
+of VR for ‘prehabilitation’, a process used to prepare was therefore viewed as a useful tool for explaining con-
+patients for cancer treatment. This can often be a time cept to young people and saving clinician’s time.
+of heightened anxiety as patients are preparing to start
+treatment, the use of VR could make this process feel Theme 3: VR poses both practical and ethical challenges
+more engaging and manageable under the condition in TYA oncology
+that the pace of the VR program would be controlled While participants were enthusiastic and positive about
+by the user. the use of VR technology in oncology, all participants
+shared concerns about the safe, effective and efficient
+use of VR in their job roles. This theme highlights the
+Procedure preparation perspectives of clinicians and TYA staff members with
+Procedure preparation was suggested by participants regards to the challenges for VR in TYA oncology. The
+who have experience preparing patients for scans, subthemes within consider practical challenges such
+treatment and procedures/surgeries and visiting the as VR storage, maintenance, cost, infection control and
+hospital for the first time. Participants described that safety as well as ethical considerations and the accessibil-
+lack of patient preparation for scans, procedures and ity of technology for both staff and patients. Perspectives
+surgeries can lead to treatment delays and increased on the lack of clinical data to support the use of VR in
+risk of trauma. VR was viewed as a promising tool for pediatric and TYA oncology are also presented.
+“better preparing” [P4] young people for clinical expe-
+riences. Examples included the use of VR for training Practical concerns were considered the main barrier
+patients on breathing techniques (specifically deep to implementing VR in oncology
+inhalation breathe hold) they would have to perform Cost of VR equipment and maintenance
+during radiotherapy and graded exposure to the MRI A prominent concern raised by participants was the cost
+scanning process. of the procurement and maintenance of VR equipment.
+There were varied opinions on the safety of patients Participants described not only being concerned about
+using VR unsupervised for preparation. On one hand, P1 the initial cost of the device but also the cost of maintain-
+described “If they could do any preparation at home, for ing the hardware and buying content:
+example, especially with the younger people who might
+“And actually, a lot of the costs are in the mainte-
+be anxious, that could be quite helpful” [P1], this was
+nance rather than the just buying the initial kit…
+contrasted by P9 who stated “from a safety perspective I
+you only have a small budget, if any, and you have
+would want to be in the room, with them so I could prob-
+to think really carefully about how you best allocate
+ably coach them through that, kind of using together” [P9].
+resources” [P7].
+When probed, participants explained that it depended on
+what they were preparing for. Both participants, and oth- The lack of available funds described was common to all
+ers in the study, agreed that patients experiencing a VR participants who described either relying on charities or
+tour of the hospital and the ward at home would be ben- donations to provide funds for new equipment and tech-
+eficial and reduce anxiety in patients, therefore deemed nology. Often participants had to apply for grants and
+this safe. However, agreed that if the patient had particu- funding themselves to procure resources and technolo-
+lar stress or anxiety around scans or a procedure, then gies for their department. Participants noted a lack of
+the preparation was better managed in the hospital set- collective responsibility for technology, stating that pro-
+ting with trained staff present to support them through curement often relied on one person. A participant with
+the preparation. experience of having a VR headset describes the lack of
+D eighan et al. BMC Digital Health (2024) 2:22 Page 9 of 15
+long-term support for VR headsets in clinic and the com- “But actually the main issues are like the Wi-fi, is it
+plexity of procuring VR hardware: going to connect to it?” [P12]
+“we had a VR in TYA. And I heard that it stopped work-
+Based on their experience of using tablets and game sta-
+ing. And then well we have to get funding for another one,
+tions on the wards, participants were hesitant about
+when is that gonna happen? So then there’s a gap because
+using VR apps that required a strong and reliable inter-
+it’ll fall just to someone with an extremely high pressured
+net connection. Wi-Fi was already viewed as a barrier
+job to try and find a time to find funding for another
+to technology use in general with participants explain-
+VR set... Because there’s no group holding responsibility
+ing the impact this had on patients trying to play online
+around it. And there’s not the safety nets, that of how that
+games:
+how it’s managed long term.” [P11].
+“So our wi-fi is terrible, and generally that is not
+Patient safety strong enough for them to be able to join and play
+Mitigating the risk of infection is critical in oncology with their friends” [P12]
+wards given that many patients have weakened immune
+systems either due to their cancer or their cancer treat- Staff shortages and time
+ment. Participants raised concerns that VR hardware Most participants in this study described staff short-
+could significantly increase the risk of infection spread ages and high staff turnover rates in their departments.
+among patients, particularly if VR headsets were being This, coupled with the recent COVID-19 pandemic, had
+passed around different wards and rooms. One partici- led to many healthcare services being overrun. In some
+pant who is currently trialing VR headsets in pediatric cases, this meant participants had long waiting lists to
+oncology described cleaning protocols had been imple- see patients and for others this meant spending less time
+mented by the nursing team and explained that parents with their patients. For all participants, time was con-
+were occasionally nervous about the introduction of VR sidered their most scarce and valuable resource. One
+headsets in their child’s shielded room: participant explained that “the difficulty is that there’s a
+lot of staff shortages, so like the clinical care takes prior-
+“there is a cleaning policy in place for the headsets
+ity” [P6]. This was a shared sentiment across participants
+and there’s not just one we’ve got three headsets as
+whereby the use of technologies, particularly the use of
+well, maybe parents might be a little bit funny about
+experimental technologies, was considered a luxury that
+that, but we’ve had no issues with that so far.” [P6]
+they could not afford.
+The lack of available time also meant there was less
+Hardware security and maintenance
+time for staff to research technologies that may improve
+The storage of VR headsets was mentioned by nearly all
+care for patients. One participant even explained that
+participants as a challenge given that there is a lack of
+that they had access to VR headsets but due to a lack
+secure storage facilities accessible on the wards. Given
+of time and no provided training the headsets were not
+that procuring VR equipment is a complex and difficult
+used: “I’ve got headset in there, but I’ve never even got out,
+process, participants feared they would be responsible
+because I don’t know how to link it up to stuff” [P12]. This
+for “covering all the security issues of having expensive
+led to most participants stating that they wouldn’t be best
+equipment” [P11]. This led to participants being scepti-
+situated to introduce a new technology into their role or
+cal about VR deployment as “a lot of people don’t neces-
+department.
+sarily want to take on the responsibility” [P6]. The need
+to secure the headsets and ensure they were charged and
+The use of VR raises several ethical considerations
+maintained regularly was also raised by all participants,
+and concerns
+with one explaining “it would need quite careful planning
+Patient safety
+on how it was charged, who looked after it etc. The fact is
+The appropriate “marketing of the VR” [P2] was consid-
+that it would go walkabouts if not, and it would need a
+ered essential for the safe and ethical use of the technol-
+secure place to live” [P3].
+ogy. Clinical psychologists in the study discussed their
+previous experiences using mental health phone apps
+Wi‑fi access
+and how this impacted their view on recommending
+Wi-Fi access was a recurring theme throughout the inter-
+VR for mental health. A principal concern was that the
+views with nearly all participants experiencing difficulties
+young people would misuse the technology if it was not
+with internet access in hospitals on at least one occasion:
+properly explained and delivered. This was a particular
+“Obviously some areas have rubbish wifi as all hos- risk for mental health VR apps intended for patients to
+pitals” [P3] use unsupervised. P7 explains their concerns:
+Deighan et al. BMC Digital Health (2024) 2:22 Page 10 of 15
+“But again, you know, having to be very clear about this individual” [P7] therefore would require VR apps tailored
+is not somewhere to come. And you know, if you’re in trou- to this specific population.
+ble medically or otherwise, this is not where you come, you
+know, we don’t monitor it, we don’t respond quickly. [P7] Discussion
+Participants also agreed that there were some instances This is the first study to explore TYA healthcare profes-
+where the use of a VR headset would not be safe or sional views on the challenges and opportunities for VR
+appropriate. One participant asked “would you really in TYA oncology. By drawing on previous experiences of
+want someone using a VR headset when they’re having a using technology in their jobs, we highlight the attitudes
+blood test? [P4], calling this sort of use “dangerous” [P4]. of healthcare professionals towards adopting VR in clinic.
+The need for patients to be able to see their surrounding In particular, we outline participants views on both
+environment and interact with clinicians was considered potential applications of VR in oncology and the practical
+essential during many appointments and particularly deployment and adoption of VR technology in the TYA
+during procedures. VR being viewed as a disruption or oncology setting. The interviews focused mostly on the
+barrier to care particularly for participants working with latter aspect, indicating a stronger focus on the practical
+patients in clinic: “I probably see the headsets maybe as implementation challenges of using VR in TYA oncology.
+a bit of a barrier to kind of get my main message across” The findings in this study align with the broader medi-
+[P6]. Therefore, the use of VR would have to be carefully cal VR literature which emphasises the need for VR
+planned to not impair or disrupt clinical care. implementation frameworks and clinician and health-
+care staff involvement from design through to develop-
+ment and deployment of VR applications [6, 16, 53, 54].
+Data security
+We contribute to medical VR literature by discussing
+Participants raised concerns about data privacy and the
+potential applications of VR for TYA oncology and high-
+safety of VR apps being used in clinic. From experience
+lighting both practical and ethical challenges that present
+with previous technologies, participants expected that
+barriers for implementation in clinic. Through a qualita-
+using VR would be similar in that they would be respon-
+tive approach, we provide insights on VR in TYA oncol-
+sible for screening and vetting VR content for patients.
+ogy that can generate novel hypotheses, presented below.
+The unfamiliarity with the technology led to participants
+Below, we present our findings in the context of medical
+feeling “less confident” [P13] in doing this as they were
+VR and digital health literature and examine the sug-
+unsure what data VR would collect during use and how
+gested use cases for VR in TYA oncology.
+this may vary depending on apps used. More governance
+and guidelines would be required to allow clinicians and
+Applications of VR in TYA oncology
+oncology staff to ethically use or recommend VR apps to
+Focusing on a specialised healthcare department and
+patients.
+small clinical population allows us to examine the
+needs and requirements of VR from a clinician and
+Lack of clinical data staff perspective and compare them with the broader
+The lack of clinical data supporting the use of VR in TYA VR literature. This also allows us to find more nuanced
+oncology was noted as a barrier for procuring and adopt- opportunities for VR in TYA oncology.
+ing VR in clinic. One participant described the situa- Most use cases suggested by participants in this study
+tion as a “Catch 22” as “in order to spend that amount of mirror applications being researched and developed in
+money, you need the robust data behind it, and in order to the Medical VR field. However, oncology specific applica-
+have robust data, you need the technology to run studies.” tions of VR specifically in radiotherapy and psychother-
+[P9]. Some participants were aware of applications of VR apy were also recommended. Suggested uses in this study
+that had been trialed in different health populations but including applications of VR in rehabilitation, physiother-
+stressed that TYA oncology would require its own body apy, meeting information needs and distracting patients,
+of research to understand how VR may best support were similar to VR applications discussed above in Appli-
+patients. Participants from TYA units discussed being “at cations of VR in Oncology [9, 55, 56]. Our findings indi-
+the forefront of developing things specifically for the TYA cate that research and deployment of VR in these areas
+population” [P10] and stated that VR should be no excep- is indicated for the TYA population, with participants
+tion, they should be researching and developing tailored in this study suggesting VR could improve the care of
+VR content to ensure optimal impact for both patients patients and the engagement of patients with treatment,
+and staff. This view was also shared by the clinical psy- specifically in physiotherapy and rehabilitation. Again,
+chologists who discussed how supporting the mental as discussed above in Applications of VR in Oncol-
+health of a young person with cancer is “very unique and ogy, studies using VR for distraction and physiotherapy
+D eighan et al. BMC Digital Health (2024) 2:22 Page 11 of 15
+are predominantly conducted in the adult population to deliver Acceptance and Commitment Therapy (ACT),
+[19, 26]. We therefore recommend the expansion of this an action-oriented approach to psychotherapy rooted
+research into the TYA population given the clinical needs in both cognitive behavioural therapy and traditional
+highlighted by participants in this study regarding the use behaviour therapy [65]. ACT has demonstrated consid-
+of VR in these domains. Particularly we refer to the indi- erable success in oncology with studies demonstrating
+cation that more distraction techniques are required for lower depression scores and an increase in pain accept-
+oncology patients in isolation during treatment and that ance and psychological flexibility in women with breast
+novel methods of engaging young people in prehabilita- cancer who received ACT [66]. From the few studies that
+tion and rehabilitation are required. have developed and trialled ACT based VR apps, none
+The suggestion to use VR to enable virtual social inter- have yet been developed specifically for people with can-
+actions is an area that is underexplored in healthcare. cer. The participants in our study highlighted the need for
+Previous work has been conducted in the VR field dem- cancer-specific interventions to be developed, particu-
+onstrating that social VR apps have been appropriated as larly in the domain of psychological therapies. Given that
+mental health and wellbeing tools and can reduce lone- the psychological needs of young people with cancer are
+liness and improve social connectedness [57]. As high- often unmet [67], exploration into technologies that can
+lighted by participants in this study, young people with improve their engagement with evidence-based thera-
+cancer are often isolated for extended periods of time pies such as ACT, is of paramount importance. Further
+with restrictions on visitors. Using VR could reduce research in this area is warranted.
+the negative mental health impacts of this isolation
+by allowing young people to socialise in an immersive Overcoming practical challenges for VR use in clinic
+environment. Further research in this area is indicated, This study revealed that clinicians and TYA staff have
+particularly for the TYA population who are more accus- practical concerns about the use of VR in a clinical set-
+tomed to adopting and utilising novel technologies to ting. In most cases, the effective implementation of VR
+socialise and communicate with others. in clinic was of more concern to participants than the
+VR has been used in procedure preparation in various intended application of VR. Participants all provided
+ways, as discussed previously [44, 58]. Our findings are examples of where previous digital technologies or inno-
+in alignment with previous research in that participants vations had been deployed in their respective job roles.
+highlighted a need to better prepare young people for Common challenges were described in each example
+scans, procedures and for visiting the hospital for the first such as unreliable internet connections, the lack of a
+time [59]. However, our study also found that there may technician to maintain digital equipment, the absence of
+be scope to expand applications of VR in procedure prep- training, funding concerns and issues regarding security
+aration into preparation for radiotherapy. Specifically, the and governance. Most participants indicated that these
+suggestion to use VR to help patients learn and practise challenges still remain in their respective hospitals and
+Deep Inspiration Breath Hold (DIBH) before radiother- would make the successful adoption of VR in clinic dif-
+apy. This could not only improve patient safety but also ficult. These findings reiterate the well-known challenges
+improve the efficiency of treatment delivery by reduc- of adopting new technologies in a clinical setting, par-
+ing time spent in the treatment room, thereby increasing ticularly the adoption of VR [68].
+patient throughput. A recent systematic review by Grilo A scoping review by Kouijzer et al. on the implementa-
+et al. [60] conducted to investigate the impact of VR in tion of VR in healthcare settings found 69 different barri-
+the role of radiotherapy preparation, found no studies ers to the implementation of VR in healthcare (reported
+that included training on how to perform DIBH. To our across 26 studies) [53]. Most barriers in Kouijzer’s review
+knowledge, only one paper has recommended using VR were related to the practical challenges highlighted in
+to assist in the DIBH learning process [61], studies have this study, particularly around insufficient funding for
+yet to be conducted in this area. Using technology to equipment, the absence of training and technical support
+assist patients in performing DIBH is well researched in alongside the lack of robust data indicating the value of
+the medical field however there remains no gold standard VR. Safety issues regarding infection control and the lack
+[62]. VR presents as a novel alternative to current prac- of data privacy when using patient data with VR were also
+tises and could allow patients to practise this technique mentioned. These challenges are not new in healthcare
+before treatment. and have been observed when deploying technologies
+VR applications specialising in the delivery of psycho- such as smartphones, personal computers and tablets
+therapy have been widely researched and our findings [69, 70]. Kouijzer recommends developing systematic
+strengthen the clinical need for this research to continue multi-level implementation strategies by identifying bar-
+[63, 64]. Perhaps a less researched area is the use of VR riers before implementation. Our findings agree with this
+Deighan et al. BMC Digital Health (2024) 2:22 Page 12 of 15
+recommendation and indicate that analysing the suc- Finally, many participants in this study highlighted the
+cesses and failures of previous technology deployments lack of governance when it comes to using digital appli-
+can allow hospitals to tailor their strategies to align with cation in clinic. Significantly more work is required to
+the unique characteristics of their work environment. provide hospitals with evidence-based VR applications
+The use of VR in oncology raises significant ethical con- that meet their respective data privacy and safety stand-
+cerns. In this study, participants were concerned about ards. This should not be the responsibility of clinicians
+the privacy and security of VR. Concerns surrounding or healthcare staff and reducing their burden has to be a
+the privacy and security of patient data are not unique to priority if VR technology is to be successfully and safely
+VR, but rather represent larger concerns relating to the deployed in hospitals.
+protection of patient data amidst the rise of digital tech-
+nology use in healthcare [71]. Our findings reinforce the Limitations
+need for VR researchers and developers of medical VR
+This study has several limitations. Firstly, the study was
+applications to adhere to relevant regulatory standards.
+conducted in 2022–2023 following the COVID-19 global
+Given that VR is a novel technology in TYA oncology,
+pandemic. At this time, the oncology departments in the
+spreading awareness of what data VR can actually collect
+UK were still operating under COVID-19 safety guide-
+and how this data is stored and handled will be a priority
+lines and dealing with a significant backlog of patients.
+moving forward both to alleviate the concerns of health-
+Given the overwhelming pressure placed on healthcare
+care professionals and to ensure patient data is secure.
+professionals during and after the pandemic, the intro-
+duction of novel technologies into services may not be
+viewed as a priority. This could possibly explain a height-
+Engaging clinicians and TYA staff in VR research
+ened sense of anxiety around the introduction of VR,
+The diverse professional background of the staff work-
+which was viewed by many participants as an added
+ing within TYA cancer services create exciting prospects
+responsibility and burden. This also could contribute to
+for exploring novel implementation strategies of VR in
+the participants emphasis on adopting technologies that
+clinical settings. For example, exploring the possibility
+would offer time-saving benefits.
+of additional roles such as the youth support coordina-
+Secondly, many of the suggested applications of VR in
+tor to manage VR technology in the department. Thus,
+this study were speculative in that the healthcare pro-
+removing the responsibility from clinical staff who must
+fessionals made assumptions on how the young people
+prioritise clinical work over technology adoption. Involv-
+would experience VR and where it could improve engage-
+ing multiple TYA staff members in the implementation
+ment with their treatment. Future research engaging with
+of VR into services, may also create a sense of shared
+young people with cancer is required to understand their
+responsibility and ownership whilst reducing individual
+perspectives on the use of VR in the oncology pathway.
+burden.
+While participants in this study were primarily motivated
+In the UK, VR remains uncommon in hospitals and is
+to use VR in their job roles if it improved patient care,
+very rarely used in clinical practise. We found that only
+some participants also stated that they would be moti-
+2 participants were aware of applications of VR being
+vated to adopt technologies if they led to saving time. It
+researched and/or used in their field. This may result
+is essential that applications of VR do not adversely affect
+from staff priorities being focused on clinical care and
+the care of patients to save time, applications of VR that
+managing overloaded services. However, it may also
+both enhance patient care and reduce clinical burden
+reflect the limited engagement of clinicians and health-
+should therefore be explored.
+care staff in VR research. Given that clinicians and
+Finally, this study is specific to the United Kingdom’s
+healthcare workers are expected to be on the frontline
+healthcare service, where the use of VR in clinical prac-
+of VR delivery and adoption, it is essential that they are
+tise remains in its infancy. Consequently, the partici-
+involved in the earliest stages of medical VR research.
+pants had limited experience using VR with only two
+Awareness of current research being done in medical VR
+participants having used VR in a clinical setting. There
+is also necessary to allow research outputs to be trans-
+is a growing body of literature providing implementation
+lated into clinical practise. In this study we found that
+frameworks for VR in clinical practise that can be drawn
+healthcare professionals wouldn’t feel confident using
+upon to overcome many of the challenges mentioned in
+VR due to having limited knowledge and experience
+this study. Healthcare professionals that have experience
+using the technology. Effectively communicating medical
+using VR in practise and have standards in place to man-
+VR research outputs could therefore reduce the anxiety
+age infection control, security and hardware maintenance
+around using VR and improve the successful implemen-
+may have more informed perspectives on the challenges
+tation in clinic.
+and opportunities for VR in TYA oncology.
+D eighan et al. BMC Digital Health (2024) 2:22 Page 13 of 15
+Conclusion editing). K.C - conceptualisation, methodology, data analysis, writing (review
+and editing).
+This study offers insights into the perspectives of
+healthcare professionals working in TYA cancer ser- Funding
+vices regarding the use of VR in TYA oncology. Our This work was supported by the EPSRC Digital Health & Care Centre for
+Doctoral Training (CDT) at the University of Bristol (EP/S023704/1) and Great
+findings suggest that TYA units in the UK represent
+Ormond Street’s Children’s Charity Award VS0618.
+unique, understudied environments with potential for
+early adoption of VR in clinic. Availability of data and materials
+The datasets generated and analysed during the current study (audio files and
+This study proposes several applications of VR for
+written transcripts) are not publicly available due to privacy considerations.
+use in TYA oncology including applications for VR in The study recruited participants from a highly specialised care facility there-
+physiotherapy, psychotherapy, mental health care, as a fore releasing the data would lead to participant identification.
+distraction tool, in procedure preparation and for help-
+Declarations
+ing meet patient information needs. To our knowledge,
+applications of VR specific to TYA oncology including
+Ethics approval and consent to participate
+the use of VR to train patients on breathing techniques Participants provided written informed consent before participating in the
+for radiotherapy and the delivery of cancer-specific interview study. The study was approved by the University of Bristol Engineer-
+ing Faculty Research Ethics Committee (2022–0252-10725). This study was
+psychotherapy have not been proposed in previous lit-
+conducted in accordance with the Declaration of Helsinki.
+erature. Our study indicates that both healthcare pro-
+fessionals and young people with cancer could benefit Consent for publication
+Written informed consent for publication has been obtained from the partici-
+from the implementation of VR in clinic. Expanding
+pants in this study.
+current medical VR research into the TYA population
+is therefore warranted. Competing interests
+The authors declare no competing interests.
+Whilst participants express positive attitudes towards
+the use of VR in TYA oncology, they also raised sig-
+nificant concerns surrounding the safe and ethical Received: 28 November 2023 Accepted: 19 February 2024
+use of VR in TYA oncology. Furthermore, the scarcity
+of comprehensive clinical data, funding constraints,
+staff shortages and the lack of governance and techni-
+cal support in hospitals, were all viewed as barriers to References
+adoption. Improving the dissemination of medical VR 1. Cipresso P, Giglioli IAC, Raya MA, Riva G. The past, present, and future of
+virtual and augmented reality research: A network and cluster analysis of
+literature amongst healthcare professionals and engag-
+the literature. Front Psychol. 2018;9:2086. Available from: www. front iersin.
+ing them in research and deployment strategies should org
+be a priority as the field continues to develop. This 2. Schwartz R, Steptoe W. The immersive VR self: performance, embodiment
+and presence in immersive virtual reality environments. A Networked
+will facilitate the adoption of VR in clinics by offering
+Self and Human Augmentics, Artificial Intelligence, Sentience; 2018. p.
+insights into potential practical and ethical challenges 108–16.
+and enabling their mitigation. Future work should 3. Garcia-Palacios A, Hoffman HG, See SK, Tsai A, Botella C. Redefining thera-
+peutic success with virtual reality exposure therapy. CyberPsychol Behav.
+include working with teenagers and young adults with
+2001;4(3):341–8. https:// doi. org/ 10. 1089/ 10949 31013 00210 231.
+cancer to examine their perspectives on using VR in the 4. Kim S, Kim E. The use of virtual reality in psychiatry: A review. Journal of
+oncology pathway. the Korean Academy of Child and Adolescent Psychiatry. 2020;31(1):26–
+32. https:// doi. org/ 10. 5765/ jkacap. 190037.
+5. Matsangidou MP, Kassianos A, Papaioannou D, Solomou T, Krini M, Karekla
+Supplementary Information
+M, et al. Virtual painkillers: designing accessible virtual reality experi-
+The online version contains supplementary material available at https:// doi. ences for helping Cancer patients manage pain at home. In: Conference
+org/ 10. 1186/ s44247- 024- 00071-2. on human factors in computing systems - proceedings. Association for
+Computing Machinery; 2022.
+6. Bryant L, Hemsley B, Bailey B, Bluff A, Nguyen V, Stubbs P, et al. Opportuni-
+Supplementary material 1.
+ties for the Implementation of Immersive Virtual Reality in Rehabilitation.
+Proceedings of the 53rd Hawaii International Conference on System
+Sciences. 2020;3:3567–76.
+Acknowledgements
+7. Desselle MR, Brown RA, James AR, Midwinter MJ, Powell SK, Wood-
+We appreciate the time and engagement of the participants of this study and
+ruff MA. Augmented and virtual reality in surgery. Comput Sci Eng.
+thank them for their enthusiasm and support of this research.
+2020;22(3):18–26.
+8. Tennant M, McGillivray J, Youssef GJ, McCarthy MC, Clark TJ. Feasibil-
+Authors’ contributions
+ity, acceptability, and clinical implementation of an immersive virtual
+M.D. prepared the main manuscript with all authors reviewing and editing
+reality intervention to address psychological well-being in children and
+the final manuscript. Key contributions are listed below: M.D. - conceptualisa-
+adolescents with Cancer. J Pediatr Oncol Nurs. 2020;37(4):265–77. https://
+tion, methodology, project administration, Interviewer, data analysis, writing
+journ als. sagep ub. com/ doi/ abs/ 10. 1177/ 10434 54220 917859? casa_
+(original draft and editing). D.S - Data analysis, writing (review and editing).
+A.B - conceptualisation, methodology, data analysis, writing (review and
+token= hRB5B s1fQZ 8AAAAA% 3AC7h BdjDQ VvI5L fD1tA FXORF 6TxHj VoxIV_
+wyXKe_ cpggg X5b4l FCkGg L4L- yN7Yb knsiB 4UYMH iT& journ alCode= jpob
+Deighan et al. BMC Digital Health (2024) 2:22 Page 14 of 15
+9. Schneider SM, Hood LE. Virtual reality: A distraction intervention for 28. Czech O, Rutkowski S, Kowaluk A, Kiper P, Malicka I. Virtual reality in
+chemotherapy. Oncol Nurs Forum. 2007;34(1):39–46. Available from: / chemotherapy support for the treatment of physical functions, fear, and
+pmc/articles/PMC2121303/ quality of life in pediatric cancer patients: A systematic review and meta-
+10. Gerçeker GÖ, Bektaş M, Aydınok Y, Ören H, Ellidokuz H, Olgun N. The analysis. Vol. 11. Frontiers in Public Health. Frontiers Media S.A.; 2023.
+effect of virtual reality on pain, fear, and anxiety during access of a port 29. Ridout B, Kelson J, Campbell A, Steinbeck K. Effectiveness of virtual reality
+with huber needle in pediatric hematology-oncology patients: rand- interventions for adolescent patients in hospital settings: systematic
+omized controlled trial. Eur J Oncol Nurs. 2021;50 Available from: https:// review. J Med Internet Res. 2021;23(6) Available from: /pmc/articles/
+pubmed. ncbi. nlm. nih. gov/ 33321 461/ 11 PMC8277306/
+11. Buche H, Michel A, Blanc N. Use of virtual reality in oncology: from the 30. Malloy KM, Milling LS. The effectiveness of virtual reality distraction for
+state of the art to an integrative model. Front Virtual Real. 2022;4:3. pain reduction: A systematic review. Clin Psychol Rev. 2010;30(8):1011–8.
+12. McCann L, McMillan KA, Pugh G. Digital interventions to support ado- https:// doi. org/ 10. 1016/j. cpr. 2010. 07. 001.
+lescents and Young adults with Cancer: systematic review. JMIR Cancer. 31. Sharar SR, Carrougher GJ, Nakamura D, Hoffman HG, Blough DK, Pat-
+2019;5(2):e12071. Available from: https:// cancer. jmir. org/ 2019/2/ e12071 terson DR. Factors influencing the efficacy of virtual reality distraction
+13. Puthenpura V, Marks AM. Clinical Application of Digital Technologies in analgesia during Postburn physical therapy: preliminary results from 3
+Adolescent and Young Adult Oncology Supportive Care. https:// home. ongoing studies. Arch Phys Med Rehabil. 2007;88(12 SUPPL. 2):S43–9.
+lieber tpub. com/ jayao. 2021 Apr 15;10(2):127–30. Available from: https:// 32. Aminabadi NA, Erfanparast L, Sohrabi A, Sina Oskouei G, Naghili A. The
+www. liebe rtpub. com/ doi/ abs/ 10. 1089/ jayao. 2020. 0153 impact of virtual reality distraction on pain and anxiety during dental
+14. Ferretti A, Hubbs S, Vayena E. Global youth perspectives on digital health treatment in 4-6 year-old children: a randomized controlled clinical
+promotion: a scoping review. BMC digital Health. 2023;1(1):1–12. https:// trial. Dental clinics, dental prospects J dent res dent Clin dent. Prospect.
+doi. org/ 10. 1186/ s44247- 023- 00025-0. 2012;6(4):117–24. http:// denti stry. tbzmed. ac. ir/ joddd
+15. Meeus W. Adolescent development: longitudinal research into the self, 33. Srivastava K, Das RC, Chaudhury S. Virtual reality applications in mental
+personal relationships, and psychopathology. Adolescent Development: health: challenges and perspectives. Ind Psychiatry J. 2014;23(2):83. Avail-
+Longitudinal Research into the Self, Personal Relationships and Psychopa- able from: /pmc/articles/PMC4361984/
+thology. 2018;1:1–164. 34. Jerdan SW, Grindle M, Woerden HC van, Boulos MNK. Head-mounted
+16. Chung OS, Robinson T, Johnson AM, Dowling NL, Ng CH, Yücel M, et al. virtual reality and mental health: Critical Review of Current Research JMIR
+Implementation of therapeutic virtual reality into psychiatric care: clini- Serious Games 2018;6(3). Available from: /pmc/articles/PMC6054705/.
+cians’ and service managers’ perspectives. Front Psychiatry. 2022;4:12. 35. Maskey M, Rodgers J, Grahame V, Glod M, Honey E, Kinnear J, et al. A ran-
+17. Saab MM, Landers M, Murphy D, O’Mahony B, Cooke E, O’Driscoll M, et al. domised controlled feasibility trial of immersive virtual reality treatment
+Nursing students’ views of using virtual reality in healthcare: A qualitative with cognitive behaviour therapy for specific phobias in Young people
+study. J Clin Nurs. 31(9–10):1228–42. https:// onlin elibr ary. wiley. com/ doi/ with autism Spectrum disorder. J Autism Dev Disord. 2019;49(5):1912–27.
+full/ 10. 1111/ jocn. 15978 https:// doi. org/ 10. 1007/ s10803- 018- 3861-x.
+18. Gasteiger N, van der Veer SN, Wilson P, Dowding D. Exploring care 36. Zhang X, Yao S, Wang M, Yin X, Bi Z, Jing Y, et al. The impact of VR-CALM
+home workers’ views on augmented reality and virtual reality hand intervention based on VR on psychological distress and symptom Man-
+hygiene training: A realist interview study. Health Soc Care Community. agement in Breast Cancer Survivors. J Oncol. 2022;2022
+2023;9(2023):1–15. 37. Teenage Cancer Trust T and YA with C. A Blueprint of Care for Teenagers
+19. Brepohl PCA, Leite H. Virtual reality applied to physiotherapy: a review of and Young Adults with Cancer. 2014; Available from: www. teena gecan
+current knowledge. Virtual Reality. 2023;27(1):71–95. certr ust. org
+20. House G, Burdea G, Grampurohit N, Polistico K, Roll D, Damiani F, et al. 38. Furness CL, Smith L, Morris E, Brocklehurst C, Daly S, Hough RE. Cancer
+A feasibility study to determine the benefits of upper extremity virtual patient experience in the teenage Young adult population- key issues
+rehabilitation therapy for coping with chronic pain post-cancer surgery. and trends over time: an analysis of the United Kingdom National Cancer
+Br J Pain. 2016;10(4):186–97. Patient Experience Surveys 2010-2014. J Adolesc Young Adult Oncol.
+21. Tsuda K, Sudo K, Goto G, Takai M, Itokawa T, Isshiki T, et al. A feasibility 2017;6(3):450–8.
+study of virtual reality exercise in elderly patients with hematologic 39. McCann L, McMillan KA, Pugh G. Digital interventions to support ado-
+malignancies receiving chemotherapy. Intern Med. 2016;55(4):347–52. lescents and young adults with cancer: systematic review. Vol. 5. JMIR
+22. Melillo A, Chirico A, De Pietro G, Gallo L, Caggianese G, Barone D, et al. Vir- Cancer. JMIR Publications Inc.; 2019.
+tual reality rehabilitation Systems for Cancer Survivors: A narrative review 40. Virtual reality technology helping children at NDDH - Northern Devon
+of the literature. Vol. 14, Cancers. MDPI; 2022. Healthcare NHS Trust [Internet]. [cited 2021 May 22]. Available from:
+23. Peláez-Vélez FJ, Eckert M, Gacto-Sánchez M, Martínez-Carrasco Á. Use of https:// www. north devon health. nhs. uk/ 2019/ 08/ virtu al- reali ty- techn
+virtual reality and videogames in the physiotherapy treatment of stroke ology- helpi ng- child ren- at- nddh/
+patients: A pilot randomized controlled trial. Int J Environ Res Public 41. Virtual reality app to help children having surgery at Sheffield Children’s -
+Health. 2023;20(6) Sheffield Children’s NHS Foundation Trust [Internet]. [cited 2021 May 22].
+24. Birnie KA, Kulandaivelu Y, Jibb L, Hroch P, Positano K, Robertson S, et al. Available from: https:// www. sheffi eldc hildr ens. nhs. uk/ news/ virtu al- reali
+Usability testing of an interactive virtual reality distraction intervention to ty- app- to- help- child ren- having- surge ry- at- sheffi eld- child rens/
+reduce procedural pain in children and adolescents with Cancer. J Pediatr 42. Children needing operations to benefit from new virtual reality app
+Oncol Nurs. 2018;35(6):406–16. Available from: https:// journ als. sagep ub. - Northern Lincolnshire and Goole NHS Foundation Trust | Northern Lin-
+com/ doi/ 10. 1177/ 10434 54218 782138? url_ ver= Z39. 88- 2003& rfr_ id= ori% colnshire and Goole NHS Foundation Trust [Internet]. [cited 2021 May 22].
+3Arid% 3Acro ssref. org& rfr_ dat= cr_ pub++ 0pubm ed Available from: https:// www. nlg. nhs. uk/ news/ child ren- needi ng- opera
+25. Chirico A, Maiorano P, Indovina P, Milanese C, Giordano GG, Alivernini tions- to- benefi t- from- new- virtu al- reali ty- app/
+F, et al. Virtual reality and music therapy as distraction interventions to 43. Virtual reality treatment to be offered to NHS patients in Buckingham-
+alleviate anxiety and improve mood states in breast cancer patients shire and Oxfordshire | Oxford Health NHS Foundation Trust [Internet].
+during chemotherapy. J Cell Physiol. 2020;235(6):5353–62. Available from: [cited 2021 May 23]. Available from: https:// www. oxfor dheal th. nhs. uk/
+https:// onlin elibr ary. wiley. com/ doi/ full/ 10. 1002/ jcp. 29422 news/ virtu al- reali ty- treat ment- to- be- offer ed- to- nhs- patie nts- in- bucki
+26. Schneider SM, Prince-Paul M, Allen MJ, Silverman P, Talaba D. Virtual reality ngham shire- and- oxfor dshire/
+as a distraction intervention for women receiving chemotherapy. Oncol 44. Children at King’s first to experience virtual reality MRI - King’s College
+Nurs Forum. 2004;31(1):81–8. Available from: https:// pubmed. ncbi. nlm. Hospital NHS Foundation Trust [Internet]. [cited 2021 May 22]. Available
+nih. gov/ 14722 591/ from: https:// www. kch. nhs. uk/ news/ public/ news/ view/ 22421
+27. Hoffman HG, Chambers GT, Meyer WJ, Arceneaux LL, Russell WJ, Seibel 45. Nunnerley J, King M, Hodge K, Hopkins P, Stockwell R, Thorne N, et al.
+EJ, et al. Virtual reality as an adjunctive non-pharmacologic analge- Co-design of a therapeutic virtual reality tool to increase awareness and
+sic for acute burn pain during medical procedures. Ann Behav Med. self-management of cognitive fatigue after traumatic brain injury. Disabil
+2011;41(2):183–91. Rehabil Assist Technol. 2022; Available from: https:// pubmed. ncbi. nlm.
+nih. gov/ 35286 813/
+D eighan et al. BMC Digital Health (2024) 2:22 Page 15 of 15
+46. Wright MT, Springett J, Kongats K. What is participatory health 65. Hayes SC, Levin ME, Plumb-Vilardaga J, Villatte JL, Pistorello J. Acceptance
+research? Participatory Health Research: Voices from Around the World. and commitment therapy and contextual behavioral science: examining
+2018;1:3–15. the Progress of a distinctive model of behavioral and cognitive therapy.
+47. Knight I, West J, Matthews E, Kabir T, Lambe S, Waite F, et al. Participatory Behav Ther. 2013;44(2):180–98.
+design to create a VR therapy for psychosis. 2021;5(1):98–119. Available 66. Ghorbani V, Zanjani Z, Omidi A, Sarvizadeh M. Efficacy of acceptance
+from: https:// www. tandf online. com/ doi/ abs/ 10. 1080/ 24735 132. 2021. and commitment therapy (ACT) on depression, pain acceptance, and
+18858 89 psychological flexibility in married women with breast cancer: a pre- and
+48. Morton E, Barnes SJ, Michalak EE. Participatory digital health research: post-test clinical trial. Trends Psychiatry Psychother. 2021 Apr 1;43(2):126.
+A new paradigm for mHealth tool development. Gen Hosp Psychiatry. Available from: /pmc/articles/PMC8317551/.
+2020;66:67–9. 67. Smith S, Mooney S, Cable M, Taylor RM. The Blueprint of care for teenag-
+49. Malterud K, Siersma VD, Guassora AD. Sample size in qualitative ers and young adults with cancer, vol. 139; 2016. Available from: https://
+interview studies: guided by information power. Qual Health Res. www. teena gecan certr ust. org/ sites/ defau lt/ files/ Bluep rintO fCare_ 2ndEd
+2016;26(13):1753–60. ition. pdf
+50. Braun V, Clarke V. Thematic analysis. APA handbook of research meth- 68. Baniasadi T, Ayyoubzadeh SM, Mohammadzadeh N. Challenges and
+ods in psychology, Vol 2: Research designs: Quantitative, qualitative, practical considerations in applying virtual reality in medical education
+neuropsychological, and biological [Internet]. 2012 Mar 6;57–71. doi: and treatment. Oman Medical Journal Oman Medical Specialty Board.
+10.1037%2F13620–004. 2020;35:1–10.
+51. NVivo - Lumivero [Internet]. [cited 2023 Oct 12]. Available from: https:// 69. Paul M, Maglaras L, Ferrag MA, Almomani I. Digitization of healthcare
+lumiv ero. com/ produ cts/ nvivo/ sector: A study on privacy and security concerns. ICT Express Korean
+52. Bergom C, Currey A, Desai N, Tai A, Strauss JB. Deep inspiration breath Institute of Communications and Information Sciences. 2023;9:571–88.
+hold: techniques and advantages for cardiac sparing during breast can- 70. Infrastructure NRC (US) C on MP and S in HCA of the NI. Privacy and Secu-
+cer irradiation. Vol. 8, Frontiers in Oncology. Frontiers Media S.A.; 2018. rity Concerns Regarding Electronic Health Information. 1997 [cited 2023
+53. Kouijzer MMTE, Kip H, Bouman YHA, Kelders SM. Implementation of Oct 10]; Available from: https:// www. ncbi. nlm. nih. gov/ books/ NBK23
+virtual reality in healthcare: a scoping review on the implementation 3428/
+process of virtual reality in various healthcare settings. Implement Sci 71. Filkins B, Young Kim J, Roberts B, Armstrong W, Miller MA, Hultner ML,
+Commun. 2023;4(1):67. https:// doi. org/ 10. 1186/ s43058- 023- 00442-2. et al. Privacy and security in the era of digital health: what should transla-
+54. Virtual reality (VR) health care: best practices for clinical implementation tional researchers know and do about it? J Clin Med. 2021;10(3):378.
+- AIMed [Internet]. [cited 2022 May 20]. Available from: https:// ai- med. io/
+mental- health/ virtu al- reali ty- health- best- pract ices- clini cal- imple menta
+Publisher’s Note
+tion/
+55. Gershon J, Zimand E, Pickering M, Rothbaum BO, Hodges L. A pilot and Springer Nature remains neutral with regard to jurisdictional claims in pub-
+feasibility study of virtual reality as a distraction for children with cancer. lished maps and institutional affiliations.
+J Am Acad Child Adolesc Psychiatry. 2004;43(10):1243–9. Available from:
+http:// jaacap. org/ artic le/ S0890 85670 96157 81/ fullt ext
+56. Jha KK, Karunanithi GB, Sahana A, Karthikbabu S. Randomised trial of
+virtual reality gaming and physiotherapy on balance, gross motor perfor-
+mance and daily functions among children with bilateral spastic cerebral
+palsy. Somatosens Mot Res 2021;1–10. Available from: https:// www. tandf
+online. com/ action/ journ alInf ormat ion? journ alCode= ismr20
+57. Deighan MT, Ayobi A, O’Kane AA. Social Virtual Reality as a Mental Health
+Tool: How People Use VRChat to Support Social Connectedness and Well-
+being. Conference on Human Factors in Computing Systems - Proceed-
+ings. 2023. Available from: https:// dl. acm. org/ doi/ 10. 1145/ 35445 48. 35811
+03.
+58. Liszio S, Masuch M. Virtual reality MRI: Playful reduction of children’s anxi-
+ety in MRI exams. IDC 2017 - Proceedings of the 2017 ACM Conference
+on Interaction Design and Children. 2017;127–36. https:// doi. org/ 10.
+1145/ 30780 72. 30797 13
+59. Newell C, Leduc-Pessah H, Bell-Graham L, Rasic N, Carter K. Evaluating
+and enhancing the preparation of patients and families before pediatric
+surgery. Children. 2020;7(8)
+60. Grilo AM, Almeida B, Rodrigues C, Isabel Gomes A, Caetano M. Using
+virtual reality to prepare patients for radiotherapy: A systematic review of
+interventional studies with educational sessions, vol. 25. Elsevier Ireland
+Ltd: Technical Innovations and Patient Support in Radiation Oncology;
+2023.
+61. Giap HB. A novel system for deep inspiration breath hold (DIBH)
+using virtual reality, head-mounted device, 3-D game, camera and
+wireless body motion sensor. International Journal of Radiation
+Oncology*Biology*Physics. 2018;102(3):e554.
+62. Aznar MC, Corradini S, Mast M, McNair H, Meattini I, et al. ESTRO-ACROP
+guideline: recommendations on implementation of breath-hold tech-
+niques in radiotherapy. Radiother Oncol. 2023;185
+63. Bernaerts S, Bonroy B, Daems J, Sels R, Struyf D, van de Veerdonk W. Virtual
+reality for relaxation in a pediatric hospital setting: an interventional
+study with a mixed-methods design. Annu Rev Cyberther Telemed.
+2021;1(19):133–5.
+64. Marloth M, Chandler J, Vogeley KAI. Psychiatric interventions in virtual
+reality: why we need an ethical framework. Camb Q Healthc Ethics.
+2020;29(4):574–84.
