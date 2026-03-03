@@ -36,10 +36,14 @@ Important constraints:
 - Do NOT provide recommendations.
 - Do NOT add extra commentary.
 
+If there is any uncertainty, output EXCLUDE.
+Output exactly INCLUDE or EXCLUDE in uppercase.
+
 Your output must follow this exact format:
 
 Decision: INCLUDE or EXCLUDE
 Justification: 1–2 sentences explaining which criteria were applied.
+
 
 Title:
 {title}
@@ -126,10 +130,14 @@ def parse_llm_response(response_text):
         elif line.startswith("Justification:"):
             justification = line.replace("Justification:", "").strip()
 
-    # Defensive validation
+    # decision normalization
+    if decision:
+        decision = decision.strip().upper()
+
     if decision not in {"INCLUDE", "EXCLUDE"}:
         decision = "EXCLUDE"
         justification = "Invalid or missing decision format."
+    
 
     if not justification:
         justification = "No valid justification provided."
@@ -142,14 +150,25 @@ client = OpenAI()
 
 print(f"Total papers loaded: {len(papers)}")
 
+all_screening_results = []
+
 # TEST 
 for idx, paper in enumerate(papers, start=1):
     title, abstract = extract_screening_text(paper)
+
+
 
     result = screen_paper_with_llm(title, abstract, client)
     decision, justification = parse_llm_response(result)
 
     print(f"[{idx}] {decision} — {justification}")
+
+    all_screening_results.append({
+    "paperId": paper.get("paperId"),
+    "title": paper.get("title"),
+    "decision": decision,
+    "justification": justification
+    })
 
     if decision == "INCLUDE":
         included_papers.append({
@@ -160,10 +179,12 @@ for idx, paper in enumerate(papers, start=1):
         })
 
 with open("../data/processed/filtered_papers.json", "w", encoding="utf-8") as f:
-
     json.dump(included_papers, f, ensure_ascii=False, indent=4)
 
-print("Saved filtered papers to 'filtered_papers.json'")
+with open("../data/processed/screening_log.json", "w", encoding="utf-8") as f:
+    json.dump(all_screening_results, f, ensure_ascii=False, indent=4)
+
+print("Saved filtered_papers.json and screening_log.json")
 
 
 print("=== END SCREENING RUN ===")
