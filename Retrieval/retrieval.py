@@ -34,18 +34,22 @@ except ModuleNotFoundError:
     SentenceTransformer = None
 
 
+# Project-root-aware paths keep the script stable regardless of cwd.
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
 # --------- Settings ----------
-DEFAULT_FILTERED_FILE = "filtered_papers.json"
-DEFAULT_METADATA_FILE = "hybrede_metadata_v2.json"
+DEFAULT_FILTERED_FILE = os.path.join(BASE_DIR, "filtered_papers.json")
+DEFAULT_METADATA_FILE = os.path.join(BASE_DIR, "data", "hybrede_metadata_v3.json")
+FULLTEXT_DIR = os.path.join(BASE_DIR, "data", "v3_full_text")
 
 # Directory where Chroma stores the index
-CHROMA_DIR = "rag_store"
+CHROMA_DIR = os.path.join(BASE_DIR, "rag_store")
 COLLECTION_NAME = "hybrede"
 
 # Local embedding model (free, CPU-friendly)
 EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
 
-# Chunking settings (abstracts usually don't need overlap)
+# Chunking settings for full text / fallback abstracts
 CHUNK_WORDS = 1000
 CHUNK_OVERLAP = 150
 
@@ -104,20 +108,38 @@ def build_metadata_index(metadata_records: List[dict]) -> Dict[str, dict]:
     return idx
 
 
-def get_text_for_paper(meta_record: dict) -> Tuple[str, str, int]:
-    """
-    Returns (title, text_for_index, year).
-    We index the abstract (MVP according to designDoc).
-    """
-    title = (meta_record.get("title") or "").strip()
+def get_abstract_text(meta_record: dict) -> str:
     abstract = meta_record.get("abstract") or ""
     abstract = abstract.strip() if isinstance(abstract, str) else ""
+    return abstract or "No abstract provided"
 
-    if not abstract:
-        abstract = "No abstract provided"
 
+def load_full_text(paper_id: str, fulltext_dir: str = FULLTEXT_DIR) -> str:
+    if not paper_id:
+        return ""
+
+    fulltext_path = os.path.join(fulltext_dir, f"{paper_id}.txt")
+    if not os.path.exists(fulltext_path):
+        return ""
+
+    with open(fulltext_path, "r", encoding="utf-8") as f:
+        return f.read().strip()
+
+
+def get_text_for_paper(meta_record: dict, fulltext_dir: str = FULLTEXT_DIR) -> Tuple[str, str, int, str]:
+    """
+    Returns (title, text_for_index, year, text_source).
+    Prefer full text by paperId; fall back to abstract when missing.
+    """
+    title = (meta_record.get("title") or "").strip()
+    paper_id = (meta_record.get("paperId") or "").strip()
     year = meta_record.get("year") or 0
-    return title, abstract, year
+
+    full_text = load_full_text(paper_id, fulltext_dir=fulltext_dir)
+    if full_text:
+        return title, full_text, year, "fulltext"
+
+    return title, get_abstract_text(meta_record), year, "abstract"
 
 
 def get_best_url(meta_record: dict) -> str:
@@ -183,6 +205,8 @@ def cmd_index(metadata_file: str, filtered_file: str):
 
     missing_in_metadata = 0
     total_chunks = 0
+    fulltext_papers = 0
+    abstract_fallback_papers = 0
 
     for pid in allowed_ids:
         meta_rec = meta_index.get(pid)
@@ -190,10 +214,13 @@ def cmd_index(metadata_file: str, filtered_file: str):
             missing_in_metadata += 1
             continue
 
-        title, abstract, year = get_text_for_paper(meta_rec)
+        title, text_for_index, year, text_source = get_text_for_paper(meta_rec)
         url = get_best_url(meta_rec)
 
-        text_for_index = abstract
+        if text_source == "fulltext":
+            fulltext_papers += 1
+        else:
+            abstract_fallback_papers += 1
 
         chunks = chunk_text(text_for_index, CHUNK_WORDS, CHUNK_OVERLAP)
         if not chunks:
@@ -208,12 +235,13 @@ def cmd_index(metadata_file: str, filtered_file: str):
                 "title": title,
                 "url": url,
                 "year": year,
-                "chunk_index": i
+                "chunk_index": i,
+                "text_source": text_source
             })
             total_chunks += 1
 
     if total_chunks == 0:
-        print("Nothing to index: no abstracts or filtered file is empty")
+        print("Nothing to index: no full text, no abstracts, or filtered file is empty")
         return
 
     embeddings = model.encode(docs, convert_to_numpy=True, normalize_embeddings=True).tolist()
@@ -230,6 +258,8 @@ def cmd_index(metadata_file: str, filtered_file: str):
     print(f"Filtered input: {filtered_file}")
     print(f"Allowed papers (from filtered): {len(allowed_set)}")
     print(f"Missing paperId in metadata: {missing_in_metadata}")
+    print(f"Papers indexed from full text: {fulltext_papers}")
+    print(f"Papers indexed from abstract fallback: {abstract_fallback_papers}")
     print(f"Total chunks indexed: {total_chunks}")
     print(f"Chroma collection size: {collection_count(collection)}")
     print(f"Stored at: {CHROMA_DIR}/ (collection: {COLLECTION_NAME})")
