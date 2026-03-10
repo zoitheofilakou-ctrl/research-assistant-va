@@ -1,92 +1,146 @@
 [
     {
+        "paperId": "2f06cdba66b60003ceb92579cef8ce8f3058940b",
+        "title": "Understanding, experience and attitudes towards artificial intelligence technologies for clinical decision support in hearing health: a mixed-methods survey of healthcare professionals in the UK",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' attitudes towards AI technologies in clinical decision support within the context of hearing health, aligning with the inclusion criteria related to healthcare practice and the use of digital tools."
+    },
+    {
         "paperId": "169316c86726d0d48fd3cee927cf25197c2eb74c",
         "title": "Knowledge, attitudes, and concerns about psilocybin and MDMA as novel therapies among U.S. healthcare professionals",
         "decision": "INCLUDE",
-        "justification": "The paper assesses healthcare professionals' knowledge and attitudes towards psychedelic-assisted therapy, contributing to professional learning and evidence awareness regarding emerging therapies. It focuses on understanding and synthesizing healthcare literature rather than providing actionable clinical guidance."
+        "justification": "The paper concerns healthcare professionals' knowledge and attitudes towards novel therapies, specifically psychedelic-assisted therapy, which relates to the use and understanding of evidence-based practice in a healthcare context."
     },
     {
         "paperId": "5f1a24be097954cb8a5ca1bee1a12a45a460bf04",
         "title": "Education and clinical decision support for healthcare professionals on emergency preparedness for extremely dangerous pathogens: report of a conference workshop",
         "decision": "INCLUDE",
-        "justification": "The paper supports healthcare professionals in developing knowledge and understanding related to emergency preparedness for infectious diseases, focusing on education and clinical decision support, which contributes to professional learning and evidence awareness."
+        "justification": "The paper concerns healthcare professionals' education and clinical decision support related to emergency preparedness for infectious diseases, aligning with the inclusion criteria regarding professional healthcare practice and the application of knowledge in healthcare contexts."
     },
     {
         "paperId": "bb133c9343bfc2f2788f16c32f09c94acdab5a06",
         "title": "Instruments for assessing healthcare professionals' knowledge and skills of evidence-based practice: A scoping review.",
         "decision": "INCLUDE",
-        "justification": "The paper focuses on assessing healthcare professionals' knowledge and skills related to evidence-based practice, which supports professional learning and understanding of research evidence. It contributes to the synthesis and organization of healthcare literature relevant to professional development."
+        "justification": "The paper concerns healthcare professionals' knowledge and skills related to evidence-based practice, which aligns with the inclusion criteria regarding the use and understanding of research evidence in professional healthcare contexts."
+    },
+    {
+        "paperId": "8ba8ed724bdf25a39aed605132a92ac0773c9a82",
+        "title": "What do healthcare professionals want from a resource to support person-centred conversations on physical activity? A mixed-methods, user-centric approach to developing educational resources",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' needs for resources to support person-centred conversations about physical activity, which relates to professional healthcare practice and the application of knowledge in clinical contexts. It discusses the development of educational resources aimed at improving healthcare professionals' skills and confidence in engaging with patients about physical activity."
+    },
+    {
+        "paperId": "4ad09107c87cf61ebe5187f1419d69e7b89b0331",
+        "title": "Exploration of the views and experiences of research healthcare professionals during their redeployment to clinical roles during the COVID‐19 pandemic",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' experiences and adaptation during their redeployment to clinical roles, which relates to professional practice and the use of knowledge in healthcare contexts. It discusses implications for practice and support for healthcare professionals, aligning with the inclusion criteria."
+    },
+    {
+        "paperId": "b1a1948e5b8ec9b431fa98a2960f5cbd1715cd80",
+        "title": "ImpENSA eHealthy Conversation Skills training for healthcare professionals aimed at improving micronutrient status during the first 1000 days in South Africa",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' training and knowledge application related to nutrition and behaviour change support, which aligns with the inclusion criteria regarding healthcare practice and the use of knowledge in professional contexts."
+    },
+    {
+        "paperId": "d339c190259035de7d11ebb8965c4f613618f2ea",
+        "title": "Perspectives of healthcare professionals on the use of immersive virtual reality in teenage and young adult oncology: a qualitative interview study",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' perspectives on the use of immersive virtual reality in oncology, relating to the application of digital tools in a healthcare context, which aligns with the inclusion criteria."
+    },
+    {
+        "paperId": "b7173949b349921d7d31536ce28b91071e272b2c",
+        "title": "Dietary intervention in gestational diabetes: a qualitative study of the acceptability and feasibility of a novel whole-diet intervention in healthcare professionals",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' views on a dietary intervention for gestational diabetes, relating to the use and acceptability of a novel intervention in a healthcare context, which aligns with the inclusion criteria."
     },
     {
         "paperId": "c624607d09dc1e4807381b72ed5178c0436cfe1b",
         "title": "Bioethical knowledge in students and health professionals: a systematic review",
         "decision": "INCLUDE",
-        "justification": "The paper focuses on the development of bioethical knowledge among healthcare professionals, contributing to their understanding and reflective practice in addressing ethical dilemmas in clinical settings."
+        "justification": "The paper concerns healthcare professionals' understanding and application of bioethical knowledge, which is relevant to professional healthcare practice and education. It discusses the importance of training in bioethics, aligning with the inclusion criteria related to knowledge-related processes in healthcare."
+    },
+    {
+        "paperId": "49bbb4bb4c1a086d721223c121669ef2e791f104",
+        "title": "Towards a Knowledge Graph-Based Explainable Decision Support System in Healthcare",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses a knowledge graph-based framework for AI-based clinical decision support systems, which relates to healthcare professionals' use of digital tools and decision-support technologies in healthcare contexts."
+    },
+    {
+        "paperId": "e7e8de3fd7dbc1fa0effa103506429264ce24cab",
+        "title": "Unmet needs and gaps in the identification of secondary progression in multiple sclerosis: a Southern Italy healthcare professionals’ perspective",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the identification and management of multiple sclerosis from the perspective of healthcare professionals, focusing on knowledge and communication strategies, which aligns with the inclusion criteria related to healthcare practice and the use of information systems."
     },
     {
         "paperId": "58444ef0794b7aeb9117156a5c97c6abc7c08ca2",
         "title": "The Medical Science Liaison Role in Spain: A Survey About the Opinion of HealthCare Professionals",
         "decision": "INCLUDE",
-        "justification": "The paper focuses on healthcare professionals' understanding of the Medical Science Liaison role and its perceived utility in clinical practice, contributing to professional learning and evidence awareness."
+        "justification": "The paper concerns healthcare professionals' understanding and opinion of the Medical Science Liaison role, which relates to the use and application of knowledge in professional healthcare contexts."
     },
     {
-        "paperId": "0d20504b7e04cb876ea7f3a140b8813646ae5ffa",
-        "title": "Supplemental Learning in Respiratory Physiology for Healthcare Professionals Towards Successful Treatment of COVID-19",
+        "paperId": "6b6a84f2f1fa59cf319010480d11b662a073f480",
+        "title": "A pilot exploration of staff and service-user perceptions of a novel digital health technology (Virtual Engagement Rehabilitation Assistant) in complex inpatient rehabilitation",
         "decision": "INCLUDE",
-        "justification": "The paper supports healthcare professionals in developing knowledge and understanding of respiratory physiology related to COVID-19, contributing to professional learning and evidence awareness. It focuses on the synthesis and interpretation of healthcare literature through an educational resource designed for professionals."
+        "justification": "The paper discusses a digital health technology in the context of rehabilitation, focusing on healthcare professionals' and service-users' perceptions, which aligns with the inclusion criteria related to healthcare practice and the use of digital tools in professional contexts."
     },
     {
-        "paperId": "19fae6f0cbdc7237874b3d7443d1822d523d5717",
-        "title": "Development of online cancer resources to support pre-registration nurses and allied health professionals.",
+        "paperId": "2e38487ceced33bdb95f1dc6e7a4a47c9e11674d",
+        "title": "How Commercially Available Virtual Reality-Based Interventions Are Delivered and Reported in Gait, Posture, and Balance Rehabilitation: A Systematic Review.",
         "decision": "INCLUDE",
-        "justification": "The paper supports healthcare professionals in developing knowledge and understanding related to cancer care, contributing to professional learning and evidence awareness through the development of e-learning modules."
+        "justification": "The paper concerns healthcare and rehabilitation, specifically focusing on the use of virtual reality technologies in physical rehabilitation, which relates to healthcare professionals' roles and practices. It discusses the implementation of interventions and the involvement of therapists, aligning with the inclusion criteria."
     },
     {
-        "paperId": "0221e2c46f9e5a4499239a11ab7607a12cf95e1f",
-        "title": "Clinical decision support systems to improve drug prescription and therapy optimisation in clinical practice: a scoping review",
+        "paperId": "f21810bd0ae5f1ec3910b6d9a91c5785eaaf55c9",
+        "title": "Advanced Technology in a Real-World Rehabilitation Setting: Longitudinal Observational Study on Clinician Adoption and Implementation",
         "decision": "INCLUDE",
-        "justification": "The paper focuses on clinical decision support systems (CDSSs) that aim to improve healthcare professionals' knowledge and understanding of drug prescription, contributing to professional learning and evidence awareness."
+        "justification": "The paper discusses the implementation and adoption of advanced technology in a rehabilitation setting, focusing on healthcare professionals' use and understanding of these technologies, which aligns with the inclusion criteria related to healthcare practice and evidence-based implementation."
     },
     {
-        "paperId": "02290c326d0c2312849db2c7e2bef37461a57ccb",
-        "title": "Health Professionals’ Competencies in the Framework of Complexity: Digital Training Model for Education 4.0",
+        "paperId": "89737a3d51bf15d90602f31dc51fb665679b2273",
+        "title": "AB1354-HPR CURRENT SITUATION OF TRAINING IN RHEUMATOLOGY IN THE POSTGRADUATE CURRICULUMS OF INTERNAL MEDICINE, FAMILY MEDICINE, GERIATRICS, PAIN MEDICINE AND, PHYSICAL AND REHABILITATION MEDICINE ACROSS COLOMBIA",
         "decision": "INCLUDE",
-        "justification": "The paper focuses on developing knowledge and understanding for healthcare professionals through a digital training model, which supports professional learning and evidence awareness. It addresses the synthesis and organization of information resources relevant to healthcare practices."
+        "justification": "The paper discusses the training status in rheumatology within various postgraduate medical specialties, which relates to professional healthcare practice and education, thus meeting the inclusion criteria."
     },
     {
-        "paperId": "8c34cc81d48e79743a70dda0de3b7b87acda9f77",
-        "title": "Virtual communities of practice to improve clinical outcomes in healthcare: protocol for a 10-year scoping review",
+        "paperId": "e1358d8574e3ccc9b99179809e2cbc3e2d4d424c",
+        "title": "Clinnova Federated Learning Proof of Concept: Key Takeaways from a Cross-border Collaboration",
         "decision": "INCLUDE",
-        "justification": "The paper focuses on improving healthcare professionals' knowledge and understanding through the establishment of virtual communities of practice, which aligns with the criteria for supporting professional learning and evidence awareness."
+        "justification": "The paper discusses the use of artificial intelligence and data science in enhancing healthcare outcomes, specifically in the context of a collaborative initiative aimed at improving patient care for multiple sclerosis, which aligns with the inclusion criteria related to healthcare professionals and digital health technologies."
     },
     {
-        "paperId": "bf29675ed92f403f22e60da2878072e193e60a8b",
-        "title": "Development and Implementation of a Brief Healthcare Professional Support Program Based in Gratitude, Mindfulness, Self-compassion, and Empathy",
+        "paperId": "ffa40ae9fa240bed719ee1e41e306e49f1bc36b2",
+        "title": "Medical Data in the Digital Era - Legal Challenges Related to Providing Information Security, Applying GDPR and Respecting the Professional Secrecy",
         "decision": "INCLUDE",
-        "justification": "The paper supports healthcare professionals in developing knowledge and understanding through a support program, contributing to professional learning and reflective practice."
+        "justification": "The paper discusses the challenges of processing medical data in electronic form, focusing on information security and legal regulations in healthcare, which relates to the use and management of information systems in professional healthcare contexts."
     },
     {
-        "paperId": "3bbc10cb89813e3aef8fce6a38b2a4506c539bb3",
-        "title": "Beyond the bedside: A scoping review of the experiences of non‐practising health care professionals in Health Professions Education",
+        "paperId": "57bc7d9375c2be1e0083f3877c0f4ffae913d439",
+        "title": "An overview of Personalized Medicine landscape and policies in the European Union",
         "decision": "INCLUDE",
-        "justification": "The paper focuses on the experiences of non-practising healthcare professionals in Health Professions Education, contributing to professional learning and understanding within the field, which aligns with the inclusion criteria."
+        "justification": "The paper discusses healthcare policies related to Personalized Medicine in the European Union, which aligns with the inclusion criteria concerning healthcare systems and professional practice. It also addresses the role of healthcare workers and decision-making in the context of implementing these policies."
     },
     {
-        "paperId": "9856eb322305a7860d2d1d74bc5292b586bb166c",
-        "title": "How Knowledge Mapping Can Bridge the Communication Gap Between Caregivers and Health Professionals Supporting Individuals With Complex Medical Needs: A Study in Fragile X Syndrome",
+        "paperId": "f017d679a8a49dac3f5e395ae7171e1250050ba1",
+        "title": "The challenge of bringing evidence in decision-making for public health emergencies: can preparedness reach out to HTA?",
         "decision": "INCLUDE",
-        "justification": "The paper focuses on enhancing communication between caregivers and health professionals, which supports professional understanding and knowledge development. It discusses knowledge mapping as a tool for improving communication in healthcare settings, contributing to professional learning and reflective practice."
+        "justification": "The paper discusses evidence-based decision-making in public health, focusing on the use of digital health tools and Health Technology Assessment (HTA) in healthcare contexts, which aligns with the inclusion criteria related to healthcare professionals' use of knowledge and information systems."
     },
     {
-        "paperId": "e0024f27311292e94baa13d7afb6bba89ae1a96c",
-        "title": "ACcurate COnsensus Reporting Document (ACCORD) explanation and elaboration: Guidance and examples to support reporting consensus methods",
+        "paperId": "a2f7cc1401165058641d1fe01c580e50798ae1be",
+        "title": "Constitutional foundations of cross-border digital healthcare",
         "decision": "INCLUDE",
-        "justification": "The paper supports healthcare professionals in understanding and reporting consensus methods, contributing to professional learning and evidence awareness. It focuses on the synthesis and organization of healthcare literature related to consensus reporting, which aligns with the inclusion criteria."
+        "justification": "The paper discusses legal regulation and constitutional aspects of digital healthcare, which relates to healthcare professionals' use and management of information systems in healthcare contexts. It also addresses the integration of law and biomedicine, relevant to professional healthcare practice."
     },
     {
-        "paperId": "86a82036555624a36d0e00efd0c9ead59906b064",
-        "title": "What should all health professionals know about movement behaviour change? An international Delphi-based consensus statement",
+        "paperId": "0d881553ad69cdef9d4db85bf305e70f32c8b09e",
+        "title": "Implementing a Cross-Border Next-Generation Personal Health Record in the Philippines and Taiwan: An Implementation Case Report Using Health Level 7 International Fast Healthcare Interoperability Resources",
         "decision": "INCLUDE",
-        "justification": "The paper focuses on establishing key competencies for health professionals to support movement behaviour change, contributing to professional learning and understanding of research evidence in healthcare. It does not provide actionable clinical guidance or directly address patients."
+        "justification": "The paper discusses the implementation of a cross-border personal health record system, which relates to healthcare professionals' use of information systems and addresses interoperability in healthcare contexts."
+    },
+    {
+        "paperId": "3e77ce42df11bdfc25cc34e6cc929691d866cd8a",
+        "title": "Interoperability Challenges and Critical Success Factors in the Deployment of Cross-border Digital Medical Prescriptions in Finland and Estonia",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses interoperability challenges and critical success factors related to digital medical prescriptions, which pertains to healthcare systems and the application of digital tools in professional healthcare contexts."
     }
 ]
