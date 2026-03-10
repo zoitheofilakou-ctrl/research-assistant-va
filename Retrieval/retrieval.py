@@ -3,7 +3,8 @@
 retrieval.py - simple retrieval script for RAG.
 
 What it does:
-1) index  : takes paperId from filtered JSON, retrieves abstract+url from metadata JSON,
+1) index  : takes paperIds from filtered JSON, retrieves metadata and text,
+            prefers full text by paperId from FULLTEXT_DIR (fallback to abstract),
             splits text into chunks and stores them in ChromaDB with sentence-transformers embeddings.
 2) query  : given a user query, returns top-k most similar chunks (with title/url/score/text).
 3) suggest: returns N papers (e.g., most recent by year) for greeting links.
@@ -12,10 +13,10 @@ Installation:
 pip install chromadb sentence-transformers
 
 Usage:
-python retrieval.py index
-python retrieval.py index --metadata data/hybrede_metadata_v3.json --filtered data/processed/filtered_papers.json
-python retrieval.py query "evidence-based practice instruments" --k 5
-python retrieval.py suggest --n 5
+python Retrieval/retrieval.py index
+python Retrieval/retrieval.py index --metadata data/hybrede_metadata_v3.json --filtered data/processed/filtered_papers.json
+python Retrieval/retrieval.py query "evidence-based practice instruments" --k 5
+python Retrieval/retrieval.py suggest --n 5
 """
 
 import argparse
@@ -185,9 +186,9 @@ def cmd_index(metadata_file: str, filtered_file: str):
 
     meta_index = build_metadata_index(metadata)
 
-    # paperIds allowed by screening
-    allowed_ids = [p.get("paperId") for p in filtered if p.get("paperId")]
-    allowed_set = set(allowed_ids)
+    # paperIds allowed by screening (deduplicated)
+    allowed_set = {p.get("paperId") for p in filtered if p.get("paperId")}
+    allowed_ids = list(allowed_set)
 
     model = SentenceTransformer(EMBED_MODEL_NAME)
 
@@ -273,7 +274,7 @@ def cmd_query(user_query: str, k: int):
         return
 
     if not os.path.exists(CHROMA_DIR):
-        raise RuntimeError("No index found. Run: python retrieval.py index")
+        raise RuntimeError("No index found. Run: python Retrieval/retrieval.py index")
 
     model = SentenceTransformer(EMBED_MODEL_NAME)
     collection = get_chroma_collection()
@@ -301,6 +302,7 @@ def cmd_query(user_query: str, k: int):
             "title": meta.get("title"),
             "url": meta.get("url"),
             "year": meta.get("year"),
+            "text_source": meta.get("text_source"),
             "text": doc
         })
 

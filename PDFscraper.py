@@ -6,7 +6,12 @@ import requests
 # ROLE: Data Acquisition Group
 # PURPOSE: Automated Full-text PDF Harvesting for RAG System
 
-def download_paper_pdfs(json_file_path, output_folder="harvested_pdfs"):
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+DEFAULT_METADATA_FILE = os.path.join(BASE_DIR, "data", "hybrede_metadata_v3.json")
+DEFAULT_OUTPUT_DIR = os.path.join(BASE_DIR, "data", "harvested_pdfs")
+
+
+def download_paper_pdfs(json_file_path=DEFAULT_METADATA_FILE, output_folder=DEFAULT_OUTPUT_DIR):
     """
     Reads the metadata JSON and downloads available PDFs.
     """
@@ -67,6 +72,6 @@ def download_paper_pdfs(json_file_path, output_folder="harvested_pdfs"):
     print(f"SUMMARY: {downloaded_count} PDFs downloaded, {failed_count} failed.")
 
 if __name__ == "__main__":
-    # Ensure this matches metadata filename
-    metadata_file = 'hybrede_metadata_v3.json'
+    # Uses repository-standard data paths by default.
+    metadata_file = DEFAULT_METADATA_FILE
     download_paper_pdfs(metadata_file)

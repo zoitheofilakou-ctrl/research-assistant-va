@@ -12,6 +12,8 @@ load_dotenv()
 #Global Configuration
 API_KEY = os.environ["OPENAI_API_KEY"]
 BASE_URL = "https://api.semanticscholar.org/graph/v1"
+PROJECT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+OUTPUT_V3_PATH = os.path.join(PROJECT_DIR, "data", "hybrede_metadata_v3.json")
 
 def fetch_rehabilitation_papers(search_query, result_limit=20):
     """
@@ -25,8 +27,8 @@ def fetch_rehabilitation_papers(search_query, result_limit=20):
         'query': search_query,
         'limit': result_limit,
         'year': '2020-2024',
-        #Requesting specific fields required for LLM Screening and RAG Integration
-        'fields': 'title,abstract,year,externalIds,url,citationCount'
+        # Request fields required across screening, retrieval, and PDF acquisition.
+        'fields': 'title,abstract,year,externalIds,url,citationCount,openAccessPdf,authors'
     }
     
     headers = {'x-api-key': API_KEY}
@@ -61,9 +63,10 @@ if __name__ == "__main__":
     # Execute the fetch process
     collected_papers = fetch_rehabilitation_papers(target_keyword, result_limit=20)
 
-    # Export the Metadata to a JSON file for the LLM Screening Group
+    # Export metadata to the canonical v3 file used by the project pipeline.
     if collected_papers:
-        output_filename = '../../data/hybrede_metadata_v2.json'
+        output_filename = OUTPUT_V3_PATH
+        os.makedirs(os.path.dirname(output_filename), exist_ok=True)
         with open(output_filename, 'w', encoding='utf-8') as json_file:
             json.dump(collected_papers, json_file, ensure_ascii=False, indent=4)
         

@@ -7,6 +7,12 @@ import re
 # ROLE: Data Acquisition Group
 # PURPOSE: Enhanced extraction with fuzzy title matching to reduce "Skipping" errors.
 
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+DEFAULT_METADATA_FILE = os.path.join(BASE_DIR, "data", "hybrede_metadata_v3.json")
+DEFAULT_PDF_DIR = os.path.join(BASE_DIR, "data", "harvested_pdfs")
+DEFAULT_OUTPUT_DIR = os.path.join(BASE_DIR, "data", "v3_full_text")
+
+
 def clean_string(s):
     """
     Removes all non-alphanumeric characters and converts to lowercase.
@@ -15,8 +21,11 @@ def clean_string(s):
     return re.sub(r'[^a-zA-Z0-9]', '', str(s)).lower()
 
 
-def extract_text_from_pdfs(metadata_file="hybrede_metadata_v3.json", pdf_folder="harvested_pdfs",
-                           output_folder="processed_text"):
+def extract_text_from_pdfs(
+    metadata_file=DEFAULT_METADATA_FILE,
+    pdf_folder=DEFAULT_PDF_DIR,
+    output_folder=DEFAULT_OUTPUT_DIR,
+):
     if not os.path.exists(metadata_file):
         print(f"[!] Error: Metadata file {metadata_file} not found.")
         return
