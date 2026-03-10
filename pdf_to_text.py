@@ -40,8 +40,20 @@ def extract_text_from_pdfs(
         for item in metadata if item.get('paperId')
     }
 
+    if not os.path.isdir(pdf_folder):
+        print(f"[!] Error: PDF folder {pdf_folder} not found.")
+        print("[!] Run PDFscraper.py first to download PDFs.")
+        return
+
+    if os.path.exists(output_folder) and not os.path.isdir(output_folder):
+        print(f"[!] Error: Output path exists but is not a folder: {output_folder}")
+        return
+
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
+        print(f"[*] Created output folder: {output_folder}")
+    else:
+        print(f"[*] Using output folder: {output_folder}")
 
     pdf_files = [f for f in os.listdir(pdf_folder) if f.endswith('.pdf')]
     print(f"[*] Found {len(pdf_files)} PDFs. Attempting robust matching...")

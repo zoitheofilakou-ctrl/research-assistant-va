@@ -6,7 +6,13 @@ import argparse
 # Add project root to path so sibling packages can be imported
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from retrieval.retrieval import cmd_query, get_chroma_collection, SentenceTransformer, EMBED_MODEL_NAME
+from Retrieval.retrieval import (
+    CHROMA_DIR,
+    EMBED_MODEL_NAME,
+    SentenceTransformer,
+    get_chroma_collection,
+    require_retrieval_dependencies,
+)
 from llm.interface import get_llm_provider
 
 # Used to build rules for the model and the answer template
@@ -79,7 +85,14 @@ def generate_rag_answer(
     Returns:
         {"answer": str, "sources": list, "query": str}
     """
-    
+    if not user_query.strip():
+        raise ValueError("Query must not be empty.")
+
+    # Match retrieval.py runtime checks and fail with explicit messages.
+    require_retrieval_dependencies()
+    if not os.path.exists(CHROMA_DIR):
+        raise RuntimeError("No index found. Run: python Retrieval/retrieval.py index")
+
     # Get LLM
     llm = get_llm_provider(provider, **kwargs)
     
@@ -107,13 +120,15 @@ def generate_rag_answer(
         context_text += f"\n[Paper {i+1}] {meta.get('title', 'Unknown')}\n"
         context_text += f"URL: {meta.get('url', 'N/A')}\n"
         context_text += f"Year: {meta.get('year', 'N/A')}\n"
-        context_text += f"Abstract: {doc}\n"
+        context_text += f"Text source: {meta.get('text_source', 'unknown')}\n"
+        context_text += f"Excerpt: {doc}\n"
         
         sources.append({
             "title": meta.get("title"),
             "url": meta.get("url"),
             "year": meta.get("year"),
-            "paperId": meta.get("paperId")
+            "paperId": meta.get("paperId"),
+            "text_source": meta.get("text_source"),
         })
     
     # Generate answer
