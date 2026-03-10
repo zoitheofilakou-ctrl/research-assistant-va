@@ -102,6 +102,8 @@ Exclusion criteria (EXCLUDE if ANY apply):
 - The paper focuses exclusively on non-healthcare domains
   (e.g., finance, digital currency, general blockchain infrastructure)
   without clear relevance to healthcare practice.
+  
+- Exclude non-English papers
 
 
 Important constraints:
