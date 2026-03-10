@@ -1,0 +1,302 @@
+[
+    {
+        "paperId": "2f06cdba66b60003ceb92579cef8ce8f3058940b",
+        "title": "Understanding, experience and attitudes towards artificial intelligence technologies for clinical decision support in hearing health: a mixed-methods survey of healthcare professionals in the UK",
+        "decision": "EXCLUDE",
+        "justification": "The paper evaluates healthcare professionals' attitudes towards AI technologies in clinical decision support, which does not align with the inclusion criteria focused on developing knowledge or understanding research evidence."
+    },
+    {
+        "paperId": "169316c86726d0d48fd3cee927cf25197c2eb74c",
+        "title": "Knowledge, attitudes, and concerns about psilocybin and MDMA as novel therapies among U.S. healthcare professionals",
+        "decision": "INCLUDE",
+        "justification": "The paper assesses healthcare professionals' knowledge and attitudes towards psychedelic-assisted therapy, contributing to professional learning and evidence awareness regarding emerging therapies. It focuses on understanding and synthesizing healthcare literature rather than providing actionable clinical guidance."
+    },
+    {
+        "paperId": "f86bbf1f6be39fe5c3fc8373e832b16bd828a405",
+        "title": "Healthcare professionals’ perception of using a web-based reminiscence therapy to support person with dementia during the COVID-19 pandemic",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes the use of web-based reminiscence therapy as a treatment for patients with dementia, which falls under actionable care and does not meet the inclusion criteria."
+    },
+    {
+        "paperId": "5f1a24be097954cb8a5ca1bee1a12a45a460bf04",
+        "title": "Education and clinical decision support for healthcare professionals on emergency preparedness for extremely dangerous pathogens: report of a conference workshop",
+        "decision": "INCLUDE",
+        "justification": "The paper supports healthcare professionals in developing knowledge and understanding related to emergency preparedness for infectious diseases, focusing on education and clinical decision support, which contributes to professional learning and evidence awareness."
+    },
+    {
+        "paperId": "bb133c9343bfc2f2788f16c32f09c94acdab5a06",
+        "title": "Instruments for assessing healthcare professionals' knowledge and skills of evidence-based practice: A scoping review.",
+        "decision": "INCLUDE",
+        "justification": "The paper focuses on assessing healthcare professionals' knowledge and skills related to evidence-based practice, which supports professional learning and understanding of research evidence. It contributes to the synthesis and organization of healthcare literature relevant to professional development."
+    },
+    {
+        "paperId": "8ba8ed724bdf25a39aed605132a92ac0773c9a82",
+        "title": "What do healthcare professionals want from a resource to support person-centred conversations on physical activity? A mixed-methods, user-centric approach to developing educational resources",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes the development of a resource for healthcare professionals to support patient conversations about physical activity, which could be interpreted as clinical guidance, thus failing to meet the inclusion criteria."
+    },
+    {
+        "paperId": "4ad09107c87cf61ebe5187f1419d69e7b89b0331",
+        "title": "Exploration of the views and experiences of research healthcare professionals during their redeployment to clinical roles during the COVID‐19 pandemic",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses on the experiences of research healthcare professionals during redeployment to clinical roles, which does not support professional learning or understanding research evidence but rather describes their experiences and challenges in a clinical context."
+    },
+    {
+        "paperId": "b1a1948e5b8ec9b431fa98a2960f5cbd1715cd80",
+        "title": "ImpENSA eHealthy Conversation Skills training for healthcare professionals aimed at improving micronutrient status during the first 1000 days in South Africa",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes a training program aimed at improving healthcare professionals' skills to support patients, which includes actionable care guidance and focuses on treatment delivery rather than professional knowledge or understanding."
+    },
+    {
+        "paperId": "d339c190259035de7d11ebb8965c4f613618f2ea",
+        "title": "Perspectives of healthcare professionals on the use of immersive virtual reality in teenage and young adult oncology: a qualitative interview study",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes the use of virtual reality in TYA oncology as actionable care and evaluates the perspectives of healthcare professionals on its implementation, which does not align with the inclusion criteria focused on professional knowledge development."
+    },
+    {
+        "paperId": "f7dd443c4920fd1a247d6ef479e0de42308ac219",
+        "title": "Knowledge and attitudes towards living wills among healthcare professionals, residents and relatives in nursing homes: A qualitative study.",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes knowledge and attitudes towards living wills among healthcare professionals but primarily focuses on patient-related issues and does not support professional learning or understanding in a way that meets the inclusion criteria."
+    },
+    {
+        "paperId": "6c089fa2f6d6c29fcf0ba8c4f5609f47c2d2712d",
+        "title": "The difference in knowledge and concerns between healthcare professionals and patients about genetic-related issues: A questionnaire-based study",
+        "decision": "EXCLUDE",
+        "justification": "The paper evaluates the knowledge and concerns of healthcare professionals and patients regarding genetic-related issues, which focuses on patient outcomes rather than professional knowledge or understanding."
+    },
+    {
+        "paperId": "59dcc110966f5f099e9eb6fd05768673a8791134",
+        "title": "Empowered patients and informal care-givers as partners?—a survey study of healthcare professionals’ perceptions",
+        "decision": "EXCLUDE",
+        "justification": "The paper is directly addressed to patients and discusses their engagement in clinical settings, which does not align with the inclusion criteria focused on professional knowledge and understanding."
+    },
+    {
+        "paperId": "b7173949b349921d7d31536ce28b91071e272b2c",
+        "title": "Dietary intervention in gestational diabetes: a qualitative study of the acceptability and feasibility of a novel whole-diet intervention in healthcare professionals",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes a dietary intervention and its acceptability among healthcare professionals, but it focuses on treatment delivery and clinical application rather than supporting professional knowledge or understanding."
+    },
+    {
+        "paperId": "c624607d09dc1e4807381b72ed5178c0436cfe1b",
+        "title": "Bioethical knowledge in students and health professionals: a systematic review",
+        "decision": "INCLUDE",
+        "justification": "The paper focuses on the development of bioethical knowledge among healthcare professionals, contributing to their understanding and reflective practice in addressing ethical dilemmas in clinical settings."
+    },
+    {
+        "paperId": "49bbb4bb4c1a086d721223c121669ef2e791f104",
+        "title": "Towards a Knowledge Graph-Based Explainable Decision Support System in Healthcare",
+        "decision": "EXCLUDE",
+        "justification": "The paper discusses an AI-based clinical decision support system, which falls under the exclusion criteria as it uses AI for autonomous/semi-autonomous clinical decision-making."
+    },
+    {
+        "paperId": "dc3d01368bf4a77f61ac1b4e040e431a5c0977e0",
+        "title": "Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases",
+        "decision": "EXCLUDE",
+        "justification": "The paper discusses AI-based clinical decision support systems that are primarily focused on patient care and treatment optimization, which falls under actionable care and does not support professional knowledge development or reflective practice."
+    },
+    {
+        "paperId": "e7e8de3fd7dbc1fa0effa103506429264ce24cab",
+        "title": "Unmet needs and gaps in the identification of secondary progression in multiple sclerosis: a Southern Italy healthcare professionals’ perspective",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes treatment delivery and management strategies for patients with multiple sclerosis, which could be interpreted as actionable care, thus failing to meet the inclusion criteria."
+    },
+    {
+        "paperId": "f2c42c77b77854d9d2ecf720e70b058123d66a12",
+        "title": "Using an Activity Tracker in Healthcare: Experiences of Healthcare Professionals and Patients",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes the implementation of an activity tracker in clinical practice and includes actionable guidance for therapists on its use, which falls under the exclusion criteria regarding clinical application performed on patients as actionable care."
+    },
+    {
+        "paperId": "58444ef0794b7aeb9117156a5c97c6abc7c08ca2",
+        "title": "The Medical Science Liaison Role in Spain: A Survey About the Opinion of HealthCare Professionals",
+        "decision": "INCLUDE",
+        "justification": "The paper focuses on healthcare professionals' understanding of the Medical Science Liaison role and its perceived utility in clinical practice, contributing to professional learning and evidence awareness."
+    },
+    {
+        "paperId": "cc2ad19bf5420b740d14a66a97420b7a6a5e63ec",
+        "title": "Mobile health applications for managing atrial fibrillation for healthcare professionals and patients: a systematic review.",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes mobile health applications aimed at both patients and healthcare professionals, but it primarily evaluates patient outcomes and behavior rather than focusing on professional knowledge or understanding."
+    },
+    {
+        "paperId": "0d20504b7e04cb876ea7f3a140b8813646ae5ffa",
+        "title": "Supplemental Learning in Respiratory Physiology for Healthcare Professionals Towards Successful Treatment of COVID-19",
+        "decision": "INCLUDE",
+        "justification": "The paper supports healthcare professionals in developing knowledge and understanding of respiratory physiology related to COVID-19, contributing to professional learning and evidence awareness. It focuses on the synthesis and interpretation of healthcare literature through an educational resource designed for professionals."
+    },
+    {
+        "paperId": "19fae6f0cbdc7237874b3d7443d1822d523d5717",
+        "title": "Development of online cancer resources to support pre-registration nurses and allied health professionals.",
+        "decision": "INCLUDE",
+        "justification": "The paper supports healthcare professionals in developing knowledge and understanding related to cancer care, contributing to professional learning and evidence awareness through the development of e-learning modules."
+    },
+    {
+        "paperId": "6ffac712f9e5f0b10aaec262aa6a3bf14b27ca1b",
+        "title": "Enhancing Privacy of Clinical Decision Support Systems with Federated Learning",
+        "decision": "EXCLUDE",
+        "justification": "The paper discusses the use of AI in Clinical Decision Support Systems, which falls under the exclusion criteria as it involves autonomous/semi-autonomous clinical decision-making."
+    },
+    {
+        "paperId": "41ae7e188a68350291b938f41fed8ea64c939f00",
+        "title": "'The desire for a harmonious interaction': A qualitative study of how healthcare professionals in community-based dementia teams perceive their role in reaching and supporting family caregivers from minority ethnic backgrounds.",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses on the perceptions and roles of healthcare professionals in supporting family caregivers, but it primarily addresses treatment delivery and support for caregivers rather than enhancing professional knowledge or understanding."
+    },
+    {
+        "paperId": "0221e2c46f9e5a4499239a11ab7607a12cf95e1f",
+        "title": "Clinical decision support systems to improve drug prescription and therapy optimisation in clinical practice: a scoping review",
+        "decision": "INCLUDE",
+        "justification": "The paper focuses on clinical decision support systems (CDSSs) that aim to improve healthcare professionals' knowledge and understanding of drug prescription, contributing to professional learning and evidence awareness."
+    },
+    {
+        "paperId": "3966af126c6b10f56c6e74e9b3ad552f328221f1",
+        "title": "Mobilising computable biomedical knowledge: challenges for clinical decision support from a medical knowledge provider",
+        "decision": "EXCLUDE",
+        "justification": "The paper discusses challenges in mobilising computable biomedical knowledge for clinical decision support, which primarily focuses on patient outcomes and clinical decision-making rather than supporting healthcare professionals' knowledge or understanding."
+    },
+    {
+        "paperId": "6ee5ecb7ad5f415c2d5a696fc4ef5a131d27d295",
+        "title": "A knowledge-based decision support system for inferring supportive treatment recommendations for diabetes mellitus",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes a Clinical Decision Support System that provides actionable treatment suggestions for diabetes mellitus patients, which falls under the exclusion criteria of describing treatment delivery or clinical application performed on patients."
+    },
+    {
+        "paperId": "acaf5a0ac1228edd9d776850f070d8365ab8511f",
+        "title": "Electronic alerts based on clinical decision support system for post-contrast acute kidney injury",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses on a clinical decision support system aimed at improving patient care, which suggests it is directly related to treatment delivery and actionable care rather than supporting professional knowledge or understanding."
+    },
+    {
+        "paperId": "8ebed549e4934c7a4edb29103479b259bee4ac5f",
+        "title": "ACO based Clinical Decision Support System for Better Medical Care",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes the design and implementation of a clinical decision support system that focuses on providing actionable care and treatment plans for patients, which falls under the exclusion criteria."
+    },
+    {
+        "paperId": "669d3a39f9bbcd4ab0941e3106f51874b7a47b9b",
+        "title": "Interpretability, personalization and reliability of a machine learning based clinical decision support system",
+        "decision": "EXCLUDE",
+        "justification": "The title indicates a focus on a machine learning-based clinical decision support system, which suggests the use of AI for clinical decision-making, thus falling under the exclusion criteria."
+    },
+    {
+        "paperId": "7783d83cd68c99106d637537ba3291b0ff432b3b",
+        "title": "FUTURE OF THE LANGUAGE MODELS IN HEALTHCARE: THE ROLE OF CHATGPT",
+        "decision": "EXCLUDE",
+        "justification": "The paper discusses the use of AI, specifically ChatGPT, in a way that suggests actionable guidance for healthcare professionals, which falls under the exclusion criteria."
+    },
+    {
+        "paperId": "8864b5e9ff06a65c09e10c9e38f73aa0f2900c06",
+        "title": "Transforming Healthcare: Harnessing the Power of AI in the Modern Era",
+        "decision": "EXCLUDE",
+        "justification": "The paper discusses the application of AI in healthcare with a focus on improving patient outcomes and clinical decision-making, which falls under the exclusion criteria of evaluating patient outcomes and presenting interventions as clinical guidance."
+    },
+    {
+        "paperId": "02290c326d0c2312849db2c7e2bef37461a57ccb",
+        "title": "Health Professionals’ Competencies in the Framework of Complexity: Digital Training Model for Education 4.0",
+        "decision": "INCLUDE",
+        "justification": "The paper focuses on developing knowledge and understanding for healthcare professionals through a digital training model, which supports professional learning and evidence awareness. It addresses the synthesis and organization of information resources relevant to healthcare practices."
+    },
+    {
+        "paperId": "4183943fee64b5281ec29be53ae54a3e3941b243",
+        "title": "Attention on Personalized Clinical Decision Support System: Federated Learning Approach",
+        "decision": "EXCLUDE",
+        "justification": "The paper discusses a clinical decision support system that focuses on actionable care and medical diagnosing, which falls under the exclusion criteria of providing clinical guidance and treatment delivery."
+    },
+    {
+        "paperId": "8c34cc81d48e79743a70dda0de3b7b87acda9f77",
+        "title": "Virtual communities of practice to improve clinical outcomes in healthcare: protocol for a 10-year scoping review",
+        "decision": "INCLUDE",
+        "justification": "The paper focuses on improving healthcare professionals' knowledge and understanding through the establishment of virtual communities of practice, which aligns with the criteria for supporting professional learning and evidence awareness."
+    },
+    {
+        "paperId": "bf29675ed92f403f22e60da2878072e193e60a8b",
+        "title": "Development and Implementation of a Brief Healthcare Professional Support Program Based in Gratitude, Mindfulness, Self-compassion, and Empathy",
+        "decision": "INCLUDE",
+        "justification": "The paper supports healthcare professionals in developing knowledge and understanding through a support program, contributing to professional learning and reflective practice."
+    },
+    {
+        "paperId": "5affe6f599ba042ffb7270e396a1e380c8ef07b4",
+        "title": "Knowledge Management-Based Nursing Care Educational Training: A Key Strategy to Improve Healthcare Associated Infection Prevention Behavior",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes a training intervention aimed at improving nursing behavior related to infection prevention, which is presented as actionable care rather than as a reflective or analytical discussion for professional understanding."
+    },
+    {
+        "paperId": "3bbc10cb89813e3aef8fce6a38b2a4506c539bb3",
+        "title": "Beyond the bedside: A scoping review of the experiences of non‐practising health care professionals in Health Professions Education",
+        "decision": "INCLUDE",
+        "justification": "The paper focuses on the experiences of non-practising healthcare professionals in Health Professions Education, contributing to professional learning and understanding within the field, which aligns with the inclusion criteria."
+    },
+    {
+        "paperId": "9856eb322305a7860d2d1d74bc5292b586bb166c",
+        "title": "How Knowledge Mapping Can Bridge the Communication Gap Between Caregivers and Health Professionals Supporting Individuals With Complex Medical Needs: A Study in Fragile X Syndrome",
+        "decision": "INCLUDE",
+        "justification": "The paper focuses on enhancing communication between caregivers and health professionals, which supports professional understanding and knowledge development. It discusses knowledge mapping as a tool for improving communication in healthcare settings, contributing to professional learning and reflective practice."
+    },
+    {
+        "paperId": "82b23dd514e7fad09452d010b054fd698cc27b5b",
+        "title": "Large Language Model Prompting Techniques for Advancement in Clinical Medicine",
+        "decision": "EXCLUDE",
+        "justification": "The paper discusses the use of Large Language Models in clinical medicine, focusing on enhancing healthcare access and diagnosis, which implies actionable care and clinical guidance rather than supporting professional knowledge or understanding."
+    },
+    {
+        "paperId": "17463d03c4b41e7a01e3a42dd8eb697592c5f4d9",
+        "title": "Personalising veteran healthcare: recognising barriers to access for minority and under-represented groups of veterans",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses on barriers to access for veterans, which is directly related to patient care and does not support healthcare professionals in developing knowledge or understanding research evidence."
+    },
+    {
+        "paperId": "466106954a1c9b51e6a1a0ef7a5db8931f89a8ee",
+        "title": "Effectiveness of an Education Program on Nurses Knowledge toward Enteral Nutrition Support for Unconscious Patients at Critical Care Unit in Imam Al-Hussein Medical City in Holy Karbala",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes an educational program aimed at improving nurses' knowledge about enteral nutrition support for unconscious patients, but it evaluates patient outcomes and presents interventions in a way that could be interpreted as clinical guidance."
+    },
+    {
+        "paperId": "e0024f27311292e94baa13d7afb6bba89ae1a96c",
+        "title": "ACcurate COnsensus Reporting Document (ACCORD) explanation and elaboration: Guidance and examples to support reporting consensus methods",
+        "decision": "INCLUDE",
+        "justification": "The paper supports healthcare professionals in understanding and reporting consensus methods, contributing to professional learning and evidence awareness. It focuses on the synthesis and organization of healthcare literature related to consensus reporting, which aligns with the inclusion criteria."
+    },
+    {
+        "paperId": "9283fb473c8727583294548cf777f0e89914f589",
+        "title": "Fostering the Collaboration Among Healthcare Stakeholders with ICF in Clinical Practice: EasyICF",
+        "decision": "EXCLUDE",
+        "justification": "The title suggests a focus on collaboration among healthcare stakeholders, which may imply actionable guidance or clinical application rather than supporting professional knowledge or understanding. Without an abstract, it is unclear if it meets the inclusion criteria."
+    },
+    {
+        "paperId": "a4a1d5f33602163eb99919ca11e6da1ca73c1a7b",
+        "title": "Measuring clinical trial set-up complexity: development and content validation of a pharmacy scoring tool to support workload planning",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes the development of a scoring tool for pharmacy activities related to clinical trial complexity, which could be interpreted as actionable guidance for clinical practice, thus failing to meet the inclusion criteria."
+    },
+    {
+        "paperId": "86a82036555624a36d0e00efd0c9ead59906b064",
+        "title": "What should all health professionals know about movement behaviour change? An international Delphi-based consensus statement",
+        "decision": "INCLUDE",
+        "justification": "The paper focuses on establishing key competencies for health professionals to support movement behaviour change, contributing to professional learning and understanding of research evidence in healthcare. It does not provide actionable clinical guidance or directly address patients."
+    },
+    {
+        "paperId": "afab896b331be7c22fae3871174604001fe26ddf",
+        "title": "Definition and management of right ventricular injury in adult patients receiving extracorporeal membrane oxygenation for respiratory support using the Delphi method: a PRORVnet study. Expert position statements",
+        "decision": "EXCLUDE",
+        "justification": "The title suggests a focus on the management of a specific clinical condition in patients, which indicates actionable care and treatment delivery, thus failing to meet the inclusion criteria."
+    },
+    {
+        "paperId": "547393e274fb2098d18ec9be5d636cf096bb4dad",
+        "title": "Standardized assessment of evidence supporting the adoption of mobile health solutions: A Clinical Consensus Statement of the ESC Regulatory Affairs Committee",
+        "decision": "EXCLUDE",
+        "justification": "The paper describes criteria for healthcare professionals to evaluate mHealth solutions but emphasizes providing informed advice to patients about mHealth utilization, which could be interpreted as clinical guidance."
+    },
+    {
+        "paperId": "310165642e145dadd879c166cbb2fc5598b37a93",
+        "title": "Effectiveness and harms of clinical decision support systems for referral within chronic pain practice: protocol for a systematic review and meta-analysis",
+        "decision": "EXCLUDE",
+        "justification": "The paper evaluates clinical decision support systems in the context of patient outcomes and discusses their effectiveness, which falls under the exclusion criteria of evaluating patient outcomes rather than professional knowledge or understanding."
+    },
+    {
+        "paperId": "f3ec275676376226b7f44dcf01f762556b01d545",
+        "title": "Integrating accompanying patients into clinical oncology teams: limiting and facilitating factors",
+        "decision": "EXCLUDE",
+        "justification": "The paper is directly addressed to patients by discussing the integration of accompanying patients into clinical oncology teams and focuses on improving patient experience, which falls outside the inclusion criteria."
+    }
+]
