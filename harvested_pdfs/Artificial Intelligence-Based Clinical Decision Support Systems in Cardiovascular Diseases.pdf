@@ -1,0 +1,595 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases The Anatolian Journal of Cardiology</title>
+    <meta name="description" content="The Anatolian Journal of Cardiology - Peer-reviewed cardiology journal publishing original research, reviews, case reports. Impact Factor 1.5.">
+    <!-- Favicon | Start -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#ff0000">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Favicon | End -->
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="nR1oK2OCD312FAXBI6sfmACCtSzdFmfrMCcyJNrk">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="The Anatolian Journal of Cardiology - Leading international cardiology journal with Impact Factor 1.5. Publishing original research, reviews, and case reports in cardiovascular medicine. Indexed in PubMed, Scopus, and Web of Science.">
+    <meta name="keywords" content="cardiology, cardiovascular medicine, heart disease, cardiac surgery, interventional cardiology, electrophysiology, heart failure, coronary artery disease, anatolian journal cardiology, impact factor, pubmed, scopus">
+
+
+    <link rel="canonical" href="https://anatoljcardiol.com/">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (Facebook/LinkedIn ) Meta Etiketleri -->
+    <meta property="og:title" content="The Anatolian Journal of Cardiology">
+    <meta property="og:description" content="Leading international cardiology journal with Impact Factor 1.5. Publishing original research in cardiovascular medicine. Indexed in PubMed, Scopus, Web of Science.">
+    <meta property="og:image" content="https://anatoljcardiol.com/assets/images/journal-cover.jpg">
+    <meta property="og:url" content="https://anatoljcardiol.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Anatolian Journal of Cardiology">
+
+    <!-- Twitter Card Meta Etiketleri -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Anatolian Journal of Cardiology">
+    <meta name="twitter:description" content="Leading international cardiology journal with Impact Factor 1.5. Publishing original research in cardiovascular medicine.">
+    <meta name="twitter:image" content="https://anatoljcardiol.com/assets/images/journal-cover.jpg">
+    <meta name="twitter:site" content="@AnatolJCardiol">
+
+    <!-- Akademik/Scholarly Meta Etiketleri -->
+    <meta name="citation_journal_title" content="The Anatolian Journal of Cardiology">
+    <meta name="citation_issn" content="2149-2263">
+    <meta name="citation_eissn" content="2149-2271">
+    <meta name="citation_publisher" content="Turkish Society of Cardiology">
+
+    <!-- Structured Data (JSON-LD ) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Periodical",
+      "name": "The Anatolian Journal of Cardiology",
+      "alternateName": "Anatol J Cardiol",
+      "issn": ["2149-2263", "2149-2271"],
+      "url": "https://anatoljcardiol.com",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Turkish Society of Cardiology",
+        "url": "https://tkd.org.tr"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Cardiology"
+        },
+        {
+          "@type": "Thing",
+          "name": "Cardiovascular Medicine"
+        }
+      ],
+      "inLanguage": "en",
+      "copyrightHolder": {
+        "@type": "Organization",
+        "name": "Turkish Society of Cardiology"
+      },
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
+    </script>
+
+    <meta name="author" content="Turkish Society of Cardiology">
+    <meta name="copyright" content="Turkish Society of Cardiology">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Source+Sans+3:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+        <meta name="citation_title" content="Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases">
+            <meta name="citation_author" content="Bozyel, Serdar">
+        <meta name="citation_author" content="Şimşek, Evrim">
+        <meta name="citation_author" content="Koçyiğit Burunkaya, Duygu">
+        <meta name="citation_author" content="Güler, Arda">
+        <meta name="citation_author" content="Korkmaz, Yetkin">
+        <meta name="citation_author" content="Şeker, Mehmet">
+        <meta name="citation_author" content="Ertürk, Mehmet">
+        <meta name="citation_author" content="Keser, Nurgül">
+            <meta name="citation_journal_title" content="The Anatolian Journal of Cardiology">
+        <meta name="citation_publication_date" content="2024">
+    <meta name="citation_volume" content="28">
+    <meta name="citation_issue" content="2">
+        <meta name="citation_doi" content="10.14744/AnatolJCardiol.2023.3685" />
+    <meta name="citation_firstpage" content="74">
+    <meta name="citation_lastpage" content="">
+    <meta name="citation_pdf_url" content="https://anatoljcardiol.com/storage/upload/pdfs/AJC_28_2_74_86.pdf">
+    <meta property='og:url' content='http://anatoljcardiol.com/article/AJC-70337' />
+    <meta property='og:type' content='article' />
+    <meta property='og:title' content='Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases' />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1GPCKE2R2P"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1GPCKE2R2P');
+    </script>
+</head>
+
+<body>
+<div class="container-fluid bg-light border-bottom small py-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 header-top-bar text-end d-flex justify-content-end">
+                Follow us: <a href="https://x.com/TKDResmi" target="_blank" class="text-decoration-none text-black px-2"> <svg xmlns="http://www.w3.org/2000/svg" width="15" viewBox="0 0 512 512" role="img" aria-label="X">
+                        <path fill="currentColor" d="M317.1 215.3 444.6 64H414.7L303.8 195.8 215.3 64H64l133.7 199.6L64 448h29.9l117.3-139.5L304.7 448H456L317.1 215.3zM226.4 287.2l-13.4-19.2L106.5 112h68.9l86 123.1 13.4 19.2L386.2 416h-68.9l-90.9-128.8z"></path>
+                    </svg></a> | <a href="https://www.linkedin.com/company/t%C3%BCrk-kardiyoloji-derne%C4%9Fi-turkish-society-of-cardiology/posts/?feedView=all
+" target="_blank" class="text-decoration-none text-black px-2 d-flex align-items-center"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" role="img" aria-label="LinkedIn" width="14" class="me-2">
+                        <path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                    </svg></a>
+            </div>
+        </div>
+    </div>
+</div>
+<header>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-9 align-self-center">
+                    <div class="header-logo"><a href="/"><img src="/assets/images/logo.svg"></a></div>
+                </div>
+
+                <div class="col-12 col-sm-3 align-self-center text-end">
+                    <div class="header-logo"><img src="/assets/images/logo-tkd.svg" style="max-width:120px;"></div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Articles & Issues
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/year/2026/volume/30/issue/2">Latest Issue</a></li>
+                            <li><a class="dropdown-item" href="/archive">All Issues</a></li>
+                            <li><a class="dropdown-item" href="/most-accessed-articles">Most Accessed Articles</a></li>
+
+                            <li><a class="dropdown-item" href="/ahead-of-print">Articles in Press</a></li>
+                        </ul>
+                    </li>
+
+                                                                    <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                                                                    <li class="nav-item"><a class="nav-link" href="/abstracting-and-indexing">Abstracting &amp; Indexing</a></li>
+                                                                    <li class="nav-item"><a class="nav-link" href="/aims-and-scope">Aims &amp; Scope</a></li>
+                                                                    <li class="nav-item"><a class="nav-link" href="/editorial-board">Editorial Board</a></li>
+                                                                    <li class="nav-item"><a class="nav-link" href="/instructions-for-authors">Instructions for Authors</a></li>
+                                
+
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                    <li class="nav-item "><a class="nav-link text-primary" href="/search" > <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 21L15.0001 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#ee1e23" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Search
+                        </a></li>
+
+                    <li class="nav-item "><a class="nav-link active-menu px-2" href="https://ajc.manuscriptmanager.net/" target="_blank">Manuscript Submission</a></li>
+
+                </ul>
+                        </div>
+        </div>
+    </div>
+</nav>
+
+
+                    <main>
+                          <section class="content-page py-3 article-page">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+
+                    <div class="p-4 border-0">
+
+                        <div class="content">
+                            <div class="row article">
+                                <div class="col-12">
+                                    <div class="article-category fs-5 text-secondary text-uppercase text-purple">Review</div>
+
+                                    <div class="article-title">Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases</div>
+                                    <div class="article-authors">
+                                                                                                                                    <a href="https://orcid.org/0000-0002-6582-3660" target="_blank">                                                      <u>   Serdar Bozyel</u> <sup>1</sup>
+                                                     <img src="/assets/images/orcid.svg"></a> ,                                                                                             <a href="https://orcid.org/0000-0003-3183-8060" target="_blank">                                                       Evrim Şimşek <sup>2</sup>
+                                                     <img src="/assets/images/orcid.svg"></a> ,                                                                                             <a href="https://orcid.org/0000-0001-5547-0235" target="_blank">                                                       Duygu Koçyiğit Burunkaya <sup>3</sup>
+                                                     <img src="/assets/images/orcid.svg"></a> ,                                                                                             <a href="https://orcid.org/0000-0002-5763-6785" target="_blank">                                                       Arda Güler <sup>4</sup>
+                                                     <img src="/assets/images/orcid.svg"></a> ,                                                                                             <a href="https://orcid.org/0000-0002-5144-1178" target="_blank">                                                       Yetkin Korkmaz <sup>5</sup>
+                                                     <img src="/assets/images/orcid.svg"></a> ,                                                                                             <a href="https://orcid.org/0000-0001-5552-5144" target="_blank">                                                       Mehmet Şeker <sup>5</sup>
+                                                     <img src="/assets/images/orcid.svg"></a> ,                                                                                             <a href="https://orcid.org/0000-0002-2468-2793" target="_blank">                                                       Mehmet Ertürk <sup>4</sup>
+                                                     <img src="/assets/images/orcid.svg"></a> ,                                                                                             <a href="https://orcid.org/0000-0002-6482-9913" target="_blank">                                                       Nurgül Keser <sup>5</sup>
+                                                     <img src="/assets/images/orcid.svg"></a>                                                                                                                         </div>
+                                    <div class="article-institutions">
+                                                                                                                                    <sup>1</sup>Department of Cardiology, Health Sciences University, Kocaeli City Hospital, Kocaeli, Türkiye<br>
+                                                                                            <sup>2</sup>Department of Cardiology, Ege University, Faculty of Medicine, İzmir, Türkiye<br>
+                                                                                            <sup>3</sup>Department of Cardiology, Health Sciences University, Ankara City Hospital, Ankara, Türkiye<br>
+                                                                                            <sup>4</sup>Department of Cardiology, Health Sciences University, Mehmet Akif Ersoy Training and Research Hospital, İstanbul, Türkiye<br>
+                                                                                            <sup>5</sup>Department of Cardiology, Health Sciences University, Sultan Abdulhamid Han Training and Research Hospital, İstanbul, Türkiye<br>
+                                                                                                                        </div>
+
+                                    <div class="article-doi-pages"> Anatol J Cardiol   2024; 28(2):  74-86   <span>PubMed ID:</span> <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?form=4&amp;amp;db=pubmed&amp;amp;orig_db=PubMed&amp;amp;term=38168009&amp;amp;cmd=search" target="_blank">38168009</a>   <span>PMCID:</span>  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/10837676/" target="_blank">10837676</a>      <span>DOI:</span> <a href="https://dx.doi.org/10.14744/AnatolJCardiol.2023.3685" target="_blank">10.14744/AnatolJCardiol.2023.3685</a>  </div>
+                                </div>
+                                <div class="article-buttons">
+
+
+                                                                            <button class="article-button btn btn-outline-primary" data-bs-toggle="modal" data-toggle="modal" data-bs-target="#citeModal">
+                                        Cite Article
+                                    </button>
+                                                                         <a href="/article/AJC-70337/pdf"  class="article-button btn btn-outline-primary" target="_blank">Full Text <span>PDF</span></a>                                                                         
+                                </div>
+
+
+
+
+                                                                    <h4>Abstract</h4>
+                                                                <div class="article-abstract">
+                                    <p>
+                                        Despite all the advancements in science, medical knowledge, healthcare, and the healthcare industry, cardiovascular disease (CVD) remains the leading cause of morbidity and mortality worldwide. The main reasons are the inadequacy of preventive health services and delays in diagnosis due to the increasing population, the failure of physicians to apply guide-based treatments, the lack of continuous patient follow-up, and the low compliance of patients with doctors’ recommendations. Artificial intelligence (AI)-based clinical decision support systems (CDSSs) are systems that support complex decision-making processes by using AI techniques such as data analysis, foresight, and optimization. Artificial intelligence-based CDSSs play an important role in patient care by providing more accurate and personalized information to healthcare professionals in risk assessment, diagnosis, treatment optimization, and monitoring and early warning of CVD. These are just some examples, and the use of AI for CVD decision support systems is rapidly evolving. However, for these systems to be fully reliable and effective, they need to be trained with accurate data and carefully evaluated by medical professionals.
+                                    </p>
+                                </div>
+                                <div class="article-keywords mb-2">
+                                                                            <span class="text-primary">Keywords:</span> Artificial intelligence, clinical decision support systems, cardiovascular diseases, patient management, prediction
+                                                                    </div>
+
+                                
+
+                                
+
+                                
+                                
+
+                                    
+                                   <div class="row">
+   <div class="col-12">
+                                       <div class="alert alert-light">
+                                       <h4 class="text-primary">Highlights</h4>
+                                       <ul class="list-unstyled ps-3">
+                                                                                          <li>Clinical decision support systems (CDSSs) offer patient-tailored, evidence-based guidance on cardiovascular risk factor screening, diagnosis, and management and therefore have a great deal of promise to fill in the gaps in the implementation of cardiovascular disease prevention guidelines and facilitate clinicians’ workflows.</li>
+                                                                                          <li>The developments in risk assessment, differential diagnosis in the emergency department, and imaging-based approaches are likely to start a new era in the management of coronary artery disease.</li>
+                                                                                          <li>The use of artificial intelligence (AI) and machine learning in the follow-up of patients with heart failure is supported in the literature to reduce mortality by predicting the prognosis.</li>
+                                                                                          <li>Artificial intelligence-guided risk stratification based on sinus rhythm electrocardiograms could help targeted AF screening programs. This approach could decrease patient numbers needed to screen.</li>
+                                                                                          <li>Clinical research on a broader scale with diverse populations is necessary and ongoing, and a key condition for creating and maintaining AI models and integrating them into CDDS is access to data of sufficient quality. Therefore, it is of great importance to standardize the reporting of data in health record systems across the country.</li>
+                                                                                  </ul>
+                                       </div>
+                                   
+                                                                                                                                 <h4>Introduction</h4>
+                                               
+                                                                                                                  <p><p>Artificial intelligence (AI)-based clinical decision support systems (CDSSs) in cardiovascular disease (CVD) are important tools that help healthcare professionals in the diagnosis, treatment, and management of CVD. These systems analyze large amounts of data, helping users make accurate and informed decisions. Artificial intelligence-based CDSS usually includes the following components (<xref ref-type="fig" rid="f1-ajc-28-2-74">Figure 1</xref>):</p></p>
+                                                                                                                  <p><p>Artificial intelligence-based CDSSs provide an important support to health professionals in the early diagnosis of CVD, treatment planning, and patient management. However, it is important to remember that these systems are helpful tools for healthcare professionals, who bear the ultimate responsibility for decisions. In this review, we tried to summarize the status and usage areas of AI-based CDSS in different areas of CVD.</p></p>
+                                                       
+                                                                                                                                                                                                        <h4 class="fs-6 fw-bold text-black">Artificial Intelligence-Based Clinical Decision Support Systems for Cardiovascular Risk Assessment and Management</h4>
+                                                                                                                                                                                         <p><p>Despite the availability of a wide range of drugs and other treatment options, CVD continues to be the leading cause of morbidity and mortality worldwide. This persisting gap is mostly caused by the physicians’ failure to implement guideline recommendations and the patients’ poor compliance and adherence with physician advice.</p></p>
+                                                                                                                                  <p><p>Clinical decision support systems have the great potential to streamline physicians’ workflow in various CVD prevention components by providing patient-tailored feedback on cardiovascular risk factor screening, case detection, CVD risk estimation, risk factor and disease management (including advised investigations and treatment), and adherence promotion. The majority of CDSS in the field of CVD prevention is based on clinical algorithms that are fed from available clinical, laboratory, or imaging data, as opposed to using complex machine learning approaches to leverage inaccessible or unintelligible data. Although a more recent systematic review has failed to draw firm conclusions on the impact of CDSS on cardiovascular risk factors due to substantial variability in CDSS features and heterogeneity of the studies’ findings,<sup><a href="#b1-ajc-28-2-74" class="reference">1</a></sup> a previous systematic review of studies with a focus on CVD prevention that ultimately included 45 studies from January 1975 to October 2012 has demonstrated benefits of CDSS in terms of improvement in preventive cardiology care services by the clinicians.<sup><a href="#b2-ajc-28-2-74" class="reference">2</a></sup></p></p>
+                                                                                                                                  <p><p>Numerous regional examples of CDSS integrated with electronic health records that compute CVD risk and provide evidence-based recommendations individualized to the patient’s profile exist since CVD risk assessment is essential for guiding preventive treatment efforts.<sup><a href="#b3-ajc-28-2-74" class="reference">3</xref>,<xref ref-type="bibr" rid="b4-ajc-28-2-74">4</a></sup> To enable comprehensive screening and management in accordance with the suggestions of evidence-based medical guidelines for people with non-communicable chronic diseases, such as CVD, hypertension (HT), diabetes, and obesity, the Turkish Ministry of Health developed the disease management platform, a CDSS, which was implemented into primary care practices in Turkey in 2021.<sup><a href="#b5-ajc-28-2-74" class="reference">5</a></sup></p></p>
+                                                                                                                                  <p><p>It is also possible to assist detection and provide treatment guidance using CDSS designed for the management of specific cardiovascular risk factors, such as dyslipidemia<sup><a href="#b6-ajc-28-2-74" class="reference">6</xref>-<xref ref-type="bibr" rid="b8-ajc-28-2-74">8</a></sup> and HT,<sup><a href="#b9-ajc-28-2-74" class="reference">9</xref>,<xref ref-type="bibr" rid="b10-ajc-28-2-74">10</a></sup> which are intended for primary care professionals or specialists (<xref ref-type="table" rid="t1-ajc-28-2-74">Table 1</xref>). Such technologies could be especially helpful in nations with resource distribution limits and a need for scalable strategies to be adopted nationwide. The most recent instance is the Learning Implementation of Guideline-Based Decision Support System for HT Treatment (LIGHT) trial, in which the effectiveness of a CDSS for managing hypertension in comparison to standard care will be tested in 94 primary care centers in China.<sup><a href="#b11-ajc-28-2-74" class="reference">11</a></sup> With a similar goal in mind, the Indian Integrated Tracking, Referral, and Electronic Decision Support and Care Coordination (I-TREC) program was created with an emphasis on managing diabetes and HT.<sup><a href="#b12-ajc-28-2-74" class="reference">12</a></sup></p></p>
+                                                                                                                                  <p><p>Incorporating CDSS into electronic health records is anticipated to be helpful for promoting the adoption of healthy lifestyle practices among patients as well through guiding dietary consultancy<sup><a href="#b13-ajc-28-2-74" class="reference">13</a></sup> and physical exercise prescriptions.<sup><a href="#b14-ajc-28-2-74" class="reference">14</xref>,<xref ref-type="bibr" rid="b15-ajc-28-2-74">15</a></sup> Using CDSS is also expected to address the persistent gap in referrals and enrollment in cardiac rehabilitation programs.<sup><a href="#b16-ajc-28-2-74" class="reference">16</a></sup></p></p>
+                                                                                                                                  <p><p>Clinical decision support systems guidance in CVD prevention is anticipated to improve and become more individualized with the advances in wearables and mobile health devices that enable the capture of continuous real-time patient data, as well as the application of machine learning to analyze and interpret it efficiently.<sup><a href="#b17-ajc-28-2-74" class="reference">17</a></sup></p></p>
+                                                                                                                                                                                                                                <h4 class="fs-6 fw-bold text-black">Artificial Intelligence-Based Clinical Decision Support Systems for Coronary Artery Disease</h4>
+                                                                                                                                                                                         <p><p>Clinically significant atherosclerosis of the coronary arteries, known as coronary artery disease (CAD), is associated with significant morbidity and mortality and is currently the leading cause of death in the world.<sup><a href="#b18-ajc-28-2-74" class="reference">18</a></sup> Current guidelines emphasize the importance of early diagnosis and risk stratification in appropriate age and risk groups in order to administer targeted medical treatments that can alter CAD with a less morbid course. Although many risk estimation models have been developed, they are inherently limited by design, as they are based on regression models that make many mathematical assumptions that are often not valid in a real-world setting, such as linearity between variables and homogeneity of effects.<sup><a href="#b19-ajc-28-2-74" class="reference">19</xref>,<xref ref-type="bibr" rid="b20-ajc-28-2-74">20</a></sup> The complex nature and multifactorial pathology of CAD make such regression-based tools less generalizable across different populations. The development of AI-based CDSS can bring significant benefits.</p></p>
+                                                                                                                                  <p><p>Due to the role of genetic factors in the development of CAD, it has become possible to extract patterns and relationships from large-scale data, including genomic data, with machine learning (ML) and especially deep learning (DL) algorithms.<sup><a href="#b19-ajc-28-2-74" class="reference">19</a></sup> Numerous studies, differential expression analysis, and protein–protein interaction highlighted the role of ML in identifying CAD-associated genetic variants and expression patterns from mRNA sequences using networks. The integration of genetic factors into AI is expected to pave the way for more accurate and useful risk estimation methods in the coming period. However, there is no established or recommended decision support system for using gene analyses so far.</p></p>
+                                                                                                                                  <p><p>The addition of AI applications to many traditional scoring and application systems used for the early diagnosis of CAD has provided significant improvements. A deep neural network algorithm based on individuals’ facial profiles was able to outperform traditional risk scores in estimating the pretest probability of CAD. The addition of ML-based imaging models to traditional scoring also creates significant results for the early diagnosis of CAD. Various ML algorithms based on stress imaging, especially single-photon emission computed tomography (SPECT), have been developed to facilitate CAD estimation. These models combined clinical and demographic characteristics with quantitative variables as assessed by visual interpretation, or SPECT, to better predict CAD compared to quantitative variables alone.<sup><a href="#b21-ajc-28-2-74" class="reference">21</xref>,<xref ref-type="bibr" rid="b22-ajc-28-2-74">22</a></sup> Cardiovascular imaging techniques have big data, and AI-powered solutions create a suitable study field. In particular, AI can be used to measure cardiovascular risk, especially in CAD, in 2 main ways: (1) by applying DL algorithms directly to image data for automatic quantification of prognostic biomarkers or (2) through the integration of traditional or AI-based imaging measures with tabular data in ML models for individualized outcome prediction. Treadmill exercise test (TET) results influence cardiologists’ decisions to perform CAG, an invasive procedure. When false-positive rates of TET are high, ML models also have the ability to optimize performance based on ECG wave characteristics and signals.<sup><a href="#b23-ajc-28-2-74" class="reference">23</a></sup> But for all potential applications, high-quality data and model validation on invisible datasets are the keys to success. It has been shown that patients who are likely to have severe CAD on angiography can be distinguished from those without severe angiographic coronary disease and/or miscarriages. Such AI technologies could have the potential to significantly impact clinical workflows and patient care, particularly regarding patient selection for invasive testing.<sup><a href="#b24-ajc-28-2-74" class="reference">24</a></sup> A CDSS designed for suspected CAD achieved successful results using the XGBoost system, which is integrated with electronic medical record data. This model can reduce the number of invasive interventions and improve patient prognosis by facilitating decision-making on the appropriate medical intervention.<sup><a href="#b25-ajc-28-2-74" class="reference">25</a></sup></p></p>
+                                                                                                                                  <p><p>Distinguishing the causes of chest pain in the emergency department is one of the important challenges. Algorithms modeling with deep neural networks have been created in this regard, but no clear result has been obtained about its usefulness. In patient groups where it is difficult to make a differential diagnosis with troponin values, it is possible to predict confirmatory obstructive CAD with a new ML model based on clinical (age, gender, and previous percutaneous coronary intervention) and 3 biomarker levels (hs) (-cTnI, KIM-1, and adiponectin).<sup><a href="#b26-ajc-28-2-74" class="reference">26</a></sup> However, the utility of CDSS for ACS has not yet been established. There are significant differences in CDSS components in existing studies, and there is still a need for new studies and models in this regard.</p></p>
+                                                                                                                                  <p><p>Given its ability to accurately describe coronary anatomy and the extent/distribution of atherosclerotic plaque, coronary CT angiography (CCTA) has consistently been shown to be a useful noninvasive imaging modality for patient selection, especially for those who may require further invasive evaluation. However, the interpretation of CCTA scans requires expertise and is time-consuming. It is therefore highly desirable to automatically interpret the CCTA, which can lead to a significant reduction in processing times. A 70%-75% reduction in CCTA interpretation times was achieved with ML algorithms. Although this model performed slightly less well than highly experienced readers in interpreting the CCTA, when combined with low-experience human readers, it increased the reader’s ability to accurately reclassify obstructive CAD. Therefore, the application of ML can provide reliable results in real-time while eliminating the shortage of experts in low-resource environments.<sup><a href="#b27-ajc-28-2-74" class="reference">27</a></sup> Although a standardized CDSS has been defined for the reporting and communication of CCTA findings called CAD-RADS in this regard, it is still necessary to wait a little longer for its clinical use, as this tool also has deficiencies and limitations.<sup><a href="#b28-ajc-28-2-74" class="reference">28</a></sup></p></p>
+                                                                                                                                  <p><p>In addition to the establishment of early detection and guidance at appropriate risk stratification, accurate estimation of adverse events is the cornerstone of CAD management. Identifying a high-risk target population could potentially provide a window for aggressive risk factor modulation, thereby reducing mortality and contributing to better health at the population level. Multiple risk prediction models have been developed to predict in-hospital mortality and the long-term risk of major adverse cardiovascular events (MACE) in high-risk cohorts. Machine learning-mediated risk algorithms developed to predict in-hospital mortality, early stent thrombosis, and bleeding complications after Percutaneous coronary intervention (PCI) will contribute significantly to our clinical practice in this regard.<sup><a href="#b29-ajc-28-2-74" class="reference">29</xref>,<xref ref-type="bibr" rid="b30-ajc-28-2-74">30</a></sup> In fact, the way for individualized hospital management will be gradually cleared by making more accurate evaluations with AI-based long-term mortality and MACE prediction models than classical prediction models. The AI studies conducted for the prediction of CAD are summarized in <xref ref-type="table" rid="t2-ajc-28-2-74">Table 2</xref>.</p></p>
+                                                                                                                                  <p><p>As a result, AI provides the unprecedented potential to transform healthcare and improve the ability of the current system to serve the population at large while providing the tools to focus on individualized yet comprehensive and precise care. However, data on the use of CDSS defined using AI in CAD are still very limited, and there is no guideline recommendation on this subject.</p></p>
+                                                                                                                                                                                                                                <h4 class="fs-6 fw-bold text-black">Artificial Intelligence-Based Clinical Decision Support Systems for Heart Failure</h4>
+                                                                                                                                                                                         <p><p>In the area of cardiovascular medicine, AI has established a presence and is progressively being used to improve diagnosis, treatment, risk prediction, clinical care, and the development of new drugs. It is obvious that with increasing studies in this field in recent years, it will be used in the diagnosis and disease management of heart failure.</p></p>
+                                                                                                                                  <p><p>Machine learning, which is an AI model, has been evaluated with different cardiac imaging methods for the evaluation of CVDs such as heart failure. For instance, the incorporation of ML models into echocardiography appears to hold a lot of promise because these models are able to precisely describe a variety of echocardiographic features and make accurate predictions without the limitations that are currently inherent in human interpretation.<sup><a href="#b31-ajc-28-2-74" class="reference">31</xref>-<xref ref-type="bibr" rid="b33-ajc-28-2-74">33</a></sup></p></p>
+                                                                                                                                  <p><p>The use of AI and ML in cardiac magnetic resonance imaging (MRI) has proven very important in the evaluation of ventricular segments. Machine learning can segment the heart chambers from cardiac MRIs and can be used to predict congestive heart failure (CHF) from its data and has likewise been shown to be very useful in the evaluation of right ventricular function.<sup><a href="#b34-ajc-28-2-74" class="reference">34</xref>,<xref ref-type="bibr" rid="b35-ajc-28-2-74">35</a></sup>Another study attempted to detect asymptomatic left ventricular dysfunction by only ECG using a deep learning approach based on AI, and it was shown to be more accurate than Brain natriuretic peptide-based conventional approaches.<sup><a href="#b36-ajc-28-2-74" class="reference">36</a></sup></p></p>
+                                                                                                                                  <p><p>Rehospitalizations put more stress on the healthcare system and reduce the patient’s quality of life. A number of AI-assisted prediction models have been created to forecast the probability of future hospitalization with sufficient monitoring of heart failure patients and disease treatment in order to prevent these negative effects. Many studies have been conducted in this field in recent years, and the majority of them have shown that risk estimate models may reduce mortality and rehospitalization.</p></p>
+                                                                                                                                  <p><p>New drug therapies have significantly improved the prognosis of patients with heart failure with low ejection fraction (HFrEF). However, the development of new comorbidities [chronic kidney disease, anemia, atrial fibrillation (AF), chronic lung disease, liver disease, etc.] with the accompanying comorbidities and increased survival of these patients made it difficult to apply the evidence individually to patients. Artificial intelligence through ML has been shown to be successful and promising in both medical and device treatments in customizing and optimizing heart failure treatments.<sup><a href="#b37-ajc-28-2-74" class="reference">37</xref>,<xref ref-type="bibr" rid="b38-ajc-28-2-74">38</a></sup></p></p>
+                                                                                                                                  <p><p>Patients with chronic heart failure benefit from frequent follow-up and monitoring of biometric data and heart failure symptoms to identify heart failure worsening and guarantee the safety and appropriate dose of heart failure medicines.<sup><a href="#b39-ajc-28-2-74" class="reference">39</a></sup></p></p>
+                                                                                                                                  <p><p>Clinical decision support systems hold considerable potential for improving the effectiveness and efficiency of the delivery of heart failure care in light of the digital revolution of medicine and developments in health information technology.</p></p>
+                                                                                                                                  <p><p>Clinical decision support systems might provide guidance and assistance in prescribing the optimal dosages of medicine,<sup><a href="#b40-ajc-28-2-74" class="reference">40</a></sup> assist in managing the complicated care process of heart failure patients, and enhance guideline implementation in order to increase guideline adherence.<sup><a href="#b41-ajc-28-2-74" class="reference">41</a></sup> According to the literature, a CDSS provides software-based healthcare advice to help medical professionals in generating judgments and solutions.</p></p>
+                                                                                                                                  <p><p>Early diagnosis of heart failure with low ejection fraction (EF), an underdiagnosed but curable illness, has been shown to be possible using an ECG-based, AI-based CDSS, particularly in basic care.<sup><a href="#b42-ajc-28-2-74" class="reference">42</xref>,<xref ref-type="bibr" rid="b43-ajc-28-2-74">43</a></sup></p></p>
+                                                                                                                                  <p><p>Heart failure can be confused with many clinical conditions that have common symptoms, such as shortness of breath, and their distinction is crucial for disease management. A novel, completely automated, and economical model using the cough sounds collected from patients using a handphone was used to classify coronavirus disease 2019 (COVID-19) and HF patients. The proposed model comprises a graph-based local feature generator (DNA pattern), an iterative maximum relevance minimum redundancy iterative feature selector, with classification using the k-nearest neighbor classifier and with an accuracy of 99.49%.<sup><a href="#b44-ajc-28-2-74" class="reference">44</a></sup> When we consider the available literature, it is seen that AI shows promise in many areas, from the diagnosis of heart failure to risk assessment, from patient management to mortality estimation (<xref ref-type="table" rid="t3-ajc-28-2-74">Table 3</xref>). It is obvious that AI will be in our lives as a CDSS in the management of heart failure disease in the near future.</p></p>
+                                                                                                                                                                                                                                <h4 class="fs-6 fw-bold text-black">Artificial Intelligence-Based Clinical Decision Support Systems for Analyzing Electrocardiogram and Atrial Fibrillation</h4>
+                                                                                                                                                                                         <p><p>Electrocardiography (ECG) is the most popular and the oldest digital cardiovascular data. The use of digital technologies and AI is increasing for obtaining and analyzing ECG, and this information is settled in the center of clinical decision support systems. Electrocardiography is mostly used for cardiac rhythm disturbances, and atrial fibrillation (AF) is the most common arrhythmia. Atrial fibrillation is a public health problem, especially an epidemic in aging populations and associated with increased morbidity and mortality more than any other arrhythmias.<sup><a href="#b45-ajc-28-2-74" class="reference">45</a></sup> Even though there are many diagnostic options, AF is mostly underestimated by patients and physicians. Even in the United States, 13.1% of AF patients are underdiagnosed.<sup><a href="#b46-ajc-28-2-74" class="reference">46</a></sup> Screening programs might help diagnose asymptomatic AF patients. However, there is a lack of clear evidence about the benefits of screening, and therefore there is no consensus about American and European guidelines about AF screening programs.</p></p>
+                                                                                                                                  <p><p>Stroke Stop (Clinical Outcomes in Systematic Screening for AF) study showed that screening 75-years-old people for 2 weeks with intermittent ECG recordings could help diagnose more patients with AF than the standard approach, and anticoagulation of those patients is associated with slightly decreased adverse outcomes, including stroke, hospitalization, and mortality (5.45 events per 100 years in the screening group vs. 5.68 events per 100 years in the control group, 95% CI 0.92-1.0, <italic>P </italic>= .045). The number needed to invite screening was 91.<sup><a href="#b47-ajc-28-2-74" class="reference">47</a></sup> (For comparison, the number needed to screen for breast cancer among patients age over 50 years old is 180.)<sup><a href="#b48-ajc-28-2-74" class="reference">48</a></sup> Another AF screening study, the LOOP study (implantable loop recorder [ILR] detection of AF to prevent stroke), screened patients between the ages of 70 and 90. AF detection was higher in the ILR arm (31.8% vs. 12.2); however, major adverse events, including stroke, systemic embolism, and mortality, were similar between groups (6.9% vs. 1.04, 95% CI, 0.67-1.04, <italic>P </italic>= 0.1).<sup><a href="#b49-ajc-28-2-74" class="reference">49</a></sup> There is growing evidence of the association between AF and dementia, which is increasingly becoming a visible problem in aging societies. Numerous retrospective and prospective studies have reported a strong relationship between AF, cognitive decline, and dementia. The high prevalence of AF and dementia and the coexistence of both lead to early diagnosis. AF burden may be a better marker of plausible mechanisms leading to cognitive decline. We may obtain more robust findings in the near future by using long-lasting patches or wearable devices to examine the relationship between AF burden and cognitive decline. If AF burden can be identified as the main cause of cognitive decline, more focus can be placed on approaches to reduce it.<sup><a href="#b50-ajc-28-2-74" class="reference">50</xref>-<xref ref-type="bibr" rid="b52-ajc-28-2-74">52</a></sup></p></p>
+                                                                                                                                  <p><p>The European Society of Cardiology AF guidelines recommend opportunistic screening for patients over 65 and systematic screening for patients over 75). However, US guidelines do not recommend such screening programs because of a lack of evidence.<sup><a href="#b53-ajc-28-2-74" class="reference">53</xref>,<xref ref-type="bibr" rid="b54-ajc-28-2-74">54</a></sup> There are 2 possible reasons for the unexpected results of the screening studies and real-life screening practices. The first reason is the short-time screening of all patients instead of screening longer periods of high-risk patients, and the second reason is the logistic limitations of ECG devices and recording ECGs in large populations while also interpreting huge amounts of data from patients. Artificial intelligence and new digital technologies could help get over those limitations.</p></p>
+                                                                                                                                  <p><p>Attia and colleagues evaluated 649 931 ECGs of 180 922 patients and created an AI model using convolutional neural network to predict future AF events from ECGs in sinus rhythm. Area under curves (AUC) for AF prediction of the model was 0.90 (95% CI, 0.90-0.91), sensitivity 82.3% (95% CI, 80.9-83.6), specificity 83.4% (95% CI, 83.0-83.8), and accuracy 83.3% (95% CI, 83.3-83.7).<sup><a href="#b55-ajc-28-2-74" class="reference">55</a></sup> From the same team, Noseworthy and colleagues prospectively evaluated more than a thousand patients for 30 days with 3 leads of ECG rhythm monitor for AF screening according to AI algorithm risk stratifications for future AF events. They showed that high-risk patients had more AF episodes than low-risk patients (1.6% vs. 7.6% <italic>P </italic>= .0002). Also, they compared results with propensity scores and matched another thousand patients as a control group with standard follow-up. There were no differences between low-risk group patients for long-term and standard follow-up (real word: 1.1% vs. study group: 2.6%, <italic>P </italic>= .12; 95% CI, 0.76-10.3). However, longer follow-up of AI detected high-risk patients had more AF events than standard follow-up of high-risk patients (real word patients 3.6% vs. study group 10.6 % <italic>P </italic>&lt; .001; 95% CI, 1.83-4.42).<sup><a href="#b56-ajc-28-2-74" class="reference">56</a></sup> These studies showed that using AI-guided risk stratification from sinus rhythm ECGs could help targeted long-term AF screening models. This approach could help clinicians achieve better outcomes from screening studies and real-life practice. Also, AI-based risk models could decrease patient numbers needed to screen. However, there is not any evidence to start anticoagulation for high-risk patients for future AF, according to AI algorithms that depend on sinus rhythm ECGs.</p></p>
+                                                                                                                                  <p><p>Standard ECG machine software was used for ECG interpretation science in the 1980s. However, these softwares could not solely trustable. Screening for AF elderly (SAFE) trial showed that standard ECG machine software missed 20% of AF cases and also 8% of the patients had a false-positive AF diagnosis.<sup><a href="#b57-ajc-28-2-74" class="reference">57</a></sup> Artificial intelligence could also be used as an automated ECG interpretation tool for AF diagnosis.</p></p>
+                                                                                                                                  <p><p>There are a couple of studies to compare AI algorithms with the standard ECG machine software. Kashou et al<sup><a href="#b58-ajc-28-2-74" class="reference">58</a></sup> trained an AI algorithm from 2.5 million ECG recordings and compared this algorithm with standard software. Three blinded cardiologists reported that 8.2% of the AI algorithm report was unacceptable; however, 13.5% of the standard software reports was also unacceptable. Also, the percentage of ideal interoperations was 70.5% in the AI group and 63.9% in the standard software group.<sup><a href="#b58-ajc-28-2-74" class="reference">58</a></sup> Another AI study for AF diagnostic properties from a trained data set from 1 million 12-lead ECGs was held by Hughes and colleagues. The AI algorithm showed high accuracy for AF diagnosis with cardiac electrophysiologists (AUC: 0.997; 95% CI, 0.997-0.997; specificity: 0.993, sensitivity: 0.990).<sup><a href="#b59-ajc-28-2-74" class="reference">59</a></sup> Yıldırım et al<sup><a href="#b60-ajc-28-2-74" class="reference">60</a></sup> used a new DL approach for cardiac arrhythmia (17 classes) detection based on long-duration ECG signal analysis. Deep 1D-convolutional neural networks (CNN) achieved a recognition overall accuracy of 17 cardiac arrhythmia disorders (classes) at a level of 91.33% and a classification time per single sample of 0.015 seconds.<sup><a href="#b60-ajc-28-2-74" class="reference">60</a></sup> The number of enrolled patients and randomization are the major limitation criteria for clinical studies. Most of the AI studies had tons of patient data, but they had another limitation. External validation is important for testing AI algorithms in different patient databases. Most of the ECG interpretation AI algorithms do not have external validation. This is a major limitation to use them in routine clinical practice.</p></p>
+                                                                                                                                  <p><p>One of the major issues in health care is the accessibility of patients to doctors, medicines, and diagnostic tools. New digital devices, wearables, and even patients’ mobile phones could help physicians with rhythm detection and management in patients. Artificial intelligence helps us to get rhythm information and also process these data, and diagnose AF to help us to drawn in the huge patient data ocean.</p></p>
+                                                                                                                                  <p><p>Photoplethysmography (PPG) is a simple method that depends on capillary blood flow changes in every heartbeat. It could be derived from smart watches, bracelets, and even personal smart phone cameras. The ability of a smartwatch application with optical sensors to identify AF during typical use was investigated in the Apple Heart study. During an average follow-up period of 117 days, of the 419 297 participants enrolled, 0.52% received an irregular pulse notification, and among those with an initial notification who returned an ECG patch, 84% (95% CI, 76-92) of their subsequent notifications were confirmed to be AF.<sup><a href="#b61-ajc-28-2-74" class="reference">61</a></sup> Tele Check AF trial showed that PPG data could help cardiologists in the clinical management of AF patients.<sup><a href="#b62-ajc-28-2-74" class="reference">62</a></sup> Photoplethysmography data are quite different from ECG data, and the clinician should be familiar with this method. As in ECG interpretation, AI could help clinicians. Mol and colleagues showed their PPG-AI algorithm could diagnose AF with a sensitivity of 96.3% (95% CI, 90.8-99) and a specificity of 93.5% (95% CI, 87.1-97.4).<sup><a href="#b63-ajc-28-2-74" class="reference">63</a></sup> These results demonstrate the feature’s ability to provide the user with important health information without placing an undue burden on the doctor’s schedule. Even AI algorithms will be more accurate for AF diagnosis from PPG data until that time PPG data could not be used for a diagnostic tool. Electrocardiography documentation is mandatory for diagnosis. The AI studies conducted for the analysis of ECG and AF are summarized in <xref ref-type="table" rid="t4-ajc-28-2-74">Table 4</xref>.</p></p>
+                                                                                                                                                                                                                                <h4 class="fs-6 fw-bold text-black">Artificial Intelligence-Based Clinical Decision Support Systems for Cardiomyopathies and Congenital Heart Diseases</h4>
+                                                                                                                                                                                         <p><p>Great advances have been made in the definition of cardiomyopathies (CMPs) over the past 25 years, and on the basis of structural and hemodynamic phenotype, CMPs can be classified as dilated CMP (DCM), hypertrophic CMP (HCM), restrictive CMP (RCM), arrhythmogenic right ventricular CMP (ARVC), and unclassified CMPs, including left ventricular noncompaction and endocardial fibroelastosis. The estimated prevalence of HCM/DCM is 1 : 250/500 and that of ARVC is 1 : 2000/5000.<sup><a href="#b64-ajc-28-2-74" class="reference">64</a></sup></p></p>
+                                                                                                                                  <p><p>Current approaches to CMPs include a comprehensive family history, phenotypic/genetic assessment of the proband and specific drug and/or device treatments. First-degree relatives of DCM patients are at an increased risk of developing the disease and can present as sudden death necessitating regular cardiac screening by ECG, echocardiography and/or Holter ECG, as recommended by current guidelines.<sup><a href="#b65-ajc-28-2-74" class="reference">65</a></sup> In developing countries and/or in many rural areas in developed countries, access to cardiological care and imaging is limited. Regular cardiac screening is limited by cost, a requirement for technical expertise/labor and a lack of motivation especially in asymptomatic family members.<sup><a href="#b66-ajc-28-2-74" class="reference">66</xref>,<xref ref-type="bibr" rid="b67-ajc-28-2-74">67</a></sup> AI techniques have the potential to transform cardiology practice in improving and optimizing outcomes in CMPs, and offer new tools in screening, diagnosis/classification, risk prediction, clinical decision-making.</p></p>
+                                                                                                                                  <p><p>Detection of a low LVEF can trigger an evaluation for any cause that needs to be addressed in a timely manner, and the early initiation of optimal medical therapy can result in improvements in all outcomes. Metabolic and structural irregularities associated with LV dysfunction will lead to ECG changes that can be reliably detected by an AI. Since the introduction of AI-ECG into routine clinical care has resulted in higher detection of LV systolic dysfunction, AI-ECG screening for CMPs is now feasible. Attia et al<sup><a href="#b36-ajc-28-2-74" class="reference">36</a></sup> trained a convolutional neural network model to identify patients with ventricular dysfunction (LVEF: 35%) using paired 12-lead ECG and echocardiogram data from 44 959 patients, and when tested on an independent set of 52 870 patients, the network model yielded values for the area under the curve, sensitivity, specificity, and accuracy of 0.93, 86.3%, 85.7%, and 85.7%, respectively.<sup><a href="#b36-ajc-28-2-74" class="reference">36</a></sup> This AI model was implemented for the detection of DCM with LVEF thresholds of ≤45% and ≤35% in another study. For detection of LVEF ≤45%, the AUC was 0.955 with a sensitivity of 98.8% and a specificity of 44.8%.<sup><a href="#b66-ajc-28-2-74" class="reference">66</a></sup> In conclusion, AI-ECG can be used as a simple and cost-effective screening tool with implications for the screening of asymptomatic DCM patients.</p></p>
+                                                                                                                                  <p><p>Yao et al conducted a pragmatic clinical trial of an ECG-based, AI-powered clinical decision support tool for early detection of low LVEF. The ECGs of patients without known HF, taken with any indication (chest pain, dyspnea, preoperative examination, basal scan, etc.), were subjected to AI-ECG-based algorithm. Almost all of the ECG’s were taken in emergency services and outpatient clinics. Half of the clinicians (access to AI results, 181 clinicians; usual care, 177 clinicians) had access to AI-ECG results (intervention arm), and for patients with positive AI-ECG, more echocardiograms were requested in this arm (38.1% control vs. 49.6% intervention, <italic>P</italic> &lt; .001). Access to AI-ECG-based algorithm results increased the diagnosis of low EF compared to the control group (from 14.5% to 19.5%) (OR 1.43 (1.08-1.91), <italic>P </italic>= .01).<sup><a href="#b41-ajc-28-2-74" class="reference">41</xref>,<xref ref-type="bibr" rid="b67-ajc-28-2-74">67</a></sup></p></p>
+                                                                                                                                  <p><p>Hypertropic CM is one of the leading causes of sudden cardiac death among adolescents and young adults. In most cases, a diagnosis of HCM can be established with echocardiography combined with the clinical history, but the widespread use of echocardiography in asymptomatic individuals is impractical. Therefore, alternative modalities, such as the ECG, have been considered as a means for screening. More than 90% of patients with HCM have electrocardiographic abnormalities.<sup><a href="#b67-ajc-28-2-74" class="reference">67</a></sup> The nature of a deep learning AI approach might offer the advantage of an agnostic and unbiased approach to the ECG-based detection of HCM that does not rely on traditional criteria for LV hypertrophy. Ko et al trained and validated an AI–ECG CNN model to diagnose HCM on the basis of the ECG alone. In an independent testing cohort of 612 patients with HCM and 12 788 control individuals, the AUC of the CNN was 0.96 (95%CI, 0.95-0.96), with a sensitivity of 87% and specificity of 90%. The performance of the model was robust in subgroups of patients meeting the ECG criteria for LV hypertrophy and among those with normal ECGs. Also, the performance of the model did not seem to be affected by the sarcomeric mutation status of the patient. The algorithm developed had equally favorable performance when implemented on the basis of a single lead.<sup><a href="#b68-ajc-28-2-74" class="reference">68</a></sup></p></p>
+                                                                                                                                  <p><p>In the field of cardiac imaging, AI automatically assesses the thickness and features of the myocardium to differentiate CMPs, especially MRI-based AI models which can also be used to make diagnostic, predictive, or classification models.<sup><a href="#b69-ajc-28-2-74" class="reference">69</xref>-<xref ref-type="bibr" rid="b71-ajc-28-2-74">71</a></sup> Artificial intelligence is also being applied to CMP genomics, especially to predict the pathogenicity of variants and identify whether these variants are clinically actionable. Machine learning models can demonstrate a superior ability to predict genotype positivity in patients with HCM compared to conventional scoring systems.<sup><a href="#b72-ajc-28-2-74" class="reference">72</a></sup></p></p>
+                                                                                                                                  <p><p>The complexity of the disease, clinical heterogeneity, and the small number of patients with congenital heart diseases (CHDs) challenge the diagnosis or clinical decision-making process, and AI has significant potential to overcome these problems. Artificial intelligence could have many applications in CHD, such as improving detection and diagnosis, prediction of prognosis, and guiding therapy.<sup><a href="#b73-ajc-28-2-74" class="reference">73</xref>,<xref ref-type="bibr" rid="b74-ajc-28-2-74">74</a></sup> Other potential applications include prediction of the effect of drugs and/or interventions<sup><a href="#b75-ajc-28-2-74" class="reference">75</xref>,<xref ref-type="bibr" rid="b76-ajc-28-2-74">76</a></sup> and incorporation of “soft” outcomes such as exercise capacity and quality of life into the decision-making process. The clinical applications using AI on CMPs and congenital heart diseases are summarized in <xref ref-type="table" rid="t5-ajc-28-2-74">Table 5</xref>.</p></p>
+                                                                                                                                                                                                                        
+
+                                                                                          <h4>Conclusions</h4>
+                                               
+                                                                                                                  <p><p>Artificial intelligence-based CDSS can increase the efficiency of healthcare services, help make accurate diagnoses and treatments, and provide stronger support to healthcare professionals. However, consideration should also be given to human ethical issues related to the use of these systems. Digital health programs and interventions are often not monitored or evaluated, despite their clear potential.</p></p>
+                                                                                                                  <p><p>Artificial intelligence systems use patients’ health records and other sensitive information. Therefore, great attention should be paid to data security and privacy. The accuracy and reliability of AI-powered systems are important, and the quality, representativeness, and up-to-dateness of the datasets on which these systems are trained should be considered. Expertise is required for the development, training, and use of AI systems, and it is important that healthcare professionals receive training and understand this technology in order to use these systems effectively. The principles of responsibility and accountability related to the use of AI-supported decision support systems should not be ignored. Decisions and consequences regarding the use of these systems should be followed up and evaluated by healthcare professionals. Feedback mechanisms should be established to monitor and correct potential errors.</p></p>
+                                                                                                                  <p><p>The WHO European Region aims to shed light on digital health, the future of health systems, and the challenges that all EU region countries must address to do better. It has introduced a digital health action plan to support countries in leveraging and scaling up digital transformation for better health and aligning digital technology investment decisions with health system needs while fully respecting equality, solidarity, and human values.<sup><a href="#b77-ajc-28-2-74" class="reference">77</a></sup></p></p>
+                                                       
+                                                                                              
+
+                                           
+                                       
+
+                  <h4>Footnotes</h4>
+<fn-group>
+<fn id="fn1-ajc-28-2-74">
+<p><bold>Peer-review:</bold> Externally peer-reviewed.</p>
+</fn>
+<fn id="fn2-ajc-28-2-74">
+<p><bold>Author Contributions:</bold> Concept – S.B., E.Ş., D.K., A.G., Y.K., M.Ş., M.E., N.K.; Design – S.B., E.Ş., D.K., A.G., Y.K., M.Ş., M.E., N.K.; Supervision – S.B., E.Ş., D.K., A.G., Y.K., M.Ş., M.E., N.K.; Resources – S.B., E.Ş., D.K., A.G., Y.K., M.Ş., M.E., N.K.; Materials – S.B., E.Ş., D.K., A.G., Y.K., M.Ş., M.E., N.K.; Data Collection and/or Processing – S.B., E.Ş., D.K., A.G., Y.K., M.Ş.; Analysis and/or Interpretation – S.B., E.Ş., D.K., A.G., Y.K., M.Ş., M.E., N.K.; Literature Search – S.B., E.Ş., D.K., A.G., Y.K., M.Ş., M.E., N.K.; Writing – S.B., E.Ş., D.K., A.G., Y.K.; Critical Review – S.B., E.Ş., D.K., A.G., Y.K., M.Ş., M.E., N.K.</p>
+</fn>
+<fn id="fn3-ajc-28-2-74" fn-type="conflict">
+<p><bold>Declaration of Interests:</bold> The authors have no conflict of interest to declare.</p>
+</fn>
+</fn-group>
+           
+                                                  <h4 class="text-primary">References</h4>
+<ol start="1">
+                                           <li id="b1-ajc-28-2-74">Groenhof TKJ, Asselbergs FW, Groenwold RHH. The effect of computerized decision support systems on cardiovascular risk factors: a systematic review and meta-analysis. BMC Med Inform Decis Mak. 2019;19(1):108-. <a href="https://doi.org/10.1186/s12911-019-0824-x">https://doi.org/10.1186/s12911-019-0824-x</a></li><li id="b2-ajc-28-2-74">Njie GJ, Proia KK, Thota AB. Clinical decision support systems and prevention: a community guide cardiovascular disease systematic review. Am J Prev Med. 2015;49(5):784-795. <a href="https://doi.org/10.1016/j.amepre.2015.04.006">https://doi.org/10.1016/j.amepre.2015.04.006</a></li><li id="b3-ajc-28-2-74">Wells S, Furness S, Rafter N. Integrated electronic decision support increases cardiovascular disease risk assessment four fold in routine primary care practice. Eur J Cardiovasc Prev Rehabil. 2008;15(2):173-178. <a href="https://doi.org/10.1097/HJR.0b013e3282f13af4">https://doi.org/10.1097/HJR.0b013e3282f13af4</a></li><li id="b4-ajc-28-2-74">Groenhof TKJ, Rittersma ZH, Bots ML. A computerised decision support system for cardiovascular risk management ‘live’ in the electronic health record environment: development, validation and implementation-the Utrecht cardiovascular Cohort Initiative. Neth Heart J. 2019;27(9):435-442. <a href="https://doi.org/10.1007/s12471-019-01308-w">https://doi.org/10.1007/s12471-019-01308-w</a></li><li id="b5-ajc-28-2-74">HYP. Hastalık Yönetim Platformu. . ;():-. <a href=""></a></li><li id="b6-ajc-28-2-74">Persson Lindell O, Karlsson LO, Nilsson S. Clinical decision support for familial hypercholesterolemia (CDS-FH): rationale and design of a cluster randomized trial in primary care. Am Heart J. 2022;247():132-148. <a href="https://doi.org/10.1016/j.ahj.2022.02.005">https://doi.org/10.1016/j.ahj.2022.02.005</a></li><li id="b7-ajc-28-2-74">Zamora A, Fernández de Bobadilla F, Carrion C. Pilot study to validate a computer-based clinical decision support system for dyslipidemia treatment (HTE-DLP). Atherosclerosis. 2013;231(2):401-404. <a href="https://doi.org/10.1016/j.atherosclerosis.2013.09.029">https://doi.org/10.1016/j.atherosclerosis.2013.09.029</a></li><li id="b8-ajc-28-2-74">Adusumalli S, Kanter GP, Small DS. Effect of nudges to clinicians, patients, or both to increase statin prescribing: a cluster randomized clinical trial. JAMA Cardiol. 2023;8(1):23-30. <a href="https://doi.org/10.1001/jamacardio.2022.4373">https://doi.org/10.1001/jamacardio.2022.4373</a></li><li id="b9-ajc-28-2-74">Vuppala S, Turer CB. Clinical decision support for the diagnosis and management of adult and pediatric hypertension. Curr Hypertens Rep. 2020;22(9):67-. <a href="https://doi.org/10.1007/s11906-020-01083-9">https://doi.org/10.1007/s11906-020-01083-9</a></li><li id="b10-ajc-28-2-74">Alessa T, Hawley MS, Hock ES, de Witte L. Smartphone apps to support self-management of hypertension: review and content analysis. JMIR MHealth UHealth. 2019;7(5):e13645-. <a href="https://doi.org/10.2196/13645">https://doi.org/10.2196/13645</a></li><li id="b11-ajc-28-2-74">Song J, Wang X, Wang B. Effectiveness of a clinical decision support system for hypertension management in primary care: study protocol for a pragmatic cluster-randomized controlled trial. Trials. 2022;23(1):412-. <a href="https://doi.org/10.1186/s13063-022-06374-x">https://doi.org/10.1186/s13063-022-06374-x</a></li><li id="b12-ajc-28-2-74">Patel SA, Sharma H, Mohan S. The Integrated Tracking, Referral, and Electronic Decision Support, and Care Coordination (I-TREC) program: scalable strategies for the management of hypertension and diabetes within the government healthcare system of India. BMC Health Serv Res. 2020;20(1):1022-. <a href="https://doi.org/10.1186/s12913-020-05851-w">https://doi.org/10.1186/s12913-020-05851-w</a></li><li id="b13-ajc-28-2-74">Vadiveloo M, Lichtenstein AH, Anderson C. Rapid diet assessment screening tools for cardiovascular disease risk reduction across healthcare settings: a scientific statement from the American Heart Association. Circ Cardiovasc Qual Outcomes. 2020;13(9):e000094-. <a href="https://doi.org/10.1161/HCQ.0000000000000094">https://doi.org/10.1161/HCQ.0000000000000094</a></li><li id="b14-ajc-28-2-74">Hansen D, Dendale P, Coninx K. The European Association of Preventive Cardiology Exercise Prescription in Everyday Practice and Rehabilitative Training (EXPERT) tool: a digital training and decision support system for optimized exercise prescription in cardiovascular disease. Concept, definitions and construction methodology. Eur J Prev Cardiol. 2017;24(10):1017-1031. <a href="https://doi.org/10.1177/2047487317702042">https://doi.org/10.1177/2047487317702042</a></li><li id="b15-ajc-28-2-74">Pescatello LS, Wu Y, Panza GA, Zaleski A, Guidry M. Development of a novel clinical decision support system for exercise prescription among patients with multiple cardiovascular disease risk factors. Mayo Clin Proc Innov Qual Outcomes. 2021;5(1):193-203. <a href="https://doi.org/10.1016/j.mayocpiqo.2020.08.005">https://doi.org/10.1016/j.mayocpiqo.2020.08.005</a></li><li id="b16-ajc-28-2-74">Ades PA, Keteyian SJ, Wright JS. Increasing cardiac rehabilitation participation from 20% to 70%: a road map from the million hearts cardiac rehabilitation collaborative. Mayo Clin Proc. 2017;92(2):234-242. <a href="https://doi.org/10.1016/j.mayocp.2016.10.014">https://doi.org/10.1016/j.mayocp.2016.10.014</a></li><li id="b17-ajc-28-2-74">Hughes A, Shandhi MMH, Master H, Dunn J, Brittain E. Wearable devices in cardiovascular medicine. Circ Res. 2023;132(5):652-670. <a href="https://doi.org/10.1161/CIRCRESAHA.122.322389">https://doi.org/10.1161/CIRCRESAHA.122.322389</a></li><li id="b18-ajc-28-2-74">Roth GA, Johnson C, Abajobir A. Global, regional, and national burden of cardiovascular diseases for 10 causes, 1990 to 2015. J Am Coll Cardiol. 2017;70(1):1-25. <a href="https://doi.org/10.1016/j.jacc.2017.04.052">https://doi.org/10.1016/j.jacc.2017.04.052</a></li><li id="b19-ajc-28-2-74">Gautam N, Saluja P, Malkawi A. Current and future applications of artificial intelligence in coronary artery disease. Healthcare (Basel). 2022;10(2):232-. <a href="https://doi.org/10.3390/healthcare10020232">https://doi.org/10.3390/healthcare10020232</a></li><li id="b20-ajc-28-2-74">Arnett DK, Blumenthal RS, Albert MA. 2019 ACC/AHA guideline on the primary prevention of cardiovascular disease: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice guidelines. Circulation. 2019;140(11):e596-e646. <a href="https://doi.org/10.1161/CIR.0000000000000678">https://doi.org/10.1161/CIR.0000000000000678</a></li><li id="b21-ajc-28-2-74">Betancur J, Hu LH, Commandeur F. Deep learning analysis of upright-supine high-efficiency SPECT myocardial perfusion imaging for prediction of obstructive coronary artery disease: a multicenter study. J Nucl Med. 2019;60(5):664-670. <a href="https://doi.org/10.2967/jnumed.118.213538">https://doi.org/10.2967/jnumed.118.213538</a></li><li id="b22-ajc-28-2-74">Zhang D, Guan L, Li X. Bioinformatics analysis identifies potential diagnostic signatures for coronary artery disease. J Int Med Res. 2020;48(12):300060520979856-. <a href="https://doi.org/10.1177/0300060520979856">https://doi.org/10.1177/0300060520979856</a></li><li id="b23-ajc-28-2-74">Yilmaz A, Hayıroğlu Mİ, Salturk S. Machine Learning Approach on High Risk Treadmill Exercise Test to Predict Obstructive coronary artery disease by using P, QRS, and T waves’ Features. Curr Probl Cardiol. 2023;48(2):101482-. <a href="https://doi.org/10.1016/j.cpcardiol.2022.101482">https://doi.org/10.1016/j.cpcardiol.2022.101482</a></li><li id="b24-ajc-28-2-74">Upton R, Mumith A, Beqiri A. Automated echocardiographic detection of severe coronary artery disease using artificial intelligence. JACC Cardiovasc Imaging. 2022;15(5):715-727. <a href="https://doi.org/10.1016/j.jcmg.2021.10.013">https://doi.org/10.1016/j.jcmg.2021.10.013</a></li><li id="b25-ajc-28-2-74">Yan J, Tian J, Yang H. A clinical decision support system for predicting coronary artery stenosis in patients with suspected coronary heart disease. Comput Biol Med. 2022;151(A):106300-. <a href="https://doi.org/10.1016/j.compbiomed.2022.106300">https://doi.org/10.1016/j.compbiomed.2022.106300</a></li><li id="b26-ajc-28-2-74">McCarthy CP, Neumann JT, Michelhaugh SA. Derivation and external validation of a high‐sensitivity cardiac troponin–based proteomic model to predict the presence of obstructive coronary artery disease. J Am Heart Assoc. 2020;9(16):e017221-. <a href="https://doi.org/10.1161/JAHA.120.017221">https://doi.org/10.1161/JAHA.120.017221</a></li><li id="b27-ajc-28-2-74">Liu CY, Tang CX, Zhang XL. Deep learning powered coronary CT angiography for detecting obstructive coronary artery disease: the effect of reader experience, calcification and image quality. Eur J Radiol. 2021;142():109835-. <a href="https://doi.org/10.1016/j.ejrad.2021.109835">https://doi.org/10.1016/j.ejrad.2021.109835</a></li><li id="b28-ajc-28-2-74">Foldyna B, Szilveszter B, Scholtz JE, Banerji D, Maurovich-Horvat P, Hoffmann U. CAD-RADS–A new clinical decision support tool for coronary computed tomography angiography. Eur Radiol. 2018;28(4):1365-1372. <a href="https://doi.org/10.1007/s00330-017-5105-4">https://doi.org/10.1007/s00330-017-5105-4</a></li><li id="b29-ajc-28-2-74">Al’Aref SJ, Singh G, van Rosendael AR. Determinants of in-hospital mortality after percutaneous coronary intervention: a machine learning approach. J Am Heart Assoc. 2019;8(5):e011160-. <a href="https://doi.org/10.1161/JAHA.118.011160">https://doi.org/10.1161/JAHA.118.011160</a></li><li id="b30-ajc-28-2-74">Mortazavi BJ, Bucholz EM, Desai NR. Comparison of machine learning methods with national cardiovascular data registry models for prediction of risk of bleeding after percutaneous coronary intervention. JAMA Netw Open. 2019;2(7):e196835-. <a href="https://doi.org/10.1001/jamanetworkopen.2019.6835">https://doi.org/10.1001/jamanetworkopen.2019.6835</a></li><li id="b31-ajc-28-2-74">Alsharqi M, Woodward WJ, Mumith JA, Markham DC, Upton R, Leeson P. Artificial intelligence and echocardiography. Echo Res Pract. 2018;5(4):R115-R125. <a href="https://doi.org/10.1530/ERP-18-0056">https://doi.org/10.1530/ERP-18-0056</a></li><li id="b32-ajc-28-2-74">Chen H, Zheng Y, Park JH. . Iterative multi-domain regularized deep learning for anatomical structure detection and segmentation from ultrasound images. 2016;():-. <a href="https://www.springerprofessional.de/en/iterative-multi-domain-regularized-deep-learning-for-anatomical-/10884656">https://www.springerprofessional.de/en/iterative-multi-domain-regularized-deep-learning-for-anatomical-/10884656</a></li><li id="b33-ajc-28-2-74">Dong S, Luo G, Wang K, Cao S, Li Q, Zhang H. A combined fully convolutional networks and deformable model for automatic left ventricle segmentation based on 3D echocardiography. BioMed Res Int. 2018;2018():5682365-. <a href="https://doi.org/10.1155/2018/5682365">https://doi.org/10.1155/2018/5682365</a></li><li id="b34-ajc-28-2-74">Bernard O, Lalande A, Zotti C. Deep learning techniques for automatic MRI cardiac multi-structures segmentation and diagnosis: is the problem solved?. IEEE Trans Med Imaging. 2018;37(11):2514-2525. <a href="https://doi.org/10.1109/TMI.2018.2837502">https://doi.org/10.1109/TMI.2018.2837502</a></li><li id="b35-ajc-28-2-74">Luo G, Dong S, Wang K, Zuo W, Cao S, Zhang H. Multi-views fusion CNN for left ventricular volumes estimation on cardiac MR images. IEEE Trans Bio Med Eng. 2018;65(9):1924-1934. <a href="https://doi.org/10.1109/TBME.2017.2762762">https://doi.org/10.1109/TBME.2017.2762762</a></li><li id="b36-ajc-28-2-74">Attia ZI, Kapa S, Lopez-Jimenez F. Screening for cardiac contractile dysfunction using an artificial intelligence-enabled electrocardiogram. Nat Med. 2019;25(1):70-74. <a href="https://doi.org/10.1038/s41591-018-0240-2">https://doi.org/10.1038/s41591-018-0240-2</a></li><li id="b37-ajc-28-2-74">Karwath A, Bunting KV, Gill SK. Redefining β-blocker response in heart failure patients with sinus rhythm and atrial fibrillation: a machine learning cluster analysis. Lancet. 2021;398(10309):1427-1435. <a href="https://doi.org/10.1016/S0140-6736(21)01638-X">https://doi.org/10.1016/S0140-6736(21)01638-X</a></li><li id="b38-ajc-28-2-74">Cikes M, Sanchez-Martinez S, Claggett B, Karwath A, Bunting KV, Gill SK. Machine learning-based phenogrouping in heart failure to identify responders to cardiac resynchronization therapy. Eur J Heart. 2021;398(10309):1427-1435. <a href="https://doi.org/10.1016/S0140-6736(21)01638-X">https://doi.org/10.1016/S0140-6736(21)01638-X</a></li><li id="b39-ajc-28-2-74">Ponikowski P, Voors AA, Anker SD. ESC guidelines for the diagnosis and treatment of acute and chronic heart failure: the Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC). Developed with the special contribution of the Heart Failure Association (HFA) of the ESC. Eur J Heart Fail. 2016;2016():891-975. <a href=""></a></li><li id="b40-ajc-28-2-74">Garg AX, Adhikari NK, McDonald H. Effects of computerized clinical decision support systems on practitioner performance and patient outcomes: a systematic review. JAMA. 2005;293(10):1223-1238. <a href="https://doi.org/10.1001/jama.293.10.1223">https://doi.org/10.1001/jama.293.10.1223</a></li><li id="b41-ajc-28-2-74">Yao X, Rushlow DR, Inselman JW. Artificial intelligence-enabled electrocardiograms for identification of patients with low ejection fraction: a pragmatic, randomized clinical trial. Nat Med. 2021;27(5):815-819. <a href="https://doi.org/10.1038/s41591-021-01335-4">https://doi.org/10.1038/s41591-021-01335-4</a></li><li id="b42-ajc-28-2-74">Toth-Pal E, Wårdh I, Strender LE, Nilsson G. A guideline-based computerised decision support system (CDSS) to influence general practitioners management of chronic heart failure. Inform Prim Care. 2008;16(1):29-39. <a href="https://doi.org/10.14236/jhi.v16i1.672">https://doi.org/10.14236/jhi.v16i1.672</a></li><li id="b43-ajc-28-2-74">Celik A, Surmeli AO, Demir M, Esen K, Camsari A. The diagnostic value of chest X-ray scanning by the help of Artificial Intelligence in Heart Failure (ART-IN-HF). Clin Cardiol. 2023;():-. <a href="https://doi.org/10.1002/clc.24105">https://doi.org/10.1002/clc.24105</a></li><li id="b44-ajc-28-2-74">Kobat MA, Kivrak T, Barua PD. Automated COVID-19 and heart failure detection using DNA pattern technique with cough sounds. Diagnostics (Basel). 2021;11(11):1962-. <a href="https://doi.org/10.3390/diagnostics11111962">https://doi.org/10.3390/diagnostics11111962</a></li><li id="b45-ajc-28-2-74">Li H, Song X, Liang Y. Global, regional, and national burden of disease study of atrial fibrillation/flutter, 1990-2019: results from a global burden of disease study, 2019. BMC Public Health. 2022;22(1):2015-. <a href="https://doi.org/10.1186/s12889-022-14403-2">https://doi.org/10.1186/s12889-022-14403-2</a></li><li id="b46-ajc-28-2-74">Turakhia MP, Shafrin J, Bognar K. Estimated prevalence of undiagnosed atrial fibrillation in the United States. PLOS ONE. 2018;13(4):e0195088-. <a href="https://doi.org/10.1371/journal.pone.0195088">https://doi.org/10.1371/journal.pone.0195088</a></li><li id="b47-ajc-28-2-74">Svennberg E, Friberg L, Frykman V, Al-Khalili F, Engdahl J, Rosenqvist M. Clinical outcomes in systematic screening for atrial fibrillation (STROKESTOP): a multicentre, parallel group, unmasked, randomised controlled trial. Lancet. 2021;398(10310):1498-1506. <a href="https://doi.org/10.1016/S0140-6736(21)01637-8">https://doi.org/10.1016/S0140-6736(21)01637-8</a></li><li id="b48-ajc-28-2-74">. Independent UK Panel on Breast Cancer Screening. The benefits and harms of breast cancer screening: an independent review. Lancet. 2012;380(9855):1778-1786. <a href="https://doi.org/10.1016/S0140-6736(12)61611-0">https://doi.org/10.1016/S0140-6736(12)61611-0</a></li><li id="b49-ajc-28-2-74">Svendsen JH, Diederichsen SZ, Højberg S. Implantable loop recorder detection of atrial fibrillation to prevent stroke (The LOOP Study): a randomised controlled trial. Lancet. 2021;398(10310):1507-1516. <a href="https://doi.org/10.1016/S0140-6736(21)01698-6">https://doi.org/10.1016/S0140-6736(21)01698-6</a></li><li id="b50-ajc-28-2-74">Singh-Manoux A, Fayosse S, Sabia M. Atrial fibrillation as a risk factor for cognitive decline and dementia. Eur Heart J. 2017;38(34):2612-2618. <a href="https://doi.org/10.1093/eurheartj/ehx208">https://doi.org/10.1093/eurheartj/ehx208</a></li><li id="b51-ajc-28-2-74">Fak AS. Atrial fibrillation burden and cognitive function; a new horizon in the digital health era?. Int J Cardiol. 2023;378():40-41. <a href="https://doi.org/10.1016/j.ijcard.2023.02.036">https://doi.org/10.1016/j.ijcard.2023.02.036</a></li><li id="b52-ajc-28-2-74">Tang SC, Liu YB, Lin LY. Association between atrial fibrillation burden and cognitive function in patients with atrial fibrillation. Int J Cardiol. 2023;377():73-78. <a href="https://doi.org/10.1016/j.ijcard.2023.01.007">https://doi.org/10.1016/j.ijcard.2023.01.007</a></li><li id="b53-ajc-28-2-74">Davidson KW, Barry MJ. Screening for atrial fibrillation: US Preventive Services Task Force recommendation statement. JAMA. 2022;327(4):360-367. <a href="https://doi.org/10.1001/jama.2021.23732">https://doi.org/10.1001/jama.2021.23732</a></li><li id="b54-ajc-28-2-74">Hindricks G, Potpara T, Dagres N. 2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS): the Task Force for the diagnosis and management of atrial fibrillation of the European Society of Cardiology (ESC) Developed with the special contribution of the European Heart Rhythm Association (EHRA) of the ESC. Eur Heart J. 2021;42(5):373-498. <a href="https://doi.org/10.1093/eurheartj/ehaa612">https://doi.org/10.1093/eurheartj/ehaa612</a></li><li id="b55-ajc-28-2-74">Attia ZI, Noseworthy PA, Lopez-Jimenez F. An artificial intelligence-enabled ECG algorithm for the identification of patients with atrial fibrillation during sinus rhythm: a retrospective analysis of outcome prediction. Lancet. 2019;394(10201):861-867. <a href="https://doi.org/10.1016/S0140-6736(19)31721-0">https://doi.org/10.1016/S0140-6736(19)31721-0</a></li><li id="b56-ajc-28-2-74">Noseworthy PA, Attia ZI, Behnken EM. Artificial intelligence-guided screening for atrial fibrillation using electrocardiogram during sinus rhythm: a prospective non-randomised interventional trial. Lancet. 2022;400(10359):1206-1212. <a href="https://doi.org/10.1016/S0140-6736(22)01637-3">https://doi.org/10.1016/S0140-6736(22)01637-3</a></li><li id="b57-ajc-28-2-74">Mant J, Fitzmaurice DA, Hobbs FD. Accuracy of diagnosing atrial fibrillation on electrocardiogram by primary care practitioners and interpretative diagnostic software: analysis of data from screening for atrial fibrillation in the elderly (SAFE) trial. BMJ. 2007;335(7616):380-. <a href="https://doi.org/10.1136/bmj.39227.551713.AE">https://doi.org/10.1136/bmj.39227.551713.AE</a></li><li id="b58-ajc-28-2-74">Kashou AH, Mulpuru SK, Deshmukh AJ. An artificial intelligence-enabled ECG algorithm for comprehensive ECG interpretation: can it pass the ‘Turing test’?. CardioVasc Digit Health J. 2021;2(3):164-170. <a href="https://doi.org/10.1016/j.cvdhj.2021.04.002">https://doi.org/10.1016/j.cvdhj.2021.04.002</a></li><li id="b59-ajc-28-2-74">Hughes JW, Olgin JE, Avram R. Performance of a convolutional neural network and explainability technique for 12-lead electrocardiogram interpretation. JAMA Cardiol. 2021;6(11):1285-1295. <a href="https://doi.org/10.1001/jamacardio.2021.2746">https://doi.org/10.1001/jamacardio.2021.2746</a></li><li id="b60-ajc-28-2-74">Yıldırım Ö, Pławiak P, Tan RS, Acharya UR. Arrhythmia detection using deep convolutional neural network with long duration ECG signals. Comput Biol Med. 2018;102():411-420. <a href="https://doi.org/10.1016/j.compbiomed.2018.09.009">https://doi.org/10.1016/j.compbiomed.2018.09.009</a></li><li id="b61-ajc-28-2-74">Perez MV, Mahaffey KW, Hedlin H. Large-scale assessment of a smartwatch to identify atrial fibrillation. N Engl J Med. 2019;381(20):1909-1917. <a href="https://doi.org/10.1056/NEJMoa1901183">https://doi.org/10.1056/NEJMoa1901183</a></li><li id="b62-ajc-28-2-74">Gawałko M, Duncker D, Manninger M. The European TeleCheck-AF project on remote app-based management of atrial fibrillation during the COVID-19 pandemic: centre and patient experiences. Europace. 2021;23(7):1003-1015. <a href="https://doi.org/10.1093/europace/euab050">https://doi.org/10.1093/europace/euab050</a></li><li id="b63-ajc-28-2-74">Mol D, Riezebos RK, Marquering HA. Performance of an automated photoplethysmography-based artificial intelligence algorithm to detect atrial fibrillation. CardioVasc Digit Health J. 2020;1(2):107-110. <a href="https://doi.org/10.1016/j.cvdhj.2020.08.004">https://doi.org/10.1016/j.cvdhj.2020.08.004</a></li><li id="b64-ajc-28-2-74">McKenna WJ, Maron BJ, Thiene G. Classification, epidemiology, and global burden of cardiomyopathies. Circ Res. 2017;121(7):722-730. <a href="https://doi.org/10.1161/CIRCRESAHA.117.309711">https://doi.org/10.1161/CIRCRESAHA.117.309711</a></li><li id="b65-ajc-28-2-74">Hershberger RE, Givertz MM, Ho CY. Genetic evaluation of cardiomyopathy - a Heart Failure Society of America practice guideline. J Card Fail. 2018;24(5):281-302. <a href="https://doi.org/10.1016/j.cardfail.2018.03.004">https://doi.org/10.1016/j.cardfail.2018.03.004</a></li><li id="b66-ajc-28-2-74">Shrivastava S, Cohen-Shelly M, Attia ZI. Artificial intelligence-enabled electrocardiography to screen patients with dilated cardiomyopathy. Am J Cardiol. 2021;155():121-127. <a href="https://doi.org/10.1016/j.amjcard.2021.06.021">https://doi.org/10.1016/j.amjcard.2021.06.021</a></li><li id="b67-ajc-28-2-74">McLeod CJ, Ackerman MJ, Nishimura RA, Tajik AJ, Gersh BJ, Ommen SR. Outcome of patients with hypertrophic cardiomyopathy and a normal electrocardiogram. J Am Coll Cardiol. 2009;54(3):229-233. <a href="https://doi.org/10.1016/j.jacc.2009.02.071">https://doi.org/10.1016/j.jacc.2009.02.071</a></li><li id="b68-ajc-28-2-74">Ko WY, Siontis KC, Attia ZI. Detection of hypertrophic cardiomyopathy using a convolutional neural network- enabled electrocardiogram. J Am Coll Cardiol. 2020;75(7):722-733. <a href="https://doi.org/10.1016/j.jacc.2019.12.030">https://doi.org/10.1016/j.jacc.2019.12.030</a></li><li id="b69-ajc-28-2-74">Fahmy AS, Neisius U, Chan RH. Three-Dimensional deep convolutional neural networks for automated myocardial scar quantification in hypertrophic cardiomyopathy: a multicenter multivendor study. Radiology. 2019;():190737-. <a href=""></a></li><li id="b70-ajc-28-2-74">Bhattacharya M, Lu DY, Kudchadkar SM. Identifying ventricular arrhythmias and their predictors by applying machine learning methods to electronic health records in patients with hypertrophic cardiomyopathy (HCM-VAr-risk model). Am J Cardiol. 2019;123(10):1681-1689. <a href="https://doi.org/10.1016/j.amjcard.2019.02.022">https://doi.org/10.1016/j.amjcard.2019.02.022</a></li><li id="b71-ajc-28-2-74">Shao XN, Sun YJ, Xiao KT. Texture analysis of magnetic resonance T1 mapping with dilated cardiomyopathy: a machine learning approach. Medicine. 2018;97(37):e12246-. <a href="https://doi.org/10.1097/MD.0000000000012246">https://doi.org/10.1097/MD.0000000000012246</a></li><li id="b72-ajc-28-2-74">Liang LW, Fifer MA, Hasegawa K, Maurer MS, Reilly MP, Shimada YJ. Prediction of genotype positivity in patients with hypertrophic cardiomyopathy using machine learning. Circ Genom Precis Med. 2021;14(3):e003259-. <a href="https://doi.org/10.1161/CIRCGEN.120.003259">https://doi.org/10.1161/CIRCGEN.120.003259</a></li><li id="b73-ajc-28-2-74">Diller GP, Benesch Vidal ML, Kempny A. A framework of deep learning networks provides expert-level accuracy for the detection and prognostication of pulmonary arterial hypertension. Eur Heart J Cardiovasc Imaging. 2022;23(11):1447-1456. <a href="https://doi.org/10.1093/ehjci/jeac147">https://doi.org/10.1093/ehjci/jeac147</a></li><li id="b74-ajc-28-2-74">Diller GP, Kempny A, Babu-Narayan SV. Machine learning algorithms estimating prognosis and guiding therapy in adult congenital heart disease: data from a single tertiary centre including 10 019 patients. Eur Heart J. 2019;40(13):1069-1077. <a href="https://doi.org/10.1093/eurheartj/ehy915">https://doi.org/10.1093/eurheartj/ehy915</a></li><li id="b75-ajc-28-2-74">Biglino G, Capelli C, Bruse J, Bosi GM, Taylor AM, Schievano S. Computational modelling for congenital heart disease: how far are we from clinical translation?. Heart. 2017;103(2):98-103. <a href="https://doi.org/10.1136/heartjnl-2016-310423">https://doi.org/10.1136/heartjnl-2016-310423</a></li><li id="b76-ajc-28-2-74">Samad MD, Wehner GJ, Arbabshirani MR. Predicting deterioration of ventricular function in patients with repaired tetralogy of Fallot using machine learning. Eur Heart J Cardiovasc Imaging. 2018;19(7):730-738. <a href="https://doi.org/10.1093/ehjci/jey003">https://doi.org/10.1093/ehjci/jey003</a></li><li id="b77-ajc-28-2-74">. . Seventy-second Regional Committee for Europe: Tel Aviv, 12–14 September 2022: Regional digital health action plan for the WHO European Region 2023–2030. 2022;():-. <a href="https://apps.who.int/iris/handle/10665/360950">https://apps.who.int/iris/handle/10665/360950</a></li>
+</ol>
+                                           
+   </div>
+</div>
+
+                                   
+
+                               
+                   </div>
+               </div>
+           </div>
+       </div>
+                   </div></div>
+           </div>
+       </div>
+   </section>
+
+            <div class="modal fade cite-modal" id="citeModal" tabindex="-1" aria-labelledby="citeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="citeModalLabel">Cite Article</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Tabs -->
+                        <ul class="nav nav-tabs border-0" id="citeTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="btn btn-outline-primary active me-2" id="nlm-tab" data-bs-toggle="tab" href="#nlm" role="tab" aria-controls="nlm" aria-selected="true">NLM</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-primary me-2" id="ama-tab" data-bs-toggle="tab" href="#ama" role="tab" aria-controls="ama" aria-selected="false">AMA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-primary me-2" id="apa-tab" data-bs-toggle="tab" href="#apa" role="tab" aria-controls="apa" aria-selected="false">APA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-primary me-2" id="mla-tab" data-bs-toggle="tab" href="#mla" role="tab" aria-controls="mla" aria-selected="false">MLA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-primary me-2" id="chicago-tab" data-bs-toggle="tab" href="#chicago" role="tab" aria-controls="mla" aria-selected="false">Chicago</a>
+                            </li>
+                        </ul>
+
+                        <!-- Tab Content -->
+                        <div class="tab-content mt-3 mb-2">
+                            <div class="tab-pane fade show active " id="nlm" role="tabpanel" aria-labelledby="nlm-tab">
+                                <span class="mb-0">Bozyel S, Şimşek E, Koçyiğit Burunkaya D, Güler A, Korkmaz Y, Şeker M, Ertürk M, Keser N. Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases. Anatol J Cardiol. 2024 ;28(2):74-86. doi: 10.14744/AnatolJCardiol.2023.3685. </span>
+
+                            </div>
+                            <div class="tab-pane fade" id="ama" role="tabpanel" aria-labelledby="ama-tab">
+                                <span class="mb-0">Bozyel S, Şimşek E, Koçyiğit Burunkaya D, et al. Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases. <em>Anatol J Cardiol</em>. 2024;28(2):74-86. doi: 10.14744/AnatolJCardiol.2023.3685 </span>
+
+                            </div>
+                            <div class="tab-pane fade" id="apa" role="tabpanel" aria-labelledby="apa-tab">
+                                <span class="mb-0">Bozyel, S., Şimşek, E., Koçyiğit Burunkaya, D., Güler, A., Korkmaz, Y., Şeker, M., Ertürk, M., & Keser, N. (2024). Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases. <em>The Anatolian Journal of Cardiology</em>, <em>28</em>(2), 74-86. https://doi.org/10.14744/AnatolJCardiol.2023.3685 </span>
+
+                            </div>
+                            <div class="tab-pane fade" id="mla" role="tabpanel" aria-labelledby="mla-tab">
+                                <span class="mb-0">Bozyel, S., et al. "Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases." <em>The Anatolian Journal of Cardiology</em>, vol. 28, no. 2, 2024, pp. 74-86. https://doi.org/10.14744/AnatolJCardiol.2023.3685. </span>
+                            </div>
+                            <div class="tab-pane fade" id="chicago" role="tabpanel" aria-labelledby="chicago-tab">
+                                <span class="mb-0">Bozyel, S., et al. 2024. "Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases." <em>The Anatolian Journal of Cardiology</em> 28, no. 2: 74-86. https://doi.org/10.14744/AnatolJCardiol.2023.3685. </span>
+                            </div>
+                        </div>
+
+                        <div class="mt-0 mb-2 text-end">
+                            <button class="btn btn-outline-primary w-100" id="copyCitationBtn">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                        </div>
+
+                        <div class="journal-format">
+                            <h4>Journal Display Format:</h4>
+                            <div class="journal-details">
+                                <strong>Authors:</strong> <u>Serdar Bozyel</u>, Evrim Şimşek, Duygu Koçyiğit Burunkaya, Arda Güler, Yetkin Korkmaz, Mehmet Şeker, Mehmet Ertürk, Nurgül Keser<br>
+                                <strong>Article Title:</strong> Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases<br>
+                                <strong>Journal Name:</strong> The Anatolian Journal of Cardiology<br>
+                                <strong>Year:</strong> 2024<br>
+                                <strong>Volume:</strong> 28<br>
+                                <strong>Issue:</strong> 2<br>
+                                <strong>Pages:</strong> 74 -  86<br>
+                                <strong>DOI:</strong> 10.14744/AnatolJCardiol.2023.3685
+                            </div>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <div class="d-flex flex-wrap gap-2">
+                            <a href="https://anatoljcardiol.com/article/3215/citation/ris" class="btn btn-outline-primary ">
+                                <i class="fas fa-file-download"></i> RIS
+                            </a>
+                            <a href="https://anatoljcardiol.com/article/3215/citation/bibtex" class="btn btn-outline-success ">
+                                <i class="fas fa-file-download"></i> BibTeX
+                            </a>
+                            <a href="https://anatoljcardiol.com/article/3215/citation/endnote" class="btn btn-outline-info">
+                                <i class="fas fa-file-download"></i> EndNote
+                            </a>
+                            <a href="https://anatoljcardiol.com/article/3215/citation/medlars" class="btn btn-outline-secondary ">
+                                <i class="fas fa-file-download"></i> Medlars
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const copyBtn = document.getElementById("copyCitationBtn");
+
+            copyBtn.addEventListener("click", function () {
+                // Aktif tabı bul
+                const activeTab = document.querySelector(".tab-pane.active span");
+                if (!activeTab) return;
+
+                const content = activeTab.innerText;
+
+                navigator.clipboard.writeText(content).then(() => {
+                    copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                    setTimeout(() => {
+                        copyBtn.innerHTML = '<i class="fas fa-copy"></i> Copy';
+                    }, 2000);
+                }).catch(err => {
+                    console.error("Copy failed:", err);
+                });
+            });
+        });
+    </script>
+
+                    </main>
+
+
+<section class="footer py-4">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 e-issn ">
+               E-ISSN: 2149-2271 &nbsp;&nbsp; | &nbsp;&nbsp; ISSN:  2149-2263<br>
+                    <div class="text-primary mt-2 fs-6">The Anatolian Journal of Cardiology</div>
+                </div>
+
+
+            </div>
+        </div>
+</section>
+
+<section class="copyright py-4">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 copyright">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            © Copyright 2026 The Anatolian Journal of Cardiology. All rights reserved for the website content. Articles published in this journal are licensed under a CC BY-NC license.</div>
+                        <div>
+                            <div><a href="httpss://karepb.com/">www.karepb.com</a></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <div class="modal fade" id="MailModal" tabindex="-1" role="dialog" aria-labelledby="MailModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form id="SubscribeForm">
+                            <input type="hidden" name="_token" value="nR1oK2OCD312FAXBI6sfmACCtSzdFmfrMCcyJNrk">                            <div class="alert" style="display:none"></div>
+                            <input type="email" id="email" name="email" required class="form-control" placeholder="E-mail" aria-label="E-mail address"><br>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-success" id="SubscribeButton">Submit</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script
+    src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+    crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    jQuery(document).ready(function(){
+        jQuery('#SubscribeButton').click(function(e){
+            e.preventDefault();
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+            jQuery.ajax({
+                url: "http://anatoljcardiol.com/subscribe",
+                method: 'post',
+                data: {
+                    email: jQuery('#email').val()
+                },
+                success: function(result){
+                    jQuery('.alert').attr('class', 'alert alert-success');
+                    jQuery('.alert').show();
+                    jQuery('.alert').html(result.success);
+                },
+                error: function(result){
+                    jQuery('.alert').attr('class', 'alert alert-danger');
+                    jQuery('.alert').show();
+                    jQuery('.alert').html("Your mail is already added or your mail is incorrected.");
+                }});
+        });
+    });
+</script>
+</html>

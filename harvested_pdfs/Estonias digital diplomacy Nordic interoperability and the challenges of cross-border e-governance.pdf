@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8" />
+<meta name="description" content="Estonia&#039;s e-governance prowess and the X-Road technology are shaping a new era of digital diplomacy among like-minded nations." />
+<meta name="abstract" content="Estonia has long been held as a leading example of e-Governance. Estonia’s ubiquitous e-Governance is enabled by the X-Road, an open-source data exchange layer that allows the secure exchange of data. This paper explores the X-Road integration between Estonia, Finland, Iceland, the Faroe Islands and the Åland Islands. Having been originally pioneered and implemented by Estonia and developed by the Estonian Information System Authority (RIA), X-Road is increasingly attractive to other nations drawn to the digital services it can enable. This paper argues that the cross-border implementation of the X-road, pioneered by Estonia, is a form of digital diplomacy – an opportunity to extend influence and shape e-norms among geopolitically like-minded partners. Prior conceptions of digital diplomacy have focused on citizen engagement – often specifically on the use of Twitter or other social media platforms for public outreach. This study suggests, however, that our understanding of digital diplomacy ought to extend beyond such undoubtedly important interpretations to also encompass the use of technology in developing closer diplomatic relations. The study utilises a series of semi-structured interviews with government officials and private sector actors to support its arguments around the diplomatic and geopolitical implications of e-Governance as a diplomatic tool." />
+<link rel="canonical" href="https://policyreview.info/articles/analysis/estonias-digital-diplomacy-nordic-interoperability" />
+<meta property="og:title" content="Estonia’s digital diplomacy: Nordic interoperability and the challenges of cross-border e-governance" />
+<meta property="og:description" content="Estonia&#039;s e-governance prowess and the X-Road technology are shaping a new era of digital diplomacy among like-minded nations." />
+<meta property="og:image" content="https://policyreview.info/themes/custom/ipr3/_res/img/logos/internet-policy-review-figurative-mark.png" />
+<meta name="dcterms.title" content="Estonia’s digital diplomacy: Nordic interoperability and the challenges of cross-border e-governance" />
+<meta name="dcterms.creator" content="Hardy (Alex)" />
+<meta name="dcterms.subject" content="Internet Policy" />
+<meta name="dcterms.subject" content="info:eu-repo/classification/ddc/300" />
+<meta name="dcterms.subject" content="Social Sciences" />
+<meta name="dcterms.subject" content="info:eu-repo/classification/ddc/340" />
+<meta name="dcterms.subject" content="info:eu-repo/classification/ddc/000" />
+<meta name="dcterms.subject" content="Computer science, knowledge &amp; systems" />
+<meta name="dcterms.subject" content="info:eu-repo/classification/ddc/380" />
+<meta name="dcterms.subject" content="Commerce, communications &amp; transportation" />
+<meta name="dcterms.subject" content="Estonia" />
+<meta name="dcterms.subject" content="E-government" />
+<meta name="dcterms.subject" content="Digital diplomacy" />
+<meta name="dcterms.subject" content="Innovation" />
+<meta name="dcterms.subject" content="Cross-border e-governance" />
+<meta name="dcterms.description" content="Estonia has long been held as a leading example of e-Governance. Estonia’s ubiquitous e-Governance is enabled by the X-Road, an open-source data exchange layer that allows the secure exchange of data. This paper explores the X-Road integration between Estonia, Finland, Iceland, the Faroe Islands and the Åland Islands. Having been originally pioneered and implemented by Estonia and developed by the Estonian Information System Authority (RIA), X-Road is increasingly attractive to other nations drawn to the digital services it can enable. This paper argues that the cross-border implementation of the X-road, pioneered by Estonia, is a form of digital diplomacy – an opportunity to extend influence and shape e-norms among geopolitically like-minded partners. Prior conceptions of digital diplomacy have focused on citizen engagement – often specifically on the use of Twitter or other social media platforms for public outreach. This study suggests, however, that our understanding of digital diplomacy ought to extend beyond such undoubtedly important interpretations to also encompass the use of technology in developing closer diplomatic relations. The study utilises a series of semi-structured interviews with government officials and private sector actors to support its arguments around the diplomatic and geopolitical implications of e-Governance as a diplomatic tool." />
+<meta name="dcterms.publisher" content="Alexander von Humboldt Institute for Internet and Society gGmbH" />
+<meta name="dcterms.contributor" content="Dubois (Frédéric)" />
+<meta name="dcterms.date" content="2024-07-22" />
+<meta name="dcterms.type" content="info:eu-repo/semantics/article" />
+<meta name="dcterms.type" content="info:eu-repo/semantics/publishedVersion" />
+<meta name="dcterms.format" content="application/html" />
+<meta name="dcterms.identifier" content="https://policyreview.info/node/1785" />
+<meta name="dcterms.identifier" content="info:doi:10.14763/2024.3.1785" />
+<meta name="dcterms.language" content="eng" />
+<meta name="dcterms.relation" content="info:eu-repo/semantics/altIdentifier/eissn/2197-6775" />
+<meta name="dcterms.rights" content="Creative Commons Attribution 3.0 Germany" />
+<meta name="dcterms.rights" content="info:eu-repo/semantics/openAccess" />
+<meta name="dcterms.rights" content="https://creativecommons.org/licenses/by/3.0/de/" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="icon" href="/themes/custom/ipr3/_res/img/favicon.ico" type="image/vnd.microsoft.icon" />
+
+        <title>Estonia’s digital diplomacy: Nordic interoperability and the challenges of cross-border e-governance | Internet Policy Review</title>
+        <link rel="stylesheet" media="all" href="/sites/default/files/css/css_B6xoVWbG68lSylcmjHV_-riUEmYZHSV47E0N_j0VXdY.css?delta=0&amp;language=en&amp;theme=ipr3&amp;include=eJxNikEKwzAMwD5k4sMeVJzENO7cOthJu_1-MBjdRSChIoNHkzisMpY_WbJaeS5bQDFnrD47aaKNXiDdH7iqZVLo5LQ69Ra_5S5pHn1mlWhcId4xeMdMwXAKX4Ffpt3qVP4AC1Q0vg" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Cve1sYVUVa4K-E4R7WYY3O0ECNZ2P1lSTLFt3zprsjw.css?delta=1&amp;language=en&amp;theme=ipr3&amp;include=eJxNikEKwzAMwD5k4sMeVJzENO7cOthJu_1-MBjdRSChIoNHkzisMpY_WbJaeS5bQDFnrD47aaKNXiDdH7iqZVLo5LQ69Ra_5S5pHn1mlWhcId4xeMdMwXAKX4Ffpt3qVP4AC1Q0vg" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_SWBi50JC6siygLyRqwg3PfgJ78NxcGiVv5bgVfK6VfI.css?delta=2&amp;language=en&amp;theme=ipr3&amp;include=eJxNikEKwzAMwD5k4sMeVJzENO7cOthJu_1-MBjdRSChIoNHkzisMpY_WbJaeS5bQDFnrD47aaKNXiDdH7iqZVLo5LQ69Ra_5S5pHn1mlWhcId4xeMdMwXAKX4Ffpt3qVP4AC1Q0vg" />
+
+        
+    </head>
+    <body class="path-node page-node-type-analysis node-type-analysis" data-theme="ipr">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+            Skip to main content
+        </a>
+        
+          <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page" class="page">
+
+    
+    <header class="header" data-sticky>
+        <div class="header__inner">
+            <a id="logo" href="/">Internet Policy Review</a>
+            <div class="header__navigation">
+                                    <nav class="nav nav--main" data-priority-nav>
+    <div data-spacer></div>
+    <ul class="nav__list nav__list--main" data-menu>
+
+                                            <li id="nav__item-985d918a"  class="nav__item nav__item--main has-submenu"  data-has-submenu >
+                <a href="/openaccess" >
+                    Open Access
+                </a>
+                                    <ul class="nav__sub nav__sub--main" data-submenu>
+                                                                                                            <li id="nav__sub__item-f4f3359b"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/openaccess#concept" >
+                                    Concept
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-2d99045c"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/accessibility" >
+                                    Accessibility
+                                </a>
+                            </li>
+                                            </ul>
+                            </li>
+                                            <li id="nav__item-7621187f"  class="nav__item nav__item--main has-submenu"  data-has-submenu >
+                <a href="/authors" >
+                    Publish
+                </a>
+                                    <ul class="nav__sub nav__sub--main" data-submenu>
+                                                                                                            <li id="nav__sub__item-124a1890"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#aims" >
+                                    Aims and scope
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-dc9cd8a0"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#what" >
+                                    Submissions
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-6212070a"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#peer" >
+                                    Peer review
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-13187621"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#howto" >
+                                    How to publish with us
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-5da5e071"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#manuscript" >
+                                    Manuscript template
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-e8acc934"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/authors#style" >
+                                    Style guide
+                                </a>
+                            </li>
+                                            </ul>
+                            </li>
+                                            <li id="nav__item-15f4ab4d"  class="nav__item nav__item--main" >
+                <a href="/archives/all" >
+                    Archives
+                </a>
+                            </li>
+                                            <li id="nav__item-7c71ca60"  class="nav__item nav__item--main has-submenu"  data-has-submenu >
+                <a href="/about" >
+                    About
+                </a>
+                                    <ul class="nav__sub nav__sub--main" data-submenu>
+                                                                                                            <li id="nav__sub__item-d0832501"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/about#scope" >
+                                    Scope
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-c0329100"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/editorial-board" >
+                                    Editorial Board
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-2feb4acd"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/editorial-team" >
+                                    Editorial Team
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-53e8f825"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/managing-board" >
+                                    Managing Board
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-40bdcd5c"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/reviewers" >
+                                    Reviewers
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-78ae509b"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/about#why" >
+                                    Why publish with us
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-3ea74670"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/about#license" >
+                                    License
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-01c77750"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/about#funding" >
+                                    Funding
+                                </a>
+                            </li>
+                                                                                                            <li id="nav__sub__item-229dae37"  class="nav__sub__item nav__sub__item--main">
+                                <a href="/contact" >
+                                    Contact
+                                </a>
+                            </li>
+                                            </ul>
+                            </li>
+                                            <li id="nav__item-376b4445"  class="nav__item nav__item--main" >
+                <a href="/rss" >
+                    RSS
+                </a>
+                            </li>
+                                            <li id="nav__item-8c5761b9"  class="nav__item nav__item--main" >
+                <a href="/user/login" >
+                    Login
+                </a>
+                            </li>
+                <li class="nav__item nav__item--search nav__item--main">
+            <div class="search-api-form block block--search js-hidden" data-drupal-selector="search-api-form" id="search">
+    
+    <form action="/search" method="get" id="search-api-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-search js-form-item-search">
+      <label for="edit-search">Search</label>
+        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-search" type="search" id="edit-search" name="search" value="" size="15" maxlength="128" placeholder="" class="form-search" />
+
+        </div>
+  <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+</div>
+
+
+            <img class="js-search-expand search-icon" alt="Search" src="/themes/custom/ipr3/_res/img/icons/icon-search.svg"/>
+        </li>
+    </ul>
+</nav>
+
+
+
+                            </div>
+        </div>
+    </header>
+
+    
+    
+    <nav id="cats" class="nav nav--categories" data-priority-nav aria-labelledby="nav__label">
+  <h2 id="cats__label" class="visually-hidden">Categories</h2>
+    <ul class="nav__list nav__list--categories" data-menu role="menu">
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/diversity" >Diversity</a>
+            </li>
+                    <li class="nav__item nav__item--categories is-active">
+                <a href="/categories/procedures-governance" >Governance</a>
+            </li>
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/infrastructure-standards" >Infrastructure &amp; Standards</a>
+            </li>
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/access-content" >Information &amp; Data</a>
+            </li>
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/business-trade" >Innovation</a>
+            </li>
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/copyright-ipr" >Intellectual Property Rights</a>
+            </li>
+                    <li class="nav__item nav__item--categories">
+                <a href="/categories/privacy-security" >Privacy &amp; Security</a>
+            </li>
+            </ul>
+</nav>
+
+
+
+
+        <div
+        id="main">
+
+        
+        <main id="content" class="main">
+            
+                                    
+<div data-drupal-messages-fallback class="hidden"></div>
+
+
+
+<article class="article full analysis published" id="node-1785">
+    <div class="header">
+        <div class="topic">
+            <a href="/archives/2024/issue-3">Volume 13, Issue 3</a>
+                    </div>
+        
+                    <h1>
+<span>Estonia’s digital diplomacy: Nordic interoperability and the challenges of cross-border e-governance</span>
+</h1>
+                
+        <div class="meta">
+            <a href="/users/alex-hardy" hreflang="en">Alex Hardy</a>, <em>University of Liverpool</em>, <em>United Kingdom</em><br/><br/>
+            PUBLISHED ON:&nbsp;<span class="meta__date">22 Jul 2024</span>
+                DOI:&nbsp;<span style="color:#3d3f41;">10.14763/2024.3.1785</span>
+
+        </div>
+    </div>
+    <div class="content">
+        <div class="abstract">
+            <h2>Abstract</h2>
+            Estonia has long been held as a leading example of e-Governance. Estonia’s ubiquitous e-Governance is enabled by the X-Road, an open-source data exchange layer that allows the secure exchange of data. This paper explores the X-Road integration between Estonia, Finland, Iceland, the Faroe Islands and the Åland Islands. Having been originally pioneered and implemented by Estonia and developed by the Estonian Information System Authority (RIA), X-Road is increasingly attractive to other nations drawn to the digital services it can enable. This paper argues that the cross-border implementation of the X-road, pioneered by Estonia, is a form of digital diplomacy – an opportunity to extend influence and shape e-norms among geopolitically like-minded partners.
+
+Prior conceptions of digital diplomacy have focused on citizen engagement – often specifically on the use of Twitter or other social media platforms for public outreach. This study suggests, however, that our understanding of digital diplomacy ought to extend beyond such undoubtedly important interpretations to also encompass the use of technology in developing closer diplomatic relations. The study utilises a series of semi-structured interviews with government officials and private sector actors to support its arguments around the diplomatic and geopolitical implications of e-Governance as a diplomatic tool.
+        </div>
+                    
+
+
+<div class="infos expanded">
+    <div class="js-close info-close">Citation
+        <span class="nophone">& publishing
+        </span>information</div>
+    <div class="js-toclose">
+                    <strong>Received:</strong>
+            <time datetime="2023-09-04T02:45:00+02:00">September 4, 2023</time>
+
+                            <strong>Reviewed:</strong>
+            <time datetime="2023-12-22T01:00:00+01:00">December 22, 2023</time>
+
+                <strong>Published:</strong>
+        July 22, 2024<br/>
+        <strong>Licence:</strong>
+                    <a href="https://creativecommons.org/licenses/by/3.0/de/deed.en" target="_blank">Creative Commons Attribution 3.0 Germany</a><br/>
+                            <strong>Funding:</strong>
+            This research was funded by the author’s doctoral grant from the Leverhulme Trust as well as the DORA Mobility Fund, Estonia.<br/>
+                <strong>Competing interests:</strong>
+        The author has declared that no competing interests exist that have influenced the text.<br/>
+                        <strong>Keywords: </strong>
+                                    <a href="/tags/issues/estonia">Estonia</a>,                                 <a href="/tags/issues/e-government">E-government</a>,                                 <a href="/tags/issues/digital-diplomacy">Digital diplomacy</a>,                                 <a href="/tags/issues/innovation">Innovation</a>,                                 <a href="/tags/issues/cross-border-e-governance">Cross-border e-governance</a>    <br/>
+
+                <strong>Citation:</strong>
+        Hardy, A. (2024). Estonia’s digital diplomacy: Nordic interoperability and the challenges of cross-border e-governance. <em>Internet Policy Review</em>, <em>13</em>(3). https://doi.org/10.14763/2024.3.1785
+    </div>
+</div>
+        
+        <p><em><strong>Addendum:</strong> Estonia’s Digital Diplomacy through the development of e-governance solutions is not only limited to the Nordic Region. It can also be evidenced beyond, in regions such as Latin America (<a href="https://x-road.global/integrity-and-interoperability-the-perfect-match-for-argentinas-public-service">https://x-road.global/integrity-and-interoperability-the-perfect-match-for-argentinas-public-service</a>) and further research could interrogate these developments in further detail. A small number of editorial corrections were added to this article on 8 October 2024 to correct errors highlighted by an anonymised research participant. The author is solely affiliated to the University of Liverpool and not any of the institutions engaged with during this research.</em></p>
+<h2>Introduction</h2>
+<blockquote><p>It's crucial for Estonia to extend its system beyond the country because we’ve invested so much into it. (Research Participant, "Cybersecurity Solutions"&nbsp;Firm, Tallinn)</p></blockquote>
+<p>This paper represents an examination of contemporary Estonian e-Governance as a tool of foreign policy and digital diplomacy. In relation to Estonia and its neighbours, former Estonian President Kersti Kaljulaid has referred to the development of an "e-Nordic"&nbsp;region.</p>
+<blockquote><p>We need to have all the Nordic circle countries connected to a single digital identity or at least have the ability to recognise digitally our digital signatures. We will strive to cooperate in this sphere and we are developing from e-Estonia to e-Nordic. (Kaljulaid, 2018)</p></blockquote>
+<p>President Kaljulaid was speaking about the event of Icelandic accession to the NIIS (the Nordic Institute for Interoperability Solutions).<sup><a class="see-footnote" id="footnoteref1_hf7sjax" title=" Further information on the Nordic Institute for&amp;nbsp;Interoperability Solutions can be found on their website, see NIIS, n.d.a " href="#footnote1_hf7sjax">1</a></sup> The organisation, based in Tallinn, began as a collaborative agreement between the Estonian and Finnish governments. The focus of this institute is the development of cross-border, e-Governance solutions using the X-Road, a “digital ecosystem” software (NIIS, n.d.c). The institute supports the goal of increased cooperation in the realms of e-Governance, e-service development, and cooperative security. Estonia, Finland and Iceland are current members of the NIIS whilst the Faroe Islands and the Government of Åland are partners of the institute. President Kaljulaid did not explicitly name the countries of her “e-Nordic” vision, and so this paper henceforth refers to the signatories of the NIIS and their pursuit of Nordic interoperability.</p>
+<p>This paper investigates the link between contemporary digital diplomacy literature and wider research on e-Governance, digitalisation, and the politics of digital technology. It offers this case study in an attempt to bridge the gap between these two fields of research, exploring some of the similarities and also differences in literature to data. The paper also offers some geopolitical observations building upon the work of Buchanan (2020) who has offered insights into how technology increasingly shapes statecraft by providing increased opportunities for espionage and destabilisation. Schmidt (2023) conversely noted how digitalisation can be used to build national resilience, noting how Ukraine’s rapid digitalisation of state infrastructure was particularly beneficial in maintaining the relationship between citizens and government in the early days of the 2022 Russian invasion of Ukraine. Robinson (2020) has argued that Estonia has already used technology to enhance the resilience of the state via the data embassy initiative (Robinson, 2020). The paper consequently focuses on the question of why Estonia is actively developing this initiative in collaboration with its Nordic neighbours and the socio-economic implications of this unique form of digital diplomacy.</p>
+<h2>Digital diplomacy</h2>
+<p>Before defining digital diplomacy, it may be prescient to define conventional diplomacy. The Oxford Dictionary defines diplomacy as “the profession, activity, or skill of managing international relations” (2001). It has been argued that diplomacy is the “institutionalised communication among internationally recognised entities through which representatives produce, manage, and distribute public goods” (Bjola &amp; Kornprobst, 2018, p. 4).</p>
+<p>Digital diplomacy has been a growing concern in recent years with an increased focus on semiotic/audience-based studies. This is said to be characterised by a fundamental shift involving the widespread digitalisation of Ministries of Foreign Affairs (MFAs) and a transformation in how diplomacy works in the 21st century (Bjola, 2016; Manor &amp; Kampf, 2022). These are often focused on the messaging of governments using social media outlets to engage with the citizens of other countries and have been covered extensively by the likes of Bjola &amp; Holmes (2015) whose edited volume outlines the policy and the institutional implications of digital diplomacy, largely focusing on foreign ministries. Bjola’s (2016) State of the Art noted the “digital shift” of diplomacy moving towards interactions with nationals and non-nationals alike in the pursuit of foreign policy goals. While Adesina (2017) argues that there has been a revolution in diplomatic communication and emphasises how all nations, including African nations she is particularly concerned with, must adapt and learn to communicate their foreign policy in new, innovative ways. Manor (2019) explores digital diplomacy’s impact on public diplomacy, using case studies to show technology's influence on diplomatic practices. He evaluates factors driving digitalisation and discusses its role in diplomacy. Manor’s subsequent (2020) paper explores the use of humour in this public messaging. This focus on public messaging characterises much contemporary digital diplomacy research to date, and has broadened to various case studies focusing on the online state communications of the United States, the EU, China (Bjola &amp; Jiang, 2015), Russia (Manor, 2020), and beyond.</p>
+<p>
+What tends to unite these studies is a focus on citizen engagement – often focused on the use of Twitter or other social media networks for public outreach. This study suggests, however, that Digital Diplomacy ought to extend beyond such undoubtedly important interpretations to also encompass the wider use of technology in developing diplomatic relations. Diplomacy is generally accepted to be an extension of, or a means to achieve foreign policy goals. Digital diplomacy should also be understood as a digital extension of more traditional forms of diplomacy, and thus an extension of a nation’s foreign policy. There have been some tentative steps in this direction. Bjola &amp; Manor allude to the possibility of broadening the study of digital diplomacy to work which “calls to attention a broader perspective of the role of digital technology in diplomacy, not only as an instrument or medium of communication and collaboration” (2024, p. 20). There has been some work in this regard. Kello (2024) focuses on cybersecurity as a matter of digital diplomacy and identifies “cyber diplomacy” as necessitating a reevaluation of traditional diplomatic frameworks to address evolving threats and stakeholders in the digital age. He also identifies a series of contemporary digital innovations that constitute major challenges such as the development of artificial intelligence and how careful digital diplomacy will be required to mitigate some of the threats it potentially poses. Bjola and Kļaviņš (2024) argue that states have begun to conduct digital diplomacy in a “hybrid” manner which involves both communication-based digital diplomacy but also the use of digital innovation to support conventional diplomacy, noting Estonia’s use of an e-residency initiative in this regard.</p>
+<p>This paper argues that our understanding of digital diplomacy can be further extended. While this study still involves the use of technology to conduct foreign policy and engage with the wider public, it does not encompass social media interactions, thus demonstrating the value of this case study, which is outlined below, and highlighting the broader potential of digital diplomacy. There is also a difference in the audience. While in public diplomacy-focused work the general public is the intended audience, in this more broadly-defined digital diplomacy, the audience is both the everyday citizen but also the more conventional subject of diplomatic relations – the governing elites of other nation states. Representation and communication with foreign governments is noted to generally be the preserve of “traditional” diplomacy (Bjola &amp; Manor, 2024) however, a digital diplomacy that engages with both the public and nation state governments is worthy of further research.</p>
+<h2>Methods</h2>
+<p>This article draws upon a dataset originating from a series of interviews conducted with individuals from various sectors of the Estonian tech industry, encompassing both public and private domains. This paper utilises data from ten of these interviews, and details of these interviews are included in the annex. These interviews were conducted as part of a broader investigation into Estonia's innovative approaches to e-governance and digitalisation, exploring how the country harnesses technological advancements to enhance governance practices and public service delivery. Moreover, these discussions were framed within the context of a larger project that scrutinises Estonia's strategic use of technology to expand its global influence, particularly in the realms of e-governance and cybersecurity. While interview participants' identities have been anonymized to safeguard confidentiality, detailed information is available in the annex accompanying this article for those seeking further insights. Furthermore, interviews were also conducted with professionals from Finland, offering valuable perspectives on the developments documented in this article, as Finland is an important neighbour and ally of Estonia and is directly impacted by the issues this paper addresses. Employing a semi-structured interview format, these interactions were transcribed and analysed to identify prevailing themes and nuances pertinent to the discourse on e-governance, digital transformation, and cross-cultural dynamics.</p>
+<h2>The geopolitics of Nordic interoperability</h2>
+<p>A vision of Nordic interoperability based upon a shared embrace of interoperable e-Governance represents a growing reality between Estonia, Finland, and Iceland. The chief goals of the NIIS include “enabling secure connectivity, searches and data transfers” (Sirviö, 2019). These are reflective of the principles of “confidentiality, integrity and availability” of data which is integral to most information security approaches. These principles have also been applied to e-governance approaches by Adeodate &amp; Pournouri (2020) who note how the “X-tee” (the domestic e-governance ecosystem of Estonia) paid particular heed to the importance of these principles throughout X-tee’s development and implementation.</p>
+<p>The sovereignty of data has also come under increasing scrutiny with critiques covering the importance of geographical locations of digital infrastructure (Amoore, 2018) and the sovereignty of individuals’ data (Pohle &amp; Thorsten, 2020). Just as good e-Governance is guided by the principles noted above, it is also subject to geographical and indeed geopolitical forces. The&nbsp;<a href="https://static1.squarespace.com/static/59ba41ee64b05fd6531f498d/t/61dd596db05cbf5dee96e782/1641896313949/NIIS_YearBook_2017.pdf">vision once held by NIIS</a> of interoperable e-Governance represents a tentative example of enhanced, interoperable cooperation among willing partners (Krimmer et al., 2021). Yet it is simultaneously mindful of collective security concerns, both in terms of conventional security and cyber security, and particularly cautious of an increasingly assertive and revanchist Russia in the cyber domain (Dahl &amp; Järvenpää, 2013; Pigman, 2018; Kurowska, 2020) and in the field of digital diplomacy where battles around identity and interpretation of the Soviet and post-Soviet past have become an online battleground in which the Russian Ministry of Foreign Affairs has been increasingly involved (Mälksoo, 2016; Manor, 2019).</p>
+<p>The ongoing war in Ukraine is a particularly sensitive matter within the Baltic States who have long feared Russian domination and consistently warned the Western alliance against accommodating Russia before the 2022 full-scale invasion of Ukraine. Similarly, Russian foreign policy in the build-up to the invasion of Ukraine became increasingly focused upon the idea of “NATO expansionism” (Zubok, 2023). Consequently, it is important to acknowledge the environment in which NIIS and Nordic digital interoperability are a product. Namely, a tense geopolitical environment, defined by competing national security goals, where the threat of “hybrid” conflict looms large (for discussion on the geopolitics and competing identities of the region see Aalto, 2003; Berg &amp; Ehin, 2016). Famously, Estonia was the target of malicious cyber attacks in 2007 targeting various public institutions including parliament, ministries, and state broadcasters. These cyber attacks were predominantly DDOS (distributed denial of service) attacks from a wide range of botnets. The incident was noted to be “hybrid” in nature and was supplemented by disorder on the streets from local Russian speakers (Hansen &amp; Nissenbaum, 2009). The consequent fall-out of the 2007 attacks played out in a number of ways. Estonia’s diplomatic response was swift, directly accusing the Kremlin of orchestrating the attacks and appealing to both the EU and NATO for assistance. In the aftermath, Estonian lobbying was integral to the establishment of the NATO Cooperative Centre for Cyber Defence in Tallinn. Estonia has also persistently argued that cyber attacks should be covered by Article 5 of the NATO charter, which serves as a mutual defence mechanism for all member states (Kerikmäe et al., 2019). The attacks also served as inspiration for Estonia to initiate the data embassy initiative; a programme which situates critical data storage in a geopolitically friendly nation, Luxembourg, and serves to protect that data in the event that Estonia’s territorial integrity is compromised (Robinson &amp; Martin, 2017).</p>
+<p>Actions such as those of 2007 involving both cyber and “real world” attacks have been argued to represent a form of “hybrid” conflict, although not without some cynicism that arguably all conflict is “hybrid” in the modern era (Mälksoo, 2018; Galeotti, 2016). Nevertheless, with the advent of “hybrid” threats, it is crucial to recognise that citizens hold security concerns brought about by the increasing digitalisation of the state and that this increasingly impacts on everyday lives of citizens. Existing critical research is often scathing of a contemporary security environment that increasingly places the burden of security upon citizens (such as Vaughan-Williams &amp; Stevens, 2016), whilst the Estonian “cyber war” of 2007 has been critiqued from a perspective of securitisation (Hansen &amp; Nissenbaum, 2009). Yet, despite these concerns, as well as concerns regarding the potential elite level of cyber security discourse as being inaccessible to average citizens (Dunn Cavelty, 2013), Estonia has continually embraced digital technology in delivering public services, with quantitative research indicating a continual growth of online service usage linked closely to public trust in delivering trustworthy services (Solvak et al., 2019); it has also been perceived as impressive enough by other states that they would like to replicate those services. Analysis of what is being adopted, where, and why, form the substantive analysis of the rest of this paper. Furthermore, this paper contends that Estonia has sought to use digital solutions as a long-term means of digital diplomacy with neighbouring countries such as Finland, who until recently did not share Baltic anxieties and adopted a more accommodating/neutral stance towards Russia (Sulg &amp; Crandall, 2020). While utilising cross-border e-Governance as a digital diplomatic tool is relatively novel, it is not wholly unheard of for small states to adopt niche approaches to extend their international influence (Hardy, 2023). It has been observed that Latvia has very successfully specialised in counter-disinformation, successfully lobbying larger allies within the EU and NATO to take the threat of Russian propaganda seriously and helping to establish the NATO StratCom Centre of Excellence in Riga (Vériter, 2024). Lithuania, meanwhile, has been observed to offset its relatively small network of embassies by being particularly active online, especially in engaging with its diaspora and taking a combative approach to Russian messaging (Manor, 2019). These varied approaches are all broadly illustrative of the geopolitical priorities of those given states.</p>
+<h2>X-road: A geopolitical vision</h2>
+<p>Estonia claims to lead the world in e-Governance, with over 99% of government services available online. Every Estonian citizen has a citizen number and a secure digital identity, and from the age of 16 has access to online services (e-Estonia, 2019). This all functions via the population register, which is connected to other systems and databases via the X-Road – a data exchange layer that supports secure, time-stamped data exchanges. The X-Road is an open-source data exchange layer with multiple instances and is available via Github (2024). The Estonian domestic X-Road instance is known as X-Tee (Tee meaning road in Estonian, however, this is now used to differentiate from the cross-border X-road instance this paper discusses in further detail). Finland operates a domestic X-Road instance Suomi.Fi-palveluväylä (Finland Gateway) and Iceland operates their own X-Road too, named Straumurinn (the stream). So while “X-Road” is a data exchange layer software of which there are multiple named instances, <em>the</em> X-Road is the international data exchange layer maintained by the Nordic Institute for&nbsp;Interoperability Solutions&nbsp;(NIIS). X-Road federation&nbsp;facilitates international data flows between separate X-Road instances. The NIIS is headquartered in Tallinn and is responsible for the ongoing development of the source code&nbsp;(NIIS, n.d.c).</p>
+<p>However, X-Road adoption is not limited to the Nordic nations. Others have also adopted the Unified eXchange Platform (UXP) which is a privately developed and fully interoperable alternative to the X-Road (albeit based on the X-Road). This has been developed by the Estonian company Cybernetica and is utilised to provide a number of services and digital identities in several nations including Greenland, Ukraine, Benin, Namibia and more (Saputro et al., 2020; Cybernetica, n.d.). Greenland is a particularly curious case as an autonomous country of the Kingdom of Denmark, much like the Faroe Islands, who utilise X-Road and feature later in this paper. The Greenlandic adoption of the UXP system ‘Pitu’ and local experiences of digitalisation has been documented by existing research (Wendt, 2020; Jenson et al, 2020).</p>
+<p>As with every case study outlined, local experiences are crucial. The Estonian experience of comprehensive e-Governance must be understood within the specific social, cultural and political environment in which it has been produced and implemented. The possibility of replicating e-Estonia beyond Estonia's borders has been subject to critique (Chadwick, 2003; Anthes, 2015; Hardy, 2022), and this has also recently spilt into popular media outlets including Wired, The New Yorker and the BBC (see Lufkin, 2017; Heller 2017; Sterling, 2017). These outlets have eulogised the efficiency, convenience, and economics of the Estonian model. This has been driven by many high-profile campaigns of the Estonian government, such as the e-residency initiative and the data embassy, which have successfully enhanced the e-Estonia brand (Mäe, 2016; Robinson, 2020).</p>
+<p>The ability of the X-Road to provide trackable, time-stamped, accountable data has generated much international interest as it is said to enhance accountability and prevent the misuse of personal data. Citizens access e-services with their secure digital identities, which are double-factor authenticated by the user via a variety of options. Contrary to common misconceptions, the X-Road is not blockchain technology, and the identity of both service providers and consumers is centrally maintained by the X-Road operator (Kivimäki, 2018). Therefore, the appropriate governmental departments in Estonia, Finland, and Iceland are responsible for their respective X-Road instances (X-tee, Suomi.Fi-palveluväylä, and Straumurinn, respectively).</p>
+<p>Trust in the state to operate this benevolently is necessary and has been reasonably easy to find in a&nbsp;<span style="color: var(--color-primary); font-family: var(--font-primary);">Estonian context. Existing research has argued that a consequence of the traumas of occupation by the Soviet Union and Nazi Germany and Estonia’s perceived fragile independence has ensured increased levels of trust in public institutions within contemporary Estonia (Priisalu &amp; Ottis, 2017). Nevertheless, despite local context, it is vital to build trust services for transparency and accountability.</span></p>
+<figure class="img-align-none image-inline" id="figure_1"><img alt="Figure showing the X-Road ecosystem" data-filename="1.png" data-imgid="1" src="/sites/default/files/assets/images/node-1785/1.png" style="height: 100%; width: 100%;"><br>
+<figcaption><span class="label">Figure 1: </span>An overview of the X-Road Ecosystem (Hardy, 2022).&nbsp; For a highly detailed breakdown of the individual aspects of the Estonian X-Road Ecosystem including individual public and private service providers, see Vassil (2016).</figcaption>
+</figure>
+<p>As illustrated in <a href="#figure_1">Figure 1</a>, an X-Road instance's key components include the&nbsp;central server, as well as associated trust services (including time stamping and certification services) and the security servers which permit communication between service providers and service consumers.<sup><a class="see-footnote" id="footnoteref2_mkoll0t" title=" The diagram represents a simplistic overview of the X-Road. For further information on X-Road Architecture, see the NIIS (n.d.b). " href="#footnote2_mkoll0t">2</a></sup> Service providers can be both public and private institutions. Trust services provide certification and time-stamping as part of the public key infrastructure (PKI). A combination of procedures, software, and hardware alike combine to implement securely-encrypted digital transactions. Service providers require the approval of the local government.</p>
+<h2>Interoperability, how Nordic interoperability works/will work, and why it matters to Estonia</h2>
+<p>Existing research on interoperability has been contributed by e-Governance and digitalisation scholars and has illustrated how interoperability projects affect institutional authority and accountability, as well as how domestic e-governance and interoperability among state institutions within one national jurisdiction is vital (Prins et al., 2012) It has also focused on the importance of “institutional reordering” and examined the integration of governmental information systems and how these raise concerns about privacy and surveillance while analysing technical and institutional implications to address power and accountability shifts (Pelizza, 2016). Other e-Governance research has identified legislation, institutional practices, and political agendas as significant challenges and noted that interoperability involves navigating intricate governance issues, with e-Governance projects often facing difficulties due to ambitious integration efforts and the need for societal changes (Hellberg &amp; Grönlund, 2013). These studies have focused on various European nations including the Netherlands, Italy, and Sweden, and these challenges can also be evidenced in Estonia also. However, existing research on Estonia’s domestic e-Governance has noted that the principle of interoperability is inherent to the development of national e-Governance services enabled by the X-Road and while not law, it is also an established principle in the country that all services should also ascribe to the Once Only Principle (OOP) to foster trust and enhance public convenience, which has been assessed as a great success domestically (Kattel &amp; Mergel, 2019)</p>
+<p>The success of Estonia’s X-Road adoption can also be seen in existing quantitative research demonstrating a growing service uptake among the population (see Solvak et al., 2019). As previously mentioned, this has generated considerable interest overseas for X-Road-enabled governance. NIIS and the goal of Nordic Interoperability might be considered a progression of the success of X-Road in Estonia domestically. The goals of the institute are:</p>
+<blockquote><p>To ensure the quality, sustainability, cross-border capability of core e-government infrastructure components; to save resources upon the development of digital society and cross-border co-operation. (Nordic Institute for&nbsp;Interoperability Solutions, 2017)</p></blockquote>
+<p>Estonia has a long-running international reputation for punching above its weight in technological terms. However, existing research has suggested that X-Road’s adoption in Estonia was driven predominantly by economic factors, helping to streamline public service costs, which could then be invested in other areas such as infrastructure and defence (Kalja, 2002). The Estonian development of services has often been carried out on an ad-hoc basis, thanks to the unique freedoms of immediate post-Soviet independence, which effectively meant Estonia could build a new government from scratch (Solvak et al., 2018). “e-Estonia” became as much a unique, soft power political tool as it did a technological solution. Many contemporary Estonians self-identify as Nordic rather than Baltic or Post-Soviet. “Soviet” is used as a negative cultural marker:</p>
+<blockquote><p>I think being Digital means not being Soviet somehow… A lot of Estonians like to identify as Nordic now… (Interview Participant, Estonian e-Governance Academy)</p></blockquote>
+<blockquote><p>I think this is part of the Estonian identity these days… It’s very much that they want to show themselves as being Nordic… for the other Nordic countries, it’s very much about the information system architecture… for Estonia, it’s a key part of their foreign and security policy to also have close links with these countries… for the others, yes it's beneficial for everyone to cooperate too. (Interview Participant, Nordic Institute for&nbsp;Interoperability Solutions)</p></blockquote>
+<p>However, while Estonian e-Governance has been argued to be somewhat identity-driven (Papp-Váry, 2018; Hardy, 2022) visions of Nordic interoperability cannot rely on post-Soviet freedoms and identities as perhaps the X-tee once did at its inception. Nevertheless, the Nordic nations have been observed to contain similarly high levels of trust in public institutions, as noted by Bergh &amp; Bjørnskov (2011) who postulate that this has been shaped by sociocultural and historical factors. These high levels of trust, coupled with Estonian identity-driven political ambitions can be seen as contributory factors in the drive for Nordic interoperability in e-governance.</p>
+<p>Below is a rough approximation of X-Road interoperability. So while domestically the X-Road requires public trust in the state to maintain a domestic X-Road instance, in the case of a cross-border interaction, trust will also be invested in the second partner-nation, as well as NIIS as guardians of the X-Road.</p>
+<figure class="img-align-none image-inline" id="figure_2"><img alt="Figure showing an integrated X-Road instance" data-filename="2.png" data-imgid="2" src="/sites/default/files/assets/images/node-1785/2.png" style="width: 100%; height: 100%;"><br>
+<figcaption><span class="label">Figure 2: </span>Integrated X-Road instance (Hardy, 2022).</figcaption>
+</figure>
+<p>One of the primary reasons to federate X-Road instances is to facilitate cross-border interactions between service consumers and service providers, and this is what NIIS – a non-profit organisation funded by the governments of signatories – hope to achieve (NIIS, n.d.c). While domestic X-Road instances are parallel to each other and are maintained by respective national authorities, federation means mutual international agreement. Trust is crucial and cross-border functionality requires a trust relationship between governing authorities and citizens alike.</p>
+<p>Most citizens do not understand encryption, the X-Road, Public Key Infrastructure (PKI), or many other technicalities involved in developing secure digital services. Nevertheless, it falls upon the authorities to sell these digital solutions to the public. Harsher critics have suggested that Estonia sells a “fairy tale” which is a “façade” of good governance (Drechsler, 2018, p. 4) and that this creates in effect two tiers of citizens in Estonia: those who are good “e-citizens” (who securely consume the wealth of digital services available to them) and bad “e-citizens” who do not (Björklund, 2016). Research is in its relative infancy elsewhere. As Hjaltalin (2022) notes, Iceland has only recently begun to develop domestic services, albeit at pace. Following the 2017 agreement to join NIIS, Iceland implemented a citizen-facing service app in 2021, with services via the Digital Iceland website gradually increasing since 2018. Meanwhile, Finland is slightly further ahead of Iceland, implementing the Suomi.fi platform in 2017 after a four-year development process. Thus far, service development has thrived, with existing research noting the high levels of transparency and public trust in governance. Suomi.fi presently enables public service interactions between numerous stakeholders including public, private, and third sector actors in Finland, and external interactions with the Estonian Government and European Union, although the most common interactions are with branches of the public sector and Estonia. (Päivärinta et al., 2019; Abubakr &amp; Kaya, 2021). Interactions between Estonia and Finland are underpinned by the so-called ‘trust federation’ between the two nations, an agreement that means members of the federated ecosystems can publish and consume services with each other as if they were members of the same ecosystem (NIIS, n.d.c).</p>
+<p>Finland’s collaboration with the Estonian government involves the integration of the data exchange layer, meaning that Finnish and Estonian citizens can mutually access digital services in either nation (this can be seen in <a href="#figure_2">figure 2</a>, where service consumers and service providers can communicate across borders). This allows for the development of cross-border services such as concluding contracts, the sharing of medical data, and the mutual recognition of digital signatures (Petrone, 2022). Given that many Estonians live and work in Finland and account for more than 5% of all visits from Estonia to Finland (Silm et al., 2021), and an albeit smaller number of Finns live and study in Estonia (99% of all visits to Estonia from Finland are for tourist purposes [Silm et al, 2021]), these services provide a tangible human benefit (the lack of tangible benefits for ordinary citizens has been a common concern for critical researchers concerned with the increasing digitalisation of public services. For example, see Coles-Kemp et al., 2018).</p>
+<blockquote><p>The goal is not necessarily to replicate e-Estonia, but we are capable of achieving their level of digital services and want to work collaboratively with them. (Research Participant, Development Manager, Finnish Population Registry [VRK])</p></blockquote>
+<p>The promotion of such citizen-oriented benefits has led enthusiastic foreign media outlets to encourage their nations to adopt this platform (See Thomson’s, 2019 argument that Scotland should adopt the X-Road for such reasons). Indeed, as research participants noted, citizens benefiting from e-governance are crucial to the ongoing success of the project, while they are often less concerned with security.</p>
+<blockquote><p>It is the services people care about. The state has provided a secure service, but security is not the citizen's primary concern. If you talk to most people… the average person on the street… they perhaps don’t think about the security so much. (Research Participant, Senior staff, Private developer of X-Road software)</p></blockquote>
+<p>Undoubtedly, this is representative of the Estonian experience of e-Governance, which is notable for its relative lack of controversies and resistance to its implementation. Yet it does not account for the necessity of gradual introduction, familiarisation and trust building for citizens to engage with e-services. Indeed, this might explain Finnish opposition to e-voting despite comfortably having the expertise and system in place to quickly implement it (YLE News, 2017). Prior research has found that Finland abandoned plans for e-voting after poor trial experiences which garnered negative public reactions, particularly among those with poorer digital skills (Heimo et al., 2010). Those who extol the X-Road, such as the NIIS research participant interviewed, of course highlight this as an advantage, in that states can cater their approach to local concerns.</p>
+<p>The Faroe Islands partnership with NIIS includes the goal of progressing to full membership in the future. As an autonomous region of Finland, the Åland Islands connect interoperable services through Finland’s ‘Suomi.fi’ platform.&nbsp;</p>
+<p>Significant drivers for increased digitalisation of governance and public services in such small states might be said to include demographics, mobility, economics, and efficiency. McBride (2019) explores the challenges of e-governance implementation in the Faroe Islands, highlighting barriers such as limited resources and networks. Despite aspirations, he concludes that digitalisation doesn't necessarily reduce bureaucracy or costs, but aims to promote economic growth and enhance economic independence from Denmark. Much like Greenland, the Faroe Islands are an autonomous and self-governing country of the Kingdom of Denmark. Seeking to pursue an alternative path of digitalisation to the mainland, Denmark has been a local political choice in both and both have embraced local customisations (McBride, 2019; Wendt, 2020). Saputro et al. (2020) identified the prerequisite conditions for X-Road adoption to include appropriate legal frameworks, political leadership, technological expertise, adequate funds, and the principle of a secure digital identity. New member Iceland comfortably meets this criteria, with a high GDP, as well as high levels of political and digital freedom. However, it has been noted that Iceland faces challenges in innovating due to a “zero-error” local culture (Hjaltalin, 2022). This contrasts with Estonia, where innovation through trial and error helped with service development (Solvak et al., 2019). However, other crucial factors include public sector competencies, adequate funding, infrastructure (Kalvet, 2012), public-private partnership, and academia (Kattel &amp; Mergel, 2019). In these areas, Iceland is well-placed, and digitalisation has received significant public support (Hjaltalin, 2022)</p>
+<p>It is important to note that Estonia is not only providing e-government expertise in the Nordic world. Several nations in both the post-Soviet world and Africa have adopted either the X-Road itself or UXP. This international adoption has been enabled either through private enterprise, public diplomacy, or the “e-Governance Academy”, an Estonian non-profit that supports digitalisation projects around the world. The most controversial user of the X-Road might be Azerbaijan, described by Freedom House (2020) as “not free” with “rampant corruption” and “little freedom of expression” for citizens, yet the Estonian government “assisted in the development of an information system similar to the X-Road in Azerbaijan” (EGA, 2014). However, unlike Azerbaijan, Finland, Iceland, Åland Islands, and the Faroe Islands may instead be considered to match Estonian aspirations and popular geopolitical visions of being identified as Nordic. The “why” of Nordic interoperability is interrogated further below.</p>
+<h2>Why develop Nordic interoperability?</h2>
+<p>This section analyses some of the reasons <em>why</em> Estonia is determined to develop and expand cross-border e-governance. This section argues that the reasons include security, mobility, services, economics, and digital diplomacy.</p>
+<h3>Security</h3>
+<p>One of the potential benefits of cross-border, interoperable e-governance is the possibility of enhanced security cooperation and the establishment of shared norms and procedures. Norm and subsequent international law building has been identified as a means to improve security (see Mačak, 2017). e-governance, for all the security which can be built into the process, creates vulnerabilities, which can be exploited by malicious state or non-state actors. It simultaneously secures data (for example, digital data stored properly on a distributed ledger is far more secure than paper documents which could be accidentally destroyed or misplaced through human error) but also creates additional attack vectors for would-be cyber attackers and criminals. This is particularly important as it has been noted in the case of Estonia to create a “digital dependency” (Kattel &amp; Mergel, 2019) which, as the 2007 cyber attacks proved, can grind the country to a halt. It can also represent a number of risks which the X-Road mitigates in various ways, including the use of the Once Only Principle (OOP) which means individuals must only have to provide data once to the authorities. Situations of requesting and sending data are points of risk for data protection as well as for data accuracy, so adherence to OOP is crucial from a security perspective (Nyman Metcalf, 2019).</p>
+<p>A recurring pattern among interviews was the threat posed by Russia to its Nordic neighbours, and how decisions around digital innovation needed to be informed by geopolitical thinking:</p>
+<blockquote><p>It takes guts and its political wisdom and courage to take a position that we should not use Kaspersky… it seems common sense you shouldn’t use those if you consider Russia your primary security threat. (Research Participant, Private Consultancy &amp; Former NATO CCDCOE)</p></blockquote>
+<p>Such comments can be seen as reflective of a popular geopolitical imagination (Koopman et al., 2021). This vision is of a menacing, malicious Russia – off and online (Pigman, 2018). This is a threat to the Nordic/Western way of life and chimes with other research which has noted non-conventional threats as a growing security concern, particularly for small nations (see Grigas, 2012; Galeotti, 2016; Mälksoo, 2018).</p>
+<p>Existing research has also suggested that the digitalisation of public services often leads to the running down of in-person services, particularly in non-metropolitan areas (Aradau, 2010). As noted by two research participants, the movement of services online creates reliance and vulnerability in Estonia:</p>
+<blockquote><p>The unique thing is that first, we do *everything* online… Estonians are really closed people…. so whenever you can avoid talking to other people… and we go crazy if things stop working. (Research Participant, Estonian Defence League Cyber Unit)</p></blockquote>
+<blockquote><p>It’s totally changed life now, and people have a much easier life now… I don’t know how people would cope without it… you’d have to go to places. (Research Participant, Senior, Digital Consultancy Firm)</p></blockquote>
+<p>These remarks speak to some of the cultural traits of Estonia but also highlight that total reliance on digital services can create insecurities. In sum, ubiquitous e-governance poses significant security challenges, which involves a complex series of relationships between public and private sector actors (Collier, 2018). The X-Road enables a consistent way to minimise risk, the ability to securely encrypt access to services and data, and the ability to maintain and update the system in an ongoing and streamlined manner (for more discussion on the security benefits of e-governance, see Zissis &amp; Lekas, 2011; Pappel et al., 2012; Solvak et al., 2018). This is, however, balanced against risks such as dependency (Kattel &amp; Mergel, 2019), and the potential for a breakdown of societal trust in the digital state (Nyman Metcalf, 2019).</p>
+<h3>Mobility and services</h3>
+<p>Cross-border interoperable e-governance may also represent a potential benefit for citizens. There is significant cross-border movement between Estonia and Finland. Improving access to services and amenities across borders is a strategic priority of NIIS signatories (NIIS, n.d.c). As illustrated earlier in <a href="#figure_2">figure 2</a>, the cross-border federation of X-Road between Finland and Estonia now allows for service consumers in each nation to access service providers in the other. There are a number of challenges in federating X-Road instances and making them fully functional. These are both social and technical, as highlighted by Freudenthal &amp; Willsensen (2017) and include differences in legislation, technical solutions, and best practices. This, they argue, could lead to an unclear state of possible disputes and that 100% alignment on all matters is extremely challenging if not impossible.</p>
+<p>Nevertheless, cross-border X-Road Trust Federation and Nordic Interoperability represent&nbsp;both an ambitious and relatively novel undertaking. The EU has identified delivering cross-border services a strategic priority but delivery of such services so far has been limited. While alignment is improving it remains a major challenge (Large &amp; Barasa, 2022) Estonia’s desire to lead in this area is evident, rather than having non-local solutions imposed by the EU. Research participants were eager to emphasise needing a common approach while catering to local concerns is important, rather than being a copied and pasted version of Estonia’s X-tee:</p>
+<blockquote><p>The X-Road provides a data exchange layer which enables exchange between the two countries… this can be the same, but then the way it is presented to the user can be sensitive to local concerns… the X-Road itself is just the layer connecting the databases… they can then use the solutions locally that they want. (Research Participant, Senior, Estonian digital solutions organisation)</p></blockquote>
+<p>A key challenge to rolling out the system across the wider region in the pursuit of Nordic interoperability lies in the geographical variability of public concerns. The shared values of these countries, as well as their close socio-cultural ties, make this easier but not without sensitivities. As the system grows, there could be concerns surrounding who maintains the X-Road source&nbsp;code. However, the citizen-centric benefits of Nordic interoperability are a relatively easy case to make. Citizens like services to be easily accessible, adhere to the OOP, dislike bureaucracy, and interview participants further highlighted this.</p>
+<blockquote><p>People don’t want to go back to the old way of doing it. (Research Participant, Estonian Defence League &amp; Private digital consultancy firm)</p></blockquote>
+<p>However, as the same participant consequently noted later in their interview, there is also a trust and security relationship involved. Public trust in Estonia is high, but this dynamic can alter when it involves trusting other states to uphold the same practices and procedures:</p>
+<blockquote><p>Yeah, so apparently that’s been an issue because the systems for these things are different a lot over Europe, so if other countries do their own e-citizenship systems, it’s probably not so easy to make them work together, so connecting systems is probably the hardest part. We have that now between Estonia and Finland. The rest, who knows. (Research Participant, Estonian Defence League &amp; Private digital consultancy firm)</p></blockquote>
+<p>Fundamentally, issues of trust and security are vital in potential implementation of cross-border e-governance initiatives. Finally, regarding services, it was not universally accepted that Estonia was the best in this regard, with a Finnish participant noting:</p>
+<blockquote><p>Finland just scored first place in human centricity in e-services, so in some areas we are already forerunners and not so much in a position where we need to replicate e-governance models. However, we of course do regular benchmarking and co-operation to learn from the best practices where applicable, as was the case with the X-Road concept a few years back. (Research Participant, Development Manager, Finnish Population Registry [VRK])</p></blockquote>
+<p>So whilst Estonia vocally takes the political lead, and has been essential to establishing the X-Road, other contributors should not be overlooked. In 2019, the national business registers and tax boards in Estonia and Finland agreed to cooperate and exchange data via X-Road (Sirviö, 2019) allowing both governments to track taxes collaboratively and potentially counter cross-border tax avoidance.</p>
+<h3>Economics and digital diplomacy</h3>
+<p>Aside from the ability to easily track cross-border taxes, one of the central arguments for ubiquitous e-governance on a domestic level is the money-saving aspect. e-Estonia (2020) estimates that Estonia saves roughly 2 percent of the national GDP from its use of digital signatures alone. They further estimate that voting online costs 1/20th of the cost as opposed to voting in person, based on the cost of vote counting, vote processes and voter identification (based on the study of Krimmer et al., 2018). For smaller nations such as Estonia and Iceland, the opportunity to make such savings is significant, as both operate with limited budgets due to their size. However, critics have noted that some savings are exaggerated by the Estonian authorities and that costs have simply been redistributed elsewhere. Drechsler (2018) notes that there are significant costs to digitalisation, which absorb some of the savings made by shrinking paper-based bureaucracy. This is further illustrated by McBride (2019) whose analysis of the Faroe Islands Digital Governance strategy suggested that digitalisation would not generate significant economic benefits (although the Faroe Islands is significantly smaller than the other nations involved in the NIIS). However, there was a hope that digitalisation could support the diversification of the economy. Estonia, Finland, and Iceland all have established tech sectors, which is also conducive to having a skilled population prepared to engage with e-government and the further development of potential cross-border services.</p>
+<p>Monetary arguments aside, Estonian Foreign Policy since the resumption of independence has been explicitly pro-Western, NATO, EU, and pursued close ties to the Nordic sphere, using bilateral diplomatic platforms such as the Nordic-Baltic 8 (NB8). Since the restoration of independence, Estonia has continually emphasised its ties to the West and the North with a heightened sense of identity shaping Estonian Foreign Policy (Berg &amp; Ehin, 2016). Estonia’s Nordic interoperability goals can be conceived as a distinct extension of Estonian foreign policy, given Estonia’s cultivation of a Nordic political identity – a position reinforced by interview participants who noted the political/diplomatic nature of Nordic interoperability. This echoes other research that has noted how Estonia has used both technology and alliance-building multilateralism to enhance its diplomatic and political standing internationally (Adamson, 2019; Sulg &amp; Crandall, 2020).</p>
+<p>Other small nations have successfully inflated their influence and international standing through specialised expertise in digital technology, such as New Zealand (Burton, 2013). However, specialisation in interoperable, cross-border e-governance is unique. Estonia has sought to identify and exploit a niche for digital diplomatic purposes.e. It remains to be seen how this relationship develops, and who those partners will be in the future:</p>
+<blockquote><p>It’s about mentality and trust… we are conscious of what is happening at an EU level, with the development of services… we don’t want a situation where our model becomes obsolete, so it’s crucial for us to develop a critical mass… so it’s demonstrable to Brussels, if it comes to a European level, that ours can work across borders. (Research Participant, Private Cyber Consultancy)</p></blockquote>
+<p>Estonia, as a small nation, has limited means to influence international politics, yet has already achieved influence and notoriety through digital innovations such as the data embassy and e-residency initiatives (Hardy, 2022). It has used its EU membership, and EU Presidency in 2018, among other bilateral agreements to push for the development of digital norms (Pápp-Vary, 2018; Adamson, 2019). The establishment of NIIS is not just a technical solution to the challenge of integrating e-governance platforms, but it is also a sociotechnical solution and a platform for enhanced digital diplomatic collaboration. This reflects some of the important work of interdisciplinary science and technology studies researchers who have noted the importance of paying attention to the sociotechnical minutiae of interoperability projects and the motivations of governments that implement them (Pelizza, 2016). Furthermore, Hellberg &amp; Grönlund (2013) highlight the importance of local values in implementing cross-border services. The insights gleaned from these studies equally apply in this case study; as is noted by Saputro et al. (2020) X-Road adoption relies on political will and political support. Blake Jackson, Dreyling, &amp; Pappel (2021) similarly conclude that the political and legal support afforded to the X-Road in Estonia for domestic development was crucial. The success or failure of Nordic interoperability will likely be decided by political support as much as technological expertise. An additional challenge is that the X-Road is resilient to EU-wide developments. Of note is the new eIDAS regulation, which legislates for functionalities and technical specifications of digital identity documents across the European Union (European Commision, 2014; European Commission, 2023). Estonia has maintained a critical stance to eIDAS and has encouraged private sector collaboration, and while it continues to aim to make a new application mRiik eIDAS 2.0 compatible, there have been a number of delays (Vihma, 2024; Koppel, 2024). While Estonia recognises the need to develop independent solutions and get other nations on board with its approach – actively seeking to do so in an act of digital diplomacy – it also recognises the geopolitical reality of its smallness and the need to work with rather than against the EU.</p>
+<h2>Challenges, conclusions and further research opportunities</h2>
+<p>The objective of this article has encompassed two main facets: firstly, it has sought to contribute to the expanding field of digital diplomacy, recognising the significance of this area of study and broadening the interdisciplinary scope of this field by exploring the use of e-governance as a diplomatic tool. Secondly, it seeks to provide a unique case study, addressing the scarcity of qualitative research on cross-border e-governance. This article refrains from adopting a purely supportive or critical stance, and endeavours to present a nuanced examination, suggesting digital diplomacy as a viable perspective to understand Estonia’s motivations in seeking to expand the use of the X-Road in the Nordic region. In acknowledging potential limitations, the article opts against an extensive discussion of positionality, given its pragmatic orientation and emphasis on practical socioeconomic implications, digital diplomacy, and geopolitical motivations rather than theoretical elaboration. However, to inject some reflexivity, while it is not the normative goal of this paper to state whether this Estonian model of digitalisation is desirable, it is challenging if not impossible to be fully impartial. The research was conducted over roughly a two year period spent living in Estonia, and while an outsider, I operated in a broadly privileged position as a British researcher from a reputable UK university. This enabled generous access to willing research participants and will also inevitably have informed how participants spoke about their experiences of digitalisation and e-governance – often with great pride. The article is somewhat Estonia-centric and further research can and should seek to interrogate these developments from a non-Estonia centred position in future. This article does not seek to suggest that all nations, even in the Nordic region, should pursue Estonia’s strategy, but rather seeks to highlight that this is a unique cross-border development based on trust in a geopolitically significant region.</p>
+<p>Much like domestic e-governance, cross-border interoperability requires trust and political support to function, grow, and be attractive to private developers. In Estonia’s domestic experience, that trust is a collaborative social contract formed between the government and populace over a significant amount of time. Interview participants hailed the Estonian government's role in building trust and use of digital technology and were optimistic that this approach could work beyond Estonian borders.</p>
+<blockquote><p>I think that the interconnectivity and the services that are shared by different countries… that’s what we will see in the future… But I will say this, I think the electronic ID and all of these measures… were the influencers, or the basis to use the electronic environment, so cyber security measures actually made it possible to use a networked environment. So now we are seeing what different governments, what different businesses together can create… I don’t know where it’s going! But the possibilities are limitless. But they are limited by general culture in different countries, how much they want to cooperate with others etc… But the possibility is there… we’re probably going to see all sorts of innovations. (Research Participant, Senior policy director &amp; e-governance academy consultant)</p></blockquote>
+<p>Sociotechnical cultures will likely be vital to the political and economic future of Nordic interoperability. While service provision, security, and financial benefits are touted as benefits, the political angle for all parties cannot be ignored. The financial incentives for integrating Finnish and Estonian e-governance (as well as the Åland Islands) are relatively clear cut, as there is economic activity between these close neighbours, but the financial and service-based cases for integrating Iceland and the Faroe Islands are less clear. It is, however, relatively easy to find evidence of digital diplomacy PR celebrating Iceland’s use of X-Road (Digital Iceland, n.d.). Iceland, and other partners, get to celebrate collaboration with the internationally recognised “e-Estonia” image, and Estonia enhances its Nordic credentials while also building a reputation for cross-border solutions, through which it hopes to build international influence. Consequently, this paper concludes that Estonia’s pursuit of nordic interoperability should be viewed as the latest Estonian use of digital innovation to extend their diplomatic and international reputation and a form of digital diplomacy. Further research might focus on cross-border service solutions as they mature and produce comparative studies of qualitative or quantitative nature. These could focus on the case studies in this article, or alternatives as they undoubtedly emerge across Europe. Likewise, future studies of digital diplomacy may continue to extend beyond the digital communications of statecraft and focus on how states, small and large alike, utilise digital technology to extend their influence.</p>
+<div class="references">
+<h2>References</h2>
+<p>Aalto, P. (2003). <em>Constructing post-Soviet geopolitics in Estonia</em>. Routledge.</p>
+<p>Abubakr, M., &amp; Kaya, T. (2021). A comparison of e-government systems between developed and developing countries: Selective insights from Iraq and Finland. <em>International Journal of Electronic Government Research</em>, <em>17</em>(1), 1–14. <a href="https://doi.org/10.4018/IJEGR.2021010101">https://doi.org/10.4018/IJEGR.2021010101</a></p>
+<p>Adeodato, R., &amp; Pournouri, S. (2020). Secure implementation of e-governance: A case study about Estonia. In H. Jahankhani, S. Kendzierskyj, N. Chelvachandran, &amp; J. Ibarra (Eds.), <em>Cyber defence in the age of AI, smart societies and augmented humanity</em> (pp. 397–429). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-35746-7_18">https://doi.org/10.1007/978-3-030-35746-7_18</a></p>
+<p>Adesina, O. S. (2017). Foreign policy in an era of digital diplomacy. <em>Cogent Social Sciences</em>, <em>3</em>(1). <a href="https://doi.org/10.1080/23311886.2017.1297175">https://doi.org/10.1080/23311886.2017.1297175</a></p>
+<p>Amoore, L. (2018). Cloud geographies: Computing, data, sovereignty. <em>Progress in Human Geography</em>, <em>42</em>(1), 4–24. <a href="https://doi.org/10.1177/0309132516662147">https://doi.org/10.1177/0309132516662147</a></p>
+<p>Anthes, G. (2015). Estonia: A model for e-government. <em>Communications of the ACM</em>, <em>58</em>(6), 18–20. <a href="https://doi.org/10.1145/2754951">https://doi.org/10.1145/2754951</a></p>
+<p>Aradau, C. (2010). Security that matters: Critical infrastructure and objects of protection. <em>Security Dialogue</em>, <em>41</em>(5), 491–514. <a href="https://doi.org/10.1177/0967010610382687">https://doi.org/10.1177/0967010610382687</a></p>
+<p>Berg, E., &amp; Ehin, P. (Eds.). (2016). <em>Identity and foreign policy: Baltic-Russian relations and European integration</em> (1st ed.). Routledge. <a href="https://doi.org/10.4324/9781315587745">https://doi.org/10.4324/9781315587745</a></p>
+<p>Bjola, C. (2016). Digital diplomacy – The state of the art. <em>Global Affairs</em>, <em>2</em>(3), 297–299. <a href="https://doi.org/10.1080/23340460.2016.1239372">https://doi.org/10.1080/23340460.2016.1239372</a></p>
+<p>Bjola, C., &amp; Holmes, M. (2015). <em>Digital diplomacy: Theory and practice</em>. Routledge. <a href="https://doi.org/10.4324/9781315730844">https://doi.org/10.4324/9781315730844</a></p>
+<p>Bjola, C., &amp; Kļaviņš, D. (2024). The digital hybridization of ministries of foreign affairs: The case of the Nordic and Baltic states. In C. Bjola &amp; I. Manor (Eds.), <em>The Oxford handbook of digital diplomacy</em> (1st ed., pp. 291–310). Oxford University Press. <a href="https://doi.org/10.1093/oxfordhb/9780192859198.013.16">https://doi.org/10.1093/oxfordhb/9780192859198.013.16</a></p>
+<p>Bjola, C., &amp; Kornprobst, M. (2018). <em>Understanding international diplomacy: Theory, practice and ethics</em> (2nd ed.). Routledge. <a href="https://doi.org/10.4324/9781315196367">https://doi.org/10.4324/9781315196367</a></p>
+<p>Bjola, C., &amp; Manor, I. (Eds.). (2024). <em>The Oxford handbook of digital diplomacy</em> (1st ed.). Oxford University Press. <a href="https://doi.org/10.1093/oxfordhb/9780192859198.001.0001">https://doi.org/10.1093/oxfordhb/9780192859198.001.0001</a></p>
+<p>Björklund, F. (2016). E-government and moral citizenship: The case of Estonia. <em>Citizenship Studies</em>, <em>20</em>(6–7), 914–931. <a href="https://doi.org/10.1080/13621025.2016.1213222">https://doi.org/10.1080/13621025.2016.1213222</a></p>
+<p>Buchanan, B. (2020). <em>The hacker and the state: Cyber attacks and the new normal of geopolitics</em>. Harvard University Press. <a href="https://doi.org/10.2307/j.ctv3405w2m">https://doi.org/10.2307/j.ctv3405w2m</a></p>
+<p>Burton, J. (2013). Small states and cyber security: The case of New Zealand. <em>Political Science</em>, <em>65</em>(2), 216–238. <a href="https://doi.org/10.1177/0032318713508491">https://doi.org/10.1177/0032318713508491</a></p>
+<p>Chadwick, A. (2003). Bringing e-democracy back in: Why it matters for future research on e-governance. <em>Social Science Computer Review</em>, <em>21</em>(4), 443–455. <a href="https://doi.org/10.1177/0894439303256372">https://doi.org/10.1177/0894439303256372</a></p>
+<p>Coles-Kemp, L., Ashenden, D., &amp; O’Hara, K. (2018). Why should I? Cybersecurity, the security of the state and the insecurity of the citizen. <em>Politics and Governance</em>, <em>6</em>(2), 41–48. <a href="https://doi.org/10.17645/pag.v6i2.1333">https://doi.org/10.17645/pag.v6i2.1333</a></p>
+<p>Collier, J. (2018). Cyber security assemblages: A framework for understanding the dynamic and contested nature of security provision. <em>Politics and Governance</em>, <em>6</em>(2), 13–21. <a href="https://doi.org/10.17645/pag.v6i2.1324">https://doi.org/10.17645/pag.v6i2.1324</a></p>
+<p>Cybernetica. (n.d.). <em>Unified eXchange Platform (UXP)</em>. Cyber.Ee. <a href="https://cyber.ee/products/secure-data-exchange/">https://cyber.ee/products/secure-data-exchange/</a></p>
+<p>Dahl, A.-S., &amp; Järvenpää, P. (Eds.). (2013). <em>Northern security and global politics: Nordic-Baltic strategic influence in a post-unipolar world</em> (1st ed.). Routledge. <a href="https://doi.org/10.4324/9780203725344">https://doi.org/10.4324/9780203725344</a></p>
+<p>Digital Iceland. (n.d.). <em>Straumurinn (X-Road)</em>. Ísland.Is. <a href="https://island.is/en/o/digital-iceland/island-services/straumurinn">https://island.is/en/o/digital-iceland/island-services/straumurinn</a></p>
+<p>Drechsler, W. (2018). Pathfinder: E-Estonia as the β-version. <em>JeDEM - eJournal of eDemocracy and Open Government</em>, <em>10</em>(2), 1–22. <a href="https://doi.org/10.29379/jedem.v10i2.513">https://doi.org/10.29379/jedem.v10i2.513</a></p>
+<p>Dunn Cavelty, M. (2013). From cyber-bombs to political fallout: Threat representations with an impact in the cyber-security discourse. <em>International Studies Review</em>, <em>15</em>(1), 105–122. <a href="https://doi.org/10.1111/misr.12023">https://doi.org/10.1111/misr.12023</a></p>
+<p>e-Estonia. (2020, August 19). E-Governance saves money and working hours. <em>E-Estonia</em>. <a href="https://e-estonia.com/e-Governance-saves-money-and-working-hours/">https://e-estonia.com/e-Governance-saves-money-and-working-hours/</a></p>
+<p>e-Governance Academy. (2014). <em>Estonia to construct secure data exchange X-Road layer for Namibia</em> [Press release]. <a href="https://ega.ee/news/estonia-to-construct-secure-data-exchange-layer-similar-to-X-Road-for-namibia/">https://ega.ee/news/estonia-to-construct-secure-data-exchange-layer-similar-to-X-Road-for-namibia/</a></p>
+<p>European Commision. (2014). <em>Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) No 910/2014 as regards establishing a framework for a European Digital Identity</em> (COM/2021/281). <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2021:281:FIN">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2021:281:FIN</a></p>
+<p>European Commission. (2023). <em>Commission welcomes final agreement on EU Digital Identity Wallet</em> [Press release]. <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_23_5651">https://ec.europa.eu/commission/presscorner/detail/en/ip_23_5651</a></p>
+<p>Freudenthal, M., &amp; Willemson, J. (2017). Challenges of federating national data access infrastructures. In P. Farshim &amp; E. Simion (Eds.), <em>International conference for information technology and communications</em> (Vol. 10543, pp. 104–114). Springer. <a href="https://doi.org/10.1007/978-3-319-69284-5_8">https://doi.org/10.1007/978-3-319-69284-5_8</a></p>
+<p>Galeotti, M. (2016). Hybrid, ambiguous, and non-linear? How new is Russia’s ‘new way of war’? <em>Small Wars &amp; Insurgencies</em>, <em>27</em>(2), 282–301. <a href="https://doi.org/10.1080/09592318.2015.1129170">https://doi.org/10.1080/09592318.2015.1129170</a></p>
+<p>Github. (2024). <em>Nordic Institute—X-Road</em> [dataset]. <a href="https://github.com/nordic-institute/X-Road">https://github.com/nordic-institute/X-Road</a></p>
+<p>Grigas, A. (2012). <em>Legacies, coercion and soft power: Russian influence in the Baltic States</em> (pp. 1–16) [Briefing paper]. Chatham House. <a href="https://www.chathamhouse.org/sites/default/files/public/Research/Russia%20and%20Eurasia/0812bp_grigas.pdf">https://www.chathamhouse.org/sites/default/files/public/Research/Russia%20and%20Eurasia/0812bp_grigas.pdf</a></p>
+<p>Hansen, L., &amp; Nissenbaum, H. (2009). Digital disaster, cyber security, and the Copenhagen School. <em>International Studies Quarterly</em>, <em>53</em>(4), 1155–1175. <a href="https://doi.org/10.1111/j.1468-2478.2009.00572.x">https://doi.org/10.1111/j.1468-2478.2009.00572.x</a></p>
+<p>Hardy, A. (2022). <em>Securing e-Estonia: Challenges, insecurities, opportunities</em> [Doctoral dissertation, Royal Holloway, University of London]. <a href="https://pure.royalholloway.ac.uk/en/publications/securing-e-estonia-challenges-insecurities-opportunities">https://pure.royalholloway.ac.uk/en/publications/securing-e-estonia-challenges-insecurities-opportunities</a></p>
+<p>Hardy, A. (2023). Digital innovation and shelter theory: Exploring Estonia’s e-Residency, Data Embassy, and cross-border e-governance initiatives. <em>Journal of Baltic Studies</em>, 1–18. <a href="https://doi.org/10.1080/01629778.2023.2288118">https://doi.org/10.1080/01629778.2023.2288118</a></p>
+<p>Heimo, O. I., Fairweather, N. B., &amp; Kimppa, K. K. (2010). The Finnish e-voting experiment: What went wrong. In M. Arias-Oliva, T. Ward Bynum, S. Rogerson, &amp; T. Torres-Coronas (Eds.), <em>The “backwards, forwards and sideways” changes of ICT</em> (pp. 290–298). Universitat Rovira i Virgili. <a href="https://llibres.urv.cat/index.php/purv/catalog/book/131">https://llibres.urv.cat/index.php/purv/catalog/book/131</a></p>
+<p>Hellberg, A.-S., &amp; Grönlund, Å. (2013). Conflicts in implementing interoperability: Re-operationalizing basic values. <em>Government Information Quarterly</em>, <em>30</em>(2), 154–162. <a href="https://doi.org/10.1016/j.giq.2012.10.006">https://doi.org/10.1016/j.giq.2012.10.006</a></p>
+<p>Heller, N. (2017, December 11). Estonia, the digital republic. <em>The New Yorker</em>. <a href="https://www.newyorker.com/magazine/2017/12/18/estonia-the-digital-republic">https://www.newyorker.com/magazine/2017/12/18/estonia-the-digital-republic</a></p>
+<p>Hjaltalin, I. T. (2022). Adopting digital government shared-services centers: A case from Iceland. <em>Proceedings of the 15th International Conference on Theory and Practice of Electronic Governance</em>, 140–145. <a href="https://doi.org/10.1145/3560107.3560132">https://doi.org/10.1145/3560107.3560132</a></p>
+<p>Jensen, R. B., Coles-Kemp, L., Wendt, N., &amp; Lewis, M. (2020). Digital liminalities: Understanding isolated communities on the edge. <em>Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems</em>, 1–14. <a href="https://doi.org/10.1145/3313831.3376137">https://doi.org/10.1145/3313831.3376137</a></p>
+<p>Jóhannesson, G. (2021). Iceland and Estonia: 30 years of friendly relations. <em>ERR News</em>. <a href="https://news.err.ee/1608318014/feature-iceland-and-estonia-30-years-of-friendly-relations">https://news.err.ee/1608318014/feature-iceland-and-estonia-30-years-of-friendly-relations</a></p>
+<p>Kalja, A. (2002). The X-Road project. A project to modernize Estonia’s national databases. <em>Baltic IT&amp;T Review</em>, <em>24</em>, 47–48. <a href="http://www.ebaltics.lv/doc_upl/Kalja(2).pdf">http://www.ebaltics.lv/doc_upl/Kalja(2).pdf</a></p>
+<p>Kalvet, T. (2012). Innovation: A factor explaining e-government success in Estonia. <em>Electronic Government, an International Journal</em>, <em>9</em>(2), 142–158. <a href="https://doi.org/10.1504/EG.2012.046266">https://doi.org/10.1504/EG.2012.046266</a></p>
+<p>Kattel, R., &amp; Mergel, I. (2019). Estonia’s digital transformation: Mission mystique and the hiding hand. In P. ’t Hart &amp; M. Compton (Eds.), <em>Great policy successes</em> (pp. 143–160). Oxford University Press. <a href="https://doi.org/10.1093/oso/9780198843719.003.0008">https://doi.org/10.1093/oso/9780198843719.003.0008</a></p>
+<p>Kello, L. (2024). Digital diplomacy and cyber defence. In C. Bjola &amp; I. Manor (Eds.), <em>The Oxford handbook of digital diplomacy</em> (pp. 121–137). Oxford University Press. <a href="https://doi.org/10.1093/oxfordhb/9780192859198.013.7">https://doi.org/10.1093/oxfordhb/9780192859198.013.7</a></p>
+<p>Kerikmäe, T., Mölder, H., &amp; Chochia, A. (2019). Estonia and the European Union. In <em>Oxford research encyclopedia of politics</em>. Oxford University Press. <a href="https://doi.org/10.1093/acrefore/9780190228637.013.1105">https://doi.org/10.1093/acrefore/9780190228637.013.1105</a></p>
+<p>Kivimäki, P. (2018, April 26). There is no blockchain technology in X-Road. <em>NIIS Blog</em>. <a href="https://www.niis.org/blog/2018/4/26/there-is-no-blockchain-technology-in-the-x-road">https://www.niis.org/blog/2018/4/26/there-is-no-blockchain-technology-in-the-x-road</a></p>
+<p>Koppel, K. (2024, February 18). EU digital ID and mRiik app integration still unclear, both built in Estonia. <em>ERR News</em>. <a href="https://news.err.ee/1609256928/eu-digital-id-and-mriik-app-integration-still-unclear-both-built-in-estonia">https://news.err.ee/1609256928/eu-digital-id-and-mriik-app-integration-still-unclear-both-built-in-estonia</a></p>
+<p>Krimmer, R., Dedovic, S., Schmidt, C., &amp; Corici, A. A. (2021). Developing cross-border e-Governance: Exploring interoperability and cross-border integration. <em>Electronic Participation: 13th IFIP WG 8.5 International Conference</em>, 107–124. <a href="https://doi.org/10.1007/978-3-030-82824-0_9">https://doi.org/10.1007/978-3-030-82824-0_9</a></p>
+<p>Krimmer, R., Duenas-Cid, D., Krivonosova, I., Vinkel, P., &amp; Koitmae, A. (2018). How much does an e-Vote cost? Cost comparison per vote in multichannel elections in Estonia. In R. Krimmer, M. Volkamer, V. Cortier, R. Goré, M. Hapsara, U. Serdült, &amp; D. Duenas-Cid (Eds.), <em>Electronic Voting Third International Joint Conference</em> (Vol. 11143, pp. 117–131). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-00419-4_8">https://doi.org/10.1007/978-3-030-00419-4_8</a></p>
+<p>Kurowska, X. (2020). What Russia wants in cyber diplomacy. A primer. In D. Broeders &amp; B. van der Berg (Eds.), <em>Governing cyberspace: Behaviour, power and diplomacy</em> (pp. 105–125). Rowman &amp; Littlefield International. <a href="https://rowman.com/WebDocs/Open_Access_Governing_Cyberspace_Broeders_and_van_den_Berg.pdf">https://rowman.com/WebDocs/Open_Access_Governing_Cyberspace_Broeders_and_van_den_Berg.pdf</a></p>
+<p>Large, O., &amp; Barasa, H. (2022). <em>Digital government in Europe: In pursuit of cross-border functionality</em> [Briefing]. Tony Blair Institute for Global Change. <a href="https://www.institute.global/insights/tech-and-digitalisation/digital-government-europe-pursuit-cross-border-functionality">https://www.institute.global/insights/tech-and-digitalisation/digital-government-europe-pursuit-cross-border-functionality</a></p>
+<p>Lufkin, B. (2017, October 19). Could Estonia be the first ‘digital’ country? <em>BBC News</em>. <a href="https://www.bbc.com/future/article/20171019-could-estonia-be-the-first-digital-country">https://www.bbc.com/future/article/20171019-could-estonia-be-the-first-digital-country</a></p>
+<p>Mačák, K. (2017). From cyber norms to cyber rules: Re-engaging states as law-makers. <em>Leiden Journal of International Law</em>, <em>30</em>(4), 877–899. <a href="https://doi.org/10.1017/S0922156517000358">https://doi.org/10.1017/S0922156517000358</a></p>
+<p>Mäe, R. (2017). The story of e-Estonia: A discourse-theoretical approach. <em>Baltic Worlds</em>, <em>1–2</em>, 32–44. <a href="https://balticworlds.com/the-story-of-e-estonia/">https://balticworlds.com/the-story-of-e-estonia/</a></p>
+<p>Mälksoo, M. (2018). Countering hybrid warfare as ontological security management: The emerging practices of the EU and NATO. <em>European Security</em>, <em>27</em>(3), 374–392. <a href="https://doi.org/10.1080/09662839.2018.1497984">https://doi.org/10.1080/09662839.2018.1497984</a></p>
+<p>Manor, I. (2019). A discussion of the digitalization of public diplomacy. In I. Manor, <em>The digitalization of public diplomacy</em> (pp. 323–352). Palgrave MacMillan. <a href="https://doi.org/10.1007/978-3-030-04405-3_10">https://doi.org/10.1007/978-3-030-04405-3_10</a></p>
+<p>Manor, I. (2020). The Russians are laughing! The Russians are laughing! How Russian diplomats employ humour in online public diplomacy. <em>Global Society</em>, <em>35</em>(1), 61–83. <a href="https://doi.org/10.1080/13600826.2020.1828299">https://doi.org/10.1080/13600826.2020.1828299</a></p>
+<p>Manor, I., &amp; Kampf, R. (2022). Digital nativity and digital diplomacy: Exploring conceptual differences between digital natives and digital immigrants. <em>Global Policy</em>, <em>13</em>(4), 442–457. <a href="https://doi.org/10.1111/1758-5899.13095">https://doi.org/10.1111/1758-5899.13095</a></p>
+<p>McBride, K. (2019). Sailing towards digitalization when it doesn’t make cents? Analysing the Faroe Islands’ new digital governance trajectory. <em>Island Studies Journal</em>, <em>14</em>(2), 193–214. <a href="https://doi.org/10.24043/isj.93">https://doi.org/10.24043/isj.93</a></p>
+<p>Nordic Institute for Interoperability Solutions (NIIS). (n.d.a). <em>Digital society solutions and cross-border cooperation</em> [Homepage]. <a href="https://www.niis.org/">https://www.niis.org/</a></p>
+<p>Nordic Institute for Interoperability Solutions (NIIS). (n.d.c). <em>Strategy: The strategy of the Nordic Institute for Interoperability Solutions</em>. <a href="https://www.niis.org/strategy">https://www.niis.org/strategy</a></p>
+<p>Nordic Institute for Interoperability Solutions (NIIS). (n.d.b). <em>X-Road architecture</em>. <a href="https://x-road.global/architecture">https://x-road.global/architecture</a></p>
+<p>Nyman Metcalf, K. (2019). Com construir la governança electrònica en una societat digital: El cas d’Estònia [How to build e-governance in a digital society: The case of Estonia]. <em>Revista Catalana de Dret Públic</em>, <em>58</em>, 1–12. <a href="https://doi.org/10.2436/rcdp.i58.2019.3316">https://doi.org/10.2436/rcdp.i58.2019.3316</a></p>
+<p>Oxford Dictionaries. (2002). Diplomacy. In <em>The Oxford essential dictionary of the U.S. military</em>. <a href="https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095719998">https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095719998</a></p>
+<p>Päivärinta, T., Smolander, K., &amp; Yli-Huumo, J. (2019). Towards stakeholder governance on large e-government platforms – A case of Suomi. Fi. <em>10th Scandinavian Conference on Information Systems</em>, <em>11</em>. <a href="https://aisel.aisnet.org/scis2019/11">https://aisel.aisnet.org/scis2019/11</a></p>
+<p>Pappel, I., Pappel, I., &amp; Saarmann, M. (2012). <em>Digital records keeping to information governance in Estonian local governments</em>. International Conference on Information Society (i-Society 2012). <a href="https://doi.org/10.13140/2.1.1435.6800">https://doi.org/10.13140/2.1.1435.6800</a></p>
+<p>Papp-Váry, Á. F. (2018). A successful example of complex country branding: The ‘e-Estonia’ positioning concept and its relation to the presidency of the Council of the EU. <em>Acta Universitatis Sapientiae, European and Regional Studies</em>, <em>14</em>(1), 87–115. <a href="https://doi.org/10.2478/auseur-2018-0013">https://doi.org/10.2478/auseur-2018-0013</a></p>
+<p>Pelizza, A. (2016). Developing the vectorial glance: Infrastructural inversion for the new agenda on government information systems. <em>Science, Technology, &amp; Human Values</em>, <em>41</em>(2), 298–321. <a href="https://doi.org/10.1177/0162243915597478">https://doi.org/10.1177/0162243915597478</a></p>
+<p>Petrone, J. (2022, August 29). Tried and tested: Europe strives for crossborder patient data sharing. <em>E-Estonia</em>. <a href="https://e-estonia.com/european-crossborder-patient-summaries-effort-advances/">https://e-estonia.com/european-crossborder-patient-summaries-effort-advances/</a></p>
+<p>Pigman, L. (2019). Russia’s vision of cyberspace: A danger to regime security, public safety, and societal norms and cohesion. <em>Journal of Cyber Policy</em>, <em>4</em>(1), 22–34. <a href="https://doi.org/10.1080/23738871.2018.1546884">https://doi.org/10.1080/23738871.2018.1546884</a></p>
+<p>Pohle, J., &amp; Thiel, T. (2020). Digital sovereignty. <em>Internet Policy Review</em>, <em>9</em>(4). <a href="https://doi.org/10.14763/2020.4.1532">https://doi.org/10.14763/2020.4.1532</a></p>
+<p>Priisalu, J., &amp; Ottis, R. (2017). Personal control of privacy and data: Estonian experience. <em>Health and Technology</em>, <em>7</em>, 441–451. <a href="https://doi.org/10.1007/s12553-017-0195-1">https://doi.org/10.1007/s12553-017-0195-1</a></p>
+<p>Prins, J. E. J., Broeders, D., &amp; Griffioen, H. M. (2012). iGovernment: A new perspective on the future of government digitisation. <em>Computer Law &amp; Security Review</em>, <em>28</em>(3), 273–282. <a href="https://doi.org/10.1016/j.clsr.2012.03.010">https://doi.org/10.1016/j.clsr.2012.03.010</a></p>
+<p>Robinson, N. D. (2020). <em>Distributed denial-of-government: The Data Embassy and the geopolitical, diplomatic and legal implications of extraterritorial data storage</em> [Doctoral dissertation, Royal Holloway, University of London]. <a href="https://pure.royalholloway.ac.uk/ws/portalfiles/portal/44682853/2020_Robinson_N_PhD.pdf">https://pure.royalholloway.ac.uk/ws/portalfiles/portal/44682853/2020_Robinson_N_PhD.pdf</a></p>
+<p>Robinson, N., &amp; Martin, K. (2017). Distributed denial of government: The Estonian Data Embassy Initiative. <em>Network Security</em>, <em>2017</em>(9), 13–16. <a href="https://doi.org/10.1016/S1353-4858(17)30114-9">https://doi.org/10.1016/S1353-4858(17)30114-9</a></p>
+<p>Robles, G., Gamalielsson, J., &amp; Lundell, B. (2019). Setting up government 3.0 solutions based on open source software: The case of X-Road. In I. Lindgren, M. Janssen, H. Lee, A. Polini, M. P. Rodríguez Bolívar, H. J. Scholl, &amp; E. Tambouris (Eds.), <em>Electronic Government 18th IFIP WG 8.5 International Conference</em> (Vol. 11685, pp. 69–81). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-27325-5_6">https://doi.org/10.1007/978-3-030-27325-5_6</a></p>
+<p>Saputro, R., Pappel, I., Vainsalu, H., Lips, S., &amp; Draheim, D. (2020). <em>Prerequisites for the adoption of the X - Road interoperability and data exchange framework: A comparative study</em>. 216–222. <a href="https://doi.org/10.1109/ICEDEG48599.2020.9096704">https://doi.org/10.1109/ICEDEG48599.2020.9096704</a></p>
+<p>Schmidt, E. (2023, February 28). Innovation power: Why technology will define the future of geopolitics. <em>Foreign Affairs</em>. <a href="https://www.foreignaffairs.com/united-states/eric-schmidt-innovation-power-technology-geopolitics">https://www.foreignaffairs.com/united-states/eric-schmidt-innovation-power-technology-geopolitics</a></p>
+<p>Silm, S., Jauhiainen, J. S., Raun, J., &amp; Tiru, M. (2021). Temporary population mobilities between Estonia and Finland based on mobile phone data and the emergence of a cross-border region. <em>European Planning Studies</em>, <em>29</em>(4), 699–719. <a href="https://doi.org/10.1080/09654313.2020.1774514">https://doi.org/10.1080/09654313.2020.1774514</a></p>
+<p>Sirviö, V. (2019). Estonia and Finland – Digital forerunners in cross-border cooperation. <em>NIIS Blog</em>. <a href="https://web.archive.org/web/20201120033903/https://www.niis.org/blog/2019/10/2/estonia-and-finland-digital-forerunners-in-cross-border-cooperation">https://web.archive.org/web/20201120033903/https://www.niis.org/blog/2019/10/2/estonia-and-finland-digital-forerunners-in-cross-border-cooperation</a></p>
+<p>Solvak, M., Unt, T., Rozgonjuk, D., Võrk, A., Veskimäe, M., &amp; Vassil, K. (2019). E-governance diffusion: Population level e-service adoption rates and usage patterns. <em>Telematics and Informatics</em>, <em>36</em>, 39–54. <a href="https://doi.org/10.1016/j.tele.2018.11.005">https://doi.org/10.1016/j.tele.2018.11.005</a></p>
+<p>Sterling, B. (2017, August 26). Meanwhile, in Estonian e-residency. <em>Wired</em>. <a href="https://www.wired.com/beyond-the-beyond/2017/08/meanwhile-estonian-e-residency/">https://www.wired.com/beyond-the-beyond/2017/08/meanwhile-estonian-e-residency/</a></p>
+<p>Sulg, M.-L., &amp; Crandall, M. (2020). Geopolitics: The seen and unseen in small state foreign policy. <em>Journal of Regional Security</em>, <em>15</em>(1), 109–130. <a href="https://doi.org/10.5937/jrs15-24562">https://doi.org/10.5937/jrs15-24562</a></p>
+<p>Tammpuu, P., &amp; Masso, A. (2018). ‘Welcome to the virtual state’: Estonian e-residency and the digitalised state as a commodity. <em>European Journal of Cultural Studies</em>, <em>21</em>(5), 543–560. <a href="https://doi.org/10.1177/1367549417751148">https://doi.org/10.1177/1367549417751148</a></p>
+<p>Vassil, K. (2016). <em>Estonian e-Government ecosystem: Foundation, applications, outcomes</em> (World Cevelopment Report 2016 Digital Dividends, pp. 1–29) [Background paper]. <a href="http://citis.ut.ee/articles/articles/estonian-e-government-ecosystem-foundation-applications-outc">http://citis.ut.ee/articles/articles/estonian-e-government-ecosystem-foundation-applications-outc</a></p>
+<p>Vaughan-Williams, N., &amp; Stevens, D. (2016). Vernacular theories of everyday (in)security: The disruptive potential of non-elite knowledge. <em>Security Dialogue</em>, <em>47</em>(1), 40–58. <a href="https://www.jstor.org/stable/26293584">https://www.jstor.org/stable/26293584</a></p>
+<p>Vériter, S. L. (2024). Small‐state influence in EU security governance: Unveiling Latvian lobbying against disinformation. <em>JCMS: Journal of Common Market Studies</em>. <a href="https://doi.org/10.1111/jcms.13601">https://doi.org/10.1111/jcms.13601</a></p>
+<p>Vihma, P. (2024, February 14). Digital wallet and eIDAS 2.0: A boost for Estonian companies. <em>E-Estonia</em>. <a href="https://e-estonia.com/digital-wallet-and-eidas-2-0-a-boost-for-estonian-companies/">https://e-estonia.com/digital-wallet-and-eidas-2-0-a-boost-for-estonian-companies/</a></p>
+<p>Wendt, N. S. (2020). <em>Digital self-determination: Everyday security through digitalisation and identity formation in Greenland</em> [Doctoral dissertation, Royal Holloway, University of London]. <a href="https://core.ac.uk/download/pdf/354516497.pdf">https://core.ac.uk/download/pdf/354516497.pdf</a></p>
+<p>YLE News. (2017, December 20). Ministry working group says ‘not yet’ to online voting in Finland. <em>Yleisradio Oy</em>. <a href="https://yle.fi/a/3-9984736">https://yle.fi/a/3-9984736</a></p>
+<p>Zissis, D., &amp; Lekkas, D. (2011). Securing e-Government and e-Voting with an open cloud computing architecture. <em>Government Information Quarterly</em>, <em>28</em>(2), 239–251. <a href="https://doi.org/10.1016/j.giq.2010.05.010">https://doi.org/10.1016/j.giq.2010.05.010</a></p>
+<p>Zubok, V. M. (2023). Myths and realities of Putinism and NATO expansion. In J. Goldgeier &amp; J. R. I. Shifrinson (Eds.), <em>Evaluating NATO Enlargement</em> (pp. 145–159). Palgrave MacMillan. <a href="https://doi.org/10.1007/978-3-031-23364-7_5">https://doi.org/10.1007/978-3-031-23364-7_5</a></p>
+</div>
+<div class="appendix">
+<h2>Annex</h2>
+<p>Below is a list of those interviewed who have informed this paper as well as other publications including the author’s doctoral thesis. Individual positions were collected by the author from the research participants at the time of the interview. The positions of those at private companies have been obscured slightly, as agreed with participants, mindful of ethical anonymisation and good academic practice. Descriptions of companies are included, but those companies' names have been obscured. Governmental institutions/departments are named.</p>
+<ul>
+<li>Participant 1: Works for a private firm involved in developing critical e-Government systems. Sales.</li>
+<li>Participant 2: As per participant 1. Senior research staff.</li>
+<li>Participant 3: Professor of e-Governance, Taltech University.</li>
+<li>Participant 4: Senior staff at the Ministry of Economic Affairs and Communications, Estonia.</li>
+<li>Participant 5: Technical volunteer at Küberkaitseliit (The Estonian Defence League Cyber Unit).</li>
+<li>Participant 6: Senior figure at the e-governance Academy, involved in creating and transferring knowledge and best practices in digital transformation.</li>
+<li>Participant 7: Researcher for the Government Office of Estonia specialising in e-governance and Cybersecurity.</li>
+<li>Participant 8: Senior staff&nbsp;at Estonian digital solutions organisation.</li>
+<li>Participant 9: Senior figure at the Finnish governmental department VRK (Väestörekisterikeskus), involved in cross-border e-governance collaboration with Estonia.</li>
+<li>Participant 10: CEO of Private IT Consultancy and Technical Solutions Firm, Estonia.</li>
+</ul>
+</div>
+<div class="footnotes">
+<h2>Footnotes</h2>
+<p><a id="footnote1_hf7sjax" href="#footnoteref1_hf7sjax">1.</a>  Further information on the Nordic Institute for&nbsp;Interoperability Solutions can be found on their website, see NIIS, n.d.a </p>
+<p><a id="footnote2_mkoll0t" href="#footnoteref2_mkoll0t">2.</a>  The diagram represents a simplistic overview of the X-Road. For further information on X-Road Architecture, see the NIIS (n.d.b). </p>
+</div>
+
+    </div>
+                <div class="comments" id="comments">
+        
+</div>
+
+
+    </article>
+
+
+
+
+                    </main>
+
+        
+                    <aside id="right" class="sidebar">
+                <div id="block-ipr3-ipranalysisserviceblock" class="block block-ipr-analysis-block">
+    
+        
+            <div class="content">
+            <a href="/pdf/policyreview-2024-3-1785.pdf" class="piwik_download" rel="alternate" target="_blank" type="application/pdf" title="Download this article in PDF format for easy printing and sharing">PDF</a><div class="cite-wrapper"><a class="js-cite-toggle" rel="nofollow" href="/cite/1785" title="Get citation options for this article in various styles">Cite</a>    <ul class="cite-style-items">
+          <li>
+        <div id="cite-label-0" class="cite-label">
+                              APA
+        </div>
+        <div class="cite-js-hidden cite-content cite-content-0">
+                    <textarea id="cite-textarea-id-0" readonly="readonly">Hardy, A. (2024). Estonia’s digital diplomacy: Nordic interoperability and the challenges of cross-border e-governance. Internet Policy Review, 13(3). https://doi.org/10.14763/2024.3.1785</textarea>
+        </div>
+                                                <img id="cite-button-0"
+          class="copy-button"
+          src="/modules/custom/citethisnode/icons/icon-clipboard.png"
+          alt="Copy to clipboard"
+          title="Copy to clipboard"
+          data-clipboard-textarea-id="cite-textarea-id-0"
+          data-clipboard-success-id="cite-label-0"
+          data-clipboard-success-text="Copied!"
+        />
+      </li>
+          <li>
+        <div id="cite-label-1" class="cite-label">
+                              Chicago
+        </div>
+        <div class="cite-js-hidden cite-content cite-content-1">
+                    <textarea id="cite-textarea-id-1" readonly="readonly">Hardy, Alex. 2024. "Estonia’s digital diplomacy: Nordic interoperability and the challenges of cross-border e-governance". Internet Policy Review 13 (3). DOI:&nbsp;10.14763/2024.3.1785. https://policyreview.info/articles/analysis/estonias-digital-diplomacy-nordic-interoperability.</textarea>
+        </div>
+                                                <img id="cite-button-1"
+          class="copy-button"
+          src="/modules/custom/citethisnode/icons/icon-clipboard.png"
+          alt="Copy to clipboard"
+          title="Copy to clipboard"
+          data-clipboard-textarea-id="cite-textarea-id-1"
+          data-clipboard-success-id="cite-label-1"
+          data-clipboard-success-text="Copied!"
+        />
+      </li>
+          <li>
+        <div id="cite-label-2" class="cite-label">
+                              Harvard
+        </div>
+        <div class="cite-js-hidden cite-content cite-content-2">
+                    <textarea id="cite-textarea-id-2" readonly="readonly">Hardy, Alex (2024). Estonia’s digital diplomacy: Nordic interoperability and the challenges of cross-border e-governance. Internet Policy Review,[online] 13(3). Available at: https://policyreview.info/articles/analysis/estonias-digital-diplomacy-nordic-interoperability [Accessed: 24 Feb. 2026].</textarea>
+        </div>
+                                                <img id="cite-button-2"
+          class="copy-button"
+          src="/modules/custom/citethisnode/icons/icon-clipboard.png"
+          alt="Copy to clipboard"
+          title="Copy to clipboard"
+          data-clipboard-textarea-id="cite-textarea-id-2"
+          data-clipboard-success-id="cite-label-2"
+          data-clipboard-success-text="Copied!"
+        />
+      </li>
+          <li>
+        <div id="cite-label-3" class="cite-label">
+                              MLA
+        </div>
+        <div class="cite-js-hidden cite-content cite-content-3">
+                    <textarea id="cite-textarea-id-3" readonly="readonly">Hardy, Alex. "Estonia’s digital diplomacy: Nordic interoperability and the challenges of cross-border e-governance". Internet Policy Review 13.3 (2024). Web. 24 Feb. 2026.</textarea>
+        </div>
+                                                <img id="cite-button-3"
+          class="copy-button"
+          src="/modules/custom/citethisnode/icons/icon-clipboard.png"
+          alt="Copy to clipboard"
+          title="Copy to clipboard"
+          data-clipboard-textarea-id="cite-textarea-id-3"
+          data-clipboard-success-id="cite-label-3"
+          data-clipboard-success-text="Copied!"
+        />
+      </li>
+          <li>
+        <div id="cite-label-4" class="cite-label">
+                              Vancouver
+        </div>
+        <div class="cite-js-hidden cite-content cite-content-4">
+                    <textarea id="cite-textarea-id-4" readonly="readonly">Hardy A. Estonia’s digital diplomacy: Nordic interoperability and the challenges of cross-border e-governance. Internet Policy Review [Internet]. 2024 [24 February 2026];13(3). Available from: https://policyreview.info/articles/analysis/estonias-digital-diplomacy-nordic-interoperability</textarea>
+        </div>
+                                                <img id="cite-button-4"
+          class="copy-button"
+          src="/modules/custom/citethisnode/icons/icon-clipboard.png"
+          alt="Copy to clipboard"
+          title="Copy to clipboard"
+          data-clipboard-textarea-id="cite-textarea-id-4"
+          data-clipboard-success-id="cite-label-4"
+          data-clipboard-success-text="Copied!"
+        />
+      </li>
+        
+  </ul>
+  
+</div><a href="https://bsky.app/intent/compose?text=I+recommend+https%3A%2F%2Fpolicyreview.info%2Farticles%2Fanalysis%2Festonias-digital-diplomacy-nordic-interoperability" target="_blank" rel="external" title="Share this article on Bluesky!">Bluesky</a>
+        </div>
+    </div>
+<div class="views-element-container categories block--back block--first block block-views block-views-blockpublic-node-categories-block" id="block-ipr3-views-block-public-node-categories-block">
+    
+        
+            <div class="content">
+              <div class="js-toggle-categories js-view-dom-id-88eea15c6a416072270dd09736c91639411782d7e5855b69ef37029b8f8740f0">
+  
+  
+  
+
+  
+  
+  
+
+      <div><div class="item"><h2>Category</h2><ul><li><a href="https://policyreview.info/categories/procedures-governance">Governance</a></li></ul></div><div class="js-item"><h2>Keywords: </h2><div class="js-hidden"><ul><li><a href="https://policyreview.info/tags/issues/estonia">Estonia</a></li><li><a href="https://policyreview.info/tags/issues/e-government">E-government</a></li><li><a href="https://policyreview.info/tags/issues/digital-diplomacy">Digital diplomacy</a></li><li><a href="https://policyreview.info/tags/issues/innovation">Innovation</a></li><li><a href="https://policyreview.info/tags/issues/cross-border-e-governance">Cross-border e-governance</a></li></ul></div></div></div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+
+
+        </div>
+    </div>
+<div class="views-element-container block block-views block-views-blockpublic-related-articles-block-1" id="block-related-articles">
+    
+            <div class="header">
+            <h2>Related Articles</h2>
+        </div>
+        
+            <div class="content">
+              <div class="list js-view-dom-id-1c35d3e650452e6b6d296087a7b8bbadff8c2d6c70ebfe640805b3ca238f913c">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+<article class="article teaser analysis published views-view-responsive-grid__item views-view-responsive-grid__item--analysis" id="node-2028">
+    
+    <div class="header">
+        <div class="topic">
+            <a href="/archives/2025/issue-3">Volume 14, Issue 3</a>
+                    </div>
+        <h2>
+            <a href="/articles/analysis/estonia-decision-making-aftermath">
+                
+<span> Lessons from small and highly-digitalised Estonia: Decision-making in the aftermath of cybersecurity crises</span>
+
+                            </a>
+        </h2>
+        <div class="meta">
+            <a href="/users/logan-carmichael" hreflang="en">Logan Carmichael</a>, <em>University of Tartu</em><br/>
+            PUBLISHED ON:&nbsp;<span class="meta__date">13 Aug 2025</span>
+                DOI:&nbsp;<span style="color:#3d3f41;">10.14763/2025.3.2028</span>
+
+        </div>
+    </div>
+    <div class="content">
+          <p>This paper examines how governmental decision-making was undertaken in the aftermath of four key cybersecurity crises affecting Estonian e-governance, with the objective of bolstering future cybersecurity.</p>
+
+
+
+    </div>
+        <div class="taxonomy">
+        <span>KEYWORDS:</span>
+                                    <a href="/tags/issues/">Cybersecurity governance</a>,                                 <a href="/tags/issues/">E-governance</a>,                                 <a href="/tags/issues/estonia">Estonia</a>,                                 <a href="/tags/issues/">Crisis management</a>,                                 <a href="/tags/issues/">Cybersecurity management</a>    </div>
+
+</article>
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+
+
+        </div>
+    </div>
+<div id="block-ipr3-aboutonthefrontpage-2" class="block block-block-content block-block-contentacf62147-1ed0-4da9-b7ef-1b5a2aa9aa4a">
+    
+        
+            <div class="content">
+            <p></p><div class="block--section__content block--section__content--back">
+    <div class="content_types">
+        <p><em><a href="https://policyreview.info/">Internet Policy Review</a></em> is an open access and peer-reviewed journal on internet regulation.</p>
+        <div class="fake_p">Scholars, regulators, journalists, activists, and other stakeholders publish in the journal in
+            <input type="checkbox" id="legend-collapsible" class="collapsible"><label for="legend-collapsible">a variety of formats</label>
+            <dl class="collapsible-content">
+                <div class="peer-reviewed-types">
+                    <h3>peer reviewed</h3>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_research_article.svg"><span class="label">Research articles</span>
+                    </dt>
+                    <dd>In-depth scholarly research papers and essays</dd>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_concept.svg"><span class="label">Concepts</span>
+                    </dt>
+                    <dd>Critical reflections on emerging core concepts of the digital society</dd>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_editorial.svg"><span class="label">Editorials</span>
+                    </dt>
+                    <dd>Contextual or thematic introductions to special issues</dd>
+                </div>
+                <div class="not-peer-reviewed-types">
+                    <h3>not peer reviewed</h3>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_essay.svg"><span class="label">Essays</span>
+                    </dt>
+                    <dd>Free-form yet in-depth contentions with issues of academic or social relevance</dd>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_news.svg"><span class="label">News</span>
+                    </dt>
+                    <dd>Journalistic reports on events of interest to the
+                        <em>Internet Policy Review</em>
+                        community</dd>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/minimal_comment.svg"><span class="label">Opinions</span>
+                    </dt>
+                    <dd>Opinion pieces commenting on developments in the realm of internet policy</dd>
+                    <dt><img src="https://policyreview.info/sites/all/themes/ipr2/_res/img/icons/minimal/abstract.svg"><span class="label">Open Abstract</span>
+                    </dt>
+                    <dd>Extended abstracts for works in progress that receive public peer review</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+    <div class="mt-12"><h3 class="h3--uppercase">Published by</h3><a href="https://hiig.de/en" class="fz-13 mb-10 fw-bold d-block td-ul">Alexander von Humboldt Institute for Internet and Society</a><a href="https://www.cais-research.de/" class="fz-13 mb-10 fw-bold d-block td-ul">Center for Advanced Internet Studies</a><a href="https://policyreview.info/partners" class="a--more a--more--small">in cooperation with additional partners</a></div><div class="grid--connect"><a href="https://bsky.app/profile/policyr.bsky.social" target="_blank"><div><img src="/themes/custom/ipr3/_res/img/icons/social/icon-bluesky-black.svg" alt="Bluesky Icon" width="22" height="22"></div><div>Follow us</div></a><a href="https://www.hiig.de/en/newsletter-registration/" target="_blank"><div><em><i class="material-icons md-22">email</i></em></div><div>Subscribe</div></a></div>
+</div>
+
+        </div>
+    </div>
+
+<div id="block-ipr3-callforpapers-3" class="block--purple block--add-top block block--highlighted">
+    <div class="block__header block__header--highlighted">
+        <div>
+                            <h2>Call for papers</h2>
+                    </div>
+        <div>
+            <p>Abstract submission deadline: <strong>15 Oct 2025</strong></p>
+
+        </div>
+    </div>
+    <div class="block__content block__content--highlighted">
+        
+        <div>
+                            <a href="https://policyreview.info/events/call-papers-inclusive-design-participatory-governance-and-future-digital-public-spaces"><h2><span>Special issue on the topic of</span><br>Inclusive by design? Participatory governance and the future of digital public spaces</h2>
+</a>
+                    </div>
+                    <div>
+                <a href="https://policyreview.info/events/call-papers-inclusive-design-participatory-governance-and-future-digital-public-spaces" class="a--more a--more--simple">Full call here</a>
+            </div>
+            </div>
+    </div>
+<div id="block-ipr3-metricsaboutipr" class="block block-block-content block-block-contentab2a9f83-e519-47eb-8d9b-070ebfd67de7">
+    
+        
+            <div class="content">
+            <p><a href="https://www.scimagojr.com/journalsearch.php?q=21100898535&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img alt="SCImago Journal &amp; Country Rank" border="0" src="https://www.scimagojr.com/journal_img.php?id=21100898535"></a><br>
+<a href="https://policyreview.info/partners">Additional indexing</a></p>
+
+        </div>
+    </div>
+
+
+            </aside>
+        
+    </div>
+
+    
+    <footer class="footer">
+        <div id="block-ipr3-footer" class="footer__inner">
+    <div class="logos-published-by">
+        <div class="logos__label">A journal published by</div>
+        <div class="logos__grid logos__grid--published">
+            <a href="https://www.hiig.de/" target="_blank">
+                <img alt="HIIG" src="/themes/custom/ipr3/_res/img/logos/humboldt-institute-for-internet-and-society-logo-footer.svg">
+            </a>
+            <a href="https://www.cais-research.de/" target="_blank">
+                <img src="/themes/custom/ipr3/_res/img/logos/CAIS_Research-for-the-digital-age_logo.svg" alt="CAIS">
+            </a>
+        </div>
+    </div>
+    <div class="logos-in_coop_with">
+        <div class="logos__label">In cooperation with</div>
+        <div class="logos__grid logos__grid--coop">
+            <a href="https://www.create.ac.uk/" target="_blank">
+                <img alt="CREATe" src="/themes/custom/ipr3/_res/img/logos/create-logo-footer.svg">
+            </a>
+            <a target="_blank" href="http://cis.cnrs.fr/" class="in_coop_with">
+                <img src="/themes/custom/ipr3/_res/img/logos/logo-cnrs-cis-white.svg" alt="Centre national de la recherche scientifique. centre internet et société">
+            </a>
+            <a href="https://www.uoc.edu/portal/ca/in3/index.html" target="_blank">
+                <img src="/themes/custom/ipr3/_res/img/logos/in-cooperation-internet-inderdisciplinary-institute-IN3-logo-footer.svg" alt="IN3">
+            </a>
+            <a href="https://skytte.ut.ee/en" target="_blank">
+                <img src="/themes/custom/ipr3/_res/img/logos/Uni-Tartu_Johan-Skytte_logo-valge.svg" alt="University of Tartu Johan Skytte Institute of Political Studies">
+            </a>
+        </div>
+    </div>
+    <div class="footer__navigation">
+        
+                
+        
+              <ul>
+              <li>
+        <a href="/dataprotection" data-drupal-link-system-path="node/796">Data protection</a>
+              </li>
+          <li>
+        <a href="/imprint" data-drupal-link-system-path="node/86">Imprint</a>
+              </li>
+          <li>
+        <a href="/imprint" data-drupal-link-system-path="node/86">Internet Policy Review 2025. Some rights reserved</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+    <div id="totop" class="totop">
+        <a href="#page" role="button" aria-label="Scroll to top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+  <path fill="#EAEAEA" d="M17.5.5L3 5.3V30l14.5 4.5L32 30V5.3L17.5.5zm4.4 19.7c-.2.2-.4.3-.6.3s-.4-.1-.6-.3l-3.2-3.1-3.2 3.1c-.3.4-.9.4-1.2 0-.3-.3-.3-.9 0-1.2l3.8-3.8c.3-.3.9-.3 1.2 0l3.8 3.8c.3.3.3.9 0 1.2z"/>
+</svg>
+        </a>
+    </div>
+</div>
+
+
+    </footer>
+
+</div>
+
+  </div>
+
+        
+        <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/1785","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxVylEOAiEMBNALEfjwQKRAXbp2oWlhdW-v0cTVn8nMy2QaOCpZ6wVD_hkxcc-3uJoj0UtYuCfgT7cUqV2pvd7RsnY-XZS60jhig_2LhqC5OgGFRUGqhaJTgP0pfjaZickqFmeHDdxCAkO3E94tvNPDCo8_2HqZjE8YSkvw","theme":"ipr3","theme_token":null},"ajaxTrustedUrl":{"\/search":true},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:1c35d3e650452e6b6d296087a7b8bbadff8c2d6c70ebfe640805b3ca238f913c":{"view_name":"public_related_articles","view_display_id":"block_1","view_args":"3689,314,3690,221,3691\/1785","view_path":"\/node\/1785","view_base_path":null,"view_dom_id":"1c35d3e650452e6b6d296087a7b8bbadff8c2d6c70ebfe640805b3ca238f913c","pager_element":0}}},"user":{"uid":0,"permissionsHash":"86e4612cb61dc129d0ab9f8c71174b2227b6c51cd93a45b9af2e9dd118836a48"}}</script>
+<script src="/sites/default/files/js/js_m4KjhgFhpBhznk4js2R1ihMO-p_QvOSUSupx4V7T24c.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=ipr3&amp;include=eJxNikEKgDAMBD8k9uCDQhqrjZamJKXq7xUF9bLMDEtcQ41sWcbg6Cfgk9AKi3VcdHBzEo_pYfPAeeJ8vcFIJX29KItyPSBje6MFVIpd47CZu7fHBfcTolcvtg"></script>
+
+        <!-- Piwik -->
+        <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(["setDomains", ["*.policyreview.info","*.policy-review.de","*.policy-review.info","*.policy-review.net","*.policy-review.org","*.policyreview.de"]]);
+        _paq.push(['disableCookies']);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+        var u="//piwik.hiig.de/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 9]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+        </script>
+        <noscript><p><img src="//piwik.hiig.de/piwik.php?idsite=9" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+    </body>
+</html>
