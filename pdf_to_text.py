@@ -3,6 +3,7 @@ import os
 import json
 import re
 
+
 # ROLE: Data Acquisition Group
 # PURPOSE: Enhanced extraction with fuzzy title matching to reduce "Skipping" errors.
 
@@ -13,7 +14,9 @@ def clean_string(s):
     """
     return re.sub(r'[^a-zA-Z0-9]', '', str(s)).lower()
 
-def extract_text_from_pdfs(metadata_file="hybrede_metadata_v3.json", pdf_folder="harvested_pdfs", output_folder="processed_text"):
+
+def extract_text_from_pdfs(metadata_file="hybrede_metadata_v3.json", pdf_folder="harvested_pdfs",
+                           output_folder="processed_text"):
     if not os.path.exists(metadata_file):
         print(f"[!] Error: Metadata file {metadata_file} not found.")
         return
@@ -21,10 +24,10 @@ def extract_text_from_pdfs(metadata_file="hybrede_metadata_v3.json", pdf_folder=
     # Load metadata and build a "Cleaned Title -> paperId" map.
     with open(metadata_file, 'r', encoding='utf-8') as f:
         metadata = json.load(f)
-    
+
     # We use the clean_string function to create a robust lookup table.
     title_to_id = {
-        clean_string(item.get('title', '')): item.get('paperId') 
+        clean_string(item.get('title', '')): item.get('paperId')
         for item in metadata if item.get('paperId')
     }
 
@@ -39,7 +42,7 @@ def extract_text_from_pdfs(metadata_file="hybrede_metadata_v3.json", pdf_folder=
 
     for pdf_file in pdf_files:
         pdf_path = os.path.join(pdf_folder, pdf_file)
-        
+
         # Clean the filename (without extension) for a more flexible match.
         filename_cleaned = clean_string(os.path.splitext(pdf_file)[0])
         paper_id = title_to_id.get(filename_cleaned)
@@ -59,7 +62,7 @@ def extract_text_from_pdfs(metadata_file="hybrede_metadata_v3.json", pdf_folder=
                     content = page.extract_text()
                     if content:
                         full_text.append(content)
-            
+
             if full_text:
                 with open(text_path, 'w', encoding='utf-8') as f:
                     f.write("\n".join(full_text))
@@ -73,6 +76,7 @@ def extract_text_from_pdfs(metadata_file="hybrede_metadata_v3.json", pdf_folder=
             print(f"[!] Error processing {pdf_file}: {e}")
 
     print(f"\n[*] Processing Complete: {success_count} succeeded, {fail_count} skipped.")
+
 
 if __name__ == "__main__":
     extract_text_from_pdfs()

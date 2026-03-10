@@ -13,7 +13,7 @@ pip install chromadb sentence-transformers
 
 Usage:
 python retrieval.py index
-python retrieval.py index --metadata hybrede_metadata_v3.json --filtered filtered_papers_v3_test.json
+python retrieval.py index --metadata data/hybrede_metadata_v3.json --filtered data/processed/filtered_papers.json
 python retrieval.py query "evidence-based practice instruments" --k 5
 python retrieval.py suggest --n 5
 """
@@ -38,7 +38,7 @@ except ModuleNotFoundError:
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 # --------- Settings ----------
-DEFAULT_FILTERED_FILE = os.path.join(BASE_DIR, "filtered_papers.json")
+DEFAULT_FILTERED_FILE = os.path.join(BASE_DIR, "data", "processed", "filtered_papers.json")
 DEFAULT_METADATA_FILE = os.path.join(BASE_DIR, "data", "hybrede_metadata_v3.json")
 FULLTEXT_DIR = os.path.join(BASE_DIR, "data", "v3_full_text")
 
