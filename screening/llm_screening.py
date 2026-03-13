@@ -26,6 +26,8 @@ import json
 import os
 from openai import OpenAI
 from datetime import datetime
+from dotenv import load_dotenv
+
 
 
 # ------------------------------ 1. CONFIGURATION ------------------------------ 
@@ -297,6 +299,9 @@ def verify_screening(decision, justification, title, abstract, client):
     )
 
     return response.choices[0].message.content.strip()
+
+load_dotenv()
+
 #create client
 client = OpenAI()
 
@@ -375,6 +380,7 @@ for idx, paper in enumerate(papers, start=1):
     if "INVALID" in validation:
         invalid_cases += 1
         validation_status = "INVALID"
+    
 
         print(f"[{idx}]  INVALID screening detected")
         
@@ -426,6 +432,7 @@ print(f"Total INCLUDED papers: {len(included_papers)}")
 
 included = sum(1 for r in all_screening_results if r["decision"] == "INCLUDE")
 excluded = sum(1 for r in all_screening_results if r["decision"] == "EXCLUDE")
+valid = sum(1 for r in all_screening_results if r["validation"] == "VALID")
 
 
 
@@ -435,6 +442,8 @@ print("Total papers:", len(all_screening_results))
 print("Included:", included)
 print("Excluded:", excluded)
 print("Invalid:", invalid_cases)
+print("Valid:", valid)
+
 
 print("\nScreening completed successfully.")
 print("Filtered corpus ready for retrieval indexing.")

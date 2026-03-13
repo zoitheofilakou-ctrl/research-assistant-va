@@ -1,0 +1,542 @@
+[
+    {
+        "paperId": "2f06cdba66b60003ceb92579cef8ce8f3058940b",
+        "paper_index": 1,
+        "title": "Understanding, experience and attitudes towards artificial intelligence technologies for clinical decision support in hearing health: a mixed-methods survey of healthcare professionals in the UK",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses healthcare professionals' attitudes towards AI technologies in clinical decision support within the context of hearing health, which relates to the use and understanding of knowledge and digital tools in healthcare practice.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by discussing healthcare professionals' attitudes towards AI in clinical decision support within hearing health."
+    },
+    {
+        "paperId": "169316c86726d0d48fd3cee927cf25197c2eb74c",
+        "paper_index": 2,
+        "title": "Knowledge, attitudes, and concerns about psilocybin and MDMA as novel therapies among U.S. healthcare professionals",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' knowledge and attitudes towards novel therapies, specifically psychedelic-assisted therapy, which relates to the use and understanding of evidence-based practice in a healthcare context.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by addressing healthcare professionals' knowledge and attitudes towards evidence-based practices in the context of novel therapies."
+    },
+    {
+        "paperId": "f86bbf1f6be39fe5c3fc8373e832b16bd828a405",
+        "paper_index": 3,
+        "title": "Healthcare professionals’ perception of using a web-based reminiscence therapy to support person with dementia during the COVID-19 pandemic",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' perceptions of a digital tool (web-based reminiscence therapy) used in dementia care, aligning with the inclusion criteria related to the use of knowledge and information systems in healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of knowledge and information systems in healthcare contexts."
+    },
+    {
+        "paperId": "5f1a24be097954cb8a5ca1bee1a12a45a460bf04",
+        "paper_index": 4,
+        "title": "Education and clinical decision support for healthcare professionals on emergency preparedness for extremely dangerous pathogens: report of a conference workshop",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' education and clinical decision support related to emergency preparedness for infectious diseases, aligning with the inclusion criteria regarding professional healthcare practice and the application of knowledge in healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding professional healthcare practice and education related to infectious diseases."
+    },
+    {
+        "paperId": "bb133c9343bfc2f2788f16c32f09c94acdab5a06",
+        "paper_index": 5,
+        "title": "Instruments for assessing healthcare professionals' knowledge and skills of evidence-based practice: A scoping review.",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' knowledge and skills related to evidence-based practice, which aligns with the inclusion criteria regarding the use and understanding of research evidence in healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the focus on healthcare professionals' knowledge and skills related to evidence-based practice."
+    },
+    {
+        "paperId": "8ba8ed724bdf25a39aed605132a92ac0773c9a82",
+        "paper_index": 6,
+        "title": "What do healthcare professionals want from a resource to support person-centred conversations on physical activity? A mixed-methods, user-centric approach to developing educational resources",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' needs for resources to support person-centred conversations about physical activity, aligning with the inclusion criteria related to professional healthcare practice and the use of knowledge in clinical contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to professional healthcare practice and knowledge use in clinical contexts."
+    },
+    {
+        "paperId": "4ad09107c87cf61ebe5187f1419d69e7b89b0331",
+        "paper_index": 7,
+        "title": "Exploration of the views and experiences of research healthcare professionals during their redeployment to clinical roles during the COVID‐19 pandemic",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' experiences and adaptation during redeployment to clinical roles, which relates to professional practice and the use of knowledge in healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria regarding professional practice and knowledge use in healthcare contexts."
+    },
+    {
+        "paperId": "b1a1948e5b8ec9b431fa98a2960f5cbd1715cd80",
+        "paper_index": 8,
+        "title": "ImpENSA eHealthy Conversation Skills training for healthcare professionals aimed at improving micronutrient status during the first 1000 days in South Africa",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' training and knowledge application related to nutrition and behaviour change support, which aligns with the inclusion criteria regarding healthcare practice and the use of knowledge in professional contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare practice and knowledge application."
+    },
+    {
+        "paperId": "d339c190259035de7d11ebb8965c4f613618f2ea",
+        "paper_index": 9,
+        "title": "Perspectives of healthcare professionals on the use of immersive virtual reality in teenage and young adult oncology: a qualitative interview study",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' perspectives on the use of immersive virtual reality in oncology, relating to the application of digital tools in a healthcare context, which aligns with the inclusion criteria.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by focusing on healthcare professionals' perspectives in a relevant healthcare context."
+    },
+    {
+        "paperId": "f7dd443c4920fd1a247d6ef479e0de42308ac219",
+        "paper_index": 10,
+        "title": "Knowledge and attitudes towards living wills among healthcare professionals, residents and relatives in nursing homes: A qualitative study.",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on the knowledge and attitudes of residents and relatives regarding living wills, which is directed towards patient behavior and engagement rather than healthcare professionals' use or application of knowledge in a professional context.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the focus of the paper is on residents and relatives rather than healthcare professionals, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "6c089fa2f6d6c29fcf0ba8c4f5609f47c2d2712d",
+        "paper_index": 11,
+        "title": "The difference in knowledge and concerns between healthcare professionals and patients about genetic-related issues: A questionnaire-based study",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily studies the knowledge and concerns of healthcare professionals and patients regarding genetic-related issues, which falls under patient behavior and engagement rather than focusing on healthcare professionals' use or application of knowledge in a professional context.",
+        "validation": "INVALID",
+        "validation_raw": "Validation: INVALID  \nReason: The justification incorrectly states that the paper does not focus on healthcare professionals' use of knowledge, despite the study comparing knowledge and concerns of HCPs and patients."
+    },
+    {
+        "paperId": "59dcc110966f5f099e9eb6fd05768673a8791134",
+        "paper_index": 12,
+        "title": "Empowered patients and informal care-givers as partners?—a survey study of healthcare professionals’ perceptions",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily addresses the perceptions of healthcare professionals regarding empowered patients and informal caregivers, which falls under patient engagement rather than the use of knowledge or information within professional healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper focuses on patient engagement, which aligns with the exclusion criteria."
+    },
+    {
+        "paperId": "b7173949b349921d7d31536ce28b91071e272b2c",
+        "paper_index": 13,
+        "title": "Dietary intervention in gestational diabetes: a qualitative study of the acceptability and feasibility of a novel whole-diet intervention in healthcare professionals",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' views on a dietary intervention for gestational diabetes, relating to the use and acceptability of a novel intervention in a healthcare context, which aligns with the inclusion criteria.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by focusing on healthcare professionals' views on a dietary intervention for gestational diabetes."
+    },
+    {
+        "paperId": "c624607d09dc1e4807381b72ed5178c0436cfe1b",
+        "paper_index": 14,
+        "title": "Bioethical knowledge in students and health professionals: a systematic review",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' understanding and application of bioethical knowledge, which is relevant to professional healthcare practice and education. It discusses the importance of training in bioethics, aligning with the inclusion criteria related to knowledge-related processes in healthcare.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding knowledge-related processes in healthcare."
+    },
+    {
+        "paperId": "49bbb4bb4c1a086d721223c121669ef2e791f104",
+        "paper_index": 15,
+        "title": "Towards a Knowledge Graph-Based Explainable Decision Support System in Healthcare",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses a knowledge graph-based framework for AI-based clinical decision support systems, which relates to healthcare professionals' use of digital tools and decision-support technologies in healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare and decision-support technologies."
+    },
+    {
+        "paperId": "dc3d01368bf4a77f61ac1b4e040e431a5c0977e0",
+        "paper_index": 16,
+        "title": "Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses AI-based clinical decision support systems in the context of cardiovascular diseases, which relates to patient care and clinical decision-making rather than focusing on healthcare professionals' use or management of knowledge and information systems.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper focuses on patient care rather than the use or management of knowledge and information systems by healthcare professionals, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "e7e8de3fd7dbc1fa0effa103506429264ce24cab",
+        "paper_index": 17,
+        "title": "Unmet needs and gaps in the identification of secondary progression in multiple sclerosis: a Southern Italy healthcare professionals’ perspective",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the identification and management of multiple sclerosis from the perspective of healthcare professionals, focusing on the use of knowledge and digital tools in healthcare contexts, which aligns with the inclusion criteria.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by discussing the identification and management of multiple sclerosis from a healthcare professional's perspective."
+    },
+    {
+        "paperId": "f2c42c77b77854d9d2ecf720e70b058123d66a12",
+        "paper_index": 18,
+        "title": "Using an Activity Tracker in Healthcare: Experiences of Healthcare Professionals and Patients",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily studies the experiences of both healthcare professionals and patients regarding the use of an activity tracker, which indicates a focus on patient behavior and engagement rather than exclusively on healthcare professionals' use of knowledge or information in a professional context.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the focus is on patient behavior and engagement, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "58444ef0794b7aeb9117156a5c97c6abc7c08ca2",
+        "paper_index": 19,
+        "title": "The Medical Science Liaison Role in Spain: A Survey About the Opinion of HealthCare Professionals",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' understanding and opinion of the Medical Science Liaison role, which relates to the use and application of knowledge in professional healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria regarding healthcare professionals' understanding and opinion in a professional context."
+    },
+    {
+        "paperId": "cc2ad19bf5420b740d14a66a97420b7a6a5e63ec",
+        "paper_index": 20,
+        "title": "Mobile health applications for managing atrial fibrillation for healthcare professionals and patients: a systematic review.",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily studies mobile health applications for both patients and healthcare professionals, but it focuses significantly on patient behavior and outcomes, which falls under the exclusion criteria.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the focus on patient behavior and outcomes aligns with the exclusion criteria."
+    },
+    {
+        "paperId": "1c2839342040239c38dee193ef744738be7d1af3",
+        "paper_index": 21,
+        "title": "A Virtual Assistant to Guide Early Postoperative Rehabilitation after Reverse Shoulder Arthroplasty: A Pilot Randomized Trial",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily studies patient behavior and engagement regarding postoperative rehabilitation, focusing on the use of a chatbot to promote adherence in patients, which falls under the exclusion criteria related to patient-facing applications.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on a patient-facing application, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "6b6a84f2f1fa59cf319010480d11b662a073f480",
+        "paper_index": 22,
+        "title": "A pilot exploration of staff and service-user perceptions of a novel digital health technology (Virtual Engagement Rehabilitation Assistant) in complex inpatient rehabilitation",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses a digital health technology in the context of rehabilitation, focusing on healthcare professionals' and service-users' perceptions, which aligns with the inclusion criteria related to healthcare practice and the use of digital tools.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and digital tools."
+    },
+    {
+        "paperId": "c16054d5b08bc0e985260bb6249c93e859a98870",
+        "paper_index": 23,
+        "title": "Post-Covid-19 Syndrome: Improvements in Health-Related Quality of Life Following Psychology-Led Interdisciplinary Virtual Rehabilitation",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on treatment delivery and evaluates patient outcomes related to post-COVID-19 syndrome, which falls under the exclusion criteria regarding actionable care and clinical efficacy.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on treatment delivery and patient outcomes, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "c537d74696ffca16c972338995197fe170b68d6d",
+        "paper_index": 24,
+        "title": "HR1 Robot: An Assistant for Healthcare Applications",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses the use of a robot in rehabilitation tasks and clinical trials, focusing on the technology's application rather than the healthcare professionals' use or management of knowledge or information systems.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper focuses on technology application rather than healthcare professionals' use or management of knowledge, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "0db6d1abdb489605995ccb4ccc9696df0e3dac90",
+        "paper_index": 25,
+        "title": "Effectiveness of using a chatbot to promote adherence to home physiotherapy after total knee replacement, rationale and design of a randomized clinical trial",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on patient adherence to home physiotherapy and evaluates treatment effectiveness, which falls under the exclusion criteria related to patient outcomes and treatment delivery.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on patient outcomes and treatment delivery, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "50a571e389fef5ec046d3547e3789f8a54ab8c18",
+        "paper_index": 26,
+        "title": "THE ROLE OF TECHNOLOGY IN PERFORMING PHYSICAL ACTIVITY IN REHABILITATION PROGRAMS FOR PATIENTS WITH CARDIOVASCULAR DISEASES",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily studies patient outcomes and evaluates the effectiveness of a rehabilitation program on patients with cardiovascular diseases, which falls under the exclusion criteria related to treatment delivery and patient outcomes.",
+        "validation": "INVALID",
+        "validation_raw": "Validation: INVALID  \nReason: The justification contradicts the criteria by stating the paper evaluates patient outcomes, which is explicitly excluded."
+    },
+    {
+        "paperId": "5e7acca5078a701ca17a9b45175a08598de6b418",
+        "paper_index": 27,
+        "title": "Abstract booklet 2022",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on the perspectives of stroke survivors and caregivers regarding a virtual rehabilitation program, which falls under patient engagement and behavior rather than healthcare professionals' use or application of knowledge in professional contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The decision to exclude is consistent with the justification that the paper focuses on patient engagement rather than healthcare professionals' application of knowledge."
+    },
+    {
+        "paperId": "8a0e01337e28e68f36241b4dd1f5185804bceedb",
+        "paper_index": 28,
+        "title": "Com@Rehab: An Interactive and Personalised Rehabilitation Activity Based on Virtual Reality",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on a patient-centered rehabilitation activity and evaluates the experience of patients using a virtual reality system, which falls under the exclusion criteria related to patient behavior and treatment delivery.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on patient behavior and treatment delivery, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "4b5c53bd47f73c9e67e0438b7233074b30049eed",
+        "paper_index": 29,
+        "title": "P178 Development and implementation of a novel centralised virtual pulmonary rehabilitation service across an integrated care system",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses the implementation and operational aspects of a virtual pulmonary rehabilitation service, focusing on patient engagement and outcomes, which falls under the exclusion criteria related to treatment delivery and patient outcomes.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding treatment delivery and patient outcomes."
+    },
+    {
+        "paperId": "2e38487ceced33bdb95f1dc6e7a4a47c9e11674d",
+        "paper_index": 30,
+        "title": "How Commercially Available Virtual Reality-Based Interventions Are Delivered and Reported in Gait, Posture, and Balance Rehabilitation: A Systematic Review.",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare and rehabilitation, specifically focusing on the use of virtual reality technologies in physical rehabilitation, which relates to healthcare professionals' roles and practices. It discusses the implementation of interventions and the involvement of therapists, aligning with the inclusion criteria.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by discussing the role of healthcare professionals in virtual reality-based rehabilitation."
+    },
+    {
+        "paperId": "92dc300fe5e515a962a802abb652614364cd76ff",
+        "paper_index": 31,
+        "title": "VirtualPT: Virtual Reality based Home Care Physiotherapy Rehabilitation for Elderly",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on a virtual reality system for home care physiotherapy aimed at rehabilitating elderly patients, which falls under treatment delivery and therapeutic interventions performed on patients.",
+        "validation": "INVALID",
+        "validation_raw": "Validation: INVALID  \nReason: The justification contradicts the criteria by focusing on treatment delivery, which should be excluded."
+    },
+    {
+        "paperId": "6b0c89d797faf2b490ff6d2516127f7e2ea6c119",
+        "paper_index": 32,
+        "title": "A scoping review of virtual synchronous intervention studies in preschool rehabilitation",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on virtual rehabilitation interventions for preschoolers, which directly addresses treatment delivery and clinical procedures performed on patients, thus falling under the exclusion criteria.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on treatment delivery and clinical procedures, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "8a5ffcbb05795de4571a55974d0c52e5441d86cf",
+        "paper_index": 33,
+        "title": "Self-Powered Wearable Devices Integrated with Virtual Reality Simulation Clinics: A Novel Approach to Healthcare Modernization",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses the use of wearable technology and virtual reality in patient care and rehabilitation, focusing on patient experiences and outcomes, which falls under the exclusion criteria related to patient-facing applications and treatment delivery.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper discusses patient-facing applications, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "f21810bd0ae5f1ec3910b6d9a91c5785eaaf55c9",
+        "paper_index": 34,
+        "title": "Advanced Technology in a Real-World Rehabilitation Setting: Longitudinal Observational Study on Clinician Adoption and Implementation",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the implementation and adoption of advanced technology in a rehabilitation setting, focusing on healthcare professionals' use and management of these technologies, which aligns with the inclusion criteria related to healthcare practice and evidence-based approaches.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and evidence-based approaches."
+    },
+    {
+        "paperId": "6b603b44eb6c279a8bdc6b71dabb9a2722ad22cc",
+        "paper_index": 35,
+        "title": "A game changer Joint Design Journey of PREMS and PROMS in the HOSMARTAI virtual coach study",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on the development and validation of a virtual assistant for patient care, which involves treatment delivery and patient experience, thus falling under the exclusion criteria related to patient-facing applications and treatment interventions.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper falls under the exclusion criteria related to patient-facing applications and treatment interventions."
+    },
+    {
+        "paperId": "745fae2c379cf48b6f739abd969806eb1b441f80",
+        "paper_index": 36,
+        "title": "Effectiveness of Tele-rehabilitation of Upper Extremity Injuries",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on treatment delivery and compares rehabilitation methods, which falls under the exclusion criteria related to evaluating treatment effectiveness and clinical procedures performed on patients.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper evaluates treatment effectiveness, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "6c9f92890206cb21e212c0275f4825c3bfbdb1e7",
+        "paper_index": 37,
+        "title": "Augmented reality for stroke rehabilitation during COVID-19",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on the delivery of a rehabilitation intervention and evaluates patient outcomes, which falls under the exclusion criteria related to treatment delivery and clinical efficacy.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding treatment delivery and clinical efficacy."
+    },
+    {
+        "paperId": "503e1a6423bdfaed97569688c412a27f8e9c26b8",
+        "paper_index": 38,
+        "title": "Telerehabilitation versus traditional rehabilitation of adults with upper-extremity orthopedic conditions: a systematic review",
+        "decision": "EXCLUDE",
+        "justification": "The title indicates a focus on comparing rehabilitation methods, which likely involves treatment delivery and clinical procedures performed on patients, thus falling under the exclusion criteria.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding treatment delivery and clinical procedures."
+    },
+    {
+        "paperId": "cd63cc74f3525ddcd62972fcbbaa40f3968a78e5",
+        "paper_index": 39,
+        "title": "Adaptive Rehabilitation Bots in Serious Games †",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on the development and evaluation of a serious game for telerehabilitation, which involves treatment delivery and patient outcomes, thus falling under the exclusion criteria related to actionable care and clinical efficacy.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on actionable care and clinical efficacy, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "89737a3d51bf15d90602f31dc51fb665679b2273",
+        "paper_index": 40,
+        "title": "AB1354-HPR CURRENT SITUATION OF TRAINING IN RHEUMATOLOGY IN THE POSTGRADUATE CURRICULUMS OF INTERNAL MEDICINE, FAMILY MEDICINE, GERIATRICS, PAIN MEDICINE AND, PHYSICAL AND REHABILITATION MEDICINE ACROSS COLOMBIA",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the training status in rheumatology within various postgraduate medical specialties in Colombia, which relates to professional healthcare practice and education. It also addresses the use of digital resources in the training process, aligning with the inclusion criteria regarding healthcare professionals' use of knowledge and information systems.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare professionals' use of knowledge and information systems."
+    },
+    {
+        "paperId": "b5c341e584ad73af93635300e36b30f3ca8db415",
+        "paper_index": 41,
+        "title": "Patient-Centric Interoperability and Cybersecurity for Cross-Border Healthcare",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses a blockchain system for cross-border healthcare and focuses on patient data management and identity, which does not align with the inclusion criteria related to healthcare professionals' use or application of knowledge in professional contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not align with the inclusion criteria related to healthcare professionals' use or application of knowledge in professional contexts."
+    },
+    {
+        "paperId": "e1358d8574e3ccc9b99179809e2cbc3e2d4d424c",
+        "paper_index": 42,
+        "title": "Clinnova Federated Learning Proof of Concept: Key Takeaways from a Cross-border Collaboration",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the use of artificial intelligence and data science in enhancing healthcare outcomes, specifically in the context of a collaborative initiative aimed at improving patient care for multiple sclerosis, which aligns with the inclusion criteria related to healthcare professionals and digital health technologies.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare professionals and digital health technologies."
+    },
+    {
+        "paperId": "ffa40ae9fa240bed719ee1e41e306e49f1bc36b2",
+        "paper_index": 43,
+        "title": "Medical Data in the Digital Era - Legal Challenges Related to Providing Information Security, Applying GDPR and Respecting the Professional Secrecy",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the challenges of processing medical data in electronic form, focusing on information security and legal regulations in healthcare, which aligns with the inclusion criteria related to healthcare professionals' management and application of information systems.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare professionals' management and application of information systems."
+    },
+    {
+        "paperId": "4028db998473091e626ec59fc54968aa2eb55fdb",
+        "paper_index": 44,
+        "title": "Connecting the Electronic Medical Records in the European Union – Where Do We Stand and Where Does It Go?",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses the integration of eHealth systems and interoperability in the context of patient rights and cross-border healthcare, which does not focus on healthcare professionals' use or application of knowledge or information systems.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not focus on healthcare professionals' use or application of knowledge or information systems, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "57bc7d9375c2be1e0083f3877c0f4ffae913d439",
+        "paper_index": 45,
+        "title": "An overview of Personalized Medicine landscape and policies in the European Union",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses healthcare policies related to Personalized Medicine in the European Union, which aligns with healthcare research and the management of knowledge in professional healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare research and management of knowledge in professional healthcare contexts."
+    },
+    {
+        "paperId": "2c35ae28da5acea1a8f2f95ac9a5d22e1109ef53",
+        "paper_index": 46,
+        "title": "A Review on Exploring the Prospects of Blockchain Technology in the Future",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses blockchain technology's applications in finance and supply chain management, with only a brief mention of potential benefits for healthcare, which does not meet the inclusion criteria focused on healthcare professionals' use or application of knowledge in professional healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not meet the inclusion criteria focused on healthcare applications, which aligns with the decision to exclude it."
+    },
+    {
+        "paperId": "f017d679a8a49dac3f5e395ae7171e1250050ba1",
+        "paper_index": 47,
+        "title": "The challenge of bringing evidence in decision-making for public health emergencies: can preparedness reach out to HTA?",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses evidence-based decision-making in public health, focusing on the use of digital health tools and Health Technology Assessment (HTA) in healthcare contexts, which aligns with the inclusion criteria related to healthcare professionals' use of knowledge and information systems.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare professionals' use of knowledge and information systems."
+    },
+    {
+        "paperId": "a2f7cc1401165058641d1fe01c580e50798ae1be",
+        "paper_index": 48,
+        "title": "Constitutional foundations of cross-border digital healthcare",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses legal regulation and constitutional aspects of digital healthcare, which relates to healthcare professionals' use and management of information systems in healthcare contexts. It also addresses the integration of law and biomedicine, relevant to professional healthcare practice.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the criteria by discussing relevant legal and constitutional aspects of digital healthcare, which supports the inclusion decision."
+    },
+    {
+        "paperId": "0d881553ad69cdef9d4db85bf305e70f32c8b09e",
+        "paper_index": 49,
+        "title": "Implementing a Cross-Border Next-Generation Personal Health Record in the Philippines and Taiwan: An Implementation Case Report Using Health Level 7 International Fast Healthcare Interoperability Resources",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the implementation of a cross-border personal health record system, which relates to healthcare professionals' use of information systems and addresses interoperability in healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the criteria of discussing healthcare information systems and interoperability."
+    },
+    {
+        "paperId": "982dc979717886a13687848d03e74f11bcbbface",
+        "paper_index": 50,
+        "title": "Ensuring Digital Sovereignty in Cross-chain EHR Sharing: A Relay-as-a-Service Approach for Secure Healthcare Interoperability",
+        "decision": "EXCLUDE",
+        "justification": "The title suggests a focus on digital sovereignty and interoperability in electronic health records (EHR), but without an abstract, it is unclear if it pertains to healthcare professionals' use or understanding of knowledge in a professional context, leading to uncertainty.",
+        "validation": "INVALID",
+        "validation_raw": "Validation: INVALID  \nReason: The justification is vague and does not clearly align with specific inclusion or exclusion criteria."
+    },
+    {
+        "paperId": "3e77ce42df11bdfc25cc34e6cc929691d866cd8a",
+        "paper_index": 51,
+        "title": "Interoperability Challenges and Critical Success Factors in the Deployment of Cross-border Digital Medical Prescriptions in Finland and Estonia",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses interoperability challenges and critical success factors related to digital medical prescriptions, which pertains to healthcare systems and the application of digital tools in professional healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification aligns with the criteria by addressing relevant healthcare systems and digital tools in a professional context."
+    },
+    {
+        "paperId": "b9834f320f41d1b9a57052ff1be393795729c470",
+        "paper_index": 52,
+        "title": "Central Banks Digital Currencies for Cross-Border Payments: Interoperability Models and Implementation Possibilities",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses exclusively on central bank digital currencies and cross-border payments, which are non-healthcare domains without clear relevance to healthcare practice.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper is focused on non-healthcare domains, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "39e903f23d119f2813ab58aac6b2e81b91a57236",
+        "paper_index": 53,
+        "title": "Considerations for trustworthy cross-border interoperability of digital identity systems in developing countries",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses on digital identity systems and interoperability in developing countries, which does not directly relate to healthcare professionals' use of knowledge or information within professional healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not relate to healthcare professionals' use of knowledge or information within professional healthcare contexts, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "b56861059faf65c0791522edcc2f0f6dc2388990",
+        "paper_index": 54,
+        "title": "A review on governance principles of cross-border Central Bank digital currency interoperability: A case study of Project Dunbar",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses exclusively on central bank digital currency interoperability, which is a non-healthcare domain and does not relate to healthcare practice or professionals.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper is outside the healthcare domain, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "b6876d7a6ca88a21c576eac6bbba96f507c7d0ea",
+        "paper_index": 55,
+        "title": "Estonia's digital diplomacy: Nordic interoperability and the challenges of cross-border e-governance",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses on digital diplomacy and e-governance, which are non-healthcare domains without clear relevance to healthcare practice.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper's focus is on non-healthcare domains, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "dcbfbe5d437db52a56fe93e65a0d1ecde5b0c03d",
+        "paper_index": 56,
+        "title": "Exploring Cross-Border Digital Assets Flows and Central Bank Digital Currency Risks to Capital Markets Financial Stability",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses exclusively on financial markets and digital assets without clear relevance to healthcare practice, thus falling outside the inclusion criteria.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper's focus on financial markets and digital assets does not align with the healthcare practice inclusion criteria."
+    },
+    {
+        "paperId": "0e98cfa75629c56b11d9ec0b2bf1b13d2fed71ac",
+        "paper_index": 57,
+        "title": "A more inclusive Europe through personal data sovereignty in cross-border digital public services",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses on cross-border digital public services and personal data governance, which does not relate to healthcare professionals' use of knowledge or information within professional healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not relate to healthcare professionals' use of knowledge or information within professional healthcare contexts, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "7d2ccb3ad42fd8cec4649874674be302921dae5a",
+        "paper_index": 58,
+        "title": "Digital Public Service Improvement in Cross-Border Use Cases",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses on digital public service improvement and cross-border service provision without clear relevance to healthcare practice or the use of knowledge in professional healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states the lack of relevance to healthcare practice, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "105b314c14af32d3328b847a1273b4094d19bc2a",
+        "paper_index": 59,
+        "title": "Towards Digital Money Interoperability: Data Governance Coordination for Cross-Border Payments",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses exclusively on digital money interoperability and cross-border payments, which are non-healthcare domains without clear relevance to healthcare practice.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper is focused on non-healthcare domains, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "ebfc51e30fc4b2157d755f203be0dbcaffbd55e1",
+        "paper_index": 60,
+        "title": "Towards cross-border CBDC interoperability: insights from a multivocal literature review",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses exclusively on Central Bank Digital Currencies (CBDCs) and their interoperability in the financial system, which does not have clear relevance to healthcare practice or the use of knowledge in professional healthcare contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper's focus on CBDCs and their interoperability lacks relevance to healthcare practice, aligning with the exclusion criteria."
+    }
+]

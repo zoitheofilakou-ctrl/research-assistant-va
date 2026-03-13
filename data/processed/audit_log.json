@@ -1,0 +1,338 @@
+[
+    {
+        "timestamp": "2026-03-13T14:39:57.956008",
+        "paperId": "2f06cdba66b60003ceb92579cef8ce8f3058940b",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:01.644523",
+        "paperId": "169316c86726d0d48fd3cee927cf25197c2eb74c",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:05.372421",
+        "paperId": "f86bbf1f6be39fe5c3fc8373e832b16bd828a405",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:07.569633",
+        "paperId": "5f1a24be097954cb8a5ca1bee1a12a45a460bf04",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:10.853791",
+        "paperId": "bb133c9343bfc2f2788f16c32f09c94acdab5a06",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:13.908358",
+        "paperId": "8ba8ed724bdf25a39aed605132a92ac0773c9a82",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:17.870806",
+        "paperId": "4ad09107c87cf61ebe5187f1419d69e7b89b0331",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:20.926788",
+        "paperId": "b1a1948e5b8ec9b431fa98a2960f5cbd1715cd80",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:23.888982",
+        "paperId": "d339c190259035de7d11ebb8965c4f613618f2ea",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:27.345195",
+        "paperId": "f7dd443c4920fd1a247d6ef479e0de42308ac219",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:32.754609",
+        "paperId": "59dcc110966f5f099e9eb6fd05768673a8791134",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:35.747824",
+        "paperId": "b7173949b349921d7d31536ce28b91071e272b2c",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:38.326646",
+        "paperId": "c624607d09dc1e4807381b72ed5178c0436cfe1b",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:41.054734",
+        "paperId": "49bbb4bb4c1a086d721223c121669ef2e791f104",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:44.108844",
+        "paperId": "dc3d01368bf4a77f61ac1b4e040e431a5c0977e0",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:47.086319",
+        "paperId": "e7e8de3fd7dbc1fa0effa103506429264ce24cab",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:49.778086",
+        "paperId": "f2c42c77b77854d9d2ecf720e70b058123d66a12",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:52.011557",
+        "paperId": "58444ef0794b7aeb9117156a5c97c6abc7c08ca2",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:55.572558",
+        "paperId": "cc2ad19bf5420b740d14a66a97420b7a6a5e63ec",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:40:59.839929",
+        "paperId": "1c2839342040239c38dee193ef744738be7d1af3",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:02.560106",
+        "paperId": "6b6a84f2f1fa59cf319010480d11b662a073f480",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:04.726964",
+        "paperId": "c16054d5b08bc0e985260bb6249c93e859a98870",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:07.700899",
+        "paperId": "c537d74696ffca16c972338995197fe170b68d6d",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:09.968507",
+        "paperId": "0db6d1abdb489605995ccb4ccc9696df0e3dac90",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:14.607629",
+        "paperId": "5e7acca5078a701ca17a9b45175a08598de6b418",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:17.108502",
+        "paperId": "8a0e01337e28e68f36241b4dd1f5185804bceedb",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:19.325686",
+        "paperId": "4b5c53bd47f73c9e67e0438b7233074b30049eed",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:22.019568",
+        "paperId": "2e38487ceced33bdb95f1dc6e7a4a47c9e11674d",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:26.366836",
+        "paperId": "6b0c89d797faf2b490ff6d2516127f7e2ea6c119",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:28.848553",
+        "paperId": "8a5ffcbb05795de4571a55974d0c52e5441d86cf",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:30.956776",
+        "paperId": "f21810bd0ae5f1ec3910b6d9a91c5785eaaf55c9",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:33.295193",
+        "paperId": "6b603b44eb6c279a8bdc6b71dabb9a2722ad22cc",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:35.813557",
+        "paperId": "745fae2c379cf48b6f739abd969806eb1b441f80",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:38.251192",
+        "paperId": "6c9f92890206cb21e212c0275f4825c3bfbdb1e7",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:40.297343",
+        "paperId": "503e1a6423bdfaed97569688c412a27f8e9c26b8",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:42.731840",
+        "paperId": "cd63cc74f3525ddcd62972fcbbaa40f3968a78e5",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:45.560873",
+        "paperId": "89737a3d51bf15d90602f31dc51fb665679b2273",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:48.318405",
+        "paperId": "b5c341e584ad73af93635300e36b30f3ca8db415",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:53.192671",
+        "paperId": "e1358d8574e3ccc9b99179809e2cbc3e2d4d424c",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:55.210076",
+        "paperId": "ffa40ae9fa240bed719ee1e41e306e49f1bc36b2",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:41:57.655851",
+        "paperId": "4028db998473091e626ec59fc54968aa2eb55fdb",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:00.155901",
+        "paperId": "57bc7d9375c2be1e0083f3877c0f4ffae913d439",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:02.584149",
+        "paperId": "2c35ae28da5acea1a8f2f95ac9a5d22e1109ef53",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:04.916976",
+        "paperId": "f017d679a8a49dac3f5e395ae7171e1250050ba1",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:07.811226",
+        "paperId": "a2f7cc1401165058641d1fe01c580e50798ae1be",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:10.260733",
+        "paperId": "0d881553ad69cdef9d4db85bf305e70f32c8b09e",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:15.700832",
+        "paperId": "3e77ce42df11bdfc25cc34e6cc929691d866cd8a",
+        "decision": "INCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:18.091872",
+        "paperId": "b9834f320f41d1b9a57052ff1be393795729c470",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:20.482709",
+        "paperId": "39e903f23d119f2813ab58aac6b2e81b91a57236",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:22.434689",
+        "paperId": "b56861059faf65c0791522edcc2f0f6dc2388990",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:24.494955",
+        "paperId": "b6876d7a6ca88a21c576eac6bbba96f507c7d0ea",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:26.525002",
+        "paperId": "dcbfbe5d437db52a56fe93e65a0d1ecde5b0c03d",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:28.719919",
+        "paperId": "0e98cfa75629c56b11d9ec0b2bf1b13d2fed71ac",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:31.201398",
+        "paperId": "7d2ccb3ad42fd8cec4649874674be302921dae5a",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:33.665970",
+        "paperId": "105b314c14af32d3328b847a1273b4094d19bc2a",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    },
+    {
+        "timestamp": "2026-03-13T14:42:35.965139",
+        "paperId": "ebfc51e30fc4b2157d755f203be0dbcaffbd55e1",
+        "decision": "EXCLUDE",
+        "validation": "VALID"
+    }
+]
