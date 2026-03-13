@@ -25,24 +25,24 @@ def _build_prompt(user_query: str, context_text: str, answer_template: str, outp
     if answer_template == "structured":
         base_system += """
 
-Use this structure:
-1) Summary of the relevant topic (2-4 sentences)
-2) Key findings (3-6 bullet points)
-3) Limitations / gaps
-4) Practical implications
-5) Citations used"""
+        Use this structure:
+        1) Summary of the relevant topic (2-4 sentences)
+        2) Key findings (3-6 bullet points)
+        3) Limitations / gaps
+        4) Practical implications 
+        5) Citations used"""
 
     if output_mode == "json":
         base_system += """
 
-Return ONLY valid JSON with this schema:
-{
-  "summary": "string",
-  "key_findings": ["string"],
-  "limitations": ["string"],
-  "practical_implications": ["string"],
-  "citations_used": ["[Paper N]"]
-}"""
+        Return ONLY valid JSON with this schema:
+        {
+        "summary": "string",
+        "key_findings": ["string"],
+        "limitations": ["string"],
+        "practical_implications": ["string"],
+        "citations_used": ["[Paper N]"]
+        }"""
 
     prompt = f"""Question: {user_query}
 
