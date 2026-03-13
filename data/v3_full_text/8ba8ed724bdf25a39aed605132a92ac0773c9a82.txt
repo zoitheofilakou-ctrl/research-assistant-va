@@ -1061,236 +1061,23 @@ and help improve the format and function of re- o
 requirements of healthcare professionals and patients. The m
 © Author(s) (or their resource presents condition- specific ‘1- minute’, ‘5- minute’ sources to better support conversations on physical o
 n
-employer(s)) 2022. Re- use and ‘more minute’ person- centred and evidence- based activity in the management of long term conditions. 2
-permitted under CC BY- NC. No conversation templates on physical activity in an accessible ⇒ Comprehensive evaluation is required of system- 4 F
-commercial re-u se. See rights e
-F
-a
-B
-o
-n
-M
-r
-d
-J
-n
-p
-.
+employer(s)) 2022. Re- use and ‘more minute’ person- centred and evidence- based activity in the management of long term conditions. 1
+permitted under CC BY- NC. No conversation templates on physical activity in an accessible ⇒ Comprehensive evaluation is required of system- 3 M
+c a o n m d m pe e r r m ci i a s l s i r o e n -u s . s P e. u S bl e is e h r e ig d h b ts y and usable format to meet the needs of real- life clinical wide implementation projects to understand how a rc
+BMJ. practice.
+to use these resources to improve continuity and h
+2
+support people as they journey through healthcare 0 2
+For numbered affiliations see 6
+end of article.
+services in their long- term management of health
+b y
+conditions. g
 u
 e
-m
-rm
-be
-is
-r
-s
-e
-i
-d
-o n
-a
-s
-f
-.
-fi
-P
-lia
-u
-t
-b
-io
-li
-n
-sh
-s
-e
-s
-d
-e e
-b y a
-p
-n
-ra
-d
-c
-u
-tic
-sa
-e
-b
-.
-le format to meet the needs of real- life clinical w
-t
-s
-s
-o
-u
-e
-i
-r
-d
-p
-u
-v
-e
-p
-i
-s
-c
-o
-e
-e
-i
-r
-m
-t
-s
-t h
-p
-p
-i
-e
-e
-l
-n
-e
-s
-o
-m
-e
-t
-p
-h
-l
-e
-e
-e
-r
-n
-e
-ir
-t
-a
-s
-a
-s
-o
-l
-t
-o
-u
-io
-t
-n
-r
-h
-n
-c
-g
-e
-e
--
-y
-p
-t
-s
-e
-r
-j
-r
-o
-o
-t
-m
-o
-j
-u
-e
-r
-c
-i
-n
-m
-m
-t
-e
-s
-a
-p
-y
-n
-r
-to
-t
-o
-a
-h
-v
-g
-r
-e
-u
-e
-o
-n
-m
-u
-c
-d
-g
-o
-e
-e
-h
-n
-n
-r s
-t
-t
-h
-i
-t
-n
-e
-a
-o
-u
-a
-n
-f
-i
-l
-d
-t
-t
-h
-y
-h
-e
-c
-h
-a
-a
-a
-o
-l
-n
-r
-t
-w
-h
-d
-e
-b ru
-a ry
-2 0 2
-end of article. 6
-conditions. b
-y
-g
-INTRODUCTION inactivity and the role of therapeutic phys- u
-Correspondence to e
-Dr Hamish Reid; A strong and rapidly developing body of ical activity in treating chronic medical s t.
+INTRODUCTION inactivity and the role of therapeutic phys- s
+Correspondence to t.
+Dr Hamish Reid; A strong and rapidly developing body of ical activity in treating chronic medical
 h. reid@ shu. ac. uk evidence defines the health risks of physical conditions.1–3 The WHO recognises physical
 Reid H, et al. BMJ Open Sp Ex Med 2022;8:e001280. doi:10.1136/bmjsem-2021-001280 1
 Open access
@@ -2565,14 +2352,12 @@ o
 m
 o
 n
-2
-4
-F
-e
-b
-ru
+1
+3
+M
 a
-ry
+rc
+h
 2
 0
 2
@@ -4090,23 +3875,22 @@ o
 m
 reflected the development priorities outlined during the mended by the Delphi group. The groups were:
 o
-preparatory phase. Three clinicians not involved in the ► An academic external validation group appointed n 2
-4
+preparatory phase. Three clinicians not involved in the ► An academic external validation group appointed n 1
+3
 study piloted the survey before distribution to ensure through the Moving Medicine initiative.
-F
-usability by testing the structure and wording.28 39 We ► Funding and commissioning bodies at the Faculty e b
-ru
-kept the completion time target below 30 min to reduce of Sport and Exercise Medicine, Sport England and a
-participant fatigue.40 Public Health England.
-ry
+M
+usability by testing the structure and wording.28 39 We ► Funding and commissioning bodies at the Faculty a rc
+h
+kept the completion time target below 30 min to reduce of Sport and Exercise Medicine, Sport England and
 2
-0
-► Collaborating professional bodies including the 2 6
-Participant recruitment Royal College of Physicians, Royal College of Nurses, b y
-g
-We formed an expert panel by purposive sample to Royal College of General Practitioners, Chartered u
+participant fatigue.40 Public Health England. 0 2
+6
+► Collaborating professional bodies including the b y
+Participant recruitment Royal College of Physicians, Royal College of Nurses, g u
 e
-generate a deliberately heterogeneous group of multidis- Society of Physiotherapists, Academy of Medical s t.
+We formed an expert panel by purposive sample to Royal College of General Practitioners, Chartered s
+t.
+generate a deliberately heterogeneous group of multidis- Society of Physiotherapists, Academy of Medical
 ciplinary participants with expertise covering healthcare, Royal Colleges, the British Association of Sport and
 Reid H, et al. BMJ Open Sp Ex Med 2022;8:e001280. doi:10.1136/bmjsem-2021-001280 3
 Open access
@@ -4724,14 +4508,12 @@ o
 m
 o
 n
-2
-4
-F
-e
-b
-ru
+1
+3
+M
 a
-ry
+rc
+h
 2
 0
 2
@@ -5723,21 +5505,19 @@ o
 Specifically, healthcare professionals and patients perceive 150 min of moderate- intensity activity per week m
 as an unnecessary barrier to conversations with inactive people. o
 n
-Developing a mechanism to support A person- centred approach to physical activity decision making is considered fundamental by clinicians 2 4
-access to knowledge in routine clinical and patients. However, clinicians lack confidence in achieving this. Both clinicians and patients recommend F
-care explicit guidance on how to approach person- centred decision making in behavioural change conversations. e b
-ru
-Disease- specific infographics were presented as a potential solution. Workshop participants unanimously a
-ry
-agreed that flat infographics would not deliver the complexity of information healthcare professionals and
-2
-patients require in clinical practice to support physical activity conversations. 0
-2
-6
-A resource must be flexible enough to be helpful in both a short or long period of time. b
+Developing a mechanism to support A person- centred approach to physical activity decision making is considered fundamental by clinicians 1 3
+access to knowledge in routine clinical and patients. However, clinicians lack confidence in achieving this. Both clinicians and patients recommend M
+care explicit guidance on how to approach person- centred decision making in behavioural change conversations. a rc
+h
+Disease- specific infographics were presented as a potential solution. Workshop participants unanimously 2
+agreed that flat infographics would not deliver the complexity of information healthcare professionals and 0 2
+patients require in clinical practice to support physical activity conversations. 6
+b
 y
-To support conversations in practice, suggested responses to help address common concerns, such as the g u
-risks of physical activity, are helpful. e s
+A resource must be flexible enough to be helpful in both a short or long period of time. g
+u
+To support conversations in practice, suggested responses to help address common concerns, such as the e s
+risks of physical activity, are helpful.
 t.
 The internet provides an accessible, acceptable and feasible route of delivery.
 Reid H, et al. BMJ Open Sp Ex Med 2022;8:e001280. doi:10.1136/bmjsem-2021-001280 5
@@ -6707,14 +6487,12 @@ o
 m
 o
 n
-2
-4
-F
-e
-b
-ru
+1
+3
+M
 a
-ry
+rc
+h
 2
 0
 2
@@ -7836,20 +7614,22 @@ o
 m
 ► Inclusion of a pop-u p for out- of- date browsers advising format to bridge the gap between evidence and clinical o
 n
-software update and optimisation for mobile devices practice. 2
-4
-to make usage less reliant on National Health Service F
-e
-(NHS) IT infrastructure. Codesign b ru
-Despite convincing evidence and numerous national a
-ry
-Delphi round 2 guidelines defining the vital role of physical activity 2
+software update and optimisation for mobile devices practice. 1
+3
+to make usage less reliant on National Health Service M
+(NHS) IT infrastructure. Codesign a rc
+h
+Despite convincing evidence and numerous national
+2
 0
-We built a draft website incorporating recommendations across UK healthcare,1–3 11 21 43–45 the translation of knowl- 2 6
-from round 1 for testing in round 2 of the Delphi (see edge from research to clinical practice remains limited b y
-figure 5). across professional disciplines.14–18 21 46 To address this, we g u
-e
-Reflecting the high levels of consensus in round 1 of employed codesign principles, which ‘offers the chance s t.
+Delphi round 2 guidelines defining the vital role of physical activity 2
+6
+We built a draft website incorporating recommendations across UK healthcare,1–3 11 21 43–45 the translation of knowl- b
+y
+from round 1 for testing in round 2 of the Delphi (see edge from research to clinical practice remains limited g u
+figure 5). across professional disciplines.14–18 21 46 To address this, we e s
+t.
+Reflecting the high levels of consensus in round 1 of employed codesign principles, which ‘offers the chance
 the Delphi (table 5), we dropped 10 questions for the for clinicians to reconsider the purposes of medicine and
 Reid H, et al. BMJ Open Sp Ex Med 2022;8:e001280. doi:10.1136/bmjsem-2021-001280 7
 Open access
@@ -8690,25 +8470,24 @@ m
 prescription
 o
 n
-21 ‘General Practice, the local social prescribing network, and 83 Yes No 77 Yes 2
-4
-county sports partnerships’ are important organisations to F
-signpost for further support e b
-ru
-22 Do you have any suggestions for other national physical Freetext response a
-activity providers or resources we should signpost?
-ry
+21 ‘General Practice, the local social prescribing network, and 83 Yes No 77 Yes 1
+3
+county sports partnerships’ are important organisations to M
+signpost for further support a
+rc
+h
+22 Do you have any suggestions for other national physical Freetext response
 2
-0
-23 Please arrange the following by the importance of including Free- text response 2
+activity providers or resources we should signpost? 0 2
 6
-them in a patient information leaflet – drag and drop each b
+23 Please arrange the following by the importance of including Free- text response b
 y
-component to your preferred position g
+them in a patient information leaflet – drag and drop each g
 u
-e
-Continued s
+component to your preferred position e
+s
 t.
+Continued
 8 Reid H, et al. BMJ Open Sp Ex Med 2022;8:e001280. doi:10.1136/bmjsem-2021-001280
 Open access
 Table 5 Continued
@@ -9147,14 +8926,12 @@ o
 m
 o
 n
-2
-4
-F
-e
-b
-ru
+1
+3
+M
 a
-ry
+rc
+h
 2
 0
 2
@@ -10825,20 +10602,22 @@ j.c
 o
 m
 The Delphi group reinforced the importance of knowledge around physical activity and low confidence o
-getting the wording right for a conversation guide to in behaviour change skills as fundamental challenges for n 2
-4
-move away from a ‘telling’ language style and meet the healthcare professionals. Addressing these requirements, F
+getting the wording right for a conversation guide to in behaviour change skills as fundamental challenges for n 1
+3
+move away from a ‘telling’ language style and meet the healthcare professionals. Addressing these requirements, M
+healthcare requirements identified in the consultation the Delphi phase led to the development of a resource a rc
+h
+phase. A traditional didactic style of consultation runs
+offering ‘1- minute’, ‘5- minute’ and ‘more minute’ person- 2
+0
+the risk of ‘victim blaming’ and fails to support successful centred and evidence- based conversation templates for 2 6
+behavioural change.48 This shift in approach can also b
+healthcare professionals. The resource is now freely avail- y
+help healthcare practitioners foster supportive rela- able online at www.movingmedicine.ac.uk. g u
 e
-healthcare requirements identified in the consultation the Delphi phase led to the development of a resource b ru
-phase. A traditional didactic style of consultation runs a
-offering ‘1- minute’, ‘5- minute’ and ‘more minute’ person- ry
-the risk of ‘victim blaming’ and fails to support successful centred and evidence- based conversation templates for 2 0
-behavioural change.48 This shift in approach can also healthcare professionals. The resource is now freely avail- 2 6
-help healthcare practitioners foster supportive rela- able online at www.movingmedicine.ac.uk. b y
-g
-tionships and facilitate improvements in care delivery, u
-e
-benefitting users outside the realm of conversations on Author affiliations s t.
+tionships and facilitate improvements in care delivery, s
+t.
+benefitting users outside the realm of conversations on Author affiliations
 physical activity.57 1Moving Medicine, Faculty of Sport And Exercise Medicine, Edinburgh, UK
 10 Reid H, et al. BMJ Open Sp Ex Med 2022;8:e001280. doi:10.1136/bmjsem-2021-001280
 Open access
@@ -13713,230 +13492,225 @@ g
 t
 .
 o
-2 4
-F
-otherwise. e
-the effectiveness of physical activity counselling in primary care: a b
-Open access This is an open access article distributed in accordance with the realist systematic review. Patient Educ Couns 2015;98:412–9.
-ru
-a
-Creative Commons Attribution Non Commercial (CC BY- NC 4.0) license, which
-23 Hébert ET, Caughy MO, Shuval K. Primary care providers' ry
+1 3
+M
+otherwise. the effectiveness of physical activity counselling in primary care: a a rc
+Open access This is an open access article distributed in accordance with the realist systematic review. Patient Educ Couns 2015;98:412–9. h
+23 Hébert ET, Caughy MO, Shuval K. Primary care providers' 2
+Creative Commons Attribution Non Commercial (CC BY- NC 4.0) license, which 0
 perceptions of physical activity counselling in a clinical setting: a 2
-permits others to distribute, remix, adapt, build upon this work non-c ommercially, 0
-systematic review. Br J Sports Med 2012;46:625–31. 2
-and license their derivative works on different terms, provided the original work is 6
-24 Albert FA, Crowe MJ, Malau- Aduli AEO, et al. Physical activity
-b
+permits others to distribute, remix, adapt, build upon this work non-c ommercially, 6
+systematic review. Br J Sports Med 2012;46:625–31. b
+a
 p
-u
-r
-s
-o
-e
-p
-i
-e
-s
-r
 n
-ly
-o
-c
-n
-i
--
-t
-c
-e
-o
+ro
 d
-m
-, a
-m
-pp
-e
-r
-r
-o
-ci
 p
-a
-r
 l
+e
+ic
+rl
+e
+y
+n
+c
+s
 i
-.
-a
-S
+e
 te
-e e
-c
-:
-r e
+t
+d
 h
-d
-tt
-i
-p
-t
-:
-i
-/
-s
-/ c
-g
-r
-i
+,
 e
+a
+ir
+p
+d
+p
+e
+ro
+ri
+p
 v
-a
-e
-t
-n
-iv
-,
-e
-a
-c
-n
-o
-y
-m
-c
-m
-ha
-o
-n
-n
-g
-s
-e
-.o
-s
 r
-m
-g/
 a
-li
-d
-c
-e
-e n
-in
-se
-d
-s
-ic
-/
-a
-b
-t
-y
-e
--
-d
-n
-,
-c
-a
-/4
-n
-.
-d
-0 /
-t
-.
-he p
-p
-r
-r
-o
-o
-m
-fes
-o
-s
+ia
 ti
-i
-o
-o
-n
-n
-:
-a
-a
-ls .
-s y
-In
-s
-t
-t e
-J
-m
-E
-a
-n
 t
 v
-ic
-ir o
-re
-n
-v
-R
-ie
 e
+e
+c
 w
-s
+re
 o
-P
-f
-u
-t
-b
+d
+rk
+it
+s
+i s
+o n
+g i
+d
+ve
+if
+n
+fe
+,
+r
+a
+e
+n
+n
+y
+t t
+c
+e
 h
+r
+a
+m
+n
+s
+g
+,
+e
+p
+s
+r o
+m
+v
+a
+id
+d
+e
+e
+d
+i n
+th
+d
+e
+ic
+o
+a
+r
+t
+i
+e
+g
+d
+in
+,
+a
+a
+l
+n
+w
+d
+o
+th
+rk
+e
+is 24 A
+pr
+lb
+o
+e
+m
+rt
+o t
+F
+i
+A
+on
+,
+:
+C
+a
+r o
+s
+w
+ys
+e
+t e
+M
+m
+J
+a
+,
+t
+M
+ic
+a
+r
 l
 e
-ic
+a
+v
+u
+i
+-
+e
+A
+w
+d u
+o
+l
+f
+i
+t
+A
+h
+E
+e
+O
 p
-H
+,
 e
 e
 rc
-a
+t
 e
-lt
+a
 p
+l.
+t
+P
+io
 h
-t i
-2
-o
-0
 n
-2
+y
 s
-0
+s
 o
-;1
+ic
 f
-7
-h
-:
-e
-1
 a
-–
+h
 l
-3
-th
-6
-c
-.
-are y
-g u
 e
-25 van C, McInerney P, Cooke R. Patients' involvement in improvement s
-ORCID iD initiatives: a qualitative systematic review. JBI Database System Rev t.
+a
+a
+c
+l
+t
+t
+i
+h
+v
+c
+it
+a
+y
+r e
+y
+g u
+use is non-c ommercial. See: http://creativecommons.org/licenses/by-nc/4.0/. professionals. Int J Environ Res Public Health 2020;17:1–36. e s
+25 van C, McInerney P, Cooke R. Patients' involvement in improvement
+t.
+ORCID iD initiatives: a qualitative systematic review. JBI Database System Rev
 Hamish Reid http://orcid.org/0000-0003-2094-5506 Implement Rep 2015;13:232–90.
 Reid H, et al. BMJ Open Sp Ex Med 2022;8:e001280. doi:10.1136/bmjsem-2021-001280 11
 Open access
@@ -16099,14 +15873,12 @@ o
 m
 o
 n
-2
-4
-F
-e
-b
-ru
+1
+3
+M
 a
-ry
+rc
+h
 2
 0
 2

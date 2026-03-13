@@ -1,78 +1,100 @@
-import pdfplumber
 import os
 import json
-import re
+import pdfplumber
+from rapidfuzz import process, fuzz
 
 # ROLE: Data Acquisition Group
-# PURPOSE: Enhanced extraction with fuzzy title matching to reduce "Skipping" errors.
+# PURPOSE: Convert validated PDFs to machine-readable text with paperId naming
+# NOTE: This script must be run from within the 'data_acquisition' folder.
 
-def clean_string(s):
+def extract_text_from_pdfs(
+    metadata_file="../data/hybrede_metadata_v3.json", 
+    pdf_folder="../data/harvested_pdfs", 
+    output_folder="../data/v3_full_text"
+):
     """
-    Removes all non-alphanumeric characters and converts to lowercase.
-    This helps match "HR1 Robot: Assistant" with "HR1 Robot Assistant".
+    Reads PDFs from data/harvested_pdfs and extracts text to data/v3_full_text 
+    named by their unique paperId from metadata.
     """
-    return re.sub(r'[^a-zA-Z0-9]', '', str(s)).lower()
-
-def extract_text_from_pdfs(metadata_file="hybrede_metadata_v3.json", pdf_folder="harvested_pdfs", output_folder="processed_text"):
-    if not os.path.exists(metadata_file):
-        print(f"[!] Error: Metadata file {metadata_file} not found.")
+    # Step 0: Robustness Check - ensure folders exist as per team feedback
+    if not os.path.exists(pdf_folder):
+        print(f"[!] Error: PDF folder '{pdf_folder}' not found. Please run PDFscraper.py first.")
         return
 
-    # Load metadata and build a "Cleaned Title -> paperId" map.
-    with open(metadata_file, 'r', encoding='utf-8') as f:
-        metadata = json.load(f)
-    
-    # We use the clean_string function to create a robust lookup table.
-    title_to_id = {
-        clean_string(item.get('title', '')): item.get('paperId') 
-        for item in metadata if item.get('paperId')
-    }
+    if not os.path.exists(metadata_file):
+        print(f"[!] Error: Metadata file '{metadata_file}' not found.")
+        return
 
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
+        print(f"[*] Created output directory: {output_folder}")
 
+    # Load metadata for ID mapping
+    try:
+        with open(metadata_file, 'r', encoding='utf-8') as f:
+            metadata = json.load(f)
+    except Exception as e:
+        print(f"[!] Error reading metadata: {e}")
+        return
+
+    # Create a mapping of safe title to paperId
+    id_map = {}
+    for item in metadata:
+        title = item.get('title', '')
+        paper_id = item.get('paperId', '')
+        if title and paper_id:
+            # Recreate the safe filename used in PDFscraper.py
+            safe_title = "".join(c for c in title if c.isalnum() or c in (' ', '-', '_')).rstrip()
+            id_map[safe_title] = paper_id
+
+    # Process PDFs
     pdf_files = [f for f in os.listdir(pdf_folder) if f.endswith('.pdf')]
-    print(f"[*] Found {len(pdf_files)} PDFs. Attempting robust matching...")
+    print(f"[*] Found {len(pdf_files)} PDFs in {pdf_folder}. Starting extraction...")
+    print("=" * 50)
 
     success_count = 0
     fail_count = 0
 
-    for pdf_file in pdf_files:
-        pdf_path = os.path.join(pdf_folder, pdf_file)
+    for pdf_name in pdf_files:
+        pdf_path = os.path.join(pdf_folder, pdf_name)
+        base_name = os.path.splitext(pdf_name)[0]
+
+        # Use fuzzy matching to find the correct paperId
+        match_result = process.extractOne(base_name, id_map.keys(), scorer=fuzz.token_set_ratio)
         
-        # Clean the filename (without extension) for a more flexible match.
-        filename_cleaned = clean_string(os.path.splitext(pdf_file)[0])
-        paper_id = title_to_id.get(filename_cleaned)
-
-        if not paper_id:
-            print(f"[!] Skipping: Could not match '{pdf_file}' to any ID in metadata.")
-            fail_count += 1
-            continue
-
-        text_filename = f"{paper_id}.txt"
-        text_path = os.path.join(output_folder, text_filename)
-
-        try:
-            full_text = []
-            with pdfplumber.open(pdf_path) as pdf:
-                for page in pdf.pages:
-                    content = page.extract_text()
-                    if content:
-                        full_text.append(content)
+        if match_result and match_result[1] > 80:  # 80% similarity threshold
+            best_match_title = match_result[0]
+            paper_id = id_map[best_match_title]
+            output_path = os.path.join(output_folder, f"{paper_id}.txt")
             
-            if full_text:
-                with open(text_path, 'w', encoding='utf-8') as f:
-                    f.write("\n".join(full_text))
-                print(f"[+] Success: {pdf_file} -> {text_filename}")
+            try:
+                with pdfplumber.open(pdf_path) as pdf:
+                    text_content = []
+                    for page in pdf.pages:
+                        page_text = page.extract_text()
+                        if page_text:
+                            text_content.append(page_text)
+                    
+                    full_text = "\n".join(text_content)
+                    
+                    with open(output_path, 'w', encoding='utf-8') as f:
+                        f.write(full_text)
+                    
+                print(f"[+] Extracted: {pdf_name} -> {paper_id}.txt")
                 success_count += 1
-            else:
-                print(f"[!] Warning: No text found in {pdf_file}")
+            except Exception as e:
+                print(f"[!] Failed to process {pdf_name}: {e}")
+                fail_count += 1
+        else:
+            print(f"[?] No metadata match found for: {pdf_name}")
+            fail_count += 1
 
-        except Exception as e:
-            # Handles "No /Root object" or corrupted PDF errors.
-            print(f"[!] Error processing {pdf_file}: {e}")
-
-    print(f"\n[*] Processing Complete: {success_count} succeeded, {fail_count} skipped.")
+    print("=" * 50)
+    print(f"EXTRACTION SUMMARY:")
+    print(f"- Files successfully processed: {success_count}")
+    print(f"- Files failed/skipped: {fail_count}")
+    print(f"- Output location: {output_folder}")
 
 if __name__ == "__main__":
+    # Default paths for execution inside 'data_acquisition/'
     extract_text_from_pdfs()

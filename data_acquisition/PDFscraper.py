@@ -10,6 +10,7 @@ DetectorFactory.seed = 0
 
 # ROLE: Data Acquisition Group
 # PURPOSE: Automated Full-text PDF Harvesting with Integrated Validation (HTML, Integrity, and Language)
+# NOTE: This script is intended to be run from within the 'data_acquisition' folder.
 
 def is_valid_pdf(file_path):
     """
@@ -45,10 +46,17 @@ def is_valid_pdf(file_path):
     except Exception as e:
         return False, f"Integrity check failed: {e}"
 
-def download_paper_pdfs(json_file_path, output_folder="harvested_pdfs"):
+def download_paper_pdfs(json_file_path="../data/hybrede_metadata_v3.json", output_folder="../data/harvested_pdfs"):
     """
-    Reads metadata, downloads PDFs, and automatically removes invalid files.
+    Reads metadata from ../data, downloads PDFs, and saves them to ../data/harvested_pdfs.
     """
+    # Check if metadata exists before starting
+    if not os.path.exists(json_file_path):
+        print(f"[!] Error: Metadata file '{json_file_path}' not found.")
+        print("[*] Tip: Make sure you are running this script from the 'data_acquisition' folder.")
+        return
+
+    # Create output directory inside data folder if it doesn't exist
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
         print(f"[*] Created directory: {output_folder}")
@@ -56,8 +64,8 @@ def download_paper_pdfs(json_file_path, output_folder="harvested_pdfs"):
     try:
         with open(json_file_path, 'r', encoding='utf-8') as f:
             papers = json.load(f)
-    except FileNotFoundError:
-        print(f"[!] Error: {json_file_path} not found.")
+    except Exception as e:
+        print(f"[!] Error reading JSON: {e}")
         return
 
     print(f"[*] Processing {len(papers)} papers from metadata...")
@@ -78,6 +86,12 @@ def download_paper_pdfs(json_file_path, output_folder="harvested_pdfs"):
         safe_title = "".join(c for c in title if c.isalnum() or c in (' ', '-', '_')).rstrip()
         file_path = os.path.join(output_folder, f"{safe_title}.pdf")
 
+        # Skip if file already exists to save time/bandwidth
+        if os.path.exists(file_path):
+            print(f"[-] Already exists: {safe_title}.pdf")
+            downloaded_count += 1
+            continue
+
         try:
             print(f"[*] Downloading: {title}...")
             headers = {'User-Agent': 'Mozilla/5.0'}
@@ -94,7 +108,8 @@ def download_paper_pdfs(json_file_path, output_folder="harvested_pdfs"):
                     downloaded_count += 1
                 else:
                     print(f"[!] Removing Invalid File: {message}")
-                    os.remove(file_path)
+                    if os.path.exists(file_path):
+                        os.remove(file_path)
                     cleaned_count += 1
             else:
                 print(f"[!] Download Failed (Status {response.status_code})")
@@ -111,11 +126,13 @@ def download_paper_pdfs(json_file_path, output_folder="harvested_pdfs"):
 
     print("=" * 50)
     print(f"FINAL SUMMARY:")
-    print(f"- Valid PDFs saved: {downloaded_count}")
+    print(f"- Valid PDFs saved in {output_folder}: {downloaded_count}")
     print(f"- Invalid/Non-English files cleaned: {cleaned_count}")
     print(f"- Technical download failures: {failed_count}")
 
 if __name__ == "__main__":
-    # Ensure this file matches your current metadata version
-    metadata_file = 'hybrede_metadata_v3.json'
-    download_paper_pdfs(metadata_file)
+    # Corrected default paths for the data_acquisition subdirectory
+    default_metadata = '../data/hybrede_metadata_v3.json'
+    default_output = '../data/harvested_pdfs'
+    
+    download_paper_pdfs(default_metadata, default_output)
