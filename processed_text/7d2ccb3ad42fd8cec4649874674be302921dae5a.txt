@@ -1,0 +1,448 @@
+DOCTORAL CONSORTIUM
+COMPARATIVE ANALYSIS OF THE PERSONAL
+BANKRUPTCY MODEL AND THEIR EFFECTS IN
+THE LEGAL ORDERS IN SLOVENIA AND
+CROATIA
+REA ŠAINA
+University of Ljubljana, Faculty of Law, Ljubljana, Slovenia
+rea.gashi@gmail.com
+Personal bankruptcy is a procedure in which a natural person
+who is over-indebted or insolvent is helped by paying off the
+debts with his or her own assets. It is an institution that is
+changing and is increasingly being used by people in situations of
+over-indebtedness. In practice, it has become popular because
+debtors seek to obtain a discharge of their liabilities by concealing
+Keywords:
+their assets, thereby failing to achieve the essential objective of
+personal
+personal insolvency - the equal and simultaneous repayment of bankruptcy,
+comparative
+creditors. The following analysis focuses on the differences and
+analysis of the
+similarities between the Slovenian and the Croatian legal systems
+Slovenian and
+in the area of personal bankruptcy and the legal solutions offered Croatian
+legal
+by both legal systems. Particular attention is paid to a
+system,
+comparative legal analysis of statistical data showing the equal
+importance of personal bankruptcy over selected years. The treatment of
+creditors,
+analysis also addresses a peculiarity of the Croatian legal system
+remission of
+- "simple" consumer bankruptcy, which is not known in the liabilities,
+»simple«
+Slovenian legal order, and critically assesses the obstacles and
+consumer
+dilemmas that arise in practice.
+bankruptcy
+DOI https://doi.org/10.18690/um.fov.4.2024.54
+ISBN 978-961-286-871-0
+37TH BLED ECONFERENCE:
+882
+RESILIENCE THROUGH DIGITAL INNOVATION: ENABLING THE TWIN TRANSITION
+1 Introduction
+A comparative legal perspective of the two systems, Slovenian and Croatian, in terms
+of the possibility of individual regulation certainly brings similarities, but it is also
+crucial to take into account the differences, which may not be expected due to the
+coherence and similarity of the legal rules in the different branches of law.
+It should be mentioned at the outset that both systems, the Croatian system in 2022
+and the Slovenian system in 2023, bring changes in the area of personal bankruptcy.
+The changes were necessitated by the adoption of the new European Directive (EU)
+2019/1023 on a framework for preventive restructuring, for the discharge of
+liabilities and prohibition of the performance of duties, and on measures to increase
+the effectiveness of restructuring, insolvency and debt relief proceedings and
+amending Directive (EU) 2017/1132 (the "Restructuring and Insolvency
+Directive").1 The umbrella law of the Slovenian legal system in the field of
+insolvency law is Zakon o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem
+prenehanju (hereinafter: ZFPPIPP)2, which dedicates a specific chapter to personal
+bankruptcy.3
+On the other hand, the Croatian legal system regulates personal bankruptcy in two
+different acts, in Stečajni zakon (hereinafter: SZ)4 and Zakon o stečaju potrošača
+(hereinafter: ZSP)5. The latter deals with only one type of debtor, namely consumers.
+Would we conclude from the above that such a distinction also entails certain
+pitfalls? Of course, the yellow light would immediately go on and we would ask
+ourselves why this is so. The global financial crisis of 2008-2009 and the euro area
+crisis of 2011-2013 have had an additional impact on Croatia, increasing the number
+of blocked citizens.6 On January 1, 2016 Croatia introduced the SPZ into its legal
+system to provide legal protection to citizens in financial difficulties and over-
+1 Directive (EU) 2019/1023 of the European Parliament and of the Council of 20 June 2019 on preventive
+restructuring frameworks, on discharge of debt and disqualifications, and on measures to increase the efficiency of
+procedures concerning restructuring, insolvency and discharge of debt, and amending Directive (EU) 2017/1132
+(Directive on restructuring and insolvency), accesible on https://eur-lex.europa.eu/eli/dir/2019/1023/oj (May 17,
+2024).
+2 Zakon o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju (ZFPPIPP), Uradni list
+RS, št. 176/21, 178/21 – popr., 196/21 – odl. US, 157/22 – odl. US, 35/23 – odl. US, 57/23 – odl. US in 102/23.
+3 Section 5.11 of the ZFPPIPP.
+4 Stečajni zakon (SZ), Narodne novine, br. 71/15, 104/17, 36/22.
+5 Zakon o stečaju potrošača (ZSP), Narodne novine, br. 100/15, 67/18, 36/22.
+6 https://arhivanalitika.hr/blog/blokirani-kako-uravnoteziti-financijsku-disciplinu-i-solidarnost/ (May 17, 2024).
+R. Šaina: Comparative Analysis of the Personal Bankruptcy Model and Their Effects in the Legal Orders
+883
+in Slovenia and Croatia
+indebted citizens who have been unable to meet their financial obligations due to
+blocked accounts.7 In contrast, the Slovenian system only knows one form of
+personal bankruptcy and does not distinguish between different types of personal
+bankruptcy.8 Details of the systems will be explained below.
+2 Methodology
+Initially, a descriptive approach was used to explore the chosen topic. The focus was
+on describing general concepts, definitions, facts, institutes and processes in the
+study of regulation for both the Slovenian and Croatian systems. The description
+referred to the main differences of personal bankruptcy, which broadened our view
+of the current situation and development. We paid a lot of attention to the institutes
+that have been drastically charged after the changes in the law in both systems.
+In addition, we have analysed the comparison of personal bankruptcy statistics over
+the years, which will be presented below. The study of the selected topic was based
+on domestic and foreign laws, professional books and scientific articles obtained
+from databases. By reviewing them, we have examined the shortcomings of personal
+bankruptcy, the pitfalls brought about by the changes, given a critical opinion and
+the possibilities for improvement. We also proposed mechanisms to shorten the
+duration of the personal bankruptcy procedure, better repay creditors and prevent
+abuse of this important institution.
+3 Opening of personal insolvency proceedings
+3.1 Personal bankruptcy participants
+In the Slovenian system, personal bankruptcy is addressed to three groups of
+persons, as follows:
+• all natural persons - consumers (employees, unemployed, pensioners,
+students,...);
+• sole traders;
+7 Akšamović D., Šimunović L. (2023). Zakon o stečaju potrošača u službi zaštite građana: postignuća i izazovi.
+Godišnjak Akademije pravnih znanosti Hrvatske, 88-89.
+8 Višje sodišče v Ljubljani, sklep Cst 178/2018.
+37TH BLED ECONFERENCE:
+884
+RESILIENCE THROUGH DIGITAL INNOVATION: ENABLING THE TWIN TRANSITION
+• private individuals.9
+The Croatian system considers the same persons as defined in the Slovenian system
+as debtors, with the exception of consumers, as they are not explicitly mentioned in
+the SZ. As a result, natural persons as insolvent debtors are not conceptualise clearly
+and precisely on the basis of a single law, which may require a clearer definition of
+their meaning in the future.10
+Consumers, in the Croatian system, are subject of a separate law, the SPZ, where are
+specifically defined and differ from those in the Slovenian system. In the SPZ,
+consumers would be divided into two types, according to the procedure that can be
+proposed, i.e. according to the consumer's »regular« or »simple« procedure.11 The
+simple consumer procedure stands out as it alien to the Slovenian legal order and
+aims to reduce the number of blocked citizens and enforcement proceedings.12
+3.2 Procedure - opening of personal insolvency proceedings
+The procedure starts with the filing of a written application by the debtor or the
+creditor.13 The latest amendment to the Croatian law 2022 also includes the
+possibility for a creditor to file for personal bankruptcy, which has not been the case
+so far.14 In Slovenia, more than 90% of personal insolvency proceedings are initiated
+by the debtors themselves.15 After the motion is filed, the court checks whether the
+motion is complete. The proposal must be accompanied by a report on the debtor’s
+financial situation.16 The Croatian legal system does not require the latter, except at
+the request of the court.17
+The debtor may file a proposal to open insolvency proceedings together with the
+proposal for remission of liabilities, but it must be filed no later than the end of the
+9 Article 381 of the ZFPPIPP.
+10 Article 3 of the SZ.
+11 Article 4 of the SPZ; Article 79.a of the SPZ.
+12 Marković N., (2022). Izmjene Zakona o stečaju potrošača, Novi Informator, 2-3.
+13 Article 231 ZFPPIPP.
+14 Article 109 SZ; Marković N., Čuveljak J., (2022). Izmjene i dopune stečajnog zakona, priručnik za polaznike,
+Pravosudna akademija, accesible on https://www.pak.hr/wp-content/uploads/2021/12/Stecajni-zakon.pdf (May
+17, 2024).
+15 https://nasodiscu.si/osebni-stecaj#kako-se-zacne (May 17, 2024).
+16 Article 384(3)(1) of the ZFPPIPP.
+17 Article 117(2) of the SZ.
+R. Šaina: Comparative Analysis of the Personal Bankruptcy Model and Their Effects in the Legal Orders
+885
+in Slovenia and Croatia
+insolvency proceedings.18 On the other hand, the “Croatian” debtor must file the
+proposal for remission of liabilities with the proposal for personal insolvency or on
+the basis of an invitation from the court.19
+3.3 Commencement of personal insolvency proceedings
+The insolvency proceedings are opened by the court's order commencing the
+insolvency proceedings, appointing the insolvency administrator and calling on
+creditors to lodge their claims and divestment and strike-off rights in the debtor's
+bankruptcy estate in due time. The deadline for filing claims is three months under
+the ZFPPIPP20 and sixty days under the Croatian SZ.21 The insolvency estate in
+personal insolvency proceedings comprises all the assets and income of the debtor
+held at the commencement of the personal insolvency proceedings, as well as assets
+that the individual acquires (inherits, receives, etc.) in the course of the personal
+insolvency proceedings.22
+3.4 Legal consequences of the commencing of insolvency proceedings
+The debtor's capacity to act and dispose of his assets is restricted. The debtor's rights
+to administer and dispose of the debtor's assets are transferred to the insolvency
+administrator on the commencement of personal insolvency.23
+An important duty of the debtor is to keep the insolvency administrator and the
+court informed and to cooperate with them.24
+3.5 Conclusion of personal insolvency proceedings
+The personal insolvency formally ends when the order closing the personal
+insolvency proceedings is made, so once all the assets have been realised and the
+distribution to creditors has been made. However, it should be noted that the end
+of personal insolvency does not necessarily mean the end of the personal insolvency
+18 Article 398 of the ZFPPIPP.
+19 Josipović T., (2016). Razlučni vjerovnici u novom hrvatskom insolvencijskom pravu, v: Liber amicorum Gašo
+Knežević, 65; Article 373 in conjuction with Article 131 of the SZ.
+20 Article 59(2) of the ZFPPIPP.
+21 Article 129(1)(4) of the SZ.
+22 Article 224 ZFPPIPP; Article 134 SZ.
+23 Article 386 of the ZFPPIPP: Articles 159 and 161 of the SZ.
+24 Article 384 of the ZFPPIPP; Article 177 of the SPZ.
+37TH BLED ECONFERENCE:
+886
+RESILIENCE THROUGH DIGITAL INNOVATION: ENABLING THE TWIN TRANSITION
+for the debtor, but rather for the creditors. It should be borne in mind that personal
+insolvency proceedings are primarily conducted to protect the interests of
+creditors.25
+4 Personal bankruptcy statistics in Slovenian and Croatian legal order
+The personal bankruptcy data to be presented below relates to the period from 2016
+to 2023 (this period of study has been taken into account in order to avoid excessive
+divergences in the two legal systems) for Slovenia and Croatia, which are publicly
+available or provided by the Ministry of Justice.
+It should be pointed out, however, that while these data may indicate and guide the
+effectiveness of an institution, they cannot ultimately indicate and measure the
+ultimate success of the institution itself, even in terms of the number of personal
+insolvency proceedings opened and pending.
+It is possible to ascertain that the number of cases is decreasing. In 2016, the number
+of cases received, resolved, settled and pending was higher than in the previous year.
+Most personal insolvency proceedings are proposed by debtors. In 2016, almost
+more than 70% of personal insolvency proceedings ended without a distribution of
+the insolvency estate, but this figure has decreased over the years, reaching a
+percentage of around 50% last year. This figure is still quite high, as the purpose of
+personal bankruptcy – to proportionally repay creditors – remains unrealized.
+The duration of personal insolvency depends on various factors, one of which is
+discharge procedure together with the probationary period, which has been
+shortened (from six months to three years)26 by the Slovenian amendment to the
+ZFPPIPP. In the Croatian legal order, this period is three years.27
+25 Article 286 of the SZ; Article 396 of the ZFPPIPP.
+26 Article 400(5) of the ZFPPIPP.
+27 Article 373(2) of the SZ.
+R. Šaina: Comparative Analysis of the Personal Bankruptcy Model and Their Effects in the Legal Orders
+887
+in Slovenia and Croatia
+Table 1: Slovenian illustration of personal insolvency proceedings
+Year 2016 2017 2018 2019 2020 2021 2022 2023
+Cases
+Received cases 3.883 2.628 2.331 2.121 1.615 1.318 1.223 1.052
+Settled cases 2.847 3.991 4.464 3.529 2.574 2.124 1.780 1.440
+Pending cases at
+the end 10.561 9.203 7.072 5.666 4.707 3.900 3.341 2.946
+Applicant
+- Creditor 266 205 234 239 189 148 145 118
+- Debtor 3.616 2.423 2.096 1.881 1.425 1.170 1.078 932
+SALE TRADE/
+PRIVATE 109 135 170 216 146 150 128 114
+INDIVIDUAL
+CONSUMER 2.552 3.851 4.135 3.304 2.422 2.030 1.644 1.342
+Finally disposed 2.661 3.986 4.485 3.520 2.568 2.180 1.772 1.456
+REMISSION OF
+1.862 3.292 3.865 2.932 2.001 1.652 1.331 1.055
+LIABILITIES
+Sale trade/private
+68 82 116 134 95 76 73 60
+individual
+Consumer 1.794 3.210 3.749 2.798 1.906 1.576 1.258 995
+INSOLVENCY
+ESTATE (in ≈ 5,3 ≈ 37,3 ≈ 14,8 ≈ 26,9 ≈ 18,3 ≈ 24,8 ≈ 14,5 ≈ 19,7
+millions)
+Sale trade/private
+≈ 1,2 ≈ 2,9 ≈ 1,4 ≈ 10,3 ≈ 1,2 ≈ 10,3 ≈ 3,5 ≈ 4,6
+individual
+Consumer ≈ 4,0 ≈ 34,4 ≈ 13,4 ≈ 16,6 ≈ 17,1 ≈ 14,5 ≈ 11,0 ≈ 15,2
+SOLUTION
+METHOD
+WITHOUT
+75,38% 80,03% 76,12% 67,72% 63,33% 60,97% 58,15% 55,14%
+distribution
+By distribution 8,47% 13,25% 18,64% 26,13% 28,55% 29,90% 31,52% 32,71%
+37TH BLED ECONFERENCE:
+888
+RESILIENCE THROUGH DIGITAL INNOVATION: ENABLING THE TWIN TRANSITION
+Table 2: Croatian illustration of personal consumer’s insolvency proceedings
+Country
+TYPE OF DISPUTE
+courts
+Simple consumer bankruptcy
+Consumer bankruptcy
+procedure
+At the
+YEAR Start Received Settled At the end Start Received Settled
+end
+2016 0 319 52 267
+2017 267 372 281 358
+2018 365 178 248 295
+2019 0 96.043 43.969 52.074 295 152 226 221
+2020 52.074 18.460 55.885 14.649 221 66 150 137
+2021 14.649 17.842 22.295 10.196 137 123 113 147
+2022 10.196 21.393 18.811 12.775 146 128 122 152
+2023 12.775 37.982 28.416 22.341 153 155 154 154
+In the Croatian legal system, two types of courts decide on the type of personal
+insolvency proceedings. Country courts rule on consumer bankruptcy and simple
+consumer bankruptcy proceedings. District courts rule on the bankruptcy of
+individual debtors, specifically sole traders and private individuals (Table 3). The
+Table 2 above shows information on the bankruptcy of the consumer.
+With the entry into force of the SPZ in 2016, consumers gained the possibility to be
+part of the personal insolvency proceedings.
+In 2019, the SPZ introduces a new procedure, mentioned above, simple consumer
+bankruptcy procedure, which is being introduced ex officio by the Financial Agency
+(hereinafter: FINA) for consumers with small debts and a continuous lockage of
+accounts lasting more than three years. At the beginning, we ascertain a high
+percentage of proposal field, despite that this percentage has decreased over the
+years. According to FINA, the number of consumers in blockade is 211 thousand
+R. Šaina: Comparative Analysis of the Personal Bankruptcy Model and Their Effects in the Legal Orders
+889
+in Slovenia and Croatia
+and the debt is EUR 0,76 billion.28 What should be worked on is the implementation
+and enforcement of a collective strategy to tackle consumer insolvency, not just
+constant adoption of new rules that fail.
+Table 3: Croatian illustration of personal bankruptcy proceedings of an individual debtor29
+District
+TYPE OF DISPUTE
+courts
+Bankruptcy over the assets of an
+Bankruptcy of a natural person
+individual debtor
+At the At the
+YEAR Start Received Settled Start Received Settled
+end end
+2016 13 4 1 16 85 9 23 71
+2017 16 1 7 11 71 5 16 61
+2018 11 0 5 7 61 3 16 48
+2019 7 0 1 6 46 1 15 32
+2020 6 0 3 3 32 3 7 28
+2021 3 1 2 2 28 2 7 23
+2022 2 0 1 1 23 0 10 13
+2023 1 2 2 1 13 0 1 12
+In Table 3 above, we can determine that very few personal insolvency petitions were
+filed in 2016 compared to personal consumer’s insolvency proceedings. Also, the
+trend of settled cases remains very low, and this type of personal bankruptcy is not
+often proposed.
+28https://www.fina.hr/novosti/broj-ovrha-na-novcanim-sredstvima-poslovnih-subjekata-i-potrosaca-31.-
+prosinca-2023 (May, 17 2024).
+29 Please note that these two types of debtor (natural person and individual debtor are identical objects) do not
+include consumers according to the clarification of the Ministry of Justice and Administration in Croatia. These are
+business owners.
+37TH BLED ECONFERENCE:
+890
+RESILIENCE THROUGH DIGITAL INNOVATION: ENABLING THE TWIN TRANSITION
+5 »Simple« consumer bankruptcy procedure
+5.1 Procedure
+In 2019, amendments and additions to the SPZ introduce the new institution of a
+simple consumer bankruptcy procedure, which aims to settle creditors out of eligible
+assets and release consumers from residual debt.30 The procedure is intended only
+for a specific category of consumers whose accounts have been blocked
+continuously for more than three years and whose principal debt does not exceed
+€2,654.46.31 It shall be initiated ex officio by FINA on the basis of its records, after
+the consumer has been given the opportunity to state whether he or she agrees to
+the procedure.32
+If the debtor consents to the procedure, he must submit a list of his assets within
+the time limit specified. The declaration and the list of assets shall be submitted on
+the prescribed form. If the consumer fails to make a declaration within the time
+limit, or submits a list of assets without a declaration, or consents to the proceedings,
+he shall be deemed to have consented to the simple consumer insolvency
+proceedings being conducted over his assets. Even if it is stated that he agrees to the
+simple insolvency proceedings of the consumer over his assets but does not list the
+assets, the consumer will be deemed to have declared that there are no assets from
+which his creditors can be recovered settled.33
+The application for the simple bankruptcy of the consumer shall be submitted by
+FINA to the competent local court on the prescribed form in electronic form if the
+consumer has consented to the simple bankruptcy of the consumer over his assets.34
+The court is obliged to establish the value of the consumer's assets and the disposals
+of assets made by the consumer in the three years preceding the opening of the
+consumer's simple insolvency proceedings.35
+30 Marković N., (2022). Izmjene Zakona o stečaju potrošača, Novi Informator, 2-3.
+31 Article 79.a(2) of the SPZ.
+32 Article 79.b(1) of the SPZ.
+33 Ibid.
+34 Article 79.d of the SPZ.
+35 Ibid.
+R. Šaina: Comparative Analysis of the Personal Bankruptcy Model and Their Effects in the Legal Orders
+891
+in Slovenia and Croatia
+5.2 The value of the assets is equal to or less than EUR 1.327,23
+If the courts finds that the value of the consumer's assets that could be realised in
+the bankruptcy estate is equal to or less than EUR 1,327.23, the court shall, of its
+own motion, issue an order opening and closing the consumer's simple bankruptcy
+proceedings. In this case, the court will not appoint a insolvency administrator, nor
+will it set a time limit for verifying behaviour, but will release the consumer from the
+remaining obligations.36
+5.3 The value of the assets is greater than EUR 1.327,23
+If the value of the consumer's assets that could be realised in the bankruptcy estate
+is greater than EUR 1,327.23, the court will, of its own motion, issue an order
+opening the consumer's simple bankruptcy proceedings and appoint an insolvency
+administrator.37
+Real estate owned by consumers is not considered a realisable asset and cannot be
+used to pay creditors. The assets consist of movable property and the consumer's
+rights.38
+5.4 Conclusion of a simple consumer insolvency procedure
+After the goods and rights have been realised, i.e. after the consumer has fulfilled
+the obligations imposed by the court's order, the court shall, by order, close the
+consumer's simple insolvency proceedings without setting a behavioural review
+period. In the decision closing the consumer's simple insolvency proceedings, the
+court will release the consumer from the remaining obligations.39
+6 Concluding thoughts
+Based on the legislative changes in the Slovenian and Croatian legal order, the
+duration of personal insolvency proceedings could result in their shortening, because
+the purpose of insolvency proceedings is the principle of speed and economy.
+36 Article 79.g of the SPZ.
+37 Article 79.h of the SPZ.
+38 Article 79.i(2) of the SPZ.
+39 Article 79.n of the SPZ.
+37TH BLED ECONFERENCE:
+892
+RESILIENCE THROUGH DIGITAL INNOVATION: ENABLING THE TWIN TRANSITION
+However, in actual practice, it is not the case, they could at least last several years
+(an average of 3 years).40 We expected the two systems to be very similar, but there
+are differences. Consumers in the Croatian system "own" their own law, which
+specifies the specific conditions for the possibility of personal bankruptcy.
+In the case of receiving a loan or any other borrowing, it is only logical to return the
+received. It would be the best if we live in a society where debts are paid promptly
+and on time, and the institute of personal bankruptcy would not be necessary, but
+that is too naive to seek. We live in a time when many things are unpredictable, such
+as bank interest rates, the economy in general, social and societal relations, labour
+relations, unemployment, reckless disposal of money, high cost of living. Overnight
+the matter can change and we become unable to repay our debts or over-indebted.
+In practice, many people are uninformed and do not even know about the institute
+of personal bankruptcy or the possibility of their introduction. This is why the
+principle of informing citizens is important and crucial in such unpredictable
+situations in which we find ourselves. Basically, the main purpose of personal
+bankruptcy is equally repay creditors, to forgive honest debtors' their debts and offer
+them a fresh start. Changes from the amendements of law are visible in both legal
+systems. One of them concerns one of the most important principles of personal
+bankruptcy - the speed of the process.
+In Croatian insolvency proceedings, which should last within the legal term of one
+and a half years, the legislator has complicated matters and extended their duration
+in the event that a third party comes forward and claims to own a part of the
+bankruptcy estate, the court decides to send the bankruptcy administrator to
+litigation. Are such provisions which complicate and hinder the procedure really
+necessary? Of course not, which is why it is crucial to address these problems wisely
+and to define the articles of the law appropriately in the light of judicial practice and
+by adapting to the economic situation of society.
+40 https://nasodiscu.si/osebni-stecaj#trajanje-in-stroski (May, 17 2024).
+R. Šaina: Comparative Analysis of the Personal Bankruptcy Model and Their Effects in the Legal Orders
+893
+in Slovenia and Croatia
+References
+Akšamović D., Šimunović L. (2023). Zakon o stečaju potrošača u službi zaštite građana: postignuća i
+izazovi. Godišnjak Akademije pravnih znanosti Hrvatske, Vol. XIV, No1., 87-110.
+Garašić J. (2017). Najznačajnine novine stečajnog zakona iz 2015. godine. Zbornik Pravnog fakulteta
+Sveučilišta u Rijeci, 38, 131-184.
+Josipović T. (2016) Razlučni vjerovnici u novom hrvatskom insolvencijskom pravu, v: Liber
+amicorum Gašo Knežević, 65.
+Directive (EU) 2019/1023 of the European Parliament and of the Council of 20 June 2019 on
+preventive restructuring frameworks, on discharge of debt and disqualifications, and on
+measures to increase the efficiency of procedures concerning restructuring, insolvency and
+discharge of debt, and amending Directive (EU) 2017/1132 (Directive on restructuring and
+insolvency), accesible on https://eur-lex.europa.eu/eli/dir/2019/1023/oj (May 17, 2024).
+Marković N. (2022) Izmjene Zakona o stečaju potrošača. Novi Informator, 2-3.
+Marković N., Čuveljak J., (2022). Izmjene i dopune stečajnog zakona, priručnik za polaznike,
+Pravosudna akademija, accessible on https://www.pak.hr/wp-
+content/uploads/2021/12/Stecajni-zakon.pdf (May 17, 2024).
+Stečajni zakon (SZ), Narodne novine, br. 71/15, 104/17, 36/22.
+Zakon o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju (ZFPPIPP),
+Uradni list št. 176/21, 178/21 – popr., 196/21 – odl. US, 157/22 – odl. US, 35/23 – odl. US,
+57/23 – odl. US in 102/23.
+Zakon o stečaju potrošača (ZSP), Narodne novine, br. 100/15, 67/18, 36/22.
+Višje sodišče v Ljubljani, sklep Cst 178/2018.
+https://arhivanalitika.hr/blog/blokirani-kako-uravnoteziti-financijsku-disciplinu-i-solidarnost/ (May,
+17 2024).
+https://www.fina.hr/novosti/broj-ovrha-na-novcanim-sredstvima-poslovnih-subjekata-i-potrosaca-
+31.-prosinca-2023 (May, 17 2024).
+https://nasodiscu.si/osebni-stecaj#kako-se-zacne (May 17, 2024).
+https://nasodiscu.si/osebni-stecaj#trajanje-in-stroski (May 17, 2024).
+37TH BLED ECONFERENCE:
+894
+RESILIENCE THROUGH DIGITAL INNOVATION: ENABLING THE TWIN TRANSITION
