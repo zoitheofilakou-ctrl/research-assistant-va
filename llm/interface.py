@@ -9,10 +9,10 @@ Command to use this
 
 
 OpenAI (Requires API in ENV file)
-python rag_generator.py "Tell me random health facts" openapi
+python llm/rag_generator.py "Tell me random health facts" openai
 
 Ollama (Local LLM, Phi model is quite light to run)
-python rag_generator.py "Tell me random health facts" ollama
+python llm/rag_generator.py "Tell me random health facts" ollama
 
 """
 

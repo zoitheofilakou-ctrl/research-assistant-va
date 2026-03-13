@@ -6,7 +6,7 @@ import argparse
 # Add project root to path so sibling packages can be imported
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from retrieval.retrieval import cmd_query, get_chroma_collection, SentenceTransformer, EMBED_MODEL_NAME
+from Retrieval.retrieval import cmd_query, get_chroma_collection, SentenceTransformer, EMBED_MODEL_NAME
 from llm.interface import get_llm_provider
 
 # Used to build rules for the model and the answer template
