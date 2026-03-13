@@ -1,0 +1,565 @@
+ORIGINALRESEARCH
+published:07February2022
+doi:10.3389/frobt.2022.813843
+HR1 Robot: An Assistant for
+Healthcare Applications
+Valentina Vasco1*, AlexandreG.P. Antunes1*, VadimTikhanoff1,UgoPattacini1,
+Lorenzo Natale2, ValerioGower3and MarcoMaggiali1
+1iCubTech,IstitutoItalianodiTecnologia(IIT),Genoa,Italy,2HumanSensingandPerception,IstitutoItalianodiTecnologia(IIT),
+Genoa,Italy,3IRCCSFondazioneDonCarloGnocchi,Milan,Italy
+According to the World Health Organization1,2 the percentage of healthcare
+dependent population, such as elderly and people with disabilities, among
+others, will increase over the next years. This trend will put a strain on the health
+and social systems of most countries. The adoption of robots could assist these
+healthsystemsinrespondingtothisincreaseddemand,particularlyinhighintensity
+and repetitive tasks. In a previous work, we compared a Socially Assistive Robot
+(SAR)withaVirtualAgent(VA)duringtheexecutionofarehabilitationtask.TheSAR
+consistedofahumanoidR1robot,whiletheVirtualAgentrepresenteditssimulated
+counter-part. In both cases, the agents evaluated the participants’ motions and
+Editedby: providedverbalfeedback.Participantsreportedhigherlevelsofengagementwhen
+ValeriaSeidita, trainingwiththeSAR.Giventhatthearchitecturehasbeenproventobesuccessful
+UniversityofPalermo,Italy
+for a rehabilitation task, other sets of repetitive tasks could also take advantage of
+Reviewedby:
+theplatform,suchasclinicaltests.AcommonlyperformedclinicaltrialistheTimed
+FrancescoLanza,
+UniversityofPalermo,Italy Up and Go (TUG), where the patient has to stand up, walk 3m to a goal line and
+DanieleMeli,
+back, and sit down. To handle this test, we extended the architecture to evaluate
+UniversityofVerona,Italy
+lower limbs’ motions, follow the participants while continuously interacting with
+*Correspondence:
+ValentinaVasco them, and verify that the test is completed successfully. We implemented the
+valentina.vasco@iit.it scenario in Gazebo, by simulating both participants and the interaction with the
+AlexandreG.P.Antunes
+robot3. A full interactive report is created when the test is over, providing the
+alexandre.gomespereira@iit.it
+extractedinformationtothespecialist.Wevalidatethearchitectureinthreedifferent
+Specialtysection: experiments, each with 1,000 trials, using the Gazebo simulation. These
+Thisarticlewassubmittedto
+experiments evaluate the ability of this architecture to analyse the patient, verify
+HumanoidRobotics,
+asectionofthejournal if they are able to complete the TUG test, and the accuracy of the measurements
+FrontiersinRoboticsandAI obtained during the test. This work provides the foundations towards more
+Received:12November2021
+thorough clinical experiments with a large number of participants with a physical
+Accepted:18January2022
+Published:07February2022 platform in the future. The software is publicly available in the assistive-rehab
+Citation: repository4 and fully documented.
+VascoV,AntunesAGP,TikhanoffV,
+PattaciniU,NataleL,GowerVand
+MaggialiM(2022)HR1Robot:An 1https://www.who.int/news-room/fact-sheets/detail/ageing-and-health
+AssistantforHealthcareApplications. 2https://www.who.int/news-room/fact-sheets/detail/disability-and-health
+Front.Robot.AI9:813843. 3https://www.youtube.com/watch?v=b7_848Rt98E
+doi:10.3389/frobt.2022.813843 4https://github.com/robotology/assistive-rehab
+FrontiersinRoboticsandAI|www.frontiersin.org 1 February2022|Volume9|Article813843
+Vascoetal. HR1RobotHealthcareAssistant
+Keywords: humanoids, assistive robots, human-robot interaction, healthcare, autonomous systems, timed up
+andgo
+1 INTRODUCTION Theplatformusedintheexperimentspresentedinthispaper
+isaR1humanoidrobot(Parmiggianietal.,2017),developedby
+AccordingtotheWorldHealthOrganization(WHO)5,6(WHO, IstitutoItalianodiTecnologia(IIT).Thisplatform,whichwewill
+2015), the percentage of healthcare dependent population, such call Socially Assistive Robot (SAR), is equipped with both
+aselderlyandpeoplewithdisabilities,amongothers,willincrease standard color cameras and with depth cameras to better track
+over the next years. This trend will overwhelm the health and thepatient.Itreliesonwheelsfornavigatingintherooms,usinga
+social systems of most countries. The adoption of robots could infrared laser (LIDAR) for obstacle avoidance. Finally, it is
+assist these health systems in responding to this increased equipped with face expressions and speakers to afford
+demand, particularly in high intensity and repetitive tasks. interaction with the patients.
+Most countries, particularly first world countries, are faced The SAR was previously compared to a Virtual Agent (VA)
+with an increasingly higher percentage of people in need of duringrehabilitationtasks,withtheSARreportingahigherlevel
+healthcare assistance, either due to old age or some disabilities ofengagementfromthepatients(Vascoetal.,2019).Todevelop
+orimpairments,requiringprolongedcare,constantexamination, theautomatedversionoftheTUGwiththeSAR,weextendedthe
+andfollowingupthepatientsveryclosely.Thispressure,bothin architecture to evaluate lower limbs’ motions, follow the
+numberofandtimededicatedtothepatients,willputastrainon participants while continuously interacting with them, and
+the current healthcare and social systems all over the world. verify that the test is completed successfully. In order to
+Solvingthisproblem,however,isnotasimplematter,notjustdue validate the framework and assess its robustness, we
+tothelackofprofessionalsbutalsoduetotheincreasingcostsof implemented the scenario in the simulation environment
+maintainingtheseservices.Inthispaperweproposeasolutionby Gazebo, by simulating both participants and the interaction
+using robots to assist medical professionals when realizing with the robot.
+repetitive and monotonous exams, in particular for the Timed Withthispaperweaimtointroducearoboticsolutionforthe
+Up and Go (TUG) test. The implementation of such a system increasingstrainonhealthcaresystems,allowingrepetitivetests
+wouldnotonlyremovesomeoftheworkloadfromthemedical andexamstobehandledbyarobotplatform,removingsomeof
+professional, but also be more reliable in the long run, not the pressure from the medical professionals, preventing errors
+suffering from attention, exhaustion or other issues that often due to exhaustion and stress, and maintaining consistency over
+affect us. With this system we intend to show the possibility of time and across patients. The aim is to prove the ability of the
+usingrobotplatformsinthiscontext,pavingthewayforfurther architecturetoassistatherapistinevaluatingpatients,extracting
+developmentandimplementationofsuchplatformsinhospitals consistentandreliabledataintermsoftime,numberofstepsand
+and other healthcare facilities. thesuccessorfailureofthetestbythepatient.Thisworkisthe
+Thetaskdescribedinthispaper,TUG,isacommonscreening firststeptowardsmorethoroughclinicalexperimentswithalarge
+testperformedonpatientsrecoveringorsufferingfromimpaired number of subjects with the physical platform.
+locomotion (Podsiadlo and Richardson, 1991). In this test the This paper is structured as follows: in Section 2 we present
+patientstartsfromasittingpositionandisaskedtostandup,walk somepreviousworksontheuseofroboticsandotherdevicesin
+toamarkerandback,andsitdownagain.Thetimethepatient healthcareandrehabilitationrobotics.InSection3wedescribein
+takestocompletethetests,alongwithothermetricslikecadence, detail the TUG test, and the SAR and the software architecture
+areusedasindicatorstoevaluatethepatient’sstaticanddynamic responsibleforthetest,alongwiththedescriptionofthetestand
+balanceaswellasthemobility.Thegoaloftherobotplatformis, the data collected. In Section 4, we describe the design of the
+inthiscase,toguideandmonitorthepatientintheexecutionof experimentsandtheextractionofthegroundtruth.InSection5
+thetask,meanwhileretrievingandrecordingthesemetrics.The we present the results of the quantitative analysis of the
+data can then be checked by the medical professional for architecture in simulation. Section 6 discusses the quantitative
+evaluation, and a more accurate log can be kept to evaluate results, proposing possible improvements to architecture. We
+therecoveryofthepatientovertime.Thelong-termvisionisthe conclude the paper with Section 7 where we present our
+developmentofaroboticsolutionthattakescareautonomously conclusions and discuss further improvements and other tests
+ofalltheactivitiesinvolvedintheadministrationoftheTUGtest that could be handled by such a SAR.
+in an hospital setting: engaging the patients in their rooms,
+leading them to the testing room, explaining the test and
+interacting with the patient to answer questions, monitoring
+2 RELATED WORK
+the execution of the test and correcting the patient if needed,
+and finally sending the results of the test to clinicians. Thefieldofroboticsinhealthcarehasbeenrapidlyevolvinginthe
+lastyears,leadingtoasubstantialparadigmshift.Anexampleof
+this is the Da Vinci system, a surgical robot tele-operated
+remotely, acting as guidance tool to simultaneously provide
+5https://www.who.int/news-room/fact-sheets/detail/ageing-and-health
+5https://www.who.int/news-room/fact-sheets/detail/ageing-and-health information and keep the surgeon on the target (Moran,
+FrontiersinRoboticsandAI|www.frontiersin.org 2 February2022|Volume9|Article813843
+Vascoetal. HR1RobotHealthcareAssistant
+2006).Thistypeofrobotshasbeeninstalledandusedworldwide. Another example of coaching is the work by Céspedes
+Theuseofrobotsforsurgeryhasgivenrisetoalargenumberof Gómez et al. (2021) and Irfan et al. (2020), where a study
+applications for use in the medical domain. lasting 2years and 6months using a NAO robot to coach
+In the particular sub-field of Assistive Robotics, robots are patients in cardiac rehabilitation proved that patients were
+endowed with the human capabilities to aid patients and more engaged, and generally finished the program earlier,
+caregivers. The robot RIBA (Robot for Interactive Body than the ones not followed by a robot. In this work the robot
+Assistance) is designed with the appearance of a giant teddy wasthemeansofinteraction,whiledatawascollectedthrough
+beartoliftandtransferpatientsfromabedtoawheelchairand multiple sensors, both wearable and external. In particular, in
+back (Mukai et al., 2011). The caregiver can instruct the robot the case study presented in Irfan et al. (2020), the system was
+through vocal commands and tactile guidance: the desired instrumentalindetectingacriticalsituationwhereapatientwas
+motion is set by directly touching the robot on the part not feeling well, alerting the therapists and leading to medical
+related to the motion. A similar system, RoNA (Robotic intervention.
+Nursing Assistant), executes the same task, but is instead PreviousresearchhasfocusedonautomatingtheTimedUp
+controlled by the operator through an external GUI (Ding andGousingsensorsofvariousmodalitiesormotiontracking
+et al., 2014). Chaudhary et al. (2021) plan to design a new systems. Three-dimensional motion capture systems have
+medical robot, called BAYMAX, which will serve also as been used to measure the walking parameters with high
+personal companion for general healthcare. The robot will be reliability (Beerse et al., 2019). They currently represent the
+equipped with a head, comprising a camera, microphone and gold standard (Kleiner etal., 2018), but because of their cost,
+speakers. It will also contain a series of sensors to detect the scale and lack of convenience, it is difficult to install these
+temperature, the heartbeat and the oxygen level, and will be devicesincommunityhealthcenters.Wearablesensorsbased
+capable of performing regular basic check-ups, such as onInertialMeasurementUnits(IMUs)havebeenextensively
+temperature, oxygen level check, mask verification, external usedininstrumentingtheTUGtestfortheirlowcostandfast
+injuries etc. assessment. They have proved to be reliable and accurate in
+Assistive robots can also aid patients through social measuring the completion times (Kleiner et al., 2018).
+interaction, rather than offering physical support (Feil- However, they require time-consuming wearing and
+Seifer and Mataric, 2005): these are known as Socially calibration procedures that cannot usually be performed by
+Assistive Robots (SAR). The robot’s embodiment positively the patients themselves, especially by those with motor
+affectstheusers’motivationandperformance,throughnon- limitations. Moreover, the possibility to accurately evaluate
+contact feedback, encouragement and constant monitoring the movement kinematics, in terms of articular joints angles,
+(Brooksetal.,2012;Li,2015;Vascoetal.,2019).TheKaspar through the data extracted from IMU is still under debate
+robot is a child-sized humanoid designed to assist autistic (Poitrasetal.,2019).Ambientsensors,includingtemperature,
+children in learning new social communication skills, while infraredmotion,light,door,object,andpressuresensors,have
+improving their engagement abilities and attention (Wood alsoshownpromiseastheyremovetheneedtoinstrumentthe
+etal.,2021).TheBanditrobotconsistsofahumanoidtorso, patient. Frenken et al. (2011) equipped a chair with several
+developed by BlueSky Robotics, mounted on a Pioneer 2DX forcesensorstomonitorweightdistributionandalaserrange
+mobilebase.Ithasbeenusedforengagingelderlypatientsin scanner to estimate the distance the subject covers. However,
+physical exercises (Fasola and Matarić, 2013) and providing this system is relatively expensive, requires specialized
+therapies to stroke patients (Wade et al., 2011). Szücs et al. installation and has limited range of use. Video data have
+(2019) propose a framework which allows the therapist to also been heavily explored, as they are minimally invasive,
+define a personalized training program for each patient, require little setup and no direct contact with the patient.
+choosing from a set of pre-defined movements. The SeveralworkshaveadoptedKinectsensorsandtheirskeleton
+software has been developed on the humanoid NAO robot trackingmodes(Lohmannetal.,2012;Kitsunezakietal.,2013)
+controlledthroughvocalcommandsviaAndroidsmartphone andwebcams(Berradaetal.,2007).Amorethoroughanalysis
+interface.Thesamerobothasbeenusedincombinationwith oftheapplicationofthesetechnologiestotheTUGtestcanbe
+a virtual environment for a rehabilitation task: the patient seen on the review by Sprint et al. (2015).
+replicates the movements shown by the robot while
+visualizing himself inside a gamified virtual world (Ibarra
+Zannatha et al., 2013). The robot coaches the rehabilitation 3 THE FRAMEWORK
+exercising, while encouraging or correcting the patient
+verbally. Lunardini et al. (2019), as part of the MoveCare To develop the proposed framework, we used the humanoid
+Europeanproject,alsoproposetocombinearobotandvirtual robotR1(Parmiggianietal.,2017)anddevisedasetofmodules
+games,withtheaidofsmartdevices(e.g.smartball,balance interconnectedonaYARPnetwork(Mettaetal.,2006),asshown
+board,insoles)tomonitorandassistelderlypeopleathome. in Figure 14.
+AsimilarcombinationcanbeseenintheworkofPhametal.
+(2020) within the CARESSES project, where the authors 3.1 The Timed up and Go
+integrate a Pepper robot with a smart home environment The Timed Up and Go is a well-known clinical test widely
+in order to support elderly people. adopted by clinicians to identify mobility and balance
+FrontiersinRoboticsandAI|www.frontiersin.org 3 February2022|Volume9|Article813843
+Vascoetal. HR1RobotHealthcareAssistant
+FIGURE1|TheclassicalTUG,wherethetherapistmeasuresthetimetakenbythepatienttoperformthetask.
+impairments in older adults (Podsiadlo and Richardson, robot has a speaker and a microphone to acquire sound
+1991). The test requires the subject to 1) stand up from a signals.
+chair, 2) walk for 3m at a comfortable pace, 3) cross a line
+placed on the floor,4) gobackto the chair and 5) finally sit 3.3 Line Detection
+down, as shown in Figure 1. In typical scenarios, the ThefinishlineusedintheTUGtoindicatetheendofthepathis
+therapist measures, by means of a stopwatch, the time identifiedbymeansofanArUcomarkerboard.Weadditionally
+taken by the patient to perform the task and assess the introduced an ArUco start line, to provide a robust static
+progress achieved throughout the rehabilitation. Gait reference frame for the test session. We use the start line pose
+parameters such as step length and walking speed are as reference frame to express the skeletons, the robot and the
+subjectively observed, but not quantitatively measured. finish line in such reference frame. In the simulated world, the
+Moreover, evaluating if the line was crossed is not always line positions are pre-determined in the Gazebo scenario,
+straightforward, especially when the patient approaches it maintaining the same conditions as the real world. The line
+and then turns back. referenceframeisdefinedwithxalongthelinelength,ypointing
+We extend the architecture previously presented for a backward and z pointing upwards.
+rehabilitation task (Vasco et al., 2019) in order to also
+cover clinical tests and identified the TUG as use case. The 3.4 3D Skeleton Acquisition
+automated version of the TUG foresees the execution of the Theskeletonacquisitionisperformedbycombiningthedetection
+test, while the robot engages the patient in a verbal of 2D key-points with the related depth. More specifically,
+interaction to illustrate the instructions and answer yarpOpenPose is responsible for estimating human poses
+potential questions, evaluates the movement and verifies if based on OpenPose(Cao et al., 2019), an open-source library
+the test is performed correctly. for real-time multi-person 2D pose estimation: the module
+processes an RGB image and outputs a list of 2D key-points
+3.2 The Humanoid R1 foreachpersonfoundintheimage,achievinghighaccuracyand
+R1isa1.2mhumanoidrobotdesignedwiththesensoryand speed regardless of the number of people inside the scene.
+actuation capabilities to interact with a dynamic skeletonRetriever combines the 2D locations with the
+environment. The robot is equipped with two 8DOF arms, depthprovidedbythecamerasensor,toreconstructkey-pointsin
+capable of elongating when needed, and two 4DOF hands. the3Dworld,adoptingtheclassicalpinholecameramodel.The
+The torso includes a mechanism that allows it to vary its 3D reconstruction of the skeleton is guaranteed to be robust
+height from a minimum of 1.15m to a maximum of 1.35m. against keypoints self-occlusions and mismatches occurring
+Therobotnavigatestheenvironmentbymeansoftwodriving between detected keypoints and noisy depth contours (Gago
+wheelsandisequippedwithtwofrontandrearLIDARlaser et al., 2019).
+sensorsintegratedintoitsbase.AcurvedRGBLEDdisplayis
+mounted into the head, allowing facial expressions. It is 3.5 Motion Analysis
+equipped with an Intel RealSense depth camera, which The motion analysis component extracts in real-time metrics
+provides RGB images along with depth data. Finally, the relevant for the TUG. More specifically, motionAnalyzer is
+FrontiersinRoboticsandAI|www.frontiersin.org 4 February2022|Volume9|Article813843
+Vascoetal. HR1RobotHealthcareAssistant
+TABLE1|Thelistoftopicsandrelatedanswerprovidedthroughverbal robot asks the patient to repeat the question, whereas in the
+interaction. second case, itinforms the patientthatthe question does not
+Topic Answer belong to its known repertoire and cannot reply to it. The
+association between topic and related answer is listed in
+Speed “Youcanmoveatyournormalspeed.”
+Table 1. The system is capable of interpreting the question,
+F A e id edback “ “ Y Y o o u u a c r a e n m us o e vin th g e v w er a y lk w in e g ll/ a w id el t l/ h n a o t t y v o e u ry n w ee e d ll. . ” ” rather than recognizing it, providing a flexible and natural
+Repetitions “Youhavetorepeatthetestonce.” interaction.Therefore,aquestionrelatedtothesametopiccan
+Unclear “Ididn’tunderstandthequestion.Canyoupleaserepeatit?” beposedinseveraldifferentways,inanaturallanguage,rather
+Unknown “I’msorry.Idon’tknowhowtoanswertothisquestion.” than using vocal commands.
+AWiFibuttonhasbeenintegratedintherobotinfrastructure:
+whenpressed,ittriggersthespeechpipeline.Suchtriggerisuseful
+responsible for estimating the Range of Motion (RoM) of the toavoidthesystemtobealwaysresponsive,andthussensitiveto
+articularanglesandthegaitparameters,i.e.numberofsteps,step background noise.
+lengthandwidthandwalkingspeed.Moreindetail,wecompute
+thedistancebetweenleftandrightfootanddetectastepeachtime 3.7 Reactive Navigation
+such distance reaches the maximum value. The step length and The reactive navigation system allows the robot to navigate
+width are then measured by projecting the maximum feet the environment based on the received perceptual stimuli.
+distance along the skeleton sagittal and coronal planes More specifically, navController commands the robot
+respectively. Finally we estimate the walking speed as the wheels to navigate along an imaginary straight path while
+product of the step length and the number of steps over the keeping a fixed distance from a specified skeleton. Such
+time taken to complete the test. distance is designed in order to maximize the observability
+The module is also in charge of computing measurements ofthebodykey-pointsandguaranteethewholeskeletontobe
+relevant to establish if the patient has passed the test: within the cameras field of view. Given the desired distance
+from the target skeleton, we designed a simple bang-bang
+(cid:129) thedistancebetweentheskeletonhipcenterandthefinish controllerwhichcommandstherobotspeedusingasfeedback
+linealongtheycoordinate,inordertoidentifyifthelinewas the distance between the robot location provided by the
+crossed.A“crossedline”eventoccursifachangeofsignis odometry and the skeleton location provided by the vision
+detected in the estimated distance; pipeline.Afurthercommandmodalityisavailabletoallowthe
+(cid:129) the neck speed along the z coordinate to identify if the robottoreachfixedpointsintheenvironment(e.g.startand
+patienthasstoodup(andthusstartedthetest)andsatdown finish lines adopted in the TUG).
+(and thus completed the test). A “standing/sitting” event Obstacle avoidance was additionally implemented, which
+occurs if the neck speed is higher/lower than zero (i.e. the clusters data provided by the lasers and stops the navigation if
+neck height increases/decreases). therobotreachestheclosestobstacle.Insuchcase,therobotasks
+forremovingtheobstacleandtheinteractionissuspendeduntil
+The module additionally exports relevant data for enabling the obstacle is removed.
+offlinereportingoftheexperimentsattheendofthesession.The
+aimistoprovidetheclinicianwithatoolforevaluatingofflinethe 3.8 The Gazebo Actor
+qualityofthemovementanduseitasdocumentationthatcanbe We simulated the patient executing the TUG resorting to the
+added to the patient clinical report. Gazeboanimatedmodel,calledActor.Actorsextendcommon
+models with animation capabilities, by combining the relative
+3.6 Speech Interaction motionbetweenlinksandthemotionofallthelinksasasingle
+The robot explains the task to the patient, providing pre- group along a trajectory. For developing the virtual TUG, we
+definedverbalinstructionsthroughitsspeaker.Theplatformis relied on the animations provided by Gazebo to stand up, sit
+also able to reply to a set of potential questions, using two downandwalkdefinedwithinCOLLADAfiles.Wecustomized
+interconnected layers relying on the Google services API, the walking trajectory by specifying the poses to be reached at
+which have proved to be very robust especially with the specifictimes,inordertoallowtheActortowalk3mandthen
+Italian language (Calefato et al., 2014): googleSpeech, in go back. We also developed a Gazebo plugin to play/stop the
+charge of converting the sound provided by the microphone animation,updatethewalkingspeedandreachspecifictargetsin
+into transcript, and googleSpeechProcess, in charge of the environment.
+analyzing the speech transcripts in order to retrieve the The software is publicly available in the assistive-rehab
+sentence structure and meaning. Such system is constrained repository7 and fully documented. The dedicated website8 also
+to a set of pre-defined topics related to the TUG, each providesanoverviewofthework,includingtutorialsforrunning
+associated to a pre-defined answer provided by the robot. the software.
+Two are the potential sources of error: 1) the sound is not
+understood (at googleSpeech level) and 2) the question
+does not belong to any of the handled topics (at 7https://github.com/robotology/assistive-rehab
+googleSpeechProcess level). In the first case, the 8https://robotology.github.io/assistive-rehab/doc/mkdocs/site/
+FrontiersinRoboticsandAI|www.frontiersin.org 5 February2022|Volume9|Article813843
+Vascoetal. HR1RobotHealthcareAssistant
+FIGURE2|TheTUGdevelopedinGazebo.
+FIGURE3|TheActorwiththeboundingboxaroundthetorsoandthelowerspinekeypoint(A)andtheActorwalkingcomparedtothefinishlineframe(B).Red
+greenandblueaxesrepresentx,yandzrespectively.
+4 EXPERIMENTAL DESIGN theexperiment.Wethenstartthetrial,measuringthetruetime
+the Actor takes to complete the trial. Finally, we store all the
+In order to test the architecture, we developed a simulation data for this trial. We performed 1,000 trials for each of the
+environment in Gazebo containing an Actor representing the experiments, in order to provide enough data for a significant
+humanpatient,therobotplatform,thetwoArUcomarkersanda quantitative validation.
+chair. The scenario can be visualized in Figure 2. This
+environment allows the intensive testing required to perform a 4.1 Ground Truth
+firstquantitativevalidationofthesoftware.Themainobjectiveof Toverifythesystem,weneedtocompareitsmeasurementswith
+these experiments is to verify the accuracy of the robot when the actual situation in the scenario. The data acquired by the
+comparedtoagroundtruththatweobtainfromtheenvironment robot consists of the time to complete the test, the number of
+itself. In this section we will discuss how to obtain the ground stepsthepatienttakes,andwhethertheypassedthetestornot.
+truthfromtheenvironment,alongwiththethreeexperimentswe RetrievingthisinformationfromGazebosimulationisnottrivial,
+perform in these conditions. sincethereisnoparticularstructurewecancollectthisdatafrom.
+Foreachtrial,wefirstsettheconditionsofthetrial(e.g.:speed, We must, therefore, compute these values for each trial.
+targetdistance)fortheActor.Wethencomputethenumberof The time to complete the experiment consists of the time
+stepstheActorshouldtaketocompletethetrial,whileupdating betweentheuserfirststandingupandthenfinallysittingdown.
+theodometryoftheSARplatformtoensureaccuraterepetitionof The Gazebo Actor performs actions based on a set of
+FrontiersinRoboticsandAI|www.frontiersin.org 6 February2022|Volume9|Article813843
+Vascoetal. HR1RobotHealthcareAssistant
+FIGURE4|Experiment1:themeasured(red)andthegroundtruthtime FIGURE5|Theerrorintimeforalltheexperiments(1,2and3).
+(blue)withrespecttotheActor’sspeed.
+animations, and it is possible to query the current animation
+beingplayed.Thetimeiscalculatedbetweenthestatetransitions
+“sitting-standup”and“standing-sitdown”.Unfortunately,the
+time of the standing up and sitting down animations is not
+constantbetweentrials,sowehadtomeasurethetimeforeach
+trial individually, even when the conditions were otherwise
+unchanged.
+Toobtainthetruenumberofstepswecomputedhowmany
+stepstheActor wouldhaveto taketoreachthedesiredtarget
+and return, adding one extra step for the turn. This is possible
+since the step length of the Actor is fixed.
+Finally,toverifyiftheActorpassedthetest,wehadtoverify
+whenitcrossedthetargetline.TheActor’sanimatedmotionis
+definedwithrespecttoakeypointplacedinthelowerspine.Since
+FIGURE6|Experiment1:themeasured(red)andthegroundtruth
+the tracking is performed at the waist level instead, and the numberofsteps(blue)withrespecttotheActor’sspeed.
+position is obtained by measuring the position with depth
+cameras, we had to verify when the front of the waist crossed
+the line instead of relying on the center of the Actor. To Actorhavingtomove4mforward(4.5mfromoriginofthe
+compute this, we fitted a bounding box around the Actor’s simulation), turn around, and return to the original position.
+torsoandcalculatedtheoffsetofthefrontsurfaceofthewaistof Thefinishlineissetat3mfromthestart(3.5mfromoriginof
+the Actor in relation to its center, as shown in Figure 3. We the simulation) as defined in the TUG test, and we set the
+couldthencalculateiftheActorpassedornotatestsimplyby target distance to 4m in order to guarantee that the Actor
+checking actorTarget + offset > = testTarget. For example, crossestheline.ThenumberofstepsoftheActorwerethus
+Figure 3B compares the use of the Actor lower spine with unchanged for every trial, while the time changed based on
+theboundingboxwhentheActorcrossesthefinishline:ifthe the speed.
+frontsurfaceofthewaistisnotconsidered,thegroundtruthfor Inexperiment2wechangedinsteadthetargetdistanceforthe
+this trial would erroneously be classified as not passed. Actor.Withthisexperimentwestudiedhowthesystemreacted
+toadifferentnumberofsteps.Foreachtrialthetargetpositionfor
+4.2 Experiment Conditions theActorwassampledbetween2.0and5.0m(2.5–5.5mfrom
+Eachexperimenttestedadifferentaspectofthesystem,inorder theoriginofthesimulation).Thespeedwassetconstantat0.9.In
+to validate its accuracy under different conditions. this trial both the time and number of steps varied.
+In experiment 1 we changed the speed of the Actor in Finally,inexperiment3westudiedtheaccuracyofthesystem
+order to test how good the tracking of the system performed whendetectingifthepatientpassedthetestornot.Toverifythis,
+underdifferentspeeds.Eachtrialwesampledthespeedfroma weagainsampledthetargetdistanceoftheActorbutarounda
+uniform distribution between 0.5 and 1.3, corresponding to muchnarrowerwindow,between3.0and4.0(3.5and4.5mfrom
+roughlythesamevalueinmeterspersecond.Wechosethese originofthesimulation),inordertotestthelimitcondition.Asin
+values considering the average walking speed of the elderly experiment2,thespeedhereissetconstantat0.9forallthetrials.
+patients, which is typically around 0.8–0.9m/s (Busch et al., Themaintargetofthisexperimentistoverifythepass/not-pass
+2015).Nootherconditionswerechangedinthetrial,withthe result.
+FrontiersinRoboticsandAI|www.frontiersin.org 7 February2022|Volume9|Article813843
+Vascoetal. HR1RobotHealthcareAssistant
+FIGURE7|Theycomponentoftheleft(red)andright(blue)anklefora
+speedof0.9m/s.
+FIGURE10|Experiment2:themeasured(red)andthegroundtruth
+numberofsteps(blue)withrespecttothetargettoreach.
+includes a final part where the Actor sits. The robot instead
+detects if the Actor is about to stand or sit based on the neck
+position.Therefore,itdoesnottakeintoaccounttheadditional
+contribution provided by the ground truth, resulting in lower
+values.
+FIGURE8|Theycomponentoftheleft(red)andright(blue)anklefora
+speedof1.3m/s.Thegreyareasshowtimeintervalswherestepsaremissed, Inordertoevaluatetheconsistencyoftheerrorfordifferent
+i.ebetween11.4and11.9s(skeletonfallingoutofthefieldofview)and scenarios,weestimateditoveralltheexperiments,1,2and3.As
+between15.2and15.6s(skeletonistoofarfromtherobot). showninFigure5,theerroriscoherentwithanaveragevalueof
+[0.77±0.86]s.
+Forthespeedsevaluatedinthisexperiment,wecomparedthe
+5 RESULTS number of steps measured by the robot with the ground truth,
+which was estimated to be 13 steps. As shown in Figure 6, the
+5.1 Experiment 1: Changing the Actor’s
+measured number of steps (red dots) follows the ground truth
+Speed (blue line), with an average error of [0.64±0.71] steps. For
+Figure4showsthetimemeasuredbytherobotcomparedtothe higherspeeds,theprobabilityofunderestimatingthenumberof
+ground truth time, with respect to Actor’s speed. The result stepsishigher.Figures7,8showtheycomponentoftheleftand
+indicatesthatthemeasuredtimeconsistentlyfollowstheground rightanklesfortwodifferentspeeds,0.9and1.3m/srespectively.
+truth,decreasingforincreasingspeeds,withanaverageerrorof The walking pattern is clear for both speeds, with the left and
+[0.47±0.06]s.Sucherroroccursduetoaninherentlimitationin right ankles alternating and then switching when the Actor
+thedefinition of theground truth time:we startmeasuring this turns back. However, at higher speeds, some steps are missed
+timewhenthestandupanimationstarts,whichincludesalsoan whentheActorapproachestherobot(between11.4and11.9s)
+initial part where the Actor sits. Similarly, we stop measuring orwhenhemovesawayfromit(between15.2and15.6s).This
+thegroundtruthtimewhenthesitdownanimationstops,which occurs because the robot maintains a fixed distance from the
+FIGURE9|TheycomponentoftheActor’shipcenter(red)androbotbase(blue)foraspeedof1.3m/s(A)and0.5m/s(B).
+FrontiersinRoboticsandAI|www.frontiersin.org 8 February2022|Volume9|Article813843
+Vascoetal. HR1RobotHealthcareAssistant
+FIGURE11|TheActorturningbackwhenreachingatargetdistanceat2.0m.
+FIGURE12|TheActorturningbackwhenreachingatargetdistanceat2.3m.
+Actor’shipcenter,butisunabletokeepitwhentheirspeedsare
+considerablydifferent.Figure9comparestheActor(red)and
+therobotlocations(blue)whentheActorwalksat0.6m/s(A)
+and1.3m/s(B)respectivelyandtherobotmovesat0.4m/s:when
+thespeeds(i.e.theslopes)arecomparable,thedistancebetween
+thecurvesisfixed,indicatingthattherobotcanproperlyfollow
+the Actor. However, when the speeds start deviating
+significantly, the distance between the curves varies with two
+potentialdetrimentaleffects:1)theskeletonpartiallyfallsoutof
+thefieldofviewandthussomestepsaremissedand2)whenthe
+Actorturnsback,therobotmovesawayfromittoreachthepre-
+defineddistance.Thiscanleadtothemis-detectionofstepsinthe
+2D image.
+FIGURE13|Theamountoftruepositives/negativesandfalsepositives/
+negativesgroupedwithrespecttothey-distancefromthefinishline.
+5.2 Experiment 2: Changing the Target to
+Reach
+Figure 10 shows the number of steps measured by the robot insteadisnarrowerandnotdetectedbytherobot.Thesameeffect
+comparedtothegroundtruthsteps,withrespecttothetargetto applieswhentheActorreachesthechairandturnsaroundtosit
+reach. The measured number of steps consistently follows the down.However,thisisanartifactoftheActoranimation,asit
+groundtruth,increasingforincreasingdistances,withanaverage rigidly turns around its center of mass.
+errorof1.11±0.80steps.However,aroundthetransitionareas
+corresponding to steep changes in the ground truth steps, the
+5.3 Experiment 3: Evaluating the Accuracy
+measured number of steps is over- and under-estimated
+respectively before and after the change. This occurs as the Around the Finish Line
+step’s length the Actor does when turning back changes with We computed the percentage of true positives/negatives, false
+thetargetdistance.Figures11,12showtheActorturningback positives/negatives and evaluated accuracy, precision and recall.
+whenreachingatargetdistanceof2.0and2.3mrespectively.In Weachievedanaccuracyof92.30%,withaprecisionof90.09%
+thefirstcase,thestepiswideandmeasuredtwice,bothwhenthe
+andarecallof100.0%.Theseresultswereobtainedverycloseto
+Actormovesforwardandthenback.Inthesecondcase,thestep thefinishline,wherefalsepositives/negativesaremorelikelyto
+FrontiersinRoboticsandAI|www.frontiersin.org 9 February2022|Volume9|Article813843
+Vascoetal. HR1RobotHealthcareAssistant
+FIGURE14|Thedevisedframework.
+happen, a worst case scenario for this type of measurement; on error by calibrating the threshold based on the height of the
+regular tests, this type of error is even less likely to happen. patient.
+We can visualize this effect on Figure 13, where the false The number of steps measured is also quite accurate,
+positives are all concentrated just before the finish line, and in particularly considering the speed range of the target patients,
+very low number. We can also see that the area where false consistingofelderlyandmotion-impairedpatients.Theaverage
+positivesaredetected,within0.08mfromthefinishline,wehave errorof1.1±0.80stepsisnotnegligiblecomparedtoastandard
+onlyfalsepositives.Theabsenceoftruenegativesinthesamearea TUG execution. However, this is widely due to artifacts of the
+suggests that the false positives are not due to noise in the Actor’s animated motion when turning back, as described in
+measurement of the skeleton, but rather a minor offset Section 5.2, and will potentially improve when testing the
+between the skeleton detected by the robot and the ground architecture on the real platform. The accuracy is also reduced
+truth estimated for the Actor waist. In any case, this offset is forpatientsthatperformthetestwithhigherspeeds,inabigpart
+intheorderofcentimeters,andshouldnotaffecttheoveralltrial. duetotheinabilityoftherobottofollowthepatientsthroughthe
+No false positives nor false negatives were detected beyond the test. Some possible improvements to obtain better results and
+range shown in Figure 13. mitigatethemisdetectionscouldbetoimprovethenavigation,by
+adaptingthedistancebetweenrobotandpatienttothemeasured
+patient’s walking speed. Finally, improvements in skeleton
+6 DISCUSSION detection models, particularly when integrating prior
+information of the human kinematic structure, could also lead
+Withtheresultsoftheexperimentsdiscussedinsection5we tomoreaccuratemeasuredkeypoints,whichinturnwouldlead
+tested the effectiveness of a robot architecture to evaluate a tobetterestimationofthesteps.Also,differentskeletondetection
+TUG test with different patient speeds and distances. The methodscouldbeexplored(Lugaresietal.,2019),whichdirectly
+system performed well, keeping track of the patient and include depth perception in the skeleton model (Wang et al.,
+accurately measuring the relevant data, namely time and 2021).
+number of steps, with which we can estimate cadence, step Theaccuracyofthesuccess/failconditionoftheTUGtestwas
+length, speed. also evaluated, particularly around the finish line, in order to
+Themeasurementofthetimeofthetrialisaccurateinallthe evaluatetheabilityoftheSARtosuccessfullymeasuretheresult
+rangeofActorspeed,keepingaconsistenterrorthroughoutthe ofthetest.Theaccuracyofthismeasurementwasquitehighand
+trialswhich,asexplainedinSection5.1,isduetoadiscrepancy consistent across trials, which could prove to be an advantage
+betweentheActorstateofsit/standingandthemeasurementof whencomparedtoevaluationbyaphysiotherapist,particularlyin
+the robot, which relies on a particular height threshold. Future caseswhereitisnotentirelyclearifthepatientpassedthetestor
+improvements could fine-tune the system to account for this not. The trials also detected only false positives and no false
+FrontiersinRoboticsandAI|www.frontiersin.org 10 February2022|Volume9|Article813843
+Vascoetal. HR1RobotHealthcareAssistant
+negatives,andtheresultssuggestanoffsetispresentbetweenthe be extremely useful, particularly considering the target
+measured skeleton and the ground truth. The overlap between patients for this test, who are often motion-impaired and
+false positives and both true negatives and true positives is also pronetofalls,istodetectpatternsthatleadtofallsandraise
+quitesmall,meaningwithsomecalibrationofthismeasurement an alert when such a pattern is detected. This would further
+to eliminate this offset we could minimize the number of false help the physiotherapist in preventing serious harm to
+positives obtained during the trials. patients that start displaying falling patterns. Similarly, the
+Withtheseresultswevalidate,insimulation,thecapabilityof system could learn to detect common walking impairments
+thesystemtoassistphysiotherapistsinperformingtheTUGtest, thatcouldgounnoticedwithoutconsistentdataanalysis,thus
+collecting valuable data for analysing the improvement of allowingthephysiotherapisttomonitorthesituationandact
+patients. Further validation, to be performed in future work, accordingly.
+comprisesexecutiononthephysicalplatform,runningtrialswith Furthermore,thecurrentnavigationsystemispurelyreactive,
+naiveparticipantsandcollectingperformancedata.Thisshould allowing the robot to navigate based on the received perceptual
+provideamoreaccuratepictureofthebehaviorofthesystemin stimuli,coming fromfrontand backLIDARs.Someobjects are
+the real world. notdetectedbythesesensors,giventheirlimitedfieldofviewand
+range (e.g., tables). Visual perception could overcome these
+limitations and complement the use of the LIDARs.
+7 CONCLUSION Finally,thespeechsystemusedinthisarchitectureiscurrently
+quite simple, relying on a simple, if sophisticated, query system
+Inthispaperwepresentedasoftwarearchitectureimplementedin responsible for answering patient questions. Further
+anR1robotthatguidesandmonitorspatientswhileperforminga development in this aspect could see the use of a
+TUGtrial.Thearchitectureconsistsonmultiplemodulesasshown conversational agent, which would enhance the interaction
+in Figure 14, from navigation and control, to skeleton detection with the patients and leave them more at ease when
+and tracking, to verbal interaction, all integrated by means of interacting with the robot and physiotherapist.
+YARP.AnanalysisofitsexecutionwasprovidedusingaGazebo
+simulation with a simulated Actor. The data extracted during
+thesetrialsshowcasetheabilityofsuchanarchitecturetoassista DATA AVAILABILITY STATEMENT
+therapistinevaluatingpatients,extractingconsistentandreliable
+dataintermsoftime,numberofstepsandthesuccessorfailureof The raw data supporting the conclusions of this article will be
+the testby thepatient. made available by the authors, without undue reservation.
+Thearchitecturewillbefurtherevaluatedandvalidatedonthe
+physicalplatform,firstwithnon-naivehealthysubjectsandthen
+with patients in hospital settings. In the long term, we aim at AUTHOR CONTRIBUTIONS
+developing a robotic solution that takes care of all the activities
+involved in the administration of the TUG test in the hospital. VV and AA performed the experiments and wrote the
+Suchasystemwouldreleasethestrainonthecurrenthealthcare manuscript under direct supervision of VT and UP and under
+and social systems and yield a positive impact on the cost- project supervision of MM, LN, and VG.
+effectiveness of rehabilitation pathways.
+Possible improvements to the current model were also
+discussed in Section 6, from improvements in the robot FUNDING
+platform to more accurate skeleton depth perception.
+Additional improvements could be appended to the This project has received funding from the European Union’s
+architecture, in order to make use of the rich amount of Horizon2020 researchandinnovationprogramme undergrant
+datacollectedduringthetrials.Onesuchexamplethatcould agreement No 101004594 (ETAPAS).
+REFERENCES Biomedical Robotics and Biomechatronics (BioRob) (Rome, Italy: IEEE),
+1715–1720.
+Busch,T.D.A.,Duarte,Y.A.,PiresNunes,D.,Lebrão,M.L.,SatyaNaslavsky,M.,
+Beerse,M.,Lelko,M.,andWu,J.(2019).BiomechanicalAnalysisoftheTimedUp- DosSantosRodrigues,A.,etal.(2015).FactorsAssociatedwithLowerGait
+And-Go(Tug)TestinChildrenwithandwithoutDownSyndrome.Gait& SpeedAmongtheElderlyLivinginaDevelopingCountry:ACross-Sectional
+Posture68,409–414.doi:10.1016/j.gaitpost.2018.12.027 Population-Based Study. BMC Geriatr. 15, 1–9. doi:10.1186/s12877-015-
+Berrada,D.,Romero,M.,Abowd,G.,Blount,M.,andDavis,J.(2007).“Automatic 0031-2
+AdministrationoftheGetupandGoTest,”inProceedingsofthe1stACM Calefato,F.,Lanubile,F.,Prikladnicki,R.,andPinto,J.H.S.(2014).“AnEmpirical
+SIGMOBILEinternationalworkshoponSystemsandnetworkingsupportfor Simulation-Based Study of Real-Time Speech Translation for Multilingual
+healthcare and assisted living environments, 73–75. doi:10.1145/1248054. Global Project Teams,” in Proceedings of the 8th ACM/IEEE International
+1248075 SymposiumonEmpiricalSoftwareEngineeringandMeasurement,1–9.doi:10.
+Brooks,D.,Chen,Y.-p.,andHoward,A.M.(2012).“SimulationversusEmbodied 1145/2652524.2652537
+Agents: Does Either Induce Better Human Adherence to Physical Therapy Cao, Z., Hidalgo, G., Simon, T., Wei, S. E., and Sheikh, Y. (2019). Openpose:
+Exercise?,” in 2012 4th IEEE RAS & EMBS International Conference on Realtime Multi-Person 2d Pose Estimation Using Part Affinity fields. IEEE
+FrontiersinRoboticsandAI|www.frontiersin.org 11 February2022|Volume9|Article813843
+Vascoetal. HR1RobotHealthcareAssistant
+Trans. Pattern Anal. Mach Intell. 43, 172–186. doi:10.1109/TPAMI.2019. Robot Riba,” in 2011 IEEE International Conference on Robotics and
+2929257 Automation (Shanghai, China: IEEE), 5435–5441. doi:10.1109/ICRA.2011.
+Céspedes Gómez, N., Irfan, B., Senft, E., Cifuentes, C. A., Gutierrez, L. F., 5979559
+Rincon-Roncancio,M.,etal.(2021).ASociallyAssistiveRobotforLong- Parmiggiani,A.,Fiorio,L.,Scalzo,A.,Sureshbabu,A.V.,Randazzo,M.,Maggiali,
+Term Cardiac Rehabilitation in the Real World. Front. Neurorobotics M.,etal.(2017).“TheDesignandValidationoftheR1PersonalHumanoid,”in
+15,21. 2017 IEEE/RSJ international conference on intelligent robots and systems
+Chaudhary, K., Deshpande, S., Baswant, V., Shintre, C., and Bandi, Y. (2021). (IROS) (Vancouver, BC, Canada: IEEE), 674–680. doi:10.1109/iros.2017.
+“Baymax-theHealthcareRobot,”in20212ndInternationalConferencefor 8202224
+Emerging Technology, INCET 2021, 1–6. doi:10.1109/INCET51464.2021. Pham,V.C.,Lim,Y.,Bui,H.-D.,Tan,Y.,Chong,N.Y.,andSgorbissa,A.(2020).
+9456437 “An Experimental Study on Culturally Competent Robot for Smart home
+Ding,J.,Lim,Y.J.,Solano,M.,Shadle,K.,Park,C.,Lin,C.,etal.(2014).“Giving Environment,” in International Conference on Advanced Information
+PatientsaLift-theRoboticNursingAssistant(Rona),”inIEEEConferenceon Networking and Applications (Cham: Springer), 369–380. doi:10.1007/978-
+TechnologiesforPracticalRobotApplications,TePRA(Woburn,MA,USA: 3-030-44041-1_34
+IEEE),1–5.doi:10.1109/tepra.2014.6869137 Podsiadlo,D.,andRichardson,S.(1991).TheTimed"Up&Go":ATestofBasic
+Fasola, J., and Matarić, M. J. (2013). Socially Assistive Robot Exercise Coach: FunctionalMobilityforFrailElderlyPersons.J.Am.Geriatr.Soc.39,142–148.
+MotivatingOlderAdultstoEngageinPhysicalExercise.Exp.Robotics2013, doi:10.1111/j.1532-5415.1991.tb01616.x
+463–479.doi:10.1007/978-3-319-00065-7_32 Poitras, I., Dupuis, F., Bielmann, M., Campeau-Lecours, A., Mercier, C.,
+Feil-Seifer,D.,andMataric,M.J.(2005).“DefiningSociallyAssistiveRobotics,”in Bouyer,L.,etal.(2019).ValidityandReliabilityofWearableSensorsfor
+9thInternationalConferenceonRehabilitationRobotics,2005.ICORR2005 Joint AngleEstimation: ASystematic Review. Sensors 19, 1555.doi:10.
+(Chicago,IL,USA:IEEE),465–468. 3390/s19071555
+Frenken,T.,Vester,B.,Brell,M.,andHein,A.(2011).“Atug:Fully-Automated Sprint, G., Cook,D. J., and Weeks, D.L. (2015). Toward Automating Clinical
+TimedupandGoAssessmentUsingAmbientSensorTechnologies,”in2011 Assessments:ASurveyoftheTimedupandGo.IEEERev.Biomed.Eng.8,
+5th International Conference on Pervasive Computing Technologies for 64–77.doi:10.1109/RBME.2015.2390646
+Healthcare (PervasiveHealth) and Workshops, 55–62. doi:10.4108/icst. Szucs, V., Karolyi, G., Tatar, A., and Magyar, A. (2018). “Voice Controlled
+pervasivehealth.2011.245985 HumanoidRobotBasedMovementRehabilitationFramework,”in9thIEEE
+Gago,J.J.,Vasco,V.,Ukawski,B.,Pattacini,U.,Tikhanoff,V.,Victores,J.G.,etal. International Conference on Cognitive Infocommunications, CogInfoCom
+(2019). Sequence-to-Sequence Natural Language to Humanoid Robot Sign 2018 - Proceedings (Budapest, Hungary: IEEE), 191–196. doi:10.1109/
+Language.Robotics.doi:10.11128/arep.58 CogInfoCom.2018.8639704
+IbarraZannatha,J.M.,Tamayo,A.J.M.,Sánchez,Á.D.G.,Delgado,J.E.L.,Cheu, Vasco,V.,Willemse,C.,Chevalier,P.,DeTommaso,D.,Gower,V.,Gramatica,F.,
+L.E.R.,andArévalo,W.A.S.(2013).DevelopmentofaSystemBasedon3D etal.(2019).“TrainwithMe:AStudyComparingaSociallyAssistiveRobotand
+Vision, Interactive Virtual Environments, Ergonometric Signals and a a Virtual Agent for a Rehabilitation Task,” in Social Robotics. Editors
+Humanoid for Stroke Rehabilitation. Comput. Methods Programs Biomed. M. A. Salichs, S. S. Ge, E. I. Barakova, J.-J. Cabibihan, A. R. Wagner,
+112,239–249.doi:10.1016/j.cmpb.2013.04.021 Á. Castro-González, et al. (Cham: Springer International Publishing),
+Irfan,B.,Gomez,N.C.,Casas,J.,Senft,E.,Gutiérrez,L.F.,Rincon-Roncancio,M., 453–463.doi:10.1007/978-3-030-35888-4_42
+et al. (2020). “Using a Personalised Socially Assistive Robot for Cardiac Wade, E., Parnandi, A. R., and Matarić, M. J. (2011). “Using Socially
+Rehabilitation: a Long-Term Case Study,” in 2020 29th IEEE International AssistiveRoboticstoAugmentMotorTaskPerformanceinIndividuals
+Conference on Robot and Human Interactive Communication (RO-MAN) post-stroke,”in2011IEEE/RSJInternationalConferenceonIntelligent
+(Naples,Italy:IEEE),124–130.doi:10.1109/ro-man47096.2020.9223491 RobotsandSystems(SanFrancisco,CA,USA:IEEE),2403–2408.doi:10.
+Kitsunezaki, N., Adachi, E., Masuda, T., and Mizusawa, J.-i. (2013). “Kinect 1109/iros.2011.6095107
+Applications for the Physical Rehabilitation,” in 2013 IEEE International Wang,J.,Tan,S.,Zhen,X.,Xu,S.,Zheng,F.,He,Z.,etal.(2021).Deep3dHuman
+Symposium on Medical Measurements and Applications (MeMeA) PoseEstimation:AReview.ComputerVis.ImageUnderstanding210,103225.
+(Gatineau,QC,Canada:IEEE),294–299.doi:10.1109/memea.2013.6549755 doi:10.1016/j.cviu.2021.103225
+Kleiner,A.F.R.,Pacifici,I.,Vagnini,A.,Camerota,F.,Celletti,C.,Stocchi,F.,etal. WHO(2015).WorldReportonAgeingandHealth.Geneva,Switzerland:World
+(2018).Timedup andGoEvaluationwithWearableDevices: Validationin HealthOrganization.
+Parkinson’sDisease.J.BodyworkMove.Therapies22,390–395.doi:10.1016/j. Wood,L.J.,Zaraki,A.,Robins,B.,andDautenhahn,K.(2021).DevelopingKaspar:
+jbmt.2017.07.006 aHumanoidRobotforChildrenwithAutism.Int.J.Soc.Robotics13,491–508.
+Li,J.(2015).TheBenefitofBeingPhysicallyPresent:ASurveyofExperimental doi:10.1007/s12369-019-00563-6
+WorksComparingCopresentRobots,TelepresentRobotsandVirtualAgents.
+Int.J.Human-ComputerStud.77,23–37.doi:10.1016/j.ijhcs.2015.01.001 ConflictofInterest:Theauthorsdeclarethattheresearchwasconductedinthe
+Lohmann,O.,Luhmann,T.,andHein,A.(2012).“SkeletonTimedupandGo,”in absenceofanycommercialorfinancialrelationshipsthatcouldbeconstruedasa
+2012 IEEE International Conference on Bioinformatics and Biomedicine potentialconflictofinterest.
+(Philadelphia,PA,USA:IEEE),1–5.doi:10.1109/bibm.2012.6392610
+Lugaresi,C.,Tang,J.,Nash,H.,McClanahan,C.,Uboweja,E.,Hays,M.,etal. Publisher’sNote:Allclaimsexpressedinthisarticlearesolelythoseoftheauthors
+(2019). Mediapipe: A Framework for Building Perception Pipelines. arXiv anddonotnecessarilyrepresentthoseoftheiraffiliatedorganizations,orthoseof
+preprintarXiv:1906.08172. thepublisher,theeditorsandthereviewers.Anyproductthatmaybeevaluatedin
+Lunardini,F.,Luperto,M.,Romeo,M.,Renoux,J.,Basilico,N.,Krpic,A.,etal. thisarticle,orclaimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+(2019).“TheMovecareProject:Home-basedMonitoringofFrailty,”in2019 endorsedbythepublisher.
+IEEE EMBS International Conference on Biomedical & Health Informatics
+(BHI)(Chicago,IL,USA:IEEE),1–4.doi:10.1109/BHI.2019.8834482 Copyright © 2022 Vasco, Antunes, Tikhanoff, Pattacini, Natale, Gower and
+Metta, G., Fitzpatrick, P., and Natale, L. (2006). YARP: Yet Another Robot Maggiali. This is an open-access article distributed under the terms of the
+Platform.Int.J.Adv.RoboticSyst.3,8.doi:10.5772/5761 Creative Commons Attribution License (CC BY). The use, distribution or
+Moran,M.E.(2006).Thedavincirobot.J.endourology20,986–990.doi:10.1089/ reproduction in other forums is permitted, provided the original author(s) and
+end.2006.20.986 thecopyrightowner(s)arecreditedandthattheoriginalpublicationinthisjournalis
+Mukai,T.,Hirano,S.,Yoshida,M.,Nakashima,H.,Guo,S.,andHayakawa,Y. cited, in accordance with accepted academic practice. No use, distribution or
+(2011). “Tactile-based Motion Adjustment for the Nursing-Care Assistant reproductionispermittedwhichdoesnotcomplywiththeseterms.
+FrontiersinRoboticsandAI|www.frontiersin.org 12 February2022|Volume9|Article813843

@@ -1,0 +1,750 @@
+BritishJournalofNutrition(2024),131,219–228 doi:10.1017/S0007114523001666
+©TheAuthor(s),2023.PublishedbyCambridgeUniversityPressonbehalfofTheNutritionSociety.ThisisanOpenAccessarticle,distributed
+underthetermsoftheCreativeCommonsAttributionlicence(http://creativecommons.org/licenses/by/4.0/),whichpermitsunrestrictedre-use,
+distributionandreproduction,providedtheoriginalarticleisproperlycited.
+Dietary intervention in gestational diabetes: a qualitative study of the
+acceptability and feasibility of a novel whole-diet intervention in healthcare
+professionals
+LauraCarolineKusinski1,RebeccaRichards2,DanielleL.Jones1,ElizabethTurner1,3,DeborahJHughes1,3,
+Pamela Dyson4,5, Amy L. Ahern2 and Claire Louise Meek1,3*
+1Wellcome-TrustMRCInstituteofMetabolicScienceMetabolicResearchLaboratories,UniversityofCambridge,Cambridge
+BiomedicalCampus,CambridgeCB20QQ,UK
+2MRCEpidemiologyUnit,UniversityofCambridge,CambridgeBiomedicalCampus,CambridgeCB20QQ,UK
+3CambridgeUniversitiesNHSFoundationTrust,Cambridge,HillsRoad,CambridgeCB20QQ,UK
+4OxfordUniversityHospitalsNHSFoundationTrust,JohnRadcliffeHospital,HeadleyWay,Headington,OxfordOX39DU,UK
+5OxfordCentreforDiabetes,Endocrinology&Metabolism,ChurchillHospital,UniversityofOxford,Headington,OxfordOX3
+7LE,UK
+(Submitted1February2023–Finalrevisionreceived14July2023–Accepted21July2023–Firstpublishedonline10August2023)
+Abstract
+Gestationaldiabetesistreatedwithmedicalnutritiontherapy,deliveredbyhealthcareprofessionals;however,theoptimaldietforaffected
+womenisunknown.Randomisedcontrolledtrials,suchastheDiGest(DietaryInterventioninGestationalDiabetes)trial,willaddressthis
+knowledgegap,buttheacceptabilityofwhole-dietinterventionsinpregnancyisunclear.Whole-dietapproachesreducebiasbutrequirehigh
+levels of participant commitment and long intervention periods to generate meaningful clinical outcomes. We aimed to assess healthcare
+professionals’viewsontheacceptabilityoftheDiGestdietboxinterventionforwomenwithgestationaldiabetesandtoidentifyanybarriersto
+adherencewhichcouldbeaddressedtosupportgoodrecruitmentandretentiontotheDiGesttrial.Femalehealthcareprofessionals(n16)were
+randomlyallocatedtoreceiveaDiGestdietboxcontaining1200or2000kcal/dincludingatleastoneweeks’food.Asemi-structuredinterview
+wasconductedtoexploreparticipants’experienceoftheintervention.Interviewswereaudio-recorded,transcribedverbatimandanalysed
+thematicallyusingNVivosoftware.Basedonthefindingsofqualitativeinterviews,modificationsweremadetothedietboxes.Participantsfound
+thedietboxesconvenientandenjoyedthevarietyandtasteofthemeals.Factorswhichfacilitatedadherenceincludedparticipantshavingagood
+understandingofstudyaimsandsufficientorganisationalskillstofacilitateweeklymealplanninginadvance.Barrierstoadherenceincluded
+peerpressureduringsocialoccasionsandfeelingsofdeprivationorhunger(affectingbothstandardandreducedcaloriegroups).Healthcare
+professionalsconsideredrandomallocationtoawhole-dietreplacementinterventiontobeacceptableandfeasibleinaclinicalenvironmentand
+offeredbenefitstoparticipantsincludingconvenience.
+Keywords: Qualitativeresearch:Foodintervention:Gestationaldiabetes:Lifestyle:Pregnancy:Reducedcalorie:Randomised
+controltrial
+Gestationaldiabetes,themostcommonmedicalcomplicationof Randomisedcontrolledtrialsareconsideredthegoldstandard
+pregnancy, is managed with medical nutritional therapy(1). ofscientificevidenceandarewidelyusedtoassessnovelmedical
+However,theoptimaldietinwomenwithgestationaldiabetes therapies. However, their use in the field of nutrition is
+has not been identified. A recent meta-analysis identified controversial(3). Nutritional and dietary studies pose challenges
+multiple studies addressing nutritional management of gesta- forrandomisationandblinding,andlonginterventionperiodsare
+tional diabetes(2), but many were small in size or flawed in oftenneededtogenerateclinicallymeaningfuloutcomes(4).This
+design, demonstrating a need for better methodologies for hasledtosomecriticismthatrandomisedstudiesareunfeasible
+nutritionalstudiesinpregnancy. andinappropriatefornutritionalresearch(3,5).
+Abbreviation: DiGest,DietaryInterventioninGestationalDiabetes.
+*Correspondingauthor:DrClaireLouiseMeek,emailclm70@cam.ac.UK
+https://doi.org/10.1017/S0007114523001666
+Published
+online
+by
+Cambridge
+University
+Press
+220 L.C.Kusinskietal.
+There are three main methods of using randomised low-energy diet in pregnancy. A whole-diet approach also
+controlledtrialsinnutritionalresearch,includinguseofdietary reduces socio-economic or educational barriers which might
+adviceasanintervention,useoffooditemsorfoodsupplements influence participants’ ability to following an intervention diet
+in comparison with placebo, or using ‘whole-diet’ strategies withdietaryadvicealone.
+whichfocusonalteringthequalityorcompositionofthewhole Ourinitialshort-termtestingoffeasibilitywasconductedin
+diet(6).Whileprovidingindividualiseddietaryadviceislabour- healthcare professionals caring for pregnant women with
+intensive,itisachievableinaclinicalenvironmentandprovides gestational diabetes. This was so that we could optimise the
+evidence directly applicable to real-world clinical care. intervention before trialling it in women with gestational
+However, bias due to pre-existing dietary choices, available diabetes. We hypothesised that the feasibility of whole-diet
+income,cookingskillsandnutritionalknowledgecanattenuate interventions in pregnant women with gestational diabetes
+the positive effect of the intervention(4). Food supplements, waslikelytobestronglyinfluencedbytheviewsofhealthcare
+aloneorincomparisonwithplacebo,havebeenwidely used, professionals.Healthcareprofessionalshavetheopportunity
+but results are likely to vary depending on whether or not tosupportadherencetotheinterventionbutalsocouldreduce
+previousdietarynutrientintakewasadequateandoftenthisis adherence if they considered the intervention less suitable
+incompletely assessed(4). Randomised whole-diet approaches, than standard care. Healthcare professionals might also be
+suchasthosewhereallfoodisprovidedtoparticipants,reduce concernedwiththeemotionalorpracticalburdenofawhole-
+biasbutareoftenconsideredunfeasibleduetotherequirement diet intervention to women who are under their care. The
+for high levels of participant commitment during the long main objective of this study was to assess healthcare
+intervention periods required to generate meaningful clinical professionals’viewsontheacceptabilityoftheDiGestdietbox
+outcomes(4).However,fromabehaviouralperspective,whole- interventionforwomenpatientswithgestationaldiabetes.A
+dietfoodprovisioncanmakeiteasierforpeopletoadheretoa secondaryobjectivewastoassessifthehealthcareprofession-
+dietbysimplifyingdietarychoices,structuringeatingoccasions, als identified any barriers to adherence which could be
+increasing accuracy of calorie and portion size estimation and addressed to support good recruitment and retention to the
+modifyingthehomefoodenvironmenttoincreaseavailabilityof DiGesttrial.
+nutritiousfood(7).
+Well-designedstudiesofwhole-dietprovisioncanprovide
+novel data about disease aetiology and management. An
+Experimentalmethods
+example of a successful whole-diet intervention was the
+DiRECT trial, a reduced-energy diet (825–853 kcal/d) in non- TheDiGestrandomisedcontrolledtrialhasbeendescribedfully
+pregnant adults with type 2 diabetes for 12–20 weeks, which elsewhere(10).ThemainDiGesttrialandthisancillarystudywere
+resulted in improvements in glycaemia, induced diabetes conducted according to the guidelines laid down in the
+remission and reduced cardiovascular risk(8). Whole-diet Declaration of Helsinki, and all procedures involving human
+approachesarelesscommoninpregnancybuthavestillbeen subjectswereapprovedbytheWestMidlandsResearchEthics
+used. For example, Hodson and colleagues recruited women Committee (reference 18/WM/0191; ISRCTN 65152174). This
+with gestational diabetes who received a 4-week dietary ancillarystudywasconductedalongsidethemainDiGesttrialfor
+intervention of 1200 kcal/d, which was well accepted and thefirst6monthsofrecruitment.Healthcareprofessionalswere
+resulted in a significant weight loss (of 0·4 kg per week)(9). eligibleiftheywereworkingataresearch-activehospitalatthe
+These data highlight that these types of energy-restricted timeofthestudyandinvolvedintheclinicalcareofwomenwith
+whole-dietinterventionscanbeusefultoolstoimproveclinical gestational diabetes. Written informed consent was obtained
+outcomes. fromallparticipants.
+The DiGest trial (Dietary Intervention in Gestational
+Diabetes) is a randomised, blinded, controlled trial of a
+Participants
+reduced-energydietcomparedwithastandardenergydiet(10).
+TheaimoftheDiGesttrialistoassessifrestrictingenergyintake Agroupofnon-pregnantfemalehealthcareprofessionalswere
+improves maternal glycaemia and pregnancy outcomes, par- recruited for this study by a female postdoctoral researcher
+ticularly infant birth weight and perinatal complications. (LCK) using a convenience sampling method. Healthcare
+Participants are recruited at 20–32 weeks’ gestation (usually professionalsincludingnurses,midwives,dieticiansanddoctors
+28–32 weeks’ gestation) and are randomised to receive a were given the opportunity to test the acceptability of the
+standard energy dietbox (2000 kcal/d) or a reduced energy interventionovera1-weekperiod.Healthcareprofessionalsat
+dietbox (1200 kcal/d). Trial allocation is blinded from partic- Cambridge University Hospitals NHS Foundation Trust and
+ipants, study team and healthcare professionals. Participants NorthWestAngliaNHSFoundationTrustwereapproachedface
+continuetoreceiveweeklydietboxesuntildeliveryofthebaby. tofaceandthroughpublicityviaemail.Twoeligiblehealthcare
+Previous work has demonstrated that calorie restriction in professionalsdeclinedtothestudyduetoillnessduringthefirst
+pregnant women with gestational diabetes is safe(11,12). We waveoftheCovid-19pandemic.Writteninformedconsentwas
+consideredseveraloptionsfortheDiGestintervention,including obtainedfromallparticipants.Healthcareprofessionalsreceived
+awhole-dietapproachorprovidingpersonaliseddietaryadvice a dietbox for1 week. Healthcareprofessionals were excluded
+with macronutrient targets. We chose to use a whole-diet from the study if they had multiple dietary restrictions due to
+approachtoensureadequatenutritioneveninthecontextofa preferenceorallergy.
+https://doi.org/10.1017/S0007114523001666
+Published
+online
+by
+Cambridge
+University
+Press
+Qualitativestudyofawhole-dietintervention 221
+Dietboxintervention this type of study and how it impacted their daily lives.
+Interviewswereconductedfacetofaceattheirworkplaceina
+Allparticipantswererandomlyassignedtoreceiveawhole-diet
+private room. All interviews were audio-recorded. Additional
+intervention provided as a dietbox containing either 1200 or
+field notes were taken by LCK to address any discrepancy
+2000kcal/dincludingthreemealsperdandadailysnackpack.
+during transcription. Interviews ranged from 25 to 45 min
+Toprotectblindingamonghealthcareprofessionalswhomayeat
+(average 4755 words) and were audio-recorded and tran-
+lunchinthesameoffice,participantswererandomisedbystudy
+scribed verbatim by a commercial company under an
+site. Participants made their food choices in advance on a
+appropriate confidentiality agreement. No repeat interviews
+custom-designed website. All participants were blinded to
+wereconducted.Transcriptswereavailabletoparticipantsfor
+energyallocation.
+comment and correction if required. One of the sixteen
+ThedietboxeswereproducedbyCapeandHartleyFoodsLtd
+participants chose to read the interview transcript, but no
+and specifically designed for women with gestational diabetes
+furthercommentstotheoriginaltranscriptweremade.
+underdirectionfromCLMandPD.Finalmenuswereassessed
+for nutritional content. All meals designed to provide 40% of
+energyfromcarbohydrate,35%fromfatand25%fromprotein.
+Each daily snack pack contained a number of items which Qualitativeanalysis
+togetherprovided40%ofcaloriesfromcarbohydrate,35%from
+An inductive, thematic analysis was conducted using NVivo
+fatand25%fromprotein.Furtherdetailscanbeobtainedfrom (QSRInternationalversion12Pro)(14).Athematicapproachwas
+theseniorauthoruponrequest.
+used as it helps to provide insights by moving from a broad
+reading of early-phase data to conceptualisation of codes and
+Qualitativeinterviews
+themes,followedbytheirinterpretation(14).Eachtranscriptwas
+Semi-structured qualitative interviews were performed with readseveraltimesbyLCKforfamiliarity,notingmeaningsand
+healthcareprofessionalsfromJanuarytoJuly2020(forinterview patterns.InitialcodesweregeneratedbyLCKfromline-by-line
+schedule,seeonlineSupplementarymaterial,S1).Theinterview scrutiny of each data item, and mind maps were created to
+schedule was also designed to be used in women with identify the links between codes and possible overarching
+gestationaldiabetes,toensureconsistency.Themainqualitative themes. A subsample of transcripts (n 2) were double-coded
+interviewer(LCK)isapostdoctoralresearchassociate(PhD)in usingthesamemethod,independentlybyasecondresearcher
+diabetesinpregnancyandwastrainedinqualitativeresearchby (RR)withexperienceinqualitativeresearch.Double-codingof
+RR and AA who assisted with the analysis. LCK approached the data from RR was conducted to help minimise biased
+potential participants directly and provided a participant interpretations of the data and aid reflexivity when coding.
+information sheet. LCK explained the purpose of the study CodeswerediscussedbyLCKandRRandrefinedandamended
+was to get an accurate assessment of the strengths and via an iterative process. Next, codes were organised into
+weaknesses of the DiGest dietboxes and to understand the meaningful subthemes and main overarching themes which
+challengesfacedbythenon-pregnanthealthcareprofessionals captured the essence of the codes associated with it. Themes
+in adhering to the dietboxes. LCK explained all information werereviewedandrefinedbyreviewingeachdataitemwithina
+would be anonymous and would not be available to their theme to ensure coherence and the resulting thematic
+colleaguesorotherDiGestinvestigatorsinidentifiableform.All frameworkwasreviewedbyathirdresearcher(AA).
+potential participants were given at least 48 h to read the Bothresearchers(LCKandRR)maintainedanawarenessof
+participantinformationsheetandreflectpriortoconsentbeing how their own personal characteristics and values may have
+received. influenceddatacollectionand/oranalysis.LCKisapostdoctoral
+Based on our previous work within this field(13) (Kusinski researcherwithexperienceintheeffectofnutritionuponfetal
+et al., manuscript submitted), we anticipated that between 15 programming and placental health. She has previously under-
+and 20 interviews would provide sufficient richness of data to taken another qualitative study in this field (manuscript
+developourunderstandingoftheexperiencesofthehealthcare submittedtopress).LCKwasalreadyknowntoallparticipants
+professionals using the dietboxes. A single interviewer con- priortorecruitmentforthequalitativestudy.Participantswere
+ducted all interviews. When they considered that no new awarethatLCKisamemberoftheDiGestteambutnotdirectly
+information was coming from additional interviews, they involved in the content or planning of the dietboxes and not
+conductedapreliminaryanalysistoverifydatasaturationbefore involved in the clinical care of women with diabetes in
+stoppingrecruitment. pregnancy.
+Topic guides were developed after informal discussions Thesecondresearcher(RR)isapostdoctoralresearcherand
+with healthcare professionals and women with gestational Health Psychologist with experience in conducting qualitative
+diabetes andpilot-testedduring thefirst sixinterviewswhere interviews and analysis. RR does not have experience of
+performance was satisfactory. No further changes were gestational diabetes so may not fully understand the views of
+required to the topic guide. Questions aimed to assess both the healthcare professionals and their opinions on how the
+thephysicalaspectsoftheinterventionandstudy,forexample, dietboxes might work for women with GDM and, however, is
+healthcare professionals’ views on the taste and suitability of interested and experienced in dietary interventions for
+thefood,andalsotheemotionalimplicationsofparticipatingin weightloss.
+https://doi.org/10.1017/S0007114523001666
+Published
+online
+by
+Cambridge
+University
+Press
+222 L.C.Kusinskietal.
+Table1. Baselinecharacteristicsofhealthcareprofessionalparticipants. consideredatthepointoffoodordering.Overall,thedietboxes
+Dataarepresentedasmedian(range) did not seem to disrupt the day-to-day eating habits of the
+participants and most enjoyed the convenience the dietboxes
+Healthcareprofessionalsn16
+provided.
+Median Range
+Age(years) 44·4 29·9–60·7 ‘Ijusthadtwoofthewraps.IhadthemforlunchbecauseactuallyI
+BMI(kg/m2) 25·0 19·0–32·8 was,Iwaspleasedbecause,likeIsay,I’dforgottenitwashalf-term
+Ethnicity 13/16Europeanethnicity 81·2% andwedidgooutacoupleofdaysandwewereoutallday,you
+Profession Midwife(4standardcalorie/3reducedcalorie) know,soIwasabletotakethemwithme’.ID40
+Nurse(3standardcalorie/1reducedcalorie)
+Doctor/consultant(3standardcalorie/1reduced
+calorie) Theme2:impactonsocialrelationships
+Dietician(0standardcalorie/1reducedcalorie)
+Participantsidentifiedoneofthehardestaspectsoftakingpartin
+the study was the impact it had on their social relationships,
+Results mainlyoutsidethehome.Foodisacrucialpartofmanysocial
+occasions.
+Aftersixteenparticipantswereinterviewed,wewerenolonger
+identifyingnewthemeswithinthedataandthusconsideredthat
+‘TheonlytimeIcheated.ItwasabigcheatbecausewehadaChinese
+takeaway.Andthatwasbased,really,onthesocialaspectofthe
+datasaturationhadbeenachieved.Baselinecharacteristicsofthe
+eveningratherthanthefood’.ID24
+healthcareprofessionalswhotookpartinthisstudyareshownin
+Table1. Itwas atsuchoccasionsthatparticipantsfoundthemselves
+From the interviews, eight key themes were identified more likely to deviate from the plan, mainly due to the social
+(Fig. 1): (1) impact on daily living, (2) impact on social pressures of other people. The DiGest menu includes options
+relationships, (3) past experience with other diets, (4) hunger like roastdinners or takeawaymeals thatallow participants to
+and deprivation, (5) food choice and variety, (6) cravings, (7) choosetomatchwhattheirfellowdinersareeating.However,
+taste,and(8)personalunderstandingofstudyrationale.Direct thisdoesnoteliminatethepressurefromotherstoeatwhatthey
+quotationsfromparticipantsforeachthemearegiveninTable2. areeating.
+Itisimportanttonotethatparticipantssuggestedthatifthey
+Theme1:impactondailyliving were receiving the dietboxes for a longer period of time (as a
+DiGest participant would be), these social interactions would
+Most participants reported how the dietary intervention influ-
+likelybethemostcommontimethattheywouldeatadditional
+encedtheirday-to-daylives,andthiswasparticularlyrelevantin
+food.Thehealthcareprofessionalsonlyusedthedietboxesfora
+theworkplace.Onthewhole,participantsfoundtheconvenience
+week,buttheyfeltthatdoingthislongertermwouldhaveabig
+of having pre-prepared food, which they could easily take to
+impactontheirsociallifeandrelationships.
+work,tobeasubstantialbenefitoftakingpartinthestudy.
+Convenience was also mentioned in the home setting.
+Althoughmostparticipantshadafamilytocookfor,theydidnot Theme3:pastexperiencewithotherdiets
+feel the food negatively impacted family mealtimes, despite
+This theme was not relevant for all participants as not all had
+themhavingtocookanalternativemealfortheirfamilies.
+beenexposedtoothertypesofdiets.Forthosethathad,many
+Anotherkeyfeatureofthedietboxeswasthattheywereable
+referredtosomekeypoints.Manyparticipantsmentionedthat
+to cater for similar types of meals to those usually eaten by
+havingastructuredfoodregimenwaskeytoadherencetoanew
+participants.Manyparticipantsfeltthatitwasnotahugechange
+diet and considered the dietboxes to help with this as they fit
+totheirdailyeatinghabits,andtheycouldverymuchfeelpartof
+easily into their lifestyle. Some participants mentioned that
+familymealtimeseventhoughtheywereeatingdifferentmeals.
+features of other diets, such as ensuring all the correct
+An important subtheme within this theme is organisation.
+ingredients were available to make a meal, meant that they
+Manyparticipantsmentionedthatplanningmealsenabledthem
+wouldnotbeabletofollowthenecessaryplan,andthiswould
+to reduce the impact upon their daily lives. For example, if a
+often lead to deviating from the diet and adherence being
+participanthasorderedmealsforeverydaythatweekthatneed
+compromised.
+to be heated up in a microwave, this will not work well at a
+One of the most crucial aspects to adherence, in light of
+workplacewithnoaccesstothisfacility.
+previous diets, is knowing the length of time required for the
+‘Havingahotmealatworkiseasyenoughforusbecausewe’renot dietary intervention. It was highlighted that when there is a
+toofarfromakitchen.Althoughyoukindofhavetochooseyour definite timeline for how the intervention lasts, it provides a
+timecarefullybecauseanytimeafteraboutfivepasttwelvethere’sa
+clearerstructurefortheparticipantandanendtarget.
+queueofpeoplewaitingtousetheonemicrowave’.ID24
+‘I thought it looked doable:::. because I knew it was only for a
+‘Imeantheactualbringingthemintowork,theheatingthemupin week:::.there’s choice of food. So I think that’s fundamental,
+themicrowaveatwork,thatwassupereasy,youknow,thatwasn’t especiallythinkingabouttheladiesthatwillbedoingitforweeks
+difficult,thatdidn’trequiremuchofmeatall’.ID28 andweeks.But,evenjustforaweek,seeingthattherewasquitea
+few options of food, and because I’m vegetarian there was that
+The menu has some ‘grab-and-go’ lunch options such as option,andIcouldseethatontheinformationsheet.Sothatmade
+wraps to facilitate more flexibility, but this was not always mewanttodoit’.ID38
+https://doi.org/10.1017/S0007114523001666
+Published
+online
+by
+Cambridge
+University
+Press
+Qualitativestudyofawhole-dietintervention 223
+Fig.1. Summaryofthemesidentifiedinthequalitativestudy,andactionstakentoimprovetheacceptabilityofthedietboxespriortouseinpregnantwomenwith
+gestationaldiabetes.
+‘IsupposeafewyearsagoIjoinedSlimmingWorldandthendidn’t Hunger itself was a key theme that was anticipated, as the
+continuewithit:::.Itjustdidn’tfitintomybusylife’.ID25 lower energy dietbox is limited to 1200 kcal. Although
+participantsweremadefullyawarethatthismightbeafeature
+TheDiGestdietisforasetperiodoftimewhichisclearlyset
+of taking part in the study, it was mentioned frequently in the
+outtotheparticipantsbeforetheystartthestudy.Emphasising
+interviewsconductedwiththeparticipantsonthisarm.Although
+thismaybeanimportantaspecttoensurethatparticipantswill
+someparticipantsfoundthehungeradifficultaspect,itwasclear
+be as prepared as possible for changing their eating habits.
+thatthiswouldnotactasadeterrent.Whenaskediftheywould
+Althoughallwomenwithgestationaldiabetesareencouragedto
+recommendtakingpartinthestudytowomenwithgestational
+maintainlong-termhealthyeatinghabits,thetrialaimstoassessif
+diabetes,theconsensuswasthattheywould.
+thedietaryinterventionimprovesperinataloutcomes.
+‘Idefinitelywould(recommendit)becauseIthinkyoudogetinfood
+rut and I don’t know that, you know, when you are tired in
+Theme4:hungeranddeprivation pregnancyandthatthepointmostofthemwouldsignuptothis
+they’dstillbeworkingandthenthey’vegottothinkaboutpotentially
+Although participants were randomly assigned a standard changingtheirdietquitedrasticallyandthat’squiteahardchange
+energy or lower energy dietbox, hunger and/or deprivation tomake.You’vegottoinvestquitealotinyourchoiceswhenyouare
+was mentioned by both groups. Some participants in the shopping and cooking and meal planning, and I think the
+standardcaloriegroupconsideredthattheydidnotfeelhungry, reassurance that I would have from that headache almost being
+butoftentheyfelttherewasperhapstoomuchfood.Participants takenoffmeandadjustingtohowIneedtoeattohelpwouldreally
+on both arms are warned to avoid overeating and that they
+reassuremeduringmypregnancy’.ID26
+should eat until they are satisfied and not necessarily to finish ‘Ithinkit’sreallyexciting,youknow,I’vereallyenjoyedtakingpart
+their allocated portion size. This appeared onlyto be an issue formyweek,soyouknow.If,soyeah,ifIhadababy,andgestational
+raisedonastandardcaloriediet.
+diabetes,I’dsignupforit:::.Iwouldn’tdeteranybodyfromgoing
+onit,it’sareallypositivestudy’.ID27
+‘IfeltlikeImighthavebeenonthehighercalorieonebecauseIjust
+feltliketherewasalotoffood’.ID40
+Theme5:foodchoiceandvariety
+Althoughsomeparticipantsfeltthattherewassurplusfood,it
+was interesting to note that there were times when these Ensuring that participants felt like they were having a good
+participantsstillfeltdeprivedbutthiswasmuchmoreintermsof varietyoffoodchoicewasanimportantaspectwhendesigning
+impact on lifestyle. Some participants saw this deprivation in thedietboxesastheyhadtocaterforawidevarietyofwomen
+relation to cooking and preparing food. The experience of with different background and food habits. Most of the
+preparingamealwashighlightedbysomeasakeypartofthe participants were happy with the variety of food that was
+enjoyment of food, and having that aspect taken away was provided for lunch and dinner. However, a small number of
+limiting. participants mentioned that the variety at breakfast was too
+https://doi.org/10.1017/S0007114523001666
+Published
+online
+by
+Cambridge
+University
+Press
+224 L.C.Kusinskietal.
+Table2. Quotationsfromparticipantsforeachtheme
+Theme Quotationsfromhealthcareprofessionalsn16
+Impactondailyliving ‘::: itwasmoreconvenientIthink.NormallyIwouldhavesomethingleftoverthatIwillbringforthelunchorI’llgo
+andbuysomethingfromcanteen,buthavingthiswithmethatmeansIalwayshadfoodwithmeandbrought
+snacksaswellwithme,soitwasactuallyeasierthatway.Ididn’thavetoworryaboutwhatamIgoingtotake
+tomorrow,orifIdidn’thavetimein-betweenmymorningandafternoonclinicforexample,thenIknewthatthere
+wasfoodwithmesoIcouldquicklyeatthat.Sothatwasactuallyveryconvenient’.ID36
+‘Yeah,still,generallyatewiththerestofthefamily,anyway,andjustatemydifferentportion.And,althoughmyboys
+founditquiteamusing,actuallytherewereacoupleofreasonableconversationsaboutfoodandnutrition,thatthey
+started.TheysoongotboredonceIgotintoit.Butthey,youknow,theydidaskquestions,it’squiteagoodques-
+tionprompt.AndwhenIreflectedbackonit,Ithought,actually,forsomewomenwhotakepartinDiGest,maybe
+actually,again,itwouldbeagoodpromptforothermembersofthefamilytolearnmoreormaybethinkaboutmak-
+ingtheirowndietarychanges’.ID24
+‘AsmychildrenaregrownupandtheyknewthatItakepartitwasn’taproblem,itwasjusttheyenjoyedthemealI
+cookedforthem’.ID34
+‘SoIlikedthattherewereoptionsthatyoucouldtailortofeellikeyouwerehavingamealwithyourfamilybecauseit
+wasverysimilartowhatwewouldeat,whichIthoughtwouldmakememuchlesslikelytocheatifIwasdoingit
+longerterm’.ID26
+Impactonsocialrelationships ‘We’vegotbig,extendedfamilyand,again,wekindoftaketurnshavingroastdinneratsomebody’shouse.Anditjust
+sohappeneditwasmyturn,soit’sabigfamilyhavingabigsharedmeal.Andthefoodisquitepartofit,andthe
+sharingfoodandthekindofservingeachother,passingstuffupanddownthetable.And,yeah,Ididfeelalittlebit
+miffedthenthat,thatalteredmyexperienceofnormalkindofSundaydinner.Andthat,again,itwasthesocial
+aspectofit,notactuallywhatwasonmyplate,althoughthatwasdifferenttoeveryoneelse.Itwasthesocial,yeah’.
+ID24
+‘Theonlytwotimes,sowhen[laughs]whenIdidcheatandnotstick,androastdinner.Itwassocialthingsthatmade
+ithard,itwasn’tbecauseIdidn’tlikethefoodoritwasn’tenoughoritdidn’ttastegoodenough.Itwas,yeah,itwas
+socialthings.Thatmightjustbesortoflikemyfamily’sdynamic,wheneverwesocialisethere’sfood’.ID24
+‘WellgoodnessI’mdoingthisfor10weeks,there’sthatthingaboutalotofthesocialisingwedointhiscountryis
+aroundfoodandIwaspotentiallygoingtobeoutwithaneighbourandweweretalkingabouteithergoingoutfora
+cupofcoffeeintheafternoonandsortofafternoonteatypethingorhavingfriendsroundfordinnerormeetingup
+withpeople,soIcouldseethatas10weekspotentiallyagainbeingquitetrickyforpeople’.ID37
+‘Ithinktherewouldbemoreofasocialpressurefrompeoplethatyou’rewithtohavewhateverthey’rehaving,soI
+thinkit’sjustthatsocialaspect’.ID37
+Pastexperiencewithotherdiets ‘Ithink,especiallywhenthere’ssomeone,anorganisedplan,Ithinkwhenyou’retryingtodoityourselfit’sverydiffi-
+culttobecompliant,butwhenit’sanorganised,pre-preparedplanlikeSlimmingWorldis,justthinkingbeforeIdid
+this,DiGestone,yeah,thenIthinkIamcompliant,yeah’.ID38
+‘Ifthingsaredifficult,intermsofohyou’vegottogettherightingredientsandI’venotgotthatandI’venotdonethe
+shoppingand,youknow,andthenyouthinkoh,you’rekindofveeroffitabit.Soyeah.Soit’seasytodropoffif
+thecircumstancesarenotright’.ID25
+‘I’vetriedmanytimestodietforweightloss.Caloriecounting,lowcarb,thatsortofthing’.ID45
+‘IamifI’mintherightsortofframeofmindtodoit,Idefinitelyam’.ID30
+Hungeranddeprivation ‘Yeah,thesnackpackswereloadsinthebag.Icouldn’tthinkabouthowanybodycouldeatallthatamountoffoodin
+oneday’.ID25
+‘IthinktherewasacoupleofdayswhereintheeveningIdidn’tmanagetofinishallofmymealbutagainitwould
+vary’.ID40
+‘Ineverfelthungry.TheonlyothertimethatIfeltlikeperhapsI,oh,IwishIwasn’tdoingthistoday,wasonaSunday.
+:::.And,yeah,Ididfeelalittlebitmiffedthenthat:::.alteredmyexperienceofnormalkindofSundaydinner’.
+ID24
+‘Missingcooking,formethatwashard,soIthinkinterestinglywhenyou’rerecruitingwomenit’shelpfultokindof
+gaugetheirexperiencewithfood,formeIpersonallylovefood,sotheexperienceofmakingamealispartofmy
+experienceofeatingameal,likeIenjoythemequally,sothatthatformewas,yeah,thehardestpartprobablywas
+justfeelinglikeIcouldn’tdowhatIwouldnormallydo,intheexperienceofmakingfood’.ID28
+‘IfeellikeI’vegoneonaboutthehungerbutInevergottothepointwhereIwasjustlike‘thatisit’.Iwouldhavegot
+usedtoit.ProbablyjustI’maglutton’.ID26
+‘IthinkitwasbecauseIwashungrythatitwassohard,soItriedeverydaytonoteatanythingelse,andIjust,you
+know,sometimesitwouldjustbelikethatI’djusteatmylunchsuperearly,becauseIhadallmymealswhenIwas
+intheworkingday,Ihadthemhere,andotherdaysIjustwashungryin-between,soonceI’deatenallofmy
+snacksIthenwasreachingforsomethingelse.Thatwasthehungerwasthemainthing,IthinkjustIobviouslyeat
+morethanthatwouldhavenormallyallowedme’.ID28
+Foodchoiceandvariety ‘Ithinkthatalthoughtherewasareallygoodvarietyoffoodformetochoosefrom,andI’mnotfussyandIlikespicy
+andIeatmeat,sotherewasquiteagoodrangeformetopickfrom’.ID24
+‘Solikethevegetarianbeanchilli,Ineverwouldhavekindofcookedthatformyselfsothatwasgood,yeah,itwas
+nicehavingabit,tryingthingsIwouldn’tnormallytry’.ID23
+‘Ithinkifyou’rethesortofpersonwhoeatssaladsandthingsordoesabitofasidesaladoracoupleofportionsof
+vegetableswithwhateveryou’recookingfordinner,andyou’veeithersteamedthemorboiledthemordonesome-
+thingthatisfresh.Andmaybeit’smoreofavisualthing,havingitveryvisualonyourplate.But,yes,Idid,Imissed,
+moresaladystuffthanvegetables,butthat’sprobablyjustbecausethat’swhatIdoathome’.ID24
+‘Ididthink,whenIhadmylasagne,Iwaslike,‘Oh,Ineedalittlesidesalad’.Andknowit’sallthere,like,inmyhead,
+likealittlebitofgreen,likefreshfoodwouldhaveprobablymadeitalittlebitniceraswell’.ID30
+‘Idon’tknowhowitworkswiththestudytosaythosekindofvegetablesraworsteamedyoucanaddbecauseit
+doesn’thaveaneffectonthebloodsugarsandaswellthosekindoflikesalad,lettuce,cucumber,whatever,ifit
+can’tbeprovidedbecausethatisthethingwhichImissed’.ID34
+https://doi.org/10.1017/S0007114523001666
+Published
+online
+by
+Cambridge
+University
+Press
+Qualitativestudyofawhole-dietintervention 225
+Table2. (Continued)
+Theme Quotationsfromhealthcareprofessionalsn16
+Cravings ‘Intheeveningyoudofeellikesomethingsweet,whichyoudon’thaveagreatdealinthesnackpackswhichis
+sweet.Imeantherewassomechocolate,whichwasgreat’.ID45
+‘Yeah,IthinkI’masweettoothedperson,unfortunately.AndifI’dhaveused,see,nowIknow,ifI’dused,ifIdidit
+againIwouldchoosethesnackpackthathadthatchocolatericecakeineveryday,thatsnackpack’.ID38
+‘I’marealvegetablegirl,soIcravedvegetables,andsoIdidn’t,yeah,Ididn’tevenfeelIcouldcountoneportionofa
+fiveadayfromvegetablesatall,fromanyofmymeals’.ID28
+‘Buttobefairduringthedayandespeciallyaworkingdaynevertemptedtogoandgetanythingelseatall,because
+I’venormallygotallthesnackswithmeaswell,sotherewasalwayssomethingtogoto,evenifitwasverysmall’.
+ID41
+Taste ‘Idon’ttendtoeatreadymeals,andIwouldn’tbuyareadymealassomethinglikeaturkeydinner.SoIwasfeelinga
+littlebitdubiousandveryharddonebythatIwascookingtheseroastdinnersforeverybodyelse.And,actually,it
+wasalright,Iwasquitepleasantlysurprised’.ID24
+‘Spicedseedsinthesnackpack,theywerereallynice.Ilookedatthislittlebag,andthought,really[laughs]?Ithink
+thislookslikesomethingIfeedmychickens.Andtheytastedamazing,so,yeah’.ID24
+‘Ienjoyedoveralltakingpart.AndIreallyfoundthefoodtasty,liketheomelettewithsagaloo,Ireallywantthatagain.
+[Laughter]Andthe,yeah,thewrapsaswell.IthinkitwasthespicedMoroccanchickenwrap,yeah,I’vejustwritten
+yumnexttothatone.Reallylikedthat.LikeI’mkindofsadthatIcan’tjustgointoMarks&Spencer’sandbuythat
+again’.ID26
+Personalunderstandingofstudy ‘Ithinkit’sbeenareallygoodexperience,actually,tobeableto,becausewearegoingtospendalotoftimewith
+rationale theseladies.And,ifweareabletotellthemfrompersonalexperience,Ithinkthatbringsquitealotofreassurance
+forthem’.ID24
+‘Alltheconversationsthatitstarted.It’sbeen,Idon’tknowanyotherstudyortrialrecently,thatIcanthinkofoffthe
+topofmyhead,that’sgottenateamtalkingsomuch.Sotheteamhereofresearchnurses,midwives,ouradmin,I
+don’tknowanotherstudythat’sgotteneveryonetalkingsomuch’.ID24
+‘Ifeltthatitwouldgivememuchmoreinsightintowhatthewomenaregoingtobedoingandthatwhentalkingabout
+thestudyifwomenhadfearsaboutthefoodandwhatitwasgoingtobelikeandthatwouldhavepotentiallyprohib-
+itedthemtakingpart,thatitwouldbegoodtobeabletosaythatIhaddoneitandexplainedwhatit’slike,you
+know.IfeltIwouldbebetterpreparedtoanswertheirquestionsonthestudyparticipation’.ID26
+‘Ithought,wellifI’mgoingtohavetotryand,notsellittopeoplebut,youknow,supportpeoplegoingthroughit,I
+meanhavewomenunderstand,givethemapositiveviewofhow,whattheexperienceislikeandthings,Ithought
+itwasimportantIhadthatunderstandingreallyofwhattheexperiencewaslike’.ID27
+‘Ithinkmainlybecausewe’reseeingpatientswhoareonthestudy,soformetoknowwhattheirexperiencewould
+actuallylooklike,ithelpsmewhenthey’reaskingquestionsformetobeabletosay,I’vetriedit,Icantellyou
+somethingaboutit’.ID28
+limited.Thiswasusuallythecasewhenaparticipantdidnotlike Theme6:cravings
+aparticulartypeoffoodsuchasnutsoreggs.Thiswouldlimit
+When asked about if there was anything that the participants
+their choices in what they could choose and so the variety in
+wereparticularlymissingorcraving,onthewholemostofthe
+thesecaseswasrestricted.
+participants were satisfied. However, cravings for something
+‘Ididstrugglewiththebreakfasts,massively,reallystruggled.Butthe sweet,specificallyafterthemainmeal,wassomethingthatwas
+restofit,therewasloadsformetopickfrom’.ID30
+highlightedduringanumberofinterviews.However,thosethat
+did crave something sweet also acknowledged that the
+‘I’mnotallergictonutsbutIjustdon’tlikenutsandtheyprettymuch
+dietboxes do cater for this and found that with some forward
+allhad,almostallofthemhadnutsin,sotherewasonlythreethings
+thatIcouldeat,sotherewasn’tmuchvariety’.ID23 planning they could save something from the snack pack that
+was sweeter, such as fruit or the dark-chocolate-covered
+Most participants mentioned a perceived lack of fresh ricecake.
+vegetables and salad in the meals and considered this a
+‘Idon’tknowifit’spossibletomaybeputsomethingsweetinthereas
+disadvantageofthedietboxes.Althougheachmealisnutrition- adessertkindofoption,Idon’tknow,butIdidgetabitofacraving
+ally balancedandhealthy,most containedcookedvegetables. forsomethingsweetafterdinnertimes’.ID23
+Havingthefreshcrunchofavegetableorsaladwasimportantto
+In addition to sweet foods, another craving that was
+manyoftheparticipants.Someparticipantsmentionedthatthere
+mentioned was for fresh vegetables and salad as highlighted
+weresomemealswhichseemedsmallerthanothers,andhaving
+in the previous theme. Interestingly, craving vegetables is
+additionalsaladorvegetableswouldhelpmakingthemealmore
+something we had not anticipated as all main meals provided
+fillingorattractivewithoutaddingmanyextracalories.
+containoneortwoportionsofvegetables,withadditionalfruitor
+‘Ireallymissedthesortofcrunchofsomething,youknow.Yes,I
+vegetablesinthesnackpacks.Someparticipantswereunableto
+knowthatnutritionallythereareenoughvegetablesinitbutasortof
+identifyvegetablesintheirmeals,evenwhenhavingvegetarian
+crispvegetableImissed’.ID26
+options. However, fresh vegetables provide texture which
+https://doi.org/10.1017/S0007114523001666
+Published
+online
+by
+Cambridge
+University
+Press
+226 L.C.Kusinskietal.
+cannotbecompletelyreplicatedusingfrozenmeals.Overallthe concerned about reduced participation in family food-related
+participantsfeltthattherewassufficientnumberandvarietyof socialevents.
+snacksprovidedtoaddressanycravings. In response to the qualitative findings described above,
+‘IthinkIwouldcraveforfreshhome-cookedfood.Ithinkregardless severalchangesweremadetothedietboxesinordertopromote
+ofhowbrilliantyourchefis andthetastewaslovelyandallthe greateradherenceandflexibility.Theoptionsatbreakfastwere
+qualitypointofvieweverythingislovely,butyoustillcravetocook increased(unsweetenedporridgeinawidervarietyofflavours,
+freshyourselfandeatfood’.ID36 more egg options, low-sugar granola and yogurt-based
+smoothies) and more ‘grab-and-go’ options for lunch were
+Theme7:taste provided (e.g. wraps and other meals which could be eaten
+straight after defrosting). We also added a vegetable or salad
+Itwasclearthatsomeofthehealthcareprofessionalshadpre-
+packtoeachdietboxtoprovidethetextureandtasteofrawfood
+conceivedideasofhowthefoodwouldtasteandapproached
+eating‘readymeals’withapprehension.Thisalsowasthecase and to enhance the visual appeal of meals, for example, by
+allowingparticipantstoassembleasidesalad.
+withthesnackpacks,whereparticipantswerealreadymaking
+assumptionsabouthowsomesnackswouldtastebeforetryingit.
+The majority of the participants were clearly satisfied with the
+tasteofthefood.Therewereoccasionswhentheydidnotenjoy Discussion
+certaintypesoffoods,andthiswastobeexpectedaspersonal
+This study identified that a whole-diet intervention using
+preferenceisakeypartofdietarychoiceineverydaylife.Itwas
+dietboxes designed for women with gestational diabetes was
+clear that after having a week trying the food, the participants
+considered feasible, acceptable and convenient to a group of
+wereabletoidentifythefoodstheydidnotlike.
+female healthcare professionals involved in their care.
+‘Iwasn’treallyafanofwhatwasinthewraps,someofthewraps,so
+Conveniencebothinsideandoutsidethehomewasconsidered
+thatwasmyonlyissue,Ididn’tlikethemverymuch’.ID27
+a particular benefit. Challenges to adherence included peer
+‘OnedayIdidn’tliketwoofthemealsandbecauseIwashungryIate pressure during social occasions, feelings of deprivation or
+somethingdifferent’.ID29 hunger and perceived insufficient raw or fresh vegetables. In
+responsetothesefindings,theDiGestdietboxcompositionwas
+Thefeedbackfortasteofthefoodwasverypositive,which adapted, and more fresh vegetables and salad were included.
+suggests thatalthough the participants were eating an energy- Thisqualitativeassessmentdemonstratesthevalueofassessing
+restricteddiet,theydidnothavetocompromiseonfoodvariety healthcare professionals’ views on the suitability of a novel
+andtastewhichisveryimportantfortheDiGeststudy. interventioninordertooptimisetheinterventionpriortousein
+patients.
+Theme8:personalunderstandingofstudyrationale
+Most participants wanted to take part in the study to gain an Strengthsandlimitationsofthisstudy
+understandingofhowthestudyworkssothattheycouldprovide
+Thisstudyassessedtheacceptabilityofawhole-dietintervention
+information and reassurance to potential DiGest participants
+inhealthcareprofessionalstoseeifthiswouldbeachievableto
+during recruitment. Healthcare workers were very positive
+useinamotivatedpopulationofpregnantwomeninafree-living
+about this aspect and noted that most clinical trials do not
+environment. Having a target population of healthcare
+provideanopportunityforresearchstaffandhealthcareworkers
+professionalswhoareinvolvedeitherdirectlyorindirectlywith
+totryoutatrialintervention.
+pregnantwomenwithgestationaldiabeteswasanadvantageas
+‘It’sbeenareallygoodexperience:::Iwishitwassomethingthatwe
+theirknowledgeofwhatdietaryexpectationsandrestrictionsare
+could replicate with lots of studies, actually, to take part in
+placedonthesepregnantwomengavethemmoreofaninsight
+something to this kind of level that we actually have, and
+appreciationofwhatitistobeinvolved’.ID24 intowhichaspectsofthedietboxwouldbepositiveandwhich
+wouldbenegative.
+Ithasalsoprovidedaplatformforthehealthcareprofession- Assessment of healthcare professionals’ opinions provided
+als to discuss the study with other members of staff and raise
+informationabouthowanon-pregnantpopulationviewedthe
+awareness of the study throughout the hospital. This personal
+whole-diet intervention and perceived suitability for the target
+insight into what is required of participants taking part in the
+populationofwomenwithgestationaldiabetes.However,itisa
+DiGest study and sharing this experience with colleagues has
+limitation of in this study that we did not interview the target
+beeninvaluableandauniquewaytoassesstheintervention.
+population,whomayhavedifferentattitudesonthesuitabilityof
+‘IthoughtitwasafantasticstudyandIknewweweregoingtoget the food or potential benefits of the study to their children’s
+involvedfromthepatients’perspective:::.,Ijustleaptatthechance
+health.Thiswasnotdonebecausethiswasabriefintervention
+becauseIthoughtactuallyIcoulddowithlosingafewpoundsas
+for a 1-week period and offering this to the pregnant women
+wellandjustseehowitisforwomenthatcomeintothestudy’.ID25
+withgestationaldiabetesforsuchashorttimewouldhavebeen
+inconvenient as they are often trying to establish a new diet
+Increasingsatisfactionwithdietboxintervention
+regimenaspartoftheirnewdiagnosis.Womenwithgestational
+Overallparticipantsenjoyedthefoodbutexperiencedfeelings diabeteswillbeinterviewedatalaterdateaspartoftheDiGest
+of hunger and deprivation during the study. They were also trial, where we will compare participants’ experiences of the
+https://doi.org/10.1017/S0007114523001666
+Published
+online
+by
+Cambridge
+University
+Press
+Qualitativestudyofawhole-dietintervention 227
+1200kcalandthe2000kcalboxes.Interpretationofthisdatais of the results upon clinical care guidelines are not straightfor-
+notpossibleuntilthetrialiscompleteandunblinded. ward(18). Conversely, relatively few studies have addressed
+Someofthehealthcareprofessionalsdidnotalwaysconsider dietarychoicesafterdiagnosisofgestationaldiabetes.Standard
+theacceptabilityoftheboxesforpregnantwomen,andsomeof dietary management of gestational diabetes involves recom-
+theiropinionswerebasedhowthedietboxesfitintothecontext mendations to choose low glycaemic index foods, avoid high
+oftheirownlives.Itisimportanttonotethattheirviewsonthe glycaemic index foods and encourage increased intake of
+acceptabilityofthedietboxforpregnantwomenmaydifferfrom nutrient-rich foods such as vegetables. A recent meta-analysis
+the acceptability of the boxes for non-pregnant healthcare identifiedeighteenstudies(n12–152womenineach)whichhad
+professionals. Healthcare professionals only received the diet- assessed dietary interventions in women with gestational
+box for 1 week, while DiGest recruits receive dietboxes for at diabetes(2).Noclearbenefitwasidentifiedfrommostindividual
+least 8 weeks, until delivery of the baby. This different time strategies, including the low glycaemic index diet, but overall,
+period creates different expectations. Receiving food for only dietarystrategieswereassociatedwithasignificantreductionin
+1weekalsomeansthatifaparticipantdidnotlikeaparticular infantbirthweight.Thesefindingssuggestthatdietarystrategies
+food,thenthismayhaveinfluencedtheiroverallimpressionsof may be beneficial, but further specific evidence is needed to
+the intervention. It is anticipated that choosing the foods for improve recommendations for clinical care. The authors also
+personal preference is likely to be a learning process where notedahighdegreeofheterogeneityindeterminingthecontrol
+participantsonthedietboxesforalongerperiodchoosearange diet in gestational diabetes dietary studies(19), suggesting that
+offoodsandreorderthemealstheyfindmostappealing. there is a wide variety in standard care for women with
+The healthcare professionals also had different reasons for gestationaldiabetesinternationally.
+participatinginthestudy.Astheywerenotpregnantanddidnot The current study suggests that a whole-diet intervention
+havegestationaldiabetes,theydidnothavethesameperceived usingadietboxisafeasible,acceptableandconvenientmethod
+needfordietarymodificationtoimprovetheirhealthorthatofa of dietary control. Overall, the healthcare professionals who
+fetus. This was evident from some comments from healthcare tookpartinthisstudywereverypositiveabouttheintervention
+participants, for example, regarding a desire for more sweet andappreciatedtheconvenience,variety,compositionandtaste
+snacksafterdinner.Pregnantwomenwithgestationaldiabetes of the food inthe DiGest dietboxes. Data from this qualitative
+areadvisedtoavoidsugaryfoods,andthelackofavailabilityof study have highlighted that there are three main barriers to
+sweetsnackswasthereforealimitationimposedbythedisease, adherence to the dietbox intervention, including hunger or
+notthedietboxesperse.Itislikelythatwomenwithgestational deprivation,influenceofsocialaspectsandlengthoftimeonthe
+diabeteshavemoretogainbyadheringtothedietboxandmay study. Awareness of barriers to adherence allows participants
+bemoremotivatedtoavoidadverseconsequencesiftheychose and research staff to have realistic expectations, to develop
+todeviatefromthefoodprovided. strategiestoavoidoraddressfeelingsofhungerordeprivationor
+Thisstudywasdesignedtoassesshealthcareprofessionals’ tocounteractpeerpressureduringsocialevents.
+viewsontheacceptabilityoftheDiGestintervention.Werelied
+upon self-reported satisfaction and responses to qualitative Conclusions
+questions.Othermeasures,suchasmeasuringtheproportionof
+This study is the first to explore the views of healthcare
+dietboxfoodnotconsumed,werenotconsideredforthisstudy
+professionals on the feasibility, acceptability and composition
+butmighthaveprovidedadditionalinformation.Randomisation
+ofablinded,randomised,controlledwhole-dietinterventionfor
+ofhealthcareprofessionalsbysitewasdesignedtoreducebias
+pregnant women with gestational diabetes. The participants
+butmayhaveinfluencedthestudyresults.
+highlighted key themes that were important in optimising
+adherenceandbarrierstoadherenceincludinghunger,depriva-
+Implicationsofthestudy tion and peer pressure during social occasions. Healthcare
+professionalsconsideredthatthiswhole-dietapproachtodietary
+Pregnancyisatimewhenshort-termdietarychangeandweight
+researchwaslikelytobeacceptableandachievableinamotivated
+change can result in meaningful differences in clinical out-
+population, especially where there is perceived potential for
+comes(1).Wehavepreviouslyshownthatwomenwhomaintain
+measurablebenefitinrelevantclinicaloutcomes.
+a stable weight after diagnosis of gestational diabetes have
+improved perinatal outcomes and reduced offspring birth
+weightcomparedwithwomenwhogainweightoverthesame
+Acknowledgements
+period(15). In women with gestational diabetes, dietary modifi-
+cationtocontrolglycaemiaandweightisafundamentalaspect The authors thank the healthcareprofessionals whoagreed to
+ofmanagementofthedisease(1)andhasalsobeenextensively takepartinthequalitativeinterviewsforthisanalysis.
+investigated for disease prevention using a variety of different This research was funded by Diabetes UK (17/0005712;
+studydesigns.Forexample,twostudiesassessedifdietaryand ISRCTN65152174). CLM is also supported by the European
+lifestylecounsellingsessionscouldreducegestationaldiabetes Foundation for the Study of Diabetes – Novo Nordisk
+risk but yielded conflicting results(16,17). Studies adding dietary Foundation Future Leaders’ Award (NNF19SA058974) and the
+components have also been performed. One recent study NIHRCambridgeBiomedicalResearchCentre.ALAissupported
+showedbenefitsfromincreasingoliveoilandnutintake,butas bytheMedicalResearchCouncil(MCUU00006/6).Thestudy
+therewasnocontrolofdietarycarbohydratequantity,theimpact sponsor/funderswere notinvolvedinthe designof the study,
+https://doi.org/10.1017/S0007114523001666
+Published
+online
+by
+Cambridge
+University
+Press
+228 L.C.Kusinskietal.
+the collection, analysis and interpretation of data, and writing 6. Weaver CM, Lichtenstein AH & Kris-Etherton PM (2020)
+the report and did not impose any restrictions regarding the Perspective: guidelines needed for the conduct of human
+nutritionrandomizedcontrolledtrials.AdvNutr12,1–3.
+publicationofthereport.
+7. WingRR&JefferyRW(2001)Foodprovisionasastrategyto
+Conceptualization,A.L.A.andC.L.M.;Datacuration,L.C.K.;
+promoteweightloss.ObesityRes9,271S–275S.
+Formalanalysis,L.C.K.,R.R.andA.L.A.;Fundingacquisition,
+8. Lean ME, Leslie WS, Barnes AC, et al. (2018) Primary
+C.L.M.;Methodology,L.C.K.,R.R.,D.L.J.,E.T.,D.J.H.,P.D., care-ledweightmanagementforremissionoftype2diabetes
+A.L.A.andC.L.M.;Projectadministration,L.C.K.,D.L.J.andD. (DiRECT):anopen-label,cluster-randomisedtrial.Lancet391,
+H.;Resources,A.L.A.;Software,R.R.;Supervision,P.D.,A.L.A. 541–551.
+andC.L.M.;Writing–originaldraft,L.C.K.andC.L.M.;Writing 9. Hodson K, Dalla Man C, Smith FE, et al. (2017) Liver
+–reviewandediting,L.C.K.,R.R.,D.L.J.,E.T.,D.L.H.,P.D.,A. triacylglycerol content and gestational diabetes: effects of
+moderateenergyrestriction.Diabetologia60,306–313.
+L.A.andC.L.M..C.L.M.istheguarantorforthisworkandtakes
+10. KusinskiLC,MurphyHR,DeLuciaRolfeE,etal.(2020)Dietary
+responsibilityforthedataanditsinterpretation.Allauthorshave
+intervention in pregnant women with gestational diabetes;
+readandagreedtothepublishedversionofthemanuscript. protocol for the digest randomised controlled trial. Nutrients
+Theauthorsdeclarenoconflictofinterest.Thefundershad 12,1165.
+noroleinthedesignofthestudy,inthecollection,analyses,or 11. Feng Y, Zhao Z, Fu D, et al. (2021) Maternal and neonatal
+interpretationofdata,inthewritingofthemanuscript,orinthe outcomes after energy-restricted diet for women with gesta-
+tionaldiabetesmellitus:asystematicreviewandmeta-analysis
+decisiontopublishtheresults.
+ofrandomizedcontrolledtrials.Medicine100,e25279.
+For the purposes of open access, the author has applied a
+12. Tsirou E, Grammatikopoulou MG, Nigdelis MP, et al. (2021)
+Creative Commons Attribution (CC BY licence) to any Author TIMER: a clinical study of energy restriction in women with
+AcceptedManuscriptversionarising. gestationaldiabetesmellitus.Nutrients13,2457.
+13. DennisonRA,MeekCL,Usher-SmithJA,etal.(2021)‘Oh,I’ve
+got an appointment’: a qualitative interview study exploring
+Supplementarymaterial how to support attendance at diabetes screening after gesta-
+tionaldiabetes.DiabetMed38,e14650.
+For supplementary material/s referred to in this article, please 14. Braun V & Clarke V (2006) Using thematic analysis in
+visithttps://doi.org/10.1017/S0007114523001666 psychology.QualResPsychol3,77–101.
+15. Aiken CEM, Hone L, Murphy HR, et al. (2019) Improving
+outcomesingestationaldiabetes:doesgestationalweightgain
+References matter?DiabeticMed36,167–176.
+16. PostonL,BellR,CrokerH,etal.(2015)Effectofabehavioural
+1. NationalInstituteofClinicalExcellence(NICE)GuidelineNG3
+interventioninobesepregnantwomen(theUPBEATstudy):a
+(2015)DiabetesinPregnancy:ManagementofDiabetesandits
+multicentre, randomised controlled trial. Lancet Diabetes
+Complications from Preconception to the Postnatal Period. Endocrinol3,767–777.
+https://www.nice.org.uk/guidance/ng3 (accessed August
+17. KoivusaloSB,RönöK,KlemettiMM,etal.(2016)Gestational
+2023).
+diabetesmellituscanbepreventedbylifestyleintervention:the
+2. YamamotoJM,KellettJE,BalsellsM,etal.(2018)Gestational
+Finnish Gestational Diabetes Prevention Study (RADIEL): a
+diabetes mellitus and diet: a systematic review and meta- randomizedcontrolledtrial.DiabetesCare39,24–30.
+analysisofrandomizedcontrolledtrialsexaminingtheimpact
+18. HAlWattarB,DoddsJ,PlaczekA,etal.(2019)Mediterranean-
+ofmodifieddietaryinterventionsonmaternalglucosecontrol
+style diet in pregnant women with metabolic risk factors
+andneonatalbirthweight.DiabetesCare41,1346–1361.
+(ESTEEM):apragmaticmulticentrerandomisedtrial.PLoSMed
+3. ZeilstraD,YounesJA,BrummerRJ,etal.(2018)Perspective:
+16,e1002857.
+fundamental limitations of the randomized controlled trial
+19. Garcia-Patterson A, Balsells M, Yamamoto JM, et al. (2019)
+methodinnutritionalresearch:theexampleofprobiotics.Adv
+Usual dietary treatment of gestational diabetes mellitus
+Nutr9,561–571.
+assessed after control diet in randomized controlled trials:
+4. HébertJR,FrongilloEA,AdamsSA,etal.(2016)Perspective:
+subanalysis of a systematic review and meta-analysis. Acta
+randomizedcontrolledtrialsarenotapanaceafordiet-related Diabetol56,237–240.
+research.AdvNutr7,423–432.
+5. Hanekamp JC, Bast A & Calabrese EJ (2015) Nutrition and
+health–transformingresearchtraditions.CritRevFoodSciNutr
+55,1074–1080.
+https://doi.org/10.1017/S0007114523001666
+Published
+online
+by
+Cambridge
+University
+Press
