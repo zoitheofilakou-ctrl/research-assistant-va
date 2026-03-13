@@ -22,7 +22,7 @@ python Retrieval/retrieval.py suggest --n 5
 import argparse
 import json
 import os
-from typing import Dict, List, Tuple
+from typing import Dict, List, Optional, Tuple
 
 try:
     import chromadb
@@ -53,6 +53,11 @@ EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
 # Chunking settings for full text / fallback abstracts
 CHUNK_WORDS = 1000
 CHUNK_OVERLAP = 150
+
+# Retrieval filtering settings
+# score = 1 / (1 + distance); lower values are less relevant.
+DEFAULT_MIN_SCORE = 0.45
+QUERY_OVERSAMPLE_FACTOR = 3
 
 
 def require_retrieval_dependencies():
@@ -162,11 +167,95 @@ def ensure_files_exist(*paths: str):
             raise FileNotFoundError(f"File not found: {p}")
 
 
+def distance_to_score(distance: Optional[float]) -> Optional[float]:
+    if distance is None:
+        return None
+    return 1.0 / (1.0 + float(distance))
+
+
+def _filter_query_result(result: dict, min_score: Optional[float], limit: Optional[int] = None) -> dict:
+    if min_score is None:
+        return result
+
+    ids_by_query = result.get("ids")
+    if not isinstance(ids_by_query, list):
+        return result
+
+    query_count = len(ids_by_query)
+    if query_count == 0:
+        return result
+
+    result_keys = ("ids", "documents", "metadatas", "distances", "embeddings", "uris", "data")
+    query_keys = [
+        key for key in result_keys
+        if isinstance(result.get(key), list) and len(result.get(key)) == query_count
+    ]
+    distances_by_query = result.get("distances")
+    has_distances = isinstance(distances_by_query, list) and len(distances_by_query) == query_count
+
+    filtered = dict(result)
+    for key in query_keys:
+        filtered[key] = []
+
+    for q_idx in range(query_count):
+        row_ids = ids_by_query[q_idx] if isinstance(ids_by_query[q_idx], list) else []
+        keep_indices = []
+        for i in range(len(row_ids)):
+            dist = None
+            if has_distances:
+                row_distances = distances_by_query[q_idx] if isinstance(distances_by_query[q_idx], list) else []
+                if i < len(row_distances):
+                    dist = row_distances[i]
+            score = distance_to_score(dist)
+            if score is None or score >= min_score:
+                keep_indices.append(i)
+
+        if limit is not None:
+            keep_indices = keep_indices[:limit]
+
+        for key in query_keys:
+            row_values = result[key][q_idx]
+            if isinstance(row_values, list):
+                filtered[key].append([row_values[i] for i in keep_indices if i < len(row_values)])
+            else:
+                filtered[key].append(row_values)
+
+    return filtered
+
+
+class FilteredCollectionProxy:
+    """
+    Transparent proxy around Chroma collection that applies an optional
+    relevance-score filter on query results.
+    """
+
+    def __init__(self, collection, min_score: Optional[float], oversample_factor: int = QUERY_OVERSAMPLE_FACTOR):
+        self._collection = collection
+        self._min_score = min_score if min_score is not None and min_score > 0 else None
+        self._oversample_factor = max(1, int(oversample_factor))
+
+    def __getattr__(self, name):
+        return getattr(self._collection, name)
+
+    def query(self, *args, **kwargs):
+        original_n = kwargs.get("n_results")
+
+        if self._min_score is not None and isinstance(original_n, int) and original_n > 0:
+            requested_n = max(original_n, original_n * self._oversample_factor)
+            if requested_n != original_n:
+                kwargs = dict(kwargs)
+                kwargs["n_results"] = requested_n
+
+        raw_result = self._collection.query(*args, **kwargs)
+        limit = original_n if isinstance(original_n, int) and original_n > 0 else None
+        return _filter_query_result(raw_result, min_score=self._min_score, limit=limit)
+
+
 # --------- Chroma helpers ----------
-def get_chroma_collection():
+def get_chroma_collection(min_score: Optional[float] = DEFAULT_MIN_SCORE, oversample_factor: int = QUERY_OVERSAMPLE_FACTOR):
     client = chromadb.PersistentClient(path=CHROMA_DIR)
     collection = client.get_or_create_collection(name=COLLECTION_NAME)
-    return collection
+    return FilteredCollectionProxy(collection, min_score=min_score, oversample_factor=oversample_factor)
 
 
 def collection_count(collection) -> int:
@@ -266,7 +355,7 @@ def cmd_index(metadata_file: str, filtered_file: str):
     print(f"Stored at: {CHROMA_DIR}/ (collection: {COLLECTION_NAME})")
 
 
-def cmd_query(user_query: str, k: int):
+def cmd_query(user_query: str, k: int, min_score: Optional[float] = DEFAULT_MIN_SCORE):
     require_retrieval_dependencies()
 
     if not user_query.strip():
@@ -277,7 +366,7 @@ def cmd_query(user_query: str, k: int):
         raise RuntimeError("No index found. Run: python Retrieval/retrieval.py index")
 
     model = SentenceTransformer(EMBED_MODEL_NAME)
-    collection = get_chroma_collection()
+    collection = get_chroma_collection(min_score=min_score)
 
     q_emb = model.encode([user_query], convert_to_numpy=True, normalize_embeddings=True).tolist()[0]
 
@@ -292,9 +381,9 @@ def cmd_query(user_query: str, k: int):
     metas = res.get("metadatas", [[]])[0]
     dists = res.get("distances", [[]])[0]
 
-    out = {"query": user_query, "results": []}
+    out = {"query": user_query, "k": k, "min_score": min_score, "results": []}
     for cid, doc, meta, dist in zip(ids, docs, metas, dists):
-        score = 1.0 / (1.0 + float(dist)) if dist is not None else None
+        score = distance_to_score(dist)
         out["results"].append({
             "chunk_id": cid,
             "score": score,
@@ -305,6 +394,9 @@ def cmd_query(user_query: str, k: int):
             "text_source": meta.get("text_source"),
             "text": doc
         })
+
+    if not out["results"]:
+        out["note"] = "No chunks passed the relevance filter. Try lowering --min-score."
 
     print(json.dumps(out, ensure_ascii=False, indent=2))
 
@@ -363,6 +455,12 @@ def main():
     p_query = sub.add_parser("query", help="Retrieve top-k relevant chunks for a user query")
     p_query.add_argument("text", type=str, help="User query text")
     p_query.add_argument("--k", type=int, default=5, help="Number of results (top-k)")
+    p_query.add_argument(
+        "--min-score",
+        type=float,
+        default=DEFAULT_MIN_SCORE,
+        help="Minimum relevance score. Use <= 0 to disable filtering.",
+    )
 
     p_suggest = sub.add_parser("suggest", help="Return N suggested papers for greeting")
     p_suggest.add_argument("--n", type=int, default=5, help="How many papers to suggest")
@@ -374,7 +472,8 @@ def main():
     if args.cmd == "index":
         cmd_index(args.metadata, args.filtered)
     elif args.cmd == "query":
-        cmd_query(args.text, args.k)
+        min_score = args.min_score if args.min_score > 0 else None
+        cmd_query(args.text, args.k, min_score=min_score)
     elif args.cmd == "suggest":
         cmd_suggest(args.n, args.metadata, args.filtered)
 
