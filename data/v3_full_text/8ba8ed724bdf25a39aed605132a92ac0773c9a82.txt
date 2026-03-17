@@ -1062,7 +1062,7 @@ requirements of healthcare professionals and patients. The m
 © Author(s) (or their resource presents condition- specific ‘1- minute’, ‘5- minute’ sources to better support conversations on physical o
 n
 employer(s)) 2022. Re- use and ‘more minute’ person- centred and evidence- based activity in the management of long term conditions. 1
-permitted under CC BY- NC. No conversation templates on physical activity in an accessible ⇒ Comprehensive evaluation is required of system- 3 M
+permitted under CC BY- NC. No conversation templates on physical activity in an accessible ⇒ Comprehensive evaluation is required of system- 7 M
 c a o n m d m pe e r r m ci i a s l s i r o e n -u s . s P e. u S bl e is e h r e ig d h b ts y and usable format to meet the needs of real- life clinical wide implementation projects to understand how a rc
 BMJ. practice.
 to use these resources to improve continuity and h
@@ -2353,7 +2353,7 @@ m
 o
 n
 1
-3
+7
 M
 a
 rc
@@ -3876,7 +3876,7 @@ m
 reflected the development priorities outlined during the mended by the Delphi group. The groups were:
 o
 preparatory phase. Three clinicians not involved in the ► An academic external validation group appointed n 1
-3
+7
 study piloted the survey before distribution to ensure through the Moving Medicine initiative.
 M
 usability by testing the structure and wording.28 39 We ► Funding and commissioning bodies at the Faculty a rc
@@ -4509,7 +4509,7 @@ m
 o
 n
 1
-3
+7
 M
 a
 rc
@@ -5505,7 +5505,7 @@ o
 Specifically, healthcare professionals and patients perceive 150 min of moderate- intensity activity per week m
 as an unnecessary barrier to conversations with inactive people. o
 n
-Developing a mechanism to support A person- centred approach to physical activity decision making is considered fundamental by clinicians 1 3
+Developing a mechanism to support A person- centred approach to physical activity decision making is considered fundamental by clinicians 1 7
 access to knowledge in routine clinical and patients. However, clinicians lack confidence in achieving this. Both clinicians and patients recommend M
 care explicit guidance on how to approach person- centred decision making in behavioural change conversations. a rc
 h
@@ -6488,7 +6488,7 @@ m
 o
 n
 1
-3
+7
 M
 a
 rc
@@ -7615,7 +7615,7 @@ m
 ► Inclusion of a pop-u p for out- of- date browsers advising format to bridge the gap between evidence and clinical o
 n
 software update and optimisation for mobile devices practice. 1
-3
+7
 to make usage less reliant on National Health Service M
 (NHS) IT infrastructure. Codesign a rc
 h
@@ -8471,7 +8471,7 @@ prescription
 o
 n
 21 ‘General Practice, the local social prescribing network, and 83 Yes No 77 Yes 1
-3
+7
 county sports partnerships’ are important organisations to M
 signpost for further support a
 rc
@@ -8927,7 +8927,7 @@ m
 o
 n
 1
-3
+7
 M
 a
 rc
@@ -10603,7 +10603,7 @@ o
 m
 The Delphi group reinforced the importance of knowledge around physical activity and low confidence o
 getting the wording right for a conversation guide to in behaviour change skills as fundamental challenges for n 1
-3
+7
 move away from a ‘telling’ language style and meet the healthcare professionals. Addressing these requirements, M
 healthcare requirements identified in the consultation the Delphi phase led to the development of a resource a rc
 h
@@ -13492,7 +13492,7 @@ g
 t
 .
 o
-1 3
+1 7
 M
 otherwise. the effectiveness of physical activity counselling in primary care: a a rc
 Open access This is an open access article distributed in accordance with the realist systematic review. Patient Educ Couns 2015;98:412–9. h
@@ -15874,7 +15874,7 @@ m
 o
 n
 1
-3
+7
 M
 a
 rc
