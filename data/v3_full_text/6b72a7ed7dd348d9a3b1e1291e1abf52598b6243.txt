@@ -1,0 +1,234 @@
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+BCI Application in Stroke Rehabilitation: Robotic Assisted
+System
+Junmeng Yuan *
+University of Illinois at Urbana-Champaign, Champaign, U.S.A
+* Corresponding Author Email: junmeng2@illinois.edu
+Abstract. Stroke remains a pervasive global health concern, exacting enduring motor, cognitive,
+and emotional tolls on affected individuals. The evolving landscape of neural interfaces has recently
+shown promising strides in reinstating lost sensorimotor functions. Non-invasive brain-computer
+interfaces (BCIs) have gained widespread recognition for their inherent advantages—simplicity,
+safety, and cost-effectiveness. The ongoing refinement of BCIs involves addressing previous
+technological and neurophysiological limitations, focusing on understanding distinctive
+neurophysiological alterations observed in individuals with disabilities. The exploration of brain
+connectivity attributes is pivotal in implementing BCI-based control systems. Emerging as a notable
+prospect for post-stroke motor rehabilitation, Brain-Computer Interface (BCI)-based therapy has
+made significant progress in restoring sensorimotor function. Revolutionary advancements have
+been made to traditional brain-computer interface (BCI) systems, which rely on brain signals
+obtained from electroencephalography (EEG) and rule-based translation algorithms. This
+comprehensive review delves into the realm of BCI Robotic Assisted Systems, offering a nuanced
+analysis of contributions from diverse researchers. It meticulously dissects these systems'
+advantages and limitations, providing valuable insights into their efficacy. Ongoing endeavors within
+the field prioritize enhancing the portability, simplicity, and cost-effectiveness of BCI technology,
+ultimately refining its overall usability. As research progresses, emphasizing larger sample sizes,
+there is a tangible potential to augment the reliability of BCI systems for stroke rehabilitation
+significantly. This trajectory holds promise for extending the benefits of BCI technology to a broader
+spectrum of patients, marking a transformative leap in neurorehabilitation methodologiest.
+Keywords: Brain-Computer Interface (BCI), Robotic Assisted Systems (RAS), Stroke rehabilitation,
+Neurorehabilitation devices.
+1. Introduction
+A BCI is a computer-based framework that captures, deciphers, and transforms measurable
+neurophysiological signals into executable commands, steering a single or a sequence of output
+devices [1, 2]. These devices cater to diverse tasks contingent on the intended application. The
+spectrum of BCI-based systems is categorized into two broad divisions: invasive and non-invasive.
+The former involves techniques such as electrode arrays positioned directly on the brain's surface for
+electrocorticographic (ECoG) recordings or microelectrode arrays embedded within the cerebral
+cortex. Conversely, the latter non-invasive category stands out due to its portability, safety, comfort,
+and cost-effectiveness. Such systems primarily employ electroencephalogram (EEG) signals obtained
+via multiple electrodes placed on the scalp.
+While both invasive and non-invasive approaches have exhibited impressive results in robotic and
+neuroprosthetic control, the recent strides in BCI research have propelled non-invasive techniques to
+the forefront [3]. Despite the historical disparities in reliability, accuracy, and speed, non-invasive
+BCIs are more accessible, safer, and cost-efficient. Moreover, ongoing developments in non-invasive
+BCI protocols aim to overcome past technical and neurophysiological constraints and align their
+performance with invasive BCIs.
+Considering the distinctive neurophysiological patterns evident in individuals with disabilities
+compared to their neurotypical counterparts, a novel paradigm emerges: analyzing brain connectivity
+characteristics for BCI implementation. Simultaneously, commercial EEG-based BCI systems have
+gained momentum, rapidly and consistently identifying a limited set of mental states. These systems
+1223
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+are progressively finding their way into consumer applications and gaining traction for controlling
+robots, often contingent on detecting the user's motor imagery status.
+In this article, we delve into the evolving landscape of neural interfaces, focusing on non-invasive
+brain-computer interfaces (BCIs) and their potential applications in neurorehabilitation. As we
+navigate through the intricacies of motor recovery in neurological conditions such as stroke, spinal
+cord injury, and amyotrophic lateral sclerosis, the exploration of innovative approaches becomes
+imperative. The convergence of motor imagery (MI) and BCIs equipped with neurofeedback
+capabilities emerges as a promising avenue to enhance rehabilitation strategies. We unravel the
+distinctions between invasive and non-invasive BCIs, emphasizing the recent advancements that have
+propelled non-invasive techniques to the forefront. Furthermore, we explore the paradigm shift
+towards analyzing brain connectivity patterns for BCI implementation, shedding light on the unique
+neurophysiological signatures present in individuals with disabilities. Additionally, we touch upon
+the rising prominence of commercial EEG-based BCI systems, their applications in consumer settings,
+and their potential to revolutionize how we interact with technology, particularly in robotic control.
+2. Robotic Assisted Systems Mechanism
+Robotics Assisted Systems (RAS) within the domain of Brain-Computer Interface (BCI)
+technology embody a sophisticated amalgamation wherein brain signals seamlessly interface with
+robotic devices, ushering in an era of direct cerebral control and interaction with robotic entities. This
+mutually beneficial relationship facilitates the elimination of manual controls and empowers
+individuals to exert influence over the actions, movements, or tasks executed by these robotic
+counterparts by utilizing their neural signals.
+Diving into the intricate components that constitute the bedrock of RAS, a triad of pivotal elements
+collaboratively works in concert to realize its extraordinary functionality:
+Brain-Computer Interface (BCI): Positioned at the epicenter of the system, the Brain-Computer
+Interface serves as the neural hub responsible for acquiring and processing intricate brain signals
+emanating from the user. These signals undergo a meticulous decoding process, precisely revealing
+the user's intentions, commands, or desired actions.
+Robotic Devices: The second cornerstone of RAS encompasses a diverse array of robotic devices,
+ranging from rudimentary robotic arms to cutting-edge exoskeletons. Infused with motors and sensors,
+these devices exhibit a broad spectrum of complexity, enabling them to seamlessly execute myriad
+physical tasks. Translating neural commands into tangible actions becomes a reality as these robotic
+entities become conduits to embody the user's intentions.
+Brain-to-Robot Communication: The third and pivotal facet, Brain-to-Robot Communication,
+functions as the crucial bridge connecting decoded brain signals with the orchestrated actions of the
+robotic system. The BCI facilitates this seamless communication pathway, which ensures a fluid
+exchange between the user's brain and the robotic entity. Delicately extracted from neural signals, the
+captured intentions are expertly transmuted into precise actions or movements, epitomizing the
+harmonious synergy between human cognition and robotic execution. This intricate interplay marks
+the pinnacle of BCI technology, underscoring the transformative potential of Robotics Assisted
+Systems in shaping the future landscape of human-robot interactions.
+2.1. Mecury Robotic Platform
+To exemplify the principles of RAS, a notable research endeavor undertaken by Dr. Alkinoos and
+colleagues introduces the Mercury robotic platform [4]. This platform showcases a sophisticated
+robotic arm capable of a range of movements, spanning from shoulder to thumb joints. With two
+integrated motors, the platform can grasp small objects using a 3D printed gripper.
+The current generation of the Mercury robotic arm is depicted in three distinct visuals (Figure 1):
+1224
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+Figure 1. Mercury robotic arm [4]. (a) portrays the robotic arm's precise placement during
+experimental trials. (b) showcases the innovative 3D printed gripper in action. (c) illustrates the
+robotic arm's structure, complete with eight distinct degrees of freedom that grant it exceptional
+flexibility and versatility.
+A meticulously orchestrated sequential process is implemented to explicate the operational
+workflow of this advanced system. Initially, users are presented with instructional content, typically
+in the form of a video, elucidating specific actions intended for the robotic platform.
+Subsequently, during the Neural Signal Acquisition stage, the user's brain signals are meticulously
+recorded through the Brain-Computer Interface (BCI) interface, capturing the intricacies of their
+neural activity. These recorded electroencephalogram (EEG) signals are then transmitted to a
+dedicated BCI device for sophisticated processing.
+The translated neural signals undergo a meticulous decoding process, translating the user's unique
+neural activity into discernible robotic commands. These decoded commands are then seamlessly
+transmitted to the robotic arm, triggering the precise execution of the intended actions with
+remarkable accuracy.
+1225
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+The culmination of this intricate process results in direct visual feedback for the user. With keen
+anticipation, they can observe the fluid actions and movements of the robotic arm, witnessing a
+tangible manifestation of their neural intentions. This seamless integration of instruction, neural
+signal processing, and tangible robotic response underscores the transformative potential of this
+technology in enhancing human-robot interactions.
+3. Success of RAS
+The success of brain-computer interface (BCI) applications spans different fields, especially in the
+multifaceted fields of solving neurological diseases and improving cognitive abilities [5, 6]. The
+broad use of BCI technology is demonstrated in a variety of applications, including neuroprocessing,
+wheelchairs, home environments, humanoid robots, and the rehabilitation of individuals recovering
+from stroke or spinal cord injury. In addition to alleviating motor deficits, brain-computer interfaces
+have shown great promise in addressing higher-order cortical dysfunction. This includes improving
+working memory and inhibitory control in those with attention-deficit/hyperactivity disorder
+(ADHD), and fostering social and emotional skills in those on the autistic spectrum, and aiding in the
+recovery of cognitive deficits associated with dementia [7]. Furthermore, brain-computer interfaces
+make a significant contribution to maintaining cognitive abilities in healthy older adults, thus
+promoting successful aging and mitigating the social challenges of an aging population.
+The integration of electrooculogram (EOG) and steady-state visual evoked potential (SSVEP)
+signals revealed noteworthy potential in specific experimental settings using hybrid BCI systems.
+EOG-based switches exhibit commendable efficiency in selectively deactivating or activating robotic
+arm control systems, introducing flexibility and user convenience [8]. Notably, the incorporation of
+blink-based cancel commands further enhances the effectiveness of the system in navigating complex
+tasks, as demonstrated by the asynchronous operation of the robotic arm. The experiment
+demonstrated participants' skillful control of a robotic arm via a hybrid BCI system to perform subtle
+movements such as grasping, lifting, and repositioning target objects [9]. The efficacy of this system
+was evident when blinking was used to cancel inappropriate commands, as a reduction in the number
+of commands executed by the robotic arm was observed, thereby improving overall control efficiency.
+These empirical findings highlight the excellent versatility and utility of BCI technology, especially
+in the field of robot control for complex and demanding tasks.
+Researchers addressed limitations associated with non-invasive brain-computer interfaces (BCIs)
+based on electroencephalographic (EEG) signals [10]. Two critical limitations were identified: the
+challenge of reliable BCI command detection as EEG epoch length decreases, hindering the
+achievement of high information transfer rates, and the incorrect interpretation of EEG signals as
+commands when there is no task being performed by the patient.
+Yajun Zhou, Shenghong He, Qiyun Huang, and Yuanqing Li conducted a study with the goal of
+addressing the difficulty of accurately differentiating between the idle and control states in an
+asynchronous brain-computer interface (BCI) based on electroencephalography (EEG) [11]. The
+suggested remedy entails a brand-new hybrid BCI system that integrates blink-related
+electrooculography (EOG) signals with steady-state visual evoked potentials (SSVEPs) in the EEG
+signal.
+The twelve character-corresponding buttons that make up the graphical user interface (GUI) flicker
+at different fixed frequencies and phases to elicit SSVEPs and change sizes simultaneously for
+highlighting. While their EEG and EOG signals are being collected, users choose a character by
+focusing on its frequency-phase stimulus and blinking their eyelids in time with its highlighting.
+Multifrequency band-based canonical correlation analysis (CCA) is applied to the EEG data in order
+to discover SSVEPs, and user blinks are identified by analysis of the EOG data. The findings of
+SSVEP and blink detection are then used to determine the target character.
+Ten healthy participants participated in the studies, and the average information transfer rate (ITR)
+was 105.52 bits/min; the average accuracy was 95.42%; the average reaction time was 1.34 s; and the
+1226
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+average false-positive rate (FPR) was 0.8%. According to the study's findings, the suggested hybrid
+asynchronous BCI system shows promise for real-world use in control and communication by
+producing a number of instructions with a high ITR and low FPR. (Zhou et al., 2020).
+This novel method, which combines SSVEP and EOG signals, represents a noteworthy
+advancement toward the creation of dependable and effective BCIs, exhibiting encouraging outcomes
+with implications for communication and control applications in the future. The study provides
+valuable insights into the ongoing evolution of hybrid BCI systems and their potential impact on
+enhancing user experience and performance in various contexts.
+4. Conclusion
+This article provides an insightful exploration into the nuanced analysis and comprehensive review
+of various experiments and research initiatives conducted by domain experts. These efforts have
+elucidated the basic working principles and broad range of brain-computer interfaces applications.
+The recent emergence of new paradigms and advances in non-invasive brain-computer interface
+protocols represents a collective effort to overcome previous technological and neurophysiological
+limitations. Complex changes in neurophysiology within brain networks after spinal cord injury (SCI)
+are considered key considerations in designing resilient and sustainable non-invasive brain-computer
+interfaces specifically tailored for motor recovery and rehabilitation. However, the effectiveness of
+any rehabilitation strategy extends beyond the realm of technology. It includes user perception,
+satisfaction, overall experience and performance. Despite considerable progress, opportunities for
+enhancements remain, consistent with the technology's inherently early stage. While challenges,
+particularly related to cost, continue to pose obstacles, the overall potential and transformative impact
+remain undeniable. The challenge at the forefront is deciphering the complexity of brain activity,
+especially in scenarios involving multiple categories, for which huge obstacles remain. Encouragingly,
+integrating functional connectivity features into BCI class classification holds promise for solving
+this complex challenge. Of note, patients are currently being tested on their upper limbs due to limited
+range of motion, highlighting the need for further innovation to meet the needs of different patients.
+Safety issues and economic feasibility also deserve careful consideration as BCIs continue to be
+developed and implemented in clinical settings. As we look toward the future, the trajectory of BCI
+neurorehabilitation systems has the potential to be transformative by incorporating advanced flexible
+electronics. The continued development of this technology will redefine the boundaries of what is
+achievable in the field of neurorehabilitation. Looking to the future, brain-computer interfaces are not
+only rehabilitation tools, but also dynamic adaptive systems that meet individual needs, creating a
+new era of collaboration between human cognition and technological innovation. As we anticipate
+continued advances, the prospect of brain-computer interfaces revolutionizing neurorehabilitation
+remains an enticing and promising frontier, promising unprecedented levels of neurological recovery.
+References
+[1] Hochberg, L. R., Bacher, D., Jarosiewicz, B., et al. Reach and grasp by people with tetraplegia using a
+neurally controlled robotic arm. Nature, 2012, 5 (7398): 372 – 375.
+[2] Collinger, J. L., Wodlinger, B., Downey, J. E., et al. High-performance neuroprosthetic control by an
+individual with tetraplegia. Lancet (London, England), 2013, 81 (9866): 557 – 564.
+[3] Galán, F., Nuttin, M., Lew, E., Ferrez, P. W., et al. A brain-actuated wheelchair: asynchronous and non-
+invasive Brain-computer interfaces for continuous control of robots. Clinical neurophysiology: official
+journal of the International Federation of Clinical Neurophysiology, 2008, 9 (9): 2159 – 2169.
+[4] Athanasiou, A., Xygonakis, I., Pandria, N., et al. Towards Rehabilitation Robotics: Off-the-Shelf BCI
+Control of Anthropomorphic Robotic Arms. BioMed research international, 2017, 5708937.
+[5] [5] Chamola, V., Vineet, A., Nayyar, A., & Hossain, E. Brain-Computer Interface-Based Humanoid
+Control: A Review. Sensors (Basel, Switzerland), 2020, 20 (13): 3620.
+1227
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+[6] Guger, C., Prabhakaran, V., Spataro, R., et al. Editorial: Breakthrough BCI Applications in Medicine.
+Frontiers in neuroscience, 2020, 14: 598247.
+[7] Zhu, Y., Li, Y., Lu, J., & Li, P. A Hybrid BCI Based on SSVEP and EOG for Robotic Arm Control.
+Frontiers in neurorobotics, 2020, 14: 583641.
+[8] Farwell, L. A., & Donchin, E. Talking off the top of your head: toward a mental prosthesis utilizing event-
+related brain potentials. Electroencephalography and clinical neurophysiology, 1988, 70 (6): 510 – 523.
+[9] Chen X., Wang Y., Zhang S., et al. A novel stimulation method for multi-class SSVEP-BCI using
+intermodulation frequencies. J. Neural Eng. 2017, 14 (6013): 1741 - 2552.
+[10] Tomita Y., Vialatte F.-B., Dreyfus G., et al. Bimodal BCI using simultaneously NIRS and EEG. IEEE
+Trans. Biomed. Eng. 2014, 61: 1274 – 1284.
+[11] Zhou Y., He S., Huang Q., Li Y. A hybrid asynchronous brain-computer interface combining SSVEP and
+EOG signals. IEEE Trans. Biomed. Eng. 2020, 67: 2881 – 2892.
+1228

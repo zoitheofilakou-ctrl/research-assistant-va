@@ -1,0 +1,248 @@
+Curr.Treat.OptionsinOncol.(2020)21:99
+DOI10.1007/s11864-020-00795-z
+InvitedCommentary
+Development
+of a Patient-Centered
+Framework for Oncology
+Clinicians to Address
+Uncertainty in Cancer Care
+During the COVID-19 Pandemic
+Natasha Dhawan, MD1
+Eric Prommer, MD2
+Christian T. Sinclair, MD3
+Ishwaria M. Subbiah, MD4,*
+Address
+1DepartmentofHematologyandOncology,Dartmouth-HitchcockMedicalCenter,
+Lebanon,NH,USA
+2DivisionofHospiceandPalliativeMedicine,VeteransAffairs/UniversityofCali-
+forniaLosAngeles,LosAngeles,CA,USA
+3DivisionofPalliativeMedicine,UniversityofKansasMedicalCenter,KansasCity,
+KS,USA
+*,4Division of Palliative Rehabilitation and Integrative Medicine, Division of
+CancerMedicine,UniversityofTexasMDAndersonCancerCenter,1515Holcombe
+Blvd,Unit1414,Houston,TX,77030,USA
+Email:isubbiah@mdanderson.org
+Publishedonline:29October2020
+*SpringerScience+BusinessMedia,LLC,partofSpringerNature2020
+KeywordsCommunicationstrategies I Prognostication I COVID-19 I Pandemic I Shareddecision-making
+A Note from the Editor-in-Chief:
+Clearly, we are living through extraordinary and chal- positive impact on patient care arising from efforts to
+lengingtimesasweconfronttheCOVID-19pandemic. addressthosechallenges.
+Although we rarely publish commentaries within Cur- It is our hope that readers of this Commentary will
+rentTreatmentOptionsinOncology,Ifeltthatitwasvery find it helpful as they seekto explore productive paths
+important to include this particular Commentary as it through the complexities of COVID-19 in an at-risk
+reflects on the many additional challenges faced by population.
+cancer patients and their caregivers as a result of
+COVID-19.Italsoexploresthepossibilityoflong-term –Dr.DavidS.Ettinger,MD
+99 Page2of6 Curr.Treat.OptionsinOncol.(2020)21:99
+Impact of COVID-19 on cancer care
+The SARS coronavirus 2 and the associated disease, Coronavirus Disease 2019
+(COVID-19), have brought about an unprecedented level of disruption to the
+healthcaredeliverymodels.Inthecontextofoncology,cliniciansandpatientsface
+decisionsregardingoncologiccarethatrequirethemtoreconciletheimpactofthe
+riskofexposureanddevelopmentofCOVID-19onthelife-alteringdiagnosisof
+cancer.Initially,therewassignificantconcernthatpatientsundergoingactivecancer
+therapywho latercontracted COVID-19 would have worseoutcomes compared
+withthegeneralpopulation.Indeed,theTERAVOLTstudydemonstratedamor-
+talityrateof34.6%(66/191)inpatientswiththoracicmalignancieswhocontracted
+COVID-19, although many of these patients were not admitted to the intensive
+careunit(andthusdidnotreceiveventilatorsupport)forunknownreasons[1].
+However,additionaldatademonstratedthatpatientsadmittedwithCOVID-19–
+relatedillnesseshadamortalityrateof14.6%amongthecohortofpatientswho
+hadcancerwhencomparedwiththosewhodidnot[2].Inlightoftheseoutcomes,
+clinical stakeholders are rapidly developing strategies to deliver oncologic care
+safely with minimal exposure [3–6]. However, these approaches are in their
+nascency, while the traditional face-to-face model of care remains significantly
+altered. As a result, considerable uncertainty pervades the delivery of cancer care
+toeverypatient,includingcancer-relatedproceduresthataredeemedelective;this
+appliesaswelltovisitationrestrictions.Recognizingthechallengesandcomplica-
+tionsthatweallfaceasaresultoftheimpactofCOVID-19,weexplorepractical
+strategies for clinicians to employ in conversations with patients, caregivers, and
+familytohelppalliatethedistressfromuncertaintygoverningtheircancercare.
+Managing uncertainty for patients and caregivers
+Inherenttothediagnosisitself,cancercomeswithaburdenofuncertainty:prog-
+nosis,treatmentoptions,treatmentoutcomes,toxicities,andpersonalandfamily
+coping. Adding a global pandemic to this milieu of human suffering brings
+unparalleled levels of uncertainty, resulting in added distress felt by the patient/
+caregiver units. Several themes centering around uncertainty have emerged from
+clinical interactions with patients and caregivers during the past several months.
+These issues outlined in Fig. 1 span across cancer types and weave this unifying
+threadofconcernamongpatientsregardlessoftheirnationalitiesormeans.
+Patients and families report that communication about a prognosis, even
+prognostic uncertainty, is a desirable component of patient-centered care, when
+potentialoutcomesareframedwhileallowingroomforhope[7,8].Employing
+communication guidelines developed in the domains of palliative care allows a
+cliniciantoengagemultidisciplinaryteamswhileprovidingsafe,supportivecon-
+nections for patients and their families [9]. Families report an increased level of
+satisfactionwithcommunicationandthecaredeliveredaswellasanappreciation
+forknowingthatapatientwas“sickenoughtodie.”[10]
+Curr.Treat.OptionsinOncol.(2020)21:99 Page3of6 99
+COMMON CONCERNS EXPRESSED BY PATIENTS AND CAREGIVERS
+DURING THE COVID-19 PANDEMIC
+(cid:129)Continued work-up of cancer while minimizing COVID-19 exposure.
+(cid:129)Unanticipated modifications to cancer treatment plans (e.g., postponement of surgical
+resection, delay in port placement, etc.).
+(cid:129)Social distancing from the support system of extended family/friends.
+(cid:129)Access to cancer clinical trials during travel restrictions.
+(cid:129)Loss of employment and health insurance, financial insecurity.
+(cid:129)Increased domestic responsibilities (e.g., childcare, home maintenance).
+(cid:129)Disruption to meaningful plans (e.g., major family events, etc.).
+(cid:129)Continued presence of COVID-19 in the community at large.
+Fig.1. CommonconcernsexpressedbypatientsandcaregiversduringtheCOVID-19pandemic.
+Managing uncertainty for clinicians
+As an entirely new disease entity, COVID-19 brings its associated uncertainties
+regardingimmediateandlong-termsequelaetopatients,includingmorecomplex
+prognostication of the trajectory of various malignancies. Oncologists engage in
+sharedclinicaldecision-makingwithpatientsbyutilizingadata-drivenapproach
+foundedonrandomized,controlledtrialsandreal-worldevidence.However,this
+traditional paradigm of care is challenged by the disease-modifying effects of
+COVID-19(bothknownandunknown),leadingtoadistortionofstandardrisk
+andbenefitanalyses(outlinedinFig. 2)[4,11–14].Communicatingtheimpactof
+theseuncertaintiesonillnesstrajectoryandmodificationstocancertreatmentplans
+generatesanewdimensionofcliniciandistress.
+TheunparalleleduncertaintyoftheCOVID-19pandemicunderscorestheneed
+forpersonalized,effective,problem-focusedcommunicationstrategies.Itisessen-
+tialthatfront-lineoncologyteamsimmediatelydeploysuchstrategiestomitigate
+COMMON CONCERNS THAT ONCOLOGISTS ARE FACED WITH DURING
+THE COVID-19 PANDEMIC
+(cid:129)Prioritizing patient care by malignancy type and treatment intent (e.g., emergent vs.
+adjuvant therapy, curative vs. palliative, palliative symptom management, etc.).4
+(cid:129)Balancing benefits of treatment with risk of potential exposure to COVID-19.11
+(cid:129)Diverting from current oncologic standards of care to minimize risk of exposure (e.g.,
+oral instead of intravenous chemotherapy, hormonal treatments, monotherapy vs.
+combination therapy).12
+(cid:129)Managing treatment side effects and their effects on quality of life while minimizing
+physical contact.11
+(cid:129)Discussing the uncertainty regarding the impact of COVID-19 on patients with cancer
+(e.g., increased susceptibility to infection, overlapping toxicities, increased symptom
+burden).13
+(cid:129)Considering re-traumatization of patients with historical/predisposition for healthcare
+disparities.4
+(cid:129)Ensuring equity in healthcare access for patients with cancer in whom other medical
+diagnoses may develop.13
+Fig.2. CommonconcernsfacingoncologycliniciansduringtheCOVID-19pandemic.
+99 Page4of6 Curr.Treat.OptionsinOncol.(2020)21:99
+Fig.3. Communicationsprinciplesguidingconversationsonclinicaluncertainty.
+thedistressassociatedwithdisruptiontothestandardsofcare.Tothatend,existing
+communication models offer a framework for guiding clinicians through the
+processofrapport-buildingduringseriousillnessconversations.Onesuchframe-
+work, VitalTalk’s NURSE statements (Naming, Understanding, Respecting,
+Supporting,andExploring),providesabackboneofcommunicationpertinentto
+manycommonclinicalsettingsencounteredincancercare[15].Thefundamentals
+of the NURSE statements provide tools for clinicians to enable rapport-building
+andsupportofpatientstooptimizeinformationgathering.Thesetoolscanthenbe
+built upon to concurrently gather information to identify a patient’s prevailing
+sourcesofdistress(asoutlinedinFig.3).Thetransitionfrominformationgather-
+ing to information delivery can be especially challenging if definitive answers to
+patient concerns are not available, at least at that point in time. Therefore, in
+additiontosharingbroadlypertinentprognosticinformation,clinicianscandeploy
+the strategy of reframing to help patients and their families maintain control by
+affirmingwhatiscertain.TheframeworkdiscussedindetailinTable1adaptsthe
+approachpreviouslydevelopedfordifficultconversationstonowguideclinicians
+intheirmanagementofCOVID-19–relateduncertainty.
+Future implications
+The exceptional circumstances of the COVID-19 pandemic have accelerated
+changesinthehealthcaredeliverylandscape.Patient-centeredinnovationsthat
+havebeenunderdiscussionfordecades(suchasthebroadimplementationof
+telehealth) are being widely deployed at a rapid pace. Concurrently, clinical
+investigatorscontinuetoexplorethereal-worldevidencetobetterunderstand
+the implications of this disruptive event on oncologic outcomes [12]. For
+patients,uncertaintyhascontinuedtobeapervasivepresencethroughouttheir
+cancer treatment journey, whether it is uncertainty over the likelihood of
+treatment response, risks of long-term recurrence, etc. The added dimension
+ofdisruptionstotheircancercareduringthispandemicnowprovidesclinicians
+rareglimpsesintothisuncertainexistenceandtheopportunitytomitigatetheir
+sufferingthroughthedirectmanagementofthisuncertainty.
+Curr.Treat.OptionsinOncol.(2020)21:99 Page5of6 99
+Table1. StrategiesformanaginguncertaintyinclinicalconversationsduringCOVID-19pandemic(AdaptedfromVitalTalk)
+[15]
+Tools Components Examples
+Naming: -Elicitpatient’sunderstandingof “WhathaveyouheardaboutCOVID-19?”
+Identifyingemotionstobringthem illness “HowhasCOVID-19impactedyou?”
+totheforefrontandallowfor -Nametheprognosticuncertainty “Howdoyouthinkitmayimpactyouinthe
+exploration[15] -Normalizeuncertainty future?”
+-Acknowledgetheemotionaltollof “Thisuncertaintycanaddstressontopof
+uncertainty everythingcancer-related.”
+-Explorespecificconcernsofpatients
+andfamilies
+Respectandunderstanding: -Leanintotheuncertaintyofthe “Icannotimaginehowhardthismustbe.”
+Respondingtoapatient’semotions situationandmeetpatients “Thankyouforsharingyourworrieswithme.
+tohelprelievedistress[16] wheretheyareemotionally COVID-19hasimpactedpeopleinanumberof
+ways;thishelpsmebetterunderstandwhatyou
+areexperiencing.”
+Support: -Reinforcewhatiscertain:support “Wewilldoourbesttomakesureyouhavewhat
+Managingthenegative fromfamily,friends,andmedical youneed.”
+consequencesofuncertainty(e.g., team “Wearewithyoueverystepoftheway”
+lossofcontrol,emotionaldistress)
+Prognosticstatement: -Prognosticstatementsabout “Ihope…andIworry…”statements
+Ensuringanaccurateunderstanding uncertaintycanframethe “Bestcase,worstcase,andmostlikely”scenarios
+andaidindecision-makingeven possibilityofhope[8] [17]
+duringuncertainty -Themedicalteammustdeliverthe
+sameprognosticinformationto
+minimizefurtheruncertainty
+Reframing: -Reframingthesituationby “Iwonderifitwouldbehelpfultodiscusswhat
+Holdingtheuncertaintyofthe acknowledgingwhatiscertain wearecertainabout?”
+situationwhilemovingforwardin -Aggressivesymptommanagement “Iwishthingsweredifferent.Althoughthereisa
+decision-making -Continuedsupportfroman lotupintheairwithCOVID-19,therearesome
+interdisciplinaryteam thingswecantrythatmayhelpyou.”
+Action: -Listitemsthatcanbe“done”(e.g., “Letusworktogethertocomeupwithalistof
+Focusingonthepresenttohelp advancedcare,estate,andlegacy goalsthatyouandyourfamilycanachieve
+patientswithmeaning-makingand planning) now,duringCOVID-19.”
+regainingcontrol -Differentiatingphysicalfromsocial
+distancing
+-Givepermissiontoreachoutto
+friendsandfamily
+-Engageinterdisciplinaryteam.
+Updatedguidesavailableonhttps://www.vitaltalk.org/guides/responding-to-emotion-respecting/
+Funding
+Dr Ishwaria M. Subbiah received support from the American Cancer Society, the Andrew Sabin Family
+Foundation,andtheGabrielle’sAngelFoundationforCancerResearch.
+99 Page6of6 Curr.Treat.OptionsinOncol.(2020)21:99
+Compliance with Ethical Standards
+Conflictofinterest
+NatashaDhawandeclaresthatshehasnorelevantconflictofinterest.EricPrommerdeclaresthathehasnoconflict
+ofinterest.ChristianTSinclairdeclaresthathehasnorelevantconflictofinterest.IshwariaM.Subbiahdeclaresthat
+shehasnorelevantconflictofinterest.
+References and Recommended Reading
+1. GarassinoMC,WhisenantJG,HuangL-C,TramaA, 9. ChochinovHM.Thinkingoutsidethebox:depression,
+TorriV,AgustoniF,etal.COVID-19inpatientswith hope,andmeaningattheendoflife.JPalliatMed.
+thoracicmalignancies(TERAVOLT):firstresultsofan 2003;6:973–7.
+international,registry-based,cohortstudy.TheLancet 10. KrawczykM,GallagherR.Communicatingprognostic
+Oncology.2020;21:914–22. uncertaintyinpotentialend-of-lifecontexts:experi-
+2. BarlesiFFS,BayleA,etal.:Outcomeofcancerpatients encesoffamilymembers.BMCPalliatCare.
+infectedwithCOVID-19,includingtoxicityofcancer 2016;15:59.
+treatmentsAmericanAssociationforCancerResearch 11. SchragD,HershmanDL,BaschE:Oncologypractice
+(AACR)VirtualAnnualMeetingI,2020. duringtheCOVID-19pandemic.Jama,2020.
+3. BannaG,Curioni-FontecedroA,FriedlaenderA,etal. 12. VandeHaarJ,HoesLR,ColesCE,etal.Caringfor
+Howwetreatpatientswithlungcancerduringthe patientswithcancerintheCOVID-19era.NatMed.
+SARS-CoV-2pandemic:primumnonnocere.ESMO
+2020;26:665–71.
+Open.2020;5. 13. BersanelliM.ControversiesaboutCOVID-19andan-
+4. HannaTP,EvansGA,BoothCM.Cancer,COVID-19 ticancertreatmentwithimmunecheckpointinhibitors.
+andtheprecautionaryprinciple:prioritizingtreatment
+Immunotherapy.2020;12:269–73.
+duringaglobalpandemic.NatRevClinOncol. 14. YancyCW:COVID-19andAfricanAmericans.Jama,
+2020;17:268–70. 2020.
+15. VitalTalk:Respondingtoemotion:respecting,2019.
+5. MotlaghA,YamraliM,AzghandiS,AzadehP,VaeziM,
+16. SmithAK,WhiteDB,ArnoldRM.Uncertainty–the
+AshrafiF,etal.COVID19prevention&careacancer
+specificguideline.ArchIranMed.2020;23:255–64.
+othersideofprognosis.NEnglJMed.2013;368:2448–
+50.
+6. ShankarA,SainiD,RoyS,MosaviJarrahiA,
+17. KielyBE,TattersallMH,StocklerMR.Certaindeathin
+ChakrabortyA,BhartiSJ,etal.Cancercaredelivery
+uncertaintime:informinghopebyquantifyingabest
+challengesamidstcoronavirusdisease-19(COVID-
+casescenario.JClinOncol.2010;28:2802–4.
+19)outbreak:specificprecautionsforcancerpatients
+andcancercareproviderstopreventspread.AsianPacJ
+CancerPrev.2020;21:569–73.
+’
+7. EvansLR,BoydEA,MalvarG,ApatiraL,LuceJM,LoB, Publisher s note
+etal.Surrogatedecision-makers’perspectiveson
+discussingprognosisinthefaceofuncertainty.AmJ
+RespirCritCareMed.2009;179:48–53. Springer Nature remains neutralwith regard tojuris-
+8. GlarePA,SinclairCT.Palliativemedicinereview: dictionalclaims inpublishedmapsandinstitutional
+prognostication.JPalliatMed.2008;11:84–103. affiliations.

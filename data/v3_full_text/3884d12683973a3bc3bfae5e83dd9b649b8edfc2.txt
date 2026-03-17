@@ -1,0 +1,307 @@
+TYPE Opinion
+PUBLISHED 02October2023
+DOI 10.3389/fpsyg.2023.1271458
+Virtual reality technology in the
+rehabilitation of post-stroke
+OPENACCESS
+EDITEDBY cognitive impairment: an opinion
+AdrianaSalatino,
+UniversitéCatholiquedeLouvain,Belgium
+article on recent findings
+REVIEWEDBY
+HillelFinestone,
+ÉlisabethBruyèreHospital,Canada
+*CORRESPONDENCE TingZhang1,2†,WeiLiu3†,QingpingBai3* andSongGao1*
+QingpingBai
+923178228@qq.com
+1CollegeofPhysicalEducationandHealthSciences,ZhejiangNormalUniversity,Jinhua,China,
+SongGao
+2DepartmentofTraditionalChineseMedicine,UniversityHospital,ZhejiangNormalUniversity,Jinhua,
+Gaosongznu@163.com
+China,3PhysicalEducationCollege,GuangxiUniversityofScienceandTechnology,Liuzhou,China
+†Theseauthorshavecontributedequallytothis
+work
+KEYWORDS
+RECEIVED02August2023
+post-stroke,cognitiveimpairment,virtualrealitytechnology,rehabilitation,limitations
+ACCEPTED20September2023
+PUBLISHED02October2023
+CITATION Introduction
+ZhangT,LiuW,BaiQandGaoS(2023)Virtual
+realitytechnologyintherehabilitationof
+post-strokecognitiveimpairment:anopinion
+Post-strokecognitiveimpairment(PSCI)isagroupofsyndromesinwhichoneormore
+articleonrecentfindings.
+Front.Psychol.14:1271458. cognitivedysfunctions,suchasmemory,executivefunction,orientationandattention,occur
+doi:10.3389/fpsyg.2023.1271458 within6monthsafterstroke(Limetal.,2021).TheprevalenceofPSCIisashighas64%,
+COPYRIGHT and1/3ofthesepatientswillprogresstodementia,seriouslyaffectingtheirqualityoflife
+©2023 Zhang,Liu,BaiandGao.Thisisan (Delavaranetal.,2017).Post-strokelimbmovementdisordershavelongreceivedwidespread
+open-accessarticledistributedundertheterms
+attentionandhaveawell-establishedclinicalrehabilitationsystem(NakawahandLai,2016).
+oftheCreativeCommonsAttributionLicense
+(CCBY).Theuse,distributionorreproduction However,PSCIisoftenneglected.
+inotherforumsispermitted,providedthe Currently, oral medications and rehabilitation are the main treatment modalities for
+originalauthor(s)andthecopyrightowner(s)
+PSCI, but the therapeutic effects are not satisfactory. Animal models cannot reproduce
+arecreditedandthattheoriginalpublicationin
+thisjournaliscited,inaccordancewith several features of the pathogenesis of vascular cognitive impairment, which limits the
+acceptedacademicpractice.Nouse, developmentofrelevantdrugs(Kuangetal.,2021).Todate,nodrugforvascularcognitive
+distributionorreproductionispermittedwhich
+impairmenthasbeenapprovedbytheFoodandDrugAdministration(USA)(Gorelicketal.,
+doesnotcomplywiththeseterms.
+2011).VasculardementiaandAlzheimer’sdisease(AD)overlapintheirneuropathological
+mechanisms(Sun,2018).DrugsforADcanalsoimprovecognitivefunctionandactivities
+ofdailylivinginpatientswithPSCI,suchasdonepezil,galantamineandmemantine(Glass
+etal.,2020;Cichonetal.,2021).However,thesideeffectsandpotentialharmsoflong-term
+drug use need to be considered (Shetty, 2013). Cognitive impairment is mainly assessed
+with paper and pencil tests (De Roeck et al., 2019). The occupational therapist provides
+therapeuticoradaptivetasksdependingonthepatient’scognitivestatus(Mijajlovic´etal.,
+2017). This type of training is tedious and the results vary widely in clinical practice.
+However,thereisnocleartreatmentforPSCI(RostandBrodtmann,2022).
+The effective integration of rehabilitation for cognitive impairment with computer
+technology has led to new and more interesting treatment modalities, such as virtual
+reality (VR) (Ge et al., 2018). VR is a new computer-generated technology that is
+being widely used clinically for the diagnosis, assessment, and treatment of mental
+disorders (Freeman et al., 2017). VR has two key features: immersion and interaction,
+providing a three-dimensional environment for the user to interact with the virtual
+environment through multiple sensory channels, including visual, auditory, and tactile
+(García-Betances et al., 2015). Previous studies have shown that cognitive training,
+physical training, and lifestyle can improve cognitive function (Stern, 2012; Huang
+et al., 2017). Compared to traditional rehabilitation therapies, VR incorporates some
+game-like elements that increase participants’ motivation, cooperation, and satisfaction.
+FrontiersinPsychology 01 frontiersin.org
+Zhangetal. 10.3389/fpsyg.2023.1271458
+VR can be designed with different scenarios and training to andweather,andsafetyofgoingout.AstudybyAnderson-Hanley
+target different cognitive areas, and can be adapted in a timely et al. (2012) combined VR with traditional physical exercise in
+manner according to patients’ needs and cognitive status. In healthyolderadultsandfoundthatthismethodimprovedcognitive
+addition, compared to traditional paper-and-pencil tests, VR- functionanddelayedtheprogressiontomildcognitiveimpairment.
+basedgoal-directednavigationandrecognitiontasksareperformed Other studies have shown that VR improves executive function,
+by immersing patients in a 3D virtual environment (La Corte attention and transfer performance in older adults, but is less
+et al., 2019). VR navigation tasks may involve more complex effective in improving language and memory (Zajac-Lamparska
+processes, including representational updating, spatial memory, etal.,2019;Sakakietal.,2021).
+andadaptationoftheselfwhenapproachingadistantspatialtarget Patients with PSCI have difficulty concentrating during
+(Brument et al., 2021). These skills and manipulations cannot be rehabilitationtrainingandgetburnedoutwhenrepeatingthesame
+accountedforinpaper-and-penciltests. training action multiple times. VR technology not only enhances
+VR technology has been initially demonstrated in the thefunandinitiativeofrehabilitationbutalsoallowsforavariety
+treatment of cognitive disorders, such as memory impairment, ofrehabilitationcontentaccordingtothepatients’needs.Onestudy
+attentionimpairment,executivefunction,languageandnumeracy foundsignificantimprovementsinmemory,spatialandtemporal
+impairment(D’Cunhaetal.,2019).Severalstudieshaveshownthat orientation in patients using VR combined with computer-based
+VRtechnologyimprovesvisuospatialmotionperception,delayed training (Huang et al., 2019). A study of community-based PSCI
+memory,orientationandattentionbetterthantraditionalcognitive patientsfoundthatVR-basedcognitivetrainingnotonlyimproved
+rehabilitation (Liao et al., 2020; Torpil et al., 2021). Besides, a cognitivefunctionbutalsoimprovedpatients’psychologicalstatus
+studybyLiaoetal.(2019)foundsignificantimprovementsinself- (Maieretal.,2020).ThescenariocontentofVRcognitivetraining
+care and gait in patients who underwent VR interventions (task- places progressively higher demands on patients’ memory and
+based interventions: simulated grocery store, simulated kitchen, attention skills (Gamito et al., 2017). The VR environment not
+finding a store, etc.). A meta-analysis found that VR was less only approximates the real environment, but can also allow the
+effectiveinimprovingcognitivefunctioninpatientswithADthan implementationofadditionalstimulitopresentmoreinformation
+in normal elderly and people with MCI. However, the feasibility for assessment. Klinger and Marié simulated a medium-sized 3D
+ofVRtechnologyhasbeendemonstratedinanon-immersiveVR supermarketwithmostoftheitemsfoundinarealsupermarket.
+intervention for patients with AD (Hofmann et al., 2003; Kim Itallowedparticipantstoperformashoppingtask:loadavirtual
+etal.,2019).Notably,theeffectoftheinterventionwascorrelated shoppingcartwithdifferentitemsfromapredefinedlist,thenplace
+withpatientcooperation.Impairedmemoryandexecutivefunction theitemsinthecartandpayatthecheckout(Cognéetal.,2018).
+are key features of AD. Several studies have used VR tasks to Toaddressnewquestions,visualandauditorystimulicouldlater
+intervene with AD patients for 2–4 months (Serino et al., 2017; beaddedtothesoftwareaccordingtoresearchneeds(Josmanetal.,
+Oliveira et al., 2021). The results showed that the VR task was 2014). A study by Cogné et al. (2018) found that non-contextual
+effectiveinimprovingpatients’overallcognitivefunction,memory auditorystimuliintheVirtualActionPlanSupermarketcouldbe
+andexecutivefunction,especiallyspatialnavigationandmemory. usedtotrainpatientswithexecutivedysfunctionandtosuppress
+At present, with the rise of virtual reality technology, VR disruptivestimuli.
+technology has a good prospect of being applied to PSCI. PSCI Executive function is the cognitive and neural mechanisms
+seriouslythreatenspatients’qualityoflife,andVRtechnologyhas activated by an individual to achieve a goal, including planning,
+a potential role in rehabilitation. VR technology applied to the working memory and impulse control of impulses (Laakso et al.,
+rehabilitationofPSCInotonlyallowspatientstotraininasafeand 2019).AstudybyRozental-Iluzetal.(2016)foundthatinteractive
+interestingenvironment,butalsoprovidestimelyfeedbackonthe videogamescaneffectivelystimulatecognitiveco-movementand
+effectivenessoftreatment.Thispaperaimstooutlinethekeyrole havethepotentialtoimproveexecutivefunctioninstrokepatients.
+of VR technology in improving cognition in patients with PSCI. A study by Rogers et al. (2019) concluded that an interactive
+Moreover, the authors highlight the limitations and challenges tabletopvirtualsystemusinggoal-directedandexploratoryupper
+of current research related to VR technologies for improving limb motor tasks could enhance neuroplasticity in patients.
+cognitioninstrokepatients. This VR system improves patients’ cognitive executive skills and
+provides multimodal positive feedback, facilitating the recovery
+of cognitive-motor coupling. While playing the interactive video
+VR technology in PSCI rehabilitation
+game, patients engage in low to moderate intensity physical
+activity. Physical activity increases neurotransmitter secretion in
+Cognitive function declines with age, particularly memory, thebrain,whichimprovesproprioception,cerebralbloodflow,and
+executive function, processing speed, and reasoning, which are brainvolume(LaitmanandJohn,2015).Exerciseincreasesbrain-
+essential for maintaining the ability to perform activities of daily derivedneurotrophicfactor,whichpromotesneuronalsurvivaland
+living(Konaretal.,2016).Therefore,itisrecognizedthatdelaying preventscognitivedecompensation(Karssemeijeretal.,2017).
+or preventing cognitive decline in healthy older adults is critical. A study by Faria et al. (2016) used an urban environment
+Studieshaveshownthatexerciseandcognitivetrainingcanreduce simulated by Reh@City to train patients in activities of daily
+cognitivedeclineinhealthyolderadults(Mondinietal.,2016;Feng living. The results showed more significant improvements in
+et al., 2017). However, exercise and cognitive training have some overall cognitive, attentional and executive function in the VR
+shortcomings, such as lack of motivation, limitations of location group, whereas patients in the traditional training group only
+FrontiersinPsychology 02 frontiersin.org
+Zhangetal. 10.3389/fpsyg.2023.1271458
+showed improvements in memory and social engagement. At a (Torrisi et al., 2021). In this paper, the authors showed that
+laterfollow-up,patientsintheVRgroupshowedmoreconsistent VR technology can improve cognitive impairment and increase
+improvements in cognitive function than those in the control engagementinpatientswithPSCI.VRtechnologyprovidesmulti-
+group(Fariaetal.,2020).Anothervirtualcognitivetaskbasedon sensory stimulation for patients with PSCI. A more realistic
+Reh@Taskmapspatients’armmovementsontoavirtualarmina experienceinthevirtualenvironmentimprovespatients’somatic
+VRenvironment.Patientscompletedaseriesofcognitiveexercises andcognitivefunctions.Withthedevelopmentofmodernscience
+intheVRscenariousingarmmovements(Fariaetal.,2018).The andtechnology,VRtechnologywilllikelybemorewidelyusedin
+resultssuggestthatVR,whichcombinescognitionandmovement, strokerehabilitation,anditisusewithPSCIholdsmuchpromise.
+is more effective than conventional rehabilitation in improving
+patients’overallcognition.
+Author contributions
+Limitations of VR technology in PSCI
+TZ:Writing—originaldraft.WL:Writing—originaldraft.QB:
+rehabilitation Writing—reviewandediting.SG:Fundingacquisition,Writing—
+reviewandediting.
+VR technology combines visual and auditory feedback with
+motor training. It focuses the attention of patients with PSCI,
+Funding
+helpingtoimproveconcentrationandspatialawareness.Different
+scenarios and difficult tasks make the patient’s movements more
+The author(s) declare financial support was received for
+purposeful and directed. Repetitive training further consolidates
+the research, authorship, and/or publication of this article. This
+thepatient’sthinkingpatternsandtrainingeffects.VRtechnology
+work was supported by the Scientific Research Fund of Zhejiang
+can improve walking ability, promote cognitive recovery, and
+ProvincialEducationDepartment(No.Y202249390).
+improveactivitiesofdailylivinginpatientswithPSCI(Xiaoetal.,
+2022).However,therearestillsomeproblemswiththeapplication
+ofVRtechnology:‹ Thesamplesizeofexistingstudiesissmall.
+Conflict of interest
+Multicenterclinicalrandomizedcontrolledtrialswithlargesample
+sizeshouldbeadded.Therefore,itisdifficulttoaccuratelyassessthe
+effectivenessofVRtechnologyinterventionsatpresent;› Elderly The authors declare that the research was conducted
+people may experience discomfort symptoms such as dizziness, in the absence of any commercial or financial relationships
+nausea, and eye fatigue during VR training (Stoffregen et al., that could be construed as a potential conflict
+2017; Kim et al., 2018). Therefore, how to overcome the adverse ofinterest.
+effectsofVRneedsfurtherresearch;fi High-qualityVRequipment
+is expensive, bulky, poorly mobile, and requires a large venue.
+Publisher’s note
+Thus, these factors limit its widespread adoption to home and
+communityuse.
+All claims expressed in this article are solely those of the
+authors and do not necessarily represent those of their affiliated
+Conclusion organizations, or those of the publisher, the editors and the
+reviewers. Any product that may be evaluated in this article, or
+PSCI recognition and subsequent treatment may be critical claimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+to the success of the overall rehabilitation process after stroke endorsedbythepublisher.
+References
+Anderson-Hanley,C.,Arciero,P.J.,Brickman,A.M.,Nimon,J.P.,Okuma,N., D’Cunha, N. M., Nguyen, D., Naumovski, N., McKune, A. J., Kellett, J.,
+Westen,S.C.,etal.(2012).Exergamingandolderadultcognition:aclusterrandomized Georgousopoulou, E. N., et al. (2019). A mini-review of virtual reality-based
+clinicaltrial.Am.J.Prev.Med.42,109–119.doi:10.1016/j.amepre.2011.10.016 interventionstopromotewell-beingforpeoplelivingwithdementiaandmildcognitive
+impairment.Gerontology.65,430–440.doi:10.1159/000500040
+Brument,H.,Bruder,G.,Marchal,M.,Olivier,A.H.,andArgelaguet,F.(2021).
+Understanding,modelingandsimulatingunintendedpositionaldriftduringrepetitive DeRoeck,E.E.,DeDeyn,P.P.,Dierckx,E.,andEngelborghs,S.(2019).Brief
+steeringnavigationtasksinvirtualreality.IEEETrans.Visual.Comput.Graph.27, cognitivescreeninginstrumentsforearlydetectionofAlzheimer’sdisease:asystematic
+4300–4310.doi:10.1109/TVCG.2021.3106504 review.Alzheimer’sRes.Ther.11,21.doi:10.1186/s13195-019-0474-3
+Cichon, N., Wlodarczyk, L., and Saluk-Bijak, J. (2021). Novel advances Delavaran,H.,Jönsson,A.C.,Lövkvist,H.,Iwarsson,S.,Elmståhl,S.,Norrving,B.,
+to post-stroke aphasia pharmacology and rehabilitation. J. Clin Med. 24, 10. etal.(2017).Cognitivefunctioninstrokesurvivors:A10-yearfollow-upstudy.Acta
+doi:10.3390/jcm10173778 Neurol.Scand.136,187–194.doi:10.1111/ane.12709
+Cogné,M.,Violleau,M.H.,Klinger,E.,andJoseph,P.A.(2018).Influenceof Faria, A. L., Andrade, A., and Soares, L. (2016). Benefits of virtual reality
+non-contextualauditorystimulionnavigationinavirtualrealitycontextinvolving based cognitive rehabilitation through simulated activities of daily living: a
+executivefunctionsamongpatientsafterstroke.Annal.Phys.Rehab.Med.61,372–379. randomized controlled trial with stroke patients. J. Neuroeng. Rehab. 13, 96.
+doi:10.1016/j.rehab.2018.01.002 doi:10.1186/s12984-016-0204-z
+FrontiersinPsychology 03 frontiersin.org
+Zhangetal. 10.3389/fpsyg.2023.1271458
+Faria,A.L.,Cameirão,M.S.,Couras,J.F.,Aguiar,J.R.O.,Costa,G.M.,Bermúdez, Liao,Y.Y.,Chen,I.H.,Lin,Y.J.,Chen,Y.,andHsu,W.C.(2019).Effectsofvirtual
+I. B. S., et al. (2018). Combined cognitive-motor rehabilitation in virtual reality reality-basedphysicalandcognitivetrainingonexecutivefunctionanddual-taskgait
+improvesmotoroutcomesinchronicstroke-apilotstudy.Front.Psychol.9,854. performanceinolderadultswithmildcognitiveimpairment:arandomizedcontrol
+doi:10.3389/fpsyg.2018.00854 trial.Front.AgingNeurosci.11,162.doi:10.3389/fnagi.2019.00162
+Faria, A. L., Pinho, M. S., and Bermúdez, I. B. S. (2020). A comparison Liao,Y.Y.,Tseng,H.Y.,Lin,Y.J.,Wang,C.J.,andHsu,W.C.(2020).Usingvirtual
+of two personalization and adaptive cognitive rehabilitation approaches: a reality-basedtrainingtoimprovecognitivefunction,instrumentalactivitiesofdaily
+randomized controlled trial with chronic stroke patients. J. Neuroeng. Rehab. 17, livingandneuralefficiencyinolderadultswithmildcognitiveimpairment.Eur.J.Phys.
+78.doi:10.1186/s12984-020-00691-5 Rehab.Med.56,47–57.doi:10.23736/S1973-9087.19.05899-4
+Feng, X., Uchida, Y., Koch, L., Britton, S., Hu, J., Lutrin, D., et al. (2017). Lim,J.S.,Lee,J.J.,andWoo,C.W.(2021).Post-strokecognitiveimpairment:
+Exercisepreventsenhancedpostoperativeneuroinflammationandcognitivedecline pathophysiologicalinsightsintobraindisconnectomefromadvancedneuroimaging
+and rectifies the gut microbiome in a rat model of metabolic syndrome. Front. analysistechniques.J.Stroke.23,297–311.doi:10.5853/jos.2021.02376
+Immunol.8,1768.doi:10.3389/fimmu.2017.01768
+Maier,M.,Ballester,B.R.,LeivaBañuelos,N.,DuarteOller,E.,andVerschure,
+Freeman,D.,Reeve,S.,Robinson,A.,Ehlers,A.,Clark,D.,Spanlang,B.,etal. P. (2020). Adaptive conjunctive cognitive training (ACCT) in virtual reality for
+(2017).Virtualrealityintheassessment,understanding,andtreatmentofmentalhealth chronicstrokepatients:arandomizedcontrolledpilottrial.J.Neuroeng.Rehab.17,42.
+disorders.PsycholMed.47,2393–2400.doi:10.1017/S003329171700040X doi:10.1186/s12984-020-0652-3
+Gamito,P.,Oliveira,J.,Coelho,C.,Morais,D.,Lopes,P.,Pacheco,J.,etal.(2017). Mijajlovic´,M.D.,Pavlovic´,A.,Brainin,M.,Heiss,W.D.,Quinn,T.J.,Ihle-Hansen,
+Cognitivetrainingonstrokepatientsviavirtualreality-basedseriousgames.Disab. H.B.,etal.(2017).Post-strokedementia-acomprehensivereview.BMCMed.15,11.
+Rehab.39,385–388.doi:10.3109/09638288.2014.934925 doi:10.1186/s12916-017-0779-7
+García-Betances, R. I., Arredondo Waldmeyer, M. T., Fico, G., and Cabrera- Mondini,S.,Madella,I.,Zangrossi,A.,Bigolin,A.,Tomasi,C.,Michieletto,M.,etal.
+Umpiérrez,M.F.(2015).Asuccinctoverviewofvirtualrealitytechnologyusein (2016).Cognitivereserveindementia:implicationsforcognitivetraining.Front.Aging
+Alzheimer’sdisease.Front.AgingNeurosci.7,80.doi:10.3389/fnagi.2015.00080 Neurosci.8,84.doi:10.3389/fnagi.2016.00084
+Ge, S., Zhu, Z., Wu, B., and McConnell, E. S. (2018). Technology- Nakawah,M.O.,andLai,E.C.(2016).Post-strokedyskinesias.Neuropsychiatr.Dis.
+based cognitive training and rehabilitation interventions for individuals Treatment.12,2885–2893.doi:10.2147/NDT.S118347
+with mild cognitive impairment: a systematic review. BMC Geriatr. 18, 213.
+Oliveira, J., Gamito, P., Souto, T., Conde, R., and Ferreira, M. (2021). Virtual
+doi:10.1186/s12877-018-0893-1
+reality-basedcognitivestimulationonpeoplewithmildtomoderatedementiadueto
+Glass, O. M., Hermida, A. P., Hershenberg, R., and Schwartz, A. C. Alzheimer’sdisease:apilotrandomizedcontrolledtrial.Int.J.Environ.Res.Pub.Health
+(2020). Considerations and current trends in the management of the 16,18.doi:10.3390/ijerph18105290
+geriatric patient on a consultation-liaison service. Curr. Psychiatr. Rep. 22, 21.
+Rogers,J.M.,Duckworth,J.,Middleton,S.,andSteenbergen,B.(2019).Elements
+doi:10.1007/s11920-020-01147-2
+virtualrehabilitationimprovesmotor,cognitive,andfunctionaloutcomesinadult
+Gorelick,P.B.,Scuteri,A.,Black,S.E.,Decarli,C.,Greenberg,S.M.,Iadecola, stroke: evidence from a randomized controlled pilot study. J. Neuro. Eng. 16, 56.
+C., et al. (2011). Vascular contributions to cognitive impairment and dementia: a doi:10.1186/s12984-019-0531-y
+statementforhealthcareprofessionalsfromtheamericanheartassociation/american
+Rost, N. S., and Brodtmann, A. (2022). Post-stroke cognitive impairment and
+strokeassociation.Stroke.42,2672–2713.doi:10.1161/STR.0b013e3182299496
+dementia.Circ.Res.130,1252–1271.doi:10.1161/CIRCRESAHA.122.319951
+Hofmann,M.,Rösler,A.,Schwarz,W.,Müller-Spahn,F.,Kräuchi,K.,Hock,C.,
+Rozental-Iluz, C., Zeilig, G., Weingarden, H., and Rand, D. (2016). Improving
+etal.(2003).Interactivecomputer-trainingasatherapeutictoolinAlzheimer’sdisease.
+executivefunctiondeficitsbyplayinginteractivevideo-games:secondaryanalysisof
+Compreh.Psychiatr.44,213–219.doi:10.1016/S0010-440X(03)00006-3
+arandomizedcontrolledtrialforindividualswithchronicstroke.Eur.J.Phys.Rehab.
+Huang,Q.,Wu,W.,Chen,X.,Wu,B.,Wu,L.,Huang,X.,etal.(2019).Evaluating Med.52,508–515.
+theeffectandmechanismofupperlimbmotorfunctionrecoveryinducedbyimmersive
+Sakaki,K.,Nouchi,R.,andMatsuzaki,Y.(2021).BenefitsofVRphysicalexerciseon
+virtual-reality-basedrehabilitationforsubacutestrokesubjects:studyprotocolfora
+cognitioninolderadultswithandwithoutmildcognitivedecline:asystematicreview
+randomizedcontrolledtrial.Trials20,104.doi:10.1186/s13063-019-3177-y
+ofrandomizedcontrolledtrials.Healthcare13,9.doi:10.3390/healthcare9070883
+Huang,S.,Wei,G.,andHua,F.(2017).Fragmentedsleepenhancespostoperative
+Serino,S.,Pedroli,E.,Tuena,C.,DeLeo,G.,Stramba-Badiale,M.,Goulene,K.,
+neuroinflammationbutnotcognitivedysfunction:really?AnesthesiaAnalg.125,695.
+etal.(2017).Anovelvirtualreality-basedtrainingprotocolfortheenhancementof
+doi:10.1213/ANE.0000000000002212
+the“mentalframesyncing”inindividualswithAlzheimer’sdisease:adevelopment-of-
+Josman, N., Kizony, R., Hof, E., Goldenberg, K., Weiss, P. L., Klinger, E., concepttrial.Front.AgingNeurosci.9,240.doi:10.3389/fnagi.2017.00240
+etal.(2014).Usingthevirtualactionplanning-supermarketforevaluatingexecutive
+Shetty, A. K. (2013). Prospects of levetiracetam as a neuroprotective drug
+functions in people with stroke. J. Stroke Cereb. Dis. Stroke Assoc. 23, 879–887.
+againststatusepilepticus,traumaticbraininjury,andstroke.Front.Neurol.4,172.
+doi:10.1016/j.jstrokecerebrovasdis.2013.07.013
+doi:10.3389/fneur.2013.00172
+Karssemeijer,E.G.A.,Aaronson,J.A.,Bossers,W.J.,Smits,T.,OldeRikkert,M.G.
+Stern,Y.(2012).CognitivereserveinageingandAlzheimer’sdisease.TheLancet
+M.,Kessels,R.P.C.,etal.(2017).Positiveeffectsofcombinedcognitiveandphysical
+Neurol.11,1006–1012.doi:10.1016/S1474-4422(12)70191-6
+exercisetrainingoncognitivefunctioninolderadultswithmildcognitiveimpairment
+ordementia:ameta-analysis.AgeingRes.Rev.40,75–83.doi:10.1016/j.arr.2017.09.003 Stoffregen,T.A.,Chang,C.H.,Chen,F.C.,andZeng,W.J.(2017).Effectsof
+decadesofphysicaldrivingonbodymovementandmotionsicknessduringvirtual
+Kim, H. K., Park, J., Choi, Y., and Choe, M. (2018). Virtual reality sickness
+driving.PloSOne.12,e0187120.doi:10.1371/journal.pone.0187120
+questionnaire (VRSQ): motion sickness measurement index in a virtual reality
+environment.ApplErg.69,66–73.doi:10.1016/j.apergo.2017.12.016 Sun, M. K. (2018). Potential therapeutics for vascular cognitive
+impairment and dementia. Curr. Neuropharmacol. 16, 1036–1044.
+Kim,O.,Pang,Y.,andKim,J.H.(2019).Theeffectivenessofvirtualrealityfor
+doi:10.2174/1570159X15666171016164734
+peoplewithmildcognitiveimpairmentordementia:ameta-analysis.BMCPsychiatr.
+19,219.doi:10.1186/s12888-019-2180-x Torpil,B.,Sahin,S.,Pekçetin,S.,andUyanikM.(2021).Theeffectivenessofavirtual
+reality-basedinterventiononcognitivefunctionsinolderadultswithmildcognitive
+Konar,A.,Singh,P.,andThakur,M.K.(2016).Age-associatedcognitivedecline:
+impairment:asingle-blind,randomizedcontrolledtrial.GamesHealthJ.10,109–114.
+insights into molecular switches and recovery avenues. Aging Dis. 2, 121–129.
+doi:10.1089/g4h.2020.0086
+doi:10.14336/AD.2015.1004
+Torrisi,M.,Maggio,M.G.,DeCola,M.C.,Zichittella,C.,Carmela,C.,Porcari,B.,
+Kuang,H.,Zhou,Z.F.,Zhu,Y.G.,Wan,Z.K.,Yang,M.W.,Hong,F.F.,etal.(2021).
+etal.(2021).Beyondmotorrecoveryafterstroke:theroleofhandroboticrehabilitation
+Pharmacologicaltreatmentofvasculardementia:amolecularmechanismperspective.
+plusvirtualrealityinimprovingcognitivefunction.J.Clin.Neurosci.Off.Soc.Austr.92,
+AgingDis.12,308–326.doi:10.14336/AD.2020.0427
+11–16.doi:10.1016/j.jocn.2021.07.053
+LaCorte,V.,Sperduti,M.,Abichou,K.,andPiolino,P.(2019).Episodicmemory
+Xiao, Z., Wang, Z., Ge, S., Zhong, Y., and Zhang, W. (2022). Rehabilitation
+assessmentandremediationinnormalandpathologicalagingusingvirtualreality:a
+efficacy comparison of virtual reality technology and computer-assisted cognitive
+minireview.Front.Psychol.10,173.doi:10.3389/fpsyg.2019.00173
+rehabilitation in patients with post-stroke cognitive impairment: a network meta-
+Laakso, H. M., Hietanen, M., Melkas, S., Sibolt, G., and Curtze, S. (2019). analysis. J. Clin. Neurosci. Off. Soc. Austr. 103, 85–91. doi: 10.1016/j.jocn.2022.
+Executivefunctionsubdomainsareassociatedwithpost-strokefunctionaloutcomeand 07.005
+permanentinstitutionalization.Eur.J.Neurol.26,546–552.doi:10.1111/ene.13854 Zajac-Lamparska,L.,Wiłko´sc´-Debczyn´ska,M.,Wojciechowski,A.,Podhorecka,
+Laitman, B. M., and John, G. R. (2015). understanding how exercise M.,Polak-Szabela,A.,Warchoł,Ł.,etal.(2019).Effectsofvirtualreality-basedcognitive
+promotes cognitive integrity in the aging brain. PLoS Biol. 13, e1002300. traininginolderadultslivingwithoutandwithmilddementia:apretest-posttestdesign
+doi:10.1371/journal.pbio.1002300 pilotstudy.BMCRes.Notes.12,776.doi:10.1186/s13104-019-4810-2
+FrontiersinPsychology 04 frontiersin.org

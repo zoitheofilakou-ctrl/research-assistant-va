@@ -1,0 +1,698 @@
+342 Research Article
+fl ’
+In uence of Provider Interaction on Patient s Readiness
+Toward Audiological Services and Technology
+Amyn M. Amlani1
+1AudigyGroup,Vancouver,WA Addressforcorrespondence AmynM.Amlani,AudigyGroup,
+Vancouver,WA98684(e-mail:aamlani@audigy.com).
+JAmAcadAudiol2020;31:342–353.
+Abstract Background Patients and providers recognize the importance of patient-centered
+care.Clinicalinteractions,however,suggestthataudiologistsmaintaintheirtraditional
+provider-centeredapproach.
+Purpose Theprimarypurposeofthisstudywastoassessthedegreetowhichprovider
+interaction influenced patient readiness toward audiological services using the neo-
+behavioralconceptofneed recognitiondescribed inconsumerdecision-making.
+Research Design We used a randomized, within-group experimental approach using
+surveyresponsestoquantifypredisposedexpectationsontendimensionstowardservice
+andtechnologyprovision2weeksbeforeand2weeksafteranaudiologicalassessment.
+Responseswerealsocategorizedasafunctionof therespondent-perceivedprofessional
+settingoftheprovider(medical,rehabilitation,andconsumerelectronics).
+StudySample Surveyrespondentsincluded618adults{186males(meanage¼63.1
+years; standard deviation [SD]¼5.3) and 432 females [mean age¼58.4 years;
+SD¼6.2]} fromacrossthe UnitedStates.
+Data Collection and Analysis Data were analyzed using two approaches. First, we
+used a two-step cluster analysis procedure that revealed natural groupings (i.e.,
+profiles) of respondent characteristics of the ten dimensions. Second, we compared
+within-groupmeandifferencesbetweenpre-andpostappointmentresponsesusinga
+univariate analysis of variance, with mean differences reported as a function of
+professionalsettingand preappointmentresponsesservingas thecontrol condition.
+Results Results revealed that the predisposed expectation profiles among the ten
+dimensions differed among the professional settings, with rehabilitation having the
+highest mean response values and consumer electronics having the least mean
+responsevalues.Adescriptiveanalysisindicatedthatrespondentsintherehabilitation
+and medical settings presented the greatest interest in amplification before the
+patient-providerinteraction,buttheleastinterestafterward.Inaddition,postappoint-
+mentanalysesrevealedthatprovidersfailedstatisticallytomeetpatients’predisposed
+Keywords expectationsinall threesettings.
+► analysisofvariance Conclusions Overall,mostrespondents’predisposedexpectationswereunmetduring
+► clusteranalysis their interaction with an audiologist. These expectations differed across professional
+► consumerdecision- settings,withthegreatestunmetexpectationsobservedintherehabilitativeandmedical
+making settings.Patientreadinessisinfluencedbythebehavioroftheproviderwhich,atpresent,
+► patient-centeredcare appearstobeabarriertopatients’acceptanceoftreatmentoptions.
+Copyright©2020bytheAmerican DOI https://doi.org/
+AcademyofAudiology.Allrights 10.3766/jaaa.19051.
+reserved.ThiemeMedicalPublishers, ISSN 1050-0545.
+Inc.,333SeventhAvenue,NewYork,
+NY10001,USA.Tel:+1(212)760-0888.
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT
+Provider Interaction and Patient’s Readiness Amlani 343
+Introduction individual’sattitudes,actions,andintentionsastheindivid-
+ual cycles through the decision-making process toward an
+The Institute of Medicine (2001) defines patient-centered intentional behavior change. The process of the change
+care(PCC)astheprovisionofcarethatisrespectfulofand involvesfivestages:(a)precontemplation(i.e.,nothoughts
+responsivetoanindividual’spreference,needs,andvalues, orplanstochangeabehavior),(b)contemplation(i.e.,aware
+andensuresthatpatientvaluesguideclinicaldecisions.PCC of the problem that the behavior creates), (c) preparation
+originated from the counselingandpsychotherapy workof (i.e., intended action to be taken), (d) action (i.e., behavior
+Rogers(1951)anddivergesfromthetraditionalprovisionof modification), and (e) maintenance (i.e., sustained healthy
+theprovider-centeredapproach,wherethepatientreliedon behavior). Thefindingsfrom the model aid the clinician in
+thehealth-care professionaltorender unilateral treatment determininganindividual’sstageofreadinesstochange,as
+andmanagementdecisionsforagivenhealth-relatedcondi- well as a basis for counseling and intervention.) Results
+tion.Instead,PCCisaprocess7wherebypatientsparticipate revealed that patient readinessto a hearing aid trial could
+activelyintheirowntreatmentandmanagementofahealth be observed through the interaction with the audiologist;
+condition(BarryandEdgman-Levitan).3PCCisbeingadvo- that is, patients categorized in the precontemplation stage
+catedintheevidence-basedmanagementofchronichealth displayedanincreasedresistancetowardtherecommenda-
+conditions,includinghearinghealth(Boisvertetal).6 tionofhearingaidscomparedwithpatientscategorizedin
+Several health professions—such as medicine (Santana thecontemplationstageorpreparationstage.Likewise,Lap-
+et al)44 and nursing (McCormack and McCance)32—have lante-Levesque et al (2012) evaluated the degree to which
+developedPCCframeworksthatlendtoprofessionalguide- patients complied with the shared- decision treatment
+linesandmethodologies,allowingforoversightindetermin- options(i.e.,uptakeofhearingaids,completionofcommu-
+ingthequalityanddegreetowhichaproviderisusingthe nication program, and no intervention) offered by their
+process. The benefit of a developed PCC framework and provider.Resultsrevealedthatonly25%ofimpairedlisteners
+methodologyyieldsincreasedprofessionalserviceadvance- followed through with their initial treatment decision,
+ments.Forexample,inthetreatmentofasthma,Qamaretal although 40% of impaired listeners chose the no-interven-
+(2011) report that the PCC framework yields improved tion option, manyof whomwere classified in the contem-
+patient satisfaction, reduced negativity toward providers plationstage.
+and medication regimens, increased adherence to medica- AcritiqueofboththeLaplante-Levesqueetal(2012)and
+tion use, improved patient qualityof life, and fewer emer- Ekberg et al (2016) studies is the application of the trans-
+gencyroomvisitsthantheprovidercenteredapproach. theortical model (Prochaska and DiClemente)38 to assess
+Inaudiology,arecommendedframeworkofPCCisyettobe behavioral changes in patient perception. Health-behavior
+developedformally.Empiricaleffortshaveassessedtheconcep- models—suchastheHealthBeliefModel(Rosenstock),41the
+tualization of PCC to audiological rehabilitation (Grenness theoryofplannedbehavior(FishbeinandAjzen),14andthe
+etal),11the useofevidence-basedpracticetoguide provider transtheoretical model—have been applied traditionally to
+PCCrehabilitationdecision-making(Boisvertetal),6andpro- hearinghealthtoassessandpredictchangesinknowledge,
+vider-patientfactorsthatinfluencehearinghealthcaredecisions attitudes,andbehavior(Laplante-Levesque,Hickson,etal;26
+(Poost-Forooshetal;35,36Grennessetal).13 Saunders et al;45 Ekberg et al).12 A recent review of these
+ForaudiologytotransitiontoaPCCmodel,theprofession healthbehaviormodelsrevealedthatthemodels’predictive
+must assess its present-day practices. Clinical interactions capabilitylackssensitivityinquantifyingchangesinperfor-
+withpatientsrevealthatprovidersmaintaintheirtraditional manceinhearinghealth,andthus,newapproachesshould
+provider-centeredapproachasevidencedby(a)anabsenceof be considered (Coulson et al).8 The basis of this review
+relationship-buildingwiththeirpatients(Grennessetal),13(b) prompted us to undertake the present study to quantify
+a lack of empathy when patients present psychosocial con- thedegreetowhichaproviderinfluencesapatient’sreadi-
+cerns expressed with a negative emotional stance (Ekberg ness toward audiological services and treatment using the
+etal;11Grennessetal),13(c)afailuretoincludefamilymember neobehavioral concept of need recognition described in
+input as part of the treatment and management process of consumerdecision-making.
+patienthealthcare(Ekbergetal),13(d)afailuretoacknowledge
+patients’ emotional responses during the decision-making ConsumerDecision-MakingModel
+process with respect to hearing aid cost options (Ekberg Need recognition is the fundamental concept described in
+et al),10 and (e) not promoting an equal opportunity for theconsumerdecision-makingmodel(Blackwelletal).5This
+patients to participate actively in their own treatment and conceptispredicatedontheinformationprocessingperspec-
+managementoftheirhearingimpairment(Grennessetal).13 tive, where the interaction between the consumer and
+One aspect of the provider-patient interaction that stimuliintheenvironmentisanongoingcognitiveprocess
+remains unclear is the extent to which the audiologist thattheconsumerdevelopsbeliefsandattitudestowardthe
+influences the patient’s readiness toward treatment inter- environment (0stergaard and Jantzen).34 These beliefs are
+ventions. Recently, Ekberg et al (2016) explored patients’ evaluatedintrospectivelybasedon(a)aneed(i.e.,problem)
+readinesstowardaudiologicalrehabilitationusingthetrans- and(b)themotivation,ability,andopportunityprovidedby
+theoretical model (Prochaska and DiClemente).38 (This theenvironmenttoresolve—orlessen—theneed.►Figure1
+health-related behavior model quantifies changes in an illustratesthisconcept.
+JournaloftheAmericanAcademyofAudiology Vol.31 No.5/2020
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT
+344 Provider Interaction and Patient’s Readiness Amlani
+Fig.1 Schematicdepictingtheconceptofneedrecognitionaspartoftheconsumerdecision-making(seetextfordetails).
+Need suchastheindividual’senvironment,experiences,values,and
+Psychocognitively,needisassessedbycomparingtheindivid- interactionswithothers.
+uals’ desired state with their actual, or present, state. In
+audiology,thepatients’magnitudeofdesiredstate(e.g.,ability Ability
+tohearconversationalspeech)mustexceedthepsychological Oneaspectofabilityistheinfluenceofemotiononcognition.
+thresholdfortheactualstate(e.g.,thresholdatwhichhearing Research from cognitive psychology suggests that emotion
+sensitivityreducestheabilitytohearconversationalspeech) and cognitive processing are interdependent, such that
+fortreatmentoptionstobeconsidered.Conversely,whenthe emotionmodulatesandmediatesbasiccognitiveprocesses
+magnitudeforthedesiredstate(e.g.,abilitytohearconversa- (Storbeck and Clore).48 In the context of health-related
+tionalspeech)islessthanorequaltothepatients’psychologi- decisions, emotion has been found to be an important
+cal threshold for the actual state (e.g., threshold at which predictor of engaging in health-protective behaviors (e.g.,
+hearingsensitivityreducestheabilitytohearconversational safer sex practices, exercise, and healthy diet) through its
+speech),patientsperceivesatisfactionwiththeiractualstate, effectsonself-efficacy(i.e.,perceivedabilitytomanageone’s
+diminishing the need to consider treatment options. (For health)(Saloveyetal).43
+additionaldetailsonconsumerdecision-makingandhearing Research further indicates that once an attitude is pre-
+aidadoption,thereaderisreferredtoAmlani.)1 disposed, changing the predisposition is difficult (Wilson
+Abriefdescriptionofhowneedrecognitionisshapedby et al).51 Although new attitudes can override predisposed
+thefactorsofmotivation,ability,andopportunityisprovided attitudes,theinitialpredispositionisneverreplaced,yield-
+inthefollowingparagraphs(►Figure1). ing a concept of dual attitudes. According to Wilson et al
+(2000),dualattitudesareacognitiveassessmentofthesame
+Motivation objectthatcanresultindifferingattitudes.
+Motivation, or an individual’s behavior directed toward a
+desiredoutcome, isdependentonneedrecognition;that is, Opportunity
+a need is activated when there is a discrepancy between Twofactorsthatinfluenceneedrecognitionaretimeandtype
+individuals’ current state and their desired state. As the ofinformation.Kirandeetal(2011)foundthattimeinfluences
+discrepancytoachievethedesiredstateincreases,motivation consumerpurchasingbehavior.Specifically,individualswho
+activatesaconditionofarousalreferredtoasdrive(Blackwell haveinsufficienttimetoattendtoproductandserviceinfor-
+etal).5Thisdrive(i.e.,desiredstate)representsthegoal(s)of mationarelesslikelytoproblem-solve.Inthiscase,individuals
+theindividual. whoelecttoadoptaproductorservicewilleitherselectthe
+Several factors are known to influence motivation. For well-known brand because they do not take the time to
+example,SchiffmanandWisenblit(2013)distinguishbetween consider alternatives, or they willselect theleastexpensive
+rational and emotional motives, where the former implies productandriskbuyers’remorse(i.e.,cognitivedissonance).
+goalsbasedonobjectivecriteria(e.g.,priceandaesthetics)and Furthermore,researchindicatesthatindividualsarelesslikely
+the latter implies goals based on subjective criteria (e.g., to adopt a service or product once they leave the premises
+culture and value). Motivation is also influenced by factors, (Kirandeetal).23Forindividualswhoaretime-constrained,on
+JournaloftheAmericanAcademyofAudiology Vol.31 No.5/2020
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT
+Provider Interaction and Patient’s Readiness Amlani 345
+theotherhand,additionaltimetoprocesstheinformationmay number of participants were Michigan (41), Arizona (39),
+bebeneficial. NewYork(37),Texas(37),California(35),andFlorida(33).
+Theamountandtypeofinformationpresented,also,can
+affectindividuals’processingability.Individualsviewmes- Patient-CenteredReadinessSurvey
+sagescontainingapicturewithoutwords,oftenseenintrade We created a 16-item online survey in Qualtrics. The first
+journals,asambiguousanddifficulttoprocess(Hibbard).21 surveyitemincludedanInstitutionalReviewBoard-approved
+Furthermore, large amounts of information that require consentform.Onceconsentwasprovided,theparticipantwas
+sortingareviewedascomplex.Mostimportantly,informa- providedtheremainingsurveyitems.Items2-4askedrespon-
+tion that is technical and quantitative is more difficult for dents to report their date of birth, gender, and the state in
+individualstoprocessthaninformationthatisnontechnical whichtheyresided.Item5queriedparticipantstoratetheir
+andqualitative(Amlanietal).2 perceptionofthetypeofservicetheywouldbereceivingfrom
+theirprovideraseither(1)medical,(2)rehabilitation,or(3)
+consumerelectronics.Weincludedthisquestionbasedonthe
+Method
+workofBeattieandNelson(2008),whoreportthatpatients’
+Participants perceptiontowardthetypeandqualityofcaretheywillreceive
+A total of 618 adult participants, who self-identified with ispredisposedbasedonfactorssuchastheprovider’swebsite,
+impairedhearing,completedapre-andpostonlinesurveyof practicelocation(e.g.,medicalplaza,stand-aloneclinic),and
+theirprofessionalexperiencewithanaudiologist,including acceptedformsofpayment(e.g.,insurance,creditcard,financ-
+their interest in pursuing amplification technology. Of the ingavailability).Questions6-15probedpatients’perceptions
+618 participants, 186 were males (mean age¼63.1 years; towardtheirproviderfortendimensionsusingascaleranging
+standarddeviation[SD]¼5.3)and432werefemales(mean from1(notimportant)to10(important).Thetendimensions
+age¼58.4 years; SD¼6.2). Participants were recruited wereestablishedfromtheliteratureandarelistedin►Table1,
+through a national hearing care program that provided along with theirdefinitions and categoricalplacement with
+access to a network of providers, including audiologists, respect totheneedrecognition(i.e.,motivation,ability,and
+hearinginstrumentspecialists,andotolaryngologists. opportunity). Last, question 16 solicited a yes/no response
+Participants’responseswererepresentedfromeverystate fromparticipantsonwhethertheywereinterestedinobtain-
+except Alaska, Delaware, Iowa, Mississippi, Nevada, New inginformationabouthearingaidsaspartoftherehabilitation
+Mexico,NorthDakota,andWyoming.Stateswiththehighest andtreatmentprocess.
+Table 1 ListingandCorrespondingDefinitionoftheTenDimensionsAssessedinThisStudy
+Dimension Competency
+Competency(cid:2) Patients’perceptionofproviders’efficiencyinachievinggoodtreatmentoutcomes(Thomand
+Campbell,49asreferencedinPremingeretal37)
+Confidentiality† Patients’trustthattheproviderwillprotectsensitiveinformation(Thometal,50asreferencedin
+Premingeretal37)
+Empathy† Providers’abilitytoidentifywiththefeelingsofpatients,communicatetheunderstandingoftheir
+difficulty,andprovidesupport(StepienandBaernstein47)
+Healthpromotion‡ Provisionofclear,comprehensible,communicationtoensurethatpatientsreceiveunbiasedand
+culturallyappropriateinformationthatlendstoaneducatedchoiceregardingtreatment(Gilligan
+andWeinstein16)
+Integratedcaret Sharingofhealthinformationamongprofessionalsindifferentprofessionsthatestablishesa
+comprehensivetreatmentplantoaddressthebiological,psychological,andsocialneedsofthe
+patient(GröneandGarcia-Barbero17)
+Family/friendsupport(cid:2) Providerinvolvesfamily/friendsaspartofthetreatmentprocess(Ekbergetal13)
+Provider-patient Theproviderimpartsinformationthatiscomplete,accurate,timely,unambiguous,andwithouta
+communication‡ prioriexpectations,inadditiontoappropriatenonverbalbehavior.Inaddition,thepatientis
+affordedtheopportunitytofacilitateinthecommunicationprocesswithopen-endedresponses
+(Grennessetal13)
+Respect(cid:2) Theproviderdeliversservicesthatarerespectfulofandresponsivetothehealthbeliefs,practices,
+andculturalandlinguisticneedsofdiversepatients(Sahaetal42)
+Shareddecision-making(cid:2) Aprocessinwhichprovidersandpatientsworktogetherontreatmentoptionsbasedonclinical
+evidencethatbalancesrisksandexpectedoutcomeswithpatientpreferencesandvalues(Gilligan
+andWeinstein16)
+Trust† Thepatient’sconfidencethattheproviderwilldowhatisbestforthepatient(Premingeretal37)
+(cid:2)Motivation
+†Ability
+‡Opportunity
+JournaloftheAmericanAcademyofAudiology Vol.31 No.5/2020
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT
+346 Provider Interaction and Patient’s Readiness Amlani
+Procedures distributed,(b)categoricalvariablesaremultinomial,and(c)
+An email soliciting participation was forwarded to 6,200 theclustervariablesinthemodelareindependent(Frederick
+members(i.e.,patients)ofanationalhearingcareprogram andPrins).15Tocomparemeandifferencesbetweenpre-and
+between September 2015 and August 2016. This email postappointmentresponses,weappliedaunivariateanalysis
+requestedthatmembersinterestedinhavingtheirhearing of variance (ANOVA) at an alpha of 0.05. Specifically, mean
+sensitivityassessedselectanetworkprovideroftheirchoice differencesarereportedasafunctionofprofessionalsetting
+and schedule an appointment. Before the appointment, (i.e., within-group), with each preappointment responses
+a second email, which was blinded to the investigator, servingasacontrolcondition.
+requestedthatmemberscompleteanonlinesurveyoftheir
+appointment expectations 2 weeks before their scheduled
+Results
+appointment. Specifically, potential participants were
+instructed to share their predisposed expectations of the A total of 618 participants reported that their primary
+initialappointmentincludingtheprofessionalsettingofthe provider was an audiologist, whose primary services were
+provider and their interest in amplification services and perceived as being provided in one of three professional
+technology. A third email, also blinded to the investigator, settings: medical (n¼142), rehabilitative (n¼389), and
+was forwarded to those individuals who completed the consumer electronics (n¼87). Additional results are dis-
+preappointmentsurveyaskingthesememberstoratetheir cussed in the following paragraphs with respect to the
+postinteractionexperiencewiththeprovider,includingtheir professionalsetting.
+interestinamplificationservicesandtechnology.InNovem-
+ber2016,allcompletedsurveyresultswereprovidedtothe MedicalSetting
+investigatorforanalyses. ►Table 2 displays respondents’ pre- and postappointment
+A total of 1,273 participants completed the pre- and perceptionof theirencounter withaprovider inamedical
+postsurvey components; of these, 618 reported that their setting.Inthissetting,142respondentsactivelysoughtouta
+primary provider was an audiologist. (An additional 573 providertoassesstheirselfperceivedhearingdeficit,with95
+participants indicated being seen by a hearing instrument respondents, or 67% of this sample, indicating a favorable
+specialist,and142participantswereunsureofthecreden- attitudetowardamplification.
+tialsoftheprofessionalwhotreatedthem.Theformersetof Postappointmentresponses,however,indicatedthatonly
+datawillbecomparedwiththedatareportedinthisstudyin 50 respondents—of the possible 142 (i.e., 35%)— remained
+afuturestudy.) interestedinreturningtotheaudiologistforadditionalman-
+Thepre-andpostsurveyswerecompletedin,onaverage, agement and treatment of their hearing health care. With
+7.6 days (SD¼3.8) and 3.3 days (SD¼2.1), respectively, respecttopatientinterestinamplification,postappointment
+relative to the initial appointment. Participants were not responsesrevealedthattheinitialsamplesizeof95respon-
+providedanincentivefortheirparticipation. dents wasreduced to 43.Of these43respondents, 36were
+talliedfromtheinitial95respondentswhoreportedapositive
+StatisticalApproach predisposition toward amplification and the remaining 7
+Participantresponseswereanalyzedasafunctionofprofes- positive responses toward amplification were provided by
+sionalsettingusingatwo-stepclusteranalysisprocedure(IBM respondentswhodidnotreportapositivedispositiontoward
+SPSS Statistics, version 25; Armonk, NY). This exploratory amplificationbeforetheaudiologicalappointment.
+procedure reveals natural groupings (i.e., clusters) within a
+dataset that describes respondent characteristics toward an ClusterAnalysis
+outcome,suchasconsumerbuyinghabits(Koutsimanisetal) ►Figure 2 displays the results from the cluster analysis of
+24andphysician-patientinteraction(Lutfeyetal).28Clusters overallrespondentratingstowardpatient-providerinterac-
+werearrangedusingaSchwarzcriterion(i.e.,Bayesianinfor- tionasafunctionofprofessionalsetting.Onthegraph,bars
+mationcriterion)andalog-likelihooddistancemeasure,the withapredictiveperformancecloserto1.00areconsidered
+latterofwhichpresumes(a)continuousvariablesarenormally highly important, and values closer to 0.00 are less
+Table 2 DescriptiveAnalysisofRespondents’Pre-andPostappointmentSurveyPerceptiontowardAudiologicalTreatmentand
+AmplificationasaFunctionofProfessionalSetting
+RespondentPerception Medical(n=142) Rehabilitation ConsumerElectro-
+(n=389) nics(n=87)
+Pre Post Pre Post Pre Post
+Receptivetowardtreatment 142 50 389 173 87 64
+Apathytowardtreatment 0 92 0 216 0 23
+Receptivetowardamplification 95 36 187 29 72 49
+Apathytowardamplification 47 40 202 197 15 4
+JournaloftheAmericanAcademyofAudiology Vol.31 No.5/2020
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT
+Provider Interaction and Patient’s Readiness Amlani 347
+Fig.2 Clustergroupingsofoverallrespondentratingsacrossdimensionstowardthepatient-providerinteractionasafunctionofprofessionalsetting.
+important.Inaddition,acutoffvalueof0.40wasused,based Apost-hocanalysisacrossdimensions,shownin►Figure3,
+ontheworkofMartic-Kehletal(2015),wherevaluesabove displays quartiles (i.e., shaded rectangle) and respondents’
+this level were regarded as a valid representation of the response range (i.e., error bars). The filled circles represent
+importanceforagivendimension. thepreappointmentmeanresponsesamongallrespondents.
+Forrespondentsbeingseenbyanaudiologistinamedical Theopencirclesandopentrianglesdenotepostappointment
+setting—denoted by the solid black bars in ►Figure 2—the mean responses (CI95 represented by dashe d line) where
+dimensionsofempathy,shareddecisionmaking,trust,com- respondentswerepositiveandnegativetowardamplification,
+petency, and respect were the most important attributes respectively.Statistically,thedimensionsofempathy,integrat-
+soughtinaprovider.Furthermore,notethatthedimensionof edcare,familyandfriends,patient-providercommunication,
+hearing aid purchase yielded a response closer to 1.00, and shared decision-making were found to be significantly
+suggesting that patients who are seen by a provider in a (p<0.05) lower between the preappointment (i.e., filled
+medical setting have an increased perceived importance circles)andpostappointment(i.e.,opencircles)forrespondents
+towardamplification. withapositiveoutlooktowardamplification.Forrespondents
+withanegativeoutlooktowardamplification,thedimensions
+Pre- versusPostappointmentAnalyses of competency, confidentiality, empathy, family and friends,
+►Table 3 displays the mean and 95-percent confidence respect, shared decision-making, and trust were statistically
+interval(CI95)forparticipantresponsesforeachdimension (p<0.05)lowerbetweenthepre-andpostappointment.
+obtained pre- and postappointment. Results indicated a
+statistically significant reduction in postappointment RehabilitationSetting
+responses comparedwith the preappointment for six (ofa The sample size for the rehabilitation setting yielded 389
+possible ten) dimensions: competency [F ¼13.55, respondents.Ofthissample,48%,or187ofthe389respon-
+(1, 140)
+p<0.01], empathy [F ¼63.74, p<0.001], integrated dents, indicated an interest in amplification before being
+(1, 140)
+care[F ¼5.75,p<0.05],provider-patientcommunica- seenbyaprovider(►Table2).
+(1,140)
+tion [F(1,140)¼4.81, p<0.05], respect [F(1,140)¼61.33, Postappointmentresponses,however,revealedthatofthe
+p<0.001],andtrust[F ¼16.12,p<0.001]. 389respondents,only173(i.e.,a55%decrease)felttheneedto
+(1,140)
+JournaloftheAmericanAcademyofAudiology Vol.31 No.5/2020
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT
+348 Provider Interaction and Patient’s Readiness Amlani
+Table3 MeanandCI95ComparisonbetweenPre-andPostappointmentParticipantResponsesforEachDimensionasaFunctionof
+ProfessionalSetting
+Dimension Medical Rehabilitation ConsumerElectronics
+Pre Post Pre Post Pre Post
+Competency 7.73(0.82) 4.87(cid:2)(1.05) 7.40(0.93) 4.93(cid:2)(1.17) 6.13(0.83) 5.00(0.74)
+Confidentiality 7.27(1.09) 5.20(0.81) 8.20(0.80) 5.73(cid:2)(1.04) 6.00(0.83) 4.93(0.73)
+Empathy 8.07(0.75) 3.73(cid:2)(0.75) 8.67(0.56) 3.66(cid:2)(0.97) 6.40(0.60) 5.11(cid:2)(0.50)
+Healthpromotion 6.80(0.84) 6.70(0.97) 7.12(0.94) 3.53(cid:2)(1.09) 6.52(0.60) 5.26(0.62)
+Integratedcare 6.13(0.81) 4.51(cid:2)(1.03) 7.87(0.85) 5.44(cid:2)(0.99) 7.67(0.49) 7.04(0.56)
+Family/friendsupport 5.56(0.66) 5.02(0.92) 8.53(0.72) 4.54(cid:2)(0.59) 5.76(0.46) 5.34(0.62)
+Provider-patientcommunication 6.46(0.78) 4.67(cid:2)(0.89) 8.80(0.51) 4.00(cid:2)(0.88) 7.13(0.74) 5.80(0.58)
+Respect 7.70(0.82) 4.86(cid:2)(1.05) 7.53(1.10) 4.60(cid:2)(0.95) 6.18(0.76) 5.20(cid:2)(0.51)
+Shareddecision-making 7.60(0.81) 3.72(cid:2)(0.87) 6.80(1.12) 4.06(cid:2)(1.25) 6.66(0.77) 4.93(cid:2)(0.49)
+Trust 7.25(0.82) 4.46(cid:2)(1.01) 8.07(0.75) 3.33(cid:2)(0.73) 6.00(0.65) 4.86(cid:2)(0.83)
+(cid:2)Denotesstatisticalsignificance(p<0.05).
+Fig.3 Post-hocresultsfromtheunivariateANOVAthatshowsquartiles(i.e.,shadedrectangle)andrespondents’responserange(i.e.,errorbars)forthe
+medicalsetting.Thefilledcirclesrepresentthepreappointmentmeanresponsesamongallrespondents,andtheopencirclesandopentriangles,alongwith
+dashedlinesrepresentingCI ,denotepostappointmentmeanresponseswhererespondentswerepositiveandnegativetowardamplification,respectively.
+95
+continuebeingtreatedbyaproviderregardingtheirhearing othersreversedtheirinitialnegativeperceptiontowardam-
+health-care needs. In addition, postappointment responses plificationaftertheirinteractionwithanaudiologist.
+yieldedamere34respondents,or18%,maintainedaninterest
+towardamplification,fromthepreappointmentsamplesizeof ClusterAnalysis
+187.Ofthese34respondents,29wereidentifiedasinitially ►Figure 2 displays overall participant responses— denoted
+havingapositivedispositiontowardamplification,although5 by the bars having a diagonal upward stripe—toward the
+JournaloftheAmericanAcademyofAudiology Vol.31 No.5/2020
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT
+Provider Interaction and Patient’s Readiness Amlani 349
+dimensionsofapatient-providerinteractionthatoccursina dentiality, empathy, integrated care, familyand friends, pa-
+rehabilitation setting. The rehabilitation setting yielded all tient-providercommunication,respect,andtrustwerefound
+10factorsofpredictiveimportance.Interestingly,purchasing to be statistically (p<0.05) lower between the pre- and
+a hearing aid was not found to be of importance to the postappointment for respondents with a positive outlook
+average respondent, as indicated by the importance factor towardamplification.Forrespondentswithanegativeoutlook
+<0.40.Thislatterfindingwasunexpected. towardamplification,eachofthetendimensionswasstatisti-
+cally(p<0.05)lowerbetweenthepre-andpostappointment.
+Pre- versusPostappointmentAnalyses
+Meandifferences,shownin►Table3,indicateastatistically ConsumerElectronicSetting
+significant reduction in postappointment responses com- Eighty-sevenrespondentsindicatedbeingseenbyaprovider
+pared with the preappointment for all ten dimensions: whoseprimaryprofessionalsettingwasperceivedasrepre-
+competency [F ¼10.43, p<0.01], confidentiality [F sentativeofconsumerelectronics(►Table2).Ofthissample,
+(1, 385) (1,
+¼15.80,p<0.001],empathy[F ¼74.87,p<0.001], 83%(i.e.,72ofthe87respondents)indicatedaninterestin
+385) (1,385)
+health promotion [F ¼21.55, p<0.001], integrated amplificationbeforebeingseenbyaprovider.
+(1, 385)
+care [F ¼12.94, p<0.01], family/friends [F Postappointment responses,however, revealed that 64of
+(1, 385) (1,
+¼41.58, p<0.001], provider-patient communication the 87 respondents in this professional setting (i.e., 74%)
+385)
+[F ¼85.79, p<0.001], respect [F ¼15.67, remainedinterestedinseekingtreatmentactivelybyanaudi-
+(1, 385) (1, 385)
+p<0.001], shared decision-making [F ¼10.23, ologist. Furthermore, postappointment responses showed a
+(1, 385)
+p<0.01],andtrust[F ¼16.12,p<0.001]. reductionof23respondents—fromaninitialtallyof73respon-
+(1,385)
+A post-hoc analysis across dimensions is displayed dents—whoinitiallyhadapositiveperceptiontowardamplifi-
+in ►Figure 4. First, note that the preappointment response cation. Interestingly, the total sum of respondents who
+means,denotedbythefilledcircles,therangebetween7.75 remainedinterestedinpursuingamplificationequatedto60,
+and 9.25. This range of values was the highest of the three with 49 stemming from the initial tally combined with an
+professional settings assessed in this study, meaning that additional11respondentswhoreversedtheirinitialnegative
+patients entered this setting with the highest predisposed perceptiontowardamplificationaftertheirinteractionwithan
+perceptions toward the provider. The dimensions of confi- audiologist.
+Fig.4 Post-hocresultsfromtheunivariateANOVAthatshowsquartiles(i.e.,shadedrectangle)andrespondents’responserange(i.e.,errorbars)
+fortherehabilitationsetting.Thefilledcirclesrepresentthepreappointmentmeanresponsesamongallrespondents,andtheopencirclesand
+opentriangles,alongwithdashedlinesrepresentingCI ,denotepostappointmentmeanresponseswhererespondentswerepositiveand
+95
+negativetowardamplification,respectively.
+JournaloftheAmericanAcademyofAudiology Vol.31 No.5/2020
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT
+350 Provider Interaction and Patient’s Readiness Amlani
+ClusterAnalysis much lower than the other two professional settings. This
+►Figure2displaysparticipantresponsestowardthepatient- findingsuggeststhatpatientswhoenteredthissettinghavea
+provider interactioninaconsumerelectronicsetting.Note moderate, predisposed perception toward the provider. For
+thatonlytwofactors—depictedasawhitebarwithblackdots respondentswithapositiveoutlooktowardamplification,the
+—yielded a value >0.40: family/friends and hearing aid dimensionsofhealthpromotion,patient-providercommuni-
+purchase.Theselonefactorsareconsistentwiththeconcept cation,andshareddecision-makingwerefoundtobestatisti-
+of social influence on purchasing behavior, whereby the cally(p<0.05)lowerbetweenthepre-andpostappointments.
+presence of family/friends increases the probability of a Forrespondentswithanegativeoutlooktowardamplification,
+retailtransaction(ChildersandRao).7 sixdimensions(ofapossibleten)werestatistically(p<0.05)
+lower between the pre- and postappointment: empathy,
+Pre- versusPostappointmentAnalyses healthpromotion,family/friends,provider-patientcommuni-
+Mean differences for this professional setting are shown cation,respect,andshareddecision-making.
+in►Table3.Forthepreappointmentresponsemeans,denoted
+bythefilledcircles,notethatresponseshadanarrowrange
+Discussion
+(i.e.,betweenroughly5.75and7.5).Thisrangeofvalueswas
+the lowest among the professional settings assessed in this Theprimaryinterestinundertakingthisstudywastoassess
+study and suggests that patients entered this setting with whether provider interaction influenced patient readiness
+lower expectations from the provider. Results for the post- toward audiological services and technology using the neo-
+appointmentresponsesindicateastatisticallysignificantre- behavioralconceptofneedrecognitionindecision-making.A
+ductioninexpectationcomparedwiththepreappointmentin total of 618 respondents—all with self-perceived hearing
+fourofthetendimensions:empathy[F ¼10.11,p<0.01], deficits—sought out audiological care on their own from a
+(1,85)
+respect[F ¼4.15,p¼0.05],shareddecision-making[F localprovider.Assuch,onecouldarguethattheself-motivated
+(1,85) (1,
+¼14.25,p<0.01],andtrust[F ¼4.52,p<0.05]. patientstestedinthisstudy might havebeenmoreopento
+85) (1,85)
+A post-hoc analysis across dimensions is displayed provider recommendations than patients who are forced to
+in ►Figure 5. Note that the initial response profile for the have their hearing assessed by a significant other or family
+consumerelectronicsettings—shownasthefilledcircles—was member.
+Fig.5 Post-hocresultsfromtheunivariateANOVAthatshowsquartiles(i.e.,shadedrectangle)andrespondents’responserange(i.e.,error
+bars)fortheconsumerelectronicsetting.Thefilledcirclesrepresentthepreappointmentmeanresponsesamongallrespondents,andtheopen
+circlesandopentriangles,alongwithdashedlinesrepresentingCI95,denotepostappointmentmeanresponseswhererespondentswere
+positiveandnegativetowardamplification,respectively.
+JournaloftheAmericanAcademyofAudiology Vol.31 No.5/2020
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT
+Provider Interaction and Patient’s Readiness Amlani 351
+Overall, results from this study revealed that many re- towardaudiologicalcare(i.e.,88%;64of87respondents)and
+spondents’ predisposed expectations were unmet during uptakeofamplification(i.e.,83%;60of72respondents).For
+their interaction with an audiologist. The design of the the consumer electronic group, recall that the pre- and
+present undertaking was grounded on the principle that postappointmentexpectationswerelower thanthatinthe
+patientsandaudiologistssharesimilarinterestswithrespect medicalandrehabilitationsettings.Thesedataindicatethat
+to the treatment they receive (Laplante-Levesque, Jensen, providerswhoservepatientsappeartobeaprimarybarrier
+etal).27Thisstudy,however,revealedadisparityinideolo- topatientadoptionofaudiologicalservicesandtechnology.
+gies betweenprovidersand patients that influencepatient There are limitations to the outcomes reported in this
+readinesstowardadoptingaudiologicalserviceandtechnol- study,mostlywithrespecttoexternalvalidity.First,welack
+ogy, an outcome supported in the literature (Manchaiah informationonthecharacteristicsthatpromptedpatientsto
+et al;29 Poost-Foroosh et al.).36 35 Poost-Foroosh et al;35,36 schedule an appointment with the provider they chose.
+obtained importance ratings (i.e., 1¼minimally important Second, we have no knowledge of what transpired during
+and5¼extremelyimportant)from43adultpatientsand74 theappointmentsession.Wehopetoexaminethedynamics
+providers(i.e.,n¼54audiologistsandn¼20hearinginstru- betweenproviders andpatientsinafuturestudy.Last,the
+mentspecialists)oneightconceptsthatinfluencehearingaid outcomesfromthisstudydonotprovidesufficientevidence
+purchase decisions. Their results revealed a disparity in of theshort-andlong-termperceptionsofpatientstoward
+mean ratings between patients and providers for the con- providers,andthemannerinwhichtheseperceptionslend
+cepts of (a) understanding and meeting patient needs, (b) to impaired listeners either not treating or delaying treat-
+conveying device information by the provider, (c) shared ment toovercometheircommunicationdifficulties.Wedo
+decision-making,and(d)patientreadiness. knowthatonceattitudeispredisposed,changingthatpre-
+Patient readinesswasevaluatedasa function of profes- dispositionisdifficult(Wilsonetal).51
+sionalsetting,basedonthepremisethatprofessionalsetting Finally,wequantifiedtheinfluenceofproviderinteraction
+provided an anchor toward respondents’ predisposed per- onpatientreadinessusingtheprincipleofneedrecognition
+ception of qualityofcaretheyexpected to receive (Beattie (►Figure 1)describedinconsumerdecisionmaking toover-
+and Nelson).4 Findings confirmed that professional setting comethesensitivitylimitationsofhealth-behaviormodelsin
+was viewed differently by respondents seeking hearing quantifyingchangesinaperson’sattitudes,beliefs,andmoti-
+health care. For respondents being seen bya provider in a vation.Thefindingsfromthisstudysupporttheinformation-
+medical setting, the outcome of ►Figure 2 suggests that processing perspective (i.e., need recognition) as a sensitive
+empathy, shared decision-making, trust, and respect were tooland,perhaps,adecisionaid(AccordingtoCox(2014),‘‘a
+important factors for patients who are considering a trial decisionaidisavisualtoolthathelpsorganizeandsys-temize
+period with amplification. For respondents considering a asetofoptions.Audiologistscanuseittofacilitateaconversa-
+trialperiodwithamplificationdispensedbyaproviderina tionwiththepatienttohelphimdecideonatreatmentplan.’’)
+rehabilitationsetting(►Figure2),alltenfactorswerecon- fortheproviderinquantifyingchangesinpatientperceptionof
+sideredimportant(i.e.,$0.40),withtrust,empathy,patient- impaired listeners toward the health-care services they re-
+provider communication, family/friend input, and respect ceive.Suchatooloraidcouldalsobeusedbyprovidersasa
+yielding values $0.60. For respondents being seen by a self-evaluation tool of their management skills in thetreat-
+provider in a consumer electronic setting (►Figure 5), the mentofpatientswithimpairedhearing.
+only factor $0.40 was family/friend input. Differences in
+patientexpectationsasafunctionofthecareenvironment
+Abbreviations
+arealsofoundinotherhealthprofessions,suchasmedicine
+(Mooreetal)33andnursing(McCormack).31Theimplication ANOVA analysisofvariance
+of this finding is that patient perception of a professional CI 95-percentconfidenceinterval
+95
+settinghasthepotentialtoeitherrestrictorsupportPCCin PCC patient-centeredcare
+practice,aconceptthatrequiresconsiderationasaudiology SD standarddeviation
+developsitsPCCframework.
+The interaction between a professional setting and
+patientreadinesstowardaudiologicalservicesandamplifi- ConflictofInterest
+cation uptake is highlighted in ►Table 2. Here, results Nonedeclared.
+indicated that only 35% (i.e., 50 of 142) and 44% (i.e., 173
+of389)ofrespondentswhoenteredthemedicalandreha- Acknowledgments
+bilitation settings, respectively, remained receptive toward The author expresses his thanks to the anonymous
+continuedaudiologicalcareofferedaftertheirappointment reviewersfortheircommentsandsuggestions.
+experience.Withrespecttoacceptanceofarecommendation
+withamplification,45%(i.e.,43of95)and18%(i.e.,34of187)
+of respondents in the medical and rehabilitation settings,
+References
+respectively,electedtopursueatrialperiodwithamplifica-
+1 AmlaniAM.ApplicationoftheConsumerDecision-MakingModel
+tion. Respondents in the consumer electronic setting, con- to hearing aid adoption in first-time users. Sem Hear 2016;37
+versely,reportedgreaterpostappointmentpatientreadiness (02):103–119
+JournaloftheAmericanAcademyofAudiology Vol.31 No.5/2020
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT
+352 Provider Interaction and Patient’s Readiness Amlani
+2 AmlaniAM,TaylorB,WeinbergT.Increasinghearingaidadoption themoderatingroleofproductcharacteristics.AcadMarketSci
+ratesthroughvalue-basedadvertisingandpriceunbundling.Hear 2011;1:99–116
+Rev2011;18:10–17 24 KoutsimanisG,GetterK,BeheB,HarteJ,AlmenarE.Influencesof
+3 Barry MJ, Edgman-Levitan S. Shared decision-making — the packing attributes on consumer purchase decisions for fresh
+pinnacle of patient-centered care. New Engl J Med 2012; produce.Appetite2012;59:270–280
+366:780–781 25 Laplante-LéevesqueA,HicksonL,WorrallL.Whatmakesadults
+4 Beattie PF, Nelson RM. Preserving the quality of the patient- withhearingimpairmenttakeuphearingaidsorcommunication
+therapist relationship: an important consideration for value- programs and achieve successful outcomes? Ear Hear 2012;33
+centeredphysicaltherapycare.JOrthopSportPhysTher2008; (01):83–92
+38(02):34–35 26 Laplante-Lévesque A, Hickson L, Worrall L. Stages of change
+5 Blackwell RD, Miniard PW, Engel JF. Consumer Behavior. Fort in adults with acquired hearing impairment seeking help
+Worth,TX:HarcourtBraceCollege;2001 for the first time: application of the transtheoretical
+6 BoisvertI,ClemeshaJ,LundmarkE,CromeE,BarrC,McMahon model in audiologic rehabilitation. Ear Hear 2013;34(04):
+CM. Decision-making in audiology: balancing evidence-based 447–457
+practiceandpatient-centeredcare.TrendHear2017;21:1–14 27 Laplante-Lévesque A, Jensen LD, Dawes P, Nielsen P. Optimal
+7 Childers TL, Rao AR. The influence of familial and peerbased hearing aid use: focus groups with hearing aid clients and
+referencegroupsonconsumerdecisions.JConsumRes1992;19 audiologists.EarHear2013;34(02):193–202
+(02):198–211 28 Lutfey KE, Gerstenberger E, McKinlay JB. Physician styles of
+8 Coulson NS, Ferguson MA, Henshaw H, Heffernan E. Applying patientmanagementasapotentialsourceofdisparities:cluster
+theoriesofhealthbehaviorandchangetohearinghealthresearch: analysis from a factorial experiment. Health Serv Res 2013;48
+timeforanewapproach.IntJAudiol2016;55(03):S99–S104 (03):1116–1134
+9 CoxR.20Q:hearingaidprovisionandthechallengeofchange. 29 ManchaiahVKC,StephensD,MeredithR.Thepatientjourneyof
+AudiolOnline,Article12596.2014https://www.audiologyonline. adultswithhearingimpairment:thepatient’sviews.ClinOtolar-
+com.AccessedOctober7,2019 yngol2011;36(03):227–234
+10 EkbergK,BarrC,HicksonL.Difficultconversations:talkingabout 30 Martćc-KehlMI,WerneryJ,FolkersG,SchubigerPA.Qualityof
+cost in audiology consultations with older adults. Int J Audiol animal experiments in anti-angiogenic cancer drug develop-
+2017;56(11):854–861 ment—asystematicreview.PLoSOne2015;10(09):e0137235
+11 EkbergK,GrennessC,HicksonL.Addressingpatients’psychoso- 31 McCormackB.Person-centrednessingerontologicalnursing:an
+cialconcernsregardinghearingaidswithinaudiologyappoint- overviewoftheliterature.JClinNurs2004;13:31–38
+mentforolderadults.AmJAudiol2014;23(03):337–350 32 McCormack B, McCance TV. Development of a framework for
+12 EkbergK,GrennessC,HicksonL.Applicationofthetranstheor- person-centerednursing.JAdvNurs2006;56(05):472–479
+etical model of behaviour change for identifying older clients’ 33 Moore L, Britten N, Lydahl D, Naldemirci Ö, Elam M, Wolf A.
+readiness for hearing rehabilitation during history taking in Barriersandfacilitatorstotheimplementationofpersoncentered
+audiologyappointments.IntJAudiol2016;55(03):S42–S51 care in different healthcare contexts. Scand J Caring Sci 2017;
+13 Ekberg K, Meyer C, Scarinci N, Grenness C, Hickson L. Family 31:662–673
+member involvement in audiology appointments with older 34 Østergaard O, Jantzen C. Shifting perceptive in consumer re-
+people with hearing impairment. Int J Audiol 2015;54(02): search:frombuyerbehaviortoconsumptionstudies. In:Beck-
+70–76 man SC, Elliott RH, eds. Interpretive Consumer Research—
+14 FishbeinM,AjzenI.Belief,Attitude,Intention,andBehavior:An Paradigms,Methodologies,andApplications.Copenhagen:Han-
+Introduction to Theory and Research. Reading, MA: Addison- delshøjskolensForlag;2000:9–23
+Wesley;1975 35 Poost-Foroosh L, Jennings MB, Cheesman MF. Comparison of
+15 Frederick AA, Prins N. Psychophysics: A Practical Introduction. clientandclinicianviewsoftheimportancefactorsinclientcli-
+SanDiego,CA:AcademicPress;2016 nicianinteractioninhearingaidpurchasedecisions.JAmAcad
+16 GilliganJ,WeinsteinBE.Healthliteracyandpatientcenteredcare Audiol2015;26(03):247–259
+inaudiology—implicationsforadultauralrehabilitation.JComm 36 Poost-ForooshL,JenningsMB,ShawL,MestonCN,CheesmanMF.
+DisDeafStudHearAids2014;2:110 Factorsinclient-clinicianinteractionthatinfluencehearingaid
+17 GröneO,Garcia-BarberoM.Integratedcare.IntJIntegrCare2001; adoption.TrendsAmp2011;15(03):127–139
+1(02):e21 37 Preminger JE, Oxenbøll M, Barnett MB, Jensen LD, Laplante-
+18 GrennessC,HicksonL,Laplante-LéevesqueA,DavidsonB.Patient- Levesque A. Perceptions of adults with hearing impairment
+centeredcare:areviewofrehabilitativeaudiologists.IntJAudiol regardingthepromotion of trust inhearinghealthcareservice
+2014a53(01):S60–S67 delivery.IntJAudiol2015;54:20–28
+19 GrennessC,HicksonL,Laplante-LévesqueA,DavidsonB.Patient- 38 ProchaskaJO,DiClementeCC.Thetranstheoreticalapproach. In:
+centeredaudiologicalrehabilitation:perspectivesofolderadults Norcross JC, Goldfried MR, eds. Handbook of Psychotherapy
+whoownhearingaids.IntJAudiol2014b53(01):S68–S75 Integration:OxfordSeriesinClinicalPsychology.2nded.Oxford:
+20 GrennessC,HicksonL,Laplante-LévesqueA,MeyerC,DavidsonB. OxfordUniversityPress;2005:147–171
+Thenatureofcommunicationthroughoutdiagnosisandmanage- 39 QamarN,PappalaradoAA,AroraVM,PressVG.Patientcentered
+mentplanningininitialaudiologicrehabilitationconsultations.J careanditseffectonoutcomesinthetreatmentofasthma.Patient
+AmAcadAudiol2015;26(01):36–50 RelatOutcomeMeas2011;2:81–109
+21 Hibbard JH. Patient activation and the use of information to 40 RogersCR.Client-CenteredTherapy:It’sCurrentPractice,Impli-
+support informed health decisions. Patient Educ Couns 2016; cationsandTheory.Boston,MA:HoughtonMifflin;1951
+100(01):5–7 41 RosenstockIM.Whypeopleusehealthservices.MilbankQ1966;
+22 InstituteofMedicine(US)CommitteeonQualityofHealthCare 44(03):94–127
+inAmerica.CrossingtheQualityChasm:ANewHealthSystem 42 Saha S, Beach MC, Cooper LA. Patient centeredness, cultural
+forthe21stCentury.Washington,DC:NationalAcademyPress; competence,andhealthcarequality.JNatlMedAssoc2008;100
+2001 (11):1275–1285
+23 KirandeK,MerchantA,SivakumarK.Relationshipamongtime 43 SaloveyP,RothmanAJ,RodinJ.HealthBehavior.NewYork,NY:
+orientation,consumerinnovativeness,andinnovativebehavior: McGraw-Hill;1998
+JournaloftheAmericanAcademyofAudiology Vol.31 No.5/2020
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT
+Provider Interaction and Patient’s Readiness Amlani 353
+44 SantanaMJ,ManaliliK,JolleyRJ,ZelinskyS,QuanH,LuM.Howto 48 Storbeck J, Clore GL. On the interdependence of cognition and
+practiceperson-centeredcare:aconceptualframework.Health emotion.CognEmot2007;21(06):1212–1237
+Expect2018;21(02):429–440 49 Thom DH, Campbell B. Patient-physician trust: an exploratory
+45 SaundersGH,FrederickMT,SilvermanS,PapeshM.Applicationof study.JFamPract1997;44:169–176
+the health belief model: development of the Hearing Beliefs 50 Thom DH, Hall MA, Pawlson LG. Measuring patients’ trust in
+Questionnaire (HBQ) and its associations with hearing health physicianswhenassessingqualityofcare.HealthAff(Millwood)
+behaviors.IntJAudiol2013;52(08):558–567 2004;23:124–132
+46 SchiffmanLG,WisenblitJL.ConsumerBehavior.11thed.Boston, 51 Wilson TD, Lindsey S, Schooler TY. A model of dual attitudes.
+MA:Pearson;2013 PsycholRev2000;107(01):101–126
+47 StepienK,BaernsteinA.Educatingforempathy.JGenInternMed
+2006;21(05):524–530
+JournaloftheAmericanAcademyofAudiology Vol.31 No.5/2020
+.detibihorp
+yltcirts
+si
+noitubirtsid
+dezirohtuanU
+.ylno
+esu
+lanosrep
+rof
+dedaolnwod
+saw
+tnemucod
+sihT

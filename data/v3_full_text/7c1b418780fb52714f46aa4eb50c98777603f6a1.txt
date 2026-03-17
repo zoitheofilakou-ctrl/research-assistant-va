@@ -1,0 +1,828 @@
+Major et al. Crit Care (2021) 25:279
+https://doi.org/10.1186/s13054-021-03709-z
+RESEARCH Open Access
+Feasibility of a home-based interdisciplinary
+rehabilitation program for patients
+with Post-Intensive Care Syndrome: the REACH
+study
+Mel E. Major1,2,3* , Daniela Dettling‑Ihnenfeldt3, Stephan P. J. Ramaekers2,3, Raoul H. H. Engelbert2,3 and
+Marike van der Schaaf2,3
+Abstract
+Background: Survivors of critical illness experience long‑term functional challenges, which are complex, hetero‑
+geneous, and multifactorial in nature. Although the importance of rehabilitation interventions after intensive care
+unit (ICU) discharge is universally recognized, evidence on feasibility and effectiveness of home‑based rehabilitation
+programs is scarce and ambiguous. This study investigates the feasibility of an interdisciplinary rehabilitation program
+designed for patients with Post‑Intensive Care Syndrome (PICS) who are discharged home.
+Methods: A mixed method, non‑randomized, prospective pilot feasibility study was performed with a 6‑month
+follow‑up, comparing the intervention (REACH) with usual care. REACH was provided by trained professionals and
+included a patient‑centered, interdisciplinary approach starting directly after hospital discharge. Primary outcomes
+were patient safety, satisfaction, adherence, referral need and health care usage. Secondary outcomes, measured at 3
+timepoints, were functional exercise capacity, self‑perceived health status, health‑related quality of life (HRQoL), return
+to work and psychotrauma. Risk of undernutrition was assessed at baseline.
+Results: 43 patients with a median mechanical ventilation duration of 8 (IQR:10) days, were included in the study
+and 79.1% completed 6‑month follow‑up. 19 patients received the intervention, 23 received usual care. Groups were
+similar for gender distribution and ICU length of stay. No adverse events occurred. REACH participants showed higher
+satisfaction with treatment and reported more allied health professional visits, while the usual care group reported
+more visits to medical specialists. Qualitative analysis identified positive experiences among REACH‑professionals
+related to providing state‑of‑the‑art interventions and sharing knowledge and expertise within an interprofessional
+network. Similar recovery was seen between groups on all secondary outcomes, but neither group reached reference
+values for HRQoL at 6 months. Larger return to work rates were seen in the REACH group. Prevalence of undernutri‑
+tion at hospital discharge was high in both groups (> 80%), warranting the need for careful tuning of physical therapy
+and nutritional interventions.
+Conclusions: This study shows that providing early, home‑based rehabilitation interventions for patients with
+PICS‑related symptoms is feasible and perceived positively by patients and professionals. When provided in an
+*Correspondence: m.major@hva.nl
+1 European School of Physiotherapy, Faculty of Health, Amsterdam
+University of Applied Sciences, Amsterdam, The Netherlands
+Full list of author information is available at the end of the article
+© The Author(s) 2021. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat ivec o
+mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Major et al. Crit Care (2021) 25:279 Page 2 of 15
+interdisciplinary collaborative network state of the art, person‑centered interventions can be tailored to individual
+needs potentially increasing patient satisfaction, adherence, and efficacy.
+Registered in the Dutch Trial register: NL7792: https:// www. trial regis ter. nl/ trial/ 7792, registered 7‑06‑2019.
+Keywords: Post‑Intensive Care Syndrome, Critical illness, Rehabilitation, Physical therapy, Recovery, Feasibility, Pilot
+Background the feasibility of an interdisciplinary home-based inter-
+Whilst more patients survive critical illness because vention for patients with new or worsened impairments
+of improvements in medical care, a growing number of within one of the domains of PICS, initiated immediately
+patients leaves the hospital needing rehabilitation inter- after hospital discharge and targeting (physical) recovery
+ventions for multifactorial problems associated with and self-management in comparison to patients receiving
+long-term disability as part of the Post-Intensive Care usual care.
+Syndrome (PICS) [1–6]. The new or worsened impair-
+Methods
+ments reported by survivors of critical illness manifest
+in considerable heterogeneity with regards to health Study design
+domains (physical, psychological, cognitive), duration, A mixed method, non-randomized, prospective pilot
+and severity of activity limitations and participation feasibility study was undertaken with a 6-month follow
+restrictions in life situations [7–12]. up and a total study duration of 22 months. The pilot
+Although a range of interventions within the intensive feasibility study consisted of two arms, an intervention
+care unit (ICU) is employed targeting these long-term group (REACH, REhabilitation After Critical illness and
+functional problems, such as early mobilization and the Hospital discharge) and a usual care group. Group allo-
+use of ICU diaries, a rehabilitation continuum or coor- cation was based on convenience sampling; participants
+dinated care pathway after ICU- and hospital discharge received the intervention if they lived in an area covered
+is lacking [13, 14]. The diversity of problems survivors by REACH-therapists, unless they preferred otherwise
+might experience warrant the need for an interdiscipli- (i.e., their own therapist). Participants living outside of
+nary approach towards recovery to provide tailor-made, the REACH geographical area were allocated to the usual
+individualized interventions at the right time, in the right care group. In line with the pilot feasibility character of
+setting and by the right professional [12, 15–20]. the study, no a priori sample size calculations were con-
+The World Health Organization’s (WHO) definition ducted [32].
+of rehabilitation describes the importance of providing
+interventions directed towards interaction within the Setting
+individual’s environment, to facilitate participation in This study was part of ongoing research of the depart-
+meaningful activities [21]. To date, few studies investi- ment of rehabilitation medicine at the Amsterdam Uni-
+gated interventions for patients recovering from critical versity Medical Centers, location Academic Medical
+illness after home discharge, and reported poor attend- Center (AMC).
+ance of outpatient exercise programs. Travel time and
+patients’ lack of motivation were identified as reasons for Participants
+non-attendance [22–24]. If primary care rehabilitation Participants were recruited from 2 university and 5
+specialists such as physical therapists (PTs), occupational general hospitals in the Amsterdam area, the Nether-
+therapists (OTs) and dietitians (DTs) can provide early lands. Participants were eligible for inclusion if they had
+home-based interventions for patients with functional received mechanical ventilation (MV) of 48 h in the
+≥
+impairments related to PICS, this might increase adher- ICU, had developed new or worsened impairments dur-
+ence and satisfaction, decrease the chance of hospital ing or after the ICU-stay unrelated to the initial admis-
+readmissions, and cut healthcare costs [12, 23, 25–27]. sion diagnosis [33], and were discharged home with an
+Care provided within an interprofessional network has indication for physical therapy (PT). Indication for PT
+shown to increase professional expertise and improve the was determined according to the hospitals’ protocols for
+quality of care [28, 29]. referral, i.e., presence of any (or a combination) of the fol-
+While expert recommendations for home-based, PT- lowing: ICU-acquired weakness (MRC Sum Score < 48),
+led interventions for survivors of critical illness have limited walking ability (Functional Ambulation Catego-
+been published [26, 30, 31], feasibility of such interven- ries (FAC) 4), problems with climbing stairs, decreased
+≤
+tions within the primary care setting is yet to be investi- independence in activities of daily living (ADL), limited
+gated. Therefore, the aim of this study was to investigate cardiopulmonary capacity during exertion (dyspnea,
+M ajor et al. Crit Care (2021) 25:279 Page 3 of 15
+resting respiratory rate > 30, oxygen saturation < 95%, by expert OTs within the CoP: these were binary ques-
+Borg CR10 scale > 4). tions on the presence of fatigue, problems with return
+Exclusion criteria were presence of serious (preexist- to work or performance of daily activities and problems
+ing) cognitive and/or psychiatric impairments hinder- with memory and/or concentration. If any of these ques-
+ing compliance to the physical tests and inadequate tions were answered with yes, OTs were consulted (Addi-
+understanding of the Dutch or English language. Eligi- tional file 1: OT screening protocol). OT interventions
+ble patients were identified by ICU-PTs and after verbal addressed problems with fatigue and (insight in) physi-
+permission was obtained, contacted by telephone by the cal capacity, (education on) cognitive functioning in daily
+primary investigator (MM) within 2 days after hospital activities and self-management. All REACH profession-
+discharge. Once oral consent was obtained, a home visit als were trained to regularly check for problems within
+was planned. other PICS domains but outside of the scope of their pro-
+fession—such as psychological problems or worsening
+Intervention medical conditions—and informed general practitioners
+The intervention, called the REACH program, was (GPs) when required.
+designed in an iterative, 8-month developmental pro- PT started with functional exercises aimed at improv-
+cess in a community of practice (CoP) of primary care ing ability in ADL and gradually progressive resistance
+PTs (n 18), OTs (n 3), DTs (n 4), ICU-PTs (n 8), training to increase muscle strength. Interventions tar-
+= = = =
+researcher/clinicians (n 6), a health coach (n 1) and geting exercise capacity progressed from functional,
+= =
+representatives from patient- and professional organiza- home-based training to in-practice aerobic training. Aer-
+tions (including general practitioners), prior to the start obic capacity was trained by first increasing the duration
+of the study. First, CoP members from different fields of the activity before increasing the intensity. If the par-
+of expertise provided training on the presentation and ticipant’s perceived exertion was > 4/10 on the Borg CR10
+potential interventions for the different facets of PICS. scale [37], therapists were to cease the exercise or the
+Next, the components of the REACH program were therapy session. The protocol identified 3 rehabilitation
+developed in co-creation. Lastly, the ‘positive health’ phases: (1) the (acute) home phase, (2) the (subacute)
+concept was integrated in the REACH program. This training phase at the PT clinic and (3) the evaluation
+concept emphasizes support to the ‘ability to adapt and (long-term follow up) phase. Progression between phases
+self-manage’ [34]. Professionals within the REACH- was left to the PTs professional judgment. Frequency of
+network received extensive training with regards to the sessions averaged 2 half hour sessions per week in phase
+application of this concept of health in their daily prac- 1 and 30- to 60-min sessions twice a week in phase 2. In
+tice, allowing for individualized, tailor-made treatment phase 3 participants often trained independently with
+programs. The intervention, which was initiated by the irregularly scheduled supervised exercise sessions, as
+hospital PTs, constituted an elaborate written and tele- deemed necessary. The total duration of the REACH
+phonic handover from hospital PT to REACH-PT, a core intervention was not specified a priori as decision-mak-
+outcome set (CoS) and a tailored exercise program. Reg- ing depended on individual patient needs.
+ular (online) CoP meetings facilitated peer-to-peer learn-
+ing and interdisciplinary collaboration. Usual care group
+The PT interventions started within one week after The reference group consisted of participants receiving
+hospital discharge, initially provided in the home situa- ‘usual care’, which was defined as ‘unrestricted clinical
+tion of the patient and continuing in the nearby PT prac- practice’, either sought through self-referral or recom-
+tice as soon as their physical condition allowed. During mended by the discharging hospital [38]. As no formal
+the first intake and/or during the treatment period PTs care pathway exists in the Netherlands for patients recov-
+performed a screening to detect functional problems ering from critical illness, we considered any participant
+within the field of OT and DT and referred patients when who did not receive the REACH intervention, to be eligi-
+indicated. The Short Nutritional Assessment Question- ble for the usual care group.
+naire (SNAQ65 ) was used to screen for (the risk of) Professionals involved in the usual care provision were
++
+undernutrition [35], in which case DTs were consulted, not part of the REACH-network and did not receive
+who performed further diagnostics. DT interventions additional training on (interventions targeting) PICS and
+were targeted towards optimization of protein intake, application of the positive health concept. Some patients
+according to the Dutch guidelines for malnutrition: 1.2– in the usual care group may not have received interven-
+1.5 g protein per kg bodyweight [36] in participants in tions from allied health professionals at all, dependent
+which undernutrition and/or sarcopenia were identified. on their own preferences and the organization of health
+For OT, 4 screening questions were designed as advised care.
+Major et al. Crit Care (2021) 25:279 Page 4 of 15
+Outcomes be a valid and reliable (ICC > 0.90) tool in older adults
+Primary (feasibility) outcomes were safety and optimal with and without morbidities, is practical in use in
+dose of the REACH program, patient and professional the home situation and can be safely conducted in frail
+satisfaction, adherence to treatment and protocol, need (elderly) patients [42, 43]. Before testing, participants’
+for interdisciplinary referral and health care usage. Sec- vital signs were assessed by monitoring resting heart rate
+ondary outcomes were functional exercise capacity, (RHR) blood pressure (BP) and oxygen saturation (SaO2)
+self-perceived health status, health-related quality of life to determine safety and feasibility of test execution. Cut-
+(HRQoL), return to work (RTW), prevalence of psycho- off values for safe execution of the test were RHR 110,
+≤
+logical problems (including symptoms of PTSD) and risk BP 180/100, and SaO2 > 90%. Other contra-indications
+≤
+of undernutrition at time of hospital discharge. for test execution were chronic heart failure, presence of
+Data collection took place between April 2019 and Feb- chest pain, dizziness, wounds under the foot or inability
+ruary 2021. to raise the knee to the height halfway between the iliac
+crest and the patella.
+Primary (feasibility) outcomes Self-perceived health status was assessed asking the
+Data on safety and optimal dose of the intervention were participants to rate their health on a numeric rating scale
+collected throughout the duration of the study by track- (NRS) ranging from 0 (very bad) to 10 (excellent). Health-
+ing adverse events and protocol deviations. Participant Related Quality of Life (HRQoL) was measured using the
+satisfaction with PT treatment was measured at 3- and 36-item Short Form health survey (SF36, [44]). The SF36
+at 6-month follow up with the Patient Reported Experi- consists of 8 subscales, which can be transformed into a
+ence Measure (PREM, [39]). The PREM Physical Therapy physical component score (PCS) and mental component
+is developed to measure patient experienced quality of score (MCS) [45]. Return to work (RTW) data were col-
+the PT and the interventions received, estimating a global lected via a self-reported questionnaire administered at
+perceived effect and a net promotor score (NPS), which 3- and 6 months [40].
+is calculated from the 0–10 score given to the question The SNAQ65 screening tool was used to determine
++
+’Would you recommend your PT to others with similar undernutrition prevalence at hospital discharge (base-
+health problems?’. Scores to this question are grouped line). This tool categorizes nutrition status based on
+into ‘Promotors’ (score 9 or 10), ‘Passively satisfied’ (score involuntary weight loss, upper arm circumference, appe-
+7–8) and ‘Detractors’ (score 0–6). The NPS is the derived tite, and physical function in three categories: under-
+result from the percentage promotors minus the percent- nutrition (red), risk of undernutrition (orange) and no
+age detractors. undernutrition (green) [35]. Prevalence of traumatic
+Data on professional satisfaction and adherence to pro- symptoms was determined at all 3 timepoints using the
+tocol were collected through a mixed-method approach Global Psychotrauma Screen (GPS), a 22-item question-
+using an online survey and a focus group session among naire designed to screen for a broad scope of potential
+REACH professionals, conducted at the end of the study. trauma-related outcomes. The first 5 questions consist of
+Information on referral need (DT and OT) was assessed the Primary Care PTSD Screen for DSM-5 (PC_PTSD-5,
+as follows: DT need was assessed counting all cases with [46]), allowing for calculating an overall score for PTSD
+(risk of) undernutrition at time of hospital discharge and symptoms, where a score 3 indicates possible PTSD. A
+≥
+OT need was assessed at 3- and at 6-months after dis- sum score of the remaining 17 questions provides a total
+charge by counting the cases applicable for OT based score for GPS symptoms [47].
+on the outcome of the screening protocol (Additional
+file 1). Data on health care usage were collected at 3- and Statistical analysis
+6-months after hospital discharge, using a self-reported Quantitative outcomes were analyzed descriptively
+questionnaire from a prior ICU follow-up study [40]. and reported in raw counts, percentages, mean/SD or
+median/IQR, dependent on type and distribution of
+Secondary outcomes data. Due to the feasibility design of this study, no formal
+Physical measurements (conducted through home vis- hypotheses testing on within and between group change
+its) and data collection of self-perceived health status, over time were conducted—as the study was underpow-
+HRQoL and psychological status (GPS) were conducted ered to test for effectiveness [32].
+at three timepoints: 1–2 weeks (T0), 3 months (T1) and Baseline parameters between group were analyzed with
+6 months (T2) after hospital discharge. the Mann–Whitney U test to explore if significant dif-
+Functional exercise capacity was measured with the ferences were present (α set at 0.05). For the secondary
+two-minute step test (TMST, [41]). The TMST is devel- (clinical) outcomes, descriptive statistics at the 3 time-
+oped as part of the Senior Fitness Test and has shown to points were calculated and converted to percentage of
+M ajor et al. Crit Care (2021) 25:279 Page 5 of 15
+predicted values for outcomes where normative values Primary outcomes
+exist. IBM SPSS version 27 was used. Qualitative data Feasibility and safety of the intervention
+obtained through the focus group session were tran- No intervention related adverse events occurred and
+scribed verbatim and combined with qualitative survey participants showed compliance to the treatment,
+data. Further coding and thematic analysis of qualitative as evaluated by the PTs providing the intervention:
+data took place and results are reported narratively. none of the patients included in the REACH group
+ceased treatment against the advice of the professional.
+REACH-PTs recognized that the treatment approach
+Ethical approval
+within the interdisciplinary network resulted in moti-
+As the REACH intervention is implemented in the form
+vated patients showing high adherence to treatment,
+of quality improvement, the Medical Ethics committee
+but identified challenges related to balancing care
+of the Amsterdam University Medical Centers (location
+provision considering the patient’s physical and men-
+AMC) provided a waiver for the feasibility study (METC
+tal capacity throughout the different stages of recov-
+W18_237 # 18.282), but additional ethical approval was
+ery. The frequency of PT treatment often had to be
+obtained for the physical measurements (2019_012,
+decreased when other disciplines were increasingly
+ABR NL 68475.018.19). Written informed consent was
+involved and/or demands from patients’ environment
+obtained from all participants in line with the Good Clin-
+intensified, to limit the strain on the patient.
+ical Practice directives.
+Patient and professional satisfaction, adherence to treatment
+Results
+and protocol
+In total, 74 survivors of critical illness were referred for
+Satisfaction scores were higher in the REACH group
+participation in the study, of which 16 were excluded
+compared to the usual care group (NPS 92.8% vs 60.0%
+because they were transferred to a long-term rehabilita-
+at 6 months). Evaluation of satisfaction among REACH
+tion facility before home discharge, leaving 58 eligible
+professionals manifested the following positive feed-
+participants. Application of the in- and exclusion cri-
+back: applying the broader concept of health (’posi-
+teria left a total of 43 participants, 19 participants were
+tive health’) facilitated patient-centered care, in turn
+included in the intervention group and 24 in the usual
+increasing patient satisfaction:
+care group.
+In each group 2 participants dropped out during the I notice that [Positive health] is increasingly ben-
+study due to an acute new medical event, unrelated to the efiting my way of communicating with patients [..]
+intervention, requiring admission to hospital, rehabilita- in which I have learned to place the patient first
+tion- or palliative care facility. Loss-to-follow up occurred [..] and I really enjoy it. I notice patients are very
+in both groups for the following reasons: withdrawn con- satisfied ... with the treatment (REACH PT #3)
+sent (REACH: n 1, usual care: n 3), unable to contact
+= = Thematic analysis of the results of the focus group
+(REACH: n 1). This resulted in a 6-month follow-up of
+= session with REACH-PTs (n 11) revealed two themes:
+79.1% (n 34). Due to the start of the COVID-19 pan- =
+= ‘Being part of the state-of-the-art’ and ‘Balancing
+demic halfway through this study, measurements were
+patients’ needs with professional practice requirements’.
+conducted telephonically during the 2-month complete
+lockdown in March/April 2020. Physical measurements
+Being part of the state‑of‑the‑art
+continued as soon as protocols were put in place respect-
+ing social distancing and hygiene. This resulted in some The continuous professional development experienced
+missing data but no participant drop-out (Fig. 1). by professionals within the interdisciplinary network,
+resulting from (online) meetings and training sessions,
+social media channels, discussion fora and monthly
+Baseline characteristics
+newsletters, increased awareness towards problems
+Participant demographic and medical characteristics
+beyond the professional scope and led to changing
+were similar between groups, except for age and hospi-
+one’s daily practice:
+tal length of stay (LOS); participants in the intervention
+group were older than in the usual care group (median That meeting where we received information about
+[IQR] age 63 [9] vs 54 [23], p 0.09) and had a significantly nutrition and training opened my eyes! With every
+shorter median hospital LOS (23 vs 34 days, p 0.04). The REACH patient, actually during my first consulta-
+majority of the participants were acutely admitted to ICU tion I check if the nutrition is in order, and always
+(REACH: 89.5%, usual care: 70.8%) and most had admis- schedule a meeting with the dietitian in our center
+sion diagnoses of cardiorespiratory origin (Table 1). (REACH PT #6)
+Major et al. Crit Care (2021) 25:279 Page 6 of 15
+Referred(n=74)
+Excluded (n=16,
+discharge to
+rehabilita(cid:31)on facility)
+Baseline
+3 months
+6 months
+Additionally, professionals experienced urgency in con- this COVID period, but how great is it that we can
+tinuance of their professional development considering use the power of these webinars and online meetings.
+the complexity and heterogeneity of PICS, suggesting the I really hope that we can take part in future research
+network to be expanded with professionals from other projects and continue meeting like this (FT#6)
+disciplines, such as psychology and speech and language
+therapy (SLT). Similar emphasis was given to the need to
+Balancing patients’ needs with professional practice
+expand the REACH network to a larger geographical area
+requirements
+and ultimately to have nationwide coverage. Being ready
+Thematic analysis revealed professional challenges
+to provide fitting interventions for patients recovering
+regarding the delivery of optimal rehabilitation interven-
+from COVID-19 and being able to share knowledge and
+tions for patients with PICS.
+expertise to colleagues through national webinars was
+While the REACH CoP recommended usage of vali-
+seen as a powerful opportunity:
+dated outcome measures such as the TMST, 2-min
+How great is it...no how terrible is it that we are in walk test (2-MWT) and 6-min walk test (6-MWT) for
+tnemlornE
+Assessed for eligibility(n=58)
+larrefeR
+Excluded (n=15)
+Not mechanically ven(cid:31)lated (n=1)
+Cogni(cid:31)ve impairment (n=1)
+Declinedto par(cid:31)cipate (n=11)
+Language barrier (n=2)
+Included (n=43)
+REACH Usual care
+n=19 n = 24
+Lost to follow-up (n=2): Lost to follow-up (n=2):
+Withdrawn consent (n=1) Withdrawnconsent (n=2)
+Unable to reach (n=1)
+n=17 n=22
+Lost to follow-up (n=2): Lost to follow-up (n=3):
+Acute hospitaliza(cid:31)on(n=1) Acute hospitaliza(cid:31)on(n=1)
+Admission to rehabilita(cid:31)on Transi(cid:31)on to pallia(cid:31)ve care (n=1)
+facility(n=1) Withdrawn consent (n=1)
+n=15 n=19
+Fig. 1 Flow of participants (consort diagram)
+M ajor et al. Crit Care (2021) 25:279 Page 7 of 15
+Table 1 Population characteristics limitedly—cover the expenses of the PT interventions,
+professionals often had to make difficult choices: to
+Variable REACH Usual care
+intervention group shorten the program or to provide sessions free of charge.
+group (n 19) (n 24)
+= =
+You can design an intervention program with a
+Age (median/IQR) 63 (9) 54 (23)a
+desired frequency and for a desired duration but
+Gender, male (n, %) 14 (73.6) 15 (62.5)
+with limited coverage, you run out really quickly.
+ICU LOS (days) (median/IQR) 10 (16) 11 (12)a
+Treatment is so dependent on individual circum-
+MV duration (days) (median/IQR) 8 (10) 8.5 (12)a stances and that makes it difficult. This patient I
+Hospital LOS (days) (median/IQR) 23 (21) 34.5 (28)b have, for example I have let him come for 2 addi-
+Admission diagnosis (n, %) tional months without letting him ... paying it myself
+Respiratory 12 (63.2) 11 (45.8) because he has unemployment benefits only and I
+Cardiac 2 (10.5) 7 (29.2) thought it important to get him back to how he was
+Sepsis 3 (15.8) 2 (8.3) before (FT#7)
+Oncologic surgery 2 (10.5) 4 (16.7)
+Evaluating the application of the positive health con-
+Admission category (n, %)
+cept, professionals indicated that the provided con-
+Acute 17 (89.5) 17 (70.8)
+versational tools were somewhat complicated and
+Elective 2 (10.5) 7 (29.2)
+time-consuming in daily use, especially when met with
+SNAQ65 screening score (n, %) n 19 n 24
++ = = patients with limited health literacy.
+Red (undernutrition) 16 (84.2) 20 (83.3)
+Orange (risk of undernutrition) 2 (10.5) 1 (4.2)
+Green (no undernutrition) 1 (5.3) 3 (12.5) Health care usage and interdisciplinary referral need
+Employment status (n, %) The percentage of participants reporting hospital read-
+Employed* 7 (36.8) 10 (41.7) missions (acute and elective) was higher in the inter-
+Unemployed 12 (63.2) 14 (58.3) vention group compared to the usual care group at both
+Pensioner 4 (33.3) 5 (35.8) 3- and 6-month follow up (26.7% vs 9.5% at 3 months
+Unemployed due to disability 4 (33.3) 3 (21.4) and 20.0% vs 6.7% at 6 months). The percentage of par-
+Unemployed not due to disability 3 (25.0) 4 (28.6) ticipants having planned hospital check-ups was ini-
+Family responsibilities 1 (8.4) 1 (7.1) tially similar between groups (3 months: REACH: 93.3%
+Student – 1 (7.1) vs usual care: 95.2%) but decreased only in the REACH
+Living situation (n, %) group at 6 months (REACH: 66.7% vs usual care: 93.3%).
+Living alone 6 (31.6) 6 (25.0) In the first 3 months, 212 PT sessions were received by
+Living with o thers† 13 (68.4) 18 (75.0) 100% of the participants in the REACH group, versus
+265 sessions to 76.2% of the participants in the usual
+LOS length of stay, MV mechanical ventilation, SNAQ short nutritional
+assessment questionnaire care group. Between 3–6 months after hospital discharge
+a No significant between group differences (p > 0.05) the total PT sessions as well as the percentage of partici-
+b Significant between group difference (p 0.04) pants receiving PT had decreased (REACH: 152 sessions
+=
+* Includes permanent, casual, and self-employed employees among 66.7% and usual care: 179 sessions among 73.3%).
+† Living in partnership, with child(ren), in student housing, living with friends or A larger percentage of participants in the REACH
+other family members
+group received OT compared to the usual care group
+(REACH 13.3% and 33.3% and usual care: 4.8% and 0%
+functional exercise capacity, this was deemed impractical between 0–3 and 3–6 months respectively). The need to
+by PTs providing the intervention, especially in patients refer to OT seemed to increase over time (as the num-
+with very low functional capacity or severe physical ber of sessions and percentage of participants receiving
+deconditioning. PTs identified the need for further vali- OT increased in the REACH group between 3- and the
+dation of (functional) aerobic capacity tests for patients 6-month follow up), while the percentage of participants
+with PICS, such as cardio-pulmonary exercise testing needing DT interventions decreased somewhat over time
+(CPET) as soon as safely possible to establish training (REACH: 53.3% and 40.0% and usual care: 47.6% and
+parameters and objectively evaluate (an increase in) exer- 33% between 0–3 and 3–6 months respectively). Visits
+cise capacity. of nursing practitioners were more frequent in the first
+Additionally, PTs identified limitations regarding finan- 3 months after hospital discharge (REACH: 162 visits
+cial compensation of PT sessions for patients with PICS. and usual care: 98 visits compared to the period between
+For patients for whom health insurance did not—or only 3–6 months (REACH: 30 visits versus usual care: 27 vis-
+its). SLTs were not seen by anyone in the REACH group,
+Major et al. Crit Care (2021) 25:279 Page 8 of 15
+and only 3 visits were reported by 1 participant in the care group. These data reflect both partial and complete
+usual care group in the period between 3–6 months. RTW (Table 2).
+The frequency of consultations with medical special-
+ists was lower in the REACH group compared to usual Prevalence of undernutrition and psychotrauma
+care, at both timepoints (REACH 46.7% [40 visits] and Results on the SNAQ65 screening tool showed that
++
+53.3% [13 visits] vs usual care: 71.4% [51 visits] and 80.0% 84.2% (n 16) of the intervention group and 83.3%
+=
+[41 visits] at 3- and 6-month follow up respectively). (n 20) of the usual care group fell in the ‘undernutri-
+=
+Appointments with psychologists occurred more often in tion’ category (score ‘red’) at time of hospital discharge
+the usual care group in the first 3 months (REACH: 13.3% (Table 1). GPS results showed the presence of PTSD
+[4 visits] vs usual care: 33.3% [15 visits]) which reversed symptoms to be highest directly after hospital discharge
+between groups during the following 3 months (REACH: (REACH: 25%, usual care: 18.2%) and decreasing with
+26.7% [15 visits] and usual care: 13.3% [8 visits] (Fig. 2a, each following timepoint. GPS sum scores were the same
+b). for both groups at baseline and decreased over time
+(Table 2).
+Secondary outcomes
+Functional exercise capacity Discussion
+Functional exercise capacity, measured with the TMST, This study confirms the feasibility of the REACH pro-
+was established in 72.1% of the participants directly after gram, an early individualized home-based rehabilita-
+hospital discharge, in 86.5% at 3 months and in 93.8% at tion intervention designed for patients with symptoms
+6 months. Reasons for non-completion were unstable of Post-Intensive Care Syndrome (PICS). Our results
+vital signs (elevated resting systolic or diastolic blood show that collaboration within an interprofessional net-
+pressure or heart rate) or severe physical deconditioning, work consisting of hospital-based and primary care pro-
+making the safe execution of the test impossible. Baseline fessionals, is a feasible method to provide rehabilitation
+performance was similar between groups (steps, mean interventions across the care continuum for survivors
+[SD], REACH: 54 [18], usual care: 62 [33]). The great- of critical illness. Early, home-based interventions were
+est improvement in outcome was seen at 3 months fol- provided by expert professionals who were able to recog-
+low up (steps, mean [SD], REACH: 82 [27] vs usual care: nize patients’ needs across health domains. Commonly,
+94 [28]). At 6 months the improvement was still visible hospital-based follow-up clinics are set up to identify
+but tapered off (steps, mean [SD], REACH: 87 [31] vs aftercare needs for patients with PICS, but the timing of
+usual care: 99 [28]). When comparing to normative val- the first appointment is often delayed due to functional
+ues, mean steps improved to the lower limits of available impairments patients might experience immediately after
+norm values [48] in both groups, at 3- and at 6-month discharge [27]. As recommendations for rehabilitation
+follow-up (Table 2). interventions in the primary care setting are lacking [14],
+we believe our study might serve as an example for the
+implementation of healthcare interventions for patients
+Self‑perceived health status and health‑related quality of life
+with PICS-related symptoms across the care continuum,
+Table 2 shows the outcomes at all three timepoints on
+adding to the experience of a seamless transition from
+the NRS perceived health. Data show a similar perceived
+hospital to home.
+improved health status between timepoints in both
+Participants in the REACH group showed high moti-
+groups.
+vation and adherence to treatment and reported higher
+For HRQoL, baseline physical and mental component
+satisfaction with PT treatment, when compared to the
+scores (PCS and MCS) for both groups are well below
+usual care group. This is contrary to findings of previous
+normative values and show a comparable recovery at 3-
+studies, which identified the heterogeneity of the popu-
+and 6 months, with minor differences observed between
+lation needing rehabilitation interventions after critical
+groups. Notably, neither group reaches normative values
+illness as a barrier for intervention adherence [22, 23,
+for PCS at 6 months [45].
+25, 27, 49]. The extensive and long-term impairments
+of patients with PICS, potentially amplifying each other
+Return to work across health domains [50] could be explanatory for the
+Of the participants who were employed prior to their fact that previous trials did not find significant differ-
+ICU admission, 71.4% of the REACH participants and ences in outcomes when compared to a control group. As
+50% of the usual care participants had returned to work trials need strict protocols and a ’one size fits all’ design
+(RTW) at 3 months. At 6 months 85.7% of the REACH does not meet the needs of patients with PICS, different
+participants reported RTW versus 40.0% in the usual study designs and different types of interventions need
+M ajor et al. Crit Care (2021) 25:279 Page 9 of 15
+Fig. 2 a Health care usage per group at 3 and at 6 months, expressed as percentage of participants. b Health care visits per group at 3 and at
+6 months, expressed as total visits. GP general practitioner, PT physical therapist, OT occupational therapist, DT dietitian, SLT speech and language
+therapist, NP nursing practitioner
+Major et al. Crit Care (2021) 25:279 Page 10 of 15
+Table 2 Secondary outcomes REACH versus usual care
+Outcome REACH Control (usual care)
+Discharge 3 months 6 months Discharge 3 months 6 months
+Functional exercise capacity (TMST) n 15 n 16 n 14 n 16 n 16 n 16
+= = = = = =
+Total steps (Mean/SD/∑) 54 18, 809 82 27, 1318 87 31, 1213 62 33, 992 94 28, 1496 99 28, 1590
+± ± ± ± ± ±
+Mean % norm (Mean/SD)
+Lower limit 0.65 0.24 1.03 0.33 1.05 0.40 0.76 0.39 1.15 0.32 1.23 0.32
+± ± ± ± ± ±
+Upper limit 0.48 0.17 0.75 0.24 0.77 0.28 0.55 0.29 0.84 0.24 0.89 0.24
+± ± ± ± ± ±
+NRS perceived health (0–10) n 19 n 17 n 13 n 22 n 19 n 17
+= = = = = =
+Median/IQR 5 (3) 7 (2) 8 (2) 6 (2) 7 (2) 8 (1)
+HRQoL (SF‑36) (Mean/SD) n 16 n 15 n 15 n 22 n 19 n 15
+= = = = = =
+PCS 34.1 7.3 44.6 11.1 43.9 10.3 31.3 9.5 40.7 9.4 46.0 7.3
+± ± ± ± ± ±
+MCS 42 14.7 47.2 10.2 51.0 8.8 45.4 11.7 52.9 9.7 54.1 7.0
+± ± ± ± ± ±
+Return to work
+Total prior employed n 7 n 10
+= =
+Returned to work (n, %) 5 (71.4) 6 (85.7) 5 (50.0) 4 (40.0)
+GPS n 16 n 15 n 15 n 22 n 20 n 15
+= = = = = =
+GPS Sum score (mean/SD) 5 4 4 3 3 3 5 4 3 4 2 2
+± ± ± ± ± ±
+Risk of PTSD (n, %) 4 (25.0) 1 (6.7) 1 (6.7) 4 (18.2) 3 (15.0) 1 (6.7)
+TMST Two-minute Step Test, ∑ sum SD Standard Deviation NRS Numeric Rating Scale, IQR Interquartile range, HRQoL Health-related Quality of Life,
+= = = = = =
+SF-36 Short Form 36 (Rand 36), PCS Physical Component Score, MCS Mental Component Score, SNAQ65 Short Nutritional Assessment Questionnaire 65 ,
+= = = += +
+GPS Global Psychotrauma Screen, PTSD Post Traumatic Stress Disorder
+= =
+to be explored. For this reason, the REACH intervention admission diagnosis or underlying conditions, at time of
+was characterized by a flexible, patient-centered, and tai- ICU- or hospital discharge’. A definition founded in the
+lored approach, founded in the principle of delivering the umbrella term postulated by the Society of Critical Care
+right care, at the right place, at the right time and by the Medicine in 2012 [2] and applied in recent publications
+right professional [51]. Providing the early interventions in absence of alternative diagnostic tools [33, 52, 53]. As
+in the patients’ homes could be another explanation for no diagnostic tools for PICS exist at this moment [54],
+the low drop-out rate and high adherence to treatment the population in our study cannot be formally identified
+in the REACH group, contrary to findings in studies as having PICS, although our secondary outcome data
+with a larger, but similar population. Denehy et al. [23] show that participants experienced impairments in phys-
+investigated the effectiveness of an outpatient rehabili- ical, psychological, and/or cognitive domains. Clinical
+tation program for survivors of critical illness who were tools are needed to identify the presence of PICS and the
+discharged home. Program completion rate was relatively extent of PICS-related disability, and although recently
+low (41%), which was explained by sample heterogeneity, the development and validation of some tools have been
+age, and comorbid disease [23]. Similarly, in a study by investigated, further studies are urgently needed for bet-
+Berney et al. the post-ICU intervention was provided in ter definition and understanding of PICS [54–58]. Work-
+the outpatient department of the hospital. Poor attend- ing with the limitation of a not clearly defined population,
+ance and low adherence were explained by travel dis- we designed a patient-centered intervention embed-
+tance, poor social support and limited available time [22]. ded within an interdisciplinary collaborative network
+Our study shows that an individualized, home-based addressing the complex cluster of problems in patients
+rehabilitation intervention increases patient adherence with PICS conform recent recommendations [12, 33, 54].
+and satisfaction. Early home-based interventions are also Professionals within the REACH network showed
+likely to contribute to patient motivation and generally great enthusiasm towards the opportunities for profes-
+improve the transition from hospital to home [20, 27, 50]. sional development, even on topics which were outside
+A discussion point, however, is the identification of the scope of their discipline. Given a high prevalence of
+patients with (symptoms of) PICS at time of ICU- or undernutrition at hospital discharge (> 80% in this study’s
+hospital discharge. In this study we defined PICS as population), PT interventions needed to be tuned with
+’new or worsening symptoms in the physical, psycho- nutritional interventions. Our finding is in line with cur-
+logical or cognitive health domain, unrelated to the initial rent literature, stating extreme loss of muscle mass in
+M ajor et al. Crit Care (2021) 25:279 Page 11 of 15
+critically ill patients while reversal of the inflammatory, rehabilitation professionals in the primary care setting [3,
+catabolic state takes time and effort [19, 59, 60]. Within 61, 62]. An unfortunate result of this situation was that
+the REACH interdisciplinary network, collaboration the REACH program could not be made available to eve-
+between PTs and DTs became a new standard of prac- ryone in need of rehabilitation after critical illness and
+tice. Similar results were seen regarding the collaboration hospital discharge. As our study shows, a larger number
+between PTs and OTs, but the amount of OT sessions of visits to expensive medical specialist care (secondary
+received was limited, in both the REACH and usual care or tertiary line of care) was reported within the usual
+group. An explanation for this could be the early start of care group when compared to REACH, while a smaller
+PT interventions, which in most cases combined with number of participants reported a higher total of PT ses-
+DT consults contributed to an already full rehabilita- sions in the usual care group, which could be indicative
+tion schedule for patients. Balancing care provision of inefficiently organized healthcare. Current national
+while preventing to overload patients who are generally initiatives towards guideline development and recom-
+characterized by low physical and mental capacity, was mendations for recognition of PICS with an ICD-10 code
+a continuing challenge for professionals. Especially if, as will hopefully pave the way for efficient and equitable
+recommended by REACH professionals, the interdisci- health care [54, 63, 64].
+plinary network is expanded with representatives from Collaborating within an interdisciplinary network to
+other disciplines such as psychologists and SLTs, the tim- develop and provide a novel intervention for a popula-
+ing and intensity of the different consultations need to be tion whose problems were largely unrecognized and
+reviewed considering individual rehabilitation goals. inappropriately treated, facilitated REACH-professionals
+Additionally, recommendations were made for formali- to become exemplars to colleagues within and outside
+zation of collaborative networks including representa- of their own disciplines especially during the COVID-
+tives from medical insurance companies and general 19 pandemic and the concurrent influx of patients with
+practitioners. Current organization of primary care PT PICS-related symptoms.
+in the Netherlands and the fact that no ICD-10 diag- Future studies should focus on further development of
+nostic code exists for PICS or PICS-related symptoms, screening and assessment tools and intervention compo-
+were identified as barriers for the provision of state-of- nents for each of the disciplines involved in rehabilitation
+the-art rehabilitation interventions as developed within of patients with PICS. This should be done in co-creation,
+this study (Fig. 3). Additionally, prior to the COVID-19 to ensure that all aspects of PICS can be addressed, and
+pandemic, PICS was largely unknown to or unrecog- further professional development is encouraged.
+nized by physicians responsible for referral of patients to
+Fig. 3 Strengths, weaknesses, opportunities and threats (SWOT) of the REACH program. CoS Core Outcome Set
+=
+Major et al. Crit Care (2021) 25:279 Page 12 of 15
+Strengths and limitations on physical rehabilitation and while professionals were
+Several limitations can be identified in our study. trained to observe impairments in the mental and cog-
+First, there are some limitations to the recruitment nitive health domains and referral structures were put in
+and identification of the population in our study. Referral place, we did not succeed in addressing all components
+rate for the study is likely not representative of the true of PICS.
+recruitment potential, as we had expected a larger study Lastly, self-reported questionnaires were used to obtain
+sample, based on available ICU- and hospital discharge data on health care usage and return to work. These
+data in the Netherlands. Therefore, it is likely that our questionnaires, although used in earlier research, have
+study sample does not adequately represent the popula- not been validated and results should therefore be inter-
+tion in the ICUs of the 7 participating hospitals. Possi- preted with caution. Data obtained do not allow us to
+ble explanatory factors are of logistic nature, as eligible perform a health economic evaluation comparing costs
+patients had to be identified within the ICU, while oral and outcomes of REACH with usual care, which would
+consent could only be obtained in the hospital wards. As be essential to explore in future studies.
+one of our previous studies shows, the ward-stay is often Strengths of this study lie in that we provided conti-
+experienced as turbulent by patients and family mem- nuity of care for survivors of critical illness through the
+bers, where the psychological effects of the ICU-stay establishment of an interdisciplinary collaborative net-
+start to sink in while hospital discharge is often organized work. The REACH network shows potential for regional
+swiftly [20]. We hypothesize that under these circum- and national expansion and its right of existence was
+stances, recruitment for participation in research stud- proven throughout the COVID-19 pandemic. The high
+ies was difficult. Many patients declined to participate satisfaction rates among the intervention participants
+in research. Others did not see a need to continue PT indicate that individualized interventions with a patient-
+at home, because they thought that they could recover centered, holistic approach may be successful in the
+without professional help or patients did not have health treatment of the heterogeneous population with PICS.
+insurance covering PT interventions. Another explana- Additionally, professionals in the network expressed
+tion lies in the COVID-19 pandemic and its effect on feelings of achievement in their daily practice towards
+workload and healthcare organization within the par- treatment of patients with PICS, resulting directly from
+ticipating hospitals. In the academic hospitals, many sci- interdisciplinary team discussions and continuous pro-
+entific studies were initiated related to (recovery from) fessional development sessions.
+COVID-19. This likely decreased recruitment potential We obtained 6-month follow up data on 79.1% of our
+for our study. participants, despite the restrictive situation imposed
+Secondly, convenience sampling, fitting the feasibil- to research studies during the COVID-19 pandemic,
+ity design of this study, was applied. As a result of this, which provides us with moderate confidence towards our
+baseline differences were observed between groups, with results.
+regards to hospital length of stay (significantly shorter in
+intervention group) and age (a younger usual care group). Conclusions
+This sampling method also likely contributed to bias in This study shows that it is safe and feasible to provide an
+the reported results on satisfaction with and adherence early, home-based, rehabilitation intervention within the
+to PT treatment, which therefore should be interpreted organization of an interdisciplinary professional network,
+with caution. Additionally, we did not have access to for patients with symptoms related to PICS. High adher-
+data on pre-ICU functioning nor on severity of disease ence to treatment and high satisfaction rates indicate that
+(APACHE II scores), and therefore important contextual this treatment approach shows promise in addressing the
+information around our study population is lacking. complex needs of patients recovering from critical ill-
+Thirdly, though the REACH program caters for 2 out of ness. Results show a potential impact on physical recov-
+3 pillars of the evidence-based practice paradigm (patient ery and efficiency of health care organization, which can
+values and professional expertise), the scientific founda- be used as a steppingstone towards further development
+tion is still lacking. The intervention provided did not of different components of interdisciplinary rehabilita-
+follow a standardized protocol which might limit possi- tion programs for patients with PICS, and as support
+bilities to draw inferences or be instructive towards the for organization within interdisciplinary collaborative
+design of clinical trials. However, the heterogeneity of the networks. Such networks can empower professionals to
+population with PICS supports the need for exploration become professional experts and improve the quality of
+of different research designs to systematically evaluate care provided to patients with PICS throughout the con-
+patient-centered and individualized rehabilitation inter- tinuum. Future studies should be directed towards fur-
+ventions. Also, our intervention was primarily focused ther development and effectiveness testing of different
+M ajor et al. Crit Care (2021) 25:279 Page 13 of 15
+components of interdisciplinary rehabilitation programs, support and contributed to drafting of the manuscript. All authors have read
+and approved the manuscript.
+as well as health economic evaluations of care organized
+within such professional networks. Funding
+MM receives a research grant by the Dutch Research Council (NWO doctoral
+grant for teachers, 023.007.006). The funder does not intervene nor has a role
+Abbreviations in content related matters of the research projects. The development of the
+2MWT: 2‑Minute Walk Test; 6MWT: 6‑Minute Walk Test; ADL: Activities of Daily REACH professional network was funded by Taskforce for Applied Research
+Living; APACHE: Acute Physiology and Chronic Health Evaluation; BP: Blood (SIA, RAAK.PUB04.037).
+Pressure; CoP: Community of Practice; COVID‑19: COrona VIrus Disease, 2019
+novel coronavirus; CPET: CardioPulmonary Exercise Testing; DT: Dietary or Availability of data and materials
+Dietitian; FAC: Functional Ambulation Categories; GPS: Global Psychotrauma The datasets generated and analyzed during the current study will be avail‑
+Screen; HRQoL: Health‑Related Quality of Life; ICC: Intraclass Correlation able from Figshare, DOI: https:// doi. org/ 10. 21943/ auas. 14806 320.
+Coefficient; ICD‑10: International Statistical Classification of Diseases and
+Related Health Problems (10th revision); ICU: Intensive Care Unit; ICU‑PTs:
+Declarations
+Intensive Care Unit Physical Therapists; IQR: Intequartile Range; LOS: Length
+of Stay; MCS: Mental Component Scores; MV: Mechanical Ventilation; NPS:
+Ethics approval and consent to participate
+Net Promotor Score; NRS: Numeric Rating Scale; OT: Occupational Therapy
+The Medical Ethics committee of the Amsterdam University Medical Centers
+or Occupational Therapist; PC‑PTSD‑5: Primary Care PTSD Screen for DSM‑5;
+(location AMC) provided a waiver for the feasibility study (METC W18_237 #
+PCS: Physical Component Scores; PICS: Post‑Intensive Care Syndrome; PREM:
+18.282), but additional ethical approval was obtained for the physical meas‑
+Patient Reported Experience Measures; PT: Physical Therapy or Physical Thera‑
+urements (2019_012, ABR NL 68475.018.19). Written informed consent was
+pist; PTSD: Post‑Traumatic Stress Disorder; REACH: REhabilitation After Critical
+obtained from all participants.
+illness and Hospital discharge; REACH‑PT: Physical Therapist within the REACH
+network; RHR: Resting Heart Rate; RTW : Return to Work; SaO2: Oxygen Satura‑
+Consent for publication
+tion; SD: Standard Deviation; SF36: Short Form 36; SLT: Speech and Language
+Not applicable.
+Therapist; SNAQ65 : Short Nutritional Assessment Questionnaire (for adults
++
+65 ); TMST: Two‑Minute Step Test; WHO: World Health Organization.
++ Competing interests
+The authors declare that they have no competing interests.
+Supplementary Information
+Author details
+The online version contains supplementary material available at https:// doi.
+1 European School of Physiotherapy, Faculty of Health, Amsterdam University
+org/ 10. 1186/ s13054‑ 021‑ 03709‑z.
+of Applied Sciences, Amsterdam, The Netherlands. 2 Faculty of Health, Center
+of Expertise Urban Vitality, Amsterdam University of Applied Sciences, Amster‑
+Additional file 1. OT screening and referral protocol. dam, The Netherlands. 3 Department of Rehabilitation Medicine, Amsterdam
+UMC, University of Amsterdam, Amsterdam Movement Sciences, Meiberg‑
+dreef 9, Amsterdam, The Netherlands.
+Acknowledgements
+The authors would like to extend acknowledgements to members of the Received: 3 June 2021 Accepted: 27 July 2021
+REACH project group: Dr. Hinke Kruizenga, Benno van Tol (MSc), Sanne Pel‑
+legrom (MSc), Marjolein Siebel, to all REACH professionals for their devotion to
+improvement of quality of care for patients with PICS, and to all participants
+to this study.
+References
+Authors’ information 1. Herridge MS, Tansey CM, Matté A, Tomlinson G, Diaz‑Granados N, Cooper
+MM is PhD candidate in the field of physiotherapeutic rehabilitation after A, Guest CB, Mazer CD, Mehta S, Stewart TE, Kudlow P. Functional dis‑
+critical illness and works as senior lecturer at the European School of Physi‑ ability 5 years after acute respiratory distress syndrome. N Engl J Med.
+otherapy. DD is PT/PhD researcher at Amsterdam UMC. Her expertise lies in 2011;364(14):1293–304.
+the area of rehabilitation during and after critical illness, PICS and aftercare. 2. Needham DM, Davidson J, Cohen H, Hopkins RO, Weinert C, Wunsch H,
+SR is associate professor clinical reasoning and shared decision making. His Zawistowski C, Bemis‑Dougherty A, Berney SC, Bienvenu OJ, Brady SL.
+research focus is on the development of clinical reasoning competency, in Improving long‑term outcomes after discharge from intensive care unit:
+particular in interprofessional teams. RE is professor in Physiotherapy, combin‑ report from a stakeholders’ conference. Crit Care Med. 2012;40(2):502–9.
+ing patient care, research and education. His research focus is transition of 3. Elliott D, Davidson JE, Harvey MA, Bemis‑Dougherty A, Hopkins RO,
+care in complex patients. He supervises PhD candidates performing clinical Iwashyna TJ, Wagner J, Weinert C, Wunsch H, Bienvenu OJ, Black G.
+and research tasks on complex patients during and after their ICU and hospital Exploring the scope of post‑intensive care syndrome therapy and care:
+stay. MvdS is PT/researcher and associate professor in rehabilitation in acute engagement of non‑critical care providers and survivors in a second
+care. She supervises PhD candidates in the area of rehabilitation in critically ill stakeholders meeting. Crit Care Med. 2014;42(12):2518–26.
+and frail patients during and after hospital discharge. 4. Hodgson CL, Udy AA, Bailey M, Barrett J, Bellomo R, Bucknall T, Gabbe BJ,
+Higgins AM, Iwashyna TJ, Hunt‑Smith J, Murray LJ. The impact of disability
+Authors’ contributions in survivors of critical illness. Intensive Care Med. 2017;43(7):992–1001.
+MM set up the research protocol, conducted recruitment, performed 5. Iwashyna TJ, Cooke CR, Wunsch H, Kahn JM. Population burden of long‑
+measurements and data collection, data entry and analysis and drafted the term survivorship after severe sepsis in older Americans. J Am Geriatr Soc.
+manuscript. DDI initiated the interdisciplinary collaborative network REACH, 2012;60(6):1070–7.
+helped set up the research protocol and initiate recruitment, assisted in data 6. Denehy L, Hough CL. Critical illness, disability, and the road home. Inten‑
+collection, analysis and drafting of the manuscript. SR supervised the research sive Care Med. 2017;43:1881–3.
+project, provided methodological support and contributed to drafting of the 7. Van der Schaaf M, Dettling DS, Beelen A, Lucas C, Dongelmans DA, Nollet
+manuscript. RE supervised the research project, provided methodological F. Poor functional status immediately after discharge from an intensive
+support and contributed to drafting of the manuscript. MvdS initiated the care unit. Disabil Rehabil. 2008;30(23):1812–8.
+interdisciplinary collaborative network REACH, set up the research protocol, 8. Van der Schaaf M, Beelen A, Dongelmans DA, Vroom MB, Nollet F. Poor
+supervised the research project, provided methodological and analytical functional recovery after a critical illness: a longitudinal study. J Rehabil
+Med. 2009;41(13):1041–8.
+Major et al. Crit Care (2021) 25:279 Page 14 of 15
+9. Brummel NE, Girard TD, Pandharipande PP, Thompson JL, Jarrett RT, An expert consensus statement on physical rehabilitation after hospital
+Raman R, Hughes CG, Patel MB, Morandi A, Gill TM, Ely E. Prevalence discharge. Crit Care. 2016;20(1):1.
+and course of frailty in survivors of critical illness. Crit Care Med. 31. Kwakman RC, Major ME, Dettling‑Ihnenfeldt DS, Nollet F, Engelbert RHH,
+2020;48(10):1419–26. van der Schaaf M. Physiotherapy treatment approaches for survivors of
+10. Tripathy S, Acharya SP, Singh S, Patra S, Mishra BR, Kar N. Post traumatic critical illness: a proposal from a Delphi study. Physiother Theory Pract.
+stress symptoms, anxiety, and depression in patients after intensive care 2019;36:1421–31.
+unit discharge—a longitudinal cohort study from a LMIC tertiary care 32. Eldridge SM, Chan CL, Campbell MJ, Bond CM, Hopewell S, Thabane L.
+centre. BMC Psychiatry. 2020;20:1–1. CONSORT 2010 statement: extension to randomised pilot and feasibility
+11. Kamdar BB, Suri R, Suchyta MR, Digrande KF, Sherwood KD, Colantuoni trials. BMJ. 2010;2016:355.
+E, Dinglas VD, Needham DM, Hopkins RO. Return to work after critical 33. Lee M, Kang J, Jeong YJ. Risk factors for post‑intensive care syndrome: a
+illness: a systematic review and meta‑analysis. Thorax. 2020;75(1):17–27. systematic review and meta‑analysis. Aust Crit Care. 2020;33(3):287–94.
+12. van Beusekom I, Bakhshi‑Raiez F, van der Schaaf M, Busschers WB, de 34. Huber M, Knottnerus JA, Green L, Van Der Horst H, Jadad AR, Kromhout D,
+Keizer NF, Dongelmans DA. ICU survivors have a substantial higher risk Leonard B, Lorig K, Loureiro MI, Van Der Meer JW, Schnabel P. How should
+of developing new chronic conditions compared to a population‑based we define health? BMJ. 2011;343:d4163.
+control group. Crit Care Med. 2019;47(3):324–30. 35. Wijnhoven HA, Schilp J, de Vet HC, Kruizenga HM, Deeg DJ, Ferrucci L, Vis‑
+13. Azoulay E, Vincent JL, Angus DC, Arabi YM, Brochard L, Brett SJ, Citerio ser M. Development and validation of criteria for determining undernutri‑
+G, Cook DJ, Curtis JR, Dos Santos CC, Ely EW. Recovery after critical tion in community‑dwelling older men and women: the Short Nutritional
+illness: putting the puzzle together—a consensus of 29. Crit Care. Assessment Questionnaire 65 . Clin Nutr. 2012;31(3):351–8.
++
+2017;21(1):1–7. 36. Kruizenga H, Beijer S, Huisman‑de Waal, Jonkers‑Schuitema C, Klos M,
+14. Vincent JL. The continuum of critical care. Crit Care. 2019;23(1):1–5. Rmeijnse‑Meester W, Thijs A, Tieland M, Vasse E, Witteman B. Richtlijn
+15. McPeake J, Boehm LM, Hibbert E, Bakhru RN, Bastin AJ, Butcher BW, Eaton ondervoeding herkenning, diagnosestelling en behandeling van onder‑
+TL, Harris W, Hope AA, Jackson J, Johnson A. Key components of ICU voeding bij volwassenen. Stuurgroep ondervoeding, 2019. https:// www.
+recovery programs: what did patients report provided benefit? Crit Care stuur groep onder voedi ng. nl/ toolk its/ multi disci plina ire‑ richt lijn‑ onder
+Explor. 2020;2(4):e0088. voedi ng.
+16. Jones JR, Puthucheary Z, McDonald LA, Denehy L, Berney S. Searching for 37. Borg G. Borg’s perceived exertion and pain scales. Champaign: Human
+the responder, unpacking the physical rehabilitation needs of critically ill Kinetics; 1998.
+adults: a review. J Cardiopulm Rehabil Prev. 2020;40(6):359–69. 38. Angriman F, Masse MH, Adhikari NK. Defining standard of practice: pros
+17. Denehy L, Elliott D. Strategies for post ICU rehabilitation. Curr Opin Crit and cons of the usual care arm. Curr Opin Crit Care. 2019;25(5):498–504.
+Care. 2012;18(5):503–8. 39. Heeren J, Triemstra M, De Boer D. Ontwikkeling van de PREM Fysiothera‑
+18. Bear DE, Wandrag L, Merriweather JL, Connolly B, Hart N, Grocott MP. The pie: een vragenlijst over de ervaren kwaliteit van de fysiotherapeutische
+role of nutritional support in the physical and functional recovery of criti‑ zorg. www. nivel. nl: NIVEL, 2016.
+cally ill patients: a narrative review. Crit Care. 2017;21(1):1. 40. Dettling‑Ihnenfeldt DS, De Graaff AE, Nollet F, Van Der Schaaf M. Feasibil‑
+19. Wischmeyer PE. Tailoring nutrition therapy to illness and recovery. Crit ity of post‑intensive care unit clinics: an observational cohort study of
+Care. 2017;21(3):15–25. two different approaches. Minerva Anestesiol. 2015;81(8):865–75.
+20. Major ME, van Nes F, Ramaekers S, Engelbert RH, van der Schaaf M. Sur‑ 41. Rikli RE, Jones CJ. Development and validation of a functional fitness test
+vivors of critical illness and their relatives. A qualitative study on hospital for community‑residing older adults. J Aging Phys Act. 1999;7(2):129–61.
+discharge experience. Ann Am Thorac Soc. 2019;16(11):1405–13. 42. Rikli RE, Jones CJ. Development and validation of criterion‑referenced
+21. WHO factsheet Rehabilitation. https:// www. who. int/ news‑ room/ fact‑ clinically relevant fitness standards for maintaining physical independ‑
+sheets/ detail/ rehab ilita tion. Accessed 1/06/2021. ence in later years. Gerontologist. 2012;53(2):255–67.
+22. Berney S, Haines K, Skinner EH, Denehy L. Safety and feasibility of an 43. Bohannon RW, Crouch RH. Two‑minute step test of exercise capacity:
+exercise prescription approach to rehabilitation across the continuum of systematic review of procedures, performance, and clinimetric properties.
+care for survivors of critical illness. Phys Ther. 2012;92(12):1524–35. J Geriatr Phys Ther. 2019;42(2):105–12.
+23. Denehy L, Skinner EH, Edbrooke L, Haines K, Warrillow S, Hawthorne G, 44. Ware JE Jr, Sherbourne CD. The MOS 36‑item short‑form health
+Gough K, Vander Hoorn S, Morris ME, Berney S. Exercise rehabilitation for survey (SF‑36): I. Conceptual framework and item selection. Med Care.
+patients with critical illness: a randomized controlled trial with 12 months 1992;30:473–83.
+of follow‑up. Crit Care. 2013;17(4):1–2. 45. Ware JE, Kosinski M, Keller SD. SF‑36 physical and mental health summary
+24. Ferguson K, Bradley JM, McAuley DF, Blackwood B, O’Neill B. Patients’ scales: a user’s manual. Boston, MA: Health Assessment Lab; 1994.
+perceptions of an exercise program delivered following discharge 46. Prins A, Bovin MJ, Smolenski DJ, Marx BP, Kimerling R, Jenkins‑Guarnieri
+from hospital after critical illness (the revive trial). J Intensive Care Med. MA, Kaloupek DG, Schnurr PP, Kaiser AP, Leyva YE, Tiet QQ. The
+2019;34(11–12):978–84. primary care PTSD screen for DSM‑5 (PC‑PTSD‑5): development and
+25. Connolly B, Thompson A, Douiri A, Moxham J, Hart N. Exercise‑based evaluation within a veteran primary care sample. J Gen Intern Med.
+rehabilitation after hospital discharge for survivors of critical illness with 2016;31(10):1206–11.
+intensive care unit‑acquired weakness: a pilot feasibility trial. J Crit Care. 47. Olff M, Bakker A, Frewen P, Aakvaag H, Ajdukovic D, Brewer D, Elmore
+2015;30(3):589–98. Borbon DL, Cloitre M, Hyland P, Kassam‑Adams N, Knefel M. Screening
+26. Smith JM, Lee AC, Zeleznik H, Coffey Scott JP, Fatima A, Needham for consequences of trauma—an update on the global collaboration on
+DM, Ohtake PJ. Home and community‑based physical therapist traumatic stress. Eur J Psychotraumatol. 2020;11(1):1752504.
+management of adults with post‑intensive care syndrome. Phys Ther. 48. Rikli RE, Jones CJ. Functional fitness normative scores for community‑
+2020;100(7):1062–73. residing older adults, ages 60–94. J Aging Physical Act. 1999;7(2):162–81.
+27. Rosa RG, Ferreira GE, Viola TW, Robinson CC, Kochhann R, Berto PP, Biason 49. Elliott D, McKinley S, Alison J, Aitken LM, King M, Leslie GD, Kenny P,
+L, Cardoso PR, Falavigna M, Teixeira C. Effects of post‑ICU follow‑up on Taylor P, Foley R, Burmeister E. Health‑related quality of life and physical
+subject outcomes: a systematic review and meta‑analysis. J Crit Care. recovery after a critical illness: a multi‑centre randomised controlled trial
+2019;52:115–25. of a home‑based physical rehabilitation program. Crit Care. 2011;15(3):1.
+28. Ypinga JH, de Vries NM, Boonen LH, Koolman X, Munneke M, Zwinder‑ 50. Brown SM, Bose S, Banner‑Goodspeed V, Beesley SJ, Dinglas VD, Hopkins
+man AH, Bloem BR. Effectiveness and costs of specialised physiotherapy RO, Jackson JC, Mir‑Kasimov M, Needham DM, Sevin CM. Approaches
+given via ParkinsonNet: a retrospective analysis of medical claims data. to addressing post‑Intensive care syndrome among intensive care unit
+Lancet Neurol. 2018;17(2):153–61. survivors. A narrative review. Ann Am Thorac Soc. 2019;16(8):947–56.
+29. Bloem BR, Munneke M. Revolutionising management of chronic disease: 51. Taskforce JZOJP. De Juiste Zorg Op de Juiste Plek, wie durft? Den Haag:
+the ParkinsonNet approach. BMJ. 2014;348:g1838. Ministerie van Volksgezondheid, Welzijn en Sport. 2018.
+30. Major ME, Kwakman R, Kho ME, Connolly B, McWilliams D, Denehy L, 52. Flaws D, Patterson S, Fraser J, Tronstad O, Scott JG. Reconceptualizing
+Hanekom S, Patman S, Gosselink R, Jones C, Nollet F, Needham DM, post‑intensive care syndrome: do we need to unpick our PICS? Nurs Crit
+Engelbert RHH, van der Schaaf M. Surviving critical illness: what is next? Care. 2020;26:1–3.
+M ajor et al. Crit Care (2021) 25:279 Page 15 of 15
+53. Bottom‑Tanzer SF, Poyant JO, Louzada MT, Ahmed SE, Boudouvas A, Poon 59. Parry SM, Puthucheary ZA. The impact of extended bed rest on the mus‑
+E, Hojman HM, Bugaev N, Johnson BP, Van Kirk A, Daniel E. High occur‑ culoskeletal system in the critical care environment. Extrem Physiol Med.
+rence of post intensive care syndrome identified in surgical ICU survivors 2015;4(1):1–8.
+after implementation of a multidisciplinary clinic. J Trauma Acute Care 60. Molinger J, Pastva AM, Whittle J, Wischmeyer PE. Novel approaches to
+Surg. 2021. metabolic assessment and structured exercise to promote recovery in
+54. Peach BC, Valenti M, Sole ML. A call for the world health organization ICU survivors. Curr Opin Crit Care. 2020;26(4):369–78.
+to create international classification of disease diagnostic codes for 61. van der Schaaf M, Beelen A, Nollet F, Dongelmans DA. Postintensive care
+post‐intensive care syndrome in the age of COVID‐19. World Med Health syndrome, need for recognition, treatment, research, and expansion of
+Policy. 2021. included symptoms. Crit Care Med. 2012;40(9):2742–3.
+55. Turner‑Stokes L, Corner EJ, Siegert RJ, Brown C, Wallace S, Highfield J, Bear 62. Brackel‑Welten M. Post‑ic‑syndroom wordt niet herkend. Medisch. Con‑
+D, Aitken LM, Montgomery H, Puthucheary Z. The post‑ICU presentation tact. 2014;1:645–7.
+screen (PICUPS) and rehabilitation prescription (RP) for intensive care 63. Federatie Medisch Specialisten. Nazorg en revalidatie van intensive care
+survivors part I: development and preliminary clinimetric evaluation. J patienten. Utrecht; 2021. https:// richt lijne ndata base. nl/ richt lijn/ nazorg_
+Intensive Care Soc 2021:1751143720988715. en_ reval idatie_ van_ inten sive_ care_ patie nten/ behan deling_ van_ post_
+56. Jeong YJ, Kang J. Development and validation of a questionnaire inten sive_ care_ syndr oom_ pics. html.
+to measure post‑intensive care syndrome. Intensive Crit Care Nurs. 64. Wolters A, Schuckman M. Impact van een IC‑behandeling: post intensive
+2019;55:102756. care syndroom. TBV ‑ Tijdschr Bedrijfs‑ en Verzekeringsgeneeskunde.
+57. Wang S, Allen D, Perkins A, Monahan P, Khan S, Lasiter S, Boustani M, Khan 2021;29:6–9.
+B. Validation of a new clinical tool for post‑intensive care syndrome. Am J
+Crit Care. 2019;28(1):10–8.
+Publisher’s Note
+58. Mikkelsen ME, Still M, Anderson BJ, Bienvenu OJ, Brodsky MB, Brummel
+N, Butcher B, Clay AS, Felt H, Ferrante LE, Haines KJ. Society of Critical Springer Nature remains neutral with regard to jurisdictional claims in pub‑
+Care Medicine’s international consensus conference on prediction and lished maps and institutional affiliations.
+identification of long‑term impairments after critical illness. Crit Care
+Med. 2020;48(11):1670–9.
+RReeaaddyy ttoo ssuubbmmiitt yyoouurr rreesseeaarrcchh ?? CChhoooossee BBMMCC aanndd bbeenneeffiitt ffrroomm::
+• fast, convenient online submission
+• thorough peer review by experienced rese archers in your field
+• rapid publication on acceptance
+• support for research data, including large and complex data types
+• gold Open Access which fosters wider collaboration and increased citations
+• maximum visibility for your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more biomedcentral.com/submissions

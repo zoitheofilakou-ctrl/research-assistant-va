@@ -4,65 +4,72 @@ import pdfplumber
 from rapidfuzz import process, fuzz
 
 # ROLE: Data Acquisition Group
-# PURPOSE: Convert validated PDFs to machine-readable text with paperId naming
-# NOTE: This script must be run from within the 'data_acquisition' folder.
+# PURPOSE: High-fidelity Text Extraction from harvested PDFs with UUID-based naming (paperId).
+#          Includes a Truncation-Aware Fuzzy Matching engine to resolve metadata sync issues.
 
 def extract_text_from_pdfs(
-    metadata_file="../data/hybrede_metadata_v3.json", 
+    metadata_file="../data/hybrede_metadata_v4.json", 
     pdf_folder="../data/harvested_pdfs", 
     output_folder="../data/v3_full_text"
 ):
     """
-    Reads PDFs from data/harvested_pdfs and extracts text to data/v3_full_text 
-    named by their unique paperId from metadata.
+    Orchestrates the conversion of PDF assets into plain text files.
+    Ensures filenames in 'harvested_pdfs' (truncated to 100 chars) are correctly
+    mapped back to their unique 'paperId' for RAG indexing.
     """
-    # Step 0: Robustness Check - ensure folders exist as per team feedback
+    # Pre-flight Check: Validate directory structure and data sources
     if not os.path.exists(pdf_folder):
-        print(f"[!] Error: PDF folder '{pdf_folder}' not found. Please run PDFscraper.py first.")
+        print(f"[!] Critical Error: Source folder '{pdf_folder}' not found.")
         return
 
     if not os.path.exists(metadata_file):
-        print(f"[!] Error: Metadata file '{metadata_file}' not found.")
+        print(f"[!] Critical Error: Metadata '{metadata_file}' missing.")
         return
 
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
-        print(f"[*] Created output directory: {output_folder}")
+        print(f"[*] Initialized output directory: {output_folder}")
 
-    # Load metadata for ID mapping
+    # Load Metadata 'Source of Truth'
     try:
         with open(metadata_file, 'r', encoding='utf-8') as f:
             metadata = json.load(f)
     except Exception as e:
-        print(f"[!] Error reading metadata: {e}")
+        print(f"[!] Metadata Parse Error: {e}")
         return
 
-    # Create a mapping of safe title to paperId
+    # MAPPING ENGINE: 
+    # Create a dictionary where keys are sanitized & truncated titles, values are paperIds.
+    # We truncate to 100 chars here to align with the logic used in PDFscraper.py.
     id_map = {}
     for item in metadata:
         title = item.get('title', '')
         paper_id = item.get('paperId', '')
         if title and paper_id:
-            # Recreate the safe filename used in PDFscraper.py
+            # Sanitize title (matching PDFscraper.py logic)
             safe_title = "".join(c for c in title if c.isalnum() or c in (' ', '-', '_')).rstrip()
-            id_map[safe_title] = paper_id
+            # TRUNCATION SYNC: Align with 100-char limit to ensure 1:1 match
+            truncated_title = safe_title[:100]
+            id_map[truncated_title] = paper_id
 
-    # Process PDFs
+    # Execution: Scan for PDF assets
     pdf_files = [f for f in os.listdir(pdf_folder) if f.endswith('.pdf')]
-    print(f"[*] Found {len(pdf_files)} PDFs in {pdf_folder}. Starting extraction...")
-    print("=" * 50)
+    print(f"[*] Found {len(pdf_files)} PDFs. Initializing extraction pipeline...")
+    print("=" * 60)
 
     success_count = 0
     fail_count = 0
 
     for pdf_name in pdf_files:
         pdf_path = os.path.join(pdf_folder, pdf_name)
+        # Remove .pdf extension for matching
         base_name = os.path.splitext(pdf_name)[0]
 
-        # Use fuzzy matching to find the correct paperId
-        match_result = process.extractOne(base_name, id_map.keys(), scorer=fuzz.token_set_ratio)
+        # TRUNCATION-AWARE FUZZY MATCHING:
+        # We use a higher threshold because the id_map is already pre-truncated to match filenames.
+        match_result = process.extractOne(base_name, id_map.keys(), scorer=fuzz.ratio)
         
-        if match_result and match_result[1] > 80:  # 80% similarity threshold
+        if match_result and match_result[1] > 90:  # 90% threshold for high-confidence mapping
             best_match_title = match_result[0]
             paper_id = id_map[best_match_title]
             output_path = os.path.join(output_folder, f"{paper_id}.txt")
@@ -77,24 +84,26 @@ def extract_text_from_pdfs(
                     
                     full_text = "\n".join(text_content)
                     
+                    # Final I/O: Save extracted text with paperId naming convention
                     with open(output_path, 'w', encoding='utf-8') as f:
                         f.write(full_text)
                     
-                print(f"[+] Extracted: {pdf_name} -> {paper_id}.txt")
+                print(f"[+] Processed: {pdf_name[:50]}... -> {paper_id[:12]}...")
                 success_count += 1
             except Exception as e:
-                print(f"[!] Failed to process {pdf_name}: {e}")
+                print(f"[!] PDF Extraction Error ({pdf_name}): {e}")
                 fail_count += 1
         else:
-            print(f"[?] No metadata match found for: {pdf_name}")
+            print(f"[?] Mapping Failed: No metadata entry aligns with '{pdf_name}'")
             fail_count += 1
 
-    print("=" * 50)
-    print(f"EXTRACTION SUMMARY:")
-    print(f"- Files successfully processed: {success_count}")
-    print(f"- Files failed/skipped: {fail_count}")
-    print(f"- Output location: {output_folder}")
+    # Final Execution Summary for Group Reporting
+    print("=" * 60)
+    print(f"CONVERSION SUMMARY:")
+    print(f"- Successfully mapped and extracted: {success_count}")
+    print(f"- Failures (Unmapped/Corrupted): {fail_count}")
+    print(f"- Target storage: {output_folder}")
 
 if __name__ == "__main__":
-    # Default paths for execution inside 'data_acquisition/'
+    # Ensure relative paths work when called from the data_acquisition folder
     extract_text_from_pdfs()

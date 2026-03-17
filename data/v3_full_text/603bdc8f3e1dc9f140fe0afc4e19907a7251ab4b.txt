@@ -1,0 +1,735 @@
+fnins-16-964060 July18,2022 Time:13:6 #1
+TYPE Review
+PUBLISHED 22July2022
+DOI 10.3389/fnins.2022.964060
+Transcranial ultrasound
+stimulation applied in ischemic
+OPENACCESS
+EDITEDBY stroke rehabilitation: A review
+ZhihaiQiu,
+GuangdongInstituteofIntelligence
+ScienceandTechnology,China
+JiechengGuo1,WaiLeungAmbroseLo2,HuijingHu1,
+REVIEWEDBY
+DefeiLiao, LiYan1*andLeLi1*
+SonixInc.,UnitedStates
+XiaohuiHuang,
+1InstituteofMedicalResearch,NorthwesternPolytechnicalUniversity,Xi’an,China,2Department
+HongKongPolytechnicUniversity,
+ofRehabilitationMedicine,TheFirstAffiliatedHospital,SunYat-senUniversity,Guangzhou,China
+HongKongSAR,China
+HannaLu,
+TheChineseUniversityofHongKong, Ischemic stroke is a serious medical condition that is caused by cerebral
+HongKongSAR,China
+vascularocclusionandleadstoneurologicaldysfunction.Afterstroke,patients
+*CORRESPONDENCE
+sufferfromlong-termsensory,motorandcognitiveimpairment.Non-invasive
+LiYan
+yanli1130@nwpu.edu.cn neuromodulation technology has been widely studied in the field of stroke
+LeLi
+rehabilitation. Transcranial ultrasound stimulation (TUS), as a safe and non-
+lile5@nwpu.edu.cn
+invasive technique with deep penetration ability and a tiny focus, is an
+SPECIALTYSECTION
+Thisarticlewassubmittedto emerging technology. It can produce mechanical and thermal effects by
+NeuralTechnology, delivering sound waves to brain tissue that can induce the production of
+asectionofthejournal
+neurotrophic factors (NFs) in the brain, and reduce cell apoptosis and the
+FrontiersinNeuroscience
+inflammatoryresponse.TUS,whichinvolvesapplicationofanacousticwave,
+RECEIVED08June2022
+ACCEPTED04July2022 canalsodissolvebloodclotsandbeusedtodelivertherapeuticdrugstothe
+PUBLISHED22July2022
+ischemicregion.TUShasgreatpotentialinthetreatmentofischemicstroke.
+CITATION Futureadvancementsinimagingandparameteroptimizationwillimprovethe
+GuoJ,LoWLA,HuH,YanLandLiL
+(2022)Transcranialultrasound safetyandefficacyofthistechnologyinthetreatmentofischemicstroke.
+stimulationappliedinischemicstroke
+rehabilitation:Areview.
+Front.Neurosci.16:964060. KEYWORDS
+doi:10.3389/fnins.2022.964060 transcranialultrasound,stroke,thrombosis,intervention,drugdelivery
+COPYRIGHT
+©2022Guo,Lo,Hu,YanandLi.Thisis
+anopen-accessarticledistributed Introduction
+underthetermsoftheCreative
+CommonsAttributionLicense(CCBY).
+Theuse,distributionorreproductionin
+Stroke is one of the major causes of chronic disability worldwide (Zhu et al.,
+otherforumsispermitted,provided
+theoriginalauthor(s)andthecopyright 2022). Stroke can be classified as ischemic or hemorrhagic stroke, with ischemic
+owner(s)arecreditedandthatthe stroke accounting for approximately 75% of all stroke cases (Donkor, 2018). This
+originalpublicationinthisjournalis
+cerebrovascular condition can cause a considerable number of functional limitations
+cited,inaccordancewithaccepted
+academicpractice.Nouse,distribution and can lead to death in severe cases (Sousa et al., 2009). In the clinic, stroke
+orreproductionispermittedwhich
+treatmentofteninvolvesthrombolysisandsurgicalrecanalization(PaulandCandelario-
+doesnotcomplywiththeseterms.
+Jalil, 2021). Thrombolytic therapy includes drug thrombolysis and interventional
+thrombectomy. At present, intravenous thrombolysis has certain limitations. For
+example,theclassictreatment,i.e.,intravenousinjectionoftissueplasminogenactivator
+(tPA), has a short treatment window, and the risk of bleeding complications is high.
+tPAisalsonotsuitableforpatientswithcomorbidities,suchasbleeding,hypertension
+FrontiersinNeuroscience 01 frontiersin.org
+fnins-16-964060 July18,2022 Time:13:6 #2
+Guoetal. 10.3389/fnins.2022.964060
+and those who are on anticoagulation therapy. The clinical the treatment of ischemic stroke and the various treatment
+applicationofinterventionalislimitedbytechnicalchallenges, methods,andprovidefurthertheoreticalandtechnicalsupport
+equipment requirements and high cost (Powers et al., 2019). fortheclinicalapplicationofTUS.
+Therefore, research on safe and effective new treatment
+approaches for promoting nerve recovery after stroke is of
+greatsignificance.
+Transcranial focused ultrasound
+Non-invasive neuromodulation techniques, including
+stimulation technology and
+transcranial magnetic stimulation (TMS), transcranial direct
+currentstimulation(tDCS)andtranscranialalternatingcurrent principle
+stimulation (tACS), have been applied in clinical settings to
+promote neural plasticity and improve function in stroke
+The applications of focused ultrasound have been
+patients (Cantone et al., 2021). TMS and tDCS have different
+increasing, and diagnostic ultrasound has been established
+effects on neurons (Woods et al., 2016). TMS modulates
+asacriticalclinicalimagingmodality(Trockeletal.,1984;Fu
+neuronal excitability by generating a magnetic field that
+etal.,2015;Nainwal,2017;Darrow,2019;diBiaseetal.,2021;
+induces neuronal depolarization (Antczak et al., 2021), and
+Liuetal.,2021).TFUSisanon-invasivetechnologythatcanbe
+it can also cause vascular cognitive impairment, which may
+usedtomonitorcerebralcirculation(Thomassenetal.,2021).
+lead to dementia (Cantone et al., 2020; Di Lazzaro et al.,
+Spatially limited energy can be delivered to brain tissue at a
+2021). tDCS and tACS can modulate cortical excitability by
+widerangeofintensities,allowinghightemporalresolutionand
+hyperpolarizationordepolarizationneuronalrestingmembrane
+spatialvisualizationoftheintracranialandextracranialarteries
+potentials (Pol et al., 2021). However, Airan reported that the
+(Sharmaetal.,2011).Inaddition,TFUScanbeusedtoenhance
+absorption and scattering of magnetic and electrical signals
+or inhibit nervous system activity by adjusting the frequency
+within the brain limits the spatial resolution and penetration
+(Kubanek, 2018b), intensity and stimulation time (Kubanek,
+depth of these techniques, which further hinders their
+2018b;Tyleretal.,2018).
+application for the treatment of stroke (Airan, 2017). Studies
+Transcranial focused ultrasound stimulation waves are
+have found that transcranial focused ultrasound stimulation
+transmitted to human tissue in a continuous or pulsed
+(TFUS), a non-invasive, high resolution and safe technology,
+form through an ultrasonic probe (Zhang et al., 2022).
+can modulate neural activity and exert neuroprotective effects
+They can modulate neural excitability (Kamimura et al.,
+(Li et al., 2016; Baek et al., 2018). Ultrasound stimulation has
+2020) by producing mechanical effects (Blackmore et al.,
+beenusedtotreatcancer,neurodegenerativediseases,diabetes
+2019) through alterations in ion channels (Yoo et al., 2011),
+and thrombosis (Miller and O’Callaghan, 2017; Tharkar
+membrane capacitance (Plaksin et al., 2014), the generation
+etal.,2019;Zhangetal.,2019;Maetal.,2021).Low-intensity
+of sonopores (Tata and Dunn, 1992) and interfacial elastic
+focusedultrasoundstimulation(LIFUS)hasbeenshowntobe
+wave coupling, and by producing thermal effects through the
+efficacious in the treatment of a variety of neurological and
+rise in temperature caused by sound waves (Cesare et al.,
+psychiatricdisorders(Lietal.,2017;Wangetal.,2022b)such
+1999;Kamimuraetal.,2020),thus,ultrasonicstimulationisa
+asParkinson’sdisease(PD),Alzheimer’sdisease(AD)epilepsy
+potentialnon-invasivetreatmentforneurologicaldiseases.The
+and stroke, and animal experiments have shown that LIFUS
+therapeutic effect of TUS is mainly influenced by the carrier
+does not cause any tissue damage when used to treat stroke,
+frequency,peakintensity,duration,pulserepetitionfrequency
+proving that transcranial ultrasound stimulation (TUS) in the
+and duty cycle (Kubanek, 2018a). Ultrasound stimulation
+treatment of ischemic stroke has good research prospects and
+at different parameters induces different therapeutic effects.
+has the potential to become a non-invasive treatment method
+TFUS can utilize ultrasound phased array technology to
+(Min et al., 2011; Liu et al., 2019; Shin et al., 2019; Ma et al.,
+electronically drive an ultrasound transducer array to direct
+2021).
+focused ultrasound beams todifferent neural targets, enabling
+This narrative review provides an overview of the current
+large-scale ultrasound neuromodulation within a given tissue
+literature on the application of TUS in animal models and
+volume (Monteith et al., 2013; Ilham et al., 2021), it can also
+human subjects, discusses the potential effects of TUS in
+transmit acoustic energy to a target area in the brain through
+single-elementtransducers,actingonafocalpoint(Parketal.,
+2022). LIFU (frequency:<1 MHz; intensity: 0.5-100 W/cm2)
+Abbreviations: TUS, transcranial ultrasound stimulation; TMS,
+transcranial magnetic stimulation; tDCS, transcranial direct current (Tyleretal.,2018) stimulatesnervetissuemainlythroughthe
+stimulation;tACS,transcranialalternatingcurrentstimulation;tPA,tissue pressuregeneratedbyultrasonicradiation,improvingtheblood
+plasminogen activator; TFUS, transcranial focused ultrasound; PD,
+supply around the brain lesion by means of neural regulation
+Parkinson’sdisease;AD,Alzheimer’sdisease;LIFU,lowintensityfocused
+ultrasound;LIPUS,lowintensitypulsedultrasound;BDNF,brainderived withoutcausingtissuedamage(Bystritskyetal.,2011;Fomenko
+neurotrophicfactor;VEGF,vascularendothelialgrowthfactor;MCAO,
+etal.,2018;Wangetal.,2022a).Therefore,LIFUisagoodoption
+middlecerebralarteryocclusion;BBB,blood-brainbarrier;PTUS,pulsed
+transcranialultrasoundstimulation. fornon-invasivetreatmentofischemicstroke.
+FrontiersinNeuroscience 02 frontiersin.org
+fnins-16-964060 July18,2022 Time:13:6 #3
+Guoetal. 10.3389/fnins.2022.964060
+The effects of transcranial Transcranial ultrasound stimulation can increase the
+ultrasound stimulation in stroke expression of BDNF and VEGF, which play a protective role
+during brain injury rehabilitation, in the brain. Thus, TUS
+rehabilitation
+may be applied a novel approach for clinical stroke treatment
+(Figure1).
+Promotion of neurological recovery
+Itiswellknownthatsomeimportantneuralfactors,suchas Amelioration of inflammation
+vascular endothelial growth factor (VEGF) and brain-derived
+neurotrophic factor (BDNF), have a protective effect against
+Oxygen and energy consumption after ischemic stroke
+ischemic brain injury and are potential therapeutic targets.
+trigger a cascade of damage, including an inflammatory
+Angiogenesis is closely related to neurogenesis in the adult
+response that leads to severe brain damage. After ischemic
+mammalian brain (Palmer et al., 2000). VEGF can regulate
+stroke, microglia are activated and produce both harmful and
+axonal growth, neuronal survival, and neovascularization
+neuroprotectivemediators.Thebalancebetweenthesetypesof
+(Greenberg and Jin, 2005). BDNF is a neurotrophin that is
+mediatorsdeterminestheoutcomeofneuronaldamage(Zhao
+widelyexpressedinthecentralnervoussystemandplaysakey
+et al., 2017). Any disruption or loss of cerebral homeostasis
+role in memory, the differentiation and survival of neurons
+with real or potential effects on the central nervous system
+and synaptic plasticity (Bartkowska et al., 2007; Balkaya and
+causes rapid and intense changes in microglial shape, gene
+Cho, 2019). Low-intensity pulsed ultrasound stimulation
+expression,andfunction.Thesechangesareknownasmicroglial
+(LIPUS) has been proven to have a neuroprotective effect
+activation(Kettenmannetal.,2011).Whenbraininjuryoccurs,
+on brain injury (Bretsztajn and Gedroyc, 2018). Short-term
+microglia become activated and are polarized toward the
+application of transcranial pulse ultrasound stimulation can
+M1 or M2 phenotype. Inflammatory M1 microglia secrete
+increase in the density of BDNF-positive lacrimal spots in
+inflammatory factors, which may exacerbate autologous brain
+the hippocampus, suggesting that ultrasound can stimulate
+hippocampalneuronalactivityandpromoteendogenousbrain injury in early ischemic stroke, and M2 microglia secrete the
+plasticity (Tufail et al., 2010). LIPUS can also increase the anti-inflammatorycytokineIL-10,whichinturncaninducethe
+expression of BDNF and VEGF in astrocytes and inhibit cell polarizationofmicrogliatowardtheM2phenotype.IL-10isan
+apoptosis(Yangetal.,2015;Suetal.,2017).LIPUSwasapplied importantimmunomodulatorinthecentralnervoussystemand
+to the brains of mice before middle cerebral artery occlusion akeyfactorinpoststrokerecovery.Itcannotonlysuppressthe
+(MCAO)-induced cerebral ischemic injury and was found to inflammatoryresponsebutalsoalterneurogenesisandpromote
+significantlyreduceneuronapoptosisofneuronsinbraintissue, synapticremodeling(Wangetal.,2021).LIPUScansignificantly
+prevent a decline in cell viability, ameliorate neuronal injury, reduce the levels of TNF-α, IL-1β, and IL-6 in microglia,
+and alleviate ischemic stroke (Chen et al., 2018). Application and inhibit the expression of proinflammatory mediators in
+ofLIPUSfor9consecutivedaysbeforesecondaryMCAOwas microgliaandmicroglialapoptosistocontroltheinflammatory
+shown to reduce mortality, attenuate pathological changes, response (Chang et al., 2020). In a previous study, TUS was
+and significantly reduce neuronal apoptosis in mice with applied to stimulate the ischemic hemisphere in mice 1 week
+recurrent stroke (Wuetal.,2019). Postischemia angiogenesis after cerebral ischemia. Microglia in the ischemic brain area
+regulates axon growth and neurogenesis, including the werepolarizedtowardtheM2phenotype,theexpressionlevels
+proliferation, migration, maturation of nerve stem/progenitor of IL-10R and IL-10 in the brain were increased, the cerebral
+whichcontributetofunctionalrecovery(Taguchietal.,2015). infarct volume was significantly reduced, and neurological
+Ultrasound has the ability to vascularize endothelial cells severity scores and behavioral scores were improved (Wang
+(ECs) and promote angiogenesis (Imashiro et al., 2021). etal.,2021).Ultrasoundcaninducethepolarizationofmicroglia
+ApplicationofLIPUSfor20minadayfor4weekswasshown towardtheM2phenotypethroughtheIL-4signalingpathway,
+toupregulateVEGFexpressionandenhanceendothelialnitric protect against brain injury in mice and promote functional
+oxide synthase (eNOS) activity in vitro (Hanawa et al., 2014). recovery by alleviating nerve function defect, inhibiting nerve
+LIPUS was a found to significantly increase the number of cell apoptosis and reducing the destruction of the blood-
+peripheral CD31-positive blood vessels and ischemic striatum brain barrier (BBB). It can also promote tissue reconstruction
+doublecortin(DCX)-positiveneurons,andthegeneexpression and nerve regeneration. Engineered platelet-fused microglia
+levels of eNOS, VEGF, and fibroblast growth factor. Activated can achieve functional neuronal regeneration after ischemic
+ECssecreteVEGFtoincreaseneurogenesis.LIPUSislikelyto stroke(Lietal.,2021).Afterstroke,thenumberofneutrophils
+promotetheproliferationandmigrationofneuralstemcellsby increases rapidly, which leads to the disruption of the BBB,
+establishingsuitablebloodvesselsasscaffolds,andpromotethe cerebral edema, and brain damage. In response to the mutual
+repair of brain injury after stroke by inducing expression of a interactionbetweenneutrophilsandthecerebralendothelium,
+seriesofneurotrophicfactors(NFs)(Ichijoetal.,2021). a large amount of neutrophil-derived reactive oxygen species,
+FrontiersinNeuroscience 03 frontiersin.org
+fnins-16-964060 July18,2022 Time:13:6 #4
+Guoetal. 10.3389/fnins.2022.964060
+FIGURE1
+Themechanismoftranscranialultrasoundstimulation(TUS)instrokerehabilitation.
+proteases and cytokines are released in the brain (Jickling et al., 1998). However, an important factor to be considered
+et al., 2015). Reactive microglia surrounding the infarct can in ultrasound thrombolysis is the size and concentration of
+engulf neutrophils, preventing neutrophils from accumulating theclotfragments, astheymayblockthe microvesselsinthe
+in this area (Otxoa-de-Amezaga et al., 2019). Applying low- distal vascular bed. It is generally believed that the efficacy of
+intensity pulsed transcranial ultrasound stimulation (PTUS) ultrasoundthrombolysisisbasedonitscavitationeffect,which
+withafrequencyof0.5MHztotheischemiccortexafterdistal facilitatesthedissolutionofthrombi(Table1).Underultrasonic
+occlusionofthemiddlecerebralarterycanreducethenumberof irradiation,tinybubblesinthebloodvibrateandgrowunderthe
+neutrophilsinthedamagedareaandtheinflammatoryresponse actionoftheultrasonicfieldandcontinuouslygathertheenergy
+inthebrain(Guoetal.,2015). ofthesoundfield;whentheenergyreachesacertainthreshold,
+TUS and LIPUS can modulate neural activity in different thecavitatedbubblescollapse,promotingthedissolutionofthe
+brain regions by affecting the polarization of microglia in the thrombus (Kubanek, 2018a). However, TFUS is often used as
+brain.TUSandLIPUScaninducethepolarizationofmicroglia an auxiliary thrombolytic method to enhance the efficacy of
+toward the protective phenotype and reduce the detrimental intravenous thrombolytic drugs (Wright et al., 2012). It has
+effect of neutrophil injury; thus, they are effective in reducing been reported that ultrasound at a frequency of 490 kHz and
+inflammationafterstroke. an intensity of 0.13 W/cm2 can promote tPA thrombolytic
+effect and improve blood perfusion (Ishibashi et al., 2002).
+Ultrasound stimulation at a frequency of 490kHz and an
+Thrombolysis intensity of 0.8 W/cm2 can enhance the thrombolytic effect
+of tPA, significantly reducing the cerebral infarct volume and
+Transcranialfocusedultrasoundstimulationcanimproveor improvingneurologicalfunctionwithoutcausinghemorrhagic
+restorebloodflowinbloodvesselsblockedbyaclot(Birnbaum complications (Saguchi et al., 2008). A clinical study also
+FrontiersinNeuroscience 04 frontiersin.org
+fnins-16-964060 July18,2022 Time:13:6 #5
+Guoetal. 10.3389/fnins.2022.964060
+.sesnopseryrotammaflnifonoitcuderdnanoitaludomoruennidnuosartludesucoflainarcsnartfoyrammuS
+1ELBAT
+epytdnuosartlU
+ycneuqerF
+ytisnetnI
+tcejbosulumitS
+aeranoitalumitS
+emitnoitalumitS
+tceffA
+secnerefeR
+SUPIL
+ZHM1
+2mc/W825=ATPSI
+tarDSlamroN
+detroperenoN
+lavretninim5,nim51
+FGEV,FNDBetavelE
+5102,.lategnaY
+ZHM1
+2mc/W825=ATPSI
+ecimdegamadyllacitroC
+xetroC
+syad3,yadanim5
+FGEV,FNDBetavelE
+7102,.lateuS
+ZHM1
+2mc/W825=ATPSI
+ecimOACM
+detroperenoN
+,lavretninim5,nim51
+,FGEV,FNDBetavelE
+8102,.latenehC
+syad5
+sisotpopaecuder
+ZHM1
+2mc/W825=ATPSI
+ecimOACMyradnoceS
+xetroclarbereC
+syad9,nim51
+ecuder,FNDBetavelE
+9102,.lateuW
+sisotpopa
+ZHM5.0
+2mc/Wm391=ATPSI
+ecimOACM
+niarbelohW
+nim02,yadasemit3
+,sONe,FGEVetavelE
+1202,.lateojihcI
+syad3,emithcae
+XCD,31DC
+ZHM1
+2mc/Wm03=ATPSI
+lleclailgderutlucortiV
+detroperenoN
+emithcaenim5,semit3
+,FGEV,FNDBetavelE
+0202,.lategnahC
+enil
+,β1-LI,α-FNTecuder
+6-LI
+SUFT
+ZHM5.0
+2mc/Wm021=APPSI
+ecimOACMlaremehpE
+erehpsimehcimehcsI
+syad7,yadanim01
+,ailgorcimetavitcA
+1202,.lategnaW
+R01-LI,01-LIetavele
+SUTP
+ZHM5.0
+2mc/Wm68=ATASI
+tarOACM
+eroccimehcsI
+nim06
+slihportuenecudeR
+5102,.lateouG
+.)2mc/W1–20.0:ytisnetnI,zHM3-1:ycneuqerF(SUPIL.)ytisnetniegareva-laropmetegareva-laitaps(:ATASI.)ytisnetnicitsuocaegarevaeslupkaeplaitaps(:APPSI.)ytisnetniegareva-laropmetkaep-laitaps(:ATPSI
+confirmed that continuous TUS can enhance tPA-induced
+arterial recanalization (Alexandrov et al., 2004). In addition
+to thrombolytic drugs, microbubble-assisted thrombolysis can
+greatly enhance the effect of thrombolytic therapy, and there
+is no difference in effectiveness between microbubble-assisted
+thrombolysis and thrombolytic therapy involving different
+microbubbles (Schleicher et al., 2016). Ultrasound combined
+with microbubbles can effectively remove thrombi when
+combined with a very low dose of tPA or in the absence of
+tPA,andsignificantlyreducetheinfarctvolumewithoutcausing
+obvioussideeffects(Brownetal.,2011;Culpetal.,2011).High
+mechanical index (MI) PTUS combined with microbubbles
+candissolvethrombiandimproveipsilateralandcontralateral
+cerebral blood flow after acute cerebral embolism (Gao et al.,
+2014).AcombinationofmicrobubbleswithtranscranialTUSat
+afrequencyof1MHzandintensityof2.0W/cm2 canrapidly
+resolve acute intracranial thrombotic occlusions (Culp et al.,
+2004).Thrombolyticefficacycanbefurtherenhancedthrough
+theuseoftargetedmicrobubbles(TMBs).Thismaybebecause
+adhesionbetweenmicrobubblesandthethrombusisenhanced
+and the concentration of bubbles around the thrombosis
+increased, leading to promotion of the cavitation effect and
+thusenhancementofthethrombolyticeffect.Thecombination
+of thrombolytic therapy and recombinant tissue plasminogen
+activator (r-tPA) is safer than the application of r-tPA alone
+and decreases the risk of intracranial hemorrhage (Ren et al.,
+2012).Sincethecombinationofultrasoundandmicrobubbles
+hasanenhancedthrombolyticeffectanddoesnotincreasethe
+incidence of cerebral hemorrhage, r-tPA can be administered
+duringthrombolytictherapy(Luetal.,2016).Ithasalsobeen
+reportedthattheadditionofmicrobubblesenhancestheeffects
+of transcranial ultrasound-assisted urokinase thrombolysis,
+significantlyreducingtheinfarctsizewithoutincreasingtherisk
+ofcerebralhemorrhage(Liuetal.,2012).
+The cavitation effect is the main mechanism underlying
+the effect of ultrasonic thrombolysis. The effectiveness and
+safety of ultrasonic thrombolysis have also been confirmed
+by a large number of experimental studies. However, to date,
+thereisnoconsensusontheoptimalparametersofultrasonic
+thrombolysis,andfurtherexplorationisneeded.
+Drug delivery
+Ultrasound combined with microbubble-mediated drug
+deliveryisanon-invasive,targeteddrugdeliveryapproachthat
+canbeguidedbyimagingtechnologythroughtheinteractionof
+microbubblesundergoingacousticcavitationandcells.Delivery
+oftherapeuticsubstancestothetargettissueororganthrough
+an ultrasonic microbubble contrast agent mainly relies on
+ultrasonicTMBdestructiontechnology.Thetherapeuticagent
+is released at a specific point under the action of ultrasonic
+irradiationfordiagnosisortreatment.Oscillationandimplosion
+FrontiersinNeuroscience 05 frontiersin.org
+fnins-16-964060 July18,2022 Time:13:6 #6
+Guoetal. 10.3389/fnins.2022.964060
+ofthemicrobubblesresultinanincreaseintemperature(Wood timeandthetherapeuticeffectarelimitedduetotheinabilityto
+and Sehgal, 2015), shock waves, the shear stress, mechanical achieveasufficientlyhighdoseofthedrugintheinfarctedarea
+stress,andthegenerationoffreeradicals(Barnettetal.,1994; (Menzies et al., 1993). FUS combined with microbubbles can
+Rosenthaletal.,2004;Ashokkumar,2011;Sanwaletal.,2021). open the BBB and improve the permeability of blood vessels,
+These phenomena are the main mechanisms of ultrasound- therebyprolongsthetimeofdrugtreatmentandimprovesthe
+enhanced targeted drug delivery (Shin Low et al., 2021). treatment effect. This technology has good prospects in the
+The BBB is a key factor affecting the delivery of drugs to treatmentofischemicstroke.
+the central nervous system. Ultrasound can induce opening
+of the BBB and promote drug delivery. Ohta et al. (2020)
+Limitations
+investigated the effect of size on the ability of nanoparticles
+to be delivered to the brain via FUS-induced BBB opening,
+using gold nanoparticles (AuNPs) with diameters of 3, 15, Basic and clinical studies have demonstrated the efficacy
+and 120 nm. They found that medium-sized (15 nm) AuNPs of TFUS. It has been found to enhance drug delivery and
+showed the highest delivery efficiency (0.22% ID). The steady neuroprotection.However,duetodifferencesbetweenanimals
+and inertial cavitation doses were quantified by labeling lipid and humans, making the effectiveness of this technology
+microvesicleswiththefluorophore5-dodecylaminofluorescein needs to be further verified. Moreover, given the diversity of
+andapplyingFUStotheratheadtoaidthetransportoflipid stroke types, TUS may not necessarily have a beneficial effect
+microvesicles across the BBB; in this way, the cavitation dose ineverypatient.
+thresholdwasdeterminedforthefirsttime(Sierraetal.,2017). The application of TFUS is limited by acoustics-related
+FUS-mediated delivery of NFs, including BDNF (Baseri et al., factors. Because the skull has a high attenuation coefficient,
+2012), neurturin and GDNF (Wang et al., 2012), has been it can absorb and reflect a large amount of ultrasonic energy
+showntoresultinhighenoughlevelsofthesefactorstoinduce (Quadri et al., 2018). The absorption of ultrasonic energy
+neuroprotectionandsurvival.InthetreatmentofAD,focused can interfere with the transmission of ultrasound, preventing
+ultrasoundcombinedwithmicrobubblesformedbyembedding it from acting effectively on the target area and reducing
+quercetin-modifiedsulfurnanoparticles(Qc@SNPs)caninduce the effectiveness of treatment. In addition, the TFUS focus
+openingoftheBBBandallowthedeliveryofQc@SNPs.Thiscan is relatively small and fixed; however, it has already been
+effectively protect nerve cells by reducing neuronal apoptosis, demonstratedthatthroughphasedarraytechnology,TFUScan
+theinflammatoryresponse,calciumhomeostasisimbalanceand beusedtotreatmultipleareasinthebrain(Khannaetal.,2017).
+oxidative stress (Liu et al., 2020). FUS combined with MBs Ultrasonicenergyisadouble-edgedsword.Applicationof
+can be used to deliver erythropoietin (EPO) to the injured ultrasound at an inappropriate power and at the wrong time
+area,increasesthevascularpermeability,promotestherecovery can cause damage to brain tissue. An almost infinite range of
+of neurons in the ischemic area, reduces the infarct volume, parametersandbrainregionsneedtobestudied.Futurestudies
+and exerts a significant neuroprotective effect (Wu et al., areneededtodeterminetheoptimalpulseparametersanddose-
+2014). Ultrasound-targeted microbubble destruction (UTMD) response effect on region-specific neural activity (Fomenko
+can facilitate the delivery of NF genes into brain to protect etal.,2018).Inaddition,theelectrophysiologicalandfunctional
+against the development of neurodegenerative diseases (Lin responses of cortical and subcortical encephalic regions to
+et al., 2020). UTMD can be used to deliver BDNF to the ultrasoundhaveyettobeexplored.
+brain,topromotefunctionalrecoveryandwhitematterrepair
+withoutincreasingBBBdamage(Rodriguez-Frutosetal.,2016).
+Conclusion and expectation
+In addition, FUS can facilitate the delivery of isopropanol in
+the brains of epileptic rats to exert therapeutic effects against
+epilepsy (Airan et al., 2017). Magnetic resonance imaging- TUS has the potential to become a clinical treatment for
+guidedFUS(MRgFUS),enhancesendogenousantibodydelivery stroke.Itcanpromotefunctionalrecoveryfromnerverecovery
+inADratstorapidlyreducethenumberofamyloidbeta(Aβ) promotion,inflammatoryresponsereduction,andwillnotcause
+plaques and increase endogenous immunoglobulin levels and serioustissuedamage.Itcanalsoimprovethecurativeefficacy
+microglial activation (Jordao et al., 2013). MRgFUS is also a bythrombolysisanddrugsdelivery.Becauseoftheadvantages
+safer method used to deliver drugs across the BBB in vivo of safety, non-invasiveness, deep penetration and tiny focus,
+(Nanceetal.,2014).AclinicalstudydemonstratedthatMRgFUS it is gradually used in clinic. However, the clinical evidence
+canbeusedfornon-invasive,spatiallytargeteddeliveryofthe regarding the efficacy of TUS is still very limited. In addition,
+monoclonalantibodytrastuzumabinthebrainviatheBBBin findingsfromanimalstudies,suchasthoserelatedtoeffective
+patientswithHer2-positivebrainmetastases(Mengetal.,2021). drugs and treatment parameters, may not be applicable to
+When cerebral ischemia occurs, the BBB will be opened, and humanbeings.Especiallyintermsofthrombolysis,thecurrently
+macromoleculardrugscanentertheischemicarea.However,the approved thrombolytic drug is tPA, and the improper use of
+FrontiersinNeuroscience 06 frontiersin.org
+fnins-16-964060 July18,2022 Time:13:6 #7
+Guoetal. 10.3389/fnins.2022.964060
+parameters will increase the risk of injury. More experiments Foundation of Shaanxi province (2022-JM482), and the
+areneededtoprovidestrongtheoreticalsupportfortheclinical Education and Teaching Reform Funds for the Central
+applicationofultrasoundstimulation. Universities(No.22GZ230101).
+Author contributions
+Conflict of interest
+LLandLY:conceptualization.LL,LY,andHH:methodology.
+Theauthorsdeclarethattheresearchwasconductedinthe
+JGandLY:writing–originaldraftpreparation.LY,JGandWL:
+absenceofanycommercialorfinancialrelationshipsthatcould
+writing – review and editing. All authors contributed to the
+beconstruedasapotentialconflictofinterest.
+articleandapprovedthesubmittedversion.
+Funding Publisher’s note
+This work was supported by the National Natural Science All claims expressed in this article are solely those of the
+Foundation of China (Nos. 32071316 and 32211530049), the authorsanddonotnecessarilyrepresentthoseoftheiraffiliated
+Fundamental Research Funds for the Central Universities organizations, or those of the publisher, the editors and the
+(GrantNos.G2021KY05101,G2021KY05105,G2021KY05107, reviewers.Anyproductthatmaybeevaluatedinthisarticle,or
+and G2022WD01006), the Key Research and Development claimthatmaybemadebyitsmanufacturer,isnotguaranteed
+ProjectofShaanxiProvince(2022SF-117),theNaturalScience orendorsedbythepublisher.
+References
+Airan,R.(2017).Neuromodulationwithnanoparticles.Science357:465.doi: combinedwithintravenousinfusionofmicrobubbles.Circulation97,130–134.
+10.1126/science.aao1200 doi:10.1161/01.cir.97.2.130
+Airan,R.D.,Meyer,R.A.,Ellens,N.P.K.,Rhodes,K.R.,Farahani,K.,Pomper, Blackmore, J., Shrivastava, S., Sallet, J., Butler, C. R., and Cleveland, R. O.
+M.G.,etal.(2017).NoninvasiveTargetedTranscranialNeuromodulationvia (2019). Ultrasound Neuromodulation: A Review of Results, Mechanisms and
+FocusedUltrasoundGatedDrugReleasefromNanoemulsions.NanoLett.17, Safety.UltrasoundMed.Biol.45,1509–1536.
+652–659.doi:10.1021/acs.nanolett.6b03517
+Bretsztajn,L.,andGedroyc,W.(2018).Brain-focussedultrasound:what’sthe
+Alexandrov,A.V.,Molina,C.A.,Grotta,J.C.,Garami,Z.,Ford,S.R.,Alvarez- "FUS"allabout?Areviewofcurrentandemergingneurologicalapplications.Br.
+Sabin, J., et al. (2004). Ultrasound-enhanced systemic thrombolysis for acute J.Radiol.91:20170481.doi:10.1259/bjr.20170481
+ischemicstroke.N.Engl.J.Med.351,2170–2178.doi:10.1056/NEJMoa041175
+Brown,A.T.,Flores,R.,Hamilton,E.,Roberson,P.K.,Borrelli,M.J.,and
+Antczak,J.,Rusin,G.,andSlowik,A.(2021).TranscranialMagneticStimulation Culp,W.C.(2011).Microbubblesimprovesonothrombolysisinvitroanddecrease
+asaDiagnosticandTherapeuticToolinVariousTypesofDementia.J.Clin.Med. hemorrhageinvivoinarabbitstrokemodel.Invest.Radiol.46,202–207.doi:
+10:2875.doi:10.3390/jcm10132875 10.1097/RLI.0b013e318200757a
+Ashokkumar,M.(2011).Thecharacterizationofacousticcavitationbubbles- Bystritsky, A., Korb, A. S., Douglas, P. K., Cohen, M. S., Melega, W. P.,
+Anoverview.Ultrason.Sonochem.18,864–872. Mulgaonkar,A.P.,etal.(2011).Areviewoflow-intensityfocusedultrasound
+pulsation.BrainStimul.4,125–136.doi:10.1016/j.brs.2011.03.007
+Baek,H.,Pahk,K.J.,Kim,M.J.,Youn,I.,andKim,H.(2018).Modulation
+of Cerebellar Cortical Plasticity Using Low-Intensity Focused Ultrasound for Cantone, M., Lanza, G., Fisicaro, F., Pennisi, M., Bella, R., Di Lazzaro, V.,
+PoststrokeSensorimotorFunctionRecovery.NeurorehabilNeuralRepair32,777– etal.(2020).EvaluationandTreatmentofVascularCognitiveImpairmentby
+787.doi:10.1177/1545968318790022 Transcranial Magnetic Stimulation. Neural. Plast. 2020:8820881. doi: 10.1155/
+2020/8820881
+Balkaya,M.,andCho,S.(2019).Geneticsofstrokerecovery:BDNFval66met
+polymorphisminstrokerecoveryanditsinteractionwithaging.Neurobiol.Dis. Cantone,M.,Lanza,G.,Ranieri,F.,Opie,G.M.,andTerranova,C.(2021).
+126,36–46.doi:10.1016/j.nbd.2018.08.009 Editorial: non-invasive Brain Stimulation in the Study and Modulation of
+MetaplasticityinNeurologicalDisorders.Front.Neurol.12:721906.doi:10.3389/
+Barnett,S.B.,terHaar,G.R.,Ziskin,M.C.,Nyborg,W.L.,Maeda,K.,and
+fneur.2021.721906
+Bang,J.(1994).Currentstatusofresearchonbiophysicaleffectsofultrasound.
+UltrasoundMed.Biol.20,205–218.doi:10.1016/0301-5629(94)90060-4 Cesare, P., Moriondo, A., Vellani, V., and McNaughton, P. A. (1999). Ion
+channelsgatedbyheat.Proc.Natl.Acad.Sci.U.S.A.96,7658–7663.
+Bartkowska, K., Paquin, A., Gauthier, A. S., Kaplan, D. R., and Miller,
+F. D. (2007). Trk signaling regulates neural precursor cell proliferation and Chang,J.W.,Wu,M.T.,Song,W.S.,andYang,F.Y.(2020).Ultrasound
+differentiationduringcorticaldevelopment.Development134,4369–4380.doi: StimulationSuppressesLPS-InducedProinflammatoryResponsesbyRegulating
+10.1242/dev.008227 NF-kappaBandCREBActivationinMicroglialCells.Cereb.Cortex30,4597–4606.
+doi:10.1093/cercor/bhaa062
+Baseri, B., Choi, J. J., Deffieux, T., Samiotaki, G., Tung, Y. S., Olumolade,
+O.,etal.(2012).Activationofsignalingpathwaysfollowinglocalizeddelivery Chen, C. M., Wu, C. T., Yang, T. H., Liu, S. H., and Yang, F. Y. (2018).
+ofsystemicallyadministeredneurotrophicfactorsacrosstheblood-brainbarrier Preventive Effect of Low Intensity Pulsed Ultrasound against Experimental
+usingfocusedultrasoundandmicrobubbles.Phys.Med.Biol.57,N65–N81.doi: Cerebral Ischemia/Reperfusion Injury via Apoptosis Reduction and Brain-
+10.1088/0031-9155/57/7/N65 derivedNeurotrophicFactorInduction.Sci.Rep.8:5568.doi:10.1038/s41598-018-
+23929-8
+Birnbaum,Y.,Luo,H.,Nagai,T.,Fishbein,M.C.,Peterson,T.M.,Li,S.P.,
+etal.(1998).Noninvasiveinvivoclotdissolutionwithoutathrombolyticdrug- Culp,W.C.,Flores,R.,Brown,A.T.,Lowery,J.D.,Roberson,P.K.,Hennings,
+Recanalizationofthrombosediliofemoralarteriesbytranscutaneousultrasound L.J.,etal.(2011).Successfulmicrobubblesonothrombolysiswithouttissue-type
+FrontiersinNeuroscience 07 frontiersin.org
+fnins-16-964060 July18,2022 Time:13:6 #8
+Guoetal. 10.3389/fnins.2022.964060
+plasminogen activator in a rabbit model of acute ischemic stroke. Stroke 42, Kubanek,J.(2018a).Neuromodulationwithtranscranialfocusedultrasound.
+2280–2285.doi:10.1161/STROKEAHA.110.607150 Neurosurg.Focus44:E14.doi:10.3171/2017.11.FOCUS17621
+Culp,W.C.,Porter,T.R.,Lowery,J.,Xie,F.,Roberson,P.K.,andMarky, Kubanek,J.(2018b).Neuromodulationwithtranscranialfocusedultrasound.
+L.(2004).Intracranialclotlysiswithintravenousmicrobubblesandtranscranial Neurosurg.Focus44:E14.
+ultrasound in swine. Stroke 35, 2407–2411. doi: 10.1161/01.STR.0000140890.
+Li,G.F.,Zhao,H.X.,Zhou,H.,Yan,F.,Wang,J.Y.,Xu,C.X.,etal.(2016).
+86779.79
+Improved Anatomical Specificity of Non-invasive Neuro-stimulation by High
+Darrow, D. P. (2019). Focused Ultrasound for Neuromodulation. Frequency(5MHz)Ultrasound.Sci.Rep.6:24738.doi:10.1038/srep24738
+Neurotherapeutics16,88–99.doi:10.1007/s13311-018-00691-3
+Li,H.D.,Sun,J.F.,Zhang,D.Q.,Omire-Mayor,D.,Lewin,P.A.,andTong,S.B.
+di Biase, L., Falato, E., Caminiti, M. L., Pecoraro, P. M., Narducci, F., and (2017).Low-intensity(400mW/cm(2),500kHz)pulsedtranscranialultrasound
+Lazzaro,V.Di(2021).FocusedUltrasound(FUS)forChronicPainManagement: preconditioningmaymitigatefocalcerebralischemiainrats.BrainStimul.10,
+ApprovedandPotentialApplications.Neurol.Res.Int.2021:8438498.doi:10. 695–702.doi:10.1016/j.brs.2017.02.008
+1155/2021/8438498
+Li,Y.,Teng,X.,Yang,C.,Wang,Y.,Wang,L.,Dai,Y.,etal.(2021).Ultrasound
+DiLazzaro,V.,Bella,R.,Benussi,A.,Bologna,M.,Borroni,B.,Capone,F., ControlledAnti-InflammatoryPolarizationofPlateletDecoratedMicrogliafor
+etal.(2021).Diagnosticcontributionandtherapeuticperspectivesoftranscranial TargetedIschemicStrokeTherapy.AngewChem.Int.Ed.Engl.60,5083–5090.
+magneticstimulationindementia.Clin.Neurophysiol.132,2568–2607.doi:10. doi:10.1002/anie.202010391
+1016/j.clinph.2021.05.035
+Lin, C. Y., Lin, Y. C., Huang, C. Y., Wu, S. R., Chen, C. M., and Liu,
+Donkor,E.S.(2018).Strokeinthe21(st)Century:ASnapshotoftheBurden, H. L. (2020). Ultrasound-responsive neurotrophic factor-loaded microbubble-
+Epidemiology,andQualityofLife.StrokeRes.Treat.2018:3238165.doi:10.1155/ liposome complex: preclinical investigation for Parkinson’s disease treatment.
+2018/3238165 J.Control.Release321,519–528.doi:10.1016/j.jconrel.2020.02.044
+Fomenko,A.,Neudorfer,C.,Dallapiazza,R.F.,Kalia,S.K.,andLozano,A.M. Liu,L.,Du,J.,Zheng,T.,Hu,S.,Dong,Y.,Du,D.,etal.(2019).Protectiveeffect
+(2018).Low-intensityultrasoundneuromodulation:anoverviewofmechanisms oflow-intensitytranscranialultrasoundstimulationafterdifferingdelayfollowing
+andemerginghumanapplications.BrainStimul.11,1209–1217.doi:10.1016/j. anacuteischemicstroke.BrainRes.Bull.146,22–27.doi:10.1016/j.brainresbull.
+brs.2018.08.013 2018.12.004
+Fu,W.X.,Wang,Q.,Zhang,Y.S.,Li,Y.,Xu,T.,He,S.,etal.(2015).Application Liu, W. S., Huang, Z. Z., Wang, X. W., and Zhou, J. (2012). Effects of
+ofultrasoundtechnologyinthediagnosisandtreatmentofdigestivetractdiseases. microbubblesontranscranialDopplerultrasound-assistedintracranialurokinase
+Eur.Rev.Med.Pharmacol.Sci.19,602–606. thrombolysis.ThrombRes.130,547–551.doi:10.1016/j.thromres.2012.06.020
+Gao, S., Zhang, Y., Wu, J., Shi, W. T., Lof, J., Vignon, F., et al. (2014). Liu,X.,Naomi,S.S.M.,Sharon,W.L.,andRussell,E.J.(2021).TheApplications
+Improvementsincerebralbloodflowandrecanalizationrateswithtranscranial ofFocusedUltrasound(FUS)inAlzheimer’sDiseaseTreatment:ASystematic
+diagnosticultrasoundandintravenousmicrobubblesafteracutecerebralemboli. Review on Both Animal and Human Studies. Aging Dis. 12, 1977–2002. doi:
+Invest.Radiol.49,593–600.doi:10.1097/RLI.0000000000000059 10.14336/AD.2021.0510
+Greenberg,D.A.,andJin,K.(2005).Fromangiogenesistoneuropathology. Liu,Y.A.,Gong,Y.C.,Xie,W.J.,Huang,A.L.,Yuan,X.Y.,Zhou,H.,etal.
+Nature438,954–959.doi:10.1038/nature04481 (2020).Microbubblesincombinationwithfocusedultrasoundforthedeliveryof
+quercetin-modifiedsulfurnanoparticlesthroughthebloodbrainbarrierintothe
+Guo, T., Li, H., Lv, Y., Lu, H., Niu, J., Sun, J., et al. (2015). Pulsed
+brainparenchymaandreliefofendoplasmicreticulumstresstotreatAlzheimer’s
+Transcranial Ultrasound Stimulation Immediately After The Ischemic Brain
+disease.Nanoscale12,6498–6511.doi:10.1039/c9nr09713a
+InjuryisNeuroprotective.IEEETrans.Biomed.Eng.62,2352–2357.doi:10.1109/
+TBME.2015.2427339 Lu, Y., Wang, J., Huang, R., Chen, G., Zhong, L., Shen, S., et al. (2016).
+Microbubble-MediatedSonothrombolysisImprovesOutcomeAfterThrombotic
+Hanawa,K.,Ito,K.,Aizawa,K.,Shindo,T.,Nishimiya,K.,Hasebe,Y.,etal.
+Microembolism-InducedAcuteIschemicStroke.Stroke47,1344–1353.doi:10.
+(2014).Low-intensitypulsedultrasoundinducesangiogenesisandamelioratesleft
+1161/STROKEAHA.115.012056
+ventriculardysfunctioninaporcinemodelofchronicmyocardialischemia.PLoS
+One9:e104863.doi:10.1371/journal.pone.0104863 Ma,H.,Jiang,Z.,Xu,J.,Liu,J.,andGuo,Z.N.(2021).Targetednano-delivery
+strategiesforfacilitatingthrombolysistreatmentinischemicstroke.DrugDeliv.
+Ichijo,S.,Shindo,T.,Eguchi,K.,Monma,Y.,Nakata,T.,Morisue,Y.,etal.
+28,357–371.doi:10.1080/10717544.2021.1879315
+(2021).Low-intensitypulsedultrasoundtherapypromotesrecoveryfromstroke
+byenhancingangio-neurogenesisinmiceinvivo.Sci.Rep.11:4958.doi:10.1038/ Meng,Y.,Reilly,R.M.,Pezo,R.C.,Trudeau,M.,Sahgal,A.,Singnurkar,A.,etal.
+s41598-021-84473-6 (2021).MR-guidedfocusedultrasoundenhancesdeliveryoftrastuzumabtoHer2-
+positivebrainmetastases.Sci.Transl.Med.13:eabj4011.doi:10.1126/scitranslmed.
+Ilham,S.J.,Kashani,Z.,andKiani,M.(2021).DesignandOptimizationof
+abj4011
+UltrasoundPhasedArraysforLarge-ScaleUltrasoundNeuromodulation.IEEE
+Trans.Biomed.Circ.Syst.15,1454–1466.doi:10.1109/TBCAS.2021.3133133 Menzies,S.A.,Betz,A.L.,andHoff,J.T.(1993).ContributionsofIonsand
+AlbuminTotheFormationandResolutionofIschemicBrainEdema.J.Neurosurg.
+Imashiro, C., Azuma, T., Itai, S., Kuribara, T., Totani, K., Onoe, H., et al.
+78,257–266.doi:10.3171/jns.1993.78.2.0257
+(2021). Travelling ultrasound promotes vasculogenesis of three-dimensional-
+monoculturedhumanumbilicalveinendothelialcells.Biotechnol.Bioeng.118, Miller,D.B.,andO’Callaghan,J.P.(2017).Newhorizonsforfocusedultrasound
+3760–3769.doi:10.1002/bit.27852 (FUS)-therapeuticapplicationsinneurodegenerativediseases.Metabolism69S,
+S3–S7.doi:10.1016/j.metabol.2017.01.012
+Ishibashi,T.,Akiyama,M.,Onoue,H.,Abe,T.,andFuruhata,H.(2002).Can
+transcranialultrasonicationincreaserecanalizationflowwithtissueplasminogen Min,B.K.,Bystritsky,A.,Jung,K.I.,Fischer,K.,Zhang,Y.,Maeng,L.S.,etal.
+activator?Stroke33,1399–1404.doi:10.1161/01.str.0000013789.15436.42 (2011).Focusedultrasound-mediatedsuppressionofchemically-inducedacute
+epilepticEEGactivity.BMCNeurosci.12:23.doi:10.1186/1471-2202-12-23
+Jickling,G.C.,Liu,D.,Ander,B.P.,Stamova,B.,Zhan,X.,andSharp,F.R.
+(2015). Targeting neutrophils in ischemic stroke: translational insights from Monteith,S.,Sheehan,J.,Medel,R.,Wintermark,M.,Eames,M.,Snell,J.,etal.
+experimentalstudies.J.Cereb.BloodFlowMetab.35,888–901.doi:10.1038/jcbfm. (2013).Potentialintracranialapplicationsofmagneticresonance-guidedfocused
+2015.45 ultrasoundsurgery.J.Neurosurg.118,215–221.doi:10.3171/2012.10.JNS12449
+Jordao,J.F.,Thevenot,E.,Markham-Coultes,K.,Scarcelli,T.,Weng,Y.Q., Nainwal, N. (2017). Recent Advances in Transcranial Focused Ultrasound
+Xhima,K.,etal.(2013).Amyloid-betaplaquereduction,endogenousantibody (FUS)TriggeredBrainDelivery.Curr.DrugTargets18,1225–1232.doi:10.2174/
+deliveryandglialactivationbybrain-targeted,transcranialfocusedultrasound. 1389450117666161222160025
+Exp.Neurol.248,16–29.doi:10.1016/j.expneurol.2013.05.008
+Nance, E., Timbie, K., Miller, G. W., Song, J., Louttit, C., Klibanov,
+Kamimura, H. A. S., Conti, A., Toschi, N., and Konofagou, E. E. (2020). A. L., et al. (2014). Non-invasive delivery of stealth, brain-penetrating
+Ultrasound Neuromodulation: Mechanisms and the Potential of Multimodal nanoparticles across the blood - brain barrier using MRI-guided focused
+StimulationforNeuronalFunctionAssessment.Front.Phys.8:150.doi:10.3389/ ultrasound. J. Control. Release 189, 123–132. doi: 10.1016/j.jconrel.2014.
+fphy.2020.00150 06.031
+Kettenmann, H., Hanisch, U. K., Noda, M., and Verkhratsky, A. (2011). Ohta,S.,Kikuchi,E.,Ishijima,A.,Azuma,T.,Sakuma,I.,andIto,T.(2020).
+Physiologyofmicroglia.Physiol.Rev.91,461–553.doi:10.1152/physrev.00011. Investigatingtheoptimumsizeofnanoparticlesfortheirdeliveryintothebrain
+2010 assisted by focused ultrasound-induced blood-brain barrier opening. Sci. Rep.
+10:18220.doi:10.1038/s41598-020-75253-9
+Khanna,N.,Gandhi,D.,Steven,A.,Frenkel,V.,andMelhem,E.R.(2017).
+IntracranialApplicationsofMRImaging-GuidedFocusedUltrasound.AJNRAm. Otxoa-de-Amezaga,A.,Miro-Mur,F.,Pedragosa,J.,Gallizioli,M.,Justicia,C.,
+J.Neuroradiol.38,426–431.doi:10.3174/ajnr.A4902 Gaja-Capdevila,N.,etal.(2019).Microglialcelllossafterischemicstrokefavors
+FrontiersinNeuroscience 08 frontiersin.org
+fnins-16-964060 July18,2022 Time:13:6 #9
+Guoetal. 10.3389/fnins.2022.964060
+brainneutrophilaccumulation.ActaNeuropathol.137,321–341.doi:10.1007/ Su,W.S.,Wu,C.H.,Chen,S.F.,andYang,F.Y.(2017).Transcranialultrasound
+s00401-018-1954-4 stimulationpromotesbrain-derivedneurotrophicfactorandreducesapoptosis
+inamousemodeloftraumaticbraininjury.BrainStimul.10,1032–1041.doi:
+Palmer,T.D.,Willhoite,A.R.,andGage,F.H.(2000).Vascularnicheforadult
+10.1016/j.brs.2017.09.003
+hippocampalneurogenesis.J.Comp.Neurol.425,479–494.doi:10.1002/1096-
+9861(20001002)425:4<479::aid-cne2<3.0.co;2-3 Taguchi,A.,Sakai,C.,Soma,T.,Kasahara,Y.,Stern,D.M.,Kajimoto,K.,etal.
+(2015).IntravenousAutologousBoneMarrowMononuclearCellTransplantation
+Park, T. Y., Kim, H. J., Park, S. H., Chang, W. S., Kim, H., and Yoon, K.
+forStroke:Phase1/2aClinicalTrialinaHomogeneousGroupofStrokePatients.
+(2022).Differentialevolutionmethodtofindoptimallocationofasingle-element
+StemCellsDev.24,2207–2218.doi:10.1089/scd.2015.0160
+transducer for transcranial focused ultrasound therapy. Comp. Methods Prog.
+Biomed.219:106777.doi:10.1016/j.cmpb.2022.106777 Tata, D. B., and Dunn, F. (1992). Interaction of Ultrasound and Model
+MembraneSystems-AnalysesandPredictions.J.Phys.Chem.96,3548–3555.
+Paul,S.,andCandelario-Jalil,E.(2021).Emergingneuroprotectivestrategiesfor
+thetreatmentofischemicstroke:anoverviewofclinicalandpreclinicalstudies. Tharkar,P.,Varanasi,P.,Wong,W.S.F.,Jin,C.T.,andChrzanowski,W.
+Exp.Neurol.335:113518.doi:10.1016/j.expneurol.2020.113518 (2019).Nano-EnhancedDrugDeliveryandTherapeuticUltrasoundforCancer
+TreatmentandBeyond.Front.Bioeng.Biotechnol.7:324.doi:10.3389/fbioe.2019.
+Plaksin,M.,Shoham,S.,andKimmel,E.(2014).Intramembranecavitationas
+00324
+apredictivebio-piezoelectricmechanismforultrasonicbrainstimulation.J.Mol.
+Neurosci.53,S103–S103. Thomassen, L., Fromm, A., Aarli, S., and Logallo, N. (2021). Transcranial
+ultrasoundmonitoringinacutestroke.TidsskrNor.Laegeforen.141.doi:10.4045/
+Pol,F.,Salehinejad,M.A.,Baharlouei,H.,andNitsche,M.A.(2021).Theeffects
+tidsskr.21.0180[Epubaheadofprint].
+of transcranial direct current stimulation on gait in patients with Parkinson’s
+disease:asystematicreview.Trans.Neurodegen.10:22. Trockel, U., Hennerici, M., Aulich, A., and Sandmann, W. (1984). The
+SuperiorityofCombinedContinuousWaveDopplerExaminationoverPeriorbital
+Powers,W.J.,Rabinstein,A.A.,Ackerson,T.,Adeoye,O.M.,Bambakidis,
+DopplerfortheDetectionofExtracranialCarotidDisease.J.Neurol.Neurosurg.
+N.C.,Becker,K.,etal.(2019).GuidelinesfortheEarlyManagementofPatients
+Psychiat.47,43–50.doi:10.1136/jnnp.47.1.43
+WithAcuteIschemicStroke:2019Updatetothe2018GuidelinesfortheEarly
+ManagementofAcuteIschemicStroke:AGuidelineforHealthcareProfessionals Tufail, Y., Matyushov, A., Baldwin, N., Tauchmann, M. L., Georges, J.,
+FromtheAmericanHeartAssociation/AmericanStrokeAssociation.Stroke50, Yoshihiro,A.,etal.(2010).Transcranialpulsedultrasoundstimulatesintactbrain
+e344–e418.doi:10.1161/STR.0000000000000211 circuits.Neuron66,681–694.doi:10.1016/j.neuron.2010.05.008
+Quadri,S.A.,Waqas,M.,Khan,I.,Khan,M.A.,Suriya,S.S.,Farooqui,M., Tyler,W.J.,Lani,S.W.,andHwang,G.M.(2018).Ultrasonicmodulationof
+et al. (2018). High-intensity focused ultrasound: past, present, and future in neuralcircuitactivity.Curr.Opin.Neurobiol.50,222–231.
+neurosurgery.Neurosurg.Focus44:E16.doi:10.3171/2017.11.FOCUS17610
+Wang, F. Q., Wang, Q., Wang, L., Ren, J., Song, X. Z., Tian, Y. T., et al.
+Ren,S.T.,Long,L.H.,Wang,M.,Li,Y.P.,Qin,H.,Zhang,H.,etal.(2012). (2022b). Low-Intensity Focused Ultrasound Stimulation Ameliorates Working
+Thrombolytic effects of a combined therapy with targeted microbubbles and Memory Dysfunctions in Vascular Dementia Rats via Improving Neuronal
+ultrasoundina6hcerebralthrombosisrabbitmodel.J.ThrombThromb.33, Environment. Front. Aging Neurosci. 14:814560. doi: 10.3389/fnagi.2022.
+74–81.doi:10.1007/s11239-011-0644-z 814560
+Rodriguez-Frutos,B.,Otero-Ortega,L.,Ramos-Cejudo,J.,Martinez-Sanchez, Wang,F.,Shi,Y.,Lu,L.,Liu,L.,Cai,Y.L.,Zheng,H.R.,etal.(2012).Targeted
+P.,Barahona-Sanz,I.,Navarro-Hernanz,T.,etal.(2016).Enhancedbrain-derived Delivery of GDNF through the Blood-Brain Barrier by MRI-Guided Focused
+neurotrophic factor delivery by ultrasound and microbubbles promotes white Ultrasound.PLoSOne7:e52925.doi:10.1371/journal.pone.0052925
+matterrepairafterstroke.Biomaterials100,41–52.doi:10.1016/j.biomaterials.
+Wang, F., Wang, Q., Wang, L., Ren, J., Song, X., Tian, Y., et al. (2022a).
+2016.05.028
+Low-IntensityFocusedUltrasoundStimulationAmelioratesWorkingMemory
+Rosenthal,I.,Sostaric,J.Z.,andRiesz,P.(2004).Sonodynamictherapy–areview DysfunctionsinVascularDementiaRatsviaImprovingNeuronalEnvironment.
+ofthesynergisticeffectsofdrugsandultrasound.Ultrason.Sonochem.11,349–363. Front.AgingNeurosci.14:814560.
+doi:10.1016/j.ultsonch.2004.03.004
+Wang,J.,Li,G.,Deng,L.,Mamtilahun,M.,Jiang,L.,Qiu,W.,etal.(2021).
+Saguchi,T.,Onoue,H.,Urashima,M.,Ishibashi,T.,Abe,T.,andFuruhata, TranscranialFocusedUltrasoundStimulationImprovesNeurorehabilitationafter
+H.(2008).Effectiveandsafeconditionsoflow-frequencytranscranialultrasonic MiddleCerebralArteryOcclusioninMice.AgingDis.12,50–60.doi:10.14336/
+thrombolysisforacuteischemicstroke:neurologicandhistologicevaluationin AD.2020.0623
+aratmiddlecerebralarterystrokemodel.Stroke39,1007–1011.doi:10.1161/
+Wood,A.K.,andSehgal,C.M.(2015).Areviewoflow-intensityultrasoundfor
+STROKEAHA.107.496117
+cancertherapy.UltrasoundMed.Biol.41,905–928.doi:10.1016/j.ultrasmedbio.
+Sanwal, R., Joshi, K., Ditmans, M., Tsai, S. S. H., and Lee, W. L. 2014.11.019
+(2021).UltrasoundandMicrobubblesforTargetedDrugDeliverytotheLung
+Woods,A.J.,Antal,A.,Bikson,M.,Boggio,P.S.,Brunoni,A.R.,Celnik,P.,
+Endothelium in ARDS: Cellular Mechanisms and Therapeutic Opportunities.
+etal.(2016).AtechnicalguidetotDCS,andrelatednon-invasivebrainstimulation
+Biomedicines9:803.doi:10.3390/biomedicines9070803
+tools.Clin.Neurophys.127,1031–1048.doi:10.1016/j.clinph.2015.11.012
+Schleicher, N., Tomkins, A. J., Kampschulte, M., Hyvelin, J. M., Botteron,
+C., Juenemann, M., et al. (2016). Sonothrombolysis with BR38 Microbubbles Wright,C.,Hynynen,K.,andGoertz,D.(2012).Invitroandinvivohigh-
+ImprovesMicrovascularPatencyinaRatModelofStroke.PLoSOne11:e0152898. intensityfocusedultrasoundthrombolysis.Invest.Radiol.47,217–225.doi:10.
+doi:10.1371/journal.pone.0152898 1097/RLI.0b013e31823cc75c
+Sharma, V. K., Paliwal, P. R., Teoh, H. L., Venketasubramanian, N., and Wu,C.T.,Yang,T.H.,Chen,M.C.,Chung,Y.P.,Guan,S.S.,Long,L.H.,
+Chan, B. P. (2011). Role of diagnostic ultrasound in patient selection for et al. (2019). Low Intensity Pulsed Ultrasound Prevents Recurrent Ischemic
+stroke intervention. Recent Pat. CNS Drug Discov. 6, 181–195. doi: 10.2174/ Stroke in a Cerebral Ischemia/Reperfusion Injury Mouse Model via Brain-
+157488911796957995 derivedNeurotrophicFactorInduction.Int.J.Mol.Sci.20:5169.doi:10.3390/
+ijms20205169
+ShinLow,S.,Nong,L.C.,Yew,M.,SiongChai,W.,Low,L.E.,Manickam,
+S., et al. (2021). Recent ultrasound advancements for the manipulation of Wu,S.K.,Yang,M.T.,Kang,K.H.,Liou,H.C.,Lu,D.H.,Fu,W.M.,etal.
+nanobiomaterialsandnanoformulationsfordrugdelivery.Ultrason.Sonochem. (2014).Targeteddeliveryoferythropoietinbytranscranialfocusedultrasound
+80:105805.doi:10.1016/j.ultsonch.2021.105805 for neuroprotection against ischemia/reperfusion-induced neuronal injury: a
+long-termandshort-termstudy.PLoSOne9:e90107.doi:10.1371/journal.pone.
+Shin,J.,Kong,C.,Lee,J.,Choi,B.Y.,Sim,J.,Koh,C.S.,etal.(2019).Focused 0090107
+ultrasound-induced blood-brain barrier opening improves adult hippocampal
+neurogenesisandcognitivefunctioninacholinergicdegenerationdementiarat Yang,F.Y.,Lu,W.W.,Lin,W.T.,Chang,C.W.,andHuang,S.L.(2015).
+model.AlzheimersRes.Ther.11:110.doi:10.1186/s13195-019-0569-x EnhancementofNeurotrophicFactorsinAstrocyteforNeuroprotectiveEffectsin
+BrainDisordersUsingLow-intensityPulsedUltrasoundStimulation.BrainStimul.
+Sierra,C.,Acosta,C.,Chen,C.,Wu,S.Y.,Karakatsani,M.E.,Bernal,M.,etal.
+8,465–473.doi:10.1016/j.brs.2014.11.017
+(2017).Lipidmicrobubblesasavehiclefortargeteddrugdeliveryusingfocused
+ultrasound-inducedblood-brainbarrieropening.J.Cereb.BloodFlowMetabol.37, Yoo, S. S., Bystritsky, A., Lee, J. H., Zhang, Y., Fischer, K., Min,
+1236–1250.doi:10.1177/0271678X16652630 B. K., et al. (2011). Focused ultrasound modulates region-specific brain
+activity. Neuroimage 56, 1267–1275. doi: 10.1016/j.neuroimage.2011.
+Sousa,R.M.,Ferri,C.P.,Acosta,D.,Albanese,E.,Guerra,M.,Huang,Y.,
+02.058
+et al. (2009). Contribution of chronic diseases to disability in elderly people
+incountrieswithlowandmiddleincomes:a10/66DementiaResearchGroup Zhang,M.,Rodrigues,A.,Zhou,Q.,andLi,G.(2022).Focusedultrasound:
+population-basedsurvey.Lancet 374,1821–1830.doi:10.1016/S0140-6736(09) growthpotentialandfuturedirectionsinneurosurgery.J.Neurooncol.156,23–32.
+61829-8 doi:10.1007/s11060-021-03820-9
+FrontiersinNeuroscience 09 frontiersin.org
+fnins-16-964060 July18,2022 Time:13:6 #10
+Guoetal. 10.3389/fnins.2022.964060
+Zhang,Y.,Yu,J.,Kahkoska,A.R.,Wang,J.,Buse,J.B.,andGu,Z.(2019). stroke. Acta Pharmacol. Sin. 38, 445–458. doi: 10.1038/aps.
+Advancesintransdermalinsulindelivery.Adv.DrugDeliv.Rev.139,51–70.doi: 2016.162
+10.1016/j.addr.2018.12.006
+Zhu,H.,Hu,S.P.,Li,Y.T.,Sun,Y.,Xiong,X.X.,Hu,X.Y.,etal.(2022).
+Zhao, S. C., Ma, L. S., Chu, Z. H., Xu, H., Wu, W. Q., Interleukins and Ischemic Stroke. Front. Immunol. 13:828447. doi: 10.3389/
+and Liu, F. (2017). Regulation of microglial activation in fimmu.2022.828447
+FrontiersinNeuroscience 10 frontiersin.org

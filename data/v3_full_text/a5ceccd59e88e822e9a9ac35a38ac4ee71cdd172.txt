@@ -1,0 +1,512 @@
+Peterssonetal.BMCFamilyPractice (2020) 21:272
+https://doi.org/10.1186/s12875-020-01348-x
+RESEARCH ARTICLE Open Access
+The experiences of care managers and
+rehabilitation coordinators of a primary
+care intervention to promote return to
+work for patients with common mental
+disorders: a qualitative study
+Eva-Lisa Petersson1,2, Karin Törnbom1,3, Dominique Hange1,2, Shabnam Nejati1, Margareta Jerlock1, Carl Wikberg1,
+Cecilia Björkelund1,2 and Irene Svenningsson1,2*
+Abstract
+Background: Inanearlierstudy,PRIM-CARERCT,acaremanagerimplementationattheprimarycarecentreshowed
+improvedreturntoworkandreducedsickleaveforpatientswithCMD.Tofurtherimprovereturntowork,theproject
+Co-Work-Careaddedaperson-centereddialoguemeetingbetweenthepatient,theemployerandtherehabilitation
+coordinator,precededbyanincreasedcollaborationbetweencaremanager,rehabilitationcoordinatorandGP.Inthisfirst
+qualitativestudyoftheCo-Work-Careproject,weexploredhowcaremanagersandrehabilitationcoordinators
+experiencedtheCo-Work-Caremodel.Thepurposeofthisstudywastoexplorecaremanagers’andrehabilitation
+coordinators’perceptionsandexperiencesofaclosecollaborationandtheuseoftheperson-centreddialoguemeeting.
+Methods:FromanongoingRCTwith20primarycarecentres,caremanagers(CMs)(n=13)andrehabilitation
+coordinators(RCs)(n=12)participatedinaqualitativestudywithfocusgroups.Thestudywasconductedintheprimary
+healthcareinaSwedishregion.ThedatawasanalysedwithSystematicTextCondensationbyMalterud.
+Results:Sevencodesdescribingtheparticipants’experiencesoftheCo-Work-Caremodelwereidentified:1)The
+importanceofcollaborationattheprimarycarecentre,2)CollaborationanddivisionofrolesbetweentheRCandtheCM,
+3)CollaborationwiththeGeneralpractitioner(GP),4)Theperson-centreddialoguemeeting,5)Initiatingtheperson-
+centreddialoguemeeting,6)Theperson-centreddialoguemeetingtoimprovecollaborationwiththeemployer,and7)
+Theperson-centreddialoguemeetingtoteachaboutthereturntoworkprocess.
+(Continuedonnextpage)
+*Correspondence:irene.svenningsson@vgregion.se
+1PrimaryHealthCare,SchoolofPublicHealthandCommunityMedicine,
+InstituteofMedicine,TheSahlgrenskaAcademy,UniversityofGothenburg,
+Gothenburg,Sweden
+2ResearchandDevelopmentPrimaryHealthCare,RegionVästraGötaland,
+Göteborg,Sweden
+Fulllistofauthorinformationisavailableattheendofthearticle
+©TheAuthor(s).2020OpenAccessThisarticleislicensedunderaCreativeCommonsAttribution4.0InternationalLicense,
+whichpermitsuse,sharing,adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreativeCommonslicence,andindicateif
+changesweremade.Theimagesorotherthirdpartymaterialinthisarticleareincludedinthearticle'sCreativeCommons
+licence,unlessindicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthearticle'sCreativeCommons
+licenceandyourintendeduseisnotpermittedbystatutoryregulationorexceedsthepermitteduse,youwillneedtoobtain
+permissiondirectlyfromthecopyrightholder.Toviewacopyofthislicence,visithttp://creativecommons.org/licenses/by/4.0/.
+TheCreativeCommonsPublicDomainDedicationwaiver(http://creativecommons.org/publicdomain/zero/1.0/)appliestothe
+datamadeavailableinthisarticle,unlessotherwisestatedinacreditlinetothedata.
+Peterssonetal.BMCFamilyPractice (2020) 21:272 Page2of9
+(Continuedfrompreviouspage)
+Conclusion:TheincreasedcollaborationwithintheCo-Work-Caremodelcreatedacommonpictureandunderstanding
+ofthepatient’ssituation.Theperson-centreddialoguemeetingintherehabilitationprocessbecameabridgebetween
+theemployerandthepatient.
+Trialregistration:NCT03250026(registeredAugust15,2017).
+Keywords:Mentaldisorder,Nurses,Primaryhealthcare,Rehabilitation,Sickleave
+Background CM for patients with depression was evaluated in the
+Work is essential for the individual’s wellbeing, but also PRIM-CARE RCT and showed positive results concern-
+for the personal identity. In general, working people ingreturntowork(RTW)andreduced sickleave [19].
+have better mental health than those who are out of In Sweden, a coordinator function for patients with
+work [1]. Research has shown that employment can be a sick leave, called rehabilitation coordinator (RC), has
+protective factor against common mental disorders been implemented in the primary health care [20]. The
+(CMD) [2]. Work is also important when recovering functionismandatory andinitiatedbypublicpolicy[21].
+from mental healthconditions[1]. The RC function provides support for patients during
+In Sweden, an increasing portion of sick leave episodes theirsickleave andRTW process[20].
+arecausedbyCMD,i.e.depression,anxietysyndromesand The Co-Work-Care project evolved from PRIM-CARE
+stress-related disorder. Around 2% of the working popula- RCT and aims to further improve RTW and reduce sick
+tion, corresponding to 50% of people on sick leave, have a leave time for patients with CMD. The Co-Work-Care
+CMDdiagnosisasreasonforabsenteeism[3].InSweden,a project added a person-centered meeting between the
+majority of the individuals with CMD seek primary health patient, the employer and the RC, coupled with an in-
+care[4]asdoamajorityofthosewhohaveareducedability creased collaboration between CM, RC and GP (https://
+to work [5]. Depressive disorders impact on work ability clinicaltrials.gov/ct2/show/NCT03250026).
+andhaveextensivesocietalconsequences[6].Theprovision In this first qualitative study of the Co-Work-Care
+of a structured telephone outreach in combination with a project, our aim was to gain knowledge of how CMs and
+care management programme and medication [7] appears RCsexperienced theCo-Work-Caremodel.
+to be one realistic way to reduce sick leave among people Thepurposeofthisstudywastoexplorecaremanagers’
+with CMD. The use of reality-based knowledge from the and rehabilitation coordinators’ perceptions and experi-
+workplace in the intervention seems to reduce depressive ences of a close collaboration and the use of the person-
+severity symptoms [8]. Thus far, workplace interventions centreddialoguemeeting,theCo-Work-Caremodel.
+havenotshownanyconsiderableimpactontimetoreturn
+towork[9].Forprofessionals,oneimportantfactortotake Methods
+intoaccountisthepatient’sownexpectationsaboutreturn- Design
+ingtowork[10–12]. In the present qualitative study, we used data obtained
+In primary health care, the Collaborative Care Model, from four focus group (FG) discussions [22, 23]. Data
+based on Wagner’s Chronic Care Model [13], is well analysiswasperformedaccordingtoMalterud’s[24]Sys-
+known. The model has four key components: team- tematic Text Condensation (STC). STC is a descriptive
+based approach to patients, structured care plan, sched- and explorative method for thematic cross-case analysis
+uled patient follow-ups, and enhanced inter-professional with apragmaticapproach [24].
+communication [14, 15]. Compared to usual care, Col-
+laborative Care Model has been shown to be an effective Theco-work-careproject
+way of working with patients with anxiety and/or de- In the project a Co-Work-Care model was developed
+pression [14]. that included an in-depth collaboration between CM
+In the Collaborative Care Model, different profes- and RC, followed by a person-centred dialogue meeting
+sionals such as nurses, general practitioners (GP), thera- between the patient and the employer with the RC serv-
+pists, and paramedics collaborate with a specially trained ing as a dialogue moderator. In the Co-Work Care
+care manager (CM) as facilitator. The CM coordinates model, the process starts when the CMD patient meets
+care by maintaining a close and regular contact with pa- the GP, who assesses the need for a sick leave certificate
+tients and aligns efforts for their individual needs [16]. and refers the patient to the CM and RC. The model in-
+Studiesshow thataCMprovidesimprovements both for cluded an in-depth collaboration between CM and RC,
+patients with depression [17] and for the physical health based on the unique prerequisites at the PCC. During
+of patients with chronic heart failure [18]. The use of a the care process and cooperation between CM, RC and
+Peterssonetal.BMCFamilyPractice (2020) 21:272 Page3of9
+GP, the patient situation becomes clearer and forms a process with regard to medical insurance issues. Further,
+basisfor theperson-centreddialoguemeeting. the RC should coordinate rehabilitation as well as be a
+knowledgebrokerandadviser regarding certificateissues
+Theperson-centreddialoguemeeting andtherehabilitation plan[20].
+We used the theoretical framework of the convergence
+dialogue meeting, a strategy that provides a way to in- Settingandparticipants
+crease RTW and reduce total sick leave time [25]. The The participantsinthepresentstudywereCMsandRCs
+core intervention in the convergence dialogue meeting is fromtheinterventiongroupatanongoingRCTandrep-
+a dialogue between the employer and employee with the resented urban and rural primary care centres, operated
+convergence dialogue meeting consultant serving as the by private and public actors. The CMs and RCs under-
+moderator, in order to reach concrete short-term and went a one day educational session about the project
+long-term solutions [26]. The convergence dialogue Co-Work-Care. They had worked in the project for
+meeting has been modified to meet the prerequisites of about one year. Most of the participants were nurses
+the primary care centres and thus is referred to as the with an additional role as CM and/or RC. During the re-
+person-centred dialogue meeting. This person-centred current training sessions, all 34 CMs and RCs were in-
+dialogue meeting is between patient and employer, with vited and 25 participated in the study, including one
+the RC serving as the dialogue moderator. The person- person with both functions (CMs n=13 and RCs n=
+centred dialogue meeting is based on the patients’ per- 12). Due to lack oftime, nine participantscould not par-
+ceptionoftheirsituationandclarifiestheirneedsandre- ticipate.Fourfocusgroups(n=6,n=6,n=6,n=7)with
+quirements. The aim of the meeting is to give the 24 women and 1 man were selected. The participants
+patient the opportunity to sit down with the employerin were informed that the discussions were voluntary,
+a calm and neutral environment, and together with the audio-recorded and transcribed verbatim and kept confi-
+employer to describe their situation. The meeting is dential. The transcripts were not returned to the
+based on the patient’s situation and includes no negoti- participants.
+ation. Before the meeting, the RC prepares thorough
+written and oral information about the aim of the meet- Datacollection
+inginordertoinformthe patient and theemployer.The Focus group discussions were used to collect the data
+meeting is carried out in a neutral place, preferably at and were moderated by ELP and IS with SN (RN), MJ
+the primary care centres. The RC leads the person- (PhD, RN) and CW (PhD, RN) as assessors. A guideline
+centred dialogue meeting and is also responsible for en- was developed with questions for the focus group and
+suring that the patient’s needs and perception of the was presented for the participants at the focus group
+situation are in focus. The RC starts the meeting with session. Fieldnotes were taken by the assessors during
+the following question for the patient: “Can you tell us the session. The focus group discussion took place dur-
+about how you perceive your situation?” and the follow- ing a single session. The questions in the guideline were
+ingquestion for the employer: “How do you perceive the validated through discussions with CM, RC and within
+patient’s situation?”. The meeting continues for 45–60 the research group. The researchers took part in the
+min. The employer and the patient together with the RC learning process during the one day educational session
+endthemeetingwithaconclusionandanagreement.Fi- prior to the study start, and the researchers also shared
+nally, the RC documents in writing the facts, agreements their goal regarding the study with the participants. The
+andpossible actions. focus groups took place in spring and autumn 2019 at
+the Primary Care Research and Development Depart-
+Caremanager mentinGothenburgandthedurationofthefocusgroup
+A CM improves high accessibility and continuity. Health was 45 to 60min. The focus group guide included the
+care with a CM is based on the patient’s specific needs following questions: What does collaboration mean to
+over time and provides support regarding medical issues you? How do you perceive early contacts with the em-
+and self-management. It is thus a form of organisation ployer? How do you perceive the collaboration among
+that allows for complexity, person-centred care and theCMandRC?How doesthiscollaboration impactthe
+interaction[19]. communication among RC, patient and the employer?
+Seeadditionalfile1.
+Rehabilitationcoordinator
+The RC provides support for the primary health care Analysis
+centres for effective collaboration in the sick leave certi- The analysis was conducted using the STC by Malterud
+fication and rehabilitation process [20]. The RC should [24] and was acollaboration amongELP,IS, KT, CB and
+also be a support for sick-listed patients in the sick leave DH. ELP is an occupational therapist and IS is a district
+Peterssonetal.BMCFamilyPractice (2020) 21:272 Page4of9
+nurse; both have doctoral degrees and long experience turnedto.Goodcommunicationwasalsoseenasaguar-
+from primary health care. KT is a social worker with a antee that all tasks were done, and that nothing fell be-
+doctoral degree and experience from psychotherapy in tweenthecracks.
+outpatient care. CB is a general practitioner and profes-
+sor, and DH is a general practitioner and associate pro- It saves an incredible amount of time! Instead of
+fessor. Five of the researchers conducted the analyses writingalotand sendingitaway, Icanknockonthe
+and all were females. Malterud [24] does not use the door and leave the information directly to whom it
+concept of saturation concerning samplingmethodology. concerns.(FG1)
+Instead, it is important to provide coherent stories to es-
+tablish an adequate information-rich sample grounded Sharing different views on how best to treat patients
+in empirical data. The analysis was data-driven, with no with CMD was said to improve the quality of health
+theoreticalframeworkastemplate. care.However,itwasstressedthattomakethiscollabor-
+The following four steps guided the analysis: 1) The ation work, professionals needed to take a personal re-
+datasetwasreadseveraltimeswithanopenmindtoob- sponsibility and be willing to lose prestige for the good
+tain an overall impression. 2) Units of meaning were of the patients. Problems with cooperation were lifted as
+identified representing different aspects of participants’ something that could harm the patient’s recovery or
+experiences of collaboration among CMs, RCs and GPs evenincrease theiremotional suffering.
+and their experiences of the person-centred dialogue
+meeting, coded accordingly. 3) Condensing the contents Collaborationanddivisionofrolesbetweenthe
+of each of the coded groups, an artificial quotation was rehabilitationcoordinatorandthecaremanager
+constructed, maintaining the original terminology ap- CMs and RCs thought that the Co-Work-Care model
+plied by the participants. 4) Finally, each code group was had improved and developed the collaboration at the
+summarised to a generalised descriptions concerning primary care centres. Through this method, the CM and
+collaboration andtheperson-centred dialoguemeeting. the RC had further developed a common working model
+for patients with CMD. A goal was to be flexible about
+Results patients’ needs, so that patients received help from the
+The close in-depth collaboration and knowledge sharing most suitable professional at the right time. In most
+amongCMs andRCs at theprimarycare centres created cases the CM took the role to first understand the pa-
+added value in the health care services. Good communi- tient’s situation, and then to thoroughly communicate
+cation was also seen as a guarantee that all tasks were this information to the RC. The role of the RC was to
+done. Participants in the study emphasised the difficulty use the information strategically, inaway that benefitted
+in working with some locum tenens GPs, who often the patient during the person-centred dialogue meeting
+switch workplace. RCs expressed that a visit to the pa- with the employer. The main goals in this meeting were
+tient’s workplace benefited the understanding of the to create a common ground concerning the patient’s
+working environment. However, the person-centred dia- situation and to support the patient in relation to the
+logue meeting was preferably conducted at the primary employer. The RC also had the main role in practical
+carecentres.There wasanagreementamongthepartici- matters concerning thesickleave.
+pants that the RC was a bridge between the employer
+and the patient and that an early initiation of the I can feel that collaboration is like putting an equal
+person-centred dialogue meeting was beneficial for the sign between collaboration and qualitative-
+patient. A common source of frustration was that em- enhancing measures. … .. to get more substantiated
+ployers generally knew so little about their own respon- decisions.(FG4)
+sibilities for the working environment and for
+rehabilitation. The RCs perceived that the person- CollaborationwiththeGP
+centred dialogue meeting sometimes revealed an un- According to the participants, the CM and the RC
+known complex situation. planned the interventions for patients with CMD, while
+the GPs prescribed medication or were involved in prac-
+Theimportanceofcollaborationattheprimarycare tical matters regarding sick leave. Participants perceived
+centres that the GPs often followed their recommendations,
+CMs and RCs described that close collaboration and since they were expected to have extensive information
+knowledge sharing among professionals at the primary about thepatients’situation.
+care centres created added value in their health care ser-
+vices. The patients were ensured of receiving advice re- The GPs benefit so much from a close cooperation
+garding RTW, irrespective of which professional they with us. I have spoken many hours with the patient,
+Peterssonetal.BMCFamilyPractice (2020) 21:272 Page5of9
+and then I summarise everything in notes. I have the and for the caring process. Thus, RCs needed to know
+habitofremindingtheGPstoreadwhatIhavewrit- which information they could share during the person-
+ten. You have to make sure and work a little harder centred dialogue meeting. Nevertheless, it was men-
+toremindnewGPstoread thenotes. (FG2) tioned that even when patients experienced problems
+outside of work, their overall situation could be im-
+Participants emphasised the difficulty posed by the fact proved bycreatingahealthierwork situation.
+that many GPs switched positions often, and did not
+have time to become familiar with the working model … so that the contact with the workplace becomes a
+for patients with CMD. Participants also perceived that, health factor, so that the patient can get better, and
+at a structural level, GPs were not expected to be very not get into isolation or social exclusion. To create
+aware of the patient’s overall situation. Both these issues this, I don’t see the underlying problem as especially
+were seen as barriers to a more profound collaboration important … what exactly the problem is, so to
+with theGPsingeneral. speak.(FG3)
+Theperson-centreddialoguemeeting Initiatingtheperson-centreddialoguemeeting
+The main purpose of the person-centred dialogue meet- Having a meeting early in the sick leave period to create
+ing was to create a basis for collaboration where the pa- a plan with the patient and the employer was considered
+tient felt safe to communicate needs and concerns from beneficial for the patient. A shared experience was that
+his/her own perspective. The primary care centres was when the RC scheduled the person-centred dialogue
+seen as a neutral place for the meeting, whereas the meeting at a later stage, it became more difficult for the
+workplace was considered as potentially intimidating patient and the employer to reach a shared view of the
+from apatient’spointofview. problems.
+Participants agreed that the RC should function as a RCs experienced that patients often interpreted em-
+bridge between the employer and the patient, to lay the ployer’s unwillingness to reach out as indifference, while
+basis for ahealthyrelationship thatcould contribute toa the employer could be concerned about not putting a
+sustainable RTW. A common experience was that when pressure on the patient. To avoid such misunderstand-
+the employer and the patient tried to solve problems en- ings, an early meeting could serve as an icebreaker, spar-
+tirely without help from the RC, they often fell into ha- ing both parties some distress, and making it easier for
+bitual relationship patterns which complicated their thepatienttofocusongetting well.
+ability tofindsustainable solutions.
+It is also easier when the patients still have their
+It is generally beneficial to include an external part work identity. If you wait for too long, they will more
+at the meeting. The employer is higher in the hier- and more identifythemselvesasbeingsick. (FG3)
+archy, and the patient is in a vulnerable situation.
+Therefore, the patient may benefit from getting sup- Scheduling a first talk with the employer early on also
+portfromsomeonewhoisexternal.(FG1) meant practical advantages concerning sick leave. The
+RC could then form a time plan together with the pa-
+The person-centred dialogue meeting was emphasised as tient and the employer, so that all parties knew what to
+crucial when dealing with an unsustainable work situ- expect andhow toact, wellbeforethesickleave ended.
+ation. RCs described how they made sure to clarify and
+confirm perspectives of the patient as well as the em- Some changes that need to be done cannot be fixed
+ployer, in order to create a plan based on a common within a day. Sometimes the employer needs to start
+understanding. up a process at the workplace, and therefore we need
+Several RCs wanted the person-centred dialogue meet- tostartthiscommunication earlyon.(FG4)
+ing alsotofunctionas a platformfor makinga rehabilita-
+tion plan. They considered it ineffective to first gather a Having a collaborative talk with the employer prior to
+lot of informationaboutthe patient,and thennot beable the person-centred dialogue meeting was done to pre-
+tousethisinapurposefulwayduringthemeeting.Others pare oneself for how the situation was perceived by the
+felt that it was better tokeep the person-centred dialogue employer and thus facilitated the development of a re-
+meeting as an initial “ice-breaker” discussion, to create a turn to work plan. However, participants explained that
+solidgrounduponwhichtobuildfurtherwork. if the patient’s condition was too poor, they had to wait
+In some cases, participants received information of a with the person-centred dialogue meeting, to avoid the
+personal nature from the patients that could have been risk of not being able to establish a functioning collabor-
+meaningful for understanding the development of CMD ationbetweentheemployerandthe patient.
+Peterssonetal.BMCFamilyPractice (2020) 21:272 Page6of9
+Person-centreddialoguemeetingtoimprove According to participants, the person-centred dialogue
+collaborationwiththeemployer meeting sometimes revealed a complex situation, for ex-
+RCs perceived employers as being generally humble ample that the patient had been bullied at work or had
+abouttheirlackofknowledgeofmentalhealthdisorders, an overly complicated relationship with the employer. In
+and they seemed grateful about receiving practical help some cases, participants decided that problems were so
+and valuable advice from the primary care centres. RCs difficult to resolve, that it would be in the patient’s best
+communicated a frustration about the fact that em- interesttochangeworkplace.
+ployers generally knew so little about their own respon-
+sibilities for working environments and rehabilitation. Discussion
+Some participants even thought that patients would not The purpose of this study was to explore care managers’
+have become ill in the first place if employers had and rehabilitation coordinators’ perception and experi-
+known more abouttheseissues. ences of a close collaboration and the use of the person-
+centreddialoguemeeting,i.e.theCo-Work-Care model.
+Asastartingpoint,Iusuallyasktheemployer ifthey IntheCo-Work-Caremodel,theCMandRChavedif-
+have easier, uncomplicated tasks that we can offer ferent roles that complement each other. The CM gives
+the patient. It is often difficult for the patients to support to the patient in medical issues and self-
+concentrate onseveraltasks simultaneously.(FG3) management, and the RC supports the patient on sick
+leave during the rehabilitation process until return to
+Participants agreed that having full cooperation with the work. Both CM and RC and the close in-depth collabor-
+employer was crucial in order to help them change pos- ation and knowledge sharing created an added value in
+sibly harmful working conditions. It was also agreed that the understanding of the rehabilitation process. A good
+if nothing changed, the risk for the employee to end up communication and a common working model (the Co-
+onsickleaveagainwashigh. Work-Care model) were seen as a guarantee to reach
+the best solution for the patient, which often entailed an
+Person-centreddialoguemeetingtoteachaboutthe early introduction of the person-centred dialogue meet-
+returntoworkprocess ing and gradual RTW. Both RCs and CMs stressed the
+Collaboration was also considered important to resolve difficulty when working with some GPs with temporary
+misunderstandings about how to think about the RTW positions, as this hampered continuity of care and pre-
+process. Participants emphasised that returning to work vented them from being able to become familiar with
+had to be seen as an ongoing, one-step-at-a-time the working model for patients with CMD. The RC be-
+process. came a bridge between the employer and the patient,
+and an early person-centred dialogue meeting was per-
+Some people think that you need to feel completely ceived beneficial for the patient. The RCs experienced
+well before you can return to work. It’s more about frustration when they realised that employers lacked
+that you get well by gradually increasing the work- knowledge of their responsibilities for the work environ-
+load. ment and the rehabilitation process. The RC perceived
+(FG3) that the person-centred dialogue meeting sometimes re-
+vealed unknowncomplexsituations.
+The way to a better working situation was said to go The close collaboration and knowledge sharing among
+through creating a healthier and sustainable working the professionals seem to fit well with the Collaborative
+situation. However, it was mentioned that at the begin- Care Model [27]. We believe that the in-depth collabor-
+ning of a collaboration, both employers and patients ation between CM and RC added a new, extended
+could share the idea that resting at home was the best knowledge about each other’s working areas, giving a
+way to recover one’s working capacity. Finding ways to furthervalue to the patient. However, the study does not
+collaborate with theemployer,creatingsolutionsfor bet- reveal how the actual collaboration actually was carried
+ter working conditions, and planning for a gradual re- out. To achieve a successful working collaboration
+turn to work were therefore considered incredibly process, the CM and RC need to be willing to collabor-
+important. ate, and the organisation needs to provide the opportun-
+ity for such collaboration [28, 29]. The professional’s
+During the person-centred dialogue meeting, em- individual background is also important when defining
+ployers often understand things that they haven’t the patient’s need for RTW, according to Eikenaar [30].
+seen before or understood the extent of. The conver- That the CM and RC shared goals is important, in order
+sations can work as an eye-opener for the patient’s to avoid that the patient receives different advice from
+situationand fortheworking environment.(FG2) different professionals [31–33]. However, de Riijk et al.
+Peterssonetal.BMCFamilyPractice (2020) 21:272 Page7of9
+showedthattheprofessionals’dependency oneachother The RCs stressed that the employers generally were
+in achieving one’s goal was more important for cooper- humble about their lack of knowledge about work-
+ation than the goal as such [28]. Good communication related mental health conditions. The collaboration with
+between the professionals can become a safety net that the employer in order to give practical help and valuable
+prevents the patient from falling between the cracks [27, advice was therefore considered vital. Further, the im-
+34]. Thus, collaboration within the team, where every portance of work-related interventions, the severity of
+professional contributes with different competencies, is symptoms, and the individual expectations all need to be
+crucial to gaining a picture of the patient’s entire situ- highlighted [37] and to be taken seriously in the person-
+ation. The Co-Work-Care model with its focus on the centreddialoguemeeting.
+collaboration and person-centred dialogue meeting ap- The person-centred dialogue meeting sometimes re-
+pears to have an important impact on both CMs’ and vealedacomplexsituation,andcomplexsituationscannot
+RCs’ way of working in the health care and the RTW be solved with simple models. A flexible approach is ne-
+process. The professionals became flexible about the pa- cessary when new collaboration methods are imple-
+tient’s needs, meaning that the most suitable profes- mented. In the present study, the RC was able to support
+sional wasengagedat therighttime. thecollaborationbetweentheemployerandtheemployee
+The participants perceived that GPs often followed the in order to find solutions for better working conditions,
+CMs’ and RCs’ recommendations, since they were ex- anaspectthatwashighlightedasimportant.Thecollabor-
+pected to have extensive information about the patient’s ation between the employer and the employee is vital in
+situation. When this collaboration worked well, it bene- the RTW, according to Hoefsmit [38]. The Co-Work-
+fitted the patient. However, when locum GPs were in- Caremodelgivesopportunitiestostrengthenthepatient’s
+volved, there was not enough time for these GPs to be a courage to talk about the entire situation and to under-
+partoftheCo-Work-Caremodelfor thepatients. stand the different components in the patient’s working
+It seems preferable to accomplish the person- situation. The importance of understanding the compo-
+centred dialogue meeting at the primary care centre, nents included in the patient’s entire situation has also
+a neutral location, instead of at the workplace, which beenshowninanearlystudy[35].
+might be intimidating for the patient. A common ex- We believe that these results could be transferable to
+perience among the RCs was that the patient and the professionals supporting other patient groups not only
+employer often fell into a habitual relationship pattern in primary health care in Sweden, but also in other
+that complicated a sustainable solution. In order to countries.
+create a plan for a common understanding, it was im-
+portant to clarify and confirm the perspectives of the Strengthsandlimitations
+patient as well as of the employer. Some RCs wanted We used four focus groups with 25 individuals in all. The
+the person-centred dialogue meeting to be a platform number of participating individuals was a strength in the
+for making the rehabilitation plan, while others study.Thefocusgroupdiscussionsallowedtheparticipants
+wanted it to be an initial icebreaker to create a solid torevealtoeachothertheirexperiencesofworkingasCMs
+ground upon which further work could be built. and RCs and to share their perceptions about the Co-
+However, the main intention of the person-centred Work-Care model. The collected data was rich and varied
+dialogue meeting is to give the patients an opportun- with many different statements. The collaborative work
+ity to put into words how they perceive their entire during the analytical phase incorporated different profes-
+situation. Webelievethatwhenthepatientsexpresstheir sionals’pointsofview,whichbroadenedtheperspective.
+viewsaboutthesituation,inpresenceoftheemployerand A potential weakness in the study is that two of the
+withthesupportoftheRC,thiscreatesanopportunityto co-authors, ELP and IS, both collected data and took
+gainacommonpictureandunderstandingofthepatient’s part in data analysis. This potential bias was compen-
+situation[35].Toencourageandsupportthepatienttore- sated for in the analysis by the participation of the other
+maininor(re)-enterworkassoonaspossibleiscrucialin co-authors(DH, KT, CB)inthe analysis.Anotherpoten-
+theRTWprocess[1]. tial weakness could be that it might be difficult to bring
+Both RC and CM perceived that an early person- up sensitive experiences in a group discussion. We did
+centred dialogue meeting involving the employer was not include GPs in the focus group discussions, but plan
+important for the patient’s RTW. This is in line with toperform focus group discussionsalsowith GPs.
+Hiske et al., [36] who showed that work-related inter-
+ventions that support workers with depression improve Conclusion
+work ability. A common view of the patient’s situation is The increased collaboration between CM and RC cre-
+important to be able to intervene and make predictions ated an opportunity to gain a common picture and un-
+about thesickleaveprocess. derstanding of the patient’s situation. The person-
+Peterssonetal.BMCFamilyPractice (2020) 21:272 Page8of9
+centred dialogue meeting led by the RC became a bridge RegionVästraGötaland,Göteborg,Sweden.3DepartmentofSocialWork,
+between the employer and the patient. The Co-Work- UniversityofGothenburg,Gothenburg,Sweden.
+Care model seems to be beneficial also for the person
+Received:15June2020Accepted:7December2020
+with CMD.
+However, the locum GPs’ temporary employment situ-
+ation led to a reduction of continuity and a lack of col- References
+laboration within the team. This issue was sometimes 1. WadellG.Isworkgoodforyourhealthandwellbeing?London:The
+StationaryOffice;2006.
+seen as a barrier to a more profound collaboration with
+2. vanderNoordtM.HIJ,DroomersM,properKI.Healtheffectsof
+theGPsingeneral. employment:asystematicreviewofprospectivestudies.OccupEnviron
+The participants demonstrate the value of a cohesive
+Med.2014;71(10):730–6.
+3. Rapport–Uppföljningavsjukfrånvaronsutveckling2020(Report
+approach where collaboration is the glue between the
+-monitoringthedevelopmentofsickleave)https://forsakringskassan.se/
+professionals and the person-centered dialogue meeting wps/wcm/connect/974d1839-45b5-4f14-b0e1-8ccb31cbf23d/svar-pa-
+revealedthe patients situation. regeringsuppdrag-rapport-uppfoljning-av-sjukfranvarons-utveckling-2020.
+pdf?MOD=AJPERES&CVID=:2020.Accessed10nov2020.
+4. SundquistJ,OhlssonH,SundquistK,KendlerKS.Commonadultpsychiatric
+Supplementary Information disordersinSwedishprimarycarewheremostmentalhealthpatientsare
+Theonlineversioncontainssupplementarymaterialavailableathttps://doi. treated.BMCPsychiatry.2017;17(1):235.
+org/10.1186/s12875-020-01348-x. 5. LernerD,HenkeRM.Whatdoesresearchtellusaboutdepression,job
+performance,andworkproductivity?JOccupEnvironMed.2008;50(4):401–
+10.
+Additionalfile1.Thefocusgroupguide. 6. MurrayM,BodenheimerT,RittenhouseD,GrumbachK.Improvingtimely
+accesstoprimarycare:casestudiesoftheadvancedaccessmodel.JAMA.
+2003;289(8):1042–6.
+Abbreviations
+7. NieuwenhuijsenK,FaberB,VerbeekJH,Neumeyer-GromenA,HeesHL,
+CM:Caremanager;CMD:Commonmentaldisorder;GP:Generalpractitioner;
+VerhoevenAC.Interventionstoimprovereturntoworkindepressed
+RC:Rehabilitationcoordinator;RTW:Returntowork
+people.CochraneDatabaseSystRev.2014;(12):CD006237.
+8. WisenthalA,KrupaT,KirshBH,LysaghtR.Cognitiveworkhardeningfor
+Acknowledgements returntoworkfollowingdepression:aninterventionstudy:Le
+Wethanktheparticipantsofthestudy. reentrainementcognitifautravailpourfavoriserleretourautravailalasuite
+d'unedepression:etuded'intervention.CanJOccupTher.2018;85(1):21–32.
+Authors’contributions 9. vanVilsterenM,vanOostromSH,deVetHC,FrancheRL,BootCR,Anema
+ELPandISparticipatedinthedesignofthestudy,performeddataanalyses, JR.Workplaceinterventionstopreventworkdisabilityinworkersonsick
+andtooktheleadindraftingthemanuscript.KTparticipatedinperforming leave.CochraneDatabaseSystRev.2015;10:CD006955.
+dataanalysisandhelpedtodraftthemanuscript.DHandCBparticipatedin 10. EricsonSjostromM,WallinI,StrandhagenE,BaigiA,HensingG,Bjorkelund
+thedesign,performingdataanalysisandhelpedtodraftthemanuscript.MJ, C.GPandpatientpredictionsofsick-listingduration:howwelldothey
+SNandCWparticipatedindesign,datacollectionandhelpedtodraftthe correspond?Aprospectiveobservationalstudy.ScandJPrimHealthCare.
+manuscript.Allauthorsreadandapprovedthefinalmanuscript. 2014;32(2):73–7.
+11. SampereM,GimenoD,SerraC,PlanaM,LopezJC,MartinezJM,etal.
+Funding Returntoworkexpectationsofworkersonlong-termnon-work-relatedsick
+GrantsfromForteDnr2016–07412,Dnr2018–01266andgrantsfromthe leave.JOccupRehabil.2012;22(1):15–26.
+SwedishstateundertheagreementbetweentheSwedishgovernmentand 12. SkoglundI,BjorkelundC,SvenningssonI,PeterssonEL,AugustssonP,Nejati
+thecountycouncils,theALFagreement(nr68771).Thefunding S,etal.Influenceofantidepressanttherapyonsickleaveinprimarycare:
+organisationshadnoroleintheplanning,executionoranalysesofthe ADAS,acomparativeobservationalstudy.Heliyon.2019;5(1):e01101.
+study.OpenAccessfundingprovidedbyGothenburgUniversityLibrary. 13. WagnerEH,AustinBT,VonKorffM.Organizingcareforpatientswith
+chronicillness.MilbankQ.1996;74(4):511–44.
+14. ArcherJ,BowerP,GilbodyS,LovellK,RichardsD,GaskL,etal.Collaborative
+Availabilityofdataandmaterials
+carefordepressionandanxietyproblems.CochraneDatabaseSystRev.
+Toprotecttheparticipantsconfidentiality,thedatasetsgeneratedand
+2012;10:CD006525.
+analysedduringthecurrentstudyarenotpubliclyavailableduetoSwedish
+15. GoodrichDE,KilbourneAM,NordKM,BauerMS.Mentalhealthcollaborative
+law,butareavailablefromthecorrespondingauthoruponreasonable
+careanditsroleinprimarycaresettings.CurrPsychiatryRep.2013;15(8):383.
+request.
+16. RostK,NuttingP,SmithJ,WernerJ,DuanN.Improvingdepression
+outcomesincommunityprimarycarepractice:arandomizedtrialofthe
+Ethicsapprovalandconsenttoparticipate
+quESTintervention.Qualityenhancementbystrategicteaming.JGenIntern
+EthicalapprovalwasobtainedfromtheRegionalEthicalCommitteefor Med.2001;16(3):143–9.
+MedicalResearchinGothenburg(DNR459–17).
+17. HuangH,TabbKM,CerimeleJM,AhmedN,BhatA,KesterR.Collaborative
+Writteninformedconsentwasobtainedfromallparticipantspriorto
+CareforWomenwithDepression:asystematicreview.Psychosomatics.
+conductingtheFocusgroups. 2017;58(1):11–8.
+18. HuaCY,HuangY,SuYH,BuJY,TaoHM.Collaborativecaremodelimproves
+Consentforpublication self-careability,qualityoflifeandcardiacfunctionofpatientswithchronic
+Notapplicable. heartfailure.BrazJMedBiolRes.2017;50(11):e6355.
+19. BjorkelundC,SvenningssonI,HangeD,UdoC,PeterssonEL,AriaiN,etal.
+Competinginterests Clinicaleffectivenessofcaremanagersincollaborativecareforpatients
+Theauthorsdeclarethattheyhavenocompetinginterests. withdepressioninSwedishprimaryhealthcare:apragmaticcluster
+randomizedcontrolledtrial.BMCFamPract.2018;19(1):28.
+Authordetails 20. SverigesKommunerochRegioner.Koordineringavsjukskrivningoch
+1PrimaryHealthCare,SchoolofPublicHealthandCommunityMedicine, rehabilitering(Coordinationofsickleaveandrehabilitation)2015.https://skr.
+InstituteofMedicine,TheSahlgrenskaAcademy,UniversityofGothenburg, se/halsasjukvard/sjukskrivningochrehabilitering/funktionforkoordinering.1033.
+Gothenburg,Sweden.2ResearchandDevelopmentPrimaryHealthCare, html2015.Accessed27may2020.
+Peterssonetal.BMCFamilyPractice (2020) 21:272 Page9of9
+21. Regeringskansliet.Lag2019:1297.Lagomkoordineringsinsatserför
+sjukskrivnapatienter.(Lawaboutcoordinationforpatientonsickleave).
+Socialdepartementet,(MinistryofSocialAffairs)2019.https://data.riksdagen.
+se/fil/4675B3B5-64FA-49B2-90A8-2F8021F1CF65.Accessed10nov2020.
+22. Kruger.Focusgroups:apracicalguideforappliedresearchSingapore:SAGE;2015.
+23. Morgan.Focusgroupsasqualitativeresearch:Vol.2nded.London:SAGE;
+1997.
+24. MalterudK.Systematictextcondensation:astrategyforqualitativeanalysis.
+ScandJPublicHealth.2012;40(8):795–805.
+25. KarlsonB,JonssonP,PalssonB,AbjornssonG,MalmbergB,LarssonB,etal.
+Returntoworkafteraworkplace-orientedinterventionforpatientsonsick-leave
+forburnout--aprospectivecontrolledstudy.BMCPublicHealth.2010;10:301.
+26. KarlsonB,ÖK.ADAArbetsplatsDialogförArbetsåtergång.Användarmanual
+v.1.3.Lund:Avdförarbets-ochmiljömedicin.Lundsuniversitet;2014.p.
+2014.
+27. HanssonA,FribergF,SegestenK,GeddaB,MattssonB.Twosidesofthe
+coin-generalpractitioners'experienceofworkinginmultidisciplinary
+teams.JInterprofCare.2008;22(1):5–16.
+28. deRijkA,vanRaakA,vanderMadeJ.Anewtheoreticalmodelfor
+cooperationinpublichealthsettings:theRDICmodel.QualHealthRes.
+2007;17(8):1103–16.
+29. HultbergEL,LonnrothK,AllebeckP.Interdisciplinarycollaborationbetween
+primarycare,socialinsuranceandsocialservicesintherehabilitationof
+peoplewithmusculoskeletaldisorder:effectsonself-ratedhealthand
+physicalperformance.JInterprofCare.2005;19(2):115–24.
+30. EikenaarT,deRijkAE,MeershoekA.What’sinaframe?Howprofessionals
+assessclientsinDutchworkreintegrationpractice.SocPolicyAdmin.2016;
+50(7):767–86.
+31. BabikerA,ElHusseiniM,AlNemriA,AlFrayhA,AlJuryyanN,FakiMO,etal.
+Healthcareprofessionaldevelopment:workingasateamtoimprove
+patientcare.SudanJPaediatr.2014;14(2):9–16.
+32. DelvaD,JamiesonM,LemieuxM.Teameffectivenessinacademicprimary
+healthcareteams.JInterprofCare.2008;22(6):598–611.
+33. SargeantJ,LoneyE,MurphyG.Effectiveinterprofessionalteams:"contactis
+notenough"tobuildateam.JContinEducHealProf.2008;28(4):228–34.
+34. SvenningssonI,UdoC,WestmanJ,NejatiS,HangeD,BjorkelundC,etal.
+Creatingasafetynetforpatientswithdepressioninprimarycare;a
+qualitativestudyofcaremanagers'experiences.ScandJPrimHealthCare.
+2018;36(4):355–62.
+35. CorbiereM,SamsonE,NegriniA,St-ArnaudL,DurandMJ,CoutuMF,etal.
+Factorsperceivedbyemployeesregardingtheirsickleavedueto
+depression.DisabilRehabil.2016;38(6):511–9.
+36. HeesHL,MWJK,ScheneAH.Longitudinalrelationshipbetweendepressive
+symptomsandworkoutcomesinclinicallytreatedpatientswithlong-term
+sicknessabsencerelatedtomajordepressivedisorder.JAffectDisord.2013;
+148(2–3):272–7.
+37. deVriesH,FishtaA,WeikertB,RodriguezSanchezA,WegewitzU.
+Determinantsofsicknessabsenceandreturntoworkamongemployees
+withcommonmentaldisorders:ascopingreview.JOccupRehabil.2018;
+28(3):393–417.
+38. HoefsmitN,deRijkA,HoukesI.Workresumptionatthepriceofdistrust:a
+qualitativestudyonreturntoworklegislationintheNetherlands.BMC
+PublicHealth.2013;13:153.
+Publisher’s Note
+SpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+publishedmapsandinstitutionalaffiliations.

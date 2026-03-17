@@ -1,0 +1,813 @@
+JM et al. BMC Cancer (2022) 22:1189
+https://doi.org/10.1186/s12885-022-10238-7
+RESEARCH Open Access
+The experiences and perceptions of female
+breast cancer patients regarding weight
+management during and after treatment
+for oestrogen-receptor positive disease:
+a qualitative study
+Saxton JM1*†, Pickering K2, Wane S3, Crank H4, Anderson AS5, Cain H6, Cohen J7, Copeland RJ2, Gray J8,
+Hargreaves J9, McNally RJQ10 and Wilson C11†
+Abstract
+Background: Weight gain is commonly observed during and after breast cancer treatment and is associated with
+poorer survival outcomes, notably in women with oestrogen-receptor positive disease. The aim of this qualitative
+study was to investigate the experiences and perceptions of oestrogen-receptor positive (ER ) female breast cancer
++
+patients (BCPs) regarding weight management behaviours during and after treatment. Secondly, to gain insight into
+the experiences of healthcare professionals (HCPs) regarding the provision of weight management advice to patients
+undergoing treatment.
+Methods: Four focus groups involving 16 BCPs having a median (range) age of 51 (35–70 y) and three focus groups
+involving 21 HCPs aged 46 (29–62) were held at a university campus, local cancer support centre or clinical site. Data
+were analysed using Framework analysis.
+Results: Four overarching themes (and 10 subthemes) were identified: (1) Treatment; (2) Support for lifestyle behav-
+iour change; (3) Information availability for BCPs; (4) Knowledge of current evidence amongst HCPs. The physical and
+psychological consequences of treatment influenced motivation for weight management amongst BCPs. Social sup-
+port for health promoting behaviours was viewed as important but was conflicting, requiring context-specific consid-
+erations. BCPs said they would have welcomed access to credible information (guided by HCPs) about the potential
+detrimental health effects of excess body weight and weight gain, together with advice on weight management
+via healthy eating and physical activity. HCPs felt that they had insufficient knowledge of public health dietary and
+physical activity recommendations or evidence-based interventions to confidently offer such advice. HCPs expressed
+concern that raising weight management issues would exacerbate distress or invoke feelings of guilt amongst BCPs,
+and cited time pressures on patient consultations as additional barriers to providing weight management support.
+†Saxton JM and Wilson C are co-chief investigators.
+*Correspondence: john.saxton@hull.ac.uk
+1 School of Sport, Exercise & Rehabilitation Sciences, Faculty of Health
+Sciences, University of Hull, Cottingham Road, Hull HU6 7RX, UK
+Full list of author information is available at the end of the article
+© The Author(s) 2022. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat ivec o
+mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+JM et al. BMC Cancer (2022) 22:1189 Page 2 of 13
+Conclusion: The study yielded novel insights into factors influencing weight management behaviours amongst
+overweight ER BCPs. The results suggest that evidence-based information and support, which addresses key
++
+physical and psychological challenges to physical activity and dietary behaviours, offers the best route to sustainable
+weight management in this population.
+Keywords: Breast Cancer, Hormone-positive, Weight management, Barriers and facilitators
+Background of clear and simple information on lifestyle, citing insuf-
+Weight gain is commonly observed during and after ficient support from healthcare professionals (HCPs)
+breast cancer treatment due to chemotherapy and endo- [15]. Group-based interventions can provide an oppor-
+crine therapies, induced menopause, changes in metabo- tunity for peer-to-peer support as a means of addressing
+lism and food intake and decreased physical activity [1, barriers to health-promoting behaviours and building
+2]. Systematic review evidence shows that women who the skills and confidence needed for dietary and physi-
+are overweight and obese at diagnosis, and those who cal activity behaviour change. Successful group-based
+gain weight, have poorer breast cancer survival outcomes weight-loss interventions in breast cancer patients have
+than women of a healthy weight, irrespective of meno- used a variety of delivery formats, including face-to-face
+pausal status [3]. Excess body weight after breast cancer workshops for 8–15 women alongside remote support
+also increases the risk of type 2 diabetes mellitus and car- methods such as telephone, emails, text-messaging and
+diovascular disease [4, 5]. printed mail-outs [17–21].
+The adverse impact of excess body weight on survival In the UK, support for health behaviour change after
+outcomes is clearly shown for women with oestrogen- primary treatment for breast cancer is limited to that
+receptor positive (ER ) breast cancer [2, 6], which provided by prominent cancer charities. For example,
++
+accounts for 70% of all breast cancer cases [7]. Higher Breast Cancer Now offer an on-line course and book/
+body fat increases the risk of ER recurrence because printed materials (“Moving Forward”) to help women
++
+of increased aromatase activity and circulating levels of adjust to life after breast cancer treatment. This takes
+oestrogens and androgens [8]. This is compounded by place over half a day for three or four weeks and aims to
+other risk factors, including abnormal insulin and adi- provide information, support and professional guidance
+pokine metabolism, impaired anti-tumour immunity on how to cope with and adjust to life after breast can-
+and chronic low-grade systemic inflammation [2, 9]. cer treatment [22]. Macmillan Cancer Support offer the
+Although associations between intentional weight loss Recovery Package after completion of primary treatment
+and survival outcomes after primary breast cancer treat- comprising a Holistic Needs Assessment, treatment and
+ment are not yet well established [10, 11], the significant cancer care reviews with a HCP and an education/sup-
+body of observational evidence pointing to the adverse port event such as a Health and Wellbeing Clinic [23].
+impact of weight gain provides a strong rationale for the There remains a gap however, in longer-term provision of
+development of accessible and adoptable weight manage- tailored (bespoke) lifestyle support, specifically designed
+ment interventions. to address the barriers to effective weight loss that many
+Previous qualitative studies have identified a range of women experience after primary treatment for breast
+important barriers to adopting and adhering to health cancer. This means that offering a route to accessible and
+promoting behaviours amongst breast cancer patients adoptable weight management support would address
+(BCPs). These include treatment-related physical symp- an important unmet need for women and their treating
+toms which impede physical functioning (e.g., lym- clinicians at what is frequently an opportune ‘teachable
+phoedema which restricts upper-limb range of motion), moment’ for patients [24].
+fatigue, pain, lack of confidence, body image concerns, Understanding and addressing the challenges women
+fears about health behaviour change due to feelings face adopting and adhering to healthy lifestyle behav-
+of vulnerability, co-morbidities and conflicting priori- iours during and after breast cancer treatment from the
+ties (e.g., work commitments, family caring duties, etc.) perspective of both BCPs and HCPs is an important first
+and low motivation [12–15]. In contrast, important step in designing effective and sustainable weight loss
+facilitators have been identified as desire to lose weight interventions for this population. Current guidelines for
+[14], access to supervised exercise and dietary educa- cancer survivors recommend achieving/maintaining a
+tion, feeling a sense of control, peer support and hav- healthy body weight, engaging in regular physical activ-
+ing an opportunity to regain a sense of normality [16]. ity and eating a healthy dietary pattern that is high in
+Women commonly experience deficits in the availability vegetables, fruits and whole grains and low in calorific
+J M et al. BMC Cancer (2022) 22:1189 Page 3 of 13
+foods and beverages, processed meats and alcohol [25– focus group was arranged with lymphoedema practition-
+27]. However, recent survey evidence showed that while ers. The focus groups were led by an experienced female
+a high proportion of breast cancer patients reported at qualitative researcher (either SW, a physiotherapist or KP,
+least one positive nutrition or physical activity behaviour a physical activity public health expert, both were quali-
+after diagnosis or treatment, several treatment-related fied in exercise prescription for cancer patients), with
+barriers (fatigue, stress, changes in appetite/taste dis- assistance from at least one other member of the research
+turbances, pain and discomfort) impeded the adoption team (HC, SW, KP or JS), and all sessions were audio-
+of these health behaviours [28]. Furthermore, a recently recorded. Topic guides were developed on the basis of
+published American College of Clinical Oncology study objectives, previous literature and knowledge of
+Guideline paper emphasised the need for more research important issues for BCPs amongst members of the
+into diet and weight management strategies for people research team gleaned from previous research and clini-
+undergoing cancer treatments [29]. Thus, the aim of this cal practice. Topic guides explored barriers and facilita-
+qualitative study was to investigate the experiences and tors to weight management (healthy eating and physical
+perceptions of overweight ER BCPs regarding weight activity) from the perspectives of BCPs and HCPs during
++
+management (healthy dietary behaviours and physical and after ER breast cancer treatment (Table 1). Partici-
++
+activity) during and after primary treatment and ongo- pant characteristics are presented in Table 2. All partici-
+ing hormone therapy. Secondly, to gain insight into the pants provided written, informed consent prior to data
+experiences of HCPs regarding the provision of weight collection and the study was approved by the Northwest
+management advice to BCPs undergoing treatment for Preston NHS Research Ethics Committee (18/NW/0400).
+ER disease. The research was conducted and reported in accordance
++
+with qualitative research reporting guidelines [31].
+Methods
+Participant recruitment
+Data analysis
+A purposive sample of female breast cancer patients
+attending routine follow-up clinical visits were invited to Audio-recordings were transcribed anonymously, ver-
+participate in the study by members of their clinical team batim. Two researchers independently analysed the
+or a research nurse. Women were eligible to participate data using framework analysis [32], comprising: (i)
+in the study if they were over 18 years of age and were familiarisation with the data; (ii) identification of a
+more than eight weeks since completion of chemotherapy thematic framework (informed by a combination of a
+(providing time to reflect on their experience of adjuvant priori topics and emergent issues); (iii) indexing (i.e.
+treatment) and less than 36 months since completion of applying framework codes to the data); (iv) charting
+primary treatment for ER breast cancer (for accurate (i.e. summarising indexed data); and (v) mapping and
++
+recall of experiences), with a BMI 25 kg/m2. Women interpreting the data (assessing meaning, differences
+≥
+being prescribed hormone therapies were eligible. HCPs and similarities etc.) [33]. Transcripts were initially
+from five UK National Health Service (NHS) Trusts were analysed and charted in relation to the a priori topics
+recruited by the lead investigators. Emails containing that guided focus group discussions, with the BCP and
+details of the study were sent to HCPs involved in the HCP focus groups coded into this framework sepa-
+care of breast cancer patients and they were invited to rately. Commonalities and differences between the
+respond to the research team for further information. views and experiences of BCPs and HCPs were used to
+create overarching themes and subthemes, before the
+Procedures and data collection data from the two participant groups were coded in
+relation to one another. NVivo (version 11; QSR Inter-
+Our underlying philosophy was constructivist [30], rec-
+national, Melbourne, Australia) was used to organ-
+ognising the individual nature of experience and the
+ise the data. At each stage of the process the guiding
+impact of BCPs’ wider life experiences on their per-
+framework was modified in relation to the emergent
+spectives of weight management behaviours. Four
+content within the data. The researchers liaised at sev-
+focus groups involving 16 BCPs and three focus groups
+eral points to discuss data saturation, which was con-
+involving 21 HCPs were held at a university campus, a
+firmed during thematic analysis when no new codes,
+local cancer support centre or at a clinical site between
+categories or themes emerged from the data. The cod-
+December 2018 and January 2019. Each session lasted
+ing framework represented all relevant data, and there
+between 70 and 89 min (mean 81 min). Initially, two
+=
+was a high level of agreement between analysers. The
+HCP focus groups took place, however, due to emerging
+emergent themes were discussed and the final themes
+qualitative data highlighting the importance of appropri-
+refined. This approach to data analysis was somewhat
+ate and safe lymphoedema management, an additional
+JM et al. BMC Cancer (2022) 22:1189 Page 4 of 13
+Table 1 Focus group topic guide
+Topic guide for patients Topic guide for healthcare professionals
+Thoughts and experiences of weight management before and after Perceptions of weight gain amongst patients during treatment: What
+breast cancer diagnosis: What, if any, has been your experience of proportion of your patients with hormone-positive breast cancer are
+weight loss before/after to your cancer diagnosis? What diets did you try? overweight/obese at point of diagnosis? What happens to women’s weight
+Did they work for you? If so why, and if not, why not? What have been status during treatment and post-treatment? In your opinion do hormonal
+the main challenges of managing weight since your treatment? Are you therapies or medications have any impact on a patient’s weight/attempts
+experiencing any symptoms related to your treatment? If so, what are to lose weight/maintain weight loss? In your opinion do chemotherapy
+these? Do these symptoms have an effect on your motivation to lose have any impact on a patient’s weight/attempts to lose weight/maintain
+weight, or have they had an effect on any attempts you have made to weight loss?
+lose weight?
+Understanding dietary behaviours: What do you think about diets? Current practice: Do you have conversations with patients around healthy
+Have you tried dieting since your treatment? Did your clinical team eating, weight management and exercise? If so, who initiates these conver-
+encourage/endorse diet modification for helping with weight manage- sations – would you always initiate such conversations, or does it happen
+ment following treatment? Do those in your social circle (family and in response to patient questions? Is any advice given “general” or do you
+friends) support you when trying to manage your weight? How can we tailor the information that you give to patients? Do you recommend weight
+help women who are living with and beyond cancer to make changes to management or exercise to manage certain symptoms associated with
+their diet that could help with weight management / loss? cancer or its treatment? Can you refer patients to community-based weight
+management or exercise programmes?
+Understanding exercise or physical activity behaviours: Do you Weight management advice/information requested by patients: Are
+currently engage in physical activity or exercise? Did your clinical team you asked by patients for specific advice on being physically active or
+encourage you to be physically active / endorse or advise exercise or exercising pre-treatment/ during or post-treatment? What type of informa-
+physical activity for helping with rehabilitation or recovery? Did/Do you tion do patients ask for? Do patients ask about the risk of being overweight
+have apprehensions about being physically active or exercising? Do those or physically inactive relative to disease recurrence? Do any Public Health
+in your social circle (family and friends) support you when trying to be Guidelines or cancer specific lifestyle guidelines ever feature in conversa-
+active? What are the important questions you need answering if you are tions/consultations?
+thinking about becoming physically active or exercising?
+Technology and weight management: Do you use technology in Perceived benefits of weight management advice for patients: Have
+your daily life, e.g. websites, smartphone apps etc.? Have you ever used you seen any benefits in patients from becoming or already being physi-
+any technologies to help you manage your weight, follow a diet or to cally active/being an ideal body weight/BMI during or after treatment?
+motivate you to be more physical activity such as on-line programmes, If so, what are those benefits? Why do you think some patients are more
+smartphone apps, wearable devices? successful than others in managing their weight and activity levels?
+How the provision of weight management advice could be improved:
+How prominent is lifestyle modification such as healthy eating and exercise
+a feature of clinical care/survivorship care? Do you feel confident about giv-
+ing advice on healthy eating and exercise? What would help you increase
+your confidence to give advice? What would support your own practice?
+What limits your ability to deliver advice about weight management and
+exercise? What are the barriers to initiating or holding a conversation on
+these topics? What is needed to enable more health professionals to have
+more frequent (routine) conversations about healthy eating and exercise
+with their patients?
+deductive, framing the analysis within the a priori topic Theme 1: treatment
+guide, yet the data were borne out of original tran- The physical and psychological impacts of treatment
+scripts from interviews and focus groups [34]. emerged as an important theme negatively influencing
+motivation for weight management behaviours amongst
+BCPs. BCPs and HCPs considered the medications pre-
+Results scribed during treatment, the psychological impact of a
+Four overarching themes (and 10 subthemes) were iden- cancer diagnosis and altered dietary patterns due to taste
+tified: (1) Treatment; (2) Support for lifestyle behaviour disturbances, altered food choices, comfort eating and
+change; (3) Information availability for BCPs; (4) Knowl- the perceived convenience of, or craving for, less healthy
+edge of current evidence amongst HCPs. Example quotes foods (e.g., sugary foods) to be important factors imped-
+from BCPs and HCPs are used to illustrate each theme ing motivation for healthy lifestyle behaviours.
+(and subtheme), with the latter also including a gender
+Side‑effects of treatment
+identifier in parentheses (F or M). Lymphoedema prac-
+titioners (all female) are denoted by the letter L. A more Several side-effects of breast cancer treatment have the
+complete list of quotes to illustrate each theme (and sub- potential to influence weight gain. BCPs talked about
+theme) is presented in the Supplementary Table. how their side-effects impacted their activity levels and
+diet.
+J M et al. BMC Cancer (2022) 22:1189 Page 5 of 13
+Table 2 Participant characteristics
+BCP8: [After surgery] I couldn’t go swimming, and I HCPs provided very general advice on how to counter-
+can’t do yoga because I couldn’t move my arms up... act common side-effects, such as loss of bone mineral
+I spent a week sitting on the sofa because I’m car- density.
+rying two drains around with me. There’s nothing
+HCP(M)16: And I think for those of us who are ini-
+you can do. So, your weight starts to move and how
+tiating certainly aromatase inhibitors, we will of
+quickly it starts to move is just, was quite depressing,
+necessity warn them of the risk of osteoporosis... and
+and doesn’t help your mood, which doesn’t help what
+as part of that would be to say the most useful thing
+you eat… and you think well why should I bother?
+you can do to avoid it is to be as active as possible.
+So, we would say that.
+BCP15: In terms of my diet, it was the chemotherapy
+that just messes up your digestive system completely,
+so I was just eating whatever I fancied, your taste
+has gone horrible and your digestion’s gone rub- Pre‑treatment expectations
+bish and you just eat what you can when you can... BCPs were under the impression that they would lose
+the nurse is joking saying it’s the opposite of Weight weight during their treatment and were surprised that
+Watchers here, we want you to put on weight, and they gained weight (all reported gaining weight during
+everything. treatment).
+HCPs said they make patients aware of the side-effects BCP4: I had a misconception that I was going to
+of hormone therapies during patient consultations and lose weight on chemotherapy, and it was exactly the
+these messages are reinforced via printed literature. Some opposite.
+JM et al. BMC Cancer (2022) 22:1189 Page 6 of 13
+L1: One thing I do hear quite often from ladies when concerns about raising weight management issues dur-
+they’re going through their cancer journey, the one ing treatment because they did not want to exacerbate
+thing they’ll say is I thought I’d lose loads of weight this distress or create additional burden or guilt by inad-
+– because they had this idea of someone with cancer vertently suggesting that the cancer diagnosis is their
+being emaciated. And actually, that’s not the case fault because of poor lifestyle behaviours or excess body
+with most of them... weight. Some HCPs said they would feel hypocritical
+raising the issue of weight management.
+Prioritisation of treatment HCP(F)12: I mean the patient’s already on the floor
+The adoption of healthy lifestyle behaviours for weight anyway. They’ve been mutilated, they’ve been radi-
+management was regarded as low priority during treat- ated. They’ve lost their hair, they’ve lost their confi-
+ment because of the physical and emotional strain of the dence, their relationships aren’t the best at the best
+breast cancer diagnosis and disruption to normal rou- of times… and then for somebody to chuck in, and
+tines imposed by the treatment. by the way you’re fat as well… [Some of the nurses]
+admitted that they would feel embarrassed talking
+BCP2: I put on two stone during treatment… part of about weight gain and things like that, because they
+that was the steroids, but part of that was the oh shit were overweight and didn’t exercise themselves. So,
+I’m going to die so I might as well eat cake, because it was bit being a hypocrite really to give that advice.
+why wouldn’t you do that?
+Some HCPs suggested strategies for broaching the
+issue of weight management in a sensitive way to avoid
+HCP(F)1: Their normal pattern goes out of the win-
+causing additional distress and feelings of guilt amongst
+dow, and they’re just trying to get through the treat-
+BCPs, and focusing more effort towards the end of pri-
+ments, and diet isn’t their priority, nor exercise.
+mary treatment.
+HCP(F)1: You really have to be careful, and you
+Theme 2: support for lifestyle behaviour change
+have to put the conversation [about weight] in at
+Support for lifestyle behaviour change from HCPs along
+certain points of your end of treatment conversa-
+the breast cancer treatment pathway was perceived to be
+tions. You can’t just suddenly upset them with you
+minimal amongst BCPs. For some BCPs, motivation to
+need to lose weight. No, it’s not your endocrine, and
+engage with weight management behaviours (particularly
+you need to get more active. It’s very sensitively done.
+physical activity) was strongly influenced by the support
+of significant others, including their peer-group (other
+HCP(F)2: [Towards the end of treatment]… their
+BCPs). However, for some BCPs, friends and family
+head is moving into a different place… I would say
+tended to be over-protective, and others wanted to ‘move
+there’s definitely a shift in terms of the questions that
+on’ from their cancer experience which made them reluc-
+they’re asking, and what they are open to receiving
+tant to seek support from their peer-group.
+in terms of information.
+Support within the clinical pathway Another major barrier to providing lifestyle sup-
+There was a perceived lack of support from HCPs, and port was the time constraints imposed on clinical
+contrary to promoting healthy lifestyle behaviours, there appointments.
+were some instances of HCPs encouraging BCPs to do
+HCP(F)9: I think to be honest it’s time constraints.
+the opposite.
+I mean with the best will in the world it would be
+BCP8: Indulge is what the chemo nurses said. If you lovely to sit down with everybody for half an hour
+want that piece of cake, you have that piece of cake. or so and chat to them, but you don’t have that. You
+Thanks ladies. don’t have time to do that if you’re doing everything
+else.
+BCP15: [HCPs] just told me not to worry about
+Suggestions for overcoming the barrier imposed by
+it… and it was good to put on weight during chemo
+time constraints, included enabling all HCPs along the
+rather than losing weight, that was what they said…
+care pathway to apply consistent messages via a “brief
+Other HCPs expressed their reservations about provid- intervention” approach and/or sign-posting/referring
+ing support for lifestyle behaviour change during treat- patients onto community services, but with some reser-
+ment when women are vulnerable and distressed due vations concerning the latter as such services can often
+to their recent breast cancer diagnosis. They expressed be short-lived.
+J M et al. BMC Cancer (2022) 22:1189 Page 7 of 13
+HCP(F)14: The other thing our (NHS Foundation) classes, I’m a bit nervous to go, I’m like oh. And I
+Trust is looking to do is to have very brief interven- don’t know if it’s part of the not wanting to go back
+tions in every consultation. If somebody mentions into, or hang around with people with breast cancer,
+anything about smoking or alcohol or their weight or whatever.
+or whatever, just say is that something you’d like to
+know more about?
+Theme 3: information availability for BCPs
+HCP(F)6: It’s keeping on top of where all those ser- BCPs felt poorly supported, in terms of the information
+vices happen, because they pop up only just for short they received about the potential impact of healthy life-
+projects and then they pop back down again, so it’s style behaviours on treatment outcome and their gen-
+knowing what sustainable services are out there that eral health and wellbeing as they progressed through the
+we can refer people to. treatment pathway. This meant that if they had the moti-
+vation to adopt healthy lifestyle behaviours, they were
+unsure about what to do for the best and the onus was
+Support from family and friends
+often on them to seek relevant information from other
+BCPs who reported having family and friends that pro-
+sources.
+vided verbal encouragement (e.g., be more active, eat
+healthily, etc.), were more likely to adopt healthy lifestyle
+behaviours during and after primary treatment. Other Patient receptiveness to information
+BCPs recounted experiences in which family and friends BCPs were acutely aware of the lack of support for life-
+had discouraged them from engaging in healthy lifestyle style behaviour change during the breast cancer treat-
+behaviours, feeling that they had been through too much ment pathway. Some BCPs said they would have been
+to be concerned with healthy eating and or the need for very receptive to information (guided by HCPs) about
+regular exercise and/or that it might be detrimental, and the broader health impacts of breast cancer treatment,
+this negatively affected their motivation for health behav- as well as advice on weight management via healthy eat-
+iour change. ing and physical activity. The need for tailored advice and
+information to meet the specific needs of patients was
+BCP3: I think my immediate family, I think they
+also highlighted.
+were really supportive… my daughter… used to say
+yeah just get off your backside… BCP8: You sort of drop off the edge of the earth really
+once you’ve finished your radiotherapy and you get
+BCP15: Everyone around you says oh it’s OK, you’ve signed off by people. That’s kind of it... then you’re
+had cancer, have that bit of cake, and things. on your own. Go away and exercise and lose that
+weight you put on, thanks.
+Peer‑support
+BCP9: If I’m wanting to give my body the best fight-
+Several BCPs expressed the importance of peer-support
+ing chance, which is what I want to do, work along-
+in motivating them to adopt healthy lifestyle behaviours
+side the treatments I’ve been told I have to have,
+and in their motivation for attending support sessions
+then for me it’s vital that I know what I can do to
+with similar others who they could share experiences
+best serve my body.
+with.
+BCP16: Everybody in the room then is feeling what L4: It’s not the same for everyone. It’s just finding the
+you’re feeling and everybody will come up with a right thing for the right person, which sometimes is
+question and be comfortable to expand on that, easier said than done.
+because you’re all in a similar position and you can
+Other HCPs said that in their experience, some patients
+all relate to it positively, can’t you?
+are likely to be resistant to health behaviour change and
+For some BCPs, it was more important to move on that a tactful approach would be needed.
+from their cancer experience and they did not want the
+HCP(F)9: The thing is that if you take a group of any
+constant reminder of what they had been through by
+population, whether they’ve got cancer or not, there
+attending support groups or exercise classes with other
+would be a significant amount of people who aren’t
+patients.
+going to move no matter what you say... maybe if
+BCP1: [At the] Consett breast cancer group …they’re we keep on and on and on at them about it it’s only
+doing these for breast cancer ladies, these [exercise] going to annoy them, so you have to be very careful.
+JM et al. BMC Cancer (2022) 22:1189 Page 8 of 13
+The need for credible information BCP3: I don’t think there’s enough, possibly not
+BCPs felt that credible information sources were essential enough input of people who’ve had breast cancer
+due to the huge volume of conflicting information avail- into exercise classes, actually being trained to lead
+able on the internet that can get very confusing and may classes... for me it would be nice to see a programme
+have a dubious evidence-base. In addition, many ‘myths’ where people who’ve had breast cancer can have the
+or outdated information continue to circulate, such as opportunity to actually be part of supporting other
+this example from a BCP: people coming through it, in terms of being trained
+up as like a....like a peer, sort of.
+BCP9: Every time you take a hit of sugar you sup-
+press your immune system. So potentially you’re… The lack of evidence-based guidance underpinned a
+not giving [your body] a fighting chance really. You’re sense of nervousness and generated fears about engaging
+suppressing that natural immunity all the time. or re-engaging with exercise programmes amongst BCPs.
+Some BCPs said they were given information from BCP2: This is why, I mean this is one of the reasons why
+HCPs in the form of leaflets but were left to interpret that I haven’t gone back fully to exercising and doing what
+information themselves and often resorted to looking up I want to do, because I’m so paranoid, I have a sleeve,
+information on the internet. Some of the advice received I’m so paranoid about what it’s going to do to my arm.
+from HCPs was perceived as vague:
+In contrast, the lymphoedema practitioners said that
+BCP15: I was told just eat a healthy diet and, yeah, they use their evidence-based knowledge to empower
+not to really change anything particularly. So, it women to be able to self-manage their lymphoedema
+almost felt a bit vague, I felt like they weren’t really through exercises that have been shown to be effective.
+sure when I asked them the questions. They had a much better grasp of research evidence sup-
+porting the important role that exercise and weight man-
+agement play in lymphoedema management. They were
+Theme 4: knowledge of current evidence amongst HCPs
+also more proactive in promoting this evidence to their
+Many HCPs said they had insufficient knowledge of the
+patients, feeling it was fundamental to their role and
+most recent scientific dietary and physical activity evi-
+essential for patient care. This group of HCPs were part of
+dence and public health guidance to confidently discuss
+a specialist lymphoedema clinic (private company) com-
+such matters with BCPs and would only be able to pro-
+missioned to deliver the local NHS lymphoedema service
+vide general advice if asked.
+for cancer and other patients. The lead nurse is an advo-
+cate of exercise and weight management and empowers
+Knowledge‑gap
+her team to this end via training opportunities.
+Many HCPs discussed how they were unfamiliar with
+current evidence in support of the benefits of healthy eat- L2: We’ve got the evidence [for the benefits of diet
+ing and regular exercise for BCPs and this was clearly evi- and exercise on lymphodema]. We can actually
+dent amongst BCPs. show them the evidence now, which a few years ago
+we couldn’t do that. There’s lots of evidence now for it
+HCP(F)9: I know that if you go for a walk it’s good
+and I think that’s our great advantage…
+for you, but I don’t know what to tell people to eat, I
+don’t feel I have that information. So, healthy eating
+just means they can go and look into it. I think you Experiential knowledge gained
+have to be a little bit careful, because if you promote BCPs and HCPs recounted how they had gained some
+the diet then it’s your responsibility to some extent. level of experiential knowledge about the health benefits
+And it doesn’t work for everybody, it doesn’t, not all of weight loss and regular exercise on important health
+diets work for everybody. outcomes following a breast cancer diagnosis. This was a
+source of positive motivation for some HCPs to provide
+BCP11: I want to try and do a healthy diet and way lifestyle advice and for some BCPs to engage in more
+of living, and keep this cancer in remission. What’s healthy, active lifestyles.
+the best thing that I can do? And that’s where I don’t
+BCP4: I was confused for a while after treatment. I’d
+seem to be getting a lot of information back as to
+put on so much weight, and I was having all these
+what should I actually be eating?
+joint pains and couldn’t bend over to put my shoes
+Furthermore, BCPs lacked confidence in the ability of on without not being able to breathe... But then once
+exercise and fitness professionals to provide breast can- I got back down below a certain weight, those things
+cer-specific advice. went away.
+J M et al. BMC Cancer (2022) 22:1189 Page 9 of 13
+HCP(F)8: There’s people that have exercised and treatment and are left to their own devices to improve
+have clearly coped with the treatment so much bet- their lifestyles.
+ter than people that haven’t I can say. Our results also show that the physical and emotional
+barriers impeding the adoption of weight management
+behaviours in BCPs can be compounded by a lack of
+Discussion awareness, regarding the likelihood of weight gain during
+breast cancer treatment. Weight management in cancer
+This qualitative study explored the experiences and per-
+patients has been dominated by concerns about uninten-
+ceptions of ER BCPs and HCPs regarding weight man-
++
+tional weight loss secondary to treatment or progressive
+agement behaviours during and after treatment and the
+disease [11] and is likely to have influenced pre-treatment
+provision of weight management advice as part of the
+weigh loss expectations amongst BCPs. This could be
+care pathway. During treatment, women recounted how
+an important barrier to the adoption of healthy lifestyle
+concerns about weight management were overshadowed
+behaviours by precluding the need to seek weight man-
+by the physical and emotional strain of their diagno-
+agement advice. In addition, women felt ill-informed and
+sis and disruption to normal routines caused by hospi-
+poorly supported and expressed their nervousness and
+tal appointments. However, as they emerged from their
+fears about engaging in physical activity or structured
+primary treatment, physical changes such as increased
+exercise. This was due to a lack of evidence-based knowl-
+body weight, change in body shape, shoulder mobil-
+edge and guidance regarding the types of exercise it is
+ity issues and a lack of knowledge and/or confidence
+safe to engage in, without exacerbating common side-
+to engage in healthy lifestyle behaviours (particularly
+effects, such as fatigue and lymphoedema, as reported
+physical activity and structured exercise) were important
+previously [43]. There were also concerns that nutrition
+barriers to health behaviour change, consistent with pre-
+and exercise professionals may have insufficient experi-
+vious evidence [12–15].
+ence of breast cancer and are therefore unable to provide
+Studies suggest that a cancer diagnosis can act as a
+the support that BCPs need to overcome the physical and
+“teachable moment”, prompting women to adopt health-
+emotional challenges experienced during recovery from
+ier lifestyle behaviours after a breast cancer diagnosis
+primary treatment. Consistent with previous evidence
+and/or treatment [24, 35]. However, conflicting evidence
+[12, 43], BCPs also spoke about the conflicting informa-
+exists and the possibility of study selection bias (study
+tion that is available through social media channels. This
+samples being biased towards cancer survivors who
+lack of support, in conjunction with personal sensitivi-
+have changed their behaviours) also needs to be taken
+ties related to weight gain and other bodily changes (e.g.,
+into account [24]. Although recent evidence of modest
+change in body shape, impaired shoulder mobility, etc.),
+improvements in dietary and physical activity behaviours
+underscored their lack of confidence for health behaviour
+within three years of a breast cancer diagnosis provides
+change. Consequently, the need for credible, evidence-
+support for the “teachable moment” [36], improvements
+based advice and support from competent HCPs as a
+may not be maintained over the longer-term [37]. The
+means of rebuilding confidence and motivation for physi-
+low priority participants gave to weight management
+cal activity and healthy eating, emerged as a key theme
+behaviours during treatment resonates with qualita-
+in the analysis, consistent with previous research [12, 44].
+tive data from other studies [38, 39] but contrasting evi-
+These findings highlight a training gap for HCPs, which
+dence suggests that long-standing, deep-routed concerns
+is needed to build the required competences for the pro-
+about excess body weight can overshadow the emotional
+vision of evidence-based (and bespoke) weight manage-
+stress of a breast cancer diagnosis in some women [40].
+ment support to addresses the health behaviour change
+This demonstrates the complex interaction between the
+challenges faced by BCPs. This training and associated
+emotional consequences of a breast cancer diagnosis and
+support programmes for BCPs should aim to develop
+existing weight management concerns. Furthermore, it
+evidence-based knowledge, while drawing on key tenets
+emphasizes the need for weight management advice to
+of health behaviour change theory. For example, accord-
+be timely and cognizant of the balance between emo-
+ing to the Health Belief Model, individuals are likely to
+tional distress and existing body weight sensitivities if
+adopt health behaviours when they perceive their suscep-
+the “teachable moment” is to be capitalized on by HCPs
+tibility to an illness and its seriousness and believe that
+[12]. Evidence from previous studies suggests that the
+the benefits of behaviour change outweigh the perceived
+optimal time to implement weight management support
+barriers [45]. Thus, tailored (and timely) educational sup-
+is after primary treatment for the majority of BCPs [41,
+port for improving knowledge of the adverse effects of
+42]. This is consistent with the views expressed by HCPs
+weight gain and benefits to be gained from healthy die-
+in the present study and the feeling amongst BCPs that
+tary choices and physical activity could tip the balance
+they “drop off the edge of the earth” after primary adjuvant
+JM et al. BMC Cancer (2022) 22:1189 Page 10 of 13
+in favour of behaviour change [46]. Strategies aimed at could be sensitively provided. Time constraints imposed
+developing perceived competence for weight manage- on clinical appointments were identified as another bar-
+ment behaviours, while being mindful of flexible options rier to such provision with NHS cancer care pathways,
+to help meet individual needs and preferences (facilitat- in accordance with previous findings [49], which lim-
+ing autonomy), is also consistent with intrinsically moti- its delivery options to brief consultant-led conversa-
+vated behaviour change according to Self-Determination tions within the care pathway. Evidence suggests there
+Theory [47]. Furthermore, establishing a platform for is potential to increase the number of brief intervention
+frequent peer-to-peer contact and support would help consultations with appropriate training [52], consistent
+to fulfil the need for relatedness (sense of belonging to a with the Making Every Contact Count (MECC) initiative
+social group) in self-determined behaviour change [47]. [53], but this approach is likely to have minimal impact
+Having the opportunity to share experiences with “simi- [54, 55]. Alternatively, having the opportunity to sign-
+lar others” is consistent with previous research, in which post/refer women onto credible and motivational weight
+empathy received from women perceived to be “in the management information and support after primary
+same boat” and “same as you” helped BCPs to move treatment was viewed positively by HCPs, as in other
+on from feeling isolated to feeling accepted, while also studies [38, 42], and could help to overcome the chal-
+providing subtle motivational peer-pressure for health lenge of time constraints during consultations. For these
+behaviour change [14, 16]. However, it is also important reasons, a bespoke programme of evidence-based weight
+to note that some BCPs wanted to move on from their management support that dovetails with the NHS breast
+cancer experience and felt that this would not be served cancer care pathway could be the optimal solution for
+by attending weight management support groups with promoting health behaviour change and developing the
+other patients. skills and confidence women need for effective and sus-
+The perceived role of family and friends in support- tainable weight loss.
+ing health behaviour change was more complex, with
+recollections of conflicting advice and support given. Strengths and limitations
+While evidence suggests that support from family Participants attending the HCP focus groups came from
+and friends can be a powerful motivational factor for diverse backgrounds and most professions involved in
+health behaviour change in cancer patients [48], its breast cancer care, including specialist nurses, oncolo-
+absence and/or active discouragement from signifi- gists and lymphoedema practitioners, enabling a broad
+cant others (linked with “over-protection”) has been range of relevant views. Likewise, the wide age-range
+identified as a barrier to participation in physically of overweight BCPs involved in the focus groups (35–
+active lifestyles in cancer patients [38, 46]. The moti- 70 years) and varied weight management experiences
+vation for health behaviour change amongst BCPs in allowed for a diverse representation of views. Emerg-
+the present study was influenced either in a positive ing data from the BCP and HCP focus groups regard-
+or negative way, depending on the encouragement or ing questions and concerns around diet, physical activity
+discouragement received from family and friends dur- and lymphoedema, dictated that further specialist input
+ing and after primary treatment. This shows that social from lymphoedema practitioners was required. An
+support for health behaviour change is a complex issue additional focus group with the latter ensured that data
+for BCPs, requiring context-specific considerations. saturation had been reached regarding all relevant top-
+Furthermore, these findings suggest that support pro- ics raised by BCPs and HCPs. A potential limitation of
+grammes which include family and friends in endeav- this research was the exclusive use of focus groups as a
+ours to change the health behaviours of BCPs could be means of understanding the perceptions of BCPs and
+beneficial [39]. HCPs regarding weight management support. Focus
+Many HCPs (with the exception of the lymphoedema groups might be less effective for gleaning detailed infor-
+practitioners) said they had insufficient knowledge of up- mation than individual interviews but capitalise on group
+to-date scientific dietary and physical activity evidence to dynamics to stimulate discussion. In the focus group ses-
+confidently discuss such matters with BCPs and would sions, new topics that may have not been explored other-
+only be able to provide general advice if asked. This per- wise were frequently opened or expanded upon following
+ceived lack of evidence-based knowledge amongst HCPs comments from other members of the group. However,
+is well-reported and highlights a potential training gap it may have been difficult for some participants to fully
+[49, 50]. Furthermore, because of HCP concerns about express their views in the focus group setting and a
+exposing patient sensitivities during weight management mixed qualitative approach might have yielded more in-
+conversations [49, 51], interventions aimed at redress- depth data.
+ing this training gap should consider how such advice
+J M et al. BMC Cancer (2022) 22:1189 Page 11 of 13
+Conclusions Consent for publication
+Not applicable.
+This study showed that there is a clear need for effective
+and timely weight management support that addresses Competing interests
+the issues and concerns faced by women recovering The authors declare that they have no competing interests.
+from ER breast cancer treatment. BCPs expressed
++ Author details
+difficulties accessing credible information on diet and 1 School of Sport, Exercise & Rehabilitation Sciences, Faculty of Health Sciences,
+physical activity that is relevant to the physical and psy- University of Hull, Cottingham Road, Hull HU6 7RX, UK. 2 Advanced Wellbe-
+ing Research Centre, Sheffield Hallam University, Olympic Legacy Park 2 Old
+chological challenges imposed by treatment. The lack Hall Rd, Sheffield S9 3TU, UK. 3 Department of Sport, Exercise & Rehabilita-
+of evidence-based dietary and physical activity knowl- tion, Northumbria University, City Campus, Newcastle-Upon-Tyne NE1 8ST,
+edge amongst HCPs, concerns about raising weight UK. 4 Academy of Sport and Physical Activity, Sheffield Hallam University,
+Sheffield S10 2BP, UK. 5 Division of Population Health & Genomics, Centre
+management issues with BCPs during treatment and
+for Research Into Cancer Prevention and Screening, Ninewells Hospital
+time pressures on consultations present additional bar- and Medical School, University of Dundee, Dundee DD1 9SY, UK. 6 Newcastle
+riers for the provision of weight management advice. Upon Tyne Hospitals NHS Foundation Trust, Queen Victoria Road, Newcastle
+Upon Tyne NE1 4LP, UK. 7 York Medical School, Hull Heath Trials Unit, Univer-
+Considered together, this evidence suggests that pro- sity of Hull, Cottingham Road, Hull HU6 7RX, UK. 8 Department of Nursing,
+grammes which stand apart from the NHS breast can- Midwifery & Health, Northumbria University, Coach Lane Campus, Newcastle
+cer care pathway and dovetail into the end of primary Upon Tyne NE7 7XA, UK. 9 Carnegie School of Sport, Leeds Beckett University,
+9 Fairfax Hall, Headingley Campus, Leeds LS6 3QS, UK. 10 Population Health Sci-
+treatment, could provide the best route to adoptable
+ences Institute, Newcastle University GB, Newcastle Upon Tyne NE1 7RU, UK.
+and sustainable weight management support in this 11 Department of Oncology and Metabolism, The Medical School, University
+population. of Sheffield, Beech Hill Road, Sheffield S10 2RX, UK.
+Received: 8 July 2022 Accepted: 26 October 2022
+Abbreviations
+BPC: Breast cancer patient; ER : Oestrogen-receptor positive; F: Female; HCP:
++
+Healthcare professional; L: Lymphoedema specialist; M: Male; MECC: Making
+Every Contact Count; NHS: National Health Service.
+References
+1. Vance V, Mourtzakis M, McCargar L, Hanning R. Weight gain in breast
+Supplementary Information cancer survivors: prevalence, pattern and health consequences. ObesRev.
+2011;12(4):282–94.
+The online version contains supplementary material available at https:// doi.
+2. Picon-Ruiz M, Morata-Tarifa C, Valle-Goffin JJ, Friedman ER, Sling-
+org/ 10. 1186/ s12885- 022- 10238-7.
+erland JM. Obesity and adverse breast cancer risk and outcome:
+mechanistic insights and strategies for intervention. CA Cancer J Clin.
+Additional file 1. 2017;67(5):378–97.
+3. Chan DS, Vieira AR, Aune D, Bandera EV, Greenwood DC, McTiernan A,
+Navarro Rosenblatt D, Thune I, Vieira R, Norat T. Body mass index and
+Acknowledgements
+survival in women with breast cancer-systematic literature review and
+Not applicable.
+meta-analysis of 82 follow-up studies. Ann Oncol. 2014;25(10):1901–14.
+4. Lohmann AE, Ennis M, Taylor SK, Goodwin PJ. Metabolic factors, anthro-
+Authors’ contributions
+pometric measures, diet, and physical activity in long-term breast cancer
+JS, CW and HC conceived the research, while JS and CW provided overall
+survivors: change from diagnosis and comparison to non-breast cancer
+project management and had oversight for collection of the data. KP and SW
+controls. Breast Cancer Res Treat. 2017;164(2):451–60.
+led the day to day running of the research, including the organisation and
+5. Bradshaw PT, Stevens J, Khankari N, Teitelbaum SL, Neugut AI, Gammon
+leadership of focus group sessions. AA and HC provided expert input to the
+MD. Cardiovascular disease mortality among breast cancer survivors.
+design of the study, drawing on experience from their previous research and
+Epidemiology. 2016;27(1):6–13.
+professional experience. RC and JH provided behavioural medicine input to
+6. Jiralerspong S, Goodwin PJ. Obesity and breast cancer prognosis: evi-
+inform the topic guides and had oversight for the analysis of qualitative data.
+dence, challenges, and opportunities. J Clin Oncol. 2016;34(35):4203–16.
+JC, JG and RJQM provided methodological expertise. All authors had a role in
+7. Lumachi F, Brunello A, Maruzzo M, Basso U, Basso SM. Treatment of estro-
+drafting, editing and approving the manuscript.
+gen receptor-positive breast cancer. Curr Med Chem. 2013;20(5):596–604.
+8. Bhardwaj P, Au CC, Benito-Martin A, Ladumor H, Oshchepkova S, Moges
+Funding
+R, Brown KA. Estrogens and breast cancer: mechanisms involved in
+We acknowledge the support of Yorkshire Cancer Research for providing the
+obesity-related development, growth and progression. J Steroid Biochem
+funding for this research (Grant Ref: NOR416).
+Mol Biol. 2019;189:161–70.
+9. McTiernan A. Weight, physical activity and breast cancer survival. Proc
+Availability of data and materials
+Nutr Soc. 2018;77(4):403–11.
+All data generated or analysed during this study are included in this published
+10. Jackson SE, Heinrich M, Beeken RJ, Wardle J. Weight loss and mortality in
+article and its supplementary information files.
+overweight and obese cancer survivors: a systematic review. PLoS ONE.
+2017;12(1):e0169173.
+Declarations 11. Anderson AS, Martin RM, Renehan AG, Cade J, Copson ER, Cross AJ, Grim-
+mett C, Keaver L, King A, Riboli E, et al. Cancer survivorship, excess body
+Ethics approval and consent to participate fatness and weight-loss intervention-where are we in 2020? Br J Cancer.
+All participants provided written, informed consent prior to data collection 2021;124(6):1057–65.
+and the study was approved by the Northwest Preston NHS Research Ethics 12. Corbett T, Cheetham T, Muller AM, Slodkowska-Barabasz J, Wilde L,
+Committee (18/NW/0400). All methods were performed in accordance with Krusche A, Richardson A, Foster C, Watson E, Little P, et al. Explor-
+the relevant guidelines and regulations. ing cancer survivors’ views of health behaviour change: “where do
+JM et al. BMC Cancer (2022) 22:1189 Page 12 of 13
+you start, where do you stop with everything?” Psychooncology. 30. Fosnot CT. Constructivism: a psychological theory of learning. In: Fos-
+2018;27(7):1816–24. not CT, editor. Constructivism: theory, perspectives, and practice. New
+13. Brunet J, Taran S, Burke S, Sabiston CM. A qualitative exploration of bar- York: Teachers College Press; 1996. p. 8–33.
+riers and motivators to physical activity participation in women treated 31. O’Brien BC, Harris IB, Beckman TJ, Reed DA, Cook DA. Standards for report-
+for breast cancer. Disabil Rehabil. 2013;35(24):2038–45. ing qualitative research: a synthesis of recommendations. Acad Med.
+14. Emslie C, Whyte F, Campbell A, Mutrie N, Lee L, Ritchie D, Kearney N. 2014;89(9):1245–51.
+“I wouldn’t have been interested in just sitting round a table talking 32. Gale NK, Heath G, Cameron E, Rashid S, Redwood S. Using the framework
+about cancer”; exploring the experiences of women with breast cancer method for the analysis of qualitative data in multi-disciplinary health
+in a group exercise trial. Health Educ Res. 2007;22(6):827–38. research. BMC Med Res Methodol. 2013;13:117.
+15. Binkley JM, Harris SR, Levangie PK, Pearl M, Guglielmino J, Kraus V, Row- 33. Richie J, Spencer L. Qualitative data analysis for applied policy research.
+den D. Patient perspectives on breast cancer treatment side effects In: Bryman, Burgess, editors. Analysing Qualitative Data. London: Rout-
+and the prospective surveillance model for physical rehabilitation for ledge; 1994. p. 173–94.
+women with breast cancer. Cancer. 2012;118(8 Suppl):2207–16. 34. Pope C, Ziebland S, Mays N. Qualitative research in health care. Analysing
+16. Balneaves LG, Van Patten C, Truant TL, Kelly MT, Neil SE, Campbell KL. qualitative data BMJ. 2000;320(7227):114–6.
+Breast cancer survivors’ perspectives on a weight loss and physical 35. Frazelle ML, Friend PJ. Optimizing the teachable moment for health
+activity lifestyle intervention. Support Care Cancer. 2014;22(8):2057–65. promotion for cancer survivors and their families. J Adv Pract Oncol.
+17. Rock CL, Flatt SW, Byers TE, Colditz GA, Demark-Wahnefried W, Ganz 2016;7(4):422–33.
+PA, Wolin KY, Elias A, Krontiras H, Liu J, et al. Results of the Exercise and 36. Barbosa A, Costa AR, Fontes F, Dias T, Pereira S, Lunet N. Changes in health
+Nutrition to Enhance Recovery and Good Health for You (ENERGY) trial: behaviours and body mass index after a breast cancer diagnosis: results
+a behavioral weight loss intervention in overweight or obese breast from a prospective cohort study. Eur J Cancer Prev. 2019;28(4):330–7.
+cancer survivors. J Clin Oncol. 2015;33(28):3169–76. 37. Tollosa DN, Holliday E, Hure A, Tavener M, James EL. Multiple health
+18. Pakiz B, Flatt SW, Bardwell WA, Rock CL, Mills PJ. Effects of a weight behaviors before and after a cancer diagnosis among women: a repeated
+loss intervention on body mass, fitness, and inflammatory biomark- cross-sectional analysis over 15 years. Cancer Med. 2020;9(9):3224–33.
+ers in overweight or obese breast cancer survivors. IntJ BehavMed. 38. Romero-Elias M, Beltran-Carrillo VJ, Gonzalez-Cutre D, Jimenez-Loaisa
+2011;18:333–41. A. Barriers to physical activity participation in colorectal cancer patients
+19. Christifano DN, Fazzino TL, Sullivan DK, Befort CA. Diet quality of breast during chemotherapy treatment: A qualitative study. Eur J Oncol Nurs.
+cancer survivors after a six-month weight management interven- 2020;46:101769.
+tion: improvements and association with weight loss. Nutr Cancer. 39. Milton K, Poole K, Cross A, Gasson S, Gokal K, Lyons K, Pulsford R, Jones
+2016;68(8):1301–8. A. “People don’t get cancer, families do”: co-development of a social
+20. Travier N, Fonseca-Nunes A, Javierre C, Guillamo E, Arribas L, Peiro I, physical activity intervention for people recently affected by a cancer
+Buckland G, Moreno F, Urruticoechea A, Oviedo GR, et al. Effect of a diagnosis. Eur J Cancer Care (Engl). 2022;31(3):e13573.
+diet and physical activity intervention on body weight and nutritional 40. Pila E, Sabiston CM, Taylor VH, Arbour-Nicitopoulos K. “The Weight Is Even
+patterns in overweight and obese breast cancer survivors. Med Oncol. Worse Than the Cancer”: exploring weight preoccupation in women
+2014;31(1):783. treated for breast cancer. Qual Health Res. 2018;28(8):1354–65.
+21. Befort CA, Klemp JR, Austin HL, Perri MG, Schmitz KH, Sullivan DK, 41. Reeves M, Winkler E, McCarthy N, Lawler S, Terranova C, Hayes S, Janda
+Fabian CJ. Outcomes of a weight loss intervention among rural breast M, Demark-Wahnefried W, Eakin E. the living well after breast cancer pilot
+cancer survivors. Breast Cancer Res Treat. 2012;132(2):631–9. trial: a weight loss intervention for women following treatment for breast
+22. Breast Cancer Now Moving Forward Online Course: [https://b reas cancer. Asia Pac J Clin Oncol. 2017;13(3):125–36.
+tcance rnow.o rg/i nform ation-s uppor t/s uppor t-y ou/m oving-f orwa 42. Lawler S, Maher G, Brennan M, Goode A, Reeves MM, Eakin E. Get
+rd-o nline-c ourse] Healthy after breast cancer - examining the feasibility, acceptability and
+23. Macmillan Cancer Support: The Recovery Package: [https://w ww. outcomes of referring breast cancer survivors to a general population
+macmil lan.o rg.u k/d ocume nts/a boutu s/h ealth_p rofes siona ls/m acvo telephone-delivered program targeting physical activity, healthy diet and
+ice/s harin ggood pract ice_t herec overy packa ge.p df] weight loss. Support Care Cancer. 2017;25(6):1953–62.
+24. Demark-Wahnefried W, Aziz NM, Rowland JH, Pinto BM. Riding the 43. Lavallee JF, Abdin S, Faulkner J, Husted M. Barriers and facilitators to
+crest of the teachable moment: promoting long-term health after the participating in physical activity for adults with breast cancer receiv-
+diagnosis of cancer. J Clin Oncol. 2005;23(24):5814–30. ing adjuvant treatment: A qualitative metasynthesis. Psychooncology.
+25. Rock CL, Doyle C, Demark-Wahnefried W, Meyerhardt J, Courneya KS, 2019;28(3):468–76.
+Schwartz AL, Bandera EV, Hamilton KK, Grant B, McCullough M, et al. 44. Anderson AS, Caswell S, Wells M, Steele RJ. Obesity and lifestyle advice in
+Nutrition and physical activity guidelines for cancer survivors. CA colorectal cancer survivors - how well are clinicians prepared? Colorectal
+Cancer J Clin. 2012;62(4):243–74. Dis. 2013;15(8):949–57.
+26. World Cancer Research Fund/American Institute for Cancer Research. 45. Champion VL, Skinner CS. The Health Belief Model. In: Glanz K, Rimer
+Diet, nutrition, physical activity and cancer: a global perspective. BK. Viswanath K, editors. Health behavior and health education: theory,
+Continuous Update Project Expert Report; 2018. https://w ww.w crf.o rg/ research, and practice. 4th ed. San Francisco: Jossey-Bass; 2008. p. 189–93.
+diet-a ctivi ty-a nd-c ancer/g lobal-c ancer-u pdate-p rogra mme/r esour ces- 46. Elshahat S, Treanor C, Donnelly M. Factors influencing physical activity
+and-t oolki ts/#a ccord ion-1. Accessed 18 Nov 2022. participation among people living with or beyond cancer: a systematic
+27. Campbell KL, Winters-Stone KM, Wiskemann J, May AM, Schwartz AL, scoping review. Int J Behav Nutr Phys Act. 2021;18(1):50.
+Courneya KS, Zucker DS, Matthews CE, Ligibel JA, Gerber LH, et al. 47. Deci EL, Ryan RM. Intrinsic motivation and self-determination in human
+Exercise guidelines for cancer survivors: consensus statement from behavior. New York: Plenum Press; 1985.
+international multidisciplinary roundtable. Med Sci Sports Exerc. 48. Avancini A, Tregnago D, Rigatti L, Sartori G, Yang L, Trestini I, Bonaiuto
+2019;51(11):2375–90. C, Milella M, Pilotto S, Lanza M. Factors influencing physical activity in
+28. Keaver L, McGough AM, Du M, Chang W, Chomitz V, Allen JD, Attai DJ, cancer patients during oncological treatments: a qualitative study. Integr
+Gualtieri L, Zhang FF. Self-reported changes and perceived barriers Cancer Ther. 2020;19:1534735420971365.
+to healthy eating and physical activity among global breast cancer 49. Koutoukidis DA, Lopes S, Fisher A, Williams K, Croker H, Beeken RJ. Life-
+survivors: results from an exploratory online novel survey. J Acad Nutr style advice to cancer survivors: a qualitative study on the perspectives of
+Diet. 2021;121(2):233-241 e238. health professionals. BMJ Open. 2018;8(3):e020313.
+29. Ligibel JA, Bohlke K, May AM, Clinton SK, Demark-Wahnefried W, Gil- 50. Sutton E, Hackshaw-McGeagh LE, Aning J, Bahl A, Koupparis A, Persad
+christ SC, Irwin ML, Late M, Mansfield S, Marshall TF, et al. Exercise, diet, R, Martin RM, Lane JA. The provision of dietary and physical activity
+and weight management during cancer treatment: ASCO guideline. J advice for men diagnosed with prostate cancer: a qualitative study of the
+Clin Oncol. 2022;40(22):2491–507. experiences and views of health care professionals, patients and partners.
+Cancer Causes Control. 2017;28(4):319–29.
+J M et al. BMC Cancer (2022) 22:1189 Page 13 of 13
+51. Anderson A, Barnett K, Bhagat M, Steele R. A qualitative evaluation of the
+impact of a training programme on colorectal cancer risk reduction for
+specialist screening practitioners on health promotion, knowledge and
+practice. Eur J Cancer Care (Engl). 2021;30(1):e13350.
+52. Carlin L, Whelan ME, Musson H, Adams EJ. Impact of a national
+peer-led training program to increase brief physical activity advice
+given to patients by health care professionals. J Phys Act Health.
+2021;18(11):1364–71.
+53. Making Every Contact Count (MECC): Consensus statement [https://
+www. engla nd. nhs. uk/ publi cation/ making- every- conta ct- count- mecc-
+conse nsus- state ment/]
+54. Keyworth C, Epton T, Goldthorpe J, Calam R, Armitage CJ. Are healthcare
+professionals delivering opportunistic behaviour change interventions?
+a multi-professional survey of engagement with public health policy.
+Implement Sci. 2018;13(1):122.
+55. van der Wardt V, di Lorito C, Viniol A. Promoting physical activity in
+primary care: a systematic review and meta-analysis. Br J Gen Pract.
+2021;71(706):e399–405.
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in pub-
+lished maps and institutional affiliations.
+RReeaaddyy ttoo ssuubbmmiitt yyoouurr rreesseeaarrcchh ?? CChhoooossee BBMMCC aanndd bbeenneeffiitt ffrroomm::
+• fast, convenient online submission
+• thorough peer review by experienced rese archers in your field
+• rapid publication on acceptance
+• support for research data, including large and complex data types
+• gold Open Access which fosters wider collaboration and increased citations
+• maximum visibility for your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more biomedcentral.com/submissions

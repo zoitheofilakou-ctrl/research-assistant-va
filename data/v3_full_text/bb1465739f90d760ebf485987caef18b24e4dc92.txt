@@ -1,0 +1,371 @@
+www.nature.com/scientificreports
+OPEN Quantification of acceleration
+as activity counts in ActiGraph
+wearable
+Ali Neishabouri1*, Joe Nguyen1, John Samuelsson1,5, Tyler Guthrie1, Matt Biggs1,
+Jeremy Wyatt1, Doug Cross1, Marta Karas2, Jairo H. Migueles3,4, Sheraz Khan1,5 &
+Christine C. Guo1
+Digital clinical measures based on data collected by wearable devices have seen rapid growth in both
+clinical trials and healthcare. The widely-used measures based on wearables are epoch-based physical
+activity counts using accelerometer data. Even though activity counts have been the backbone of
+thousands of clinical and epidemiological studies, there are large variations of the algorithms that
+compute counts and their associated parameters—many of which have often been kept proprietary
+by device providers. This lack of transparency has hindered comparability between studies using
+different devices and limited their broader clinical applicability. ActiGraph devices have been the
+most-used wearable accelerometer devices for over two decades. Recognizing the importance of
+data transparency, interpretability and interoperability to both research and clinical use, we here
+describe the detailed counts algorithms of five generations of ActiGraph devices going back to the
+first AM7164 model, and publish the current counts algorithm in ActiGraph’s ActiLife and CentrePoint
+software as a standalone Python package for research use. We believe that this material will provide
+a useful resource for the research community, accelerate digital health science and facilitate clinical
+applications of wearable accelerometry.
+The rapid advances in computing and micro-electromechanical systems (MEMS) technology have created new
+opportunities for monitoring health in people’s free-living environment over extended time periods. In par-
+ticular, as wearable devices are capable of quantifying patients’ behaviors continuously with minimal burden,
+they can provide more comprehensive, ecological and objective health information than what is possible with
+conventional in-clinic and questionnaire-based assessments1–3. For these reasons, the use of wearable devices
+for clinical purposes has seen rapid expansion in recent years and is expected to grow further in the upcoming
+years4. One of the most used outcomes provided by wearable devices is accelerometry-based physical activity
+measures. Physical activity measures have been used in clinical trials and shown superiority in detecting treat-
+ment related changes over conventional endpoints5. Progress has also been made in the qualification of digital
+endpoints based on counts of physical activity with both US and EU in respiratory and cardiovascular diseases6,7.
+While the origin of the term “count” is not documented, it likely goes back to the modification and use of
+watches for measuring activity, specifically hyperactivity in children where pedometers were too l arge8–11. This
+was achieved by a winding weight that was free to pivot about its axis and therefore sensitive to acceleration
+while being connected to the hands of the watch via gears, causing the minutes and hours hands to tick when the
+watch experienced acceleration and thus allowing for reading the accumulated “counts” of movements from the
+watch the same way as one would read the t ime11. As electronics technology evolved, solid-state analog-to-digital
+converters became widely available and allowed for enhanced acceleration measurements and storing the activity
+data in a digital format inside the watch12–14. The first activity watch provided by ActiGraph was model AM7164
+(ActiGraph, Pensacola (FL), USA) that used a uniaxial piezoelectrical accelerometer in the form of a mechani-
+cal l ever14. To remove artifacts unrelated to human movement, subsecond-level measurements of acceleration
+1ActiGraph LLC, 49 East Chase St., Pensacola, FL 32502, US. 2Department of Biostatistics, Harvard T.H. Chan
+School of Public Health, Harvard University, 677 Huntington Avenue, Boston MA02115, US. 3Department of
+Biosciences and Nutrition, Karolinska Institute, Huddinge, Sweden. 4Department of Physical Education and
+Sports, Faculty of Sport Sciences, PROFITH “PROmoting FITness and Health through physical activity” Research
+Group, Sport and Health University Research Institute (iMUDS), University of Granada, Granada, Spain. 5Athinoula
+A. Martinos Center for Biomedical Imaging, MGH/MIT/Harvard, 149, 13th St., Boston, MA 02129, USA. *email:
+ali.neishabouri@theactigraph.com
+Scientific Reports | (2022) 12:11958 | https://doi.org/10.1038/s41598-022-16003-x 1
+Vol.:(0123456789)
+www.nature.com/scientificreports/
+(expressed in g) were passed through an analog band-pass filter before it was sampled at 10 Hz and quantized
+by an 8-bit analog-to-digital converter, thus yielding 256 distinct levels of acceleration. Each level beyond 128
+is considered to be 1 count. These were then summed within given time intervals, or “epochs”, and the resulting
+counts were stored on the device (hence, each epoch could contribute up to 128×10×thedurationoftheepoch
+counts to the total).
+The counts unit is thus a measure that quantifies acceleration within a time interval, or “epoch”, with one
+epoch typically being 10–60 s long. The reliance on epoch-based counts was a necessity in earlier models, due
+to the limitation of on-board storage and battery capacity. While this limitation was overcome with hardware
+improvements and ActiGraph has been able to provide multi-day raw data since 2010, digital clinical measures
+and validation evidence continue to evolve around counts. Because the algorithms that transform the raw accel-
+erometer data into counts vary across devices, many of which have also been held proprietary, digital measures
+based on counts are device dependent, making it difficult to compare results across clinical studies and establish
+reproducibility and validation evidence15–17. The obscurity of the count algorithms has also led to the common
+misconception that “counts” is a universal unit of measurement that is the same across devices, where even with
+an algorithm such as the one described below, variations in parameters such as the length of each epoch or the
+precision of the quantization process can lead to vastly different counts. Therefore, the advances of digital health
+science could be greatly facilitated with a higher level of algorithm transparency which would allow it to be used
+across multiple devices.
+ActiGraph devices (ActiGraph, Pensacola, FL, USA) have been the most-used wearable accelerometry, or
+actigraphy, devices for over two decades, with more than 20,000 papers published using ActiGraph devices by
+the end of 2021. While the original methods for computing counts in the earlier models have been published14,
+the detailed algorithms and their evolution over the years have not been made public. Several studies have
+attempted to reverse engineer the ActiGraph counts algorithms or relate them to the counts algorithms of other
+d evices16–19. While these studies have been critically important to gain further understanding of acceleration
+counts and how it relates across devices, they have been limited by the lack of access to the ActiGraph firmware
+and software code and device documentation. In this article, we address this gap by presenting an overview of
+the counts algorithms of ActiGraph devices along with a detailed description of the counts algorithm in both the
+ActiLife software (ActiGraph, Pensacola, FL, USA) and the CentrePoint cloud service (ActiGraph, Pensacola,
+FL, USA). An open-source Python package is also made available for use by the research community. By doing
+so, we hope to facilitate reproducibility efforts and enhance transparency in the field of wearable accelerometry
+and accelerate its clinical use.
+Results
+We first present here a flowchart overview of the processing pipelines to derive counts across five generations of
+ActiGraph models (Fig. 1). It is important to note that all counts algorithms outlined here produce counts after
+band pass filtering the raw signal around frequencies compatible with human activity. The analog band-pass
+filter’s maximum gain is at 0.759 Hz, and goes down to − 6 dB at 0.212 Hz at 2.148 Hz. The digital version of this
+filter (in devices other than AM7164) replicates the analog version14. The conversion of the raw data into counts
+depends therefore not only on the amplitude of the raw data but also on its spectral content. In the CPIW model
+(bottom row in Fig. 1), the accelerometer applies an anti-aliasing low-pass filter before the signal is sampled
+to respect Nyquist’s theorem20, and both the low-pass − 3 dB cutoff frequency and the sampling frequency are
+adjustable; the possible output data rates are 32, 64, 128, and 256 Hz and the associated low-pass cutoff frequen-
+cies are 16, 16, 32, and 64 Hz, respectively. The process of converting raw data to counts (highlighted in bold in
+Fig. 1) for the newer models wGT3X-BT, GT9X, and CPIW are further elucidated below (Fig. 2).
+1. Only for CPIW; resample data to 30 Hz (from 32, 64, 128 or 256 Hz). Otherwise assert that sampling fre-
+quency is between 30 and 100 Hz and a multiple of 10 Hz.
+2. If sampling frequency is not a multiple of 30, then up-sample by a factor of 3 to make it a multiple of 30 and
+low pass filter. This is achieved by the following steps:
+v=arrayofsize(3×lengthofrawsignal)filledwith0
+w=v
+v3×i =rawsignal
+i
+∀i∈ 0,...,size(rawsignal)
+3π 3π 2×3−π
+wi =
+π+3×2
+vi +
+π
+(cid:31)
++3×2
+vi−1 +
+π+2
+(cid:30)
+×3
+wi−1 ∀i.
+3. Down-sample to 30 Hz. Since the signal is a multiple of 30 Hz, the down-sampling is straightforward by
+keeping every mth sample, where m is the up-sampled frequency divided by 30;
+up-sampledfrequency
+m=
+30
+xi =wm×i ∀i.
+4. Band-pass filter the down-sampled signal. This is done by firstly defining the filter (a 7th order IIR filter),
+which can be described by the rational transfer function in the z-transform domain as:
+Scientific Reports | (2022) 12:11958 | https://doi.org/10.1038/s41598-022-16003-x 2
+Vol:.(1234567890)
+www.nature.com/scientificreports/
+Figure 1. Conceptual schematic of the computational pipeline for generating counts for five generations of
+ActiGraph accelerometer models (rows). Raw data measures acceleration in free fall acceleration (g) units.
+Functions performed by the microprocessor, the accelerometer and in the CentrePoint cloud are highlighted in
+yellow, gray and orange, respectively. The analog band-pass filters in AM7146 are implemented using a series of
+cascaded op amp circuits, the half magnitude points for the lower and upper cutoff frequencies are 0.21 and 2.28
+Hz, respectively14. For the analog low-pass filters the − 3 dB cutoff frequency is shown in parenthesis for each
+block. A/D is the analog-to-digital converter (white blocks), shown together with the bit size of the quantizer.
+The counts data blocks are highlighted in boldface.
+Xˆ(z)=
+7
+i=0
+biz−i
+X(z),
+(cid:31)
+7
+i=0
+aiz−i
+where a0 =1 , a1 =−3.63 , a2 =5.04 , a(cid:31) 3 =−3.10 , a4 =0.506 , a5 =0.324 , a6 =−0.157 , a7 =0.0195 , and
+b0 =−0.00934 , b1 =−0.0255 , b2 =−0.00424 , b3 =0.0442 , b4 =0.0365 , b5 =−0.0119 , b6 =−0.0229 ,
+b7 =−0.0067914. These coefficients have been rounded to 3 significands—please refer to the public code
+for the exact numbers. The initial condition that generates a steady state to a step response of this filter is
+then found, and the down-sampled signal xi is filtered using this initial state and the filter described above,
+resulting in the filtered signal xˆ i.
+5. Rescale the filtered signal by a factor a ( a= 3.0/4096.0 ×237.5≈17.127404 ), in order to replicate the range
+2.6/256.0
+of the AM7164.
+x˜
+i
+=axˆ
+i
+6. Rectify the rescaled signal:
+x¯
+i
+=|x˜
+i
+|.
+Scientific Reports | (2022) 12:11958 | https://doi.org/10.1038/s41598-022-16003-x 3
+Vol.:(0123456789)
+www.nature.com/scientificreports/
+Figure 2. Flowchart showing the process of converting raw data into counts.
+7. Threshold the rectified signal so that all entries greater than 128 is set to 128 and all entries smaller than 4
+are set to 0:
+−→ 128 (x¯ i >128)
+x i = floor(x¯ i ) (4≤x¯ i ≤128) .
+(cid:31)0 (x¯
+i
+<4).
+8. Further down-sample the signal and low-pass filter to 10 Hz by a non-overlapping moving average:
+−→ −→ −→
+xˇ j = floor( x i + x i+1 + x i+2) .
+3
+(cid:31) (cid:30)i=0,3,6,...
+9. Finally, find the counts by summing the down-sampled signal within the predefined epoch length l (s) for
+each axis:
+(i+1)·10·l
+countsi = xˇ j.
+j= (cid:31)i·10·l
+Figure 3 presents an example waveform along with the result of each processing step. The python code was
+validated to the ActiLife software and CentrePoint service using synthetic raw data as described in the methods
+section. Validation was performed on four cases with 1000 simulations each: corresponding to combinations of
+raw data at 40 or 30 Hz sampling rate and epoch of 10 or 30 sec duration. We did not find any differences between
+the values returned by any of the three implementations.
+Discussion
+Remote clinical assessments based on wearable devices have the potential to transform clinical development and
+care4. This potential requires robust validation evidence and can be facilitated with a greater level of algorithm
+transparency. Here we provided an overview of the counts algorithms of five generations of ActiGraph devices
+(Fig. 1), released a Python package that replicates the counts algorithm in ActiGraph’s ActiLife software under
+an open source license, validated the Python code to the output from ActiLife (Fig. 4) and detailed the numerical
+steps of arriving at counts in pseudocode (Fig. 2). We believe that this material will be an important and useful
+resource for the research community.
+Scientific Reports | (2022) 12:11958 | https://doi.org/10.1038/s41598-022-16003-x 4
+Vol:.(1234567890)
+www.nature.com/scientificreports/
+Figure 3. Example waveform and the resulting waveforms after each processing step. (A) The original
+waveform, at 40 Hz sampling rate. (B) The waveform down-sampled to 30 Hz. (C) The waveform after band-
+pass filtering. (D) The waveform scaled and rectified. (E) The waveform down-sampled to 10 Hz.
+Figure 4. Comparison of counts generated by our python code and those generated by CenterPoint. Each
+plot corresponds to a combination of data sampling rate and epoch length. From top to bottom, epoch length
+goes from 10 to 60 s. From left to right, sampling frequency goes from 30 to 100 Hz. In all cases, the counts are
+identical between the two implementations.
+Scientific Reports | (2022) 12:11958 | https://doi.org/10.1038/s41598-022-16003-x 5
+Vol.:(0123456789)
+www.nature.com/scientificreports/
+Several kinds of counts algorithms have been used in the literature: Time above threshold, zero-crossing and
+digital i ntegration15. While the time above threshold and zero-crossing techniques have mostly been used in
+older devices, all ActiGraph models have used the digital integration technique, which is thought to be superior
+to the other counts techniques12 in terms of component size, power consumption, and accuracy in presence of
+noise. The processing steps of this technique differed between devices, as successive generations of ActiGraph
+devices made use of the latest advances in hardware and software technology. The computation processes have
+gradually evolved to being done in the CentrePoint cloud, and less so in the device microprocessor. Care has been
+taken in order to maintain comparability between counts extracted from different devices, so that the activity
+counts computed from the same acceleration input would stay consistent across generations of hardware and
+software platforms21–23 although, due to the vastly different technologies involved, differences have been found
+notably in minutes of vigorous activity per day24. This attention to data compatibility due to platform upgrades
+in clinical investigation has also been noted in the recent FDA draft guidelines on digital health technologies25.
+Brłnd et al.18 tried to reverse engineer the ActiLife counts algorithm by reproducing the counts output from
+raw data input. The ActiGraph digital band-pass filter was approximated using Matlab’s invfreqz function. The
+reverse engineered counts algorithm was then applied to raw data from a different activity monitor; Axivity AX3
+(Axivity, Newcastle UK). Fig. 1 in their paper18 outlines the steps in the derived counts algorithm which corre-
+sponds rather well with Fig. 2 in the present paper which details the ActiLife counts algorithm, although many
+of the computational steps happen in a different order. The ActiLife digital band-pass filter that was approxi-
+mated in that paper18 is different from the one implemented in ActiLife; the ActiLife band-pass filter is a 7th
+order IIR filter while the one estimated in their study is a 20-order filter. They found generally high concordance
+between this output and the output from ActiLife applied to raw data from the GT3X+ monitor (not statistically
+significant from zero for mechanical validation experiment and a 2.2% mean difference from free-living condi-
+tions). However the 95% limits of agreement for the Brłnd counts vs the ActiLife counts ranged from [− 49, 41]
+counts/10s, to [− 156, 140] counts/10s across participants. The errors found between their approximation and the
+“true” counts also increased as the intensity of activity increased. Furthermore, there was a significant difference
+between their intensity classification and the one based on ActiGraph counts. In any case, even if we assume the
+Brłnd counts are comparable enough to the ActiLife counts to be used in studies with different monitors, those
+counts have not been widely applied in other studies and their clinical implications have not been investigated.
+With the many versions of activity counts and additional open source activity metrics, such as Euclidean
+Norm Minus One (ENMO), Activity Index (AI)26,27, it is important to apply the cut points developed for the
+right type of activity counts. On the other hand, since there is generally high correlation between these activity
+metrics, it is feasible to compare the findings using different metrics with relatively simple conversion factors.
+In an experiment under free-living condition, Paul et al.16 showed that there was a significant difference in the
+counts output between the ActiGraph AM7164 monitor and the ones of Actical (MM; Mini-Mitter Co.) and it
+can be reduced significantly by the conversion equations they developed. Straker and C ampbell17 also presented a
+linear conversion equation relating the vertical component of the ActiGraph GT3X model with the Actical counts.
+To further facilitate the use and comparability of ActiGraph counts, we here also publish the codes in an open
+source Python package. The code validation showed perfect correspondence between ActiLife, CenterPoint, and
+the published Python code (see Fig. 4). Although we expect and indeed observe small differences between the
+intermediary results of different implementations due to the nature of working with floating point numbers,
+these differences had no effect on the final results of these algorithms.
+Quantifying acceleration in ‘counts’ started due to technical limitations in the earliest wearable devices but
+has demonstrated its value for clinical research and is still omnipresent in the field of wearable accelerometry.
+Counts is not a universal unit, and the relationship between raw acceleration data and counts is complicated and
+varies between device models. Therefore, detailed understanding of the computation from raw accelerometer
+data to counts is necessary for interpreting clinical outcomes across studies and advancing the clinical application
+of wearable technology. In addition, proper demonstration and documentation of signal processing steps are
+necessary in obtaining regulatory agreement in the use of digital health technologies tools in clinical trials and/
+or medical devices. We hope that by publishing and detailing the counts algorithms of ActiGraph devices in this
+study, we could help accelerate digital health science and facilitate clinical applications of wearable accelerometry.
+Methods
+Internal documentation of ActiGraph devices was reviewed to catalog the different processing steps to convert
+from raw data to counts. The code for converting raw data into counts in the ActiLife software was inspected
+along with the firmware documentation for ActiGraph models wGT3X-BT, GT9X, and CentrePoint Insight
+Watch (CPIW). The ActiLife counts algorithm was translated into a standalone Python package which converts
+raw data into counts at user-defined sampling frequencies and epoch lengths. The Python code was then con-
+verted into pseudocode, i.e. human-understandable basic instructions that can easily be translated back into any
+programming language. The code and pseudocode thus apply to wGT3X-BT, GT9X, and CPIW, although CPIW
+requires a down-sampling step before the computational pipeline described in the pseudocode can be applied,
+since the sampling rate is different in CPIW compared to the wGT3X-BT and GT9X models.
+The Python code (Python 3.7.6) was validated to the counts algorithm in ActiLife (version 6.13.4) and in
+CentrePoint (version 3.29.0) by comparing counts output from the Python code with that of the ActiLife software
+and CentrePoint using the same raw input data, sampling frequency and epoch length. The raw input data were
+simulated Gaussian white noise and therefore consisted of a broad range of frequencies. The code was tested for
+all admissible sampling frequencies of these models (30, 40,…, 100 Hz) and varying epoch durations.
+Scientific Reports | (2022) 12:11958 | https://doi.org/10.1038/s41598-022-16003-x 6
+Vol:.(1234567890)
+www.nature.com/scientificreports/
+Data availability
+The count algorithm and the code to reproduce and plot the validation data presented in Fig. 4 are publicly
+available at https://g ithub. com/ actig raph/ agcou nts. The code is also available as a python package. The parser
+for GT3x files is available at https://g ithub.c om/a ctigr aph/p ygt3x.
+Received: 8 March 2022; Accepted: 4 July 2022
+References
+1. Chinapaw, M. J. M., Mokkink, L. B., van Poppel, M. N. M., van Mechelen, W. & Terwee, C. B. Physical activity questionnaires for
+youth: A systematic review of measurement properties. Sports Med. 40, 539–563. https://d oi.o rg/1 0.2 165/1 15307 70-0 00000 000-
+00000 (2010).
+2. Lee, P. H., Macfarlane, D. J., Lam, T. & Stewart, S. M. Validity of the international physical activity questionnaire short form (IPAQ-
+SF): A systematic review. Int. J. Behav. Nutr. Phys. Act. 8, 115. https://d oi.o rg/1 0.1 186/1 479-5 868-8-1 15 (2011).
+3. van Poppel, M. N. M., Chinapaw, M. J. M., Mokkink, L. B., van Mechelen, W. & Terwee, C. B. Physical activity questionnaires for
+adults: A systematic review of measurement properties. Sports Med. 40, 565–600. https://d oi.o rg/1 0.2 165/1 15319 30-0 00000 000-
+00000 (2010).
+4. Strain, T. et al. Wearable-device-measured physical activity and future health risk. Nat. Med. 26, 1385–1391. https://d oi.o rg/1 0.
+1038/s 41591-0 20-1 012-3 (2020).
+5. Nathan, S. D. et al. A randomized, double-blind, placebo-controlled study of pulsed, inhaled nitric oxide in subjects at risk of
+pulmonary hypertension associated with pulmonary fibrosis. Chest 158, 637–645 (2020).
+6. European Medicines Agency. Qualification Opinion on Proactive in COPD (European Medicines Agency, 2018).
+7. European Medicines Agency. Qualification Opinion on Stride Velocity 95th Centile as a Secondary Endpoint in Duchenne Muscular
+Dystrophy Measured by a Valid and Suitable Wearable Device (European Medicines Agency, 2019).
+8. Bell, R. Q. Adaptation of small wrist watches for mechanical recording of activity in infants and children. J. Exp. Child Psychol. 6,
+302–305. https://d oi.o rg/1 0.1 016/0 022-0 965(68)9 0093-3 (1968).
+9. Johnson, C. F. Hyperactivity and the machine: The actometer. Child Dev. 42, 2105–2110. https://d oi.o rg/1 0.2 307/1 12761 7 (1971).
+10. MacCoby, E. E., Dowley, E. M., Hagen, J. W. & Degerman, R. Activity level and intellectual functioning in normal preschool
+children. Child Dev. 36, 761–770. https://d oi.o rg/1 0.2 307/1 12692 1 (1965).
+11. Schulman, J. L. & Reisman, J. M. An objective measure of hyperactivity. Am. J. Ment. Defic. 64, 455–456 (1959).
+12. Redmond, D. P. & Hegge, F. W. Observations on the design and specification of a wrist-worn human activity monitoring system.
+Behav. Res. Methods Instrum. Comput. 17, 659–669. https://d oi.o rg/1 0.3 758/B F0320 0979 (1985).
+13. Taylor, C. B. et al. A new system for long-term recording and processing of heart rate and physical activity in outpatients. Comput.
+Biomed. Res. 15, 7–17. https://d oi.o rg/1 0.1 016/0 010-4 809(82)9 0048-9 (1982).
+14. Tryon, W. W. & Williams, R. Fully proportional actigraphy: A new instrument. Behav. Res. Methods Instrum. Comput. 28, 392–403.
+https://d oi.o rg/1 0.3 758/B F0320 0519 (1996).
+15. S. R. S. . & Actigraphy. Comparing Different Methodologies Used in Wrist Actigraphy. https://s leepr eview mag.c om/s leep-d iagn
+ostics/s creen ers/a ctigr aphy/c ompar ing-d iffer ent-m ethod ologi es-u sed-i n-w rist-a ctigr aphy/ (2001). Accessed July 1st 2022.
+16. Paul, D. R., Kramer, M., Moshfegh, A. J., Baer, D. J. & Rumpler, W. V. Comparison of two different physical activity monitors. BMC
+Med. Res. Methodol. 7, 26. https://d oi.o rg/1 0.1 186/1 471-2 288-7-2 6 (2007).
+17. Straker, L. & Campbell, A. Translation equations to compare ActiGraph GT3X and Actical accelerometers activity counts. BMC
+Med. Res. Methodol. 12, 54. https://d oi.o rg/1 0.1 186/1 471-2 288-1 2-5 4 (2012).
+18. Brønd, J. C., Andersen, L. B. & Arvidsson, D. Generating ActiGraph counts from raw acceleration recorded by an alternative
+monitor. Med. Sci. Sports Exerc. 49, 2351–2360. https://d oi.o rg/1 0.1 249/M SS.0 00000 00000 01344 (2017).
+19. Brønd, J. C. & Arvidsson, D. Sampling frequency affects the processing of Actigraph raw acceleration data to activity counts. J.
+Appl. Physiol. 120, 362–369. https://d oi.o rg/1 0.1 152/j applp hysio l.0 0628.2 015 (2016).
+20. Shannon, C. E. Communication in the presence of noise. Proc. IEEE 37, 10–21 (1949).
+21. Cain, K. L., Conway, T. L., Adams, M. A., Husak, L. E. & Sallis, J. F. Comparison of older and newer generations of ActiGraph
+accelerometers with the normal filter and the low frequency extension. Int. J. Behav. Nutr. Phys. Act. 10, 51. https://d oi.o rg/1 0.
+1186/1 479-5 868-1 0-5 1 (2013).
+22. Feito, Y., Bassett, D. R. & Thompson, D. L. Evaluation of activity monitors in controlled and free-living environments. Med. Sci.
+Sports Exerc. 44, 733–741. https://d oi.o rg/1 0.1 249/M SS.0 b013e 31823 51913 (2012).
+23. Grydeland, M., Hansen, B. H., Ried-Larsen, M., Kolle, E. & Anderssen, S. A. Comparison of three generations of ActiGraph activity
+monitors under free-living conditions: Do they provide comparable assessments of overall physical activity in 9-year old children?
+BMC Sports Sci. Med. Rehabil. 6, 26. https://d oi.o rg/1 0.1 186/2 052-1 847-6-2 6 (2014).
+24. Whitaker, K. M., Gabriel, K. P., Jacobs, D. R., Sidney, S. & Sternfeld, B. Comparison of two generations of ActiGraph accelerometers:
+The CARDIA study. Med. Sci. Sports Exerc. 50, 1333–1340. https://d oi.o rg/1 0.1 249/M SS.0 00000 00000 01568 (2018).
+25. Research, C. f. D. E. Digital Health Technologies for Remote Data Acquisition in Clinical Investigations. https://w ww.f da.g ov/r egul
+atory-i nform ation/s earch-f da-g uidan ce-d ocume nts/d igita l-h ealth-t echno logie s-r emote-d ata-a cquis ition-c linic al-i nvest igati ons
+(2021). Accessed July 1st 2022.
+26. Bai, J. et al. An activity index for raw accelerometry data and its comparison with other activity metrics. PLoS ONE 11, e0160644.
+https://d oi.o rg/1 0.1 371/j ourna l.p one.0 16064 4 (2016).
+27. van Hees, V. T. et al. Separating movement and gravity components in an acceleration signal and implications for the assessment
+of human daily physical activity. PLoS ONE 8, e61691. https://d oi.o rg/1 0.1 371/j ourna l.p one.0 06169 1 (2013).
+Acknowledgements
+Jairo H. Migueles is supported by the Swedish Research Council for Health, Working Life and Welfare (FORTE)
+(dnr: 2021-00036). Marta Karas is supported by the National Institute of Mental Health (NIMH) under Award
+Number 5U01MH116928.
+Author contributions
+A.N. implemented the final version of the algorithm, and took the lead for finalising the manuscript. J.S. wrote
+the first version of this manuscript and the algorithm. J.N., T.G., M.B., J.W. and D.C. provided information on
+existing implementations and the history of the algorithm. J.N. also provided ground truth values used for testing
+the new implementation. M.K., J.H.M., S.K. and C.C.G. provided scientific input and helped on the interpreta-
+tion of results. All authors provided critical feedback and helped shape the research, analysis and manuscript.
+Scientific Reports | (2022) 12:11958 | https://doi.org/10.1038/s41598-022-16003-x 7
+Vol.:(0123456789)
+www.nature.com/scientificreports/
+Competing interests
+Ali Neishabouri, Joe Nguyen, Tyler Guthrie, Matt Biggs, Jeremy Wyatt, Doug Cross, and Christine Guo are
+employed by ActiGraph. Sheraz Khan and John Samuelsson are providing consulting services to ActiGraph.
+Marta Karas and Jairo Migueles declare no competing interests.
+Additional information
+Correspondence and requests for materials should be addressed to A.N.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+institutional affiliations.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the
+Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the
+material. If material is not included in the article’s Creative Commons licence and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from
+the copyright holder. To view a copy of this licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/.
+© The Author(s) 2022
+Scientific Reports | (2022) 12:11958 | https://doi.org/10.1038/s41598-022-16003-x 8
+Vol:.(1234567890)

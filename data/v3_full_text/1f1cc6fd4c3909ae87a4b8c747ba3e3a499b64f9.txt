@@ -1,0 +1,514 @@
+Wang et al. BMC Complementary
+BMC Complementary Medicine and Therapies (2024) 24:102
+Medicine and Therapies
+https://doi.org/10.1186/s12906-024-04401-9
+RESEARCH Open Access
+Effect of acupuncture combined
+with rehabilitation training on sensory
+impairment of patients with stroke: a network
+meta-analysis
+Jiaqi Wang1,2†, Bangqi Wu1,2*†, Yuanyuan Tong1,2†, Xuhui Wang1,2, Zhaojun Lu1,2 and Wenqing Wang1,2
+Abstract
+Background The refractory and disabling nature of sensory disorders after stroke seriously affects patients’ daily lives
+and reduces hospital turnover. Acupuncture, as an alternative therapy, is commonly used in combination with reha-
+bilitation training to improve sensory disorders. To compare the effects of different acupuncture-related treatments
+combined with rehabilitation training on sensory impairment and the daily living ability of patients with stroke, we
+conducted a network meta-analysis to provide evidence-based findings for clinical practice.
+Methods Randomized controlled trials on the treatment of sensory disorders in patients with stroke were system-
+atically retrieved from several databases, including China National Knowledge Infrastructure (CNKI), China Science
+and Technology Journal(VIP), Wanfang Database, Chinese Biological Medical (CBM), PubMed, Embase, Web of Science,
+Cochrane Library, and Clinical trials. The retrieval period ranged from January 2012 to December 2023. Two inde-
+pendent reviewers screened the included literature, extracted the data, and assessed the risk quality using Cochrane
+Handbook 5.1.0 and ReviewManager 5.4.1. Stata16.0 software was employed for data analysis. The study protocol
+was registered in PROSPERO: CRD42023389180.
+Results After screening, 20 studies were included, involving a total of 1999 subjects. The network meta-analysis
+results indicate that, compared to standard rehabilitation, acupuncture plus massage plus rehabilitation showed
+the most significant reduction in Numbness Syndrome Scores (MD = -0.71(-1.11,-0.31)). Acupuncture combined
+with rehabilitation demonstrated the most substantial improvement in Sensory Impairment Scores (MD = -0.59,(-0.68,-
+0.51)) and daily living ability of patients (MD = 17.16,(12.20,22.12)).
+Conclusions In comparison to standard rehabilitation, the combination of acupuncture-related treatments
+and modern rehabilitation training not only improves the symptoms of sensory impairment and numbness
+after stroke but also enhances the daily living ability of patients, especially when acupuncture is combined with reha-
+bilitation. However, further demonstration is required to strengthen these conclusions.
+Keyword Stroke, Acupuncture, Rehabilitation training, Sensory impairment, Network meta-analysis
+†Jiaqi Wang, Bangqi Wu, and Yuanyuan Tong are co-first authors.
+*Correspondence:
+Bangqi Wu
+wbqwbq1980@126.com
+Full list of author information is available at the end of the article
+© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/. The Creative Commons Public Domain Dedication waiver (http://creativecom-
+mons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Wang et al. BMC Complementary Medicine and Therapies (2024) 24:102 Page 2 of 12
+Background modern rehabilitation training, seeking to leverage the
+Stroke is a cerebrovascular disease with a high incidence strengths of both traditional Chinese medicine and West-
+rate and mortality [1]. According to the Global, Regional, ern medicine. The findings of this study are intended to
+and Country-Specific Lifetime Risks of Stroke in 1990 provide evidence-based guidance for the clinical manage-
+and 2016, the global average lifetime risk of stroke is ment of sensory disorders following stroke.
+increasing,with China having the highest risk at 39.3%
+[37.5 – 41.1] [2]. After a stroke, patients often experience
+Methods
+various sequelae, and approximately 50% of them develop
+sensory disorders, particularly in the upper limbs [3]. According to the guidelines for network meta-analysis,
+These sensory disorders may involve tactile abnormali- namely the Preferred Reporting Items for Systematic
+ties, pain, vibration sensation, and proprioception loss. Reviews and Meta-Analyses for Network Meta-Analyses
+Clinically, patients may exhibit diminished acupuncture (PRISMA-NMA), We conducted the present meta-analy-
+sensation, impaired sense of position and movement and sis, which has been registered on PROSPERO under the
+body parts, among other symptoms [4, 5]. Propriocep- registration number CRD42023389180.
+tion, in particular, is more susceptible to damaged than
+the sense of touch, and the severity of sensory impair-
+Inclusion and exclusion criteria
+ment is closely related to the stroke’s severity [5]. Fur-
+Study design
+thermore, sensory disorders can significantly impact
+We included randomized controlled trials that examined
+the recovery of motor function, mood and daily living
+the effects of acupuncture-related treatments combined
+abilities of patients with stroke [6, 7]. Additionally, sen-
+with rehabilitation training in the treatment of sensory
+sory loss can prolong hospital stays and reduce discharge
+disturbance and numbness after stroke.
+rates. Unfortunately, the recovery of sensory function is
+often overlooked, with greater emphasis placed on motor
+function recovery [8]. Inclusion criteria
+Various methods are currently employed to treat sen-
+Type of participants
+sory disorders after stroke, including rehabilitation
+The diagnostic criteria for stroke followed the guide-
+training, Western medicine treatments, and traditional
+lines issued by the Chinese Society of Neurology, which
+Chinese medicine therapies. Traditional Chinese medi-
+encompassed the Diagnostic Criteria for Cerebral Vas-
+cine therapies encompass Chinese herbal medicine, vari-
+cular Diseases, Chinese Guidelines for the Diagnosis and
+ous types of acupuncture, cupping, and moxibustion.
+Treatment of Acute Ischemic Stroke 2010 [12], Guide-
+Among these, acupuncture has shown greater effective-
+lines for Diagnosis and Treatment of Acute Ischemic
+ness in treating sensory disorders. Different types of
+Stroke in China 2014 [13], Classification of Cerebral Vas-
+acupuncture methods, such as body acupuncture, fire
+cular Diseases in China 2015 [14], Chinese Guidelines for
+acupuncture, warm acupuncture, blood-letting punc-
+Diagnosis and Treatment of Acute Ischemic Stroke 2018
+ture, electro-acupuncture, and acupoint injection have
+[15], and Diagnostic Criteria of Cerebrovascular Diseases
+been utilized. Rehabilitation training for sensory disor-
+in China 2019 [16].
+ders refers to any sensory training applied to the limbs
+Sensory disorders were defined as abnormal manifes-
+or trunk to restore sensory function. Clinicians perform
+tations perceived by the patient’s supervisor, including
+repeated beneficial sensory stimulation on the patient’s
+shallow sensation and proprioception disorders. Main
+limbs, or use instruments for precise and systematic reha-
+clinical manifestations comprised hypoesthesia or loss,
+bilitation to increase sensory input [8]. Repeated sensory
+sensory abnormality or allergy, sensory inversion or vis-
+stimulation can enhance the plasticity of the motor cor-
+ceral discomfort. Additionally, the latency of SEP (soma-
+tex, thereby promoting the recovery of motor function
+tosensory evoked potentials) potentials was prolonged,
+[9]. However, single treatment approaches often have
+and the amplitude was reduced [17].
+slow and protracted outcomes. Therefore, although the
+research hotspot of combining traditional therapy with
+modern rehabilitation technology to treat sensory disor- Type of interventions
+ders after stroke is constantly heating up [10, 11], it was
+The treatment group mainly adopts acupuncture com-
+lacked systematic evaluation of this type of therapy. In
+bined with rehabilitation training. It can be combined
+light of this, the present study aims to conduct a network
+with other traditional therapies.
+meta-analysis of literature pertaining to the treatment of
+The types of acupuncture include acupuncture (body
+post-stroke sensory disorders. The objective is to explore
+acupuncture), warm needing, fire needing, electro-acu-
+the combined use of acupuncture-related treatments and
+puncture, acupoint injection, and blood-letting puncture.
+W ang et al. BMC Complementary Medicine and Therapies (2024) 24:102 Page 3 of 12
+Type of comparisons Web of Science, Cochrane Library, and Clinical trials.
+The control group underwent routine rehabilitation The retrieval time was from January 2012 to Decem-
+training. ber 2023. References included in the retrieved studies
+According to the mechanism of action, rehabilitation were also examined. Chinese and English search terms
+training of sensory impairment is divided into active included “acupuncture, warm needing, fire needing, elec-
+training and passive training [18]. tro-acupuncture, acupoint injection, blood-letting punc-
+Active training: Using learning principles and training ture; cerebrovascular accident, cerebrovascular apoplexy,
+methods that enhance sensory input (such as propriocep- stroke; sensation disorders, hypesthesia”.
+tion, tactile recognition, and localization).
+Passive training: A sensory stimulation method that
+Study selection and data extraction
+initiates the nervous system through external sensory
+stimuli (peripheral nerve stimulation, transcutaneous Two reviewers independently screened the included lit-
+electrical nerve stimulation). erature using NoteExpress 3.7.0. Duplicate literature was
+removed, followed by reading the titles and abstracts
+Type of outcome indicators according to the inclusion and exclusion criteria. The
+The outcome indicators included the Modified Barthel selected literature that met the criteria underwent full-
+Index Score (MBI), the Scores of Numbness Symptom, text reading to determine inclusion in the analysis.
+and the Sensory Disturbance Scores. Collect data in Excel, including first author, year of pub-
+lication, country of publication, sample size (intervention
+(1) The Modified Barthel Index Score（MBI）assessed group and control group), age, intervention measures
+(intervention group and control group), course of treat-
+living ability
+ment, and outcome indicators.
+The score contains 10 basic life items, with a total of
+100 points. The higher the score, the better the patient’s Bias risk assessment
+limb function [19].
+The quality of the included study was evaluated using
+the bias risk assessment tool recommended in Cochrane
+(2) The Scores of Numbness Symptom and the Sensory
+5.1 Handbook [21], which covered 7 aspects: random
+Disturbance Scores.
+sequence generation; allocation concealment, blind-
+ing of subjects and researchers, blinding of outcome
+No symptom: 0 point; Occasional symptoms: 1 point;
+assessment, completeness of outcome data, selective
+Frequent symptoms: 2 points; Continuous delivery: 3
+reporting, and other biases. The risk of each item was
+points. The higher the score, the more serious the symp-
+judged sequentially, and the results were visualized
+tom [20].
+using ReviewManager 5.4.1 software. The two reviewers
+exchanged and compared their evaluation results, with
+Exclusion criteria
+any differences resolved through collective discussion by
+the research group.
+Not related to sensation disorders after stroke.
+Control group adopted other treatments.
+Unmatched outcome indicators. Statistical methods
+Reviews, theoretical discussions, case reports, animal We used Stata 15.0 and ReviewManager 5.4.1 to conduct
+experiments, crossover trials, and non-randomized statistic analysis. For dichotomous outcome, we used
+controlled trials. odds ratio(OR) and 95% confidence interval (CI) to quan-
+Duplicate publications and studies with incomplete tify the effectiveness. For continuous outcome evalu-
+data. ated using the same scale, the weighted mean difference
+(WMD) and 95% confidence interval (CI) were employed
+as the effect size. Given the clinical and methodological
+Search strategy heterogeneity of the selected methods and subjects in
+Randomized controlled trials on the treatment of sen- the trials, a random-effects model was chosen for statis-
+sory disorders in patients with stroke were systemati- tical analysis [22]. Network funnel plots and Egger’s test
+cally retrieved from multiple databases, including China were performed to assess publication bias [23, 24]. The
+National Knowledge Infrastructure (CNKI), China Sci- surface under the cumulative ranking curve (SUCRA)
+ence and Technology Journal(VIP), Wanfang Database, was used to rank the advantages and disadvantages of
+Chinese Biological Medical (CBM), PubMed, Embase, interventions.
+Wang et al. BMC Complementary Medicine and Therapies (2024) 24:102 Page 4 of 12
+Results medicine plus rehabilitation, warm needing plus reha-
+Study selection and study characteristics bilitation, acupoint injection plus oral Chinese medicine
+Following preliminary screening based on the title and plus rehabilitation, acupoint injection plus rehabilitation,
+abstract, 142 articles were obtained, and their full texts electro-acupuncture plus rehabilitation, acupuncture
+were read. After careful examination, 122 articles were plus herbal fomentation plus rehabilitation, blood-letting
+excluded due to intervention measures, diagnostic crite- puncture plus rehabilitation and rehabilitation. Tables 1
+ria, and non-randomized controlled experiments. Finally, and 2 provide details of the characteristics of the included
+20 articles were included in the analysis [11, 25–43] studies.
+(Fig. 1).
+The total sample size was 1999 cases, including 1001 Bias risk assessment
+cases in the treatment group and 998 cases in the con- All 20 selected studies were randomized controlled trials
+trol group. The study involved 11 interventions, including [11, 25–43]. Regarding the random allocation method, 1
+acupuncture plus rehabilitation, acupuncture plus mas- article was rated as high risk due to allocated based on
+sage plus rehabilitation, acupuncture plus oral Chinese the treatment method [37]. The 14 articles were rated
+Fig. 1 PRISMA flow diagram
+W ang et al. BMC Complementary Medicine and Therapies (2024) 24:102 Page 5 of 12
+Table 1 Characteristics of included studies(1)
+Study Intervention Number of patients Intervention period Relevant
+(T/C) outcomes
+T C
+1 Ma Huimin 2022 J K 22(11/11) 14days ①
+2 Jia Xiaonan 2022 B K 107(54/53) 30days ②
+3 Wang Wei 2022 C K 67(34/33) 60days ②
+4 Li Hongying 2022 A K 76(38/38) 90days ②
+5 Li Lingling 2021 G K 66(33/33) 60days ①
+6 Chen Yinjianzi 2021 G K 102(51/51) 14days ①②③
+7 Ye Zhong 2021 A K 40(20/20) 30days ①
+8 Li Yawei 2021 D K 120(60/60) 30days ②
+9 Lv Sunsun 2021 D K 80(40/40) 28days ①
+10 Wu Suqing 2021 B K 440(220/220) 56days ①
+11 Wu Yuping 2021 H K 100(50/50) 14days ②
+12 Bai Xiaohui 2021 A K 78(39/39) 28days ②
+13 Wang Pan 2021 D K 90(45/45) 20days ②③
+14 Hua Bin 2021 A K 40(20/20) 42days ②
+15 Yan Li 2020 A K 156(78/78) 56days ①
+16 Zhao Wenjin 2018 C K 80(40/40) 84days ②③
+17 Dong Gang 2017 F K 89(45/44) 60days ①②③
+18 Feng Xiaodong 2015 I K 60(30/30) 28days ①
+19 Wang Hongbin 2015 A K 104(52/52) 14days ②③
+20 Xiong Peifang 2015 I K 82(41/41) 28days ①②
+Abbreviation: T Treatment groupm, C Control group
+①Modified Barthel Index (MBI) ②The Scores of Numbness Symptom.③The Sensory Disturbance Scores
+A: acupuncture plus rehabilitation, B: acupuncture plus massage plus rehabilitation, C: acupuncture plus oral Chinese medicine plus rehabilitation, D: warm
+needing plus rehabilitation, E: acupoint injection plus oral Chinese medicine plus rehabilitation, F: acupoint injection plus rehabilitation, G: electro-acupuncture
+plus rehabilitation, H: acupuncture plus herbal fomentation plus rehabilitation, I: blood-letting puncture plus rehabilitation, J: fire needing plus rehabilitation, K:
+rehabilitation
+as low risk as they were assigned in sequence using the The line between the two circles indicated there is a
+random number table method [11, 25–28, 30, 31, 35, 37, direct comparison between the two interventions. The
+39–43]. The other 6 articles did not specify the specific size of the circle represents the sample size included in
+allocation method [29, 32–34, 36, 38]. In terms of allo- each intervention, and the thickness of the line repre-
+cation concealment, blinding and measurement bias, all sents the number of studies included between the two
+20 articles were not clearly described. However, in terms interventions.
+of follow-up bias, all the literature provided clear expla- Figure 5 details the complete matrix of results.
+nations of the completeness of each indicator and the Figure 6 displays the results of the surface under the
+reasons for any missing or excluded data, resulting in a cumulative ranking curve (SUCRA), which ranks all
+low risk rating. Regarding reporting bias, all 20 articles treatment plans. In the MBI scores, the higher the score
+were rated as low risk. 3 articles with small sample sizes of SUCRA, the more effective the method is in improv-
+(less than 30 in each group) were rated as high risk [11, ing the sensory function and activities of daily living of
+29, 35]. No included literature mentioned other factors patients with stroke. The scores of numbness symptom
+that could cause bias risks, so all studies were rated as and the sensory disturbance scores belong to the evalu-
+unknown risk in terms of other biases (Figs. 2 and 3). ation indicators. The smaller the score, the better the
+efficacy.
+Network meta‑analysis of results
+Figure 4 presents the network meta-analysis diagram Modofied barthel index
+of the effects of different types of therapeutic interven- Of the 20 articles included articles, 10 reported MBI [11,
+tions on the Scores of Numbness Symptom, the Sensory 26–28, 32, 34, 35, 39, 41, 42]. Compared to standard reha-
+Disturbance Scores, the Modified Barthel Index (MBI). bilitation, the interventions that were found to have the
+Wang et al. BMC Complementary Medicine and Therapies (2024) 24:102 Page 6 of 12
+Table 2 Characteristics of included studies(2)
+Study Year Study period Age (years) (mean ± SD)
+T C
+Ma Huimin 2022 2020.9—2021.3 66.45 ± 8.98 64.55 ± 6.89
+Jia Xiaonan 2022 2019.8–2020.12 58.63 ± 4.05 57.25 ± 4.05
+Wang Wei 2022 2018.1—2019.1 56.24 ± 1.05 56.81 ± 1.16
+Li Hongying 2022 2018.2–2020.7 68.81 ± 8.92 68.75 ± 8.97
+Li Lingling 2021 2018.3—2019.3 58.6 ± 3.5 58.9 ± 3.1
+Chen Yinjianzi 2021 2018.11–2019.11 60.21 ± 8.57 60.15 ± 8.42
+Ye Zhong 2021 2018.7–2019.12 57. 2 ± 4.3 56. 3 ± 4.6
+Li Yawei 2021 2019.6—2020.6 55.38 ± 11.05 56.02 ± 11.23
+Lv Sunsun 2021 2018.6 ± 2019.12 58.85 ± 5.36 58.79 ± 5.28
+Wu Suqing 2021 2018.1 —2020.1 57. 4 ± 5. 2 58. 9 ± 7. 4
+Wu Yuping 2021 2018.1–2020.6 55.39 ± 3.41 55.36 ± 3.21
+Bai Xiaohui 2021 2018.9–2019.11 60.24 ± 3.58 61.32 ± 3.62
+Wang Pan 2021 2017.5–2019.10 60. 85 ± 7.64 60. 82 ± 7. 61
+Hua Bin 2021 2018.2–2020.2 63.01 ± 6.08 62.15 ± 7.25
+Yan Li 2020 2015.6—2018.6 62.98 ± 8.40 63.749 ± 9.91
+Zhao Wenjin 2018 2015.2–2017.1 61.52 ± 8.37 60.23 ± 8.29
+Dong Gang 2017 2015.1–2017.1 72.4 ± 4.6 73.6 ± 4.8
+Feng Xiaodong 2015 2013.2–2014.8 56.73 ± 9.32 53.27 ± 11.62
+Wang Hongbin 2015 2013.8–2014.10 56.7 ± 2.5 54.2 ± 3.6
+Xiong Peifang 2015 2012.3–2013.12 65.00 ± 2.00 65.00 ± 2.00
+Abbreviation: SD Standard deviation, T Treatment group, C Control group
+Fig. 2 Risk of bias graph
+most significant effect on improving patients’ daily living The scores of numbness symptom
+ability were acupuncture plus rehabilitation [MD = 17.16, 13 studies reported a change in the scores of numbness
+95%CI(12.20,22.12)], blood-letting puncture plus reha- symptom after treatment [25–27, 29–31, 33, 36–38,
+bilitation [MD = 12.68, 95%CI(6.52,18.84)], and acu- 40, 41, 43]. Interventions that significantly reduced the
+puncture plus massage plus rehabilitation [MD = 12.47, scores of numbness symptom compared to standard
+95%CI(6.39,18.55)]. According to the SUCRA results, the rehabilitation included acupuncture plus massage plus
+top three interventions based on MBI scores were acu- rehabilitation [MD = -0.71, 95%CI(-1.11,-0.31)], acupunc-
+puncture plus rehabilitation (95.8%), blood-letting punc- ture plus rehabilitation [MD = -0.60, 95%CI(-0.81,-0.38)],
+ture plus rehabilitation (72.2%), and acupuncture plus acupuncture plus oral Chinese medicine plus rehabilita-
+massage plus rehabilitation (71.1%). tion [MD = -0.57, 95%CI(-0.86,-0.29)], and warm needing
+W ang et al. BMC Complementary Medicine and Therapies (2024) 24:102 Page 7 of 12
+Fig. 3 Risk of bias summary. Note: Green: low risk of bias; Yellow: some concerns; Red: high risk of bias
+Fig. 4 Network plot of treatment comparisons in the network meta-analysis
+plus rehabilitation [MD = -0.55, 95%CI(-0.84,-0.26)]. The massage plus rehabilitation(18.1%), acupuncture plus
+difference were statistically significant (P < 0.00001). rehabilitation(29.6%), and acupuncture plus oral Chi-
+The numbness syndrome score is an evaluation index, nese medicine plus rehabilitation(33.8%) were found to
+and the smaller the SUCRA value, the more effective it be highly effective in reducing numbness in patients after
+is. According to the SUCRA results, acupuncture plus stroke.
+Wang et al. BMC Complementary Medicine and Therapies (2024) 24:102 Page 8 of 12
+Fig. 5 Network meta-analysis of results
+The sensory disturbance scores The GRADE grading results
+Five articles reported the syndrome score of sensory The quality of evidence for the study outcome indica-
+impairment [26, 27, 29, 36, 43]. Interventions that sig- tors was evaluated following the GRADE grading process
+nificantly reduced the sensory disturbance scores com- in the network meta-analysis, which included 5 down-
+pared to the control group included acupuncture plus grading factors: risk of bias, imprecision, incoherence,
+rehabilitation [MD = -0.59, 95%CI(-0.68,-0.51)], acu- inconsistency, and publication bias. The final quality of
+point injection plus rehabilitation [MD = -0.57, 95%CI(- evidence was graded as high, moderate, low, and very
+0.86,-0.28)], electro-acupuncture plus rehabilitation low. The GRADE grading results indicated that the qual-
+[MD = -0.56, 95%CI(-0.82,-0.30)], and acupuncture plus ity of evidence for the comparison between interventions
+oral Chinese medicine plus rehabilitation [MD = -0.36, was generally low or very low, except for the comparison
+95%CI(-0.44,-0.28)]. The most effective intervention in of Acupuncture plus Rehabilitation or Acupuncture plus
+reducing sensory disorders was found to be acupuncture Massage plus Rehabilitation vs Rehabilitation,which was
+plus rehabilitation (SUCRA = 21%). rated as moderate. The lack of mention of blinding and
+allocation concealment in most of the literature contrib-
+uted to an overall low quality of evidence rating.
+Risk of bias across the studies
+Figure 7 presents the funnel plots of each outcome indi-
+Discussion
+cator. The funnel plot of the sensory disturbance scores
+(P = 0.328 > 0.5), and the Modified Barthel Index (MBI) In many countries, stroke is a leading cause of disabil-
+(P = 0.277 > 0.5) are almost symmetrical, indicating that ity, placing a significant burden on families and health-
+research publication bias is small. However, the funnel care systems [44]. The involvement of the sensory
+chart of the scores of numbness symptom is not com- system is crucial for our perception, reaction, and exter-
+pletely symmetrical, and some points fall on the bot- nal responses. Abnormal sensations after a stroke can
+tom and outside of the funnel chart, suggesting a certain hinder the recovery of a patient’s motor function, lead-
+degree of publication bias (P = 0.03 < 0.5). Therefore, ing to difficulties in performing daily activities and self-
+interpretation of the research results should be treated care [45, 46]. Stroke rehabilitation is a complex process,
+with caution. but recognized guidelines for the optimal time, type, and
+W ang et al. BMC Complementary Medicine and Therapies (2024) 24:102 Page 9 of 12
+Fig. 6 Cumulative probabilities plots of the surface under the cumulative ranking curves (SUCRAs). [Abbreviation: A Acupuncture
+plus rehabilitation, B Acupuncture plus massage plus rehabilitation, C Acupuncture plus oral Chinese medicine plus rehabilitation, D Warm
+needing plus rehabilitation, E Acupoint injection plus oral Chinese medicine plus rehabilitation, F Acupoint injection plus rehabilitation, G
+Electro-acupuncture plus rehabilitation, H Acupuncture plus herbal fomentation plus rehabilitation, I Blood-letting puncture plus rehabilitation, J
+Fire needing plus rehabilitation, K Rehabilitation]
+Fig. 7 Adjusted network funnel plot for assessing publication bias in the network meta-analysis
+Wang et al. BMC Complementary Medicine and Therapies (2024) 24:102 Page 10 of 12
+intensity of rehabilitation are not immediately available. quality of the included trials was moderate, indicating
+Thus, clinicians need to understand how different reha- a need for higher-quality and more standardized rand-
+bilitation programs impact the central nervous system omized controlled trials in the future.
+and determine the most effective rehabilitation training
+strategy based on each patient’s individual circumstances, Conclusions
+including the timing, type, and intensity of rehabilitation
+The research results demonstrate that the combination of
+training [47].
+acupuncture and rehabilitation training can significantly
+With advancements in medicine, clinicians have come
+alleviate sensory disorders such as numbness and pain in
+to recognize the significance of restoring sensory func-
+patients after a stroke, leading to improve their self-care
+tion recovery for overall motor function recovery [48]. As
+abilities and overall quality of life. Notably, the interven-
+a traditional medical therapy in China, acupuncture has
+tions of acupuncture plus rehabilitation and acupunc-
+gradually gained recognition as one of the most widely
+ture plus massage plus rehabilitation showed particularly
+used and effective alternative therapies [49]. Faced with
+promising outcomes. Additionally, the other 9 acupunc-
+a variety of treatment options, clinicians require robust
+ture-related treatments mentioned in the study also dem-
+evidence to make informed decisions. Therefore, this
+onstrated efficacy and warrant further investigation.
+study analyzed nearly a decade’s worth of randomized
+Acknowledgements
+controlled trials, comparing various acupuncture-related
+Not applicable.
+methods with rehabilitation treatment and standard
+rehabilitation. The study involved 11 different acupunc- Authors’ contributions
+Jiaqi Wang and Bangqi Wu conceived and designed this study. ZhaoJun
+ture-related treatment approaches, and the interventions
+Lu and Wenqing Wang searched literature. Jiaqi Wang and Yuanyuan Tong
+were ranked comprehensively based on the final results. selected literature and extracted data. Jiaqi Wang and Xuhui Wang analyzed
+Additionally, the study identified 10 treatment methods the data. Jiaqi Wang wrote the content of the manuscript. All authors read and
+approved the final manuscript.
+that, when combined with rehabilitation training, showed
+efficacy and merit further exploration. Funding
+This study represents the first network meta-analysis This research did not receive any specific grant from funding agencies in the
+public, commercial, or not-for-profit sectors.
+of acupuncture-related treatments combined with reha-
+bilitation therapy for post-stroke sensory disorders. The Availability of data and materials
+mechanism of acupuncture in treating sensory disor- All data generated or analysed during this study are included in this published
+article.
+ders after stroke involves the functional reconstruction
+and rehabilitation of the central nervous system [50]. By
+Declarations
+comparing the results of Single Photon Emission Com-
+puted Tomography (SPECT) perfusion and functional Ethics approval and consent to participate
+MRI scans taken before and after treatment, research- Not applicable.
+ers found that traditional acupuncture increased cerebral
+Consent for publication
+blood flow in the sensorimotor area and activated the Not applicable.
+somatosensory cortex in patients with stroke, providing
+Competing interests
+evidence for the therapeutic effect of traditional medi-
+The authors declare no competing interests.
+cine in stroke rehabilitation [51, 52]. Many studies have
+demonstrated that somatosensory training and physical Author details
+1 First Teaching Hospital of Tianjin University of Traditional Chinese Medicine,
+exercises can be conducted simultaneously, significantly
+Tianjin, China. 2 National Clinical Research Center for Chinese Medicine Acu-
+activating both the sensory and motor cortex [53, 54]. puncture and Moxibustion, Tianjin, China.
+Therefore, the combination of traditional acupuncture
+Received: 5 March 2023 Accepted: 13 February 2024
+and rehabilitation training may accelerate the process of
+sensory recovery, enhance a patient’s self-care abilities,
+and potentially lead to shorten hospital stays.
+Despite the positive findings from the network meta-
+References
+analysis, several limitations should be acknowledged.
+1. Virani SS, Alonso A, Benjamin EJ, et al. Heart disease and stroke sta-
+First, many of the included randomized controlled tri- tistics-2020 update: a report from the American Heart Association[J].
+als had small sample sizes and were conducted at single Circulation. 2020;141(9):139–596.
+2. Feigin VL, Nguyen G, Cercy K, et al. Global, regional, and country-
+centers, potentially introducing bias into the results. Sec-
+specific lifetime risks of stroke, 1990 and 2016. N Engl J Med.
+ondly, all the study subjects were Chinese, so the gen- 2018;379(25):2429–37.
+eralizability of the research findings to patients in other 3. Klit H, Finnerup NB, Andersen G, et al. Central poststroke pain: a popula-
+tion-based study. Pain. 2011;152(4):818–24.
+countries may need to be considered. Finally, the overall
+W ang et al. BMC Complementary Medicine and Therapies (2024) 24:102 Page 11 of 12
+4. Carey LM, Matyas TA, Oke LE. Sensory loss in stroke patients: effective 30. Jia XN. Effect of acupuncture and massage combined with rehabilitation
+training of tactile and proprioceptive discrimination. Arch Phys Med therapy in post-stroke hemiplegic patients. Med Equip. 2022;35(4):110–2
+Rehabil. 1993;74(6):602–11. (In Chinese).
+5. Connell LA, Lincoln NB, Radford KA. Somatosensory impairment after 31. Li HY. Effect of Xingnao Kaiqiao acupuncture combined with rehabilita-
+stroke: frequency of different deficits and their recovery. Clin Rehabil. tion training in treatment of post-stroke hemiplegia patients. Med J Chin
+2008;22(8):758–67. People’s Health. 2022;34(3):96–9 (In Chinese).
+6. Kessner SS, Bingel U, Thomalla G. Somatosensory deficits after stroke: a 32. Li LL. Clinical study on electroacupuncture combined with propriocep-
+scoping review. Top Stroke Rehabil. 2016;23(2):136–46. tive neuromuscular facilitation for stroke complicated with lower limb
+7. Tyson SF, Crow JL, Connell L, et al. Sensory impairments of the lower disorder. J New Chin Med. 2021;53(20):185–8 (In Chinese).
+limb after stroke: a pooled analysis of individual patient data. Top 33. Li YW. Effect of warm needle moxibustion and cupping combined
+Stroke Rehabilitationl. 2013;20(5):441–9. with functional exercise on the rehabilitation of limb dysfunction after
+8. Schabrun SM, Hillier S. Evidence for the retraining of sensation after cerebral hemorrhage. Reflexology Rehabilitation Med. 2021;2(2):17–9, 35
+stroke: a systematic review. Clin Rehabil. 2009;23(1):27–39. (In Chinese).
+9. Carrico C, Chelette KN, Westgate PM, et al. Nerve stimulation enhances 34. Lv SS, Cheng X, Zhou WJ. Rood technique combined with warm acu-
+task-oriented training in chronic, severe motor deficit after stroke: a puncture for post-stroke clinical observation of sensory disorders. Chin J
+randomized trial. Stroke. 2016;47(7):1879–84. Traditional Med Sci Technol. 2021;28(5):793–5 (In Chinese).
+10. Zhang QM, Li XL, Zhang Y. The curative effect of Ziyin Tongluo decoc- 35. Ma HM, Yao AN, Li Y, et al. The efficacy of fire acupuncture on Yangming
+tion combined with acupuncture in the treatment of stroke recovery Meridian points in the treatment of patients with hemianesthesia in
+period. Shanxi Med J. 2022;51(7):739–42 (In Chinese). stroke. Health Prot Promotion. 2022;22(08):595–7 (In Chinese).
+11. Ye Z, Shen HH, Zheng L, et al. Clinical analysis of post-stroke sensory 36. Wang HB, Peng XP, Xu J, et al. Effects of acupuncture combined with
+disorders treated with Xingnao Kaiqiao acupuncture combined with rehabilitation training on limb motor function and daily living ability
+sensory function retraining. Mod Practical Med. 2021;33(01):41–3 (In of stroke patients with hemiplegia. Shaanxi J Traditional Chin Med.
+Chinese). 2015;7:914–6 (In Chinese).
+12. Chinese Society of Neurology. Chinese guidelines for the diagnosis and 37. Wang P. Effect of warm acupuncture combined with rehabilitation
+treatment of Acute Ischemic Stroke 2010. Chin J Neurol. 2010;43(1):146 therapy on patients recovering from stroke. Practical Clin J Integr Tradi-
+(In Chinese). tional Chin Western Med. 2021;21(2):103–4 (In Chinese).
+13. Chinese Society of Neurology. Guidelines for diagnosis and treatment 38. Wang W. Efficacy analysis of acupuncture plus Chinese herbal medicine
+of acute ischemic stroke in China 2014. Chin J Neurol. 2015;48:246–57 combined with rehabilitation in the treatment of post-stroke sequelae.
+(In Chinese). Hubei J Traditional Chin Med. 2022;44(3):32–4 (In Chinese).
+14. Chinese Society of Neurology. Classification of cerebral vascular dis- 39. Wu SQ, Ding BH, Mao WJ. Effects of early rehabilitation combined with
+eases in China (2015). Chin J Neurol. 2017;50(3):168–71 (In Chinese). acupuncture and massage on sensory function and quality of life in
+15. Chinese Society of Neurology. Chinese guidelines for diagnosis and patients with post-stroke sensory impairment. Mod J Integr Traditional
+treatment of acuteischemic stroke 2018. Chin J Neurol. 2018;51:666–82 Chin Western Med. 2021;30(25):2828–31 (In Chinese).
+(In Chinese). 40. Wu YP, Diao LX, Hua MX, et al. Clinical effects of combining herbal
+16. Chinese Society of Neurology. Diagnostic criteria of cerebrovascular fomentation with acupuncture in the treatment of recovering cerebral
+diseases in China (2019). Chin J Neurol. 2019;52(9):710–5 (In Chinese). infarction with Chinese medicine[J]. Inner Mongolia J Traditional Chin
+17. Jiang Wu. Neurology. Beijing: People’s Medical Publishing House; 2014. Med. 2021;40(6):105–6 (In Chinese).
+p. 27–33 (In Chinese). 41. Xiong PF, Chen SJ. Treating stroke sequela by acupuncture plus pricking
+18. Serrada I, Hordacre B, Hillier SL. Does sensory retraining improve sensa- bloodletting. Clin J Chin Med. 2015;7(11):30–1 (In Chinese).
+tion and sensorimotor function following stroke: a systematic review 42. Yan L, Li J, Wei YL, et al. Effect of light pricking method combined with
+and meta-analysis. Front Neurosci. 2019;13:402. acupuncture on sensory function and quality of life in stroke patients
+19. Shah S, Vanclay F, Cooper B. Improving the sensitivity of the Barthel with hemianesthesia. Mod J Integr Traditional Chin Western Med.
+Index for stroke rehabilitation. J Clin Epidemiol. 1989;42(8):703–9. 2019;28(17):1856–60 (In Chinese).
+20. Zheng XY. Guiding principles for clinical research of new Chinese 43. Zhao WJ. Effect of Chinese medicine combined with acupuncture on
+medicines. Beijing: China Medical Science; 2002. p. 115–9 (In Chinese). clinical symptoms of patients with post-stroke limb disorders and surface
+21. Higgins JP, Altman DG, Gotzsche PC, et al. The Cochrane collaboration’s electromyography. J Sichuan Traditional Chin Med. 2018;36(10):118–20
+tool for assessing risk of bias in randomised trials. BMJ. 2011;343:5928. (In Chinese).
+22. Jackson D, Turner R, Rhodes K, et al. Methods for calculating confi- 44. Pendlebury ST, Rothwell PM, Algra A, et al. Underfunding of stroke
+dence and credible intervals for the residual between-study variance research: a Europe-wide problem. Stroke. 2004;35(10):2368–71.
+in random effects meta-regression models. BMC Med Res Methodol. 45. Rand D, Gottlieb D, Tamar Weiss PL. Recovery of patients with a com-
+2014;14:103. bined motor and proprioception deficit during the first six weeks of
+23. Egger M, Davey SG, Schneider M, et al. Bias in meta-analysis detected post stroke rehabilitation. Physical & Occupational Therapy In Geriatrics.
+by a simple, graphical test. BMJ. 1997;315(7109):629–34. 2001;18:69–87.
+24. Bowden J, Davey SG, Burgess S. Mendelian randomization with invalid 46. Nowak DA, Grefkes C, Dafotakis M, et al. Dexterity is impaired at both
+instruments: effect estimation and bias detection through Egger hands following unilateral subcortical middle cerebral artery stroke. Eur J
+regression. Int J Epidemiol. 2015;44(2):512–25. Neurosci. 2007;25(10):3173–84.
+25. Bai XH, Cui YZ, Bai JQ. Intervention effect of Chinese medicine acu- 47. Wahl AS, Schwab ME. Finding an optimal rehabilitation paradigm after
+puncture combined with limb training on post-stroke hemiplegia. stroke: enhancing fiber growth and training of the brain at the right
+Chin J Conval Med. 2021;30(7):720–1 (In Chinese). moment. Front Hum Neurosci. 2014;8:381.
+26. Chen YJZ, Wang CJ. Effect of electroacupuncture on hemiplegia after 48. Connell LA, McMahon NE, Adams N. Stroke survivors’experiences of
+stroke. Chin J Prim Med Pharm. 2021;28(03):357–61 (In Chinese). somatosensory impairment after stroke: an interpretative phenomeno-
+27. Dong G, Zhang JH, Wang WB. Clinical observation of spastic hemi- logical analysis. Physiotherapy. 2014;100(2):150–5.
+plegia after stroke treated with acupoint injection combined with 49. NIH Consensus Conference. Acupuncture. JAMA. 1998;280(17):1518–24.
+rehabilitation. Shaanxi J Traditional Chin Med. 2017;38(08):997–8 (In 50. Chang QY, Lin YW, Hsieh CL. Acupuncture and neuroregeneration in
+Chinese). ischemic stroke. Neural Regen Res. 2018;13(4):573–83.
+28. Feng XD, Gao LL, Li RQ, et al. Effect of blood-letting puncture and cup- 51. Li G, Jack CJ, Yang ES. An fMRI study of somatosensory-implicated acu-
+ping therapy on hemianesthesia after stroke. Chin J Rehabilitation Theory puncture points in stable somatosensory stroke patients. J Magn Reson
+Pract. 2015;21(10):1206–8 (In Chinese). Imaging. 2006;24(5):1018–24.
+29. Hua B. Clinical effect of acupuncture combined with rehabilitation 52. Schaechter JD, Connell BD, Stason WB, et al. Correlated change in
+training on hemiplegia after stroke. Smart Healthc. 2021;7(25):167–9 (In upper limb function and motor cortex activation after verum and sham
+Chinese).
+Wang et al. BMC Complementary Medicine and Therapies (2024) 24:102 Page 12 of 12
+acupuncture in patients with chronic stroke. J Altern Complement Med.
+2007;13(5):527–32.
+53. Gopaul U, van Vliet P, Callister R, et al. Combined physical and soma-
+tosensory training after stroke: development and description of a
+novel intervention to improve upper limb function. Physiother Res Int.
+2019;24(1):1748.
+54. Schaechter JD, Moore CI, Connell BD, et al. Structural and functional
+plasticity in the somatosensory cortex of chronic stroke patients. Brain.
+2006;129(10):2722–33.
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in pub-
+lished maps and institutional affiliations.

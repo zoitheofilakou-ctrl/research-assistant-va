@@ -1,0 +1,317 @@
+International Journal on Recent and Innovation Trends in Computing and Communication
+ISSN: 2321-8169 Volume: 11 Issue: 7s
+DOI: https://doi.org/10.17762/ijritcc.v11i7s.7524
+Article Received: 20 April 2023 Revised: 05 June 2023 Accepted: 26 June 2023
+___________________________________________________________________________________________________________________
+ACO based Clinical Decision Support System for
+Better Medical Care
+Ishwa Anadani1, Pavi Sharma2, Anand Sharma3
+1CSE Department
+SET, MUST, Lakshmangarh, India
+ishwa2808@gmail.com
+2CSE Department
+SET, MUST, Lakshmangarh, India
+pavisharma2002@gmail.com
+3CSE Department
+SET, MUST, Lakshmangarh, India
+anand_glee@yahoo.co.in
+Abstract— In the realm of healthcare, the utilization of clinical decision support systems (CDSSs) has become increasingly prevalent as a
+means of providing medical professionals with a computer-based tool that grants them access to pertinent data and expertise, thereby aiding in
+their ability to make informed clinical decisions. The potential applications of a CDSS are numerous, ranging from disease diagnosis and the
+creation of treatment programs, to patient progress monitoring. A crucial component of a CDSS is its knowledge base, which comprises the data
+utilized by the system to generate recommendations and provide feedback to healthcare providers. In an effort to enhance the knowledge base of
+a CDSS for a particular clinical condition, metaheuristic methods such as Ant Colony Optimization (ACO) can be employed to select the most
+suitable and applicable data. ACO facilitates the identification of the portion of a CDSS's knowledge base that is most likely to result in the
+optimal clinical decision, from among the vast array of data that it may contain. This study aims to explore the potential benefits of utilizing
+ACO methods in CDSSs for the betterment of patient care. The paper outlines the design and implementation of an ACO-based CDSS, which
+can offer tailored treatment plans for patients based on their medical histories and current condition.
+Keywords- ACO; Clinical Decision Support System; Pheromone; Bio-semiotics.
+I. INTRODUCTION data, view recommendations, and make inferences. The user
+interface may exist as a stand-alone program or be integrated
+In the field of healthcare, clinical decision support systems
+into the electronic health record (EHR) system.
+(CDSS) have emerged as computer-based tools [1] designed to
+provide decision-making assistance to healthcare practitioners The knowledge base [3] of a CDSS is a compendium
+by analyzing patient data and generating recommendations of information and expertise about ailments, symptoms,
+based on established clinical criteria. The primary objective of diagnostic procedures, and treatments. It can be developed and
+these systems is to facilitate evidence-based decision-making managed by healthcare practitioners, researchers, and other
+and mitigate clinical practice errors, ultimately leading to subject matter experts. There are various types of data that are
+improved patient care quality. CDSS may be implemented in a typically found in the knowledge base of a CDSS, such as
+variety of healthcare settings such as hospitals, clinics, and evidence-based guidelines and protocols that provide
+other healthcare institutions. recommendations for the diagnosis and treatment of various
+diseases. Overall, the implementation of CDSS in healthcare
+CDSS generally comprises three main components:
+settings has the potential to improve the quality of care
+the knowledge base, inference engine, and user interface. The
+provided to patients, thereby resulting in better clinical
+knowledge base is a repository of information [2] about
+outcomes.
+various diseases, symptoms, laboratory tests, and treatments.
+This knowledge base is regularly updated with the latest The medical knowledge base used by a clinical
+research and publication findings. The CDSS's inference decision support system (CDSS) encompasses a wide range of
+engine, which is a software program, incorporates rules and information. It includes details about specific diseases, their
+algorithms to analyze the data entered by the user. The causes, symptoms, risk factors, and treatments, which can be
+inference engine consults the knowledge base to provide represented in complex form. Additionally, the database
+insights and feedback to healthcare professionals. The user contains extensive drug-related information, including dosage,
+interface of the CDSS allows healthcare professionals to input side effects, interactions, contraindications, and cautions.
+635
+IJRITCC | June 2023, Available @ http://www.ijritcc.org
+International Journal on Recent and Innovation Trends in Computing and Communication
+ISSN: 2321-8169 Volume: 11 Issue: 7s
+DOI: https://doi.org/10.17762/ijritcc.v11i7s.7524
+Article Received: 20 April 2023 Revised: 05 June 2023 Accepted: 26 June 2023
+___________________________________________________________________________________________________________________
+Information about patients, such as funding details, pathology pheromone if the path was successful and less if it was not.
+results, government entitlement discount cards, medication This feedback loop strengthens viable paths while also
+list, dosage, specialist's contact details, and vital signs, is also promoting exploration[11] of new paths. With time, the paths
+utilized to tailor the CDSS's suggestions [4]. with the highest pheromone levels become more appealing to
+ants, resulting in a greater concentration of ants along the
+To develop the knowledge base, research findings
+shortest path. The algorithm terminates once a stopping
+from the most recent studies and clinical trials are incorporated
+criterion is met, such as reaching a maximum number of
+to update and advance the body of knowledge. The needs of
+iterations or finding a satisfactory solution.
+the CDSS and healthcare practitioners determine the most
+effective way to structure the knowledge base. It can be Ant Colony Optimization has been applied to a
+arranged hierarchically, with general categories at the top and variety of optimization issues, including those in the medical
+more precise data at the bottom, or structured using semantic industry. By considering several variables, including a
+networks or ontologies, which specify the connections patient's medical history, present condition, and available
+between various ideas and phrases. treatments, Ant Colony Optimization can be used in Decision
+Support Systems to optimize treatment recommendations for
+For the CDSS to be effective, the knowledge base
+patients. By analyzing numerous parameters and generating
+must be kept accurate and current, which requires continual
+the most effective response, the algorithm can aid in selecting
+updating and testing to guarantee that the recommendations
+the best course of treatment. Ant Colony Optimization has
+made are trustworthy. Given the constantly changing nature of
+been utilized in the medical field for a variety of purposes,
+healthcare, the knowledge base must also be built to
+including optimizing radiation therapy protocols, scheduling
+accommodate exceptions and special instances. In summary,
+patient appointments, and improving the efficiency of clinical
+the CDSS's knowledge base is a comprehensive collection of
+trials. By analyzing large amounts of data, Ant Colony
+medical information that is continually updated and validated
+Optimization has the potential to aid in disease diagnosis and
+to provide accurate recommendations for healthcare
+prognosis prediction.
+practitioners
+Ant Colony Optimization can be utilized in various
+II. ANT COLONY OPTIMIZATION (ACO)
+ways to enhance the knowledge base, including feature
+The area of inquiry concerned with the study of selection, rule selection, and ranking and prioritization.
+prelinguistic meaning-making, which pertains to the creation Feature selection entails selecting the most relevant factors,
+and examination of signals and codes in the biological realm, such as symptoms, laboratory results, and medical history, that
+is referred to as bio-semiotics [5], a discipline that lies at the are most likely to result in an appropriate diagnosis or
+intersection of semiotics and biology. One approach to treatment. Rule selection involves selecting the most relevant
+optimization, known as Ant Colony Optimization, draws clinical rules, such as decision trees and diagnostic algorithms,
+inspiration from the bio-semiotic communication techniques that are most likely to result in the best clinical decision.
+employed [6] by ants. Using a heuristic function in Ranking and prioritization involve organizing and prioritizing
+combination with pheromone trail following, every ant the data in the knowledge base according to its relevance and
+constructs a solution using a stochastic greedy strategy. This importance to the current clinical situation, which can be
+optimization technique [7] belongs to the class of algorithms accomplished using Ant Colony Optimization.
+known as Swarm Optimization, which are well-suited for
+III. ACO IN CDSS
+addressing problems that involve graph search reduction.
+By limiting the amount of information that healthcare
+By simulating the behavior of actual ants, Ant Colony
+practitioners must process and by supplying more targeted and
+Optimization can identify the shortest path[8] from a starting
+pertinent information, the use of ACO in CDSS can assist to
+point to a destination. As ants move, they leave behind a trail
+enhance the accuracy and efficiency of clinical decision-
+of pheromones, which attracts other ants. The concentration of
+making. This can lower the possibility of mistakes and
+pheromones on the trail increases[9] as more ants travel along
+enhance patient outcomes. However, the quality and
+it. In Ant Colony Optimization, a synthetic ant starts from a
+completeness of the knowledge base, as well as the suitability
+source and moves through a network or graph while
+of the ACO algorithm for the particular clinical issue,
+constructing a path. Based on a probabilistic decision process
+determine how effective ACO is in CDSS.
+that takes into account the pheromone concentration on each
+accessible edge and the distance to the next node [10], the ant In ACO applied to Clinical Decision Support Systems
+decides which node to visit next. The ant adjusts the amount of (CDSS), pheromone variables are used to model the
+pheromone on the edge it has traversed, depositing more attractiveness of different treatment options. The possible
+636
+IJRITCC | June 2023, Available @ http://www.ijritcc.org
+International Journal on Recent and Innovation Trends in Computing and Communication
+ISSN: 2321-8169 Volume: 11 Issue: 7s
+DOI: https://doi.org/10.17762/ijritcc.v11i7s.7524
+Article Received: 20 April 2023 Revised: 05 June 2023 Accepted: 26 June 2023
+___________________________________________________________________________________________________________________
+pheromone variables that can be used in ACO for CDSS patient is given the recommendation for the treatment
+depend on the specific context and goals of the system. option with the highest pheromone value.
+However, some possible examples of pheromone variables in
+CDSS are treatment effectiveness, treatment side effects,
+treatment cost, treatment interactions, clinical guidelines and,
+patient preferences.
+For the proposed model we have taken clinical guidelines
+as the pheromone value as shown in figure 1 and it’s steps are
+explained below.
+• Initialization: To represent the patient's condition or
+ailment, a group of synthetic ants is constructed and
+placed on a start node at the beginning of the algorithm.
+Each treatment option's pheromone values start out with
+a somewhat positive number.
+• Artificial ants use decision nodes to design their own
+solutions, choosing a course of action at each one. The
+selection of the treatment option is based on a
+probabilistic rule that depends on the pheromone value
+Figure 1. Flowchart for ACO when pheromone is Clinical Guidelines.
+of the treatment choice and the heuristic information
+about the patient's state, disease, and treatment options. Upon the aforementioned procedural implementation of
+The clinical recommendations and best practices for the the Ant Colony Optimization (ACO) algorithm, it is intended
+patient's condition or ailment are part of the heuristic to be seamlessly assimilated into a Clinical Decision Support
+knowledge in this situation. System (CDSS) with an acute consideration of the data
+• Solution evaluation: Following the construction of a modules as shown in figure 2. The ultimate goal of such
+comprehensive solution, the solution is assessed to integration is to facilitate the provision of the most optimal
+determine how closely it adheres to the clinical treatment recommendations. This would be accomplished
+recommendations and best practices for the patient's through a user interface designed to effectively interact with
+condition or disease. The evaluation may entail the system, thereby enabling efficient communication of the
+comparing the treatment options to the evidence-based aforementioned recommendations to the relevant healthcare
+therapeutic recommendations and deciding whether they professionals.
+are suitable for the patient's particular circumstances.
+• Pheromone update: Depending on how well the artificial
+ants' solutions worked, the treatment alternatives'
+pheromone values are updated. In this instance, a
+treatment option's pheromone value is revised in light of
+how well it adheres to the clinical recommendations and
+best practices for the patient's illness or condition. Its
+pheromone value increases with the degree of clinical
+standards alignment. The following formula is used to
+update the pheromone values for the various treatment
+options:
+• pheromone value = (1 - evaporation rate) * pheromone
+value + delta pheromone
+• where delta pheromone is the quantity of pheromone that
+the artificial ant that discovered the solution deposited
+on the treatment option.
+• Termination: When a stopping criterion, such as a
+maximum number of iterations or a convergence of the
+Figure 2. Integration of ACO in CDSS
+pheromone values, is satisfied, the algorithm ends. The
+637
+IJRITCC | June 2023, Available @ http://www.ijritcc.org
+International Journal on Recent and Innovation Trends in Computing and Communication
+ISSN: 2321-8169 Volume: 11 Issue: 7s
+DOI: https://doi.org/10.17762/ijritcc.v11i7s.7524
+Article Received: 20 April 2023 Revised: 05 June 2023 Accepted: 26 June 2023
+___________________________________________________________________________________________________________________
+IV. ADVANTAGES patient's data, available options, and recommended courses of
+action.
+Herein are presented several intricate approaches by
+which an ACO may implement decision support systems This process is repeated until a comprehensive
+(DSS) to mitigate risk and bolster patient [12] outcomes. One treatment recommendation is developed. Based on the
+such avenue entails the utilization of ACO to examine patient effectiveness of the treatment recommendations, the
+data, such as medical history, symptoms, and test outcomes, to pheromone values of the available treatment options are
+generate custom-tailored treatment suggestions that cater to updated, increasing the pheromone value of the available
+the specific needs of each patient. By determining the most treatment alternatives with the quality of the recommendation.
+optimal treatment options for individual patients [13], ACO However, to avoid the artificial ant colony from settling on an
+can contribute to reducing the probability of errors and unsatisfactory solution too quickly, the pheromone values of
+enhancing patient outcomes. the treatment alternatives degrade over time. Finally, the
+CDSS[16] creates a custom-tailored therapy prescription for
+Moreover, by employing ACO to select the most
+the patient based on the answer developed by the artificial
+relevant and informative data for a given clinical setting, DSS
+ants.
+can improve clinical decision-making and decrease the
+likelihood of errors[14] by offering healthcare professionals In conclusion, ACO in CDSS takes into account
+more targeted and pertinent information. Additionally, ACO patient information, treatment alternatives, treatment
+can rank and prioritize the information contained in the guidelines, the strength of the evidence, and patient
+knowledge base, allowing medical practitioners to promptly preferences when creating custom-tailored treatment
+identify the most crucial and relevant information. This recommendations. The CDSS implementation of ACO has
+expeditious diagnosis and treatment may lead to better patient been modified to maximize the knowledge base [17] and
+outcomes and a reduction in the need for costly follow-up generate therapy suggestions specific to each patient, akin to
+therapies and hospital stays, thus lowering healthcare the genuine ACO algorithm [18].
+expenses.
+V. CONCLUSION
+Further elucidated are the ways in which ACO can
+In summation, the utilization of ant colony optimization
+decrease the requirement for expensive follow-up therapies
+(ACO) algorithms within clinical decision support systems
+and hospital stays. ACO can utilize patient data, including
+(CDSS) presents an opportunity for the transformation of
+medical history, symptoms, and test results, to detect the early
+medical care by augmenting the precision and efficacy of
+warning signs of diseases or conditions, thus enabling medical
+clinical decision-making. As demonstrated by the present
+professionals to initiate therapy before the situation
+study, the ACO-based CDSS offers a valuable tool for
+exacerbates, thus reducing the need for expensive post-
+healthcare practitioners, enabling them to rapidly and
+operative care and hospital stays.
+accurately devise treatment regimens for patients.
+Additionally, ACO can facilitate individualized Comparatively, the ACO-based CDSS may exhibit superior
+therapy suggestions that meet the requirements of each patient, performance in relation to other CDSS algorithms, as
+ensuring that patients receive the most effective care and avoid evidenced by our analysis. Future research endeavors that
+expensive follow-up procedures and extended hospital stays. examine the application of ACO algorithms to diverse
+By improving the precision and effectiveness of clinical domains of medical care, such as disease diagnosis and
+decision-making, ACO can also reduce the risk of prognosis, will be fortified by the groundwork laid by this
+complications and the requirement for expensive follow-up study. With the ongoing advancements in artificial intelligence
+therapies and hospital stays by supplying more targeted and and machine learning technologies, we can expect further
+pertinent information, thereby enhancing patient outcomes. advancements in the application of CDSS and ACO
+algorithms, leading to superior patient outcomes and better
+ACO's implementation mechanism in CDSS is akin
+healthcare for all.
+to the authentic ACO algorithm [15], albeit with significant
+variations. ACO is employed in CDSS to enhance the REFERENCES
+knowledge base and create custom-tailored treatment
+[1] Jiang Y, Qiu B, Xu C, and Li C: “The Research of Clinical
+suggestions for specific patients. This entails creating a colony
+Decision Support System Based on Three-Layer Knowledge
+of artificial ants using patient information such as medical
+Base Model”, Journal of Healthcare Engineering, 2017.
+history, symptoms, and test outcomes. Each artificial ant [2] Kilsdonk E., Peute L., Riezebos R., Kremer L., and Jaspers M:
+generates a treatment recommendation by selecting options ”Uncovering healthcare practitioners’ information processing
+according to a probabilistic transition rule that considers the using the think-aloud method: From paper-based guideline to
+638
+IJRITCC | June 2023, Available @ http://www.ijritcc.org
+International Journal on Recent and Innovation Trends in Computing and Communication
+ISSN: 2321-8169 Volume: 11 Issue: 7s
+DOI: https://doi.org/10.17762/ijritcc.v11i7s.7524
+Article Received: 20 April 2023 Revised: 05 June 2023 Accepted: 26 June 2023
+___________________________________________________________________________________________________________________
+clinical decision support system”, International Journal of Computer Science and Electronics Engineering.
+Medical Informatics, 86, 10–19, February 2016. https://doi.org/10.1109/iccsee.2012.178
+[3] Afzal M, Hussain M, Ali T, Hussain J, Khan WA, Lee S, Kang [12] Dr. B. Maruthi Shankar. (2019). Neural Network Based Hurdle
+BH:” Knowledge-Based Query Construction Using the CDSS Avoidance System for Smart Vehicles. International Journal of
+Knowledge Base for Efficient Evidence Retrieval”, Sensors New Practices in Management and Engineering, 8(04), 01 - 07.
+(Basel), August, 2015 https://doi.org/10.17762/ijnpme.v8i04.79
+[4] Better Health Channel. (2023, March 6). Better Health Channel - [13] Qiu, Q. F., & Xie, X. J. (2012). Theoretical Analysis on Initial
+Better Health Channel. http://www.betterhealth.vic.gov.au/ Pheromone Values for ACO. Advances in Intelligent and Soft
+[5] Tuama, B. A. . (2023). Bigdata Based Disaster Monitoring of Computing, 339–349.
+Satellite Image Processing Using Progressive Image https://doi.org/10.1007/978-3-642-28592-9_35
+Classification Algorithm . International Journal of Intelligent [14] Raza, S. (2023, February 24). Improving Clinical Decision
+Systems and Applications in Engineering, 11(4s), 70–77. Making with a Two-Stage Recommender System: A Case Study
+Retrieved from on MIMIC-III Dataset.
+https://ijisae.org/index.php/IJISAE/article/view/2573 https://doi.org/10.1101/2023.02.21.23286247
+[6] Yadav, R., Sreedevi, I., & Gupta, D. (2022, May 12). Bio- [15] Kilsdonk, E., Peute, L., & Jaspers, M. (2017, February). Factors
+Inspired Hybrid Optimization Algorithms for Energy Efficient influencing implementation success of guideline-based clinical
+Wireless Sensor Networks: A Comprehensive Review. decision support systems: A systematic review and gaps
+Electronics, 11(10), 1545. analysis. International Journal of Medical Informatics, 98,56–64.
+https://doi.org/10.3390/electronics11101545 https://doi.org/10.1016/j.ijmedinf.2016.12.001
+[7] Salma, S., Khan, H., Madhav, B. T. P., Nikhilvarma, M., Sekhar [16] The Guide to Community Preventive Services (The Community
+Kumar, S. C., & Gayathri, M. (2022, February 16). Dynamic Guide). (n.d.). The Guide to Community Preventive Services
+Topology Optimisation of a Compact MIMO Antenna Based on (the Community Guide). https://www.thecommunityguide.org
+Ant Colony Optimisation. 2022 First International Conference [17] Deo, R. C. Machine learning in medicine. Circulation 132,
+on Electrical, Electronics, Information and Communication 1920–1930 (2015).
+Technologies (ICEEICT). [18] Sutton, R. T., Pincock, D., Baumgart, D. C., Sadowski, D. C.,
+https://doi.org/10.1109/iceeict53079.2022.9768494 Fedorak, R. N., & Kroeker, K. I. (2020, February 6). An
+[8] Dorigo, M., Birattari, M., & Stutzle, T. (2006, November). Ant overview of clinical decision support systems: benefits, risks,
+colony optimization. IEEE Computational Intelligence and strategies for success. Npj Digital Medicine, 3(1).
+Magazine, 1(4), 28–39. https://doi.org/10.1109/mci.2006.329691 https://doi.org/10.1038/s41746-020-0221-y
+[9] M. Dorigo and L. M. Gambardella, “Ant colonies for the [19] A Sharma, S Kautish, P Agrawal: “Knowledge Engineering for
+travelling salesman problem”, Biosystems, vol. 43, no. 2, Modern Information Systems”, De Gruyter, Berlin, 2022.
+(1997), pp. 73-81. [20] S.K., L., Mohanty, S. N., S., S. R., Krishnamoorthy, S., J., U., &
+[10] S. Leng, X. B. Wei and W. Y. Zhang, “Improved ACO Shankar, K. (2019, August). Online clinical decision support
+scheduling algorithm based on flexible process”, Transactions of system using optimal deep neural networks. Applied Soft
+Nanjing University of Aeronautics and Astronautics, vol. 23, no. Computing, 81, 105487.
+2, (2006), pp. 154-160. https://doi.org/10.1016/j.asoc.2019.105487
+[11] Pei, Y., Wang, W., & Zhang, S. (2012, March). Basic Ant
+Colony Optimization. 2012 International Conference on
+639
+IJRITCC | June 2023, Available @ http://www.ijritcc.org

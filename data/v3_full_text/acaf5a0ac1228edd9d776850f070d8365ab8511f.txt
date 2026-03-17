@@ -1,0 +1,158 @@
+Editorial
+Kidney Res Clin Pract 2023;42(5):541-545
+pISSN: 2211-9132 • eISSN: 2211-9140
+https://doi.org/10.23876/j.krcp.23.186
+Electronic alerts based on clinical decision support
+system for post-contrast acute kidney injury
+Hojin Jeon, Hye Ryoun Jang
+Division of Nephrology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of
+Korea
+parameters [3].
+See Article on Page 606–616
+Park et al. [4] performed a retrospective cohort study to
+demonstrate the impact of CDSS in patients at risk of acute
+kidney injury (AKI) after contrast-enhanced computed
+Clinical decision support systems (CDSS) are comput- tomography (CECT). They compared two time periods
+er-based programs designed to improve patient care (before and after) according to the initiation of a new elec-
+by providing patient-specific information and clinical tronic alert system as CDSS. The alert system was activated
+knowledge to healthcare professionals [1]. These systems when CECT was prescribed for patients undergoing kidney
+were developed to improve clinical decision-making by replacement therapy or with a baseline estimated glomeru-
+integrating relevant data and offering tailored recommen- lar filtration rate (eGFR) of < 45 mL/min/1.73m2. Although
+dations based on individual patient characteristics. CDSS the incidence and major outcomes of AKI were similar
+are already widely used in hospital settings in forms of between the two groups, the frequency of kidney function
+alerting physicians and other healthcare professionals re- monitoring by nephrologists significantly increased from
+garding medication interactions, potential diagnoses, and 29.4% to 66.7% and the volume of prophylactic fluid was
+treatment alternatives. These systems can aid healthcare smaller in the alert group compared to the historical con-
+professionals in enhancing patient safety and improving trol group.
+clinical outcomes by offering timely and relevant data to Extensive use of intravenous contrast media for CECT or
+minimize medical errors. A randomized trial demonstrat- radiologic interventions has been associated with an in-
+ed the effectiveness of electronic alert systems in reducing creased risk of AKI. The Contrast Media Safety Committee
+drug interactions [2]. CDSS can also assist with disease (CMSC) of the European Society of Urogenital Radiology
+management, clinical protocols, and guideline adherence. (ESUR) defined ‘post-contrast acute kidney injury (PCA-
+For example, the system for an asthma attack, entitled KI)’ as a sudden deterioration in kidney function within 48
+‘ACAFE (Asthma Clinical Assessment Form and Electronic) hours after intravascular administration of iodine-based
+decision support’, improved asthma plan provision, docu- contrast media [5]. The pathogenesis of PCAKI involves
+mentation of asthma severity, and other important clinical two distinct pathways: direct nephrotoxic effects of con-
+Received: July 16, 2023; Accepted: July 20, 2023
+Correspondence: Hye Ryoun Jang
+Division of Nephrology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, 81 Irwon-ro, Gangnam-
+gu, Seoul 06531, Republic of Korea. E-mail: shinehr@skku.edu
+ORCID: https://orcid.org/0000-0001-9856-6341
+Copyright © 2023 by The Korean Society of Nephrology
+This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial and No Derivatives License (http://
+creativecommons.org/licenses/by-nc-nd/4.0/) which permits unrestricted non-commercial use, distribution of the material without any modifications,
+and reproduction in any medium, provided the original works properly cited.
+Kidney Res Clin Pract 2023;42(5):541-545
+trast media and indirect disturbances in kidney blood flow preexisting kidney dysfunction, proteinuria, hypertension,
+(Fig. 1) [6]. Direct effects are caused by contrast media-in- and diabetes mellitus [10,11]. CMSC recommended eGFR
+duced adverse changes in tubular flow and physiology, measurements within 7 days before contrast media expo-
+including increased viscosity, loss of polarity in tubular sure for patients with acute illness or acute deterioration of
+cells, and the subsequent apoptosis and necrosis in tubular preexisting chronic disease and for inpatients [11]. PCAKI
+cells, leading to tubular obstruction and injury. Indirect following CECT is associated with all-cause mortality and
+effects arise from elevated blood viscosity, which disrupts subsequent chronic kidney disease (CKD) after severe or
+normal blood flow patterns and causes endothelial dys- persistent PCAKI may impede the optimal evaluation and
+function [7,8]. These effects are accompanied by increased treatment of primary illnesses [12]. Therefore, systemized
+endothelin levels, activation of the renin-angiotensin strategies for early detection and prevention of PCAKI are
+system, and reduced levels of nitric oxide and prostaglan- critical for avoiding unfavorable clinical outcomes and
+din I2, resulting in vasoconstriction of renal arterioles. progression of CKD especially in patients receiving repeat-
+These indirect effects can further lead to microvascular ed CECT due to underlying diseases such as cancer. Since
+thrombosis and prolonged ischemia in the renal medulla. intravenous fluid therapy, specifically intravascular volume
+Ultimately, the overall harmful effects caused by contrast expansion, has been reported as a preventive measure for
+media deteriorate kidney function. In a multicenter cohort PCAKI, the ESUR recommended preventive fluid therapy
+study including 288 hospitalized patients diagnosed with to reduce the risk of PCAKI in all patients with risk factors
+PCAKI, the incidence of persistent kidney dysfunction was [11,13,14]. The recommended intravenous fluid regimens
+46.9% and the all-cause mortality rate for 1 year was as for preventing PCAKI include the administration of either
+high as 13.5% [9]. The risk factors of PCAKI included age, 3 mL/kg/hr of bicarbonate 1.4% (or 154 mmoL/L solution)
+Figure 1. Pathophysiology of post-contrast acute kidney injury.
+542 www.krcp-ksn.org
+Jeon and Jang. Electronic alerts based on CDSS for PCAKI
+for 1 hour before contrast media (in the case of intra-arte- outpatient clinics.
+rial administration, followed by 1mL/kg/hr of bicarbonate Although there were no statistically significant differenc-
+1.4% for 4 to 6 hours after contrast media) or 1 mL/kg/hr es in the incidence of PCAKI, the risk of hospitalization,
+of 0.9% saline for 3 to 4 hours before and 4 to 6 hours after and kidney replacement therapy following the implemen-
+contrast media infusion [11]. tation of an electronic alerts system, the frequency of con-
+It is noteworthy that Park et al.’s study [4] did not find a sultation and follow-ups with nephrologists were increased
+significant difference in the incidence of PCAKI despite of by the alert system in Park’s study [4]. There were several
+fluid volume difference between the groups. The volume studies to determine the efficacy of CDSS for AKI. In a ran-
+of administered fluid in the alert group (750 mL of isotonic domized study with 1,201 patients assigned to the AKI alert
+fluid) was lower than that in the control group (1,000 mL group and 1,192 patients assigned to the control group, the
+of isotonic fluid). Administering large volume of fluids can primary outcomes including relative maximum changes in
+cause intrarenal venous congestion and compartment serum creatinine, dialysis, and mortality within 7 days were
+syndrome because kidneys are encapsulated organs [15]. comparable between the groups [16]. Despite insufficient
+Thus, careful monitoring of volume status and administra- data demonstrating the effectiveness of an AKI alert system
+tion of the optimal volume of prophylactic fluid are imper- on overall kidney outcome and mortality, early detection
+ative to prevent PCAKI. In an outpatient clinic-based man- of AKI and timely consultation with nephrologists by an
+agement for PCAKI, the shortening of fluid infusion time is alert system are anticipated to contribute to the earlier
+preferred. Reduction of fluid volume by the alert system in management of AKI and the improvement of patient over-
+Park’s study [4] may contribute to the establishment of an all outcomes including mortality [17]. The effectiveness of
+optimized fluid protocol for patients undergoing CECT in CDSS in reducing the occurrence of overlooked AKI cases
+Figure 2. A schematic representation of hospital-based interactions within a knowledge-based clinical decision support system.
+www.krcp-ksn.org 543
+Kidney Res Clin Pract 2023;42(5):541-545
+was reported by showing that early nephrology consulta- ORCID
+tion was linked to improved clinical outcomes in hospital-
+ized patients [18]. Consequently, the implementation of Hojin Jeon, https://orcid.org/0000-0002-2619-1736
+an electronic AKI alert system holds promising potential to Hye Ryoun Jang, https://orcid.org/0000-0001-9856-6341
+improve patient outcomes.
+In a previous study with AKI patients, alerts without References
+CDSS education were associated with a significantly in-
+creased risk of mortality [19]. In a randomized controlled 1. Sutton RT, Pincock D, Baumgart DC, Sadowski DC, Fedorak
+study [20], the efficacy of an intervention comprising of RN, Kroeker KI. An overview of clinical decision support sys-
+education on AKI, PCAKI prevention approaches, safe tar- tems: benefits, risks, and strategies for success. NPJ Digit Med
+get volumes of contrast, and feedback was investigated for 2020;3:17.
+the prevention of AKI following coronary angiography or 2. Strom BL, Schinnar R, Aberra F, et al. Unintended effects of a
+percutaneous coronary intervention. In this study, the in- computerized physician order entry nearly hard-stop alert to
+tervention groups showed a lower likelihood of developing prevent a drug interaction: a randomized controlled trial. Arch
+PCAKI compared to the control group [20], supporting the Intern Med 2010;170:1578–1583.
+importance of comprehensive CDSS education to physi- 3. Kwok R, Dinh M, Dinh D, Chu M. Improving adherence to
+cians and implementation of adequate management strat- asthma clinical guidelines and discharge documentation from
+egies for AKI. The presence of well-educated physicians emergency departments: implementation of a dynamic and
+who are proficient in CDSS utilization holds the potential integrated electronic decision support system. Emerg Med Aus-
+to improve the prognosis of PCAKI and overall patient out- tralas 2009;21:31–37.
+comes. 4. Park S, Yi J, Lee YJ, et al. Electronic alert outpatient protocol
+In Park et al.’s study [4], the electronic alert system for improves the quality of care for the risk of postcontrast acute
+outpatient protocol based on CDSS effectively reduced the kidney injury following computed tomography. Kidney Res Clin
+volume of preventive fluid therapy without an increase in Pract 2023;42:606–616.
+the incidence of PCAKI and facilitated active consultations 5. van der Molen AJ, Reimer P, Dekkers IA, et al. Post-contrast
+with nephrologists after CECT. Therefore, CDSS-based acute kidney injury - Part 1: Definition, clinical features, inci-
+electronic alert system seem to have the potential to pre- dence, role of contrast medium and risk factors: recommenda-
+vent PCAKI or mitigate the severity of AKI in patients with tions for updated ESUR Contrast Medium Safety Committee
+risk factors. To advance the effectiveness of CDSS for PCA- guidelines. Eur Radiol 2018;28:2845–2855.
+KI prevention, education on PCAKI and the implementa- 6. Nijssen EC, Nelemans PJ, Wildberger JE; AMACING Investi-
+tion of an electronic alert system are critically required (Fig. gators. Contrast-associated acute kidney injury. N Engl J Med
+2). Although there is some evidence supporting the efficacy 2019;381:1295–1296.
+of CDSS in improving patient care, further prospective 7. Geenen RW, Kingma HJ, van der Molen AJ. Contrast-induced
+studies are required to refine the design of these systems nephropathy: pharmacology, pathophysiology and prevention.
+and enhance the optimal utilization of a CDSS-based elec- Insights Imaging 2013;4:811–820.
+tronic alert system in clinical practice. 8. Kusirisin P, Chattipakorn SC, Chattipakorn N. Contrast-induced
+nephropathy and oxidative stress: mechanistic insights for bet-
+Conflicts of interest ter interventional approaches. J Transl Med 2020;18:400.
+9. Cheng W, Wu X, Liu Q, et al. Post-contrast acute kidney injury in
+All authors have no conflicts of interest to declare. a hospitalized population: short-, mid-, and long-term outcome
+and risk factors for adverse events. Eur Radiol 2020;30:3516–
+Data sharing statement 3527.
+10. Davenport MS, Khalatbari S, Dillman JR, Cohan RH, Caoili EM,
+The data presented in this study are available on request Ellis JH. Contrast material-induced nephrotoxicity and intra-
+from the corresponding author. venous low-osmolality iodinated contrast material. Radiology
+544 www.krcp-ksn.org
+Jeon and Jang. Electronic alerts based on CDSS for PCAKI
+2013;267:94–105. 15. Ostermann M, Liu K, Kashani K. Fluid management in acute
+11. van der Molen AJ, Reimer P, Dekkers IA, et al. Post-contrast acute kidney injury. Chest 2019;156:594–603.
+kidney injury. Part 2: risk stratification, role of hydration and 16. Wilson FP, Shashaty M, Testani J, et al. Automated, electronic
+other prophylactic measures, patients taking metformin and alerts for acute kidney injury: a single-blind, parallel-group, ran-
+chronic dialysis patients: recommendations for updated ESUR domised controlled trial. Lancet 2015;385:1966–1974.
+Contrast Medium Safety Committee guidelines. Eur Radiol 17. Soares DM, Pessanha JF, Sharma A, Brocca A, Ronco C. Delayed
+2018;28:2856–2869. nephrology consultation and high mortality on acute kidney
+12. Mitchell AM, Kline JA, Jones AE, Tumlin JA. Major adverse events injury: A Meta-Analysis. Blood Purif 2017;43:57–67.
+one year after acute kidney injury after contrast-enhanced com- 18. Park S, Baek SH, Ahn S, et al. Impact of electronic acute kidney
+puted tomography. Ann Emerg Med 2015;66:267–274.e4. injury (AKI) alerts with automated nephrologist consultation on
+13. Chen SL, Zhang J, Yei F, et al. Clinical outcomes of contrast-in- detection and severity of AKI: a quality improvement study. Am
+duced nephropathy in patients undergoing percutaneous coro- J Kidney Dis 2018;71:9–19.
+nary intervention: a prospective, multicenter, randomized study 19. Wilson FP, Martin M, Yamamoto Y, et al. Electronic health record
+to analyze the effect of hydration and acetylcysteine. Int J Cardi- alerts for acute kidney injury: multicenter, randomized clinical
+ol 2008;126:407–413. trial. BMJ 2021;372:m4786.
+14. Jurado-Román A, Hernández-Hernández F, García-Tejada J, et al. 20. Gottlieb ER, Mendu M. Clinical decision support to prevent
+Role of hydration in contrast-induced nephropathy in patients acute kidney injury after cardiac catheterization: moving beyond
+who underwent primary percutaneous coronary intervention. process to improving clinical outcomes. JAMA 2022;328:831–
+Am J Cardiol 2015;115:1174–1178. 832.
+www.krcp-ksn.org 545

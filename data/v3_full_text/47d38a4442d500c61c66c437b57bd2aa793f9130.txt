@@ -1,0 +1,579 @@
+Galeotti et al. BMC Nursing (2023) 22:268 BMC Nursing
+https://doi.org/10.1186/s12912-023-01408-4
+RESEARCH Open Access
+Evaluation of a pregnancy loss education
+intervention for undergraduate nursing
+students in Northern Ireland: A pre- and post-
+test study
+Martina Galeotti1, Suzanne Heaney1, Martin Robinson2 and Áine Aventin1*
+Abstract
+Background Research highlights the importance of compassionate communication, adequate delivery of
+information, and professional support to help alleviate parental distress following pregnancy loss. However, many
+healthcare professionals do not feel sufficiently trained to deal with pregnancy loss in practice. We aimed to address
+this deficiency with an evidence-informed educational intervention to increase knowledge, skills, self-awareness, and
+confidence regarding pregnancy loss among UK nursing students.
+Methods Educational resources, which included an 82-minute podcast and 40-minute online lecture were
+developed. The podcast focused on the lived experiences of three women who had experienced miscarriage,
+stillbirth, and termination of pregnancy for medical reasons. The pre-recorded lecture included definitions of types
+of pregnancy loss, discussion of the importance of communication, and information on the clinical management of
+pregnancy loss. Students were presented with both the lecture and podcast as a self-directed element of existing
+curricula. A pre-test/post-test cross-sectional survey design was used to investigate the impact of the educational
+intervention. The Perinatal Bereavement Care Confidence Scale (PBCCS) was completed by 244 first year BSc Nursing
+students before and up to a week after receiving the intervention. Quantitative data were analysed using a Paired
+Samples Wilcoxon test. Responses to open-ended questions, which allowed students to give feedback on the
+intervention content and delivery were analysed using Qualitative Content Analysis.
+Results 96% (n = 235) of the sample reported having no prior experience or training in the management and
+support of those experiencing pregnancy loss. At pre-test, 88% (n = 215) of students rated themselves as not
+confident in dealing with pregnancy loss in a professional capacity. Post-test, we found statistically significant effects
+for perceived competency on all learning outcomes (p < .001). Qualitative analysis of n = 745 individual text responses
+to open-ended questions indicated four categories related to the perceived value of using real-life stories for learning,
+demystifying a taboo subject, and providing tools for practice. Respondents suggested the inclusion of more
+information on memory-making, support networks, and mental health following pregnancy loss.
+*Correspondence:
+Áine Aventin
+a.aventin@qub.ac.uk
+Full list of author information is available at the end of the article
+© The Author(s) 2023. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use,
+sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and
+the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The
+Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available
+in this article, unless otherwise stated in a credit line to the data.
+Galeotti et al. BMC Nursing (2023) 22:268 Page 2 of 10
+Conclusions The educational intervention increased student nurses’ perceived knowledge, confidence, and
+skills in caring for families experiencing pregnancy loss. This offers potential for increased quality of care for those
+experiencing pregnancy loss in healthcare settings, increased patient satisfaction, and improved mental health-
+related outcomes.
+Keywords Pregnancy loss, Miscarriage, Termination of pregnancy, Abortion, Fetal anomaly, Parent, Experiences,
+Nurses, Nursing
+Background
+experience of pregnancy loss in hospital settings [23,
+Perinatal loss is an umbrella term that refers to any preg- 25]. These studies reported improved patient experience
+nancy loss that occurs between conception and the first after the delivery of staff communication training. Two
+28 days after birth. It includes miscarriage, ectopic preg- other studies reported positive effects from a series of
+nancy, stillbirth, neonatal death and termination of preg- workshops on compassionate communication in preg-
+nancy for medical reasons (TFMR) [1]. Pregnancy loss nancy loss for senior trainees in obstetrics and student
+refers to the intrauterine death of a fetus and therefore midwives [23, 26, 27]. One study reported effectiveness
+does not include neonatal death which occurs after birth. of a 10-week series of e-learning materials on pregnancy
+Globally, around 15% of pregnancies end in miscarriage loss, including lived experiences designed for nurs-
+[2] and around 2% end due to ectopic pregnancy, which ing and midwifery students [26]. A 2021 scoping review
+is the implantation of the zygote outside the uterus [3]. of international literature [28] found 18 studies which
+The incidence of stillbirth is 2.9 per 1000 births in West- examined interventions for preparing nurses and mid-
+ern Europe [4, 5] and 13.9 per 1000 births worldwide [6]. wives for perinatal bereavement care, only two of which
+European figures suggest that the TFMR prevalence rate were conducted with UK nursing students. The review
+is 4.6 per 1,000 births [7]. In the UK, over 70% of con- authors recommended further evidence-based resources
+genital anomalies are detected during pregnancy and, of for nurses and other HCPs which communicate bereaved
+those, around 37% will result in TFMR [8]. parents’ psychological needs using e-learning strategies.
+Pregnancy loss is an emotional and distressing event Nurses in the UK, and elsewhere, are likely to care for
+for expectant parents [9]; it is traumatic for many and women experiencing pregnancy loss in several different
+can result in the development of long- and short- term clinical settings including emergency departments, gene-
+psychological difficulties such as depression, anxiety, and cology wards, surgical wards, and community settings.
+post-traumatic stress disorder [10–12]. Further, women These encounters can occur during undergraduate clini-
+commonly describe feeling a sense of despair, failure and cal placements and beyond. Preparing student nurses for
+intense sadness following their loss [13, 14]. bereavement care is likely to positively impact the over-
+Many women and their partners report that their all care women and partners receive in hospital settings,
+hospital experience played a key role in their emotional potentially ameliorating their physical and emotional
+journey of pregnancy loss [15, 16]. As well as providing wellbeing. This study aimed to evaluate the impact of a
+support for loss, research has indicated that a couples’ short educational intervention on pregnancy loss to first
+emotional wellbeing can be aggravated by their interac- year nursing students.
+tions with healthcare professionals (HCPs) [16, 17]. Stud-
+Methods
+ies report that HCPs can show a lack of understanding
+of the significance of pregnancy loss for women [17, 18]. Aim
+Further, a lack of empathy and compassion has been This study aimed to determine the effectiveness of a short
+observed in the interactions [15, 16]. It is acknowledged self-directed educational intervention in increasing nurs-
+that caring for bereaved parents through loss is challeng- ing students’ self-reported knowledge, skills, awareness,
+ing for staff [19]. Healthcare professionals often report and confidence regarding pregnancy loss.
+lacking confidence in their ability to provide good quality
+bereavement care for parents, describing it as emotional Design, setting and sample
+and distressing work [20, 21]. Furthermore, HCPs also A pre-test/post-test cross-sectional survey design
+highlight inadequate knowledge and training as a barrier was used to investigate the impact of the educational
+to providing effective care [19, 21]. resources. The study was conducted with a convenience
+Previous studies based in USA, France, Ireland and sample of first year pre-registration BSc Nursing students
+Czech Republic investigated the effectiveness of edu- at Queen’s University Belfast (QUB), Northern Ireland.
+cational training on pregnancy loss for HCPs [22–25]. All 320 students enrolled in the ‘Evidence-based Nurs-
+Two studies evaluated the effectiveness of interventions ing’ module who wished to take part in the study were
+targeting doctors and other HCPs to improve couple’s eligible for inclusion. In order to maintain anonymity,
+Galeotti et al. BMC Nursing (2023) 22:268 Page 3 of 10
+Table 1 Content of the Educational Intervention Table 2 Learning objective assessment questions
+Materials Please rate how competent you feel in relation to each activity:
+82-minute podcast and 40-minute lecture. 1 Ability to define types of pregnancy loss.
+Lecture content:
+2 Ability to describe the impact of preg-
+What is Pregnancy Loss? -Types, prevalence, context in Northern
+nancy loss on parents.
+Ireland
+3 Ability to discuss the communication
+Impact of Pregnancy Loss on Parents - Grief journey, impact on
+needs of parents experiencing preg-
+partners
+nancy loss.
+Effective Communication and Pregnancy Loss - Compassion and
+4 Ability to describe the clinical manage-
+sensitivity, information needs of parents, responsive nursing care
+ment of pregnancy loss.
+Management of Pregnancy Loss in Practice - Care and treatment op-
+tions, clinical nursing care 5 Ability to discuss how to support par-
+Supporting parents to make memories - Importance to parents, op- ents to make memories.
+tions and practical considerations personal account from a parent Response Options: 1 (Not Competent), 2 (Somewhat Competent), 3 (Competent),
+Podcast content: 4 (Highly Competent)
+Three women talked about their lived experiences of miscarriage, still
+birth and TFMR. The experiences focused on the hospital care delivery
+and how this had impacted their journey of pregnancy loss, the griev- These three forms of pregnancy loss were included as
+ing process, and recovery. they represent the most common forms of pregnancy
+Procedures loss students will encounter. The focus of the podcast
+Students were able to access the lecture and podcast and listen to both
+was on care received in hospital and women’s percep-
+at their own time in no specific order. Students were asked to complete
+tions of it. The pre-recorded lecture focused on differ-
+a questionnaire before and after listening to the lecture and podcast.
+ent aspects of pregnancy loss and healthcare provision
+Content
+The podcast and lecture content were developed and facilitated by a including communication and management. The lecture
+midwife, nurse, and psychologist. The podcast included 3 lived experi- also included a short case study. Reflective of a change
+ences (miscarriage, stillbirth, and termination of pregnancy due to fetal in UK guidelines regarding memory-making in perinatal
+anomaly)
+bereavement care [30–33] and literature [34, 35] high-
+Delivery
+lighting desired memory making among parents, we also
+The podcast and lecture were provided to students via the educational
+platform ‘Canvas’ as part as their Evidence Based Nursing Module. included this topic within lecture. We also acknowledged
+Dose that memory making may not be desired or beneficial for
+All materials were available to students for a week. Students were able everyone, and the importance of choice [36]. A detailed
+to complete the pre- and post-questionnaire within a week, specifically overview of the content of the podcast and lecture can be
+from the 10th to the 14th of October 2022.
+found in Table 1.
+we did not collect demographic information from par- Recruitment
+ticipants. However, 94% of the cohort were female. Of the All first-year nursing students enrolled in the Evidence-
+320 students invited to complete the pre- and post-test based Nursing Module in October 2022 (n = 320) were
+questionnaires, 85.93% (n = 275) completed only the pre- contacted via email by their Year Lead, to inform them
+test, while 76.25% (n = 244) completed at both timepoints about the study. Participants received an information
+and were therefore included in the analyses. At the time sheet about the study on the Module Announcements
+of the study, pregnancy loss education was not a part of page (Canvas). The information sheet was also provided
+the undergraduate curriculum. at the beginning of both questionnaires. The informa-
+tion sheet indicated to students their right to withdraw
+Intervention and that their responses would be anonymous. Students
+Students received the educational intervention, which were provided with a link to complete a pre- and post-
+included a 40-minute online lecture and 82-minute pod- test questionnaire online using the secure software Qual-
+cast designed by MG, SH and ÁA and informed by find- trics. The researchers were not involved in teaching the
+ings from The Bluebell Study [29] and The Miscarriage participants.
+and Mental Health Study [15], as well as other contem-
+porary research [16]. Both studies included patient and Data collection
+public involvement and members of the public took part Descriptive information including previous experience of
+in the podcast. The students were assigned the materi- providing care in response to pregnancy loss and previ-
+als as self-directed learning (i.e. they were provided with ous training in the area was collected. Overall, confidence
+links to both resources and informed that viewing of both with respect to care provision in response to pregnancy
+was mandatory). The podcast was facilitated by MG and loss was rated on a scale from 1 ‘Not at all’ to 4 ‘Very’.
+SH with the participation of three women who shared Further, bespoke measurements of learning outcomes
+their experience of miscarriage, stillbirth and TFMR. were collected (see Table 2) and, within the post-test
+Galeotti et al. BMC Nursing (2023) 22:268 Page 4 of 10
+questionnaire, 4 open-ended questions allowed feedback Data analysis
+on the content and delivery of the educational materi- Quantitative data analysis
+als (see below). An unlimited textbox was provided for Quantitative analysis was carried out by MR. Within-
+responses. Responses to these questions were optional: subjects change (i.e. assessment of change in the indi-
+I. Which aspect(s) of the materials did you find most vidual participants at the two timepoints) was examined
+useful? using the self-reported measures of competency and
+II. What topic(s) do you believe are needed to improve confidence detailed in the data collection section above.
+services in this area. Total scores were computed for each domain of the
+III. What improvements (if any) would you recommend PBCC under investigation, Knowledge, Skills, and Self-
+to the materials? Awareness. Measures of learning objective competencies
+IV. Any final reflections on the materials. and overall confidence in care provision for those expe-
+The questionnaire also contained an adapted version riencing pregnancy loss were not transformed, i.e., they
+of the Perinatal Bereavement Care Confidence Scale were assessed as ordinal variables with a scale of 1 to 4
+(PBCCS) [37]. The PBCCS includes 4 subscales: Bereave- (see Table 2). These data were found to be non-normally
+ment Support Knowledge Scale; Bereavement Support distributed, therefore, change was analysed using a Paired
+Skills Scale; Self-Awareness Scale; and Organisational Samples Wilcoxon test, and change in mean response
+Support Scale. Scores are collated using a 5-point Lik- (ΔM) between time points assessed.
+ert scale ranging from strongly disagree to strongly
+agree (1–5). The adapted version of the PBCCS used in Qualitative data analysis
+this study omitted Subscale 4 (Organisational Support), Qualitative content analysis was carried out by SH and
+as this was deemed inappropriate due to respondents’ MG on the open text questionnaire responses. This anal-
+career stage. The adapted scale is presented in Additional ysis approach was used because of its flexibility and con-
+File 1. tent-focused approach to coding and categorising textual
+information. The aim was to find trends and patterns
+Ethics and explore relationships and structures of discourse
+This study received ethical approval from Queen’s Uni- to seek an understanding of the phenomenon [38, 39].
+versity Belfast, Faculty of Medicine, Health and Life Sci- We followed the process as described by Bengtsson [40]
+ences Research Ethics Committee (REF MHLS 22_130). (Table 3). This was conducted a collaborative process, fol-
+The lecture and podcast materials were presented to lowed by regular discussions between the entire research
+learners as mandatory within standard teaching provi- team to examine emerging codes, connections, meanings
+sion, however, participation in this study was entirely vol- and themes. Consensus between the team remained high
+untary. All participants provided informed consent prior throughout the process.
+to completing both questionnaires.
+Results
+Competency learning outcomes
+Of the 244 respondents, 96.3% (n = 235) reported having
+no prior experience or training in the management and
+Table 3 Qualitative Content Analysis. (adapted from Bengtsson, support of those experiencing pregnancy loss. At base-
+2016 [40]) line most of the sample rated themselves as ‘Not at All’
+Stage 1: The written text responses were up- (47.1%, n = 115) or ‘A little’ (37.7%, n = 92) confident in
+Decontextualisation loaded to NVivo 12 and read through dealing with the issue of pregnancy loss in a professional
+Identifying meaning units several times to help the researchers
+capacity. Details of participants previous experience and
+get a sense of the whole and become
+self-reported competencies are shown in Table 4 below.
+familiar with and immersed in the data.
+Units of meaning were then coded. All respondents reported engaging with both lecture and
+Stage 2: Recontextualisation Original text was re-read alongside podcast during the study time period.
+Compare with the original data list of codes to check if all aspects of Changes in competency learning outcomes between
+content were covered in relation to pre- and post-test administration are shown in Fig. 1.
+the aim.
+These box and whisker plots show the distribution of
+Stage 3: Categorisation Groups of similar codes were con-
+responses at pre-test (yellow) and post-test (grey). The
+Identify homogeneous groups densed together. Codes were then cat-
+box depicts the inter-quartile range of responses on the
+egorised according to their meaning.
+4-point Likert scale around the median shown in bold,
+Stage 4: Compilation A manifest analysis was utilised, using
+Draw realistic conclusions the words of the participants, thereby while the full range in the data is plotted using the whis-
+staying close to the original meanings ker lines and individual points for outliers (i.e. those
+and context.
+Galeotti et al. BMC Nursing (2023) 22:268 Page 5 of 10
+Table 4 Confidence and Training at Baseline
+outside the core distribution represented by the box and
+n (%)
+whisker).
+Age (M, SD) 22 (6.5)
+Results of the Paired-Samples Wilcoxon tests showed
+Before attending the lecture/ listening to the podcast how
+that perceived competency was significantly increased
+confident did you feel dealing with cases of pregnancy loss?
+for all competency learning outcomes (p < .001). Across
+Not at all 115
+(47.1) all learning outcomes most participants rated feeling
+A little 92 “Not Competent” or “Somewhat Competent” at baseline,
+(37.7) and “Competent” or “Highley Competent” at post-test.
+Somewhat 32 Perceived competence in relation to Learning Objective 4
+(13.1) “Ability to describe the clinical management of pregnancy
+Very 5 (2.0) loss” at pre-test was however notably lower on average
+Before attending had you received any training on these compared to the other objectives indicating this to be an
+topics?
+area of perceived difficulty in this undergraduate learner
+Yes, from my employer 1 (0.4)
+group. A significant increase in perceived competency in
+Yes, from my degree programme 0 (0.0)
+this domain was found following participation, however,
+Yes, self-directed learning 8 (3.3)
+this remained low relative to the endorsement of other
+No 235
+competencies post-test. Detailed numeric data for these
+(96.3)
+results are provided in Table 5.
+Previous professional experience providing care (through 6 (2.5)
+placement or work) for individuals and families experiencing
+pregnancy loss Perinatal Bereavement Care confidence
+How frequently do you deal with pregnancy loss in your Changes between pre- and post-test measures of per-
+placement? ceived confidence in providing perinatal bereavement
+Daily 0 (0.0) care were estimated using mean response on the PBCC
+Weekly 2 (0.9)
+subscales and overall confidence rated from 1 to 4 (see
+Monthly or less 4 (1.6)
+Fig. 2).
+How adequate do you feel your training previously received There was a statistically significant increase (V = 28,479,
+on this topic has been?
+p < .001) in mean reported knowledge following par-
+Extremely inadequate 86
+ticipation relative to baseline (ΔM = + 8.61). Likewise,
+(35.2)
+participants reported a statistically significant increase
+Somewhat inadequate 27
+(11.1) (V = 28,551, p < .001) in perceived skills at post-test rela-
+Neither adequate nor inadequate 118 tive to baseline (ΔM = + 9.37). Participants similarly
+(48.4) reported a statistically significant increase (V = 28,298,
+Somewhat adequate 8 (3.3) p < .001) in perceived self-awareness around perinatal
+Extremely adequate 5 (2.0) loss at post-test relative to baseline (ΔM = + 8.91). Finally,
+there was a statistically significant increase (V = 25,433,
+p < .001) in perceived overall confidence in providing
+Fig. 1 Change in Learning Outcomes Between Assessments
+Galeotti et al. BMC Nursing (2023) 22:268 Page 6 of 10
+Table 5 Changes in Perceived Competency Learning Outcomes and Perinatal Bereavement Care Confidence Domains Between Pre-
+and Post-test Assessment
+Pre-Test Post-Test Wilcoxon
+Range M SD M SD V, sig.
+Learning Outcome 1: 1–4 1.602 0.716 3.283 0.653 25,162***
+Ability to define types of pregnancy loss
+Learning Outcome 2: 1–4 1.811 0.789 3.352 0.608 24,658***
+Ability to describe the impact of pregnancy loss on parents
+Learning Outcome 3: 1–4 1.500 0.723 3.299 0.626 26,266***
+Ability to discuss the communication needs of parents experiencing pregnancy loss
+Learning Outcome 4: 1–4 1.197 0.491 2.906 0.705 27,122***
+Ability to describe the clinical management of pregnancy loss
+Learning Outcome 5: 1–4 1.603 0.716 3.283 0.653 24,921***
+Ability to discuss how to support parents to make memories
+Bereavement Support Knowledge 15–75 50.119 5.656 58.725 3.986 28,479***
+Bereavement Support Skills 9–45 24.586 5.635 33.959 4.034 28,551***
+Self-Awareness 8–40 24.791 5.670 33.701 3.553 28,298***
+Overall Confidence dealing with cases of pregnancy loss 1–4 1.643 0.737 3.258 0.624 25,433***
+*** p < .001
+Fig. 2 Change in PBCC Subdomain Measures (Bereavement Care Knowledge, Skills, Self-Awareness) and Self Rated Confidence Between Assessments
+perceptions of the intervention, no quantifiable counting
+or measurements of data are reported. Analysis of stu-
+dent responses identified four categories (Fig. 3).
+“The stories made it very real” - Perceived value in use of
+lived experience to enhance learning
+Many comments indicated the perceived value and
+Fig. 3 Categories identified by analysis of qualitative responses relating to
+impact of hearing the lived experience of the women who
+participant perceptions of the intervention
+took part, which included three women in the podcast
+professional care for those experiencing perinatal/preg- and one case study in the lecture. While many stated it
+nancy loss at post-test relative to baseline (ΔM = + 1.61). was emotive and, for some, difficult to listen to the sto-
+ries, there was consensus that they facilitated a greater
+Analysis of qualitative comments understanding of the parents’ experience and perception
+A total of 745 individual text responses were received of their healthcare needs. Several noted that they would
+across the four optional open-ended questions. Owing to have liked to hear a male or partners’ perspective to
+the qualitative nature of our analysis approach and focus understand their particular experience and needs more
+on understanding and interpreting nursing students’ fully.
+Galeotti et al. BMC Nursing (2023) 22:268 Page 7 of 10
+“I found it useful hearing real life examples which resource”.
+has taught me to be very careful with what I say and
+when I say it”.
+“I would be interested in hearing from the male “I’m a visual learner” - Reflections on improvements to
+point of view about how he felt during the miscar- content and delivery of materials
+riage”.
+Overall, feedback about the materials and content was
+positive. For those who commented on the length of the
+materials, most stated that they felt the podcast should
+“Really insightful to such a taboo subject” - be shorter, or that it should be split into smaller sections
+Acknowledgement of uncomfortable topic but to maintain engagement. Smaller sections were also sug-
+appreciation within scoping of nursing role gested “as the content is very heavy”. While most were sat-
+Several responses referred to the uncomfortable nature isfied with the podcast and lecture format, feedback for
+of the topic pregnancy loss, which was described as improvement centred around increasing the visual con-
+“taboo”, “heart-breaking”, “difficult”, “sensitive” and associ- tent and several also stated a wish for a more interactive
+ated with “stigma”. However, there was consonance about elements to the learning materials. Suggestions included,
+the need to cover this topic and not “shy away from it”, as videoed examples of effective care, roleplays in class, and
+well as gratitude, “thank you for the resources. They are an interactive workshop.
+really helpful, and I will definitely revisit these and incor- “I would maybe include a video for the visual learners
+porate it into my learning”. around the topic of baby loss”.
+“Shorter but more frequent podcasts”.
+“It was very emotional to hear but also extremely
+“Introduce more student interaction”.
+important, so students are somewhat prepared to
+“Role play scenarios for class or a quiz at the end to test
+know what to do and say in these situations as well
+self-learning”.
+as know what not to say or do”.
+“Videos of health professionals communication”.
+Students reported positively on the content of mate-
+rials and there was a clear desire for further learning in
+“I found these materials very helpful for practice” - this area. A variety of responses were received relating
+Perceived benefit to individual nursing care to desired future content. As noted, some respondents
+Findings identified what respondents felt was important would like to learn about the male or partner experience
+to parents through their pregnancy loss care experience of pregnancy loss, and several wished for information
+and they reflected on how they would take this forward on the impact of pregnancy loss on other family mem-
+in their nursing practice. Several referenced upcoming bers, such as grandparents and siblings and how best to
+clinical placements in which they felt this learning would support them. Others wished for practical information
+be useful, while others reflected on its potential use such as how to do memory making with parents, more
+across their career. information on support services they could signpost par-
+ents to or developing communication skills in difficult
+“I will carry these materials with me throughout my
+circumstances.
+career”.
+“As a male, I find we have very little teaching toward “More attention on how as nurses we could make
+pregnancy issues and this resource was great to more memories for the parents”.
+learn from”. “Further provision and awareness of the support
+networks that are available to women and partners
+after the experience of pregnancy loss”.
+While a small number of students disclosed a personal
+“More awareness of the long-term impact on mental
+experience related to the topic, both direct and indirect,
+health from pregnancy loss”.
+most students expressed little prior knowledge or expe-
+rience surrounding pregnancy loss. Increased knowledge
+was identified as one of the main benefits from taking
+Discussion
+part in this education. Specific mention was given to
+understanding different types of pregnancy loss and the This study presents novel findings on the effectiveness
+clinical management of pregnancy loss. of a short, self-directed, educational intervention for
+improving UK nursing students’ perceived knowledge,
+“This resource provided me with a greater depth of
+skills and confidence around the topic of pregnancy
+knowledge. Also listing the support providers who
+loss. Echoing the results of previous research [23, 26]
+are available outside health care setting is a great
+the findings indicated that the intervention resulted in
+Galeotti et al. BMC Nursing (2023) 22:268 Page 8 of 10
+statistically significant increases in students’ perceived and provides detailed toolkits that could be implemented
+ability to define types of pregnancy loss, describe its in education and practice.
+impact on parents, discuss the communication needs of Finally, the findings recognise the potential emotional
+parents’ needs, describe the clinical management of preg- and psychological impact of learning about and working
+nancy loss, and discuss how to support parents to make with bereaved parents on nurses. Students who listened
+memories after their loss. to the lived experiences of bereaved parents, reported
+feeling an emotional toll. As recommended by other
+Implications for nursing education in pregnancy loss research [26, 50], educational interventions on pregnancy
+In line with other research, students who took part in this loss should aim to increase self-awareness and sources of
+study reported limited exposure to pregnancy loss during further support for student nurses.
+clinical and university training [28]. Further, our findings
+support those of previous studies which highlighted that Strengths & limitations
+most HPCs do not feel adequately trained on the topic The strengths of this study lie in its use of a novel educa-
+[29, 41–43]. This suggests an urgent need for the devel- tional intervention and reporting of findings from a sam-
+opment and implementation of educational programmes ple of undergraduate UK nursing students. It should be
+for nurses, who are likely to care for patients experienc- noted that the outcome measure of interest in this study
+ing pregnancy loss in emergency rooms, gynaecology and centres exclusively on self-report ratings of perceived
+surgical wards and in community settings [43]. A recent competence and confidence. Likewise, the post-test mea-
+review [28] highlights international guidelines and stan- surement was obtained in quick succession after engag-
+dards that might inform such curricula. In the UK, this ing with the lecture and workshop. These results should
+work could be informed by UK Nursing & Midwifery therefore be interpreted cautiously as the longevity of
+Council practice standards for registered midwives [44, this change remains unknown. It is possible that mea-
+45], which require proficiency in perinatal bereavement surement of confidence and competence in the abstract
+care – requirements which are notably absent from cur- and in such a short timeframe lend themselves to inflated
+rent proficiency standards for registered nurses [45]. Fur- perception of efficacy. Future investigations may consider
+ther research should explore the impacts of including this assessment of confidence and behaviour change over a
+intervention in the curriculum and also providing such longer latency period including time spent in clinical
+education for nurses in practice. practice to better measure the effectiveness of brief edu-
+The findings of this study also suggest promising con- cational intervention in this context. Further research
+tent for pregnancy loss educational interventions. Add- should consider the development of evaluations informed
+ing to findings of other research [26, 42, 43], the need for by relevant international guidelines and the use of robust
+content to increase knowledge of the different types of evaluation methods, such randomised controlled trials,
+pregnancy loss and related clinical management strate- or quasi-experimental studies.
+gies, as well as the physical and emotional impact on par-
+Conclusion
+ents and their communication needs, were highlighted.
+Findings also indicated the value of using the lived This study demonstrated that a brief, self-directed, edu-
+experiences of bereaved parents to enhance learning. cational intervention increased perceived knowledge,
+While students appreciated the mix of modalities used skills, and confidence in providing professional support
+in the current intervention, the use of more skills-based, in the context of pregnancy loss. Students positive feed-
+interactive approaches was recommended, particularly back stressed the importance of introducing this as part
+around confidence communicating with parents. Previ- of university curricula as it highlighted many benefits,
+ous studies which have highlighted key lessons in devel- not only increasing their perceived competency, but also
+oping communication skills in pregnancy loss among promoting self-reflection on current practice and par-
+health practitioners, will be informative in this regard ents’ and wider family needs. The study highlighted key
+[46–49]. implications for further development and evaluation of
+Further recommendations for educational intervention pregnancy loss educational interventions, including the
+development suggested by participants included the need importance of including interactive educational modali-
+for understanding of the needs of fathers/partners and ties such as communication skills practice, and practical
+the wider family, as well as practical information on how skills in implementing memory-making activities with
+to use tools such as memory making, and more informa- parents. The findings also highlighted the importance
+tion on available support services for parents. In the UK, the need to understand the emotional and psychological
+the National Bereavement Care Pathway for Pregnancy implications of pregnancy loss bereavement for both par-
+and Baby Loss [48] recommends bereavement care train- ents and practitioner nurses.
+ing for all professionals who work with bereaved parents
+Galeotti et al. BMC Nursing (2023) 22:268 Page 9 of 10
+Acknowledgements maternity-and-children-quality-improvement-collaborative-mcqic/mater-
+The authors wish to express their sincerest gratitude to the students who nity-care/stillbirth/. Accessed 1 Dec 2022.
+participated in this study and our colleague Dr Gary Mitchell at the School of 6. Boyle B, Addor MC, Arriola L, Barisic I, Bianchi F, Csáky-Szunyogh M et al.
+Nursing & midwifery who facilitated the implementation of the intervention. Estimating global Burden of Disease due to congenital anomaly: an analysis
+We would also like to thank the parents who shared their stories for inclusion of european data. Arch Dis Child Fetal Neonatal Ed. 2018;103.
+in the intervention. 7. Health England P. NCARDRS Congenital anomaly statistics report 2018.
+https://assets.publishing.service.gov.uk/government/uploads/system/
+Author contributions uploads/attachment_data/file/1008030/NCARDRS_Congenital_anomaly_
+MG, SH and ÁA conceptualised the study. MG, SH and MR led data collection statistics_report_2018.pdf,. Accessed 10 Jan 2022.
+and analysis, with support from ÁA. All authors drafted the manuscript jointly. 8. Goldblatt Hyatt ED. Counseling Women who have terminated a pregnancy
+All authors signed off the final version of the manuscript. due to fetal anomaly (TOPFA): the ACCEPT Model. Clin Social Work J 2019.
+2019;49:1.
+Funding 9. Farren J, Mitchell-Jones N, Verbakel JY, Timmerman D, Jalmbrant M, Bourne
+The authors received no funding to conduct this research. T. The psychological impact of early pregnancy loss. Hum Reprod Update.
+2018;24:731–49.
+Data Availability 10. Lok IH, Yip AS-K, Lee DT-S, Sahota D, Chung TK-H. A 1-year longitudinal study
+All data resulting from the research in this study will be stored for a minimum of psychological morbidity after miscarriage. Fertil Steril. 2010;93:1966–75.
+of 5 years and a maximum of 10 years in Queen’s University Belfast. All data 11. Farren J, Jalmbrant M, Ameye L, Joash K, Mitchell-Jones N, Tapp S, et al. Post-
+will be archived by year 10 in The UK Data Archive (UKDA) located in the traumatic stress, anxiety and depression following miscarriage or ectopic
+University of Essex. This is a centre that specialises in keeping data securely so pregnancy: a prospective cohort study. BMJ Open. 2016;6:e011864.
+that other researchers can apply for ethical permission to use it in their own 12. Andersson I-M, Nilsson S, Adolfsson A. How women who have experienced
+research. one or more miscarriages manage their feelings and emotions when they
+Intervention materials are freely available upon request to the corresponding become pregnant again - a qualitative interview study. Scand J Caring Sci.
+author. 2012;26:262–70.
+13. Côté-Arsenault D. Threat appraisal, coping, and emotions across pregnancy
+subsequent to perinatal loss. Nurs Res. 2007;56:108–16.
+Declarations
+14. Heaney S, Tomlinson M, Aventin Á. Termination of pregnancy for fetal
+anomaly: a systematic review of the healthcare experiences and needs of
+Competing interests parents. BMC Pregnancy Childbirth. 2022;22:1–29.
+The authors declare no competing interests. 15. Galeotti M, Mitchell G, Tomlinson M, Aventin Á. Factors affecting the
+emotional wellbeing of women and men who experience miscarriage in
+Ethics approval and consent to participate hospital settings: a scoping review. BMC Pregnancy and Childbirth 2022 22:1.
+This study received ethical approval from Queen’s University Belfast, Faculty 2022;22:1–24.
+of Medicine, Health and Life Sciences Research Ethics Committee (REF MHLS 16. Bellhouse C, Temple-Smith M, Watson S, Bilardi J. “The loss was traumatic?
+22_130). All participants provided informed written consent prior to taking some healthcare providers added to that”: Women’s experiences of miscar-
+part in the research. All methods are carried out in accordance with relevant riage. Women and Birth. 2019;32:137–46.
+guidelines and regulations. 17. Cullen S, Coughlan B, Casey B, Power S, Brosnan M. Exploring parents’ experi-
+ences of care in an irish hospital following second-trimester miscarriage. Br J
+Consent for publication Midwifery. 2017;25:110–5.
+Not applicable. 18. McNamara K, Meaney S, O’Connell O, McCarthy M, Greene R, O’Donoghue
+K, et al. Healthcare professionals’ response to intrapartum death: a cross-
+Author details sectional study. Arch Gynecol Obstet. 2017;295:845–52.
+1School of Nursing and Midwifery, Queen’s University Belfast, Belfast, 19. Ellis A, Chebsey, Storey C, Bradley S, Jackson S, Flendady A, Siassakos D.
+Northern Ireland, United Kingdom Systematic review to understand and improve care after stillbirth: a review of
+2Stress, Trauma and Related Conditions Research Centre, School of parents’ and healthcare professionals’ experiences. BMC Pregnancy Childbirth.
+Psychology, Queen’s University Belfast, Belfast, Northern Ireland, United 2016;16:16.
+Kingdom 20. McKenna L, Rolls C. Undergraduate midwifery students’ first experiences with
+stillbirth and neonatal death. Contemp Nurse. 2011;38(1–2):76–83. https://
+Received: 29 May 2023 / Accepted: 19 July 2023 doi.org/10.5172/conu.2011.38.1-2.76.
+21. Fenwick J, Jennings B, Downie J, Butt J, Okanaga M. Providing perinatal
+loss care: satisfying and dissatisfying aspects for midwives. Women Birth.
+2007;20(4):153–60. https://doi.org/10.1016/j.wombi.2007.09.002.
+22. Verhaeghe C, Gicquel M, Bouet PE, Corroenne R, Descamps P, Legendre G.
+Positive impact of simulation training of residents on the patients’ psycho-
+logical experience following pregnancy loss. J Gynecol Obstet Hum Reprod.
+References
+2020;49:101650.
+1. DiMarco MA, Menke EM, McNamara T. Evaluating a support group for perina-
+23. Brann M, Bute JJ, Scott SF. Qualitative Assessment of Bad News Delivery
+tal loss. MCN Am J Matern Child Nurs. 2001;26:135–40.
+Practices during Miscarriage diagnosis. Qual Health Res. 2020;30:258–67.
+2. Hug L, Danzhen D, Beencowe H, Mishra A, Wang Z, Fix MJ, et al. Global,
+24. McNamara K, Meaney S, O’Donoghue K. Intrapartum fetal death and doctors:
+regional, and national estimates and trends in stillbirths from 2000 to 2019: a
+a qualitative exploration. Acta Obstet Gynecol Scand. 2018;97:890–8.
+systematic assessment. The Lancet. 2021;398:772–85.
+25. Ratislavová K, Štípková M. The perinatal loss care Educational Programme and
+3. Bruggmann D, Kollascheck J, Quarcoo D, Bendels D, Lowne F, Jaque J, Grone-
+its evaluation. Zdr Varst. 2020;59:1–7.
+berg D. Ectopic pregnancy: exploration of its global research architecture
+26. Doherty J, Coughlan B, Casey B, LLoyd B, Sheehy L, Brosnan M et al. Student
+using density-eualising mapping and socioeconomic benchmarks. BMJ
+midwives’ education needs and their experience of attending a bereavement
+Open. 2017;7:e018394.
+education workshop. Br J Midwifery. 2018;26.
+4. Office for National Statistics. Child and infant mortality in England and Wales
+27. Pastor Montero SM, Romero Sanchez JM, Hueso Montoro C, Lillo Crespo M,
+- Office for National Statistics. 2020. https://www.ons.gov.uk/peoplepopula-
+Vacas Jaen AG, Rodriguez Tirado MB. Experiences with perinatal loss from the
+tionandcommunity/birthsdeathsandmarriages/deaths/bulletins/childhood-
+health professionals’ perspective. Rev Lat Am Enfermagem. 2011;19:1405–12.
+infantandperinatalmortalityinenglandandwales/2020. Accessed 1 Dec 2022.
+28. Qian J, Sun S, Wu M, Liu L, Yaping S, Yu X. Preparing nurses and midwives to
+5. Healthcare Improvement Scotland. Reducing Stillbirth in Scot-
+provide perinatal bereavement care: a systematic scoping review. Nurse Educ
+land. 2018. https://ihub.scot/improvement-programmes/scottish-
+Today. 2021;103.
+patient-safety-programme-spsp/spsp-programmes-of-work/
+Galeotti et al. BMC Nursing (2023) 22:268 Page 10 of 10
+29. Heaney S. The Bluebell Study: a qualitative study of the healthcare experi- 41. Mauri PA, Squillace F. The experience of Italian nurses and midwives in the
+ences and needs of parents following termination of pregnancy for medical termination of pregnancy: a qualitative study. http://dx.doi.org.queens.ezp1.
+reasons. Doctoral degree. Queen’s University Belfast; 2023. qub.ac.uk/101080/1362518720171318846. 2017;22:227–32.
+30. National Bereavement Care Pathway. Miscarriage Bereavement Care 42. Zwerling B, Rousseau J, Ward KM, Olshansky E, Lo A, Thiel de Bocanegra H, et
+Pathway. 2022; Available at: https://nbcpathway.org.uk/pathways/ al. It’s a horrible assignment”: a qualitative study of labor and delivery nurses’
+miscarriage-bereavement-care-pathway. experience caring for patients undergoing labor induction for fetal anomalies
+31. National Bereavement Care Pathway. Termination of Pregnancy due to or fetal demise. Contraception. 2021;104:301–4.
+Fetal Anomaly. 2022; Available at: https://nbcpathway.org.uk/pathways/ 43. Shen Q, Liang J, Gao Y. Experience of undergraduate midwifery students
+miscarriage-bereavement-care-pathway. faced with perinatal death in clinical practice: a qualitative study. Nurse Educ
+32. National Bereavement Care Pathway. Stillbirth Bereavement Care Today. 2022;108.
+Pathway. 2022; Available at: https://nbcpathway.org.uk/pathways/ 44. NMC. Standards of proficiency for midwives. 2019.
+miscarriage-bereavement-care-pathway. 45. NMC. Future nurse: Standards of proficiency for registered nurses. 2018.
+33. National Institute for Health and Care Excellence (NICE), Antenatal and 46. Jacques AP, Adkins EJ, Knepel S, Boulger C, Miller J, Bahner DP. Educating the
+postnatal mental health: clinical management and service guidance. 2020; delivery of bad news in medicine: Preceptorship versus simulation. Int J Crit
+Available at: https://www.nice.org.uk/guidance/cg192. Illn Inj Sci. 2011;1:121.
+34. Thornton R, Nicholoson P, Harms L. Being a parent: findings from a grounded 47. Johnson J, Arezina J, Tomlin L, Alt S, Arnold J, Bailey S, et al. UK consensus
+theory of memory-making in neonatal end-of-Life Care. J Pediatr Nurs. guidelines for the delivery of unexpected news in obstetric ultrasound: the
+2021;61:51–8. https://doi.org/10.1016/j.pedn.2021.03.013. ASCKS framework. Ultrasound. 2020;28:235–45.
+35. O’Connell O, Meaney S, O’Donoghue K. Caring for parents at the time of 48. NBCP. NBCP Pathways material. 2022. https://nbcpathway.org.uk/profession-
+stillbirth: how can we do better? Women Birth. 2016;29:345–9. https://doi. als/nbcp-pathways-material. Accessed 28 Apr 2023.
+org/10.1016/j.wombi.2016.01.003. 49. Qian J, Cai W, Sun S, Wang M, Yu X. Influencing factors of perinatal bereave-
+36. Kingdon C, O’Donnell E, Givens J, Turner M. The role of Healthcare Profession- ment care confidence in nurses and midwives: a cross-sectional study. Nurse
+als in encouraging parents to see and hold their Stillborn Baby: a Meta- Educ Today. 2022;117.
+synthesis of qualitative studies. PLoS ONE. 2015;10:7. https://doi.org/10.1371/ 50. McNamara K, Smith A, Shine B, Cregan M, Prihodova L, O’Shaughnessy A,
+journal.pone.0130059. et al. Addressing obstetricians’ awareness of compassion, communication,
+37. Kalu FA, Larkin P, Coughlan B. Development, validation and reliability testing and self-care when caring for families experiencing stillbirth: evaluation of
+of ‘perinatal bereavement care confidence scale (PBCCS)’. Women Birth. a novel educational workshop using applied drama techniques. PLoS ONE.
+2020;33(4):e311–9. 2022;17:e0277496.
+38. Bloor M, Wood F. Keywords in qualitative methods: a vocabulary of research
+concepts. Sage Publications Ltd. 31. Powers and Knapp; 2006.
+39. Vaismoradi M, TurunenH, Bondas T. Content analysis and thematic analysis: Publisher’s Note
+implications for conducting a qualitative descriptive study. Nurs Health Sci. Springer Nature remains neutral with regard to jurisdictional claims in
+2013;15:398–405. published maps and institutional affiliations.
+40. Bengstsson M. How to plan and perform a qualitative study using content
+analysis. NursingPlus. 2016;2:8–14.

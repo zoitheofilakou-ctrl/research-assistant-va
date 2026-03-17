@@ -1,0 +1,1120 @@
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+Original Paper
+A Brain Computer Interface Neuromodulatory Device for Stroke
+Rehabilitation: Iterative User-Centered Design Approach
+Gemma Alder1, MSc; Denise Taylor1, PhD; Usman Rashid1, PhD; Sharon Olsen1, PhD; Thonia Brooks1, BTECH,
+HRM; Gareth Terry1, PhD; Imran Khan Niazi1,2,3, PhD; Nada Signal1, PhD
+1Rehabilitation Innovation Centre, Health and Rehabilitation Research Institute, Auckland University of Technology, Auckland, New Zealand
+2Centre for Chiropractic Research, New Zealand College of Chiropractic, Auckland, New Zealand
+3Sensory Motor Integration, Department of Health Science and Technology, Aalborg University, Aalborg, Denmark
+Corresponding Author:
+Gemma Alder, MSc
+Rehabilitation Innovation Centre, Health and Rehabilitation Research Institute
+Auckland University of Technology
+(A-11), Private Bag 92006
+Auckland, 1142
+New Zealand
+Phone: 64 9 921 9999 ext 7815
+Email: gemma.alder@aut.ac.nz
+Abstract
+Background: Rehabilitation technologies for people with stroke are rapidly evolving. These technologies have the potential to
+support higher volumes of rehabilitation to improve outcomes for people with stroke. Despite growing evidence of their efficacy,
+there is a lack of uptake and sustained use in stroke rehabilitation and a call for user-centered design approaches during technology
+design and development. This study focuses on a novel rehabilitation technology called exciteBCI, a complex neuromodulatory
+wearable technology in the prototype stage that augments locomotor rehabilitation for people with stroke. The exciteBCI consists
+of a brain computer interface, a muscle electrical stimulator, and a mobile app.
+Objective: This study presents the evaluation phase of an iterative user-centered design approach supported by a qualitative
+descriptive methodology that sought to (1) explore users’perspectives and experiences of exciteBCI and how well it fits with
+rehabilitation, and (2) facilitate modifications to exciteBCI design features.
+Methods: The iterative usability evaluation of exciteBCI was conducted in 2 phases. Phase 1 consisted of 3 sprint cycles
+consisting of single usability sessions with people with stroke (n=4) and physiotherapists (n=4). During their interactions with
+exciteBCI, participants used a “think-aloud” approach, followed by a semistructured interview. At the end of each sprint cycle,
+device requirements were gathered and the device was modified in preparation for the next cycle. Phase 2 focused on a “near-live”
+approach in which 2 people with stroke and 1 physiotherapist participated in a 3-week program of rehabilitation augmented by
+exciteBCI (n=3). Participants completed a semistructured interview at the end of the program. Data were analyzed from both
+phases using conventional content analysis.
+Results: Overall, participants perceived and experienced exciteBCI positively, while providing guidance for iterative changes.
+Five interrelated themes were identified from the data: (1) “This is rehab” illustrated that participants viewed exciteBCI as having
+a good fit with rehabilitation practice; (2) “Getting the most out of rehab” highlighted that exciteBCI was perceived as a means
+to enhance rehabilitation through increased engagement and challenge; (3) “It is a tool not a therapist,” revealed views that the
+technology could either enhance or disrupt the therapeutic relationship; and (4) “Weighing up the benefits versus the burden”
+and (5) “Don’t make me look different” emphasized important design considerations related to device set-up, use, and social
+acceptability.
+Conclusions: This study offers several important findings that can inform the design and implementation of rehabilitation
+technologies. These include (1) the design of rehabilitation technology should support the therapeutic relationship between the
+patient and therapist, (2) social acceptability is a design priority in rehabilitation technology but its importance varies depending
+on the use context, and (3) there is value in using design research methods that support understanding usability in the context of
+sustained use.
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 1
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+(JMIR Rehabil Assist Technol 2023;10:e49702) doi: 10.2196/49702
+KEYWORDS
+user-centered design; stroke; rehabilitation technology; wearable technology; brain computer interface; BCI; mobile app;
+think-aloud; near live; semistructured interviews
+must include a user-centered approach [45]. In this paper, we
+Introduction
+present a complex neuromodulatory rehabilitation technology
+(exciteBCI) and its evaluation in a user-centered design research
+Background
+process.
+Stroke is a major health, socioeconomic, and financial burden
+that affects over 12 million people worldwide annually [1]. exciteBCI
+Despite advances in stroke prevention, the incidence of stroke exciteBCI is a prototype, portable, medical wearable device
+is anticipated to rise due to population growth and aging [2]. designed to deliver neuromodulation during locomotor
+Following a stroke, up to 80% of individuals experience rehabilitation for people with stroke. The device uses a brain
+difficulty with locomotion [3,4]. Locomotion refers to the ability computer interface in which a specific electroencephalography
+to move from one place to another [5] and encompasses a wide signal, which reflects the person’s intention to move, is extracted
+range of activities such as getting on and off a chair; walking and paired with the afferent stimulus from peripheral electrical
+indoors; climbing stairs; and navigating obstacles, terrains, and stimulation [46,47]. The electrical stimulation is timed to
+environments. While most people with stroke regain some ability coincide precisely with the electroencephalography signal in
+to walk unassisted, less than 20% achieve unrestricted the motor cortex to induce neural plasticity [46,47].
+community locomotion [6,7]. Rehabilitation can reduce
+exciteBCI evolved from an endeavor to translate a
+locomotor disability following stroke, particularly when
+neuromodulatory intervention that had been tested in healthy
+delivered in large volumes [8-14], yet observational studies
+and stroke populations in a clinical research laboratory setting
+confirm the amount of rehabilitation received is limited,
+[46-54] into a rehabilitation device suitable for stroke
+translating into poorer outcomes for people with stroke and
+rehabilitation. Prior feasibility work found that the
+consequent lifelong disability [15-20]. Thus, innovative
+neuromodulatory intervention, when delivered during simple
+approaches for stroke rehabilitation are required.
+ankle movements while seated, was not acceptable to people
+The last 2 decades have witnessed the rapid development of with stroke and was not feasible for rehabilitation [55]. The
+rehabilitation technologies, such as robotics, virtual reality, equipment was deemed cumbersome and uncomfortable, the
+neuromodulation devices, activity monitors, and mobile apps set-up time was excessive, and the movement tasks were
+designed to augment rehabilitation after stroke. While there is considered meaningless and boring by people with stroke. Given
+evidence that these technologies can increase the amount of that qualitative evidence indicates that rehabilitation should be
+rehabilitation a person with stroke receives and improve centered on meaningful real-world activities that reflect a
+outcomes [13,14,21-26], user adoption and sustained use of person’s aspirations and should be practiced at progressively
+such technologies remains low [27-33]. The disconnect between higher intensities [56,57], these perspectives have important
+initial efficacy and clinical translation likely relates to the ramifications for the implementation of the intervention in
+usability of these technologies and their acceptability to users clinical practice and for ensuring sustained use.
+[34,35]. As a result, there has been a call for increased
+The iterative user-centered design process for developing
+application of user-centered design approaches in the
+exciteBCI was guided by the International Organization for
+development of rehabilitation technologies [35-37]. Adopting
+Standardization (ISO) 9241-210:2010 standard [38] and was
+user-centered design approaches can support the development
+driven by a transdisciplinary team comprising physiotherapists,
+of usable and acceptable technologies by prioritizing user needs,
+biomedical engineers, product designers, user experience and
+involving users and relevant stakeholders throughout the project
+user interface designers, and a lived experience researcher.
+life cycle, and modifying the design of the technology based
+Initial work involved the following three phases: (1)
+on iterative user-centered evaluation [38,39].
+understanding and specifying the context of use, (2) identifying
+Noninvasive neuromodulatory interventions are rehabilitation user requirements, and (3) iteratively developing design
+technologies with the potential to maximize rehabilitation solutions [58]. This paper reports the fourth stage of the ISO
+outcomes and reduce physical disability. Typically, these 9241-210:2010 standard [38]: (4) evaluating the design. The
+interventions involve repeated magnetic or electrical stimulation aims of this research were to (1) explore users’perspectives
+of the central and peripheral nervous systems to induce neural and experiences of exciteBCI and how well it fits with
+plasticity [40]. Noninvasive neuromodulatory interventions that rehabilitation, and (2) facilitate modifications to exciteBCI
+target movement control have the potential to accelerate stroke design features.
+recovery when combined with traditional rehabilitation [41-44].
+However, such interventions often rely on complex medical
+devices and user interfaces operated by expert operators, and
+lack usability and acceptability. To maximize the potential for
+successful implementation in rehabilitation practice, research
+and development of noninvasive neuromodulatory technologies
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 2
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+were people who had experienced a stroke and physiotherapists
+Methods
+working in stroke rehabilitation. This study consisted of 2
+phases. In phase 1, a series of usability testing sprint cycles
+Study Design
+were conducted [59]. In phase 2, a “near-live” [60] testing
+The evaluation phase of an iterative user-centered design
+approach was used, in which 2 participants with stroke and a
+approach supported by a qualitative descriptive methodology
+physiotherapist undertook a 3-week intervention of locomotor
+was used to address the aims of this study. In this study, users
+rehabilitation augmented by exciteBCI (Figure 1).
+Figure 1. Overview of study design, data collection procedures, and data analysis. PwS: people with stroke.
+exciteBCI Prototype
+Ethical Considerations
+The exciteBCI prototype evaluated in this research is intended
+The study was approved by the New Zealand Health and
+for clinical use in collaboration with a qualified physiotherapist
+Disability Ethics Committee (17/NTA/177), and locality
+in an inpatient, outpatient, or community setting. exciteBCI has
+authorization was endorsed by the Auckland University of
+3 components: 2 wearable components, including an
+Technology Ethics Committee (17/373). Before the study, all
+electroencephalography headset and a muscle stimulator, and
+participants provided written informed consent. The privacy
+a third component, a mobile app. The 3 components
+and confidentiality of participants was protected by secure
+communicate wirelessly (Figure 2).
+storage of all data and deidentification of data where feasible.
+Participants received an NZ $40 (US $24) gift voucher for each
+session they attended in acknowledgment of their contributions.
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 3
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+Figure 2. The exciteBCI consists of 3 components: an electroencephalography headset, a muscle stimulator, and a mobile app, each of which communicates
+wirelessly.
+The electroencephalography headset included 9 gel electrodes included locomotor tasks cued with an audiovisual prompt. The
+capable of recording brain activity that was used to predict when locomotor tasks could be selected, and the task parameters such
+the person with stroke was going to move. The muscle stimulator as number of repetitions, movement speed, and rest time
+(NeuroTrac Rehab) was housed within a neoprene sleeve and manipulated to create an individualized locomotor rehabilitation
+worn during rehabilitation tasks to deliver electrical stimulation program. See Figure 3 for example screenshots from the
+to a lower limb muscle. The muscle stimulator delivered the exciteBCI app interface prototype v3.3. This version of the app
+afferent stimulus which was paired with electroencephalography was presented to participants during the first sprint cycle of
+brain activity to induce neural plasticity. The exciteBCI app phase 1.
+was designed to support the delivery of the intervention. It
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 4
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+Figure 3. Example screenshots from the exciteBCI app interface prototype v3.3. (A) Registering a new patient, (B) the task selection suite where the
+patient and therapist select tasks that align with the patient’s goals, (C) the parameters that can be manipulated for each task by the therapist to ensure
+an optimal level of task difficulty, (D) checking the impedance levels of the electroencephalography headset, (E) the muscle stimulator is connected to
+the app and stimulation amplitude saved, (F) the patient watches a video on how to perform the task, (G-H) the timing signal (auditory-visual cue) to
+get ready and execute the task, and (I) the patient completes the task difficulty and confidence ratings at the end of the task set.
+[61], followed by a semistructured interview [62] (refer to Figure
+Participants
+1). At the end of each sprint cycle, user device requirements
+People diagnosed with a stroke at least 6 months prior who were compiled, and changes were made to the user interface
+presented with some restriction of the foot and ankle movement and device before the next sprint cycle began. Participants were
+limiting locomotor function were recruited. People with English asked to use a “think-aloud” process by verbalizing their
+language limitations, cognitive, perceptual, and communication thoughts, observations, and opinions while interacting with the
+impairments, who were unable to engage in the research process exciteBCI prototype in a planned series of activities (Textbox
+even with the support of a family member or a health 1). The researcher’s interactions were kept to a minimum to
+professional, were excluded. New Zealand registered support participants to fully engage in the “think-aloud” process,
+physiotherapists with at least 5 years of professional experience but, when necessary, the researcher prompted the participant
+in the field of neurological rehabilitation were recruited. with phrases like “tell me what you’re thinking now.” Video
+Networking with local health care and rehabilitation providers and audio recordings, photographs, and researcher observations
+and community advertising were used to recruit a convenience (TB SO, and UR) were used to capture the think-aloud process.
+sample of participants. All participants provided written Semistructured interviews were conducted by 2 experienced
+informed consent before participating in the study. researchers (GA and NS). The interviews were audio-recorded
+and focused on participants’experiences and opinions of the
+Procedures and Data Collection
+device, functionality, design features, and suggested
+Phase 1: Think-Aloud Sprint Cycles improvements. See Multimedia Appendix 1 for phase 1
+indicative interview questions. Consecutive participants
+People with stroke (n=4) and physiotherapists (n=4) participated
+participated in the sprint cycles until no new insights or changes
+in a single 1-hour usability testing session, where they interacted
+to the exciteBCI device's design features were provided [63,64].
+with the exciteBCI prototype using a “think-aloud” approach
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 5
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+Textbox 1. Examples of activities used in phase 1 sprint cycles to facilitate the “think-aloud” process.
+Physiotherapists
+• Use the tablet to complete the initial client registration (10-15 min).
+• Use the tablet to design a task-specific training program for a client (10-15 min).
+• Follow the instructions to set-up the headset (10-15 min).
+• Follow the instructions to set-up the electrical stimulation and place electrodes on the tibialis anterior muscle (10-15 min).
+• Calibrate the system—complete the task-specific training while the headset records your model’s brain signals (10-20 min).
+• Complete task-specific training while your model receives the paired intervention (5-10 min).
+• Remove the headset and electrical stimulation device (5-10 min).
+People with stroke
+• Now you are set-up, follow the cue on the tablet to perform the exercises and we will record your brain signals (20-25 min).
+• Follow the cue on the tablet screen to complete the exercises while receiving the neuromodulatory intervention (20-30 min).
+• Please rate how difficult it was to perform that task and how confident you felt performing the task (5-10 min).
+• Donning and doffing of equipment (10-15 min).
+As the time spent on each activity varied across participants, a time range (min) has been listed against each activity. Similarly, the number of
+task-specific training exercises and associated repetitions varied across participants (2-4 exercises 20-80 repetitions per exercise). For the physiotherapist
+session, the model was a member of the research team.
+anterior muscle to coincide with the person’s intended
+Phase 2: Near-Live Program of Rehabilitation
+movement. Approximately 10 minutes of the 1-hour session
+A “near-live” testing approach [60] was carried out in which 2 was attributed to the donning and doffing of the equipment.
+people with stroke engaged in a 3-week program of locomotor
+All rehabilitation sessions were video-recorded, researcher
+rehabilitation augmented by exciteBCI (Soft Headset v2, App
+observation notes (NS and TB) of the participant interactions
+v3.6, Electrical Stimulator v.3). Eight 1-hour rehabilitation
+with the exciteBCI prototype were recorded, and photographs
+sessions were conducted in an outpatient clinical setting
+were taken at each session. Following completion of the
+supervised by a New Zealand registered physiotherapist with
+rehabilitation program, the participants with stroke and the
+10 years of clinical experience in stroke rehabilitation (GA).
+physiotherapist (GA) took part in separate semistructured
+Before the rehabilitation sessions, participants attended an initial
+interviews. Interviews were conducted by 2 experienced
+assessment and planning session to establish locomotor-related
+researchers (GT and SM) who were not involved in the
+goals and completed clinical outcome measures. Clinical
+development of the exciteBCI. The interview focused on the
+measures included the 30-second chair stand test, 10-m walk
+participants’opinions and experiences of using the device within
+test; 6-minute walk test; four step square test, and lower limb
+a rehabilitation context and included specific questions in
+muscle strength testing of the ankle dorsiflexors, ankle plantar
+response to video observations of the rehabilitation program.
+flexors, knee extensors, and hip flexors using a handheld
+All interviews were audio-recorded. See the Multimedia
+dynamometer [65]. Clinical measures were repeated at the end
+Appendix 1section for phase 2 indicative interview questions.
+of the rehabilitation program.
+Data Analysis
+The rehabilitation program was based on current evidence-based
+practice as recommended in the National and International “Think-aloud” and interview data were transcribed verbatim.
+Clinical Guidelines for Stroke [66-68] and included The transcripts and written observation notes were imported
+goal-oriented task-specific training of locomotor-related skills into NVivo 12 (Lumivero) computer software package [70].
+that were deemed important to the participant. The Data analysis was undertaken in 2 stages. In the first stage,
+physiotherapist prescribed 3 to 4 different tasks from the suite transcripts and videos were descriptively analyzed by the
+of tasks within the tablet-based exciteBCI app per session. primary researcher (GA) to identify user interface and device
+Informed by the principles of motor learning [69], the requirements within each sprint cycle. This analysis was then
+rehabilitation tasks were progressed over the program based on discussed with the team to inform the development of the device
+the participant’s rating of perceived difficulty for each task before the next cycle. This analysis also served as a
+using a numerical visual analog scale. Task parameters were familiarization process for the second stage of analysis.
+manipulated or new tasks were prescribed to achieve a challenge
+The second stage of analysis focused on addressing the aim,
+point of 6 to 8 out of 10 on the task difficulty visual analog scale
+exploring users’ perspectives and experiences of exciteBCI,
+for each task [57]. Participants completed between 30 and 100
+and how well it fits with rehabilitation. This stage used a
+repetitions of each task during the 1-hour session. The
+modified version of conventional content analysis [71] to
+participants used the exciteBCI throughout the rehabilitation
+analyze the data from both phases of the study. Conventional
+program, which delivered electrical stimulation to the tibialis
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 6
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+content analysis allows the researcher to immerse themselves of themes. The coded data, categories, and prototype themes
+in the data to acquire an accurate description of what participants were reviewed and discussed with 2 researchers (NS and GT)
+experienced and understood about the topic at hand [62]. The in a series of analysis meetings to ensure consistency of
+data were coded inductively by the primary researcher (GA) at interpretation.
+the sentence or phrase level, and a semantic coding framework
+Results
+was iteratively developed during the data analysis process [72].
+Several activities were used to enhance the understanding of Overall
+code relationships, such as continuous comparisons within and
+A total of 11 people participated in the study with no reported
+between codes and data sources, as well as the practice of
+adverse events. Table 1presents the demographic and clinical
+memoing to capture initial insights about the data and potential
+characteristics of the participants, and Figure 4 displays
+interactions among codes [73]. The coded data iteratively
+photographs of participants interacting with the device in phases
+informed the development of categories. Categories and
+1 and 2 of usability testing. In the interest of intellectual property
+representative coded data were visually represented using a
+protection, the iterative device requirements for the user
+mind map in the MIRO Application to support the development
+interface and the device are not presented in this paper.
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 7
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+Table 1. Participant characteristics (n=11).
+Demographic and clinical characteristics Value
+People with stroke (n=6)
+Type of stroke, n (%)
+Ischemic 3 (50)
+Hemorrhagic 3 (50)
+Lesion location, n (%)
+Right hemisphere 4 (67)
+Left hemisphere 2 (33)
+Time since stroke (y), mean (SD; range) 7 (6.7; 2-19)
+Types of impairments, n (%)a
+Motor 6 (100)
+Sensory 4 (67)
+Perceptual 2 (33)
+Cognition 2 (33)
+Communication 1 (17)
+Functional ambulation category scores [74], n (%)
+0b 0 (0)
+1c 0 (0)
+2d 1 (17)
+3e 1 (17)
+4f 3 (50)
+5g 1 (17)
+Prior experience of technology components, n (%)
+FESh
+Clinical 4 (67)
+Research 3 (50)
+No experience 1 (17)
+BCIi
+Clinical 0 (0)
+Research 3 (50)
+No experience 3 (50)
+Mobile app–based interventions
+Clinical 0 (0)
+Research 0 (0)
+No experience 6 (100)
+Sex, n (%)
+Female 3 (50)
+Male 3 (50)
+Ethnicity, n (%)
+Asian 1 (17)
+European 2 (33)
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 8
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+Demographic and clinical characteristics Value
+New Zealander 3 (50)
+Age (y), n (%)
+<45 1 (17)
+45-65 2 (33)
+>65 3 (50)
+Physiotherapists (n=5), n (%)
+Years qualified as a physiotherapist
+5-10 1 (20)
+10-20 3 (60)
+>20 1 (20)
+Highest qualification
+Bachelor of Science 4 (80)
+Masters 1 (20)
+Years of clinical experience in stroke rehabilitation
+5-10 3 (60)
+10-20 1 (20)
+>20 1 (20)
+Prior experience of technology components
+FESj
+2-12 5 (100)
+BCIk
+3 (research context) 1 (20)l
+Mobile apps for rehabilitationm
+3-10 5 (100)
+Sex
+Female 5 (100)
+Ethnicity
+European 2 (40)
+New Zealander 3 (60)
+an>6 due to some participants presenting with multiple impairments.
+bNonfunctional walker (unable to walk).
+cDependent walker requires continues manual contact.
+dDependent walker requires intermittent manual contact.
+eDependent walker requires verbal supervision or guiding.
+fIndependent walker on level surfaces only.
+gIndependent walker on any surface.
+hFES: functional electrical stimulation (n>6 due to experience in more than 1 category).
+iBCI: brain computer interface.
+jYears experience using functional electrical stimulation.
+kYears experience using brain computer interfaces.
+lPrimary author: GA.
+mYears experience using mobile apps for rehabilitation. Video mobile apps to capture patient performance and exercise provision mobile apps.
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 9
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+Figure 4. Photographs of participants from phase 1 sprint cycles and phase 2 “near-live” 3-week program interacting with the exciteBCI device. (A)
+A participant with stroke and physiotherapist work in partnership to select task-specific training exercises in the exciteBCI app, (B) a physiotherapist
+participant setting up the electroencephalography headset, (C) a physiotherapist setting up the muscle stimulator on a participant with stroke, (D-F)
+participants with stroke engaging in locomotor rehabilitation while wearing the exciteBCI device and receiving the neuromodulatory intervention with
+the physiotherapist, (G) a participant with stroke using the app rating scale of perceived rehabilitation task difficulty to inform the physiotherapist about
+the challenge-point of the task.
+Overall, the findings showed that participants with stroke and Getting the most out of rehab, (3) It is a tool not a therapist, (4)
+physiotherapists had positive perceptions and experiences of Weighing up the benefits versus the burden, and (5) Don’t make
+the exciteBCI intervention and could see it being used in a me look different. Illustrative quotes that corroborated the data
+rehabilitation context. Five themes were generated from the have been selected for thematic representation, and pseudonyms
+data, as illustrated in Figure 5. Central was the theme (1) This have been used.
+is rehab, which interacted and was influenced by the themes (2)
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 10
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+Figure 5. The relationship of themes associated with the users’perceptions and experiences of exciteBCI, and how well it fits with rehabilitation.
+With an external stimulus like the FES hand switch,
+Theme 1: This Is Rehab
+I need to try and time it right. So, it’s not that it’s not
+At the core of the findings was the theme, “This is Rehab.” inconvenient it’s just[...] makes more sense to take
+Despite being a novel technology incorporating a brain computer the relationship internally rather than externally. It’s
+interface and app, both physiotherapists and people with stroke the patients driving it[...] And I think that will
+identified that the exciteBCI was clearly a rehabilitative tool facilitate learning more. [Sarah, Physiotherapist,
+suitable for supporting and augmenting rehabilitation practice: Sprint cycle 2]
+At first, I thought, it’s not a new treatment [...] we’re Physiotherapists described how the exciteBCI app would support
+doing something that’s extra, but it’s basically just them in delivering effective rehabilitation by supporting their
+facilitating what we’re doing anyway. [Sarah, clinical reasoning process, enabling specificity in the design of
+Physiotherapist, Sprint cycle 2] rehabilitation programs, and promoting efficiency. They
+particularly valued how the exciteBCI app aided them in
+For clinical use, the intervention worked brilliantly.
+thinking about different aspects of task-specific training.
+[Anni, Age 58, PwS, 3-wk program]
+However, they also consistently emphasized the importance of
+Many expressed surprise at how congruent the technology was
+tailoring rehabilitation to individuals.
+with their own clinical practice and understanding of
+rehabilitation principles. This congruence appeared to enhance This prompted them to describe additional app features which
+perceptions of usability and acceptability. They readily identified might support further personalization:
+ways in which the technology could be integrated into current
+What this shows [points to video playing task], it’s
+rehabilitation practices:
+the goal of doing it perfectly well, but it might not
+It doesn’t seem to be over complicated, and once you look like that for them [the client]. Would be great if
+use it on a daily basis more or less it’s actually not the actual client performing the task can be
+that difficult.[Zoe Physiotherapist, Sprint cycle 2] videotaped as well. [Sarah, Physiotherapist Sprint
+cycle 2]
+Participants were easily able to understand the purpose and
+mechanism of the intervention. Physiotherapist participants Shopping bags, washing basket so they are the things
+drew on their understanding of functional electrical stimulation that we would [...] quite commonly do, but [...] when
+(FES), a modality commonly used in clinical practice, in I choose secondary tasks, I often choose things that
+understanding the physiological underpinnings of the paired I know this patient is going to do and relates to their
+neuromodulatory intervention. They identified that the exciteBCI goals [...] so a customize option is essential [Zoe,
+device could offer benefits over FES, particularly in relation to Physiotherapist Sprint cycle 2]
+the way the person’s own brain signals are used to drive the Attention to an efficient workflow, minimizing duplication of
+delivery of electrical simulation, and suggested that this would information being entered, and system interoperability were
+enhance outcomes from rehabilitation: also priorities for physiotherapists. They particularly valued
+how the exciteBCI app could support efficient and
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 11
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+comprehensive clinical record keeping and support handover Together, these factors supported people with stroke to work
+between therapists: at intensities and volumes beyond what they would normally
+achieve during rehabilitation. This supported substantial gains
+I would think about a lot of these different parameters,
+in balance and walking and, in turn, built self-efficacy:
+but I might not be as explicit about them in my
+notetaking [...] this is way more thorough[...] I felt a sense of achievement you know, and that’s
+structured[...] easy to follow, easy to pick up on for what’s important, I’m still making progress. [Jake,
+next time[...] and so much quicker. [Megan, Age 44, PwS, 3-wk program]
+Physiotherapist, Sprint cycle 1] These findings illustrate that both people with stroke and
+Physiotherapists identified the challenges associated with the physiotherapists discovered a number of features within the app
+use of clinical terminology and language, calling for app features that support fundamental rehabilitation principles.
+such as icons and pop-up definitions, which would support users
+Theme 3: It Is a Tool, Not a Therapist
+to have a clear understanding of key terms:
+Participants with stroke emphasized that developing a trusted
+Accuracy? so I’ve got large target, small target, wide
+relationship with their therapist was fundamental to their
+path, small path [...] so path I presume means width?
+rehabilitative journey. They discussed ways in which the app
+[...] I think photos or icons is a really good thing to
+might support or disrupt this relationship. Participants in phase
+just clarify stuff- probably more than words.[Megan,
+1 raised the possibility that the app could disrupt the therapeutic
+Physiotherapist, Sprint cycle 1]
+relationship:
+Most physiotherapists also described the need for prior hands-on
+[...]Physically having the device and therapist there
+training opportunities led by an experienced clinical expert,
+complicates the relationship...so the therapist really
+specifically addressing the rehabilitation approach, device
+needs to make sure their cues show engagement and
+set-up, and troubleshooting. This was deemed essential to
+interest[...] there is a risk here. [Thonia, Lived
+support the successful uptake of the technology in rehabilitation.
+experience researcher]
+In addition, they recommended incorporating training and
+troubleshooting videos directly into the app. While those who participated in the 3-week program did not
+highlight the same concern, all participants stressed that the app
+Theme 2: Getting the Most Out of Rehab
+was a therapeutic tool that should not be viewed as a substitute
+People with stroke and physiotherapists described the ways in for the therapist:
+which the exciteBCI, and in particular the app, could support
+[...] if you feel I handed over the therapy session to
+people with stroke to engage in more intensive and challenging
+this [app] and I've cognitively left the building, then
+rehabilitation at higher doses. Participants valued the way
+that is disastrous, to our relationship and their
+exciteBCI supported people with stroke to work hard. This was
+treatment. If I'm not engaged, why would they want
+achieved in multiple ways. First, the app enabled
+to be [Jude, Physiotherapist, Sprint cycle 3]
+physiotherapists to design specific and challenging rehabilitation
+programs for patients: Most participants indicated that they would be happy to use the
+app independently; however, the majority indicated a preference
+It just was a really nice, structured way of [...] finding for using the device with the physiotherapist present. They
+that sweet spot to maintain challenge, but for the described how the physiotherapist offered guidance and
+participants to feel they are making progress and all feedback about their performance and progress:
+that hard work is paying off. [Gemma,
+Physiotherapist, 3-wk program] So, if I'm not doing a sit to stand correctly [points at
+app] then who is going to correct me? [...] I like the
+Second, the task difficulty rating scales supported both people
+feedback from the therapist, because at some point
+with stroke and physiotherapists to judge the challenge of each
+the quality of the movement does matter.[Lilly, Age
+task and served as a prompt to work on more challenging tasks:
+64, PwS, Sprint cycle 1]
+[...]and the rating scale is really helpful too. You have Participants also described how the physiotherapist motivated
+a bit more about what’s challenging for them and them to work harder by encouraging them to do their best work,
+what’s not. Gives you a better starting point. [Zoe, while also understanding their personal limits in a way that the
+Physiotherapist, Sprint cycle 2] app could not:
+Third, the audiovisual cue that prompted the onset of movement
+The physiotherapist can push you further. They can
+compelled people with stroke to remain focused. By setting the
+see that you can be pushed extra. Which is important
+time of task practice, limiting the amount of rest, and promoting
+[...] people get tired, aagh and ready to give up,
+attention on the task, large volumes of rehabilitation were
+whereas the therapist goes another 10-minutes. Helps
+achieved:
+you squeeze out that last little bit.[Bob, Age 84, PwS,
+[...]I think the way that the system has been Sprint cycle 1]
+constructed is quite focus oriented...It’s actually Consequently, some participants felt that the exciteBCI either
+keeping the time [...] you get so much more in [the should not or could not be used without the support of a
+session]. [Anni, Age 58, PwS, 3-wk program] physiotherapist. These findings illustrate that attention to the
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 12
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+impact of technology on the therapeutic relationship during both concerns, they were eager to offer suggestions to make it a
+the design and implementation of rehabilitation technologies is viable option for independent use.
+essential.
+Theme 5: Do Not Make Me Look Different
+Theme 4: Weighing up the Benefits Versus the Burden
+Almost all participants emphasized how the social acceptability
+While both people with stroke and physiotherapist participants of the device would influence their desire to use it. The need
+saw the benefits and potential of exciteBCI, they also called for for a socially acceptable device design was less important in a
+“real-world evidence” of effect, research-based evidence, or clinical setting or at home than if the device was being used in
+endorsement from a trusted source: a public or social context:
+[...] If I knew it was going to bring about a speedier It’s [the headset] not for glamour it’s for results [...]
+recovery, I would be more likely to use it. [James, it’s the job it’s doing, reading the brain. Glamour
+Age 74, PwS, Sprint cycle 2] doesn't matter, does it? If there’s certain areas of the
+If my physio turned up with it, I wouldn’t mind at all. brain it can read, it’s got to work. It doesn’t matter
+[Jenny, Age 67, PwS, Sprint cycle 2] what it looks like [...] not whilst you’re doing rehab.
+You’re there for the rehab. [Lilly, Age 64, PwS,
+Those who participated in the 3-week program drew on their
+Sprint cycle 1]
+own experiences of the intervention to generate real-world
+evidence: Nevertheless, most participants called for a device which did
+not draw attention to themselves or their disabilities:
+When we visited French festival, I was helped up onto
+the raised platform advertising electric cars [...] Many people find it difficult to approach you, when
+Renault Twizy. I don’t think I was pressing down on you walk differently, or they treat you differently [...]
+my husband’s hand as much, on ‘reaching’up, and So, you can understand why I would value a design
+managed to squeeze myself into the car-space for a that doesn't make me look even more different than I
+photo or two, [...] great! Extending my reach, even already do.[Jenny, 67 years; PwS, Sprint cycle 2]
+just a wee bit, was brilliant. [Anni, Age 58, PwS, Participants posited that what constitutes a socially acceptable
+3-wk program] device might also vary depending on a person’s gender, age,
+Physiotherapists described how they would consider cost, client and culture. The length of time since their stroke diagnosis and
+suitability, set-up time, workflow, and clinical effectiveness how much rehabilitation was prioritized in their daily lives also
+when deciding whether to adopt the exciteBCI intervention: appeared to influence the participants’perspectives on whether
+they would consider using the wearable device in their daily
+I would need to know it was going to make a really lives:
+big difference to invest in purchasing it and have a
+fair amount of clients I could use it with. [...] it’s Initially I would [during inpatient rehab] [...] you’re
+difficult without actually using it in clinical practice ready to take anything that you think will help but
+as to know sort of who would really benefit.[Megan, what shifts the balance of that is I think it’s about -
+Physiotherapist, Sprint cycle 1] I’m more progressed now and more - I want people
+to see me where I’m at now. [James, Age 74, PwS,
+While participants with stroke called for the device to be
+Sprint cycle 2]
+integrated into their rehabilitation as early after stroke as
+possible, some physiotherapists saw a tension between the set-up Concerns about the social acceptability of the device largely
+time of both the headset and the app and the decision to pertained to the esthetics of the headset and
+implement the device in different clinical contexts: electroencephalography gel. The current headset design was
+viewed as unacceptable for wearing-out in public, where social
+I don’t think[…] you’d use it on an acute ward[...] I perceptions play a role. Minimizing and concealing the device
+think it takes too much time [...] based on how much with clothing or incorporating it into something that looked
+time[...] physios have based in my experience[...] I familiar and fits with everyday life, such as a hat or headphones,
+just think time and all the equipment there and was seen as an important future design consideration.
+everything else that goes on. I don’t, can’t see it Participants from phase 1 perceived there to be no issue with
+working. In a rehab ward maybe. Definitely the use of electroencephalography gel in a rehabilitation
+outpatients.[Jude, Physiotherapist, Sprint cycle 3] environment. While participants in the 3-week program
+When discussing use of the device in the home, participants described the inconvenience of repeated gel use and its impact
+with stroke and physiotherapists from phase 1 (single session) outside of the rehabilitation context, they perceived that the
+viewed the headset as a potential barrier to adopting the device. benefits they experienced from the intervention outweighed this
+This was mainly due to the perceived difficulty of setting it up inconvenience. In contrast, participants perceived the electrical
+independently for those with upper limb disability and the need stimulator to be more acceptable. It was noted that the electrical
+for gel to be inserted into the electroencephalography electrodes stimulator and its neoprene housing resembled sports braces
+while wearing the headset. The set-up of the electrical stimulator which were considered socially acceptable and in common use.
+and app was not viewed in the same light. While people with
+stroke who participated in the 3-week program expressed similar
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 13
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+Discussion relationship, and (2) therapists and health care educators should
+consider how rehabilitation technologies can be used to support
+Principal Findings
+person-centered rehabilitation, ensuring that the therapeutic
+This study applied a user-centered design approach to explore relationship is preserved and developed throughout the
+the perspectives and experiences of people with stroke and rehabilitation process.
+physiotherapists when engaging with exciteBCI rehabilitation
+Considerations for Social Acceptability in Rehabilitation
+technology and how well it fits within a stroke rehabilitation
+Technology Design
+context. The results support the acceptability of the exciteBCI
+intervention and its “fit” with clinical practice and will inform The findings from the “Don’t make me look different” theme
+the requirements for future device development. These findings clearly articulate that people with stroke place weight on the
+also provide key insights that can inform the design and esthetics and social acceptability of a rehabilitation technology
+implementation of rehabilitation technologies more broadly. device when considering whether to use it. Social acceptability
+may be particularly important in the design of head-mounted
+Technology and the Therapeutic Relationship
+wearable devices [87-89]. This is an important finding given
+This study highlights the importance of considering the impact that social acceptability is often a lesser priority in the
+of technology on the therapeutic relationship between patients rehabilitation technology development process. Defining the
+and therapists. The therapeutic relationship refers to the target user population and understanding their device
+relational process that takes place during clinical interactions requirements early in the design and development process may
+and is considered a critical aspect of rehabilitation by both resolve acceptability issues and minimize the need for significant
+patients and therapists [75-77]. Qualitative research in design changes later in the process [90]. This approach has the
+neurorehabilitation indicates that positive therapeutic potential to not only mitigate issues of acceptability and usability
+relationships are pivotal in supporting patient engagement, but also reduce the impact on development time and costs, while
+positive patient experiences, and in enhancing patient outcomes simultaneously increasing the chances of successful adoption
+[78,79]. The “It is a tool, not a therapist” theme identified that and sustained use of the technology [45,91]. Importantly, our
+both people with stroke and physiotherapists who participated findings indicate that the need for a socially acceptable device
+in the phase 1 single usability sessions cautioned that the design is dependent on the context in which the technology is
+exciteBCI app could be disruptive to the therapeutic relationship. to be used. Therefore, device developers should be cognizant
+Similar concerns have been raised in other health technology of the use context when prioritizing social acceptability. Given
+domains, citing disruptions of the therapeutic relationship as a the shift in rehabilitation services to the community [92] and
+potential barrier to technology adoption [80-83]. In contrast, in supported self-management programs [93], social acceptability
+this study, participants who used the exciteBCI app over for both users and bystanders [87,89] is likely to be a pivotal
+multiple sessions in phase 2 highlighted how the technology consideration in the design of rehabilitation technologies in the
+could be successfully integrated into clinical interactions to future.
+support and enhance the therapeutic relationship. The
+User Testing in a Sustained Way
+participants described how using the rating scales within the
+exciteBCI app facilitated a shared understanding of the User-centered design approaches are increasingly being
+rehabilitative challenge, allowing the person with stroke to take encouraged to inform health technology design and development
+control of their rehabilitation and identify opportunities for [45,94]. Yet much of the methodological literature describes
+progressing rehabilitation challenge in collaboration with the single-session usability evaluation, where novice users’
+physiotherapist. However, this required the physiotherapist and perceptions and experiences of the technology inform the next
+the person with stroke to be mindful of the role of the iteration [95]. While this approach can highlight “entry-level”
+technology, its value, and limitations, and to use it purposefully usability issues or novice user frustrations that can often be
+and appropriately. quick fixes, it is unlikely to identify fundamental usability and
+acceptability issues or the sources of frustrations that could be
+The current findings combined with previous literature
+barriers to the sustained use of the technology [59,95]. This is
+emphasize how crucial it is to take the patient, therapist, and
+an important limitation when using user-centered design
+technology triad into account when designing and implementing
+methods for the development of rehabilitation technologies
+rehabilitation technology. While research in telehealth has
+intended for sustained use. To ensure that we captured design
+attended to the influence of technology on the therapeutic
+requirements that support both the adoption and sustained use
+relationship over time and its implications for usability [84-86],
+of the exciteBCI technology, in addition to the iterative single
+the same attention has not been given to the development of
+usability evaluation sessions, we conducted “near-live” usability
+rehabilitation technology devices. Understanding the influence
+testing over a 3-week period. This approach allowed us to
+of technology on clinical interactions and workflow, and the
+investigate the technology’s “fit” with a program of
+ways in which these change over time, is critical. Being attuned
+rehabilitation. Users’ long-term experiences and the ways in
+to the impact rehabilitation technologies have on therapeutic
+which the device’s usability and acceptability evolved over time
+relationships requires a deep understanding of the role of the
+were elucidated.
+therapist and patient and the rationale for the technology. This
+knowledge should be applied in two ways: (1) designers and An important finding was that user perspectives and usability
+developers should explicitly consider how the design of the priorities shifted with sustained use of the exciteBCI technology.
+technology can support and strengthen the therapeutic Long-term users were less concerned with the practicalities of
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 14
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+the technology, such as the ease of setting up the exciteBCI app were in the chronic stage of stroke (2-19 y since stroke onset),
+and headset. While these inconveniences were noted, they were and the physiotherapists worked in an outpatient rehabilitation
+apparently offset by the benefits users experienced from the or community setting. While participants reflected on their prior
+intervention itself. It appeared that from engaging in sustained lived experiences of inpatient rehabilitation closer to the onset
+use, they obtained the “real-world evidence” in support of the of their stroke, when their stroke symptoms were more severe,
+technology which was desired by participants in phase 1. or when physiotherapists worked in an inpatient setting, future
+Long-term users also did not highlight that the technology might user testing should include participants who are currently
+disrupt therapeutic relationships. Instead, they were more undergoing or providing inpatient rehabilitation. This will
+focused on the pleasure they had from “getting the most out of determine whether their experiences align with or differ from
+rehab,” the increase in self-efficacy they experienced, and the the device features described in this study and help to understand
+gains they made when the technology augmented the how well it fits in an inpatient rehabilitation setting. In phase
+rehabilitation process. Similar findings have been previously 1, while the physiotherapists had extensive experience with the
+reported in the literature. When meaningful connections are patient cohort and their associated clinical presentation, the
+formed with technology over time, the pleasure derived from model used during the usability evaluation was not an individual
+its use acquires more weight, and practical limitations become with stroke. This may have influenced the usability results. Only
+less significant [96]. A single-session usability assessment may 1 physiotherapist (GA) participated in the “near-live” 3-week
+not always foresee future satisfaction with the technology since program. Future research should explore usability testing over
+it may be evaluating expectations rather than user experience periods of time with a range of different users. Another potential
+[97]. In the context of this study, it is critical to remember that limitation of the study design was that it did not capture the
+the user experience includes not only the technology itself, but initial expectations of phase 2 long-term users. Therefore, we
+also the experience gained from participating in the were unable to interpret how their initial expectations may have
+rehabilitation process, and that this experience occurs within shaped their experiences of using exciteBCI, and whether their
+the context of a therapeutic relationship. As a result, explicitly expectations were confirmed or disregarded at the end of the
+designing technology to support both meaningful rehabilitation program.
+and best practice from the physiotherapist to establish and
+Conclusions
+nurture a therapeutic relationship is paramount.
+This study presented an iterative user-centered design approach
+Our findings regarding the sustained use of exciteBCI
+supported by a qualitative descriptive methodology exploring
+technology also provide important guidance for its eventual
+users’perspectives and experiences of exciteBCI, a complex
+implementation in clinical practice. Current models for
+neuromodulatory rehabilitative technology designed to augment
+implementing rehabilitation technologies often rely on
+locomotor rehabilitation for people with stroke. The 5
+instructional booklets and training and accreditation packages,
+interrelated themes generated from the analysis revealed that
+usually provided by the technology manufacturer. While these
+overall exciteBCI was perceived and experienced positively by
+strategies are likely to support the adoption of rehabilitation
+people with stroke and physiotherapists and viewed as
+technology, they are less likely to support sustained use.
+technology that could be implemented in a rehabilitation context.
+Implementation science literature emphasizes the importance
+These findings provide important insights pertinent to the
+of strategies, such as identifying factors and barriers to sustained
+broader field of rehabilitation technology design,
+use, the use of clinical champions on site, and the use of
+implementation, and sustained use. Notably, these findings
+behavior change strategies to ensure therapists are supported in
+highlight that rehabilitation technology design should (1)
+practice change [98-100].
+consider ways to support and enhance the therapeutic
+Limitations of the Study relationship; (2) recognize that social acceptability is a design
+imperative, but its significance varies depending on the use
+This study adopted a rigorous approach to qualitative research;
+context; and (3) that there is merit in using research design
+however, it is important to acknowledge that we used a
+methods that explore device usability within the context of
+convenience sampling method in this study; all participants
+sustained use.
+Acknowledgments
+This research was partly funded by Callaghan Innovation (C Prize Challenge finalists 2017) and the Medical Technology Centre
+of Research Excellence.
+We gratefully acknowledge the time given to this study by the research participants. Without their willingness, this work would
+not have been possible. We thank Exsurgo Limited for their contributions to the technology hardware and software development
+of the exciteBCI device and for supplying exciteBCI illustrations. We thank Dr Suzie Mudge for interviewing GA in phase 2 of
+the data collection.
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 15
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+Data Availability
+The data sets generated and analyzed during this study are not publicly available because of ethical approval requirements, which
+do not permit data sharing. Data may be obtained from the corresponding author upon reasonable request with the approval of
+the relevant ethics committee.
+Authors' Contributions
+GA, NS and DT conceptualized the study. GA, NS, DT, and GT designed the methodology, and DT and GA acquired ethical
+approval. NS, DT, UR, GA, SO, and IKN acquired funding, and GA performed project administration. GA, NS, TB, GT, UR,
+and SO contributed to data collection. UR and IKN were responsible for the technology. Data analysis was performed by GA
+and reviewed by NS and GT. Supervision was performed by NS and DT. The original draft was written by GA and NS, and edited
+by SO. All authors reviewed the submitted manuscript.
+Conflicts of Interest
+None declared.
+Multimedia Appendix 1
+Indicative interview questions.
+[DOCX File , 29 KB-Multimedia Appendix 1]
+References
+1. Feigin VL, Brainin M, Norrving B, Martins S, Sacco RL, Hacke W, et al. World stroke organization (WSO): global stroke
+fact sheet 2022. Int J Stroke. 2022 Jan;17(1):18-29 [doi: 10.1177/17474930211065917] [Medline: 34986727]
+2. Donkor ES. Stroke in the 21 century: a snapshot of the burden, epidemiology, and quality of life. Stroke Res Treat. 2018
+Nov 27;2018:3238165 [FREE Full text] [doi: 10.1155/2018/3238165] [Medline: 30598741]
+3. Duncan PW, Zorowitz R, Bates B, Choi JY, Glasberg JJ, Graham GD, et al. Management of adult stroke rehabilitation
+care: a clinical practice guideline. Stroke. 2005 Sep;36(9):e100-e143 [doi: 10.1161/01.STR.0000180861.54180.FF] [Medline:
+16120836]
+4. Veerbeek JM, Kwakkel G, van Wegen EE, Ket JC, Heymans MW. Early prediction of outcome of activities of daily living
+after stroke: a systematic review. Stroke. 2011 May;42(5):1482-1488 [doi: 10.1161/STROKEAHA.110.604090] [Medline:
+21474812]
+5. Steigenberger J. Some theory towards a stringent definition of ‘locomotion’. Multibody Syst Dyn. 2011 Jan 28;26(1):81-90
+[doi: 10.1007/s11044-011-9245-z]
+6. Perry J, Garrett M, Gronley JK, Mulroy SJ. Classification of walking handicap in the stroke population. Stroke. 1995
+Jun;26(6):982-989 [doi: 10.1161/01.str.26.6.982] [Medline: 7762050]
+7. Hill K, Ellis P, Bernhardt J, Maggs P, Hull S. Balance and mobility outcomes for stroke patients: a comprehensive audit.
+Aust J Physiother. 1997;43(3):173-180 [doi: 10.1016/s0004-9514(14)60408-6] [Medline: 11676685]
+8. Lohse KR, Lang CE, Boyd LA. Is more better? Using metadata to explore dose-response relationships in stroke rehabilitation.
+Stroke. 2014 Jul;45(7):2053-2058 [FREE Full text] [doi: 10.1161/STROKEAHA.114.004695] [Medline: 24867924]
+9. Veerbeek JM, van Wegen E, van Peppen R, van der Wees PJ, Hendriks E, Rietberg M, et al. What is the evidence for
+physical therapy poststroke? A systematic review and meta-analysis. PLoS One. 2014 Feb 4;9(2):e87987 [FREE Full text]
+[doi: 10.1371/journal.pone.0087987] [Medline: 24505342]
+10. Schneider EJ, Lannin NA, Ada L, Schmidt J. Increasing the amount of usual rehabilitation improves activity after stroke:
+a systematic review. J Physiother. 2016 Oct;62(4):182-187 [FREE Full text] [doi: 10.1016/j.jphys.2016.08.006] [Medline:
+27637769]
+11. French B, Thomas LH, Coupe J, McMahon NE, Connell L, Harrison J, et al. Repetitive task training for improving functional
+ability after stroke. Cochrane Database Syst Rev. 2016 Nov 14;11(11):CD006073 [FREE Full text] [doi:
+10.1002/14651858.CD006073.pub3] [Medline: 27841442]
+12. English C, Hillier SL, Lynch EA. Circuit class therapy for improving mobility after stroke. Cochrane Database Syst Rev.
+2017 Jun 02;6(6):CD007513 [FREE Full text] [doi: 10.1002/14651858.CD007513.pub3] [Medline: 28573757]
+13. Mehrholz J, Thomas S, Elsner B. Treadmill training and body weight support for walking after stroke. Cochrane Database
+Syst Rev. 2017 Aug 17;8(8):CD002840 [FREE Full text] [doi: 10.1002/14651858.CD002840.pub4] [Medline: 28815562]
+14. Nascimento LR, Boening A, Galli A, Polese JC, Ada L. Treadmill walking improves walking speed and distance in
+ambulatory people after stroke and is not inferior to overground walking: a systematic review. J Physiother. 2021
+Apr;67(2):95-104 [FREE Full text] [doi: 10.1016/j.jphys.2021.02.014] [Medline: 33744188]
+15. Bernhardt J, Chan J, Nicola I, Collier JM. Little therapy, little physical activity: rehabilitation within the first 14 days of
+organized stroke unit care. J Rehabil Med. 2007 Jan;39(1):43-48 [FREE Full text] [doi: 10.2340/16501977-0013] [Medline:
+17225037]
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 16
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+16. Bernhardt J, Dewey H, Thrift A, Donnan G. Inactive and alone: physical activity within the first 14 days of acute stroke
+unit care. Stroke. 2004 Apr;35(4):1005-1009 [doi: 10.1161/01.STR.0000120727.40792.40] [Medline: 14988574]
+17. Hayward KS, Brauer SG. Dose of arm activity training during acute and subacute rehabilitation post stroke: a systematic
+review of the literature. Clin Rehabil. 2015 Dec;29(12):1234-1243 [doi: 10.1177/0269215514565395] [Medline: 25568073]
+18. Kaur G, English C, Hillier S. How physically active are people with stroke in physiotherapy sessions aimed at improving
+motor function? A systematic review. Stroke Res Treat. ;2012:820673 [FREE Full text] [doi: 10.1155/2012/820673]
+[Medline: 22567542]
+19. McNaughton H, DeJong G, Smout RJ, Melvin JL, Brandstater M. A comparison of stroke rehabilitation practice and
+outcomes between New Zealand and United States facilities. Arch Phys Med Rehabil. 2005 Dec;86(12 Suppl 2):S115-S120
+[doi: 10.1016/j.apmr.2005.08.115] [Medline: 16373146]
+20. McLaren R, Signal N, Lord S, Taylor S, Henderson J, Taylor D. The volume and timing of upper limb movement in acute
+stroke rehabilitation: still room for improvement. Disabil Rehabil. 2020 Nov;42(22):3237-3242 [doi:
+10.1080/09638288.2019.1590471] [Medline: 30951402]
+21. Pereira S, Mehta S, McIntyre A, Lobo L, Teasell RW. Functional electrical stimulation for improving gait in persons with
+chronic stroke. Top Stroke Rehabil. 2012;19(6):491-498 [doi: 10.1310/tsr1906-491] [Medline: 23192714]
+22. Howlett OA, Lannin NA, Ada L, McKinstry C. Functional electrical stimulation improves activity after stroke: a systematic
+review with meta-analysis. Arch Phys Med Rehabil. 2015 May;96(5):934-943 [doi: 10.1016/j.apmr.2015.01.013] [Medline:
+25634620]
+23. Mehrholz J, Thomas S, Werner C, Kugler J, Pohl M, Elsner B. Electromechanical-assisted training for walking after stroke.
+Cochrane Database Syst Rev. 2017 May 10;5(5):CD006185 [FREE Full text] [doi: 10.1002/14651858.CD006185.pub4]
+[Medline: 28488268]
+24. Rodrigues-Baroni JM, Nascimento LR, Ada L, Teixeira-Salmela LF. Walking training associated with virtual reality-based
+training increases walking speed of individuals with chronic stroke: systematic review with meta-analysis. Braz J Phys
+Ther. 2014;18(6):502-512 [FREE Full text] [doi: 10.1590/bjpt-rbf.2014.0062] [Medline: 25590442]
+25. Corbetta D, Imeri F, Gatti R. Rehabilitation that incorporates virtual reality is more effective than standard rehabilitation
+for improving walking speed, balance and mobility after stroke: a systematic review. J Physiother. 2015 Jul;61(3):117-124
+[FREE Full text] [doi: 10.1016/j.jphys.2015.05.017] [Medline: 26093805]
+26. Lynch EA, Jones TM, Simpson DB, Fini NA, Kuys S, Borschmann K, et al. Activity monitors for increasing physical
+activity in adult stroke survivors. Stroke. 2019 Jan;50(1):e4-e5 [doi: 10.1161/STROKEAHA.118.023088] [Medline:
+30580734]
+27. Turchetti G, Vitiello N, Trieste L, Romiti S, Geisler E, Micera S. Why effectiveness of robot-mediated neurorehabilitation
+does not necessarily influence its adoption. IEEE Rev Biomed Eng. 2014;7:143-153 [doi: 10.1109/RBME.2014.2300234]
+[Medline: 24803207]
+28. Langan J, Subryan H, Nwogu I, Cavuoto L. Reported use of technology in stroke rehabilitation by physical and occupational
+therapists. Disabil Rehabil Assist Technol. 2018 Oct;13(7):641-647 [doi: 10.1080/17483107.2017.1362043] [Medline:
+28812386]
+29. Liu L, Miguel Cruz A, Rios Rincon A, Buttar V, Ranson Q, Goertzen D. What factors determine therapists' acceptance of
+new technologies for rehabilitation – a study using the Unified Theory of Acceptance and Use of Technology (UTAUT).
+Disabil Rehabil. 2015;37(5):447-455 [doi: 10.3109/09638288.2014.923529] [Medline: 24901351]
+30. Matthew-Maich N, Harris L, Ploeg J, Markle-Reid M, Valaitis R, Ibrahim S, et al. Designing, implementing, and evaluating
+mobile health technologies for managing chronic conditions in older adults: a scoping review. JMIR Mhealth Uhealth. 2016
+Jun 09;4(2):e29 [FREE Full text] [doi: 10.2196/mhealth.5127] [Medline: 27282195]
+31. Riek LD. Healthcare robotics. Commun ACM. 2017 Oct 24;60(11):68-78 [doi: 10.1145/3127874]
+32. Chua KS, Kuah CW. Innovating with rehabilitation technology in the real world: promises, potentials, and perspectives.
+Am J Phys Med Rehabil. 2017 Oct;96(10 Suppl 1):S150-S156 [FREE Full text] [doi: 10.1097/PHM.0000000000000799]
+[Medline: 28708632]
+33. Cano Porras D, Sharon H, Inzelberg R, Ziv-Ner Y, Zeilig G, Plotnik M. Advanced virtual reality-based rehabilitation of
+balance and gait in clinical practice. Ther Adv Chronic Dis. 2019 Aug 23;10:2040622319868379 [FREE Full text] [doi:
+10.1177/2040622319868379] [Medline: 31489154]
+34. Holloway C, Dawes H. Disrupting the world of disability: the next generation of assistive technologies and rehabilitation
+practices. Healthc Technol Lett. 2016 Dec 07;3(4):254-256 [FREE Full text] [doi: 10.1049/htl.2016.0087] [Medline:
+28008360]
+35. Kerr A, Smith M, Reid L, Baillie L. Adoption of stroke rehabilitation technologies by the user community: qualitative
+study. JMIR Rehabil Assist Technol. 2018 Aug 17;5(2):e15 [FREE Full text] [doi: 10.2196/rehab.9219] [Medline: 30120086]
+36. Mawson S, Nasr N, Parker J, Zheng H, Davies R, Mountain G. Developing a personalised self-management system for
+post stroke rehabilitation; utilising a user-centred design methodology. Disabil Rehabil Assist Technol. 2014 Nov;9(6):521-528
+[doi: 10.3109/17483107.2013.840863] [Medline: 24131371]
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 17
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+37. Lobo EH, Frølich A, Rasmussen LJ, Livingston PM, Grundy J, Abdelrazek M, et al. Understanding the methodological
+issues and solutions in the research design of stroke caregiving technology. Front Public Health. 2021 Apr 16;9:647249
+[FREE Full text] [doi: 10.3389/fpubh.2021.647249] [Medline: 33937175]
+38. ISO 9241-210:2019 Ergonomics of human-system interaction Part 210: human-centred design for interactive systems.
+International Organization for Standardization. 2019. URL: https://www.iso.org/standard/77520.html[accessed 2022-05-12]
+39. De Vito Dabbs A, Myers BA, Mc Curry KR, Dunbar-Jacob J, Hawkins RP, Begey A, et al. User-centered design and
+interactive health technologies for patients. Comput Inform Nurs. 2009;27(3):175-183 [FREE Full text] [doi:
+10.1097/NCN.0b013e31819f7c7c] [Medline: 19411947]
+40. Rossini PM, Burke D, Chen R, Cohen LG, Daskalakis Z, Di Iorio R, et al. Non-invasive electrical and magnetic stimulation
+of the brain, spinal cord, roots and peripheral nerves: basic principles and procedures for routine clinical and research
+application. An updated report from an I.F.C.N. Committee. Clin Neurophysiol. 2015 Jun;126(6):1071-1107 [FREE Full
+text] [doi: 10.1016/j.clinph.2015.02.001] [Medline: 25797650]
+41. Wessel MJ, Zimerman M, Hummel FC. Non-invasive brain stimulation: an interventional tool for enhancing behavioral
+training after stroke. Front Hum Neurosci. 2015 May 15;9:265 [FREE Full text] [doi: 10.3389/fnhum.2015.00265] [Medline:
+26029083]
+42. Ayache SS, Farhat WH, Zouari HG, Hosseini H, Mylius V, Lefaucheur JP. Stroke rehabilitation using noninvasive cortical
+stimulation: motor deficit. Expert Rev Neurother. 2012 Aug 09;12(8):949-972 [doi: 10.1586/ern.12.83] [Medline: 23002939]
+43. Vaz PG, Salazar AP, Stein C, Marchese RR, Lukrafka JL, Plentz RD, et al. Noninvasive brain stimulation combined with
+other therapies improves gait speed after stroke: a systematic review and meta-analysis. Top Stroke Rehabil. 2019 Apr
+08;26(3):201-213 [doi: 10.1080/10749357.2019.1565696] [Medline: 30735104]
+44. Tien HH, Liu WY, Chen YL, Wu YC, Lien HY. Transcranial direct current stimulation for improving ambulation after
+stroke: a systematic review and meta-analysis. Int J Rehabil Res. 2020 Dec;43(4):299-309 [FREE Full text] [doi:
+10.1097/MRR.0000000000000427] [Medline: 32675686]
+45. Jankowski N, Schönijahn L, Salchow C, Ivanova E, Wahl M. User-centred design as an important component of technological
+development. Curr Dir Biomed Eng. 2017;3(1):69-73 [doi: 10.1515/cdbme-2017-0015]
+46. Mrachacz-Kersting N, Kristensen SR, Niazi IK, Farina D. Precise temporal association between cortical potentials evoked
+by motor imagination and afference induces cortical plasticity. J Physiol. 2012 Apr 01;590(7):1669-1682 [FREE Full text]
+[doi: 10.1113/jphysiol.2011.222851] [Medline: 22250210]
+47. Niazi IK, Mrachacz-Kersting N, Jiang N, Dremstrup K, Farina D. Peripheral electrical stimulation triggered by self-paced
+detection of motor intention enhances motor evoked potentials. IEEE Trans Neural Syst Rehabil Eng. 2012 Jul;20(4):595-604
+[doi: 10.1109/TNSRE.2012.2194309] [Medline: 22547461]
+48. Olsen S, Signal N, Niazi IK, Christensen T, Jochumsen M, Taylor D. Paired associative stimulation delivered by pairing
+movement-related cortical potentials with peripheral electrical stimulation: an investigation of the duration of neuromodulatory
+effects. Neuromodulation. 2018 Jun;21(4):362-367 [doi: 10.1111/ner.12616] [Medline: 28580648]
+49. Olsen S, Signal N, Niazi IK, Rashid U, Alder G, Mawston G, et al. Peripheral electrical stimulation paired with
+movement-related cortical potentials improves isometric muscle strength and voluntary activation following stroke. Front
+Hum Neurosci. 2020 May 15;14:156 [FREE Full text] [doi: 10.3389/fnhum.2020.00156] [Medline: 32499686]
+50. Jochumsen M, Cremoux S, Robinault L, Lauber J, Arceo JC, Navid MS, et al. Investigation of optimal afferent feedback
+modality for inducing neural plasticity with a self-paced brain-computer interface. Sensors (Basel). 2018 Nov 03;18(11):3761
+[FREE Full text] [doi: 10.3390/s18113761] [Medline: 30400325]
+51. Jochumsen M, Navid MS, Nedergaard RW, Signal N, Rashid U, Hassan A, et al. Self-paced online vs. cue-based offline
+brain-computer interfaces for inducing neural plasticity. Brain Sci. 2019 Jun 01;9(6):127 [FREE Full text] [doi:
+10.3390/brainsci9060127] [Medline: 31159454]
+52. Jochumsen M, Navid MS, Rashid U, Haavik H, Niazi IK. EMG- versus EEG-triggered electrical stimulation for inducing
+corticospinal plasticity. IEEE Trans Neural Syst Rehabil Eng. 2019 Sep;27(9):1901-1908 [doi: 10.1109/tnsre.2019.2932104]
+53. Alder G, Signal N, Vandal AC, Olsen S, Jochumsen M, Niazi IK, et al. Investigating the intervention parameters of
+endogenous paired associative stimulation (ePAS). Brain Sci. 2021 Feb 12;11(2):224 [FREE Full text] [doi:
+10.3390/brainsci11020224] [Medline: 33673171]
+54. Niazi IK, Navid MS, Rashid U, Amjad I, Olsen S, Haavik H, et al. Associative cued asynchronous BCI induces cortical
+plasticity in stroke patients. Ann Clin Transl Neurol. 2022 May 30;9(5):722-733 [FREE Full text] [doi: 10.1002/acn3.51551]
+[Medline: 35488791]
+55. Olsen SA. Rewiring the brain after stroke: a novel neuromodulatory intervention to improve neuromuscular control.
+Auckland University of Technology. 2019. URL: http:///C:/Users/HP/Downloads/OlsenS.pdf[accessed 2023-11-16]
+56. Luker J, Lynch E, Bernhardsson S, Bennett L, Bernhardt J. Stroke survivors' experiences of physical rehabilitation: a
+systematic review of qualitative studies. Arch Phys Med Rehabil. 2015 Sep;96(9):1698-1708.e10 [doi:
+10.1016/j.apmr.2015.03.017] [Medline: 25847387]
+57. Signal N, McPherson K, Lewis G, Kayes N, Saywell N, Mudge S, et al. What influences acceptability and engagement
+with a high intensity exercise programme for people with stroke? A qualitative descriptive study. NeuroRehabilitation.
+2016 Oct 14;39(4):507-517 [doi: 10.3233/nre-161382]
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 18
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+58. C Prize finalists' journal. CallaghanInnovation. 2017. URL: https://www.callaghaninnovation.govt.nz/sites/all/files/
+cprize-2017-team-notebooks-web.pdf[accessed 2022-11-01]
+59. Hornbæk K. Current practice in measuring usability: challenges to usability studies and research. Int J Hum Comput Stud.
+2006 Feb;64(2):79-102 [doi: 10.1016/j.ijhcs.2005.06.002]
+60. Li AC, Kannry JL, Kushniruk A, Chrimes D, McGinn TG, Edonyabo D, et al. Integrating usability testing and think-aloud
+protocol analysis with "near-live" clinical simulations in evaluating clinical decision support. Int J Med Inform. 2012
+Nov;81(11):761-772 [doi: 10.1016/j.ijmedinf.2012.02.009] [Medline: 22456088]
+61. Arsand E, Demiris G. User-centered methods for designing patient-centric self-help tools. Inform Health Soc Care. 2008
+Sep;33(3):158-169 [doi: 10.1080/17538150802457562] [Medline: 18850399]
+62. Sandelowski M. Whatever happened to qualitative description? Res Nurs Health. 2000 Aug;23(4):334-340 [doi:
+10.1002/1098-240x(200008)23:4<334::aid-nur9>3.0.co;2-g] [Medline: 10940958]
+63. Nielsen J. Estimating the number of subjects needed for a thinking aloud test. Int J Hum Comput Stud. 1994
+Sep;41(3):385-397 [doi: 10.1006/ijhc.1994.1065]
+64. Virzi RA. Refining the test phase of usability evaluation: how many subjects is enough? Hum Factors. 2016 Nov
+23;34(4):457-468 [doi: 10.1177/001872089203400407]
+65. Hill K, Denisenko S, Miller K, Clements T, Batchelor F, Morgan P. Clinical Outcome Measurement in Adult Neurological
+Physiotherapy. Melbourne, Australia. Australian Physiotherapy Association, National Neurology Group; 2010.
+66. Living clinical guidelines for stroke management. Stroke Foundation. URL: https://informme.org.au/Guidelines/
+Clinical-Guidelines-for-Stroke-Management[accessed 2023-01-15]
+67. Hebert D, Lindsay MP, McIntyre A, Kirton A, Rumney PG, Bagg S, et al. Canadian stroke best practice recommendations:
+stroke rehabilitation practice guidelines, update 2015. Int J Stroke. 2016 Jun;11(4):459-484 [doi: 10.1177/1747493016643553]
+[Medline: 27079654]
+68. Winstein CJ, Stein J, Arena R, Bates B, Cherney LR, Cramer SC, et al. Guidelines for adult stroke rehabilitation and
+recovery: a guideline for healthcare professionals from the American Heart Association/American Stroke Association.
+Stroke. 2016 Jun;47(6):e98-169 [doi: 10.1161/STR.0000000000000098] [Medline: 27145936]
+69. Maier M, Ballester BR, Verschure PF. Principles of neurorehabilitation after stroke based on motor learning and brain
+plasticity mechanisms. Front Syst Neurosci. 2019 Dec 17;13:74 [FREE Full text] [doi: 10.3389/fnsys.2019.00074] [Medline:
+31920570]
+70. NVivo (Version 12). Lumivero. URL: https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home
+[accessed 2023-01-10]
+71. Hsieh HF, Shannon SE. Three approaches to qualitative content analysis. Qual Health Res. 2005 Nov;15(9):1277-1288
+[doi: 10.1177/1049732305276687] [Medline: 16204405]
+72. Kondracki NL, Wellman NS, Amundson DR. Content analysis: review of methods and their applications in nutrition
+education. J Nutr Educ Behav. 2002 Jul;34(4):224-230 [doi: 10.1016/s1499-4046(06)60097-3] [Medline: 12217266]
+73. Braun V. Successful Qualitative Research: A Practical Guide for Beginners. Thousand Oaks, CA. SAGE Publications Ltd;
+2013.
+74. Mehrholz J, Wagner K, Rutte K, Meissner D, Pohl M. Predictive validity and responsiveness of the functional ambulation
+category in hemiparetic patients after stroke. Arch Phys Med Rehabil. 2007 Oct;88(10):1314-1319 [doi:
+10.1016/j.apmr.2007.06.764] [Medline: 17908575]
+75. Rowlands L, Coetzer R, Turnbull OH. Building the bond: predictors of the alliance in neurorehabilitation. NeuroRehabilitation.
+2020 May 21;46(3):271-285 [doi: 10.3233/nre-193005]
+76. Lawton M, Haddock G, Conroy P, Sage K. Therapeutic alliances in stroke rehabilitation: a meta-ethnography. Arch Phys
+Med Rehabil. 2016 Nov;97(11):1979-1993 [doi: 10.1016/j.apmr.2016.03.031] [Medline: 27137094]
+77. Martín-Sanz MB, Salazar-de-la-Guerra RM, Cuenca-Zaldivar JN, Salcedo-Perez-Juana M, Garcia-Bravo C, Palacios-Ceña
+D. Person-centred care in individuals with stroke: a qualitative study using in-depth interviews. Ann Med. 2022 Dec
+05;54(1):2167-2180 [FREE Full text] [doi: 10.1080/07853890.2022.2105393] [Medline: 35930376]
+78. Terry G, Kayes N. Person centered care in neurorehabilitation: a secondary analysis. Disabil Rehabil. 2020 Aug
+29;42(16):2334-2343 [doi: 10.1080/09638288.2018.1561952] [Medline: 30696295]
+79. Kayes NM, Mcpherson K, Kersten P. Therapeutic connection in neurorehabilitation: theory, evidence and practice. In:
+Evidence-Based Neurology: Management of Neurological Disorders. Hoboken, NJ. John Wiley & Sons; 2015.
+80. Giunti G, Kool J, Rivera Romero O, Dorronzoro Zubiete E. Exploring the specific needs of persons with multiple sclerosis
+for mHealth solutions for physical activity: mixed-methods study. JMIR Mhealth Uhealth. 2018 Feb 09;6(2):e37 [FREE
+Full text] [doi: 10.2196/mhealth.8996] [Medline: 29426814]
+81. Pearce C, Dwan K, Arnold M, Phillips C, Trumble S. Doctor, patient and computer--a framework for the new consultation.
+Int J Med Inform. 2009 Jan;78(1):32-38 [doi: 10.1016/j.ijmedinf.2008.07.002] [Medline: 18752989]
+82. Booth N, Robinson P, Kohannejad J. Identification of high-quality consultation practice in primary care: the effects of
+computer use on doctor-patient rapport. Inform Prim Care. 2004;12(2):75-83 [FREE Full text] [doi: 10.14236/jhi.v12i2.111]
+[Medline: 15319059]
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 19
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+83. Rortvedt D, Jacobs K. Perspectives on the use of a telehealth service-delivery model as a component of school-based
+occupational therapy practice: designing a user-experience. Work. 2019 Feb 07;62(1):125-131 [doi: 10.3233/wor-182847]
+84. Rietdijk R, Power E, Attard M, Togher L. Acceptability of telehealth-delivered rehabilitation: experiences and perspectives
+of people with traumatic brain injury and their carers. J Telemed Telecare. 2020 May 28;28(2):122-134 [doi:
+10.1177/1357633x20923824]
+85. Sucala M, Schnur JB, Constantino MJ, Miller SJ, Brackman EH, Montgomery GH. The therapeutic relationship in e-therapy
+for mental health: a systematic review. J Med Internet Res. 2012 Aug 02;14(4):e110 [FREE Full text] [doi: 10.2196/jmir.2084]
+[Medline: 22858538]
+86. Aafjes-van Doorn K, Békés V, Prout TA. Grappling with our therapeutic relationship and professional self-doubt during
+COVID-19: will we use video therapy again? Counsel Psychol Q. 2020 Jun 03;34(3-4):473-484 [doi:
+10.1080/09515070.2020.1773404]
+87. Schwind V, Reinhardt R, Rzayev R, Henze N, Wolf K. Virtual reality on the go?: a study on social acceptance of VR
+glasses. In: Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and
+Services Adjunct. 2018 Presented at: MobileHCI '18; September 3-6, 2018; Barcelona, Spain [doi: 10.1145/3236112.3236127]
+88. Sehrt J, Braams B, Henze N, Schwind V. Social acceptability in context: stereotypical perception of shape, body location,
+and usage of wearable devices. Big Data Cogn Comput. 2022 Sep 23;6(4):100 [doi: 10.3390/bdcc6040100]
+89. Gugenheimer J, Mai C, McGill M, Williamson J, Steinicke F, Perlin K. Challenges using head-mounted displays in shared
+and social spaces. In: Proceedings of the Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing
+Systems. 2019 Presented at: CHI EA '19; May 4-9, 2019; Glasgow, Scotland [doi: 10.1145/3290607.3299028]
+90. Johnson CM, Johnson TR, Zhang J. A user-centered framework for redesigning health care interfaces. J Biomed Inform.
+2005 Feb;38(1):75-87 [FREE Full text] [doi: 10.1016/j.jbi.2004.11.005] [Medline: 15694887]
+91. Jackson AE, Holt RJ, Culmer PR, Makower SG, Levesley MC, Richardson RC, et al. Dual robot system for upper limb
+rehabilitation after stroke: the design process. Proc Inst Mech Eng C J Mech Eng Sci. 2016 Aug 10;221(7):845-857 [doi:
+10.1243/0954406jmes561]
+92. Sun X, Ding J, Dong Y, Ma X, Wang R, Jin K, et al. A survey of technologies facilitating home and community-based
+stroke rehabilitation. Int J Hum Comput Interact. 2022 Apr 20;39(5):1016-1042 [doi: 10.1080/10447318.2022.2050545]
+93. Fryer CE, Luker JA, McDonnell MN, Hillier SL. Self management programmes for quality of life in people with stroke.
+Cochrane Database Syst Rev. 2016 Aug 22;2016(8):CD010442 [FREE Full text] [doi: 10.1002/14651858.CD010442.pub2]
+[Medline: 27545611]
+94. Chan K. A design thinking mindset beyond the public health model. World Med Health Policy. 2018 Mar 12;10(1):111-119
+[doi: 10.1002/wmh3.253]
+95. Mendoza V, Novick DG. Usability over time. In: Proceedings of the 23rd annual international conference on Design of
+communication: documenting & designing for pervasive information. 2005 Presented at: SIGDOC '05; September 21-23,
+2005; Coventry, UK [doi: 10.1145/1085313.1085348]
+96. Biduski D, Bellei EA, Rodriguez JP, Zaina LA, De Marchi AC. Assessing long-term user experience on a mobile health
+application through an in-app embedded conversation-based questionnaire. Comput Hum Behav. 2020 Mar;104:106169
+[doi: 10.1016/j.chb.2019.106169]
+97. Kujala S, Miron-Shatz T. The evolving role of expectations in long-term user experience. In: Proceedings of the 19th
+International Academic Mindtrek Conference. 2015 Presented at: AcademicMindTrek '15; September 22-24, 2015; Tampere,
+Finland [doi: 10.1145/2818187.2818271]
+98. Powell BJ, Waltz TJ, Chinman MJ, Damschroder LJ, Smith JL, Matthieu MM, et al. A refined compilation of implementation
+strategies: results from the expert recommendations for implementing change (ERIC) project. Implement Sci. 2015 Feb
+12;10:21 [FREE Full text] [doi: 10.1186/s13012-015-0209-1] [Medline: 25889199]
+99. Cahill LS, Carey LM, Lannin NA, Turville M, Neilson CL, Lynch EA, et al. Implementation interventions to promote the
+uptake of evidence-based practices in stroke rehabilitation. Cochrane Database Syst Rev. 2020 Oct 15;10(10):CD012575
+[FREE Full text] [doi: 10.1002/14651858.CD012575.pub2] [Medline: 33058172]
+100. Murrell JE, Pisegna JL, Juckett LA. Implementation strategies and outcomes for occupational therapy in adult stroke
+rehabilitation: a scoping review. Implement Sci. 2021 Dec 18;16(1):105 [FREE Full text] [doi: 10.1186/s13012-021-01178-0]
+[Medline: 34922568]
+Abbreviations
+FES: functional electrical stimulation
+ISO: International Organization for Standardization
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 20
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR REHABILITATION AND ASSISTIVE TECHNOLOGIES Alder et al
+Edited by A Mavragani; submitted 07.06.23; peer-reviewed by K Clanchy, G Nicora; comments to author 31.07.23; revised version
+received 03.09.23; accepted 27.09.23; published 11.12.23
+Please cite as:
+Alder G, Taylor D, Rashid U, Olsen S, Brooks T, Terry G, Niazi IK, Signal N
+A Brain Computer Interface Neuromodulatory Device for Stroke Rehabilitation: Iterative User-Centered Design Approach
+JMIR Rehabil Assist Technol 2023;10:e49702
+URL: https://rehab.jmir.org/2023/1/e49702
+doi: 10.2196/49702
+PMID:
+©Gemma Alder, Denise Taylor, Usman Rashid, Sharon Olsen, Thonia Brooks, Gareth Terry, Imran Khan Niazi, Nada Signal.
+Originally published in JMIR Rehabilitation and Assistive Technology (https://rehab.jmir.org), 11.12.2023. This is an open-access
+article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/),
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in JMIR
+Rehabilitation and Assistive Technology, is properly cited. The complete bibliographic information, a link to the original publication
+on https://rehab.jmir.org/, as well as this copyright and license information must be included.
+https://rehab.jmir.org/2023/1/e49702 JMIR Rehabil Assist Technol 2023 | vol. 10 | e49702 | p. 21
+XSL FO (page number not for citation purposes)
+•
+RenderX

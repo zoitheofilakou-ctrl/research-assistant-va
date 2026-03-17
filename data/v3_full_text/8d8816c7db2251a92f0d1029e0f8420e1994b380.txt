@@ -1,0 +1,540 @@
+Caietal.Trials (2021) 22:91
+https://doi.org/10.1186/s13063-021-05031-z
+STUDY PROTOCOL Open Access
+Evaluating the effect of immersive virtual
+reality technology on gait rehabilitation in
+stroke patients: a study protocol for a
+randomized controlled trial
+Huihui Cai1,2† , Tao Lin1,2† , Lina Chen1, Huidan Weng1, Ruihan Zhu1, Ying Chen1* and Guoen Cai1*
+Abstract
+Background: The high incidence of cerebral apoplexy makes it one of themost important causes of adult
+disability. Gait disorder is one of thehallmarksymptoms inthe sequelae of cerebral apoplexy. The recovery of
+walking ability is critical for improving patients’quality of life. Innovativevirtual reality technology has been widely
+used in post-stroke rehabilitation, whose effectivenessand safety have been widely verified. To date, however, there
+are few studies evaluatingthe effect of immersive virtual reality on stroke-related gait rehabilitation. This study
+outlines the application of immersive VR-assisted rehabilitation for gait rehabilitationof stroke patients for
+comparative evaluationwith traditional rehabilitation.
+Methods: The study describesa prospective, randomized controlled clinical trial. Thirty-six stroke patients will be
+screened and enrolled as subjects within 1month of initial stroke and randomized intotwo groups. The VRTgroup
+(n=18) will receive VR-assisted training (30min) 5days/week for 3weeks. The non-VRT group (n=18) will receive
+functional gait rehabilitation training (30min)5days/week for 3weeks. The primary outcomes and secondary
+outcomes will be conducted before intervention, 3weeks after intervention, and 6months after intervention. The
+primary outcomes will includetime “up& go”test (TUGT). The secondaryoutcomeswill include MMT muscle
+strength grading standard (MMT), Fugal-Meyer scale (FMA), motor function assessment scale (MAS), improved
+Barthel index scale (ADL), step with maximum knee angle, total support time, step frequency,step length, pace,
+and stride length.
+Discussion: Virtual reality is an innovativetechnologywith broad applications, current and prospective. Immersive
+VR-assisted rehabilitation in patients with vivid treatmentscenarios inthe form ofvirtual games will stimulate
+patients’interest through active participation.The feedback ofVR games can also provide patients with
+performance awareness and effectfeedback, which could be incentivizing. This study may reveal an improved
+method of stroke rehabilitation which can be helpful for clinical decision-making and future practice.
+Trial registration: Chinese Clinical Trial Registry ChiCTR1900025375.Registered on25 August 2019
+Keywords: Immersive virtual reality, Stroke rehabilitation, Gait rehabilitation, Randomized controlled trials
+*Correspondence:2320609050@qq.com;cgessmu@fmu.edu.cn
+†HuihuiCaiandTaoLinareco-firstauthors.
+1DepartmentofNeurology,FujianMedicalUniversityUnionHospital,Institute
+ofClinicalNeurology,FujianMedicalUniversity,Fuzhou350001,Fujian,China
+Fulllistofauthorinformationisavailableattheendofthearticle
+©TheAuthor(s).2021OpenAccessThisarticleislicensedunderaCreativeCommonsAttribution4.0InternationalLicense,
+whichpermitsuse,sharing,adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreativeCommonslicence,andindicateif
+changesweremade.Theimagesorotherthirdpartymaterialinthisarticleareincludedinthearticle'sCreativeCommons
+licence,unlessindicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthearticle'sCreativeCommons
+licenceandyourintendeduseisnotpermittedbystatutoryregulationorexceedsthepermitteduse,youwillneedtoobtain
+permissiondirectlyfromthecopyrightholder.Toviewacopyofthislicence,visithttp://creativecommons.org/licenses/by/4.0/.
+TheCreativeCommonsPublicDomainDedicationwaiver(http://creativecommons.org/publicdomain/zero/1.0/)appliestothe
+datamadeavailableinthisarticle,unlessotherwisestatedinacreditlinetothedata.
+Caietal.Trials (2021) 22:91 Page2of11
+Background experiencecontrollablemovementoroperationinasim-
+Stroke is a serious disease with a high disability rate. ulated virtual environment, so as to achieve the rebuild-
+Often occurring in elderly populations, stroke-related ingorrestoringofphysicalfunctions.
+disability contributes one of the main causes of adult Immersive VR researches have been reported in the
+disability [1]. Studies show that stroke survivors experi- field of pain medicine [17]. In the field of post-stroke re-
+ence residual physical dysfunction which has a great im- habilitation, immersive VR has also been reported in
+pact on their ability to live. Studies have reported that upper limb motor function and cognitive ability [16, 18].
+55–80% of stroke survivors demonstrate continuous However, a few studies have previously explored the ap-
+motor dysfunction, decreased quality of life, and limited plication of immersive VR-assisted training in gait re-
+activities in daily life [1–4]. Other studies have reported habilitation after stroke. For example, Biffi et al. found
+that 80% of stroke patients experience movement disor- that immersive virtual reality platform enhances the
+ders, including loss of balance and gait ability [1, 3]. The walking ability of children with acquired brain injuries
+disease-related movement disorders and the subsequent [19] and research by Irene Cortes-Perez has shown that
+decrease in daily living activity can be a great burden to immersive virtual reality improves balance in stroke pa-
+patients, their families, and society. Gait disorder is one tients and reduces the risk of falls [20]. Thus, research
+of the most common symptoms in stroke sequelae; thus, on immersive VR-assisted training in gait rehabilitation
+the recovery of walking ability is the key to improving requires its own dedicated investigation. As a VR device
+patients’ self-care ability and quality of life. Compared of reasonable cost, it has become a powerful research
+with that of the healthy people, the gait of patients with tool for scientific researchers [21, 22]. This study will
+cerebral apoplexy often manifests as slowed, shortened apply the immersive device to execute VR scenes of re-
+standingtimeontheparalyzedside,tooearly toesfalling habilitation training according to clinical practice, so as
+when standing, etc. [5]. As such, gait rehabilitation is to systematically evaluate the application of immersive
+often the primary goal of stroke rehabilitation [6–8]. As VR technology in the rehabilitation of stroke gait
+the population continues to age, an increasing number disorders.
+of stroke patients are posed to experience great chal-
+lenges to disease-related effects. In turn, improving the Methods
+efficiency of rehabilitation strategies remains of para- Aim
+mount importance. The aim is to assess the effect of immersive VR-assisted
+Virtualreality(VR)isaninnovativetooltorealize con- rehabilitation training for stroke patients with gait
+nection, operation, and interaction between human disorders.
+vision and computer-simulated scenarios [9]. Non-
+immersive VR (for example Xbox Kinect) has been ap- Studydesign
+plied inclinicaltrialsofstrokerehabilitation [10,11].VR The study designis asingle-blindrandomized controlled
+training experience is interesting and enjoyable for the trial. Other details are described in other sections of the
+patient, which reduces fatigue, keeps patients in a happy document.
+mood, and reduces the boredom of repetitive, conven- The protocol will strictly comply with the medical eth-
+tional rehabilitation. Non-immersive VR-assisted re- ics set forth by the medical ethics committee Fujian
+habilitation is proposed to provide a more personalized Medical University Union Hospital. Participants are allo-
+intervention therapy [12]. VR training for stroke patients cated to the virtual reality gait (VR) training group or
+can therefore improve the participation and autonomy the non-virtual reality gait (non-VR) training group. A
+of patients in the rehabilitation process, qualities that flowchartoftheexperimentalprocessisshowninFig.1.
+have been shown to be more cost and resource effective A checklist of Standard Protocol Items: Recommenda-
+[13]. Overall, non-immersive VR has been shown to in- tions for Interventional Trials (SPIRIT) is provided in
+crease limb function learning and improves the quality Fig.2.
+oflife[14].
+Recently, immersive VR is a novel VR type. Immersive Participants
+VR involves a head-mounted display with visual and Inclusioncriteria:(1)Aged40–80years. (2)Patientswith
+auditory cues and controllers using haptic (sense of ischemic cerebrovascular disease who met the classifica-
+touch) feedback in a 3-dimensional environment [15]. tion and diagnosis criteria of cerebrovascular disease
+Immersive VR is a technology that provides more realis- confirmed by head CT or MRI scan [23]. (3) The first
+tic environment scene design and object tracking than ever stroke and initial stroke onset of 1month or less.
+previous ordinary VR [16], which provides virtual inter- (4) Walking dysfunction (the standard of walking dys-
+action and real-time feedback in vision, touch, hearing, function in stroke patients was patients aged <60years
+and even motion in realistic scenarios. Patients can with 10-m walking time≥10s; patients aged 60–69years
+Caietal.Trials (2021) 22:91 Page3of11
+Fig.1Researchflowchartoftheexperiment
+with 10-m walking time≥12.5s; patients aged >70years Recruitmentandconsent
+with 10-m walking time≥16.6s). (5) The patient can The subjects in the trial will be recruited from inpatients
+stand with the help of one person or with crutches and in the Fujian Medical University Union Hospital. Their
+can walk at least l0 m. (6) Lower limb muscle strength attending physician will brief the patients about the
+level of3orabove. study. If the patients express interest, the physician will
+Exclusion criteria: (1) Patients with serious behavioral provide the patient’s contact information to the research
+problems or mental disorders. (2) Patients with cognitive team after obtaining the consent of the patients. The re-
+impairment (MMSE ≤24 points) unable to cooperate search team will obtain additional information about the
+with training. (3) Patients with cerebellar stroke, recent patients through interviews and further describe the trial
+lower extremity deep vein thrombosis, quadriplegia, Par- and precautions/benefits to the patients in detail. Add-
+kinson’s disease, lower limb fractures, or recent myocar- itionally, the research team will conduct a qualification
+dial infarction. (4) Patients with vital organ (heart, lung, examination to verify whether the patients meet the in-
+liver, kidney, etc.) failure, malignant tumor, or other un- clusion criteria. If the patient qualifies and agrees to par-
+stable condition. (5) Patients with history of cerebrovas- ticipate in the study, he/she will then be asked to sign
+cular accident before this stroke and/or walking the informed consent form and submit the relevant per-
+dysfunction. (6) Those who have previously completed sonal written materials. Communication and coordin-
+routinegaittraining. ation with patients’ families will occur as necessary. On
+the consent form, participants will be asked if they agree
+Setting with the usage of their data should they choose to with-
+Rehabilitation training and evaluation of this study will draw from the trial. Participants will also be asked for
+be conducted in the inpatient ward of the Department their permission to share relevant data by the research
+of Neurology of Fujian Medical University Union Hos- team with people from the Universities taking part in
+pital,China. the research or from regulatory authorities, where
+Caietal.Trials (2021) 22:91 Page4of11
+Fig.2StandardProtocolItems:RecommendationsforInterventionalTrials(SPIRIT)figure(numbersbesidetrepresentweeks)
+relevant. This trial does not involve collecting the bio- InterventiondesignoftheVRtraininggroupandnon-VR
+logical specimensfor storage. traininggroup
+The interventions ofthe two groups are based on there-
+Randomizationandblinding search intervention description of TIDieR template [24],
+The eligible participants based on the inclusion and ex- shown in Table 1. Relevant concomitant care and inter-
+clusion criteria will be randomly allocated in a 1:1 ratio ventionsarepermittedduringthetrial.
+to either the VR training group and the non-VR training
+group. The attending physician will obtain the informed VRsystem
+consent and refer the participants to the study coordin- As shown in Fig. 3, the VR system consists of (1) a hel-
+ator after their baseline information has been assessed. met display (HMD) (HTC Vive Pro), (2) Vive wireless
+The participants will be randomly assigned to the VR suite, and (3) Vive locator equipped with Steam tracking
+training group and non-VR training group by the study technology, g-sensor correction, gyroscope, proximity
+coordinator. A random allocation sequence will be gen- distance sensor, and pupil distance sensor to sense the
+erated in advance using a computerized random number accurate position and motion of the subject. The system
+generator by a biostatistician who will be not involved in also includes (4) two operating handles and (5) com-
+this trial. The study coordinator who will be not in- puter configuration (a computer equipped with Intel®-
+volved in recruiting participants will keep the random Core™ i7-7700k (4.20GHz) quad-core processor, 32 GB
+list and will assign the treatment plans accordingly. The random access memory, and 8 GB Nvidia GeForce GTX
+biostatistician and research coordinator will keep the 1080graphicscard). (6)FourVR-assistedlowerlimbgait
+random list until the end of the research to ensure that training scenarios will be available for patients to choose
+the assignment is blind to the participants and the at- from (nine-grid training, single-plank bridge training,
+tendingphysician who willrecruit participants. mountain climbing and climbing stairs training, and
+Although it is impossible to blind the participants and crossbar training). VR training scenarios are shown in
+rehabilitation trainer due to this being a non- Fig.4.
+pharmacological intervention trial, the allocation will be
+blind to the outcome assessors and the data analyst. Par- VRtraininggroup
+ticipants will be instructed not to disclose the allocation The VR training group will receive 30min per day for 3
+totheattendingphysicianandtheoutcomeassessors. weeks (5days/week) of VR-assisted gait rehabilitation
+Caietal.Trials (2021) 22:91 Page5of11
+Table1ResearchinterventionsoftheVRtraininggroupandthenon-VRtraininggroupbaseonTIDieRtemplate
+Item VRtraininggroup Non-VRtraininggroup
+1.Brief VRT Non-VRT
+name
+2.Why 1.Fromthemechanismofaction,VRtrainingcaninducecorticalrecombinationofneuralmotorpathways;
+2.Fromaneurologicalpointofview,repeatedtrainingcanenhancethesynapticfunctionoftheaffectedlimbandincreasethe
+neuroplasticityinducedbymovement[25];
+3.Fromtheperspectiveofkinematics,repetitivemovementisthebasicconditionforacquiringamotorskill.However,tofurther
+strengthenthemasteryofthisskill,successfulfeedbackandpleasantexperienceareneeded.
+3.What (1)Headstealdisplay(HMD)(HICVivePro);(2)Vivewirelesssuite;(3)Vive Routinetrainingequipment,lowerlimbtraining
+materials locator,whichsensestheaccuratepositionandmotionofsubjectsbyusing treadmill,rehabilitationtrainingbicycle
+SteamVRtrackingtechnology,g-sensorcorrection,gyroscope,proximitydis-
+tancesensor,andpupildistancesensor;(4)twooperatinghandles;(5)com-
+puterconfiguration;(6)VRlowerlimbgaittrainingscenariosforpatientsto
+choosefrom(nine-gridtraining,single-plankbridgetraining,climbingstairs
+training,andcrossbartraining)
+4. TheVRtraininggroupwillreceive(1)30minperdayfor3weeks(5days/ Thenon-VRtraininggroupreceives(1)30minperday
+Procedures week)ofVR-assistedgaitrehabilitationtraining. for3weeks(5days/week)offunctionalgaitrehabilita-
+SpecificprocessofVRtraining:patientswearHTCVivevirtualglassesonthe tiontraining(standingbalancetraining,separation
+opengroundandaresynchronouslyequippedwithdifferentscenessuchas promotingexercise,centerofgravitytraining,body
+nine-gridtraining,single-plankbridgetraining,climbingstairstraining,and positionchangetraining,stepseparationtraining,par-
+crossbartraining.VRscenesareimmersive.Patientsareplacedinvirtual allelbarwalkingtraining).
+scenesandreceivecorrespondingscoresaftercompletingtasksaccordingto (2)30minperdayfor3weeks(5days/week)ofregular
+thetrainingrequirementsofdifferentscenes. activeexercisetraining(unarmeddrafting,muscle
+(2)30minperdayfor3weeks(5days/week)ofregularactiveexercisetraining strengthtraining,trunkbalance,transfer).
+(unarmeddrafting,musclestrengthtraining,trunkbalance,transfer).
+5.Who Theinterventionmeasuresofthetwogroupsinthisstudywerecarriedoutbyrehabilitationtherapistswithover3yearsofexperience.
+provided Interventionmeasuresweredevelopedbyexperimentalresearchers.
+6.How Bothinterventionsinthisstudywillbeconductedinone-on-onetrainingsessionsdaily.
+7.Where TheinterventionwillbecarriedoutintheinpatientwardoftheDepartmentofNeurologyoftheunionhospitalaffiliatedwithFujian
+MedicalUniversity.
+8.Whenand During3weeksofrehabilitationtraining,bothgroupswillreceivetraininglasting30min/dayand5days/weekfor3weeks.The
+howmuch intensitywasadjustedimmediatelyaccordingtothegaitfunctionofpatients’lowerlimbs.
+9.Tailoring Theinterventionofthetwogroupscanbeadjustedaccordingtothegaitfunctionofpatients.Beforetraining,therapistswillmakea
+simpleandrapidassessmentofthelowerlimbfunctionofpatientstoselectthepersonalizedinterventionintensitysuitablefor
+patients.Itcanalsobeadjustedaccordingtopatients’ownpreferences.
+11.How Evaluatorsoverseeinginterventionresultswillbeblindedtothegroupallocationprocessandrandomizationresultstoensurethe
+well objectivityandimpartialityoftheevaluationresults.
+training. The specific process of VR training included The virtual training scenes can be switched according to
+the following: subjects will train on flat ground in an the needs and preferences of the participants. The train-
+area of about 2m×2m. Subjects will wear HTC Vive ing difficulty of the VR scene can also be adjusted ac-
+virtual glasses [26] with their feet bound with a handle cording to the participants’ lower extremity motor
+to replace the feet of subjects in the virtual scenario. ability, allowing personalization of the VR experience.
+Four VR training scenes (nine-grid training, single-plank They also will receive 30min per week for 3weeks of
+bridge training, climbing stairs training, and crossbar regular active exercise training. Regular active exercise
+training) will be available for subjects to choose from. training will include unarmed drafting, muscle strength
+Participants will be instructed to select various options training,trunkbalance,andtransfer.
+in the virtual scene by the eye gaze method (when sub-
+jects stare at an option in the scene for a certain period
+of time, that option is selected). The VR scene is immer- Non-VRtraininggroup
+sive,givingthesubjectarealistic feeling. Thesubjectwill Participants were randomly assigned to a non-VR train-
+be able to turn their head to observe the surrounding ing group. They will receive 30min per day for 3weeks
+environment, including looking down to see their mov- (5days/week) of functional gait rehabilitation training.
+ing feet on the ground. The participants will be placed The functional gait rehabilitation training may include
+in the virtual scene, and within 30min, they will receive standingbalancetraining,separationpromotingexercise,
+corresponding training scores according to task comple- center of gravity training, body position change training,
+tion requirements set forth for different training scenes. step separation training, and parallel bar walking
+Caietal.Trials (2021) 22:91 Page6of11
+Fig.3Virtualreality(VR)systemandvirtualscene.aAparticipantwearsavirtualrealitysystem.bAparticipantiscarryingoutcrossbartraining
+training. They also will receive 30min per week for 3 and again at a 6-month follow-up. A summary of all
+weeksofregularactiveexercisetraining. measurementsinthistrial isshown inTable 2.
+Primaryoutcomes
+Outcomemeasures
+All participants in the study will be measured before the Time “up & go” test (TUGT) The time “up & go” test
+start of the study, after the intervention (3weeks later), is a rapid quantitative assessment of functional walking
+Caietal.Trials (2021) 22:91 Page7of11
+Fig.4Fourvirtualrealitytrainingscenes.aNine-gridtraining:participantscanscorepointsbytramplingonthebluegrid,andthecolorchange
+speedofthegridcanbeadjusted.bSingle-plankbridgetraining:participantscanscorepointswhentheywalktotheendofasingle-plank
+bridge;theplankspacingofthebridgeisadjustable.cClimbingstairstraining:participantscanscorepointsforsuccessfulmountaineeringto
+voiceprompts.dCrossbartraining:participantscanscorepointswhentheycrossthebar;theheightofthebarisadjustable
+ability. Studies have confirmed that the TUGT is a reli- on the following criteria:1 point: normal, 2 points: very
+able, effective, and easy to operate clinical tool for asses- slight abnormality, 3 points: mild abnormality, 4 points:
+sing advanced functional range of the activity after stroke moderateabnormality,and5points:severeabnormality.
+[27].IthasalsobeenreportedthattheTUGThasabetter
+correlation with stroke patients’ balance function, motor Secondaryoutcomes
+function, and ability of daily life activity. The test also
+boasts high sensitivity in predicting the risk of falls and MMT muscle strength (lower limbs) The muscle
+daily self-care ability of patients. In addition to recording strength grading standard is divided into 0–5 levels [28]:
+the time taken, gait and risk of falling will be rated based eachlevel canbefurthersubdividedby“+/−”.
+Table2Outcomedomainsandmeasurementinstruments
+Outcomedomain Measurementinstrument Abbreviation T0 T1 T2
+Primaryoutcomes
+Functionalwalkingability Time“up&go”test TUGT × × ×
+Secondaryoutcomes
+MMTstrength MMTmusclestrengthgradingstandard MMT × × ×
+Motorfunctionoflowerlimbs Fugl-Meyerscale FMA × × ×
+Motorfunction Motorfunctionassessmentscale MAS × × ×
+Abilityofdailylifeactivities ImprovedBarthelindexscale ADL × × ×
+Kinematicparametersofgait Stepwithmaximumkneeangle × × ×
+Timeparameters Totalsupporttime,stepfrequency × × ×
+Distanceparameters Steplength,pace,stridelength × × ×
+T0baseline,T1post-intervention(3weeks),T2follow-up(6monthspostintervention)
+Caietal.Trials (2021) 22:91 Page8of11
+Level 0:unknownmusclecontraction; Samplesizecalculation
+Level 1:slight contraction,butnojointmovement; The sample size calculations are based on the primary
+Level 2: in the state of weight reduction, the whole outcomemeasure,theTUGTscale[35].Itwasestimated
+rangeofjoints canbeoperated; that a sample of 28 participants (14 per group) would
+Level 3: can resist the full range of joint motion under provide 80% power (α =0.05, β =0.2) to detect a differ-
+heavy force,but cannot resisttheresistance; ence between group means of 3.16. A difference of 3.16
+Level 4: can resist gravity and certain resistance move- points on the TUGT scale is regarded as minimum de-
+ment; and tectible change [36] using the program PASS, which
+Level 5:anti-gravity andanti-fullresistance exercise. takes into account the number of sample groups and the
+Used unarmed muscle strength test to grade limb number of evaluation measures. To reach this total
+muscle strengthofstroke patients. number ofindividuals, atleast36individuals mustbere-
+cruited,allowing adropoutrate of20%.
+Lower extremity of the Fugl-Meyer scale Fugl-Meyer
+is a carefully designed, feasible, and effective evaluation Statisticalanalysis
+SPSS statistical software will be used to build and
+methodwhich hasbeen widelyusedinthe assessment of
+recovery of stroke patients. The Fugl-Meyer exercise process all data collected. Paired t tests will be used to
+evaluate the differences between group rehabilitation
+scale is highly recommended as a clinical and research
+metrics before and after rehabilitation training. An inde-
+tool for assessing changes in exercise injury after stroke
+[29]. As a rating scale for motor function recovery in pendent sample t test will be used for measurement data
+between the groups. P <0.05 is considered as the stand-
+stroke patients, its reliability, validity, and reactivity have
+ard for significant difference. In addition, covariance
+been confirmed and widely accepted [30]. The Fugl-
+Meyer rating scale evaluates the motor function of the analysis will be performed to adjust for any significant
+demographic or clinical imbalances. A safety analysis is
+lower limbs through reflex activity, joint motor function,
+scheduled after randomization and active treatment of
+gaitcoordinationability andspeed,etc.
+18 patients. Exploratory subgroup analyses may be con-
+ducted. To prevent data loss, all questionnaires will be
+Motor assessment scale (MAS) of the lower extremity
+user-friendly and collected electronically, with all study
+of strokepatients Many studies have demonstrated that
+personnel trained to identify and engage subjects most
+MAS is a reliable and effective tool for measuring motor
+likely todropout ofsubsequent evaluations.
+function of stroke patients by exploring its reliability,
+validity,andfactor structure[31,32].
+Studyorganization
+This study will be organized and coordinated by re-
+Improved Barthel index scale Strongevidence hassup-
+searchers at the Department of Neurology of the union
+ported the Barthel index as a reliable measure of basic
+hospital affiliated with Fujian Medical University. Re-
+life activity ability after stroke [33, 34]. This table is used
+search staff will also oversee VR scene design and execu-
+to evaluate the ability of daily living activities (ADL),
+tion ofclinicallyrelatedexperiments.
+which is one of the characteristics and commonly used
+scales in rehabilitation medicine. The evaluation is based
+Studyoversightandparticipantconfidentiality
+on the actual daily performance of patients, rather than
+The supervision of the project will be carried out by the
+the possible abilities of patients. Scores range from 0 to
+safety supervision committee of the hospital, which is
+20: very severe dysfunction, 25 to 45 points=severe dys-
+mainlyresponsiblefortheevaluationoftheexperimental
+function, 50 to 70=moderate functional impairment, 75
+design,thescientificandexperimentalprocess,thesafety
+to 95 points=mild functional impairment, and 100
+ofparticipants,adherenceto medical ethics,and thecor-
+points=ADLself-care.
+rect managementandprocessing ofdata.
+The privacy rights of each subject will be respected.
+Parameters of gait kinematics The maximum knee All initial data and outcome indicators of participants
+joint angle of the step phase, time parameters (including willbekeptinahighly secured database andanonymous
+total support time and step frequency), and distance pa- work will be done to ensure the safety and rights of each
+rameters (including step length, step speed, stride length subject.
+and variation coefficient, etc.). The kinematics parame-
+ters of gait will be observed through three-dimensional Safety
+gait analysis. A gait analyzer (MA10 System, GYENNO, VR is an emerging technology and its related products
+Shenzhen, China) will be used to analyze the gait kine- have been gradually developed in recent years. To date,
+matics parametersofthe twogroups. no relevant adverse events have been reported. In the
+Caietal.Trials (2021) 22:91 Page9of11
+process of training subjects’ gait recovery with VR tech- 5. Conduct debuggingofVRequipmentand gait
+nology;ourresearchteamwillstrictlyfollow therelevant analyzer (data analysis equipment)soastoachieve
+regulations of the medical ethics committee to ensure theoptimal runningstateoftheequipment.
+the maximum safety and ethical protection of subjects.
+As VR technology is a relatively new technology, sub- Others
+jects may not be able to complete training tasks due to The steering committee consists of the authors Huihui
+ineptness or intolerance (such as dizziness, nausea, sore Cai, Tao Lin, Lina Chen, Huidan Weng, Ruihan Zhu,
+eyes, disorientation) during training. Adverse events Ying Chen, and Guoen Cai. All members are independ-
+(e.g., falls, pain, and dizziness) that occur during the ent of the sponsor. The committee members participate
+study period, whether or not related to the study inter- in designing the study and supporting the on-going trial
+vention are registered. Considering the above two as- with advice. There is a data safety monitoring board
+pects, we will take the following measures to achieve the which is independent of the sponsor, including statisti-
+besttrainingenvironment: cians and a chairman who is Prof. Qinyong Ye. An audit
+may be performed by the medical supervision and man-
+1. Duringthe 3-week training,astricttrainingplan agement department to evaluate clinical study conduct
+willbemadeforeach subject onaweeklybasis, and compliance with the protocol, SOPs, GCP, and the
+adjusting thetrainingscheduleaccordingtotheac- applicableregulatoryrequirements.
+tualconditionsofthesubjects;
+2. Payclose attention tothefeedbackand fitnessof Protocolamendments
+subjectsusingVRtechnologyforrehabilitation We will discuss the protocol amendments in the Scien-
+training; tific Board and notify the sponsor and funder first. A
+3. Periodicallyevaluatethe interventioneffectof copy of the revised protocol will be sent to the PI. Any
+subjectsusingVRtechnologyforrehabilitation deviations from the protocol will be fully documented
+training;and usingabreachreportform.
+4. Supporting subjects’decisiontowithdraw fromthe
+study. Disseminationplans
+The datasets analyzed during the current studyare avail-
+This study will strictly comply with the require- able from the corresponding author on reasonable re-
+ments of clinical operation guidelines and internation- quest. Trial data and results will be published in
+ally recognized legal requirements. Any adverse events scientific journals. The consent form and trial informa-
+will be reported directly to the ethics committee im- tion materials are available from the corresponding au-
+mediately, and the training regimen will be adjusted thor onrequest.
+accordingly after each adverse event. There is no an-
+ticipated harm and compensation for trial Discussion
+participation. In this study, the effects of immersive VR technology on
+gait rehabilitation of stroke patients will be evaluated
+after 3weeks of intervention and at a 6-month follow-
+Qualitycontrolandqualityassurance up. The improvement of traditional gait-disorder re-
+Before thestartofthestudy, inordertoensurethequal- habilitation for stroke patients is required as the trad-
+ity of the research, we will strictly review the recruited itional method is time- and resource-consuming and
+doctors, rehabilitation therapists, evaluators, and VR relatively one-dimensional with regard to the patient ex-
+equipment, andtakethefollowingspecific measures: perience. The effectiveness and feasibility of the newly
+developed VR technology in rehabilitation training could
+1. Therecruited doctorsshouldfullyunderstandthe providekeysolutionstotheselimitations. Themainpur-
+experimentalprocess; pose of the proposed study protocol is to establish an
+2. Traintherapiststo carryoutVR-assisted rehabilita- immersive VR gait rehabilitation training experience and
+tiontrainingofsubjectsand howtodealwith po- comparatively evaluate outcomes in a controlled, ran-
+tentialadverseeventsduringthe training; domizedexperiment.
+3. Trainevaluatorshowtoappropriatelymanage and VR technology leverages interactive simulations to cre-
+processoutcomeindicators; ate an environment that is similar to the real-world sce-
+4. Amongthe 38subjectsincluded,thedata ofthe narios. Stroke patients can complete tasks as required
+subjectswhofinally completedallthe training and interact with virtual objects. Previous studies have
+programsshallbeanalyzedforcompletenessand pointed out that such human-computer interactions
+quality;and should be easy to adapt, be intuitive and convenient to
+Caietal.Trials (2021) 22:91 Page10of11
+use, and allow the subjects to readily transfer the skills Funding
+learned in the virtual environment to real life. In ThisresearchissupportedbygrantsfromtheFujianProvincialScienceand
+TechnologyGuidingProject(No.2018Y0033).Thefundingagencyprovides
+addition, VR can provide immediate motor feedback
+fundingonlyanddoesnotparticipateintheexperimentalprocess.
+during training, allowing for task-oriented repetitive ex-
+ercises while enabling changes to the traditional treat- Availabilityofdataandmaterials
+Studydatacanbeprovidedonrequest.Forinterestedresearchers,please
+ment patterns which can feel repetitive or boring for
+contactDr.Cai.
+patients. In the form of a virtual game, the treatment of
+patients with lively and interesting scenes and training Ethicsapprovalandconsenttoparticipate
+projects allows patients to feel more relaxed, engaged, TheexperimentwasapprovedbytheethicscommitteeofFujianMedical
+UniversityUnionHospital.Ethicalapprovalnumber:2018KY076.
+and therefore more invested in the active participation.
+Oralconsentandinformedconsentwereobtainedbeforetheexperiment.If
+The real-time feedback can additionally provide patients necessary,theinformedconsentofthesubject’sfamilyshouldbeobtained.
+with a greater awareness of their training and perform-
+Consentforpublication
+ance [37]. In addition to repetitive training, the modula-
+Alltheauthorsapprovedthefinalmanuscriptandagreedtopublishit.All
+tion of different environments during a VR-assisted participantsagreedtopublishimagesassociatedwiththem.
+training session can also be very helpful for patients’
+learning ability, whichcan enhance the ability ofpatients Competinginterests
+Theauthorsstatethattheyhavenocompetinginterests.
+to adapt to the environment and thus improve their
+sports learning ability [3, 38]. This mode of higher par- Authordetails
+ticipation canultimatelyimprovetheenthusiasmandac-
+1DepartmentofNeurology,FujianMedicalUniversityUnionHospital,Institute
+ofClinicalNeurology,FujianMedicalUniversity,Fuzhou350001,Fujian,
+ceptance of training for patients, reducing the dropout China.2DepartmentofClinicalMedicine,FujianMedicalUniversity,Fuzhou
+rate and enabling patients to maintain long-term re- 350001,Fujian,China.
+habilitation [39]. Moreover, studies have shown that im-
+Received:15February2020Accepted:7January2021
+mersive VR is feasible in the rehabilitation of stroke
+patients with gait disorder [20]. Interestingly, one study
+has found that subjects receiving occasional intermittent References
+1. LanghorneP,BernhardtJ,KwakkelGJL.Strokerehabilitation.Lancet.2011;
+treatment were more effectively impacted than others 377(9778):1693–702.
+receivingdailytreatment[40]. 2. ChoiJ,HanE,KimB,KimS,ImS,LeeS,CJAormH.Effectivenessof
+commercialgaming-basedvirtualrealitymovementtherapyonfunctional
+recoveryofupperextremityinsubacutestrokepatients.AnnRehabilMed.
+Trial status
+2014;38(4):485–93.
+3. deRooijI,vandePortI,JJPtM.Effectofvirtualrealitytrainingonbalance
+The study is actively recruiting participants. The end of
+andgaitabilityinpatientswithstroke:systematicreviewandmeta-analysis.
+thetrial phase andsubsequentdata analysis areexpected PhysTher.2016;96(12):1905–18.
+to be completed within 24 to 36months. The protocol 4. VanbellingenT,FiliusS,NyffelerT,EJFinvanW.Usabilityofvideogame-
+baseddexteritytrainingintheearlyrehabilitationphaseofstrokepatients:a
+version number is 4.0. Recruitment started on December
+pilotstudy.FrontNeurol.2017;8:654.
+1,2019,andwillclose onDecember1,2022. 5. OlneySJ,GriffinMP,MongaTN,McBrideID.Workandpoweringaitof
+strokepatients.ArchPhysMedRehabil.1991;72:309–14.
+6. DeutschJ,AJTisrM.Virtualreality-basedapproachestoenablewalkingfor
+Supplementary Information
+peoplepoststroke.TopStrokeRehabil.2007;14(6):45–53.
+7. FungJ,RichardsCL,MalouinF,McFadyenBJ,LamontagneA.Atreadmill
+Theonlineversioncontainssupplementarymaterialavailableathttps://doi.
+andmotioncoupledvirtualrealitysystemforgaittrainingpost-stroke.
+org/10.1186/s13063-021-05031-z. CyberpsycholBehav.2006;9:157–62.
+8. MoreiraM,deAmorimLimaA,FerrazK,BenedettiRodriguesMJD.
+Additionalfile1.SPIRITchecklist.Thetableidentifiesthepagenumber technologyrA:useofvirtualrealityingaitrecoveryamongpoststroke
+fortherelevantcontent. patients–asystematicliteraturereview.DisabilRehabilAssistTechnol.2013;
+8(5):357–62.
+9. MassettiT,FáveroF,MenezesL,AlvarezM,CrocettaT,GuarnieriR,NunesF,
+MonteiroC,TJGfhjS.Achievementofvirtualandrealobjectsusingashort-
+Abbreviations
+VR:Virtualreality;TUGT:Time“up&go”test;MAS:Motorassessmentscale; termmotorlearningprotocolinpeoplewithDuchennemuscular
+dystrophy:acrossoverrandomizedcontrolledtrial.GamesHealthJ.2018;
+HMD:Helmetdisplay;ADL:Theabilityofdailylivingactivities
+7(2):107–15.
+10. JiE,SJJoptsL.Effectsofvirtualrealitytrainingwithmodifiedconstraint-
+Acknowledgements inducedmovementtherapyonupperextremityfunctioninacutestage
+Theauthorsthankallparticipantsinthisstudy.
+stroke:apreliminarystudy.JPhysTherSci.2016;28(11):3168–72.
+11. RivaGJM.Applicationsofvirtualenvironmentsinmedicine.MethodsInf
+Med.2003;42(5):524–34.
+Authors’contributions 12. Luque-MorenoC,Ferragut-GarcíasA,Rodríguez-BlancoC,Heredia-RizoA,
+HHC,TL,andLNCwereinvolvedintheconceptionanddesignofthe Oliva-Pascual-VacaJ,KiperP,Oliva-Pascual-VacaÁJB.Adecadeofprogress
+research.HDWandRHZobtainedethicsapproval.YCandGECdraftedthe usingvirtualrealityforpoststrokelowerextremityrehabilitation:systematic
+manuscriptandparticipatedinthestatisticalanalysisplan.Allauthorsedited reviewoftheinterventionmethods.BiomedResInt.2015;2015:342529.
+andrevisedthemanuscript.Allauthorsapprovedthefinalversionofthe 13. GibbonsE,ThomsonA,deNoronhaM,JosephSJT.Arevirtualreality
+manuscript.HuihuiCaiandTaoLinareco-firstauthors. technologieseffectiveinimprovinglowerlimboutcomesforpatients
+Caietal.Trials (2021) 22:91 Page11of11
+followingstroke-asystematicreviewwithmeta-analysis.TopStroke 36. BoissoneaultC,GrimesT,RoseD,WatersM,KhannaA,DattaS,DalyJJB.
+Rehabil.2016;23(6):440–57. Innovativelong-doseneurorehabilitationforbalanceandmobilityin
+14. IruthayarajahJ,McIntyreA,CotoiA,MacalusoS,TeasellRJT.Theuseof chronicstroke:apreliminarycaseseries.BrainSci.2020;10(8).
+virtualrealityforbalanceamongindividualswithchronicstroke:a 37. HoldenMJC,behavior:theimpactoftheinternetm,behaviorvro,society:
+systematicreviewandmeta-analysis.TopStrokeRehabil.2017;24(1):68–79. Virtualenvironmentsformotorrehabilitation:review.CyberpsycholBehav.
+15. LohreR,BoisAJ,AthwalGS,GoelDP,CanadianShoulderandElbowSociety 2005;8(3):187–211;discussion212-189.
+(CSES).Improvedcomplexskillacquisitionbyimmersivevirtualreality 38. LaverK,LangeB,GeorgeS,DeutschJ,SaposnikG,CrottyMJTC.Virtual
+training:arandomizedcontrolledtrial.JBoneJointSurgAm.2020;102(6): realityforstrokerehabilitation.CochraneDatabaseSystRev.2017;11:
+e26. CD008349.
+16. ÖgünMN,KurulR,YaşarMF,TurkogluSA,AvciŞ,YildizN.Effectofleap 39. BergmannJ,KrewerC,BauerP,KoenigA,RienerR,MüllerFJEjop,medicine
+motion-based3Dimmersivevirtualrealityusageonupperextremity r:Virtualrealitytoaugmentrobot-assistedgaittraininginnon-ambulatory
+functioninischemicstrokepatients.ArqNeuropsiquiatr.2019;77:681–8. patientswithasubacutestroke:apilotrandomizedcontrolledtrial.407.Eur
+17. SolcàM,RonchiR,Bello-RuizJ,SchmidlinT,HerbelinB,LuthiF,etal. JPhysRehabilMed.2018;54(3):397–407.
+Heartbeat-enhancedimmersivevirtualrealitytotreatcomplexregionalpain 40. LeeH,ParkY.ParkSJBri:Theeffectsofvirtualrealitytrainingonfunctionin
+syndrome.Neurology.2018;91:e479–479e489. chronicstrokepatients:asystematicreviewandmeta-analysis.BiomedRes
+18. ChoDR,LeeSH.Effectsofvirtualrealityimmersivetrainingwith Int.2019;2019:7595639.
+computerizedcognitivetrainingoncognitivefunctionandactivitiesofdaily
+livingperformanceinpatientswithacutestagestroke:apreliminary Publisher’s Note
+randomizedcontrolledtrial.Medicine(Baltimore).2019;98:e14752.
+SpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+19. BiffiE,BerettaE,CesareoA,MaghiniC,TurconiA,ReniG,StrazzerSJM.An
+publishedmapsandinstitutionalaffiliations.
+immersivevirtualrealityplatformtoenhancewalkingabilityofchildren
+withacquiredbraininjuries.MethodsInfMed.2017;56(2):119–26.
+20. Cortés-PérezI,Nieto-EscamezFA,Obrero-GaitánE.Immersivevirtualreality
+instrokepatientsasanewapproachforreducingposturaldisabilitiesand
+fallsrisk:acaseseries.BrainSci.2020;10.
+21. EggerJ,GallM,WallnerJ,BoechatP,HannA,LiX,ChenX,SchmalstiegDJP.
+HTCViveMeVisLabintegrationviaOpenVRformedicalapplications.PLoS
+One.2017;12(3):e0173972.
+22. NiehorsterD,LiL,LappeMJ-P.Theaccuracyandprecisionofpositionand
+orientationtrackingintheHTCvivevirtualrealitysystemforscientific
+research.Iperception.2017;8(3):2041669517708205.
+23. ArboixA,Alvarez-SabínJ,SolerLJN.Stroke.Classificationanddiagnostic
+criteria.AdhocEditorialCommitteeoftheTaskForceonCerebrovascular
+DiseasesofSEN.Neurologia.1998:3–10.
+24. HoffmannT,GlasziouP,BoutronI,MilneR,PereraR,MoherD,AltmanD,
+BarbourV,MacdonaldH,JohnstonM,etal.Betterreportingof
+interventions:templateforinterventiondescriptionandreplication(TIDieR)
+checklistandguide.Gesundheitswesen.2016;78(3):e174.
+25. LiepertJ,BauderH,WolfgangH,MiltnerW,TaubE,WeillerCJS.Treatment-
+inducedcorticalreorganizationafterstrokeinhumans.Stroke.2000;31(6):
+1210–6.
+26. PerskyS,LewisMJT.Advancingscienceandpracticeusingimmersivevirtual
+reality:whatbehavioralmedicinehastooffer.TranslBehavMed.2019;9(6):
+1040–6.
+27. ChanP,SiTouJ,TseM,NgSJA.Rehabilitation:reliabilityandvalidityofthe
+timedupandgotestwithamotortaskinpeoplewithchronicstroke.Arch
+PhysMedRehabil.2017;98(11):2213–20.
+28. SeederL.Musclestrengthgrading.AnnEmergMed.1983;12(6):407.
+29. GladstoneDJ,DanellsCJ,BlackSE.TheFugl-Meyerassessmentofmotor
+recoveryafterstroke:acriticalreviewofitsmeasurementproperties.
+NeurorehabilNeuralRepair.2002;16(3):232-40.
+30. HsuehI,HsuM,SheuC,LeeS,HsiehC,LinJJN.repairn:Psychometric
+comparisonsof2versionsoftheFugl-MeyerMotorScaleand2versionsof
+theStrokeRehabilitationAssessmentofMovement.NeurorehabilNeural
+Repair.2008;22(6):737–44.
+31. AamodtG,KjendahlA,JahnsenRJD.rehabilitation:Dimensionalityand
+scalabilityoftheMotorAssessmentScale(MAS).DisabilRehabil.2006;28(16):
+1007–13.
+32. LanninNJD.rehabilitation:Reliability,validityandfactorstructureofthe
+upperlimbsubscaleoftheMotorAssessmentScale(UL-MAS)inadults
+followingstroke.DisabilRehabil.2004;26(2):109–16.
+33. GreenJ,ForsterA,YoungJJD.rehabilitation:Atest-retestreliabilitystudyof
+theBarthelIndex,theRivermeadMobilityIndex,theNottinghamExtended
+ActivitiesofDailyLivingScaleandtheFrenchayActivitiesIndexinstroke
+patients.DisabilRehabil.2001;23(15):670–6.
+34. HuybrechtsK.CaroJJCmr,opinion:TheBarthelIndexandmodifiedRankin
+Scaleasprognostictoolsforlong-termoutcomesafterstroke:aqualitative
+reviewoftheliterature.CurrMedResOpin.2007;23(7):1627–36.
+35. InT,LeeK.SongCJMsmimjoe,researchc:Virtualrealityreflectiontherapy
+improvesbalanceandgaitinpatientswithchronicstroke:randomized
+controlledtrials.MedSciMonit.2016;22:4046–53.

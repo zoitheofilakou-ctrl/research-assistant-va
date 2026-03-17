@@ -1,0 +1,1558 @@
+Lazure et al. BMC Medical Education (2022) 22:781
+https://doi.org/10.1186/s12909-022-03847-0
+RESEARCH Open Access
+Challenges associated with the integration
+of immuno-oncology agents in clinical practice
+Patrice Lazure1*, Aparna R. Parikh2, Neal E. Ready3, Marianne J. Davies4, Sophie Péloquin1, Jeffrey M. Caterino5,
+Robert Lewandowski6, Alexander J. Lazar7 and Suzanne Murray1
+Abstract
+Background: The availability of new immuno-oncology therapeutics markedly impacts oncology clinicians’ treat-
+ment decision-making. To effectively support healthcare professionals (HCPs) in their practice, it is important to better
+understand the challenges and barriers that can accompany the introduction of these agents. This study aimed to
+establish the types and causes of clinical challenges posed by the introduction of new immuno-oncology agents.
+Methods: The mixed-methods design included qualitative in-depth interviews and group discussions with HCPs,
+in which participants discussed clinical challenges and potential underlying reasons for these challenges. Qualita-
+tive findings informed a quantitative survey. This survey investigated the extent and distribution of challenges using
+HCPs’ self-rating of knowledge, skill, confidence, and exposure to system-level effects. These two phases were con-
+ducted sequentially with distinctly stratified samples of oncologists, nurse practitioners (NPs), physician assistants
+(PAs), pathologists, clinical pharmacists, interventional radiologists, rheumatologists, pulmonologists, and emergency
+department physicians. Participants were from the United States and had various levels of clinical experience and
+represented both academic and community-based settings.
+Results: The final sample included 107 HCPs in the qualitative phase and 554 in the quantitative phase. Analyses
+revealed clinical challenges related to the use of pharmacodiagnostics. For example, 47% of pathologists and 42%
+of oncologists reported skill gaps in identifying the appropriate marker and 46% of oncologists, 61% of PAs, 66% of
+NPs, 74% of pulmonologists and 81% of clinical pharmacists reported skill gaps in selecting treatment based on test
+results. Challenges also emerged regarding the integration of immuno-oncology agents, as oncologists, rheumatolo-
+gists, pulmonologists, clinical pharmacists, PAs, and NPs reported knowledge gaps (74-81%) of the safety profiles of
+recently approved agents. In addition, 90% of clinical pharmacists reported skill gaps weighing the risks and benefits
+of treating patients with immuno-oncology agents while affected by lupus. Finally, patient communication chal-
+lenges were identified: HCPs reported difficulties discussing essential aspects of immunotherapy to patients as well as
+how they might compare to other types of therapies.
+Conclusion: The challenges highlighted in this study reveal substantial educational gaps related to the integration of
+immuno-oncology agents into practice for various groups of HCPs. These findings provide a strong base of evidence
+for future educational initiatives.
+Keywords: Immuno-oncology, Pharmacodiagnostics, Challenges and barriers, Needs assessment, Continuing
+medical education, Patient-provider communication
+*Correspondence: lazurep@axdevgroup.com
+1 AXDEV Group Inc, 210-8, Place du Commerce, QC J4W 3H2 Brossard, Canada
+Full list of author information is available at the end of the article
+© The Author(s) 2022. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat ivec o
+mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Lazure et al. BMC Medical Education (2022) 22:781 Page 2 of 12
+Background considered to be particularly fast evolving with respect to
+The evolving understanding of the complex interplays of lung cancer [15, 16]. To be included in the study, a mini-
+both tumor and host immune responses, including the mum yearly caseload of patients considered for and/or
+tumor microenvironment, has led to a deeper under- ongoing immunotherapy was required: 20 for the core
+standing of how cancer evades the immune system [1] oncology team (i.e., oncologists, NPs, PAs); 5 for clinical
+and contributed to the development of novel treatment pharmacists, interventional radiologists, rheumatolo-
+options such as immuno-oncology (IO) agents. These gists, and pulmonologists; 2 for ED physicians. Patholo-
+options, which include monoclonal antibodies (mAbs), gists were required to have a minimum of 10 samples per
+checkpoint inhibitors, and T-cell therapies, have has- year analyzed to inform the diagnostic or treatment of
+tened the growth of pharmacodiagnostics to aid treat- patients being considered for immunotherapy treatment.
+ment selection for patients, although, these options For each phase of data collection, participants were
+do require careful monitoring of patients’ treatment recruited from two distinct online panels (one for quali-
+responses and immune-mediated treatment toxicities by tative phase, one for quantitative phase), which databases
+healthcare providers (HCPs) [2–4]. contained healthcare professionals potentially meeting
+Existing literature suggests the integration of IO agents base inclusion criteria (profession/specialty, US-located
+and the use of pharmacodiagnostics to support their use practice) and who agreed to be contacted for research
+in practice poses many challenges, including the identifi- participation when studies are available in their field.
+cation of clinically valuable biomarkers [5] and the man- Both panels operated in compliance with the ICC/ESO-
+agement of adverse side effects for patients [6]. However, MAR code of conduct and ethical standards for market
+little is known about HCPs’ knowledge, skills, confidence, and social research [17]. Invitations were sent electroni-
+and attitudes related to pharmacodiagnostics, the inte- cally and included a link to a secure website directing par-
+gration of IO agents into clinical practice, and the man- ticipants to a screening questionnaire and an informed
+agement of IO-related adverse events (AEs). This study consent form. For both phases, participants were pur-
+aims to identify and document the challenges and bar- posively sampled by profession/specialty, practice set-
+riers (at the individual, team, and systems levels) cur- ting (i.e., academic vs. community-based), and years of
+rently experienced by a diversity of HCPs integrating new practice (3–10 years, 11–20 years, 21 years or more) to
+immunotherapy agents in their practice or being directly ensure a variety of perspectives were included. Data was
+impacted by their integration. The goal of this study was also collected on participant’s work location (urban /sub-
+to generate evidence that can contribute to informing urban /rural), state, and caseload of patients currently or
+continuing medical education, continuing professional considered for treatment with immuno-therapy.
+development and other types of interventions to support This study received approval from Veritas IRB, an inter-
+personalized care for cancer patients. national independent ethical review board. Informed
+consent was obtained from each participant and par-
+Methods ticipants were advised of the practices to maintain con-
+This study utilized a mixed-methods sequential design fidentiality of their data and the anonymization of data
+[7] consisting of a qualitative exploratory phase followed in dissemination. Participants received IRB-approved
+by a quantitative validation phase. The targeted sample compensation based on their profession/specialty and
+included oncologists, nurse practitioners (NPs), physi- the nature of their participation whether interview
+cian assistants (PAs) specialized in oncology, patholo- ($225–300 USD), discussion group ($300–400 USD), or
+gists, clinical pharmacists, interventional radiologists, survey ($40–76 USD) in accordance with best practices
+rheumatologists, pulmonologists, and emergency depart- in research [18].
+ment (ED) [8] physicians located in the United States The first phase of data collection consisted of indi-
+with at least three years of practice. ED physicians were vidual 45-minute semi-structured telephone interviews
+included in the study, as they are frequently the first phy- and 90-minute virtual group discussions with HCPs
+sicians who evaluate patients with symptoms of potential facilitated by trained interviewers. The guide used for
+immune toxicity given such patients have high rates of the interviews and group discussions (see Supplementary
+ED use and early identification is critical to their care [9– Material A) drew from challenges identified in the litera-
+12]. Rheumatologists were included considering immune ture and discussions between a panel of both clinical and
+checkpoint inhibitors may cause inflammatory symptoms educational experts. The interviewers probed for both
+of significant importance to them [13], creating new edu- emergent challenges, in terms of individual knowledge,
+cational needs for this audience of learners[14]. Pulmo- skills, confidence, and attitudes, as well as challenges and
+nologists were included in the study as well, since at the barriers experienced within their own interprofessional
+time of data collection, the field of immunotherapy was team, clinical practice setting, and healthcare systems.
+L azure et al. BMC Medical Education (2022) 22:781 Page 3 of 12
+Data analysis and coding of qualitative data were based and distribution of phenomena identified in the qualita-
+on a thematic analysis approach [19] and directed con- tive phase and informed by literature. These data sources
+tent analysis [20] using NVivo (QSR International Pty and findings were interpreted and contextualised for clin-
+Ltd, Version 12, 2018). Analysis consisted of categoriz- ical relevance by clinical experts (co-authors ARP, NER,
+ing and organizing text data into overarching themes MJD, JMC, RL, and AJL).
+and topics included in the interview guide using a coding
+Results
+matrix. This matrix was revised and modified according
+to emerging themes throughout the process. This was fol- A total of 661 HCPs participated in the study: 107 in
+lowed by a multi-disciplinary interpretation of findings the qualitative phase and 554 in the quantitative phase
+among co-authors and members of the research team. (Table 1). In terms of years of practice, 40% of partici-
+The second phase of data collection employed a pants had 3–10 years of practice, 40% had 11–20 years,
+20-minute online survey to validate the representative- and 20% had 21 years or more. Sample distribution by
+ness of qualitative findings across professions/specialties, years of practice varied by profession/specialty. Most
+practice settings, and years of practice. To maximise rel- participants practiced in academic settings. For the quali-
+evance, individual survey items varied according to the tative phase, 2375 potential participants were contacted,
+participant’s professional role (see supplementary mate- of whom 163 completed the online screener (response
+rial B). Participants were asked to rate their current level rate 7%) and 107 were eligible and participated. For
+=
+of knowledge and skill according to professional expecta- the quantitative phase, 3000 potential participants
+tions using a five-point Likert-type scale (1 no knowl- were contacted, 1359 completed the screener (response
+=
+edge/skill to 5 expert knowledge/skill). Participants rate 45%), 587 were eligible and 554 participated (eli-
+= =
+were also asked to rate their perceived level of confidence gibility rate of screened participants 41%; completion
+=
+performing a task via a 101-point visual analogue scale rate of eligible participants 94%).
+=
+(0 no confidence to 100 high confidence). Partici- Challenges were identified under the following three
+= =
+pants’ attitudes towards and experience of interprofes- themes: (1) selection of pharmacodiagnostics (e.g., PDL1,
+sional, contextual, and systemic barriers were assessed tumor mutation burden tests, genomic testing) based on
+by asking their level of agreement (1 strongly disagree knowledge of actionable biomarkers and therapies, (2)
+=
+to 5 strongly agree) with opinion statements. For each integration of new immuno-oncology agents considering
+=
+item, participants were provided with the opportunity to their efficacy and safety for specific patient profiles (e.g.,
+select “not relevant to my current practice.” tumor type, comorbidities), and (3) communication with
+Survey knowledge and skill items were re-categorized patients about treatment preferences.
+as low levels of knowledge/skill (1-3) vs. high levels of
+knowledge/skill (4-5). The agreement ratings from the Selection of pharmacodiagnostics based on knowledge
+5-point Likert scale were regrouped in 3 categories: “dis- of actionable biomarkers and therapies
+agree or strongly disagree,” “neither agree nor disagree,” During interviews and discussion groups, patholo-
+“agree or strongly agree.” For each item, participants gists mentioned that they often received an insufficient
+who answered “not relevant to my current practice” amount of tumor sample to complete the multitude of
+were excluded from analysis. Cross-tabulations and requested molecular tests. A greater proportion of oncol-
+chi-squares tests were then run to assess differences in ogists (75%) than pathologists (44%) agreed with the
+knowledge, skill, and agreement across subgroups (i.e., statement: “I expect other HCPs in charge of completing
+professions/specialties, practice settings, and years of the biopsy to know exactly how much tissue is required”
+practice). Kruskal Wallis H and ANOVA tests were run (Table 2).
+to assess differences in confidence ratings across identical
+“The biggest challenge I have is streamlining of the
+subgroups. All statistical analyses were performed using
+work and knowing which specific markers will be
+SPSS 26.0 software (IBM Corporation, Armonk, NY,
+ordered on a specific patient and then the second
+2019), with an α 0.05, and comparisons are presented
+= step, not only which markers they [oncologists] want
+as significantly different when p < .05.
+to test it but which methodologies they would like to
+Findings from the qualitative and quantitative phases
+use.“
+of the study were triangulated [21] with the current lit-
+-Pathologist, Colorado.
+erature and expertise of co-authors used to contextualize,
+and examine data from a multi-faceted perspective, and Nearly half of pathologists (47%) and oncologists (42%)
+to identify areas of greatest need for future interventions. self-reported low skill levels identifying markers that
+Triangulation involved a process of identifying areas characterize the progression of a specific type of cancer
+where quantitative data can help determine the extent (Table 3). In addition, 46% of oncologists, 61% of PAs,
+Lazure et al. BMC Medical Education (2022) 22:781 Page 4 of 12
+gnittes
+dna
+ecitcarp
+fo
+sraey
+,ytlaiceps/noisseforp
+,)evitatitnauq
+dna
+evitatilauq(
+esahp
+yb
+noitpircsed
+elpmaS
+1 elbaT
+)166
+n(
+latoT
+esruN
+naicisyhP
+lacinilC
+lanoitnevretnI
+tsigolohtaP
+tsigolonomluP
+ycnegremE
+tsigolotamuehR
+tsigolocnO
+/noisseforP
+=
+renoititcarp
+tnatsissa
+tsicamrahp
+tsigoloidar
+)25
+n(
+)25
+n(
+tnemtraped
+)25
+n(
+)501
+n(
+ytlaicepS
+=
+=
+=
+=
+)501
+n(
+)38
+n(
+)701
+n(
+)35
+n(
+)25
+n(
+naicisyhp
+=
+=
+=
+=
+=
+tnenopmoc
+ydutS
+28
+8
+9
+8
+8
+8
+8
+8
+8
+71
+sweivretnI
+52
+9
+7
+9
+---
+---
+---
+---
+---
+---
+spuorg
+noissucsiD
+455
+88
+76
+09
+54
+44
+44
+44
+44
+88
+syevruS
+ecitcarp
+fo sraeY
+562
+73
+05
+14
+52
+32
+91
+51
+21
+34
+sraey
+01–3
+562
+74
+72
+34
+12
+91
+91
+12
+52
+34
+sraey
+02–11
+131
+12
+6
+32
+7
+01
+41
+61
+51
+91
+sraey
+12 + gnitteS
+132
+63
+92
+83
+42
+32
+81
+71
+01
+63
+latipsoh
+cimedacA
+retnec
+lacidem
+ro
+02
+5
+4
+6
+1
+0
+2
+0
+2
+0
+cinilc
+ytinummoC
+8
+0
+0
+2
+1
+2
+2
+0
+0
+1
+tnemnrevoG
+enicidem
+511
+8
+01
+24
+01
+11
+2
+81
+3
+11
+-moC(
+latipsoH )ytinum
+801
+13
+51
+7
+7
+6
+01
+2
+71
+31
+ytlaiceps-itluM puorg
+naicisyhp
+ecitcarp
+01
+3
+1
+5
+0
+0
+0
+0
+0
+1
+recnac
+ICN/NCCN
+retnec
+531
+02
+02
+1
+9
+9
+41
+51
+11
+63
+ytlaiceps-elgniS puorg
+naicisyhp
+ecitcarp
+72
+1
+4
+1
+1
+0
+4
+0
+9
+7
+ecitcarp
+oloS
+7
+1
+0
+5
+0
+1
+0
+0
+0
+0
+rehtO
+L azure et al. BMC Medical Education (2022) 22:781 Page 5 of 12
+ytlaiceps/noisseforp
+yb
+,stnemetats
+tnereffid
+htiw
+gnieergasid
+/
+gnieerga
+stnapicitrap
+fo
+segatnecreP
+2 elbaT
+atnemetats
+htiw
+eergasid
+ro
+eerga
+)n(
+%
+citotpmysA
+lacinilC
+naicisyhP
+esruN
+lanoitnevretnI
+-htaP
+-omluP
+ycnegremE
+-amuehR
+tsigolocnO
+tnemetatS
+ecnacfiingiS
+tsicamrahP
+tnatsissa
+renoititcarp
+tsigoloidar
+tsigolo
+tsigolon
+tnemtrapeD
+tsigolot
+b)dedis-2(
+naicisyhP
+510.0
+%4.44
+%8.44
+%8.13
+%8.84
+%9.16
+%9.56
+%8.84
+%8.26
+%4.94
+eergA
+,gnittes ym
+nI“
+)04(
+)03(
+)82(
+)12(
+)62(
+)92(
+)12(
+)72(
+)34(
+lacidem cinortcele ton era sdrocer
+%3.32
+%4.91
+%3.91
+%6.52
+%1.7
+%6.31
+%9.02
+%41
+%32
+lartueN
+etad ot pu syawla
+)12(
+)31(
+)71(
+)11(
+)3(
+)6(
+)9(
+)6(
+)02(
+wen gnidrager
+%2.23
+%8.53
+%9.84
+%6.52
+%13
+%5.02
+%2.03
+%3.32
+%6.72
+eergasiD
+)745 n(”stnemtaert
+)92(
+)42(
+)34(
+)11(
+)31(
+)9(
+)31(
+)01(
+)42(
+=
+610.0
+%2.53
+%8.23
+%9.32
+%2.34
+A/N
+A/N
+A/N
+A/N
+%2.34
+eergA
+emulov eht etipseD“
+)13(
+)22(
+)12(
+)91(
+)83(
+stnega wen
+fo
+wef yrev ,elbaliava
+%6.83
+%9.62
+%5.92
+%1.43
+A/N
+A/N
+A/N
+A/N
+%33
+lartueN
+-onni laer etutitsnoc
+)43(
+)81(
+)62(
+)51(
+)92(
+)573 n( ”snoitav
+%1.62
+%3.04
+%6.64
+%7.22
+A/N
+A/N
+A/N
+A/N
+%9.32
+eergasiD
+=
+)32(
+)72(
+)14(
+)01(
+)12(
+100.0
+)92(
+%2.23
+)52(
+%9.73
+)91(
+%6.12
+)52(
+%5.95
+A/N
+A/N
+A/N
+A/N
+)73(
+%0.24
+eergA
+senilediug tnerruC tnerruc tcefler ton
+od
+)04(
+%4.44
+)81(
+%3.72
+)53(
+%8.93
+)31(
+%0.13
+A/N
+A/N
+A/N
+A/N
+)53(
+%8.93
+lartueN
+epacsdnal tnemtaert
+)13(
+%3.32
+)32(
+%8.43
+)43(
+%6.83
+)4(
+%5.9
+A/N
+A/N
+A/N
+A/N
+)61(
+%2.81
+eergasiD
+)473
+n( =
+110.0
+A/N
+%8.75
+%4.94
+%1.87
+A/N
+A/N
+%2.34
+A/N
+%4.46
+eergA
+gnibircserp referp
+I“
+)73(
+)14(
+)23(
+)91(
+)65(
+ma I stnemtaert sselnu ,htiw railimaf
+A/N
+%3.02
+%1.42
+%5.91
+A/N
+A/N
+%1.43
+A/N
+%1.42
+lartueN
+si drawer-ksir
+eht
+)31(
+)02(
+)8(
+)51(
+)12(
+”tnatropmi yllaer
+A/N
+%9.12
+%5.62
+%4.2
+A/N
+A/N
+%7.22
+A/N
+%5.11
+eergasiD
+)572
+n(
+)41(
+)22(
+)1(
+)01(
+)01(
+=
+000.0
+)82(
+%4.28
+)92(
+%4.76
+)23(
+%2.67
+A/N
+)91(
+%2.44
+)72(
+%3.46
+A/N
+A/N
+%4.47
+eergA
+htlaeh rehto tcepxe
+I“
+)23(
+ni slanoisseforp
+erac
+-telpmoc fo egrahc
+%8.8
+)01(
+%3.32
+)5(
+%9.11
+A/N
+)7(
+%3.61
+)7(
+%7.61
+A/N
+A/N
+%3.32
+lartueN
+ot yspoib eht
+gni
+)3(
+)01(
+woh yltcaxe wonk
+%8.8
+)4(
+%3.9
+%9.11
+A/N
+)71(
+%5.93
+)8(
+%0.91
+A/N
+A/N
+%3.2
+eergasiD
+si eussit hcum
+)3(
+)5(
+)1(
+)742 n( ”deriuqer =
+puorg-bus
+ytlaiceps/noisseforp
+siht
+ot
+deksa
+ton
+saw noitseuQ
+A/N
+=
+otni
+sesnopser
+depuorg
+sah
+elbat
+sihT
+.eergasid
+ylgnortS
+-5
+,eergasiD
+-4
+,eergasid
+ron
+eerga
+rehtieN
+-3
+,eergA
+-2
+,eerga
+ylgnortS-1
+:elacs
+tniop-5
+a
+gnisu
+stnemetats
+eseht
+ot
+tnemeerga
+fo
+level
+rieht
+detacidni stnapicitraP
+a
+)5
+,4(
+eergasiD
+dna
+)3( lartueN )2 ,1( eergA
+stset
+erauqs-ihc
+s’nosraeP
+dedis-owt
+yb
+denimreted
+spuorg-bus
+ytlaiceps/noisseforp
+lla ssorca ecnacfiingiS
+b
+Lazure et al. BMC Medical Education (2022) 22:781 Page 6 of 12
+ytlaiceps/noisseforp
+yb
+lliks/egdelwonk
+fo
+slevel
+wol
+gnitroper
+stnapicitrap
+fo
+segatnecreP
+3
+elbaT
+a.giS
+ytlaicepS/noisseforP
+metI
+lliks
+ro
+egdelwonK
+esruN
+naicisyhP
+lacinilC
+lanoitnevretnI
+tsigol-ohtaP
+tsigolon-omluP
+ycnegremE
+tsigolot-amuehR
+tsigol-ocnO
+renoititcarp
+tnatsissa
+tsicamrahp
+tsigoloidar
+tnemtraped
+naicisyhp
+000.0
+%9.27
+%1.88
+%2.28
+A/N
+A/N
+%7.79
+A/N
+%5.09
+%5.07
+fo elfiorp ytefaS
+egdelwonK
+)26(
+)95(
+)47(
+)24(
+)83(
+)26(
+bamulevA
+000.0
+%9.07
+%6.68
+%0.08
+A/N
+A/N
+%2.59
+A/N
+%7.58
+%4.46
+fo elfiorp ytefaS
+)16(
+)85(
+)27(
+)04(
+)63(
+)65(
+bamuzutmelA
+000.0
+%1.28
+%1.88
+%4.48
+A/N
+A/N
+%3.59
+A/N
+%9.51
+%3.97
+fo elfiorp ytefaS
+)96(
+)95(
+)67(
+)14(
+)7(
+)96(
+bamumileB
+000.0
+%1.28
+%1.38
+%2.39
+%4.79
+A/N
+A/N
+A/N
+%8.6
+%8.97
+rof secitcarp tseB
+)96(
+)45(
+)28(
+)83(
+)3(
+)36(
+stneitap
+fo tnemtaert gnisu supul htiw
+ygolocno-onummi
+stnega
+000.0
+%1.96
+%1.38
+%28
+%5.78
+A/N
+A/N
+A/N
+%8.6
+%9.67
+rof secitcarp tseB
+)85(
+)45(
+)37(
+)53(
+)3(
+)06(
+stneitap
+fo tnemtaert diotamuehr htiw
+-solykna
+ro sitirhtra
+gnisu
+sitilydnops gni
+ygolocno-onummi
+stnega
+000.0
+%2.86
+%8.28
+%1.58
+%7.98
+A/N
+A/N
+A/N
+%6.4
+%8.17
+rof secitcarp tseB
+)85(
+)35(
+)47(
+)53(
+)2(
+)65(
+stneitap
+fo tnemtaert
+/dna
+sisairosp htiw
+sitirhtra
+citairosp
+ro
+-onummi gnisu stnega ygolocno
+000.0
+%9.34
+%7.95
+%3.57
+%57
+A/N
+%2.37
+%7.29
+%9.56
+%8.46
+-rofni fo secruoS
+)83(
+)04(
+)76(
+)33(
+)03(
+)83(
+)92(
+)75(
+nac taht noitam ’stneitap evorpmi fo gnidnatsrednu
+ygolocno-onummi
+stnega
+000.0
+%8.65
+%2.46
+%9.08
+%7.38
+A/N
+%5.08
+%1.59
+%57
+%76
+-amrofni
+fo secruoS
+)05(
+)34(
+)27(
+)63(
+)33(
+)93(
+)33(
+)95(
+daelsim
+nac taht noit
+-dnatsrednu
+’stneitap -onummi fo gni stnega ygolocno
+L azure et al. BMC Medical Education (2022) 22:781 Page 7 of 12
+)deunitnoc(
+3
+elbaT
+a.giS
+ytlaicepS/noisseforP
+metI
+lliks
+ro
+egdelwonK
+esruN
+naicisyhP
+lacinilC
+lanoitnevretnI
+tsigol-ohtaP
+tsigolon-omluP
+ycnegremE
+tsigolot-amuehR
+tsigol-ocnO
+renoititcarp
+tnatsissa
+tsicamrahp
+tsigoloidar
+tnemtraped
+naicisyhp
+000.0
+%3.91
+%3.33
+%1.56
+%1.75
+A/N
+A/N
+%5.28
+%2.54
+%5.73
+ot gninialpxE
+sllikS
+)71(
+)22(
+)65(
+)42(
+)33(
+)91(
+)33(
+-fid
+eht stneitap
+neewteb
+ecneref
+ygolocno-onummi -omehc
+dna stnega ypareht
+000.0
+%5.67
+%6.67
+%5.98
+%4.49
+A/N
+A/N
+A/N
+%8.6
+%1.47
+sksir
+eht gnihgieW
+)26(
+)94(
+)77(
+)43(
+)3(
+)06(
+fo
+stfieneb
+dna
+htiw
+stneitap
+gnitaert
+-onummi
+htiw supul
+stnega
+ygolocno
+800.0
+%9.56
+%5.06
+%18
+A/N
+A/N
+%7.37
+A/N
+A/N
+%5.54
+elbaiv
+gniyfitnedI
+)92(
+)62(
+)43(
+)82(
+)02(
+snoitpo
+tnemtaert
+-amrahp
+no desab
+tset
+citsongaidoc stroper
+000.0
+%5.45
+%1.95
+%2.67
+%4.18
+%5.64
+%5.27
+A/N
+A/N
+%9.14
+srekram
+gniyfitnedI
+)42(
+)62(
+)23(
+)53(
+)02(
+)92(
+)81(
+-retcarahc
+lliw
+taht
+noissergorp
+eht
+ezi
+fo epyt
+cfiiceps
+a
+fo
+recnac
+puorg-bus
+ytlaiceps/noisseforp
+siht ot deksa
+ton
+saw
+noitseuQ
+A/N
+=
+stset
+erauqs-ihc
+s’nosraeP
+dedis-owt
+yb denimreted
+spuorg-bus
+ytlaiceps/noisseforp
+lla
+ssorca
+ecnacfiingiS
+a
+Lazure et al. BMC Medical Education (2022) 22:781 Page 8 of 12
+66% of NPs, 74% of pulmonologists and 81% of clinical Comorbidities compounded reluctance to pursue treat-
+pharmacists reported low skill levels identifying viable ment with IO agents, particularly if immune-mediated.
+treatment options based on pharmacodiagnostics test
+You always wonder in those patients if you’re at risk
+reports (Table 3).
+of making those things worse by giving them these
+“Those are the things we use to try to define select drugs, but you don’t necessarily want to refrain from
+patients, but the challenge is, every day, I hear there’s giving these people, potentially, treatment that could
+a new definition of what positive means.“ help them.
+-Oncologist, New York. -PA, Colorado.
+Low knowledge levels of best practices when using IO
+Integration of new immuno-oncology agents considering agents for patients with comorbidities were prominent in
+their efficacy and safety for specific patient profiles cases of lupus, rheumatoid arthritis or ankylosing spon-
+dylitis, and psoriasis and/or psoriatic arthritis (Table 3).
+Over three-quarters of surveyed oncologists, rheuma-
+74% of oncologists reported low skill levels weighing
+tologists, pulmonologists, clinical pharmacists, PAs, and
+the risks and benefits of treating patients with IO agents
+NPs reported low knowledge levels of the safety profile
+when affected by lupus (Table 3). There was a signifi-
+for Avelumab (81%), Alemtuzumab (78%), and Beli-
+cant difference in the skill level of HCPs when weighing
+mumab (77%) [Table 3]. Of the seven other IO agents
+the risks and benefits of IO treatment for patients with
+for which the knowledge of safety profile was asked,
+lupus according to the participant’s years of practice: 81%
+low knowledge levels were reported by a proportion of
+of HCPs practicing 3–10 years reported low skill levels
+respondents varying between 42% and 74% (Durvalumab
+compared to 71% for 11–20 years and 57% for 21 years
+(74%), Atezolizumab (71%), Ipilimumab (68%), Pem- +
+(p < .001).
+brolizumab (62%), Nivolumab (59%), Infliximab (58%)
+and Rituximab (42%). Barriers to staying current with
+new and emerging IO agents included time and resources Communicating with patients about their treatment
+required to update electronic medical systems upon preferences
+approval of pharmaceutical and therapeutics administra- Challenges at the individual, interprofessional, and sys-
+tion teams. tem levels were identified when communicating essential
+aspects of immunotherapy to patients and how immuno-
+We are dependent on our IT pharmacy team to get
+therapy compares to other types of therapies, including
+that information into [EHR System]. So it’s a rate-
+setting expectations about treatment and how progres-
+limiting step in ensuring that the system is safe, espe-
+sion is measured.
+cially as we look at new agents.
+Participants in the qualitative phase shared their
+-Clinical pharmacist, Ohio
+perspectives regarding the patient’s understanding of
+An average of 48% of surveyed HCPs agreed that elec- immunotherapy, which they believe to be dominated by
+tronic medical records were not always up to date regard- assumptions about chemotherapy.
+ing new treatments (Table 2).
+There are patients that still don’t quite understand
+During the qualitative phase, HCPs expressed uncer-
+what they’re on […] they will say that they’re on
+tainty regarding the value of integrating new and emerg-
+chemotherapy, not quite understanding that even if
+ing IO agents due to a lack of clinical evidence comparing
+it’s only immunotherapy they’re on, they still call it
+the safety and efficacy of agents.
+chemotherapy.
+Does it work? What kind of improved clinical ben- -NP, Texas.
+efit will it provide? Meaning, that if I already have
+Over 65% of all HCPs in the cohort reported low
+thought of Y for lung cancer […] Now, your product
+knowledge levels of information sources relevant to
+Z coming out looks exactly the same.
+patients’ understanding of IO agents, including those
+-Oncologist, New York
+that might be misleading patients (Table 3). 45% (45%) of
+Almost half (43%) of oncologists surveyed agreed with all HCPs surveyed reported low skill level in explaining
+the statement “despite the volume of new agents avail- to patients the difference between immunotherapy and
+able, very few constitute real innovations” (Table 2). chemotherapy, a challenge reported in greatest frequency
+Further, an average of 60% of HCPs (including 64% of among ED physicians (82%) (Table 3).
+oncologists) agreed with the statement: “I prefer pre- Median confidence levels of all HCPs in the study
+scribing treatments I am familiar with, unless the risk- were lower (< 75%) in the following areas of patient-
+reward is really important” (Table 2). provider communication: setting patient expectations
+L azure et al. BMC Medical Education (2022) 22:781 Page 9 of 12
+about immunotherapy (median 73; IQR 35) and clinical complexity resulting from the recent integration
+= =
+explaining to patients their ineligibility for immuno- of IO agents as options to treat different types of cancers.
+therapy (median 70; IQR 39), and/or why they are not At the time of this study, IO therapy could be con-
+= =
+responding positively to a given IO agent (median 69; sidered a relatively new treatment approach. It can be
+=
+IQR 39) (Table 4). Differences in median confidence hypothesized that the findings of this study, specifi-
+=
+levels were found between professions/specialties with cally the lack of knowledge about the new agents, their
+regards to all three items (Table 4). safety profiles, and best practices in caring for patients
+Multiple barriers to providing patient education were with comorbidities may impact the confidence of HCPs
+reported in the qualitative phase including patients’ state to integrate new IO agents into practice. In 2020, Helm-
+of mind when burdened with stress, the volume of impor- berger reported on the limited availability of data on the
+tant detailed information to communicate, and patients’ risks associated with IO agents and rapid development
+declining health status. These barriers cumulatively of this field [22]. Our results showed uncertainty regard-
+impact the knowledge, skills, and confidence needed to ing safety and the value of IO agents and a conservative
+establish and maintain rapport with the patient. approach to using newer IO therapies. This highlights the
+need to further develop continuing medical education
+There’s also a psychological component to some of
+(CME) and continuing health education [23] that pro-
+these patients…they’re frustrated and challenged
+vides clinicians with opportunities to discuss currently
+mentally and socially, and medically as well as to
+available assets, such as the often updated treatment
+what to do if this therapy isn’t working, and that’s a
+guidelines (such as those published by NCCN), emerg-
+challenging discussion to have with a patient.
+ing safety data of IO agents, and provide the chance to
+-ED physician, South Carolina
+exchange with peers who have experience working safely
+HCPs expressed a few ways that might help them bet- with these molecules.
+ter address communication with patients. These included Current literature on the potential of IO therapy has
+easy-to-understand patient education resources on how addressed - to some extent - the rapid evolution and
+to comprehend the progress of their treatment and a ensuing challenges for practice [5, 24]. Both the qualita-
+clear process to define who is responsible for patient edu- tive and quantitative data from this study help shed light
+cation, both within and outside the clinical setting. on a combination of individual level gaps (knowledge and
+skills) and systemic pressures (e.g., lack of endorsement
+Discussion from colleagues, time efficiency considerations, sub-opti-
+The results of this mixed-methods study led to the iden- mal collaboration) that could all contribute to reducing
+tification of several shared challenges experienced by the willingness of healthcare professionals to apply novel
+a variety of HCPs involved in the care of patients with therapies [25]. Other studies have highlighted similar
+cancer in the United States. More specifically, the find- challenges to the integration of targeted therapies, espe-
+ings illustrate the burden on HCPs caused by increased cially when doing so becomes increasingly complex: for
+Table 4 Median confidence levels reported by profession/specialty engaging in key patient-provider communication tasks
+Median confidence level (Interquartile range) when:
+Profession/ Setting realistic expectations with Explaining to my patient their ineligibil- Explaining to my patient why they are not
+Specialty my patients regarding the impact of ity for immuno-therapy, due to health responding positively to a given immuno-
+immuno-therapy on their cancer status therapy agent
+Oncologist 76 72 70
+(28) (31) (30)
+Interventional radiologist 50 47 55
+(39) (53) (59)
+Nurse Practitioner 80 80 75
+(27) (31) (37)
+Physician Assistant 78 79 78
+(27) (24) (27)
+Clinical Pharmacist 56 50 51
+(38) (46) (48)
+Asymptotic Significance p < .001 p < .001 p < .001
+Kruskal-Wallis H 53.686 40.371 57.365
+Lazure et al. BMC Medical Education (2022) 22:781 Page 10 of 12
+example, transitioning to these therapies often requires skills and build the necessary confidence in using phar-
+the development of new molecular diagnostic tests or macodiagnostics and IO agents, as well as communicat-
+more regular use of existing ones [26]. ing more effectively among colleagues and with patients.
+Communicating immunotherapy practices and how
+they differ from chemotherapy is an important step
+Limitations
+towards ensuring full patient understanding of their
+Participants were asked to self-report, as the study proto-
+treatment plan and are engaged in the shared decision-
+col did not include objective observation. This method-
+making (SDM) process [27]. Examples of such efforts
+ology can introduce different types of participant biases
+have been available online for a few years and can be used
+such as social desirability bias in both qualitative and
+by clinicians for patient education and to engage patients
+quantitative phases [38]. To support candid reporting,
+in SDM process [28, 29]. Evidence from this study indi-
+both qualitative and quantitative phase participants were
+cate that HCPs perceive patients as not fully understand-
+reminded that their data were to be anonymized. Survey
+ing the particularity of immunotherapies. Lack of clarity
+scales were carefully selected to consider the tendency of
+on the roles and responsibilities of different members of
+physicians to overestimate their own competencies [39].
+the healthcare team to educate patients about their treat-
+In addition, triangulation [40] and purposive sampling
+ment options was also raised. It belongs to the health
+[41] were used to minimize self-reporting bias and selec-
+care professionals to adopt a team approach to best sup-
+tion bias (by including participants with different levels
+port patient education. As SDM in the clinical context
+of experience, from various states and settings). Caution
+is required by law in some US states [30], addressing the
+should still be exercised when generalizing the findings as
+gaps highlighted here and enhancing the communication
+this study included a small number of participants, where
+skills of HCPs in oncology can be considered essential. It
+a larger study may reveal important local, and health
+is therefore imperative to develop new strategies and new
+system-specific differences. Reader should also consider
+tools to build and maintain a trustful patient-provider
+response rate when interpreting reported findings. In
+relationship [30, 31].
+addition, this study did not focus on one or a set of par-
+A potential way to address some of the issues identi-
+ticular tumor sites, thus cancer-specific generalizations
+fied here would be to establish formal communities of
+are not warranted. Further research can determine how
+practice: an assembly of peers who regularly interact for
+clinical practice in pharmacodiagnostics, how IO agents
+the explicit purpose of deepening their knowledge and
+may differ by cancer type and sub-types, and how specific
+reciprocating support while increasing competence in
+specialist groups may experience challenges when inte-
+their interest area [32, 33] in oncology settings. These
+grating novel immunotherapies. To inform local educa-
+have been shown to streamline interprofessional col-
+tional activities and offerings, we recommend conducting
+laboration and promote a culture of partnership among
+shorter location-specific needs assessments to validate
+the members in that type of setting [32]. Communities
+the gaps sand ensure the benefits of developing precise
+of practice in healthcare have been shown to contribute
+activities for the targeted learners.
+to better sharing of information and resources between
+healthcare professionals, reduced professional isolation,
+increase in competencies pertaining to the CoP topic, Conclusion
+and implementation of new processes into practice [33–
+This mixed-methods study identified the main chal-
+37]. For instance, a perceived lack of accessible data on
+lenges and educational needs of HCPs in oncology as
+biomarkers could account for the low skill levels partici-
+they increasingly integrate newly approved IO agents
+pants reported in identifying those that characterize the
+into practice. Educators and quality improvement
+progression of a specific type of cancer. Communities of
+experts should take these findings into consideration
+practice in oncology settings could aid the spread and
+when developing evidence-based continuing medi-
+understanding of such information by providing a forum
+cal education, continuing professional development,
+for connecting HCPs involved in this area of care with
+and other types of performance improvement / qual-
+other who have various knowledge and experience lev-
+ity improvement interventions [42]. These findings
+els, especially when guidelines have not fully “caught up”
+can also help inform knowledge translation activities
+with options and possibilities for bedside practice [33].
+such as online modules and lectures designed to allow
+As the development of new targeted therapies, includ-
+healthcare professionals to keep abreast with the latest
+ing IO agents shows no sign of slowing down, it is of
+evidence on immunotherapies. Simulation, case-based
+utmost importance to address these gaps by not only by
+learning activities, and peer-to-peer learning oppor-
+educating HCPs to expand their knowledge of IO agents,
+tunities (such as the development of communities of
+but also by furnishing the opportunity to enhance their
+L azure et al. BMC Medical Education (2022) 22:781 Page 11 of 12
+practice) can offer solutions to address the skill, confi- Author details
+1 AXDEV Group Inc, 210-8, Place du Commerce, QC J4W 3H2 Brossard, Canada.
+dence, and competence gaps, as well as the interprofes- 2 Department of Medicine, Massachusetts General Hospital Cancer Center, Har-
+sional collaboration challenges identified through this vard Medical School, Boston, MA, USA. 3 Duke University School of Medicine,
+project. Durham, NC, USA. 4 Smilow Cancer Center, Yale University School of Nurs-
+ing, New Haven, CT, USA. 5 The Ohio State University College of Medicine,
+Columbus, OH, USA. 6 Northwestern Memorial Hospital, Chicago, IL, USA.
+Supplementary Information 7 Departments of Pathology and Genomic Medicine, The University of Texas
+The online version contains supplementary material available at https:// doi. MD Anderson Cancer Center, TX, Houston, USA.
+org/ 10. 1186/ s12909- 022- 03847-0.
+Received: 22 October 2021 Accepted: 31 October 2022
+Additional file 1: Supplementary Material A. Sections of the interview
+guide, questions and probes.
+Additional file 2: SupplementaryMaterial B. Selected survey questions
+reported in the manuscript. References
+1. Kensler TW, Spira A, Garber JE, Szabo E, Lee JJ, Dong Z, et al. Transforming
+Cancer Prevention through Precision Medicine and Immune-oncology.
+Acknowledgements Cancer Prev Res (Phila). 2016;9(1):2–10.
+The authors would like to acknowledge the support provided by Morgan 2. Davies M. How checkpoint inhibitors are changing the treatment para-
+Peniuta, and Monica Augustyniak (researchers, AXDEV Group) who contrib- digm in solid tumors: what advanced practitioners in oncology need to
+uted to the development of data collection tools, data analysis and other know. J Adv Practitioner Oncol. 2016;7(5):498.
+aspects of the research, as well as Olivier Jacob (project manager, AXDEV 3. Schatz S, Falk M, Jóri B, Ramdani HO, Schmidt S, Willing E-M, et al. Integra-
+Group) who supported project planning, data collection and communica- tion of tumor mutation burden and PD-L1 testing in routine laboratory
+tions. The authors would also like to thank all the participants who took part diagnostics in non-small cell lung cancer. Cancers. 2020;12(6):1685.
+in this study. 4. Heeke S, Hofman P. Tumor mutational burden assessment as a predictive
+biomarker for immunotherapy in lung cancer patients: getting ready for
+Authors’ contributions prime-time or not? Translational lung cancer research. 2018;7(6):631.
+Co-authors SM, SP and PL conceptualised and designed the study. Co-authors 5. Mehnert JM, Monjazeb AM, Beerthuijzen JMT, Collyar D, Rubinstein L,
+AP, NR, MD, JC, RL and AL contributed to the refinement of the study design Harris LN. The Challenge for Development of Valuable Immuno-oncology
+and reviewed data collection tools. PL led the analysis of data with a team of Biomarkers. Clin Cancer Res. 2017;23(17):4970–9.
+researchers (see acknowledgements). All co-authors contributed to the inter- 6. Dubbs SB. The latest cancer agents and their complications. Emerg Med
+pretation of data. All co-authors have contributed sufficiently to this article to Clin. 2018;36(3):485–92.
+be considered as authors, as per the authorship requirements detailed by the 7. Shorten A, Smith J. Mixed methods research: expanding the evidence
+International Committee of Medical Journal Editors (ICMJE). All authors read base. Evid Based Nurs. 2017;20(3):74–5.
+and approved the final manuscript. 8. Erinjeri JP, Fine GC, Adema GJ, Ahmed M, Chapiro J, den Brok M, et al.
+Immunotherapy and the Interventional Oncologist: Challenges and
+Funding Opportunities-A Society of Interventional Oncology White Paper. Radiol-
+This study was financially supported by independent educational research ogy. 2019;292(1):25–34.
+funds from Bristol Myers Squibb (BMS). All data collection, analysis, interpre- 9. Castillo RM, Sandefur BJ, Finch AS, Richter MD, Thanarajasingam U. Clinical
+tation, and writing of the manuscript was conducted independently and Presentations and Outcomes of Patients Receiving Immune Checkpoint
+without oversight from BMS. Inhibitors Presenting to the Emergency Department. Mayo Clin Proc
+Innov Qual Outcomes. 2021;5(6):1029–35.
+Availability of data and materials 10. El Majzoub I, Qdaisat A, Thein KZ, Win MA, Han MM, Jacobson K, et al.
+Due to ethical concerns (confidentiality clause of the consent form, and risk of Adverse Effects of Immune Checkpoint Therapy in Cancer Patients Visit-
+indirect identification due to high specialisation level of the participants), raw ing the Emergency Department of a Comprehensive Cancer Center. Ann
+data cannot be made openly available. Requests for further information can Emerg Med. 2019;73(1):79–87.
+be sent to the corresponding author. 11. Holstead R, Kartolo A, Baetz T. Emergency Department Utilization for
+Patients Receiving Immune Checkpoint Inhibitors: A Retrospective Analy-
+Declarations sis of Identification and Outcomes for Those Presenting for Immune-
+Related Adverse Events. Curr Oncol. 2020;28(1):52–9.
+12. Peyrony O, Tieghem Y, Franchitti J, Ellouze S, Morra I, Madelaine-
+Ethics approval and consent to participate
+Chambrin I, et al. Immune checkpoint blockade toxicity among patients
+All procedures performed in this study involving human participants were
+with cancer presenting to the emergency department. Emerg Med J.
+in accordance with the ethical standards of the institutional and/or national
+2019;36(5):306–9.
+research committee and with the 1964 Helsinki Declaration and its later
+13. Cappelli LC, Shah AA. The relationships between cancer and autoimmune
+amendments or comparable ethical standards. The study was approved by
+rheumatic diseases. Best Pract Res Clin Rheumatol. 2020;34(1):101472.
+VERITAS IRB, an international independent ethical review board. Informed
+14. Calabrese L, Mariette X. The evolving role of the rheumatologist in the
+consent was obtained from all individual participants included in the study.
+management of immune-related adverse events (irAEs) caused by cancer
+immunotherapy. Ann Rheum Dis. 2018;77(2):162–4.
+Consent for publication
+15. Low JL, Walsh RJ, Ang Y, Chan G, Soo RA. The evolving immuno-oncology
+The authors affirm that human research participants provided informed con-
+landscape in advanced lung cancer: first-line treatment of non-small cell
+sent for publication of these aggregated data included in this article. Partici-
+lung cancer. Ther Adv Med Oncol. 2019;11:1758835919870360.
+pants were explained that any references to their identity would be removed
+16. Regzedmaa O, Zhang H, Liu H, Chen J. Immune checkpoint inhibitors for
+or disguised prior to the preparation of the research reports and publications.
+small cell lung cancer: opportunities and challenges. Onco Targets Ther.
+2019;12:4605–20.
+Competing interests
+17. ICC/ESOMAR. ICC/ESOMAR (International Chamber of Commerce/Euro-
+Ms. Murray is CEO and Founder of AXDEV Group Inc., AXDEV Global Inc., and
+pean Society for Opinion and Marketing Research) International Code on
+AXDEV Europe GmbH. Patrice Lazure and Sophie Péloquin are employees of
+Market, Opinion and Social Research and Data Analytics2016. Available
+AXDEV Group Inc.
+from: https:// www. esomar. org/ what- we- do/ code- guide lines.
+Lazure et al. BMC Medical Education (2022) 22:781 Page 12 of 12
+18. Persad G, Fernandez Lynch H, Largent E. Differential payment to Publisher’s Note
+research participants in the same study: an ethical analysis. J Med Ethics. Springer Nature remains neutral with regard to jurisdictional claims in pub-
+2019;45(5):318–22. lished maps and institutional affiliations.
+19. Braun V, Clarke V, Terry G. Thematic analysis. In: Rohleder P, Lyons A, edi-
+tors. Qualitative research in clinical and health psychology. Basingstoke:
+Palgrave MacMillan; 2014.
+20. Hsieh HF, Shannon SE. Three approaches to qualitative content analysis.
+Qual Health Res. 2005;15(9):1277–88.
+21. Noble H, Heale R. Triangulation in research, with examples. Royal College
+of Nursing. 2019. p. 67–8.
+22. Helmberger T. The evolution of interventional oncology in the 21st
+century. Br J Radiol. 2020;93(1113):20200112.
+23. Phillips T, Millett MM, Zhang X, Jansson M, Cleveland R, Simmons P,
+et al. Development of a Diagnostic Programmed Cell Death 1-Ligand 1
+Immunohistochemistry Assay for Nivolumab Therapy in Melanoma. Appl
+Immunohistochem Mol Morphol. 2018;26(1):6–12.
+24. Hegde PS, Chen DS. Top 10 challenges in cancer immunotherapy. Immu-
+nity. 2020;52(1):17–35.
+25. Kaufman HL, Atkins MB, Subedi P, Wu J, Chambers J, Joseph Mattingly
+T, et al. The promise of Immuno-oncology: implications for defining the
+value of cancer treatment. J Immunother Cancer. 2019;7(1):1–11.
+26. Manne A, Woods E, Tsung A, Mittra A. Biliary Tract Cancers: Treatment
+Updates and Future Directions in the Era of Precision Medicine and
+Immuno-Oncology. Front Oncol. 2021;11:768009.
+27. Covvey JR, Kamal KM, Gorse EE, Mehta Z, Dhumal T, Heidari E, et al. Barri-
+ers and facilitators to shared decision-making in oncology: a systematic
+review of the literature. Support Care Cancer. 2019;27(5):1613–37.
+28. McCluskey K. Immunotherapy vs. Chemotherapy: What’s the Difference?
+2016 [cited 2016 June 2]. Available from: https:// www. cance rrese arch.
+org/ en- us/ blog/ june- 2016/ diffe rence- cancer- immun other apy- and-
+chemo thera py.
+29. Sunnybrook Health Sciences Centre. What is the difference between
+immunotherapy and chemotherapy? 2022 [cited 2022 May 17]. Available
+from: https:// sunny brook. ca/ conte nt/? page immun other apy- diffe
+=
+rence- chemo thera py.
+30. Madjid M, Safavi-Naeini P, Solomon SD, Vardeny O. Potential effects of
+coronaviruses on the cardiovascular system: a review. JAMA Cardiol.
+2020;5(7):831–40.
+31. Abrams EM, Shaker M, Oppenheimer J, Davis RS, Bukstein DA, Greenhawt
+M. The Challenges and Opportunities for Shared Decision Making High-
+lighted by COVID-19. J Allergy Clin Immunol Pract. 2020;8(8):2474–80 e1.
+32. Fingrut W, Beck LA, Lo D. Oncology communities of practice: insights
+from a qualitative analysis. Curr Oncol. 2018;25(6):378–83.
+33. Ranmuthugala G, Plumb JJ, Cunningham FC, Georgiou A, Westbrook JI,
+Braithwaite J. How and why are communities of practice established in
+the healthcare sector? A systematic review of the literature. BMC Health
+Serv Res. 2011;11:273.
+34. Cruess RL, Cruess SR, Steinert Y. Medicine as a Community of Practice:
+Implications for Medical Education. Acad Med. 2018;93(2):185–91.
+35. Murray S, Langdahl B, Casado E, Brooks K, Libanati C, Di Lecce L, et al.
+Implementation, Innovation, and Learnings from a two-year international
+Community of Practice (CoP) on Leadership Development in Fragility
+Fracture Management. Society for Academic Continuing Medical Educa-
+tion Annual Meeting; February 21–23; Virtual2022.
+36. Pyrko I, Dorfler V, Eden C. Thinking together: What makes Communities of
+Practice work? Hum Relat. 2017;70(4):389–409.
+37. Wenger E, Snyder W. Communities of practice: The organizational frontier.
+Harvard Business Rev. 2000;78:139–45. RReeaaddyy ttoo ssuubbmmiitt yyoouurr rreesseeaarrcchh ?? CChhoooossee BBMMCC aanndd bbeenneeffiitt ffrroomm::
+38. Althubaiti A. Information bias in health research: definition, pitfalls, and
+• fast, convenient online submission
+adjustment methods. J Multidiscip Healthc. 2016;9:211–7.
+39. Meyer AN, Payne VL, Meeks DW, Rao R, Singh H. Physicians’ diagnostic • thorough peer review by experienced rese archers in your field
+accuracy, confidence, and resource requests: a vignette study. JAMA • rapid publication on acceptance
+Intern Med. 2013;173(21):1952–8.
+• support for research data, including large and complex data types
+40. Smith J, Noble H. Bias in research. Evid Based Nurs. 2014;17(4):100–1.
+41. Palinkas LA, Horwitz SM, Green CA, Wisdom JP, Duan N, Hoagwood K. • gold Open Access which fosters wider collaboration and increased citations
+Purposeful Sampling for Qualitative Data Collection and Analysis in • maximum visibility for your research: over 100M website views per year
+Mixed Method Implementation Research. Adm Policy Ment Health.
+2015;42(5):533–44. At BMC, research is always in progress.
+42. Bucklin BA, Asdigian NL, Hawkins JL, Klein U. Making it stick: use of active
+learning strategies in continuing medical education. BMC Med Educ. Learn more biomedcentral.com/submissions
+2021;21(1):1–9.

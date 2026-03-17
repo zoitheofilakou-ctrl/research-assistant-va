@@ -1,0 +1,285 @@
+Academic Journal of Medicine & Health Sciences
+ISSN 2616-5791 Vol.5, Issue 3: 1-5, DOI: 10.25236/AJMHS.2024.050301
+Progress in the Application of Brain-computer
+Interface Technology in Stroke Rehabilitation
+Zhang Jiayu1,a, Ren Xin1,b, Guo Xiaolan1,c,*, Zhang Meixia2,d,*
+1School of Nursing, Shaanxi University of Chinese Medicine, Xianyang, China
+2Department of Nursing, The First Affiliated Hospital of the Air Force Medical University, Xi’an,
+China
+azhangjiayu619@126.com, b1090851127@qq.com, c1104307158@qq.com, d2556008698@qq.com
+*Corresponding author
+Abstract: Stroke patients are often left with different degrees of dysfunction in different aspects, which
+seriously affects patients' schedule and quality of life. At present, the rehabilitation of stroke patients
+mainly relies on passive and repetitive training of patients, and the rehabilitation effect is not ideal.
+brain computer interface is a cutting-edge rehabilitation technology that completely does not rely on
+peripheral nerves and muscles to interact with the external environment. This technology can interpret
+the movement intention of patients in real time, establish the connection pathway between the human
+brain and the machine, and conduct closed-loop feedback training. Trigger the neuroplasticity of the
+brain, ultimately achieve the purpose of functional rehabilitation of stroke patients, and provide
+patients with individualized rehabilitation training. This paper reviews the domestic and foreign
+research progress of brain-computer interface technology in the field of stroke rehabilitation in recent
+years, expounds the working process and principle of brain-computer interface technology, summarizes
+its application status in the aspects of stroke limb dysfunction, cognitive impairment, speech
+impairment and psychological rehabilitation, and finally analyzes its challenges and development
+trends, with a view to promoting the rapid development of brain-computer interface technology. It
+provides a new idea for the rehabilitation of stroke patients.
+Keywords: brain-computer interface, Stroke, Rehabilitation nursing, summarize
+1. Introduction
+Stroke is the leading cause of disability and death among adults in China, characterized by high
+incidence, high mortality and high disability rate[1]. After stroke, 75% of patients have limb
+dysfunction of varying degrees, and common complications also include speech disorders, cognitive
+disorders and psychological disorders, which seriously affect patients' daily life and social work[2] .
+Brain Computer Interface (BCI) technology is a kind of rehabilitation therapy that has developed
+rapidly in recent years, which increases the possibility of successful rehabilitation of patients and is
+conducive to improving the quality of life of patients. Brain-computer interface technology can enable
+patients to use EEG electrical signals to communicate with the external environment and overcome the
+movement disorders of limbs[3]. In addition, brain-computer interface technology has great advantages
+over traditional rehabilitation technology. BCI technology is closed-loop, patient-oriented, and
+stimulates muscle movement without the paralyzed limb having to move [4]. BCI technology provides
+a new way for clinical diagnosis, treatment and rehabilitation in the aspects of diagnosis and evaluation,
+speech communication and so on. In view of the great potential of brain-computer interface technology
+in the rehabilitation of stroke patients, this paper reviews the application progress of BCI technology in
+the rehabilitation of stroke patients.
+2. BCI Technology and Working Principle
+The BCI system is a timely communication system that does not rely on the normal output
+pathways of the brain (peripheral nerves and muscles), but establishes direct communication and
+control channels between the human brain and computers or other electronic devices [5]. BCI mainly
+includes four parts: signal acquisition, feature extraction, decoding algorithm and output command.
+Signal acquisition and feature processing are to extract biological signals of human brain, and carry out
+Published by Francis Academic Press, UK
+-1-
+Academic Journal of Medicine & Health Sciences
+ISSN 2616-5791 Vol.5, Issue 3: 1-5, DOI: 10.25236/AJMHS.2024.050301
+classification processing and other operations through the process of quantization, amplification and
+filtering. Decoding algorithm is the core of BCI system. The processed EEG signal is decoded and
+translated to form an output command, and the decoding algorithm can adjust the output signal
+according to changes in the brain and the surrounding environment, and then transmit the command
+through the output device to complete the execution action.
+Signal acquisition is the key step to implement BCI technology. According to the method of signal
+acquisition, neural interfaces can be classified into three categories: invasive, non-invasive, and
+semi-invasive.Non-invasive techniques include electroencephalogram (EEG), Functional near-infrared
+spectroscopy (functional near-infrared spectroscopy), electroencephalogram (EEG), and functional
+near-infrared spectroscopy (functional near-infrared spectroscopy). fNIRS and
+Magnetoencephalography MEG are non-invasive techniques for signal acquisition, which are safe,
+non-invasive and convenient. However, EEG is susceptible to noise, and the number and position of
+electrodes are greatly affected, which leads to the risk of receiving wrong signals. fNIRS and MEG are
+time-consuming, limited by the site and high cost. The invasive technique mainly consists of
+microelectrode (IM) in cortex, which can directly record EEG signal with high temporal and spatial
+resolution and good signal quality, but it needs to be implanted into intracranial brain by surgical
+method, which is difficult and has the risk of secondary infection and secondary craniocerebral injury.
+Semi-invasive techniques include Electrocorticography ECOG, which is in direct contact with cortical
+neurons, has excellent temporal and spatial resolution, the ECoG signal has a relatively low amplitude,
+may contain some level of noise, and requires electrodes to be implanted directly on the surface of the
+brain. There is a risk of injury and infection. Therefore, the selection of neural interface should
+comprehensively consider the research objectives, equipment costs, patient comfort and other aspects,
+so as to provide patients with an appropriate neural interface.
+3. The Application of BCI Technology in Stroke Rehabilitation
+3.1 Application of BCI Technology in Limb Rehabilitation of Stroke
+Stroke usually results in nerve tissue damage that affects motor, sensory, cognitive and other
+functions of the body. The adaptive changes that can occur in the structure and function of the brain's
+nervous system are called Neuroplasticity, which is the basis for the rehabilitation of stroke patients.
+Effective rehabilitation therapy must restore the normal function of the body by promoting the
+connection of the remaining neurons in the brain. The effect of traditional rehabilitation therapy is not
+obvious, and studies have shown that patients using BCI technology have better rehabilitation effect
+[6].
+3.1.1 Application of BCI technology in upper limb rehabilitation of stroke
+In terms of therapeutic effect, the training of brain-computer interface rehabilitation robot is not
+only conducive to the recovery of limb function, but also to the remodeling of brain neural network [7].
+A clinical study on stroke patients showed that BCI system could enable patients to carry out
+rehabilitation training at different control levels through movement observation and motor imagery,
+improve patients' participation and accelerate their rehabilitation progress[8]. Multiple studies [9,
+10]have shown that repetitive electrical stimulation of a certain intensity could regulate brain functional
+areas, thus playing a therapeutic role in improving movement disorders after stroke. Ruben[11]explored
+the rehabilitation methods for upper limb function of 10 stroke patients with hemiplegia, and found that
+the rehabilitation treatment effect based on BCI technology was significantly better than that of
+traditional rehabilitation technology, which was related to the fact that traditional rehabilitation
+methods required patients to have a certain motor basis, while BCI technology had little demand on
+patients' residual motor function. And can integrate sensory-motor pathways to promote patient
+recovery. BCI technology can also be combined with virtual reality, video games and other
+technologies. Athanasios [12] applied multi-modal virtual reality technology with motion initiation to
+the upper limb rehabilitation of patients, and the research results showed that this technology could
+regulate the ability of brain activity pattern and enhance the relationship between body
+electrophysiology and supervisory experience. A meta-analysis[13]showed that rehabilitation training
+based on BCI technology could increase FMA scores of the upper limbs by 5.4-8.1 points, which was
+statistically significant.
+3.1.2 Application of BCI Technology in Rehabilitation of Lower Limbs After Stroke
+Lower limb dysfunction is the most common sequela of stroke. Although the damaged nerves can
+Published by Francis Academic Press, UK
+-2-
+Academic Journal of Medicine & Health Sciences
+ISSN 2616-5791 Vol.5, Issue 3: 1-5, DOI: 10.25236/AJMHS.2024.050301
+be recovered to varying degrees after a period of rehabilitation treatment, 50% to 60% of patients still
+have neuromuscular system dysfunction of varying degrees. For example, hemiplegia measures
+weakened muscle strength, proprioceptive disorders, poor balance control, abnormal gait and even
+inability to walk [14]. Brain-computer interface technology has been widely used as a rehabilitation
+treatment method for stroke patients. When using BCI technology to conduct rehabilitation training for
+patients, neuroplasticity can be induced by real-time detection of Motor Image (MI), so as to restore
+nerve function [15]. Zhang Ruiping [16] randomly divided 80 stroke patients into control group and
+observation group, with 40 cases in each group. Both groups received routine rehabilitation training.
+The observation group received lower limb training of brain-computer interface rehabilitation robot on
+the basis of routine rehabilitation training. It was higher than 77.50% in control group (P<0.05). The
+BDNF(6.01±1.13) ng/ml and NGF (145.73±12.64) pg/ml in the observation group were higher than
+those in the control group (4.85±1.02) ng/ml and (130.54±16.39) pg/ml, and the difference was
+statistically significant (P<0.05). The results showed that BCI could promote the recovery of lower
+limb function, improve the rehabilitation effect and improve the quality of life. Marc Sebastian
+Romagosa [17] conducted 25 treatment and evaluation visits using MI-BCI in 25 stroke patients with
+gait disorders. The results showed that walking speed was clinically significantly increased by 0.19m/s,
+95%CI (0.13 -- 0.25), p < 0.001. Patients also experienced reduced spasticity and improved their range
+of motion and muscle contractions. This suggests that brain-computer interface therapy can effectively
+promote long-term functional improvement in gait speed in chronic stroke survivors. In addition, BCI
+technology can also be combined with Functional electrical stimulation (FES) and Virtual Reality (VR)
+to reduce the difficulty of performing motion imagination tasks and improve classification
+accuracy[18]. Eunjung Chung[19] conducted a study on 23 stroke patients with hemiplegia, 13 of
+whom received BCI-FES training and 12 of whom only received Functional electrical stimulation (FES)
+training. The results showed that, Gait speed (29.0-42.0cm/s, P=0.002) and stride frequency (65.2-78.9
+steps/min, P=0.02) in BCI-FES group were significantly improved compared with those in FES group
+(23.6-27.7cm/s) and stride frequency (59.4-65.5 steps/min). BCI-FES can increase the walking ability
+of stroke patients with hemiplegia. Athanasios Vourvopoulos[20] found that rehabilitation training
+based on BCI-VR is more effective for patients with the most severe motor disorders, which may be
+related to the less input and output of damaged motor cortex in such patients, and the more flexible
+neural regulation of brain regions.
+3.2 Application of BCI Technology in Speech Rehabilitation of Stroke
+According to studies, more than 30% of stroke patients have speech disorders. The brain-computer
+interface technology based on pronunciation imagination can directly restore imaginary speech by
+extracting brain activity signals [21]. For patients with pronunciation difficulties, they no longer need
+to input words one by one inefficiently, but can communicate with the outside world more effectively
+through speech synthesis through this BCI technology. Studies have found that the left inferior frontal
+gyrus of the brain is the physiological basis for the phenomenon of articulatory imagination[22].
+Aleman [23] found activation of the left inferior frontal gyrus during speech processing of imagined
+speech through fMRI, which also confirmed this view. Nolfe [24] found that BCI technology based on
+P300 components could predict the degree of recovery of speech disorder, and the study results showed
+that the amplitude of P300 was reduced in patients with speech disorder. On this basis, Kleih [25]used
+the P300-BCI spelling system to assess the language function of patients with speech disorder after
+stroke. The results showed that 4 stroke patients with speech disorder could successfully communicate
+with the matching speller after P300-BCI rehabilitation training, and the accuracy rate was 100%. The
+above research indicates that P300-BCI technology can not only be used for language training of
+patients with speech disorders, but also can evaluate the degree of recovery of patients' speech function.
+Different from English words, the structure and grammar of Chinese characters are more complex. Han
+[26] developed a new Chinese character writing robot controlled by BCI, which uses the mixed features
+of P300 and SSVEP to effectively encode large instruction sets, decodes the combined features through
+correlation component analysis, and generates efficient Chinese characters and English letter writing.
+The results showed that the average accuracy was 87.23% and the maximum accuracy was 100%. In
+addition, the brain-computer interface can also recognize the EEG electrical signals sent through the
+brain-computer interface, and then transmit them as new incoming information to the corresponding
+receiving brain region, so as to realize the real communication between two patients with speech
+disorders.
+Published by Francis Academic Press, UK
+-3-
+Academic Journal of Medicine & Health Sciences
+ISSN 2616-5791 Vol.5, Issue 3: 1-5, DOI: 10.25236/AJMHS.2024.050301
+3.3 Application of BCI Technology in Cognitive Rehabilitation of Stroke
+Post-stroke cognitive impairment is one of the most common sequelae of stroke. According to a
+study, 30%-35% of patients have cognitive impairment in different fields within a short time after
+stroke, which not only seriously affects the quality of life of patients, but also brings heavy economic
+burden to the society. As a new rehabilitation technique, BCI can not only be used to evaluate the
+efficacy of cognitive impairment after stroke, but also be applied to the rehabilitation of cognitive
+ability[27]. Nie and Yang [28] found that brain-computer interface technology based on motor
+imagination can promote neuronal remodeling, increase the expression of scaffold protein and
+regulatory protein, and enhance prominence plasticity, thus promoting cognitive functions related to
+learning and memory. According to the study of Curtis T Cripe[29], rehabilitation training based on
+BCI technology can enhance patients' self-initiative and improve their cognitive function. At the same
+time, BCI can also monitor the global attention level related to the task process, and monitoring the
+change of attention during BCI training can ensure that the patient is better focused on the current
+training task. Lee [30]used EEG-BCI techniques in 31 patients and measured cognitive improvement
+using cognitive ability tests, card matching games, and other memory and attention tasks. The results
+showed that immediate memory (P=0.038), delayed memory (P<0.01) and attention (P=0.039) were
+significantly improved. Shukin [31] used cognitive P300 evoked potential and diagnostic scale to
+evaluate the therapeutic effect of stroke patients with cognitive impairment. The above studies indicate
+that BCI technology can be used as a means of assessment to assess the degree of consciousness
+disorder and treatment effect of patients, and can also be used as a means of rehabilitation to promote
+the rehabilitation of cognitive function of patients.
+3.4 Application of BCI Technology in Psychological Rehabilitation of Stroke
+After stroke, patients are prone to depression, irritability, extreme depression, boredom and
+avoidance of rehabilitation training. At present, most of the rehabilitation training based on BCI
+technology, especially BCI-VR training, has added virtual scenes related to psychological state,
+soothing patients' emotions, improving patients' psychological state, improving patients' compliance
+with rehabilitation training, and thus improving rehabilitation effects.
+4. Discussion
+At present, the application of brain-computer interface technology in the field of stroke
+rehabilitation is developing rapidly, and the research direction shows a diversified development trend.
+However, due to some software and hardware problems of the BCI system, such as the cumbersome
+operation of BCI and external equipment, it is not easy to carry, and the maintenance cost is high. There
+is no unified standard for the extraction and decoding of brain information, and the signal transmission
+speed is slow, as well as the biosafety and ethical problems of technology application. Although BCI
+technology is in the development stage, with the country's strong investment in natural science and
+other fields, it is believed that BCI technology will become increasingly mature and perfect, and its
+clinical application will be more and more extensive.
+References
+[1] Barthels, D.H. Das, Current advances in ischemic stroke research and therapies[J]. Biochim
+Biophys Acta Mol Basis Dis. 1866(4): 2020p.165260.
+[2] Chamola, V., et al., Brain-Computer Interface-Based Humanoid Control: A Review[J]. Sensors
+(Basel). 20(13): 2020p.
+[3] Luo, S., Q. RabbaniN.E. Crone, Brain-Computer Interface: Applications to Speech Decoding and
+Synthesis to Augment Communication[J]. Neurotherapeutics. 19(1): 2022p.263-273.
+[4] Carelli, L., et al., Brain-Computer Interface for Clinical Purposes: Cognitive Assessment and
+Rehabilitation [J] Biomed Res Int. 2017: 2017p.1695290.
+[5] Pillette, L., et al., Why we should systematically assess, control and report somatosensory
+impairments in BCI-based motor rehabilitation after stroke studies[J]. Neuroimage Clin. 28: 2020p.
+102417.
+[6] Lima, E.O., et al., Transcranial Direct Current Stimulation and Brain-Computer Interfaces for
+Improving Post-Stroke Recovery: A Systematic Review and Meta-Analysis[J]. Clin Rehabil. 38(1):
+2024p.3-14.
+Published by Francis Academic Press, UK
+-4-
+Academic Journal of Medicine & Health Sciences
+ISSN 2616-5791 Vol.5, Issue 3: 1-5, DOI: 10.25236/AJMHS.2024.050301
+[7] Yang, W., et al., The Effect of Brain-Computer Interface Training on Rehabilitation of Upper Limb
+Dysfunction After Stroke: A Meta-Analysis of Randomized Controlled Trials[J]. Front Neurosci. 15:
+2021p.766879.
+[8] Liu, L., et al., Brain-Computer Interface-Robot Training Enhances Upper Extremity Performance
+and Changes the Cortical Activation in Stroke Patients: A Functional Near-Infrared Spectroscopy
+Study [J]. Front Neurosci. 16: 2022p.809657.
+[9] Jaqueline da Cunha, M., et al., Functional electrical stimulation of the peroneal nerve improves
+post-stroke gait speed when combined with physiotherapy. A systematic review and meta-analysis[J].
+Ann Phys Rehabil Med. 64(1): 2021p.101388.
+[10] Marquez-Chin, C.M.R. Popovic, Functional electrical stimulation therapy for restoration of motor
+function after spinal cord injury and stroke: a review[J]. Biomed Eng Online. 19(1): 2020p.34.
+[11] Carino-Escobar, R.I., et al., Prognosis of stroke upper limb recovery with physiological variables
+using regression tree ensembles[J]. J Neural Eng. 18(4): 2021p.
+[12] Vourvopoulos, A.I.B.S. Bermúdez, Motor priming in virtual reality can augment motor-imagery
+training efficacy in restorative brain-computer interaction: a within-subject analysis[J]. J Neuroeng
+Rehabil. 13(1): 2016p.69.
+[13] Kruse, A., et al., Effect of brain-computer interface training based on non-invasive
+electroencephalography using motor imagery on functional recovery after stroke - a systematic review
+and meta-analysis[J]. BMC Neurol. 20(1): 2020p.385.
+[14] Bruni, M.F., et al., What does best evidence tell us about robotic gait rehabilitation in stroke
+patients: A systematic review and meta-analysis[J]. J Clin Neurosci. 48: 2018p.11-17.
+[15] Mills, E.J., et al., Multiple treatment comparison meta-analyses: a step forward into complexity[J].
+Clin Epidemiol. 3: 2011p.193-202.
+[16] Zhang Ruiping, Jiang Xueling, Zhang Yang, et al.Application of Brain-Machine Interface
+Rehabilitation Robot in Lower Limb Motor Function Recovery of Patients in the Acute Phase of Stroke:
+A Study in China Practical Medicine[J].China Practical Medicine,2021,16(34):196-198.
+[17] Sebastián-Romagosa, M., et al., Brain-computer interface treatment for gait rehabilitation in
+stroke patients[J]. Front Neurosci. 17: 2023p.1256077.
+[18] Bouton, C.E., Merging brain-computer interface and functional electrical stimulation
+technologies for movement restoration[J]. Handb Clin Neurol. 168: 2020p.303-309.
+[19] Chung, E., B.H. LeeS. Hwang, Therapeutic effects of brain-computer interface-controlled
+functional electrical stimulation training on balance and gait performance for stroke: A pilot
+randomized controlled trial [J]. Medicine (Baltimore). 99(51): 2020p. e22612.
+[20] Vourvopoulos, A., et al., Effects of a Brain-Computer Interface With Virtual Reality (VR)
+Neurofeedback: A Pilot Study in Chronic Stroke Patients[J]. Front Hum Neurosci. 13: 2019 p.210.
+[21] Anumanchipalli, G.K., J. ChartierE.F. Chang, Speech synthesis from neural decoding of spoken
+sentences [J]. Nature. 568(7753): 2019 p. 493-498.
+[22] Cooney, C., R. FolliD. Coyle, Neurolinguistics Research Advancing Development of a
+Direct-Speech Brain-Computer Interface[J]. iScience. 8: 2018p.103-125.
+[23] Aleman, A., et al., The functional neuroanatomy of metrical stress evaluation of perceived and
+imagined spoken words[J]. Cereb Cortex. 15(2): 2005 p.221-8.
+[24] Grau, C., et al., Conscious brain-to-brain communication in humans using non-invasive
+technologies [J]. PLoS One. 9(8): 2014p.e105225.
+[25] Shukin, I.A., et al., [Post-stroke rehabilitation training with a brain-computer interface: a clinical
+and neuropsychological study][J]. Zh Nevrol Psikhiatr Im S S Korsakova. 118(7): 2018p.25-29.
+[26] Tonin, L., et al., Behavioral and Cortical Effects during Attention Driven Brain-Computer
+Interface Operations in Spatial Neglect: A Feasibility Case Study[J]. Front Hum Neurosci. 11: 2017
+p.336.
+[27] Aam, S., et al., The Impact of Vascular Risk Factors on Post-stroke Cognitive Impairment: The
+Nor-COAST Study[J]. Front Neurol. 12: 2021p.678794.
+[28] Nie, J.X. Yang, Modulation of Synaptic Plasticity by Exercise Training as a Basis for Ischemic
+Stroke Rehabilitation[J]. Cell Mol Neurobiol. 37(1): 2017 p.5-16.
+[29] Cripe, C.T., et al., Improved Sobriety Rates After Brain-Computer Interface-Based Cognitive
+Remediation Training[J]. Cureus. 14(1): 2022p.e21429.
+[30] Baykara, E., et al., Effects of training and motivation on auditory P300 brain-computer interface
+performance[J]. Clin Neurophysiol. 127(1): 2016 p. 379-387.
+[31] Ruiz, S., et al., Real-time fMRI brain computer interfaces: self-regulation of single brain regions
+to networks[J]. Biol Psychol. 95: 2014 p.4-20.
+Published by Francis Academic Press, UK
+-5-

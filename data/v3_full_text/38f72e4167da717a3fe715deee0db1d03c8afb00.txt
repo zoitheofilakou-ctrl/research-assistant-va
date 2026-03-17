@@ -1,0 +1,244 @@
+1723
+REHABILITATION SCIENCES CORNER
+Mobile Health (mHealth) Applications for Stroke Rehabilitation: A mini review
+Arshad Nawaz Malik1, Ayesha Afridi2, Farooq Azam Rathore3
+Abstract therapeutic health care. Digital devices are concise and
+Abstract: delicate which have capability to enhance the ability to
+measure accurately, diagnose correctly and provide
+Mobile Health (mHealth) applications are transforming
+appropriate treatment accordingly. Digital therapeutics is
+stroke rehabilitation, through personalized care and data-
+a technological assisted intervention through the latest
+driven insights. These applications employ AI-driven
+high quality and appropriate software. The need for
+algorithms, tele-rehabilitation, wearable technologies, and
+digitization in health system is gradually increasing to
+gamification to enhance recovery process. The objective of
+enhance the overall quality care and easy access to patients
+this mini review is to explore the transformative role of
+and community.1
+Mobile Health (mHealth) applications in stroke
+rehabilitation, highlighting its capacity to transcend Concept of mHealth applications
+geographical barriers and establish extensive support
+Mobile Health (mHealth) applications have revolutionized
+networks connecting stroke survivors, caregivers, and
+healthcare by leveraging mobile technology to offer
+healthcare professionals. Particularly in developing
+services, information, awareness, and support directly to
+countries like Pakistan, where healthcare resources may be
+users. These applications offer health monitoring, disease
+limited, mHealth offers a viable solution to bridge the gap
+management, promotion, awareness, and education for
+in stroke care. By facilitating access to rehabilitation
+specific conditions, enabling innovative solutions across
+services, mHealth can significantly improve outcomes for
+geographical boundaries and time constraints.2 It is
+stroke survivors in these regions. This integration of mobile
+facilitating the transition from a generic 'one-size-fits-all'
+technology with stroke rehabilitation not only promises
+approach to a more dynamic, real-time, personalized
+personalized and more effective rehabilitation but also
+monitoring and therapeutic care.
+presents a unique blend of technology and compassion.
+This evolution in healthcare holds the potential to redefine A systematic review conducted by (Rintala et al in 2023)
+stroke recovery, marking a significant milestone in the supports the applications of mHealth in stroke survivors
+journey towards more inclusive, efficient, and and is considered a useful and beneficial approach for
+compassionate care solutions. outcome-based recovery.3These mobile based apps offer
+better and effective communication, active engagement,
+Keywords: Mobile Health, mHealth applications, stroke
+and specific awareness regarding the complications.
+rehabilitation, personalized interventions, and technology
+mHealth apps are effective tools to provide a customized
+integration.
+and tailored training plans through real time feedback and
+DOI: https://doi.org/10.47391/JPMA.24-74 effective than ever before by seamlessly integrating
+individualized exercises, and interactive resources.4
+Introduction
+The COVID-19 pandemic resulted in an unprecedented Mobile apps for health-related purposes
+global health and economic crises in many countries
+Mobile Health (mHealth) applications, often known as
+affecting millions of people. However, this period also
+health apps, are software programmes designed to run on
+marked a shift from traditional methodologies to digital
+smartphones, tablets, and other mobile devices with the
+solutions across various sectors notably health care and
+purpose of improving health and well-being. These
+rehabilitation. The advent of digital health has
+applications act as a link between modern technology and
+revolutionized health care system and shifted from
+healthcare, allowing people to effortlessly access a variety
+traditional stereotyped ‘one-size-fits-all’ approach towards
+of health-related services, resources, diagnosis, prevention,
+real time tailored and personalized monitoring and
+and interventions from the palm of their hand.5
+1,2Faculty of Rehabilitation and Allied Health Sciences, Riphah International mHealth applications may include a wide range of features
+University, Islamabad, Pakistan; 3Armed Forces Institute of Rehabilitation like health monitoring, disease management, fitness
+Medicine (AFIRM), Rawalpindi. tracking, prescription reminders, mental health support,
+Correspondence:Farooq Azam Rathore. e-mail: farooqrathore@gmail.com and more. These apps collect data, give real-time feedback,
+ORCID ID: 0000-0002-4759-0453 and promote communication between users and
+Vol. 74, No. 9, September 2024 Open Access
+11772244
+A.N. Malik, A Afridi, F.A. Rathore
+healthcare providers by leveraging the features of mobile capitalizing on the ubiquitous presence of cellphones and
+devices such as sensors, GPS, cameras, and connection.6 the possibilities of current technology.11
+Importance of mHealth in stroke rehabilitation 1. Accessibility: These applications enable survivors to
+A scoping review of randomized controlled trials from 2010 engage in rehabilitation exercises and activities from
+to 2020 was done on 1453 stroke survivors in 18 RCTS in the comfort of their own homes, removing
+which it was reported that secondary stroke prevention can geographical barriers and the need for frequent
+be handled using mHealth based interventions.7 The travel.11
+traditional stroke rehab approaches have certain barriers
+2. Personalization: MHealth apps offer customized
+including the lack of follow up, lack of motivation and
+exercise programmes tailored to individual
+active engagement of patients, poor monitoring, costly
+requirement of the patient , ensuring that
+both direct and indirect and limited in measuring the
+rehabilitation efforts are directed towards specific
+recovery progress.8 That is the point where mHealth
+goals and progress.11
+applications comes in light, as they provide a
+transformational approach to overcoming these obstacles 3. Enhancement of Adherence: The interactive features
+and reimagining the recovery experience.7 of mHealth apps, such as gamified exercises and
+progress tracking, increases motivation and adherence
+Challenges that stroke survivors face in traditional
+to therapy.11
+rehabilitation settings
+Stroke sufferers frequently face various challenges during 4. Real-Time Feedback: Smartphone sensors and
+their recovery phase in traditional rehabilitation settings. wearables provide immediate feedback on movement
+These challenges are: and performance, allowing stroke survivors to alter
+their activities as needed.11
+1. Limited Accessibility: Geographical distance,
+transportation difficulties, and mobility issues can all 5. Research Potential of Data Collection
+make it difficult for stroke survivors to visit
+Advances in mobile technology have not only transformed
+rehabilitation centers on a regular basis.8
+the way stroke survivors approach rehabilitation, but have
+2. Lack of Personalization: Traditional rehabilitation also ushered in an era of extraordinary research potential
+programmes may use a broad approach that does not through the gathering and analysis of data generated by
+completely address the particular requirements, mHealth applications.12
+progress, and limits of individual stroke survivors.9
+Research data is a critical component in stroke
+3. Adherence Barriers: The monotonous nature of rehabilitation. MHealth applications collect a wealth of
+exercise can become tedious for the patients, lowering useful data, including exercise performance record and
+their motivation and making adherence to therapy adherence patterns, as well as daily activity levels and vital
+schedules a challenge for the rehabilitation signs. This data provides researchers with a once-in-a-
+professionals.10 lifetime opportunity to get previously unattainable insights
+into the complexities of stroke recovery.13
+4. Lack of Immediate Feedback: Traditional in-person
+therapy sessions often do not offer real-time feedback Data obtained anonymously from mHealth applications
+mechanisms, making it difficult for stroke survivors to can be combined and analyzed to drive comprehensive
+change their techniques of exercise and assess their rehabilitation outcome studies. Researchers can find
+progress efficiently.10 trends, correlations, and factors that influence
+rehabilitation effectiveness by monitoring the progress and
+5. Diminished motivation and active engagement: The outcomes of a diverse pool of stroke survivors. This
+same training approach without any incentive activity collection of data contributes in the refinement of
+led to the development of a tedious and dreary rehabilitation protocols and the development of therapies
+attitude.9 suited to individual requirements.14
+Leveraging technology for remote and personalized The data generated by mHealth applications allows
+care researchers to have a comprehensive picture of the
+MHealth applications emerge as a transformative solution recovery process. Patterns of improvement, plateaus, and
+to these issues. mHealth apps provide stroke patients with setbacks emerge, allowing healthcare providers and stroke
+unprecedented levels of remote and individualized care by survivors to formulate reasonable expectations.15 This
+OOppeenn AAcccceessss JJ PPaakk MMeedd AAssssoocc
+1725
+Mobile Health (mHealth) Applications for Stroke Rehabilitation: ............
+sophisticated understanding of the rehabilitation process integrated to monitor real-time movement data. This
+contributes to the creation of evidence-based therapies holistic perspective enables therapists to successfully
+that are compatible with the dynamic character of stroke change strategies and track progress.
+recovery. Looking at the data can give new ideas for
+Collaborative Care Ecosystem: Create collaborative
+helping stroke patients recover. Researchers can find things
+mHealth ecosystems that connect survivors, caregivers,
+that need to be improved, change the ways they're helping,
+and healthcare providers. This promotes collaborative
+and come up with new ideas that use modern technology.
+decision-making, coordinated care, and comprehensive
+This makes the treatments for stroke recovery better
+support networks.
+because they're based on real information. These
+treatments can also change to fit the needs of each person
+The mHealth Apps in Pakistan
+who had a stroke.12
+In the context of Pakistan, a developing country, the
+Recommendation for Future Development: Enhancing integration of mHealth applications in stroke rehabilitation
+Stroke Rehabilitation Through Innovative mHealth Apps. encounters specific hurdles such as widespread
+technological and digital literacy gaps, inconsistent
+The landscape of stroke rehabilitation is changing, and internet connectivity, and diverse linguistic needs. it is
+mobile health (mHealth) apps will play an important role important to design mHealth solutions that are accessible
+in moulding its future. Here, we highlight a few innovative offline and user-friendly across various literacy levels,
+strategies that have the potential to transform the area of incorporating interfaces in multiple local languages,
+stroke rehabilitation. including Urdu, to ensure broader usability.
+AI-Personalized Plans: Integrate cutting-edge AI to create Engaging community health workers to facilitate app
+unique rehabilitation programmes for each stroke survivor, dissemination and user education can significantly improve
+modifying interventions based on ongoing performance. accessibility and adoption. Incorporating culturally tailored
+The efficiency and effectiveness of therapy are improved gamification and social interaction elements can further
+by this personalization. enhance user engagement and adherence to rehabilitation
+programmes. Establishing a collaborative framework
+Multilingual Support: Offer mHealth apps in multiple
+involving technology developers, healthcare professionals,
+languages, including Urdu, to ensure accessibility for a
+and policymakers can drive the development and
+broader population of stroke survivors who might be more
+implementation of mHealth apps tailored to the unique
+comfortable using their native language. Lack of language
+landscape of Pakistan.
+options could limit adoption among non-English speakers.
+Conclusion
+Literacy Levels: Address varying literacy levels among
+stroke survivors. Use simple and clear language, along with The fusion of mobile technology and stroke rehabilitation
+visual aids, to ensure that instructions and educational holds immense promise in the evolving healthcare
+content are understood by all. landscape. Mobile Health (mHealth) applications are set to
+revolutionize stroke recovery by offering personalized
+Data-Driven Insights: Collect extensive data to reveal approaches, data-driven insights, immersive experiences,
+stroke recovery patterns. Analyzing this data enables and collaborative platforms. Looking ahead, the future of
+mHealth apps to deliver evidence-based information to mHealth in stroke rehabilitation envisions customized care,
+patients and healthcare providers while also enhancing improved outcomes, and a seamless integration of
+treatment options. technology and compassion.
+Privacy and Data Manipulation:Data privacy is a concern References
+in today’s connected world. There is a need to prioritize the
+1. Butcher CJ, Hussain W.Digital healthcare: the future. Future Healthc
+protection of sensitive health information to maintain user
+J, 2022;9: 113-117.
+trust and comply with ethical standards. 2. Schrauben SJ, Appel L, Rivera E, Laura CM,Lash JP,Chen J, et al.,
+Mobile health (mHealth) technology: assessment of availability,
+Gamification and Social Interaction: Incorporate acceptability, and use in CKD. Am J Kid Dis. 2021. 77: 941-950. e1.
+gamification elements and social interaction features 3. Rintala A, Kossi O, Bonnechère B, Evers L, Printemps E, Feys P. Mobile
+within apps. This not only makes therapy enjoyable but also health applications for improving physical function, physical activity,
+fosters a sense of community among stroke survivors, and quality of life in stroke survivors: a systematic review. Disabil
+Rehabil. 2023. 45:4001-4015.
+reducing isolation.
+4. Piran P, Thomas J, Kunnakkat S, Pandey A, Gilles N, Weingast S, et al.,
+Medical Mobile Applications for Stroke Survivors and Caregivers. J
+Wearable Integration: Wearables can be seamlessly
+Stroke Cerebrovasc Dis. 2019;28:104318.
+Vol. 74, No. 9, September 2024 Open Access
+11772266
+A.N. Malik, A Afridi, F.A. Rathore
+5. Maaß L, Freye M, Pan CC, Dassow HH. Niess J, Jahnel T. The 11. Ullah M, Hamayun S, Wahab A, Khan SU,Rehman MU, Haq ZU,et al.,
+Definitions of Health Apps and Medical Apps From the Perspective Smart Technologies used as Smart Tools in the Management of
+of Public Health and Law: Qualitative Analysis of an Interdisciplinary Cardiovascular Disease and their Future Perspective. Curr Probl
+Literature Overview. JMIR Mhealth Uhealth, 2022;10: e37980. Cardiol. 2023;48:101922. doi: 10.1016/j.cpcardiol.2023.101922. Epub
+6. Kheirinejad S, Visuri A, Suryanarayana SA, Hosio S. Exploring mHealth 2023 Jul 10. PMID: 37437703.
+applications for self-management of chronic low back pain: A survey 12. Postolache O, Hemanth DJ, Alexandre R,Gupta D, Geman O,Khanna
+of features and benefits. Heliyon, 2023;9:e16586. A. Remote monitoring of physical rehabilitation of stroke patients
+7. Adcock A K, Haggerty T, Crawford A, Espinosa C. mHealth impact on using IoT and virtual reality. IEEE Journal on Selected Areas in
+secondary stroke prevention: a scoping review of randomized Communications. 2020:39:562-573.
+controlled trials among stroke survivors between 2010-2020. 13. Karthan M, Martin R, Holl F, Swoboda W, Kestler HA, Pryss R, et al.,
+Mhealth, 2022;8:19. doi: 10.21037/mhealth-21-27. PMID: 35449509; Enhancing mHealth data collection applications with sensing
+PMCID: PMC9014232. capabilities. Front Public Health, 2022;10:926234. PMID: 36187627;
+8. Kamalakannan S, Gudlavalleti Venkata M, Prost A, Natarajan S, Pant PMCID: PMC9521646.
+H, Chitalurri N, et al., Rehabilitation Needs of Stroke Survivors After 14. Deniz-Garcia A, Fabelo H, Rodriguez-Almeida AJ, Zamora-Zamorano
+Discharge From Hospital in India. Arch Phys Med Rehabil, 2016. G, Castro-Fernandez M, Alberiche Ruano MDP, et al., Quality,
+97:1526-1532.e9. oi: 10.1016/j.apmr.2016.02.008. Usability, and Effectiveness of mHealth Apps and the Role of Artificial
+9. Mahmood A P. Nayak C, English, Deshmukh A, U S, N M, Solomon JM. Intelligence: Current Scenario and Challenges. J Med Internet Res.
+Adherence to home exercises and rehabilitation (ADHERE) after 2023. 25: e44030.
+stroke in low-to-middle-income countries: A randomized controlled 15. Khan, ZF, Alotaibi SR. Applications of Artificial Intelligence and Big
+trial. Top Stroke Rehabil. 2022;29: 438-448. doi: 10.1080/ Data Analytics in m-Health: A Healthcare System Perspective. J
+10749357.2021.1940800. Epub 2021 Jun 28. PMID: 34180370. Healthc Eng, 2020: 8894694. doi: 10.1155/2020/8894694. PMID:
+10. Allegue DR, Kairy D, Higgins J, Archambault PS, Michaud F, Miller WC, 32952992; PMCID: PMC7481991.
+et al., A personalized home-based rehabilitation program using
+exergames combined with a telerehabilitation app in a chronic
+stroke survivor: mixed methods case study. JMIR Serious Games,
+2021;9: e26153. doi: 10.2196/26153. PMID: 34132649; PMCID:
+PMC844160
+OOppeenn AAcccceessss JJ PPaakk MMeedd AAssssoocc

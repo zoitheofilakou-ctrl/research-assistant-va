@@ -1,0 +1,1464 @@
+ORIGINAL RESEARCH
+Estimating the impact on patient
+safety of enabling the digital
+transfer of patients’ prescription
+information in the English NHS
+Elizabeth M Camacho ,1,2 Sean Gavan,1 Richard Neil Keers ,3
+Antony Chuter ,4 Rachel Ann Elliott 1
+► Additional supplemental ABSTRACT
+material is published online Objectives To estimate the number and burden WHAT IS ALREADY KNOWN ON THIS
+only. To view, please visit the TOPIC
+of medication errors associated with prescription
+journal online (http://d x. doi.
+org/1 0. 1136/b mjqs- 2023- information transfer within the National Health Service ⇒ Reducing medication errors at
+016675). (NHS) in England and the impact of implementing an transitions of care is a complex
+interoperable prescription information system (a single challenge due in part to the leaky
+1Manchester Centre for digital prescribing record shared across NHS settings) in pipeline involved with the transmission
+Health Economics, School of reducing these errors.
+of prescription information between Health Sciences, University of
+Methods We constructed a probabilistic mathematical
+Manchester, Manchester, UK settings.
+2University of Liverpool, model. We estimated the number of transition medication ⇒ A system in which a single record
+errors that would be undetected by standard medicines Liverpool, UK of information is accessible across
+3Manchester Pharmacy School, reconciliation, based on published literature, and
+University of Manchester, scaled this up based on the annual number of hospital different settings makes the
+Manchester, UK admissions. We used published literature to estimate requirement to transmit information
+4Lay Patient, Uckfield, UK the proportion of errors that lead to harm and applied redundant and thereby reduces the
+this to the number of errors to estimate the associated scope for medication errors.
+Correspondence to
+burden (healthcare resource use and deaths). Finally,
+Professor Rachel Ann Elliott,
+we used reported effect sizes for electronic prescription WHAT THIS STUDY ADDS
+Manchester Centre for information sharing interventions to estimate the
+Health Economics, School of ⇒ This study adds a new estimation of the
+Health Sciences, University of impact of implementing an interoperable prescription
+incidence and harm of medication errors
+Manchester, Manchester M13 information system on number of errors and resulting
+at transitions of care in the English
+9PL, UK; harm.
+r achel. a.e lliott@ manchester. Results Annually, around 1.8 million (95% credibility NHS and estimates the impact of an
+ac.u k interoperable prescription information interval (CrI) 1.3 to 2.6 million) medication errors were
+estimated to occur at hospital transitions in England, system on reducing errors.
+Received 24 August 2023
+Accepted 15 December 2023 affecting approximately 380 000 (95% CrI 260 397
+to 539 876) patient episodes. Harm from these errors HOW THIS STUDY MIGHT AFFECT
+affects around 31 500 (95% CrI 22 407 to 42 906) RESEARCH, PRACTICE OR POLICY
+patients, with 36 500 (95% CrI 25 093 to 52 019) ⇒ Countries signed up to the WHO’s
+additional bed days of inpatient care (costing around Medication Without Harm Challenge
+£17.8 million (95% CrI £12.4 to £24.9 million))
+can use our findings to inform local
+and >40 (95% CrI 9 to 146) deaths. Assuming the
+decision- making on the estimated
+implementation of an interoperable prescription
+benefits of implementing an
+information system could reduce errors by 10% and
+interoperable prescription information
+50%, there could be 180 000–913 000 fewer errors,
+3000–15 800 fewer people who experience harm and transfer system.
+© Author(s) (or their
+4–22 lives saved annually. ⇒ Our findings could be used in employer(s)) 2024. Re- use
+permitted under CC BY- NC. No Conclusions An interoperable prescription business cases to support the
+commercial re- use. See rights information system could provide major benefits investment in the infrastructure
+and permissions. Published by for patient safety. Likely additional benefits include required to establish an effective
+BMJ. healthcare professional time saved, improved patient
+interoperable system.
+experience and care quality, quicker discharge
+To cite: Camacho EM,
+Gavan S, Keers RN, et al. and enhanced cross- organisational medicines
+BMJ Qual Saf Epub ahead of optimisation. Our findings provide vital safety and
+INTRODUCTION
+print: [please include Day economic evidence for the case to adopt interoperable
+Month Year]. doi:10.1136/ prescription information systems. An estimated 237 million medication
+bmjqs-2023-016675 errors occur during the medication
+Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675 1
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as
+10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Original research
+process in England annually, costing the National computable medication and prescription information
+Health Service (NHS) £98 million per year, consuming across the NHS enabling seamless transfer of care and
+over 180 000 bed days, and contributing to around ultimately a patient-c entred consolidated medication
+1700 deaths.1 Medications are a key cause of prevent- record’.16 17 In simple terms, this means that the aim
+able patient harm globally.2 WHO’s ‘Third Global of the current initiative is to allow fully interoperable
+Patient Safety Challenge: Medication Without Harm’ access to all sources of information about a patient’s
+aimed to reduce the global level of severe, avoidable medication. In the future, the ultimate aim is to have
+harm related to medications by 50% between 2017 one patient-c entred consolidated medication record,
+and 2022.3 One key area was medication safety in tran- to which there will be fully interoperable access. There
+sitions of care, highlighting the need to improve medi- is no evidence to support the patient safety impact
+cation safety through leadership, medicines reconcili- of implementing a fully interoperable prescription
+ation capacity and capability, patient partnership and information system across England, so NHS England
+improving information quality and availability.4 commissioned us to estimate the potential patient
+Access to accurate prescribing information is key to safety impact. The evidence directly linking medica-
+patient care, especially when they move from one care tion errors to patient harm and/or costs is also sparse.
+setting to another, such as admission to and discharge Our objectives were (1) to estimate the number and
+from hospital. However, there are often unintended burden of medication errors associated with prescrip-
+discrepancies and deficiencies in prescribing informa- tion information transfer within the NHS in England
+tion provision, leading to clinically important medi- and (2) to estimate the patient safety benefits of imple-
+cines being omitted or being given inappropriately.5 menting an interoperable prescription information
+Fragmented, inconsistent prescribing information system in reducing these errors.
+transfer between settings jeopardises patient safety and
+complicates the provider’s role of assessing and treating METHODS
+patients.6 Over 60% of patients may have at least one This study used published evidence and stakeholder/
+unintended medication at hospital admission.7 Over expert input to estimate the annual prevalence, patient
+40% of patients may experience postdischarge medi- harm and NHS costs of undetected transition medi-
+cation error(s) which can result in avoidable patient cation errors in England in the absence of an inter-
+harm and healthcare costs.1 8 9 operable prescription information system. Building
+Across many sectors, there have been huge leaps on the methods used in our previous work to estimate
+in technology development to enable information medication errors in England,1 we developed a prob-
+systems to share data digitally, often referred to as abilistic mathematical model. We used this model to
+system interoperability. Enabling the digital sharing estimate the effect of implementing an interoperable
+of prescription information across care settings prescription information system on the rate of transi-
+could reduce the prevalence of information transfer tion medication errors and associated harm and costs.
+errors and the associated risk of avoidable harm The approach is described below, with additional
+to patients.10–12 The development of interoperable details reported in online supplemental material. We
+systems to facilitate digital medicines reconciliation presented our analysis to the NHS Digital Interoper-
+has shown promise in reducing time taken to complete able Medicine Standards working group as a source
+the process and to further reduce unintentional of expert opinion on the validity of our assumptions.
+discrepancies, mostly focused on hospital admission
+and discharge.13 14 However, previous work is based Transition medication errors and harm
+on small-s cale, qualitative or review studies, and/or A medication error may be defined as: ‘Any prevent-
+relate to electronic prescribing interventions which are able event that may cause or lead to inappropriate
+not fully interoperable. Furthermore, the impact on medication use or patient harm while the medica-
+medication errors and associated harms has not been tion is in the control of the healthcare professional,
+estimated in a way that can support decision making patient or consumer’.18 The outcomes used in this
+about the commissioning of these systems. study are medication errors occurring at transitions of
+There is a nationwide initiative by the NHS in care that involve the transfer of prescription informa-
+England to introduce interoperability into all NHS tion, referred to as transition medication errors. This
+healthcare and social care settings including prescrip- excludes intentional medication changes during the
+tion information as part of the NHS Long Term Plan medication reconciliation process. Types of transition
+and digital transformation agenda and the govern- medication errors include omissions, extra medicines,
+ment’s Health and Social Care Committee’s commit- duplicated medicines, wrong dose, wrong frequency,
+ment to the digitisation of the NHS.15 This has been wrong timing, wrong formulation and acute medicines
+operationalised as key components of ‘ISN DAPB4013’ prescribed for chronic use.6
+which is an Information Standard introduced into There are multiple transitions that can involve infor-
+the NHS in England in 2023, to contribute to the mation transfer. In this study, we focus on four infor-
+wider aim of the NHS ‘to create fully interoperable, mation transfer settings: primary care to secondary
+2 Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as
+10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Original research
+care (hospital admission); secondary care to primary within one hospital setting. The NHS Long Term Plan
+care (hospital discharge); intrahospital transition has a commitment to eliminate paper prescribing in
+(where there is transfer of information from one elec- hospitals and introduce digital prescribing across the
+tronic prescribing system to another, including both entire NHS by 2024,21 so in consultation with service
+inpatient and outpatient care); interhospital transition. providers and policy makers, we have assumed that
+Transitions excluded were ambulance/paramedic care; prior to introduction of the prescribing information
+when patients change primary care practice; mental system, all hospitals in England:
+health and other specialist services such as sexual
+► have electronic prescribing for standard inpatient wards
+health, private hospitals (separate governance struc-
+(therefore no discrepancies caused by manual chart
+tures); devolved nations (Wales, Scotland, Northern
+rewrites are included in our estimates);
+Ireland); hospital prescribing to dispensing; outpa-
+► did not have 100% interoperability between standard
+tient/emergency care to community pharmacy.
+inpatient ward electronic prescribing systems and other
+Harm caused by medication is referred to as an
+electronic prescribing systems (such as emergency
+adverse drug event (ADE).6 ADEs can occur even
+departments, intensive care, theatres);
+when the medicine is prescribed appropriately (eg,
+► did not have 100% interoperability between electronic
+due to unknown allergies), this is an adverse drug reac-
+prescribing systems in different hospitals.
+tion and are not generally considered to be prevent-
+able. However, if there are questions about whether
+PICO framework
+the prescription was appropriate this is a medication
+The analysis conducted is summarised in the following
+error. Some medication errors do not lead to harm,
+others can lead to serious harm.19 Any resultant ADE PICO framework:
+following a medication error is considered ‘prevent- ► Population: people taking medicines at defined care
+able’ or ‘avoidable’. We use avoidable ADEs to capture transitions.
+harm caused by a medication error. For this analysis, ► Intervention: digitally enabled interoperable prescrip-
+we have measured the burden of harm from transi- tion information system (rolled out across NHS care
+tion medication errors using hospitalisations, length of settings in England and allowing access to a single,
+hospital stay and deaths. These were the only objective up-t o-d ate, electronic prescribing record for each
+measures of the burden of harm that could be esti- patient).
+mated from the available data. The cost perspective ► Comparator: manual medicines information transfer
+taken was that of NHS England, cost year 2020–21. (which can include use of systems that provide access
+Annual costs were estimated by attaching publicly to digital information, but requires manual transfer to
+available unit costs to hospital admissions. another medicines information system).
+► Outcomes: transition medication errors, hospitalisa-
+Key assumptions tions, length of hospital stay, readmissions, deaths.
+Most hospitals in England employ some form of medi- The intervention can be described as the ability to
+cines reconciliation which is effective in reducing digitally migrate fully interoperable, computable medi-
+transition medication errors.5 13 14 Medicines recon- cation and prescription information from the medica-
+ciliation can be defined as ‘the process of identifying tion record for a patient in one setting (such as general
+the most accurate list of a patient’s current medicines
+practice) into another setting (such as secondary care).
+including the name, dosage, frequency and route and
+This is the key component of ISN DAPB4013 which
+comparing them with the current list in use, recog- is being introduced across the NHS in England.16 17
+nising and documenting any discrepancies, thus
+It currently requires the intervention of a healthcare
+resulting in a complete list of medications’.20 Digitally
+professional to carry out this migration, but does not
+enabled medicines reconciliation cannot take place
+require any manual re-k eying of information. There-
+in the absence of a healthcare professional already in
+fore, we assume that this intervention will be carried
+situ to carry out some form of ‘standard’ medicines
+out as an addition to, or adaptation of, standard medi-
+reconciliation. Therefore, our estimate of the error
+cation reconciliation. It is planned that eventually all
+rate prior to implementation of an interoperable
+settings will have this functionality, but the present aim
+prescription information system includes transition
+to ensure that this functionality exists in key transitions
+medication errors that would be expected (and unde-
+is detailed above. Currently only prescribed medica-
+tected) in the presence of standard medicines reconcil-
+iation (which may include access to non- interoperable tions are included in the system, but future iterations
+digital prescription information). In addition, digitally may allow inclusion of over-t he-c ounter medication.
+enabled medicines reconciliation cannot take place in Currently, patient consent is not required for this
+the absence of electronic prescribing systems. At the transfer of information between settings as the data do
+time of this work, not all English hospitals had elec- not move outside NHS systems. The comparator can
+tronic prescribing in place for inpatients, with varying be described as standard medication reconciliation as
+patterns of electronic prescribing systems existing defined above.
+Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675 3
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as
+10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Original research
+Rapid literature reviews at admission, intrahospital and interhospital tran-
+Three rapid literature reviews were conducted which sition errors,31 and the number of hospitalisations
+are each described in more detail in online supple- (readmissions) and deaths associated with errors at
+mental material. For each review, systematic searches discharge.32 33 The key assumption is that definitely
+for studies were undertaken from February to July avoidable ADEs approximate the harm from medi-
+2022 via contact with experts in the field; searching cation errors; hence these studies were considered
+of electronic databases; checking of bibliographies and acceptable. Due to lack of primary data, it was neces-
+citation searching of retrieved papers (including grey sary to assume that the proportion of errors resulting
+literature). We used a comprehensive pearl-g rowing in harm at admission31 was the same at intrahospital or
+and iterative approach to deal with the complexity interhospital transitions.
+of finding published work in this area, a challenge
+common to this type of public health topic.22 We Probability distributions
+started with key reviews,23 24 the WHO report4 and To incorporate uncertainty associated with model
+other publications with which the team were familiar parameters, we used Monte Carlo simulation. Model
+to allow development of an initial search strategy, parameters were selected 1000 times at random from
+along with extracting reviews from reviews of reviews. a specified probability distribution. The 1000 simula-
+Databases searched were Medline, Embase, DARE, tions provided a point estimate (the mean of the simu-
+Cochrane, PsycINFO, CENTRAL, CINAHL, Web lated values) and measure of uncertainty (the 95%
+of Science from 2000 to June 2022. We carried out credibility interval (CrI) of the simulated values). There
+citation searches and chain searches of all sources is a 95% probability that the true value lies within the
+found. Non-i ndexed journals publishing in this area range of the CrI. We did this for parameters where
+were hand- searched (in June 2022): Journal of Medi- the necessary data (eg, SE, 95% CI or numerator and
+cines Optimisation, International Journal of Pharmacy denominator) were provided in the source publication.
+Practice, Research in Social and Administrative Phar- A beta distribution was used for parameters which
+macy, International Journal of Clinical Pharmacy and were probabilities of events occurring (error detection,
+European Journal of Hospital Pharmacy. Conference ADE, avoidability of ADE, ADE leading to harm). A
+abstracts were excluded. The review included full- log-n ormal distribution was used for effect sizes (OR
+text journal publications only and studies reported in of detecting errors through medicines reconciliation).
+English. Quality assessment of included studies was The specific distributions used are reported alongside
+undertaken,25 summary tables and narrative syntheses the model parameters in table 1.
+were produced. Authors were not routinely contacted.
+Estimating the impact of implementing interoperable
+Estimating the prevalence of transition medication prescription information systems on transition
+errors medication errors
+The parameters used to estimate the prevalence of We were unable to identify any literature relevant to
+transition medication errors are reported in table 1. the English health service that could be used to esti-
+To avoid overestimating the number of transition mate the impact of implementing an interoperable
+medication errors, we first excluded errors that prescription information system. We identified a meta-
+would be detected by standard medicines reconcilia- analysis of various ‘electronic medication reconcilia-
+tion.26 27 Transition medication error prevalence was tion’ interventions which reported a pooled effect size
+then defined as the total number of items prescribed (a relative risk of 0.55).14 However, the interventions
+or dispensed with an undetected medication error in some of the studies used to generate this estimate
+divided by the total number of items prescribed.26 27 were not necessarily interoperable, so we looked for
+The number of patients with an error was estimated further evidence around effect size. We found two
+by dividing the number of items with an error by the studies of interventions relevant to a UK setting,
+mean number of items prescribed per person at the with clear reporting of a relevant primary outcome
+respective transitions.28–30 measure. A quasi-e xperimental study from a public
+hospital in Spain compared medication discrepancies
+Estimating the burden of transition medication errors on admission prescription orders when the lead physi-
+The parameters used to estimate the burden of tran- cian did or did not have access to an electronic list of
+sition medication errors are reported in table 1. The preadmission medications. It reported a relative risk
+primary approach used was to identify available for medications at admission being prescribed with an
+England- based case studies of estimates of burden unintended discrepancy of 0.53 (postimplementation
+from ADEs and extrapolate to estimate the impact vs preimplementation).34 A quasi-e xperimental study
+for England per annum. Data from non- English case from a single hospital in the USA reported the effect of
+studies were used to supplement this evidence where implementing an interoperable system on medication
+necessary. We estimated increased length of hospital- errors at discharge was a relative risk of 0.69.35 Both
+isations and deaths associated with transition errors studies counted errors before and after implementation
+4 Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as
+10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Original research
+Table 1 Parameters used to estimate the number of medication errors per year at hospital transitions and associated harm
+Description Parameter Source
+Annual hospital activity in England
+Number of FAEs 17 127 498 episodes NHS Digital28
+Number of overnight admissions: total number of 9 741 243 admissions NHS Digital28
+FAEs minus number of day case finished consultant
+episodes (7 386 255)
+Number of intrahospital transitions: 71.7% of 1 746 118 transitions Boncea et al30; expert opinion
+patients in an observational study of elderly (median
+age: 79 years) patients had at least one intrahospital
+transfer during their overnight admission.
+Intrahospital transfers in general population was
+assumed to be one-q uarter of this rate (ie, 17.9% of
+overnight admissions) supported by expert opinion.
+N umber of interhospital transitions: estimated from 222 794 transitions Ambulance System Indicators for England
+ambulance activity data (category 1–4 interfacility (2021–22)29
+transfer incidents)
+Number of FAEs discharged: same as total number 17 127 498 discharges NHS Digital28
+of FAEs
+Annual prescribing activity in England
+Mean number of items prescribed at inpatient 4.78 items Ashcroft et al26
+admission, also assumed to be number of items
+prescribed at intrahospital and interhospital
+transitions
+Mean number of items per discharge prescription 4.9 items Lloyd et al27
+Number of items prescribed at overnight hospital 46 521 652 items Calculated from number of event and items
+admission prescribed
+Number of items prescribed at intrahospital 8 339 006 items
+transitions
+Number of items prescribed at interhospital 1 064 006 items
+transitions
+Number of items prescribed at discharge 83 518 624 items
+Prevalence of errors
+RRR in medication errors at transfer following RRR 0.13 Redmond et al5
+medicines reconciliation (vs no medicines (log- normal dist; alpha: −2.04; beta: 0.163)
+reconciliation)
+Medication error rate at admission and interhospital Undetected by meds rec Ashcroft et al26; calculated using Redmond
+transition 1.99% et al5
+Detected by meds rec: 13.28%
+(beta dist; alpha: 5910; beta: 38 586)
+Total: 15.30%
+Medication error rate at intrahospital transition Undetected by meds rec Ashcroft et al26;
+Detected by meds rec: 3.94% 0.58% calculated using Redmond et al5
+(beta dist; alpha: 598; beta: 14 591)
+Total: 4.50%
+Medication error rate at discharge Undetected by meds rec Ashcroft et al26; calculated using Redmond
+Detected by meds rec: 6.31% 0.94% et al5
+(beta dist; alpha: 1989; beta: 29 513)
+Total: 7.20%
+Harm from errors
+Errors at inpatient admission, intrahospital and 14.7% Davies et al31
+interhospital transition leading to harm: (beta dist; alpha: 535; beta: 3107)
+Proportion of inpatient episodes where an ADE occurs 6.4%
+Proportion of ADEs that are definitely avoidable (ie, (beta dist; alpha: 45; beta: 665)
+harm from an error) 0.9%
+Proportion of inpatient episodes with an ADE (ie, 17.9%
+definitely avoidable ADE) (14.7%×6.4%)
+Proportion of ADEs related to drugs that were
+initiated prior to hospitalisation (131 out of 733
+ADEs)
+Continued
+Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675 5
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as
+10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Original research
+Table 1 Continued
+Description Parameter Source
+Burden of harm from errors at inpatient admission, 26.8% Davies et al31
+intrahospital and interhospital transition: proportion (beta dist; alpha: 147; beta: 398)
+of people with extended admission due to harm 4 days
+mean additional length of stay
+Burden of harm from errors at inpatient admission, 0.18% Davies et al31
+intrahospital and interhospital transition: proportion (beta dist; alpha: 1; beta: 544)
+of people who have an ADR that die as a result
+Errors at discharge leading to harm: proportion of 21.1% Parekh et al32
+people with medication- related harm following (beta dist; alpha: 87; beta: 326)
+hospital discharge who were readmitted to hospital
+Burden of harm from errors at discharge: median 6 days Osanlou et al33
+duration of admissions due to ADE
+Burden of harm from errors at discharge: proportion 0.42% Osanlou et al33
+of people admitted to hospital due to an ADE who
+died as a result
+Unit costs
+Cost per excess bed day in hospital (weighted mean £372 NHS schedule of reference costs43
+of elective and non-e lective) NHSCII pay and prices index for inflation44
+Cost of a non- elective inpatient admission £3626 NHS schedule of reference costs45
+NHSCII pay and prices index for inflation44
+ADE, adverse drug event; ADR, adverse drug reaction; Dist, distribution; FAEs, finished admission episodes; meds rec, medication reconciliation; NHS,
+National Health Service; RRR, relative risk reduction.
+of a new system and so any new errors would be hospital (44% of all transition medication errors);
+included. While both studies were from high- income intrahospital transitions (3% of all transition medi-
+settings, they only included complex patients (those cation errors) and interhospital transitions (1% of all
+prescribed ≥3 or ≥5 drugs, respectively) and so may transition medication errors).
+not be generalisable to the health service in England. Over a year, the total number of patient episodes
+Also, both are single centre before and after studies, estimated to experience harm from a transition medi-
+with high risk of confounding. cation error is 31 604 (95% CrI 22 407 to 42 906).
+Due to the poor quality of evidence around effect Per year, these errors are estimated to result in 36 704
+size, we used an iterative analysis approach to estimate (95% CrI 25 093 to 52 019) additional bed days of
+the impact of a range of potential effect sizes. We simu- inpatient care, costing around £17.8 million (95% CrI
+lated the impact of reducing the number of transition £12.4 to £24.9 million), and causing 45 deaths (95%
+medication errors (the mean number of errors at each CrI 9 to 146). There is particular uncertainty around
+transition across the 1000 simulations) by 10%, 20%, the estimated number of deaths (as demonstrated by
+30%, 40%, 50% and 60%. We calculated the impact the wide CI). This is because this is a relatively rare
+of reducing the number of errors on the number of outcome.
+patients experiencing harm from an error, bed days of Figure 1 shows the estimated number of medica-
+inpatient care due to an error (and associated cost) and tion transition errors per 100 000 hospital admissions
+deaths due to an error. (panel A) and the total cost of excess bed days due
+to harm from errors, also per 100 000 hospital admis-
+RESULTS sions (panel B) per year. The shorter height of the bars
+Table 1 summarises the model parameters used to esti- for intrahospital and interhospital transfers reflects
+mate the number of transition medication errors and that a small proportion of admitted patients are trans-
+associated harm and costs. ferred during their stay.
+The estimated annual number and burden of medi-
+cation errors at hospital transition are summarised in Estimated impact of implementing an interoperable
+table 2. The total annual number of undetected tran- prescription information system
+sition medication errors (in the presence of standard Table 3 shows the estimated annual impact of
+medicines reconciliation but without an interoperable reducing the number of transition medication errors
+prescription information system) was estimated to by 10%–30%, and 50% (results for all scenarios
+affect 1 826 113 (95% CrI 1 255 039 to 2 602 101) modelled are presented in online supplemental mate-
+items prescribed per year. The relative contribution of rial table S1). For each 10% reduction in the number
+each care transition was admission to hospital (52% of transition medication errors, there would be an esti-
+of all transition medication errors); discharge from mated 3160 fewer patient episodes where harm from
+6 Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as
+10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Original research
+an error occurs, 3670 bed days prevented (at a cost
+saving of £1 755 088), and 4 deaths prevented over
+a year. A more effective interoperable prescription
+information system has the potential to save more lives
+and resources.
+DISCUSSION The total number of undetected transition medication errors (in the presence of standard medicines recon- ciliation) was estimated to be 1 826 113 in England
+per year, with at least one transition medication error
+occurring in 378 885 patient episodes. The total
+number of patient episodes where harm from a tran-
+sition medication error occurs is estimated to be 31
+604, with the majority (52%) resulting from errors at
+hospital admission. Transition medication errors are
+estimated to result in 36 704 additional bed days of
+inpatient care annually, costing around £17.8 million,
+with 45 people estimated to die. Per 10% reduction in
+the number of errors, there would be over 3160 fewer
+patient episodes where harm from errors is experi-
+enced and over £1.8m saved in- hospital admission and
+readmission costs. Based on the international litera-
+ture identified, the relative risks of medication errors
+following implementation of an interoperable prescrip-
+tion information system could reduce transition medi-
+cation errors by around 30%–50%,14 34 35 although
+generalisability of these estimates to the UK setting is unclear. Annually, this would result in between 9 481
+and 15 802 fewer patient episodes where harm from a
+transition medication error is experienced, 11 011 and
+18 352 fewer bed days of inpatient care and around
+£5.3 and 8.8 million and 13 and 22 lives saved.
+Comparison with published estimates of medication
+error prevalence and burden
+We are not aware of another published estimate of numbers and burden of transition medication errors
+specifically. However in 2007, the National Patient
+Safety Agency (NPSA) estimated NHS costs of
+preventable medication errors (not restricted to tran-
+sition errors) to be £774 million, at 2005–6 prices
+(£1.1 billion at 2020–21 prices).36 37 They included
+definitely or probably preventable ADEs in their esti-
+mates. In our subsequent work, we only included defi- nitely preventable ADEs which gave estimated NHS
+costs of preventable medication errors of £98 million, at 2015–16 prices (£109 million at 2020–21 prices).1
+In the current analysis, we have restricted our primary
+estimate to include only definitely avoidable ADEs. A
+broader definition of avoidability could increase our
+estimates up to 10-f old. However, if this broader defi-
+nition of avoidability is used, then it should be noted
+that widespread adoption of an interoperable prescrip-
+tion information system would only prevent a subset of these transition medication errors (ie, the avoidable
+ones).
+Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675 7
+dradnats
+fo
+ecneserp
+eht ni( noitisnart
+fo
+tniop
+a ta
+rorre
+noitacidem
+eno
+tsael
+ta
+gnicneirepxe
+sedosipe
+tneitap
+fo
+rebmun
+dna srorre
+noitacidem
+noitisnart
+fo
+rebmun
+launna
+detamitsE
+2 elbaT
+mrah
+detaicossa
+dna
+)noitailicnocer
+senicidem
+latoT
+egrahcsiD
+noitisnart
+latipsohretnI
+noitisnart
+latipsohartnI
+noissimdA
+)IC
+%59(
+raey
+rep
+rebmuN
+311 628 1
+496
+708
+746 12
+582 05
+784
+649
+noitacidem
+noitisnart
+fo
+rebmuN
+)101
+206
+2
+ot 930 552 1(
+)538
+351
+1
+ot
+704
+555(
+)357
+03
+ot
+468 41(
+)509
+27
+ot
+188 43(
+)806
+443
+1
+ot 788
+946(
+srorre
+588 873
+736
+561
+3354
+925 01
+681
+891
+htiw
+sedosipe
+tneitap
+fo
+rebmuN
+)678
+935
+ot 793 062(
+)126
+632
+ot
+009
+311(
+)9346
+ot
+2113(
+)662
+51
+ot
+4037(
+)055
+182
+ot 180
+631(
+noitacidem
+noitisnart
+eno
+tsael
+ta
+rorre
+406 13
+310
+41
+473
+968
+843
+61
+mrah
+htiw
+stneitap
+fo
+rebmuN
+)609
+24 ot 704 22(
+)910
+02
+ot 6369(
+)684
+ot 172(
+)7411
+ot 136(
+)452
+12
+ot 968
+11(
+rorre
+noitacidem
+noitisnart
+morf
+407 63
+907
+71
+404
+839
+356
+71
+mrah
+ot
+eud
+syad
+deb
+ssecxE
+)910
+25 ot 390 52(
+)782
+62
+ot
+036
+11(
+)645
+ot 682(
+)8031
+ot 956(
+)778
+32
+ot 815
+21(
+832 367 71£
+813
+407
+01£
+930
+051£
+717
+843£
+561 065
+6£
+syad
+deb
+ssecxe
+fo tsoC
+)101
+458
+42£
+ot
+800 463 21£(
+)696
+192
+51£
+ot
+977
+063
+7£(
+ot
+793
+601£(
+)851
+684£
+ot
+638
+442£(
+)403
+378
+8£
+ot
+699 156
+4£(
+)349
+202£
+54
+21
+1
+2
+03
+mrah
+ot
+eud
+shtaeD
+)641 ot 9(
+)81
+ot 8(
+)3 ot 0(
+)6 ot 0(
+)911
+ot 1(
+.rebmun
+elohw
+tseraen
+eht
+ot
+detroper
+era
+hcihw
+elbat
+eht
+ni
+seulav
+morf detaluclac
+yltcerid
+eb
+tonnac
+erofereht
+seulav
+dednuor
+-non
+morf
+detaluclac
+era
+nmuloc
+’latoT‘
+eht
+ni
+srebmuN
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as 10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of Oulu
+Medical
+Original research
+Figure 1 Estimated total number of transition medication errors (A) and total cost of excess bed days due to harm from errors (B) per 100 000 hospital
+stays, with 95% credibility interval.
+Strengths and limitations we have had to exclude many transitions (such as to
+The limitations of this work stem largely from lack of and from nursing homes and mental health settings).
+data on medication errors and their sequalae. We had Similarly, we have only measured the harm and costs
+to make a number of assumptions, as detailed in the
+associated with transition medication errors using
+‘Methods’ section. The estimates presented here are
+objective outcomes reported robustly in published
+likely to be indicative rather than definitive because
+literature (hospital (re)admissions and death). This
+of this. Where assumptions have been made, we have
+does not incorporate psychological harm or long-
+used conservative estimates. To illustrate uncertain-
+term sequalae associated with medication errors or
+ties in the underlying data, we have conducted a
+costs from a societal perspective (eg, inability to work
+probabilistic estimation of the number of transition
+or loss of income).
+medication errors and associated harm and costs
+There will also be some patients who experience
+and reported CIs around mean estimates. We have
+harm from transition medication errors who are
+explored the impact of implementing an interoper-
+able prescription information system at a range of treated in emergency departments, by paramedics or
+plausible effectiveness levels. As more robust primary in primary care services. The impact of excluding care
+data emerge on the effectiveness of these systems, our transitions and other harms associated with medica-
+estimates can be further refined. Due to a lack of data, tion errors will be an underestimate of the benefit of
+8 Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as
+10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Original research
+Table 3 Number and burden of transition medication errors and estimated reduction for different effect sizes following implementation
+of an interoperable prescription information system
+Admission Intrahospital transition Interhospital transition Discharge Total
+Number of transition medication errors
+Preimplementation 946 487 50 285 21 647 807 694 1 826 113
+1 0% fewer errors 94 649 5029 2165 80 769 182 611
+30% fewer errors 283 946 15 086 6494 242 308 547 834
+50% fewer errors 473 243 25 143 10 824 403 847 913 057
+Number of patients episodes with harm from a transition medication error
+Preimplementation 16 348 869 374 14 013 31 604
+10% fewer errors 1635 87 37 1401 3160
+30% fewer errors 4904 261 112 4204 9481
+5 0% fewer errors 8174 434 187 7007 15 802
+Excess bed days due to transition medication errors
+Preimplementation 17 653 938 404 17 709 36 704
+10% fewer errors 1765 94 40 1771 3670
+30% fewer errors 5296 282 121 5313 11 011
+50% fewer errors 8826 469 202 8855 18 352
+NHS cost of excess bed days due to transition medication errors
+Preimplementation £6 560 165 £348 717 £150 039 £10 704 318 £17 763 238
+10% fewer errors £656 016 £34 872 £15 004 £1 049 196 £1 755 088
+3 0% fewer errors £1 968 049 £104 615 £45 012 £3 147 589 £5 265 265
+50% fewer errors £3 280 082 £174 358 £75 019 £5 245 981 £8 775 442
+Deaths due to transition medication errors
+Preimplementation 30 2 1 12 45
+10% fewer errors 3 0 0 1 4
+30% fewer errors 9 0 0 4 13
+50% fewer errors 15 1 0 6 22
+NHS, National Health Service.
+implementing an interoperable prescription informa- between hospitals and primary care. However, within
+tion system in the NHS in England. a single hospital there may be more than one electronic
+A key limitation is the assumption that definitely prescribing system in use. It is unclear to what extent
+avoidable ADEs correspond to medication errors. these systems are currently interoperable, and this is
+There was minimal data directly linking transition likely to be different across different hospitals. In addi-
+medication errors to outcomes and costs. Therefore, tion, provision of standard medicines reconciliation is
+we based our estimates on English observational data variable across English hospitals, so the baseline tran-
+of healthcare resources used to treat ADEs that used sition medication error rates in individual trusts may
+published criteria to identify what proportion of all be higher or lower than the measure used in our work.
+ADEs observed were avoidable. It was necessary Further investigation into the effectiveness of applying
+to assume that the occurrence of avoidable ADEs interoperability standards compared with standard
+and their associated burden and cost can be used to medicines reconciliation without interoperability in
+approximate the burden and cost of harm from tran- the NHS context would be valuable.
+sition medication errors. This generates a conserva- We have not considered the cost of setting up
+tive estimate of the number of transition medication interoperable prescription information systems in our
+errors, which may be interpreted by some commen- analysis. The cost of doing so is likely to be highly
+tators as underestimating the total. We could have heterogeneous between settings and within an organ-
+included ‘possibly’ avoidable ADEs, which according isation dependent on the reality of current systems,
+to the source paper by Davies et al,31 was an additional the size and complexity of services provided and the
+46.9% of events, however this would have markedly patient population and other infrastructure factors.
+increased the uncertainty. Our findings can be used by commissioners to inform
+The real picture in English hospitals is also more decision- making on their approach to operationalising
+complex than it was necessary to assume for this anal- an interoperable prescription information system in
+ysis. It is anticipated that all English hospitals will have their own context. We have provided estimates for
+electronic prescribing systems in place for inpatients by how much benefit would need to be realised in order
+the end of 2023, which will allow a degree of linkage, to offset implementation costs which can be used in
+Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675 9
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as
+10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Original research
+local financial planning. We have also provided esti- A more explicit role for patients, carers and families
+mates of the prevalence of transition medication errors is essential to improve medication safety in transitions
+(and associated costs) per 100 000 hospital admissions of care.4 There have been attempts to include patients
+so that our findings can be used similarly by commis- in electronic discharge,40–42 and WHO has developed
+sioners internationally. a free ‘Medsafe’ app (https://www.iapo.org.uk/news/
+The results may underestimate the benefits on an 2019/jul/18/who-medsafe-app) to support patients
+interoperable prescription information system accrued holding an up-t o- date medicines record. In their
+in primary care. The impact of transition medication report on medication safety at care transitions, WHO
+errors postdischarge will often be managed in primary identified information technology systems and elec-
+care leading to increased general practitioner, phar- tronic health records as a key strategy for improving
+macist and administrative staff workload. Therefore, safety.4 They also acknowledged that a key challenge
+reduced transition medication errors from secondary was information sharing between and within health-
+care to primary care will potentially free up time care settings and that cost- benefit modelling could
+for staff in these groups. Future research should be be used to gain the support of healthcare leaders and
+performed to identify the impact of reducing transition other stakeholders in creating change. Interoperable
+medication errors on primary care provider resources. prescription information systems offer a solution to
+Another consideration for implementing an interop- the information sharing challenge and our analysis
+erable prescription information system is that while provides an estimate of the potential benefits of imple-
+transcription errors may be reduced, other prescribing menting this type of system. Our findings can be used
+errors may not be. It is important that prescribers do to inform decision making on the implementation of
+not assume that technology will detect errors and must strategies to improve medication safety at care transi-
+remain vigilant. tions, which is especially relevant for countries partic-
+ipating in the WHO’s Medication Without Harm
+Challenge.
+Policy implications/recommendations Audits need to be carried out to measure the number
+A recent report by the King’s Fund describes the steps of transition medication errors, including at interhos-
+needed to help interoperability improve patient care.38
+pital and intrahospital transfer. These data are needed
+Fundamental to this is the need for positive working
+both prior to and after interoperability is introduced
+relationships between staff and care leaders, and
+across the NHS in England to be able to assess the
+an enabling environment which aligns capacity for
+impact on transition medication errors.
+change, skills development (including digital literacy)
+for the NHS workforce and information governance.
+The existence of interoperable prescription informa- CONCLUSIONS
+tion systems alone is not sufficient to deliver benefits Transition medication errors persist despite standard
+to patients. The success of implementing interoperable medicines reconciliation, and an interoperable
+systems will also be promoted where there is good staff prescription information system has the potential to
+buy-i n and a culture of agreement about how useful it substantially reduce transition medication error preva-
+is by stakeholders.39 These systems do not operate in lence, associated harm and healthcare costs. Additional
+a vacuum and require a healthcare professional to be potential benefits include healthcare professional time
+already undertaking medicines reconciliation so that saved, improved patient experience and care quality,
+they can realise the added benefit of interoperability. quicker discharge and enhanced cross- organisational
+The widespread adoption and active use of interoper- medicines optimisation. We have presented a range of
+able systems across the NHS will be pivotal to realising plausible effect sizes for the impact of implementing
+the benefits of interoperability and a key step towards an interoperable prescription information system on
+the ultimate aim of having one patient-c entred consol- the prevalence of medication errors. This is vital safety
+idated medication record, to which there will be fully and economic evidence which can inform evidence-
+interoperable access. based commissioning.
+It is likely that the introduction of interoperability
+solutions will allow more, and better, medicines recon- Twitter Elizabeth M Camacho @e_camacho_phd
+ciliation episodes to be done overall. This further Contributors RAE, EMC, SG, RNK designed, conducted
+and drafted the rapid reviews. RAE, EMC and SG designed,
+impact on the reduction of transition medication errors
+conducted and drafted the economic analysis with input from
+has not been taken into account in our estimates. The RNK. SG led on the analysis on the prevalence of transition
+ability of interoperability solutions to support more medication errors, supported by RNK. EMC led on the analysis
+on the economic burden of transition medication errors. RAE
+responsive and timely medicines reconciliation during
+and EMC led on the analysis of interoperability benefits.
+care transfers requires service expansion and reconfig- AC, EMC and RAE drafted the plain English summary. AC
+uration. Development and resourcing of hybrid digital/ provided patient and public input prior to funding of this
+study, and throughout subsequent study design, conduct,
+clinical roles to inform technology solution design and
+analysis and drafting. All authors reviewed and approved the
+implementation is required to realise these benefits. final manuscript. RAE is the guarantor for this manuscript.
+10 Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as
+10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Original research
+Funding This study was funded by NHS England. 9 Riordan CO, Delaney T, Grimes T. Exploring discharge
+Competing interests None declared. prescribing errors and their propagation post- discharge: an
+observational study. Int J Clin Pharm 2016;38:1172–81. Patient consent for publication Not applicable.
+10 Aziz C, Grimes T, Deasy E, et al. Compliance with the health
+Ethics approval Not applicable.
+information and quality authority of Ireland national standard
+Provenance and peer review Not commissioned; externally for patient discharge summary information: a retrospective
+peer reviewed.
+study in secondary care. Eur J Hosp Pharm 2016;23:272–7.
+Data availability statement Data sharing not applicable as no 11 Sørensen CA, Jeffery L, Falhof J, et al. Developing and piloting
+datasets generated and/or analysed for this study.
+a cross- sectoral hospital pharmacist intervention for patients
+Supplemental material This content has been supplied by the in transition between hospital and general practice. Ther Adv
+author(s). It has not been vetted by BMJ Publishing Group Drug Saf 2023;14:20420986231159221.
+Limited (BMJ) and may not have been peer-r eviewed. Any
+12 Tolley C, Seymour H, Watson N, et al. Barriers and
+opinions or recommendations discussed are solely those of
+the author(s) and are not endorsed by BMJ. BMJ disclaims opportunities for the use of digital tools in medicines
+all liability and responsibility arising from any reliance placed optimization across the interfaces of care: stakeholder
+on the content. Where the content includes any translated interviews in the United Kingdom. JMIR Med Inform
+material, BMJ does not warrant the accuracy and reliability of
+2023;11:e42458.
+the translations (including but not limited to local regulations,
+clinical guidelines, terminology, drug names and drug dosages), 13 Killin L, Hezam A, Anderson KK, et al. Advanced medication
+and is not responsible for any error and/or omissions arising reconciliation: a systematic review of the impact on medication
+from translation and adaptation or otherwise. errors and adverse drug events associated with transitions of
+Open access This is an open access article distributed in care. Jt Comm J Qual Patient Saf 2021;47:438–51.
+accordance with the Creative Commons Attribution Non 14 Mekonnen AB, Abebe TB, McLachlan AJ, et al. Impact
+Commercial (CC BY-N C 4.0) license, which permits others of electronic medication reconciliation interventions on
+to distribute, remix, adapt, build upon this work non- medication discrepancies at hospital transitions: a systematic
+commercially, and license their derivative works on different
+terms, provided the original work is properly cited, appropriate review and meta- analysis. BMC Med Inform Decis Mak
+credit is given, any changes made indicated, and the use is non- 2016;16:112.
+commercial. See: http://creativecommons.org/licenses/by-nc/4. 15 NHS England. NHS long- term plan: chapter 5: Digitally-
+0/. enabled care will go mainstream across the NHS; 2019.
+16 NHS England- Transformation. New information standard
+ORCID iDs
+Elizabeth M Camacho http://orcid.org/0000-0001-9574-7710 aims to reduce medication errors and improve patient safety.
+Richard Neil Keers http://orcid.org/0000-0001-7854-8154 2021. Available: https://transform.england.nhs.uk/news/new-
+Antony Chuter http://orcid.org/0000-0002-0646-5939 information-standard-aims-to-reduce-medication-errors-and-
+Rachel Ann Elliott http://orcid.org/0000-0002-3650-0168 improve-patient-safety/
+17 NHS England. Digital service manual: NHS service standard
+-17. make your service Interoperable. 2022. Available: https://
+REFERENCES
+service-manual.nhs.uk/standards-and-technology/service-
+1 Elliott RA, Camacho E, Jankovic D, et al. Economic analysis of
+standard-points/17-make-your-service-interoperable
+the prevalence and clinical and economic burden of medication 18 National Coordinating Council (NCC) for Medication Error
+error in England. BMJ Qual Saf 2021;30:96–105. Reporting and Prevention (MERP). Taxonomy of medication
+2 Panagioti M, Khan K, Keers RN, et al. Prevalence, severity, errors. 2022. Available: https://www.nccmerp.org/taxonomy-
+and nature of preventable patient harm across medical medication-errors-now-available
+care settings: systematic review and meta-a nalysis. BMJ 19 Bates DW, Cullen DJ, Laird N, et al. Incidence of adverse
+2019;366:l4185. drug events and potential adverse drug events. implications
+3 World Health Organization. The third WHO global patient for prevention. ade prevention study group. JAMA
+safety challenge: medication without harm. 2018. Available: 1995;274:29–34.
+https://www.who.int/patientsafety/medication-safety/en/ 20 Institute for Healthcare Improvement. Medication
+4 World Health Organization. Medication safety in transitions of reconciliation review. 2022. Available: https://www.ihi.org/
+care; 2019. resources/Pages/Tools/MedicationReconciliationReview.aspx
+5 Redmond P, Grimes TC, McDonnell R, et al. Impact of 21 Department of Health and. Press release: £16 million to
+medication reconciliation for improving transitions of care. introduce digital prescribing in hospitals. 2020. Available:
+Cochrane Database Syst Rev 2018;8:CD010791. https://www.gov.uk/government/news/16-million-to-introduce-
+6 Kennelty KA, Witry MJ, Gehring M, et al. A four- phase digital-prescribing-in-hospitals
+approach for systematically collecting data and measuring 22 Heath A, Levay P, Tuvey D. Literature searching methods
+medication discrepancies when patients transition between or guidance and their application to public health topics:
+health care settings. Res Social Adm Pharm 2016;12:548–58. a narrative review. Health Info Libraries J 2022;39:6–21.
+7 Tam VC. Frequency, type and clinical importance of 10.1111/hir.12414 Available: https://onlinelibrary.wiley.com/
+medication history errors at admission to hospital: a systematic toc/14711842/39/1
+review. Can Med Assoc J 2005;173:510–5. 23 Alqenae FA, Steinke D, Keers RN. Prevalence and nature of
+8 Alqenae FA, Steinke D, Carson-S tevens A, et al. Analysis medication errors and medication- related harm following
+of the nature and contributory factors of medication safety discharge from hospital to community settings: a systematic
+incidents following hospital discharge using national review. Drug Saf 2020;43:517–37.
+reporting and learning system (NRLS) data from England 24 Elliott RA, Camacho E, Campbell F, et al. Prevalence and
+and Wales: a multi-m ethod study. Ther Adv Drug Saf economic burden of medication errors in the NHS in
+2023;14:20420986231154365. England. rapid evidence synthesis and economic analysis of
+Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675 11
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as
+10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Original research
+the prevalence and burden of medication error in the UK. In: in an internal medicine department. Eur J Intern Med
+Policy Research Unit in Economic Evaluation of Health and 2012;23:696–700.
+Care Interventions. Universities of Sheffield and York, 2018. 35 Smith KJ, Handler SM, Kapoor WN, et al. Automated
+25 National Heart, Lung and Blood Institute. National heart, lung communication tools and computer- based medication
+and blood Institute, quality assessment tool for observational reconciliation to decrease hospital discharge medication errors.
+cohort and cross- sectional studies; 2014. Am J Med Qual 2016;31:315–22.
+26 Ashcroft DM, Lewis PJ, Tully MP, et al. Severity and risk 36 National Patient Safety Agency. Safety in doses: medication
+factors for prescribing errors in hospital Inpatients: prospective safety incidents in the NHS, patient safety observatory, Editor;
+study in 20 UK hospitals. Drug Saf 2015;38:833–43. 2007.
+27 Lloyd M, Watmough SD, O’Brien SV, et al. Evaluating the 37 Personal Social Services Research Unit. PSSRU unit costs of
+impact of a pharmacist-l ed prescribing feedback intervention health and social care 2016; 2016.
+on prescribing errors in a hospital setting. Res Social Adm 38 Mistry P, David M, Loreen C, et al. Interoperability Is More
+Pharm 2021;17:1579–87. than Technology: The Role of Culture and Leadership in Joined-
+28 NHS. Hospital admitted patient care activity 2018- 19. up Care. The King’s Fund, 2022.
+2019. Available: https://digital.nhs.uk/data-and-information/ 39 Heeney C, Bouamrane M, Malden S, et al. Optimising
+publications/statistical/hospital-admitted-patient-care-activity/ ePrescribing in hospitals through the interoperability of
+2018-19 systems and processes: a qualitative study in the UK, US,
+29 NHS. Ambulance quality indicators. 2022. Available: Norway and the Netherlands. BMC Med Inform Decis Mak
+https://www.england.nhs.uk/statistics/statistical-work-areas/ 2023;23:211.
+ambulance-quality-indicators/ 40 Dalal AK, Piniella N, Fuller TE, et al. Evaluation of electronic
+30 Boncea EE, Expert P, Honeyford K, et al. Association between health record- integrated digital health tools to engage
+intrahospital transfer and hospital- acquired infection in the hospitalized patients in discharge preparation. J Am Med
+elderly: a retrospective case-c ontrol study in a UK hospital Inform Assoc 2021;28:704–12.
+network. BMJ Qual Saf 2021;30:457–66. 41 de Jong CC, Ros WJG, van Leeuwen M, et al. Exploring the
+31 Davies EC, Green CF, Taylor S, et al. Adverse drug reactions in effects of patients taking a vigilant role in collaborating on
+hospital in- patients: a prospective analysis of 3695 patient- their E- medication administration record. Int J Med Inform
+episodes. PLoS One 2009;4:e4439. 2016;88:18–24.
+32 Parekh N, Ali K, Stevenson JM, et al. Incidence and cost of 42 Walsh EK, Sahm LJ, Bradley CP, et al. The patient-h eld
+medication harm in older adults following hospital discharge: active record of medication status (PHARMS) study:
+a multicentre prospective study in the UK. Br J Clin Pharmacol a mixed-m ethods feasibility analysis. Br J Gen Pract
+2018;84:1789–97. 2019;69:e345–55.
+33 Osanlou R, Walker L, Hughes DA, et al. Adverse drug 43 NHS England. National Schedule of Reference Costs 2017/18.
+reactions, multimorbidity and polypharmacy: a prospective London: NHS England, 2018.
+analysis of 1 month of medical admissions. BMJ Open 44 Jones KC, Burns A. Unit Costs of Health and Social Care 2021.
+2022;12:e055551. Kent: Personal Social Services Research Unit, 2021.
+34 Zoni AC, Durán García ME, Jiménez Muñoz AB, et al. The 4 5 NHS England. National Schedule of Reference Costs 2019/20.
+impact of medication reconciliation program at admission NHS England: London, 2020.
+12 Camacho EM, et al. BMJ Qual Saf 2024;0:1–12. doi:10.1136/bmjqs-2023-016675
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library.
+BMJ
+Qual
+Saf:
+first
+published
+as
+10.1136/bmjqs-2023-016675
+on
+26
+March
+2024.
+Downloaded
+from
+http://qualitysafety.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical

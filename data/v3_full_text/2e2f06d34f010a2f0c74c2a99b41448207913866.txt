@@ -1,0 +1,11434 @@
+Open access Review
+Seamless EMR data access: Integrated
+B
+governance, digital health and M
+J
+H
+e
+the OMOP- CDM a lth
+&
+C
+a
+re
+Christine Mary Hallinan ,1 Roger Ward,1 Graeme K Hart,2 Clair Sullivan,3 In fo
+Nicole Pratt,4 Ashley P Ng ,5,6 Daniel Capurro,2,7 Anton Van Der Vegt,8 rm
+a
+Siaw- Teng Liaw ,9 Oliver Daly,2 Blanca Gallego Luxan,10 David Bunker,8 tic
+s
+Douglas Boyle1 : firs
+t
+p
+u
+P
+ro
+b lis
+h
+tee
+To cite: Hallinan CM, Ward R, ABSTRACT electronic medical record (EMR) data c te d a
+Hart GK, et al. Seamless Objectives In this overview, we describe theObservational into a standardised structured data model. d b s 1
+EMR data access: Integrated Medical Outcomes Partnership Common Data Model The conversion of data has the potential to y c 0 .1
+g an ov d e t r h n e a n O c M e O , d P i - g C it D a M l h . e alth (OMOP- CDM), the established governance processes provide hospitals, health departments, audi- o p y 1 3 6
+B 2 bm 0 M 2 j J h 4 c H ;3 i e - 1 2 a : l 0 e th 2 1 3 0 C - 0 a 1 9 r 0 5 e 0 3 I 9 n . 5 f d o 3 o r i m :1 0.1136/
+e
+O a b
+m
+n y M d h
+p
+O e s
+l
+P
+o
+a e
+y
+l c t t
+e
+r u h a
+d
+r n s e
+i
+s e
+n
+a f r o
+E
+c v r i c
+M
+c m e e
+R
+s e s p d
+d
+r t
+a
+o d o
+t
+v a
+a
+e i t d a l
+r
+e e
+e
+p c r
+p
+s t r
+o
+r o o a
+s
+v n
+i
+n i
+t
+d i
+o
+d c e
+r
+r
+i
+s m
+e
+e
+s
+a s e
+,
+e d l
+a
+a e i
+n
+c r v c a
+d
+e h l r
+d
+e r f e
+e
+r o s c
+m
+r . o m
+o
+rd
+n
+o
+s
+r (
+t
+E e
+r
+M
+a
+e
+t
+f R
+e
+fi ) c
+h
+d i
+o
+e a
+w
+n ta t t i b n o o r s t i s h g , h f t r o s e r g t o a u i p l l a o e t r r o e a r t d s i o t n o a a n l e d a a c n h u d n i r i n e v s e s t e r it s a u i r t t c i i e h o s n p ’ u v s a r n l p u e o a e s b d e l s s e . ,
+rig
+h t, in c lu d
+/b
+m jh c i-2 0 2
+R
+Ac
+e
+c
+c
+e
+e
+p
+iv
+t
+e
+e
+d
+d
+2
+1
+9
+4
+O
+Ja
+c
+n
+to
+u
+b
+a
+e
+r
+r
+y
+2
+2
+0
+0
+2
+2
+3
+4
+M
+d
+r
+in
+o
+a
+t
+e
+b
+t
+o
+a
+t
+u
+h
+a
+s
+q
+o
+t
+s
+u
+d
+f
+t
+a
+r
+a
+s
+a
+l
+n
+i
+m
+T
+t
+d
+y
+h
+e
+a
+a
+r
+w
+r
+o
+s
+d
+u
+o
+s
+is
+g
+e
+rk
+e
+h
+s
+d
+s
+f
+p
+m
+o
+f
+s
+r
+o
+e
+e
+r
+c
+n
+u
+m
+o
+t
+d
+n
+s
+a
+o
+,
+v
+t
+n
+.
+e
+t h
+y
+T
+r
+m
+e
+t
+h
+i n
+i
+O
+i
+s
+s
+g
+M
+a
+a
+c
+t
+l
+O
+i
+l
+o
+o
+o
+P
+m
+n
+w
+-
+p
+C
+s
+a
+l
+n
+D
+e
+fo
+d
+x
+M
+r
+c
+E
+t
+p
+o
+M
+h
+r
+m
+e
+o
+R
+v
+m
+c
+d
+i
+r
+d
+o
+e
+a
+e
+n
+a
+t
+s
+a
+t i o
+a
+n
+T
+i
+a
+i
+s
+n
+d
+a
+h
+i
+m
+t
+t
+i
+i
+i
+s
+o
+a
+in
+l
+i
+n
+s
+c
+i s
+o
+a
+o
+tr
+c
+l
+f
+l
+a
+h
+e
+t
+a
+i
+c
+i
+e
+n
+v
+t
+v
+i
+e
+o
+a
+i
+n
+n
+b
+d
+l
+,
+s
+a
+e
+t
+k
+t
+i
+a
+t
+n
+a
+u
+o
+s
+f
+t
+o
+w
+i
+l
+o
+o
+r
+n
+n
+n
+p
+’
+a
+g
+s
+s
+u
+a
+E
+r
+‘s
+p
+s
+M
+e
+o
+t
+c
+R
+h
+s
+o
+e
+e
+n
+s
+c
+d
+s
+l
+b
+e
+i
+a
+n
+e
+c
+r
+i
+y
+y
+u
+c
+o
+r
+u
+a
+n
+e
+l
+s
+d
+e
+u
+a
+’
+n
+,
+t
+i
+i
+t
+i
+d
+l
+s
+s
+- in
+g
+fo r
+u s e
+s
+3
+-1
+0 0 9
+5 3
+o
+of shared end- to- end analysis packages without the effectively managed and employed.
+re
+la
+n
+2 1
+need for direct data exchange, thereby enhancing data Such data can be transformative, especially te d F e
+a
+O
+se
+g
+M
+c
+g
+O
+u
+re
+r
+P
+i
+g
+t
+-
+y
+a
+c
+t
+o
+a
+e
+n
+n
+d
+v
+d
+e
+d
+p
+r
+a
+t
+r
+t
+e
+i
+a
+v
+d
+a
+a
+d
+c
+n
+y
+a
+d
+.
+t a
+B
+c
+b
+y
+o
+a
+n
+s
+s
+d
+e
+e
+u
+c
+s
+c
+u
+,
+t
+r
+p
+i
+e
+n
+a
+l
+g
+y
+ti e
+a
+s
+n
+h
+n
+t
+a
+a
+-
+r
+l
+l
+y
+e
+in
+s
+v
+g
+e
+e
+s
+l
+d
+d
+a
+e
+a
+c
+- i
+t
+r
+d
+a
+o
+e
+s
+i
+n
+s
+s
+t
+s
+i
+m
+fi
+e
+e
+u
+c
+d
+l
+u
+t i
+r
+a
+p
+e
+n
+l
+l
+e
+y
+d i
+c
+f
+a
+u
+re
+se
+t
+d
+o
+t
+i
+o
+m
+m
+pr
+o
+o
+n
+ve
+it o
+c
+r
+li
+,
+n
+e
+i
+v
+c
+a
+a
+l
+l
+u
+p
+a
+r
+te
+ac
+a
+t
+n
+ic
+d
+e ,
+a
+r
+u
+e
+d
+d
+i
+u
+t
+c
+h
+e
+e
+i
+a
+n
+lt
+e
+h
+f
+-
+-
+to
+te
+x
+t a
+b ru
+a
+ry
+2
+ficiencies, contribute to the evidence base n0
+firewalled within its respective local site. d2
+Results By simplifying data management processes and
+and develop a ‘learning healthcare system’ d
+a
+4
+.
+D
+governance, and through the promotion of interoperability, for improved patient care.1–4 However, this ta m o w
+the OMOP- CDM supports a wide range of clinical, potential is often not realised due to the in
+in
+n lo
+a
+epidemiological, and translational research projects, as inherent complexity of EMR databases—that gd
+w
+Di
+e
+s
+l
+c
+l
+u
+as
+s s
+h
+i
+e
+o
+a
+n
+l t
+A
+h
+d
+s
+o
+e
+p
+r
+t
+v
+io
+ic
+n
+e
+o
+o
+f
+p
+t
+e
+h
+r
+e
+a t
+O
+io
+M
+n
+O
+al
+P
+r
+-
+e
+C
+p
+D
+o
+M
+rt in
+in
+g
+t
+.
+ernationally
+c
+th
+o
+o
+m
+u
+p
+sa
+ri
+n
+se
+d s
+t h
+o
+o
+f
+u
+p
+s
+r
+a
+o
+n
+p
+d
+r
+s
+i e
+o
+t
+f
+a r
+d
+y
+a
+t
+t
+a
+a
+b
+e
+le
+le
+s
+m
+—
+e
+w
+n
+h
+t
+e
+s
+r
+a
+e
+c r
+v
+o
+a
+s
+s
+s
+t
+,
+A I
+tra
+e
+d fro
+m
+a
+c s
+a
+t o
+n
+n
+r m
+d
+d
+u c p
+l
+f
+o
+t
+a
+l u
+c
+e
+c
+r
+a
+x
+i
+e
+l
+,
+l
+i
+d
+l
+t
+y
+a
+a
+n d
+t
+e
+e
+d a
+n
+s
+t
+a
+h a
+r
+b
+e
+a
+m
+l
+t
+p
+e
+e o
+i
+s
+r
+d
+d o
+c
+e g
+r
+o
+e
+l e ,
+n
+p
+n s
+v
+e
+e i
+e
+a
+m o
+r
+t
+u
+s
+a
+p
+i
+s
+b
+o
+li fi
+l
+n
+E
+e
+e M
+o
+c
+s
+f
+R
+r
+g
+o
+v
+d o
+s
+a
+v
+s
+a
+s
+e
+-
+t
+t
+a
+i
+r
+n
+a
+n i
+m
+s
+n a
+t
+n t
+i
+o
+t
+o c
+u
+u
+e a
+t
+n
+i o
+t
+p s
+s
+n
+r t a o
+o
+a
+n c
+f
+n
+e d
+a
+s a
+l
+s r
+y
+d e
+s
+i s
+i
+s
+s
+, e d
+r
+a
+c
+‘s
+a
+l
+m
+e
+e
+t
+c
+i
+a
+o
+v
+o
+n
+e
+u
+n
+e
+n
+r
+d
+d
+t
+e
+a
+s
+a
+r
+o
+e
+n
+y
+a
+f
+d
+u
+rc
+d
+s
+r
+h
+e
+a
+e
+’
+,
+t
+.
+s
+a
+5
+w
+t r
+F
+h
+u
+n
+o
+e
+c
+e
+r
+r
+t
+e
+e
+u
+h
+d
+r
+i
+l
+s
+e
+g
+a
+d
+h
+r
+t
+g
+o
+ly
+t
+e
+o
+p
+b
+v
+m
+o
+o
+e
+w
+l
+a
+u
+e
+t
+k
+m
+r
+r
+e
+a
+e
+e
+n
+d
+i
+s
+t
+s f
+c
+o
+‘
+o
+o
+f
+f
+r
+i
+l
+t
+m
+E
+l
+’
+a
+M
+b
+e
+fo
+d
+o
+R
+r
+,
+-
+in
+in g
+, a n
+d
+s im
+h ttp
+s ://in
+fo rm
+through shared end- to- end analysis packages, without the ilaa
+sharing of data. data are combined, use is further constrained r te tic s
+© Author(s) (or their
+p
+c
+h
+C
+o
+o
+e
+o
+m
+t
+a
+n e
+l
+c
+t
+m
+n
+h
+l t u
+c
+o
+ia s
+a
+n
+l i
+r
+o t
+e
+p
+o n
+l
+s
+a
+t
+e
+T
+t
+r
+f
+a
+t
+h
+o
+t
+n e
+i
+r
+n
+s
+m
+g
+a fo d
+s
+f
+r
+.
+o
+o m
+r
+p t
+a
+h io
+n
+e n
+a
+a
+l
+l
+y
+o t
+s
+h f
+i
+t
+n
+d h
+g
+a e t
+E
+a O
+M
+M a
+R
+n O a
+d
+P ly
+a
+- t C
+t
+i
+a
+c D s
+a
+M
+c
+b
+r
+y h
+o
+a
+s
+p s
+s
+r o t
+d
+v h
+i
+i e
+v
+d
+e
+in
+rs
+g
+e
+a b E
+a
+g
+n
+o
+y M
+d
+v
+R
+e
+t h
+p
+r n
+e
+r
+s
+i
+a
+c
+v
+n
+h
+a
+h
+c
+c
+e e
+e
+y
+m t e
+a
+b
+a r
+n
+r
+o 6
+e
+;
+d
+g
+a
+e
+c
+c
+c
+n
+o
+o
+h
+e
+n
+n
+e
+i
+s
+s
+c t
+e
+y e
+a
+n
+r
+n
+n
+t
+o
+d
+. 7
+f o
+la
+e v
+c
+a e
+k
+c r h
+o
+d
+f
+a i
+c
+n t
+l
+a s
+a
+t
+r
+it s
+i
+u
+t
+h
+y
+t a i
+o
+r o i
+v
+n n
+e
+’ g
+r
+s c h n o
+lo
+g ie
+s .
+.b m j.c
+o m
+o n
+employer(s)) 2024. Re- use 1
+p
+co
+e
+m
+rm
+m
+it
+e
+te
+rc
+d
+i a
+u
+l
+n
+r
+d
+e
+e
+-
+r
+u s
+C
+e
+C
+. S
+B
+e
+Y-
+e
+N
+r
+C
+ig
+.
+h
+N
+ts
+o
+an
+T
+d
+h e
+I n
+O
+fo
+b
+r
+s
+m
+er
+a
+v
+ti
+a
+c
+t
+s
+io n
+(
+a
+O
+l
+H
+H
+D
+e
+S
+a
+I
+l
+)
+t h
+c
+D
+on
+a
+s
+ta
+o rt
+S
+i
+c
+u
+i
+m
+en
+8
+ce
+is
+s 7
+M a
+and permissions. Published by addressing these challenges through the
+rc
+h
+BMJ. 2
+INTRODUCTION transformation of each EMR database into the 0
+2
+For numbered affiliations see 6
+end of article. The Observational Medical Outcomes Partnership open- source OMOP- CDM, where EMR data b y
+Common Data Model elements are translated into the OMOP-C DM g
+u
+Correspondence to Adoption of the Observational Medical using standardised terminologies such as e s
+Dr Christine Mary Hallinan; Outcomes Partnership Common Data SNOMED- CT,9 LOINC10 or RxNORM.11 t.
+hallinan@ unimelb. edu. au
+Model (OMOP- CDM) internationally and in Importantly, these transformed data are
+Douglas Boyle; Australia has enabled the conversion of vast also able to be securely stored within their
+dboyle@ unimelb. edu. au amounts of complex, and heterogeneous dedicated environment, complete with the
+Hallinan CM, et al. BMJ Health Care Inform 2024;31:e100953. doi:10.1136/bmjhci-2023-100953 1
+Open access
+necessary validation, analysis and reporting tools.12 Given
+the OMOP- CDM is ‘open source’, the original source
+code is freely available to the public. This allows anyone B
+M
+to view, use, modify and distribute the software’s source J
+H
+code which fosters collaboration and community-d riven e
+a
+development. This ‘open- source’ approach promotes
+lth
+&
+transparency, innovation and widespread accessibility. C
+a
+re
+The utility and adoption of the OMOP-CDM In
+fo
+An increasing number of Australian and international rm
+organisations are transforming their EMR data into a tic
+t
+h
+h
+e
+e
+a lt
+O
+h
+M
+s
+O
+er
+P
+vi
+-C
+ce
+D
+s
+M
+an
+a
+d
+s
+r
+t
+e
+h
+s
+e
+e
+s
+a
+e
+r c
+c
+h
+o
+e
+n
+r
+v
+s
+e
+a
+rt e
+v
+d
+a lu
+d
+a
+a
+b
+ta
+le
+b a
+d
+se
+a
+s
+ta
+p
+s
+r
+o
+o
+u
+vi
+r
+d
+c
+e
+e
+s :
+firs
+to monitoring health service utilisation, contribute to
+t
+p u
+the evidence base through research and develop clin- P ro b lis
+h
+ical decision support systems to improve quality of care. te c e d
+Furthermore, it enables researchers to ‘scale-u p’ and ‘de- Figure 1 Observational Medical Outcomes Partnership te d a s
+risk’ collaborative research, by securely sharing deidenti- Common Data Model (OMOP- CDM). Adapted from b y 1 0
+Standardised Data: The OMOP Common Data Model.12 c.1
+fied and aggregated data and executing analyses across o1
+p3
+r
+m
+p
+e
+a
+u
+s T
+t
+p
+i
+l
+h
+e
+t
+e
+i
+n
+e
+p
+c
+t
+t a
+l
+-
+i
+e
+l
+d v
+e
+e o
+v
+p
+e
+O
+lo
+l
+t
+M
+i c o
+d
+a n
+O
+a
+l
+t
+s o
+P
+a
+it f
+-
+e
+c
+r
+O
+o
+.
+e
+1 M
+n
+m
+2
+v
+O
+a
+e
+i
+r
+n
+P
+te
+s
+- C
+d
+s
+D
+e
+M
+c
+d
+u
+a
+r
+h
+t
+e
+a
+a
+l
+b
+s
+y
+a
+b
+f
+s
+e
+i
+e
+r
+e
+s
+e
+n
+,
+w
+o
+a
+e
+n
+ll
+n
+e
+t
+s
+h
+d
+u
+e
+r
+w
+i
+r
+n
+i
+i
+s
+t
+g
+h
+e
+i
+g
+n
+t
+l
+h
+o
+i
+a
+b
+ts
+t
+-
+A
+In
+im
+this overview, we describe the OMOP-C DM, the estab-
+y rig
+h t,
+in c lu d
+6 /b
+m jh
+c i-2 0 2
+lished governance processes employed in EMR data in3
+a
+w
+l
+o
+ly
+r
+,
+l d
+w
+w
+it
+i
+h
+d e
+t h
+b
+e
+y
+co
+20
+n
+2
+v
+2
+er
+,
+s
+w
+io
+h
+n
+i c
+o
+h
+f a
+e
+p
+n
+p
+co
+ro
+m
+x
+p
+im
+as
+a
+s
+t
+e
+e
+s
+l y
+d
+1
+a
+2
+ta
+%
+f r
+o
+o
+f
+m
+E M
+45
+R
+3
+s
+r
+d
+e
+a
+p
+ta
+o s
+p
+it
+r
+o
+o
+r
+v
+i
+i
+e
+d
+s
+e
+,
+s
+a
+a
+n
+l
+d
+e v
+d
+e
+e
+r
+m
+fo
+o
+r
+n
+m
+st
+o
+ra
+r
+t
+e
+e
+e
+h
+ff
+o
+ic
+w
+ie
+O
+nt
+M
+a
+O
+nd
+P
+s
+t
+e
+r
+c
+a
+u
+n
+r
+s
+e
+fo
+a
+r
+c
+m
+ce
+e
+s
+d
+s
+g
+fo
+r u
+-1
+0
+0 9 5
+p d
+ad
+a a t t
+o
+i a
+p
+e b n
+t
+a
+i
+t
+o
+s e
+n
+r s e ,
+d
+c t
+e
+h o
+m
+a rd t
+o
+a s
+n
+c
+s
+c a
+t
+o c
+r
+r
+a
+u o
+t
+n
+e
+s t s
+s
+s
+t
+f 4
+h
+o 1
+e
+r m
+r
+c
+e
+o o
+c
+u r
+o
+n e
+g
+t
+n
+t r h
+i
+i
+t
+e a
+i
+s n
+o
+. 1
+n
+9 2 2
+o
+8 T
+f
+m h
+O
+i i s
+M
+l li s
+O
+o u n
+P
+b
+-
+s u
+C
+t n a
+D
+n iq
+M
+t u ia
+’
+e
+s
+l t
+t e
+o
+o th r
+E
+s i c
+M
+a s n
+R
+v d a
+d
+r
+a
+r y e
+t a
+b s
+,
+e y
+b
+a c r
+y
+o c
+h
+u h
+e
+n e
+a
+r t
+l
+r s
+t
+. y
+h
+G o
+se
+r o
+r
+v j
+v
+u e
+i
+r r
+c
+n i
+e
+s a d
+p
+n i
+r
+c c
+o
+t e i
+v
+o ,
+i d
+n p
+e
+. r
+r
+i F
+s
+v o
+,
+a
+e
+r c
+v
+y t ,
+a
+h
+l
+c i
+u
+s o
+a
+n r
+t
+e
+o
+s v e
+r
+i
+s
+n e
+,
+t w
+a
+,
+u
+a n w
+d
+d
+i
+e
+- s e s re
+la te
+3 o n
+2 1 F
+u
+to
+t i
+A
+l
+s
+i
+n
+t
+u
+y
+p
+A
+i
+p
+n
+u
+o
+l
+s
+r
+e
+t
+t
+r
+v
+a
+e
+t
+l
+r
+h
+i
+a
+a
+e
+g
+n
+i n
+u
+O
+g
+se
+H
+E
+D
+M
+of
+S
+R
+I
+O
+d
+C
+M
+a
+h
+t
+O
+a
+a p
+f
+P
+o
+t e
+r
+a
+r
+v
+n
+a
+h
+d
+r
+a
+io
+s
+d
+u
+e
+b
+s
+v
+e
+e
+p
+e
+l
+u
+o
+n
+r
+p
+p
+e
+o
+s
+c
+s
+t
+o
+e
+a
+l
+s
+b
+l
+.
+a
+li
+b
+sh
+or
+e
+a
+d
+-
+h
+n
+a
+a
+v
+tu
+e
+r
+a
+e
+p
+o
+p
+f
+l i
+t
+e
+h
+d
+e
+a
+g
+n
+u i
+A
+d
+u
+an
+st
+c
+r
+e
+a l
+h
+ia
+e
+n
+r e
+c o
+is
+n
+a
+te
+p
+x
+p
+t
+l
+,
+i c
+h
+a
+o
+b
+w
+le
+e v
+in
+er
+t
+,
+e
+t
+r
+h
+n
+e
+a t
+g
+io
+e
+n
+n
+a
+e
+l
+r
+l
+a
+y.
+l d to
+te
+x
+t
+a
+e b ru
+a
+ry
+2
+n0
+tions between database stakeholders. OMOP members d2
+include clinicians and researchers from the University THE OBSERVATIONAL MEDICAL OUTCOMES PARTNERSHIP
+d
+a ta
+4
+.
+D o
+o U f n i M ve e r l s b it o y u r o n f e , Q t u h e e e n U sl n an iv d e rs a i n ty d o t f h e S o U ut n h i ve A r u si s t t y r a o li f a , N t e h w e C Th O e M O M M O O N P D -C A D TA M M : s O tr D u E c L ture and process m in in w n lo a
+South Wales and Western Australia.13 The Australian The OMOP- CDM can be implemented using many of the g , A d e d
+d
+i
+t f
+n
+a o
+a
+l
+c
+r
+t
+s
+l
+a
+c
+u
+b
+i h n
+d
+a
+i
+e
+l
+s
+d m
+e
+t
+r
+s
+h
+a e
+t
+o
+j n o
+h
+s
+’ r
+a
+e
+s
+t
+a c
+t h
+h
+n it
+a
+a
+d ie
+t
+v
+s c
+e
+c
+, a
+o
+u
+n s
+n
+p
+n
+c
+t
+e e
+d
+a
+c r
+i
+e
+n
+i
+r
+c a
+g
+a l
+d
+i
+o
+r s
+a
+e e
+n
+t
+d
+a
+e
+se
+f
+O
+r h
+r
+v
+o
+o
+M
+i
+m
+c sp e
+O
+s i
+l
+t ,
+a
+P
+a j
+r
+-
+l o
+C
+g
+s i
+e
+D
+n t h t
+t
+M
+e
+a r
+r
+e t
+t
+c
+p
+i
+h
+o
+a
+l
+r
+a
+n
+o
+y
+c l
+v
+d e
+e
+h
+m
+r
+o
+d
+s
+s
+i
+e a
+o
+p
+n t
+n
+i
+a t
+-
+e
+e
+c si o
+x
+x
+m
+i
+t
+m
+s
+r
+p
+t
+a
+p
+i
+l
+c
+n
+i l f
+t
+e
+g
+i
+i
+x e
+o
+d
+d
+n
+a
+c
+,
+t
+s l
+a
+i
+t
+t n
+r
+a
+b
+a
+n i
+a
+c
+n
+s
+d a
+s
+e
+a l
+f o
+m
+r a d
+r
+a
+n
+m
+n
+f d o
+a
+a
+t
+r
+g
+i
+a m
+o
+e
+d
+n
+m
+a m t
+e
+a
+i
+n
+n c
+n
+o
+t
+i
+d
+s n
+s
+t
+y
+r
+l
+s
+o
+s
+a is
+t
+a
+t
+e
+t i
+d
+i v
+m
+n e
+in
+g
+s .
+g
+E
+T
+o M
+p
+f
+h
+r
+R
+e
+1
+o
+6
+c
+O
+d
+e
+M
+d
+s
+a
+s
+a t
+O
+a t
+c
+a
+o
+P
+i
+n
+-
+n t
+C
+a
+v
+t b
+D
+o
+e
+l
+r
+M
+e
+t
+a s
+s
+I tra
+in
+in
+g , a n
+d
+fro
+m
+h
+ttp s ://in
+r N e e g t i w st o ri r e k s , ( A A u U s - t e r P al B ia R n N E ), l 1 e 4 c t lo ro c n al i c h P e r a a lt c h ti c d e i - s B tr a i s c e t d d R at e a s b e a a s r e c s h , i a m nd p o o rt t a h n e t r to d e n r o iv t e e d t h t e a b so le u s r .8 c e T E h M ro R u g d h a ta th a i r s e p n r o o t c e ch ss a , n i g t e i d s s im ila fo rm a
+the Primary Care Audit, Teaching and Research Open or lost, OMOP conversion just provides a new represen- r te tic s
+Network (PATRON) database15, pharmaceutical regis- tation of existing EMR data. For the deployment and c h n .b m
+t
+H
+ri
+o
+e
+w
+s,
+e
+a
+v
+n
+e
+d
+r,
+t
+i
+h
+t
+e
+i s
+A
+i
+u
+m
+st
+p
+r
+o
+al
+r
+i
+t
+a
+a
+n
+n t
+D
+t
+e
+o
+p a
+a
+r
+c
+t
+k
+m
+n
+e
+o
+n
+w
+t
+l e
+o
+d
+f
+g
+V
+e
+e t
+t
+e
+h
+r
+a
+a
+t
+n s
+t h
+A
+i
+f
+s
+f a
+p
+i
+r
+r
+o
+s.
+g
+12
+-
+i
+t
+n
+io
+s
+n
+ta l
+s
+l
+y
+a
+s
+t
+t
+i
+e
+o
+m
+n
+i
+o
+n
+f
+f r
+t
+a
+h
+st
+e
+r u
+O
+ct
+M
+ur
+O
+e
+P
+(
+-
+f
+C
+ig
+D
+u
+M
+re 1
+in
+)
+t
+,
+o
+w e
+e x
+re
+is
+c
+t
+o
+in
+m
+g
+m
+in
+en
+fo
+d
+r m
+th
+a
+e
+- o lo
+g ie
+s
+j.c
+o m
+o
+ress is not without its limitations. Currently, there exists a OMOP- CDM instance, that model’s institution- specific .n
+1
+gap in data integration, notably the absence of a seamless data, is maintained under the existing repository data 7 M
+linkage between hospital and primary care data OMOP access and governance mechanisms established by each a rc
+data sources. Despite the comprehensive approach to data custodian. h
+2
+data integration across various healthcare contexts, the 0
+2
+6
+lack of connectivity between these crucial components OMOP, data quality and the principles of Findable, Accessible, b
+y
+of the healthcare system represents a constraint. This Interoperable and Reusable, Collective benefit, Authority, g
+u
+limitation highlights an area for potential improvement Researcher and Ethics and Five Safes e s
+t.
+in Australia’s data infrastructure. Addressing this gap The use of OMOP-C DM aligns well with the need for
+and establishing effective linkage between hospital and systematic data evaluation and adherence to data quality
+primary care data could lead to even more comprehen- standards and the principles of FAIR (Findable, Acces-
+sive and impactful research outcomes. sible, Interoperable and Reusable), CARE (Collective
+2 Hallinan CM, et al. BMJ Health Care Inform 2024;31:e100953. doi:10.1136/bmjhci-2023-100953
+Open access
+benefit, Authority, Researcher and Ethics) and the Five site studies that contain native EMR data (raw and/
+Safes. or curated), and multisite studies that involve inte-
+Before use, OMOP- CDM data undergoes a rigorous grating data from various disparate sources.21 22 In B
+M
+data quality assessment process, which includes addition, the common data model emphasises data J
+H
+checks for completeness, concordance, plausibility quality, allowing for consistent checks and ensuring e
+a
+and currency when compared with the source EMR that research data meets the highest standards.23 24 lth
+data.16 These quality checks are predefined and The standardised model also ensures that security and & C
+a
+configured to run on datasets conforming to OMOP privacy protocols are uniformly applied, safeguarding re
+standards, and they can be executed using tools such secondary health data from data breaches to main- In
+fo
+as Achilles, which is accessible via the OHDSI Data tain patient privacy. Given the structured approach of rm
+Quality Dashboard.17 In addition, the OMOP- CDM the OMOP- CDM, an institution can easily implement a tic
+e
+fi
+n
+re
+a
+w
+bl
+a
+e
+l
+s
+le d
+r e
+e
+se
+n
+a
+v
+r
+i
+c
+ro
+h
+n
+er
+m
+s
+en
+to
+t w
+w
+h
+o
+i
+r
+l
+k
+e c
+w
+o
+it
+n
+h
+d
+in
+u ct
+a
+in g
+se c
+a
+u
+d
+r
+v
+e
+a n
+a
+c
+n
+e
+d
+d
+a
+ri
+c
+s
+c
+e
+e
+d
+s s
+p a
+c
+r
+o
+t
+n
+ie
+t
+s
+r o
+c
+l
+a
+s
+n
+,
+a
+th
+cc
+e
+e
+r
+s
+e
+s
+b
+o
+y
+r
+e
+in
+n
+t
+s
+e
+u
+r
+r
+a
+in
+ct
+g
+w
+t
+i
+h
+th
+a t
+t h
+o
+e
+n
+d
+ly
+a ta
+a
+.
+u
+A
+th
+s
+o
+a
+- s :
+firs
+analytics and prediction techniques. This aligns with result, the OMOP- CDM acts as a cornerstone for the
+t
+p u
+the principles of making data ‘FAIR, ensuring that conduction of rigorous and ethically sound research P ro b lis
+h
+data are available for a wide range of research appli- as it builds trust among stakeholders, mitigates infor- te c e d
+cations.18 19 Data accessed through an OMOP- CDM mation disparities and encourages the production te d a s
+also adheres to the CARE Principles for Indigenous of high- quality medical evidence for rigorous and b y 1 0
+c.1
+Data. CARE operates within the governance frame- ethical research25 o p 1 3
+w
+r
+p
+in
+e
+r
+o
+t
+p
+i
+r
+e
+n
+o
+k
+r
+c
+s
+e
+i
+i
+e
+p
+s
+t
+s
+t
+o
+l
+t
+s
+e
+r
+a
+o
+s
+y
+b
+.
+f
+b
+l i
+I
+T
+y
+s
+n
+h
+h
+a
+d
+e
+l
+e
+i
+i
+d
+g
+g
+C
+e
+n
+b
+n
+i
+A
+y
+n
+o
+R
+g
+t
+u
+h
+E
+s
+d
+e
+P
+a
+p
+c
+t
+e
+r
+a
+u
+o
+i n
+s
+s
+p
+t
+h
+c
+l
+o
+e
+a
+i
+d
+p
+s
+r
+i
+.
+i
+l
+a
+n
+e
+B
+n
+s
+g
+y
+s
+c
+w
+a
+o
+o
+d
+i
+f
+t
+m
+h
+h
+e
+e
+p
+a
+t
+r
+h
+l
+c
+i
+e
+n
+h
+e
+m
+g
+r
+l
+e
+i
+o
+t
+g
+o
+n
+c
+h
+t
+a
+C
+t
+l
+s
+A
+F
+d
+A
+a
+R
+a
+n
+I
+E
+t
+R
+d
+a
+,
+O
+o
+F
+r
+o
+p
+h
+e
+r
+r
+e
+o
+a
+a
+t
+p
+l
+i
+t
+o
+e
+h
+n
+r
+c
+a
+a
+a
+t
+l
+r
+i
+u
+e
+o
+s
+n
+s
+e
+e
+a
+t
+a
+l
+t
+n
+i
+u
+n
+d
+s
+g
+e
+q u
+q
+a
+u
+li
+a
+t
+l
+y
+i t
+a
+y
+s
+a
+s
+s
+u
+s
+r
+u
+a
+r
+n
+a
+c
+n
+e
+c
+a
+e
+c t
+a
+iv
+c
+i
+t
+t
+i
+i
+v
+e
+i
+s
+ti
+i
+e
+n
+s
+a
+w
+h
+h
+o
+e
+s
+r
+p
+e
+i t
+t
+a
+h
+l
+e
+y rig
+h t,
+in c
+lu d in
+6 /b
+m jh
+c i-2
+0 2 3
+I
+o
+n
+v
+d
+er
+ig
+t
+e
+h
+n
+e
+o
+i
+u
+r
+s
+d
+P
+at
+e
+a
+o p
+a
+l
+n
+e
+d
+s
+t
+w
+h
+o
+e
+r l
+k
+d
+n
+w
+o
+id
+w
+e
+le d
+ga
+g
+i
+e
+n
+d
+g
+e
+r
+r
+e
+i
+a
+ve
+te
+d
+r
+f
+c
+r
+o
+o
+n
+m
+t r
+i
+o
+t
+l
+,
+‘
+s
+p
+er
+ri
+v
+m
+ic
+a
+e
+r y
+d e
+p
+l
+u
+iv
+r
+e
+p
+r
+o
+e
+s
+d
+e
+b
+is
+y
+to
+a n
+m
+i
+o
+n
+n
+d
+i
+i
+t
+v
+o
+id
+r
+u
+o
+a
+r
+l
+im
+or
+p r
+a
+o
+n
+v e
+o r
+th
+ga
+e
+n
+q
+is
+u
+a
+a
+t
+l
+i
+i
+o
+t
+n
+y
+’
+o
+26
+f
+g
+fo
+r u
+-1
+0
+0 9 5
+ensuring alignment with their worldviews and the data governance and principles for ethical use apply. s e s 3 o
+k
+In
+n
+d
+o
+i
+w
+g
+l
+e
+e
+n
+d
+o
+g
+u
+e
+s
+e
+P
+c
+e
+o
+o
+n
+p
+o
+l
+m
+es
+y
+’
+.
+r
+T
+ig
+h
+h
+is
+t
+f
+t
+r
+o
+a m
+d
+e
+e
+w
+ri
+o
+ve
+rk
+v
+e
+al
+m
+u
+p
+e
+h
+f
+a
+ro
+si
+m
+se s
+d
+t
+a
+h
+t
+e
+a H is o n w o e t v m e a r, n w d i a t t h e i d n fo h r e a th lt e h c e a st r a e b i l n is s h t m itu e t n io t n o s f , th et e h O ic M s a O p P p r d o a v t a a l -
+re
+la te
+n
+2 1 F
+w
+f
+e
+o
+v
+h
+r
+a
+i
+l
+l
+u
+c
+e
+o
+a
+p
+t
+ll
+o
+r
+e
+o
+r
+c
+s
+m
+t i
+a
+v
+o
+n
+e
+t
+d
+in
+a
+t
+g
+n
+h
+d
+e
+r e
+b
+e
+s
+r
+p
+q
+o
+o
+u
+a
+n
+i
+d
+t
+s
+a
+e
+i
+b
+b
+r
+l
+l
+c
+e
+e
+o
+a
+b
+m
+n
+e
+m
+d
+n e
+u
+e
+f
+n
+t
+it
+h
+i t
+i
+y
+o
+c
+.1
+f
+a
+8
+l
+r
+1
+d
+9
+e
+a
+se
+ta
+a r
+u
+c
+s
+h
+a
+e
+g
+r
+e
+s
+,
+,
+b
+►
+a se
+T
+to
+o
+h
+r
+e
+s
+d
+d
+ta
+a
+a
+n
+t
+t
+a
+a
+d
+u
+a
+b
+r
+s
+e
+d
+e
+i
+,
+n
+p
+g
+o
+r
+p
+c
+o
+o
+e
+v
+l
+r
+i
+l
+d
+a
+e
+t
+e
+c
+i
+d
+t
+n
+e
+:
+g
+d a
+p
+n
+r
+d
+o c
+a
+e
+n
+d
+a
+u
+ly
+r
+s
+e
+e
+s
+d ,
+w
+is
+i t
+c
+h
+o in
+s
+c
+ta
+id
+n
+e
+d
+n
+a
+t
+r
+a
+d
+l
+d to
+te
+x t
+a n
+e b ru
+a
+ry
+2 0
+OMOP data adheres to the ‘Five Safes’ guiding princi- d2
+ples by providing a structured and secure framework for
+equipment and/or protocols. d
+a
+4 .
+D
+► The data are being collected and analysed expressly tao
+managing and sharing healthcare data while ensuring mw
+privacy and security are maintained.20 These frameworks f f o yi r n g th a e r e p a u s r f p o o r s i e m o p f r , o m ve a m in e t n a t in in in t g h e st e a n n v d i a r r o d n s m o e r n i t d f e r n om ti- in in g n lo a d
+were selected for their compatibility with the principles of
+which the data were obtained.
+,
+A
+e
+d
+e
+w
+c
+g
+o
+t
+u
+i
+h
+d
+m
+id
+i
+e
+c
+m
+i
+s
+a
+n
+p
+l
+u
+g
+r
+r
+n
+e
+e
+d
+a
+i
+s
+t
+a
+d
+e
+y
+t
+a
+a
+a
+m
+r
+d
+m
+c
+a
+o
+h
+a
+k
+p
+,
+n
+e
+t
+d
+i
+a
+o
+a
+t
+g
+h
+t
+n
+e
+a
+e
+m
+a
+q
+m
+n
+e
+u
+d
+n
+a
+r
+t
+l
+o
+a
+i t
+p
+b
+c
+y
+c
+r
+u
+e
+a
+a
+s
+c
+n
+p
+t
+t
+t
+d
+i
+a
+a
+c
+n
+n
+d
+e
+d
+c
+s
+a
+e
+t
+i
+a
+s
+n
+w
+u
+g
+t
+i
+i
+o
+h
+t
+t
+a
+h
+v
+e
+b
+i
+e
+n
+c
+l
+r
+e
+o
+n
+t
+n
+h
+a
+c
+n
+t
+e
+h
+e
+c
+o
+r
+x
+e
+e
+i
+t
+c
+.
+s
+o
+e
+T
+e
+s
+f
+a
+h
+r
+t
+f
+e
+h
+c
+o
+i
+h
+e
+r
+r
+►
+►
+T
+t
+N r
+o
+e
+h
+o v
+i
+e
+n i
+n
+e e
+d
+d
+w
+i
+a
+v
+a o
+t
+i
+a
+r f
+d
+e
+u
+b
+t p
+a
+h
+e
+l
+r
+i
+e
+s
+e
+n
+.
+s
+g
+e t r n
+c
+ig
+o
+t. g
+l
+2
+l
+6 e
+e
+r
+c
+s
+t e
+f
+d
+o r
+a n
+c
+d
+o n
+an
+si
+a
+d
+l
+e
+y
+r
+se
+at
+d
+i
+,
+o n
+is n
+o
+o
+f
+t
+e
+li
+t
+n
+h
+k
+ic
+e
+a
+d
+l
+I
+tra in
+in
+g
+, a n d
+fro
+m
+h
+ttp
+s ://in
+O
+fra
+M
+m
+O
+e
+P
+w
+-
+o
+C
+r
+D
+k
+M
+ty
+.
+p
+T
+ic
+h
+al
+e
+l y
+r
+f
+e
+a
+s
+l
+p
+ls
+o
+o
+n
+n
+si b
+va
+il
+r
+it
+io
+y
+u
+fo
+s
+r
+s t
+a
+a
+p
+ke
+p
+h
+ly
+o
+in
+ld
+g
+e r
+th
+s
+e
+in
+S
+v
+A
+ol
+F
+v
+E
+ed
+S s
+im
+ila
+fo
+rm
+a
+in data access and usage, including government agencies, Research in a university setting r te tic s
+research institutions and data custodians (table 1). For research use, the data custodian is usually the c h n .b m
+OMOP, DATA GOVERNANCE, ETHICAL REVIEW AND CONSENT
+a
+r
+o
+e
+g
+w
+s
+e
+n
+e
+n
+a
+e
+c
+r
+r
+y
+c
+(
+h
+i e
+o
+,
+a
+r
+n
+h
+d
+o
+o
+s
+r
+p
+p
+g
+i
+a
+a
+ta
+i
+n
+d
+l
+i
+/
+sa
+g
+f
+t
+o
+e
+i
+n
+o
+r
+n
+e
+t
+r
+h
+al
+e
+t h
+p
+a
+d
+r
+t
+a
+a
+c
+ta
+t
+c
+i
+o
+c
+c
+e
+m
+o
+)
+m
+.
+l le
+E
+is
+c
+x
+s
+t
+i
+i
+e
+s
+o
+d
+t
+n
+i n
+e
+b
+g
+d
+y
+l o
+t
+t
+c
+h
+h
+a
+e
+e
+l
+o
+lo
+g ie
+s .
+j.c
+o m
+o n
+1
+OMOP-CDM and governance governance principles already developed by custo- 7
+M
+By virtue of its design and objectives, the OMOP-C DM dians can be applied to OMOP standardised data a
+rc
+enhances the governance of secondary health data, by including: (1) data only being made accessible to h
+2
+ensuring data utilisation in both research and healthcare named researchers on relevant ethics applications 0
+2
+6
+decision- making is ethical, transparent and effective. approved by the relevant institution, (2) appro- b
+y
+With the transformation of EMR data into a stan- priate secure data management strategies for transfer g
+u
+dardised structure, the OMOP- CDM ensures there and management of data using password- protected e s
+is a uniform representation of these data regard- computers or servers with multifactor authentication,
+t.
+less of the data’s original source. This uniformity 3) data restrictions that align with project scope and
+streamlines data governance and, importantly, eases objectives and (4) storage of data outputs extracted
+the complexities associated with conducting single from the OMOP- CDM as approved by the HREC. For
+Hallinan CM, et al. BMJ Health Care Inform 2024;31:e100953. doi:10.1136/bmjhci-2023-100953 3
+Open access
+Table 1 Guiding principles of FAIR, CARE and the Five Safes
+The FAIR guiding principles B
+M
+F Findability Metadata and data should be easily found by both humans and computers through the J
+H
+assigment of globally unique and permanent identifier to enable the automatic discovery e
+of datasets and services via machine learning.18 a lth
+&
+A Accessability Metadata and data should easily retrieved by authorised and authenticated users via a
+C
+standard communication protocol.18 a
+re
+I Interoperabilty Data from one data source can be integrated with data from other sources so that it can In
+fo
+be aggregated into a single, unified view and refers to the intergration and exchange of rm
+applications, analysis, storage and workflow processing across different data sources.18 a
+tic
+R Reusability M
+or
+e
+li
+t
+n
+a
+k
+d
+a
+a
+g
+ta
+e
+a
+in
+n d
+d i
+d
+ffe
+a
+r
+t
+e
+a
+n
+c
+t
+h
+s
+a
+e
+r
+t
+a
+t
+c
+in
+t
+g
+e
+s
+ri
+.
+s
+R
+tic
+e
+s
+u s
+a
+a
+re
+b i
+s
+li
+p
+ty
+e c
+in
+ifi
+c
+e
+lu
+d
+d
+i
+e
+n
+s
+d
+t
+e
+h
+t
+e
+a
+r
+il
+e
+t
+l
+o
+ea
+e
+s
+n
+e
+a
+o
+b
+f
+l e
+d
+r
+a
+e
+t
+p
+a
+li
+u
+c
+s
+a
+a
+ti
+g
+o
+e
+n
+li
+a
+c
+n
+e
+d
+n
+/
+ses,
+s :
+firs
+provenance details and disclosure around community standards relevant to the domain.18
+t
+p
+u
+The CARE principles P ro b lis
+h
+tee
+C Collective benefit Collective benefit including where the well- being of Indigenous Peoples’ rights is of cd
+primary concern.19 te d a s
+b 1
+A Authority Indigenous Peoples’ rights and interests about their peoples, communities, cultures and y c 0 .1
+territories with regard to data are recognised and clearly articulated.19 o p 1 3
+y6
+R Researcher Researchers have a responsibility to develop and nurture respectful relationship with
+rig
+h
+/b
+m
+E Ethics
+I
+M
+nd
+in
+ig
+im
+e
+i
+n
+s
+o
+e
+u
+h
+s
+a
+P
+rm
+eo
+a
+p
+n
+le
+d
+s
+m
+’ f
+a
+ro
+x
+m
+im
+w
+is
+h
+e
+o
+b
+m
+e n
+t
+fi
+h
+t
+e
+f
+d
+or
+a t
+I
+a
+n d
+o
+ig
+rig
+en
+in
+o
+a
+u
+te
+s
+.
+P
+19
+eoples’, for justice and future use.19
+t,
+in
+c lu
+jh
+c
+i-2 0
+d2
+T
+P
+h
+e
+e
+o p
+F
+l
+i
+e
+ve Safes framework
+S
+Is
+a
+t
+f
+h
+e
+e
+P
+r
+e
+e
+o
+s
+p
+ea
+le
+rcher appropriately trained and authorised to access and use the data?20
+in g
+fo
+r
+u s e
+s
+3 -1
+0
+0 9
+5 3
+o
+Projects S
+Is
+a
+d
+fe
+a t
+P
+a
+r o
+u
+j
+s
+e
+e
+c
+d
+ts
+for an appropriate purpose that is valid and of public benefit?20
+re
+la
+n
+2 1
+te F
+de
+S
+D
+e
+a
+t
+t
+t
+a
+ings S
+D
+S
+a
+a
+o
+f
+f
+e
+e
+e
+s
+S
+D
+IT
+e
+a
+t
+t
+a
+t
+a
+i
+c
+n
+c
+g
+e
+s
+ss and physical environment prevent unauthorised use?20
+to
+te
+x
+t
+a
+b ru
+a
+ry
+2
+n0
+H
+di
+a
+s
+s
+c l
+a
+o
+p
+su
+p
+r
+r
+e
+o
+?
+p
+2
+r
+0
+iate and sufficient protection been applied to the data to avoid risk of d
+d a
+2 4
+. D
+tao
+Outputs Safe Outputs mw
+Are the statistical results non- disclosive?20 in in n lo a
+gd
+,
+A
+e
+d
+OMOP converted data that contains linked data, for of options for patients who wish to decline to partic-
+I
+tra
+fro
+m
+a
+e
+li
+n
+x
+n
+a
+d
+k
+m
+e
+l
+d
+i
+p
+a
+l
+b
+e
+w
+i
+,
+i
+l
+t
+i
+A
+h
+ty
+U
+h
+p
+- e
+o
+ro
+P
+sp
+c
+B
+e
+i
+R
+t
+d
+a
+N
+u
+l
+r
+a
+e
+w
+d
+s
+h
+m
+w
+e
+i
+r
+o
+s
+e
+u
+s i
+l
+o
+d
+p
+n
+r
+n
+s
+im
+e
+d
+e
+a
+a
+d
+r
+t
+y
+a
+t
+,
+o
+2
+c
+7
+a
+b
+r
+g
+e
+e
+o
+e
+v
+d
+e
+x
+a
+r
+p
+t
+n
+a
+li
+a
+c
+n
+a
+it
+c
+r
+l
+e
+e
+y b
+e
+ip
+m
+r
+a
+e
+p
+t
+a
+e
+l
+c
+.
+o
+h
+2
+y
+6
+e
+e
+s
+2
+d
+,
+7
+s
+b
+u
+T
+y
+c
+h
+h
+O
+r o
+a
+M
+u
+s
+O
+g
+t
+h
+h
+P
+e
+- C
+t
+r
+h
+D
+e
+e
+i
+M
+d e
+,
+d
+n
+t
+e
+h
+t
+i
+i
+d
+e
+fi
+e
+c
+r
+n
+a
+i
+t
+t
+s
+i
+i
+k
+f
+o
+s
+i
+n
+c a
+r e
+o
+ti
+l
+f
+o
+a
+n
+i
+t
+n
+e d
+d
+m
+iv
+t
+e
+i
+o
+d
+t h
+u
+d
+o
+a
+a
+d
+l
+t
+s
+a
+s
+,
+in
+in g
+, a n
+d
+h ttp
+s ://in
+developed to ensure the governance interests of all are significantly reduced. This is achieved by exclu-
+s
+im
+fo
+rm
+institutions are considered. sively using aggregated results from OMOP- CDM and
+ila
+r
+te
+a
+tic
+s
+C
+In
+o n
+a
+s
+n
+en
+y
+t
+research, regardless of whether it is conducted
+b
+t
+g
+s
+i
+m
+a
+y
+fi
+t
+a
+c
+r
+e
+l
+e
+a
+d
+l
+t
+f
+i
+r
+c
+o
+o
+a
+e
+n
+u
+i
+l
+n
+l
+t
+i
+i
+p
+s
+s
+n
+i
+u
+z
+f
+g
+u
+e
+t s
+s
+r
+f r
+t
+a
+f
+h
+o
+r
+r
+m
+e
+o
+e
+r
+m
+n
+m
+r e
+o
+O
+i
+p
+t
+n
+o
+M
+r
+i
+e
+m
+r
+O
+t
+p
+i
+i
+o
+n
+s
+P
+e
+r
+g
+-
+d
+t
+C
+e
+s
+D
+b
+d
+m
+y
+M
+.
+a
+e
+l l
+n
+a
+c
+s
+r
+u
+e
+e
+l
+r
+l
+i
+u
+n
+s
+s
+i
+g
+e
+z
+d
+e
+o
+s
+n
+.
+a
+l
+R
+n
+y
+d
+e
+a
+i
+g
+d
+t
+g
+h
+e
+r
+n
+a
+e
+t
+-
+-
+c
+h n o
+lo
+g ie
+s
+.b
+m j.c
+o m
+o
+by an individual researcher, clinician or collaborative .n
+1
+research team, it is imperative to determine the nature of 7
+M
+the consent obtained from a patient for the secondary use Risk mitigation a
+rc
+of their data. This assessment should consider the risks OMOP mitigates many of the risks of using EMR data h
+2
+and the potential for psychological, social, economic and for secondary purposes including: (1) replacement 0
+2
+6
+legal harm that may arise from data collection, utilisation of all personal identifiers with a generic number that b
+y
+or any potential breaches. does not allow reidentification back to the original g
+u
+In Australia, a ‘waiver of consent’ as per National personal identifier12; (2) an option for data custo- e s
+t.
+Health and Medical Research Council (NHMRC) dians to perform analyses on behalf of an individual
+guidelines can be applied to secondary use of health researcher and auditor (ie, no data release); (3) the
+data26 (box 1). Some ethics committees may request use of a user interface tool such as ATLAS, where
+an ‘opt- out’ model, necessitating the consideration researcher or auditor access to data in all tables can
+4 Hallinan CM, et al. BMJ Health Care Inform 2024;31:e100953. doi:10.1136/bmjhci-2023-100953
+Open access
+Box 1 Consent Box 2 Risk mitigation
+B
+If an ethics committee deems a research project or a healthcare eval- An access control policy is crucial for ensuring the privacy, management M
+uation to be of minimal risk to the individual, an exception to obtaining and security of data, especially when it is related to research. This en- J
+H
+the legislated requirement for patient consent can be managed using sures use of data is managed appropriately and underpinned by respect e a
+a ‘waiver of consent.’ A ‘waiver of consent’ can be applied based on a of the rights and expectations of the individuals it represents.
+lth
+&
+duty of ‘easy rescue,’ where the potential benefits of data access are Access control measures include the application of strong passwords
+C
+considered significant, and the harm associated with the risk of a loss that are complex and contain alphanumeric characters as well as sym- a re
+of privacy are considered minimal.30 It is also hypothesised a ‘waiver of bols; multifactor authentication where data users apply two or more In
+consent’ avoids the consequence of consent bias where individuals who evidence pieces (or factors) to verify their identity; safe connectivity
+fo
+rm
+provide informed consent to participate in a study differ in important where the standard practice for data access is via devices connected to a
+ways from those who do not consent or choose not to participate.30 secure and private networks rather than devices that are connected to
+tic
+s
+Numerous research and evaluation initiatives have employed a ‘waiver public networks; the prompt reporting of data breaches to mitigate the
+:
+firs
+of consent’ approach, allowing for the secondary utilisation of electronic impact of any cybersecurity attack and prevent further vulnerabilities; t
+p
+m
+Ar
+e
+g
+d
+u
+i
+m
+ca
+e
+l
+n
+r
+t
+e
+s
+c o
+a
+r
+g
+d
+a i
+(
+n
+E
+s
+M
+t
+R
+a
+)
+‘
+d
+w
+a
+a
+ta
+iv
+.3
+e
+1
+r
+– 3
+o
+4
+f consent’ considers the societal costs
+t
+t
+h
+h
+e
+a t
+v
+r
+e
+e
+r
+s
+i
+e
+fi
+a
+c
+r
+a
+c
+t
+h
+io
+,
+n
+h e
+o
+a
+f
+lt
+e
+h
+t
+c
+h
+a
+ic
+r
+s
+e
+a
+e
+p
+va
+p
+l
+r
+u
+o
+a
+v
+t
+a
+io
+ls
+n
+b
+a
+e
+n
+f
+d
+o r
+a
+e
+u d
+g
+i
+r
+t
+a n
+is
+t i
+c
+n
+o
+g
+n
+a
+d
+c
+u
+c
+c
+e
+te
+s
+d
+s
+i
+t
+n
+o
+a
+e
+n
+n s
+e
+u
+th
+re
+-
+P
+ro
+u b lis
+h
+and potential patient harm, against the benefits of patient data utili- ically sound manner; and the permissions for data access limited to
+te
+c
+e
+d
+sation. Costs include privacy breaches per se and the use of data for those researchers and health service evaluators who are authorised te d a s
+nefarious purposes, both of which contribute to a heightened risk of and working within the confines of an institution’s environment. b y 1 0
+eroding trust.35 This includes potential for a loss of informational priva- A review of data that is due to be transmitted to researchers and health c o .1 1
+p3
+cy where an individual’s personal or sensitive information is exposed, service evaluators provides another important safety check, as does y6
+shared or accessed by others without their consent, or in a manner that maintenance of version control, where the most recent database is
+rig
+h
+/b
+m
+v
+a
+i
+p
+o
+p
+la
+li
+t
+c
+e
+a
+s
+t io
+th
+n
+e i
+o
+r
+f
+e
+a
+x p
+‘w
+ec
+a
+t
+i
+a
+v
+t
+e
+io
+r
+n
+o
+s
+f
+o
+c
+f
+o n
+p
+s
+r
+e
+iv
+n
+a
+t
+c
+’
+y
+s
+.3
+t
+5
+e m
+Ad
+s
+d
+f
+i
+r
+t
+o
+io
+m
+na
+t
+l
+h
+r
+e
+a t
+p
+io
+ri
+n
+m
+al
+a r
+a
+y
+g a
+ra
+in
+ti
+s
+o
+t
+n
+t
+a
+h
+le
+e a
+th
+lw
+e
+a
+d
+y
+e
+s
+l iv
+h
+e
+e
+r
+ld
+y
+a
+o
+s
+f e
+b
+x
+a
+p
+c
+l
+k
+ic i
+u
+t
+p
+i
+.
+n
+A
+st
+d
+r
+d
+u
+i
+c
+ti
+t
+o
+io
+n
+n
+a
+s
+l r
+t
+i
+o
+s k
+r e
+m
+se
+a
+a
+n
+r
+a
+c
+g
+h
+e
+e
+m
+rs
+e n
+a
+t
+n d
+co
+e
+n
+v
+tr
+a
+o
+lu
+ls
+a t
+in
+or
+c
+s
+lu
+o
+d
+n
+e
+t,
+in
+c
+lu
+jh
+c
+i-2
+0
+d2
+for an individual’s involvement in research lies in the process of duty of the appropriate use of the dataset; the incorporation of additional hard- in3
+c
+id
+a
+e
+r
+a
+e
+t
+t
+h
+o
+a
+o
+t
+b
+d
+t
+e
+a
+p
+in
+e
+,
+n
+‘i
+d
+n
+i
+f
+n
+o
+g
+r m
+so
+e
+l
+d
+e l
+c
+y
+o
+o
+n
+n
+s e
+r
+n
+e
+t
+s
+’
+e
+.
+a
+T
+r
+h
+c
+i
+h
+s j
+a
+u
+n
+s
+d
+ti fi
+e
+c
+v
+a
+a
+t
+l
+i
+u
+o
+a
+n
+t i
+i
+o
+s
+n
+g
+m
+ro
+i
+u
+g
+n
+h
+d
+t
+e
+n
+d
+o t
+i n
+a d
+th
+e
+e
+-
+w
+Ve
+a
+r
+r
+i
+e
+m a
+a
+r
+u
+k
+t h
+h
+e
+a
+n
+r
+t
+d
+ic
+w
+a
+a
+ti
+r
+o
+e
+n
+k
+s
+e
+u
+y
+c
+s
+h
+; r
+a
+e
+s
+s t
+t
+r
+h
+ic
+e
+t e
+Y
+d
+u b
+a
+iK
+cc
+e
+e
+y,
+s
+T
+s
+it
+t
+a
+o
+n
+i
+,
+d
+T
+e
+h
+n
+e
+ti
+t
+fi
+is
+e r
+a
+s
+n
+i
+d
+n
+K
+th
+e
+e
+n s
+u
+in
+n
+g
+d
+t
+e
+o
+r
+n
+-
+g
+fo
+r u
+-1
+0
+0 9 5
+quately protect the values and interests of those participating. Further lying Structured Query Language database and continuous evaluation s e
+s
+3
+o
+t
+o
+o
+n l
+t
+y
+h i
+i
+s
+n
+,
+t
+i
+h
+n
+e
+fo
+r
+r
+e
+m
+s
+e
+e
+d
+ar
+c
+c
+o
+h
+n
+a
+s
+n
+e
+d
+n t
+e v
+is
+a l
+r
+u
+e
+a
+g
+t
+a
+io
+rd
+n
+e
+p
+d
+r o
+a
+c
+s
+e
+a
+ss
+m
+it
+e
+s
+a
+e
+n
+lf
+s
+b
+o
+u
+f
+t
+b
+in
+u
+t
+il
+h
+d
+e
+in
+r
+g
+e s
+t
+e
+ru
+a
+s
+r
+t
+c
+,
+h
+n
+e
+o
+r/
+t of anonymisation adequacy instructions on appropriate use for dataset. re
+la te
+n
+2 1 F
+c
+N
+th
+l
+o
+i
+e
+n
+t
+r
+w
+i
+e
+c i
+i
+a
+t
+s
+h
+n
+h
+s
+o
+t
+u
+u
+a
+n
+l
+n
+d
+d
+d
+e
+a
+in
+r
+l
+s
+s
+g
+t
+o
+a
+e
+n
+b
+t
+d
+h
+e
+i
+i
+n
+c
+c
+g
+s
+o n
+o
+c
+s
+f
+o
+id
+h
+m
+e
+e
+m
+r
+a
+a
+l
+i
+t
+b
+t
+h
+t
+l
+e
+e
+d
+e
+a
+s o
+c
+ta
+o
+c i
+n
+u
+a
+s
+s
+l
+i
+e
+d
+e
+.
+e
+n
+35
+r
+g
+a
+a
+t
+g
+io
+e
+n
+m
+s
+e
+f
+n
+o
+t
+r
+a
+p
+c
+a
+r
+t
+o
+ie
+ss
+n t
+a
+c
+b
+o
+r
+n
+e
+s
+a
+e
+d
+n
+th
+t, s
+it
+o u
+a
+r
+p
+c
+a
+e
+r
+s
+t
+t
+f
+h
+ro
+a
+m
+t h
+t
+a
+h
+v
+e
+e
+l
+d
+e
+a
+ss
+t a
+s t
+s
+r
+h
+u
+a
+c
+r
+t
+i
+u
+n
+r
+g
+e d
+r e
+E
+s
+M
+tri
+R
+ct i
+'
+o
+d
+n
+a
+s
+ta
+, i
+l
+t
+a k
+a
+e
+ls
+s
+o
+’ t
+s
+h
+e
+a
+ts
+t
+d to
+te
+x t
+a
+e b ru
+a
+ry
+2
+of stakeholders on research that uses health data, even if it is deiden- n0
+contain vast amounts of native and disparate data. These d2
+tified. This engagement provides options for the provision of ‘social
+‘data lakes’ that lack standardised schemas, make data
+d
+a
+4
+.
+D
+permission’ and ‘social licence’ for consent, where the determination tao
+management and analysis more challenging. In contrast, mw
+o b f e y c o o n n d se t n h t e i s li m co it c s r e o a f t l e a d w b a y n p d a o ti u e t n s t i s d e a n o d f w th h e a r t e f i o s r a e c m ce o p r t a a ll b y l e le b g y it i a m n i s e e th d i — cs OMOP- CDM benefits from OHDSI’s open-s ource tools in in n lo a
+gd
+committee—to preserve societal trust.36 and standardised analytics, by enhancing transpar- , A e d
+P
+f
+a
+s
+o
+h
+s
+a
+r
+s
+o
+t i
+r
+u
+u
+e
+e
+m
+l
+n
+s
+d
+t
+e
+e
+b
+a
+a
+d
+e
+n
+r
+,
+c
+d
+i
+a
+h
+n
+c
+c
+a
+b
+o
+o
+n
+r
+m
+r
+e
+d
+p
+a
+m
+o
+h
+d
+r
+e
+u
+t
+a
+h
+a
+n
+t
+l
+e
+i
+t
+o
+t
+d
+h
+y
+f
+c
+a
+i
+p
+a
+n
+c
+a
+r
+t
+c
+o
+e
+ti
+e
+e
+e
+g
+p
+n
+v
+o
+t
+t
+a
+a
+v
+b
+l
+e
+a
+u
+i
+r
+n
+l
+a
+n
+i
+d
+t
+t
+a
+y
+i o
+n
+p
+o
+n
+c
+u
+f
+e
+b
+i
+t
+n
+h
+l
+f
+i
+d
+r
+c
+e
+a
+i c
+m
+u
+v
+a
+a
+s
+t
+e
+e
+l
+e
+u
+w
+s
+o
+e
+,
+o
+f
+s
+f
+r
+,
+o
+d
+k
+r
+n
+a
+s
+s
+t
+e
+.
+a
+3
+o
+e
+7
+c
+d
+w
+i
+s
+a
+i t
+l
+h
+a
+l
+i
+i
+n
+n
+c
+d
+e
+t
+n
+h
+in
+c
+e
+t
+e
+i
+e
+r
+t
+r
+E
+o
+e
+M
+s
+b
+t
+R
+e
+s
+e
+p
+co
+n
+r
+A
+o
+n
+c
+c
+y
+s
+s
+,
+o
+e
+a
+s
+r
+r
+n
+s
+t
+e
+e
+i
+d
+e
+u
+s
+x
+u
+.
+m
+t
+c
+e
+i
+n
+n
+h
+s
+g
+a
+i o
+s
+c
+n
+o
+d
+d
+o
+e
+i
+f
+v
+n
+e
+O
+g
+l o
+M
+e
+p
+r
+O
+e
+r
+d
+o
+P
+r
+d
+s
+t h
+a
+a
+t
+e
+n
+a
+d
+c
+O
+o
+s
+H
+n
+u
+v
+p
+D
+e
+p
+S
+r
+o
+s
+I
+i
+r
+o
+t
+Q
+i
+n
+n
+,
+u
+g
+t
+a
+h
+l
+v
+i
+e
+a
+t y
+l
+O
+i d
+H
+D
+at
+a
+D
+i
+s
+o
+S
+h
+n
+I
+-
+I tra
+in
+in
+g
+, a n
+d
+fro
+m
+h
+ttp
+s ://in
+b
+th
+o
+e
+a r
+O
+d
+M
+, a
+O
+t
+P
+oo
+-C
+l
+D
+to
+M
+e n
+to
+s u
+im
+re
+p
+t
+r
+h
+o
+e
+v e
+q u
+tr
+a
+a
+l
+n
+it
+s
+y
+p
+o
+a
+f
+r e
+d
+n
+a
+c
+ta
+y,
+c
+r
+o
+ed
+n
+u
+ve
+c
+r
+e
+t e
+c
+d
+o d
+in
+in
+to
+g
+s
+im
+ila
+fo
+rm
+a
+be configured to protect privacy8; (4) collaborative errors and enable validation.29 The OHDSI Quality Dash- r te tic s
+analyses are always conducted within each institu- board is designed to assess and monitor the quality of c h n .b m
+t
+t
+i
+e
+o
+r
+n
+m
+’s
+in
+f
+o
+i
+l
+r
+o
+e
+g
+w
+y
+a ll
+o
+e
+n
+d
+l y
+n e
+r
+t
+e
+w
+m
+o
+o
+r
+v
+k
+e
+8;
+s
+(
+p
+5
+o
+)
+t e
+u
+n
+s
+t
+e
+i a
+o
+l
+f
+id
+st
+e
+a
+n
+n
+t
+d
+if
+a
+ie
+rd
+rs
+i se
+in
+d
+p
+d
+r
+a
+o
+ta
+v id
+th
+e
+a
+s
+t
+a
+h
+s
+a
+e
+s
+t o
+b
+f
+e e
+d
+n
+a ta
+c o
+q
+n
+u
+v
+a
+e
+l
+r
+it
+t
+y
+e d
+c h
+i
+e
+n
+c
+to
+ks
+t
+a
+h
+n
+e
+d
+O
+va
+M
+li
+O
+da
+P
+t
+-
+i
+C
+o
+D
+n
+M
+to
+.
+o
+I
+ls
+t o lo
+g ie
+s
+j.c
+o m
+o
+the source terminology and (6) there is an option to that help identify issues or anomalies in the converted .n
+1
+obscure dates from view, such that temporal associa- data.16 In doing so, it identifies and addresses data quality 7
+M
+tion can be calculated from a relative date (box 2).28 issues that may arise during the conversion process by a rc
+checking data for completeness, consistence, accuracy h
+2
+and adherence to standard terminologies. This ensures 0
+2
+6
+BENEFITS, LIMITATIONS AND CONSIDERATIONS OF OMOP- that the data in the OMOP- CDM are reliable and suitable b
+y
+CDMS for research, analysis, evaluation and audit. g
+u
+OMOP- converted databases offer a secure and stan- Specialist fields such as oncology and pregnancy have e s
+dardised approach to EMR data analysis within an open- unique data requirements.8 For instance, cancer-r elated
+t.
+source framework, which produces aggregated results data elements can vary among healthcare sites due to clin-
+which are free of patient identifiers. This eliminates the ical practice variations. The OMOP-C DM may not always
+need for direct access to native EMR data or external fully standardise these elements during the mapping
+Hallinan CM, et al. BMJ Health Care Inform 2024;31:e100953. doi:10.1136/bmjhci-2023-100953 5
+Open access
+process. To address specialised data needs, the OHDSI utility in unlocking valuable EMR data. These factors
+community actively develops and shares OMOP-C DM collectively support a wide range of applications,
+extensions, particularly for specific cancer types. from health service operational reporting to diverse B
+M
+Specialist fields such as oncology and pregnancy have clinical, epidemiological and translational research J
+H
+specific data needs8 and data elements may vary among projects. e
+a
+healthcare sites due to differences in clinical practices. While the adoption of OMOP and the collaborative
+lth
+&
+The OMOP-C DM may not always fully standardise these efforts in data integration in Australia is commendable, C
+a
+elements during the mapping process. To cater to these there is room for further development in bridging the re
+specialised data needs, the OHDSI community actively gap between hospital and primary care data. This ongoing In fo
+creates, refines and disseminates OMOP-C DM extensions endeavour has the potential to significantly enhance rm
+that are highly specific to cancer types and treatments, as Australia’s capacity for data- driven research and improve a tic
+we
+G
+ll
+i v
+a
+e
+s
+n
+p r
+t
+e
+h
+g
+e
+n a
+E
+n
+M
+cy
+R
+e p
+c
+i
+a
+s
+p
+o
+t
+d
+u
+e
+r
+s
+e
+a
+s
+n
+s
+d
+im
+o
+i
+u
+la
+tc
+r
+o
+d
+m
+a
+e
+ta
+s.
+across various
+healthcare outcomes for its population. s : firs
+healthcare sites, such as specific pathology indicators, Author affiliations
+t
+p u
+they may contain different data elements due to differ- 1Health and Biomedical Informatics Centre, Research Information Technology Unit P ro b lis
+h
+ences in pathology classifications (ie, pathology defini- (HaBIC R2), Department of General Practice and Primary Care, The University of te c e d
+tions and units). To address these variations and maintain Melbourne Faculty of Medicine Dentistry and Health Sciences, Melbourne, Victoria, te d a s
+the OMOP-C DM’s relevance and flexibility, the OHDSI 2 A S u c s h tr o a o li l a of Computing and Information Systems, Faculty of Engineering and b y c 1 0 .1
+community also actively develops extension to address o1
+Information Technology, Centre for the Digital Transformation of Health, The p3
+v
+C
+d
+a
+i
+D
+v
+r
+I
+e
+n
+i
+M
+a
+r
+s
+t
+s
+’
+t
+i
+e
+s
+o
+i t
+n
+h
+u
+o
+e
+v
+t
+i
+i
+n
+e
+a
+o
+r
+l
+p
+t
+n
+a
+h
+a
+l
+a
+l
+c
+t
+l
+h
+a
+c
+r
+o
+o
+g
+e
+l
+m
+o
+o
+s
+v
+g
+i
+p
+t
+e
+y
+e
+a
+r
+p
+s
+t
+n
+i
+h
+a
+b
+a
+n
+e
+i
+n
+l
+n
+d
+i
+c
+t
+o
+y
+e
+r
+t
+e
+y
+a
+s
+p
+a
+n
+e
+n
+e
+d
+a
+s
+d
+r c
+t
+i
+o
+n
+h
+p
+t
+p
+p
+e
+r
+r
+i
+r
+r
+e
+v
+o
+o
+a
+s
+p
+j
+e
+c
+e
+e
+r
+y
+c
+v
+r
+t
+a
+e
+s
+f
+.
+b
+t
+r
+h
+i
+a
+li
+e
+m
+t y
+O
+e
+a
+w
+M
+c
+o
+r
+O
+r
+o
+k
+P
+s
+s
+s
+-
+3
+U
+M
+T
+Q
+h
+n
+e
+u
+e
+i
+l
+v
+e
+b
+e
+U
+e
+o
+r
+n
+n
+u
+s
+i
+s
+r
+i
+v
+t
+n
+l
+y
+e
+a
+e
+r
+n
+o
+,
+s
+d
+f
+V
+i t
+M
+i
+y
+D
+c t
+o
+i
+e
+g
+o
+f
+l
+r
+i
+b
+t
+Q
+i
+a
+o
+a
+u
+l
+u
+,
+e
+A
+H
+rn
+e
+u
+e
+e
+n
+s
+a
+s
+t
+l
+F
+r
+t
+l
+h
+a
+a
+a
+c
+n
+li
+C
+u
+a
+d
+e
+l t
+F
+n
+y
+a
+t r
+o
+c
+e
+f
+u
+(
+l
+M
+t
+Q
+y
+e
+D
+o
+d
+H
+f
+i c
+e
+M
+i
+C
+n
+e
+)
+e
+,
+d
+C
+D
+ic
+e
+e
+i
+n
+n
+n
+t
+e
+t
+r
+i
+,
+e
+s
+W
+t
+f
+r
+o
+y
+o
+r
+o
+a
+l
+H
+n
+lo
+e
+d
+o
+a
+n
+H
+lt
+g
+e
+h
+a
+a
+S
+b
+lt
+e
+b
+h
+r
+a
+v
+S
+,
+i
+c
+Q
+c
+i
+e
+u
+e
+s
+e
+n
+e
+c
+R
+n
+e
+e
+s
+s
+s
+l
+,
+e
+a
+a
+n
+r
+d
+c
+,
+h ,
+y rig
+h t,
+in c
+lu d
+6 /b
+m jh
+c i-2
+0 2
+Australia in3
+h
+se
+a
+c
+v
+o
+e
+n
+e
+d
+v
+a
+o
+r
+l
+y
+v e
+E
+d
+M
+in
+R
+d
+u
+e
+s
+p
+e
+e
+,7
+n
+t
+d
+h
+e
+e
+n
+r
+t
+e
+l
+f
+y
+o
+a
+r
+l
+e
+o
+,
+n
+a
+g
+c
+s
+h
+id
+ie
+e
+v i
+t
+n
+h
+g
+e
+a
+a d
+c
+o
+o
+p
+n
+t
+s
+i
+e
+o
+n
+n
+s u
+o
+s
+f
+4
+S
+Q
+c
+u
+ie
+a
+n
+li
+c
+ty
+e s
+U
+,
+s
+U
+e
+n
+o
+iv
+f
+e
+M
+rs
+e
+it
+d
+y
+i c
+o
+i
+f
+n
+S
+es
+o u
+a
+t
+n
+h
+d
+A
+P
+u
+h
+s
+a
+tr
+r
+a
+m
+lia
+a
+,
+c
+A
+y
+d
+R
+e
+e
+la
+se
+id
+a
+e
+r
+,
+c
+S
+h
+o
+C
+u
+e
+th
+n t
+A
+re
+u
+,
+s
+C
+tr
+l
+a
+in
+li
+i
+a
+c
+,
+a
+A
+l
+u
+a
+s
+n
+t
+d
+r a
+H
+li
+e
+a
+alth
+g
+fo
+r u
+-1
+0
+0 9 5
+on governance practices across institutions is an 5Clinical Haematology Department, The Royal Melbourne Hospital, Peter MacCallum s e
+s
+3
+o
+o
+o
+n
+f
+g
+o
+o
+n
+i
+g
+n
+o
+g
+i n
+en
+g
+d
+c
+e
+o
+a
+l
+v
+la
+o
+b
+u
+o
+r.
+r a
+T
+t
+h
+io
+is
+n
+u
+a
+n
+n
+d
+d
+e r
+s
+s
+t
+c
+a
+o
+n
+r
+d
+e
+a
+s
+r
+t
+d
+h
+i
+e
+sa
+i
+t
+m
+io
+p
+n
+o r
+in
+ta n
+th
+c
+e
+e
+6
+C
+S
+a
+i
+n
+r
+c
+P
+e
+e
+r
+t e
+C
+r
+e
+M
+nt
+a
+re
+c
+,
+C
+M
+al
+e
+lu
+lb
+m
+o u
+D
+r
+e
+n
+p
+e
+a
+,
+r
+V
+t
+i
+m
+ct
+e
+o
+n
+ri
+t
+a
+o
+,
+f
+A
+O
+us
+n
+t
+c
+r
+o
+a
+l
+l
+o
+ia
+gy, The University of Melbourne Faculty
+re
+la te
+n
+2 1 F
+h
+c
+a
+a
+n
+e
+n
+d
+a l
+b
+t
+h
+h
+e
+e
+c
+l
+a
+a
+e
+r
+l
+v
+t
+e
+e
+h
+d
+r
+c
+a
+a
+a
+g
+t
+r
+a
+e
+e
+d
+f i
+i
+e
+m
+e
+l
+f
+d
+f
+p
+e
+t
+r
+o
+c
+o
+t
+e
+v
+iv
+e
+n
+e
+m
+s
+l
+u
+y
+e
+r
+n
+a
+e
+n
+t
+t
+.
+h
+d
+a
+G
+e
+t
+i
+t
+v
+v
+h
+a
+e
+i
+l
+n
+c
+u
+a
+a
+l
+a
+b
+ly
+l
+l
+l
+e
+fo
+t
+h
+h
+r
+e
+e
+r
+a
+e
+lt
+o
+s
+h
+e
+p
+a
+d
+p
+r
+a
+o
+c
+t
+r
+h
+a
+-
+7
+8
+o
+A
+D
+Q
+f
+u
+e
+u
+M
+s
+p
+e
+tr
+e a
+e
+a
+d r
+n
+l
+t i
+i
+s
+c
+a
+m
+l
+i
+a
+n e
+n
+e n
+d
+t D o
+D
+e f
+i
+n
+g
+G t
+i
+i
+t
+e s
+a
+n t
+l
+r e y
+H
+r
+e
+a a
+a
+l n
+l
+M d
+th
+e H d
+C
+e i
+e
+a c
+n
+l i t n
+t
+h
+r
+e
+e
+, S T
+(
+c
+Q
+h ie
+D
+e n
+H
+R c
+e
+e o
+C
+s y
+)
+, a
+,
+M l
+C
+M e
+e
+l
+n
+e b
+t
+l o b
+re
+u o r u
+f
+n
+o
+r e n
+r
+, e
+H
+V
+e
+H ic
+a
+o t
+l
+s o
+th
+p ri i a
+S
+ta ,
+e
+l A ,
+r
+u
+v
+P
+i
+s a
+c
+t r
+e
+r k a
+s
+v l i
+R
+i a ll
+e
+e
+s
+,
+e
+V
+a
+ic
+rc
+to
+h
+r
+,
+i a, d to
+te
+x
+t
+a n
+e b ru
+a
+ry
+2 0
+g
+tu
+o
+n
+ve
+it
+r
+i
+n
+es
+a n
+t
+c
+h
+e
+e
+,
+O
+th
+M
+es
+O
+e
+P
+o
+- C
+pp
+D
+o
+M
+rt u
+o
+n
+ff
+it
+e
+i
+r
+e
+s
+s
+f
+a
+o
+r
+r
+e
+i
+l
+n
+im
+te
+i
+g
+te
+ra
+d
+t e
+b
+d
+y
+d
+la
+a
+c
+t
+k
+a
+9
+T
+S
+h
+c
+e
+h
+U
+o
+n
+o
+i
+l
+v
+o
+e
+f
+r s
+P
+i
+o
+ty
+p u
+o
+l
+f
+a
+Q
+tio
+u
+n
+e e
+H
+n
+e
+s
+a
+la
+lt
+n
+h
+d
+, U
+F
+N
+ac
+S
+u
+W
+lt
+,
+y
+S
+o
+y
+f
+d
+M
+ne
+e
+y
+d
+,
+i
+N
+ci
+e
+n
+w
+e,
+S
+H
+o
+e
+u
+rs
+th
+to
+W
+n,
+a
+Q
+le
+u
+s
+e
+,
+e
+A
+n
+u
+s
+s
+l
+t
+a
+r
+n
+a
+d
+lia
+, Australia d
+d a
+2 4
+. D
+of standalone funding required for the comprehen- 10Centre for Big Data Research in Health (CBDRH), UNSW, Sydney, New South ta m o w
+sive mapping of data from local EMRs to the common Wales, Australia in in n lo a
+gd
+p
+w
+e
+f
+t
+o
+h
+v
+r
+i
+r
+l
+a
+e
+o
+l
+m
+l
+m
+u
+g
+p
+a
+a
+l
+i
+a
+o
+t
+s
+t
+.
+v
+i
+e
+b
+n
+e
+D
+a
+g
+o
+l
+e
+t
+p
+h
+s
+f
+c
+u
+p
+e
+o
+e
+t
+r
+i
+m
+t
+u
+a
+w
+e
+t
+r
+m
+i
+a
+e
+t
+o
+y
+h
+u
+n
+f
+e
+n
+o
+t
+a
+s
+o
+r
+i
+l
+e
+t y
+s
+p
+t
+c
+t
+r
+t
+a
+r
+h
+a
+o
+o
+n
+a
+n
+c
+d
+l
+t
+s
+l
+e
+h
+f
+a
+e
+s
+o
+r
+e
+n
+s
+r
+d
+e
+g
+m
+O
+i
+s
+e
+s e
+M
+s
+a
+,
+h
+d
+n
+O
+t
+e
+d
+h
+h
+a
+P
+e
+e
+l
+-
+t
+f
+a
+C
+h
+a
+c
+l
+c
+D
+o
+c
+th
+i
+a
+m
+l
+M
+r
+it
+d
+e
+m
+a
+a
+s
+t
+i
+i
+r
+t
+e
+t
+g
+a
+e
+m
+n
+,
+s
+q
+e
+i
+e
+w
+u
+f
+a
+n
+i
+h
+a
+r
+e
+t
+i
+l
+c
+s
+c
+i
+o
+h
+t
+h
+a
+y
+f
+,
+L
+C
+C
+i
+T
+n
+w
+i
+o
+o
+a
+v
+l
+n
+o
+w
+i
+l
+t
+a
+t
+l
+t
+v
+r
+e
+b
+@
+i
+i
+n
+b
+r
+o
+E
+g
+u
+r
+C
+l
+a
+t
+A
+m
+h
+o
+t
+s
+r
+o
+r
+u
+i
+t
+s
+s
+r
+e
+l
+t
+s
+t
+e
+i
+i
+n
+p
+T
+e
+l
+N
+h
+e
+e
+o
+M
+a
+t
+r
+u
+a
+a
+e
+t
+r
+p
+s
+h
+y
+e
+p
+o
+H
+a
+l
+r
+i
+s
+r
+c
+a
+c
+a
+l
+w
+l
+h
+i
+b
+n
+h
+l
+p
+a
+e
+o
+r
+n
+.
+e
+c
+s
+@
+o
+e
+n
+n
+C
+t
+t
+r
+m
+e
+ib
+d
+h
+u
+a
+i
+t
+n
+l
+e
+l i
+d
+t
+n
+h
+a
+t
+i
+o
+n
+s
+,
+v
+p
+A
+a
+a
+s
+r
+p
+i
+h
+o
+e
+l
+u
+e
+r
+s
+y
+w
+a
+P
+a
+s
+s
+N
+p
+a
+g
+e c
+c
+@
+t
+o
+s
+l
+d
+l
+o
+a
+r
+f
+n
+b
+g
+t
+o
+h
+r
+a
+e
+a
+n
+t
+r
+i
+d
+e
+v e
+v
+S
+i e
+i
+e
+a
+w
+f
+w
+fo
+.
+-
+T
+r
+T
+t
+h
+e
+e
+n g
+,
+A I
+tra
+in
+in g
+, a n
+d
+e
+d fro
+m
+h ttp
+s ://in
+improvement within healthcare organisations. review was conceived by RW, GKH, NP and DBu. CMH structured the review, s im fo rm
+synthesised the evidence, drafted the manuscript, reviewed the manuscript and ilaa
+completed the final version of the manuscript. RW, GKH, CS, NP, AN, DC, AVDV, S-T L, r
+te
+tic
+s
+CONCLUSION O th D e , f B u G ll L m , D an B u u s c a r n i d p t D w B h o e p n r o co vi m de p d le e te v d id . ence and edits for the review, and reviewed c h n .b m
+A
+lo
+d
+c
+o
+a
+p
+ll
+t
+y
+i o
+i
+n
+s w
+o
+e
+f
+ll
+th
+w
+e
+o r
+O
+th
+M
+t
+O
+he
+P - C
+in
+D
+v
+M
+es tm
+in
+e
+t
+n
+er
+t,
+n a
+a
+t
+s
+i o
+i
+n
+t
+al
+e
+l
+n
+y
+ab
+an
+le
+d
+s F
+D
+u
+a
+n
+ta
+d
+C
+in
+o
+g
+m m
+Th
+o
+i
+n
+s
+s
+s t
+(
+u
+A
+d
+R
+y
+D
+w
+C)
+a
+P
+s
+u
+f
+b
+u
+l
+n
+ic
+d e
+S
+d
+e c
+b
+t
+y
+o r
+A
+B
+us
+ri
+t
+d
+ra
+g
+l
+e
+ia
+s
+n
+P
+G
+ro
+o
+g
+v
+r
+e
+a
+r
+m
+nm
+'E
+e
+l
+n
+e
+t
+c
+,
+t
+A
+ro
+u
+n
+s
+i
+t
+c
+ra
+M
+lia
+e
+n
+d i
+R
+c
+e
+a
+s
+l
+e
+R
+a
+e
+r
+c
+c
+o
+h
+r ds
+o lo
+g ie
+s
+j.c
+o m
+o
+conversion of large amounts of complex, and hetero- .n
+as a National Data Asset' (Doi: 10.47486/PS014). 1
+geneous EMR data into a standardised structured 7
+Competing interests None declared. M
+data model, simplifies governance processes and a
+Patient consent for publication Not applicable.
+rc
+facilitates rapid repeatable cross- institution analysis h
+2
+through shared end- to- end analysis packages, without Provenance and peer review Not commissioned; externally peer reviewed. 0
+2
+6
+the sharing of native data. Combined with pseudony- Data availability statement Data sharing not applicable as no datasets generated. b
+y
+misation and common data quality assessments, the Open access This is an open access article distributed in accordance with g
+u
+OMOP- CDM provides a powerful model to support the Creative Commons Attribution Non Commercial (CC BY- NC 4.0) license, e s
+ethical real- world ‘big’ data research. The continued which permits others to distribute, remix, adapt, build upon this work non-
+t.
+commercially, and license their derivative works on different terms, provided the
+adoption of OMOP- CDM, ongoing development
+original work is properly cited, appropriate credit is given, any changes made
+efforts, and the emphasis on sound governance prac-
+indicated, and the use is non- commercial. See: http://creativecommons.org/
+tices all contribute to the realisation of OMOP’s licenses/by-nc/4.0/.
+6 Hallinan CM, et al. BMJ Health Care Inform 2024;31:e100953. doi:10.1136/bmjhci-2023-100953
+Open access
+ORCID iDs 19 The Global Indigenous Data Alliance. CARE principles for indigenous
+Christine Mary Hallinan http://orcid.org/0000-0002-0471-4444 data governance. 2022. Available: https://www.gida-global.org/care
+Ashley P Ng http://orcid.org/0000-0001-9690-0879 20 ABS. Five safes framework Australian Bureau of Statistics Canberra:
+Australia. n.d. Available: https://www.abs.gov.au/about/data- B
+Siaw- Teng Liaw http://orcid.org/0000-0001-5989-3614 M
+services/data-confidentiality-guide/five-safes-framework J
+21 Biedermann P, Ong R, Davydov A, et al. Standardizing registry data H
+to the OMOP common data model: experience from three pulmonary e a
+hypertension databases. BMC Med Res Methodol 2021;21:238. lth
+REFERENCES 22 OHDSI. The book of OHDSI: observational health data sciences &
+1 Safran C, Bloomrosen M, Hammond WE, et al. Toward a national and Informatics. 2023. Available: https://ohdsi.github.io/ C
+a
+framework for the secondary use of health data: an American TheBookOfOhdsi/ re
+medical informatics association white paper. J Am Med Inform Assoc 23 Blacketer C, Defalco FJ, Ryan PB, et al. Increasing trust in real- world In
+2007;14:1–9. evidence through evaluation of observational data quality. J Am Med fo
+2 Danciu I, Cowan JD, Basford M, et al. Secondary use of clinical data: Inform Assoc 2021;28:2251–7. rm
+3 B
+th
+u
+e
+d
+v
+ri
+a
+o
+n
+n
+d
+is
+e r
+A
+b
+,
+i l
+B
+t a
+e
+p
+lli
+p
+k
+r
+a
+o
+J
+a
+G
+ch
+.
+.
+T
+J
+h e
+B i
+l
+o
+e
+m
+ar
+e
+n
+d
+in g
+In f
+h
+o
+e
+r
+a
+m
+lt h
+2
+c
+0
+a
+1
+r
+4
+e
+; 5
+s
+2
+y
+:
+s
+2
+te
+8
+m
+–3
+:
+5
+w
+.
+here are
+24 B
+da
+la
+s
+c
+h
+k
+b
+e
+o
+te
+a
+r
+rd
+C
+t
+,
+o
+V
+i
+o
+m
+s
+p
+s
+r
+E
+o
+A
+ve
+, D
+th
+e
+e
+F
+E
+al
+H
+co
+D E
+F,
+N
+e
+n
+t
+e
+a
+t
+l.
+w
+U
+o
+s
+rk
+in
+.
+g
+A
+t
+p
+h
+p
+e
+l ie
+d
+d
+a t
+S
+a
+c
+q
+ie
+u
+n
+a
+c
+lit
+e
+y
+s
+a tic
+s
+4 P
+w
+a
+e
+r k
+n o
+K
+w
+,
+?
+C h
+A
+o
+s
+M
+ys
+,
+t e
+S
+m
+on
+a
+g
+ti c
+M
+r
+,
+e
+e
+vi
+t
+e
+a
+w
+l.
+.
+E
+J
+x
+B
+p
+i
+l
+o
+o
+m
+rin
+e
+g
+d
+t
+I
+h
+n
+e
+fo
+p
+rm
+ot e
+2
+n
+0
+t
+1
+ia
+6
+l
+; 6
+o
+4
+f
+:
+O
+8
+M
+7–
+O
+9
+P
+2.
+25 K
+11
+im
+92
+J
+;1
+- W
+1:
+,
+1
+K
+1
+i
+9
+m
+2 0
+C
+.
+, Kim K- H, et al. Scalable infrastructure supporting
+: firs
+common data model for process mining in healthcare. PLoS One reproducible nationwide healthcare data analysis toward FAIR
+t
+p
+u
+5 W
+20
+e
+2
+is
+3
+k
+;1
+o
+8
+p
+:
+f
+e
+N
+02
+G
+7
+,
+9
+W
+64
+e
+1
+n
+.
+g C. Methods and dimensions of electronic health 26 N
+st
+H
+ew
+M
+a
+R
+rd
+C
+s
+.
+h
+N
+ip
+a
+.
+t i
+S
+o
+c
+n
+i
+a
+D
+l S
+a
+t
+t
+n
+a
+a
+2
+t
+0
+io
+2
+n
+3
+a
+;
+l
+1
+s
+0
+t
+:
+a
+6
+t
+7
+e
+4
+m
+.
+ent on ethical conduct in human
+P
+ro
+b lis
+h
+record data quality assessment: enabling reuse for clinical research. research (2007) - updated 2018; 2018. National health and medical tee
+J Am Med Inform Assoc 2013;20:144–51. research Council c te d a
+6 J
+o
+e
+b
+a
+s
+n
+e
+-
+rv
+B
+a
+a
+t
+p
+io
+ti
+n
+s
+a
+te
+l m
+L,
+e
+M
+dic
+o
+a
+u
+l
+a
+o
+z
+u
+e
+t
+r
+c
+A
+o
+,
+m
+S
+e
+e
+s
+d k
+p
+i
+a
+K
+rt
+,
+n
+e
+e
+t
+r s
+a
+h
+l.
+i p
+T r
+-
+a n
+co
+sl
+m
+at
+m
+in
+o
+g
+n
+t h
+d
+e
+a ta model
+27 U
+ce
+N
+n
+S
+tr
+W
+e
+.
+f o
+T
+r
+h
+p
+e
+r
+e
+im
+le
+a
+c
+r
+t
+y
+ro
+h
+n
+e
+ic
+a lt
+p
+h
+r a
+c
+c
+a
+t
+r
+i
+e
+c e
+a n
+b
+d
+as
+e
+e
+q
+d
+u
+r
+it
+e
+y
+s e
+m
+a
+e
+rc
+d
+h
+ic
+n
+in
+e
+e
+t
+.
+w
+2
+o
+0
+r
+2
+k
+1
+S
+.
+y
+A
+d
+v
+n
+a
+e
+il
+y
+a
+:
+b le:
+d
+b y
+s
+1 0
+(OMOP- CDM) electronic health records to an OWL ontology. Stud https://cphce.unsw.edu.au/research/electronic-practice-based-
+c.1
+o1
+Health Technol Inform 2022;290:76–80. research-network p3
+y6
+7 E
+Ye
+v
+a
+a
+r
+n
+b
+s
+M
+RS
+ed
+. E
+In
+le
+fo
+ct
+r
+r
+m
+o n
+2
+ic
+0 1
+h
+6
+e
+;
+a
+S
+l
+u
+th
+p p
+re
+l
+c
+1
+o
+(S
+rd
+u
+s
+p
+:
+p
+th
+l 1
+e
+)
+n
+:S
+, n
+4
+o
+8
+w
+–6
+,
+1
+a
+.
+n d in the future. 28 H
+in
+r i
+c
+p
+li
+c
+n
+s
+ic
+a
+a
+k
+l
+G
+da
+,
+t
+M
+a
+ir
+w
+h
+h
+a
+i
+j
+l
+i
+e
+P
+m
+, L
+a
+o
+in
+w
+ta
+A
+in
+F
+i
+,
+n
+e
+g
+t
+p
+a
+r
+l.
+i v
+P
+a
+r
+c
+e
+y
+s
+.
+e
+J
+r v
+A
+in
+m
+g
+M
+te
+e
+m
+d
+p
+I
+o
+n
+r
+f
+a
+o
+l
+r m
+re la
+A
+t
+s
+io
+s
+n
+o
+s
+c
+rig
+h
+/b
+m
+8 O
+s
+s
+t
+t
+H
+a
+a
+n
+n
+D
+d
+d
+S
+a
+a
+I
+r
+r
+.
+d
+d
+O
+i
+i
+z
+z
+b
+a
+a
+s
+t
+t
+i
+i
+e
+o
+o
+r
+n
+n
+v
+/
+a
+2
+t
+t
+h
+0
+io
+e
+2
+n
+-
+1
+c
+a
+.
+o
+l
+2
+m
+h
+0
+e
+m
+2
+a
+1
+l
+o
+t h
+n
+A
+-
+v
+d
+d
+a
+a
+a
+i
+t
+l
+t
+a
+a
+a
+b
+-
+s
+l
+m
+c
+e
+i
+:
+o
+e
+h
+d
+n
+t
+e
+c
+tp
+l
+e
+/
+s
+s
+: /
+a
+/
+n
+w
+d
+w
+I
+w
+nf
+.
+o
+o
+r
+h
+m
+ds
+a
+i
+t
+.
+i
+o
+c
+r
+s
+g
+d
+/d
+a
+a
+ta
+ta - 29 S
+E
+20
+v
+c
+i
+1
+h
+d
+6
+u
+e
+;
+e
+n
+2
+m
+c
+3
+e
+:
+i
+1
+e
+G
+0
+M
+4
+e
+0
+J
+n
+,
+–
+e
+5
+R
+ra
+.
+y
+t
+a
+io
+n
+n
+P
+a
+B
+n
+,
+d
+P
+E
+ra
+v
+t
+a
+t
+l u
+N
+a
+,
+t i
+e
+o
+t
+n
+a
+a
+l.
+c
+P
+ro
+ri
+s
+n
+s
+c i
+a
+p l
+N
+es
+e t
+o
+w
+f
+o
+L
+r
+a
+k
+r g
+o
+e
+f
+-
+D
+s
+a
+c
+t
+a
+a
+le
+b ases
+t,
+in
+c
+lu d
+jh
+c
+i-2
+0 2
+9 SNOMED CT. SNOMED International leading Healthcare terminology, (LEGEND). J Am Med Inform Assoc 2020;27:1331–7. in3
+10 L
+m h
+w
+O
+t
+o
+e tp
+I
+r
+a
+N
+l
+s
+d
+s :
+C
+u
+w
+// r
+.
+l
+i
+e o
+d
+L
+m i
+e
+O
+n e c
+2
+IN
+n .
+0
+o t
+C
+2
+s rg
+2
+,
+t
+/
+.
+o
+h
+2
+b
+e
+0
+s
+I
+2
+n
+e
+2
+r
+te
+v
+.
+a
+r
+A
+n
+ti
+v
+a
+o
+a
+t
+n
+i
+i
+o
+l
+s
+a
+n
+,
+b
+a
+a
+l
+l
+e
+n
+s
+:
+d
+t
+h
+a
+d
+t
+n
+t
+o
+p
+d
+c
+s
+a
+u
+:
+r
+/
+m
+d
+/w
+e
+fo
+w
+n
+r
+t
+w
+s
+id
+. s
+2
+e
+n
+0
+n
+o
+2
+ti
+m
+2
+fy
+.
+e
+i
+2
+n
+d
+0
+g
+.o
+2
+h
+2
+rg
+e
+.
+a
+/
+A
+lt
+v
+h
+a ilable:
+30 P
+u
+r 2 e
+s
+0
+o
+c
+e
+1
+r
+o
+s
+6
+o
+r
+d
+; d
+f
+3
+a
+s
+h
+7
+m
+,
+e
+4 c
+a
+:
+M
+2 o
+lt
+0 n
+h
+a
+1 s
+n
+d
+e 6
+n
+a
+n 0
+S
+t
+t 1
+a
+,
+a 3
+f
+n
+S
+0
+o
+d .
+a
+r
+v
+t
+t
+u
+h
+h
+l
+e
+e
+e s
+d
+b
+c
+u
+e
+u
+n
+ty
+e
+J
+fi
+o
+,
+t
+f
+S
+o
+e
+a
+f
+a
+h
+s
+s
+a
+y
+o
+k
+c
+i
+r
+a
+e
+ie
+n
+s
+t
+c
+y
+B
+u
+:
+J
+e
+e
+.
+.
+l
+F
+e
+P
+c
+a
+h
+t
+c
+r
+i
+i
+o
+l
+l i
+T
+n
+ta
+r
+i
+a
+c
+ti
+n
+n
+h
+s
+g
+e
+R
+a
+th
+l t
+S
+e
+h
+o
+e
+c
+t h
+A
+ic al
+g
+fo
+r
+u s e s
+-1
+0
+0 9
+5 3 o
+11 N
+Rx
+a
+n
+ti
+o
+o
+r
+n
+m
+al
+.
+L
+2
+i
+0
+b
+2
+ra
+2
+r
+.
+y
+A
+o
+v
+f
+a
+M
+ila
+e
+b
+d
+le
+ic
+:
+i
+h
+n
+t
+e
+t
+.
+p
+U
+s:
+n
+//
+ifi
+w
+e
+w
+d
+w
+m
+.n
+e
+lm
+dic
+.n
+a
+i
+l
+h
+l
+.
+a
+g
+n
+o
+g
+v
+u
+/r
+a
+e
+g
+s
+e
+e a
+s
+r
+y
+c
+s
+h
+t
+/
+e
+u
+m
+m ls/
+31 T
+c
+u
+a r
+K
+e
+,
+v
+S
+is
+a
+it
+r
+s
+k a
+a
+d
+ri
+i
+s
+K
+in
+r
+g
+is t
+f
+i
+r
+a
+o
+n
+m
+s s
+t
+o
+h
+n
+e C
+R,
+O
+G
+V
+r
+I
+o
+D
+n
+- 1
+sb
+9
+e
+p
+ll
+a
+J
+n
+,
+d
+e
+e
+t
+m
+a
+i
+l
+c
+.
+:
+C
+a
+h
+n
+a n
+in
+g
+t
+e
+e
+s
+rn
+i
+a
+n
+t i
+p
+o
+r
+n
+im
+al
+a ry re
+la
+n
+2 1
+rxnorm/index.html comparative study by the International consortium of primary care te d F e
+1
+1
+3
+2
+E
+O
+a
+In
+n
+l
+H
+f
+e
+d
+o
+c
+D
+r
+t
+w
+m
+S
+ro
+h
+I
+a
+.
+n
+e
+t
+O
+i
+i
+r
+c
+c
+e
+u
+s
+m
+w
+r
+; 2
+e
+j
+e
+o
+d
+0
+u
+a
+2
+ic
+r
+r
+2
+n
+e
+a
+.
+e
+l
+g
+y
+r
+o
+e
+:
+i
+c
+w
+n
+o
+g
+h
+r
+e
+d
+o
+r
+s
+b
+e
+s
+N
+t
+e
+h
+a
+r
+e
+t
+v
+i o
+a
+O
+n
+ti
+H
+a
+o
+D
+l
+n
+d
+a
+S
+a
+l
+I
+t
+h
+c
+a
+e
+o
+a
+a
+m
+l
+s
+t
+s
+h
+m
+e
+d
+u
+t
+a
+n
+(I
+t
+i
+n
+t
+a
+y
+t e
+s
+h
+r
+c
+a
+n
+ie
+s
+e
+n
+t
+b
+)
+c
+.
+e
+e
+2
+e
+s
+0
+n
+2
+a
+2
+n
+.
+d 32 L
+t
+J
+b
+h
+A
+u
+ig
+e
+M
+Y
+r
+d
+a
+,
+A
+a
+p
+V
+t
+i
+N
+a
+e
+a
+n
+s
+e
+r e
+t
+Z
+u
+w
+s
+s
+a
+e
+e
+n
+O
+a
+d
+d
+r
+p
+c
+t
+i
+e
+n
+h
+M
+n
+e
+t
+,
+r
+r
+2
+e
+s
+L
+0
+a
+i
+(
+2
+u
+t
+IN
+m
+2
+Y
+;
+T
+e
+,
+5
+R
+n
+e
+:e
+t
+e
+t
+2
+P
+o
+a
+2
+l
+f
+I
+.
+3
+D
+h
+A
+8
+)
+y
+.
+7
+n
+p
+B
+7
+a
+e
+l
+.
+M
+y
+r t
+s
+J
+e
+i s
+n
+O
+s
+o
+p
+io
+f
+e
+n
+d
+n
+u
+in
+2
+a
+0
+l
+a
+2
+c
+m
+2
+o
+;
+m
+u
+1
+l
+2
+b
+ti
+:
+i
+n
+e
+n
+a
+0
+a
+t
+5
+t
+i
+i
+o
+9
+o
+n
+1
+n
+a
+3
+l
+0
+c
+.
+ohort.
+to
+te
+x t
+a n
+b ru
+a
+ry
+2 0
+14 E
+A
+l
+v
+e
+a
+c
+il
+t
+a
+ro
+b
+n
+le
+ic
+: h
+P
+t
+r
+t
+a
+p
+c
+s
+t
+:
+i
+/
+c
+/d
+e
+o
+B
+i.
+a
+o
+s
+rg
+e
+/
+d
+1
+R
+0.
+e
+2
+s
+6
+e
+1
+a
+8
+r
+8
+c
+/
+h
+6
+N
+29
+e
+5
+tw
+c4
+o
+a
+rk
+5
+.
+d
+C
+7c
+e
+5
+n
+c
+tre for Primary
+33 A
+dr
+h
+iv
+m
+e
+a
+n
+d
+s
+i
+t
+N
+ud
+, P
+ie
+e
+s
+n
+f
+g
+o r
+Y
+c
+,
+a
+W
+n
+o
+c
+l
+e
+fi
+r
+e
+p
+n
+r
+M
+ed
+,
+ic
+e
+t
+t
+i o
+a
+n
+l.
+:
+O
+a
+M
+sy
+O
+s
+P
+te
+C
+m
+D
+a
+M
+tic
+c
+r
+a
+e
+n
+v ie
+fa
+w
+c
+.
+i l
+I
+it
+n
+a
+t
+t
+J
+e
+M
+da
+o
+t
+l
+a - d
+d a
+2 4
+. D
+Health Care and Equity, UNSW Sydney, Available: https://cphce. Sci 2022;23:19. tao
+15 B un o s y w le . e D d , u S .a a u n / c re i L se , a E r m ch e / r e y l e J c , t e ro t n a i l c . - P p A r T a R ct O ic N e - P b r a im se a d ry -r e C s a e r a e r c R h e - s n e e a t r w c o h r k 34 L al a o n n e e J a C n E d , i W n c e o av m e b r i J n , a K tio o n s t w ka it h K , a e zi t t h a r l. o R m is y k c in o f i n h y t d he ro t x r y e c a h tm lo e ro n q t u o i f n e m in in w n lo a
+Data Repository, . 2019Available: https://medicine.unimelb.edu.au/ rheumatoid arthritis: a multinational, retrospective study. Lancet gd
+school-structure/general-practice-and-primary-care/research/data- Rheumatol 2020;2:e698–711.
+,
+A
+e
+d
+1
+1
+7
+6
+O
+A
+K
+a
+e
+fo
+s
+l
+C
+a
+e H
+r
+s
+-
+h
+c
+H
+D
+e
+d
+n
+t
+s
+I
+e
+r S
+L
+o
+s
+M
+c
+I
+L
+n
+m
+.
+i s
+E
+G
+i O c
+i
+e
+S
+o
+,
+b
+n
+h
+n
+C
+f
+s
+t
+e
+s
+o
+e
+a
+t
+a
+r
+e
+r
+l
+l
+l
+v
+r
+d
+t
+a
+h
+m
+a
+h
+a
+t
+a
+t
+r
+i
+i
+n
+a
+o e
+n
+o
+c n
+c
+T
+l
+o a
+o
+h
+J
+r l
+g
+a
+d
+,
+h
+r
+y
+B
+e
+a
+d
+a
+a
+c
+a
+a
+n
+l
+t
+r
+t t
+e
+n
+a
+d
+h
+r
+a
+.
+i
+d
+f
+z
+r
+E
+r
+d
+a
+a
+a
+G
+t
+t
+m
+J
+i
+a E
+o
+,
+e
+M
+n
+s
+e
+w
+c
+t
+2
+S i
+o
+e
+a
+0
+r
+( n
+l
+2
+k
+W
+.
+c
+2
+A
+f
+a e
+.
+o
+s s
+h
+n
+r
+h
+a
+.
+a
+t
+d
+h
+r
+D n
+m
+.
+e
+d C
+A
+o
+s
+)
+v
+I
+n
+e
+n
+a
+2
+i
+c
+f
+z
+i
+0 o
+l
+o
+e
+a
+1 r
+n
+d
+b
+m 6
+d
+l
+;
+e
+d
+a 4
+a
+:
+t
+a
+:
+r
+i 1
+h
+y
+c
+ta
+2
+t
+s
+u
+t
+4
+p
+q
+s
+4
+s
+u
+e
+.
+:
+a
+/
+o
+l
+/
+i
+f
+t y
+3
+3
+6
+5
+M d
+t
+P
+-
+fa
+r
+a
+u
+l
+w
+i
+o
+u
+l
+t
+s
+.
+h
+l
+u
+a l
+t
+B
+e
+y
+-
+g
+.
+i r
+M
+B
+n
+a
+T
+S t
+M
+r
+.
+C
+e
+g
+H
+I
+n
+C
+n
+u
+M
+A s
+m
+D
+, i
+M
+e
+v
+e
+K
+e
+e
+d
+e
+n
+f
+a
+e
+d
+h
+E
+t
+l
+s
+k
+n
+e
+t
+E
+m
+h
+c
+a
+f
+t
+r
+e
+i
+l
+h
+c
+o
+a t h
+i
+s
+n
+o
+m
+c
+f
+r
+s
+2
+S e
+“
+i
+0
+n
+2
+, s
+e
+2
+f
+e
+0
+v
+a
+o
+0
+a a
+2
+s
+r
+;
+n r
+m
+1
+y
+2
+c
+;
+1
+T
+r
+h
+2
+e
+e
+:
+h :
+d
+2
+7
+s
+i t
+:
+5
+e
+c
+o
+1
+c
+.
+l
+u
+1
+o
+w G
+e
+0
+n
+a
+”
+.
+,
+s
+r
+,
+d
+e
+e
+“
+n
+s t
+n
+t
+a
+o
+c
+f
+l o .
+o
+h
+- T
+r
+a
+c h
+h
+r
+r
+m
+e e
+e
+a
+a
+s
+”
+t
+l
+o
+t
+i
+a
+o
+h
+c
+n
+n i
+r
+d
+a ,
+e
+l p
+c
+“
+li
+c
+o
+u c
+o
+r
+b e
+d
+n
+l n i c
+s
+r
+c
+e
+e
+e v
+s
+n
+a
+e
+f
+t
+o l
+a
+u
+b
+r
+r
+e
+i
+c
+a
+h
+a
+s
+n
+”
+d
+I tra
+in
+in
+g , a n
+d
+fro
+m
+h
+ttp s ://in
+18 W
+ww
+ilk
+w
+in
+.o
+s
+h
+o
+d
+n
+s
+M
+i.o
+D
+rg
+,
+/
+D
+a
+u
+n
+m
+al
+o
+yt
+n
+ic
+ti
+-
+e
+t
+r
+o
+M
+ol
+,
+s /
+J
+a
+a
+c
+n
+h
+A
+ill
+a
+e
+l
+s
+b
+-
+e
+fo
+rs
+r-
+b
+d
+e
+a
+r
+t
+g
+a -
+I,
+c
+e
+h
+t
+a
+a
+ra
+l.
+c
+A
+te
+d
+r
+d
+iz
+e
+a
+n
+ti
+d
+o
+u
+n
+m
+/
+:
+37 K
+vi
+a
+e
+l
+w
+km
+s a
+a
+n
+n
+d
+S
+a
+,
+t
+v
+t
+a
+it
+n
+u d
+D
+e
+e
+s
+l d
+to
+e
+w
+n
+a
+J
+r
+,
+d
+B
+s
+a
+t
+n
+h
+e
+e
+r j
+s
+e
+h
+e
+a
+A
+ri
+,
+n
+e
+g
+t
+o
+a
+f
+l .
+h
+P
+e
+a
+a
+t
+lt
+ie
+h
+n
+d
+ts
+a
+’
+t a
+a n
+fo
+d
+r
+public s im
+ila
+fo rm
+a
+t
+s
+h
+te
+e
+w
+fa
+a
+i
+r
+r
+d
+g
+s
+u
+h
+i
+i
+d
+p
+i
+.
+n
+S
+g
+c
+p
+i
+r
+D
+in
+a
+c
+t
+i
+a
+p l
+2
+e
+0
+s
+1
+f
+9
+o
+;
+r
+6
+s
+:6
+c
+.
+i entific data management and r
+2
+e
+0
+s
+2
+e
+2
+a
+;
+r
+4
+c
+8
+h
+:
+:
+3
+a
+– 1
+n
+3
+a
+.
+r rative review of the empirical evidence. J Med Ethics r
+te
+tic
+s
+c
+h n
+.b
+m
+o
+lo
+g ie
+s
+j.c
+o m
+o
+.n
+1
+7
+M
+a
+rc
+h
+2
+0
+2
+6
+b
+y
+g
+u
+e
+s
+t.
+Hallinan CM, et al. BMJ Health Care Inform 2024;31:e100953. doi:10.1136/bmjhci-2023-100953 7

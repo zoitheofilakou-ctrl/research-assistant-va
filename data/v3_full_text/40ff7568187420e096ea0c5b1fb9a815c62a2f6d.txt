@@ -1,0 +1,443 @@
+van Amesfoort et al. International Breastfeeding
+International Breastfeeding Journal (2024) 19:18
+Journal
+https://doi.org/10.1186/s13006-024-00624-1
+CASE REPORT Open Access
+Lactation induction in a transgender
+woman: case report and recommendations
+for clinical practice
+Jojanneke E. van Amesfoort1*, Norah M. Van Mello1,2 and Renate van Genugten3
+Abstract
+Background We present a case of non-puerperal induced lactation in transgender woman. Medical literature on lac-
+tation induction for transgender women is scarce, and the majority of literature and protocols on lactation induction
+is based on research in cisgender women. Healthcare professionals may lack the precise knowledge about lactation
+induction and may therefore feel insecure when advice is requested. Subsequently, there is a rising demand for guide-
+lines and support.
+Methods Patient medical record was consulted and a semi-structured interview was conducted to explore
+the motive for lactation induction, the experience of lactation induction, and to gather additional information
+about the timeline and course of events.
+Case presentation In this case a 37-year-old transgender woman, who was under the care of the centre of expertise
+on gender dysphoria in Amsterdam, and in 2020 started lactation induction because she had the wish to breastfeed
+her future infant. She was in a relationship with a cisgender woman and had been using gender affirming hormone
+therapy for 13 years. Prior to initiating gender affirming hormone therapy she had cryopreserved her semen. Her part-
+ner conceived through Intracytoplasmic Sperm Injection, using our patient’s cryopreserved sperm.
+To induce lactation, we implemented a hormone-regimen to mimic pregnancy, using estradiol and progester-
+one, and a galactogogue; domperidone. Our patient started pumping during treatment. Dosage of progesterone
+and estradiol were significantly decreased approximately one month before childbirth to mimic delivery and pump-
+ing was increased. Our patient started lactating and although the production of milk was low, it was sufficient for sup-
+plementary feeding and a positive experience for our patient.
+Two weeks after birth, lactation induction was discontinued due to suckling problems of the infant and low milk
+production.
+Conclusions This case report underlined that lactation induction protocols commonly used for cisgender women
+are also effective in transgender women. However, the amount of milk produced may not be sufficient for exclusive
+nursing. Nevertheless, success of induced lactation may be attributed to its importance for parent-infant bonding,
+rather than the possibility of exclusive chestfeeding.
+Keywords Induced lactation, Transgender, Breastfeeding, Gender dysphoria
+*Correspondence:
+Jojanneke E. van Amesfoort
+j.e.vanamesfoort@amsterdamumc.nl
+Full list of author information is available at the end of the article
+© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/. The Creative Commons Public Domain Dedication waiver (http://creativecom-
+mons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+van Amesfoort et al. International Breastfeeding Journal (2024) 19:18 Page 2 of 8
+Background death syndrome when compared to infants that are for-
+Chestfeeding (i.e. gender neutral term for breast- mula-fed [16–21].
+feeding) was, for a long time, solely associated with It has also been noted that chestfeeding may benefit
+maternity in cisgender women (i.e. individuals who parent–child attachment [22, 23].
+were assigned female gender at birth and identify as a Chestfeeding may provide surrogate mothers emo-
+woman). However, this has increasingly been put into tional benefits, regardless of the amount of milk pro-
+question due to increasing availability and visibility duced [24]. One could speculate that chestfeeding, as by
+of non-puerperal lactation induction in mothers of society it is perceived as feminine, may be gender-affirm-
+adopted children, partners in same-sex relationships ing for transgender women. Nevertheless, the chances of
+and biological mothers of a surrogate pregnancy [1], success and risks of the high levels of hormones in peo-
+and puerperal lactation in transgender and gender ple AMAB remain unknown, and lactation induction not
+diverse individuals [2]. Transgender women (i.e. indi- succeeding may be experienced as a disappointment.
+viduals assigned male gender at birth (AMAB) and who Since medical literature is scarce, healthcare profes-
+affirm their gender as female) and non-binary individu- sionals may lack the precise knowledge about lactation
+als who are AMAB may wish to chestfeed their infants induction and may therefore feel insecure when advice
+and constitute a growing population. They may do so is requested. Subsequently, there is a rising demand
+through non-puerperal lactation induction [3–5]. for guidelines and support. Here we report a case of a
+Literature and protocols on lactation induction is transgender woman who successfully induced lactation,
+scarce and merely based on case reports in cisgen- including a report of her experiences doing so. Further-
+der women [6–10]. Research focussed on induction more, we will provide recommendations for clinical
+of lactation in transgender women is lacking and to practice.
+our knowledge, only three case reports on lactation
+Methods
+induction in transgender women have previously been
+published [4, 5, 11]. However, transgender women Written informed consent for this case report was
+chestfeeding is not limited to these case reports. On obtained prior to initiation. After receiving written
+mainstream media, cases and experiences of these informed consent, medical information for the case
+women are broadcast and may inspire other transgen- presentation was retrieved from the electronic medical
+der women to desire this themselves [12–14]. There- record.
+fore, the true incidence of lactation induction in For this case report we also conducted a semi-struc-
+transgender women is unknown. tured interview with the patient to explore the motive for
+Protocols for induced lactation in transgender women lactation induction, the experience of lactation induction,
+are not readily available. In 2020 Trautner et al. published and to gather additional information about the timeline
+a cross sectional survey that showed the interest in lac- and course of events. This interview was recorded and
+tation induction for both providers and patients [15]. transcribed verbatim by the primary author. Information
+The survey was held for attendees of the World Profes- in the interview was analysed and included in the case
+sional Association for Transgender Health (WPATH) in presentation.
+2018 and a total of 82 attendees responded to the survey Ethical approval for this study was obtained from the
+(10.5% response rate) [15]. A third of survey respondents institutional review board at the Amsterdam University
+expressed that they had met transgender women that Medical Centre. Ethical approval number: 2023.0229.
+disclosed interest in lactation induction. Nevertheless,
+Case presentation
+only a mere 9% of respondents had helped transgender
+women to induce lactation [15]. The majority of respond- Case history
+ents underlined the need for specialized protocols and In January of 2020 a 37-year-old transgender woman
+additional training in lactation induction for transgender (she/her), visited the centre of expertise on gender dys-
+women [15]. phoria in Amsterdam. She and her partner, a cisgender
+Chestfeeding offers advantages when compared to woman, wanted to fulfil their wish for a child, and both
+infant formula feeding. For instance, chestfed infants had the desire to chestfeed the infant. They had read
+have immunological advantages compared to formula about the possibility of lactation induction in transgender
+fed infants as human milk contains anti-inflammatory women on social media. The main motivation for lacta-
+agents, secretory IgA and other immunomodulators tion induction was to enhance parent–child bonding.
+[16, 17]. Furthermore, chestfeeding offers a lower risk Furthermore, they were planning to alternate chestfeed-
+of infants developing certain infections, childhood obe- ing to limit the burden, because the partner was experi-
+sity, asthma, necrotizing enterocolitis and sudden infant encing some physical limitations.
+v an Amesfoort et al. International Breastfeeding Journal (2024) 19:18 Page 3 of 8
+The patient’s medical history was notable for gender On 22nd June 2020 two pumps estradiol dermal spray
+incongruence. Hence, she was using gender affirming (equals approximately 100ug estradiol adhesive patch)
+hormone therapy since October 2007 and had under- was added to the estradiol treatment regime. Our patient
+gone a vaginoplasty in 2010, which was revised in 2011 started manual stimulation of the nipples and breast.
+and 2012. Her surgical history was also significant for On the 13th July she started domperidone 10 mg four
+an appendectomy because of appendicitis in 2010. The times daily orally.
+patient’s history was negative for smoking, alcohol and On the 20th July domperidone dosage was doubled to
+drugs. 20 mg four times daily orally.
+Prior to initiating gender affirming hormone therapy On the 27th July the progesterone dosage was doubled
+she had cryopreserved her semen. to 100 mg twice daily orally.
+At the time of her visit to the clinic she used estradiol She experienced gastrointestinal discomfort due to the
+gel 75ug per day, once daily. Her laboratory results from use of domperidone, which decreased over the course of
+her initial evaluation are displayed in Table 1. time.
+Our patient and her partner visited a lactation consult-
+Course ant for lactation support. The lactation consultant was
+As healthcare practitioners of the centre of expertise on primarily focused on education about massaging of the
+gender dysphoria in Amsterdam did not have any experi- breasts, pumping techniques and routines. The lactation
+ence with lactation induction in transgender women, her consultant did not have prior experience with lactation
+request was discussed, and medical research and litera- induction in transgender women.
+ture was consulted. At that time only one previous case On 10th August 2020, the patient expressed the first
+report, by Reisman and Goldstein, was available of lacta- drops of fluid from her nipples. Laboratory results are
+tion induction in a similar situation and the team decided shown in Table 1. Since serum estradiol levels were high,
+to apply the same protocol [4]. Low milk production, and estradiol treatment was decreased by 50ug, to a total
+thus the possible inability of exclusive nursing were dis- of 200ug estradiol daily. Progesterone was increased
+cussed with the patient. Hence, by shared decision mak- to three times daily. Laboratory results two weeks later
+ing, our patient chose non-puerperal lactation induction. (27th August) are displayed in Table 1. On October 8th
+Her partner conceived after Intracytoplasmic Sperm 2020, estradiol dosage was decreased by stopping the
+Injection (ICSI) with cryopreserved sperm of our patient. transdermal spray to a daily dosage of 100ug estradiol
+On 1st June 2020, when her partner was approximately daily. On the 16th October progesterone was discontin-
+14 weeks gestation, our patient started non-puerperal ued and the patient started pumping every four hours,
+lactation induction. The first step was the use of a 150ug including throughout the night. Every time she pumped
+estradiol adhesive dermal patch once daily and 100 mg a few droplets of milk were released. She produced
+progesterone once daily orally. Laboratory follow up after approximately 2 ml milk per day. Estradiol treatment was
+one month, on the 11th June, are shown in Table 1. decreased to 50ug daily.
+Table 1 Laboratory results over time
+Initial evaluation 11 June 2020 10 August 2020 27 August 2020
+Estradiol 1.1 nmol/L 0.43 nmol/L (73 pg/mL) 0.96 nmol/L 0.52 nmol/L
+(186 pg/mL) (162 pg/mL) (88 pg/mL)
+Progesterone 4.2 nmol/L 9.6 nmol/L 10.4 nmol/L
+(1.32 ng/mL) (3.02 ng/mL) (3.27 ng/mL)
+Testosterone 2.58 nmol/L 2.64 nmol/L 0.6 nmol/L
+(74.4 ng/dL) (76.1 ng/dL) (0.17 ng/dL)
+Prolactin 0.31 IU/L 0.26 nmol/L 2.4 IU/L 2.09 nmol/L
+(14.6 ng/mL) (12.2 ng/mL) (112.8 ng/mL) (98.2 ng/mL)
+ASAT (SGOT) 41 U/L
+ALAT (SGPT) 48U/L
+Creatinine 68umol/L
+(0.77 mg/dL)
+Cholesterol 3.8 mmol/L
+(146.95 mg/dL)
+van Amesfoort et al. International Breastfeeding Journal (2024) 19:18 Page 4 of 8
+On the 5th November 2020 her partner gave birth to success of induced lactation is often attributed to parent-
+their child at 38 weeks and 2 days gestation. Her part- infant bonding, rather than the possibility of exclusive
+ner was induced because of gestational diabetes. Both chestfeeding, this experience is valuable [25–27].
+mothers continued or commenced pumping. Our patient The success of non-puerperal lactation induction and
+produced a maximum of 7 mls a day, which was enough the amount of milk produced depends on several factors
+for supplementary feeding. Since the infant had a short [28, 29]. Physical stimulation of the breast tissue is an
+lingual frenulum, latching to the nipple was suboptimal important factor in promoting lactation in non-puerperal
+and caused suckling problems. She decided to discon- breasts. In our case, due to a short lingual frenulum, the
+tinue lactation induction two weeks after the birth of infant latched suboptimally, causing suckling problems.
+her child, because she experienced the frequent pump- This caused our patient to discontinue lactation after two
+ing to be exhausting and milk production to be low. Two weeks. These suckling problems may have contributed
+weeks after the birth her estradiol dosage was increased to low milk production and a shorter period of lactation
+to 100ug. compared to cases described by prior reports [4, 5, 11].
+Our patient reported that lactation induction did not Another contributory factor may be the time our patient
+have a significant effect on her gender identity, neither used a breast pump to stimulate the breasts in compari-
+did it alter the amount of gender dysphoria experienced. son to other studies. Though our patient started manual
+The short duration of lactation and low milk production stimulation and expression almost 20 weeks prior to
+were not experienced negatively, but she experienced delivery of her child, she only started using a breast pump
+the decision to stop as “tough”. She was happy to have three weeks before delivery, because labour was induced
+achieved lactation and for her infant to latch on and be at approximately 38 weeks of gestation due to gestational
+comforted a few times. Though she knew that (exclusive) diabetes. The period our patient was able to use a breast
+nursing was probably not possible, she expressed that “it pump prior to the birth of her child was short compared
+was a pity” that the experience of long-term feeding had to at least six weeks described in other reports and may
+not been possible. Figure 1 shows a summary of high- have contributed to the low milk production [4, 5, 11].
+lights in the treatment regime of the patient. Our participant refrained from visiting the lactation con-
+sultant provided by the hospital, but chose to be guided
+Discussion
+by a lactation consultant outside of our hospital, hence
+Case discussion we did not discuss pumping advice.
+This case endorses that lactation induction protocols are Prenatal development of mammary tissue is similar
+also successful in transgender women. Our study is in line in both males and females. In cisgender women breast
+with published case reports, in which lactation induction development starts at puberty under influence of estro-
+was successful, but the production of milk was not suffi- gen. Breast tissue composition changes during preg-
+cient for exclusive nursing [4, 5, 11]. Nevertheless, as the nancy and lactation [30]. In transgender women breast
+Fig. 1 Summary of highlights in treatment regime
+v an Amesfoort et al. International Breastfeeding Journal (2024) 19:18 Page 5 of 8
+development occurs after initiation of gender affirming Subsequently, a galactogogue can be started to
+hormone therapy; typically combining estrogen with increase prolactin levels to eventually initiate and main-
+an anti-androgen. The breast of transgender women are tain milk production. Most galactogogues interact with
+indistinguishable from those of cisgender women on dopamine receptors to increase prolactin levels. Dif-
+radiography [30, 31]. Nevertheless it is suggested that ferent galactogogues are available and the choice for
+compared to cisgender women, transgender women have a galactogogue may be based on its side effects, and
+smaller breast and may not reach full breast maturity maternal and neonatal safety. First choice for a galacto-
+[30]. Successful lactation is independent of breast volume gogue may be domperidone or metoclopramide, as the
+[32]. However, studies suggest that women with mam- efficacy of both these agents for lactation induction are
+mary hypoplasia and inadequate glandular tissue may be well reported, and are safe for both the parent initiating
+at risk for lactation failure [33–38]. lactation induction and infant [28, 29, 41–43]. It should
+In our case and the case presented by Wamboldt 2021, be noted that both drugs may have notable side effects
+the breast size and maturation has not been described that have to be taken in account. Metoclopramide may
+[5]. The cases presented by Reisman 2018 and Weimer cause extrapyramidal side effects such as bradykinesia,
+2023 do respectively describe degree of maturation and tremor and other dystonic reactions [41, 44]. These side
+size [4, 11]. In Weimer’s report the patient also under- effects are seldom seen in domperidone, since dom-
+went mammogram with ultrasound for a medical reason, peridone crosses the blood–brain barrier in minimal
+which was notable for extremely dense breast tissue [11]. amounts compared to metoclopramide [45]. Domperi-
+Nevertheless, the breast tissue of lactating transgender done and metoclopramide may cause QT prolonga-
+women has not been analyzed yet and have not been uni- tion [46, 47], however this effect is more often seen in
+formly described in previous published cases. Therefore, domperidone than in metoclopramide [48]. Due to this
+the effect of breast maturation on the success of induced effect it may be difficult to obtain domperidone in some
+lactation for transgender women is not known. countries [11]. A systematic review from 2021 reported
+In our case report we did not analyze the nutritional no significant difference in maternal side effects between
+value of milk produced by our patient. Only one previous domperidone and metoclopramide [43], nevertheless a
+report has assessed the milk produced by their patient. large observational study from 2018 did find that women
+Weimer et al. assessed their participant’s milk and found reported 3.6 times more side effects using metoclopra-
+values of fat, lactose, protein and calorie were compara- mide in comparison to domperidone [44],
+ble and even higher than those in term milk produced As a final step, the estradiol and progesterone dose
+by cisgender women. They did not assess micronutrients should be decreased to mimic the effects of delivery. This
+and bioactive factors [11]. will revert the inhibition of prolactin, causing a rise in
+prolactin to initiate or enhance lactation.
+Recommendations for clinical practice Non-pharmacological methods may include using a
+Physiology and methods for lactation induction breast pump to stimulate the breasts, manual stimulation
+Increased levels of estrogen, progesterone and prolactin of the breasts and optimal infant suckling. Successful lac-
+during pregnancy prepare the breast for lactation. Estro- tation induction by solely applying non-pharmacological
+gen and progesterone inhibit lactation, but stimulate methods have been reported in cisgender women, how-
+breast development, as proliferation of glandular tissue is ever, often non-pharmacological and pharmacological
+stimulated by estrogen and the proliferation of ducts and methods are combined.
+lobules are stimulated by progesterone [39]. After child-
+birth and delivery of the placenta, the levels of estrogen Considerations and recommendations
+and progesterone drop drastically, allowing prolactin to We suggest a thorough medical history taking prior to
+trigger lactation [40]. For non-puerperal induction of initiation of lactation medication. Medication used for
+lactation, one has to mimic the physiological changes of lactation induction may have negative side effects and
+breasts that occur due to pregnancy and childbirth. This may be contraindicated based on the patient’s medi-
+may comprise both non-pharmacological and pharmaco- cal history. Even for patients who have previously taken
+logical methods [28]. Lactation induction is most effec- estrogen, risks may be altered due to higher dosages for
+tive if these methods are used in conjunction with one induced lactation. The most important patient factors
+another. to consider include: (family) history of thrombosis and
+Pharmacological methods rely on mimicking preg- smoking over the age of 35 years, as estrogen increases
+nancy by first increasing the estradiol and progesterone the risk of thrombosis [49], and cardiac irregularities, as
+dose to optimize breast development and composition both domperidone and metoclopramide may cause QT
+for lactation, as would naturally occur in pregnancy. prolongation [46, 47].
+van Amesfoort et al. International Breastfeeding Journal (2024) 19:18 Page 6 of 8
+We recommend conducting an electrocardiogram on – At 27–28 weeks of gestation monitor blood hormone
+patients with a (family) history of cardiac irregularities. levels, increase progesterone to 100 mg three times
+Care providers should explore the expectations of the daily. Adjust estrogen dosage according to blood hor-
+parent desiring induced lactation, and manage these mone levels.
+expectations by explaining that while exclusive nursing – At least six weeks before the expected due date, start
+is often not achievable, it is not the sole purpose of lac- manual breast pumping of breast to at least every
+tation induction. three to four hours, at least once nightly.
+Some transgender women who desire to induce lac- – Four to six weeks before the expected due date,
+tation may use anti-androgen agents. Spironolactone is decrease estrogen dose to 100ug once daily and dis-
+often used, and though it crosses the placenta and into continue progesterone.
+human milk, it is considered safe during chestfeeding – At onset of milk production decrease estrogen dos-
+[50–52]. Though these effects have not been described age to 50ug once daily. When milk volume increases
+after birth in chestfeeding, it is important to inform an electric pump may be used, preferably a hospital
+and counsel patients using anti-androgen agents who grade double electric breast pump.
+wish to pursue lactation induction about the poten- – After birth of the newborn continue pumping,
+tial impact of these medications on the genital devel- including after feeds. Supplemental feedings with
+opment of the newborn [50–53]. Taking into account infant formula might be necessary if milk produced is
+that using anti-androgen agents may have a beneficial not sufficient. If the gestational parent is also nursing,
+effect on gender dysphoria in transgender women and continue pumping at least every three hours.
+weighing this against the very small chance of it having
+impact on genital development.
+Transgender women pursuing induced lactation Suggestions for future research
+should be referred to a lactation consultant to optimize Scientific literature on lactation induction in transgender
+breast stimulation techniques, develop pumping sched- women remains scarce. Future research should focus on
+ules, support in infant latching and chestfeeding posi- optimal treatment regime, the development of the infants
+tions and for adequate support. that were chestfed by transgender women and the milk
+Though the optimal dosage and route of administra- composition produced by transgender women. Further-
+tion of medication is not yet known, we suggest the fol- more, there should be a focus on if the extent of breast
+lowing treatment regime: maturation has an influence on the success of induced
+lactation, as it would be beneficial to adequately counsel
+– Intake appointment in an outpatient clinic, prefer- transgender women seeking help in lactation induction.
+ably before conception or in first trimester. Analyse
+risk factors, allergies and blood-hormone levels. Conclusions
+– At end of first trimester (12–13 weeks of gestation), Chestfeeding has outgrown the traditional image of
+after confirmation of viable intrauterine pregnancy, maternity in cisgender women, and is now available for
+increase estrogen dosage to 150ug once daily and different family structures. Transgender women may
+start progesterone 100 mg once daily. This should desire to chestfeed their infants.
+preferably be started three to five months prior to This case report underlined that lactation induction
+the expected due date. Start stimulation of breast protocols commonly used for cisgender women are also
+tissue by massaging, nipple stimulation. Discuss effective in transgender women. However, the amount of
+referral to a lactation consultant. milk produced may not be sufficient for exclusive nursing.
+– At approximately 17–18 weeks of gestation, moni- Nevertheless, success of induced lactation may be attrib-
+tor blood hormone levels, and increase estrogen to uted to parent-infant bonding, rather than the possibility
+250ug once daily. of exclusive nursing. Moreover, it may even be beneficial
+– At 20 weeks of gestation, start domperidone 10 mg to reduce gender dysphoria in transgender women. Lac-
+four times daily after two weeks. tation can be induced by applying a combination of non-
+– At 21 weeks of gestation, double domperidone to pharmacological and pharmacological techniques. In the
+20 mg four times daily. choice for pharmacological agents the side-effects and
+– At 23–24 weeks of gestation monitor blood hor- contraindications should be taken into account.
+mone levels, increase progesterone to 100 mg two
+times daily. Adjust estrogen dosage according to
+Abbreviations
+blood-hormone levels. AMAB Assigned male gender at birth
+ICSI Intracytoplasmic sperm injection
+v an Amesfoort et al. International Breastfeeding Journal (2024) 19:18 Page 7 of 8
+Acknowledgements 9. Biervliet F, Maguiness S, Hay D, Killick S, Atkin S. Induction of lactation in
+We wish to thank our study participant for participating in our study the intended mother of a surrogate pregnancy: case report. Hum Reprod.
+2001;16(3):581–3.
+Authors’ contributions 10. Farhadi R, Philip RK. Induction of lactation in the biological mother after
+NM initially approached individuals for verbal informed consent to be gestational surrogacy of twins: A novel approach and review of literature.
+approached by one of the researchers for participation in this study. JA and Breastfeed Med. 2017;12(6):373–6.
+NM created research design. JA approached patients for informed consent for 11. Weimer AK. Lactation induction in a transgender woman: macronutrient
+study participation, conducted semi-structured interview, collected interview analysis and patient perspectives. J Hum Lact. 2023;39(3):488–94.
+data, transcribed interview, coded interview analysed data, collected patient 12. The Lactation Network - Breastfeeding FAQ for trans and non-binary
+data from medical record. JA was a major contributor in writing the manu- parents [Available from: https:// lacta tionn etwork. com/ blog/ breas tfeed
+script. All authors (JA, NM, RG) have drafted the work or substantively revised ing- faq- for- trans- and- non- binary- paren ts/.
+it. All authors (JA, NM, RG) read and approved the final manuscript. 13. Burns. Trans women can breastfeed — here’s how 2018 [Available from:
+https:// www. them. us/ story/ trans- women- breas tfeed.
+Funding 14. Quora thread - Can a transgender woman breastfeed a baby? [Avail-
+Not applicable. able from: https:// www. quora. com/ Can-a- trans gender- woman- breas
+tfeed-a- baby.
+Availability of data and materials 15. Trautner E, McCool-Myers M, Joyner AB. Knowledge and practice of
+The data generated during the current study are not publicly available since induction of lactation in trans women among professionals working in
+this data may be traced back to study participant and anonymity cannot trans health. Int Breastfeed J. 2020;15:63.
+be guaranteed. The data are available from the corresponding author on 16. Goldman AS. The immune system in human milk and the developing
+reasonable request, in which case the data will be adjusted to ensure study infant. Breastfeed Med. 2007;2(4):195–204.
+participant anonymity. 17. Hanson LA, Ahlstedt S, Andersson B, Carlsson B, Fällström SP, Mellander
+L, et al. Protective factors in milk and the development of the immune
+system. Pediatrics. 1985;75(1):172–6.
+Declarations
+18. Yolken RH, Peterson JA, Vonderfecht SL, Fouts ET, Midthun K, Newburg D.
+Human milk mucin inhibits rotavirus replication and prevents experimen-
+Ethics approval and consent to participate
+tal gastroenteritis. J Clin Investig. 1992;90(5):1984–91.
+Ethical approval for this study was obtained from the institutional review
+19. Ip S, Chung M, Raman G, Chew P, Magula N, DeVine D, et al. Breastfeeding
+board at the Amsterdam University Medical Center. Ethical approval number
+and maternal and infant health outcomes in developed countries. Evid
+2023.0229.
+Rep Technol Assess. 2007;153:1–186.
+20. Bachrach VRG, Schwarz E, Bachrach LR. Breastfeeding and the risk of hos-
+Consent for publication
+pitalization for respiratory disease in infancy: a meta-analysis. Arch Pediatr
+Written informed consent was obtained for publication of this case report.
+Adolesc Med. 2003;157(3):237–43.
+21. Arenz S, Rückerl R, Koletzko B, von Kries R. Breast-feeding and childhood
+Competing interests
+obesity—a systematic review. Int J Obes. 2004;28(10):1247–56.
+The authors declare no competing interests.
+22. Gribble KD. Mental health, attachment and breastfeeding: implications
+for adopted children and their mothers. Int Breastfeed J. 2006;1:5.
+Author details
+23. Linde K, Lehnig F, Nagl M, Kersting A. The association between breast-
+1 Department of Obstetrics and Gynaecology, Amsterdam University Medical
+feeding and attachment: A systematic review. Midwifery. 2020;81:
+Centres, Reproduction and Development Research Institute, Meibergdreef
+102592.
+9, 1105 AZ Amsterdam, The Netherlands. 2 Centre of Expertise On Gender
+24. Zingler E, Amato AA, Zanatta A, Vogt MdFB, Wanderley MdS, Mariani C,
+Dysphoria, Amsterdam University Medical Centres, Location VUmc, Amster-
+Zaconeta AM. Lactation induction in a commissioned mother by sur-
+dam, the Netherlands. 3 Department of Internal Medicine and Endocrinology,
+rogacy: effects on prolactin levels, milk secretion and mother satisfaction.
+Radboud University, Nijmegen, the Netherlands.
+Rev Bras Ginecol Obstetr. 2017;39:86–9.
+25. Cheales-Siebenaler NJ. Induced lactation in an adoptive mother. J Hum
+Received: 17 August 2023 Accepted: 27 February 2024
+Lact. 1999;15(1):41–3.
+26. Thearle MJ, Weissenberger R. Induced lactation in adoptive mothers. Aust
+N Z J Obstet Gynaecol. 1984;24(4):283–6.
+27. Auerbach KG. Induced lactation: a study of adoptive nursing by 240
+women. Am J Dis Child. 1981;13(2):13–6.
+References 28. Cazorla-Ortiz G, Obregón-Guitérrez N, Rozas-Garcia MR, Goberna-Tricas
+1. Imaz E. Same-sex parenting, assisted reproduction and gender asymme- J. Methods and success factors of induced lactation: A scoping review. J
+try: reflecting on the differential effects of legislation on gay and lesbian Hum Lact. 2020;36(4):739–49.
+family formation in Spain. Reprod Biomed Soc Online. 2017;4:5–12. 29. Wittig SL, Spatz DL. Induced lactation: gaining a better understanding.
+2. MacDonald TK. Lactation care for transgender and non-binary MCN AmJ Matern Child Nurs. 2008;33(2):76–81.
+patients: Empowering clients and avoiding aversives. J Hum Lact. 30. Reisman T, Goldstein Z, Safer JD. A review of breast development in cis-
+2019;35(2):223–6. gender women and implications for transgender women. Endocr Pract.
+3. Paynter MJ. Medication and facilitation of transgender women’s lactation. 2019;25(12):1338–45.
+J Hum Lact. 2019;35(2):239–43. 31. Sonnenblick EB, Shah AD, Goldstein Z, Reisman T. Breast imaging of
+4. Reisman T, Goldstein Z. Case report: induced lactation in a transgender transgender individuals: a review. Curr Radiol Rep. 2018;6:1.
+woman. Transgender Health. 2018;3(1):24–6. 32. Żelaźniewicz A, Pawłowski B. Maternal breast volume in pregnancy and
+5. Wamboldt R, Shuster S, Sidhu BS. Lactation induction in a transgender lactation capacity. Am J Phys Anthropol. 2019;168(1):180–9.
+woman wanting to breastfeed: case report. J Clin Endocrinol Metab. 33. Arbour MW, Kessler JL. Mammary hypoplasia: not every breast can pro-
+2021;106(5):e2047–52. duce sufficient milk. J Midwifery Womens Health. 2013;58(4):457–61.
+6. Szucs KA, Axline SE, Rosenman MB. Induced lactation and exclu- 34. Betzold CM, Hoover KL, Snyder CL. Delayed lactogenesis II: a comparison
+sive breast milk feeding of adopted premature twins. J Hum Lact. of four cases. J Midwifery Womens Health. 2004;49(2):132–7.
+2010;26(3):309–13. 35. Bodley V, Powers D. Patient with insufficient glandular tissue experiences
+7. Flores-Antón B, García-Lara NR, Pallás-Alonso CR. An adoptive mother milk supply increase attributed to progesterone treatment for luteal
+who became a human milk donor. J Hum Lact. 2017;33(2):419–21. phase defect. J Hum Lact. 1999;15(4):339–43.
+8. Bryant CA. Nursing the adopted infant. J Am Board Fam Med. 36. Duran MS, Spatz DL. A mother with glandular hypoplasia and a late
+2006;19(4):374–9. preterm infant. J Hum Lact. 2011;27(4):394–7.
+van Amesfoort et al. International Breastfeeding Journal (2024) 19:18 Page 8 of 8
+37. Thorley V. Breast hypoplasia and breastfeeding: a case history. Breastfeed-
+ing Review. 2005;13(2):13–16.
+38. Neifert MR, Seacat JM, Jobe WE. Lactation failure due to insufficient
+glandular development of the breast. Pediatrics. 1985;76(5):823–8.
+39. Conneely O, Mulac-Jericevic B, Arnett-Mansfield R. Progesterone signaling
+in mammary gland development. In: Conneely O, Otto C, editors. Proges-
+tins and the mammary gland. Berlin: Springer; 2008. p. 175–85.
+40. Czank C, Henderson J, Kent J, Lai C, Hartmann P. Hormonal control of the
+lactation cycle. In Textbook of human lactation. Hale Publishing; 2007. p.
+89–111.
+41. Gabay MP. Galactogogues: medications that induce lactation. J Hum Lact.
+2002;18(3):274–9.
+42. Ingram J, Taylor H, Churchill C, Pike A, Greenwood R. Metoclopramide or
+domperidone for increasing maternal breast milk output: a randomised
+controlled trial. Arch Dis Child Fetal Neonatal Ed. 2012;97(4):F241–5.
+43. Shen Q, Khan KS, Du M-C, Du W-W, Ouyang Y-Q. Efficacy and safety of
+domperidone and metoclopramide in breastfeeding: A systematic review
+and meta-analysis. Breastfeed Med. 2021;16(7):516–29.
+44. Hale TW, Kendall-Tackett K, Cong Z. Domperidone versus metoclopra-
+mide: self-reported side effects in a large sample of breastfeeding moth-
+ers who used these medications to increase milk production. Clinical
+Lactation. 2018;9(1):10–7.
+45. Breuil L, Goutal S, Marie S, Del Vecchio A, Audisio D, Soyer A, et al.
+Comparison of the blood-brain barrier transport and vulnerability to
+p-glycoprotein-mediated drug-drug interaction of domperidone versus
+metoclopramide assessed using in vitro assay and PET imaging. Pharma-
+ceutics. 2022;14(8):1658.
+46. Elli̇dokuz E, Kaya D. The effect of metoclopramide on QT dynamicity:
+double‐blind, placebo‐controlled, cross‐over study in healthy male
+volunteers. Alimentary Pharmacology & Therapeutics. 2003;18(1):151–5.
+47. Smolina K, Mintzes B, Hanley GE, Oberlander TF, Morgan SG. The associa-
+tion between domperidone and ventricular arrhythmia in the postpar-
+tum period. Pharmacoepidemiol Drug Saf. 2016;25(10):1210–4.
+48. Claassen S, Zünkler BJ. Comparison of the effects of metoclopramide and
+domperidone on HERG channels. Pharmacology. 2005;74(1):31–6.
+49. Connelly PJ, Marie Freel E, Perry C, Ewan J, Touyz RM, Currie G, Delles C.
+Gender-affirming hormone therapy, vascular health and cardiovascular
+disease in transgender adults. Hypertension. 2019;74(6):1266–74.
+50. Al-Hadiya BM, Belal F, Asiri YA, Gubara OA. Spironolactone. In: Analyti-
+cal profiles of drug substances and excipients. Academic Press; 2002. p.
+261-320.
+51. Bijwerkingen centrum lareb. Kaliumsparende diuretica (plastabletten)
+tijdens de borstvoedingsperiode [Potassium-sparing diuretics during
+breastfeeding] 2019 [Available from: https:// www. lareb. nl/ mvm- kennis-
+pagina? id= 241& pagina= 1& zoekt erm= spiro nolac ton& zwang ersch ap=
+true& borst voedi ng= true& naam= Kaliu mspar ende% 20diu retica% 20(plast
+ablet ten)% 20tij dens% 20de% 20bor stvoe dings perio de.
+52. American Academy of Pediatrics Committee on Drugs. Transfer of drugs
+and other chemicals into human milk. Pediatrics. 2001;108(3):776–89.
+53. Shah A, editor Ambiguous genitalia in a newborn with spironolactone
+exposure. 93rd Annual Meeting of the Endocrine Society Boston; 2011.
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in pub-
+lished maps and institutional affiliations.
