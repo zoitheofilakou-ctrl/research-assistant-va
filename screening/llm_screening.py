@@ -34,7 +34,7 @@ from dotenv import load_dotenv
 # paths, constants, environment set up
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-METADATA_PATH = os.path.join(BASE_DIR, "data", "hybrede_metadata_v3.json")
+METADATA_PATH = os.path.join(BASE_DIR, "data", "hybrede_metadata_v4.json")
 PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 FILTERED_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "filtered_papers.json")
 SCREENING_LOG_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "screening_log.json")
@@ -53,75 +53,87 @@ print("=== START SCREENING RUN ===")
 # ------------------------------ 2. PROMPTS ------------------------------ 
 # LLM prompts for screening and verification
 
-SCREENING_PROMPT = """You are an academic assistant performing literature screening for a research project.
+SCREENING_PROMPT = """You are an academic assistant performing STRICT literature pre-screening.
 
-The goal of this screening process is to identify literature relevant to
-healthcare research, evidence-based practice, and the use of knowledge
-or information within professional healthcare contexts.
+This system is a conservative, rule-based filtering tool designed to identify
+ONLY papers relevant to healthcare research workflows, knowledge use,
+and decision-support contexts.
 
-The system operates as a conservative pre-screening assistant that
-applies rule-based inclusion and exclusion criteria before human review.
-Its purpose is to narrow the candidate evidence set while preserving
-final evaluative authority with the human researcher.
-
-Your task is to decide whether a scientific paper should be INCLUDED
-or EXCLUDED based solely on the title and abstract provided.
+Your goal is to aggressively EXCLUDE irrelevant papers.
 
 
-Inclusion criteria (INCLUDE if MOST apply):
+----------------------
+CORE INCLUSION LOGIC
+----------------------
 
-- The paper concerns healthcare, rehabilitation, clinical research,
-  public health, or professional healthcare practice.
+A paper can be INCLUDED ONLY if it clearly falls into ONE of the following categories:
 
-- The paper relates to healthcare professionals' use, understanding,
-  management, or application of knowledge, research evidence,
-  digital tools, or information systems in healthcare contexts.
+CATEGORY A — SYSTEM-CENTERED (STRONG INCLUDE)
 
-- The paper discusses evidence-based practice, professional education,
-  decision-making, digital health technologies, information systems,
-  or knowledge-related processes in healthcare.
+- AI system, machine learning model, or algorithm in healthcare
+- Clinical decision-support system (CDSS)
+- Digital health system, platform, or software tool
+- Healthcare information system or data system
+- Knowledge system (e.g., database, knowledge graph, RAG)
+- Digital tool actively used by healthcare professionals
 
-- Studies involving AI systems, digital platforms, decision-support
-  tools, or health technologies are acceptable when they are discussed
-  in relation to healthcare professionals, healthcare systems,
-  professional practice, or healthcare research contexts.
-
-
-Exclusion criteria (EXCLUDE if ANY apply):
-
-- The paper is directly addressed to patients or primarily studies
-  patient behaviour, engagement, or patient-facing applications.
-
-- The paper describes treatment delivery, therapeutic interventions,
-  or clinical procedures performed on patients as actionable care.
-
-- The paper evaluates patient outcomes, treatment effectiveness,
-  or clinical efficacy of medical or rehabilitation interventions.
-
-- The paper proposes or evaluates AI systems for diagnosis,
-  prediction of clinical outcomes, or autonomous clinical decision-making.
-
-- The paper focuses exclusively on non-healthcare domains
-  (e.g., finance, digital currency, general blockchain infrastructure)
-  without clear relevance to healthcare practice.
-  
-- Exclude non-English papers
+The system MUST be a central element of the paper.
 
 
-Important constraints:
+CATEGORY B — KNOWLEDGE / EVIDENCE USE (STRICT INCLUDE)
 
-- Do NOT summarise the paper.
-- Do NOT evaluate scientific quality.
-- Do NOT provide recommendations.
-- Do NOT add extra commentary.
+- Healthcare professionals’ use of research evidence or knowledge
+- Evidence-based practice in clinical or research workflows
+- Decision-making processes in healthcare professionals
+- Information use, knowledge management, or knowledge translation in healthcare
 
-If there is uncertainty, output EXCLUDE.
+IMPORTANT:
+This category is INCLUDED ONLY if it clearly relates to professional
+knowledge use or decision-making.
 
-Your output must follow this exact format:
+If the connection is weak or general → EXCLUDE.
 
-Decision: INCLUDE or EXCLUDE
-Justification: 1–2 sentences explaining which criteria were applied.
 
+----------------------
+STRICT EXCLUSION RULES
+----------------------
+
+EXCLUDE if ANY apply:
+
+- Focus on treatment, intervention, rehabilitation, or clinical procedures
+- Focus on patient outcomes, effectiveness, or clinical results
+- Focus on patient behaviour, engagement, or patient-facing tools
+- General health promotion without knowledge/system relevance
+- Education/training WITHOUT connection to knowledge use or systems
+- Policy, ethics, or discussion WITHOUT a concrete system or workflow
+- System/tool is vague, secondary, or not clearly described
+- Domain is not healthcare
+- Abstract is missing or insufficient
+- Non-English paper
+
+
+----------------------
+CRITICAL DECISION RULE
+----------------------
+
+✔ System OR strong knowledge-use → INCLUDE  
+✘ Everything else → EXCLUDE  
+
+If loosely related → EXCLUDE  
+If uncertain → EXCLUDE  
+
+
+----------------------
+OUTPUT FORMAT (STRICT)
+----------------------
+
+Decision: INCLUDE or EXCLUDE  
+Justification: 1 sentence referencing the rule.
+
+
+----------------------
+INPUT
+----------------------
 
 Title:
 {title}
