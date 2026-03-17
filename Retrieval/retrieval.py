@@ -22,6 +22,7 @@ python Retrieval/retrieval.py suggest --n 5
 import argparse
 import json
 import os
+import re
 from typing import Dict, List, Optional, Tuple
 
 try:
@@ -51,13 +52,19 @@ COLLECTION_NAME = "hybrede"
 EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
 
 # Chunking settings for full text / fallback abstracts
-CHUNK_WORDS = 1000
-CHUNK_OVERLAP = 150
+CHUNK_WORDS = 400
+CHUNK_OVERLAP = 80
 
 # Retrieval filtering settings
 # score = 1 / (1 + distance); lower values are less relevant.
-DEFAULT_MIN_SCORE = 0.45
+DEFAULT_MIN_SCORE = 0.55
 QUERY_OVERSAMPLE_FACTOR = 3
+
+QUERY_STOPWORDS = {
+    "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "how",
+    "in", "into", "is", "of", "on", "or", "that", "the", "to", "what",
+    "which", "with",
+}
 
 
 def require_retrieval_dependencies():
@@ -173,6 +180,173 @@ def distance_to_score(distance: Optional[float]) -> Optional[float]:
     return 1.0 / (1.0 + float(distance))
 
 
+def normalize_text_for_match(text: str) -> str:
+    normalized = (text or "").lower()
+    normalized = normalized.replace("/", " ")
+    normalized = re.sub(r"[^a-z0-9\-\s]+", " ", normalized)
+    return re.sub(r"\s+", " ", normalized).strip()
+
+
+def singularize_term(term: str) -> str:
+    if term.endswith("ies") and len(term) > 4:
+        return f"{term[:-3]}y"
+    if term.endswith("s") and not term.endswith("ss") and len(term) > 4:
+        return term[:-1]
+    return term
+
+
+def extract_query_terms(query_text: str) -> List[str]:
+    normalized_query = normalize_text_for_match(query_text)
+    raw_terms = re.findall(r"[a-z0-9]+(?:-[a-z0-9]+)*", normalized_query)
+
+    terms: List[str] = []
+    seen = set()
+    for term in raw_terms:
+        if len(term) < 3 or term in QUERY_STOPWORDS:
+            continue
+        candidates = [term, singularize_term(term)]
+        for candidate in list(candidates):
+            if "-" in candidate:
+                candidates.append(candidate.replace("-", " "))
+        for candidate in candidates:
+            if candidate not in seen:
+                seen.add(candidate)
+                terms.append(candidate)
+    return terms
+
+
+def contains_exact_term(text: str, term: str) -> bool:
+    if not text or not term:
+        return False
+    pattern = rf"(?<![a-z0-9]){re.escape(term)}(?![a-z0-9])"
+    return re.search(pattern, text) is not None
+
+
+def score_reranked_result(query_text: str, doc: str, meta: dict, distance: Optional[float]) -> float:
+    semantic_score = distance_to_score(distance) or 0.0
+    terms = extract_query_terms(query_text)
+    if not terms:
+        return semantic_score
+
+    normalized_query = normalize_text_for_match(query_text)
+    normalized_query_alt = normalized_query.replace("-", " ")
+    normalized_title = normalize_text_for_match((meta or {}).get("title", ""))
+    normalized_doc = normalize_text_for_match(doc)
+
+    title_hits = sum(1 for term in terms if contains_exact_term(normalized_title, term))
+    doc_hits = sum(1 for term in terms if contains_exact_term(normalized_doc, term))
+    matched_terms = {
+        term for term in terms
+        if contains_exact_term(normalized_title, term) or contains_exact_term(normalized_doc, term)
+    }
+
+    coverage_bonus = 0.0
+    if terms:
+        coverage_bonus = len(matched_terms) / len(terms)
+
+    phrase_bonus = 0.0
+    if normalized_query and " " in normalized_query:
+        if normalized_query in normalized_title:
+            phrase_bonus += 0.30
+        if normalized_query in normalized_doc:
+            phrase_bonus += 0.18
+        if normalized_query_alt != normalized_query:
+            if normalized_query_alt in normalized_title:
+                phrase_bonus += 0.18
+            if normalized_query_alt in normalized_doc:
+                phrase_bonus += 0.10
+
+    title_bonus = title_hits * 0.12
+    doc_bonus = doc_hits * 0.05
+
+    return semantic_score + (coverage_bonus * 0.35) + phrase_bonus + title_bonus + doc_bonus
+
+
+def limit_query_result(result: dict, limit: Optional[int] = None) -> dict:
+    if limit is None:
+        return result
+
+    ids_by_query = result.get("ids")
+    if not isinstance(ids_by_query, list):
+        return result
+
+    query_count = len(ids_by_query)
+    result_keys = ("ids", "documents", "metadatas", "distances", "embeddings", "uris", "data")
+    query_keys = [
+        key for key in result_keys
+        if isinstance(result.get(key), list) and len(result.get(key)) == query_count
+    ]
+
+    limited = dict(result)
+    for key in query_keys:
+        limited[key] = []
+
+    for q_idx in range(query_count):
+        for key in query_keys:
+            row_values = result[key][q_idx]
+            if isinstance(row_values, list):
+                limited[key].append(row_values[:limit])
+            else:
+                limited[key].append(row_values)
+
+    return limited
+
+
+def rerank_query_result(result: dict, query_text: Optional[str], limit: Optional[int] = None) -> dict:
+    if not query_text:
+        return limit_query_result(result, limit=limit)
+
+    ids_by_query = result.get("ids")
+    if not isinstance(ids_by_query, list):
+        return result
+
+    query_count = len(ids_by_query)
+    if query_count == 0:
+        return result
+
+    result_keys = ("ids", "documents", "metadatas", "distances", "embeddings", "uris", "data")
+    query_keys = [
+        key for key in result_keys
+        if isinstance(result.get(key), list) and len(result.get(key)) == query_count
+    ]
+
+    reranked = dict(result)
+    for key in query_keys:
+        reranked[key] = []
+
+    for q_idx in range(query_count):
+        row_ids = ids_by_query[q_idx] if isinstance(ids_by_query[q_idx], list) else []
+        row_docs = result.get("documents", [[]])[q_idx] if isinstance(result.get("documents"), list) else []
+        row_metas = result.get("metadatas", [[]])[q_idx] if isinstance(result.get("metadatas"), list) else []
+        row_distances = result.get("distances", [[]])[q_idx] if isinstance(result.get("distances"), list) else []
+
+        ranked_indices = list(range(len(row_ids)))
+        ranked_indices.sort(
+            key=lambda i: (
+                score_reranked_result(
+                    query_text=query_text,
+                    doc=row_docs[i] if i < len(row_docs) else "",
+                    meta=row_metas[i] if i < len(row_metas) and isinstance(row_metas[i], dict) else {},
+                    distance=row_distances[i] if i < len(row_distances) else None,
+                ),
+                distance_to_score(row_distances[i]) if i < len(row_distances) else 0.0,
+            ),
+            reverse=True,
+        )
+
+        if limit is not None:
+            ranked_indices = ranked_indices[:limit]
+
+        for key in query_keys:
+            row_values = result[key][q_idx]
+            if isinstance(row_values, list):
+                reranked[key].append([row_values[i] for i in ranked_indices if i < len(row_values)])
+            else:
+                reranked[key].append(row_values)
+
+    return reranked
+
+
 def _filter_query_result(result: dict, min_score: Optional[float], limit: Optional[int] = None) -> dict:
     if min_score is None:
         return result
@@ -239,16 +413,18 @@ class FilteredCollectionProxy:
 
     def query(self, *args, **kwargs):
         original_n = kwargs.get("n_results")
+        query_text = kwargs.pop("query_text", None)
 
-        if self._min_score is not None and isinstance(original_n, int) and original_n > 0:
+        if isinstance(original_n, int) and original_n > 0 and (self._min_score is not None or query_text):
             requested_n = max(original_n, original_n * self._oversample_factor)
             if requested_n != original_n:
                 kwargs = dict(kwargs)
                 kwargs["n_results"] = requested_n
 
         raw_result = self._collection.query(*args, **kwargs)
+        filtered_result = _filter_query_result(raw_result, min_score=self._min_score)
         limit = original_n if isinstance(original_n, int) and original_n > 0 else None
-        return _filter_query_result(raw_result, min_score=self._min_score, limit=limit)
+        return rerank_query_result(filtered_result, query_text=query_text, limit=limit)
 
 
 # --------- Chroma helpers ----------
@@ -373,6 +549,7 @@ def cmd_query(user_query: str, k: int, min_score: Optional[float] = DEFAULT_MIN_
     res = collection.query(
         query_embeddings=[q_emb],
         n_results=k,
+        query_text=user_query,
         include=["documents", "metadatas", "distances"]
     )
 

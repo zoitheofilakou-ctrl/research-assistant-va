@@ -106,6 +106,7 @@ def generate_rag_answer(
     res = collection.query(
         query_embeddings=[q_emb],
         n_results=k,
+        query_text=user_query,
         include=["documents", "metadatas", "distances"]
     )
     
