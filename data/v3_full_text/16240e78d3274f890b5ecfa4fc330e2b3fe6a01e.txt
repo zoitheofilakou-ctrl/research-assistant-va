@@ -1,0 +1,600 @@
+King’s Research Portal
+DOI:
+10.12968/bjcn.2022.27.2.69
+Docume nt Version
+Peer rev iewed version
+Link to publication record in King's Research Portal
+Citation for published version (APA):
+Baker, E. (2022). Improving sepsis recognition through use of the Sepsis Trust’s community screening tool.
+British J ournal of Community Nursing, 27(2), 69-75. https://doi.org/10.12968/bjcn.2022.27.2.69
+Citing this paper
+Please note that where the full-text provided on King's Research Portal is the Author Accepted Manuscript or Post-Print version this may
+differ from the final Published version. If citing, it is advised that you check and use the publisher's definitive version for pagination,
+volume/issue, and date of publication details. And where the final published version is provided on the Research Portal, if citing you are
+again advised to check the publisher's website for any subsequent corrections.
+General rights
+Copyright and moral rights for the publications made accessible in the Research Portal are retained by the authors and/or other copyright
+owners and it is a condition of accessing publications that users recognize and abide by the legal requirements associated with these rights.
+•Users may download and print one copy of any publication from the Research Portal for the purpose of private study or research.
+•You may not further distribute the material or use it for any profit-making activity or commercial gain
+•You may freely distribute the URL identifying the publication in the Research Portal
+Take down policy
+If you believe that this document breaches copyright please contact librarypure@kcl.ac.uk providing details, and we will remove access to
+the work immediately and investigate your claim.
+Download date: 17. Mar. 2026
+British Journal of Community Nursing
+Improving sepsis recognition using the Sepsis Trusts’ community screening tool
+--Manuscript Draft--
+Manuscript Number: bjcn.2021.0087R1
+Full Title: Improving sepsis recognition using the Sepsis Trusts’ community screening tool
+Article Type: Clinical review
+Corresponding Author: Edward James Baker, PhD
+King's College London
+London, UNITED KINGDOM
+Corresponding Author Secondary
+Information:
+Corresponding Author's Institution: King's College London
+Corresponding Author's Secondary
+Institution:
+First Author: Edward James Baker, PhD
+First Author Secondary Information:
+Order of Authors: Edward James Baker, PhD
+Order of Authors Secondary Information:
+Abstract: Sepsis is associated with high levels of morbidity and mortality. All healthcare
+professionals have a responsibility to ensure they have sufficient knowledge to
+effectively screen patients for signs and symptoms of sepsis. In the community setting,
+screening for sepsis can be challenging due to the complexity within the patient
+population and difficulties associated with observation for changes in the patient’s
+condition. The Sepsis Trust community nursing sepsis screening tool provides decision
+making support to community healthcare professionals enabling them to make a rapid
+assessment for risk factors for sepsis, ensuring a proportionate, consistent, and
+appropriate response. Through implementation of a decision support tool within the
+clinical setting it is likely that patients at risk of sepsis will be identified earlier, and
+patients will be escalated in a more consistent manner. This process of improving
+consistency in practice can improve patient outcomes, including mortality, morbidity,
+and overall patient experience.
+Powered by Editorial Manager® and ProduXion Manager® from Aries Systems Corporation
+Title page
+Improving sepsis recognition using the Sepsis Trusts’ community
+screening tool
+Dr Edward Baker PhD, RN (Corresponding Author)
+Lecturer in Applied Technology for Clinical Care
+King’s College London
+King’s College Hospital NHS Foundation Trust
+edward.e.baker@kcl.ac.uk
+Conflict of Interest: Nil to declare
+Ethical Statement: Not applicable
+Funding Source: No funding to declare
+Abstract:
+Sepsis is associated with high levels of morbidity and mortality. All healthcare professionals have a
+responsibility to ensure they have sufficient knowledge to effectively screen patients for signs and
+symptoms of sepsis. In the community setting, screening for sepsis can be challenging due to the
+complexity within the patient population and difficulties associated with observation for changes in
+the patient’s condition. The Sepsis Trust community nursing sepsis screening tool provides decision
+making support to community healthcare professionals enabling them to make a rapid assessment
+for risk factors for sepsis, ensuring a proportionate, consistent, and appropriate response. Through
+implementation of a decision support tool within the clinical setting it is likely that patients at risk of
+sepsis will be identified earlier, and patients will be escalated in a more consistent manner. This
+process of improving consistency in practice can improve patient outcomes, including mortality,
+morbidity, and overall patient experience.
+Anonymous manuscript Click here to view linked References
+Keywords:
+Sepsis; Nursing; Risk Assessment; Infections; Community Nursing; Decision Making.
+Key Points:
+ Sepsis is associated with high levels of mortality and morbidity globally.
+ Early recognition of sepsis is key to treatment and is associated with improved clinical
+outcomes.
+ Identification of sepsis in the community setting can be challenging due to complexities in
+the patient population.
+ Healthcare professionals in the community setting need to have a foundation knowledge of
+the red and amber flags for sepsis to facilitate identification.
+ The Sepsis Trust recommends that healthcare professionals in the community setting use a
+sepsis screening tool to aid decision making around sepsis identification and management.
+ Embedding a sepsis screening tool into daily practice can improve the consistency in the
+sepsis identification process which may be associated with improved patient outcomes.
+Reflective Activities:
+ Initially, consider what specific learning needs you might have in relation to understanding
+the pathway of developing sepsis and septic shock.
+ From your experience, what factors increase the patient’s risk of developing sepsis in the
+community setting?
+ Consider whether there have been unwell patients in your own practice who may have had
+sepsis, what signs and symptoms did these patients have?
+ How would using a sepsis screening tool change the way you might manage a patient with
+signs and symptoms of sepsis?
+ Think about using the Sepsis Trust screening tool, what are some of the challenges to
+implementing this and embedding it in your daily clinical practice?
+Improving sepsis recognition using the Sepsis Trusts’ community
+screening tool
+Introduction:
+Sepsis remains a significant cause of morbidity and mortality across all high-, middle- and low-
+income countries despite increasing education for healthcare professionals and growing awareness
+from the public (Dondorp et al., 2019, Hantrakun et al., 2018, Jabaley et al., 2018, Rudd et al., 2020).
+Sepsis is currently defined as a dysregulated host response to an infection which is mediated by the
+immune system causing in a physiological cascade resulting in organ dysfunction, multi-organ failure
+and potential death (Feist, 2019, Kim and Park, 2019, Singer et al., 2016). Septic shock is a term
+which describes a later stage in this physiological cascade whereby there is profound circulatory,
+cellular, and metabolic abnormality which is associated with increased subsequent mortality rates.
+Patients with sepsis often have acute and critical care needs and therefore require definite
+treatment and monitoring within the acute secondary care setting (Hunt, 2019, Lin, 2021, Singer et
+al., 2016).
+In the UK, c. 250,000 people are diagnosed with sepsis yearly, resulting in around 52,000 deaths
+which are directly attributed to sepsis as a cause of death (Rudd et al., 2020). Of those who survive,
+it is estimated that c. 60,000 people have residual and often permanent sequela after discharge from
+acute care (Iwashyna et al., 2012, Iwashyna et al., 2010). It is estimated that c. £15.6 billion is spent
+on the diagnosis and treatment of this illness (Prescott and Angus, 2018).
+In 2015, the National Confidential Enquiry into Patient Outcome and Deaths (NCEPOD) highlighted
+the need for earlier detection of signs of sepsis across the healthcare system as the single most
+effective way of improving patient outcomes and potentially avoidable sepsis related deaths in the
+UK (NCEPOD, 2015). Furthermore, there is a growing body of evidence stressing the association
+between early identification of sepsis in patients with an infective source in the acute setting and
+improvements in outcomes including mortality, intensive care requirement and hospital length of
+stay (Burdick et al., 2020, Husabø et al., 2021, Kim and Park, 2019, Torsvik et al., 2016). The NCEPOD
+report also identified that around 70% of sepsis cases originated in the community setting. In a
+healthcare model whereby increasing numbers of acutely unwell patients are manged within the
+community setting, there is a need for specific early detection skills amongst healthcare
+professionals working (NCEPOD, 2015). Despite this, there is a paucity of evidence surrounding
+current community nursing practices around the identification of sepsis. The Sepsis Trust’s
+community nursing sepsis screening tool provides one method of identifying patients at risk of
+developing sepsis (Nutbeam and Daniels, 2020). This article aims to demonstrate how the
+community nursing sepsis screening tool can be used by healthcare professionals to improve
+identification of signs and symptoms of sepsis and facilitate consistent decision-making processes
+around escalation of care needs.
+The Sepsis Trust:
+The Sepsis Trust is a UK based charity, created in 2012 in an effort to raise awareness of sepsis and
+the high levels of mortality associated with sepsis. The charity has an overriding long-term aim of
+stopping preventable deaths from sepsis and providing support to all affected by this disease. The
+organisation works to raise awareness of sepsis among members of the public and healthcare
+professionals by providing education, research, and support to support early diagnosis. The Trust
+also lobbies politicians to raise awareness and improve standards of care whist providing greater
+support for sepsis survivors. Since the Sepsis Trust’s inception there has been a steady increase in
+sepsis awareness at both national and international levels highlighting the substantial work which
+needs to be done to improve the immediate survival and long-term outcomes of patients with
+sepsis. The Sepsis Trust plays an important role in sepsis education for both patients and clinicians
+alike and has a wide range of resources which would be useful for both patients and healthcare
+professionals. The trust website can be accessed at: https://sepsistrust.org/
+Recognising sepsis in the community setting:
+It is essential for all healthcare professionals to have an underpinning baseline knowledge of sepsis
+as this knowledge equips a clinician with the tools to recognise the signs of sepsis, which can at
+times be vague and non-specific. Unrecognised sepsis in the community is associated with high
+levels of mortality and morbidity and delayed identification of sepsis has been demonstrated to
+increase the acute and critical care needs of patients (Scott et al., 2018). The Sepsis Trust has
+published a community nursing sepsis recognition tool to aid healthcare professionals in the
+community in identifying potential sepsis and providing a pathway to escalating increasing care
+needs to ensure timely transfer of patients to hospital. Figure 1 presents the Sepsis Trust Community
+nursing sepsis screening tool which can be used on any patient over 12 years old.
+-Insert Fig. 1 here-
+Figure 1: Sepsis Screening Tool Community Nursing (Nutbeam and Daniels, 2020) (Reproduced with
+prior permission from the Sepsis Trust)
+To effectively identify sepsis, healthcare professionals should have assessment skills which enable
+them to take an accurate and focused patient history and physical assessment. Community clinicians
+are unable to easily access investigations and so need to rely on clinical judgement to elicit clinical
+signs which may help in the identification of the symptoms of sepsis (Olander et al., 2021). All
+patients should have a full set of vital signs completed and documented as part of the assessment
+process and a NEWS2 score should be calculated and documented for all vital signs recorded (Baker
+et al., 2021, Inada-Kim et al., 2020). The NEWS2 score is a simple risk stratification score which
+measures the potential for deterioration and critical illness and is calculated from the culmination of
+scores associated with each vital sign (Respiratory Rate, Oxygen Saturations, Pulse, Blood Pressure,
+Temperature and Level of Consciousness). The NEWS2 score itself is strongly associated with in-
+hospital mortality and there is growing evidence to support the use of NEWS2 in the community
+setting (Brangan et al., 2018, Pullyblank et al., 2020). It is important for clinicians to recognise that
+the use of NEWS2 in isolation is not sufficient for the identification of patients with sepsis and where
+possible this risk stratification score should be used alongside a sepsis screening tool in the clinical
+setting.
+It is recommended that all clinical areas employ a sepsis screening tool to facilitate earlier
+identification of sepsis risk (Mulders et al., 2021). The tool is simple to follow and encourages the
+clinician to ask four questions to help elicit pertinent information from a patient history and physical
+assessment. The specific questions are as follows:
+1. Does the patient look unwell, or do they have abnormal physiological signs?
+2. Could this be due to an infection?
+3. Are any Sepsis Red Flags present in this patient?
+4. Are any Sepsis Amber flags present in this patient?
+(Nutbeam and Daniels, 2020)
+For patients who appear to be unwell or have abnormal physiological signs on examination, it is vital
+that clinicians are aware of factors which are recognised to increase the patient’s risk of developing
+sepsis in the presence of an underlying infection. The patients at greatest risk of developing sepsis
+are as follows (Hunt, 2019):
+ Older adults aged over 75 years
+ Infants and young children
+ People with learning disabilities
+ Recent trauma, surgery, pregnancy, childbirth, or miscarriage
+ Patients with an acute or chronic wound or skin breach
+ Patients with an indwelling line or catheter
+ Illicit intravenous drug use
+ Patients with compromised immunity (post splenectomy, diabetes, long-term steroid or
+immunotherapy medications, or cancer and cancer treatment)
+But what does sepsis look like?
+Sepsis can present in many different ways, and the presentation of sepsis depends on specific
+characteristics of the patient including their co-morbidities and effects of the medications they are
+taking (Vincent, 2016). Patients who present with sepsis may have one or more of the following
+clinical signs or symptoms (Hunt, 2019):
+ Pyrexia
+ Rigors
+ Hypothermia
+ Decreased urine outcome
+ Sustained tachycardia (heart rate >90 per minute)
+ Nausea and/or vomiting
+ Diarrhoea
+ Fatigue/Lethargy/weakness
+ Abnormal skin discolouration
+ Sweating and/or clammy
+ Severe pain
+Clinicians should be aware that some indicators of infection like the presence of a pyrexia is not a
+good indicator of infection or sepsis in isolation, particularly in patients who are
+immunocompromised (Hunt, 2019). A proportion of patients with sepsis will present with
+hypothermia rather than a pyrexia, and there is evidence to show that outcomes for patient with
+sepsis presenting with a low temperature have worse outcomes, particularly in relation to mortality
+(Rumbus et al., 2017, Wiewel et al., 2016). For this reason, any patient who is presenting with a new
+onset undifferentiated illness or has vital signs which are abnormally deviated from baseline, an
+assessment for sepsis is required. It is also important for any healthcare professional to carefully
+consider whether the patient meets one of the high-risk criteria and critically ask themselves
+whether there is a potential source of infection, and this remains a crucial step in the recognition
+process for sepsis (Kabi et al., 2020).
+If after taking a comprehensive history and completing a full physical examination of the patient,
+sepsis is unlikely and a source for infection is not identified, it is essential for the clinician to consider
+an alternative diagnosis. This is likely to involve further examination and history taking and if a cause
+is not identified this should be escalated to a decision-making clinician who might be a General
+Practitioner, Advanced Clinical Practitioner or Team leader. Where an infective source is likely, the
+next stage of the sepsis assessment is to consider whether the patient has any Red or Amber Flag
+signs.
+-Insert Table 1 here-
+Management of a ‘Red Flag’ sepsis:
+Red Flags in healthcare are potentially alarming warning symptoms, signs and near patient
+diagnostic tests which highlight possibly serious underlying disease processes to healthcare
+professionals (Schroeder et al., 2011). Table 1 presents key ‘Red Flags’ for sepsis in adults. To assess
+for the presence of Red Flags a face-to-face physical assessment is required including a full set of
+patient vital signs. The presence of one or more sepsis red flags indicates a time critical medical
+emergency and healthcare professionals in the community setting should implement the community
+nursing red flag care bundle without delay as the patient is likely to have sepsis or septic shock
+(Kopczynska et al., 2018). The primary action within this care bundle is to activate a response from
+the local emergency ambulance service (i.e., by calling 999 in the UK) (Nutbeam and Daniels, 2020).
+Within this process, the importance of effective communication and information transfer between
+healthcare professionals to key to preventing delays and enabling optimised treatment outcomes for
+the patient. Healthcare professionals should make sure that the correct terminology is used when
+communicating with both control room call handers and clinicians from the emergency services. It is
+important that community nurses state, where appropriate, that it is ‘a red flag sepsis’ to ensure
+that the emergency call is categorised correctly to get the most appropriate response time (Floer et
+al., 2021).
+-Insert Table 2 here-
+The overall aim of the community nursing red flag care bundle is to enable a rapid patient transfer to
+the acute secondary care setting. Management of sepsis in the acute secondary care setting follows
+an evidence-based approach using the ‘Sepsis Six’ care bundle approach to patient management
+(Lin, 2021). Table 2 presents any overview of the sepsis six components. Early treatment following
+this protocol has been shown to reduce levels of mortality, critical care requirement and length of
+stay and improve long term determinants of health-related quality of life (Nutbeam and Daniels,
+2020).
+It is commonly acknowledged that healthcare professionals in the community are unlikely to be able
+to complete all (or sometimes any) of the sepsis six care bundle which is why the priority in the
+community is to call for emergency help to facilitate treatment and transfer to secondary care (Lin,
+2021). Despite this, it is recognised that in many areas of the UK, where the emergency ambulance
+trusts are under increasing pressure, there are increasing response times. In this situation, after the
+emergency call has been made, there may be opportunities for practitioners with extended skills,
+carrying appropriate equipment, who have an extended scope of practice to commence treatment
+(Bain and Moggach, 2019, Raleigh and Allan, 2017). This is likely to be limited to oxygen therapy,
+intravenous fluid therapy and intravenous antibiotic therapies but it is important to recognise that
+the commencement of any treatment is secondary to calling for support from the emergency
+services.
+Assessing for Amber Flags for Sepsis:
+Where a patient has a clear infective source but does not have any sepsis Red Flags, the clinician is
+required to move onto stage 4 of the community nursing sepsis screening tool which focuses on the
+identification of the Amber Flags for sepsis (Nutbeam and Daniels, 2020). Amber Flags in sepsis are
+less specific and indicate potentially sub-acute than the red flag signs but highlight that a patient
+could deteriorate and develop red flag signs if urgent care and treatment is not provided (Allen,
+2018). If you are assessing for amber flags in a patient between 12-17 years old and the patient is
+immunocompromised then they should be treated immediately as a Red Flag sepsis and the
+community red flag sepsis care bundle should be commenced immediately (Nutbeam and Daniels,
+2020). The amber flag signs are presented in Table 1 and if one or more sign is present during
+assessment then a pre-defined escalation plan is included with the Community nursing sepsis
+screening tool. The healthcare professional must select the most appropriate escalation option
+based on the findings of the physical assessment process and in agreement with the patient or their
+primary carer. Escalation will follow one of the following processes:
+ Is the patient well enough to have a same day review by a decision-making clinician (e.g.,
+GP)?
+ Is an urgent referral for review by the acute secondary care team required? (e.g., transfer to
+the emergency department for the acute medical team to review the patients care needs)
+ Does the patient meet the essential criteria for review by the Hospital in the Home team?
+If there is any doubt as to whether the patient can wait for assessment and treatment, then call the
+emergency services as they will provide a decision-making clinician who is trained to decide whether
+the patient requires immediate transfer to acute secondary care. Where possible, it is important to
+integrate the patient and/or primary carer in the process of making decisions relating to treatment
+including transfer to hospital (Abrashkin et al., 2019). If a patient is refusing transfer to hospital, it is
+essential for the healthcare professional to make a formal assessment of mental capacity of the
+patient recognising that sepsis could potentially impact on a patient’s capacity and ability to make
+decisions whilst potentially critically unwell (Marshall and Sprung, 2016).
+Where no amber flags are identified the assessing clinician can be confident that there are no
+current signs of sepsis even when an underpinning source of infection has been identified. In this
+instance, it is important that the clinician can undertake further investigation through physical
+assessment with history taking and potentially the use of secondary data (i.e., blood tests) to identify
+a diagnosis for the patient. In the presence of an infection, this is likely to result in commencing
+antibiotic treatment (if not already started). Where commencing treatment is not within the scope
+of practice of a community healthcare professional, then timely escalation to a decision-making
+clinician is required at this point. It is important for any community healthcare professional using the
+sepsis screening tool to recognise that assessment for signs of sepsis needs to occur longitudinally at
+different time points because although the patient does not have any red flag signs during the initial
+assessment, it does not mean that they will not deteriorate and develop red flag signs in the future.
+As there are likely to be extended periods of time when patients are not under observation for
+deterioration (i.e., in between visits from a healthcare professional) effective safety netting and
+patient education is key to protecting both patients and clinicians alike (Massey et al., 2017, Tucker
+and Lusher, 2018).
+Safety Netting advice in those at risk of developing sepsis:
+The sepsis screening tool enables community healthcare professionals with a method of supporting
+the decision-making process in identifying sepsis and those patients who are likely to require
+escalation and urgent treatment in both primary and secondary care setting (Edwards et al., 2019).
+For any patient who is not transferred to a definitive care setting at the time of initial screening, it is
+important to consider what education and support these patients require at home. At a minimum,
+each patient will require both written and verbal safety netting (Edwards et al., 2021). The Sepsis
+Trust have produced several patient resources which can be useful to ensuring patients and carers
+have sufficient information to identify potential signs of deterioration. These resources can be
+accessed on the sepsis trust website: https://sepsistrust.org/get-support/support/resources/. In
+relation to effective case management, all safety netting advice should be documented within the
+patient’s case notes, alongside any treatment which has been offered or commenced at the time
+assessment. It is important to patients that they understand when they will next be reviewed by a
+healthcare professional and advise on how to contact the emergency service if the patient or carer is
+concerned about deterioration (Edwards et al., 2021).
+Conclusion:
+As there is evidence showing that a substantial proportion of patients develop sepsis within the
+community setting there is a clear need for clinicians to have support in the decision-making process
+around sepsis identification. There is a continuing need for more research into clinical practices in
+the community to understand how the specific complexities of managing potentially acutely unwell
+patients within their own home environment affects education and learning needs for community
+healthcare professionals. The Sepsis Trust’s community nursing sepsis screening tool provides an
+evidence informed approach to the identification and early recognition of patients with signs and
+symptoms of sepsis. Implementation of this screening tool is likely to improve the consistent
+approach to early identification of both red and amber flags in a patient with an underlying infective
+process. There is evidence to demonstrate the improved clinical outcomes and reduced mortality
+rates in patients with sepsis.
+References:
+Abrashkin, K.A., Poku, A., Ramjit, A., Washko, J., Zhang, J., Guttenberg, M., Smith, K.L., 2019.
+Community paramedics treat high acuity conditions in the home: a prospective
+observational study. BMJ Support Palliat Care.
+Allen, G., 2018. Think, could this be sepsis? InnovAiT: Education and Inspiration for General Practice.
+11 (10), 7.
+Bain, H., Moggach, A., 2019. Supporting the district nurse to consolidate advanced clinical skills. Br J
+Community Nurs 24 (4), 153.
+Baker, E., Facultad, J.L., Slade, H., Lee, G., 2021. A new tool to measure acuity in the community: a
+case study. Br J Community Nurs 26 (10), 482-492.
+Brangan, E., Banks, J., Brant, H., Pullyblank, A., Le Roux, H., Redwood, S., 2018. Using the National
+Early Warning Score (NEWS) outside acute hospital settings: a qualitative study of staff
+experiences in the West of England. BMJ Open 8 (10), e022528.
+Burdick, H., Pino, E., Gabel-Comeau, D., McCoy, A., Gu, C., Roberts, J., Le, S., Slote, J., Pellegrini, E.,
+Green-Saxena, A., Hoffman, J., Das, R., 2020. Effect of a sepsis prediction algorithm on
+patient mortality, length of stay and readmission: a prospective multicentre clinical
+outcomes evaluation of real-world patient data from US hospitals. BMJ Health Care Inform
+27 (1).
+Dondorp, A.M., Dünser, M.W., Schultz, M.J., 2019. Sepsis Management in Resource-limited Settings.
+In.
+Edwards, P.J., Bennett-Britton, I., Ridd, M.J., Booker, M., Barnes, R.K., 2021. Factors affecting the
+documentation of spoken safety-netting advice in routine GP consultations: a cross-sectional
+study. Br J Gen Pract 71 (712), e869-e876.
+Edwards, P.J., Ridd, M.J., Sanderson, E., Barnes, R.K., 2019. Safety netting in routine primary care
+consultations: an observational study using video-recorded UK consultations. Br J Gen Pract
+69 (689), e878-e886.
+Feist, B., 2019. Screening for sepsis: SIRS or qSOFA? A literature review. Emerg Nurse 27 (6), 13-18.
+Floer, M., Ziegler, M., Lenkewitz, B., Auer, A., Meister, T., 2021. Out-of-hospital sepsis recognition by
+paramedics improves the course of disease and mortality: A single center retrospective
+study. Adv Clin Exp Med 30 (11), 1115-1125.
+Hantrakun, V., Somayaji, R., Teparrukkul, P., Boonsri, C., Rudd, K., Day, N.P.J., West, T.E.,
+Limmathurotsakul, D., 2018. Clinical epidemiology and outcomes of community acquired
+infection and sepsis among hospitalized patients in a resource limited setting in Northeast
+Thailand: A prospective observational study (Ubon-sepsis). PLoS One 13 (9), e0204509.
+Hunt, A., 2019. Sepsis: an overview of the signs, symptoms, diagnosis, treatment and
+pathophysiology. Emerg Nurse 27 (5), 32-41.
+Husabø, G., Nilsen, R.M., Flaatten, H., Solligård, E., Frich, J.C., Bondevik, G.T., Braut, G.S., Walshe, K.,
+Harthug, S., Hovlid, E., 2021. Correction: Early diagnosis of sepsis in emergency departments,
+time to treatment, and association with mortality: An observational study. PLoS One 16 (3),
+e0248879.
+Inada-Kim, M., Knight, T., Sullivan, M., Ainsworth-Smith, M., Pike, N., Richardson, M., Hayward, G.,
+Lasserson, D., 2020. The prognostic value of national early warning scores (NEWS) during
+transfer of care from community settings to hospital: a retrospective service evaluation.
+BJGP Open 4 (2).
+Iwashyna, T.J., Cooke, C.R., Wunsch, H., Kahn, J.M., 2012. Population burden of long-term
+survivorship after severe sepsis in older Americans. J Am Geriatr Soc 60 (6), 1070-1077.
+Iwashyna, T.J., Ely, E.W., Smith, D.M., Langa, K.M., 2010. Long-term cognitive impairment and
+functional disability among survivors of severe sepsis. JAMA 304 (16), 1787-1794.
+Jabaley, C.S., Blum, J.M., Groff, R.F., O'Reilly-Shah, V.N., 2018. Global trends in the awareness of
+sepsis: insights from search engine data between 2012 and 2017. Crit Care 22 (1), 7.
+Kabi, A., Mohanty, A., Kumar, S.K., Singh, V., Jha, M.K., Gupta, P., 2020. Clinical spectrum and risk
+factors for hospital-acquired septicemia in a tertiary care centre of North-East India. J Family
+Med Prim Care 9 (8), 3949-3954.
+Kim, H.I., Park, S., 2019. Sepsis: Early Recognition and Optimized Treatment. Tuberc Respir Dis
+(Seoul) 82 (1), 6-14.
+Kopczynska, M., Sharif, B., Cleaver, S., Spencer, N., Kurani, A., Lee, C., Davis, J., Durie, C., Joseph-
+Gubral, J., Sharma, A., Allen, L., Atkins, B., Gordon, A., Jones, L., Noble, A., Bradley, M.,
+Atkinson, H., Inns, J., Penney, H., Gilbert, C., Walford, R., Pike, L., Edwards, R., Howcroft, R.,
+Preston, H., Gee, J., Doyle, N., Maden, C., Smith, C., Azis, N.S.N., Vadivale, N., Battle, C.,
+Lyons, R., Morgan, P., Pugh, R., Szakmany, T., Collaborators, W.D.D.C.P., 2018. Red-flag
+sepsis and SOFA identifies different patient population at risk of sepsis-related deaths on the
+general ward. Medicine (Baltimore) 97 (49), e13238.
+Lin, Y., 2021. Effectiveness of the sepsis six bundle in the management of acute adult sepsis in the
+UK. Emerg Nurse 29 (2), 26-29.
+Marshall, H., Sprung, S., 2016. Community nurse's knowledge, confidence and experience of the
+Mental Capacity Act in practice. Br J Community Nurs 21 (12), 615-622.
+Massey, D., Chaboyer, W., Anderson, V., 2017. What factors influence ward nurses' recognition of
+and response to patient deterioration? An integrative review of the literature. Nurs Open 4
+(1), 6-23.
+Mulders, M.C.F., Loots, F.J., van Nieuwenhoven, J., Ter Maaten, J.C., Bouma, H.R., 2021. Use of
+sepsis-related diagnostic criteria in primary care: a survey among general practitioners. Fam
+Pract 38 (5), 617-622.
+NCEPOD, 2015. Just Say Sepsis! A review of the Process of Care Received by Patients with Sepsis. .
+NCEPOD.
+Nutbeam, T., Daniels, R., 2020. SCREENING AND ACTION TOOL FOR COMMUNITY NURSES. The Sepsis
+Trust.
+Olander, A., Bremer, A., Sundler, A.J., Hagiwara, M.A., Andersson, H., 2021. Assessment of patients
+with suspected sepsis in ambulance services: a qualitative interview study. BMC Emerg Med
+21 (1), 45.
+Prescott, H.C., Angus, D.C., 2018. Enhancing Recovery From Sepsis: A Review. JAMA 319 (1), 62-75.
+Pullyblank, A., Tavaré, A., Little, H., Redfern, E., le Roux, H., Inada-Kim, M., Cheema, K., Cook, A.,
+Collaborative, W.o.E.P.S., 2020. Implementation of the National Early Warning Score in
+patients with suspicion of sepsis: evaluation of a system-wide quality improvement project.
+Br J Gen Pract 70 (695), e381-e388.
+Raleigh, M., Allan, H., 2017. A qualitative study of advanced nurse practitioners' use of physical
+assessment skills in the community: shifting skills across professional boundaries. J Clin Nurs
+26 (13-14), 2025-2035.
+Rudd, K.E., Johnson, S.C., Agesa, K.M., Shackelford, K.A., Tsoi, D., Kievlan, D.R., Colombara, D.V.,
+Ikuta, K.S., Kissoon, N., Finfer, S., Fleischmann-Struzek, C., Machado, F.R., Reinhart, K.K.,
+Rowan, K., Seymour, C.W., Watson, R.S., West, T.E., Marinho, F., Hay, S.I., Lozano, R., Lopez,
+A.D., Angus, D.C., Murray, C.J.L., Naghavi, M., 2020. Global, regional, and national sepsis
+incidence and mortality, 1990-2017: analysis for the Global Burden of Disease Study. Lancet
+395 (10219), 200-211.
+Rumbus, Z., Matics, R., Hegyi, P., Zsiboras, C., Szabo, I., Illes, A., Petervari, E., Balasko, M., Marta, K.,
+Miko, A., Parniczky, A., Tenk, J., Rostas, I., Solymar, M., Garami, A., 2017. Fever Is Associated
+with Reduced, Hypothermia with Increased Mortality in Septic Patients: A Meta-Analysis of
+Clinical Trials. PLoS One 12 (1), e0170152.
+Schroeder, K., Chan, W., Fahey, T., 2011. Recognizing Red Flags in General Practice. InnovAiT:
+Education and inspiration for general practice. 4 (3), 5.
+Scott, H.F., Greenwald, E.E., Bajaj, L., Deakyne Davies, S.J., Brou, L., Kempe, A., 2018. The Sensitivity
+of Clinician Diagnosis of Sepsis in Tertiary and Community-Based Emergency Settings. J
+Pediatr 195, 220-227.e221.
+Singer, M., Deutschman, C.S., Seymour, C.W., Shankar-Hari, M., Annane, D., Bauer, M., Bellomo, R.,
+Bernard, G.R., Chiche, J.D., Coopersmith, C.M., Hotchkiss, R.S., Levy, M.M., Marshall, J.C.,
+Martin, G.S., Opal, S.M., Rubenfeld, G.D., van der Poll, T., Vincent, J.L., Angus, D.C., 2016. The
+Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA 315
+(8), 801-810.
+Torsvik, M., Gustad, L.T., Mehl, A., Bangstad, I.L., Vinje, L.J., Damås, J.K., Solligård, E., 2016. Early
+identification of sepsis in hospital inpatients by ward nurses increases 30-day survival. Crit
+Care 20 (1), 244.
+Tucker, G., Lusher, A., 2018. The use of early warning scores to recognise and respond to patient
+deterioration in district nursing. Br J Community Nurs 23 (2), 76-79.
+Vincent, J.L., 2016. The Clinical Challenge of Sepsis Identification and Monitoring. PLoS Med 13 (5),
+e1002022.
+Wiewel, M.A., Harmon, M.B., van Vught, L.A., Scicluna, B.P., Hoogendijk, A.J., Horn, J., Zwinderman,
+A.H., Cremer, O.L., Bonten, M.J., Schultz, M.J., van der Poll, T., Juffermans, N.P., Wiersinga,
+W.J., 2016. Risk factors, host response and outcome of hypothermic sepsis. Crit Care 20 (1),
+328.
+Figure 1 Click here to download Figure (i.e. diagram, illustration, photo)
+Figure_1.jpg
+Table 1 Click here to download Table Table1_RedFlags.docx
+Table 1: Red and Amber Flags for Sepsis
+Red Flags for sepsis Amber flags for sepsis
+New confusion/altered mental state Relatives are concerned about a change in
+mental status
+Systolic blood pressure ≤90mmHg (or a drop of Systolic Blood Pressure 91-100mmHg
+>40 mmHg from baseline blood pressure)
+Heart Rate ≥130 per minute Heart Rate 91-130 or new dysrhythmia
+Respiratory Rate ≥ 25 per minute Respiratory rate 21-24 per minute
+Not passed urine in 18 hours (if catheterised Acute deterioration of functional ability
+<0.5ml/kg/hr)
+New oxygen demand Immunosuppressed
+[needs supplemental oxygen to keep SpO ≥92%
+2
+(or 88% in COPD)]
+Non-blanching rash/skin mottling/ ashen skin Trauma/Surgery/interventional procedure in the
+tone/ or cyanosis. last 8 weeks
+Recent chemotherapy Temperature <36.0°C
+Clinical signs of an infected wound
+Table Click here to download Table Table2_SepsisSix.docx
+Table 2: An overview of the sepsis six care bundle (Lin, 2021, Nutbeam and Daniels, 2020).
+Sepsis-Six care bundle: Clinical Reasoning: Why is this important:
+Commence oxygen Aim to keep saturations >94% In sepsis, oxygen supply and
+therapy (high flow If COPD and at risk of CO retention aim demand is not matched,
+2
+oxygen using a non- for oxygen saturations 88-92%) causing a critical imbalance.
+rebreathe-mask) Correcting low oxygen
+saturations can help to
+reduce tissue hypoxia
+Take and send Blood Think about potential source of the Tests help clinicians to
+Cultures underlying infection – consider sending understand the severity of
+urine/sputum/wound samples for the problem and stratify risk.
+microscopy, culture, and sensitivity This involves identifying the
+(MC&S). causative pathogen to
+The patient should have a minimum enable effective treatments
+septic screen including peripheral blood to be commenced.
+cultures, urine and a chest x-ray.
+Initiate intravenous Follow local anti-microbial guidelines. Giving antibiotics helps to
+antibiotics Consider allergies prior to control the source of the
+administration. infection which reduces the
+stimulus to the immune
+system
+Initiate intravenous If hypotensive/lactate >2mmol/l or Hypovolaemia contributes to
+fluids acute kidney injury (AKI) commence shock in sepsis. Temporarily
+fluids up to 30ml/kg in 10ml/kg aliquots. restoring fluid volumes can
+Give 500mls stat if no AKI, not help correct until additional
+hypotensive and lactate normal. treatments can be
+established.
+Measurement of If lactate >4mmol/l monitor after Lactate is a product of
+lactate administration of each 10ml/kg fluid anaerobic metabolism and
+challenge. therefore represents the
+Lactate of >4mmol/l is indicative of early extent of poor oxygen
+admission to intensive care. delivery to the cells in the
+Re-measure any lactate in the presence patient.
+of any sign of deterioration
+Measurement of urine Hourly urine measurement is required, Urine output provides an
+output and catheterisation is required. important measure of
+Ensure that fluid balance chart is physiological status and
+commenced and completed hourly. often is an early indicator of
+deterioration. Aim for a
+urine output of 0.5
+ml/kg/hour.
+Reviewer Response Table Click here to view linked References
+Reviewer Comments/Author Responses table:
+Reviewer Comment: Author Response:
+Reviewer 1:
+This is a narrative review of the use of the Thank you for your review.
+Sepsis Trust Screening tool for the community
+diagnosis of sepsis. It should be remembered
+that whilst the Sepsis Trust tools are commonly
+advertised, they are not used throughout
+hospital practice. They are sensible but have
+not been validated. Nevertheless, the earlier
+that sepsis is treated with antibiotics, the better
+the outcome. This tool is also useful for
+recognising a sick patient.
+I find the narrative a little directionless at times Narrative and content reviewed prior to
+and there is an excess of words; it would resubmission.
+benefit from having aims and objectives,
+background, rationale and use.
+The paragraph on P4 : "Recognising sepsis in Narrative and content reviewed prior to
+the community setting" is repeats some of resubmission.
+what was said at the beginning
+Personally, I would put the paragraph on P8 I have considered this but as the aim of the
+"But what does sepsis look like?" earlier to put article is to walk readers through using the
+the screening tool in context. Some of the list Sepsis Trusts community nursing sepsis
+that follows in this paragraph probably relate to recognition tool I have decided to keep the
+septic shock too. order suggested as this will hopefully be clear
+to the reader.
+P3 "The NCEPOD report also identified that The word ‘setting’ has been removed in this
+around 70% of sepsis cases originated in the sentence.
+community setting. In a healthcare model
+whereby increasing numbers of acutely unwell By using setting, I was aiming to be clear about
+patients are manged within the community what I mean by the word community which at
+setting," Do we really need the word 'setting'? times would otherwise be ambiguous.
+It is repeated a lot!
+P7: NEWS2 are readers going to know what The following sentence has been added to
+NEWS2 is? Does it need introducing address this and add clarity:
+“The NEWS2 score is a simple risk stratification
+score which measures the potential for
+deterioration and critical illness and is
+calculated from the culmination of scores
+associated with each vital sign (Respiratory
+Rate, Oxygen Saturations, Pulse, Blood
+Pressure, Temperature and Level of
+Consciousness).”
+P7: "As there is limited access to secondary This has been amended within the manuscript
+data in the community setting, clinicians need
+to use the examination process to elicit clinical
+signs which may help in the identification of the
+symptoms of sepsis (Olander et al.,2021)." Do
+you just mean "Community clinicians are
+unable to easily access investigations and so
+need to rely on clinical judgement"?
+P12: "definitive care setting" why? why not say This has been amended in the manuscript.
+"hospital"?
+Reviewer 2:
+A very well written and comprehensive article. I Thank you for your review.
+was particularly pleased to see how much
+effort was put into the significance of clinical
+assessment along with the assessment tool.
+A few minor comments only, on page 11, a
+typographical error HitH should be changed to This abbreviation has been removed as it is not
+HatH used elsewhere in the manuscript.
+Table 1 also i believe is confusing in its format. On refection I agree that this is confusing.
+It is meant to be an overview of three separate
+lists, the sepsis six, the red and the amber flag I have revised the table and split it into two
+signs, but in the way it is created it is confusing separate tables. The first, presents both the red
+and could create the impression that specific and amber flags for sepsis and the second
+interventions of the sepsis six target specific presents the Sepsis-Six care bundle. I have
+red or amber flag signs. I believe it could added additional columns to table 2 to provide
+benefit from some redesigning, or potentially further information about the clinical reasoning
+separate the columns completely? and why it is important.
+Otherwise, a very informative and useful Thank you.
+article, with useful and realistic information for
+healthcare professionals

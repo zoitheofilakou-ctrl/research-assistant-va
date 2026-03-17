@@ -1,0 +1,512 @@
+Article published online: 2022-10-19
+THIEME
+AIDH Summit 2022 991
+Evaluating Digital Health Capability at Scale
+Using the Digital Health Indicator
+Leanna Woods1,2,3 Rebekah Eden4 Andrew Pearce5 Yu Ching Ides Wong6 Lakshmi Jayan5
+Damian Green7 Keith McNeil6 Clair Sullivan1,3,8
+1CentreforHealthServicesResearch,TheUniversityofQueensland, Addressforcorrespondence LeannaWoods,PhD,CentreforHealth
+Brisbane,Australia ServicesResearch,TheUniversityofQueensland,Herston,QLD4006,
+2DigitalHealthCooperativeResearchCentre,Sydney,Australia Australia(e-mail:Lee.Woods@uq.edu.au).
+3QueenslandDigitalHealthCentre,TheUniversityofQueensland,
+Brisbane,Australia
+4SchoolofInformationSystems,QueenslandUniversityof
+Technology,Brisbane,Australia
+5HealthcareInformationandManagementSystemsSociety,
+Singapore,Singapore
+6PreventionDivision,QueenslandHealth,Brisbane,Australia
+7eHealthQueensland,QueenslandHealth,Brisbane,Australia
+8DigitalMetroNorth,MetroNorthHospitalandHealthService,
+Brisbane,Australia
+ApplClinInform2022;13:991–1001.
+Abstract Background Healthserviceprovidersmustunderstandtheirdigitalhealthcapability
+iftheyaretodrivedigitaltransformationinastrategicandinformedmanner.Littleis
+known about the assessment and benchmarking of digital maturity or capability at
+scale across an entire jurisdiction. The public health care system across the state of
+Queensland,Australiahas anambitious10-yeardigitaltransformationstrategy.
+Objective The aim of this research was to evaluate the digital health capability in
+Queensland to informdigital healthstrategyand investment.
+Methods The Healthcare Information and Management Systems Society Digital
+Health Indicator (DHI) was used via a cross-sectional survey design to assess four
+coredimensionsofdigitalhealthtransformation:governanceandworkforce;interop-
+Keywords erability;person-enabledhealth;andpredictiveanalyticsacrossanentirejurisdiction
+► digitalhealth simultaneously. The DHI questionnaire was completed by each health care system
+► digitalcapability (n¼16) within Queensland in February to July 2021. DHI is scored 0 to 400 and
+► digitalmaturity dimensionscore is0to100.
+► digitalhospitals Results The results reveal a variation in DHI scores reflecting the diverse stages of
+► digitaltransformation health care digitization across the state. The average DHI score across sites was 143
+► healthinformation (range 78–193; SD35.3) which is similar to other systems in the Oceania region and
+management globalpublicsystemsbutbelowtheglobalprivateaverage.Governanceandworkforce
+► organizational was on average the highest scoring dimension (̅x¼ 54), followed by interoperability
+characteristics
+(̅x¼46),person-enabledhealth(̅x¼36),andpredictiveanalytics(̅x¼30).
+received DOI https://doi.org/ ©2022.TheAuthor(s).
+April29,2022 10.1055/s-0042-1757554. ThisisanopenaccessarticlepublishedbyThiemeunderthetermsofthe
+acceptedafterrevision ISSN 1869-0327. CreativeCommonsAttribution-NonDerivative-NonCommercial-License,
+August24,2022 permittingcopyingandreproductionsolongastheoriginalworkisgiven
+appropriatecredit.Contentsmaynotbeusedforcommercialpurposes,or
+adapted,remixed,transformedorbuiltupon.(https://creativecommons.org/
+licenses/by-nc-nd/4.0/)
+GeorgThiemeVerlagKG,Rüdigerstraße14,70469Stuttgart,
+Germany
+992 Digital Health Indicator Woods et al.
+Conclusion The findings were incorporated into the new digital health strategy for
+thejurisdiction.Asoneofthelargestsinglesimultaneousassessmentsofdigitalhealth
+capabilityglobally,thefindingsandlessonslearntofferinsightsforpolicymakersand
+organizational managers.
+Background and Significance
+Kong. It was chosen over other MMs or capability frame-
+Health care delivery is increasinglychallenging as demand works because the dimensions measured extend beyond
+forcareescalatesagainstastaticresourcing profile.Digital technologicalimplementationsandincludetheoftenunder-
+healthcareplatformsareseenasasolutiontodeliverhealth representedpatient-centerednessinexistingmodels,12and
+care at scale.1,2 Large fiscal investments are required to providetheabilityforglobalbenchmarking.Asanewtool,
+implement these digital solutions. However, it can be con- therehasbeenlimitedpublishedresultsofhowtheDHIhas
+fusingforhealthcareorganizationstoplanandjustifysuch beenappliedtohealthservicestoshapedigitaltransforma-
+largeinvestments. tionstrategiesandinvestmentdecisions.
+Digital maturity is “the extent to which health IT is an InthestateofQueensland,Australia,anambitiousdigital
+enabler of high-quality care through supporting improve- transformationofthepublichealthcaresystemisunderway,
+ments to service delivery and patient experience.”3 Digital aimingtoprovideasingleelectronicrecordtoallconsumers
+healthmaturityevaluationshelpidentifythelevelofcapa- asakeyfoundationalcomponent.13Inaquesttounderstand
+bilityacrossaseriesof“dimensions”tounderstanddifferent progressmadetowardthisdigitalhealthvision,anevalua-
+aspectsfrombusinessprocessesandorganizationalcharac- tionwasundertakenwiththeresearchquestion:Whatisthe
+teristics,toinformationandpeople.4Digitalmaturitymodels digitalhealthcapabilityoftheQueenslandhealthsystem?Our
+(MM) provide structure to a maturity or capability assess- hypothesis was digital capability wouldvary widelyacross
+ment and have risen in use4 in response to the increased thejurisdiction.
+drive to digitize health care. Limitations of current MMs
+include challenges over which dimensions should be
+Objective
+assessed,5 overly technologically focused,6 narrow focus,
+and lack of peer-reviewed evidence base.7 MMs are often TheaimofthisresearchwastoapplytheDHI11toevaluate
+developedforspecificclinicalareasorinformationsystems,8 thedigitalhealthcapabilityinQueenslandtoinformdigital
+yetthereisagrowingneedforMMstoincludeallareasand healthstrategyandinvestment.
+subsystems in a health care organization9 to capture the
+complexrealityofdigitaltransformations.10
+Methods
+The digital health indicator (DHI) from the Healthcare
+Information and Management Systems Society (HIMSS) A cross-sectional survey design involving the DHI was
+documents the digital capability of health care services employedinthestateofQueensland.Thisstudyhasreceived
+(beyond simple assessments of the presence or absence of a multisite ethics approval from the Royal Brisbane and
+electronic medical record systems) using outcome driven, Women’sHospital[ID:HREC/2020/QRBW/66895],followed
+specific andbalanced measures.11The DHIis aself-assess- bysite-specificresearchgovernanceapprovals.
+ment tool11 which assesses four key dimensions of digital
+transformation: Interoperability: Person-Enabled Health; Setting
+Predictive Analytics; and Governance and Workforce QueenslandHealth(QH)providesstate-widehealthcareto
+(►Fig. 1). These four dimensions recognize the need for over5millionpeople,coveringageographicalarea2.5times
+data to be mobilized across the health system to enable thesizeofTexas,UnitedStates.AtanannualcostofoverAUD
+advancedanalyticsforoutcometracking,riskmanagement, $29billion,QHfundsuniversalfreehealthcareacrossacute
+and cue health care teams to focus on preventative action inpatient care; emergencycare; mental health and alcohol
+thathelpskeeppeopleandpopulationswell.11 andotherdrugservices;outpatientcare;prevention,prima-
+The DHI aims to provide a baseline understanding of ryand communitycare; ambulanceservices, and; sub and
+wherethehealthcareorganizationhasstrengthsandoppor- non-acute care.14 Queensland is also serviced by multiple
+tunities to improve as they progress in digital transforma- privatehospitals,non-governmentorganizations,Aboriginal
+tion. Launched in the global market in 2019, the DHI was and Torres Strait Islander Community Controlled Health
+developed from a critical analysis of published, peer- Organizations, general practices, primary health networks,
+revieweddigitalhealthliterature,andwastestedinhealth and charitable organisations.15 In 2018 to 2019, 57% of
+careorganisations.11TheDHIiscurrentlyadoptedbymany inpatientcarewasinQueensland’spublichospitals.15
+global health systems across jurisdictions such as Canada, Thepopulation isunevenlydispersedwithinmetropoli-
+United States of America, England, Saudi Arabia, Australia, tanareasintheSoutheastcornerofthestate,regionalsites
+New Zealand, Korea, Indonesia, Japan, Taiwan, and Hong withlargebasehospitalstoconsiderablyisolatedremoteand
+AppliedClinicalInformatics Vol.13 No.5/2022 ©2022.TheAuthor(s).
+Digital Health Indicator Woods et al. 993
+Fig.1 Digitalhealthindicatordimensions.
+ultra-remotecommunitieswithafly-infly-outhealthwork- not enabled to fully enabled covering the dimensions of
+force. To effectively manage health services across a large digital transformation. Organizational data are collected
+geographicallydispersedstate,QHdecentralizedtheiroper- using 10 demographic questions which do not contribute
+ations into 16 regionally divided independent statutory tothe overall DHI score.
+bodiescalledhealthcaresystems. Eachhealthcaresystem The survey was administered electronically to each
+has variable numbers of health services covering the full individual site and completed between February and
+spectrumofcomplexityfromquaternaryacademichospitals July 2021. Survey respondents were voluntary staff repre-
+to small rural hospitals.13,16 Publicly funded health care sentatives from each site, who (1) had an awareness of
+systemswereassessedinthisstudywithafocusondigital digital health across thehealth caresystem, (2)the ability
+capabilities of the hospitals contained within, and not the to network with local workforce to complete the survey
+privatehospitalsacrossthesystems. accurately, and (3) provide informed consent. The survey
+At the time of the assessment, 15 individual hospitals respondents included chief information officers (n¼8),
+acrossninehealthcaresystemsweredigitalhospitalswith chief digital officers (n¼2), clinical directors of digital
+the single instance Cerner integrated Electronic Medical health(n¼2),directorofinformationcommunicationtech-
+Record(EMR)system.ThefullstackofadvancedEMRcapa- nologies (n¼2), executive director of medical services
+bilitycoversthepatientjourneyacrossvarious healthcare (n¼1), and chief digital director medical services (n¼1).
+sites, and is integrated with computerized provider order Respondents required at least 2hours to complete the
+entry,ePrescribing,andclinicaldecisionsupportsystems.17 survey, receiving support and clarification from HIMSS to
+Theremaininghospitalsusepaper-basedclinicaldocumen- avoid partial completions.
+tation with various levels infrastructure, connectivity, and
+pointofcaretechnologiesforintegrationofbusiness,patient DataAnalysis
+administration,diagnosticsandvirtualcaresystems. The DHI score was calculated for each health care system
+using pre-built algorithms; proprietary of HIMSS. Through
+DataCollection applicationofthisalgorithmeachDHIdimension(i.e.,inter-
+Data were collected using the DHI electronic self-assess- operability; person-enabled health; predictive analytics;
+ment questionnaire. The DHI consists of 121 indicator andgovernanceandworkforce)canbescoredfromzeroto
+statements measured on a five-point scale ranging from 100. A proprietaryalgorithm is then applied to calculate a
+AppliedClinicalInformatics Vol.13 No.5/2022 ©2022.TheAuthor(s).
+994 Digital Health Indicator Woods et al.
+totalscore(i.e.,thetotalscoreisnotthesumofthedimension DHI scores, and global private DHI scores. For the final
+scores). The dimension level scores and the overall DHI comparison, a Global regionality level analysis was per-
+scores were exported to IBM SPSS Statistics (Version 28) formed; Kruskal–Wallis and Mann-Whitney U tests were
+whereaseriesofanalyseswereperformed. performedtoidentifyiftherewereanydifferencesbetween
+globalmetroandruralDHIscoreswithQH’sglobal,rural,and
+DimensionCapability regionalDHIscores.
+Adimensionlevelanalysiswasperformedtoprovidegranular
+insights intothestrengths andweaknessesin digitalcapa-
+Results
+bility. The scores of each DHI dimension per site were
+aggregated, with descriptivestatistics andvisualizedusing AnalysisofQueensland’sDigitalCapability
+boxandwhiskerplots. Theoveralldigitalcapability,denotedbythemeanDHIscore
+acrossthehealthcaresystems,was143(/400),rangingfrom
+RegionalCapability thelowestdigitalcapabilityhealthcaresystemof78witha
+Aregionlevelanalysiswasconductedtoexaminedifferences maximumdigitalcapabilityhealthcaresystemof193.
+in digital capability due to the geographical spread of The dimension level analysis (►Fig. 2) identified that
+Queensland. This required the regionality of each health Governance and Workforce was on average the highest
+caresystemtobedetermined.ApplyingtheModifiedMon- scoringdimension (̅x¼54), although there was a potential
+ashModel2019tool(MMM)intheHealthWorkforceLoca- outlier present. This was followed by interoperability
+tor,18sixsitesweredeterminedtobemetro(MMM1),four (̅x¼46),person-enabledhealth(̅x¼36),andpredictiveana-
+regional (MMM2), and six rural (MMM3–7). A Kruskal– lytics(̅x¼30).
+Wallis test was performed to identify if there were any ►Fig.3illustratestheregionlevelanalysiscomparingDHI
+statisticaldifferencesamongtheregions.Mann-WhitneyU scoresofmetro,regional,andruralareas.AKruskal(cid:2)Wallis
+testswerethenperformedtoidentifydifferencesbetweenall test showed that the regionalityof thesite affects the DHI
+combinations of groups (i.e., metro vs. regional; metro vs. scores(p<0.05).Post-hocMann-WhitneyUtests(►Table1)
+rural;regionalvs.rural). indicated that the differences in DHI scores of health care
+systems in metro regions did not significantly differ from
+RegionalDimensionAnalysis
+Aregiondimensionlevelanalysiswasconductedtoexamineif
+regional areas differed in their evaluations of the digital
+capabilitydimensions.Foreachregionclassification,theDHI
+dimension scores (i.e., interoperability; person-enabled
+health;predictiveanalytics;andgovernanceandworkforce)
+were extracted. A Kruskal–Wallis test was performed to
+identify if there were any statistical differences among
+regions.
+DigitalHospitalAnalysis
+AdigitalhospitalanalysiswasconductedtoexamineifEMR
+implementationimpacteddigitalcapabilitybetweenhealth
+caresystems.TheDHIscoreforeachhealthcaresystemwas Fig.2 DHIdimensionalscoresfor16healthcareservicesin
+grouped (EMR vs. non-EMR) and a Mann-Whitney U test Queensland,Australia.DHI,digitalhealthindicator.
+performedtoidentifyanystatisticallysignificantdifferences
+betweenEMRsitesandnon-EMRsites.
+ExternalBenchmarking
+External comparisons were performed to benchmark the
+digital capability of QH globally. This involved examining
+archivaldataprovidedbyHIMSSfortheDHIscoresreported
+by other private and public health systems across Oceania
+(n¼7),andNorthAmerica(n¼10).Forthefirstcomparison,
+aKruskal–Wallistestwasperformedtoidentifyiftherewere
+anydifferencesinDHIscoresamongthecontinentalareas.A
+Mann-WhitneyUtestwasperformedtoidentifydifferences
+betweenallcombinationsofgroups(i.e.,NorthAmericavs.
+QH; North America vs. Oceania; QH vs. Oceania). For
+the second comparison, Mann-Whitney U tests were per-
+formed to identify if there were any statistical differences
+Fig.3 DHIscorescomparinghealthcaresystemsacrossgeographic
+betweenQH’sDHIscoreandglobalDHIscores,globalpublic regions.DHI,digitalhealthindicator.
+AppliedClinicalInformatics Vol.13 No.5/2022 ©2022.TheAuthor(s).
+Digital Health Indicator Woods et al. 995
+Table 1 Regionlevelanalysis
+Metrovs.regional Metrovs.rural Regionalvs.rural
+Metro Regional Metro Rural Regional Rural
+N 6 4 6 6 4 6
+Mean 161 159 161 114 159 114
+Median 163 166 163 111 166 111
+Mann-Whitneyresult U¼11,z¼(cid:2)0.213 U¼4,z¼2.242 U¼2.5,z¼(cid:2)2.032
+p-Value p>0.05 p<0.05 p<0.05
+Outcome Metro¼Regional Metro>Rural Regional>Rural
+Fig.4 DHIdimensionalscorescomparinghealthcaresystemsacrossdifferentgeographicregions.DHI,digitalhealthindicator.
+those in regional regions (p> 0.05), although, metro and though the Kruskal(cid:2)Wallis test (►Table 2) indicated that
+regional regions received higher DHI scores than rural the scores for each dimensions were comparable across
+regions(p<0.05). regions(p>0.05).
+The region dimension level analysis (►Fig. 4) identified Thedigitalhospitalanalysisisillustratedin►Fig.5.The
+similarresultstothedimensionlevelanalysis(►Fig.2)with Mann-WhitneyUtest(►Table3)indicatedthatsiteswithan
+GovernanceandWorkforcescoringhigherthaninteropera- EMRhaveahigherDHIscorethansitesthatdonothavethe
+bility, person-enabled health and predictive analytics, al- EMR(p<0.001).
+Table 2 Region-dimensionlevelanalysis
+Governanceand Interoperability Person-enabled Predictiveanalytics
+workforce health
+Metro Reg. Rural Metro Reg. Rural Metro Reg. Rural Metro Reg. Rural
+N 6 4 6 6 4 6 6 4 6 6 4 6
+Mean 59 66 40 56 46 37 42 36 30 30 39 25
+Median 62 60 44 58 47 35 41 36 29 30 40 27
+Kruskal–Wallisresult H(2)¼4.724 H(2)¼4.923 H(2)¼3.333 H(2)¼1.821
+p-Value p>0.05 p>0.05 p>0.05 p>0.05
+Abbreviation:Reg,regional.
+AppliedClinicalInformatics Vol.13 No.5/2022 ©2022.TheAuthor(s).
+996 Digital Health Indicator Woods et al.
+Table 3 Digitalhospitalanalysis
+EMRsite Non-EMRsite
+N 8 8
+Mean 170 115
+Median 167 119
+Mann-Whitneyresult U¼1,z¼(cid:2)3.258
+p-Value p<0.001
+Outcome EMRsite>non-EMRsite
+Fig.5 DHIscorescomparinghealthcaresystemsstratifiedbyEMR
+use.DHI,digitalhealthindicator;EMR,electronicmedicalrecord.
+Fig.7 ComparisonofDHIdimensionsscoresagainstgloballocation.
+DHI,digitalhealthindicator.
+significantdifferenceinDHIscoresreportedbetweenQHand
+Oceania(p>0.05)(►Table4).
+Theglobal-dimensionlevelanalysis(►Fig.7),indicatesa
+similarpatternacrossOceaniaandQHwithgovernanceand
+workforcebeingthehighestscoringdimensions,followedby
+interoperability,person-enabledhealth,andpredictiveana-
+lytics. In North America, however, interoperability scored
+equally with governance and workforce, with person-en-
+Fig.6 ComparisonofDHIscoresagainstgloballocation.DHI,digital abledhealthbeingthelowestscoringdimension.
+healthindicator. Subsequently,aglobalcomparisonwasperformedwitha
+Mann-WhitneyUtest(►Fig.8,►Table5)indicatingthatthe
+ExternalComparisonsofQH’sDigitalCapabilitywith QH DHI score was lower than those reported globally (p<
+GlobalDHIScores 0.05). To identify if the difference at the global level is
+AKruskal–Wallistestindicatedthattherearedifferencesin partially explained by the public or private nature of the
+DHI scores across locations (►Fig. 6) (p <0.001). Post-hoc health caresystem follow-up, Mann-Whitney U tests were
+Mann-Whitney U tests indicated that the DHI scores of performed, which indicated that QH’s DHI scores were
+health systems in North America were significantly higher comparabletoglobalpublicDHIscores(p>0.05),andlower
+than QH (p <0.001) and Oceania (p <0.001). There was no thanglobalprivateDHIscores(p<0.01).
+Table 4 Internationalcomparison
+NorthAmericavs.QH NorthAmericavs.Oceania Oceaniavs.QH
+NorthAmerica QH NorthAmerica Oceania Oceania QH
+N 10 16 10 7 7 16
+Mean 252 143 252 135 135 143
+Median 238 155 238 132 132 155
+Mann-Whitneyresult U¼3,z¼(cid:2)4.059 U¼0,z¼(cid:2)3.416 U¼50,z¼(cid:2)0.401
+p-Value p<0.001 p<0.001 p>0.05
+Outcome NorthAmerica>QH NorthAmerica>Oceania Oceania¼QH
+AppliedClinicalInformatics Vol.13 No.5/2022 ©2022.TheAuthor(s).
+Digital Health Indicator Woods et al. 997
+Fig.8 DHIscorescomparingglobalprivateandpublichealthsystems.DHI,digitalhealthindicator.
+Table 5 Globalhealthproviderstatuscomparison
+Globalvs.QH Globalprivatevs.QH Globalpublicvs.QH
+Global QH Globalprivate QH Globalpublic QH
+N 17 16 9 16 16
+Mean 204 143 234 143 143
+Median 202 155 244 155 155
+Mann-Whitneyresult U¼68,z¼(cid:2)2.558 U¼24,z¼(cid:2)2.718 U¼41,z¼(cid:2)1.409
+p-Value p<0.05 p<0.01 p>0.05
+Outcome Global>QH Globalprivate>QH GlobalPublic¼QH
+A Kruskal–Wallis test (►Fig. 9, ►Table 6) indicated that state, with the findings indicating that sites that have
+QH’sDHIscoresinregionalandruralareaswerecomparable adoptedanintegratedEMRsystempossesshigherlevelsof
+to global rural DHI scores (p >0.05). A Mann-Whitney digital capability than non-digital sites. The DHI score is
+analysis (►Table 7) further indicated that QH’s DHI scores similar to other systems in the Oceania region and global
+inmetroareaswerecomparabletoglobalmetroDHIscores publicsystemsbutbelowtheglobalprivateaverage.Dimen-
+(p>0.05). sion-specific results were explored to understand digital
+capability across four categories: Interoperability; Person
+Enabled Health; Predictive Analytics; and Governance and
+Discussion
+Workforce. Relevant findings are informing the updated
+Thereisasignificantdrivetodigitizehealthcaretoenable state-widedigitalhealthstrategicplan.
+new models of care, data, and analytics and to form the GovernanceandWorkforcereceivedthehighestcompa-
+foundationtoapplyemergingtechnologiessuchasartificial rable dimension score. The dimension captures organiza-
+intelligence and precision medicine. To digitally transform tionalelementsofgovernance,risk,culture,leadership,and
+health care delivery in a strategic and informed manner, accountability which have always existedwithin organiza-
+understandingand benchmarking thecurrentdigitalcapa- tions. Modernizing these policies is possible to reflect the
+bilityisessentialtodriveandmonitorprogress. broader institutional environment which has shifted over
+the past decades to recognize the criticality of digital
+SummaryofKeyFindings health.19 However, the large variance in scores indicates
+Queensland’sresultsrevealavariationinDHIscoresreflect- thatnotallhealthcaresystemshavedatastrategy,security
+ing thediversestagesofhealthcaredigitizationacrossthe and privacy, and safety and quality outcome tracking in
+AppliedClinicalInformatics Vol.13 No.5/2022 ©2022.TheAuthor(s).
+998 Digital Health Indicator Woods et al.
+Fig.9 DHIscorescomparingglobalandQHdatastratifiedbygeographiclocation(regional,metro,andrural).DHI,digitalhealthindicator.
+Table 6 Globalrural/regionalcomparison Table 7 Globalmetrocomparison
+Global-rural QH-regional QH-rural Global-metro QH-metro
+N 5 4 6 N 12 6
+Mean 166 159 114 Mean 220 161
+Median 168 166 111 Median 227 164
+Kruskal–Wallis H(2)¼5.291 Mann-Whitneyresult U¼18,z¼(cid:2)1.686
+result p-Value p>0.05
+p-Value p>0.05
+Outcome Global-Metro¼QH-Metro
+place.Todevelopthecapabilityfromwithinasite,mirroring The rollout in rural areas is currently under review for
+other digital health implementation strategies from other fundingallocation.
+sites may not transfer successfully across due to context- Person-enabledhealthisanareafordevelopmentacross
+specificfactors.20,21Informedbytheseresults,thestrategic all geographic regions. Absence of digitally enabled self-
+focuses include: clinician workflow improvement and in- management platforms, patient access to medical docu-
+creasingthedigitalhealthcompetenceofstaff(workforce), ments or care plans, connectivity between clinicians and
+and transparency of health system performance, improve- patients,andunderutilizationofpatient-reportedoutcomes
+ments in service planning and an increase in artificial emerged as limitations in this dimension. Standardized
+intelligencecapability(governance). designfeaturesinwide-scaleEMRimplementationsdonot
+InteroperabilityisarelativelystrongdimensionacrossQH necessarily account for well-established person-centered
+with the large variation in scores linked to regionality; care delivery approaches21 which will need management.
+metropolitan and regional sites are more likely to have The acceptance of telehealth options for consumers, clini-
+higher scores. These sites are more likely to have imple- cians, and system administrators during the COVID(cid:2)19
+menteddigitaltoolsincludingtheEMR.Toimproveinterop- pandemic uncovered through the analysis means that the
+erability and the connectivity between health care QHwillcontinuetopromotetheuseofvirtualcareservices.
+stakeholders, health care systems can invest in technology Theseserviceoptionsnotonlyensurethatconsumershave
+advancementsandcentralizationofpatientinformation.The the option to receive care safely and effectively in their
+state-wide digital health investment strategy outlined the homes, and be with family and carers, whenever possible,
+keyinvestmentofEMRimplementationsatlargetertiaryand theyalsoincreasetheefficiencyofthehealthsystemtocope
+quaternarycarehospitalsinmetropolitanandregionalsites. witheverincreasingdemand.
+AppliedClinicalInformatics Vol.13 No.5/2022 ©2022.TheAuthor(s).
+Digital Health Indicator Woods et al. 999
+The predictive analytics dimension scores the lowest of scoreofseven.26InthesameyearintheUnitedStatesover
+thefourdimensions,whichistobeexpectedgiventhisisan 5,200 hospitals (86% total U.S. hospitals) completed the
+emerging technology. Predictive tools employing machine EMRAM, demonstrating an incremental increase in scores
+learningandartificialintelligencearenotcurrentlyused,yet from previous years.27 More than 96% of hospitals were
+real-timedescriptiveanalyticsarebeingleveragedinpockets identified to be in Stage 3 or below in 2006, while this
+across the state. Adoption of predictive analytics tools is a numberdecreasedtoapproximately31%in2014.27Incom-
+major step toward making the health care system preven- parison to single technology and implementation focused
+tion-focused through targeted interventions and resourc- MMssuchasEMRAM,aholisticcapabilityassessmentsuch
+ing.22 The Predictive Analytics assessment provided an astheDHIprovidescontextualdetail,highlightsweaknesses,
+opportunity to modernize data strategyand infrastructure and documents specific actions for system wide
+aimingto:(1)enablebusinessareastohavetimelyaccessto improvements.
+highqualitydata;(2)effectivelyintegrateacrossthesystem,
+achieving horizontal collaboration through establishing a Limitations
+singlesourceoftruth;(3)coproduceknowledgeandinsights TheDHIwasthechosenmethodforassessingdigitalcapa-
+with key research and industry partners to drive health bilityinthisinstanceandresultsmayvaryusinganothertool
+service and system improvements, and; (4) establish the duetothemethodologicallydiverseapproachestoassessing
+underpinnings of precision medicine to effectively reduce digital maturity. The individual indicator statements and
+lowvalue-basedcare,waste,andharm. algorithm to calculate the DHI scores are proprietary of
+HIMSS,andtheweightingofthedimensionscorestogener-
+ComparisontoExistingLiterature ate the total DHI is unknown. We do not believe this will
+This is the first large simultaneous application of the DHI discredittheapproachasitstillprovidesausefulbenchmark
+acrossasinglejurisdictionreportedintheacademiclitera- forothersemployingtheDHI.Althoughourfindingsindicate
+ture.WhileHIMSSdescribestheDHIasa“capabilityassess- that DHI scores are higher with the presence of an EMR
+ment,”theapplicationsofcomprehensiveMMsorcapability within the health systems examined, due to limitations in
+assessmentsinhealthcarearescarcelydescribed.23MMsare thearchivaldatasetitwasnotpossibletoevaluatewhether
+often conducted without academic input by national or thisfindingalsomanifestsatthegloballevel.Itiscertainly
+supranational organizations, corporations, and national possiblegivenEMRscanbeassociatedwithimprovedinter-
+healthorganizations limiting the peer reviewedevidence.8 operability and are a precursor to predictive analytics,
+Existing literature is focused on MM design over deploy- however,thereisnoguaranteeasthesetechnologysystems
+ment,24withfewreportingonevaluationsofmultifunctional can be implemented and adopted by users in a myriad of
+systemswithincomplexhealthcareorganisations.3Measur- ways. The ability to assess the digital capability at an
+ingsingletechnologicalimplementationsaloneisunlikelyto individual hospital level, longitudinally or objectively was
+capturethefullspectrumofcapabilityrequiredforsystem notpossibleusingthisstudydesignandprovidesopportu-
+transformation.Evidenceofpracticalapplicationandeffica- nityforfutureresearch.Thestatehealthsystemwasassessed
+cyof implementations are neededtoaddressthe practice- byaggregatingmultiplesiteanalyses,andthereforesubject
+researchgaps23withthisstudycontributingtothegrowing totheaccuracyoflocalizedassessments.Globalcomparisons
+evidencebase. werelimitedtoDHIscores,withnoaccompanyingcompari-
+Theclosestcomparisonofalargescaledigitalcapability son of health care systems or point-of-care digital health
+assessmentwastheEnglishNationalHealthService’sClinical capabilities.SomepossibilitiescouldbedifferencesinEMR
+Digital Maturity Index (CDMI). The CDMI uses readiness, implementation, health care expenditure, and nature of
+capability, and infrastructure to contribute to a total score healthfunding,whichwillbenefitfromfutureresearch.
+/1,400.When136hospitalswereassessedin2016,themean
+aggregateofthetotalCDMIscorewas797(range324–1,253; FutureResearch
+SD 174).3 Significant variation among hospitals in all Future research involves building the evidence-base for
+domains was uncovered,3 similar to the findings from advancing digital capabilities in practice, including valida-
+Queenslandanddemonstratingthepossibilityforimprove- tion of the DHI tool. We are underway with an analysis of
+mentindimensionandoverallscoresforboththeDHIand routinelycollectedhospitalperformanceandclinicalquality
+CDMItools. andsafetydatatocorrelatedigitalcapabilitywithoutcomes
+ThemostwidelyreportedmaturityapplicationisHIMSS’s mappedtothequadrupleaimsofhealthcare,28includinga
+seven stage Electronic Medical Record Adoption Model longitudinalanalysisofdigitizinghealthcaresystems.Mea-
+(EMRAM).25 EMRAM is a technology-focused staged MM suringtheimpactofthedigitizationofhealthcareisneces-
+ratherthanacomprehensiveassessmentacrossgovernance sarytoquantifythemeaningfulimpactsonhealthoutcomes,
+andworkforce,interoperability,person-enabledhealthand costofcare,andthepatientandclinicianexperience.
+predictive analytics, which is what the DHI assesses. Large
+applicationsofEMRAMwerereportedintwojurisdictions.
+Conclusion
+InTheNetherlandsin2014,48%(n¼32)ofhospitalssampled
+(80%totalnon-academicDutchhospitals)receivedascoreof Forhealthcareorganizationstodrivedigitaltransformation
+five on the EMRAM and no hospital received the highest in a strategic and informed manner, it is critical they
+AppliedClinicalInformatics Vol.13 No.5/2022 ©2022.TheAuthor(s).
+1000 Digital Health Indicator Woods et al.
+understand and benchmark their current digital health CorrectAnswer:Thecorrectanswerisoptionb.Thereare
+capability.Queensland,alargestateinAustralia,undertook many reasons for conducting a digital health capability
+a capabilityassessment of public health services using the assessmentincluding:identificationofkeydirectionsfor
+DHI.TheresultsrevealavariationinDHIscoresreflectingthe
+futureresourcing;benchmarkingagainstglobalcounter-
+diverse stages of health care digitization across the state parts; and assess the current state of digital health.
+which is consistent with global trends. Governance and Namingindividualswhowereresponsibleforsuboptimal
+Workforce was on average the highest scoring dimension, implementationeffortswasnotabenefit.
+followed by interoperability, person-enabled health, and
+predictive analytics. The findings helped derive specific
+insightsforfuturedigitalhealthplanning.Asthefirstlarge ProtectionofHumanandAnimalSubjects
+scaleapplicationoftheDHIgloballyandthefirstpublished ThestudywasperformedincompliancewiththeEthical
+state-widedigitalcapabilityreportinAustralia,thefindings PrinciplesforMedicalResearchInvolvingHumanSubjects
+and received multisite ethics approval from the Royal
+also offer insights for policy makers and organizational
+Brisbaneand Women’sHospital [ID: HREC/2020/QRBW/
+managers. Understanding and monitoring digital transfor-
+66895],andresearchgovernanceapprovalsfromallsites.
+mation at scale is critical for strategic and evidence-based
+digitaltransformationinvestments.
+ConflictofInterest
+A.P.andL.J.areemployeesofHIMSS,theorganizationwho
+Clinical Relevance Statement
+developedtheDHI.Remainingauthorsdeclarethatthey
+havenoconflictofinterestintheresearch.
+A digital health maturity or capability assessment involves
+clinicians and managers completing a self-assessment by
+Acknowledgments
+answering a series of indicator statements describing the
+Theauthorswouldliketothanktheparticipantsfortheir
+currentsystemandworkforcecapability.Reportsaregenerat-
+contributiontothisresearch.Thisresearchwassupported
+edhelpingstafftoidentifystrengthsandweaknessesinthe
+bytheDigitalHealthCooperativeResearchCentrewhich
+current state, and provide recommendations into how this
+isfundedundertheCommonwealthGovernment’sCoop-
+mightbeaddressedinthefuturestate.Theprocessgenerates
+erativeResearchProgramandQueenslandDepartmentof
+insightsbeyondthecommonfocusontechnologyimplemen-
+Health.
+tationbyhealthcareteams,affordingtheopportunitytoguide
+the digital transformation to meet organizational goals for
+patient care. Business cases or reports can be generated for
+References
+healthcareexecutives,decision-makers,andpolicymakersfor
+1 WorldHealthOrganization.Recommendationsondigitalinter-
+targeteddigitalhealthplanning,resourcing,andinvestment.
+ventionsforhealthsystemstrengthening.WorldHealthOrgani-
+zation;2019:2020–2010
+Multiple Choice Questions 2 World Health Organization. Global Strategy on Digital Health
+2020–2025.Geneva:WorldHealthOrganization;2021
+3 MartinG,ClarkeJ,LiewF,etal.Evaluatingtheimpactoforganisa-
+1. TheDigitalHealthIndicatorisacapabilityassessmentof tionaldigitalmaturityonclinicaloutcomesinsecondarycarein
+whichofthefollowingdimensions? England.NPJDigitMed2019;2(01):41
+a. Business;organization;information;people. 4 KolukısaTarhanA,GarousiV,TuretkenO,SöylemezM,GarossiS.
+Maturityassessmentandmaturitymodelsinhealthcare:amulti-
+b. People;process;information;technology.
+vocalliteraturereview.DigitHealth2020;6:2055207620914772
+c. Interoperability;person-enabledhealth;predictivean-
+5 KrasuskaM,WilliamsR,SheikhA,etal.Technologicalcapabilities
+alytics;governanceandworkforce.
+toassessdigitalexcellenceinhospitalsinhighperforminghealth
+d. Interoperability; patient centered care; quality and caresystems:internationaleDelphiexercise.JMedInternetRes
+safety;leadership. 2020;22(08):e17022
+Correct Answer: The correct answer is option c. The 6 CresswellK,SheikhA,KrasuskaM,etal.Reconceptualisingthe
+digital maturity of health systems. Lancet Digit Health 2019;1
+DigitalHealthIndicatorassessesthedigitalhealthcapa- (05):e200–e201
+bility of the health system across the dimensions of: 7 CarvalhoJV,RochaÁ,AbreuA.Maturityassessmentmethodology
+interoperability;person-enabledhealth;predictive ana- forHISMM–HospitalInformationSystemMaturityModel.JMed
+lytics;governanceandworkforce. Syst2019;43(02):35
+8 Carvalho JV, Rocha Á, Abreu A. Maturity models of healthcare
+2. The benefits of conducting a digital health capability informationsystemsandtechnologies:aliteraturereview.JMed
+assessment in Queensland include all the following Syst2016;40(06):131
+except: 9 VidalCarvalhoJ,RochaÁ,AbreuA.Maturityofhospitalinforma-
+a. Identifykeydirectionsforfutureresourcing.
+tionsystems:mostimportantinfluencingfactors.HealthInfor-
+maticsJ2019;25(03):617–631
+b. Namewhowasresponsibleforsuboptimalimplemen-
+10 MarwahaJS,LandmanAB,BratGA,DunnT,GordonWJ.Deploying
+tationefforts.
+digital health tools within large, complex health systems: key
+c. Benchmarkagainstglobalcounterparts. considerationsforadoptionandimplementation.NPJDigitMed
+d. Assessthecurrentstateofdigitalhealth. 2022;5(01):13
+AppliedClinicalInformatics Vol.13 No.5/2022 ©2022.TheAuthor(s).
+Digital Health Indicator Woods et al. 1001
+11 SnowdonA.DigitalHealth:AFrameworkforHealthcareTrans- 20 Eden R, Burton-Jones A, Scott I, Staib A, Sullivan C. Effects of
+formation. Illinois, USA: Healthcare Information and Manage- eHealthonhospitalpractice:synthesisofthecurrentliterature.
+mentSystemsSociety;2020 AustHealthRev2018;42(05):568–578
+12 Duncan R, Eden R, Woods L, Wong I, Sullivan C. Synthesizing 21 Burridge LH, Foster M, Jones R, Geraghty T, Atresh S. Nurses’
+dimensionsofdigitalmaturityinhospitals:systematicreview.J perspectivesofperson-centeredspinalcordinjuryrehabilitation
+MedInternetRes2022;24(03):e32994 inadigitalhospital.RehabilNurs2020;45(05):263–270
+13 Queensland Health. Digital Health Strategic Vision forQueens- 22 CanfellOJ,DavidsonK,WoodsL,etal.Precisionpublichealthfor
+land 2026. Digital Strategy Branch eHealth. Queensland, Bris- noncommunicablediseases:anemergingstrategicroadmapand
+bane:StateofQueensland(QueenslandHealth);2017 multinationalusecases.FrontPublicHealth2022;10:854525
+14 QueenslandDepartmentofHealth.DepartmentofHealthAnnual 23 BurmannA,MeisterS.PracticalApplicationofMaturityModelsin
+Report 2020–2021. Queensland: The State of Queensland (De- Healthcare: FindingsfromMultiple Digitalization CaseStudies.
+partmentofHealth);2021 Paperpresentedat:HEALTHINF2021
+15 QueenslandHealth.TheHealthofQueenslanders2020:Reportof 24 Blondiau A, Mettler T, Winter R. Designing and implementing
+theChiefHealthOfficerQueensland.Brisbane:StateofQueens- maturitymodelsinhospitals:anexperiencereportfrom5years
+land(QueenslandHealth);2020 ofresearch.HealthInformaticsJ2016;22(03):758–767
+16 Burton-JonesA,AkhlaghpourS,AyreS,BardeP,StaibA,SullivanC. 25 AnalyticsHIMSS.EMRAM:AstrategicroadmapforeffectiveEMR
+Changingtheconversationonevaluatingdigitaltransformationin adoption and maturity. Published 2017; 2021. Accessed
+healthcare: insights from an institutional analysis. Inf Organ March31,2021at:https://www.himssanalytics.org/emram
+2020;30(01):100255 26 vanPoelgeestR,HeidaJ-P,PettitL,deLeeuwRJ,SchrijversG.The
+17 EdenR,Burton-JonesA,StaibA,SullivanC.Surveyingperceptions association between eHealth capabilities and the quality and
+oftheearlyimpactsofanintegratedelectronicmedicalrecord safetyofhealthcareintheNetherlands:comparisonofHIMSS
+acrossahospitalandhealthcareservice.AustHealthRev2020;44 analyticsEMRAMdatawithElsevier’s‘TheBestHospitals’data.J
+(05):690–698 MedSyst2015;39(09):90
+18 AustralianGovernmentDepartmentofHealth.HealthWorkforce 27 KharraziH,GonzalezCP,LoweKB,HuertaTR,FordEW.Forecast-
+Locator.Published(nodate).AccessedMarch07,2022at:https:// ingthematurationofelectronichealthrecordfunctionsamong
+www.health.gov.au/resources/apps-and-tools/health-workfor- UShospitals:retrospectiveanalysisandpredictivemodel.JMed
+ce-locator/health-workforce-locator InternetRes2018;20(08):e10458
+19 KaplanB.Thecomputerprescription:Medicalcomputing,public 28 BodenheimerT,SinskyC.Fromtripletoquadrupleaim:careof
+policy,andviewsofhistory.SciTechnolHumanValues1995;20 thepatientrequirescareoftheprovider.AnnFamMed2014;12
+(01):5–38 (06):573–576
+AppliedClinicalInformatics Vol.13 No.5/2022 ©2022.TheAuthor(s).

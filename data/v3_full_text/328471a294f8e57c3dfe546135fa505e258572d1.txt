@@ -1,0 +1,368 @@
+Roudini et al. Systematic Reviews (2023) 12:180 Systematic Reviews
+https://doi.org/10.1186/s13643-023-02347-6
+PROTOCOL Open Access
+Systematic scoping review protocol of Stroke
+Patient and Stakeholder Engagement (SPSE)
+Juliet Roudini1, Sarah Weschke1, Torsten Rackoll1, Ulrich Dirnagl1,2, Gordon Guyatt3 and Hamidreza Khankeh4,5*
+Abstract
+This protocol describes a systematic scoping review of Stroke Patient and Stakeholder Engagement (SPSE), con-
+cepts, definitions, models, implementation strategies, indicators, or frameworks. The active engagement of patients
+and other stakeholders is increasingly acknowledged as essential to patient-centered research to answer questions
+of importance to patients and their caregivers. Stroke is a debilitating, long-lasting burden for individuals, their fami-
+lies, and healthcare professionals. They require rehabilitation services, health care system assistance, and social sup-
+port. Their difficulties are unique and require the continued involvement of all parties involved. Understanding SPSE
+in research is fundamental to healthcare planning and extends the role of patients and stakeholders beyond that of
+the study subject. We will conduct a systematic literature search to identify the types of existing evidence related
+to SPSE, implementation strategies, indicators, or frameworks related to Patient and Stakeholder Engagement (PSE);
+clarify key concepts, definitions, and components of SPSE; compile experiences and prerequisites; and identify stroke
+research internationally. Two independent reviewers will extract data from selected studies onto a customized extrac-
+tion form that has already been piloted. We integrate existing knowledge to address gaps in the literature on SPSE
+research by presenting the model, implementation strategies, indicators, and frameworks for stroke patients. We hope
+that these findings will offer future researchers a clear picture and conceptual model of SPSE.
+Introduction experiences, values, and expertise” [1]. This can include
+Patient engagement is defined as “The active, meaning- patients, other relevant stakeholders like family mem-
+ful, and collaborative interaction between patients and bers, and formal and informal healthcare providers [2].
+researchers across all stages of the research process, Patients and Stakeholders Engagement (PSE) can pro-
+where research decision-making is guided by patients’ vide a unique perspective, sometimes with firsthand
+contributions as partners, recognizing their specific knowledge and experience that is more relevant and
+approachable to the needs of patients and stakeholders
+[3–5]. Community-based participatory research (CBPR)
+*Correspondence: studies indicate that patient participation in research is
+Hamidreza Khankeh essential for reaching unreachable or otherwise under-
+Hamid.khankeh@ki.se
+1 QUEST Center for Responsible Research, Berlin Institute of Health served patients [6, 7]. Numerous authors assert that
+at Charité, Berlin, Germany research participation is crucial for empowering patients
+2 Department of Experimental Neurology, Charité Universitätsmedizin in their healthcare through self-empowerment, enhanced
+Berlin, Berlin, Germany
+3 Department of Health Research Methods, Evidence, and Impact, self-confidence, a sense of being respected, an effect on
+McMaster University, Hamilton, ON, Canada their mental health, the desire to contribute, and a desire
+4 Department of Emergency and Disaster Health, University of Social to serve the community (citizenship literacy) [8–10].
+Welfare and Rehabilitation Science, Tehran, Iran
+5 Department of Clinical Science and Education, Karolinska Institute, Researchers also claim that by engaging patients and
+Stockholm, Sweden caregivers early in the research process, they can effec-
+tively serve as early ambassadors of research efforts
+© The Author(s) 2023. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/. The Creative Commons Public Domain Dedication waiver (http://creativecom-
+mons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Roudini et al. Systematic Reviews (2023) 12:180 Page 2 of 6
+and additional findings, potentially broadening audi- improved over the last several decades, and the incidence
+ences beyond peer-reviewed journals and facilitating the of stroke continues to fall at a constant rate in Oxford-
+acceptance and implementation of results in the com- shire and other high-income countries, even though the
+munity and healthcare setting [11, 12]. Politically speak- total number of stroke incidents in aging populations is
+ing, the majority of patients and researchers concurred increasing [25].
+that patient participation in the study process boosted Fortunately, there is overwhelming evidence that stroke
+credibility, which helps democratic ideals of account- is mostly preventable, curable, and manageable, with the
+ability, transparency, and legitimacy in public and pri- potential to greatly lessen the burden of stroke and its
+vate organizations [4, 13]. The eminent quote “nothing long-term consequences. Nonetheless, all parties, includ-
+about us, without us” emphasized that researchers would ing government agencies, scientific and stroke support
+have a moral obligation to engage patients in research groups, healthcare professionals, clinical and preclini-
+beyond the role of subjects [14]. As a result, patients and cal researchers, patients, and their families, must work
+other stakeholders have a basic right to participate in the together to achieve this [26]. The study by McKevitt
+research process and should have the chance to influence and colleagues showed a lack of European understand-
+its direction [15]. ing of stroke research. According to the European Stroke
+Although there are currently a large number of papers Action Plan for 2018 to 2030, researchers, healthcare
+describing PSE activities and several models and rec- professionals, and patient groups must enhance how
+ommendations with a wide range of quality and varied research results are related to patient populations and
+focuses, there is still a lack of consensus throughout the study participants [26, 27].
+studies, on how to best build and foster PSE [16–18]. Stroke patients present unique challenges to PSE,
+The gaps include an absence of understanding of how to emphasizing the need for a disease-specific approach:
+engage a broad range of stakeholders across the health- many survivors are elderly, and they frequently have
+care system, which methods, models, and strategies severe disabilities, including speech problems, mak-
+of PSE are practicable throughout the earlier and later ing participation in PSE activities difficult, as opposed
+phases of research; how the opinions of stakeholders are to, say, cancer or other similar diseases. As a result, we
+synthesized and used to form research design, implemen- believe that specific prerequisites are required for suc-
+tation, and dissemination; and how to collaborate with cessful and meaningful PSE in this field of study. Further-
+stakeholders to increase intervention effects, decrease more, the perspective of relatives and caregivers may be
+disparities, and/or sustain tested interventions [19]. even more important than in other diseases because they
+According to Esmail and her colleagues, research gen- bear a major fraction of the patient’s burden, but from
+erally did not make explicit their aims for PSE to estab- a very different perspective. Patients’ and related stake-
+lish a cohesive, generalizable evidence base that enables holders’ involvement at the start of the clinical develop-
+comparability across studies and countries. While tech- ment process can significantly improve study design and
+nique measurements of engagement were emphasized delivery. It not only allows for a better understanding of
+more than results, there is still a need to understand who the patient’s needs, but it also allows for protocols to be
+should be engaged, when, and how. According to their considered in real-life scenarios, issues to be identified,
+studies, PSE has to develop more conceptual direction and problems to be resolved before a study opens for
+and consensus to guide evaluation processes [20]. Work- enrollment. As a result of better study design, participant
+man proposed developing measurable effect indicators recruitment, retention, and protocol adherence, PSE can
+and procedures in addition to those focusing on changes improve the relevance and quality of research projects.
+in the attitudes and degrees of satisfaction of research To our knowledge, no systematic literature reviews
+participants [21]. have been conducted to describe how patient engage-
+Stroke is the world’s second leading cause of mortal- ment has been approached and assessed in stroke
+ity and lifelong disability [22]. The aged population in research. However, there is a protocol that sounds similar
+Europe is expected to grow by 35% between 2017 and to the title of our study but differs in content [28]. The
+2050, resulting in an increase in stroke survivors due to two investigations have different objectives. Hall and col-
+an aging population and increasing survival rates [23]. leagues’ review identifies and describes patient and public
+Twenty to 50% of persons may have at least one of these involvement (PPI) activities, study types, and PPI partici-
+challenges, such as post-stroke depression (PSD), anxiety, pants in published stroke research, whereas our protocol
+vascular cognitive impairment (VCI), and post-stroke presents a thorough scoping review of Stroke Patient and
+fatigue (PSF), which can delay recovery and result in Stakeholder Engagement (SPSE) concepts, definitions,
+poor functional results and reduced quality of life [24]. models, implementation strategies, indicators, or frame-
+However, acute treatment and prevention methods have works. Both of these studies produced their protocol at
+R oudini et al. Systematic Reviews (2023) 12:180 Page 3 of 6
+different times. Furthermore, in the Hall study, data will 1. What are the key concepts, definitions, components,
+be extracted using Joanna Briggs Institute protocols, models, implementation strategies, indicators, or
+with results collated and matched to the research cycle frameworks for establishing an SPSE?
+stage/s, but we will use Arksey and O’Malley’s six stages. 2. How is it defined within this discipline?
+As a result, our preliminary findings reveal a lack of
+scientific evidence to involve all stakeholders in research
+on treatment and rehabilitation for this growing and Identifying relevant studies
+vulnerable patient population. The concept of interest We will apply the following search terms to search Pub-
+is thus to identify the types of evidence associated with Med, Web of Science, MEDLINE, EMBASE, Scopus,
+SPSE, the extraction of experiences and recommenda- PsycINFO via Ovid, Science Citation Index, Cochrane
+tions, the clarification of key concepts, definitions, and Database of Systematic Reviews, Global Health, and
+components, and the identification of models, implemen- WHO Global Health Library: stroke, patient engage-
+tation strategies, indicators, or frameworks for establish- ment, Community-Based Participatory Research Pro-
+ing an SPSE. This protocol describes a systematic scoping gram (CBPR), Patient and Public Involvement (PPI),
+review of Stroke Patient and Stakeholder Engagement citizen science, the key concepts, definitions, compo-
+(SPSE), concepts, definitions, models, implementation nents, and identify models and implementation strate-
+strategies, indicators, or frameworks at the Charité on gies, i.e., internationally.
+QUEST Center for Responsible Research and the Neu-
+roCure Clinical Research Center (NCRC) at the Berlin Study selection
+Institute of Health (BIH). This scoping review will include observational and inter-
+ventional research, theories, conceptual frameworks,
+models, systematic reviews, and scoping reviews, as well
+Method
+as experimental and quasi-experimental study designs,
+To accomplish the study’s objective, a comprehensive randomized controlled trials, non-randomized con-
+systematic scoping review will be conducted. Systematic trolled trials, before-and-after studies, and interrupted
+scoping reviews are fundamentally undertaken to map time-series studies. Analytical observational research,
+certain knowledge fields. A scoping review’s objectives including prospective and retrospective cohort stud-
+may include (one or more of the following): mapping ies, case–control studies, and analytical cross-sectional
+key concepts within a knowledge domain, refining the studies, will also be evaluated for inclusion. Case series,
+definitions, and determining the limits of the knowledge individual case reports, and descriptive cross-sectional
+domain [29]. Therefore, scoping reviews aid in identify- studies are also regarded as descriptive observational
+ing essential concepts and knowledge gaps, as well as study designs. In addition to phenomenology, grounded
+addressing thorough inquiries, which may involve a vari- theory, ethnography, qualitative content analysis, and
+ety of approaches but do not involve quality evaluation. action research, qualitative studies may utilize addi-
+As a result, scoping review studies aid in identifying key tional methodologies. Text and opinion pieces will also
+concepts and knowledge gaps, as well as addressing in- be included in this scoping review. Two reviewers will
+depth queries that may employ several methodologies extract data from selected studies independently using
+but do not include a quality evaluation. We will stick to a piloted, personalized extraction form. This will help
+Arksey and O’Malley’s six-step structure [29] which has to shape the development of a tailored search strat-
+since received widespread support and promotion in egy for each information source (second phase). The
+methodological literature [30, 31]. references of the papers included in the review will be
+reviewed for additional publications in the third step of
+the search. Articles having titles and abstracts in English
+Identifying the research question
+are included. This review will look at studies including
+Due to the topic’s novelty, a scoping review will be stroke patients of any age, gender, or health status, as well
+employed to achieve the following objectives: (1) iden- as their family caregivers. Articles pertaining to stroke
+tifying the sorts of current SPSE evidence, models, or patients or rehabilitated patients with research com-
+strategies for establishing SPSE; (2) clarifying the main petence in PSE will be considered for inclusion in this
+concepts, definitions, and components of SPSE; and (3) review.
+compiling the experiences, prerequisites, or suggestions
+for adopting or applying SPSE. Table 1 inclusion and exclusion criteria
+We addressed the following questions concerning Articles from 1996 will be included because the expan-
+research related to stroke: sion of public involvement in the UK began with the
+Roudini et al. Systematic Reviews (2023) 12:180 Page 4 of 6
+Table 1 Systematic scoping review protocol of models, implementation strategies, indicators and frameworks for patient and
+stakeholder engagement in stroke patients
+Criterion Definition
+Population The study includes past or present stroke patients (of any age, gender, or health status, as well as their family carers) their formal
+and informal caregivers, patient representatives, researchers, and participants from various nations
+Primary research PSE are active research participants, as opposed to passive research participants (subjects) or active clinical care recipients
+Screening procedure This scoping review defines important ideas, definitions, and components and identifies models, implementation techniques,
+indicators, and frameworks for the establishment of an active SPSE
+Disease definitions The American Heart Association/American Stroke Association defines a stroke as one that includes silent infarctions (including
+cerebral, spinal, and retinal) and silent hemorrhages [32]
+Setting Our aim will be worldwide, encompassing all nations
+Study design We will consider observational and interventional investigations, including experimental, quasi-experimental, analytical,
+descriptive, qualitative, systematic reviews, randomized controlled trials, non-randomized controlled trials, before-and-after
+studies, and interrupted time-series studies
+Result and conclusion By presenting the model, implementation strategies, indicators, and frameworks for stroke patients, we synthesize existing
+knowledge to address gaps in the literature on SPSE research
+establishment of INVOLVE in 1996. However, the • Study population and sample size (if applicable)
+emphasis on research for patient engagement came later. • Methodology/methods employed
+After discovering that individual and community stake- • Type and duration of intervention, comparator, and
+holders determine critical parts of healthcare services outcome measures (if applicable)
+and research, the British National Institute of Health • Key findings relevant to the research question(s)
+launched the INVOLVE project to achieve this engage-
+ment [33]. By amalgamating data from various sources, this sys-
+tematic scoping review will provide a comprehensive
+Charting the data overview, which enhances the precision and validity of
+The review process encompasses a comprehensive assess- conclusions drawn. This process is pivotal in distilling
+ment of the title, abstract, and full content of identified overarching patterns and discerning discrepancies within
+studies. The selection of papers that align with eligibility the collected evidence. The synthesized data subse-
+criteria will be determined by a consensus reached among quently aids in addressing research objectives, highlight-
+reviewers during the title and abstract review phase. Two ing consistencies or contradictions, and offering valuable
+independent reviewers (JR and TR) will conduct a metic- guidance for future research directions.
+ulous analysis of all titles and abstracts. Discrepancies, if
+any, will be resolved through the involvement of HRKH Consultation
+to ensure accuracy and consistency. The subsequent We will conduct a literature review to systematically syn-
+phase will involve a thorough examination of studies that thesize existing knowledge and address gaps in the lit-
+specifically detail the involvement of stroke patients and erature on SPSE in research by elucidating key concepts,
+other stakeholders in research activities. These selected definitions, and components, as well as identifying mod-
+studies will provide valuable models, implementation els, implementation strategies, indicators, or frameworks
+protocols, indicators, and frameworks essential for the for establishing an SPSE model or strategy to support our
+development of Stroke Patient and Stakeholder Engage- PSE efforts to inform best practice methods for stroke
+ment (SPSE) initiatives. Moreover, these studies will patients. The results will provide a clear picture of SPSE
+elucidate foundational concepts, definitions, and compo- for future research, and the study’s completion will provide
+nents pertinent to SPSE. SPSE researchers with a conceptual framework. The scop-
+The following information will be systematically ing review findings will be presented, discussed, and inter-
+charted for each included study: preted at a workshop for the multidisciplinary research
+team. The identification of research gaps in our study was
+• Author(s) based on two main sources: the literature review, which
+• Year of publication was limited to identifying areas of overall weakness within
+• Origin/country of origin (where the study was con- the field by comparing explored studies; and the consulta-
+ducted or published) tion of researchers for patient and stakeholder engagement,
+• Aims/purpose of the study which proved invaluable in identifying current issues facing
+R oudini et al. Systematic Reviews (2023) 12:180 Page 5 of 6
+patients, their stakeholders, and researchers that remained References
+1. Harrington RL, Hanna ML, Oehrlein EM, Camp R, Wheeler R, Cooblall C,
+unstudied. We will identify PSE activities in this study to
+Tesoro T, Scott AM, von Gizycki R, Nguyen F, Hareendran A, Patrick DL,
+improve the findings and make them more helpful to poli- Perfetto EM. Defining patient engagement in research: results of a sys-
+cymakers, practitioners, and service providers, as well as to tematic review and analysis: report of the ISPOR patient-centered special
+interest group. Value Health. 2020;23(6):677–88. https:// doi. org/ 10. 1016/J.
+inform and validate the findings. The findings will be uti-
+JVAL. 2020. 01. 019.
+lized in the process of developing a future research agenda 2. Carman KL, Dardess P, Maurer M, Sofaer S, Adams K, Bechtel C, Sweeney
+for the SPSE. J. Patient and family engagement: a framework for understanding
+the elements and developing interventions and policies. Health Aff.
+2013;32(2):223–31. https:// doi. org/ 10. 1377/ HLTHA FF. 2012. 1133.
+Dissemination 3. Hickam D, Totten A, Berg A, Rader K, Goodman S, Anise A, Johnson E,
+Our findings will be published in a peer-reviewed journal Meisel Z, Reid E, Saxton L. The PCORI methodology report. Pcori.Com.
+Retrieved Aug 1, 2022 from https:// www. pcori. com/ assets/ 2013/ 11/
+and extensively disseminated through our research groups
+PCORI- Board- Meeti ng- Metho dology- Report- for- Accep tance- 11181 31.
+and news media tactics in compliance with the reporting pdf.
+requirements for scoping reviews (PRISMA-ScR)52. 4. Shippee ND, Domecq Garces JP, Prutsky Lopez GJ, Wang Z, Elraiyah TA,
+Nabhan M, Brito JP, Boehmer K, Hasan R, Firwana B, Erwin PJ, Montori VM,
+Murad MH. Patient and service user engagement in research: a system-
+Discussion
+atic review and synthesized framework. Health Expect. 2015;18(5):1151–
+Although attitudes toward research are changing, many 66. https:// doi. org/ 10. 1111/ HEX. 12090.
+5. Watson V, Carnon A, Ryan M, Cox D. 2012. Involving the public in priority
+researchers regard discussing research with patients as an
+setting: a case study using discrete choice experiments. Academic.Oup.
+unusual practice; however, some patients are motivated Com. Retrieved Aug 1, 2022, from https:// acade mic. oup. com/ jpubh ealth/
+to participate. Furthermore, PSE has been demanded in artic le- abstr act/ 34/2/ 253/ 15493 01.
+6. De Las Nueces D, Hacker K, Digirolamo A, Hicks LS. A systematic review
+recent years by funders, patient organizations, and others,
+of community-based participatory research to enhance clinical trials in
+but information and criteria, as well as clear conceptions, racial and ethnic minority groups. Health Serv Res. 2007;47(32):1363–86.
+are inadequate. From our perspective and other studies, if https:// doi. org/ 10. 1111/j. 1475- 6773. 2012. 01386.x. Wiley Online Library.
+7. Mullins CD. 2012. Integrating patients’ voices in study design elements
+the research topic is drawn from the patient’s perspectives
+with a focus on hard to reach populations. Pcori.Org. Retrieved Aug 1,
+and requirements, research can be meaningful and applica- 2022 from https:// www. pcori. org/ assets/ Integ rating- Patie nts’- Voices- in-
+ble. This study will support the development of a compre- Study- Design- Eleme nts- with-a- Focus- on- Hard- to- Reach- Popul ation s1.
+pdf.
+hensive guideline to incorporate all stakeholders of stroke
+8. Brett J, Staniszewska S, Mockford C, Herron-Marx S, Hughes J, Tysall C,
+research in the research process, as they should be able to Suleman R. Mapping the impact of patient and public involvement
+influence its direction. Based on the results of many stud- on health and social care research: a systematic review. Health Expect.
+2014;17(5):637–50. https:// doi. org/ 10. 1111/j. 1369- 7625. 2012. 00795.x.
+ies, we must determine patients’ and caregivers’ points
+Wiley Online Library.
+of view because sometimes a problem is a priority for us 9. Brett J, Staniszewska S, Mockford C, Seers K. The PIRICOM Study: a
+but not for the stroke patient or other stakeholders; con- systematic review of the conceptualisation, measurement, impact and
+outcomes of patients and public involvement in health and. 2010. http://
+sequently, we should try to align our priorities with theirs.
+alaso. lnx. warwi ck. ac. uk/ id/ eprint/ 47235.
+We believe that these findings will provide future research- 10. Nsangi A, Oxman AD, Oxman M, Rosenbaum SE, Semakula D, Sse-
+ers with a comprehensive picture of SPSE and a conceptual nyonga R, Mugisha M, Chelagat F, Kaseje M, Nyirazinyoye L, Chalmers I,
+Sewankambo NK. Protocol for assessing stakeholder engagement in the
+model.
+development and evaluation of the Informed Health Choices resources
+teaching secondary school students to think critically about health
+claims and choices. PLoS One. 2020;15(10):e0239985. https:// doi. org/ 10.
+Author contributions 1371/ JOURN AL. PONE. 02399 85.
+Protocol Design and Development: Juliet Roudini (JR) and Hamidreza Khankeh 11. Abma T, Nierse CJ, Widdershoven GA. Patients as partners in responsive
+(HRKH). Drafting of the Protocol: JR, HRKH, and SW Critical Revision of the research: methodological notions for collaborations in mixed research
+Protocol for Important Intellectual Content: HRKH, SW, TR, UD, and GG. Admin- teams. Qual Health Res. 2009;19(3):401–15. https:// doi. org/ 10. 1177/ 10497
+istrative, Technical, and Material Support: UD. 32309 331869. Journals.Sagepub.Com.
+12. Saunders C, Crossing S, Girgis A, Butow P, Penman A. Operationalising a
+Funding model framework for consumer and community participation in health
+Open access funding provided by Karolinska Institute. and medical research. CSIRO Publishing. 2007. https:// doi. org/ 10. 1186/
+1743- 8462-4- 13.
+13. Concannon TW, Meissner P, Grunbaum JA, McElwee N, Guise JM, Santa J,
+Declarations Conway PH, Daudelin D, Morrato EH, Leslie LK. A new taxonomy for stake-
+holder engagement in patient-centered outcomes research. J Gen Intern
+Competing interests Med. 2012;27(8):985–91. https:// doi. org/ 10. 1007/ S11606- 012- 2037-1.
+The authors declare no competing interests. 14. JI Charlton. Nothing about us without us. 1998. Degruyter.Com. Retrieved
+Aug 3, 2022, from https:// www. degru yter. com/ docum ent/ doi/ 10. 1525/
+97805 20925 441/ html.
+Received: 27 March 2023 Accepted: 7 September 2023 15. Vat LE, Finlay T, Robinson P, Barbareschi G, Boudes M, Diaz Ponce AM,
+Dinboeck M, Eichmann L, Ferrer E, Fruytier SE, Hey C, Broerse JEW,
+Schuitmaker-Warnaar TJ. Evaluation of patient engagement in medicine
+development: a multi-stakeholder framework with metrics. Health
+Expect. 2021. https:// doi. org/ 10. 1111/ HEX. 13191.
+Roudini et al. Systematic Reviews (2023) 12:180 Page 6 of 6
+16. Fergusson D, Monfaredi Z, Pussegoda K, Garritty C, Lyddiatt A, Shea B, Publisher’s Note
+Duffett L, Ghannad M, Montroy J, Murad MH, Pratt M, Rader T, Shorr R, Springer Nature remains neutral with regard to jurisdictional claims in pub-
+Yazdi F. The prevalence of patient engagement in published trials: a lished maps and institutional affiliations.
+systematic review. Res Involve Engagem. 2018;4:1–9. https:// doi. org/ 10.
+1186/ S40900- 018- 0099-X.
+17. Greenhalgh T, Hinton L, Finlay T, Macfarlane A, Fahy N, Clyde B, Chant A.
+Frameworks for supporting patient and public involvement in research:
+systematic review and co-design pilot. Health Expect. 2019;22(4):785–
+801. https:// doi. org/ 10. 1111/ HEX. 12888.
+18. Price A, Schroter S, Snow R, Hicks M, Harmston R, Staniszewska S, Parker
+S, Richards T. Frequency of reporting on patient and public involvement
+(PPI) in research studies published in a general medical journal: a descrip-
+tive study. BMJ Open. 2018;8(3):e020452. https:// doi. org/ 10. 1136/ BMJOP
+EN- 2017- 020452.
+19. Concannon TW, Fuster M, Saunders T, Patel K, Wong JB, Leslie LK, Lau
+J. A systematic review of stakeholder engagement in comparative
+effectiveness and patient-centered outcomes research. J Gen Intern Med.
+2014;29(12):1692–701. https:// doi. org/ 10. 1007/ S11606- 014- 2878-X.
+20. Esmail L, Moore E, Rein A. Evaluating patient and stakeholder engage-
+ment in research: moving from theory to practice. J Comp Eff Res.
+2015;4(2):133–45. https:// doi. org/ 10. 2217/ CER. 14. 79/ SUPPL_ FILE/ SUPPL.
+DOCX.
+21. Workman T, Maurer M, Carman K. Unresolved tensions in consumer
+engagement in CER: a US research perspective. J Comp Eff Res.
+2013;2(2):127–34. https:// doi. org/ 10. 2217/ CER. 13.6.
+22. Krishnamurthi RV, Ikeda T, Feigin VL. Global, regional and country-specific
+burden of ischaemic stroke, intracerebral haemorrhage and subarach-
+noid haemorrhage: a systematic analysis of the global. Neuroepidemiol-
+ogy. 2017;54:171–9. https:// doi. org/ 10. 1159/ 00050 6396. Karger.Com.
+23. Wafa HA, Wolfe CDA, Emmett E, Roth GA, Johnson CO, Wang Y. Burden of
+stroke in Europe: thirty-year projections of incidence, prevalence, deaths,
+and disability-adjusted life years. Am Heart Assoc. 2020;51(8):2418–27.
+https:// doi. org/ 10. 1161/ STROK EAHA. 120. 029606.
+24. Cumming T, Packer M, Kramer SF, English C. The prevalence of fatigue
+after stroke: a systematic review and meta-analysis. Int J Stroke.
+2016;11(9):968–77. https:// doi. org/ 10. 1177/ 17474 93016 669861. Journals.
+Sagepub.Com.
+25. Li L, Scott CA, Rothwell PM. Trends in stroke incidence in high-income
+countries in the 21st century: population-based study and systematic
+review SUPPLEMENTAL MATERIAL. Stroke. 2020;51(5):1372–80.
+26. Norrving B, Barrick J, Davalos A, Dichgans M, Cordonnier C, Guekht A,
+Kutluk K, Mikulik R, Wardlaw J, Richard E, Nabavi D, Molina C, Bath PM,
+Stibrant Sunnerhagen K, Rudd A, Drummond A, Planas A, Caso V. Action
+Plan for Stroke in Europe 2018–2030. Eur Stroke J. 2018;3(4):309–36.
+https:// doi. org/ 10. 1177/ 23969 87318 808719.
+27. Mckevitt C, Fudge N, Crichton S, Bejot Y, Daubail B, Di Carlo A, Fearon
+P, Kolominsky-Rabas P, Sheldenkar A, Newbound S, Wolfe CD. Patient
+engagement with research: European population register study. Health
+Expect. 2015;18(6):3248–61. https:// doi. org/ 10. 1111/ HEX. 12315.
+28. Hall P, Kroll T, Hickey J, et al. Patient and public involvement in stroke
+research: a scoping review protocol [version 2; peer review: 2 approved].
+HRB Open Res. 2022;4:118. https:// doi. org/ 10. 12688/ hrbop enres. 13449.2.
+29. Arksey H, O’Malley L. Scoping studies: towards a methodological frame-
+work. Int J Soc Res Methodol. 2005;8(1):19–32. https:// doi. org/ 10. 1080/
+13645 57032 00011 9616.
+30. Colquhoun H, Levac D, O’Brien K, Straus S, Tricco AC, Perrier L, Kastner
+M, Moher D. Scoping reviews: time for clarity in definition, methods, and
+reporting. Elsevier. 2014. https:// www. scien cedir ect. com/ scien ce/ artic le/ RReeaaddyy ttoo ssuubbmmiitt yyoouurr rreesseeaarrcchh ?? CChhoooossee BBMMCC aanndd bbeenneeffiitt ffrroomm::
+pii/ S0895 43561 40021 08.
+• fast, convenient online submission
+31. Peters M, Godfrey CM, Mcinerney P, Soares CB. Guidance for conducting
+systematic scoping reviews. 2015. Journals.Lww.Com. https:// doi. org/ 10. • thorough peer review by experienced rese archers in your field
+1097/ XEB. 00000 00000 000050. • rapid publication on acceptance
+32. Sacco RL, Kasner SE, Broderick JP, Caplan LR, Connors JJ, Culebras A,
+• support for research data, including large and complex data types
+Elkind MSV, George MG, Hamdan AD, Higashida RT, Hoh BL, Janis LS, Kase
+CS, Kleindorfer DO, Lee JM, Moseley ME, Peterson ED, Turan TN, Valder- • gold Open Access which fosters wider collaboration and increased citations
+rama AL, Vinters HV. An updated definition of stroke for the 21st century: • maximum visibility for your research: over 100M website views per year
+a statement for healthcare professionals from the American heart asso-
+ciation/American stroke association. Stroke. 2013;44(7):2064–89. https:// At BMC, research is always in progress.
+doi. org/ 10. 1161/ STR. 0B013 E3182 96AECA.
+33. INVOLVE. 1996. INVOLVE. NIHR. https:// www. invo. org. uk/ about- invol ve/. Learn more biomedcentral.com/submissions

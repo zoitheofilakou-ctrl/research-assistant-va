@@ -1,0 +1,505 @@
+GUHES 2023; 5(2): 68-76 Review
+DOI: 10.59124/guhes.1266109
+Journal of Gazi University Health Sciences Institute
+journal homepage: https://dergipark.org.tr/tr/pub/guhes
+An Overview of Outcome Measures in Healthcare
+Şeyda Özal1, Nihan Kafa2, Nevin Atalay Güzel2
+1 Ankara Medipol University, Faculty of Health Sciences, Ankara, Türkiye
+2 Gazi University, Faculty of Health Sciences, Ankara, Türkiye
+Article info: Abstract
+Received: 17.03.2023
+Accepted: 17.05.2023 Consideration of indicators of an individual's perceptions and attitudes is valuable to reflect the
+impact of physical findings on quality of life. In this regard, practical outcome measures assist in
+concluding. Self-Reported Outcome Measures (SROMs) corroborate medical findings and allow
+Keywords: for easy profiling (eliciting information about the patient's condition). Even if their frequent usage
+clinician-administered, in clinical and scientific studies, there is confusion over taxonomy, terminology, and definitions of
+outcome measures,
+outcome measures. Sometimes, clinicians face some obscurity of the complexity of the features
+self-reported,
+terminology and concepts those measurements represent. This leads to misnaming or misidentification of
+measurement tools. Users also have difficulty choosing the right tool because of this confusion.
+This study aims to describe and standardize the terminology of outcome measures and to clarify
+the classifications with examples. Thus, we aimed to increase the knowledge and awareness of
+health professionals about the measurement tools, make them interrogate their qualities and
+features, and encourage them to choose more appropriate ones.
+Şeyda Özal (Corresponding author); ORCID: 0000-0003-2524-2180, e-mail: seyda.ylmz@yandex.com
+Nihan Kafa; ORCID: 0000-0003-2878-4778, e-mail: fztnihankafa@gmail.com
+Nevin A. Güzel; ORCID: 0000-0003-0467-7310, e-mail: natalay@gazi.edu.tr
+Citation: Özal, Ş., Kafa, N. & Atalay Güzel, N. (2023). An overview of outcome measures in healthcare. Journal of Gazi University Health Sciences
+Institute, 5(2), 68-76. https://doi.org/10.59124/guhes.1266109
+: GUHES 2023; 5(2): 68-76
+1. Introduction Wolinsky, 2000). They can be also used for screening
+population health in epidemiological studies (Basch et
+Clinicians try to get as much information about the
+al., 2015). Outcome measures are significant criteria
+patient as possible to solve the problem (Nelson et al.,
+for individual or group analyses in quality
+2015). Clinical measurements are required for
+improvement initiatives, clinical trials, or
+examination, diagnosis, making a clinical decision,
+observational studies (Black, 2013; Dawson et al.,
+choosing the best treatment method, checking the
+2010; Zheng et al., 2014).
+results, comparing the results with other patients, and
+determining the priority of the various treatment Although the use of measurement and evaluation tools
+methods (Dawson et al., 2010; Francis et al., 2016; in healthcare settings began later than in fields such as
+Grove et al., 2021; Nelson et al., 2015). Objective education, sociology, and marketing, it has gained
+outcomes such as vital signs, laboratory tests, momentum due to its convenience. Even if its frequent
+performance tests, and imaging methods maintain usage in clinical and scientific studies, there is
+precious information about the patient (Fischbach & confusion over taxonomy, terminology, and
+Dunning, 2009). However, a patient; may have definitions of outcome measures (Mokkink et al.,
+subjective symptoms arising from their feelings, 2010). There is a complexity in features and concepts
+experiences, environment, and mood, independent of that measurement represents. This situation causes
+medical findings (Dawson et al., 2010; Francis et al., them to be misnamed or faulty in descriptions. Also,
+2016; Guyatt & Schunemann, 2007). Objective users have difficulty choosing the right tool. This
+outcomes do not reflect the patient's satisfaction with study aims to describe and standardize the
+the treatment, perceptions, and feelings about the terminology and definitions of outcome measures and
+disease. After all, the impacts of these subjective signs to clarify the classifications with examples. Thus, we
+on the healing process should not be underestimated. aimed to increase the knowledge and awareness of
+Understanding the patient's perception, experience, health professionals about the measurement tools,
+expectations, and feelings about the situation encourage them to choose more suitable ones, and
+enhances interpreting all these measurements make them interrogate their qualities and features. We
+correctly (Guyatt & Schunemann, 2007; Snyder et al., also think this study will increase the use of existing
+2007). In this regard, our best helpers are the disease, tools, facilitate the identification of new tool needs,
+symptom, function, or population-specific scales, encourage the creation of new tools, and guide
+questionnaires, or indexes. In favor of these helper researchers in scale development studies.
+tools, we can imagine the situation of patients and
+2. Classification of Outcome Measures
+empathize with them better (Dawson et al., 2010;
+Guyatt & Schunemann, 2007; Snyder et al., 2007).
+We can classify subjective measurements in
+healthcare as Clinician-Administrated (CAOM), Self-
+Outcome measures are used in clinics to strengthen
+Reported Outcome Measures (SROM), or Mixed-type
+diagnosis, determine the severity of the pathology, and
+(hybrid) scales (Michener, 2011; Mokkink et al.,
+monitor status changes over time (Wyrwich &
+69
+: GUHES 2023; 5(2): 68-76
+2010; Snyder et al., 2007). The classification scheme directly reported by the individual, without
+of outcome measures is given in Figure 1. Visual interpretation by a clinician, evaluator, or another
+Analogue Scale, Numeric Ratio Scale, Verbal person (Dawson et al., 2010). General health
+Descriptive Scale, and Facial Expression Scale are the conditions, wellness, symptoms, life expectations,
+prevalent response indication types. Likert-type thoughts, or decisions are questioned. The person
+interval scales are another preferred response type for evaluates the self-situation and tries to find the closest
+these health assessment tools (Dawson et al., 2010). expression. These tools are called as Self-report
+The response type should be proper for the target Outcome Measures (SROMs), Patient-reported
+group and intended feature. Outcome Measures (PROMs), or Health-Related
+Quality of Life Questionnaires (HRQOLQ). Although
+3. Clinician - Administrated Outcome
+they mean close to each other, they have nuances
+Measures
+(Francis et al., 2016). The Quality-of-Life
+In CAOMs, the patient is evaluated by a healthcare
+Questionnaires are inclusive scales that investigate
+professional. The clinician scores the patient's
+disease-related impacts. They ascertain various
+condition by interpreting the results of self-
+symptoms and reveal how much a person's quality of
+observation and assessment. Therefore, they reflect
+life is affected. Evaluation of a single indication will
+the physical capability findings rather than the
+not be sufficient to make this inference. Thus, when a
+patient's perception. Scoring is dependent on the
+scale with a single or limited focus, such as symptom,
+clinician's knowledge and experience. Accurate
+function, or emotion, we prefer to call as PROMs. The
+detection of the changes over time also depends on the
+focus of health research may not always be patients.
+practitioner. Inter-rater Consistency may be lower in
+Sometimes research is on healthy individuals or
+such scales than in SROMs (Edwards et al., 2002). If
+specific healthy groups such as athletes, women,
+it is based on the measurement result of performance
+pregnants, children, and the elderly. It would be more
+without interpretation, it is called a Performance-
+appropriate to call the scales developed for use in
+based outcome measure. CAOMs may also be referred
+these populations SROM (Feeny et al., 2013; Francis
+to as Observer-Rated Outcomes Measures (OROM).
+et al., 2016) (Figure 1).
+However, since it is preferred that the evaluator be a
+healthcare professional, the term Clinician-
+Administered is more appropriate. If the eventual
+point is based on performance without interpretation,
+it could be called a Performance-Based Outcome
+Measure (PBOM) (Figure 1).
+4. Self-Reported Outcome Measures
+These scales are measurement tools based on
+descriptions, declarations, expressions, or statements
+70
+: GUHES 2023; 5(2): 68-76
+Prevalent Response Types in healthcare (Figure 2).
+Studies have shown that all these response types are
+valid and reliable. A study comparing their validity for
+response types concluded that NRS, VAS, VDS, and
+FES in terms of sensitivity, respectively (Ferreira-
+Valenteet al., 2011). However, it should be chosen
+considering the situation and the target audience. For
+SROM Self-Reported Outcome Measure example, although the sensitivity is lower, the FES
+PROM Patient-Reported Outcome Measure
+HRQOLQ Health Related Quality of Life Questionnaire method may give more accurate results than NOS or
+CAOM Clinician Administered Outcome Measure
+OROM Observer-Rated Outcome Measure VAS in illiterate elderly or children (Garra et al.,
+PBOM Patient-Based Outcome Measure
+2010). In addition to these types, Likert-type interval
+Figure 1. Classification scheme of outcome measures measurement tools adapted to various expressions are
+widely used in questioning attitudes, preferences,
+5. Prevalent Response Types in Health
+perceptions, and behavioral characteristics (Vagias,
+Outcome Measures
+2006).
+Times Since health-related purports and symptoms are
+Outcome measures in health care have been designed
+based on individual experience, it is hard to measure
+in various types according to focal points. The
+and be perceived by another individual who has not
+purposes of measurement tools vary widely from
+experienced the same situation (Albrecht, 1996).
+specific to generic. The specified scales are generally
+more sensitive to longitudinal changes than generic
+For example, it is not possible to exact define and
+ones, but they may not capture the impacts of
+detect even pain, which is a common symptom of
+comorbidities. Some generic scales have situation-
+many health problems, and experienced by almost
+specific adaptations (Feeny et al., 2013). The principal
+everyone. Because it has such diverse components as
+scale types are compiled below and exemplified in
+that type, region, duration, and severity, and it depends
+Table 1.
+on individual experience, perception, structural
+features, and environmental, social, and religious
+a. Symptom Scales investigate the presence and
+characteristics (Loeser & Melzack, 1999). Still,
+level of some symptoms (Garra et al., 2010;
+getting subjective information about pain and similar
+Melzack & Raja, 2005).
+symptoms to determine the condition, prognosis, and b. Symptom Indexes allow us to make inferences
+treatment results is essential (Albrecht, 1996; Melzack about the disease it is associated with by
+& Raja, 2005). So far, various methods have been questioning the existence and levels of various
+tried, and rating systems have been created to measure symptoms. The evaluation criteria of the sub-
+these symptoms. Visual Analog Scale (VAS), units of such tools are different from each other
+Numeric Ratio Scale (NRS), Verbal Descriptive Scale (Najafov et al., 2020).
+(VDS), and Facial Expression Scale (FES) are
+71
+: GUHES 2023; 5(2): 68-76
+c. Disease-Specific Scales that question one or more
+of the parameters associated with any disease,
+such as symptoms, function, and mood (Özal et
+al., 2021).
+d. Region-Specific Scales explore the situation in
+the body area affected by the problem in terms of
+function, symptoms, and physical characteristics
+(Roach et al., 1991; van de Water et al,, 2016).
+e. Organ/System-Specific Scales that examine
+Figure 2. Prevalent Response Types in Health
+organs or structures belonging to a particular
+Outcome Measures
+system in the body (Hutchings et al., 2015).
+f. Generic Scales examine the general health level 6. Conclusion
+or quality of life regarding physical, mental, and
+As in most fields, measurement has great importance
+psychosocial health (Hunt et al., 1981).
+in healthcare. Since it relates to clinical decision-
+g. Health-Related Quality-of-Life Scales
+investigate the consequences of specific making and checking outcomes, it is essential to
+pathology findings on the patient's quality of life evaluate patients from various dimensions to
+(Mollaoğlu et al., 2015). strengthen the evidence. In this regard, practical
+h. Emotional Scales reveal a person's unconscious outcome measures assist in concluding. It is valuable
+feelings or states, such as well-being, social to consider the indices of the individual's perceptions
+isolation, or self-efficacy (Beck et al., 1987; and attitudes to reflect the impacts of physical findings
+Blanchard et al., 1995; Bradley, 1994).
+on the person's quality of life (Dawson et al., 2010). In
+i. Population-Specific Scales assess the skill,
+other words, adding the scale results based on the
+performance, or wellness of a group of people
+person's expressions to the objective data provides the
+with common characteristics (age, gender,
+opportunity to evaluate the individual from a larger
+disability, occupation, sport, or art branches)
+perspective and helps clinical decision-making. The
+(Curtis et al., 1995; Washburn et al., 1993).
+symbolic, nominal, or numerical outputs obtained
+j. Attitude and Behavioral Scales determine
+from these scales are also used to reveal the temporal
+individuals' perspectives and perceptions toward
+changes in the medical condition or compare the
+any disease, phenomenon, condition, or object
+differences between individuals or groups (Francis et
+(Jaarsma et al., 2009; Merluzzi & Martinez
+al., 2016). Both CAOMs and SROMs enhance
+Sanchez, 1997).
+detailed information about the patient in a short time.
+They are cheap, easy to understand and apply. The
+SROMs improve patient-physician communication.
+Above all, they reflect sincere reports, real sensations,
+and feelings. Therefore, using these tools in clinical
+and academic studies is very advantageous. CROMs
+72
+: GUHES 2023; 5(2): 68-76
+are more appropriate than PROMS when patients
+cannot identify and assess their symptoms or report
+their health status due to mental or physical disabilities
+or age (e.g., newborns, elderly with dementia).
+However, PROMs are more valuable for findings that
+the clinician cannot detect externally (e.g., pain level).
+According to the situation, the appropriate one should
+be selected among the available tools. If possible,
+CAOMs and PROMs should be used simultaneously
+to strengthen the findings (Feeny et al., 2013; Powers
+III et al., 2017).
+Despite the numerous advantages of SROMs, they
+have some disadvantages related to tool suitability or
+implementation errors. For example,
+comprehensibility and interpretation of questions or
+instructions may vary individually, rating methods
+may not be appropriate for assessment or sample-
+response matching may be incorrect (Lilienfeld &
+Fowler, 2006; Paulhus & Vazire, 2007).
+Some subjects may not be able to accurately assess
+themselves or give more socially acceptable answers
+than true ones (Devaux & Sassi, 2016; McDonald,
+2008). Precautions should be taken by taking these
+disadvantages into account. The most appropriate
+outcome measure should be selected for the problem,
+the injured area, and the condition. The person should
+be encouraged to give correct answers, and the
+findings should be compared with available more
+objective measurement parameters.
+This article aims to raise awareness and knowledge
+about outcome measures among practitioners to
+minimize the disadvantages and maximize the
+accuracy of SROMs. Thus, clinicians may choose or
+develop more appropriate tools in this direction.
+73
+: GUHES 2023; 5(2): 68-76
+Table 1. Examples of Outcome Measures
+Example Outcome Measure Measurement
+Response Type Sub-sections
+Focal Type Abbreviation Full Name Type
+Symptom Scales MPQ McGill Pain Questionnaire SROM VDS -
+WBS Wong–Baker Faces Pain Rating Scale SROM FES -
+Pain/Cramps (SR & CA)
+NRS
+Symptom Indexes LHB score Long Head of Biceps Score Mixed Numbered interval Cosmesis (SR & CA)
+Elbow flexion strength (CA)
+Ratio Scale
+Physical Symptoms,
+Disease-Specific Scales WOOS Western Ontario Osteoarthritis of Shoulder Index SROM VAS Sports/Recreation/Work
+Lifestyle
+Emotions
+SFINX Shoulder Function Index CA Likert type -
+Region-Specific scales Pain
+SPADI Shoulder Pain and Disability Index SROM VAS / NRS
+Disability
+Likert type
+Organ/System-Specific Scales GSRQ Gastrointestinal Symptom Rating Questionnaire SROM Ordinal type -
+Nominal type
+Pain
+Emotional Reactions
+Generic Scales NHP Nottingham Health Profile SROM Nominal type Energy Level
+Physical Mobility
+Social Isolation
+Sleep
+Seizure Worry
+Emotional Well-Being
+Energy/Fatigue
+Health-Related Quality-of-Life Scales QOLIE-31 Quality of Life in Epilepsy-31 Inventory SROM Likert type Social Function
+Cognitive Function
+Medication Effects
+Overall Quality of Life
+BDI Beck Depression Inventory SROM Likert type -
+Depression
+Emotional Scales WBQ The Well-being Questionnaire SROM Likert type Anxiety
+Energy
+Positive wellbeing
+PTSDS Post-Traumatic Stress Disorder Scale SROM/CA Likert type -
+Likert type Leisure Time Activity
+Population-Specific Scales PASE Physical Activity Scale for the Elderly SROM Nominal type Household Activity
+WUSPI Wheelchair Users’ Shoulder Pain Index SROM VAS -
+Maintaining Independence
+Participating in Medical Care
+Attitude and Behavioral Scales CBI Cancer Behavior Inventory SROM Likert type Coping and Stress Management
+Managing Affect
+EHFScB scale European Heart Failure Self-care Behaviour Scale SROM Likert type -
+SROM Self-Reported Outcome Measure, CAOM Clinician Administered Outcome Measure, VAS Visual Analog Scale, NRS Numeric Ratio Scale, VDS Verbal Descriptive Scale, FES Facial Expression Scale
+74
+: GUHES 2023; 5(2): 68-76
+Conflicts of interest Francis, D. O., McPheeters, M. L., Noud, M., Penson, D.
+F., & Feurer, I. D. (2016). Checklist to operationalize
+measurement characteristics of patient-reported
+The authors declare no conflicts of interest.
+outcome measures. Systematic reviews, 5(1), 1-11.doi:
+10.1186/s13643-016-0307-4
+Garra, G., Singer, A. J., Taira, B. R., Chohan, J., Cardoz,
+References H., Chisena, E., & Thode Jr, H. C. (2010). Validation of
+the Wong‐Baker FACES pain rating scale in pediatric
+Albrecht, G. (1996). Using subjective health assessments in
+emergency department patients. Academic Emergency
+practice and policy-making. Health Care Analysis, 4(4),
+Medicine, 17(1), 50-54. doi:10.1111/j.1553-
+284-292. doi:10.1007/BF02249315.
+2712.2009.00620.x
+Basch, E., Spertus, J., Dudley, R. A., Wu, A., Chuahan, C.,
+Grove, B. E., Schougaard, L. M. V., Ivarsen, P. R., Kyte,
+Cohen, P., . . . Christensen, K. (2015). Methods for
+D., Hjollund, N. H., & de Thurah, A. (2021). Patient-
+developing patient-reported outcome-based
+reported outcome measures for clinical decision-making
+performance measures (PRO-PMs). Value in health,
+in outpatient follow-up: validity and reliability of a renal
+18(4), 493-504. doi: 10.1016/j.jval.2015.02.018
+disease questionnaire. Journal of patient-reported
+Beck, A. T., Steer, R. A., & Brown, G. K. (1987). Beck
+outcomes, 5(1), 1-11.doi: 10.1186/s41687-021-00384-0
+depression inventory: Harcourt Brace Jovanovich New
+Guyatt, G., & Schunemann, H. (2007). How can quality of
+York: doi: 10.1007/978-1-4419-9893-4_8.
+life researchers make their work more useful to health
+Black, N. (2013). Patient reported outcome measures could
+workers and their patients? Quality of Life Research,
+help transform healthcare. Bmj, 346. doi:
+16(7), 1097-1105. doi: 10.1007/s11136-007-9223-3
+10.1136/bmj.f167
+Hunt, S. M., McKenna, S., McEwen, J., Williams, J., &
+Blanchard, E. B., Hickling, E. J., Taylor, A. E., Forneris, C.
+Papp, E. (1981). The Nottingham Health Profile:
+A., Loos, W., & Jaccard, J. (1995). Effects of varying
+subjective health status and medical consultations.
+scoring rules of the Clinician-Administered PTSD Scale
+Social Science & Medicine. Part A: Medical Psychology
+(CAPS) for the diagnosis of post-traumatic stress
+& Medical Sociology, 15(3), 221-229. doi:
+disorder in motor vehicle accident victims. Behaviour
+10.1016/0271-7123(81)90005-5
+Research and Therapy, 33(4), 471-475. doi:
+Hutchings, H. A., Cheung, W.-Y., Russell, I. T., Durai, D.,
+10.1016/0005-7967(94)00064-Q
+Alrubaiy, L., & Williams, J. G. (2015). Psychometric
+Bradley, C. (1994). The well-being questionnaire: Chur,
+development of the Gastrointestinal Symptom Rating
+Switzerland, Harwood Academic Publishers.
+Questionnaire (GSRQ) demonstrated good validity.
+Curtis, K., Roach, K., Brooks Applegate, E., Amar, T.,
+Journal of clinical epidemiology, 68(10), 1176-1183.
+Benbow, C., Genecco, T., & Gualano, J. (1995).
+doi: 10.1016/j.jclinepi.2015.03.019
+Development of the wheelchair user's shoulder pain
+Jaarsma, T., Årestedt, K. F., Mårtensson, J., Dracup, K., &
+index (WUSPI). Spinal Cord, 33(5), 290-293. doi:
+Strömberg, A. (2009). The European Heart Failure Self‐
+10.1038/sc.1995.65
+care Behaviour scale revised into a nine‐item scale
+Devaux, M., Sassi, F. (2016). Social disparities in
+(EHFScB‐9): a reliable and valid international
+hazardous alcohol use: Self-report bias may lead to
+instrument. European journal of heart failure, 11(1),
+incorrect estimates. Eur J Public Health, 26(1):129-
+99-105. doi: 10.1093/eurjhf/hfn007
+134. doi:10.1093/eurpub/ckv190
+Lilienfeld, S. O., & Fowler, K. A. (2006). The Self-Report
+Dawson, J., Doll, H., Fitzpatrick, R., Jenkinson, C., & Carr,
+Assessment of Psychopathy: Problems, Pitfalls, and
+A. J. (2010). The routine use of patient reported
+Promises. Handbook of psychopathy, 107–132, ISBN 1-
+outcome measures in healthcare settings. Bmj, 340.doi:
+59385-212-6
+10.1136/bmj.c186
+Loeser, J. D., & Melzack, R. (1999). Pain: an overview. The
+Edwards, T. B., Bostick, R. D., Greene, C. C., Baratta, R.
+lancet, 353(9164), 1607-1609.doi: 10.1016/S0140-
+V., & Drez, D. (2002). Interobserver and intraobserver
+6736(99)01311-2
+reliability of the measurement of shoulder internal
+McDonald, J. D. (2008). Measuring personality constructs:
+rotation by vertebral level. Journal of shoulder and
+The advantages and disadvantages of self-reports,
+elbow surgery, 11(1), 40-42. doi:
+informant reports and behavioural
+10.1067/mse.2002.119853
+assessments. Enquire, 1(1), 1-19.
+Feeny, D. H., Eckstrom, E., Whitlock, E. P., & Perdue, L.
+Melzack, R., & Raja, S. N. (2005). The McGill pain
+A. (2013). A primer for systematic reviewers on the
+questionnaire: from description to measurement. The
+measurement of functional status and health-related
+Journal of the American Society of Anesthesiologists,
+quality of life in older adults.
+103(1), 199-202.doi: 10.1097/00000542-200507000-
+Ferreira-Valente, M. A., Pais-Ribeiro, J. L., & Jensen, M.
+00028
+P. (2011). Validity of four pain intensity rating scales.
+Merluzzi, T. V., & Martinez Sanchez, M. A. (1997).
+Pain®, 152(10), 2399-2404. doi:
+Assessment of self-efficacy and coping with cancer:
+10.1016/j.pain.2011.07.005
+development and validation of the cancer behavior
+Fischbach, F. T., & Dunning, M. B. (2009). A manual of
+inventory. Health Psychology, 16(2), 163. doi:
+laboratory and diagnostic tests: Lippincott Williams &
+10.1037/0278-6133.16.2.163
+Wilkins.
+75
+: GUHES 2023; 5(2): 68-76
+Michener, L. A. (2011). Patient-and clinician-rated Washburn, R. A., Smith, K. W., Jette, A. M., & Janney, C.
+outcome measures for clinical decision making in A. (1993). The Physical Activity Scale for the Elderly
+rehabilitation. Journal of Sport Rehabilitation, 20(1), (PASE): development and evaluation. Journal of
+37-45. doi: 10.1123/jsr.20.1.37 clinical epidemiology, 46(2), 153-162. doi:
+Mokkink, L. B., Terwee, C. B., Patrick, D. L., Alonso, J., 10.1016/0895-4356(93)90053-4
+Stratford, P. W., Knol, D. L., . . . de Vet, H. C. (2010). Wyrwich, K. W., & Wolinsky, F. D. (2000). Identifying
+The COSMIN study reached international consensus on meaningful intra‐individual change standards for
+taxonomy, terminology, and definitions of measurement health‐related quality of life measures. Journal of
+properties for health-related patient-reported outcomes. evaluation in clinical practice, 6(1), 39-49. doi:
+Journal of clinical epidemiology, 63(7), 737-745. doi: 10.1046/j.1365-2753.2000.00238.x
+10.1016/j.jclinepi.2010.02.006 Zheng, H., Li, W., Harrold, L., Ayers, D. C., & Franklin, P.
+Mollaoğlu, M., Durna, Z., & Bolayir, E. (2015). Validity D. (2014). Web-based comparative patient-reported
+and reliability of the quality of life in epilepsy inventory outcome feedback to support quality improvement and
+(QOLIE-31) for Turkey. Nöro Psikiyatri Arşivi, 52(3), comparative effectiveness research in total joint
+289. doi: 10.5152/npa.2015.8727 replacement. EGEMs, 2(1). doi: 10.13063/2327-
+Najafov, E., Özal, Ş., Kaptan, A. Y., Ulucaköy, C., Kanatlı, 9214.1130
+U., Ataoğlu, B., & Başar, S. (2020). Validity and
+reliability of the Turkish version of LHB score. Journal
+of Sport Rehabilitation, 30(1), 30-36. doi:
+10.1123/jsr.2019-0364
+Nelson, E. C., Eftimovska, E., Lind, C., Hager, A., Wasson,
+J. H., & Lindblad, S. (2015). Patient reported outcome
+measures in practice. Bmj, 350. doi: 10.1136/bmj.g7818
+Özal, Ş., Güzel, N. A., Kaptan, A. Y., Eren, T. K., & Kafa,
+N. (2021). Validity and Reliability of the Turkish
+Version of Western Ontario Osteoarthritis of the
+Shoulder Index. Joint diseases and related surgery,
+32(2), 497. doi: 10.52312/jdrs.2021.141
+Paulhus, D. L., & Vazire, S. (2007). The self-report method.
+Handbook of research methods in personality
+psychology, 1(1), 224-239 ISBN 9781606236123.
+Powers III, J. H., Patrick, D. L., Walton, M. K., Marquis,
+P., Cano, S., Hobart, J., . . . Molsen, E. (2017). Clinician-
+reported outcome assessments of treatment benefit:
+report of the ISPOR clinical outcome assessment
+emerging good practices task force. Value in health,
+20(1), 2-14. doi: 10.1016/j.jval.2016.11.005
+Roach, K. E., Budiman‐Mak, E., Songsiridej, N., &
+Lertratanakul, Y. (1991). Development of a shoulder
+pain and disability index. Arthritis & Rheumatism:
+Official Journal of the American College of
+Rheumatology, 4(4), 143-149. doi:
+10.1002/art.1790040403
+Snyder, A. R., Valovich McLeod, T. C., & Sauers, E. L.
+(2007). Defining, valuing, and teaching clinical
+outcomes assessment in professional and post-
+professional athletic training education programs.
+Athletic Training Education Journal, 2(2), 31-41.doi:
+10.4085/1947-380X-2.2.31
+Vagias, W. M. (2006). Likert-type scale response anchors.
+Clemson International Institute for Tourism & Research
+Development, Department of Parks, Recreation and
+Tourism Management. Clemson University. doi:
+10.13140/RG.2.2.21022.82243
+Van de Water, A., Davidson, M., Shields, N., Evans, M. C.,
+& Taylor, N. F. (2016). The Shoulder Function Index
+(SFInX): evaluation of its measurement properties in
+people recovering from a proximal humeral fracture.
+BMC musculoskeletal disorders, 17(1), 1-12. doi:
+10.1186/s12891-016-1138-0
+76

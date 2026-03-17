@@ -1,0 +1,2329 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Dateofpublicationxxxx00,0000,dateofcurrentversionxxxx00,0000.
+DigitalObjectIdentifier10.1109/ACCESS.2024.DOI
+A Survey of Wearable Sensors and
+Machine Learning Algorithms for
+Automated Stroke Rehabilitation
+NANDINISENGUPTA1,ARAVINDAS.RAO1,(SeniorMember,IEEE),BERNARDYAN2,AND
+MARIMUTHUPALANISWAMI.1,(Fellow,IEEE)
+1DepartmentofElectricalandElectronicEngineering,TheUniversityofMelbourne,Parkville,Victoria—3010,Australia(e-mail:
+nsengupta@student.unimelb.edu.au,aravinda.rao@unimelb.edu.au,palani@unimelb.edu.au)
+2TheRoyalMelbourneHospital,Parkville,Victoria—3052,Australia(e-mail:bernard.yan@mh.org.au)
+Correspondingauthor:NandiniSengupta(e-mail:nsengupta@student.unimelb.edu.au).
+ThisresearchwassupportedpartiallybytheAustralianGovernmentthroughtheAustralianResearchCouncil’sDiscoveryProjectsfunding
+scheme(projectDP190101248).TheviewsexpressedhereinarethoseoftheauthorsandarenotnecessarilythoseoftheAustralian
+GovernmentorAustralianResearchCouncil.
+ABSTRACT Stroke is one of the leading causes of disability among the elderly population and is a
+significant public health problem worldwide. The main impact of stroke is functional disabilities due to
+motorimpairmentafterstroke.Advancesinmodernmedicineandtechnologyhavesignificantlyimproved
+diagnosis and treatment; however, most post-stroke care is based on the effectiveness of rehabilitation.
+Stroke rehabilitation depends on two main components: (i) training (or therapy) to restore the patient
+to pre-stroke mobility and (ii) assessing motor functionality of affected patients performing activities to
+trackmotorrecovery.Thisarticlehighlightshowcombiningwearabledevicesandmachinelearning(ML)
+produces new pathways for effective stroke rehabilitation. While wearable devices help capture patient
+movements at much finer time resolutions, ML allows us to build predictive models from wearable data
+toassistcliniciansindiagnosisandtreatments.Specifically,weexpandonhowwearabledevicesandML
+can improve monitoring quality in training intervention, assessment, and remote monitoring. In addition,
+we provide our main findings fromthe literature, research challenges, and future directions in post-stroke
+therapiesusingwearabledevicesandML.
+INDEXTERMS Strokerehabilitation,wearabledevices,machinelearning,interventions,remotemonitor-
+ing.
+I. INTRODUCTION monitor stroke patients’ daily activities and exercise sched-
+STROKE is the second leading cause of death, and 17 ules in the absence of a physician to monitor progression
+regularly. Wearable devices will enable us to collect patient
+million people worldwide suffer from stroke each year
+data continuously, which would otherwise lead to missed
+[1]. Stroke can have devastating effects, including death or
+opportunities for diagnosis and treatment. Combining ML
+severedisability,whichcancausesocialandfamilyburdens.
+with wearable devices will improve the remote monitoring
+Eventhoughthemajorityofthevictimsareolderadults,the
+of stroke patients. Figure 1 provides an overview of stroke
+number of people 60 years of age or older is projected to
+monitoringusingwearabledevices,smartphones,cloudcom-
+increase from an estimated 488 million in 1990 to nearly
+puting,andtheInternetofThings.
+1,363 million in 2030 [2]. Since stroke is the leading cause
+ofadultdisabilityintheworldand70–85%ofstrokepatients Toimproveandregainmobilityfollowingstrokes,were-
+have hemiplegia after the first stroke [3], motor recovery is quiretwoprimarycomponents:(i)morepracticeandtraining
+oneofthemostcrucialaspectsforstrokevictims.Wearable (including physiotherapist instruction sessions and personal
+devices,whenpairedwithmachinelearning(ML),enableus practice) and (ii) periodic evaluations (to gauge the impact
+to continuously monitor subjects and ascertain the progres- oftraining).Therefore,monitoringtheperformancetoassess
+sive course towards enhanced motor recovery. It is vital to theprogressremotelyisessentialwhenthepatientisathome
+VOLUME4,2016 1
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+Remote
+Wearable sensors Cloud server monitoring
+Diagnosis
+(CT scan)
+Types of Stroke Surgery Wi-Fi
+1. Ischemic
+2. Hemorrhagic
+Assessment
+3. Others Bluetooth Clinician
+Tablet
+Stroke Hot period (acute stage) Rehabilitation period
+Onset 24 hour after onset
+FIGURE 1: Depicts a visionary diagram of wearable sensor-based remote monitoring of stroke patients’ activity during
+rehabilitation. Whenever a person suffers a stroke, they are rushed to the hospital, and a computed tomography (CT) scan
+isperformedtodeterminethenextcourseofaction,includingthetypeofstroke.Therehabilitationperiodcommences24hours
+aftertheonsetofstroke.Wearablesensor-basedremotemonitoringdetectsmotorrecoverywhenpatientsengageinexercises
+inarehabilitationfacilityorathomewithouttheassistanceofamedicalprofessional.Patientswearawearabledevice(wrist-
+based),andsensorsonboardthedevicerecordtheiractivities.ThedataisthentransferredtoaphoneortabletviaBluetooth.
+TheappwillsenddatatoacloudserverusingWi-Fiorinternet-enableddevices.Thecloudserverallowsclinicianstoretrieve
+andanalyzedatatotrackpatientsremotely.Analertprocesscanbeincorporatediftheclinicianneedstoprovidesomefeedback
+topatients.Theprimaryadvantageofwearabledevicesforremotemonitoringisthattheycancapturefinertimeresolutionsfor
+near-real-timemonitoringanddatavisualization.Integratingthisfunctionality,specificallyfine-timeresolutiondata,withML
+enablesclinicianstoaccessreal-timepredictiveanalytics.
+or practicing exercises alone. It is imperative to conduct toprovideremotehealthcareservices,suchasmedicaladvice
+objective monitoring without any biases or prejudices. No andconsultations,throughsmartphoneswhenpatientscannot
+single measure is capable of predicting all dimensions of visit a healthcare center. mHealth has become essential,
+recoveryanddisability[4],despitetheavailabilityofseveral especially in rural or regional areas with limited access to
+stroke assessment scales to measure functional outcomes at health facilities. With the rise of smartphone applications,
+each level of the World Health Organization International it is now possible for people to download and use easily
+ClassificationofFunctioning,Disability,andHealth(WHO- usable applications to record, monitor, and report different
+ICF) [5]. For further details about stroke assessment scales, aspects of their health to relatives and health professionals.
+readers are referred to Table 1 (with 17 scales for impair- Smartphones and other health monitoring tools can help
+ment),Table2(with16scalesforactivity),andTable3(with provide information on different health-related parameters,
+eightscalesforparticipationrestrictionclass)oftheincluded such as physical activity, body mass index, heart rate, and
+supplementarymaterial. blood pressure. The apps can be used to promote physical
+A comprehensive overview of the numerous techniques activityandmotivateindividualstoengageinmorephysical
+employed in stroke therapy for motor recovery is depicted activity[7]–[12].
+inFigure2.AsshowninFigure2,wenotethattrainingand Furthermore, the data from these apps can be shared
+monitoring (i.e.motor evaluation) are crucial components of with clinicians to monitor the condition for consultation
+motorrecovery.Inadditiontoconventionalphysicaltherapy andtreatment.AmbientIntelligence(AmI)isanotherrelated
+(manual),sixwidelyutilizedrehabilitationtrainingprograms technology that uses sensors and artificial intelligence to
+are presented in Figure 2. Either in-person or remote eval- createanenvironmentthatcanrespondtoneeds,forexample,
+uations can be employed to evaluate motor recovery. The byadjustingtheairconditioningaccordingtothetemperature
+physicaltherapistconductsamanualevaluation;however,it [13,14].However,itcanbechallengingtomonitorstrokepa-
+is also feasible to perform it remotely using an inexpensive tientswithsmartphonesbecauseofhealthconditions.Hence,
+wearablesensor. portabledevices,suchastheformfactorofawristwatch,are
+Mobile health (mHealth) technology [6] uses smartphone moreappealingtoobservingstrokesubjects.
+processingpowerandmobilitytoprovideandsupporthealth- Wearable devices coupled with ML will significantly aid
+caresolutions.Theutilizationofcurrentcellphonetechnol- inassessingpatients’motorrecoverystatusbyautomatically
+ogy and applications enables patients to access their health collectingcontinuousdataobjectivelyandinferringprogress
+status by interacting with healthcare providers at any time conditions.Patientscanwearwearabledevicestogatherdata
+andlocation.TheprimaryadvantageofmHealthisitsability relating to their health, and the sensors on such devices
+2 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+Stroke Rehabilitation
+Training/Therapy Monitoring
+Constrained Functional Bio-feedback Motor imagery Robotic Virtual Reality Manual Remote
+induced Electrical Therapy
+movement therapy Stimulation
+(CIMT) (FES)
+Original CIMT Single Neuro Mirror Therapy End-effector Fully- Physiotherapist Wearable
+Modified CIMT channel EMG Graded Motor robots immersive Devices
+Forced use Dual- Visual Imagery Exoskeleton Semi-
+channel robots immersive
+Therapy
+Audio
+Multi- Non-
+channel Audiovisual immersive
+Tactile
+FIGURE2:Showstheoverviewofdifferentmethodsusedinstrokerehabilitationformotorrecovery.Twomaincomponents
+ofstrokerehabilitationformotorrecoveryaretrainingandmotorassessment.Intraining,sixcommonrehabilitationtraining
+schemes are shown in addition to conventional physical therapy. Manual or remote assessments can be performed to assess
+motorrecovery.Aphysicaltherapistperformsamanualevaluation,andremoteevaluationcanbeperformedusingalow-cost
+wearablesensor.Thisarticlewillfocusontheuseofwearabledevicesforstrokerehabilitation.
+I Introduction III Machine Learning in Data Analysis V Open Research Challenges
+• Data types and Future Directions
+II Wearable Sensors in Stroke • Machine Learning types • Training interventions
+Rehabilitation • Pre-processing • Remote monitoring
+• Need for wearable sensors • Feature engineering • Continuous assessment
+• Advantages of wearable sensors • Classification Models • Selection and placement of
+• Monitoring motor recovery • Traditional models sensors
+• Obtaining clinical equivalent • Deep Learning models • Signal quality and noise
+assessment scores • Model training • Time series data modeling and
+• Measuring the amount of activity • Model evaluation analysis
+• Model deployment • Accelerating ML workloads
+Sensors • Qualitative and quantitative effect on • Data and ML models
+• Inertial sensors the ML pipeline • Neuromorphic edge computing
+• Accelerometer
+• Generative modeling
+• Gyroscope IV Existing Approaches
+• Data security and privacy
+• Magnetometer • Identification of ADL
+• Goniometer • Estimating clinical scores
+VI Key Findings
+• Tilt Sensors • Monitoring exercises
+• Summaryofmain findings
+• Pressure sensors • Recognizing postures
+• Pedometers • Recognizing gestures
+VI Conclusion
+• Electromyography • Deep learning methods
+FIGURE3:Thefigureshowsthisarticle’sdifferentsectionsandoutlines.
+will monitor various activities. While wearable devices can motorrecoveryduringrehabilitation.Specifically,themeth-
+capture movements at finer time resolutions, signal pro- ods by which they can enhance the quality of monitoring
+cessing helps us analyze wearable data, and ML helps us in training intervention, assessment, and remote monitoring
+build models to help clinicians diagnose and treat diseases. (as outlined in Section V). Figure 3 provides a summary of
+Therefore,wearabledevicesandMLpresentasuitablemeans the main sections of this article. Our review differs from a
+of remotely analyzing the wearable data of stroke patients recent review paper [15] in examining the advantages and
+and obtaining details on their motor recovery status. This limitationsofvariouswearablesensorsextensivelyutilizedin
+approach enables the creation of a continuous record of strokerehabilitation.Furthermore,weprovideopenresearch
+movementsandadiaryfortheresultingassessments. challenges and prospective directions in diverse aspects of
+Inthisarticle,weconcentrateonvariouswearabledevices strokerehabilitationresearch,whichareabsentin[15].
+andmachine-learningtechniquestomonitorstrokepatients’ Therefore,thisreviewaimstohelp:
+VOLUME4,2016 3
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+• determine the type of remote monitoring that is most is possible to convert the data later into another index
+relevantandobjective representing the patient’s status, similar to the assess-
+• determine which sensors are most relevant and best ment score. The newly released index is transmitted
+suitedtospecificproblems to the healthcare professional via either an Internet
+• identify deficiencies in the current techniques and ap- web application or a smartphone application, enabling
+proaches the healthcare professional to guide patients residing
+• compare the results of various ML models to pick the in remote locations. For instance, in a hospital setting,
+mosteffectiveMLalgorithms equivalent National Institutes of Health Stroke Scale
+• suggest deep learning models suitable for real-time (NIHSS) scores were calculated using accelerometer
+outcomes by considering cost, power, time, and model sensors to assess motor recovery during the initial 24
+complexityrequirements. hoursfollowingastroke[18].
+2) Measuring the amount of activity carried out by
+II. WEARABLESENSORSINSTROKEREHABILITATION the affected part. The total amount of exercise the
+Thissectionoutlinesthesignificanceofwearablesensorsin affected body part performs is determined by wearable
+strokerehabilitation,theirmethodologies,themonitoringof sensordata.Differentmovementmetricsarecalculated,
+motor recovery progress, and the diverse types of sensors such as the complete linear or angular movement, the
+utilizedinwearabledevices. distance covered, and the amount of daily use of the
+affected body part [19, 20]. For instance, a radial basis
+function (RBF) was employed to correlate differential
+A. NEEDFORWEARABLESENSORS
+magnetometer readings from a “manumeter” to wrist
+Duringrehabilitation,differenttherapeuticexercisesarerec-
+and finger joint angles [19]. These techniques are not
+ommended for patients, who are asked to try some daily
+only cost-effective and remotely accessible (i.e., time-
+activities(motortasks).Inhospitalrehabilitation,healthcare
+efficient)butalsoprovideobjectivemethodstomeasure
+professionals evaluate patients’ motor abilities and provide
+bodymovementsandcalculatescores.
+scoresbasedonassessmentscales.Thisevaluationprocedure
+isconductedregularlyatcrucialintervals.Nonetheless,these
+assessment scales possess limited predictive capability [4]. D. SENSORS
+Since this periodic monitoring is not continuous, we do
+Table 1 depicts wearable sensors commonly used in health-
+not receive an accurate estimate of motor activity progress,
+careapplications,capabilities,andlimitations.Itpresentsthe
+leadingtomissedopportunitiesandearlyinterventions.This
+eight sensors widely used with wearable devices, including
+is where wearable sensors play a crucial role in facilitating
+anaccelerometer,gyroscope,magnetometer,goniometer,tilt
+the continuous monitoring of individuals in hospitals, reha-
+sensor, pressure sensor, pedometer, and electromyography
+bilitationfacilities,andhomes.
+(EMG) sensor. Each sensor measures a particular physical
+phenomenon(secondcolumnofTable1),whichmeansitalso
+B. ADVANTAGESOFWEARABLESENSORS has its limitations (third column of Table 1). For instance,
+Instrokerehabilitation,theuseofwearablesensorspresents accelerometers can measure acceleration, but they cannot
+twosignificantadvantages.First,utilizingawearabledevice measureangularvelocity,whichcanbeaccomplishedbyuti-
+equipped with appropriate sensors and algorithms coupled lizing gyroscope sensors. Depending on the problem, many
+withaninternetconnectionenablesthereal-timemonitoring studiesusesinglesensors,whileothersuseacombinationof
+ofsubjects.Second,thesmallformfactorofthesewearable sensors that complement each other to capture the desired
+devicesmakesthemcomfortableforpatientstowearwithout signals. For further details on the use and applications of
+causing discomfort or inconvenience, encouraging them to wearable devices in healthcare applications, we encourage
+participateinrehabilitationexercisesandactivitiesactively. readers to refer to [25]. The following subsections provide
+abriefoverviewofeachsensoranditsprimaryapplicationin
+C. MONITORINGMOTORRECOVERY strokerehabilitation.
+Twoapproachesareusedtomonitormotorrecoverythrough
+wearablesensors:1)obtainingclinicalequivalentassessment 1) InertialMeasurementUnits(IMUs)
+scores by detecting tasks, and 2) measuring the amount of
+Micro-electromechanical systems (MEMS) facilitate the
+activityperformedbytheaffectedpart.
+miniaturization of electrical and mechanical components.
+1) Obtaining clinical equivalent assessment scores by These components are fabricated into integrated circuits
+detectingtasks.Clinicalscoresarecalculatedremotely (ICs) with a form factor ranging from a few micrometers
+(without a clinician) using data recorded on wearable to millimeters [26]. MEMS technology allows for a smaller
+devices [16, 17]. Sensors acquire movement data from form factor while reducing costs and requiring low power.
+theaffectedbodypartswhileexecutingprescribedtasks These characteristics make MEMS-based sensors particu-
+at a rehabilitation facility or home. Using this sensor larly attractive for wearable devices. The three commonly
+data, patterns can be detected for different activities. It usedIMUsare:
+4 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+TABLE 1: List of eight wearable sensors commonly used to detect motor activities in stroke monitoring and rehabilitation,
+alongwiththeirmeasuresandlimitations.
+Sensor Measure Limitations
+Accelerometer Accelerationsordecel- (i)Unabletodifferentiatebetween(i)activeandpassivemovements,and(ii)loadedandunloaded
+erations, velocity, and activities[17].
+displacement
+Gyroscope Angular velocity, rota- Sensor values drift over time. Therefore, additional mechanisms in hardware or software must be
+tion neededtocalibratethesensorsregularly.Driftcorrectionalgorithmsmayalsobeneeded.
+Magnetometer Spatialorientation Ferromagnetic materials can cause distortions in measurements. When a subject is in motion, the
+measurementmaybeaffectedwhenthesubjectisnearaferromagneticmaterial.
+Goniometer Rangeofmotion Thepresenceofafixedhingeimposesafixedcenterofrotationwhenmeasuringthebendinganglein
+somejoints,leadingtoinaccurateresults[21]
+Pressure Forceandpressuredis- Theaccuracyofmeasurementsisdependentonhysteresis,linearity,temperaturesensitivity,pressure
+tribution range,sensordetectionarea,operatingfrequency,creep,andrepeatability[22]
+Pedometer Numberoffootsteps (i)Measuresmotioninonlyoneplane,whichmaynotbesufficientformeasuringstrokerecovery
+progress
+(ii)Inaccurateinmeasuringsedentarybehaviorandmissingdata[23]
+Electromyography Muscleactivity Activationlevelofserratusanteriorduringisometricabductionandflexion,dynamicabductionand
+(EMG) flexion,andbenchpressisnotreliable[24]
+Tilt Angleoftilt (i)Theforce-balancedsensorisexpensive
+(ii)Micro-electromechanicalsystems(MEMS)basedtiltsensorshaveveryhighthermalcoefficients,
+whichcandamagethephysicalasthetemperatureincreases.
+(iii)Thevibrationofsensorstendstocreateerraticorrandomsignals.
+(ivFluid-basedsensorshavelimitedresponsetime,whereasmercury-basedsensorsaretoxic.
+• Accelerometer sensors are used in wearable de- [37]. A wristwatch device and a magnetic ring worn on the
+vices to measure acceleration (the rate of veloc- indexfinger(“manumeter”)areutilizedtocalculatethetotal
+ity change). Accelerometer sensors typically measure angulardistancetraveledbythewristandfingerjoints[19].
+three-dimensional accelerations (x, y, and z) [27] and
+arecapableofmeasuringupto±16g[28]. 2) Goniometer
+• Gyroscope sensors are utilized to measure angular ve- A goniometer is an instrument used to measure a joint’s
+locity, commonly measured in degrees per second or angle(rangeofmotion)andiscommonlyusedinorthopedics
+revolutions per second [27]. Gyroscopes are advan- to measure the angles of the joints [38]. In rehabilitation,
+tageous instruments for determining orientations and wearablegoniometer-equippedsystemsaidinreconstructing
+evaluatingrotationsonthreeaxes. human posture, providing support both in clinics and at
+• Magnetometerisusedtomeasuremagneticfieldsand home[39].Asensingglovewiththreeknittedpiezoresistive
+fluxesintheEarth’smagneticfield[27]. fabric (KPF) goniometers was used to track the flexion and
+Accelerometers are limited to linear accelerations, extensionmovementofthemetacarpophalangealjointofthe
+whereas gyroscopes can measure rotations and orientation. thumb,index,andmiddlefingers[40].
+Therefore, it is possible to combine accelerometers and gy-
+roscopestoobtainacompletepictureofobjectmovementin 3) Tiltsensors
+3Dspace.ThiscombinationiscalledanIMUandhasseveral Tilt sensors, also called inclinometers, measure the angle of
+applications, including stroke monitoring [18] and epilepsy gravity. Compared to goniometers, inclinometers possess a
+monitoring [29]. Adding a magnetometer allows us to es- higher degree of reliability [41], and studies have demon-
+timate the direction, which is helpful in many applications, strated their superiority in detecting intricate movements
+suchasnavigationsystems[30]andsleepmonitoring[31]. [42]. Since inclinometers use gravity, they cannot measure
+IMUs possess significant practicality in evaluating motor anglesinahorizontalplane.
+function in individuals who have undergone strokes. Nu-
+merous researchers have utilized accelerometers in Upper 4) PressureSensors
+Extremity (UE) studies [16, 32]–[34] due to their ability to Pressuresensorsmeasuretheappliedpressureinthesensing
+provide reliable and valid objective measurement and their area, and force resistive sensors (FSRs) are commonly used
+potentpsychometricattributes[35].Forinstance,accelerom- todetectphysicaltension,squeezing,andcontact.Examples
+eters were employed to assess arm usage [33], calculate include detecting gait patterns with FSR sensors embedded
+Functional Ability Scale (FAS) scores from accelerometer in shoes [43], gait abnormalities [44], and monitoring of
+data [16], acquire gait patterns [36], and document Activity dailylifeamongstrokesurvivors[45].AnFSRcanmonitor
+of Daily Living (ADL) [34]. Further, IMUs were used to multiple major muscle groups that govern the movements
+determinethebody’sspecificforceandangularrotationrate of the hand and wrist [46]. It has been demonstrated that a
+VOLUME4,2016 5
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+Pre- Model Model
+processing Training Deployment
+•Sensor •Feature
+Selection Extraction •Metrics
+•Predict
+•Data Acquisition •Data Cleaning •Feature •ML Model •Test model outcomes
+•Data Selection •Train Model
+•Monitor
+Normalization Feature •Validate Model Model outcomes
+Data Engineering Evaluation
+Feedback
+FIGURE4:AnoverallMLpipelinecomprisessixsteps,fromdatacollectiontobuildingmodelstomodeldeployment.Data
+is collected from sensors and equipment, and the first step is capturing electronic health records (EHR). In the next step, the
+data is preprocessed to remove unwanted noise and missing values, then normalized. The third step is feature engineering,
+which comprises feature extraction and selection. The fourth step is building the appropriate ML model, training the model,
+andvalidatingthemodel.Inthefifthstep,themodel’sperformanceismeasuredthroughvariousmetricsusingatestdataset.In
+thefinalstep,themodelisdeployedtoanedgeserver,cloudserver,orwearabledeviceforreal-timepredictions.Themodel’s
+performanceisconstantlymeasured,andthefeedbackisusedtoimprovetheprocessesandthemodel’sperformance.
+combination of FSR and gyroscopes can accurately detect rehabilitationsothatappropriatefeedbackcouldbeprovided
+precisegaitpatterns[47].Furthermore,agaitshoeconsisting topromotehigh-qualityexercises.
+ofanIMU,FSR,andelectricfieldheightsensorswasusedto Until now, we have discussed commonly used sensors in
+quantitatively analyze gait parameters (heel strike and toe- wearabledevices.Thenextsection,providesanoverviewof
+off) between healthy people and patients with Parkinson’s ML steps in stroke rehabilitation, including data types, ML
+disease [48]. In stroke patients, shoe-based accelerometers types,andMLmodels.
+andFSRsensorswereusedtodetecttemporalgaitparameters
+todifferentiatepostureallocationandactivities[49].
+III. MACHINELEARNINGINDATAANALYSIS
+In this section, we discuss various data types used in ML,
+5) Pedometers types of ML, pre-processing steps, feature engineering, ML
+A pedometer is used to measure the number of steps an models, training of the models, evaluation of the models,
+individual takes and to record the vertical acceleration [50]. deployment of the models, and qualitative and quantitative
+Wearable pedometers often use a 3-axis MEMS-based ac- effects of various steps on the outcomes. The overview of
+celerometer to estimate 3D motion patterns and deduce the thesestepsisshowninFigure4.
+numberofsteps[51].Thepedometerisamorevalidmethod
+for measuring ambulatory activity in stroke patients [52]. It A. DATATYPES
+provedadvantageousinobjectivelyassessingthenumberof
+Different methods are used to collect information from pa-
+steps walked during walking and describing the pattern and
+tientstoprovidetheappropriatemedicalattentioninmedical
+intensityofanactivity[53].
+establishments.Sensordataisprimarilyquantitative(numer-
+icaloranaturalnumber).Onthecontrary,thedatagathered
+6) Electromyography(EMG) through electronic health records (EHR) is predominantly
+EMG measures electrical activity in muscles and can detect qualitative (categorical) and typically comprises a digital
+activitiessuchasmovingfingersorclenchingthefist.There patient history form. The EHR is a longitudinal data col-
+areprimarilytwotypes:intramuscularEMG(iEMG)andsur- lected over time. It contains information about age, gender,
+face EMG (sEMG) [54]. Intramuscular EMG is an invasive demographics, problem history, immunizations, physician’s
+technique in which needles are inserted through the skin to observations,reports,andlaboratoryresults.Itisalsoknown
+measure electrical signals. On the other hand, sEMG is a as electronic medical records (EMR) and computer-based
+non-invasivetechniquethatmeasureselectricalsignalsfrom patient records (CPR) [56, 57]. Figure 5 shows a graph
+theskin’ssurface.Duetothenon-invasivenessofsEMG,itis depicting the data collection in the medical field is divided
+commonlyusedinwearablesystems[55].Theaccelerometer intofourdifferentcategories:discrete,continuous,nominal,
+andsEMGsensorswerecombinedtomonitorADL[17]and andordinal.Thenumerical(quantitative)dataiscategorized
+provide feedback during ADL [32]. Additionally, they were into discrete (such as the number of hospital visits) and
+used to assess the quality of motor performance in home continuous(suchastheweightofpatients).Onthecontrary,
+6 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+Data
+(variable)
+Numerical Categorical
+(quantitative) (qualitative)
+Discrete Continuous Nominal Ordinal
+(whole numerical (Ordered, mutually
+value, counts, (a range of numerical (Unordered, mutually exclusive
+e.g., number of values, exclusive e.g., cancer stages
+hospital visits) e.g., patients’ weight) e.g., male,female) [I, II, III, IV] )
+FIGURE 5: The figure illustrates how data collected in the medical domain can be classified into four types: discrete,
+continuous,nominal,andordinal.Thenumerical(quantitative)dataiscategorizedintodiscrete(suchasthenumberofhospital
+visits)andcontinuous(suchastheweightofpatients).Ontheotherhand,categorical(qualitative)datacanbepartitionedinto
+nominal(unordereddata,suchasmaleorfemale)andordinal(ordereddata,suchasthecancerstages[I–IV]).
+categorical (qualitative) data can be classified into nominal algorithms [61] include linear, non-linear, Bayesian,
+(unordereddata,suchasmaleorfemale)andordinal(ordered polynomialregression,ensemblemethods,andNN.
+data, such as cancer stages [I–IV])). These data types are Supervisedlearningisbeneficialforlearningfromdata
+crucial in defining ML problems and creating appropriate and making predictions. For example, data collected
+models. from wearable devices during stroke rehabilitation can
+beusedtobuildapersonalizedMLmodelforindividu-
+alsandsubsequentlyusethesemodelstotrackandpre-
+B. MACHINELEARNINGTYPES
+dictthequalityofexercisesduringremotemonitoring.
+ML is a field of artificial intelligence (AI) concerned with
+performing tasks by learning patterns from the dataset and 2) In unsupervised learning, we do not have specific
+generalizingwithoutbeingspecificallyprogrammed.Inother labels,i.e.,thedatasetwillbeacollectionofunlabeled
+words, ML algorithms try to automate tasks by improving examples {(x i )}N i . The goal here is to build a model
+the learning process without human participation. There are that transforms the input data (or a feature vector) into
+four types of ML: (i) supervised learning, (ii) unsupervised another vector or value such that it helps to solve the
+learning, (iii) semi-supervised learning, and (iv) reinforce- problem at hand. For example, in clustering problems,
+mentlearning.Figure6showsthefourtypesofML.Below, unsupervised learning can be used to find clusters in
+webrieflydescribethefourtypesofMLparadigms[58]: the data so that it helps to make decisions. Another
+application of unsupervised learning is to find associ-
+1) Insupervisedlearning,theMLalgorithmispresented
+ations between variables in large databases. Examples
+with a dataset whose input (feature vector) and the
+ofunsupervisedalgorithmsincludeK-means[63],fuzzy
+desired output (label) are explicitly provided. The al-
+c-means [64], hierarchical [65], Density-based spatial
+gorithm learns to map the input to the output by learn-
+clustering of applications with noise (DBSCAN) [66],
+ing the hidden patterns. Suppose we have N labeled
+GaussianMixtureModel(GMM)[67],PrincipalCom-
+examples: {(x ,y )}N, where x is a vector input and
+i i i i ponentAnalysis(PCA)[68],andNN.
+y is a (scalar) output. The label y can be a real
+i i Unsupervised learning is advantageous when we do
+number (regression problem) or a finite set of classes
+not have the labels for the data and want to explore
+{0,1,2,...,C} (classification problem). Then, the su-
+the data for hidden patterns. For example, data from
+pervisedlearningalgorithmusesthedatasettogenerate
+wearable devices without labels can be extracted and
+amodelthattakesxasinputanddeliversoutputlabels
+clusteredaccordingtostrokeseveritylevelandexercises
+(y). The desired output is also called target variable.
+duringrehabilitation,establishingconnectionsbetween
+Examples of supervised classification algorithms in-
+subjectsandexercises.
+clude Support Vector Machine (SVM) [59], k-nearest
+neighbors(kNN)[60],NaiveBayes[61],decisiontrees 3) In semi-supervised learning [69], the dataset contains
+(DT) [61], random forest (RF) [61], and neural net- both labeled and unlabeled examples. Ordinarily, the
+works (NN) [62]. Examples of supervised regression number of unlabeled examples will be much higher
+VOLUME4,2016 7
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+Machine
+Learning
+Types
+Supervised Unsupervised Semi-supervised Reinforcement
+Learning Learning Learning Learning
+Categorical Numerical Target Variable Categorical Categorical Target Variable
+Target Variable Target Variable Unavailable Target Variable Target Variable Unavailable
+Classification Regression Clustering Association Classification Clustering Classification Control
+FIGURE6:ThefigureillustratesthefourtypesofML:(i)supervisedlearning,(ii)unsupervisedlearning,(iii)semi-supervised
+learning,and(iv)reinforcementlearning.Dependingonthetargetvariable,thesupervisedlearningcanbefurthercategorized
+intoclassification(categorical)andregression(numerical,realnumber).Inthecaseofunsupervisedlearning,thetargetvariable
+isunavailable.However,wecanperformclusteringandassociation-typeproblems.Inthecaseofsemi-supervisedlearning,it
+primarilyhandlescategoricaltargetvariables,whichcanbegroupedintoclassificationandclusteringproblems.Reinforcement
+learningdealswithcategoricaltargetvariablestomanageclassificationproblems.Whenthetargetvariableisunavailable,the
+problemsusuallyfallintothecategoryofcontrol(e.g.,self-drivingcars)
+.
+than labeled examples. The objective here is similar longer term. For example, robots can learn to interact
+to supervised learning, i.e., to produce a model that with stroke victims to help improve motor recovery
+learnsnotonlyfromthelabeledexamplesbutalsouses in the stroke rehabilitation process. Examples of RL
+unlabeled examples. The idea here is that the unla- algorithms include Trust Region Policy Optimization
+beledexamplesaddmoreuncertainty,andthishelpsto (TRPO)[73],ProximalPolicyOptimization(PPO)[74],
+generate better models. Examples of semi-supervised Q-learning [75], and Deep Q Neural Network (DQN)
+learning algorithms include Expectation-Maximization [76].
+[70]andsemi-supervisedGMM[71].
+Semi-supervised learning becomes extremely useful C. PRE-PROCESSING
+whenwehavelimitedlabeleddata.Forexample,time-
+This subsection provides a brief overview of the steps in-
+series data from stroke rehabilitation exercise sessions
+volved in the ML approach to data analysis. Once sensor
+may consist of data of a few minutes for each exercise
+data is collected, the next step is to separate activity types
+for each subject. In such a scenario, semi-supervised
+and provide a comparative index equivalent to a clinical
+learning can be used to train a supervised learning
+score. As shown in Figure 4, pre-processing steps are per-
+model from the unlabeled data by exploring temporal
+formed depending on the acquired data (after collecting the
+associationsbetweenexercisesandsegmentsofdata.
+data). The data may consist of noise and artifacts. Typical
+4) In reinforcement learning [72], an agent (ML algo- pre-processing efforts include centering and scaling (zero
+rithm) interacts with an environment and is capable of mean with unit standard deviation), removing outliers, and
+comprehendingthestateoftheenvironment.Theagent handling missing values [77]. The condition of the data
+canexecuteactionsinallstates.Differentactionsbring determineswhetherthesestepsarerequired.
+differentrewards,andtheagentcanmovetoadifferent
+environment.Apolicyisafunctionthatacceptsastate’s D. FEATUREENGINEERING
+feature vector as input and produces the best course of A feature (also known as a predictor) compactly represents
+action to take while in that state, much like the model thesensordataandrevealsitsdistinguishingcharacteristics.
+insupervisedlearning.ThegoaloftheRListolearna Thefundamentalstepsinfeatureengineeringconsistoffea-
+policy,whichisoptimalifacourseofactionmaximizes tureextractionandfeatureselection.
+theexpectedaveragereward. Feature extraction transforms the input data (feature vec-
+Reinforcementlearningisbeneficialwhenthedecision- tor) into a different feature space for better model perfor-
+making is sequential to solve the problem over the mance. Feature extraction requires a solid understanding of
+8 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+the problem, domain knowledge, and related aspects of the engineering.Furthermore,proceduressuchasdimensionre-
+problem.Often,newfeaturesarecreatedfromexistingones ductionmaybeappliedforspecificproblems,whichrequire
+to improve ML model performance. The features extracted projecting the data into a lower-dimensional space (using
+from the sensor data can be primarily classified into five PCA)andreducingthecorrelationamongfeatures.
+groups(ordomains):(1)timedomain,(2)frequencydomain,
+(3) statistical features, (4) morphological features, and (5) E. CLASSIFICATIONMODELS
+data-specificfeatures. Theliteratureshowsthatmostmachine-learningmodelsde-
+1) Time domain features encompass the characteristics veloped using wearable sensors in stroke rehabilitation tend
+extracted directly from the time series data (either raw to address classification problems. In this article, we have
+or preprocessed), capturing the temporal patterns and identified five application areas concerning stroke rehabili-
+dynamics without transforming them into alternative tation. They are (i) identifying ADL, (ii) estimating clinical
+domains. scores, (iii) monitoring exercises, (iv) recognizing postures,
+2) Frequencydomainfeaturesareobtainedbytransform- and(v)recognizinggestures.Theseapproachesarereviewed
+ingtimeseriesdataintothefrequencydomain,revealing inSectionIV.Theseapplicationareasusevariousdatatypes,
+informationaboutthedistributionoffrequencycompo- but most target categorical outputs. Therefore, we focus on
+nentsandtheircorrespondingmagnitudes. classificationmodelsinthisarticle.
+3) Statistical features provide the quantitative measures Classificationmodelsaremathematicalmodelsdesigned
+calculatedfromvaluableinsightsintodatadistribution, to make decisions on a new observation (e.g., sensor data)
+itscentraltendency,andvariability. andcategorizetheoutcomebasedonthelearnedfeaturesof
+4) Morphological features capture the shape and struc- thecollecteddata.Forexample,classifierscanhelpclinicians
+tural information of data, focusing on the time series’ makeaninformeddecisiononwhetherthepatientisrecover-
+patterns,trends,orstructuralcharacteristics. ingordeterioratingaftertreatmentbyusingwearabledevices
+5) Data-specificfeaturesarepatternsextractedfromspe- [18]. The selection of models depends mainly on the type
+cific datasets, tailored to the characteristics of that par- of feature, the complexity of the task, and the sample size.
+ticular dataset, rather than being generalized for all Afterthemodelistrainedusingtrainingdata,itisevaluated,
+datasets. For example, a velocity sequence can be ex- validated, and calibrated before deployment to predict new
+tractedasadata-specificfeatureinaccelerometersensor testdata.
+In this subsection, we provide a high-level description of
+data.
+the most commonly used traditional classifier models (k-
+On the other hand, feature selection deals with selecting
+nearest neighbors, SVM, RF, and k-means algorithms) and
+the best k features to improve the model’s performance and
+the most recent deep learning models (convolutional neu-
+helpwiththemodels’interpretability[61].Featureselection
+ral network, recurrent neural networks, transformers). The
+(also known as subset selection) helps reduce redundancy
+reader is encouraged to follow the relevant references for
+of features and time complexity [61]. There are three main
+moredetailedexplanations.
+approaches to feature selection [78]: (1) filter methods, (2)
+wrappermethods,and(3)embeddedmethods.
+a: TraditionalModels:
+1) Filtermethodsusevariousstatisticalteststodetermine
+Mostmodelsinthiscategoryrequireasetofselectedfeatures
+their correlation with the classes and then rank these
+to be used as input to build classification models. The pre-
+features. Some frequently used statistical tests include
+vioussubsectionIII-Dpresentedabriefoverviewoffeature
+the X2 test, Fisher’s exact test, the Euclidean distance,
+extraction,wherefeaturesarehand-crafted.Thehand-crafted
+Pearson’scorrelation,informationgain,andothers.
+features may or may not be good, as this is subjective.
+2) Wrapper methods select features by eliminating fea-
+Therefore,theclassificationperformancemaysuffer.
+tures that do not contribute (unimportant or less sig- K-nearest neighbors (K-NN) is a supervised algorithm
+nificant) by using the performance (typically of clas- used for classification. Suppose that we have a set of data
+sification algorithms). As a result, wrapper methods points (x ,y ),(x ,y ),...,(x ,y ), where x is the data
+1 1 2 2 n n i
+depend on classification algorithms to select the best value and y are the class labels. The k−NN algorithm
+i
+features. Some algorithms include sequential forward classifies a new data point x into one of the y classes
+j i
+andbackwardselectionandgeneticalgorithms. using a distance metric that minimizes the distance to one
+3) Embedded methods select features by dynamically of the existing data points x . Distance metrics can include
+i
+adjustingtheweightsgiventoeachpartduringtraining, Euclidean, City Block, Manhattan, and others [61]. The
+and this mechanism is built into the classifier. Some parameter k determines the number of neighbors it looks
+techniques include tree-based classification (e.g., deci- for while deciding the label for the new data point. It uses
+sion trees, random forests) and regularization models majorityvotingtomakethefinalclasslabelforthisnewdata
+(ridge regression, most minor absolute shrinkage, and point.Forexample,withk = 5,thealgorithmlooksforthe
+selectionoperator). fiveclosestdatapointsofx andassignsthelabelsbasedon
+j
+Both feature extraction and selection are part of feature most of the labels y of these 5 data points. It is one of the
+i
+VOLUME4,2016 9
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+simplest supervised learning algorithms. It performs faster K-means [67] is a clustering algorithm that assigns one
+than other models as it has no sophistication (i.e., explicit of the k labels to unlabeled data points in the dataset.
+trainingstep)toclassifyanewdatapoint. Suppose we have a dataset consisting of N observations:
+SupportVectorMachine(SVM)isasupervisedlearning {x ,x ,x ,...,x }, where x is a d-dimensional vector.
+1 2 3 N
+algorithm for binary and multi-class classification. The idea Then,ourgoalistopartitionthedatasetintokclusters.This
+behindtheSVMistofindthehyperplanesothedistancefrom isprimarilyusedinexploratorydataanalysis.Weencourage
+theclosestpoints(thatbelongtotwoclassesinthebinary)to thereaderstoreferto[67]forfurtherdetails.
+thehyperplaneismaximizedandisgivenby[79]
+b: NeuralNetworksandDeepLearning:
+n
+min 1 ∥ω∥2+ C (cid:88) l(ξk), (1) In contrast to traditional classification models that employ
+ω,b,ξ 2 n manually designed features, modern deep learning models
+i=1
+use artificial neural networks (ANN) to automatically learn
+subjectto
+effectiverepresentations(attributes)hiddendeepinthedata.
+In addition, as the dataset grows, it becomes increasingly
+y (ω·x +b)≥1−ξ ,∀ i∈1,...,n, (2)
+i i i
+challengingtoidentifygoodfeaturesfromcomplexdatasets
+where x is a feature vector, n is the number of feature usinghandcraftedfeatures.Therefore,deeplearningmodels
+i
+vectors, b is the bias term, ω is the weight vector, C is a tendtohaveabettergeneralizationpower(betterpredictions
+positive regularization constant and ξ is the slack term. The for unseen samples) than traditional classification models,
+points close to the decision boundary are called support leadingtothewidespreadadoptionofalgorithmsintherecent
+vectors.Incaseswherethedataisnotlinearlyseparableusing past. Neural networks, the fundamental building block of
+the hyperplane, the kernel techniques allow for class sepa- deeplearningmodels,beganinthe1950swiththecreationof
+ration by projecting the data points into a high-dimensional theperceptron[84].Inthe1980sand1990s,manytechniques
+space. SVM can be trained with kernels, including linear, were invented, such as the backpropagation algorithm [85],
+polynomial, radial basis function (RBF), and Sigmoid [80]. which is the powerhouse of modern deep learning algo-
+The RBF kernel is often used, as it allows the points to be rithms;however,theybecamemoreprominentafterthe2012
+separatedintodifferentclassesandisgivenby[79] researchworkbyKrizhevskyetal.[86],especiallywiththe
+availabilityoflargedatasetsandcomputingfacilities.
+(cid:13) (cid:13)2
+(cid:32) (cid:13)x−x′(cid:13) (cid:33) ANNs use artificial neurons (modeled like biological
+(cid:13) (cid:13)
+neurons)tocreateanartificialbrain-likestructurewithlinks
+−
+2σ2
+K(x,x′)=e , (3) betweenartificialneurons,representingsynapsesinthephys-
+ical brain. Artificial neurons are often organized as layers
+whereK(·,·)istheRBFkernel,xandx′arefeaturesamples with connections between them. ANNs are also called as
+in the input space and a free parameter σ. The grid search neural networks (NN) in short. We provide our data (to
+optimization algorithm [81] provides the optimal positive be modeled) to the first layer (or the input layer) and the
+regularization constant C and the kernel parameter σ. SVM expected output to the last layer (the output layer). We then
+can handle high-dimensional data and is very effective in usethebackpropagationalgorithmandvariousmathematical
+cases where the number of predictors exceeds the observa- optimization techniques to learn the weights (of the links
+tions.SVMisprimarilyusedforclassificationproblems,and between artificial neurons) so that the difference between
+thebinaryclassificationcanbeextendedtomulti-classclas- the expected output and the predicted output by the NN is
+sification problems. However, a variant of SVM called the minimized. The crucial part of these deep learning models
+SupportVectorRegression(SVR)canbeusedforregression is learning the proper weights, and the optimization algo-
+problems. rithms adjust these weights through various mathematical
+Random Forest (RF) is a supervised learning algorithm procedures. ANNs can be used both for classification and
+that combines a collection of tree-structured classifiers to regressionproblems.Werecommendthereadersreferto[62,
+classify a new data point [82]. Predictor trees are created 87]formoreinformation.
+by randomly sampling data points with replacements from ConvolutionNeuralNetwork(CNN)isaclassofANN,
+the training dataset (also referred to as Bootstrap Aggrega- andthename“convolution”isduetoamathematicalconvo-
+tion or Bagging). The decisions of each tree are aggregated lution operation. NNs implement convolution layers, which
+(majority vote) for the new data point, that is, the predicted are a series of convolution filters. CNNs are widely used
+class [61]. Bootstrap Aggregation helps to reduce variance in image processing, natural language processing, and time
+by building uncorrelated trees by selecting random samples series data [87]. CNNs are robust to noise, extract deep
+and then splitting them into binary trees. There are several features, and are equivariant (i.e., they provide the correct
+hyperparameters, such as the depth of the tree, the number output corresponding to changing input in time-series data,
+of leaf nodes, and many others. RF can be used both for independent of time). Although the CNNs were primarily
+classification and regression problems. We urge the readers made for non-sequential data, they sometimes perform well
+toreferto[61,83]formoredetails. on specific applications. This makes CNN very useful for
+10 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+timeseriesclassification.Forexample,CNNshavebeenused Adadelta,RMSprop,Adam,AdamW,andotherstolearnthe
+in activity recognition [88], detection of atrial fibrillation weightsandbiasesindeeplearningmodels[97].
+fromelectrocardiography(ECG)signals[89],strokerehabil- Thetrainingprocessmayalsoincludedividingthetrainset
+itation[90,91],andmanyothers. intobatchessothatextensivedataisdividedintobatchesto
+Recurrent Neural Network (RNN) is another class of trainthemodel.Anepochreferstotheprocessinwhichthe
+ANN where they are explicitly geared to handle sequential model has used all the training data, and an iteration refers
+input (such as text, audio, and video). RNNs incorporate to the number of batches in an epoch. The training process
+a cyclical process between neurons, allowing the display is completed when the error is minimized or the training
+of dynamic temporal behavior. This makes RNNs highly process has reached a predefined number of epochs. Once
+useful for time series data and applications such as speech the model is trained, we use the validation set to assess the
+recognition, language translation, handwriting recognition, model’sperformance.Thehyperparametersofthemodelare
+andmanyotherapplications[62,87]. tuned[98]toobtainthebestmodelforthegivenmetric.The
+metric is chosen based on the outcome needs and is tied to
+Long Short-Term Memory (LSTM) model is a type of
+thedomain.
+RNN that uses “short-term memory” and long-term depen-
+Oncethefine-tuningofthemodeliscompleted,themodel
+dencies of RNNs and was introduced in 1997 [92]. They
+is used in test environments. In training, we decided to par-
+useefficientgradient-basedlearningtechniquestoreducethe
+tition the data sets into training, validation, and testing sets.
+longertrainingtime(owingtoslowchangesinweight)ofthe
+This is also called the holdout method. However, this may
+defaultRNNsbyrepeatingbackpropagation[92].Therefore,
+often cause models to have a high variance or have limited
+LSTMsavoidtheproblemofvanishinggradients,commonly
+datasamples.Insuchcases,weoftenrefertomodeltraining
+seen in deep NNs [93], and are used in applications such
+using k-fold cross-validation, where the data is split into k
+as robot control, music composition, time series prediction,
+subsets,andwetrainthemodelonk−1subsetsandvalidate
+humanactionrecognition,andothers.Weencouragereaders
+the model using the remaining set. The process is repeated
+toreferto[94]foracomprehensivetreatmentofLSTMsand
+until all training is performed on all k subsets, and the
+theirextensions.
+performance is averaged. The k-fold cross-validation helps
+Transformer is a sequence-to-sequence model that em-
+reduce the models’ variance to learn the best parameters.
+ploysthe attentionmechanism[95],allowingthemodelsto
+Usually, the value of k is chosen to be 5 or 10. When the
+capture dependencies independent of the distance between
+number of samples is highly limited in the data set, the
+input and output. Transformer models avoid the recurrent
+leave-one-out cross-validation is used and is similar to k-
+relations present in RNNs and LSTMs. Instead, they use
+fold,whereonesampledatapointisusedforvalidationand
+attention mechanisms to calculate global dependencies be-
+the rest for training. We urge the readers to refer to [99] to
+tween the information and work to provide the predictions.
+explorerelatedmethodsandtheirvariations.
+Weurgethereaderstogothrough[95]forfurtherdetailson
+Often, one has to train several classification models
+theattentionmechanismsandhowtheyareusedinsequence
+and use different validation strategies to select the best-
+modeling applications. Furthermore, the reader can refer to
+performingclassificationmodelfortheproblemathand.
+[96]forin-depthinformationandusageofthetransformers.
+G. MODELEVALUATION
+F. MODELTRAINING Oncethebest-performingmodelhasbeenselected,wehave
+In this step, we choose the appropriate ML classification several metrics to evaluate classification performance. The
+model, which can be based on the expertise of the domain, most commonly used classifier prediction metrics in new
+the nature of the data, and the expected results. Once a unseendataareprecision,recall,F1-Score,sensitivity,speci-
+classification model is chosen, the next step is to divide the ficity,accuracy,root-mean-squareerror(RMSE),andcoeffi-
+data set into three sets: the train set, the validation set, and cientofdetermination(R2).Theyaregivenby:
+thetestset.Often,theproportionofthedataforthetraining,
+validation,andtestsetsischosentobe80:10:10percentages TP
+Precision= , (4)
+(likewise, 70:20:10 and 60:20:20 are also utilized in some TP+FP
+cases),andpartitioningofthedatasetisperformedrandomly TP
+Recall= , (5)
+toeliminatetheintroductionofbias. TP+FN
+The train set is used as input to the chosen classification Precision×Recall
+F1-score=2× , (6)
+model.Itistrainedusingoptimizationmethodstominimize Precision+Recall
+theerrorbetweenthegivenlabelsandthemodel’spredicted TP
+Sensitivity= , (7)
+output.Inthecaseofclassificationproblems,wetrytoreduce TP+FN
+class errors by leaning on the model classification parame- TN
+Specificity= , (8)
+ters. Each classification model requires a type of optimiza- TN+FP
+tion algorithm to minimize the mistakes. For example, deep TP+TN
+Accuracy= , (9)
+learning models use Stochastic Gradient Descent, Adagrad, TP+TN+FP+FN
+VOLUME4,2016 11
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+tocollectdiversedatatypesenhancesefficiencyandpresents
+(cid:118) diverseviewpoints.
+(cid:117) n
+RMSE= (cid:117) (cid:116) n 1 (cid:88) (y i −yˆ i )2, (10) pla N ce o m ne e t n h t e o le f s s s e , n i s t o i r s s i w m h p i e le ra a t v iv o e id t i o ng ba a l n a y nc u e nn th ec e e q ss u a a r n y ti b ty ur a d n e d n
+i=1
+(cid:80)n (yˆ −y¯)2 onpatients.Furthermore,wemustuseonlyrelevantsensors
+R2 = i=1 i , (11) toacquirevaluableinformation.Thenumberofsensorsand
+(cid:80)n (y −y¯)2
+i=1 i the quality of the data they generate will impact the qual-
+whereTPrepresentsthenumberoftruepositivepredictions, itative aspects of the ML model’s learning capabilities and
+TNthenumberoftruenegativepredictions,FPthenumberof quantitativeoutcomes.
+falsepositivepredictions,andFNthenumberoffalsenega- Preprocessing: Preprocessing removes unwanted noise
+tivepredictions;yrepresentstheactualvalueyˆrepresentsthe from sensor data and improves the data quality. This helps
+predictedvalue,y¯representsthemeanvalue,nisthenumber ML models find hidden patterns, which makes them very
+of data points. Each metric measures certain aspects of the effective.Forexample,preprocessingaccelerometerreadings
+model’s performance and allows us to interpret the results can have a quantitative effect on improving the detection
+specific to the application problems. For example, we may of movements and prediction score accuracy on new data.
+needamodelthatrequiresbothprecisionandrecalltobehigh Similarly, preprocessing steps can help improve the quanti-
+for specific medical applications. In such cases, we have to tative outcomes of ML models by incorporating data from
+choose a classification model that provides higher precision additionalsensors.
+andhighrecall,notsimplybasedonthemodelofchoice. FeatureEngineering:Todetectactivitiesfromtime-series
+data,windoweddataispreferredoverlongdatastreams,pro-
+H. MODELDEPLOYMENT viding equal information in smaller segments while reduc-
+The best-performing model against the set criteria is then ing complexity and dimensionality. The features extracted
+usedforreal-worldpredictions(oftencalledthe production are deemed representative of identifying valuable patterns,
+model). The model predicts the outcomes on newer data therebyfacilitatingdatainterpretation.Therefore,featureex-
+samples,andlabelsforthesesamplesmayormaynotexist. tractionhelpsimprovethemodel’squantitativeperformance.
+The model’s outcome is recorded, and the actual labels are Feature selection reduces model complexity by eliminating
+registered(iftheyexist).Themodelperformanceagainstthe redundant and irrelevant features, improving quality. The
+desired metrics is continuously monitored, and feedback is reduction of data dimension enables the visualization and
+generated to identify the cases where model performance modeling of features by removing feature correlations and
+needs improvement. This feedback may apply to any previ- enhancingthequalitativeaspectsofthemodeling.
+ousstepsintheMLpipeline,asshowninFigure4.Feedback ClassificationModels:Whenselectingaclassifiermodel,
+isthenanalyzed,anappropriatecorrectivemeasureistaken, it is essential to consider the data types, complexity, and
+andthemodelisretainedanddeployed.Themodel’sdevel- sample size. For example, linear models, such as linear
+opment, monitoring, feedback analysis, and fine-tuning are discriminant analysis (LDAs), are easier to use but lack the
+anongoingprocess. structuretohandlecomplexdata.Theymayunderfitintricate
+data, resulting in suboptimal performance. However, LDAs
+I. QUALITATIVEANDQUANTITATIVEEFFECTONML are less likely to overfit with small sample sizes. On the
+PIPELINE contrary, ANNs can handle complex data; however, they
+Data: The impact of data on shaping ML models is signif- may exhibit overfitting without regularization or with fewer
+icant, both in qualitative and quantitative aspects. Qualita- samples.
+tively,noise,dataimbalance,outliers,andotherfactorspose Furthermore,theoutcomesoftheANNmodelsposeasig-
+apotentialriskofoverfitting.Quantitatively,thedimension, nificant challenge in their interpretation and rationalization.
+diversity, correlations, and overlap of classes in the data Therefore, the choice of classifier has a qualitative impact
+directlyimpactamodel’sefficacyinextractingfeaturesfrom onthequalityofthemodel.Quantitatively,classifiersimpact
+the data or learning from the data. Consequently, acquiring performance metrics such as accuracy, F1-score, sensitivity,
+representative and balanced data is pivotal in determining and specificity. The selection of the correct classification
+whether ML models can qualitatively develop meaningful modelis,therefore,crucialandwillhaveasignificantimpact
+patternsandquantitativelyutilizetheirknowledgewithnew ontheprediction’sperformance.
+data.
+Sensors: The first step is to choose a sensor, consider- IV. EXISTINGAPPROACHESINSTROKE
+ing factors such as activity type, ease of use, and financial REHABILITATION
+implications. There are several advantages and disadvan- Thissectionreviewstherelevantresearchonstrokerehabil-
+tages to each sensor. For instance, a triaxial accelerometer itation and provides an overview of each work from 2009
+solelyrecordsmovementalongthreeaxeswithoutproviding to 2023. Based on the primary objectives of this review, we
+physiological data. However, sEMG sensors only detect the have cataloged the literature into six subsections for easy
+activityofmuscles.Therefore,employingnumeroussensors understanding and comprehension. These include (i) iden-
+12 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+tifying ADL, (ii) estimating clinical scores, (iii) monitoring a limited number of subjects and data samples outside the
+exercises,(iv)recognizingpostures,(v)recognizinggestures, laboratoryenvironment.
+and(vi)deeplearningmethods. Tranetal.[103]usesasinglewrist-wornaccelerometerto
+Attheendofthissection,Table2summarizestheresearch classify functional and nonfunctional arm movements. The
+objectives, sensors, devices, number of subjects, research study included 20 subjects (10 healthy and ten strokes) and
+context,placementofsensors,MLmodels,results,andlim- extended the previous research [104]. The study strongly
+itations from 2009 to 2023. In addition, Table 3 shows the suggeststhatRFperformsbetteroverallwhencomparedwith
+high-levelsummaryoffeatures(extractedandprocessed)in SVM-RBF, linear SVM, and k-means. However, the per-
+strokerehabilitationusingwearablesensordevices. formance of RBF-SVM was better than RF in inter-subject
+for the standard group, and k-NN was slightly better than
+A. IDENTIFYINGADLS RF in inter-normal and intra-stroke group [103]. One of the
+Identifying ADLs is primarily a classification problem. In significantlimitationsofthisworkisthatitislimitedtoonly
+this direction, Roy et al. [17] used an accelerometer and 4 ADLs and requires additional sensors to measure angular
+sEMG sensors to classify 11 ADLs from 10 subjects (five velocity,whichiscrucialsensinginformationtoconsiderin
+menandfivewomen).Sensorswereplacedontheshoulders, measuringADLs.
+thigh, wrist, and waist. They used the adaptive neuro-fuzzy Lee et al. [32] use a wrist-worn triaxial accelerometer
+ML model and ANN to identify ADL with a sensitivity and gyroscope (Shimmer Ireland) to (i) detect upper limb
+of 95% and a specificity of 99.7%. One of the significant movements detected with goal-directed (GD) during ADL
+limitationsisthattheydesignedMLmodelsforeachsubject and (ii) evaluate motor performance quality during home
+individually, which limits the usage of models for a more rehabilitation of 30 subjects (20 strokes and ten healthy).
+genericpopulation. Logistic regression was used to classify GD and non-GD
+Arifetal.[100]usedthreetriaxialaccelerometerstomoni- movements, and the model detected GD movements with
+torthephysicalactivitiesofninehealthysubjects(eightmen 87% Area Under the Curve (AUC). RF detects whether
+and one woman). Sensors were placed on the ankle, chest, exercise requires feedback for home rehabilitation with an
+andwrist.Theyusedk-NN,RF,andNNtoidentify12types F1scoreof84.3%.Somelimitationsofthisworkincludethat
+ofphysicalactivity.TheRotationForestmodelachieved98% theydidnotconsiderbothmovementsthatbelongtoGDand
+classification accuracy. One of the significant drawbacks of non-GDmovements. In addition,the approachhas notbeen
+thisworkisthatitrequiresselectingoptimalfeatures,which tested in home settings. Furthermore, the process requires
+may not always be generalizable and may need re-selection twoalgorithmstodetecttasksandqualityassessments.
+offeaturesuponchangeinthedata. Chen et al. [105] uses five IMUs (one on each wrist, one
+Sadaranganietal.[101]usesFSRsensorsattachedtothe on each of the upper arms, and one on the hip) to detect
+forearmtoclassifythreetasks(reach,grasp,andmoveanob- 10 ADLs using four ML models. They collected data from
+ject).Theycollecteddatafrom16subjects(eightstrokesand 11 subjects after the stroke, and Apple Watches (Series 3)
+eighthealthy).TheyusedSVMwithRBFkernelandLDAto were used to manage the data. Decision Tree, RF, SVM,
+classifythethreetasks.SVMwiththeRBFmodelprovided and Extreme Gradient Boosting (XGBoost) were used in
+92.2%accuracyinsubjectswithstrokeand96%precisionin the analysis, and they found that XGBoost achieved 82%
+healthysubjects.However,theydidnotinvestigatetheeffect accuracyon10ADLsand90%accuracyonseventasks.One
+oftheobject’sweightongraspdetectionaccuracyanddidnot ofthemainlimitationsofthisworkisthelimitedsamplesize
+changetheimportanceoftheentities.Furthermore,theydid (n = 11),whichislimitedindiversity(datavariations)due
+not seek to study the impact of re-donning the FSR sensors to a limited number of samples. Furthermore, the data was
+andthetightnesslevels. collectedinastructuredscript-basedsimulatedenvironment,
+O’Brien et al. [102] used the Samsung Galaxy S4 smart- whichisunnatural(asinahome).
+phone to collect data from 45 subjects (30 stroke and 15
+healthy). The smartphone was strapped to a belt pouch and B. ESTIMATINGCLINICALSCORES
+tied to the waist. The data included an accelerometer, gyro- Estimating clinical scores can be both a classification and
+scope, and barometer sensor readings. Subjects self-labeled regression problem. This depends on the desired clinical
+the activities and were sent to a server via Wi-Fi and 4G scores.Ifthescoresarewholenumbers(1,2,3,andsoon),
+communications. They created 270 features (131 from the theyfallundertheclassificationcategory.Ontheotherhand,
+accelerometer, 131 from the gyroscope, and eight from the iftheclinicalscoresarearangeofnumericalvalues,theyfall
+barometer), and RF was used to classify the six activities. underthecategoryofregression.
+Thefindingssuggestedthatthemodelperformedbetterwhen Patel et al. [16] used accelerometer sensors on the hand,
+trained on stroke data (75% recall) than healthy activity forearm,upperarm,andtrunktoestimateFASscores[106]1.
+data, and models trained on data collected in the laboratory The study included 24 hemiparesis subjects and used RF to
+performed poorly (56% recall) when the same models were
+1TheWolfMotorFunctionTest(WMFT)quantifiestheupperextremity
+tested at home. Some limitations include (i) a lack of study
+(UE)motorabilitythroughperformancetime(WMFT-TIME)andfunctional
+of environmental effects on the model performance and (ii) ability(WMFT-FAS)
+VOLUME4,2016 13
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+estimate FAS scores on 15 motor tasks. The RF model and Theycollecteddatafrom37subjects(16stroke,21traumatic
+further evaluation of motor tasks revealed that they could brain injury) and developed a modified RF model. They
+calculatescoreswith0.04pointsandastandarddeviationof estimatedFMAscores(severityofimpairment)withtheco-
+2.43points(withacoefficientofdeterminationR2 = 0.96). efficientofdeterminationR2 =0.86.Ontheotherhand,they
+We note that the tasks in the study were segmented and estimatedFAS(qualityofmovement)withR2 = 0.79.The
+separated,whichhelpstheRFmodelselectthefeaturesand approachassumesthatthedatapreciselysegmentsactivities,
+identify the tasks correctly. Furthermore, further work is meaning the models could calculate the scores. However,
+requiredtoevaluatethemodel’sperformancewhenthejobs more studies are needed to assess performance in home
+areisolated(asintherealworld)andwhenthesubjectswear and community settings, where tasks may not be clearly
+thesensors(self-calibrationandpositionvariation). understood.
+Yuetal.[107]usedtwoaccelerometersandsevenflexsen-
+sorstoestimatetheFugl-MeyerAssessment(FMA)scoresof C. MONITORINGEXERCISES
+24strokesubjects(consistingof16menandeightwomen). Pan et al. [112] developed a home-based self-rehabilitation
+They used ensemble regression using an Extreme Learning system to monitor and detect exercises of the shoulder joint
+Machine (ELM) of 7 weak models and could predict the usingasmartphoneandtwowirelessaccelerometersensors.
+FMA scores of the seven exercises with the coefficient of The plan was tested on 10 healthy subjects (three men and
+determination (R2 = 0.917). The FMA estimation frame- seven women) and 14 stroke subjects (five men and seven
+work was designed to work in both laboratories andhomes. women).Inthestudy,theauthorsincludedfiveexercises:ear
+However, the system was not tested in an open, free-living touch, hand raise, climbing wall, pendulum movement, and
+environment, nor was the model deployed on a wearable assistedactivestretching.TheSVMclassifierclassifiedthese
+device. exerciseswith96%accuracy.Somelimitationsofthissystem
+Oubreetal.[108]usedtwoinertialsensors(attachedtothe include: (i) the data was easily segmented into different
+wrist andsternum) toestimate the levelsof upperextremity exercises with the use of the Android app; (ii) the authors
+impairmentusingFMAscores.Theycollecteddatafrom23 didnotspecifywhethertheSVMmodelwasdeployedonthe
+subjects (seven men and 16 women) who had experienced smartphonetoclassifytheexercisesorthedatawascollected
+a stroke. As a first step, they used DBSCAN [66] to group inacentralizedlocation,andthentheanalysiswasperformed
+time series segmented data to extract features and later offline.
+support vector regression (SVR) to estimate FMA scores. Yurtman and Barshan [113] developed an autonomous
+Their regression approach calculated the FMA scores with system to detect and evaluate physical therapy exercises
+a normalized root-mean-square error of 18.2% (R2 = 0.70) using wearable sensors. They used five IMUs strapped to
+andonlyrequiredoneminuteoftimeseriesdatatoestimate. the arms and legs of five healthy subjects (three men and
+One of the limitations of this method is that the model is two women). They proposed a multi-template, multi-match
+dependentonlargecontinuousmovements.Thisdependency, dynamic time warping algorithm (MTMM-DTW) to detect
+in turn, may cause exhaustion among subjects. The second multiple occurrences of more than one exercise type. The
+limitation is that they do not evaluate the correctness of algorithmcouldseeandclassifyeighttypesofexercisewith
+activities, which is necessary to determine the quality of 93.46%accuracy.Furthermore,itcountedandevaluatedthe
+movements. practicesascorrectorincorrectwith88.65%accuracy.How-
+Parketal.[109]developedanautomaticgradingsystemto ever,thismethodhassomelimitations.First,thetemplateof
+measure subtle weaknesses in the upper and lower extremi- each exercise for each subject must be re-recorded. Second,
+ties.Theycollected60instancesofkinematiccharacteristics it has not been used in clinical settings, which limits its
+of motor disorders in stroke patients with the NIHSS score applicability in healthcare institutions. Third, sensors must
+(0 or 1) or Medical Research Council (MRC) grades (7, 8, be attached to the exact locations (as in template sequence
+or 9). This included 15 stroke subjects (10 men and five recordings) to correctly detect the exercises, which can be
+women). They also used a synthetic minority oversampling practicallydifficultathomeandinothercommunitysettings.
+technique[110]tocomplementtheimbalance.Theyachieved Zhangetal.[37]developedasystemtoidentifyeveryday
+0.912 AUC for NIHSS scores of 83.3% accuracy using an rehabilitation exercise movements during a routine exercise
+ensemble of SVM kernels and boost algorithms, while they session. The study included 14 stroke patients (10 men and
+achieved 0.86 AUC for MRC scores of 80% accuracy with fourwomen),andIMUswereattachedtothepatient’swrist
+SVM. One of the drawbacks of this approach is that it tocollectdatawhileperformingsixjointUEexercises(Bo-
+generatessyntheticdatatohandleclassimbalance,whichis bath handshake, straight arm palm press, horizontal flexion
+notideal,asthegenerateddatacouldhavedifferentstatistical and extension of the shoulder, reaching the forehead with
+characteristics. Therefore, the models may not generalize theelbow,shouldertouchingandwristturn).Theycompared
+wellforout-of-distribution(OOD)samples. eight different ML models to classify the exercises, and the
+Adans-Desteretal.[111]usewearablesensors(consisting fuzzy kernel classifier (FKC) obtained a 0.56% error (with
+of6accelerometers)strappedtothearm,chest,fingers,and a standard deviation of 0.64). Some limitations include: (i)
+wristtoestimatetheseverityandqualityoftheimpairment. thesystemhasnotbeentestedinanopenfree-livingenviron-
+14 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+ment, and (ii) needs expert fine-tuning of model parameters was used to classify gestures by combining the sEMG and
+fornewdatapoints. accelerometer data. The average accuracy of posture recog-
+Yu et al. [114] proposed a wearable sensor network sys- nitionwas98.3%,wherethemodelsometimesmisclassified
+tem to monitor and assess upper extremity motor function sittingandsquatpostures.However,theclassificationmodel
+quantitatively.Comparedtotraditionalapproaches,theyused is complex, requires much time to process data to detect
+compressed sensing technology to reduce data transfer to activities, and is unsuitable for practical use on wearable
+the computer (using a sparse representation). The study in- devices.
+cluded 230 stroke subjects (13 men and ten women), and
+Xiaoetal.[46]developedaprototypetomonitortheFMG
+accelerometer sensors were strapped to the forearm and
+signalsfromtheupperextremitiesusingFSRstrapsattached
+shoulder.TheexerciseshadaBobathhandshakeandshoulder
+totheforearms.Thestudyincludesonlysixhealthysubjects
+touch, and the results indicated that accelerometer signals
+(sixmen).Theyusednon-kernelELMtoclassifysixpostures
+could be compressed by one-third of the raw signal length.
+related to drinking tasks by organizing the forearm FMG
+They used the ELM algorithm to detect and compare the
+in real-time, with an accuracy of 92.33% and a standard
+exercises,resultinginanaccuracyof89.5%(comparedtothe
+deviation of 3.19%. However, the study is limited to the
+accuracyof92.5%oftherawsignalmodel).Oneofthemain
+discrete classification of six postures of the upper extremi-
+limitations is that the study has not considered additional
+ties.Moreover,thesystemcannotautomaticallyidentifythe
+sensing modalities and how they affect the performance of
+signaturesofdifferenttypesofmultijointmovements.
+thecompressedsensingmodel.
+Masse et al. [121] developed the characterization of sit-
+to-stand and stand-to-sit (STS) using inertial sensors and
+D. RECOGNIZINGPOSTURES
+barometric pressure (BP) sensors. Each subject was simul-
+Sazonovetal.[115]proposedashoe-basedwearablesensor
+taneously paired with an inertial sensor (3D accelerometer
+devicetomonitorposturesandactivities.Theyobservedthat
+and 3D gyroscope) sampling at 200 Hz and a BP sensor
+heelaccelerationandplantarpressureuniquelycharacterized
+sampling at 25 Hz. The study included 12 stroke subjects
+postures and typical movements. The study included nine
+(seven men and five women), 345 STS were recorded, and
+subjects (3 men and six women). Each shoe had five FSRs
+subjects were monitored in a semi-structured conditioned
+andanaccelerometersensorimplantedatthecriticalcontact
+protocol.TheyusedLogisticRegressiontoclassifySTSwith
+points.SVMwasusedtoclassifysixpostures(sitting,stand-
+a single device comprising inertial with 75.4% accuracy. In
+ing,walking/jogging,ascendingstairs,descendingstairs,cy-
+addition, they combined inertial and BP sensors to achieve
+cling)withanaccuracyof95%inthecompletesensorsetand
+90.6%accuracy.Therefore,theclassificationalgorithmisnot
+moresignificantthan98%intheoptimizedsensorset.
+easily generalizable and depends on the collected dataset.
+Fulk et al. [116] also proposed a similar shoe-based
+Furthermore, the BP sensor is vulnerable to external pertur-
+wearable sensor to classify three postures (sitting, standing,
+bations,sovalidatingfurtherindifferentsettingsiscritical.
+and walking) with SVM. They included data from eight
+strokesubjects(sixmenandtwowomen).UsingSVM,they
+achieved a classification accuracy of 99% (recall and preci- E. RECOGNIZINGGESTURES
+sionfrom0.99to1)forindividualmodelsandanaccuracyof
+Yang et al. [122] introduced an IoT-enabled stroke rehabil-
+over76.9%(recallandprecisionfrom0.82to0.99)forgroup
+itation system based on a smart wearable armband (SWA),
+models.
+ML algorithms, and a 3D printed dexterous robotic hand
+Inanotherwork,Fulketal.[117]developedasmartshoe
+to recognize nine gestures (agree, close hand, open hand,
+to identify three postures (sitting, standing, and walking)
+pointerthumbandmiddlefinger,thumbandlittlefinger,flex
+using ANN instead of SVM. The study included 12 stroke
+hand,extendhandandrelax).Thestudyincludedthreesub-
+subjects(6menandsixwomen).Theyachievedanaccuracy
+jects(twomenandonewoman).Theauthorscomparedthree
+of more than 97.2% (95–99% recall and 95.4–98.7% preci-
+ML models to identify the nine gestures: LDA, multilayer
+sion). However, the three studies were limited to laboratory
+perceptron (MLP), and SVM. The MLP model identified
+settings.Anotherdrawbackofthesestudiesisthattheydonot
+the nine gestures with 96.02% classification accuracy. The
+monitoractivitiesintheupperextremities.Furthermore,sub-
+systemandtheapproachcomewiththefollowinglimitations:
+jects without ambulatory abilities cannot use these systems.
+(i) the train and test data came from the same subjects and
+Moreover, they have not measured the power of the sensors
+were not tested on data from unknown subjects; (ii) the
+tomeasurethetransitionfromoneactivitytoanother.
+dataset itself is limited to three topics and lacks diversity;
+Cheng et al. [118] used four sEMGs and two accelerom-
+(iii) the system is limited to only nine gestures; (iv) the
+eter sensors to identify seven body postures (including 50
+accuracyofthesystemdecreasesasandwhenothergestures
+categories of dynamic activities). The seven body postures
+areintroduced;and(v)thepositionofthearmbandchanges
+include standing, sitting, squatting, lying on the right, lying
+theresults,whichisnotsuchanattractiveoptionifwewere
+on the left, lying face up, and lying face down. The sEMG
+tousesuchasysteminhomesettings.
+and accelerometer sensors were strapped to the chest and
+right thigh. The hidden Markov model (HMM) [119, 120]
+VOLUME4,2016 15
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+F. DEEPLEARNINGMETHODS suchanapproachforreal-worldprocessing.
+Inthissubsection,wehighlightthedeeplearningapproaches.
+The (last) four references (on page 21) in Table 2, compre- V. OPENRESEARCHCHALLENGESANDFUTURE
+hensivelysummarizefourdeeplearningapproaches. DIRECTIONS
+Panwar et al. [90] proposed a “Rehab-Net” framework Wearable sensors and ML will play an important role in
+to classify three upper limb movements from wrist-based strokerehabilitation.Wearablesensorsarethemostpractical
+accelerometer data. The Rehab-Net uses a CNN-based deep option,fromdifferenttraininginterventionstoautomatedob-
+learningmodel.Theframeworkwastestedintwosituations: jectiveassessmentandcreatingpredictivemodelsusingML.
+(i) a semi-naturalistic environment (making tea) with four- Figure 7 shows the combined view of wearable devices and
+stroke subjects and (ii) a natural environment (any desired MLalgorithmstoimprovestrokerehabilitationoutcomes.In
+arm movement for 120 min) with ten-stroke subjects. They this section, we discuss potential open research challenges
+achieved an accuracy of 97.89% on semi-naturalistic data and future research directions to solve problems in stroke
+and 88.87% on naturalistic data. The CNN-based model rehabilitation.
+outperforms LDA, SVM, and k-means. The model has also
+been optimized (algorithmic level) for real-time hardware
+A. TRAININGINTERVENTIONS
+implementation. One of the drawbacks of this study is that
+Thetwomostprevalentissuesencounteredintraininginter-
+the deep learning (DL) models were trained specifically for
+ventionsrelatetotheinsufficientknowledgeofnewphysio-
+individualsand,therefore,lackedgeneralizability.
+therapists and the execution of the optimal dose of therapy
+Kaku et al. [123] developed an LSTM-based approach to
+required for a particular patient. Except for studies that use
+identify five functional primitives using nine internal mea-
+biofeedback, the mandatory use of wearable sensors during
+surementunits.Datawerecollectedfrom48strokesubjects
+the application of all other interventions has not yet been
+(22menand26women).ThenineIMUswereattachedtothe
+implemented. Wearable sensors can establish a connection
+cervical vertebra C7, the thoracic vertebra T12, the pelvis,
+between training and its effects in real-time, which helps
+arms, forearms, and hands. They achieved an accuracy of
+improvetrainingandmaximizepotentialresults.Itenhances
+78%.Thestudyincludedonlysubjectswithdominantrights.
+patientperformanceandprovidesavaluableopportunityfor
+This hand dominance may have a differential influence on
+anovicephysiotherapisttogaininsightintothepatterns(such
+thepreferentialrolesoftheUEsand,therefore,needsfurther
+asmovementpatternsandmuscleactivity)ofpatients’motor
+investigation. Furthermore, classification performance dete-
+ability and progression in real-time. Furthermore, by using
+riorates significantly for severely impaired patients, lacking
+wearablesensordatafromhealthysubjects,physiotherapists
+generalizability.
+may better understand the patient’s status. Thus, the appro-
+Chae et al. [124] developed a home rehabilitation sys-
+priate form of therapy and individualized treatment dosage
+tem using a smartwatch and a smartphone. They attached a
+canbeimplementedinreal-time.
+smartwatch(equippedwithanaccelerometerandagyroscope
+sensor) to a wrist and collected data during exercises. Data
+B. REMOTEMONITORING
+werecollectedfrom10controlsubjectsand22subjectswith
+stroke. They used a CNN model and achieved 99.80% ac- Physicians currently recommend that patients perform pre-
+curacy (when both accelerometer and gyroscope were com- scribed exercises with wearable devices when they gain
+bined)versus98.13%(onlyaccelerometerdata)and96.07% voluntary movement without a physiotherapist, in addition
+(gyroscope data). The study selected four exercises to suit toroutinecare.Nonetheless,whetherthepatientseffectively
+chronic stroke patients, particularly those based on bilateral completethetasksaspertheinstructionsremainsuncertain.
+movement therapy. However, these exercises may not fit In[32],theresearchersexamineddatafromtheunaffected
+all stroke subjects. Therefore, we cannot apply the same UE. However, assessing the health of the affected body
+approachtoissueswithstroke. parts,specificallytheupperorlowerextremities,isadvisable.
+Recently, Nair et al. [91] proposed a system to identify This is critical for making improvements. Furthermore, the
+the completion status of rehabilitation exercises. They used optimalamountofself-directedexerciseandresearchrelated
+triaxialaccelerometersattachedtothehandsandforearmsto to selecting more efficient activities for individual patients
+collectdata.Thestudyincludedapproximatelyfivesubjects to help regain pre-stroke movement ability remain to be
+andwrist,forearm,andshoulderexercises.TheyusedaCNN explored.
+modeltoclassify12activities(sixwrists,fourforearms,two Althoughwearabledevicesholdpromiseforremotelycap-
+shoulders)with98.61%accuracy.Themodeloutperformsthe turing movement data, it is essential to note that movement
+Decision Tree, SVM, Linear discriminant (LD), and Naive dataaloneisnotalwayssufficienttorevealthefundamental
+Bayes classifiers. One of the limitations of this approach physiologicalconditionsofpatients.Itisessentialtoinclude
+is that it is not automated, i.e., we need to convert time sensors that record physiological signals such as nerve con-
+series data into images for feeding to CNN, which may not duction velocity, EMG, ECG, photoplethysmogram (PPG),
+be a practical approach, as LSTMs are robust models for and others to provide additional information about muscle
+processing time series data. It will be inconvenient to use andnerveactivity.Furthermore,incorporatingdataonheart
+16 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS TABLE2:Acomprehensivereviewofexistingstrokerehabilitationapproachesusingwearabledevices.
+Year Aim Sensors Device Device Subjects Context Placement MLModel Results Limitations
+Type
+2009 ADL ACC, Analog Wired 10 Lab Shoulders, ANN Identify11daily Algorithmswere
+[17] sEMG Devices, thigh,wrist, livingactivitieswitha trainedseparately;
+DelSys waist sensitivityof95%and needspropersegmenta-
+aspecificityof99.7% tionoftasks.
+2010 Clinical ACC Viatport Wired 24 Lab Chest, RF Deriveaccurate Testedonlyincon-
+[16] scores fingers, estimatesofFASscores trolledenvironments.
+forearm, duringtheperformance Needsevaluationonthe
+upperarm of15motortasksusing placementofsensors.
+anaccelerometer
+2011 Postures ACC, Custom Wireless 9 Lab Feet SVM Classifytheaccuracy Sensorreadingsmay
+[125] FSR (Interlink, ofsixposturesof95% differinuncontrolled
+STMicro- inthecompletesensor environments.Tasksof
+electronics) setandover98%inthe theupperlimbarenot
+optimizedsensorset. monitored.
+2011 Postures ACC, Custom Wireless 8 Lab Feet SVM Classifythreepostures Limitedtosubjects
+[116] FSR (Interlink) with99%accuracy withambulatory
+forindividualmodels abilitiesonly.Unmea-
+and76.9%forgroup suredabilitytodetect
+models transitionsfromsitting
+to/fromstanding.
+2012 Postures ACC, Custom Wireless 12 Lab Feet ANN Identifyposturewithan Nottestedinopenfree-
+[117] FSR (Interlink) accuracyof97.2% livingenvironments
+andduringtask
+transitions.
+2013 Exercises ACC Custom Wireless 24 Remote Shoulders SVM Classify5activities Tasksweresegmented
+[112] (Smart- with96%accuracy. usingtheAndroidapp;
+phone) whethertheMLmodel
+wasdeployedonthe
+smartphoneisunclear.
+2013 Postures ACC, DelsysMy- Wired 10 Lab Lowerlimb, HMM FusionofsEMGand MLmodeliscomplex
+[118] sEMG omonitor chest accelerometerachieved andrequiressignificant
+IV 98.3%classification timeandresources.Not
+accuracy suitableforwearable
+devices.
+ACC:accelerometer;BP:barometricpressure;FSR:forcesensingresistor;GYR:gyroscope;IMU:inertialmeasurementunit;sEMG:surfaceelectromyography.ANN:
+artificialneuralnetwork;DT:decisiontree;ELM:extremelearningmachine;FAS:functionalabilityscale;FMA:Fugl-Meyerassessment;HMM:hiddenMarkovmodel;
+LDA:lineardiscriminantanalysis;LR:logisticregression;MLP:multi-layerperceptron;RBF:radialbasisfunction;RF:randomforest;RMSE:root-mean-squareerror;
+SVM:supportvectormachine;SVR:supportvectorregression;XGBoostextremegradientboosting.
+This
+work
+is
+licensed
+under
+a
+Creative
+Commons
+Attribution
+4.0
+License.
+For
+more
+information,
+see
+https://creativecommons.org/licenses/by/4.0/
+VOLUME4,2016
+17
+content
+may
+change
+prior
+to
+final
+publication.
+Citation
+information:
+DOI
+10.1109/ACCESS.2024.3373910
+This
+article
+has
+been
+accepted
+for
+publication
+in
+IEEE
+Access.
+This
+is
+the
+author's
+version
+which
+has
+not
+been
+fully
+edited
+and
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+TABLE2:(continued...)Acomprehensivereviewofexistingstrokerehabilitationapproachesusingwearabledevices.
+Year Aim Sensors Device Device Subjects Context Placement MLModel Results Limitations
+Type
+2014 Postures FSR Custom Wired 6 Lab Forearm ELM Classifysixpostures Limitedtodiscrete
+[46] (Interlink) relatedtothedrinking classificationof
+taskwith92.33% differentposturesof
+accuracy UEs.Itcannotidentify
+thesignatureofmulti-
+jointmovements
+automatically.
+2014 Exercises IMU XSens Wired 5 Lab Arms,legs MTMM- Detectandclassify Needssensorplace-
+[113] Technolo- DTW the8exercisetypes mentstobeprecise
+gies (93.46%accuracy); andre-recordingof
+Evaluateexercisesas exercisetemplatesfor
+correctorincorrect newexercises.
+(88.65%)
+2015 ADL IMU Colibri Wireless 9 Lab Ankle, k-NN, Identify12different Needsfurthereval-
+[100] chest,wrist Rotation typesofphysical uationonoptimal
+Forest, activitiesusing placementofsensors.
+ANN threeacceleration
+sensors;Rotation
+Forestachieving98%
+classificationaccuracy
+inindividualsensors;
+k-NNachieving97.9%
+accuracyoncombined
+(3sensors)data
+2016 Exercises ACC, XSens Wired 14 Lab Wrist Fuzzy Achieves0%errorrate Nottestedonwearable
+[37] GYR Technolo- kernel forthelowimpairment devicesandneeds
+gies levelpatientgroupand expertknowledgeto
+0.56%forallpatients tunethemodel.
+2016 Postures BP, Physilog Wireless 12 Lab Chest LR IMUaloneachieves Modelparameters
+[121] IMU 75.4%accuracy arehighlydependent
+whereascombined ondataandneedre-
+IMUandBPsensors trainingofMLmodel
+achieve90.6% fornewdatasamples
+accuracy
+ACC:accelerometer;BP:barometricpressure;FSR:forcesensingresistor;GYR:gyroscope;IMU:inertialmeasurementunit;sEMG:surfaceelectromyography.ANN:
+artificialneuralnetwork;DT:decisiontree;ELM:extremelearningmachine;FAS:functionalabilityscale;FMA:Fugl-Meyerassessment;HMM:hiddenMarkovmodel;
+LDA:lineardiscriminantanalysis;LR:logisticregression;MLP:multi-layerperceptron;RBF:radialbasisfunction;RF:randomforest;RMSE:root-mean-squareerror;
+SVM:supportvectormachine;SVR:supportvectorregression;XGBoostextremegradientboosting.
+This
+work
+is
+licensed
+under
+a
+Creative
+Commons
+Attribution
+4.0
+License.
+For
+more
+information,
+see
+https://creativecommons.org/licenses/by/4.0/
+18
+VOLUME4,2016
+content
+may
+change
+prior
+to
+final
+publication.
+Citation
+information:
+DOI
+10.1109/ACCESS.2024.3373910
+This
+article
+has
+been
+accepted
+for
+publication
+in IEEE
+Access.
+This
+is
+the
+author's
+version
+which
+has
+not
+been
+fully
+edited
+and
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS TABLE2:(continued...)Acomprehensivereviewofexistingstrokerehabilitationapproachesusingwearabledevices.
+Year Aim Sensors Device Device Subjects Context Placement MLModel Results Limitations
+Type
+2016 Exercises ACC, Custom Wireless 24 Lab, Forearm, ELM PredicttheFMAscores Nottestedonwearable
+[107] Flex Remote fingers, ofthesevenexercises devices.
+shoulder withcoefficientof
+determination(R2=
+0.917)
+2016 Exercises ACC Custom Wireless 23 Lab Forearm, ELM Monitorandquantita- Nottestedonwearable
+[114] shoulder tivelyassessupperlimb devices.
+motionfunctionwith
+89.5%accuracy
+2017 ADL FSR Interlink Wired 18 Lab Forearm SVM,LDA SVM-RBFachieved Assessedonasingle
+[101] Electronics 92.2%accuracy graspobjectofconstant
+(stroke)and96% weight.Itdidnotstudy
+(healthy)ingrasp theeffectofremoving
+detection andredonningsensors
+ontheeffectofan
+object’sweight.
+2017 ADL ACC, Samsung Wireless 45 Lab, Waist RF Themodelachieved Limitedhomedata.
+[102] GYR, GalaxyS4 Remote betterperformance Performancedropped
+BP whentrainedinstroke whentestedinhome
+data(75%recall)rather environments(56%
+thantrainingonhealthy recall).
+activitydata
+2018 Gesture sEMG Custom Wireless 3 Lab Forearm LDA,MLP, Identifyninegestures Thetrainandtestdata
+[122] SVM with96.20%classifi- camefromthesame
+cationaccuracywith subjectsandhavenot
+MLP beentestedonunseen
+subjects’data.Thedata
+setitselfislimitedto
+3subjectsandlacks
+diversity.
+ACC:accelerometer;BP:barometricpressure;FSR:forcesensingresistor;GYR:gyroscope;IMU:inertialmeasurementunit;sEMG:surfaceelectromyography.ANN:
+artificialneuralnetwork;DT:decisiontree;ELM:extremelearningmachine;FAS:functionalabilityscale;FMA:Fugl-Meyerassessment;HMM:hiddenMarkovmodel;
+LDA:lineardiscriminantanalysis;LR:logisticregression;MLP:multi-layerperceptron;RBF:radialbasisfunction;RF:randomforest;RMSE:root-mean-squareerror;
+SVM:supportvectormachine;SVR:supportvectorregression;XGBoostextremegradientboosting.
+This
+work
+is
+licensed
+under
+a
+Creative
+Commons
+Attribution
+4.0
+License.
+For
+more
+information,
+see
+https://creativecommons.org/licenses/by/4.0/
+VOLUME4,2016
+19
+content
+may
+change
+prior
+to
+final
+publication.
+Citation
+information:
+DOI
+10.1109/ACCESS.2024.3373910
+This
+article
+has
+been
+accepted
+for
+publication
+in IEEE
+Access.
+This
+is
+the
+author's
+version
+which
+has
+not
+been
+fully
+edited
+and
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+TABLE2:(continued...)Acomprehensivereviewofexistingstrokerehabilitationapproachesusingwearabledevices.
+Year Aim Sensors Device Device Subjects Context Placement MLModel Results Limitations
+Type
+2018 ADL IMU Analog Wireless 20 Lab Wrist k-NN,RF, Intrasubjectclassifi- Limitedtoonly4
+[103] Devices SVM cationaccuracyof ADLsandmayneed
+96%(oncontrols) additionalsensorsto
+and94%(stroke)and monitorothertasks.
+intersubjectaccuracyof
+90%(controls)and
+83%(stroke)with
+SVM-RBF
+2018 ADL ACC, Shimmer Wireless 30 Lab Wrists LR,RF Detectedgoal-directed Didnotconsider
+[32] GYR (GD)movements movementsthatwere
+with87%areaunder bothGDandnon-
+thecurve(AUC)and GD;requiresdifferent
+alsodetectswhether algorithmsfortask
+exerciserequires detectionandquality
+feedback(F1score: assessment.
+84.3%)
+2020 Clinical IMU MTw Wireless 23 Lab Ankles, SVR EstimatestheFMA Requireslarge,
+[108] scores Awinda, Wrists scoreusingrandom continuousmovements,
+XSens movementswith whichcantirepatients
+Technolo- thecoefficientof anddoesnotassess
+gies determination(R2= thecorrectnessofthe
+0.7),RMSEof18.2% movements.
+2020 Clinical ACC Shimmer Wireless 37 Lab Arm,chest, RF EstimatesFMA Requiresexpertisein
+[111] Scores fingers, (impairmentseverity) derivingclinicalscores
+wrist scoreswithR2of fromwearablesensor
+0.86andFASscores data.
+(movementquality)
+withR2of0.79
+2021 ADL IMU Apple Wireless 11 Lab Wrists, DT,RF, Accuracy82%on Itusesartificialdata
+[105] Watch upperarms, SVM, 10ADLsand90% synthesistohandledata
+(series3) hip XGBoost accuracyon7ADLs imbalance,whichmay
+withXGBoost notbeappropriateinall
+cases.Restrictedstudy
+tomildstrokepatients.
+ACC:accelerometer;BP:barometricpressure;FSR:forcesensingresistor;GYR:gyroscope;IMU:inertialmeasurementunit;sEMG:surfaceelectromyography.ANN:
+artificialneuralnetwork;DT:decisiontree;ELM:extremelearningmachine;FAS:functionalabilityscale;FMA:Fugl-Meyerassessment;HMM:hiddenMarkovmodel;
+LDA:lineardiscriminantanalysis;LR:logisticregression;MLP:multi-layerperceptron;RBF:radialbasisfunction;RF:randomforest;RMSE:root-mean-squareerror;
+SVM:supportvectormachine;SVR:supportvectorregression;XGBoostextremegradientboosting.
+This
+work
+is
+licensed
+under
+a
+Creative
+Commons
+Attribution
+4.0
+License.
+For
+more
+information,
+see
+https://creativecommons.org/licenses/by/4.0/
+20
+VOLUME4,2016
+content
+may
+change
+prior
+to
+final
+publication.
+Citation
+information:
+DOI
+10.1109/ACCESS.2024.3373910
+This
+article
+has
+been
+accepted
+for
+publication
+in IEEE
+Access.
+This
+is
+the
+author's
+version
+which
+has
+not
+been
+fully
+edited
+and
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS TABLE2:(continued...)Acomprehensivereviewofexistingstrokerehabilitationapproachesusingwearabledevices.
+Year Aim Sensors Device Device Subjects Context Placement MLModel Results Limitations
+Type
+2019 ADL ACC Shimmer, Wireless 14 Lab, Arm,wrist, CNN Classifiesmovements Trainedonindividual
+[90] Physilog Remote elbow,chest withanaccuracyof subjects,hencelacks
+97.89%onsemi- generalizability.
+naturalisticdataand
+with88.87%accuracy
+onnaturalisticdata;It
+isanoptimizedmodel
+forreal-timehardware
+implementation
+2020 ADL IMU Noraxon Wireless 48 Lab Neck,Back, LTSMwith Classifyfivefunctional Thestudyincluded
+[123] pelvis, CNN (FMA)primitiveswith onlysubjectswith
+arms, 70%accuracy dominantrightand
+forearms, classificationperfor-
+hands mancedeteriorates
+significantlyinseverely
+impairedpatients
+2020 Exercises ACC, LG Wireless 32 Lab, Wrist CNN Classifyfiveexer- Someparticipant
+[124] GYR Smartwatch Remote ciseswith99.80% exerciseswerenot
+accuracy(whenboth captured.Theactual
+accelerometerand precisionofthetraining
+gyroscopeincluded) athomewasnot
+versus98.13%(with evaluated.
+onlyaccelerometer
+data)and96.07%
+(gyroscope)
+2023 Exercises ACC Custom(ST Wireless 5 Lab Hand, CNN Classify12exercises(6 Convertingtimeseries
+[91] Microelec- forearm wrists,fourforearms, dataintoimagesfor
+tronics) twoshoulders)with feedingtoCNNisnot
+98.61%accuracy; efficientpractically.
+outperformsDT,SVM,
+LDAandNaiveBayes
+models
+ACC:accelerometer;BP:barometricpressure;FSR:forcesensingresistor;GYR:gyroscope;IMU:inertialmeasurementunit;sEMG:surfaceelectromyography.ANN:
+artificialneuralnetwork;DT:decisiontree;ELM:extremelearningmachine;FAS:functionalabilityscale;FMA:Fugl-Meyerassessment;HMM:hiddenMarkovmodel;
+LDA:lineardiscriminantanalysis;LR:logisticregression;MLP:multi-layerperceptron;RBF:radialbasisfunction;RF:randomforest;RMSE:root-mean-squareerror;
+SVM:supportvectormachine;SVR:supportvectorregression;XGBoostextremegradientboosting.
+This
+work
+is
+licensed
+under
+a
+Creative
+Commons
+Attribution
+4.0
+License.
+For
+more
+information,
+see
+https://creativecommons.org/licenses/by/4.0/
+VOLUME4,2016
+21
+content
+may
+change
+prior
+to
+final
+publication.
+Citation
+information:
+DOI
+10.1109/ACCESS.2024.3373910
+This
+article
+has
+been
+accepted
+for
+publication
+in IEEE
+Access.
+This
+is
+the
+author's
+version
+which
+has
+not
+been
+fully
+edited
+and
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+TABLE 3: A high-level summary of the features used in stroke rehabilitation using wearable sensor devices is provided. The first column of the table categorizes the
+literatureintofivecategories:(1)timedomain,(2)frequencydomain,(3)statistical,(4)morphological,and(5)dataspecific.Thesecondcolumnidentifiesthetypesof
+features.Thelasttwocolumnsprovideanoverviewoftheadvantagesanddisadvantagesoffivecategoriesoffeaturegroups.
+Domain Features Advantages Disadvantages
+Amplitude:Minimumandmaximumvalues:[16,32,100,109,
+111,112,121];Amplitudeorsumofamplitude:[107,114,117]; • Capturetemporaltrendsanddynamicswithinthe • Limitedfrequencyinformation(doesnot
+Timedomain Range[17,32,102,121],RootMeanSquare(RMS):[16,17,32, data considerfrequencyinformationoftheunderlying
+100,107,111,112,122];Wilsonamplitude[100] • Easytointerpret signal,specificfrequencyevents)
+Temporaldynamics:Shorttimesegment[46,115,116,118,121] • Computationallylessintensive • Insufficientforcomplexsignals
+• Suitableforreal-timeanalysisusingsmall • Lessrobusttonoiseandoutliers Complexityorstructure:Correlationcoefficient[16,100,102,
+segments
+105,111];Entropy[16,32,111,112];Approximateentropy[107,
+121];Linearpredictioncoefficients[118];
+Energy:[37,100,103,111]
+Frequencydominance:Dominantfrequencycomponent[17,37,
+111] • Capturesspectralinformation(fundamental • Needexpertisetounderstandcomplexityin
+Frequencydomain frequencyandharmonics) understandingthephysicalormeaningful
+Powerandenergy:Powerspectraldensity[37];meanpower[37, • Providescompactrepresentation implications
+102];energyratio(dominantfrequencytosignalenergy)[16] • Lessvulnerabletonoise(waystoseparatesignal • Needscarefulwindowingtechniquestohandle
+andnoisecomponents) non-stationarysignals
+• Computationallypricierthantimedomain
+Centraltendency:Mean[16,32,37,102,103,105,107,109,
+111,112,122];Harmonicmean[100];offsetfromthemean[121] • Interpretable(providemeaningfulinsightsof • Representationmaybeinadequate(duetothe
+Statistical signalbehaviorandpatterns) absenceofintricatedetails)
+Dispersion:Skewness[32,100,102,108,111];kurtosis[32,100, • Quantifykeycharacteristicsofthesignal(suchas • Sensitivetoscalingofdata(mayalterdata
+102,108];standarddeviationorvariance[32,100,102,103,105, centraltendency,spread,anddistributionshape) distribution,affectsstatistics)
+117,122];interquartilerange[102] • Comparativelyrobust(suchasmeasurescentral • Dependsonthequalityofdata
+tendency,lessaffectedbyrandomnoiseor
+temporaryfluctuations)
+Signalcharacteristics:Meancrossingnumber[117],zero crossingnumber[32,100,122],slopesignchange[100,121] • Capturesshapeinformation • Largetimecomplexityandcomputationally
+Morphological Shapeandpeak:Waveformlength[122],numberofpeaks[108], • Visuallyinterpretable(specifictopatternsand expensive
+positionofmaxima[108] shapes) • Sensitivitytodataprocessingtechniques
+Taskspecific:Taskduration[111,121]
+Postureandmovement:Axialangleofposture[126],co-
+activationintervalbetweenmusclepairs[17],cumulativelength • Directrelevancetotheproblem • Limitedtospecificdata(maynotapplytoother
+Dataspecific [100] • Contextuallyunderstandable(identificationof availabledataingeneral)
+Angle:Angularposition[37] relevantpatternstoformspecificdecisions) • Subjectivefactorsordatabiasmayaffectthe
+outcomes
+Temporaldynamics:Jerk[16,32,111,112];startandstoptime
+duration[121],elevationchangeduringthetransitionofmovement • Data-specificprocessing(requirescomplex
+analysisandistime-intensive)
+[121],velocitydatasequence[37]
+Distribution:Histogrambincounts[102]
+Regressionandtrend:Slopeoflinearregression[102]
+Demography:Differentdemographicfeatures[109]
+This
+work
+is licensed
+under
+a
+Creative
+Commons
+Attribution
+4.0
+License.
+For
+more
+information,
+see
+https://creativecommons.org/licenses/by/4.0/
+22
+VOLUME4,2016
+content
+may
+change
+prior
+to final
+publication.
+Citation
+information:
+DOI
+10.1109/ACCESS.2024.3373910
+This
+article
+has
+been
+accepted
+for
+publication
+in IEEE
+Access.
+This
+is
+the
+author's
+version
+which
+has
+not
+been
+fully
+edited
+and
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+Centralized machine Learning
+models (global models)
+Wearable devices
+with ML models Cloud server Remote
+(local models) monitoring
+Diagnosis
+(CT scan)
+Privacy-enabled
+communication
+Types of Stroke Surgery
+1. Ischemic Wi-Fi
+2. Hemorrhagic
+Assessment
+3. Others Neuromorphic Bluetooth Clinician
+edge computing Tablet
+Stroke Hot period (acute stage) Rehabilitation period
+Onset 24 hour after onset
+FIGURE7:Thefutureofwearabledevicesinstrokerehabilitation.ThefiguredepictsthevisionforwearabledevicesandML
+algorithmsforrehabilitationafterastroke.MLalgorithmscanbeappliedtowearabledevicestomakepredictions(localmodel)
+andhaveacentraldatabase(globalmodel)topredictoutcomesandadvisepeople,doctors,andhealthworkers.Thefigurealso
+showsprivacy-enabledcommunicationbetweendatacollectiondevicesandthird-partyservers.Italsohighlightsneuromorphic
+edgecomputingcapabilitiesforprovidingefficient(nearreal-time)MLinferencesonportabledevicessuchasasmartwatch.
+rate, respiration rate, body temperature, blood pressure D. SELECTIONANDPLACEMENTOFSENSORS
+information, and movement data may prove advantageous. Theplacementofsensorsonthebodyisessentialforobtain-
+Thecorrelation,however,hasnotyetbeenestablished. ingthedesiredsignalcorrectly.Aseachsensorplaysacrucial
+Anothercrucialaspectofremotemonitoringrelatestothe roleingettingprecisemovementpatterns,artifacts,ornoise,
+abilityofMLmodelstoadapttoindividualrequirements.The incorrect placements or displacements of sensors can result
+current systems posit that offline machine-learning models in significant issues. Although doctors can prescribe several
+can be utilized directly. Nonetheless, this is not the case, training interventions and exercises, it is always possible
+as the ML models have only been exposed to labeled data to misplace body sensors. We require methods to monitor
+andcannotadapttonovel,unobserveddata.Thisnecessitates correctplacementsandobservesensorplacementsautomati-
+researchers to consider adaptable ML models and novel cally.MLalgorithmsareneededtodetectmisplacement,and
+approachestocatertopersonalizedrequirements. they should also identify the artifacts caused by incorrect
+positions and compensate for incorrect information. To our
+C. CONTINUOUSASSESSMENT knowledge,nosuchMLmodelormethodologyisutilizedin
+Visualassessmentorsolelyutilizingclinicalscalescanresult rehabilitation.
+insubjectiveerrors,leadingtoinappropriatephysicaltherapy Duetowearabilityissuesandthesensors’inefficiency,we
+application. Nonetheless, wearable sensor-based continuous cannotcapturethepatternsofalltheactivitiescapturedbythe
+monitoring of subjects during clinical evaluation, regular sensors.Therefore,furtherstudiesarerequiredtodetermine
+hospital routines, and conventional physiotherapy can be theoptimallocationofthewearablesensors.
+utilized to compile a log of activities. This approach will
+assist in comparing the evaluated scores recorded by the E. SIGNALQUALITYANDNOISE
+physiotherapist to the objectively recorded scores by the The signal quality depends significantly on the sensitivity
+wearabledevicesandinferredbytheMLmodels. of the particular sensors and the environment. Sensors that
+Nonetheless, it is imperative to select the appropriate as- capture external body movements exhibit greater sensitivity
+sessmentscale.Assessmentscalesaresubjecttolimitations, andaremorevulnerabletonoise.Aminorerrorduringdata
+includingbutnotlimitedtotheceilingeffect,makingitim- collection from healthy individuals can result in noisy data
+possibletodetectimprovementsinmotoractivitiesprecisely. andanoisymodelofhealthyindividuals.Therefore,astroke
+[107].Theuseofwearablesensorsthatapplypatient-specific patientcanbeattributedtobeinghealthy,orviceversa;that
+movement information (such as angle of movement, time is, an inaccurate movement from a healthy subject can be
+duration to complete a task, and total amount of activity) consideredthemovementofastrokepatient.Moreover,when
+for evaluation could help remove this error. Furthermore, the sensor is positioned on a body part with a significant
+the non-linear analysis of wearable sensor data, such as degree of freedom, the signal may exhibit increased noise
+multiscale entropy [127] or the maximum Lyapunov index if the number and placement of sensors are not precisely
+[128,129],canaddressthisissue. calibrated.
+Sometimes, simple movement sensors (for example, ac-
+VOLUME4,2016 23
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+celerometers)cannotdistinguishonemovementfromanother GooglehasaddressedthisissueviatheTensorProcessing
+due to a limited pattern dissimilarity. Therefore, combining Unit (TPU) [135]. TPUs were explicitly designed for deep
+more than one sensor (multi-sensor fusion) and sensors that learning networks, and they require a smaller number of
+capturethebody’sinternalactivityduringataskisnecessary resourcesandaremuchfasterthanGPUs.Googleintroduced
+toobtainmoreaccurateinformation[130,131]. an Edge TPU into a custom system-on-chip (SoC) named
+Monitoring tasks would be more accurate if data were Google Tensor, and it was released in 2021 with the Pixel
+recorded for extended periods. As in the conventional ap- 6 line of smartphones. Its advantage is that it can achieve
+proach,regularmonitoringposesachallenge;however,long- moreexcellentperformancewithlowerpowerconsumption.
+termmonitoringbywearabledevicesoffersasolution.Dur- Suppose TPU is integrated into stroke watches or wearable
+ing specific exercise practice, patients are required to wear sensors; in that case, the desired scores of stroke patients’
+the device, and information is gained on the improvement progressioncanbeobtainedimmediately,potentiallyopening
+or deterioration of motor function by tracking changes in upanewavenueforthefutureofmonitoringstrokerehabili-
+patternsfromtimetotime.Asingleexerciseisgenerallyof tationsystems.
+short duration, and efficient features can be extracted from
+thesetemporarysignals. H. DATAANDMLMODELS
+Most current rehabilitation methodologies are limited to
+F. TIME-SERIESDATAMODELINGANDANALYSIS controlled environments (laboratory settings). Furthermore,
+The analysis of sensor data signals is carried out primar- the rehabilitation tasks and exercises are predetermined and
+ily based on the characteristics of the time domain. Time- must be adhered to by the subjects. These restrictions limit
+frequencyanalysismayproveadvantageousduetothenon- user mobility and hinder the free movement of individuals.
+stationary nature of sensor data. Furthermore, the feature Therefore, newer approaches are needed, considering un-
+extractionprocesscanbefurtherenhancedbyincorporating controlled environments (laboratory and home settings) and
+characteristics of the frequency domain, the distribution of protocols that are not scripted. Using such techniques to
+sensordata,andthefractalnatureofthesensordata.Recent identify, classify, and categorize tasks would benefit stroke
+advancesindeeplearning,suchasLSTMmodels,havesuc- survivors.
+cessfully extracted time-series features from wearable sen- Current approaches develop ML/DL models, considering
+sors [123, 132]. However, LSTM models are more complex limited data (refer to Table 2). Increasing the number of
+andrequiremuchmoredatatolearnthantraditionalmodels. samples and diversifying the dataset with varying tasks and
+Hence,implementingLSTMinstrokemotorrecoveryneces- scenariosisnecessarytomakethemodelsrobusttodifferent
+sitatesfurtherinvestigation,asdataaccessibilityisfrequently scenarios. Researchers need toshare datasetsand modelsto
+constrained. collaborateanddevelopstrongmodels.
+Moststudiesuseandanalyzeindividualdatabases,making Although ML models are trained using diverse variables,
+comparing different studies difficult. Furthermore, the lim- theyoftencannotbetransferredfromoneenvironmenttoan-
+ited collection of a large amount of data to determine the other.Forexample,wecannotguaranteethattheperformance
+degreeofvariabilitybetweensubjectsfromstrokepatientsis ofmodelsdevelopedspecificallyforlaboratorysettingswill
+difficult, making the analysis process inefficient. Therefore, be the same when used on data collected at home. Models
+future studies should include large cohorts and, where pos- createdinlaboratoriesaretypicallynottailoredtotheneeds
+sible, make these databases available to researchers outside of individuals at home (local or personalized models). We
+organizationswithdueethicsconsiderations. currently do not possess models that can be tailored to
+individualrequirements.
+G. ACCELERATINGMLWORKLOADS The literature indicates that most researchers use super-
+UsingIoTanddeeplearningtoprocesswearablesensordata visedorunsupervisedlearningtoaddresstheirissues.Semi-
+collectedfromstrokepatientsinthecloudrequiressignificant supervised learning is also a promising direction to explore
+power consumption. Graphics Processing Units (GPUs) are when there are many unlabeled samples. Furthermore, the
+commonly utilized as the standard equipment for training studyofsequentialdecision-makinghasnotbeenconducted
+deep learning networks, including but not limited to CNN, instrokerehabilitationresearch.Tothisend,integratingdeep
+RNN, LSTM, and other large models. Images, speech, and learningtechniqueswithreinforcementlearningmayprovide
+sensordatacanbeintroducedinmilliseconds.However,the promisingsolutions.
+powerconsumptionfortrainingadeeplearningmodelisnot
+lessthan100Wwhenusingahigh-performanceGPUsystem I. NEUROMORPHICEDGECOMPUTING
+[133]. According to [134], the power budget for devices Wearable computing units frequently necessitate additional
+such as smartphones, tablets, or watches is approximately energy for novel applications that rely on numerous sensors
+1.5 W, significantly lower than the power requirements for and possess high learning capacities. However, with current
+thecloud-baseddeeplearningmodel.Therefore,itisrecom- portable battery technology, the power supply to wearable
+mended to use cloud-based services to train deep learning devices is insufficient to provide long-term monitoring ca-
+modelsandperforminferenceusingwearablesensors. pabilities. This limitation must be addressed to improve the
+24 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+longevity of wearable devices for continuous monitoring in supplynewdatasamplestoaddressimbalanceddatasetsand
+strokerehabilitation[136]. increase the sample numbers. Nonetheless, it is imperative
+Theintricacyofutilizingawirelessmodule,itssubstantial to conduct additional research to guarantee that the newly
+power consumption, considerable data volume, spatial limi- generated data samples adhere to medical conditions and
+tationsarisingfromwirelesstransmissionrange,andprivacy do not infringe upon patient privacy while generating new
+concerns arising from signal broadcasting. Non-negligible samples.
+timelatencyfromcommunicationchannelsrendersthissolu-
+tionlessthanoptimal[137].Theselimitationsintechnology K. DATASECURITYANDPRIVACY
+severelylimittheapplicabilityofwearablesensors. Healthdataishighlysusceptibleandnecessitatestheutmost
+In contrast to traditional methods that rely on a binary protection against security threats. Lately, the number of
+digital system, brain-inspired neuromorphic hardware is a databreacheshasincreasedsignificantly.Datafromwearable
+promising solution. Still, it needs to be improved regarding sensors must be exchanged with third-party applications,
+data removal, storage, and transmission across variousunits including smartphone apps and web servers, to provide in-
+[137]. From this angle, the front-end processor may be a formationtopatients,caregivers,andhealthprofessionals.
+neuromorphic semiconductor with an intelligent algorithm Manydeeplearningalgorithmsrunonthecloud,andsome
+integratedrightnexttothesensor. lightweightalgorithmsrunonwearabledevices.Thesesignal
+Compared to traditional methods that rely on a binary processing,ML,deeplearningalgorithms,andvisualization
+digital system, brain-inspired neuromorphic hardware is a tools require data transfer from wearable devices (edge de-
+promising solution. However, it still needs to be improved vices)toacentralizedcloudserver.Thispresentsasignificant
+regarding data removal, storage, and transmission across risk of leakage of sensitive health data and jeopardizes data
+various units [137]. From this perspective, the front-end privacy. For innovative healthcare, it is possible to achieve
+processor may be a neuromorphic semiconductor with an securecommunicationusingwearabledevicesbyemploying
+intelligentalgorithmintegratedrightnexttothesensor. identity-basedsystemsandbiometricsthatauthenticateuser
+Spike-TimingDependentPlasticity(STDP),abiologically identityandblockchain-basedimmutabledatasecurity[141,
+inspiredlearningrule,hasbeenthefocusofmanyneuromor- 142].
+phic realizations of on-chip learning. Since synaptic weight Thedifferentialprivacytechnique[143]involvesthetrans-
+changes only occur if presynaptic spikes reach the synapse, fer of patterns in wearable device data to cloud services. A
+thismodelishighlysuitableforevent-basedalgorithms[138, global algorithm updates the appropriate ML model with-
+139]. These developments are encouraging researchers to out utilizing individuals’ raw data. Nevertheless, numerous
+adaptneuromorphicchipsforstrokerehabilitation. financial, societal, and technological obstacles remain when
+assessingtheproperdegreeofprivacyforwearabledevices,
+J. GENERATIVEMODELING notablyinmedicalsettings.
+ThecurrentwaveofAIisdrivenbysuccessindataavailabil-
+ity, generative modeling, and process-intensive computing VI. KEYFINDINGS
+Figure8summarizestheobjectives,sensors,typesoffeature
+infrastructure. Recent developments have propelled several
+extraction, classification models, and various performance
+naturallanguageapplicationstoenablehuman-likeconversa-
+tions, such as OpenAI’s ChatGPT 2. These models are built metrics used in the literature. The main findings of this
+revieware:
+usinglargeGenerativePretrainedTransformer(GPT)models
+incombinationwithsupervisedandreinforcementlearning. • Even though there have been several training interven-
+Large language models (LLMs) have recently been used tionsforstrokerehabilitation,patientsstillneedtoprac-
+inmedicine[140].LLMsusetransformerarchitectureinter- tice helping them get back to their pre-stroke mobility.
+nally to build robust models. They can process human lan- Inadditiontoregularcareathomeorinarehabilitation
+guage (i.e.our written or verbal communication) to drive AI center, patients must perform prescribed exercises and
+algorithmstodevelopspecificmodelsandaugmentmedical otherpossibledailyactivitieswithoutaphysiotherapist.
+competenciesinpatientcare.ChatGPTisanexcellentexam- Remote monitoring of stroke patients’ movements is
+ple of an LLM. Since ChatGPT is a chatbot, it can process necessarytoensurepatientsperformtherecommended
+user queries and return results in the desired style, format, taskscorrectly.
+andlanguage.ChatGPTcanalsowritecode,processimages, • Theextentofremoteassessmentutilizingwearablesen-
+andperformmachine-learningtasks.Itisanemergingareaof sors is contingent upon the training intervention pro-
+researchwithgreatpotentialthatneedsfurtherexploration. vided.Specifictraininginterventions,suchasfunctional
+Furthermore, generative modeling provides many options electricalstimulation(FES),arenotfeasibleforpatients
+for generating new data from existing data distributions. to execute at home or in rehabilitation centers without
+Healthprofessionalsandresearchersoftenencounterimbal- theaidofprofessionals.Therefore,recoveryfromthese
+anceddatasetsandlimitedsamples.Generativemodelingcan interventionsmaynotberemotelymonitored.However,
+virtual reality (VR) can be employed in home-based
+2https://openai.com/research/gpt-4 monitoringsystemswithoutmanualassistance.
+VOLUME4,2016 25
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+Goal
+Identify ADL
+Estimate clinical scores
+Monitoring exercises
+Recognizing gestures
+Recognizing postures Performance metrics
+Accuracy
+Precision
+Recall
+Sensitivity
+Subjects Specificity
+AUC
+Healthy and Post-stroke F1 score
+Maximum–48 subjects Root mean square
+Minimum –3 subjects Coefficient of determination
+ML Models
+Hand-crafted features
+Wearable sensors
+Support Vector Machine
+Inertial sensors Time domain Random Forest
+Accelerometer Frequency domain Hidden Markov Model
+Gyroscope Statistical properties Extreme Learning Machine
+Magnetometer Morphological characteristics Rotation Forest
+Surface EMG (sEMG) K Nearest Neighbors
+Force sensing resistor (FSR) Fuzzy Kernel
+Flex sensor Automatic feature extraction Ensemble Trees
+Pressure sensor Logistic Regression
+Tilt sensor Deep learning –CNN, LSTM) Linear Discriminant Analysis
+Deep Learning
+FIGURE8:AsummaryofthearticlespresentedinTable2includingtheresearchobjectives,sensors,typesoffeatureextraction,
+MLmodels(mostlyclassificationmodels),andperformancemetricsusedintheliterature.
+• Theuseofmotorimagery(MI)issuitableforthosewho tures and a few employ feature selection techniques.
+lack residual movement in their affected limbs. Still, Nonetheless, the acquired knowledge derived from in-
+it is incompatible with general motion-based wearable corporating data from diverse domains will likely en-
+sensors,asnomeasurablemovementoccurs.Thebrain- hance ML models’ learning and prediction outcomes.
+computerinterface(BCI),whereelectrodesareattached Therefore, it is essential to consider different aspects
+to the scalp, is not user-friendly, limiting its usability of the problem, context, and understanding before se-
+forpatientsalone,astheyrequireadditionalassistance. lecting valuable features. Identifying the optimal fea-
+Moreover,itisimperativetoascertainwhetherthebrain turesandselectingthemostsuitableonesisimperative,
+rhythms observed during the MI process are attributed mainlywhendealingwithhand-craftedfeatures.
+toMI. • Deeplearningmethodsarebecomingincreasinglypop-
+• Accelerometers were the most frequently used sensors ular,reducingtheneedforexpertiseinhand-madefea-
+for evaluating body movement compared to other sen- ture extraction. However, understanding the intricacies
+sors.Nonetheless,combiningdatafromdiversesensors ofdeeplearningmodelsandtheavailabilityofcompu-
+enhances the monitoring quality capabilities and the tational resources to build new models require human
+prediction outcomes. Gyroscopes are better at measur- resources, time, and financial support. It also requires
+ing the quality of movement than accelerometers are. qualified people with theoretical and empirical domain
+Additionalsensorsareoftencombinedwithaccelerome- knowledge.
+terstoobtainactivityinformationfromdifferentmodal-
+ities,enhancingthedetectionoutcomes. VII. CONCLUSION
+• Collecting and curating data from subjects and anno- Recovery from stroke is a complex process that probably
+tating data appropriately for use with ML models is a occurs through spontaneous and learning-dependent pro-
+massivetask.It isimperativetoobtaintrainingandes- cesses [144]. The stroke recovery process involves a series
+tablishguidelinestogatherandmanagepersonalhealth of distinct stages, and the duration of recovery and degree
+datawhilerecognizingtheprivacyconcernsofpatients of distress varies according to the individual. Although we
+andtheadvancementsintechnology. have traditional systems and methods for capturing data at
+• Mostmethodsgeneratewindow-basedtime-domainfea- high resolutions, they don’t permit continuous examination,
+26 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+astheyareheavyandunportable. themanagementofchronicobstructivepulmonarydisease:randomized
+Wearable devices with embedded sensors are highly ap- controlledfeasibilitystudy,”JMIRmHealthanduHealth,vol.8,no.6,p.
+e16203,2020.
+pealingastheycancapturehigh-resolutionpatientdatawhile
+[9] F.Gür,G.C.Gür,andV.Ayan,“Theeffectoftheervesmartphoneapp
+beingportable,mobile,andwireless.Furthermore,wearable onphysicalactivity,qualityoflife,self-efficacy,andexercisemotivation
+devicesarepracticalforremotemonitoringofstrokepatients’ forinactivepeople:arandomizedcontrolledtrial,”EuropeanJournalof
+IntegrativeMedicine,vol.39,p.101198,2020.
+daily activities and exercise schedules without a physician.
+[10] M.Ishikawa,S.Yamada,K.Yamamoto,andY.Aoyagi,“Gaitanalysis
+Moreover, the ability of wearable devices to continuously inacomponenttimed-up-and-gotestusingasmartphoneapplication,”
+collectpatientdatareducesmissedopportunitiesfordiagno- Journaloftheneurologicalsciences,vol.398,pp.45–49,2019.
+[11] M.Capecci,L.Pepa,F.Verdini,andM.G.Ceravolo,“Asmartphone-
+sisandtreatment.
+basedarchitecturetodetectandquantifyfreezingofgaitinparkinson’s
+By utilizing the predictive capability of ML models con- disease,”Gait&posture,vol.50,pp.28–33,2016.
+structed using high-resolution wearable sensor data, we can [12] S.Mellone,C.Tacconi,andL.Chiari,“Validityofasmartphone-based
+instrumentedtimedupandgo,”Gait&posture,vol.36,no.1,pp.163–
+developandbuildsystemsfortheautomatic,remote,andpre-
+165,2012.
+cise monitoring of rehabilitation schedules, which was pre- [13] C.Dai,H.Zhang,E.Arens,andZ.Lian,“Machinelearningapproaches
+viously unfeasible. Specifically, combining high-resolution topredictthermaldemandsusingskintemperatures:Steady-statecondi-
+tions,”BuildingandEnvironment,vol.114,pp.1–10,2017.
+data from wearable devices and well-trained ML models
+[14] W.-T.SungandS.-J.Hsiao,“Theapplicationofthermalcomfortcontrol
+enhances the monitoring quality in training intervention, basedonsmarthousesystemofiot,”Measurement,vol.149,p.106997,
+assessment,andremotesupervision. 2020.
+[15] I. Boukhennoufa, X. Zhai, V. Utti, J. Jackson, and K. D. McDonald-
+This review has summarized the relevant research on
+Maier,“Wearablesensorsandmachinelearninginpost-strokerehabili-
+stroke rehabilitation from 2009 to 2023 and cataloged the tationassessment:Asystematicreview,”BiomedicalSignalProcessing
+literature into six categories. These include (i) identifying andControl,vol.71,p.103197,2022.
+[16] S.Patel,R.Hughes,T.Hester,J.Stein,M.Akay,J.G.Dy,andP.Bonato,
+ADL, (ii) estimating clinical scores, (iii) monitoring exer-
+“Anovelapproachtomonitorrehabilitationoutcomesinstrokesurvivors
+cises, (iv) recognizing postures, (v) recognizing gestures, usingwearabletechnology,”ProceedingsoftheIEEE,vol.98,no.3,pp.
+and (vi) deep learning methods. Furthermore, the review 450–461,2010.
+[17] S.H.Roy,M.S.Cheng,S.-S.Chang,J.Moore,G.DeLuca,S.H.Nawab,
+has highlighted the advantages and limitations of existing
+and C. J. De Luca, “A combined semg and accelerometer system for
+techniquesandprovidedfutureresearchdirectionforadopt- monitoringfunctionalactivityinstroke,”IEEETransactionsonNeural
+ing wearable devices in stroke rehabilitation, especially for Systems and Rehabilitation Engineering, vol. 17, no. 6, pp. 585–594,
+2009.
+remotemonitoring.
+[18] J.Gubbi,A.S.Rao,K.Fang,B.Yan,andM.Palaniswami,“Motorre-
+We expect this review to benefit interested researchers in coverymonitoringusingaccelerationmeasurementsinpostacutestroke
+discoveringthecriticalchallengesofusingwearablesensors patients,”Biomedicalengineeringonline,vol.12,no.1,p.33,2013.
+[19] N.Friedman,J.B.Rowe,D.J.Reinkensmeyer,andM.Bachman,“The
+and machine-learning techniques for post-stroke movement
+manumeter:awearabledeviceformonitoringdailyuseofthewristand
+analysis.Thisreviewdidnotdigdeepintoindividualfeatures fingers,” IEEE journal of biomedical and health informatics, vol. 18,
+foundintheliteratureduetothevastnatureofthetopic.We no.6,pp.1804–1812,2014.
+[20] K.D.Nguyen,I.-M.Chen,Z.Luo,S.H.Yeo,andH.B.-L.Duh,“A
+expectafuturesurveybytheresearchcommunitytocomple-
+wearablesensingsystemfortrackingandmonitoringoffunctionalarm
+mentthisarticleandgivereadersadditionalinsights.Lastly, movement,”IEEE/ASMETransactionsonmechatronics,vol.16,no.2,
+weexpectthisreviewtoprovidedirectionsandencouragethe pp.213–220,2011.
+[21] M. Donno, E. Palange, F. D. Nicola, G. Bucci, and F. Ciancetta, “A
+researchcommunitytoexplorenewavenues.
+newflexibleopticalfibergoniometerfordynamicangularmeasurements:
+Applicationtohumanjointmovementmonitoring,”IEEETransactions
+on Instrumentation and Measurement, vol. 57, no. 8, pp. 1614–1620,
+REFERENCES
+2008.
+[1] H. Markus, A. Pereira, and G. Cloud, Stroke medicine. Oxford [22] N.Lee,R.S.Goonetilleke,Y.S.Cheung,andG.M.So,“Aflexibleen-
+UniversityPress,2016. capsulatedmemspressuresensorsystemforbiomechanicalapplications,”
+[2] A.DiCarlo,“Humanandeconomicburdenofstroke,”2009. Microsystemtechnologies,vol.7,no.2,pp.55–62,2001.
+[3] B.H.Dobkin,Theclinicalscienceofneurologicrehabilitation. Oxford [23] E.McNamara,Z.Hudson,andS.J.Taylor,“Measuringactivitylevels
+UniversityPress,2003. ofyoungpeople:thevalidityofpedometers,”Britishmedicalbulletin,
+[4] S. E. Kasner, “Clinical interpretation and use of stroke scales,” The vol.95,no.1,pp.121–137,2010.
+LancetNeurology,vol.5,no.7,pp.603–612,2006. [24] L.Hackett,D.Reed,M.Halaki,andK.A.Ginn,“Assessingthevalidity
+[5] World Health Organization, “International Classifica- of surface electromyography for recording muscle activation patterns
+tion of Functioning, Disability and Health (ICF),” fromserratusanterior,”JournalofElectromyographyandKinesiology,
+https://www.who.int/standards/classifications/international- vol.24,no.2,pp.221–227,2014.
+classification-of-functioning-disability-and-health, online; accessed [25] S. Patel, H. Park, P. Bonato, L. Chan, and M. Rodgers, “A review of
+23May2023. wearablesensorsandsystemswithapplicationinrehabilitation,”Journal
+[6] A. Meigal, L. Gerasimova-Meigal, G. Rego, and D. Korzun, “Motor ofneuroengineeringandrehabilitation,vol.9,no.1,pp.1–17,2012.
+activitysensoricsformhealthsupportofhumanresilienceindailylife,” [26] C. Chircov and A. M. Grumezescu, “Microelectromechanical systems
+in 2022 32nd Conference of Open Innovations Association (FRUCT). (mems)forbiomedicalapplications,”Micromachines,vol.13,no.2,p.
+IEEE,2022,pp.169–177. 164,2022.
+[7] L.Mansson,P.Bäckman,F.Öhberg,J.Sandlund,J.Selling,andM.Sand- [27] P.Maceira-Elvira,T.Popa,A.-C.Schmid,andF.C.Hummel,“Wearable
+lund,“Evaluationofconcurrentvaliditybetweenasmartphoneself-test technology in stroke rehabilitation: towards improved diagnosis and
+prototypeandclinicalinstrumentsforbalanceandlegstrength,”Sensors, treatmentofupper-limbmotorimpairment,”Journalofneuroengineering
+vol.21,no.5,p.1765,2021. andrehabilitation,vol.16,no.1,p.142,2019.
+[8] C. L. Bentley, L. Powell, S. Potter, J. Parker, G. A. Mountain, Y. K. [28] M.KosandI.Kramberger,“Awearabledeviceandsystemformovement
+Bartlett,J.Farwer,C.O’Connor,J.Burns,R.L.Cresswelletal.,“Theuse and biometric data acquisition for sports applications,” IEEE Access,
+ofasmartphoneappandanactivitytrackertopromotephysicalactivityin vol.5,pp.6411–6420,2017.
+VOLUME4,2016 27
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+[29] T.Rukasha,S.IWoolley,T.Kyriacou,andT.Collins,“Evaluationof system,”IEEEtransactionsoninformationtechnologyinbiomedicine,
+wearable electronics for epilepsy: A systematic review,” Electronics, vol.12,no.4,pp.413–423,2008.
+vol.9,no.6,p.968,2020. [49] P.Lopez-Meyer,G.D.Fulk,andE.S.Sazonov,“Automaticdetectionof
+[30] M. Khedr and N. El-Sheimy, “A smartphone step counter using imu temporalgaitparametersinpoststrokeindividuals,”IEEETransactions
+andmagnetometerfornavigationandhealthmonitoringapplications,” onInformationTechnologyinBiomedicine,vol.15,no.4,pp.594–601,
+Sensors,vol.17,no.11,p.2573,2017. 2011.
+[31] S.Milici,A.Lázaro,R.Villarino,D.Girbau,andM.Magnarosa,“Wire- [50] R.T.Li,S.R.Kling,M.J.Salata,S.A.Cupp,J.Sheehan,andJ.E.Voos,
+lesswearablemagnetometer-basedsensorforsleepqualitymonitoring,” “Wearableperformancedevicesinsportsmedicine,”Sportshealth,vol.8,
+IEEESensorsJournal,vol.18,no.5,pp.2145–2152,2018. no.1,pp.74–78,2016.
+[32] S.I.Lee,C.P.Adans-Dester,M.Grimaldi,A.V.Dowling,P.C.Horak, [51] N. Zhao, “Full-featured pedometer design realized with 3-axis
+R. M. Black-Schaffer, P. Bonato, and J. T. Gwin, “Enabling stroke digital accelerometer,” https://www.analog.com/media/en/technical-
+rehabilitationinhomeandcommunitysettings:Awearablesensor-based documentation/technical-articles/pedometer.pdf,AnalogDevices,Tech.
+approachforupper-limbmotortraining,”IEEEJournalofTranslational Rep.44-06,062010,accessed:2023-07-27.
+EngineeringinHealthandMedicine,vol.6,pp.1–11,2018.
+[52] C. Vanroy, D. Vissers, P. Cras, S. Beyne, H. Feys, Y. Vanlandewijck,
+[33] C.E.Lang,J.M.Wagner,D.F.Edwards,andA.W.Dromerick,“Upper andS.Truijen,“Physicalactivitymonitoringinstroke:Sensewearpro2
+extremity use in people with hemiparesis in the first few weeks after activity accelerometer versus yamax digi-walker sw-200 pedometer,”
+stroke,”JournalofNeurologicPhysicalTherapy,vol.31,no.2,pp.56– Disabilityandrehabilitation,vol.36,no.20,pp.1695–1703,2014.
+63,2007.
+[53] E.F.Shepherd,E.Toloza,C.D.McClung,andT.P.Schmalzried,“Step
+[34] S.C.vanderPas,J.A.Verbunt,D.E.Breukelaar,R.vanWoerden,and
+activitymonitor:increasedaccuracyinquantifyingambulatoryactivity,”
+H.A.Seelen,“Assessmentofarmactivityusingtriaxialaccelerometryin
+JournalofOrthopaedicResearch,vol.17,no.5,pp.703–708,1999.
+patientswithastroke,”Archivesofphysicalmedicineandrehabilitation,
+[54] D.FarinaandF.Negro,“Accessingtheneuraldrivetomuscleandtrans-
+vol.92,no.9,pp.1437–1442,2011.
+lationtoneurorehabilitationtechnologies,”IEEEReviewsinbiomedical
+[35] G.Uswatte,W.L.Foo,H.Olmstead,K.Lopez,A.Holand,andL.B.
+engineering,vol.5,pp.3–14,2012.
+Simms,“Ambulatorymonitoringofarmmovementusingaccelerometry:
+[55] M.Al-Ayyad,H.A.Owida,R.DeFazio,B.Al-Naami,andP.Visconti,
+anobjectivemeasureofupper-extremityrehabilitationinpersonswith
+“Electromyography monitoring systems in rehabilitation: A review of
+chronicstroke,”Archivesofphysicalmedicineandrehabilitation,vol.86,
+clinicalapplications,wearabledevicesandsignalacquisitionmethodolo-
+no.7,pp.1498–1501,2005.
+gies,”Electronics,vol.12,no.7,p.1520,2023.
+[36] K.Saremi,J.Marehbian,X.Yan,J.-P.Regnaux,R.Elashoff,B.Bussel,
+[56] C.K.ReddyandC.C.Aggarwal,Healthcaredataanalytics. CRCPress,
+andB.H.Dobkin,“Reliabilityandvalidityofbilateralthighandfoot
+2015,vol.36.
+accelerometrymeasuresofwalkinginhealthyandhemipareticsubjects,”
+Neurorehabilitationandneuralrepair,vol.20,no.2,pp.297–305,2006. [57] K.Adane,M.Gizachew,andS.Kendie,“Theroleofmedicaldatain
+[37] Z.Zhang,L.Liparulo,M.Panella,X.Gu,andQ.Fang,“Afuzzykernel efficientpatientcaredelivery:areview,”Riskmanagementandhealthcare
+motionclassifierforautonomousstrokerehabilitation,”IEEEjournalof policy,pp.67–73,2019.
+biomedicalandhealthinformatics,vol.20,no.3,pp.893–901,2015. [58] A. Burkov, The Hundred-page Machine Learning Book. Andriy
+[38] G.E.Hancock,T.Hepworth,andK.Wembridge,“Accuracyandreliabil- Burkov,2019.[Online].Available:https://themlbook.com/
+ityofkneegoniometrymethods,”Journalofexperimentalorthopaedics, [59] C.CortesandV.Vapnik,“Support-vectornetworks,”Machinelearning,
+vol.5,no.1,pp.1–6,2018. vol.20,pp.273–297,1995.
+[39] A.Tognetti,F.Lorussi,G.D.Mura,N.Carbonaro,M.Pacelli,R.Par- [60] E. Fix and J. L. Hodges, “Discriminatory analysis. nonparametric
+adiso,andD.D.Rossi,“Newgenerationofwearablegoniometersfor discrimination: Consistency properties,” International Statistical Re-
+motioncapturesystems,”Journalofneuroengineeringandrehabilitation, view/Revue Internationale de Statistique, vol. 57, no. 3, pp. 238–247,
+vol.11,no.1,pp.1–17,2014. 1989.
+[40] N. Carbonaro, G. Dalle Mura, F. Lorussi, R. Paradiso, D. De Rossi, [61] T.Hastie,R.Tibshirani,J.H.Friedman,andJ.H.Friedman,Theelements
+andA.Tognetti,“Exploitingwearablegoniometertechnologyformotion ofstatisticallearning:datamining,inference,andprediction. Springer,
+sensing gloves,” IEEE journal of biomedical and health informatics, 2009,vol.2.
+vol.18,no.6,pp.1788–1795,2014. [62] I.Goodfellow,Y.Bengio,andA.Courville,Deeplearning. MITpress,
+[41] S. M. Bierma-Zeinstra, A. Bohnen, R. Ramlal, J. Ridderikhoff, J. A. 2016,http://www.deeplearningbook.org.
+Verhaar,andA.Prins,“Comparisonbetweentwodevicesformeasuring [63] J.MacQueenetal.,“Somemethodsforclassificationandanalysisofmul-
+hipjointmotions,”Clinicalrehabilitation,vol.12,no.6,pp.497–505, tivariateobservations,”inProceedingsofthefifthBerkeleysymposium
+1998. onmathematicalstatisticsandprobability,vol.1,no.14. Oakland,CA,
+[42] J.Keeley,T.G.Mayer,R.Cox,R.J.Gatchel,J.Smith,andV.Mooney, USA,1967,pp.281–297.
+“Quantificationoflumbarfunction.part5:Reliabilityofrange-of-motion [64] J.C.Bezdek,R.Ehrlich,andW.Full,“Fcm:Thefuzzyc-meanscluster-
+measuresinthesagittalplaneandaninvivotorsorotationmeasurement ingalgorithm,”Computers&geosciences,vol.10,no.2-3,pp.191–203,
+technique.”Spine,vol.11,no.1,pp.31–35,1986. 1984.
+[43] D.SolankiandU.Lahiri,“Designofinstrumentedshoesforgaitchar-
+[65] F.NielsenandF.Nielsen,“Hierarchicalclustering,”IntroductiontoHPC
+acterization:Ausabilitystudywithhealthyandpost-strokehemiplegic
+withMPIforDataScience,pp.195–211,2016.
+individuals,”Frontiersinneuroscience,vol.12,p.459,2018.
+[66] M.Ester,H.-P.Kriegel,J.Sander,X.Xuetal.,“Adensity-basedalgo-
+[44] S.K.Manna,M.H.B.Azhar,andA.Greace,“Optimallocationsand
+rithmfordiscoveringclustersinlargespatialdatabaseswithnoise,”in
+computational frameworks of fsr and imu sensors for measuring gait
+kdd,vol.96,no.34,1996,pp.226–231.
+abnormalities,”Heliyon,2023.
+[67] C.M.Bishop,Patternrecognitionandmachinelearning. Springer,2006.
+[45] A. Tognetti, F. Lorussi, N. Carbonaro, D. De Rossi, G. De Toma,
+[68] I.T.JolliffeandJ.Cadima,“Principalcomponentanalysis:areviewand
+C.Mancuso,R.Paradiso,H.Luinge,J.Reenalda,E.Droogetal.,“Daily-
+recentdevelopments,”PhilosophicaltransactionsoftheroyalsocietyA:
+lifemonitoringofstrokesurvivorsmotorperformance:Theinteraction
+Mathematical,PhysicalandEngineeringSciences,vol.374,no.2065,p.
+sensingsystem,”in201436thAnnualInternationalConferenceofthe
+20150202,2016.
+IEEEEngineeringinMedicineandBiologySociety. IEEE,2014,pp.
+4099–4102. [69] O. Chapelle, B. Scholkopf, and A. Zien, “Semi-supervised learning.
+[46] Z. G. Xiao and C. Menon, “Towards the development of a wearable 2006,”Cambridge,Massachusettes:TheMITPressViewArticle,vol.2,
+feedbacksystemformonitoringtheactivitiesoftheupper-extremities,” 2006.
+Journalofneuroengineeringandrehabilitation,vol.11,no.1,p.2,2014. [70] C. J. Wu, “On the convergence properties of the em algorithm,” The
+[47] K.Aminian,B.Najafi,C.Büla,P.-F.Leyvraz,andP.Robert,“Spatio- Annalsofstatistics,pp.95–103,1983.
+temporalparametersofgaitmeasuredbyanambulatorysystemusing [71] Y.Huang,D.Yu,Y.Gong,andC.Liu,“Semi-supervisedgmmanddnn
+miniaturegyroscopes,”Journalofbiomechanics,vol.35,no.5,pp.689– acousticmodeltrainingwithmulti-systemcombinationandconfidence
+699,2002. re-calibration.”inInterspeech,2013,pp.2360–2364.
+[48] S.J.M.Bamberg,A.Y.Benbasat,D.M.Scarborough,D.E.Krebs,and [72] R.S.SuttonandA.G.Barto,Reinforcementlearning:Anintroduction.
+J. A. Paradiso, “Gait analysis using a shoe-integrated wireless sensor MITpress,2018.
+28 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+[73] J.Schulman,S.Levine,P.Abbeel,M.Jordan,andP.Moritz,“Trustregion [99] I.H.Witten,E.Frank,M.A.Hall,andC.J.Pal,DataMining,Fourth
+policyoptimization,”inInternationalconferenceonmachinelearning. Edition:PracticalMachineLearningToolsandTechniques,4thed. San
+PMLR,2015,pp.1889–1897. Francisco,CA,USA:MorganKaufmannPublishersInc.,2016.
+[74] Y.Wang,H.He,andX.Tan,“Trulyproximalpolicyoptimization,”in [100] M.ArifandA.Kattan,“Physicalactivitiesmonitoringusingwearable
+UncertaintyinArtificialIntelligence. PMLR,2020,pp.113–122. accelerationsensorsattachedtothebody,”PloSone,vol.10,no.7,p.
+[75] B.Jang,M.Kim,G.Harerimana,andJ.W.Kim,“Q-learningalgorithms: e0130851,2015.
+Acomprehensiveclassificationandapplications,”IEEEaccess,vol.7,pp. [101] G.P.Sadarangani,X.Jiang,L.A.Simpson,J.J.Eng,andC.Menon,
+133653–133667,2019. “Force myography for monitoring grasping in individuals with stroke
+[76] V. Mnih, K. Kavukcuoglu, D. Silver, A. A. Rusu, J. Veness, M. G. withmildtomoderateupper-extremityimpairments:Apreliminaryin-
+Bellemare,A.Graves,M.Riedmiller,A.K.Fidjeland,G.Ostrovskietal., vestigationinacontrolledenvironment,”Frontiersinbioengineeringand
+“Human-levelcontrolthroughdeepreinforcementlearning,”nature,vol. biotechnology,vol.5,p.42,2017.
+518,no.7540,pp.529–533,2015. [102] M. K. O’Brien, N. Shawen, C. K. Mummidisetty, S. Kaur, X. Bo,
+[77] M.Kuhn,K.Johnsonetal.,Appliedpredictivemodeling. Springer, C.Poellabauer,K.Kording,andA.Jayaraman,“Activityrecognitionfor
+2013,vol.26. personswithstrokeusingmobilephonetechnology:towardimproved
+[78] N.Pudjihartono,T.Fadason,A.W.Kempa-Liehr,andJ.M.O’Sullivan, performance in a home setting,” Journal of medical Internet research,
+“A review of feature selection methods for machine learning-based vol.19,no.5,2017.
+diseaseriskprediction,”FrontiersinBioinformatics,vol.2,p.927312, [103] T.Tran,L.-C.Chang,I.Almubark,E.M.Bochniewicz,L.Shu,P.S.Lum,
+2022. andA.Dromerick,“Robustclassificationoffunctionalandnonfunctional
+[79] K.-R. Müller, S. Mika, G. Rätsch, K. Tsuda, and B. Schölkopf, “An armmovementafterstrokeusingasinglewrist-wornsensordevice,”in
+introductiontokernel-basedlearningalgorithms,”IEEETransactionson 2018IEEEinternationalconferenceonbigdata(bigdata). IEEE,2018,
+NeuralNetworks,vol.12,no.2,pp.181–201,2001. pp.5457–5459.
+[80] C.-C.ChangandC.-J.Lin,“Libsvm:alibraryforsupportvectorma- [104] E.M.Bochniewicz,G.Emmer,A.McLeod,J.Barth,A.W.Dromerick,
+chines,”ACMtransactionsonintelligentsystemsandtechnology(TIST), andP.Lum,“Measuringfunctionalarmmovementafterstrokeusinga
+vol.2,no.3,pp.1–27,2011. singlewrist-wornsensorandmachinelearning,”JournalofStrokeand
+[81] ——, “LIBSVM – A Library for Support Vector Machines,” CerebrovascularDiseases,vol.26,no.12,pp.2880–2887,2017.
+http://www.csie.ntu.edu.tw/ cjlin/libsvm/, [Online; accessed 02-Feb-
+[105] P.-W.Chen,N.A.Baune,I.Zwir,J.Wang,V.Swamidass,andA.W.
+2015].
+Wong,“Measuringactivitiesofdailylivinginstrokepatientswithmotion
+[82] L. Breiman, “Random forests,” Machine learning, vol. 45, pp. 5–32, machine learning algorithms: A pilot study,” International journal of
+2001. environmentalresearchandpublichealth,vol.18,no.4,p.1634,2021.
+[83] ——,Classificationandregressiontrees. Routledge,2017.
+[106] S. L. Wolf, J. P. McJunkin, M. L. Swanson, and P. S. Weiss, “Pilot
+[84] F. Rosenblatt, “The perceptron: a probabilistic model for information
+normativedatabaseforthewolfmotorfunctiontest,”Archivesofphysical
+storage and organization in the brain.” Psychological review, vol. 65,
+medicineandrehabilitation,vol.87,no.3,pp.443–445,2006.
+no.6,p.386,1958.
+[107] L.Yu,D.Xiong,L.Guo,andJ.Wang,“Aremotequantitativefugl-meyer
+[85] D.E.Rumelhart,G.E.Hinton,andR.J.Williams,“Learningrepresen-
+assessment framework for stroke patients based on wearable sensor
+tationsbyback-propagatingerrors,”nature,vol.323,no.6088,pp.533–
+networks,”Computermethodsandprogramsinbiomedicine,vol.128,
+536,1986.
+pp.100–110,2016.
+[86] A.Krizhevsky,I.Sutskever,andG.E.Hinton,“Imagenetclassification
+[108] B.Oubre,J.-F.Daneault,H.-T.Jung,K.Whritenour,J.G.V.Miranda,
+withdeepconvolutionalneuralnetworks,”Advancesinneuralinforma-
+J.Park,T.Ryu,Y.Kim,andS.I.Lee,“Estimatingupper-limbimpairment
+tionprocessingsystems,vol.25,2012.
+levelinstrokesurvivorsusingwearableinertialsensorsandaminimally-
+[87] Y.LeCun,Y.Bengio,andG.Hinton,“Deeplearning,”nature,vol.521,
+burdensome motor task,” IEEE Transactions on Neural Systems and
+no.7553,pp.436–444,2015.
+RehabilitationEngineering,vol.28,no.3,pp.601–611,2020.
+[88] C.Yang,W.Jiang,andZ.Guo,“Timeseriesdataclassificationbasedon
+[109] E.Park,K.Lee,T.Han,andH.S.Nam,“Automaticgradingofstroke
+dualpathcnn-rnncascadenetwork,”IEEEAccess,vol.7,pp.155304–
+symptomsforrapidassessmentusingoptimizedmachinelearningand
+155312,2019.
+4-limbkinematics:clinicalvalidationstudy,”JournalofmedicalInternet
+[89] P.Ivaturi,M.Gadaleta,A.C.Pandey,M.Pazzani,S.R.Steinhubl,and
+research,vol.22,no.9,p.e20641,2020.
+G.Quer,“Acomprehensiveexplanationframeworkforbiomedicaltime
+[110] N. V. Chawla, K. W. Bowyer, L. O. Hall, and W. P. Kegelmeyer,
+seriesclassification,”IEEEjournalofbiomedicalandhealthinformatics,
+“Smote:syntheticminorityover-samplingtechnique,”Journalofartificial
+vol.25,no.7,pp.2398–2408,2021.
+intelligenceresearch,vol.16,pp.321–357,2002.
+[90] M.Panwar,D.Biswas,H.Bajaj,M.Jöbges,R.Turk,K.Maharatna,and
+[111] C.Adans-Dester,N.Hankov,A.O’Brien,G.Vergara-Diaz,R.Black-
+A.Acharyya,“Rehab-net:Deeplearningframeworkforarmmovement
+Schaffer,R.Zafonte,J.Dy,S.I.Lee,andP.Bonato,“Enablingprecision
+classification using wearable sensors for stroke rehabilitation,” IEEE
+rehabilitationinterventionsusingwearablesensorsandmachinelearning
+TransactionsonBiomedicalEngineering,vol.66,no.11,pp.3026–3037,
+totrackmotorrecovery,”NPJdigitalmedicine,vol.3,no.1,p.121,2020.
+2019.
+[91] B.B.NairandN.Sakthivel,“Adeeplearning-basedupperlimbrehabili- [112] J.-I.Pan,H.-W.Chung,andJ.-J.Huang,“Intelligentshoulderjointhome-
+tationexercisestatusidentificationsystem,”ArabianJournalforScience basedself-rehabilitationmonitoringsystem,”Int.J.SmartHome,vol.7,
+andEngineering,vol.48,no.2,pp.1237–1271,2023. no.5,pp.395–404,2013.
+[92] S.HochreiterandJ.Schmidhuber,“Longshort-termmemory,”Neural [113] A.YurtmanandB.Barshan,“Automatedevaluationofphysicaltherapy
+computation,vol.9,no.8,pp.1735–1780,1997. exercisesusingmulti-templatedynamictimewarpingonwearablesensor
+[93] F.A.Gers,N.N.Schraudolph,andJ.Schmidhuber,“Learningprecise signals,” Computer methods and programs in biomedicine, vol. 117,
+timingwithlstmrecurrentnetworks,”Journalofmachinelearningre- no.2,pp.189–207,2014.
+search,vol.3,no.Aug,pp.115–143,2002. [114] L.Yu,D.Xiong,L.Guo,andJ.Wang,“Acompressedsensing-based
+[94] Y.Yu,X.Si,C.Hu,andJ.Zhang,“Areviewofrecurrentneuralnetworks: wearablesensornetworkforquantitativeassessmentofstrokepatients,”
+Lstmcellsandnetworkarchitectures,”Neuralcomputation,vol.31,no.7, Sensors,vol.16,no.2,p.202,2016.
+pp.1235–1270,2019. [115] E.S.Sazonov,G.Fulk,J.Hill,Y.Schutz,andR.Browning,“Monitoring
+[95] A.Vaswani,N.Shazeer,N.Parmar,J.Uszkoreit,L.Jones,A.N.Gomez, ofpostureallocationsandactivitiesbyashoe-basedwearablesensor,”
+Ł.Kaiser,andI.Polosukhin,“Attentionisallyouneed,”Advancesin IEEETransactionsonBiomedicalEngineering,vol.58,no.4,pp.983–
+neuralinformationprocessingsystems,vol.30,2017. 990,2010.
+[96] U. Kamath, K. Graham, and W. Emara, Transformers for Machine [116] G.D.FulkandE.Sazonov,“Usingsensorstomeasureactivityinpeople
+Learning:ADeepDive. ChapmanandHall/CRC,2022. withstroke,”Topicsinstrokerehabilitation,vol.18,no.6,pp.746–757,
+[97] Y.Tian,Y.Zhang,andH.Zhang,“Recentadvancesinstochasticgradient 2011.
+descentindeeplearning,”Mathematics,vol.11,no.3,p.682,2023. [117] G. D. Fulk, S. R. Edgar, R. Bierwirth, P. Hart, P. Lopez-Meyer, and
+[98] P.Probst,A.-L.Boulesteix,andB.Bischl,“Tunability:Importanceofhy- E.Sazonov,“Identifyingactivitylevelsandstepsinpeoplewithstroke
+perparametersofmachinelearningalgorithms,”TheJournalofMachine usinganovelshoe-basedsensor,”JournalofNeurologicPhysicalTher-
+LearningResearch,vol.20,no.1,pp.1934–1965,2019. apy,vol.36,no.2,p.100,2012.
+VOLUME4,2016 29
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+[118] J. Cheng, X. Chen, and M. Shen, “A framework for daily activity [137] E.Covi,E.Donati,X.Liang,D.Kappel,H.Heidari,M.Payvand,and
+monitoringandfalldetectionbasedonsurfaceelectromyographyandac- W. Wang, “Adaptive extreme edge computing for wearable devices,”
+celerometersignals,”IEEEjournalofbiomedicalandhealthinformatics, FrontiersinNeuroscience,vol.15,p.611300,2021.
+vol.17,no.1,pp.38–45,2013. [138] P.U.DiehlandM.Cook,“Efficientimplementationofstdprulesonspin-
+[119] S.R.Eddy,“Whatisahiddenmarkovmodel?”Naturebiotechnology, nakerneuromorphichardware,”in2014InternationalJointConference
+vol.22,no.10,pp.1315–1316,2004. onNeuralNetworks(IJCNN). IEEE,2014,pp.4288–4295.
+[120] S.ZhongandJ.Ghosh,“Hmmsandcoupledhmmsformulti-channeleeg [139] G.K.Chen,R.Kumar,H.E.Sumbul,P.C.Knag,andR.K.Krishna-
+classification,”inProceedingsofthe2002InternationalJointConference murthy,“A4096-neuron1m-synapse3.8-pj/sopspikingneuralnetwork
+onNeuralNetworks.IJCNN’02(Cat.No.02CH37290),vol.2. IEEE, with on-chip stdp learning and sparse weights in 10-nm finfet cmos,”
+2002,pp.1154–1159. IEEEJournalofSolid-StateCircuits,vol.54,no.4,pp.992–1002,2018.
+[121] F. Masse, R. Gonzenbach, A. Paraschiv-Ionescu, A. R. Luft, and [140] J.Clusmann,F.R.Kolbinger,H.S.Muti,Z.I.Carrero,J.-N.Eckardt,
+K.Aminian,“Wearablebarometricpressuresensortoimprovepostural N. G. Laleh, C. M. L. Löffler, S.-C. Schwarzkopf, M. Unger, G. P.
+transitionrecognitionofmobility-impairedstrokepatients,”IEEEtrans- Veldhuizen et al., “The future landscape of large language models in
+actionsonneuralsystemsandrehabilitationengineering,vol.24,no.11, medicine,”CommunicationsMedicine,vol.3,no.1,p.141,2023.
+pp.1210–1217,2016. [141] P.J.Soh,G.A.Vandenbosch,M.Mercuri,andD.M.-P.Schreurs,“Wear-
+[122] G.Yang,J.Deng,G.Pang,H.Zhang,J.Li,B.Deng,Z.Pang,J.Xu, ablewirelesshealthmonitoring:Currentdevelopments,challenges,and
+M.Jiang,P.Liljebergetal.,“Aniot-enabledstrokerehabilitationsystem future trends,” IEEE Microwave Magazine, vol. 16, no. 4, pp. 55–70,
+basedonsmartwearablearmbandandmachinelearning,”IEEEjournal 2015.
+of translational engineering in health and medicine, vol. 6, pp. 1–10, [142] M.A.KhanandK.Salah,“Iotsecurity:Review,blockchainsolutions,
+2018. andopenchallenges,”FutureGenerationComputerSystems,vol.82,pp.
+395–411,2018.
+[123] A. Kaku, A. Parnandi, A. Venkatesan, N. Pandit, H. Schambra, and
+[143] C.DworkandA.Roth,“TheAlgorithmicFoundationsofDifferential
+C. Fernandez-Granda, “Towards data-driven stroke rehabilitation via
+Privacy,” Foundations and Trends® in Theoretical Computer Science,
+wearablesensorsanddeeplearning,”inMachineLearningforHealthcare
+vol.9,no.3–4,pp.211–407,Aug.2014.
+Conference. PMLR,2020,pp.143–171.
+[144] P.Langhorne,J.Bernhardt,andG.Kwakkel,“Strokerehabilitation,”The
+[124] S.H.Chae,Y.Kim,K.-S.Lee,andH.-S.Park,“Developmentandclinical
+Lancet,vol.377,no.9778,pp.1693–1702,2011.
+evaluationofaweb-basedupperlimbhomerehabilitationsystemusing
+asmartwatchandmachinelearningmodelforchronicstrokesurvivors:
+prospectivecomparativestudy,”JMIRmHealthanduHealth,vol.8,no.7,
+p.e17216,2020.
+[125] E.S.Sazonov,G.Fulk,J.Hill,Y.Schutz,andR.Browning,“Monitoring
+ofpostureallocationsandactivitiesbyashoe-basedwearablesensor,”
+IEEETransactionsonBiomedicalEngineering,vol.58,no.4,pp.983–
+990,2011.
+[126] H.-S. Cheng, M.-S. Ju, and C.-C. K. Lin, “Improving elbow torque
+outputofstrokepatientswithassistivetorquecontrolledbyemgsignals,”
+NANDINISENGUPTAreceivedtheB.Tech.de-
+Journalofbiomechanicalengineering,vol.125,no.6,pp.881–886,2003.
+greeinElectronicsandCommunicationEngineer-
+[127] Y.-L. Hsieh and M. F. Abbod, “Gait analyses of parkinson’s disease
+ingfromWestBengalUniversityofTechnology,
+patientsusingmultiscaleentropy,”Electronics,vol.10,no.21,p.2604,
+2021. Kolkata,India,in2012andtheM.S.(byResearch)
+[128] T.Inagaki,Y.Akiyama,S.Okamoto,T.Mayumi,andY.Yamada,“Re- fromtheDepartmentofElectronicsandElectrical
+lationshipbetweengaitstabilityindicesandgaitparameterscomprising Communication Engineering, Indian Institute of
+jointanglesbasedonwalkingdatafrom288people,”NagoyaJournalof TechnologyKharagpur,Kharagpur,India,in2017.
+MedicalScience,vol.85,no.2,p.211,2023. SheisworkingtowardaPh.D.intheDepartment
+[129] A.Ekizos,A.Santuz,A.Schroll,andA.Arampatzis,“Themaximum of Electrical and Electronic Engineering at the
+lyapunovexponentduringwalkingandrunning:Reliabilityassessment UniversityofMelbourne,Parkville,Australia.Her
+ofdifferentmarker-sets,”Frontiersinphysiology,vol.9,p.1101,2018. researchinterestsincludebiomedicalsignalprocessing,machinelearning,
+[130] P.ZhangandJ.Zhang,“Deeplearninganalysisbasedonmulti-sensorfu- andstrokerehabilitation.
+siondataforhemiplegiarehabilitationtrainingsystemforstokepatients,”
+Robotica,vol.40,no.3,pp.780–797,2022.
+[131] S. Qiu, Z. Wang, H. Zhao, L. Liu, and Y. Jiang, “Using body-worn
+sensorsforpreliminaryrehabilitationassessmentinstrokevictimswith
+gaitimpairment,”IEEEAccess,vol.6,pp.31249–31258,2018.
+[132] Y.-A.Choi,S.-J.Park,J.-A.Jun,C.-S.Pyo,K.-H.Cho,H.-S.Lee,and
+J.-H.Yu,“Deeplearning-basedstrokediseasepredictionsystemusing
+real-timebiosignals,”Sensors,vol.21,no.13,p.4269,2021.
+[133] S.Collange,D.Defour,andA.Tisserand,“Powerconsumptionofgpus
+from a software perspective,” in Computational Science–ICCS 2009: ARAVINDAS.RAO(SeniorMember,IEEE)re-
+9thInternationalConferenceBatonRouge,LA,USA,May25-27,2009 ceived the PhD degree from the Department of
+Proceedings,PartI9. Springer,2009,pp.914–923. ElectricalandElectronicEngineering,University
+[134] M.Halpern,Y.Zhu,andV.J.Reddi,“Mobilecpu’srisetopower:Quan- ofMelbourne,Parkville,VIC,Australia,in2016,
+tifyingtheimpactofgenerationalmobilecpudesigntrendsonperfor- where he is working as a Research Fellow with
+mance,energy,andusersatisfaction,”in2016IEEEInternationalSym- theDepartmentofElectricalandElectronicEngi-
+posiumonHighPerformanceComputerArchitecture(HPCA). IEEE, neering.HisresearchinterestsincludetheInternet
+2016,pp.64–76. ofThings,computervision,machinelearning,and
+[135] N.P.Jouppi,C.Young,N.Patil,D.Patterson,G.Agrawal,R.Bajwa, artificialintelligence.Heisareviewerforseveral
+S.Bates,S.Bhatia,N.Boden,A.Borchersetal.,“In-datacenterperfor- journals,includingIEEEInternetofThingsJour-
+manceanalysisofatensorprocessingunit,”inProceedingsofthe44th nal,IEEETransactionsonMultimedia,andIEEETransactionsonCircuits
+annualinternationalsymposiumoncomputerarchitecture,2017,pp.1–
+andSystemsforVideoTechnology.
+12.
+[136] A.PantelopoulosandN.G.Bourbakis,“Asurveyonwearablesensor-
+basedsystemsforhealthmonitoringandprognosis,”IEEETransactions
+onSystems,Man,andCybernetics,PartC(ApplicationsandReviews),
+vol.40,no.1,pp.1–12,2009.
+30 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3373910
+Senguptaetal.:PreparationofPapersforIEEETRANSACTIONSandJOURNALS
+BERNARD YAN is a dual-trained Neurologist
+and Endovascular Neurointerventionist (a sub-
+specialty which treats acute stroke, aneurysms
+andarterio-venousmalformation).Hecompleted
+specialty training in Neurology in Melbourne,
+Australia,andatwo-yearsubspecialtyfellowship
+in endovascular neuro-intervention in Frankfurt,
+Germany.Hisclinicalexpertiseisinthetreatment
+of stroke and aneurysms. Management of acute
+strokehasundergoneaparadigmshiftinthepast
+tenyears,andinparticular,acutemechanicalthrombectomy(aminimally
+invasive technique to unblock brain arteries) is now the gold standard of
+careforsuchpatients.Heistheprincipalinvestigatorofseveralinternational
+studiesincerebrovasculardiseasesandistheCo-principalinvestigatorofa
+multicenterresearchDIRECT-SAFE.Heisanawardeeofacademicgrants
+bytheNationalHealthandMedicalResearchCouncil(NHMRC).Oneof
+his fundamental research interests is the development of portable mobile
+wirelesssensorsformonitoringpatientswithneurologicaldiseases.These
+devicesaredesignedtomonitorthemotorrecoveryofstrokepatientsand
+thefrequencyofepilepticseizuresinpatientswithepilepsy.
+MARIMUTHU PALANISWAMI (Fellow, IEEE)
+received the M.E. degree from the Indian Insti-
+tute of Science Bengaluru, Bengaluru, India, in
+1977, the M.Eng.Sc. Degree from the Univer-
+sity of Melbourne, Parkville, VIC, Australia, in
+1983, and a Ph.D. from the University of New-
+castle,Callaghan,NSW,Australia,in1987.Heis
+a Professor at the Department of Electrical and
+ElectronicEngineering,UniversityofMelbourne,
+Melbourne,VIC,Australia.Hehaspublishedover
+400refereedresearcharticlesandledoneofthelargestfundedAustralian
+research councils, a research network on intelligent sensors, sensor net-
+works,andinformationprocessingprograms.Hehasbeenfundedbyseveral
+ARCandindustrygrants(morethan$40M)toconductresearchinsupport
+vectormachines,sensors,sensornetworks,theIoT,machinelearning,neural
+networks, pattern recognition, signal processing, and control areas. He
+representsAustraliaasacorepartnerinEuropeanUnionFP7projects,such
+asSENSEI,SmartSantander,theInternetofThingsInitiative,andSocIoTal.
+VOLUME4,2016 31
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/

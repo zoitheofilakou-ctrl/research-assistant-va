@@ -1,0 +1,1202 @@
+International Journal of Critical Care Volume 18 Issue 3
+Review
+The Potential Role of Soundscape and Music
+Interventions in post-Intensive Care Rehabilitation: A
+Narrative Review
+Shaista Meghani, RN, RM, MN1; Michael Frishkopf, PhD2; Tanya Park, RN, RM, PhD3; Carmel L. Montgomery, RN,
+MN, PhD4; Colleen Norris, PhD, MScN, BScN, RN, FAHA, FCAHS4; Elizabeth Papathanassoglou, RN, MSc, PhD4,5
+1. Edmonton Clinic Health Academy, University of Alberta, Edmonton, AB, Canada
+2. Department of Music, Canadian Centre for Ethnomusicology, University of
+Alberta, Edmonton, AB, Canada
+Citation: Meghani S, Frishkopf 3. College of Healthcare Sciences, James Cook University, Nguma-bada campus,
+Cairns, Queensland, Australia.
+M, Park T, Montgomery CL,
+4. College of Nursing, University of Alberta
+Norris C, Papathanassoglou E. 5. Edmonton Clinic Health Academy, Edmonton, AB, Canada
+Potential role of soundscape and Corresponding author: Shaista Meghani at shaista@ualberta.ca
+music interventions in post-
+intensive care rehabilitation.
+International Journal of Critical Care
+ABSTRACT
+2023;18(3):68-97. doi: Post Intensive Care Unit (ICU) survivors face physical, psychological, and
+10.29173/ijcc992 cognitive impairments during their recovery phase, adversely affecting
+their quality of life. Given the worldwide scarcity and barriers to access to
+post-ICU care, patient-centered adjuncts are worth exploring. Although
+music interventions have gained recognition as non-pharmacological
+approaches in the acute phase of critical illness, exploration of their
+potential benefits in the post-ICU is scarce. This paper examines the
+Academic Editors: potential of soundscape and music interventions to improve the well-
+being of adult patients’ post-ICU through a narrative overview of research
+Ged Williams, RN, Crit. Care Cert.,
+evidence regarding post-ICU recovery and other relevant post-acute
+LLM, MHA, FACN, FACHSM, FAAN
+conditions, such as post-traumatic stress disorder and anxiety. The
+Natalie L. McEvoy, PhD, MSc, BSc, effectiveness of sound/ music interventions on several key outcomes,
+RGN, Pg Diploma, StAR Lecturer in including reduced anxiety, stress, pain, and PTSD, improved sleep, and
+Critical Care, Royal College of enhanced mood and emotional well-being, have been explored. Research
+Surgeons, Ireland indicates that music-based approaches to physical and psychological well-
+being reduce emotional distress, foster connectedness, and improve
+Wendy Pollock, RN, RM PhD FHEA, overall well-being. The potential benefits of soundscape and music
+Associate Professor, Deputy Director interventions, both in terms of physiological and psychological well-
+of Research, Monash University, being, encourage further investigation into their potential application and
+Australia implementation into post-ICU care and rehabilitation.
+Managing Editor: Patricia Zrelak,
+PhD, RN, NEA-bc, SCRN, CNRN, Keywords: Music, post-ICU, recovery, rehabilitation, soundscape,
+ASC-BC, CCRN-K, PHN, FAHA survivors
+Published: November 2024
+INTRODUCTION
+Acknowledgments: None
+Post-intensive care unit (ICU) recovery and
+rehabilitation are challenging clinical issues as patients
+may experience persistent pain and physical,
+psychological, and cognitive impairments. These may
+Copyright: © 2024 by the authors.
+Open access publication under the
+wwtewrm.ws afncdc cno-nidjcitcio.cnso omf t|hIeS CSreNat i2ve8 16-9050 68
+Commons Attribution (CC BY NC)
+license
+(https://creativecommons.org/licenses
+/by-nc/4.0/).
+International Journal of Critical Care Volume 18 Issue 3
+be either worsened or new impairments, adversely affecting an
+individual’s quality of life, and may persist for months or years post-ICU
+discharge (Brown et al., 2019). The numbers and complexity of the
+condition of former ICU patients are increasing, along with global
+increases in ICU admissions, ranging from 1 to 54% per hospital stay
+(Abate et al., 2021; Sjording et al., 2016). In Canada, more than 1 in 5 (21%)
+hospital stays are intensive care unit admissions. Among these patients,
+60% receive mechanical ventilation (CIHI, 2022), accounting for more
+complex needs post-ICU.
+Promoting physical and psychological well-being for former ICU
+patients is resource-and cost-intensive, as it requires the availability of
+large multidisciplinary teams of physicians, nurses, physical and
+occupational therapists, nutritionists, psychologists, and psychiatrists
+(Liang et al., 2020). Worldwide, access to post-ICU care is very limited,
+either due to the unavailability of programs or patient-load and care
+coordination barriers (Rousseau et al., 2021). Evidence on the effectiveness
+of post-ICU clinics is scarce (Schofield-Robinson et al., 2018), which further
+hinders the implementation of post-ICU programs. As former ICU
+patients’ needs remain unmet, there is an urgency to explore easily
+implemented, low-cost, and approachable solutions.
+Clinical practice guidelines recommend exploration of
+complementary and non-pharmacological measures, such as music
+interventions, to manage symptoms and to promote recovery in the ICU
+and post-ICU (Ames et al., 2017; Barr et al., 2013). Evidence from
+populations with mental health challenges and functional deficits shows
+that music interventions can improve psychological well-being and
+rehabilitation (Golden et al., 2021). However, the exploration of music and
+soundscape interventions to promote psycho-physical well-being in ICU
+survivors is very limited. These interventions could provide a low-cost,
+non-pharmacological, and easy-to-implement adjunct to improve post-
+ICU impairments.
+Soundscapes are acoustic environments experienced by an
+individual or group of people in the environment (ISO, 2014). A
+soundscape is a sound or combination of sounds that may consist of
+natural sounds, human sounds, life sounds, earth sounds or some
+combination. Evidence indicates that positively perceived sounds, for
+example, natural sounds, are tied with a high quality of life and enhanced
+physical and psychological health (Aletta et al., 2018). Music, on the other
+hand, is both an art and science of arranging sounds through melody,
+www.wfccn-ijcc.com|ISSN 2816-9050 69
+International Journal of Critical Care Volume 18 Issue 3
+harmony, tone, rhythm, and timbre. It combines vocal or instrumental
+arrangements (Merriam-Webster’s Collegiate Dictionary, 1994). Music not
+only evokes emotions or feelings, but it is a medium of nonverbal
+communication (Bruscia, 1998).
+In this paper, we examine the potential of soundscape/ music
+interventions as an adjunct therapeutic modality to improve the well-being
+of adult post-ICU patients, through a narrative overview of published
+evidence regarding post-ICU recovery and other relevant post-acute
+conditions, such as post-traumatic disorder and anxiety. To highlight
+patients’ needs that could be addressed through soundscape/ music
+approaches, we summarize evidence on post-ICU impairments in ICU
+survivors, as well as the current ICU care. We then provide an overview of
+applications of music/sound interventions in post-acute conditions, and
+we discuss evidence on the attributes of music/sound interventions.
+METHODS
+We conducted a narrative review in the last quarter of 2023. We used
+systematic literature searches in Medline, PubMed, EBSCO, Scopus,
+targeting original research papers published in English. We used keyword
+searches including combinations of the terms: (critical care, intensive care
+OR ICU, CCU), AND (post-ICU OR post-ICU OR post-intensive care unit,
+PICS OR post-intensive care syndrome, OR ICU survivor OR intensive
+care survivor), AND (rehab or recovery or long-term care, follow up),
+AND (music or sound). Articles published between 1990 and 2023 were
+included for further analysis. The questions guiding the review were: a)
+what are the healthcare needs of ICU survivors, and (b) what are the
+potential effects of soundscape and music interventions in improving the
+well-being of ICU survivors?
+Health Care Needs After ICU Discharge
+Post ICU Syndrome (PICS)
+The transition from ICU to home is a complex process. Post-ICU
+impairments may persist for months or years. The combination of
+impairments and sequelae experienced by ICU survivors is termed ‘Post
+ICU syndrome’ (PICS). Post-ICU syndrome encompasses a combination of
+physical, neurological, social, and psychological decline (Jaffri & Jaffri,
+2020), and is viewed as an ‘umbrella term’ (Rousseau et al., 2021). Physical
+complications post ICU include bone loss, joint stiffness, increased risk of
+fractures, swallowing disorders, endocrine and metabolic disorders, sleep
+www.wfccn-ijcc.com|ISSN 2816-9050 70
+International Journal of Critical Care Volume 18 Issue 3
+disorders, fatigue, persistent pain (nociceptive or neuropathic), nerve
+injuries, and alteration in cortisol and pituitary hormone levels (Rousseau
+et al., 2021), experienced by nearly one-third of the patients (Huang et al.,
+2021). Intensive care unit-acquired weakness and muscle weakness are the
+most common physical impairments observed in ICU survivors (Morgan,
+2021). Physiological and somatic symptoms following critical illness are
+very common, but often under-recognized. ICU survivors are likely to
+suffer from chronic pain and sleep disorders. Managing pain in ICU
+patients is complex and challenging. Persistent and reoccurring pain for 3
+months is common among post-ICU patients. Despite analgesia, the
+incidence of chronic pain after ICU discharge is high, ranging from 33-73%
+(Stamenkovic et al., 2019). Most ICU patients are treated with opioids for
+acute and chronic pain, however, its use for symptom control may not
+always represent an ideal approach. These opioids can be associated with
+long-term consequences which can lead to opioid dependence, tolerance,
+addiction, and various psycho-physiological effects (Stamenkovic et al.,
+2019). Sleep disturbances are also significant after ICU discharge. Reduced
+and fragmented sleep predispose patients to adverse outcomes (Altman et
+al., 2018). The prevalence of self-reported sleep disturbance in post-ICU
+survivors can 50–66.7% in the first month, and as high as 61% more than
+6 months after ICU discharge (Altman et al., 2017; Schwitzer et al., 2023).
+Sleep abnormalities increase the risk of cardiovascular disease, depression,
+cognitive impairment, seizures, and overall mortality (Altman et al., 2017).
+Cognitive impairment is also a serious and common deficit in ICU
+survivors. It may be even more severe if ICU patients have a prior
+cognitive impairment. More than 70% of critically ill patients experience
+cognitive impairment at 12 months post-ICU discharge (Rivosecchi et al.,
+2016). Clinical manifestations include decreased attention and
+concentration, a decline in memory, and decreased mental processing and
+comprehension. These prohibit patients from engaging in daily living
+activities and returning to their premorbid functional status (Schwitzer et
+al., 2023). ICU survivors are also at risk for suicide and self-harm
+(Schwitzer et al., 2023). Problems with mental health can lead to disability
+and reduced health-related quality of life for both patients and their
+families (Schwitzer et al., 2023).
+High stress, anxiety, sleep deprivation, depression, and post-
+traumatic stress disorder (PTSD) symptoms are very common in post-ICU
+patients and may compromise recovery and survival (Schwitzer et al.,
+2023), as described below. PICS also contributes to social impairment in
+www.wfccn-ijcc.com|ISSN 2816-9050 71
+International Journal of Critical Care Volume 18 Issue 3
+post-ICU patients, especially in relation to decreased social interaction due
+to prolonged functional disability. It increases the burden of financial costs
+due to unemployment after ICU discharge. This may lead to low or no
+income, loss of savings, loss of health coverage, and increased medical bills
+(Schwitzer et al., 2023).
+Post ICU Syndrome- Family (PICS-F)
+PICS not only impacts patients’ overall health and well-being but can affect
+their family members and loved ones. Family members or caregivers of
+critically ill patients, particularly spouses, may suffer from emotional and
+psychological distress associated with the critical illness of their loved one
+(Fumis et al., 2015; Serrano et al., 2019). Between 25% and 50% of ICU
+survivors require long-term family caregiving support (Schwitzer et al.,
+2023). Post-intensive care syndrome– family (PICS-F) describes the post-
+ICU syndrome in family members, who face significant challenges and
+experience psychological distress in response to their loved one’s illness
+(Serrano et al., 2019). They experience anxiety, depression, somatic
+symptoms, acute stress disorder, PTSD, complicated grief, and worsening
+symptoms following the death or discharge from the ICU of their loved
+ones (Rawal et al., 2017). In a single-center, prospective, longitudinal
+descriptive study conducted, Petrinec and Martin (2018) reported that 60%
+of family members experience these psychological symptoms during the
+first 6 months following their relative’s hospitalization in the ICU. They
+may also experience a decrease in the quality of life that may persist for 2
+years or more (Beesley et al., 2018). In a mixed-methods study, PICS-F was
+observed in 48% of family members, approximately 90 days after ICU stay,
+with 13% reporting depression, 29% anxiety, and 39% PTSD (Inoue et al
+2022).
+Family members do not only suffer from psycho-physiological
+problems, but they also experience socio-economic burdens. The first years
+of ICU discharge are usually costly for ICU survivors and their families
+(Brown et al., 2019). They carry the burden of emotional distress, financial
+pressures, loss of employment, work overload, disruption of family
+dynamics, and re-engagement with everyday life (Ågård et al., 2019; Rawal
+et al., 2017). Of families of former ICU patients, 48.5% experience financial
+burden 3 months after ICU discharge (Khandelwal et al., 2018). The
+consequences of PICS can have financial implications on patients and their
+families, and on society as a whole, in terms of increased healthcare
+utilization (Rousseau et al., 2021).
+www.wfccn-ijcc.com|ISSN 2816-9050 72
+International Journal of Critical Care Volume 18 Issue 3
+Mental Health in the Aftermath of Critical Illness
+Treatments and care experiences in the Intensive Care Unit (ICU) are often
+traumatic and stressful and can have a long-term psychological impact
+(Rawal et al., 2017). PTSD symptoms such as anxiety, depression, sleep
+disturbances, neurocognitive impairments, and intrusive memories are
+common concerns in ICU survivors (Brown et al., 2019; Davydow et al.,
+2013). These symptoms have profound and long-lasting effects on
+individuals’ functional outcomes and quality of life. Prevalence estimates
+of PTSD among ICU survivors have ranged widely from 4 to 62% (Parker
+et al., 2015; Righy et al., 2019). Annually, approximately 1 million former
+ICU patients develop PTSD (Righy et al., 2019). An estimated one-fifth of
+ICU patients fulfill the diagnostic criteria for PTSD, while larger numbers
+experience some PTSD symptoms (Parker et al., 2015). Moreover, one-third
+suffer from depression, stress, and anxiety symptoms during the first year
+of recovery (Bienvenu et al., 2018; Kim et al., 2023). Anxiety affects
+approximately 70% to 80% of all ICU patients, especially those receiving
+mechanical ventilation (Chahraoui et al., 2015; Golino et al., 2019).
+No specific management recommendation exists to date for these
+conditions (Gayat et al., 2018). Although sedatives and analgesic
+medications (Chlan et al., 2013) can help in reducing stress, anxiety, and
+symptoms of PTSD, these drugs have serious adverse effects including
+bradycardia, hypotension, dysmotility, immobility, neuromuscular
+weakness, delirium, agitation, and respiratory depression (Lee et al., 2017;
+Witusik & Pietras, 2019). Evidence indicates that early intervention and
+rehabilitation incorporating non-pharmacological approaches and early
+follow-up are fundamental to prevent psychological distress and to
+improve functional outcomes among ICU survivors (Karnatovskaia et al.,
+2019).
+Frailty and post-ICU Outcomes
+Frailty is an additional factor in poor outcomes and is very common in ICU
+survivors, particularly older adults. Frailty is a state of increased
+vulnerability resulting from physical, psychological, cognitive, and
+functional decline that leads to mortality (Geense et al., 2019). Recent
+evidence shows that people living with frailty are distinctly vulnerable,
+independently of age (De Biasio et al., 2020). Frailty compromises the
+ability of ICU survivors to cope with everyday stressors. It is associated
+with weight loss, undernutrition, muscle wasting, and weakness. Overall,
+30 to 40% of older individuals requiring hospitalization and treatment in
+the ICU are frail at 3- and 12 months post-discharge (Muscedere et al.,
+www.wfccn-ijcc.com|ISSN 2816-9050 73
+International Journal of Critical Care Volume 18 Issue 3
+2022). They are more functionally dependent and have more disabilities
+which lower their quality of life and worsen their psychosocial and
+physical recovery (Geense et al., 2019). Frailty significantly impacts
+healthcare utilization, due to unplanned readmissions, and increased ICU
+length of stay (Muscedere et al., 2017).
+Post-ICU Care
+Standards and Gaps of post-ICU Care
+The early post-discharge period is the most crucial phase for the
+prevention and management of PICS, but it remains the least explored in
+the recovery from critical illness. The most likely reason for this is the
+delivery of fragmented, disintegrated, and inadequate care post discharge
+which may lead to poor outcomes (Brown et al., 2019). Patients, families,
+and clinicians are often not well informed about survivorship issues post-
+ICU discharge, which may result in unmet needs after ICU. ICU survivors’
+unmet needs can range from durable medical equipment to medication
+management, rehabilitation, and follow-ups (Brown et al., 2019; Haines et
+al., 2021). Other challenges may adverse events, psychosocial issues,
+financial constraints, lack of access to continuing of care, and loss of
+rehabilitative gains. (Haines et al., 2021).
+A comprehensive rehabilitation plan and post-ICU follow-up
+clinics are the key factors in ensuring an optimal continuum of care for
+survivors of critical illness (Haines et al., 2021). In the United Kingdom
+(UK) national guidelines recommend long term care and follow ups, but
+many jurisdictions have not yet implemented them, partially due to gaps
+in our understanding of PICS and approaches to management (Colbenson
+et al., 2019). In Canada, a lack of formal post-ICU care has been noted, with
+only six post-ICU clinics across the country. Lack of healthcare personnel,
+time, access to specialized care, increased ICU readmission, and loss of
+follow-up are the barriers reported to establishing more post-ICU follow-
+up clinics (Stapleton et al., 2020).
+Non-pharmacological Approaches for ICU Survivors
+Pharmacologic approaches are the usual mode of treatment for managing
+physical and psychological conditions post ICU, but can potentially cause
+harmful effects such as insomnia, drug dependency, high-stress levels,
+anxiety, agitation, and delirium (Oh et al., 2015). Multiple pharmacological
+interventions have failed to demonstrate improvements in the quality of
+life of ICU survivors (Chlan & Tracy, 1999). However, non-
+pharmacological interventions for reducing physiological and
+psychological distress among post-ICU survivors suggest promising
+www.wfccn-ijcc.com|ISSN 2816-9050 74
+International Journal of Critical Care Volume 18 Issue 3
+directions (Tingey et al., 2020). A number of studies have investigated non-
+pharmacological interventions in heterogeneous groups of critical care
+survivors in reducing psychological distress and improving functional
+outcomes in ICU patients (Brown et al., 2019). These interventions are
+classified into four domains: physical, psychological, social, cognitive, and
+care coordination. Examples include physical therapy and early
+mobilization, nutritional treatment, cognitive restructuring, cognitive
+behavioral therapy, keeping ICU debrief diaries, establishing social and
+family support systems, self-management, home-based exercises, mind,
+and body relaxation, guided imaginary, bright light exposure, noise
+reduction, interventions for simulated family presence using pre-recorded
+audio/video messages, music listening, rehabilitation and follow up clinics
+(Brown et al, 2019; Lee et al., 2021).
+Most non-pharmacological interventions require professional
+support and are also associated with increased costs. Three
+complementary interventions are frequently used in critically ill patients
+such as music, aromatherapy, and guided imagery (Meghani et al., 2017).
+These interventions do not necessarily require professional support,
+although they can be initiated by healthcare professionals.
+Potential Role of Soundscape/ Music Interventions in post-ICU Care
+Historical Overview: Therapeutic Use of Soundscape/Music
+Music and sound were used for healing in ancient Greece before and after
+the Hippocratic era, and in traditional Chinese medicine, as well as in other
+cultures (Meymandi, 2009). Hippocrates proposed mental care and art
+therapy interventions, in which music and drama were used in treating
+illness (Kleisiaris et al., 2014). Greek physicians used flute, lyres, and zitters
+to heal their patients. Vibration was used to aid in digestion, treat mental
+disturbances, and induce sleep (Meymandi, 2009).
+The history and evidence of usage of music in China goes back
+thousands of years (Wu, 2019). A very ancient Five-Element Music
+Therapy (FEMT) approach has a history of more than 2000 years in China.
+FEMT originated from the Yellow Emperor’s (Huangdi Neijing) Classic of
+Internal Medicine (Liao et al., 2023). FEMT is a part of traditional Chinese
+music and has five tunes connected to the five organs of a human being:
+Jue (liver), Zhi (heart), Gong (spleen), Shang (lung), and Yu (kidney) (Liao
+et al., 2023). In ancient India, music as a therapy especially having Sanskrit
+text was used for the treatment of physiological and psychological distress
+(Gangopadhyay & Prasad, 2022). The textual references in Bṛhattrayī and
+vihāra have much in common with the active and receptive method of
+www.wfccn-ijcc.com|ISSN 2816-9050 75
+International Journal of Critical Care Volume 18 Issue 3
+modern music therapy in daily life (Gangopadhyay & Prasad, 2022). Table
+1 contains a brief overview of the historical sources and therapeutic uses
+of music in antiquity.
+Investigators began to systematically study the use of music in
+medicine and healing near the end of the 19th century (Meymandi, 2009).
+In the early 1800s, Florence Nightingale described the importance of music
+and its healing effect on patients (Bulechek & McCloskey, 1985). In the last
+20 years, investigation into the therapeutic effects of music has proliferated
+(Li et al., 2021). Several contemporary systematic reviews and meta-
+analyses support the benefits of music in various populations including
+mental health, critical care, cancer, and cardiac care (Cao and Zhang, 2023;
+Li et al., 2020; Li et al., 2022; Rodwin et al., 2023).
+Table 1:
+Historical Sources & Therapeutic Applications of Music in Antiquity
+(circa 2500 BCE- 525 CE)*
+Era Historical Sources & Therapeutic
+Applications of Music
+ca. 2500 BCE China: The Ancient Five-Element Music
+Therapy (FEMT) approach, originated
+from The Yellow Emperor's Classic
+Internal Medicine. FMET has five tunes
+connected to the five organs of a human
+being: Jue (liver), Zhi (heart), Gong
+(spleen), Shang (lung), and Yu (kidney).
+ca. 1550 BCE Egypt: In Ebers Papyrus, Egyptian
+medical priests-physicians considered the
+music “physic for the soul”. In the
+Babylonian civilizations, music was used
+to appease the wrath of the gods.
+ca. 800 BCE India: Music therapy having Sanskrit
+text, is used for the treatment of
+physiological and psychological
+distress. The textual references
+in Bṛhattrayī and vihāra have active and
+receptive methods of modern music
+therapy in daily life.
+www.wfccn-ijcc.com|ISSN 2816-9050 76
+International Journal of Critical Care Volume 18 Issue 3
+ca. 500 BCE Greece: Asclepius healing temples use
+music. The god Apollo, father of
+Asclepius, was considered the protector
+of both medicine and music. In Greek
+philosophy, the effects of music on the
+psyche considered music a medicine for
+both the soul and the body, with
+relaxing or invigorating effects.
+ca. 400 BCE Plato: Treated the music in two of his
+dialogues, Republic and Laws. He
+claimed that the whole life of humanity
+is dominated by harmony and rhythm.
+ca. 4th Century BCE Aristotle: Musical arts improve morals
+and have a liberating, purifying, and
+cathartic power. The function of music
+is to evoke emotional catharsis.
+ca. 480–524 CE De Institutione Musica, written by
+Boethius: Reworked the Pythagorean
+elements and subdivided the music into
+three hierarchical levels: mundana
+(derived from Pythagoras, considers
+music a mathematical concept of
+harmony in proportions and numbers),
+humana (music as an effect of harmony
+of the human body and spiritual
+harmony), and instrumentalis (audible
+music and is executed by
+instrumentalists and singers)
+*Gangopadhyay & Prasad, 2022; Liao et al., 2023; Montinari et al., 2018
+Modes of Delivery of Soundscape/Music Interventions
+Soundscape and music interventions are usually offered by a music
+therapist, by other healthcare professionals, and/or without any
+professional support. These interventions are delivered through different
+approaches, such as listening to pre-recorded sounds or music
+administered by a researcher or healthcare professional, self-administered
+by patients without the involvement of a music therapist, and/or live music
+sessions (American Music Therapy Association, 2019). Music intervention
+www.wfccn-ijcc.com|ISSN 2816-9050 77
+International Journal of Critical Care Volume 18 Issue 3
+as a part of music therapy is conducted by trained music therapists and
+involves a therapeutic process and the use of personal music experiences
+(De Witte et al., 2020). Music interventions can be delivered remotely,
+which may be beneficial in improving access to this mode of therapy
+(Harney et al., 2022). There are several evidence-based music therapy
+techniques that are used in different patient populations including passive
+music listening, active music participation, music and counseling, music
+and development or educational objectives, music and stimulation, music
+and biofeedback, music and group activity (Schneider et al., 2022). These
+techniques involve activities such as singing, songwriting, therapeutic
+instrument play, guided relaxation, music and imagery, drumming,
+dancing, rhythmical training, and memory recall (Schneider et al., 2022;
+Yinger, 2018).
+The duration of interventions (time period of treatment), length of
+sessions (“dosage” of music), and frequency (times repeated) vary across
+studies. “Dosage” can vary from 15 minutes to more than one hour, the
+frequency from a few times a day to a few times per month, and the
+duration from single session to repeated sessions over months. Overall,
+regardless of the variance in the intensity of the intervention, studies tend
+to report positive results. For example, a systematic review of RCT
+involving older adults reported that active music therapy >60mins/week
+without the presence of a music therapist helps in reducing depression
+(Dhippayom et al., 2022). Another review conducted by Zang et al. (2022)
+includes RCT studies reporting reduced anxiety levels in cancer patients
+after listening to 15 to 60 minutes of recorded music. Concerning the
+dosage of music listening, for single-session interventions, both <30 mins
+and >30 mins produced similar effect sizes (Umbrello et al., 2019; Harney
+et al., 2022). Sessions of 20-30 mins are most common across studies (Chen
+et al., 2021; Harney et al., 2022). In critically ill patients, an intervention
+duration of >45 mins to <60 mins improved psycho-physiological outcome
+and sleep quality (Chen et al., 2023). A review of RCT studies including
+critically ill patients with a single session of 30 mins, reported a significant
+reduction in anxiety and stress, as well as changes in physiological
+parameters such as reduction in pain level, heart rate, respiratory rate, and
+blood pressure (Umbrello et al., 2019). A study conducted by Chlan et al.
+(2013) reports the results of multicenter RCT among ICU patients receiving
+mechanical ventilation using patient-preferred music type. By the fifth day
+of the study, anxiety was reduced by 36%, and sedative exposure during
+mechanical ventilation in patients directed music group. Overall, studies
+www.wfccn-ijcc.com|ISSN 2816-9050 78
+International Journal of Critical Care Volume 18 Issue 3
+across diverse acute and sub-acute patient populations report positive
+results irrespective of the specifics of the music intervention, as reported
+in recent umbrella reviews (Chen et al., 2021; Lipe & Edmonston, 2019;
+Martin-Saavedra et al., 2018).
+Attributes of Music and Genre
+Specific attributes of music may have an impact on the stress-reducing and
+other effects of music interventions. Sonic qualities (rhythm, tempo,
+melody, pitch, harmony, frequency, volume, duration, genre) are
+important for relaxation (Chang et al., 2012; Chi, & Young, 2011; Batista,
+2022). These are essential therapeutic attributes of music intervention
+which are interdependent and non-hierarchical (Murrock, 2016). They help
+to stimulate neurophysiological responses that influence mood and
+emotions, and physiological responses (Clark & Tamplin, 2016). These
+attributes seem to mediate the regulation of vital signs, emotional
+response, and neural activity. Especially music tempo and rhythm capture
+an individual’s attention. They influence the rhythmicity of the internal
+organs through the synchronization of physical movements, heart and
+respiratory rate, and neural activity (Clark & Tamplin, 2016; Batista, 2022;
+Hilz et al., 2014). A slow music tempo of 60-80 bpm results in reducing
+heart rate and promoting relaxation (Hilz et al, 2014). Melody, the
+combination of pitch and rhythm, is characterized by its length and
+intensity that expresses a mood or emotion from one extreme response
+(happy, calm) to another (sad, anxious). Pitch is a perceptual sound
+property related to vibrations per second. If the sound has a faster
+vibration, it causes high-pitched tones which may be associated with
+happy reactions. Low-pitched sound is due to slower vibrations that may
+be associated with sadness or depression (Murrock, 2016). Harmony
+enhances the beauty of the melody. It blends with the pitches to form a
+combination of sounds producing musical chords. Frequency is the
+number of beats per second at which the wave vibrates. A human ear can
+listen to sound with a frequency of 20 to 20,000 Hz. The 40 Hz is the basic
+frequency in the thalamus which can be captured by a human ear and can
+trigger cognitive effects on music therapy (Joseph & Ulrich, 2007). A
+volume of 40 to 60 dB through a headset is generally comfortable for music
+listeners to produce a therapeutic effect (Laksmidewi & Dewi, 2021).
+Music genres can have a significant impact on an individual’s
+mental health in many ways. They are related to the content of music and
+the structure of their rhythm and instrumentation. Studies have reported
+the usage of different genres such as classical, jazz, country, pop, rock,
+www.wfccn-ijcc.com|ISSN 2816-9050 79
+International Journal of Critical Care Volume 18 Issue 3
+blues, metal, instrumental, nature sound composition, meditative, and so
+on. Some genres can make people more relaxed, and some make people
+more energized (Markos, 2022). A meta-analysis conducted by Leubner
+and Hinterberger (2017) reported three genres that researchers used
+frequently for their music intervention groups to reduce the symptoms of
+depression: classical, percussion, and jazz. Classical and jazz music usually
+relieves stress, promotes relaxation, increases brain function, improves
+physical well-being, and lowers cortisol levels (Markos, 2022).
+Malakoutikhah et al. (2020) showed that most studies only used a single
+genre of music, and their focus was only on the music intervention rather
+than exploring the effects of different genres. Classical, Turkish, nature
+sounds and Western music all seem to reduce anxiety and promote
+relaxation in healthy individuals and patients (Malakoutikhah et al., 2020).
+Understanding individual sound and music preferences is also
+important to gain insight into a person's cultural background and societal
+context. Knowing what genre and attributes of soundscape and music
+resonate with an individual can reflect their personality, values,
+unconscious motives, and desires (Rentfrow et al., 2011). Evidence
+suggests that various psychological and social factors exist underlying
+preferences for music (Rentfrow et al., 2011). The selection of soundscape
+and music depends on the individual’s personal traits, emotional state,
+social and psychological processes, and situational goals (Rentfrow et al.,
+2011). Individual differences in preferences also vary with different age
+groups. One may prefer a particular type of soundscape or music in a
+particular context but may not want to hear it in another context.
+Understanding these differences in music preferences can help therapists,
+caregivers, and healthcare providers use sound/music as a therapeutic tool
+more effectively in patients.
+Evidence from Soundscape/ Music Interventions in ICU Patients
+Extrapolating the benefits of interventions from the acute ICU phase to
+post-ICU care has many limitations; however, it is reasonable to anticipate
+that individuals who benefited from soundscape/music during the acute
+phase of their illness may continue to do so during their recovery. In ICU
+patients, listening to tranquilizing sounds and music has been reported to
+improve psychological outcomes, such as decreased stress, anxiety, PTSD,
+delirium, agitation, increased relaxation, and diverted attention from
+unpleasant thoughts to positive perceptual experience (Chlan et al., 2013;
+de Witte, 2020; Landis-Shack et al., 2017). A literature review indicated that
+relaxing music such as nature-based sounds, classical, and easy listening
+www.wfccn-ijcc.com|ISSN 2816-9050 80
+International Journal of Critical Care Volume 18 Issue 3
+can help manage pain, agitation, delirium, stress, anxiety, PTSD, and
+depression in ICU patients (Hetland et al., 2015). It reduces the need for
+sedatives during mechanical ventilation, length of stay, and decreases
+physiologic signs of anxiety and biomarkers of the stress response
+(Hetland et al., 2015). Patients involved in sound and music interventions
+identified many positive changes and experiences such as positive mood,
+improved well-being, increased family and social communication, and
+increased hope and inner strength (Burns, 2012). A randomized controlled
+trial conducted by Gullick and Kwan (2015) examined that patient-
+directed music intervention lowers anxiety scores, sedation frequency and
+intensity in mechanically ventilated patients than usual care. A study by
+Chlan et al. (2018) demonstrated that patient-directed music interventions
+can save about $2,000/patient and better manage stress and anxiety with
+less sedative medication than usual care. A study conducted by Khan et
+al., (2018) reported an association between music and sound intervention
+and decreased serum cortisol levels, positive effects on state anxiety,
+reduction in respiratory rate, blood pressure, and heart rate, and decrease
+in sedative and analgesic requirement in mechanically ventilated patients.
+The available analyses show that the use of sound/music
+interventions reduces anxiety, stabilizes physiological parameters, and
+improves well-being. However, there is still not enough knowledge about
+the physiological mechanisms at play and potential outcome-measuring
+tools that reflect the effects of music intervention on the well-being of ICU
+patients.
+Evidence on the effects of Soundscape/ Music Interventions on Mental
+Health
+Group music therapy and therapist-guided music interventions were
+reported to result in a significant reduction in PTSD symptoms and
+depression that did not respond to cognitive behavioral therapy (Beck et
+al., 2021; Carr et al., 2012). A systematic review conducted by Baker et al
+(2018) reported the potential of relaxing music therapy help to cope and to
+recover from PTSD. A systematic review involving 104 RCTs in adult
+populations, showed an overall significant effect on physiological stress-
+related arousal (blood pressure, heart rate, hormone levels) and
+psychological stress-related experiences (state anxiety, restlessness, or
+nervousness). The tranquilizing effects of music are very significant for the
+prevention and treatment of stress-related problems, considering their low
+cost and lack of side effects of music interventions (De Witte et al., 2020).
+www.wfccn-ijcc.com|ISSN 2816-9050 81
+International Journal of Critical Care Volume 18 Issue 3
+Evidence suggest that sound/music appears to have positive effects
+on measures of mental health and stress. However, there is wide variation
+in individual preferences, the characteristics of the music interventions,
+and the method of implementing the intervention.
+Evidence on the Effects of Soundscape/ Music Interventions on
+Cognitive Outcomes
+Cognitive functions are associated with the activities of daily living and
+the quality of life of critically ill patients. Post-ICU survivors suffer from
+neurocognitive sequelae which are often under-recognized and require a
+cognitive rehabilitation pathway (Muradov et al., 2021). Sound and music-
+based interventions in rehabilitation have been gaining research and
+clinical attention in improving cognitive function in chronic illnesses that
+often require long-term rehabilitation. However, evidence regarding the
+effect of sound and music interventions on general cognitive function in
+this population is scarce. We identified only one trial incorporating music
+in cognitive rehabilitation post-ICU. Zhao et al. (2017) conducted a trial
+with 167 medical and neurological ICU survivors who received cognitive
+training through learning to play a musical keyboard, along with learning
+and memorization tasks performed post-ICU and over 3 months (4 days/
+week; two 30-minute sessions/ day). The authors found significant
+improvement in cognitive function, memory, attention, and language.
+Despite the scarcity of music intervention for cognitive recovery post-ICU,
+a large body of evidence supports the effectiveness of such interventions
+in individuals with cognitive disorders. A meta-analysis conducted by Ito
+et al. (2022) on people with mild cognitive impairment and dementia
+identified that music intervention improves attention, executive function,
+and episodic memory. Furthermore, the type of music such as active
+intervention (playing musical instruments, singing, listening to a favorite
+song, moving with music) promotes socialization, engagement, verbal
+processing, and motor planning (Ito et al., 2022). Another systematic
+review of RCTs involving dementia patients reported that rhythmical and
+enjoyable music interventions combined with movement (using props,
+such as a balloon, ribbon, balls, rhythmical tapping of the feet, and
+mirroring movement) and physical exercise improves cognitive function
+(Sharew, 2022). Similarly, music interventions, including instrument-
+based, listening-based, rhythm-based, and multicomponent-based music
+interventions, have improved cognitive functions, fine and gross motor
+dexterity, and gait in stroke survivors, Parkinson’s disease, and multiple
+sclerosis patients (Moumdjian et al., 2017).
+www.wfccn-ijcc.com|ISSN 2816-9050 82
+International Journal of Critical Care Volume 18 Issue 3
+Despite overall robust controlled designs, the evidence in ICU and
+post-ICU patients is not sufficient and more exploration is needed.
+Moreover, investigators need to consider the combination of sound/music
+with movement for the improvement of both psychological and functional
+outcomes.
+Rehabilitating ICU Survivors with Soundscape and Music Intervention
+There are very few studies addressing post-ICU rehabilitation, with only
+two studies involving adult former ICU patients. Overall, the studies show
+the feasibility and acceptability of these approaches and the beneficial
+effects of music, mostly on psychological responses. A pilot study
+conducted by Liang et al. (2020) on ICU survivors demonstrated that
+music-guided exercise is feasible and highly desirable by ICU survivors
+and participants also noted improvement in their ability to move and
+mood. These patients were given an individualized playlist, considering
+of patient’s music preference and their pace, and taught to coordinate
+exercise to music for 15 to 20 minutes. A randomized controlled trial by
+Hwang and Lim (2021) identified a significant decrease in the PTSD scores
+of post-discharged Korean burn patients after evaluating the effect of the
+Special Program for Acute Burn Patients (SPA) which included a 60-
+minute music intervention component. Few studies recommend sound
+and music interventions in combination with comfort measures in the
+recovery of post-ICU patients in the pediatric and neonatal populations.
+These studies reported that music intervention promoted psychological
+well-being, improved sleep, had a calming effect among critically ill
+children, and reduced parents’ anxiety post-discharge (Bieleninik et al.,
+2020; Ghetti et al., 2021; Rennick et al., 2018).
+Despite the perceived benefits of soundscape/music, there are very
+few studies validating its use in ICU survivors. These interventions can be
+opioid-sparing, low-cost, less invasive, safe, and easy to implement.
+Moreover, due to the less complex nature of these interventions, there is
+an opportunity to both engage family members and caregivers and also to
+expand such interventions to address the well-being of families of former
+ICU patients.
+Limitations
+The review shed light on the therapeutic effects of sound/music
+interventions in ICU survivors. In examining the effects of sound and
+music interventions on ICU survivors, it is crucial to acknowledge several
+limitations. Firstly, the heterogeneity of ICU populations and their medical
+conditions poses a challenge in standardizing intervention protocols and
+www.wfccn-ijcc.com|ISSN 2816-9050 83
+International Journal of Critical Care Volume 18 Issue 3
+assessing their outcomes uniformly. Additionally, the subjective nature of
+music preferences and individual responses to auditory stimuli may
+introduce variability in the perceived effectiveness of interventions.
+Furthermore, the long-term effects of sound and music interventions on
+physiological and psychological well-being and functional outcomes
+among ICU survivors warrant further investigation through rigorous
+longitudinal studies. In designing and conducting sound/music-based
+intervention studies, researchers must ensure that the intervention is
+meaningful to the patients and makes significant changes in their quality
+of life.
+Figure 1
+Evidence-based summary of potential effects of sound/ music interventions on the
+manifestations of post-ICU syndrome.
+Legend: HR: Heart Rate, BP: Blood pressure, RR: Respiratory Rate, PTSD: Post-traumatic stress
+disorder
+www.wfccn-ijcc.com|ISSN 2816-9050 84
+International Journal of Critical Care Volume 18 Issue 3
+CONCLUSION
+Soundscape/ music interventions are emerging therapeutic tools that are
+examined in diverse populations and in different clinical settings with
+positive outcomes established through systematic reviews, meta-analyses,
+and umbrella reviews. Exploration of such interventions in adult post-ICU
+patients is very scarce, although music has received more attention in the
+recovery of neonates after NICU hospitalization. Our overview of research
+evidence from studies involving post-ICU patients or other similar post-
+acute patient populations supports the notion that music/ soundscape
+interventions can improve several post-ICU impairments, commonly
+regraded as manifestations of post-ICU syndrome. These potential effects
+are summarized in Figure 1. Evidence from post-ICU patients to date
+supports that soundscape/ music approaches are cost-effective and safe
+and reduce anxiety, stress, pain, depression, and PTSD, relieve negative
+emotions, and improve recovery from illness post-ICU. However, whether
+such interventions can improve physical health and quality of life in post-
+ICU patients remains to be established. Further research involving adult
+ICU patients needs to establish the effectiveness of such interventions and
+to clarify the components and intensity of interventions, implementation
+approaches, and appropriate outcome measures.
+Implications for Clinical Practice and Research
+1. Our overview of research evidence from studies involving post-ICU
+patients and other similar post-acute patient populations supports the
+notion that music and sound interventions can improve several
+impairments commonly associated with post-ICU syndrome. These
+interventions have been shown to be cost-effective and safe, with
+evidence indicating that they can reduce anxiety, stress, pain,
+depression, and PTSD, alleviate negative emotions, and enhance
+recovery from illness.
+2. Therapeutic sound and music listening should be integrated into
+nursing interventions as part of non-pharmacological treatment
+strategies. Clinical practice guidelines recommend exploring such
+complementary measures to manage symptoms and promote recovery
+in post-ICU patients, who often face persistent pain, physical,
+psychological, and cognitive impairments.
+3. Despite the perceived benefits and preliminary evidence supporting
+the use of soundscape and music interventions, there remains a
+www.wfccn-ijcc.com|ISSN 2816-9050 85
+International Journal of Critical Care Volume 18 Issue 3
+significant gap in research. There are very few studies specifically
+validating their effectiveness in ICU survivors. Future research should
+focus on establishing the effectiveness of these interventions, as well as
+clarifying the optimal components, intensity, implementation
+approaches, and appropriate outcome measures. This will enhance the
+evidence base and guide their integration into clinical practice.
+Author bios:
+Shaista Meghani, RN, RM, MN, is a PhD candidate and faculty of Nursing at the
+University of Alberta, Edmonton Clinic Health Academy, Edmonton, AB, Canada.
+Michael Frishkopf, PhD, is a Professor and Associate Chair of Graduate Studies for
+the Department of Music; Director of the Canadian Centre for Ethnomusicology;
+Adjunct Professor of Religious Studies; and adjunct professor and faculty of
+Medicine and Dentistry, Department of Music, and faculty of Arts at the University
+of Alberta, Edmonton, AB, Canada.
+Tanya Park, RN, RM, PhD is an associate professor, College of Healthcare Sciences,
+James Cook University, Nguma-bada Campus, Cairns, Queensland, Australia.
+Carmel L. Montgomery, RN, MN, PhD is an assistant professor, Faculty of Nursing,
+University of Alberta, Edmonton, AB, Canada.
+Colleen Norris, PhD (Epidemiology), MScN, BScN, RN, FAHA, FCAHS
+Professor, Associate Dean, Research, Faculty of Nursing, University of Alberta,
+Edmonton, AB, Canada.
+Elizabeth Papathanassoglou, RN, MSc, PhD is a Professor & Associate Dean,
+Faculty of Nursing, University of Alberta, Edmonton Clinic Health Academy,
+Edmonton, AB, Canada.
+The authors have no conflicts of interest or disclosures.
+Ethics Statement: The manuscript contains a discussion paper that doesn't involve
+human subjects; therefore, the ethics review is not obtained.
+REFERENCES
+Abate SM, Assen S, Yinges M, Basu B. Survival and predictors of mortality
+among patients admitted to the intensive care units in southern
+Ethiopia: A multi-center cohort study. Annals of Medicine and
+Surgery. 2021;65:102318. doi:10.1016/j.amsu.2021.102318
+www.wfccn-ijcc.com|ISSN 2816-9050 86
+International Journal of Critical Care Volume 18 Issue 3
+Ågård AS, Hofhuis JGM, Koopmans M, Gerritsen RT, Spronk PE,
+Engelberg RA, Randall Curtis J, Zijlstra JG, Jensen HI. Identifying
+improvement opportunities for patient- and family-centered care in
+the ICU: Using qualitative methods to understand family
+perspectives. Journal of Critical Care. 2019;49:33-37. doi:
+10.1016/j.jcrc.2018.10.008.
+Aletta F, Oberman T, Kang J. Associations between positive health-related
+effects and soundscapes perceptual constructs: A systematic
+review. International Journal of Environmental Research and Public
+Health. 2018;15(11):2392. doi: 10.3390/ijerph15112392
+American Music Therapy Association. What is music therapy? 2019.
+Retrieved
+from https://www.musictherapy.org/about/musictherapy
+Ames N, Shuford R, Yang L, Moriyama B, Frey M, Wilson F,
+Sundaramurthi T, Gori D, Mannes A, Ranucci A, Koziol D, Wallen
+GR. Music Listening among postoperative patients in the intensive
+care unit: a randomized controlled trial with mixed-methods
+analysis. Integrative Medicine Insights. 2017;20:12:1178633717716455.
+doi: 10.1177/1178633717716455
+Altman MT, Knauert MP, Murphy TE, Ahasic AM, Chauhan Z, Pisani MA.
+Association of intensive care unit delirium with sleep disturbance
+and functional disability after critical illness: an observational
+cohort study. Annals of Intensive Care. 2018;8(1):63. doi:
+10.1186/s13613-018-0408-4
+Altman MT, Knauert MP, Pisani MA. Sleep disturbance after
+hospitalization and critical illness: a systematic review. Annals of
+American Thoracic Society. 2017;14(9):1457-1468. doi:
+10.1513/AnnalsATS.201702-148SR
+Baker FA, Metcalf O, Varker T, O'Donnell M. A systematic review of the
+efficacy of creative arts therapies in the treatment of adults with
+PTSD. Psychological Trauma: Theory, Research, Practice, and Policy.
+2018;10(6):643-651. doi: 10.1037/tra0000353.
+Batista LC, Melo MN, Cruz DALMD, Gengo E Silva Butcher RC.
+Characteristics of music intervention to reduce anxiety in patients
+undergoing cardiac catheterization: scoping review. Heliyon. 2022
+25;8(11):e11894. doi: 10.1016/j.heliyon.2022.e11894
+Barr J, Fraser GL, Puntillo K, Ely EW, Gélinas C, Dasta JF, Davidson JE,
+Devlin JW, Kress JP, Joffe AM, Coursin DB, Herr DL, Tung A,
+Robinson BR, Fontaine DK, Ramsay MA, Riker RR, Sessler CN, Pun
+www.wfccn-ijcc.com|ISSN 2816-9050 87
+International Journal of Critical Care Volume 18 Issue 3
+B, Skrobik Y, Jaeschke R; American College of Critical Care
+Medicine. Clinical practice guidelines for the management of pain,
+agitation, and delirium in adult patients in the intensive care unit.
+Critical Care Medicine. 2013; 41(1):263-306. doi:
+10.1097/CCM.0b013e3182783b72
+Beesley SJ, Hopkins RO, Holt-Lunstad J, Wilson EL, Butler J, Kuttler KG,
+Orme J, Brown SM, Hirshberg EL. Acute physiologic stress and
+subsequent anxiety among family members of ICU patients. Critical
+Care Medicine. 2018;46(2):229-235. doi:
+10.1097/CCM.0000000000002835
+Bieleninik Ł, Konieczna-Nowak L, Knapik-Szweda S, Kwaśniok J.
+Evaluating feasibility of the LongSTEP (Longitudinal study of
+music therapy’s effectiveness for premature infants and their
+caregivers) protocol with a Polish cohort. Nordic Journal of Music
+Therapy. 2020;29(5):437-459.
+Bienvenu OJ, Friedman LA, Colantuoni E, Dinglas VD, Sepulveda KA,
+Mendez-Tellez P, Shanholz C, Pronovost PJ, Needham DM.
+Psychiatric symptoms after acute respiratory distress syndrome: a
+5-year longitudinal study. Intensive Care Medicine. 2018;44(1):38-47.
+doi: 10.1007/s00134-017-5009-4.
+Brown SM, Bose S, Banner-Goodspeed V, Beesley SJ, Dinglas VD, Hopkins
+RO, Jackson JC, Mir-Kasimov M, Needham DM, Sevin CM;
+Addressing Post Intensive Care Syndrome 01 (APICS-01) study
+team. Approaches to Addressing Post-Intensive Care Syndrome
+among Intensive Care Unit Survivors. A Narrative Review. Annals
+of the American Thoracic Society. 2019;16(8):947-956. doi:
+10.1513/AnnalsATS.201812-913FR
+Brusci, KE. Defining Music Therapy, 2nd ed. Barcelona Publishers, 1998.
+Bulechek GM, McCloskey JC. Nursing interventions: Treatments for
+nursing diagnoses. The American Journal of
+Nursing. 1985;85(12):1350.
+Burns DS. Theoretical rationale for music selection in oncology
+intervention research: An integrative review. Journal of Music
+Therapy. 2021;49(1):7-22.
+Canadian Critical Care Society. (n.d.). Patient & families: The role of the
+ICU - what to expect. Retrieved September 14, 2023, from
+https://www.canadiancriticalcare.org/Patients-&-Families
+www.wfccn-ijcc.com|ISSN 2816-9050 88
+International Journal of Critical Care Volume 18 Issue 3
+Cao M, Zhang Z. Adjuvant music therapy for patients with hypertension:
+A meta-analysis and systematic review. BMC Complementary
+Medicine and Therapies. 2023;23(1):111.
+https://doi.org/10.1186/s12906-023-03929-6
+Canadian Institute of Health Information (CIHI). COVID-19
+hospitalization andemergency department statistics, 2022.
+Retrieved from https://www.cihi.ca/en/covid-19-hospitalization-
+and-emergency-department-statistics
+Carr C, d'Ardenne P, Sloboda A, Scott C, Wang D, Priebe S. Group music
+therapy for patients with persistent post-traumatic stress disorder-
+-an exploratory randomized controlled trial with mixed methods
+evaluation. Psychology and Psychotherapy. 2012;85(2):179–202.
+https://doi.org/10.1111/j.2044-8341.2011.02026.x
+Chahraoui K, Laurent A, Bioy A, Quenot JP. Psychological experience of
+patients 3 months after a stay in the intensive care unit: A
+descriptive and qualitative study. Journal of Critical Care.
+2015;30(3):599-605. doi: 10.1016/j.jcrc.2015.02.016.
+Chang ET, Lai HL, Chen PW, Hsieh YM, Lee LH. The effects of music on
+the sleep quality of adults with chronic insomnia using evidence
+from polysomnographic and self-reported analysis: a randomized
+control trial. International Journal of Nursing Studies. 2012;49(8):921-
+30. doi: 10.1016/j.ijnurstu.2012.02.019
+Chen YF, Chang MY, Chow LH, Ma WF. Effectiveness of music-based
+intervention in improving uncomfortable symptoms in ICU
+patients: an umbrella review. International Journal of Environmental
+Research and Public Health. 2021;18(21):11500.
+https://doi.org/10.3390/ijerph182111500
+Chen L, Yin J, Zheng Y, Zhao C, Zhang H, Li J, Ji D, Zhang YP. The
+effectiveness of music listening for critically ill patients: A
+systematic review. Nursing in Critical Care. 2023;28(6):1132-1142.
+https://doi.org/10.1111/nicc.12825
+Chi GC, Young, A. Selection of music for inducing relaxation and
+alleviating pain: literature review. Holistic Nursing
+Practice. 2011;25(3):127-135. doi: 10.1097/HNP.0b013e3182157c64
+Chlan L, Tracy MF. Music therapy in critical care: Indications and
+guidelines for invention. Critical Care Nurse, 1999;19(3):35.
+Chlan LL. Music therapy as a nursing intervention for patients supported
+by mechanical ventilation. AACN Advanced Critical
+Care. 2000;11:128–138. doi: 10.1097/00044067-200002000-00014
+www.wfccn-ijcc.com|ISSN 2816-9050 89
+International Journal of Critical Care Volume 18 Issue 3
+Chlan LL, Weinert CR, Heiderscheit A, Tracy MF, Skaar DJ, Guttormson
+JL, Savik K. Effects of patient-directed music intervention on
+anxiety and sedative exposure in critically ill patients receiving
+mechanical ventilatory support: a randomized clinical
+trial. JAMA. 2013;309(22):2335–2344.
+https://doi.org/10.1001/jama.2013.5670
+Chlan LL, Heiderscheit A, Skaar DJ, Neidecker MV. Economic evaluation
+of a patient-directed music intervention for ICU patients receiving
+mechanical ventilatory support. Critical Care Medicine.
+2018;46(9):1430–1435.
+https://doi.org/10.1097/CCM.0000000000003199
+Clark IN, Tamplin J. How music can influence the body: Perspectives from
+current research. In Voices: A World Forum for Music Therapy.
+2016;16(2). doi: https://doi.org/10.15845/voices.v16i2.871
+Colbenson GA, Johnson A, Wilson ME. Post-intensive care syndrome:
+impact, prevention, and management. Breathe (Sheffield,
+England). 2019;15(2):98–101. https://doi.org/10.1183/20734735.0013-
+2019
+Davydow DS, Zatzick D, Hough CL, Katon WJ. A longitudinal
+investigation of posttraumatic stress and depressive symptoms
+over the course of the year following medical-surgical intensive care
+unit admission. General Hospital Psychiatry. 2013;35(3):226-32. doi:
+10.1016/j.genhosppsych.2012.12.005.
+De Biasio JC, Mittel AM, Mueller AL, Ferrante LE, Kim DH, Shaefi S.
+Frailty in critical care medicine: A review. Anesthesia and
+Analgesia. 2020;130(6):1462-1473. doi:
+10.1213/ANE.0000000000004665
+de Witte M, Spruit A, van Hooren S, Moonen X, Stams GJ. Effects of music
+interventions on stress-related outcomes: a systematic review and
+two meta-analyses. Health Psychology Review. 2020;14(2):294-324.
+doi: 10.1080/17437199.2019.1627897
+Dhippayom T, Saensook T, Promkhatja N, Teaktong T, Chaiyakunapruk
+N, Devine B. Comparative effects of music interventions on
+depression in older adults: A systematic review and network meta-
+analysis. EClinicalMedicine. 2022;1;50:101509. doi:
+10.1016/j.eclinm.2022.101509
+Fumis RR, Ranzani OT, Martins PS, Schettino G. Emotional disorders in
+pairs of patients and their family members during and after ICU
+www.wfccn-ijcc.com|ISSN 2816-9050 90
+International Journal of Critical Care Volume 18 Issue 3
+stay. PLoS One. 2015;10(1):e0115332. doi:
+10.1371/journal.pone.0115332
+Gangopadhyay A, Prasad JSR. Therapeutic elements of music in ancient
+India: a brief review in Bṛhattrayī. Indian Journal of History of Science.
+2022;57(2):78-86. https://doi.org/10.1007/s43539-022-00043-3
+Gayat E, Cariou A, Deye N, Vieillard-Baron A, Jaber S, Damoisel C, Lu Q,
+Monnet X, Rennuit I, Azoulay E, Léone M, Oueslati H, Guidet B,
+Friedman D, Tesnière A, Sonneville R, Montravers P, Pili-Floury S,
+Lefrant JY, Duranteau J, Laterre PF, Brechot N, Chevreul K, Michel
+M, Cholley B, Legrand M, Launay JM, Vicaut E, Singer M, Resche-
+Rigon M, Mebazaa A. Determinants of long-term outcome in ICU
+survivors: results from the FROG-ICU study. Journal of Critical Care.
+2018;22(1):8. doi: 10.1186/s13054-017-1922-8
+Ghetti CM, Vederhus BJ, Gaden TS, Brenner AK, Bieleninik Ł, Kvestad I,
+Assmus J, Gold C. Longitudinal study of music therapy's
+effectiveness for premature infants and their caregivers (longstep):
+feasibility study with a Norwegian cohort. Journal of Music
+Therapy. 2021;58(2):201-240. doi: 10.1093/jmt/thaa023
+Golden TL, Springs S, Kimmel HJ, Gupta S, Tiedemann A, Sandu CC,
+Magsamen S. The use of music in the treatment and management of
+serious mental illness: a global scoping review of the
+literature. Frontiers in Psychology. 2021;12:649840.
+https://doi.org/10.3389/fpsyg.2021.649840
+Golino AJ, Leone R, Gollenberg A, Christopher C, Stanger D, Davis TM,
+Meadows A, Zhang Z, Friesen MA. Impact of an active music
+therapy intervention on intensive care patients. American Journal of
+Critical Care. 2019;28(1):48-55. doi: 10.4037/ajcc2019792
+https://doi.org/10.4037/ajcc2019792
+Gullick JG, Kwan XX. Patient-directed music therapy reduces anxiety and
+sedation exposure in mechanically-ventilated patients: a research
+critique. Australian Critical Care. 2015;28(2):103-105. doi:
+10.1016/j.aucc.2015.03.003
+Haines KJ, Hibbert E, Leggett N, Boehm LM, Hall T, Bakhru RN, Bastin AJ,
+Butcher BW, Eaton TL, Harris W, Hope AA, Jackson J, Johnson A,
+Kloos JA, Korzick KA, Mactavish P, Meyer J, Montgomery-Yates A,
+Quasim T, Slack A, Wade D, Still M, Netzer G, Hopkins RO,
+Iwashyna TJ, Mikkelsen ME, McPeake J, Sevin CM; Society of
+Critical Care Medicine’s Thrive Initiative. Transitions of care after
+critical illness-challenges to recovery and adaptive problem solving.
+www.wfccn-ijcc.com|ISSN 2816-9050 91
+International Journal of Critical Care Volume 18 Issue 3
+Critical Care Medicine. 2021;49(11):1923-1931. doi:
+10.1097/CCM.0000000000005095
+Harney C, Johnson J, Bailes F, Havelka J. Is music listening an effective
+intervention for reducing anxiety? A systematic review and meta-
+analysis of controlled studies. Musicae
+Scientiae. 2022;27(2):102986492110469
+https://doi.org/10.1177/10298649211046979
+Hetland B, Lindquist R, Chlan LL. The influence of music during
+mechanical ventilation and weaning from mechanical ventilation: A
+review. Heart & Lung: The Journal of Critical Care. 2015;44(5):416–425.
+https://doi.org/10.1016/j.hrtlng.2015.06.010
+Hilz MJ, Stadler P, Gryc T, Nath J, Habib-Romstoeck L, Stemper B,
+Buechner S, Wong S, Koehn J. Music induces different cardiac
+autonomic arousal effects in young and older persons. Autonomic
+Neuroscience. 2014;183:83-93. doi: 10.1016/j.autneu.2014.02.004
+Huang S, Zhuang W, Wang D, Zha L, Xu X, Li X, Shi Q, Wang XS, Qiao G.
+Persistent somatic symptom burden and sleep disturbance in
+patients with COVID-19 during hospitalization and after discharge:
+a prospective cohort study. Medical Science Monitor.
+2021;27:e930447. doi: 10.12659/MSM.930447
+Hwang SH, Lim JW. Evaluating the effects of a trauma recovery program
+for Korean burn patients. Research on Social Work Practice.
+2021;31(5):493-502. https://doi.org/10.1177/1049731520988891
+Inoue S, Nakanishi N, Nakamura K. Post-intensive care syndrome-10 years
+after its proposal and future directions. Journal of Clinical
+Medicine. 2022;11(15):4381. doi: 10.3390/jcm11154381
+Ito E, Nouchi R, Dinet J, Cheng C, Husebø B. The effect of music-based
+intervention on general cognitive and executive functions, and
+episodic memory in people with mild cognitive impairment and
+dementia: a systematic review and meta-analysis of recent
+randomized controlled trials. Healthcare.
+2022;10(8):1462. https://doi.org/10.3390/healthcare10081462
+Jaffri A, Jaffri UA. Post-Intensive care syndrome and COVID-19: crisis after
+a crisis? Heart & Lung. 2020;49(6):883-884. doi:
+10.1016/j.hrtlng.2020.06.006
+Joseph A, Ulrich R. Sound control for improved outcomes in healthcare
+settings. The Center for Health Design, Issue Paper 4, January 2007.
+Karnatovskaia LV, Schulte PJ, Philbrick KL, Johnson MM, Anderson BK,
+Gajic O, Clark, M. M. Psychocognitive sequelae of critical illness
+www.wfccn-ijcc.com|ISSN 2816-9050 92
+International Journal of Critical Care Volume 18 Issue 3
+and correlation with 3 months follow up. Journal of Critical Care.
+2019;52:166-171. doi: 10.1016/j.jcrc.2019.04.028
+Khandelwal N, Hough CL, Downey L, Engelberg RA, Carson SS, White
+DB, Kahn JM, Jones DM, Key MD, Reagan W, Porter LS, Curtis JR,
+Cox CE. Prevalence, Risk Factors, and Outcomes of Financial Stress
+in Survivors of Critical Illness. Critical Care Medicine.
+2018;46(6):e530-e539. doi: 10.1097/CCM.0000000000003076
+Khan SH, Kitsis M, Golovyan D, Wang S, Chlan LL, Boustani M, Khan BA.
+Effects of music intervention on inflammatory markers in critically
+ill and post-operative patients: A systematic review of the literature.
+Heart & Lung. 2018;47(5):489-496. doi: 10.1016/j.hrtlng.2018.05.015
+Kim SJ, Park K, Kim K. Post-intensive care syndrome and health-related
+quality of life in long-term survivors of intensive care unit.
+Australian Critical Care. 2023;36(4):477-484. doi:
+10.1016/j.aucc.2022.06.002
+Kleisiaris CF, Sfakianakis C, Papathanasiou IV. Health care practices in
+ancient Greece: The Hippocratic ideal. Journal of Medical Ethics and
+History of Medicine. 2014;7:6.
+Laksmidewi AAAP, Dewi V T. Classic and traditional music role in
+cognitive function and critically ill patients. Music in Health and
+Diseases. IntechOpen. 2021. doi: 10.5772/intechopen.98698
+Landis-Shack N, Heinz AJ, Bonn-Miller MO. Music therapy for
+posttraumatic stress in adults: a theoretical review.
+Psychomusicology: Music, Mind, and Brain. 2017;27(4):334-342. doi:
+10.1037/pmu0000192
+Lee Y, Lee J, Kim J, Jung Y. Non-pharmacological nursing interventions for
+prevention and treatment of delirium in hospitalized adult patients:
+systematic review of randomized controlled trials. International
+Journal of Environmental Research and Public Health. 2021;18(16):8853.
+https://doi.org/10.3390/ijerph18168853
+Lee CH, Lee CY, Hsu MY, Lai CL, Sung YH, Lin CY, Lin LY. Effects of
+Music Intervention on State Anxiety and Physiological Indices in
+Patients Undergoing Mechanical Ventilation in the Intensive Care
+Unit. . Biological Research for Nursing 2017;19(2):137-144. doi:
+10.1177/1099800416669601
+Leubner D, Hinterberger T. Reviewing the effectiveness of music
+interventions in treating depression. Frontiers in Psychology.
+2017; 8:1109. 2017;https://doi.org/10.3389/fpsyg.2017.01109
+www.wfccn-ijcc.com|ISSN 2816-9050 93
+International Journal of Critical Care Volume 18 Issue 3
+Li K, Weng L, Wang X. The state of music therapy studies in the past 20
+years: a bibliometric analysis. Frontiers in Psychology. 2021;12:
+697726. https://doi.org/10.3389/fpsyg.2021.697726
+Li Y, Xing X, Shi X, Yan P, Chen Y, Li M, Zhang W, Li X, Yang K. The
+effectiveness of music therapy for patients with cancer: A
+systematic review and meta analysis. Journal of Advanced Nursing.
+2020;76(5):1111–1123. https://doi.org/10.1111/jan.14313
+Li D, Yao Y, Chen J, Xiong G. The effect of music therapy on the anxiety,
+depression and sleep quality in intensive care unit patients: A
+protocol for systematic review and meta-analysis. Medicine.
+2020;101(8):e28846. https://doi.org/10.1097/MD.0000000000028846
+Liang Z, Munro CL, Ferreira TB, Clochesy J, Yip H, Moore KS, Kip K.
+Feasibility and acceptability of a self-managed exercise to rhythmic
+music intervention for ICU survivors. Applied Nursing Research.
+2020;54:151315. doi: 10.1016/j.apnr.2020.151315
+Lipe A, Edmonston M. Music and music therapy interventions for
+behavioral and psychological symptoms of dementia. Music and
+Dementia: From Cognition to Therapy; Baird, A., Garrido, S., Tamplin, J.,
+Eds, 2091:197-224.
+Malakoutikhah A, Dehghan, M, Ghonchehpoorc A, Afshar PP,
+Honarmand A. The effect of different genres of music and silence
+on relaxation and anxiety: A randomized controlled
+trial. Explore, 2020;16(6):376-381. doi: 10.1016/j.explore.2020.02.005
+Markos, The different effects of music genres, Boysetfire. December
+11,2022.
+https://www.boysetsfire.net/the-different-effects-of-music-genres/
+Martin-Saavedra JS, Vergara-Mendez LD, Talero-Gutiérrez C. Music is an
+effective intervention for the management of pain: An umbrella
+review. Complementary Therapies in Clinical Practice. 2018;32:103–114.
+https://doi.org/10.1016/j.ctcp.2018.06.003
+Meghani N, Tracy M, Hadidi N, Lindquist R. Part I: The effects of music
+for the symptom management of anxiety, pain, and insomnia in
+critically ill patients. Dimensions of Critical Care
+Nursing. 2017;36(4):234-243. doi: 10.1097/DCC.0000000000000254.
+Meymandi A. (2009). Music, medicine, healing, and the genome
+project. Psychiatry (Edgmont(Pa: Township). 2009;6(9):43–45.
+Montinari MR, Giardina S, Minelli P, Minelli S. History of Music Therapy
+and Its Contemporary Applications in Cardiovascular
+www.wfccn-ijcc.com|ISSN 2816-9050 94
+International Journal of Critical Care Volume 18 Issue 3
+Diseases. Southern Medical Journal. 2018;111(2):98-102. doi:
+10.14423/SMJ.0000000000000765.
+Morgan A. Long-term outcomes from critical care. Surgery (Oxford).
+2021;39(1):53-57. doi: 10.1016/j.mpsur.2020.11.005
+Moumdjian L, Sarkamo T, Leone C, Leman M, Feys P. Effectiveness of
+music based interventions on motricity or cognitive functioning in
+neurological populations: A systematic review. European Journal of
+Physical and Rehabilitation Medicine. 2017; 53(3):466-
+482. https://doi.org/10.23736/S1973-9087.16.04429-4.
+Muradov O, Petrovskaya O, Papathanassoglou E. Effectiveness of
+cognitive interventions on cognitive outcomes of adult intensive
+care unit survivors: A scoping review. Australian Critical Care.
+2021;34(5):473–485. https://doi.org/10.1016/j.aucc.2020.11.001
+Murrock CJ. Concept analysis: Music therapy. Research and Theory for
+Nursing Practice. 2016;30(1):44-59. doi: 10.1891/1541-6577.30.1.44
+Muscedere J, Waters B, Varambally A, Bagshaw SM, Boyd JG, Maslove D,
+Sibley S, Rockwood K. The impact of frailty on intensive care unit
+outcomes: a systematic review and meta-analysis. Intensive Care
+Medicine. 2017;43(8):1105-1122. doi: 10.1007/s00134-017-4867-0
+Muscedere J, Bagshaw SM, Boyd G, Sibley S, Norman P, Day A, Hunt M,
+Rolfson D. The frailty, outcomes, recovery and care steps of
+critically ill patients (FORECAST) study: pilot study results.
+Intensive Care Med Exp. 2022;10(1):23. doi: 10.1186/s40635-022-
+00446-7. Erratum in: Intensive Care Med Exp. 2023 Jan 5;11(1):1. doi:
+10.1186/s40635-022-00487-y
+Oh J, Sohn JH, Shin CS, Na SH, Yoon HJ, Kim JJ, Park S, Park JY. Mutual
+relationship between anxiety and pain in the intensive care unit and
+its effect on medications. Journal of Critical Care. 2015;30(5):1043-8.
+doi: 10.1016/j.jcrc.2015.05.025
+Parker AM, Sricharoenchai T, Raparla S, Schneck KW, Bienvenu OJ,
+Needham DM. Posttraumatic stress disorder in critical illness
+survivors: a metaanalysis. Critical Care Medicine. 2015;43(5):1121-9.
+doi: 10.1097/CCM.0000000000000882
+Petrinec AB, Martin BR. Post-intensive care syndrome symptoms and
+health-related quality of life in family decision-makers of critically
+ill patients. Palliative & Supportive Care. 2018;16(6):719-724. doi:
+10.1017/S1478951517001043
+www.wfccn-ijcc.com|ISSN 2816-9050 95
+International Journal of Critical Care Volume 18 Issue 3
+Rawal G, Yadav S, Kumar R. Post-intensive Care Syndrome: an Overview.
+Journal of Translational Internal Medicine. 2017;5(2):90-92. doi:
+10.1515/jtim-2016-0016
+Rennick JE, Stremler R, Horwood L, Aita M, Lavoie T, Majnemer A,
+Antonacci M, Knox A, Constantin E. A Pilot Randomized
+Controlled Trial of an Intervention to Promote Psychological Well-
+Being in Critically Ill Children: Soothing Through Touch, Reading,
+and Music. Pediatric Critical Care Medicine. 2018;19(7):e358-e366.
+doi: 10.1097/PCC.0000000000001556
+Rentfrow PJ, Goldberg LR, Levitin DJ. The structure of musical
+preferences: a five-factor model. Journal of Personality and Social
+Psychology. 2011;100(6):1139-57. doi: 10.1037/a0022406.
+Righy C, Rosa RG, da Silva RTA, Kochhann R, Migliavaca CB, Robinson
+CC, Teche SP, Teixeira C, Bozza FA, Falavigna M. Prevalence of
+post-traumatic stress disorder symptoms in adult critical care
+survivors: a systematic review and meta-analysis. Critical Care
+(London, England). 2019; 23(1):213. https://doi.org/10.1186/s13054-
+019-2489-3
+Rivosecchi RM, Kane-Gill SL, Svec S, Campbell S, Smithburger PL. The
+implementation of a nonpharmacologic protocol to prevent
+intensive care delirium. Journal of Critical Care. 2016;31(1):206-11.
+doi: 10.1016/j.jcrc.2015.09.031.
+Rodwin AH, Shimizu R, Travis R Jr, James KJ, Banya M, Munson MR. A
+systematic review of music-based interventions to improve
+treatment engagement and mental health outcomes for adolescents
+and young adults. Child and Adolescent Social Work Journal. 2022:1-
+30. doi: 10.1007/s10560-022-00893-x.
+Rousseau AF, Prescott HC, Brett SJ, Weiss B, Azoulay E, Creteur J,
+Latronico N, Hough CL, Weber-Carstens S, Vincent JL, Preiser JC.
+Long-term outcomes after critical illness: recent insights. Journal of
+Critical Care. 2021;25(1):108. doi: 10.1186/s13054-021-03535-3
+Schneider L, Gossé L, Montgomery M, Wehmeier M, Villringer A, Fritz
+TH. Components of active music interventions in therapeutic
+settings-present and future applications. Brain Sciences.
+2022;12(5):622. doi: 10.3390/brainsci12050622
+Schwitzer E, Jensen KS, Brinkman L, DeFrancia L, VanVleet J, Baqi E,
+Aysola R, Qadir N. Survival ≠ Recovery. CHEST Critical Care.
+2023;1(1):100003. https://doi.org/10.1016/j.chstcc.2023.100003
+www.wfccn-ijcc.com|ISSN 2816-9050 96
+International Journal of Critical Care Volume 18 Issue 3
+Serrano P, Kheir YNP, Wang S, Khan S, Scheuneman L, Khan B. Aging and
+ostintensive care syndrome-family: A critical need for geriatric
+psychiatry. The American Journal of Geriatric Psychiatry: Official
+Journal of the American Association for Geriatric Psychiatry. 2018;27(4):
+446–454. https://doi.org/10.1016/j.jagp.2018.12.002
+Sharew N. The effect of multimodal non-pharmacological interventions on
+cognitive function improvement for people with dementia: A
+systematic review. Frontiers in Public Health. 2022;10:894930. doi:
+10.3389/fpubh.2022.89493010
+Stamenkovic DM, Laycock H, Karanikolas M, Ladjevic NG, Neskovic V,
+Bantel C. Chronic pain and chronic opioid use after intensive care
+discharge–is it time to change practice?. Frontiers in
+Pharmacology. 2019;10:23. doi: 10.3389/fphar.2019.00023
+Stapleton K, Jefkins M, Grant C, Boyd JG. Post-intensive care unit clinics
+in Canada: a national survey. Canadian Journal of Anesthesia/Journal
+Canadien d'anesthésie. 2020;67(11):1658-1659. doi: 10.1007/s12630-
+020-01741-1
+Tingey JL, Bentley JA, Hosey MM. COVID-19: Understanding and
+mitigating trauma in ICU survivors. Psychological Trauma: Theory,
+Research, Practice & Policy. 2020;12: S100-S104. https://doi-
+org.login.ezproxy.library.ualberta.ca/10.1037/tra0000884
+Umbrello M, Sorrenti T, Mistraletti G, Formenti P, Chiumello D, Terzoni S.
+Music therapy reduces stress and anxiety in critically ill patients: a
+systematic review of randomized clinical trials. Minerva
+Anestesiologica. 2019;85(8):886-898. doi: 10.23736/S0375-
+9393.19.13526-2
+Witusik A, Pietras T. Music therapy as a complementary form of therapy
+for mental disorders. Polskiego Towarzystwa Lekarskiego.
+2019;47(282):240-243.
+Wu Y. The Development of Music Therapy in Mainland China. Music
+Therapy Perspectives, 2019;37(1): 84–92.
+https://doi.org/10.1093/mtp/mix023
+Yinger OS. Music therapy: research and evidence-based practice. Elsevier,
+2018.
+Zang L, Cheng C, Zhou Y, Liu X. Music therapy effect on anxiety reduction
+among patients with cancer: A meta-analysis. Frontiers in
+Psychology. 2023;13:1028934. doi: 10.3389/fpsyg.2022.1028934
+Zhao J, Yao L, Wang C, Sun Y, Sun Z. The effects of cognitive intervention
+on cognitive impairments after intensive care unit admission.
+www.wfccn-ijcc.com|ISSN 2816-9050 97
+International Journal of Critical Care Volume 18 Issue 3
+Neuropsychological Rehabilitation. 2017;27(3):301-317. doi:
+10.1080/09602011.2015.1078246
+www.wfccn-ijcc.com|ISSN 2816-9050 98

@@ -1,0 +1,1670 @@
+| TYPEHypothesisandTheory
+PUBLISHED20September2023
+DOI10.3389/fmedt.2023.1184925
+Implications of immersive
+technologies in healthcare sector
+EDITEDBY and its built environment
+FernandoLoizides,
+CardiffUniversity,UnitedKingdom
+REVIEWEDBY Eunsil Yang*
+EleftheriaSavvopoulou,
+SynThesisArchitects,Greece Healthcare Facilities, Bartlett School of Sustainable Construction, University College London,
+NathanJones, London, United Kingdom
+CardiffUniversity,UnitedKingdom
+*CORRESPONDENCE Objectives: This research focuses on how built environment experts can
+EunsilYang
+contribute to the MXR-enabled digital innovation as part of the multidisciplinary
+eunsil.yang.21@ucl.ac.uk
+team effort to ensure post-pandemic resilience in healthcare built environment.
+RECEIVED12March2023
+The goal of this research is to help healthcare providers, built environment
+ACCEPTED04September2023
+experts, and policy makers respectively: (1) Advocate the benefits of MXR for
+PUBLISHED20September2023
+innovating health and social care; (2) Spark debate across networks of expertise
+CITATION
+to create health-promoting environment; and (3) Understand the overriding
+YangE(2023)Implicationsofimmersive
+technologiesinhealthcaresectoranditsbuilt prioritiesin making effectivepathwaystothe implementationof MXR.
+environment. Methods: To highlight the novelty of this research, the study relies on two
+Front.Med.Technol.5:1184925. qualitative methodologies: exploratory literature review and semi-structured
+doi:10.3389/fmedt.2023.1184925
+interviews. Based on the evaluation of prior works and cross-national case
+COPYRIGHT studies, hypotheses are formulated from three arenas: (1) Cross-sectional
+©2023Yang.Thisisanopen-accessarticle
+Initiatives for Post-pandemic Resilience; (2) Interoperability and Usability of
+distributedunderthetermsoftheCreative
+CommonsAttributionLicense(CCBY).Theuse, Next-gen Medicines; and (3) Metaverse and New Forms of Value in Future
+distributionorreproductioninotherforumsis Healthcare Ecosystems. To verify those hypotheses, empirical findings are
+permitted,providedtheoriginalauthor(s)and
+derivedfromin-depthinterviews with ninekeyinformants.
+thecopyrightowner(s)arecreditedandthatthe
+originalpublicationinthisjournaliscited,in
+Results:Themainfindingsaresummarizedunderthefollowingthreethemes:(1)
+accordancewithacceptedacademicpractice. Synergism between Architecture and Technology; (2) Patient Empowerment and
+Nouse,distributionorreproductionis
+Staff Support; and (3) Scalable Health and Wellbeing in Non-hospital and
+permittedwhichdoesnotcomplywiththese
+terms. Therapeutic Settings. Firstly, both built environment and healthcare sectors can
+benefit from the various capabilities of MXR through cross-sectional initiatives,
+evidence-based practices, and participatory approaches. Secondly, a confluence
+of knowledge and methods of HCI and HBI can increase the interoperabilityand
+usability of MXR for the patient-centered and value-based healthcare models.
+Thirdly, the MXR-enabled technological regime will largely affect the new forms
+of value in healthcare premises by fostering more decentralized, preventive, and
+therapeuticcharacteristics in thefuturehealthcare ecosystems.
+Conclusion: Whether it’s virtual or physical, our healthcare systems have placed
+great emphasis on the rigor of evidence-based approach linking health
+outcome to a clinical environment. Henceforth, built environment experts
+should seek closer ties with the MXR ecosystems for the co-production of
+scalable health and wellbeing in non-hospital and therapeutic settings.
+Ultimately, this is to improve resource efficiency in the healthcare sector while
+considering the transition of health resources towards in silico status by
+increasingthe implementationof MXR.
+KEYWORDS
+immersivetechnology,extendedreality(XR),medicalextendedreality(MXR),virtualreality
+(VR), digital health, health metaverse, therapeutic environment, future healthcare
+ecosystems
+FrontiersinMedicalTechnology 01 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+1. Introduction Figure 2). Also, an early adoption of XR addressed some of the
+biggest public health challenges from the COVID-19 pandemic,
+This research takes qualitative approaches to examine the accordingtoHealthEducationEngland(15,16).
+ImplicationsofImmersiveTechnologiesintheHealthcareSectorand MXR is one of the key digital health technologies that can
+itsBuiltEnvironment.Bydoingso,theresearchaimstoshedlighton reinforcethesociologicalcharacteristicsoffuturehealthcaresystems.
+how built environment experts can contribute to more resilient For instance, National Health Services (NHS) in the UK operates
+healthcare systems in the post-pandemic future. Harnessing digital Health Call and Virtual Wards to increase access to digital
+technologies enables us to reimagine healthcare models and healthcare solutions, thus mitigating health inequities across the
+workforceagility(1–3)andremotecarehasbecomeamajortrendfor country. Babylon, a digital health company, launched the AI-
+public health services (4). In June 2022, the UK government issued powered triage tool in Rwanda to improve the country’s healthcare
+the “Digital Revolution of Health and Social Care”, considering the systems by digitizing them (17). Particularly, MXR can help fight a
+rapid expansion of remote care to free up hospital space; save chronic healthcare issue of staff retention. Broomx Technologies,
+clinician time; and bust the COVID backlogs (5). Meanwhile, the Spanish immersive solutions company, supports the mental
+immersive technologies are becoming readily available for more health and wellbeing of healthcare workers through their multi-
+interactive, engaging, and efficient medical practices. Figure 1 sensory projects, called “Humanization of Hospital Spaces” (18). In
+describesthepropertiesofimmersivetechnologiesbyjuxtaposingtwo our rapidly ageing society, many experts and researchers have
+opposite ends—reality and virtuality (6, 7). In this research, predicted that the next generation of health and social care will be
+immersive technologies will be used interchangeably with Extended shiftedto “From-Facility-To-Home” or “Hospital-at-Home” models,
+Reality (XR), an umbrella term encapsulating Augmented Reality especiallyforolderadults.Moreover,XRcanbenefittheelderlyand
+(AR), Virtual Reality (VR), and Mixed Reality (MR). Specifically, theircaregiversby increasingtheirautonomyinlives,thusreducing
+MedicalExtendedReality(MXR)referstoXRinhealthcare. socialandeconomicburdenoftheentiresociety(19–25).
+WhenconsideringthetechnologyadoptionratesofUShouseholds, Coupled with the exponential growth of MXR, the healthcare
+itisexpectedthatatleast70millionuserswilladoptXRwithin6years metaverse will soon provide an open platform for real-time
+(8).GoldmanSachsGlobalInvestmentestimatedthe2025globalXR collaboration(26–29).Althoughitisstillinitsembryonicstage,the
+market size by different use cases where the healthcare industry metaverse as a nascent paradigm gains more credibility with the
+represents $5.1bn (9). Bloomberg UK forecaststhat the global MXR increasing prevalence of three major technologies: telepresence,
+marketrevenuegrowthwillreach$14.06bnby2030duetotherising digital twin, and blockchain (30–32) (see Figure 3). Consequently,
+demand of accurate robotic surgery (10). Furthermore, the COVID- healthcare facilities must evolve in response to this technological
+19 pandemic has propelled disruptive innovation to come up with disruption because a new modality of healthcare will later
+new ways of delivering healthcare services. As climate change will transform its built environment when XR finally becomes integral
+causemorefrequentviraloutbreaks,XRwillfindawiderapplication to the future healthcare ecosystems. Yet, most of the current
+in healthcare industry (11–13). In the UK, various XR technologies academic discourse and market research on MXR were conducted
+assisted healthcare roles during the COVID-19 epidemic (14) (see from the healthcare providers’ perspectives. With increasing
+FIGURE1
+Reality-virtualitycontinuumofimmersivetechnologies.
+FrontiersinMedicalTechnology 02 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+FIGURE2
+MXRduringCOVID-19(14),showingsuggestedXRtechnologiesandappsforasmallportionofhealthcareroles.Reproducedwithpermissionofthe
+copyrightowner.
+healthcarespendingbygovernmentsandreal-worlddeploymentsof throughthetheoreticalframeworksthatareidentifiedfromliterature
+MXR, it is critical to identify an agenda for future research to review.Thequalitativemethodologywastakentogatherresultsfrom
+consider the ripple effect of immersive technologies on healthcare in-depth interviews with nine key informants. Then the discussion
+services and facilities. The research aims to address this gap by lays down the key findings which are summarized with the
+detailing a coherent framework to identify the roles and suggestions for future research in the conclusion. As a result, this
+responsibilities of built environment experts as part of the research aims to help healthcare providers, built environment
+multidisciplinary team effort for more effective implementation of experts, and policy makers respectively: (1) Advocate the benefits
+MXR.Accordingly,threecriticalresearchquestionsariseasto: of MXR for innovating health and social care; (2) Spark debate
+across networks of expertise to create health-promoting
+(i) How does the MXR contribute to the advancement of
+environment; and (3) Understand the overriding priorities in
+healthcare services and facilities to improve population
+makingeffectivepathwaystotheimplementationofMXR.
+health and wellbeing in the post-pandemic era? Can built
+environmentexpertsbenefit fromthe expansion ofMXR?
+(ii) What are the risks and limitations that hamper a widescale
+2. Related work
+adoption of MXR in healthcare sector? Can built
+environmentexpertsmitigateagainstsomeofthoseobstacles?
+2.1. Objectives and search criteria
+(iii) What are the roles and responsibilities of built environment
+experts in creating a long-standing value chain of
+This section provides the current context of academic and
+healthcare premises undergoing transformation within the
+industry perspectives on the MXR through an exploratory literature
+futurehealthcare ecosystemsreformed byMXR?
+review of prior research and cross-national case studies. Many
+Toanswerthese,theresearchisorganizedintosixmainstages. researchers have called for a transdisciplinary culture to maximize
+Followingtheintroduction,relatedworkestablishesthreehypotheses the potential of MXR (16, 33), however the merits of prior
+FrontiersinMedicalTechnology 03 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+FIGURE3
+Googletrendsofhealthmetaversein2015–2022(30),showing(A)theregionalshareofinterestinhealthmetaverseandmetaverse;(B)theinterestover
+timeinblockchain,telepresence,digitaltwin,andmetaverse.Reproducedwithpermissionofthecopyrightowner.
+conceptualizations or methodologies to define the roles and typical usage contexts. The distinction between AR and VR is
+responsibilities of built environment experts in this nascent made based on whether the physical environment is part of user
+technological regime are still limited. Given that, this review strives experiences or not (7). Namely, AR with local presence can be
+to determine the extent to which any interpretable pattern elicits implemented everywhere, whereas VR with telepresence is to be
+the interrelations between MXR and built environment and their operated with Head-mounted Displays (HMDs) in specific
+impactsonthefuturehealthcareecosystems. settings. Roughly speaking, MXR has three different modes of
+The review commenced with Google Search Engine, Google operation: in-bed, in-lab, and surgical session (35–37). Although
+Scholar, and reputable academic databases, then completed with the most prevalent modality of XR is still a mix of physical and
+the last search on 15th August 2022. Since the most MXR virtual components, given the fact that in vivo exposure is yet
+research has been published in conference papers (90.05%) rather inconvenient, expensive and time consuming, MXR will
+than in journals (9.95%) (34), data was also collected from grey continuously replace and repeat the in vivo experience with
+literature. The search terms included “XR”, “MXR”, and forms ofin silicocontact (38,39).
+“Immersive Technologies” by limiting the results to the healthcare Many recent studies have focused on the roles of XR in
+and AEC (Architecture, Engineering and Construction) industry. enhancing health and social care (15, 40, 41). But at the same
+Only English language publications between 1990 and 2022 are time, XR continues to find a home in the built environment
+considered to obtain globally recognized work while capturing the sector for healthcare facilities development (42–44). MXR’s
+evolution of research topic. In light of research questions, the diverse opportunities can be categorized into eight domains: (a)
+findings can be grouped into three arenas: (1) Cross-sectoral Enhancing surgical procedure and pain management; (b)
+initiatives for Post-pandemic Resilience; (2) Interoperability and Advancing design, construction and management of healthcare
+Usability of Next-gen Medicines; and (3) Metaverse and New facilities; (c) Training and educating healthcare professional and
+FormsofValueinFutureHealthcareEcosystems. patient; (d) Diagnosing and treating disorder and pathology; (e)
+Assisting physical impairment and rehabilitation; (f) Promoting
+mental health and wellbeing; (g) Ensuring healthy living for the
+2.2. Cross-sectoral initiatives for elderly; and (h) Analyzing health data (40, 42, 45–52). Table 1
+post-pandemic resilience comprises MXR case studies based on their contemporaneity,
+practicality, and implicationstothehealthcare built environment.
+To avoid conceptual confusion and unclear demarcations, the A considerable number of MXR studies are published on
+latest classification of XR-related technologies reviews their medical training, education, and practice (14, 53–55). Especially,
+FrontiersinMedicalTechnology 04 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+TABLE1 MXRopportunities.
+Domain Projectdetails Opportunities Implicationsto built environment
+(a) VR-NerveBlock,NorthumbriaNHS Feweropiatemedicationsduringsurgery Createvirtualspacetodistractpatients
+Trust,UK(40)
+(b) VRWalkthrough,Stantec,US(42) 360-degreetourhelpspeoplevisualizeclinicalspaces Reshapinghealthcaredesignpracticewithbetter
+decision-making
+(c) CTCAScanTraining,GE&Immerse,UK Simulationreducesonsitetraining,costs,andriskstopatients Substitutephysicalenvironmentwith24/7online
+&US(45) access
+(d) gameChange,NIHR,UK(46) Cognitive-behavioraltherapyforpatientswithpsychosis User-centereddesignofimaginalexposuretherapy
+(e) Canetroller,Microsoft,US(47) Enablingpeoplewithvisualimpairmenttonavigatethrough UnhinderedareaforXRtrials
+outdoor/indoorscenes
+(f) Rechargerooms,MountSinai,US(48) Multi-sensoryexperiencetosupporthealthworkers Transformunderusedhospitalspaceinto
+regenerativepurposes
+(g) LookBack,VirtueHealth,UK(49) Reminiscencetherapyfordementiasufferers Physicalobjectsandspacecanenhanceexperience
+(h) VROOM,WesternSydneyUniversity, Oncologydatamodelforpatient’scohort UnifiedenvironmentwithXR-relateddevicesand
+Australia(50) technologies
+XR can effectively treat mental health problems and behavior development of healthcare facilities can benefit from evidence-
+disorders with a high degree of control over therapeutic based practices and participatory approaches using the various
+experiences (38, 56–58). For example, Oxford Psychiatry has capabilities of MXR.
+experimented with VR in helping people with psychosis. And an
+automated cognitive-behavioral session benefited patients with
+severe agoraphobic avoidance since it could be conducted in the 2.3. Interoperability and usability of
+participant’s home(46). Moreover,MXRhas beensupportingthe next-gen medicines
+wellbeing of frontline healthcare staff not just as a short-term
+response to the pressure of working through backlogs, but as a Despite numerous benefits afforded by MXR, its development
+long-term commitment to mitigating the global crisis of as an interoperable medicine faces several challenges. Medical
+healthcareworkforce (59–62). interoperability refers to timely, secure, and seamless digital flow
+ThesuccessfulXRadoptionmuststartwiththebuildingblocks for integrating electronic health data across different settings and
+of infrastructure and ecosystems (63). For this, several studies systems for better patient experience and clinical outcome
+highlight the importance of transdisciplinary collaboration with (71–73). It is anticipated that the horizontal convergence of
+various experts across industries (53, 64). Particularly, the interoperability and portability for XR will be achieved by 2030
+adoption of Participatory Design (PD) has been advocated to to ensure its wide-scale deployment in healthcare (74, 75). Yet,
+foster an understanding of different needs between the optimizing XR opportunities in parallel to the healthcare
+stakeholders in developing MXR applications (65). There are requirements on a global scale necessitates the coherent
+many precedents of incorporating XR into the PD for designing frameworks of standardization to increase clinical interoperability
+healthcare facilities to improve the workflow amongst various in currently unregulated and fragmented XR industry (76).
+construction project teams (66–70). However, the reverse rarely Specifically, the importance of the Centers for Excellence has
+exists. Most MXR publications do not suggest the potential been highlighted to exchange knowledge and methods for XR
+contribution of built environment experts in contrast to the heavy solutions between healthcare providers, tech industries, and
+involvement of computer scientists and product designers to solve academic researchers. This potential collaboration is concerned
+complex medical challenges. In general, the XR ecosystems do not with addressing the most pressing issues such as global digital
+sufficientlytakeintoaccountfeedbackfromtheAECindustry(34). exemplars, product development, quality assurance, procurement
+Greenleaf, a neuroscientist at Stanford University’s Virtual frameworks, and distribution through virtual pharmacies (16, 39,
+Human Interaction Lab, commented that many MXR consultants 72, 73, 75, 76). By considering all these, Table 2 analyzes the
+are from the tech industry such as gaming or ITapplications. The risks and limitations when determining how best to incorporate
+problem isthat they do not quite understand what istruly needed XR tothehealthcare sector.
+for the XRecosystems in relationto the clinical environment (39). Further to that, how built environment experts can help to
+Therefore, having a dialogue across multiple disciplines will help mitigate these issues will be examined in this stage by
+them understand how technology can fit into the healthcare synthesizing research findings around the transdisciplinary effort
+ecosystems without becoming a barrier. Based on these of achieving better user experiences through Human-Computer
+observations, the first hypothesis as a conjectural statement to Interaction(HCI). Itis becausethatthesuccess ofMXR is highly
+explainthefirstresearchquestionisformulatedasfollows. dependent on the qualityof ImmersiveMedia Experience (IMEx)
+Hypothesis 1: MXR requires cross-sectoral initiatives to which is affected by Human Influential Factors (HIFs) such as
+become an integral part of healthcare systems for post-pandemic “Immersion”, “Sense of Presence”, “Cybersickness”, as well as
+resilience. Built environment experts can improve clinical mental and emotional status on the user viewpoint (77). And
+environment to ensure the best use of MXR. In tandem, the identifying the use-related risks through psycho-physiological
+FrontiersinMedicalTechnology 05 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+TABLE2 MXRchallenges. architects for the design of individual buildings and urban
+spaces. Kirsh, a Canadian cognitive scientist, compared the
+Types Issues andmitigations
+different approaches of architects and HCI practitioners by
+Technicalevaluation (cid:129)Lackofdeviceusabilitymeasurementandprocedures
+(16,39,75,76) →IntegrateXRproperties(ImageQuality,Human defining three different interfaces: circular interactivity for
+Factors,Tracking) classical HCI, network interactivity with context aware, and
+ClinicalValidation (cid:129)Lackofeffectiveclaimsandsafepremarketapplications architectural interactivity based on social and embodied ecology.
+(16,39,76) →Controltrialswithclearlydefinedendpoints In his lecture titled “What Can HCI Learn from Architecture
+ImplementationTime (cid:129)Delayinloading,troubleshooting,andlicensing about Interaction?”, it was proposed that high-dimensional
+(39,72,73,75,76) →Betterconnectivityandstandardization
+architectural conceptioncan beafertile ground forHCI (86).
+CostandFunding (cid:129)Moreaffordabledevices,butcostisstillhigh
+Mechanism →Diversifyfundingoptions Similarly,theconceptionofHuman-BuildingInteraction(HBI)
+(16,75,76) has been introduced to address the complexity of human
+Workforce(39,75) (cid:129)Lackofskilledworkforcetoprovidetechnicalsupport interactions with future built environment by implementing HCI
+→Providecontentupdateandongoinglearning
+principles into the domain of architecture and urban design (87)
+Resistanceand (cid:129)Resistancetoadoptinnovativetechnology
+(see Figure 4). Also, the dynamics of whole-body interactions
+Pushback(39) →ProvideconclusiveevidenceofMXRefficacy
+Governance (cid:129)Duplicatedeffortwithoutclearpathwaymapping and social encounters in public spaces were studied by architects
+(16,75,76) →StandardizationandMedicalDevicesRegulations (88). The claims of these researchers are in line with the
+DigitalEthics (cid:129)Cybersecurity,cyberprivacyandotherconsentissues principles of Freedman’s VR Exposure Therapy (VRET) that
+(16,75,76) →Protectionofpersonalhealthdata(e.g.,XRSafety fosters a repertoire for coping with stressful social situations. In
+Initiative,US)
+addition, how XR can affect human-scale spatial experiences and
+DigitalInequalities (cid:129)Systematicdigitalexclusionofdisadvantagedgroups
+(16,75) →Improvedeviceownership,digitalliteracyandprecarity how digital and physical elements can be integrated in XR have
+been examined by built environment specialists (89, 90). In 2020,
+Arup proposed an incentivizing built environment that promotes
+measures is vital not only to keep sustained growth but also to active lifestyles with greater digital adoption as preventive
+justify further investment on MXR. Specifically,MXRexperiences approaches to wider health determinants. Here, the omnipresent
+should emulate the real-life interactions as much as possible layer of technologies in a ubiquitous built environment will
+through a superior user interface since “Cybersickness” is mainly empower people to take control of their own health and
+caused by a discrepancy between the user’s visual and vestibular wellbeing (91). Based on these findings, the hypothesis derived
+sensorysystems(53, 77–79). from thesecondresearchquestion is asfollows.
+Those XR interactions can be defined by three criteria: Hypothesis 2: Human-Computer Interaction (HCI), a
+relationship, collaboration, and engagement. And, based on these foundation of the MXR, is rigorously studied by architects for
+criteria, it is identified that current XR interaction methods have optimal user experiences in the built environment. A confluence
+six different types: tangible, collaborative, multimodal, device- of knowledge and methods from two sectors can achieve more
+based, sensor-based, and hybrid (80). Among these, multimodal interoperable and usable MXR as the next-generation medicines
+interactions provided in the MXR applications are particularly to reinforce the patient-centered and value-based models of
+important to enable patients’ physical and mental healthneedsto healthand social care.
+be closelyinterwoventhroughHCI.And the essence ofHCI is in
+stimulating user’s cognitiveprocess with multi-sensoryexperience
+through the tri-dimensional representation of virtual 2.4. Metaverse and new forms of value in
+environment, which consists of two key elements: system future healthcare ecosystems
+requirements and user concerns (78, 81, 82). In other words,
+multimodal interactions can significantly increase the usability of EvenbeforetheCOVID-19pandemic,healthcaresystemswere
+XR by the technologies of employing simultaneous human already going through transformation due to the shocks and
+senses, but unfortunately those sensing technologies are still stresses induced by global issues such as climate change,
+immature (83). Therefore, it is worth looking at other alternative demographic shifts, consumer expectations, and disruptive
+measures to deal with such deficiency toward a more realistic technologies (92–94). And the way we interact with the built
+representationofvirtual environment. environment has been changed by digital disruption, which led
+VRforhealth-relatedresearchonhowindividualsperceiveand to the relocation and redesign of some forms of real estate (95).
+respondtosurroundingenvironmentisinherentlyinterdisciplinary In the UK, most NHS properties face an unprecedented
+(84).Spiegel,aleaderoftheworld’slargestvirtualmedicinelabsin challenge to keep up with Net-Zero aspirations with an ambition
+California, US, explained about the MXR’s four therapeutic to reach 80% reduction by 2040 (96, 97). Besides, Integrated
+mechanisms: promoting cognitive flow; dampening inner pain Care Systems (ICSs) aim to combine health and care services
+signals; enhancing healthy body at tension; and strengthening through interoperable digital systems that require specialist
+self-identity. Especially, strengthening self-identity is about estates capacity (98–100). Since 2013, the NHS Property Services
+helping patients establish meaningful connections with the world has raised £418.5m through the disposal of 488 surplus
+around them (85). In this regard, it is noteworthy that such properties because the strategic NHS estates planning is critical
+socio-spatial aspects of HCI have been rigorously investigated by to generate not only a vital capital for the healthcare provision,
+FrontiersinMedicalTechnology 06 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+FIGURE4
+ThreedimensionsofHBIresearch(87),illustratingthreeconcentriccirclesof“people”,“builtenvironment”,and“computing”todescribehowtheHBI
+themescanoperatebetweenthreedimensions:physical,spatialandsocial.Reproducedwithpermissionofthecopyrightowner.
+but also an efficient value chain by reallocating socio-economic fewervisitstohealthcarefacilities.Instead,moretherapeuticspaces
+resources inatimelymanner (101). willincorporatenaturalelements intothe humanized andpersonal
+Henceforth, the NHS estates will be put further into a wider space(89)(seeFigure5).
+context in which healthcare premises will undergo significant Meanwhile, there has been a gradual transition towards more
+alterations. In that sense, it is practically useful from a health virtual-oriented methods to complement traditional healthcare
+economic perspective to envision how the healthcare facilities will systems. Digital Therapeutics (DTx), as a sub-category of the
+evolve when MXR becomes an integral part of future healthcare Digital Health landscape, will bring the healthcare systems into a
+ecosystems. As opposed to many digital technologies integrated to digital future with emphasis on cost efficiency and changing
+healthcare, built environment does not necessarily make them fit- lifestyles (104–106). DTx are patient-facingsoftwareinterventions
+for-purpose and thus not all buildings succeed in addressing two that can be tailored to individual’s needs by combining
+critical needs of ageing populations: personal autonomy and prescribed medications with app-based systems. Since there is
+inclusivity. Therefore, tofoster individual’s health and wellbeing in no need for physical logistics, DTx can complement the
+the highly digitized healthcare systems, policies and interventions Decentralized Clinical Trials by allowing people access the
+shouldentailanewdesignparadigmof“TherapeuticArchitecture” healthcare services regardless of time and place. In future,
+to operate with people-centered and evidence-based discipline in the use of DTx will be widened by related technology such as
+harmony with psychology and physiology (102, 103). In the same cloud-rendered XR, single-digit millisecond latency with edge
+vein, Arup envisaged that increased remote care will result in computing, and real-timepredictiveanalytics (25, 107–111).
+FrontiersinMedicalTechnology 07 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+FIGURE5
+Blueprints of future healthcare ecosystems (91), rendering (A) incentivizing and ubiquitous infrastructure platforms; (B) humanized and personal
+healthcarebuiltenvironmentthatareenhancedbydigitaltechnologies,includingXR.Reproducedwithpermissionofthecopyrightowner.
+Suchdigitallyenabledapproachesshouldworkintandemwith DTs of healthcare facilities can bring operational benefits such as
+carefully designed physical infrastructure, urban space, and monitoring bed shortages and optimizing staff schedules (114).
+buildings to deliver truly preventive healthcare services and Combined with Machine Learning and Artificial Intelligence,
+healthier lifestyles (89). As shown in Figure 6, the ecological DTs continue to evolve in healthcare and life sciences to provide
+environment of DTx has been proposed by medical researchers to precision medicines as part of patient-centered care (115, 116).
+support a sustainable business model of behavioral medicine for Eventually, MXR, DTx and DTs will become indispensable parts
+obesity and eating disorders. DTx can be combined with online- of future healthcare ecosystems. On top of that, the healthcare
+to-offline services within a ubiquitous environment of the future industry now seeks to enter a collective and incentivizing virtual
+healthcare ecosystems (112). Here, the concept of creating environment, “the Metaverse”, which is accessible by immersive
+“Enabling Spaces” such as green spaces and walkable communities technologies. “Metaverse” is a portmanteau word formed from
+can tackle the noncommunicable chronic diseases and modifiable “Meta” and “Universe” and it has gained traction as a
+lifestyle factors (113) by enhancing the efficacy of DTx, which is combinatorial innovation of flexible work styles and spatial
+one of the key digital health modalities that require a technologies(27).
+comprehensiveintegrationoftechnologyandbuiltenvironment. In 2021, Seoul National University Hospital gave lung cancer
+The usability of DTx can be reinforced by MXR and Digital surgery training to the avatars of surgeons from around the
+Twins (DTs). DTs can be used as the virtual representation of world through the 360°-8K-3D metaverse platform. This was to
+target patients’ physiology for in silico clinical trials. And the meet the demand for non-face-to-face education during the
+FrontiersinMedicalTechnology 08 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+FIGURE6
+Dtxecologyformodifiablebehaviors(112),showingfutureperspectivesfortheecologicalenvironmentofbehavioralmedicinethatleveragesdigital
+technologies,includingXR.Reproducedwithpermissionofthecopyrightowner.
+COVID-19 pandemic (117). Also, South Korean’s Metaverse the last hypothesis to be tested in relation to the third research
+Doctors Alliance (MDA) adopted its own cryptocurrency as questionis asfollows.
+payment method for the health services they provide. And the Hypothesis 3: With the rise of metaverse, XR will become a
+MDA’s MetaClinic resembles the spatial layouts of real-world core component of digital health revolution to transform the way
+hospitals to give a sense of familiarity that is strongly associated healthcare is practiced and delivered. More adaptive and
+with human cognition (118). In 2022, the US’s Food and Drug inclusive approaches to the development of health-promoting
+Administration (FDA) has hosted its own MXR programs to environment are essential for built environment experts to
+approve key metaverse solutions (119). In particular, its embrace more decentralized, preventive, and therapeutic
+economic profitability has been highlighted because the characteristics of thefuture healthcareecosystems.
+metaverse will dramatically transform the healthcare sector by
+innovating clinical education and patient care, but more
+importantly, introducing monetization through blockchain, 3. Methodology
+gamification,and Non-Fungible Tokens(NFTs) (120).
+Whilst admitting that in-person consultations in a shared 3.1. Research design
+immersive environment allow far more natural interactions and
+collaborative treatments (121), the cautious approach, on the The research is designed to understand the most agreed body
+contrary, warns about the risks of investing in many individual of knowledge and different accounts of MXR and their
+health metaverses. It is because the metaverse has limited implications on built environment. Since the amount of MXR-
+functionality in its current form although a quarterof population related data is currently limited, this research relies on two
+will extend their physical activities to this digitally enhanced qualitative methodologies. An exploratory literature review was
+virtual world by 2026 (27). Thus, it can be challenging to acquire chosen to identify the variables of theoretical frameworks to
+a complete picture of how the metaverse will alter the future assess the research questions. To create continuity while bridging
+landscape of health and care services. Nevertheless, there is one a gap in existing studies, those theoretical frameworks were used
+consensus among researchers and practitioners on the short-term to formulate hypotheses, one from each thematic analysis of
+outlook of healthcare metaverse; the future healthcare ecosystems related work, and provided directions for answering the research
+need to strike the right balance of digital and in-person questions. Given the scarcity of research data, the purposes of
+healthcare services (119, 122). In consideration of these points, interviews were to gather empirical evidence from participants
+FrontiersinMedicalTechnology 09 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+whocanprovidescientificnarrativesintothesituations,scenarios, and emails. The types of interviews depended on the availability
+and processes ofMXRapplications inthehealthcare systems. of participants. All interviews were held in free-flowing settings
+to uncover meaningful patterns of describing how MXR alters
+(i) Exploratory literature review with a critical evaluation of
+the healthcare services and facilities and how built environment
+secondary data from the existing published work, including
+experts can cope with the future healthcare ecosystems
+peer-reviewed academic journals; statistical data from
+transformed by MXR-related technological regimes. The
+governmental reports, private sector research and surveys;
+researcher produced written notes and completed transcripts of
+and editedacademicandprofessional books.
+video recordings to document the interviews. Findings were
+(ii) Author’s own observations on primary data collected from
+supplemented byfollow-up questionstothe participants.Sessions
+individual, semi-structured, and in-depth interviews with
+were carried out for 3 months, completed with the last one held
+nine key informants, including industry experts and
+onthe4thof August 2022.
+academic scholars with specialties and professional
+During the video or email interviews, participants were
+backgrounds relating to the immersive technologies in
+given a list of open-ended questions within predetermined
+healthcare sector. thematic frameworks. Researcher asked participants’
+experiences, context-rich personal accounts, and forward-
+Figure 7 depicts the non-linear and iterative process of
+implementingresearchfindingstoverifyhypotheses. looking perspectives about: (1) Interviewee’s expertise of
+MXR; (2) Risks and limitations experienced by the
+3.2. Data collection procedures and interviewee in MXR practices; (3) Interviewee’s understanding
+participants on the relationship between MXR and built environment
+where the technology is embedded; (4) Interviewee’s
+The research proposal has been approved by the School of suggestions on how built environment experts can contribute
+Sustainable Construction Ethics Committee. Due to the to the implementation of MXR; and (5) Potential MXR
+restrictions concerning the COVID-19 pandemic, the author was applications in healthcare facilities the interviewee think it
+advised to proceed with the online- and desk-based research may enable better healthcare practices and outcomes. Table 3
+methods rather than adopting face-to-face fieldwork or large- summarizes the details of interviewees. The interviewees
+scale survey. Consequently, semi-structured and in-depth encompass great expertise in business, healthcare, architecture,
+interviews were conducted online, using video conferencing (VC) computer science, and robotics engineering.
+FIGURE7
+Qualitativeresearchprocess.
+FrontiersinMedicalTechnology 10 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+TABLE3 Listofinterviewees.
+ID Date Type Field Backgrounds
+(dd/mm/yyyy)
+A 02.05.2022 Email Business FounderofaleadingBritishcompanyspecializedinXReventsforglobalaudiences,B2B/B2Csolutions,andVRsurgery
+training
+B 14.06.2022 VC Business DirectorofXRhub;KeynotespeakeratinternationalXRconferences;XRchairprofessorinBritishuniversity
+C 04.07.2022 Email Healthcare FounderofMXRalliance;ManagingdirectorinaleadingAI-poweredmentalhealthplatformcompany;Former
+technologydirectoratNHSfoundationtrust
+D 05.07.2022 VC Architecture Computer-aideddesigntechnicianatNHSfoundationtrust;Freelancemetaversepropertydeveloper
+E 11.07.2022 VC Computer Deputydirectorofdatascienceacademy;Co-founderofaleadingprototypingcompany;Computerscienceand
+Science informationlecturerinBritishuniversity
+F 15.07.2022 VC Architecture HealthcaredesigndirectorataleadingBritishconstructioncompany
+G 25.07.2022 Email Healthcare Chairofmedicalmetaverseresearchassociation;Neurosurgeon;MedicalprofessorinSouthKoreanuniversity
+H 29.07.2022 VC Architecture Founderofarchitecturalpracticedesigningvirtualenvironment;ArchitectureprofessorinSouthKoreanuniversity
+I 04.08.2022 Email Computer VRdigitaldesignaccessibilityresearcher;HCIlecturerinBritishuniversity
+Science
+4. Results potential contribution to create physical environment that works
+best for the MXR implementation. A founder of MXR alliance,
+4.1. Data characteristics Interviewee C (IC) responded, “The built environment knowledge
+andexpertiseareinherentintheskillsofthecodersanddesigners.
+Thisresearchprocesspresentsqualitativefindingsbyprovidinga ThosewhobuiltXRsolutionshaveconsideredthemechanicsofthe
+statement of in-depth interviews with nine key informants. The
+builtenvironment.However,Ithinkthekeyhereis‘considered’.”IC
+originalquotesandexamplesdrawnfrominterviewtranscriptswere thenremarkedthattheactiveparticipationofarchitectswillenhance
+compiledasrawdata(seetheSupplementaryMaterial)beforethey theMXRapplicationsfurther.
+werefurtheranalyzed.Allintervieweesremainanonymoustoensure In architectural practice, XR is being increasingly used for
+their confidentiality and privacy. Supplemental evidence is provided the design and development of healthcare facilities. Interviewee
+to support the interviewees’ contributions in determining whether F (IF), a healthcare design director of a leading construction
+the phenomenon described in each hypothesis can be validated or company, sharedthe experience ofusing VRwalkthroughstohelp
+nullified. As a result, the findings are classified into three thematic theclientunderstandwhatanewhospitallookslike.IFmentioned,
+areas: (1) Synergism between Architecture and Technology; (2) “In many cases, the virtual tour is most effective when combined
+Patient Empowerment and Staff Support; and (3) Scalable Health with full size mock-ups at 1:1 scale because people are familiar
+andWellbeinginNon-hospitalandTherapeuticSettings. with neither two-dimensional drawings nor entirely virtual
+environment.” Interviewee H (IH), a virtual space architect, uses
+Immersive VirtualEnvironment (IVE)tosimulateoptimallighting
+4.2. Synergism between architecture and design for workplace. IH said, “The same applies to healthcare
+technology facilities as doctors also need offices, not to mention lighting as a
+criticalelementforhospitaltopromotethepatient’swellbeing.”
+MXR will contribute to the resilient healthcare systemsof the Another important point is that built environment can ensure
+post-pandemic world by combining medical expertise with the best use of MXR. Interviewee I (II), a HCI researcher who
+immersive experiences that go beyond the traditional healthcare develops an accessible virtual environment for visually impaired
+provision. For the large-scale deployment of MXR, many people, explained that the earliest headsets with extra cables and
+researchers and practitioners have highlighted the importance of sensors posed a huge risk to users. II elaborated, “Any SteamVR
+three practical methods: cross-sectoral initiatives; evidence-based solutions using base stations cannot have reflection in the space.
+design; and participatory approaches. Interviewee A (IA) is a Lighting conditions must be accurate, and normally these must be
+founder of world-renowned XR company collaborating with placed in elevated positions for accurate tracking.” Even the most
+various industry experts. In 2016, IA’s company launched the advanced HMDs can be susceptible to the level of “Neutrality” in
+first global VR-content distribution platform for medical training test sites.IIadded,“Allkinds ofinside-outtracking HMDsshould
+and education. IA advised, “If we investigate how XR can not be used outdoor or in contact with sunlight due to the riskof
+improve the treatment of stress or anxiety, there should be an camera damage.” II was asked if he felt the need to collaborate
+explanationastohowthisrelatestothe builtenvironment.” with built environment experts. “To a certain level yes. When
+Althoughbuiltenvironmentexpertshavelongbeenapartofcross- workingwithbusinessIhadtoensurethatroomsweresuitable.”
+sectoral initiatives to create clinical environments where healthcare Conversely,builtenvironmentexpertscanleverageMXR’sdata-
+communitiescangrowandthrive,howevertheybarelygotalookin handling capacity for the evidence-based design of healthcare
+on “the Growing Value of XR in Healthcare” (16, 39). Yet, facilities. In the MXR landscape, tracking sensor technology can
+clarification is needed as to whether it is about the roles of built decide the usability of MXR as to the impact of physical
+environment experts around the 3D visualization of space or their environment on digital world because it can collect and process
+FrontiersinMedicalTechnology 11 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+enormous data about the users and their surroundings (79). requirements will vary depending on the programs and stages of
+Interviewee E (IE), a computer science and informatics professor healthcare facilities projects.” For this reason, many MXR
+in British university, described how useful these sensors can be in pioneers advocated a representative and impartial network of
+elucidating the relations in between people’s health, their lifestyles, academic institutions, researchers, healthcare providers, digital
+and built environment. “We can think of a physical environment and creative industries to share skills and resources, while
+which lets the robot and sensors function seamlessly and doesn’t avoiding duplications (126). Figure 8 illustrates the author’s
+get in its way.” So, one could infer from this statement that the interpretation regarding the different domains and cross areas of
+data collected from MXR sensors can be the basis of architectural traditionalstakeholdersandnewentrantsintheMXRecosystems.
+designtoaidpeoplewithdisabilitiesordisorders. As mentioned earlier, Participatory Design (PD) is one of key
+IE also urged, “Knowing what technologies are needed for the elements embedded in healthcare ecosystems. Interviewee F
+houseisabigthing.Ithinkthat’swherethekeyisfor.Wehaveall elucidated that PD is not just necessary to cater for the different
+these studies being done in the house for healthy aging or People needs of stakeholders in the healthcare ecosystems, but also
+with Dementia (PwD). But I don’t think anybody has seriously mandatorytogetfundingformosthealthcarefacilitiesprojectsinthe
+taken this.” In fact, the XR utilization via IoT platforms has been UK.IntervieweeB,achairprofessorofXRinBritishuniversityanda
+developed under the umbrella concept, “Smart Home” or “Smart keynotespeakerofnumerousinternationalXRconferences,expanded
+Cities” to enhance the elderly’s autonomy and independence in onthispoint,“Whenitcomestothealterationofbuiltenvironment
+their lives (123, 124). Unfortunately, current practices remain at for XR implementation, it is important to understand multifarious
+retrofitting guidelines for general homes rather than being specified demands from different stakeholders.” Specifically, before a
+for living spaces with extensible technology adoption (125). On a comprehensive MXR infrastructure can be built, the targeted use
+somewhatrelatednote,IntervieweeIproposed,“Healthcarefacilities cases and intended Return on Investment (ROI) must be qualified
+need to involve tech experts who can suggest solutions to current overbothtimeandintent.Andbenchmarkmustbeoutlined(63).
+procedures and practices that would save a lot of time and money,
+andgreaterawarenessisneededtoachievethis.”
+IntervieweeF(IF),anarchitect,wasaskedabouttheleadership 4.3.Patientempowermentandstaffsupport
+potential and communication abilityof built environment experts
+in engaging with a disparate group of stakeholders. IF replied, No matter how amazing health innovation may be, its long-
+“Architects are only very small part of complex and extensive term integration into the systemsoften comes down to basic user
+healthcare systems. Moreover, stakeholder dynamics and project experience. XR enables the quality of care by lowering the
+FIGURE8
+StakeholdersinMXRecosystems.
+FrontiersinMedicalTechnology 12 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+physicalimpactonthepatient,shorteningtheirrecoverytime,and The Hoag Centre for Advanced Visualization and Immersive
+thereforeresulting in significant healthcaresavings(63). Also, XR Therapeutics (AVIT) in California uses patient-specific 360°
+strengthens humanity in healthcare with an inner-centered models for patient engagement, pre-operative planning, and
+conception of patient’s life (85). Interviewee I (II) shared an idea surgical rehearsal (130). In the UK, the Dental Public Health at
+on this, “From years of collaborating with impaired users, I have the Wales University Dental Hospital (UDH) augmented
+seen first-hand that XR can bring dramatic changes to someone’s patient’s experience with virtual characters and gamification
+everyday life. However, XR is heavily underutilized for these (132). Interviewee E (IE) worked on this project in close liaison
+kinds of practical implementations.” II continued, “VR devices with pediatric dentistry,public health consultants, digital learning
+could be used as highly advanced visual accessibility aids to managers, and software developers. IE commented, “We gave
+replace several existing tools and equipment that are relied on children a virtual tour by putting virtual characters who can
+currently at a fraction of the cost.” In other words, the XR- speak to children so that they can get familiar with the
+enabled healthcare transformation should be understood in the environment of dental clinic. At least, children have one less
+context of far-reaching implications of the shift to more patient- thing to worry about.” This was indeed a good co-production of
+centered and value-basedhealth and socialcare. virtual and physical healthcare facilities to demystify dental visits
+TheessenceofMXRistheuserexperiencesthatcanbeenhanced by increasing patient’s confidence levels, thus making patient
+through more engaging dialogues between patients and healthcare careeasierforclinicians.
+providers, while allowing clinicians to focus on more urgent and Regarding the user experiences, another important aspect to
+chronic health issues. Working with the NHS on specifying the consider is HCI which is the XR’s operation principle, enabling
+user requirements of VR anxiety and depression treatment, interactive experiences in an immersive environment. Interviewee
+Interviewee B emphasized,“The most desirable healthtechnology is I (II), a HCI scientist, was asked about the notion of HCI in
+not the kind of cutting-edge ones. Clinicians welcome a novel relation to the built environment. II answered, “Since some
+digital tool to save cost and time, to get better clinical outcomes, testing was done comparatively to physical elements, so a
+and to make patients satisfied. If technology fails to make a huge recreation of the built environment was necessary. This
+improvement compared to traditional health practices, it will get considered variables such as the luminosity levels and distance.
+rejectedveryquickly.Costandperformancearethecriticalfactors.” To avoid the need of physical movement, distances could be
+That being said, it would be remiss of us to neglect the XR’s manually manipulated in a controlled scenario that was a
+practical problems, including laborious regulations, licensing replicationof the actual built environment.” This appears like the
+restrictions, lack of rewarding payment methods, clinically way HCI is translated into HBI by architects as a theoretical
+undeveloped technologies, and patient confidentiality regarding framework to understand “Usability” and “User-centric
+health data (127, 128). By adopting Gartner’s well-known Hype Experience”. In other words, both architect and HCI scientist
+Cycles of Digital Health, there are five distinct levels to describe have the same interpretation that “usability is ultimately about
+the maturity of XR-related digital health technologies. Especially, avoiding frustrating theuser”(133)(see Figure 9).
+the rigor of evidence-based decision-making founded on well- Toavoidunwantedside-effectsofMXR,onecriticalsolutionisto
+constructed trials and data supporting best practice are essential emulatewhatgoesonintherealworld.InterviewG,aneurosurgeon
+to escape the “Trough of Disillusionment” (128). Interviewee B who chairs the medical metaverse association in South Korean
+indicated, “The current Hype of digital health technology is university, stated, “Avirtual clinic should be designed following the
+positive in terms of attracting investment for research going layouts of actual consulting, examination, and treatment rooms
+forward. But there are always very conservative people who are because they can become the deciding factors affecting patients’
+reluctant todecide investment before theysee concreteevidence.” mental and emotional health.” Interviewee H (IH), an architect,
+Therefore, a better understanding of clinical workflows, patient designed the virtual offices for a South Korean telecommunication
+adherence characteristics, behavioral interventions, and more company. IH mentioned, “After a long discussion with our client,
+importantly getting buy-in from both clinicians and patients are we decided to provide people with a familiar place rather than
+business imperatives to widespread MXR (4, 127–130). Interviewee making it look so different from its real-life counterpart. The
+B highlighted, “Marketizing XR requires a huge investment to train general design standards we’ve been using for physicalenvironment
+and educate people to adapt to new digital health technologies. work well with our spatial cognition because they are proven with
+Some serious investment decision will only be made on firm certaintythroughthe historyofarchitecture.” This could imply that
+evidence. It will then finally lead to the alteration of physical architects should become more involved in, not just the
+environment to accommodate any new requirements.” Particularly, coordination of physical settings to ensure MXR’s safety, but also
+patientengagementisacriticalfactorwhendeterminingthesuccess thedesignofvirtualenvironmentitself.
+of the XR-related interventions (63). For this reason, XR is used as
+the reproductionofhumanbodyorhealthcarefacilitytofamiliarize
+the patients with clinical environments or procedures, thus making 4.4. Scalable health and wellbeing in
+patientsfeelmoreempowered.Theexamplesareasfollows. non-hospital and therapeutic settings
+In the US, Stanford Virtual Heart pioneered XR to help
+physicians treat cardiac patients more effectively by informing Digital disruption would generate new entrants, new business
+people of the most complex congenital health problems (131). models and new locations (101). The amplified need for remote
+FrontiersinMedicalTechnology 13 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+FIGURE9
+KeyusabilityelementsinHCIandHBI,comparingthreeelements(133)thatconstitutethedefinitionofusabilityinhuman-computerinteractionsand
+human-buildinginteractions.
+careduringtheperiodsofCOVID-19quarantineandisolationhas Virtual Reality (PRinVR) programs for more than three hundred
+led to new business models such as the digital apps, providing lung cancer patients. IB replied to the interview question of
+significant health benefits and commercial success (134). whether we can decide a certain kind of healthcare service is
+Likewise, XR could easily be the greatest industry disruption more suitable for virtual migration than the other. “It will vary
+healthcare has seen in over one hundred years (63). As a across the departments. The issue is greatly affected by the
+computer-aided design technician at NHS foundation trust, requirements, financial status, and future directions of each
+Interviewee D (ID) said, “We can learn from how e-commerce hospital department.” IB stressed that it will all boil down to a
+changed the industry. They keep most of their logistics facilities. question of cost saving as well as better clinical outcome.
+The healthcare sector will use Urban Air Mobility (UAM) to Interviewee F, a very experienced healthcare architect, forecasted,
+reduce the cost and time associated with medical logistics. Small “We may end up with less clinical spaces, more therapeutic
+and easy tasks can be delivered virtually. But large hospitals will spaces. In the hospital, there will be more soft spaces which can
+always need to keep high-tech and heavy medical devices.” be easily relocated in comparatively low cost.” Also, there is a
+Additionally, ID suggested that there will be more user-centric prediction on the percentage shift of health and careservicesthat
+programs in the future hospitals, as digital and logistics ripe for significant virtual health migration by 2040, which will
+technologies advance, just like many e-commerce business acceleratesuchtransformationalchanges(127).
+modelsnowfocus oncustomerexperiences. In the US, many healthcare providers start reimagining the
+Certainly,somehealthcareinfrastructurewillmigratefromthe future healthcare built environment to be designed around
+status of in vivo to in silico. Henceforth, the future healthcare primary and community care (129). The aim is to coordinate all
+ecosystems will have more decentralized, preventive, and health-related issues by multidisciplinary teams in readiness for
+therapeutic characteristics. Interviewee B commented, “XR the transition of healthcare systemsand services. Focusing on the
+extends health-promoting spaces and opportunities for more prediction and prevention of diseases, advances in digital health
+people. Currently, healthcare providers encourage people to come will shift both operations and leadership from hospital-level care
+to the medical center or do it online. If people do not come, it to the home or community surgical centers. And chronic disease
+will incur a cost anyway. Hospitalization and the expense of management programs that are not anchored to a hospital or
+inpatient treatment are astronomical from the government’s clinic will be more taken by MXR. Meanwhile, a visionary model
+perspective. That is why preventive care is so important. for the optimization of health resources was awarded the 2021
+Government wants to keep people healthy.” Therefore, more Wolfson Economics Prize in the UK. This work suggests that XR
+adaptive, and inclusive approaches should be taken by built will enable the healthcare industry to overcome geographical
+environment experts to embrace those characteristics in restrictions, future hospitals will exist as virtual space with
+developing a health-promoting environment. This could range physical outposts in community locations. Consequently, only
+from introducing an exclusive space to ensure the best use of the services that cannot be digitized will remain at the large
+MXR to redefining the relationships between existing and new acute hospitals (135,136).
+healthcare premises. SuchprojectionsareinlinewiththecentralaimofICSstojoin
+IntervieweeB(IB)hasbeenworkingwiththeNHSonseveral uphospitalsandcommunity-basedservicesaspartnershipsacross
+mental health projects,including thePulmonary Rehabilitation in different organizations and settings (137, 138). Similarly, Arup
+FrontiersinMedicalTechnology 14 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+proposedthatfuturehealthcareecosystemswillbe“smaller,better approaches, which have long been the common denominators of
+connected,andstrategicallydispersedincities,withastrongerlocal two disciplines. The reproducible, replaceable, and interactive
+presence and identity”. A better data connectivity and characteristics of XR can reinforce the provision of health and
+interoperability will enable these alternative healthcare facilities social care, especially when its scalability is imperative amid
+to implement more domestic, natural, and therapeutic elements public health crises. During the research, XR-enabled advantages
+for bespoke patient experiences by accommodating new lifestyles for built environment experts were readily identifiable as to the
+and demographic factors. And eventually, they will challenge the development of healthcare facilities. In contrast, their potential
+designconventions oftraditionalhealthcare premises (89). contributions to the advancement of MXR for post-pandemic
+Interviewee E, a robotic scientist, shared the vision of future resilience have been largelyoverlooked.
+built environment from an engineering point of view. “The more This could be because the MXR ecosystems consist mainly of
+you overcrowd, the less ability you give any technology. healthcare providers, software/hardware engineers, and digital
+Anything moving around and you’re looking around, you can content creators. The other reason is that MXR practitioners
+crash into things that are less space free to move around. This generally lack understanding of how built environment experts
+comes from sci-fi, there’s sort of truth in what they build. can underpin the operation of MXR. Research participants shed
+Robotics and everything require a kind of clean, smooth, and light on this reciprocal relationship between MXR and the built
+quite minimalistic environment. You need a lot more environment. For better patient experiences and health outcomes,
+minimalistic environment in a big space.” This could imply that the current modality of MXR applications needs to keep certain
+emerging technologies such as XR involving IoT sensors, will not environmental factors under control. This necessitates
+only become useful tools for healthcare services, but also pave architectural interventions to ensure the efficacy of MXR. Also,
+the way for future healthcare ecosystems that necessitate a the analysis shows that leveraging the capacity of MXR for
+changeof concept indesigninghealthcare facilities. collecting user-specific health and lifestyle data can complement
+Interviewee D (ID) is also a freelance metaverse property the evidence-based design of any health-promoting built
+developer. When it comes to the design of healthcare facilities in environment including healthcare facilities. For these reasons, it
+metaverse, ID said, “Architects can have more freedom to design, would benefit both MXR and built environment communities to
+invest, and develop some cool experiences for people as we raise awareness towards the need of more coherent framework
+understand what the human-centered design is. This is the way I for participatoryapproachesto caterfor the different demands of
+perceive the virtual environment; we are shaping the experiences stakeholders (seeFigure10).
+in it.” Opinions diverged greatly on the design of virtual clinics.
+A neurosurgeon, Interview G mentioned,“The medical metaverse 5.1.2. Patient empowerment and staff support
+refers to not just a visually experiential space, but also a new The second research question investigated the challenges
+spatiotemporal layer in which Clinician-Patient, Clinician- posed by MXR and whether built environment experts can
+Clinician, and Trainer-Trainee can communicatewith eachother. alleviate those problems. This has been made into the second
+The concept of medical metaverse should be a more profound hypothesis that a collective effort by MXR and built
+yet practical version than ones for games or entertainment. In environment communities can increase the interoperability
+that sense, the use of avatar or spatial layouts are not the critical and usability of MXR as the next-gen digital medicine. Whilst
+issues.” In the US, Cannon Design proposed “Virtual Care the exploratory literature review focused on collecting
+Modules” as mission control centers for clinicians to make evidence of administrative complexities or technical huddles
+virtual visits as a preparation fora shift from in-person tovirtual to the MXR implementation, the qualitative data analysis of
+care. In parallel, physical facilities will need digital pods for one- interviews specified practical problems where the practical
+on-one sessions and larger spaces for the care teams to replicate skill sets of built environment experts can be used
+virtualand physical activities (139). appropriately, and ultimately how it can facilitate the patient-
+centered and value-based models of health and social care. As
+a result, patient empowerment and staff support through
+5. Discussion user-centered experiences were identified as the ultimate
+purposes of MXR.
+5.1. Key findings ItwasclearfromcasestudiesthatXRasthereproductionof
+human body or healthcare facility can effectively increase the
+5.1.1. Synergism between architecture and patients’ understanding along the medical procedures, thus
+technology making them less burdensome for the clinicians. System
+The first research question was about the opportunities requirements and user concerns are two key aspects to
+presented by MXR and whether built environment experts can understand how HCI enables XR’s multi-sensory experience in
+benefit from them. This leads to the first hypothesis that the virtual environment. Among the XR’s therapeutic mechanisms,
+synergism between architecture and technology will take on strengthening patient’s self-identity through HCI can
+added significance as some healthcare resources will migrate significantly improve the usability of MXR. Since architects
+from the status of in vivo to in silico. The process involves cross- have rigorously studied HCI as to the user-centered
+sectoral initiatives, evidence-based design, and participatory experiences, a confluence of knowledge and methods on HCI
+FrontiersinMedicalTechnology 15 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+FIGURE10
+1sthypothesisverification.
+will benefit both MXR and built environment sectors. 5.1.3. Scalable health and wellbeing in
+Additionally, XR needs to mimic reality as much as it can to non-hospital and therapeutic settings
+prevent the occurrence of any unwanted side-effects such as The third research question was to examine the roles and
+“Cybersickness”. In this regard, the analysis suggests that the responsibilities of built environment experts in constructing a
+ability of built environment experts, especially architects, can long-standing value chain of healthcare premises that will be
+be extended to the creation of virtual environment by bringing transformed by the nascent XR regime. The third hypothesis
+their expertise on spatial organization and its implications on posits that XR will foster more decentralized, preventive, and
+humanphysiologyandpsychology(seeFigure11). therapeutic characteristics in the future healthcare ecosystems.
+FIGURE11
+2ndhypothesisverification.
+FrontiersinMedicalTechnology 16 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+FIGURE12
+3rdhypothesisverification.
+Since each characteristic would induce the alteration of physical The study would therefore have benefitted from the XR’s
+settings, built environment experts should take more adaptive sustainabilityaspectsininvestigatinghowalong-standingvaluechain
+and inclusive approaches to the planning and design of of healthcare premises can be generated in relation to the MXR-
+healthcare facilities. XR-enabled digital disruption will accelerate induceddisruption.AlthoughitispresumedthatMXRcouldbepart
+decentralized healthcare services by spatially dispersed and of a circular economy for the sustainable growth of healthcare
+specialized facilities with a strong local presence. Also, there will industry, however this aspect remains unverifiable at present due to
+be a “Virtual Migration” of some healthcare services just as we thelackofempiricaldataconcerningMXR-relatedconsumptionand
+have seen how e-commerce reshaped the real estate industry productionstrategiesforenergy,labor,andmaterials.
+during the COVID-19 pandemic. Further analysis, however, Inaddition,qualitativedatawascollectedfromarelativelysmall
+revealed that the healthcare industry will not exactly follow the sample size. This would mean that research quality is somewhat
+same pattern because in-person consultations and in-patient dependent on participant’s different set of values and expectations
+treatmentsatthelarge acute hospitals willstill beindispensable. about the present state and future prospect of MXR. Thus, further
+Additionally,XRwillstrengthentheefficacyofDTxwhichoffers evidence addressing the long-term implications of MXR on both
+precise and preventive medicine. As part of the treatment, DTx healthcare and built environment systems would be required to
+requires the so-called “Enabling Spaces” for promoting active and generalizethefindingsbeyondtheresearchboundaries.
+healthy lifestyles. Hence, built environment experts should support
+the future healthcare systems by creating more therapeutic
+architecture to invigorate individual’s wellbeing as opposed to the 6. Conclusion
+conventional design of existing healthcare facilities. Lastly, the data
+suggestedthatXR-relatedtechnologiessuchasIoTsensorsandUAM This qualitative research has strived to examine the
+willalsoaffectthewayhealthcarepremisesaredesigned.Regardinga implications of XR on healthcare systems and built
+novel concept of “Healthcare Metaverse”, it was identified that the environments. Also, the research has identified how built
+balanceofdigitalandin-personhealthcareservicesformoreefficient environment experts can manage the XR-enabled innovation for
+clinicalworkflowswillbecomeacriticalmatterastothedevelopment healthcare in a more structured and deliberate way. Since most
+ofvirtualclinicsorhealthcareplatformsinmetaverse(seeFigure12). healthcare capital projects take considerable time to complete, a
+pre-emptive approach should be taken to the wide-scale
+implementation of XR so that the healthcare systems can ensure
+5.2. Research gaps and limitations resilience in a post-pandemic future. Three questions have been
+answered through the process of implementing research findings
+Recently, the UN’s Sustainable Development Goal (SDGs), the toverifyhypotheses.
+Environmental,SocialandGovernance(ESG)commitments,andthe Firstly, despite an inadequate recognition of built environment
+large-scale digitization have become three megatrends to evaluate experts’potentialcontribution,bothbuiltenvironmentandhealthcare
+investment opportunities for the post-COVID economic recovery. sectors can benefit from the synergism between architecture and
+FrontiersinMedicalTechnology 17 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+technologybyleveragingthevariouscapabilitiesofXRthroughcross- Data availability statement
+sectoral initiatives, evidence-based practices, and participatory
+approaches.Secondly,aconfluenceofknowledgeandmethodsoftwo
+Theoriginalcontributionspresentedinthestudyareincluded
+sectorscanimprovepatientempowermentandstaffsupportthrough
+in the article/Supplementary Material, further inquiries can be
+twotheoreticalframeworks:Human-ComputerandHuman-Building
+directed tothecorresponding author.
+interactions.TheincreasedinteroperabilityandusabilityofXRasthe
+next-generation medicine will enhance the patient-centered and
+value-based models of health and social care. Thirdly and lastly, the Ethics Statement
+XR-enabled technological regime including healthcare metaverse will
+largely affect the forms of value in healthcare premises by fostering
+This study was reviewed and approved by the School of
+more decentralized, preventive, and therapeutic characteristics in the
+Sustainable Construction Ethics Committee. Written informed
+futurehealthcareecosystems.Therefore,moreadaptive,andinclusive
+consentwasobtainedfromtheparticipantstoparticipateinthisstudy.
+approaches should be taken by built environment experts for the
+creation of a health-promoting environment in contrast to the
+conventionaldesignlanguageofhealthcarefacilities. Author contributions
+After all, this is ultimately about how to improve resource
+efficiency in the healthcare sector as a preparation for a The author confirms being the sole contributor of this work
+paradigm shift caused by using XR. That is to say, the transition
+and hasapproveditfor publication.
+of health resources from the status of in vivo to in silico should
+be factored into the process of establishing healthcare
+infrastructure which takes enormous time and concerted effort. Acknowledgments
+To conclude, the following suggestions are made for XR-related
+research and practice hereafter in both healthcare and built The author expresses special appreciation to Professors
+environment sectors. Evangelia Chrysikouand Andrew Edkins from University College
+London for their help and feedback. The author would like to
+(i) Only a little has been written on the XR’s sustainability, thank all interview participants for their generosity, insightful
+relying on a conjecture that its immateriality and guidance, and constructivefeedback providedonthisresearch.
+reproducibility helps control pollution by reducing waste and
+encouraging recycling. To be exact, the intersection of
+intangible services promoting clinical efficiency and tangible Conflict of interest
+assets ensuring therapeutic environment is where MXR can
+flourish. Just as a circular economy culture has been The author declares that the research was conducted in the
+integrated into the development of Net-Zero hospitals, XR- absence of any commercial or financial relationships that could
+enabled technological regimes should also take sustainability- beconstrued asapotential conflictofinterest.
+oriented approaches to seek inter-sectoral solutions for a
+“CleanGrowth” of MXR.
+Publisher’s note
+(ii) Somearguethattheskillsetsofbuiltenvironmentexpertswill
+be seriously devalued and undermined in the virtual world
+thatdefiesthelawof physics and spatialdesign principles in Allclaimsexpressedinthisarticlearesolelythoseoftheauthors
+the real world. However, this would hardly be the case for anddonotnecessarilyrepresentthoseoftheiraffiliatedorganizations,
+their roles in reinforcing the efficacy of MXR because: (1) orthoseofthepublisher,theeditorsandthereviewers.Anyproduct
+Even highly digitized healthcare systems will still require the thatmaybeevaluatedinthisarticle,orclaimthatmaybemadebyits
+“Offline Networks of Therapeutic Environment”; and (2) manufacturer,isnotguaranteedorendorsedbythepublisher.
+Whether it is virtual or physical, our healthcare systems
+have placed great emphasis on the rigor of evidence-based
+Supplementary material
+approach linking health outcome to a clinical environment.
+Henceforth, built environment experts should seek closer
+ties with the MXR ecosystems to make a real business case The Supplementary Material for this article can be found
+for the “Co-production” of scalable health and wellbeing in online at: https://www.frontiersin.org/articles/10.3389/fmedt.2023.
+non-hospital andtherapeutic settings. 1184925/full#supplementary-material
+References
+1. NHS. New care models: Harnessing technology. London: NHS Providers 2.CharlesA,EwbankL.Theroadtorenewal:Fiveprioritiesforhealthandcare.
+(2017).p.6–22.Availableat:https://nhsproviders.org/media/3416/new-care-models- London: The King’s Fund (2021). Available at: https://www.kingsfund.org.uk/
+harnessing-technology_final.pdf(AccessedMarch1,2023). publications/covid-19-road-renewal-health-and-care(AccessedMarch1,2023).
+FrontiersinMedicalTechnology 18 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+3.RCN.Principlesforreturntoservice—staffrecoveryandpatientsafety.London: com/industries/healthcare-systems-and-services/our-insights/from-facility-to-home-
+RoyalCollegeofNursing(2021).Availableat:https://www.rcn.org.uk/about-us/our- how-healthcare-could-shift-by-2025(AccessedMarch1,2023).
+influencing-work/position-statements/principles-for-return-to-service (Accessed
+24.NHS.Supportinginformation:Virtualwardincludinghospitalathome.London:
+March1,2023). NHS(2022).p.1–10.Availableat:https://www.england.nhs.uk/wp-content/uploads/
+4.Allianz.COVID-19:Howitacceleratedthefutureofhealthcare.London:Allianz 2021/12/B1478-supporting-guidance-virtual-ward-including-hospital-at-home-march-
+Partners (2022). pp. 4–30. Available at: https://health.allianzcare-publications.com/ 2022-update.pdf(AccessedMarch1,2023).
+story/howcovid19acceleratedthefutureofhealthcare/page/1(AccessedMarch1,2023).
+25.GreenleafW,RobertsL,FineR.Appliedvirtualrealityinhealthcare:Casestudies
+5. GOV.UK. A plan for digital health and social care. London: GOV.UK (2022). andperspectives.Washington,DC:CoolBlueMediaandInternationalVirtualReality
+Available at: https://www.gov.uk/government/publications/a-plan-for-digital-health- HealthcareAssociation(IVRHA)(2022).3–7.
+and-social-care(AccessedMarch1,2023).
+26.FDA.Medicalextendedrealityprogram:Researchonmedicalextendedreality-
+6.MilgramP,TakemuraH,UtsumiA,KishinoF.Augmentedreality:aclassof based medical devices. Silver Spring, MD: U.S. Food and Drug Administration
+displays on the reality-virtuality Continuum. Soc Photo-Opt Instrum Eng (SPIE). (2021).Availableat:https://www.fda.gov/medical-devices/medical-device-regulatory-
+(1994)2351:282–92.doi:10.1117/12.197321 science-research-programs-conducted-osel/medical-extended-reality-program-
+research-medical-extended-reality-based-medical-devices(AccessedMarch1,2023).
+7.RauschnabelP, FelixR,HinschC,Shahab H,AltF.WhatisXR?Towards a
+framework for augmented and virtual reality. J Comput Hum Behav. (2022) 27. Gupta A. What is a metaverse? London: Gartner insights information
+133:1–18.doi:10.1016/j.chb.2022.107289 technology article (2022). Available at:https://www.gartner.com/en/articles/what-is-
+a-metaverse?utm_medium=social&utm_source=linkedin&utm_campaign=SM_GB_
+8.LlamasS.XRbythenumbers:whatthedatatellsUS.SantaClara,CA:SuperData
+YOY_GTR_SOC_SF1_SM-SWG&utm_content=&sf259129703=1 (Accessed March
+(2019). Available at: https://www.slideshare.net/AugmentedWorldExpo/stephanie-
+1,2023).
+llamas-superdata-xr-by-the-numbers-what-the-data-tells-us (Accessed March 1,
+2023). 28. OrrE.Themetaversecancreateaboundlesshealthcareexperience.Boston,MA:
+9.BelliniH,SugiyamaM,ShinM,TakayamaD.Profilesininnovation:Virtual& Forbes Technology Council (2022). Available at: https://www.forbes.com/sites/
+forbestechcouncil/2022/01/26/the-metaverse-can-create-a-boundless-healthcare-experience/
+augmented reality, understanding the race for the next computing platform. New
+York, NY: Goldman Sachs Global Investment Research (2016). p. 1–27. Available ?sh=4b1e4a822340(AccessedMarch1,2023).
+at: https://www.goldmansachs.com/insights/pages/technology-driving-innovation- 29. Rosenberg L. Even though it’s virtual, the metaverse does actually impact
+folder/virtual-and-augmented-reality/report.pdf(AccessedMarch1,2023). the environment. New York, NY: World Economic Forum (2022). Available
+at: https://www.weforum.org/agenda/2022/02/how-metaverse-actually-impacts-the-
+10.BloombergUK.ARAndVRinhealthcaremarketsizetoreachUSD14.06billion
+environment/(AccessedMarch1,2023).
+in2030|risingdemandforroboticsurgeriesowingtoability.Bloomberg,UK:Business
+(2022). Available at: https://www.bloomberg.com/press-releases/2022-02-10/ar-and- 30. Google. Google trends in health metaverse worldwide 2012–2022. Mountain
+vr-in-healthcare-market-size-to-reach-usd-14-06-billion-in-2030-rising-demand-for- View, CA: Google Trends (2022). Available at: https://trends.google.co.uk/trends/
+robotic-surgeries-owing-to-ability(AccessedMarch1,2023). explore?date=2012-01-01%202022-07-23&q=health%20metaverse (Accessed March
+1,2023).
+11.KoumaditisK,MousasC,ChinelloF.XRintheeraofCOVID-19.JBehavInf
+Technol.(2021)40(12):1234–6.doi:10.1080/0144929X.2021.1988320 31.MarrB.Extendedrealityinhealthcare:Threereasonstheindustrymustgetready
+for AR and VR. Boston,MA: Forbes (2021). Available at:https://www.forbes.com/
+12.OngT,WilczewskiH,PaigeS,SoniH,WelchB,BunnellB.Extendedrealityfor
+sites/bernardmarr/2021/06/14/extended-reality-in-healthcare-3-reasons-the-industry-
+enhancedtelehealthduringandbeyondCOVID-19:viewpoint.JMIRSeriousGames.
+(2021)9(3):1–31.doi:10.2196/26520 must-get-ready-for-ar-and-vr/?sh=3ea516ce73a4(AccessedMarch1,2023).
+13.GilbertN.Climatechangewillforcenewanimalencounters—andboostviral 32.MarrB.Theamazingpossibilitiesofhealthcareinthemetaverse.Boston,MA:
+Forbes (2022). Available at: https://www.forbes.com/sites/bernardmarr/2022/02/23/
+outbreaks.Nature.(2022)605(7908):20.doi:10.1038/d41586-022-01198-w
+the-amazing-possibilities-of-healthcare-in-the-metaverse/?sh=745589339e5c (Accessed
+14.PearsM,YiasemidouM,BiyaniC.Roleofimmersivetechnologiesinhealthcare March1,2023).
+educationduringtheCOVID-19epidemic.ScottMedJ.(2020)65(4):112–9.doi:10.
+33.MathewR,MushtaqF.Theroleofimmersivetechnologyinhealthcaretraining
+1177/0036933020956317
+&education:threeprinciplesforprogress.BMJSimulTechnolEnhancLearn.(2021).7
+15.HEE.Enhancingeducation,clinicalpracticeandstaffwellbeing.Anationalvision (5):459–60.doi:10.1136/bmjstel-2021-000881
+for the role of simulation and immersive learning technologies in health and care.
+34.StalsA,CaldasL.StateofXRresearchinarchitecturewithfocusonprofessional
+L
+(2
+o
+0
+n
+2
+d
+0
+o
+)
+n
+.
+:
+p.
+N
+3
+H
+–
+S
+39
+H
+.
+e
+A
+a
+v
+lt
+a
+h
+ila
+E
+b
+d
+le
+uc
+a
+a
+t
+t
+:
+io
+h
+n
+ttp
+E
+s
+n
+:/
+g
+/
+l
+w
+an
+w
+d
+w.h
+T
+e
+e
+e
+c
+.
+h
+n
+n
+h
+o
+s.
+l
+u
+o
+k
+g
+/
+y
+sit
+E
+e
+n
+s/
+h
+d
+a
+e
+n
+fa
+c
+u
+ed
+lt/fi
+L
+l
+e
+e
+a
+s
+r
+/
+n
+do
+in
+c
+g
+um
+(T
+en
+E
+t
+L
+s
+)
+/
+practice—asystematicliteraturereview.JArchitSciRev.(2022)65(2):138–46.doi:10.
+1080/00038628.2020.1838258
+National%20Strategic%20Vision%20of%20Sim%20in%20Health%20and%20Care.pdf
+(AccessedMarch1,2023). 35. Bialasiewixz K. Patient wearing virtual reality glasses. Brentwood, TN:
+16.KilkellyF,O’BrienR,TichoS.ThegrowingvalueofXRinhealthcareintheUK. Dreamstime (2018).Available at:https://www.dreamstime.com/stock-photo-patient-
+wearing-virtual-reality-glasses-young-trauma-hospital-image91336336 (Accessed
+XRhealthUK.London:UKResearchandInnovation,HealthEducationEngland,and
+March1,2023).
+Rescape Innovation Ltd. (2021). Available at: https://www.xrhealthuk.org/the-
+growing-value-of-xr-in-healthcare#References(AccessedMarch1,2023). 36.IsaacJ,KumarM,ManivannanM.Effectofvisualawarenessoftherealhandon
+user performance in partially immersive virtual environments: presence of virtual
+17.SollofJ.BabylonlaunchesAI-poweredtriagetoolinRwanda.London:Digital kinesthetic conflict. Int J Hum Comput Interact. (2020) 36(16):1540–50. doi: 10.
+Health (2021). Available at: https://www.digitalhealth.net/2021/12/babylon-ai-
+1080/10447318.2020.1768667
+powered-triage-tool-rwanda/(AccessedMarch1,2023).
+37.MorimotoT,KobayashiT,HirataH,OtaniK,SugimotoM,TsukamotoM,etal.
+18.Broomx.Improvingtheemotionalwellbeingofhealthprofessionals.Barcelona:
+XR(extendedreality:virtualreality,augmentedreality,mixedreality)technologyin
+Broomx Technologies (2021). Available at: https://broomx.com/sectors/healthcare/
+spine medicine: status quo and quo vadis. J Clin Med. (2022) 11(2):470. doi: 10.
+enhancing-medical-professionals-psychological-well-being(AccessedMarch1,2023).
+3390/jcm11020470
+19.Deloitte.Connectedhealth:Howdigitaltechnologyistransforminghealthand
+social care. London: The Deloitte Centre for Health Solutions (2015). p. 4–35. pr 3 es 8 c . r W ipt h io it n eM fo , r Y “ e n o at N ur , e V ”— as t s h il e jev po P t , en L t u ia n l ds o te f d u t s R in , g W v a i l r l t e u rg al ard na M tu , re Al i b n in th M er , a e p t eu a t l. ic A s.
+Available at: https://www2.deloitte.com/content/dam/Deloitte/uk/Documents/life- JNeuropsychiatrDisTreat.(2018)14:3001–13.doi:10.2147/NDT.S179038
+sciences-health-care/deloitte-uk-connected-health.pdf(AccessedMarch1,2023).
+39.GreenleafW.Waltergreenleafondigitaltherapeutics,AR/VR,andsensor-driven
+20.WalkerM.Healthcarein2030:Goodbyehospital,hellohome-spital.NewYork,
+health.Wearabletech,digitalhealth,andneurotechconference.Stanford,CA:Applysci
+NY: World Economic Forum (2016). Available at: https://www.weforum.org/
+(2020). Available at: https://www.youtube.com/watch?v=SYpvfPiTy6Q (Accessed
+agenda/2016/11/healthcare-in-2030-goodbye-hospital-hello-home-spital/ (Accessed
+March1,2023).
+March1,2023).
+40. NHS. The health trust using immersive experiencesto guide patientsthrough
+21. Singhal S, Kayyali B, Levin R, Greenberg Z. The next wave of healthcare
+surgery.TyneandWear:NHSNorthumbriaHealthcare(2020).Availableat:https://
+innovation: The evolution of ecosystems. Chicago, IL: McKinsey & Company
+Healthcare Systems & Services Practice (2020). p. 1–13. Available at: https://www. www.northumbria.nhs.uk/the-health-trust-using-immersive-experiences-to-guide-
+patients-through-surgery/#8ca698d7(AccessedMarch1,2023).
+mckinsey.com/industries/healthcare-systems-and-services/our-insights/the-next-wave-
+of-healthcare-innovation-the-evolution-of-ecosystems(AccessedMarch1,2023). 41. NHS. The future of healthcare: Cutting though the complexity to deliver real
+22.SinghH,ArmasA,LawS,TangT,GrayC,CunninghamH,etal.Howdigital impact, immersive technology in healthcare: the rise of AR, VR and MR. Leicester:
+health solutions align with the roles and functions that support hospital to home NHS Arden and Greater East Midlands (2021). p. 2–8. Available at: https://www.
+transitions for older adults: a rapid review study protocol. BMJ Open. (2021) 11 ardengemcsu.nhs.uk/media/2274/ardengem-digital-horizons_2021_news-story-version.
+(2):1–10.doi:10.1136/bmjopen-2020-045596 pdf(AccessedMarch1,2023).
+23.BestsennyyO,ChmielewskiM,KoffelA,ShahA.Fromfacilitytohome:How 42. O’regan J. Why VR matters in healthcare design. London: Stantec (2020).
+healthcare could shift by 2025. New York, NY: McKinsey & Company Healthcare Available at: https://www.stantec.com/uk/ideas/with-video-why-vr-matters-in-
+Systems & Services Practice (2022). p. 1–11. Available at: https://www.mckinsey. healthcare-design(AccessedMarch1,2023).
+FrontiersinMedicalTechnology 19 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+43.PrabhakaranA,MahamaduA-M,MahdjoubiL.Understandingthechallengesof 64.ZweifachS,TriolaM.Extendedrealityinmedicaleducation:drivingadoption
+immersivetechnologyuseinthearchitectureandconstructionindustry:asystematic throughprovider-centereddesign.JDigitBiomarkers.(2019)3:14–21.doi:10.1159/
+review.JAutomConstr.(2022)137:1–18.doi:10.1016/j.autcon.2022.104228 000498923
+44. Safikhani S, Keller S, Schweiger G, Pirker J. Immersive virtual reality for 65.KnightI,WestJ,MatthewsE,KabirT,LambeS,WaiteF,etal.Participatory
+extending the potential of building information modeling in architecture, design to create a VR therapy for psychosis. J Des Health. (2021) 5(1):98–119.
+engineering,andconstructionsector:systematicreview.IntJDigitEarth.(2022)15 doi:10.1080/24735132.2021.1885889
+(1):503–26.doi:10.1080/17538947.2022.2038291
+66.AndersenS,BrobergO,HavnE,ErlingC.Participatorysimulationinhospital
+45.HealthySimulationWritingTeam.HowimmerseVRishelpingradiologistslearn work system design. Taastrup: Technical Information Center of Denmark
+life-saving x-ray tech. Las Vegas, NV: HealthySimulation.com (2020). Available at: (2016). p. 2–225. Available at: https://core.ac.uk/download/pdf/84003049.pdf
+https://www.healthysimulation.com/27355/immerse-vr-x-ray-simulator (Accessed (AccessedMarch1,2023).
+March1,2023).
+67. Reijula J, Ruohomäki V, Lahtinen M, Reijula K. Participatory facility design
+46.FreemanD,LambeS,KabirT,PetitA,RosebrockL,YuL-M,etal.Automated challenges in two university hospitals. J Intell Buildings Int. (2017) 12(1):3–16.
+virtual realitytherapytotreatagoraphobic avoidance anddistressin patientswith doi:10.1080/17508975.2017.1342591(AccessedMarch1,2023).
+psychosis (gameChange): a multicentre, parallel-group, single-blind, randomised,
+68. Harkness R, McIntosh J, Marques B. Using virtual reality and participatory
+controlled trail in England with mediation and moderation analyses. Lancet
+Psychiatry.(2022)9:375–88.doi:10.1016/S2215-0366(22)00060-8 p
+a
+r
+r
+o
+ch
+ce
+it
+s
+e
+s
+c
+e
+t
+s
+u
+t
+r
+o
+al
+d
+s
+e
+c
+s
+i
+i
+e
+g
+n
+n
+ce
+in
+a
+te
+ss
+r
+o
+st
+c
+i
+i
+t
+a
+ia
+ti
+l
+on
+h
+,
+ea
+(
+l
+2
+th
+01
+ca
+8
+r
+)
+e
+.p
+p
+.
+la
+6
+c
+5
+e
+7
+s.
+–
+5
+6
+2
+3
+n
+.
+d
+Av
+In
+ai
+t
+l
+e
+a
+r
+b
+n
+l
+a
+e
+ti
+a
+o
+t
+n
+:
+a
+h
+l
+tt
+c
+p
+o
+s
+n
+:/
+f
+/
+e
+a
+r
+n
+en
+z
+c
+a
+e
+sc
+o
+a
+f
+.n
+t
+e
+h
+t
+e
+/
+47.ZhaoY,BennettC,BenkoH,CutrellE,HoltzC,MorrisM,etal.Enablingpeople wp-content/uploads/2019/01/77-Using-Virtual-Reality-and-Participatory-Processes-
+with visual impairmentsto navigate virtual reality with a haptic andauditory cane to-Design-Interstitial-Healthcare-Places.pdf(AccessedMarch1,2023).
+simulator.Proceedingsofthe2018CHIconferenceonhumanfactorsincomputing
+systems.AssocComputMachinery.(2018)116:1–14.doi:10.1145/3173574.3173690
+JH
+69
+ea
+.
+lt
+C
+h
+ar
+E
+t
+n
+h
+v
+e
+i
+y
+ro
+J
+n
+.
+R
+P
+e
+a
+s
+rt
+D
+ic
+e
+ip
+s.
+a
+(
+to
+2
+r
+0
+y
+20
+d
+)
+e
+1
+s
+4
+ig
+(
+n
+2
+,
+):9
+p
+6
+r
+–
+o
+1
+je
+0
+c
+8
+t
+.
+c
+d
+l
+o
+ie
+i
+n
+:
+t
+1
+s
+0
+,
+.1
+a
+1
+n
+7
+d
+7/
+h
+1
+e
+9
+a
+3
+l
+7
+th
+58
+ca
+6
+r
+7
+e
+20
+u
+9
+s
+4
+e
+8
+r
+4
+g
+6
+r
+2
+oups.
+48.MaybergH. MountSinaipartnerswith studioelsewhereto launch Q-lab, an
+70.AlizadehsalehiS,HuangJ,HadaviA.Virtualrealityfordesignandconstruction
+immersive, interactive research and restorative care environment for deep brain education environment. J Constr Eng Manag. (2019) 2019:1–12. doi: 10.1061/
+stimulationpatients.NewYork,NY:MountSinai(2021).Availableat:https://www.
+9780784482261.023(AccessedMarch1,2023).
+mountsinai.org/about/newsroom/2021/mount-sinai-partners-with-studio-elsewhere-
+to-launch-qlab-an-immersive-interactive-research-and-restorative-care-environment- 71. IBM. What is interoperability in healthcare? London: IBM Healthcare
+for-deep-brain-stimulation-patients Technology Solutions & Services (2021). Available at:https://www.ibm.com/uk-en/
+topics/interoperability-in-healthcare(AccessedMarch1,2023).
+49.JohnstonL.Forpeoplewithdementia,virtualrealitycanbelife-changing.London:
+WiredUK(2018).Availableat:https://www.wired.co.uk/article/virtual-reality-dementia- 72.FDA.Medicaldeviceinteroperability.SilverSpring,MD:U.S.FoodandDrug
+technology Administration (2022). Available at: https://www.fda.gov/medical-devices/digital-
+health-center-excellence/medical-device-interoperability
+50.LauC,QuZ,DraperD,QuanR,BrayteeA,BluffA,etal.Virtualrealityforthe
+observationofoncologymodels(VROOM):immersiveanalyticsforoncologypatient 73.NHS.Interoperablemedicinesstandards:Transformingpatientcareandclinical
+cohorts.NatSciRep.(2022)12:11337.doi:10.1038/s41598-022-15548-1 services. Leeds: NHS Digital (2022). pp. 1–8. Available at: https://digital.nhs.uk/
+services/interoperable-medicines/the-need-for-medicines-interoperability (Accessed
+51.PiatkowskiM.Immersivetechnologyforhospitaldesign.Chicago,IL:ASHEHealth
+March1,2023).
+Facilities (2020). Available at: https://www.hfmmagazine.com/articles/4018-immersive-
+technology-for-hospital-design 74. Lehne M, Sass J, Essenwanger A. Why digital medicine depends on
+interoperability.NPJDigitMed.(2019)2(79):1–5.doi:10.1038/s41746-019-0158-1
+52.QuZ,LayC-W,SimoffS,KennedyP,NguyenQ-V,CatchpooleD.Reviewof
+innovative immersive technologies for healthcare applications. Innov Digit Health 75.KPMG.Futureofextendedreality:10predictions,15experts.Sydney:KPMG
+DiagnBiomarkers.(2022)2:27–39.doi:10.36401/IDDB-21-04 (2022). p. 1–42. Available at: https://assets.kpmg/content/dam/kpmg/au/pdf/2022/
+future-of-XR-white-paper.pdf
+53.Herur-RamanA,AlmeidaN,GreenleafW,WilliamsD,KarshenasA,Sherman
+J.Next-generationsimulation—integratingextendedrealitytechnologyintomedical 76.HeronL.Thepromiseofimmersivehealthcare:howtheUKcanreapthebenefits
+education.FrontVirtualReality.(2021)2:693399.doi:10.3389/frvir.2021.693399 of the latest healthcare innovations that use immersive technology. London: The
+InstituteofEngineeringandTechnology(IET)(2020).p.1–24.Availableat:https://
+54.KonarskiA,WilliamsM,DaviesR,RoyB.Orthopaedicsurgicaltrainingwith
+www.theiet.org/media/9487/the-promise-of-immersive-healthcare.pdf
+virtual reality: oySTeR-VR. In: Jung T., Dalton J, editors. XR case studies using
+augmented reality and virtual reality technology in business. Springer 77.MoinnereauM-A,deOliveiraA,FalkT.ImmersiveMediaexperience:asurvey
+(2021).p.9–16.doi:10.1007/978-3-030-72781-9_2 ofexistingmethodsandtoolsforhumaninfluentialfactorsassessment.JQualUser
+Exp.(2022)7(5):1–23.doi:10.1007/s41233-022-00052-1
+55.TangY,ChauK,KwokA,ZhuT,MaX.Asystematicreviewofimmersive
+technology applications for medical practice and education—trends, application 78. Alonso-Valerdi L-M, Mercado-Garcia V-R. Enrichment of human-computer
+areas, recipients, teaching contents, evaluation methods, and performance. J Educ interaction in brain-computer interfaces via virtual environments. J Comput Intell
+ResRev.(2021)35:1–23.doi:10.1016/j.edurev.2021.100429 Neurosci.(2017)2017:1–12.doi:10.1155/2017/6076913
+56.FreemanD,SlaterM,BebbingtonP,GaretyP,KuipersE,DavidF,etal.Can 79.BeamsR,BrownE,ChengW,JoynerJ,KimA,KontsonK,etal.Evaluation
+virtualrealitybeusedtoinvestigatepersecutoryideation?JNervMentDis.(2003) challenges for the application of extended reality devices in medicine. J Digit
+191(8):509–14.doi:10.1097/01.nmd.0000082212.83842.fe Imaging.(2022)35(5):1049–418.doi:10.1007/s10278-022-00622-x
+57. Fornells-Ambrojo M, Barker C, Swapp D, Slater M, Antley A, Freeman D. 80.BekeleM,ChampionE.Acomparisonofimmersiverealitiesandinteraction
+Virtual reality and persecutory delusions: safety and feasibility. J Schizophr Res. methods: cultural learning in virtual heritage. Front Rob AI. (2019) 6:91. doi: 10.
+(2008)104:228–36.doi:10.1016/j.schres.2008.05.013 3389/frobt.2019.00091
+58.BohilC,AliceaB,BioccaF.Virtualrealityinneuroscienceresearchandtherapy. 81.ObristM,GattiE,MaggioniE,ViC-T,VelascoC.Multisensoryexperiencesin
+NatRevNeurosci.(2011)12:752–62.doi:10.1038/nrn3122 HCI.IEEEMultiMedia.(2017)24(2):9–13.doi:10.1109/MMUL.2017.33
+59.Pizzoli S,MazzoccoK,TribertiS,Monzani D,Raya M,PravettoniG.User- 82.ObristM,BoyleG,vanBrakelM,DuerinckF(2017).Multisensoryexperiences&
+centred virtual reality for promoting relaxation: an innovative approach. Front spaces.ISS‘17:Proceedingsofthe2017ACMinternationalconferenceoninteractive
+Psychol.(2019)10:479.doi:10.3389/fpsyg.2019.00479 surfacesandspaces,ACM,p.469–72.doi:10.1145/3132272.3135086
+60.PutrinoD,RippJ,HerreraJ,CortesM,KellnerC,RizkD,etal.Multisensory, 83.RakkolainenI,FarooqA,KangasJ,HakulinenJ,RantalaJ,TurunenM,etal.
+nature-inspiredrechargeroomsyieldshort-termreductionsinperceivedstressamong Technologies for multimodal interaction in extended reality—a scoping review.
+frontlinehealthcareworkers.FrontPsychol.(2020)11:560833.doi:10.3389/fpsyg.2020. JMultimodalTechnolInteract.(2021)5(12):1–34.doi:10.3390/mti5120081
+560833
+84. Smith J. Immersive virtual environment technology to supplement
+61.BestP,MeirelesM,SchroederF,MontgomeryL,MaddockA,DavidsonG,etal. environmental perception, preference and behavior research: a review with
+Freelyavailablevirtualrealityexperiencesastoolstosupportmentalhealththerapya applications. Int J Environ Res Public Health. (2015) 12(9):486–505. doi: 10.3390/
+systematicscopingreviewandconsensusbasedinterdisciplinaryanalysis.JTechnol ijerph120911486
+BehavSci.(2021)7(1):100–14.doi:10.1007/s41347-021-00214-6(AccessedMarch1,
+85.SpiegelB.VRx:Howvirtualtherapeuticswillrevolutionizemedicine.NewYork:
+2023). BasicBooks(2020).1–247.
+62.RichesS,AzevedoL,BirdL,PisaniS,ValmaggiaL.Virtualrealityrelaxationfor 86.KirshD.Doarchitectsanddesignersthinkaboutinteractivitydifferently?ACM
+thegeneralpopulation:asystematicreview.SocPsychiatryPsychiatrEpidemiol.(2021) Trans Comput Hum Interact. (2019) 26(2):1–43. doi: 10.1145/3301425 (Accessed
+56:1707–27.doi:10.1007/s00127-021-02110-z March1,2023).
+63.HedrickA.HowtoplanaXRhealthcarestrategy.In:GreenleafW,RobertsL,FineR, 87. Alavi H, Churchill E, Wiberg M, Lalanne D, Dalsgaard P, Fatah A, et al.
+editors.Appliedvirtualrealityinhealthcare:Casestudiesandperspectives.CoolBlueMedia Introduction to human-building interaction (HBI): interfacing HCI with
+andInternational VirtualRealityHealthcareAssociation(IVRHA)(2022). p.228–36. architecture and urban design. ACM Trans Comput Hum Interact. (2019) 26
+(AccessedMarch1,2023). (2):1–10.doi:10.1145/3309714(AccessedMarch1,2023).
+FrontiersinMedicalTechnology 20 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+88.AfonsoA,ErginE,SchieckA.Flowingbodies:exploringthemicroandmacro 109.DangA,AroraD,RaneP.Roleofdigitaltherapeutics,andthechangingfuture
+scalesofbodilyinteractionswithurbanMediainstallations.Proceedingsofthe2019 ofhealthcare.JFamilyMedPrimCare.(2020)9:2207–13.doi:10.4103/jfmpc.jfmpc_
+on designing interactive systems conference. DIS (2019). p. 1183–93. doi: 10.1145/ 105_20(AccessedMarch1,2023).
+3322276.3322378(AccessedMarch1,2023).
+110.EhrhartK.Virtualrealityandhealthcaretechnicalconsiderations,limitations
+89.PaananenV,MarkkanenP,OppenlaenderJ,LeeL-H,AkmalH,SchieckA,etal. and opportunities. In: Greenleaf W, Roberts L, Fine R, editors. Applied
+2VT:Visions,technologies,andvisionsoftechnologiesforunderstandinghumanscale virtual reality in healthcare: Case studies and perspectives. Cool Blue Media
+spaces.CHI’21extendedabstracts.NewYork,NY:ACM.(2021).p.1–5.doi:10.1145/ (2022).p.287–91.
+3411763.3441315(AccessedMarch1,2023).
+111.MorseJ.Digitaltherapeuticsanddecentralizedtrials:amatchmadeinclinical.
+90. Kostopoulou E, Schieck A. Chapter 6—designing for hyperlocal: the use of J Appl Clin Trials. (2022) 31(4):12–15. Available at: https://cdn.sanity.io/files/
+locative media to augment place narratives. In: Aurigi A, Odendaal N, editors. 0vv8moc6/act/6e40ff81ed1f3f784e5a6a29af746590c921b923.pdf/ACT0422_digital_
+Shaping smart for better cities. University College London (2021). p. 87–106. watermark.pdf
+doi:10.1016/B978-0-12-818636-7.00016-0(AccessedMarch1,2023).
+112.KimM,ChoiH.Digitaltherapeuticsforobesityandeating-relatedproblems.
+91.Alexiou A, Butler T,Gramegna I, Dohna F. Futureofhealthcareecosystems. JEndocrinolMetab.(2021)36:220–8.doi:10.3803/EnM.2021.107
+London: Arup (2020). pp. 1–58. Available at: https://www.arup.com/perspectives/
+113.ChrysikouE,RabnettR,TzirakiC.Perspectivesontherole,andsynergiesof
+publications/research/section/future-of-healthcare-ecosystems (Accessed March 1,
+architecture, social and built environment in enabling active healthy ageing.
+2023). JAgeingRes.(2016)2016:1–8.doi:10.1155/2016/6189349(AccessedMarch1,2023).
+92.Deloitte.Healthcareforesight:Identifyingmegatrends.Singapore:DeloitteFuture
+HealthCentreofExcellence(2016).p.1–17.Availableat:https://www2.deloitte.com/
+Na
+1
+t
+1
+io
+4
+n
+.
+a
+N
+l
+H
+Se
+S
+r
+S
+v
+.
+ice
+N
+s
+H
+S
+S
+co
+S
+tl
+c
+a
+o
+n
+tl
+d
+an
+(
+d
+202
+d
+1
+ig
+)
+i
+.
+ta
+1
+l
+–5
+tw
+6.
+in
+Av
+in
+ai
+t
+l
+e
+a
+r
+b
+a
+l
+c
+e
+tiv
+a
+e
+t:
+n
+h
+a
+tt
+v
+p
+i
+s
+g
+:
+a
+//
+t
+w
+or
+w
+.
+w
+E
+.
+d
+cd
+in
+b
+b
+b
+u
+.c
+r
+a
+g
+m
+h:
+.ac
+N
+.u
+H
+k
+S
+/
+content/dam/Deloitte/sg/Documents/life-sciences-health-care/sg-lshc-healthcare-foresight- files/2021-08-31_guidance_-_digital_twin_navigator_v02.pdf (Accessed March 1,
+megatrends.pdf(AccessedMarch1,2023).
+2023).
+93. UCL. UCL grand challenges. London: University College London (2020).
+115.VoigtI,InojosaH,DillensegerA,HaaseR,AkgunK,ZiemssenT.Digitaltwinsfor
+Availableat:https://www.ucl.ac.uk/grand-challenges/(AccessedMarch1,2023). multiplesclerosis.FrontImmunol.(2021)12:669811.doi:10.3389/fimmu.2021.669811
+94.BEIS.Policypaper:Thegrandchallenges.London:DepartmentforBusiness,
+116.LaubenbacherR,NiarakisA,HelikarT,AnG,ShapiroB,Malik-SheriffR,etal.
+Energy&IndustrialStrategy(2021).Availableat:https://www.gov.uk/government/
+Buildingdigitaltwinsofthehumanimmunesystem:towardaroadmap.NatDigit
+publications/industrial-strategy-the-grand-challenges/industrial-strategy-the-grand- Med.(2022)5:1–5.doi:10.1038/s41746-022-00610-z
+challenges(AccessedMarch1,2023).
+95.EdkinsA,BarnesY,GraingerA,ChinowskyP.Realestate’s21stcenturygrand 117.KooH.Traininginlungcancersurgerythroughthemetaverse,includingextended
+1 ch 0 a (1 ll ) e : n 1– ge 2 s 7 : . t d h o e i: bi 1 g 0. i 2 ss 5 u 2 e 1 s 9/ a e n p d oj p .2 r 0 o 2 je 1 c . t 00 m 1 a 0 n 2 a ( g A em cc e e n ss t e ’s d ro M le a . r J ch En 1 g ,2 P 0 r 2 o 3 je ) c . tOrgan.(2021) r J e E al d it u y c ,i E n va th l e H s e m al a t r h t P op ro e f r . a ( ti 2 n 0 g 21 ro ) o 2 m 02 o 1 f :1 S 8 e – o 3 u 3 l . n d a o ti i o : n 1 a 0 l .3 u 3 n 5 i 2 v / e j r e s e i h ty p. b 2 u 0 n 2 d 1. a 1 n 8 g .3 h 3 ospital,Korea.
+118.Solve.Care.Healthcaremetaversesettotakeoffwiththelaunchofthemetaverse
+96.DHSC.Healthinfrastructureplan:Anew,strategicapproachtoimprovingour
+doctors alliance in South Korea. Seoul: Solve.Care (2021). Available at: https://
+hospitals and health infrastructure. London: Department of Health and Social Care
+(2019). pp. 1–23. Available at: https://www.gov.uk/government/publications/health- solve.care/press-release/healthcare-metaverse-set-to-take-off-with-the-launch-of-the-
+metaverse-doctors-alliance-in-south-korea/
+infrastructure-plan(AccessedMarch1,2023).
+119.HawksC,KrasnianskyA.Digitalhealthentersthemetaverse.SanFrancisco,CA:
+97.PitmanD,RolfA.Aguidetonetzerocarbonhealthcare.London:ARUP(2020).
+pp. 1–24. Available at: https://www.arup.com/perspectives/publications/research/ RockHealth(2022).Availableat:https://rockhealth.com/insights/digital-health-enters-
+the-metaverse/
+section/net-zero-carbon-healthcare(AccessedMarch1,2023).
+98. NHS. The NHS long term plan. London: NHS England (2019). pp. 1–136. (20 1 2 2 2 0 ) .T 6 h (3 o ) m :1 a 6 s 4 o – n 7. J. d M oi: et 1 a 0 v . e 1 r 0 s 1 e 6 , / t j o .g k l e o n hj e . c 2 o 0 n 2 o 2. m 07 ie .0 s, 01 andchronicdiseases.GlobHealthJ.
+Availableat:https://www.longtermplan.nhs.uk
+121.McWilliamA,ScarfeP.Themetaverseandoncology.JClinOncol.(2022)35
+ass
+9
+e
+9
+s
+.
+sm
+N
+en
+H
+t
+S
+—
+.
+a
+T
+n
+h
+n
+e
+ex
+N
+1
+H
+.
+S
+Lo
+lo
+n
+n
+d
+g
+on
+t
+:
+er
+N
+m
+HS
+pla
+E
+n
+n
+:
+gl
+E
+a
+q
+n
+u
+d
+al
+(
+it
+2
+y
+01
+a
+9
+n
+).
+d
+1
+h
+–
+e
+3
+a
+0
+l
+.
+th
+Av
+in
+ai
+e
+l
+q
+a
+u
+bl
+a
+e
+lit
+a
+ie
+t:
+s
+h
+im
+ttp
+p
+s
+a
+:
+c
+//
+t (1):12–4.doi:10.1016/j.clon.2022.06.011
+www.england.nhs.uk/wp-content/uploads/2019/01/ehia-ltp-annex.pdf (Accessed 122.SkalidisI,MullerO,FournierS.Cardioverse:thecardopvascularmedicinein
+March1,2023). the era of metaverse. J Trends Cardiovasc Med. (2022) S1050–1738(22):00071–8.
+doi:10.1016/j.tcm.2022.05.004(AccessedMarch1,2023).
+100.PSC.NHSProperty2021conference.Stockport:PublicSectorConnect(2021).
+Availableat:https://www.publicsectorconnect.org/nhsproperty2021/(AccessedMarch 123.ChoiY,LazarA,DemirisG,ThompsonH.Emergingsmarthometechnologies
+1,2023). tofacilitateengagingwithaging.JGerontolNurs.(2019)45(12):41–8.doi:10.3928/
+00989134-20191105-06(AccessedMarch1,2023).
+101. NHSPS. NHS Property disposals: A brief guide. Cheshire: NHS Property
+Services (2021). p. 1–10. Available at: https://www.property.nhs.uk/media/3098/ 124.KimJ,SagunaS,AhlundC,MitraK.Augmented reality-assistedhealthcare
+nhsps_property-disposals_customer-guide_2021.pdf(AccessedMarch1,2023). system for caregivers in smart regions. The 7th IEEE international smart cities
+conference. Manchester: Institute of Electrical and Electronics Engineers (IEEE)
+102.ChrysikouE,KostopoulouE,SavvopoulouE,SchieckA.Medicalarchitectureon
+(2021).doi:10.1109/ISC253183.2021.9562927
+the social valorisation of psychiatric patients. Employing transdisciplinary approaches
+between architecture, physical and mental wellbeing disciplines. AAE 2017 Conference 125. Ma C, Guerra-Santin O, Mohammadi M. Smart home modification design
+proceedings: Architecture connects. Association of Architectural Educators (2017). pp. strategies for ageing in place: a systematic review. J Hous Built Environ. (2021)
+33–40. Available at: https://www.researchgate.net/publication/316475776_Medical_ 37:625–51.doi:10.1007/s10901-021-09888-z
+architecture_on_the_social_valorisation_of_psychiatric_patients_employing_transdiscipli
+126. Ticho S. A collaborative vision for the future of immersive healthcare. In:
+nary_approaches_between_architecture_physical_and_mental_well-being_disciplines
+GreenleafW,RobertsL,FineR,editors.Appliedvirtualrealityinhealthcare:Case
+(AccessedMarch1,2023).
+studies and perspectives. Cool Blue Media and International Virtual Reality
+103.ChrysikouE.Whyweneednewarchitecturalanddesignparadigmstomeetthe HealthcareAssociation(IVRHA)(2022).p.22–6.(AccessedMarch1,2023).
+needsofvulnerablepeople.JPalgraveCommunNat.(2018)4(116):1–13.doi:10.1057/
+127. Fera B, Korba C, Shukla M. The future of virtual health: executives see
+s41599-018-0171-z(AccessedMarch1,2023).
+industrywide investments on the horizon. New York, NY: Deloitte Insights (2020).
+104.BotosM,McGarrityL,AlukoY,SchurE.Digitaltherapeuticsareredefiningthe pp. 1–22. Available at: https://www2.deloitte.com/us/en/insights/industry/health-
+digitalhealthmarket.Chicago,IL:Ernst&YoungGlobalLimited(2022).Availableat: care/future-of-virtual-health.html.
+https://www.ey.com/en_us/health/digital-therapeutics-are-redefining-digital-health-
+128.WilliamsC,RafieiR,HowaldR.Digitalhealthreformulation:Fromhopeto
+market(AccessedMarch1,2023). hypetohealth.Lewes:SHLGroup(2020).51–7.Availableat:https://ondrugdelivery.
+105.MohanS.Disruptiveinnovationinhealthcare:awickedproblem?Seattle,WA: com/wp-content/uploads/2020/06/108_Jun_2020_SHL.pdf
+Milliman (2021). Available at: https://us.milliman.com/en/insight/disruptive-
+129. Zimlichman E, Aggarwal R, Bates D. Health care 2030: the coming
+innovation-in-healthcare-a-wicked-problem transformation. NEJM Catalyst, Innovations in Care Delivery (2021). p. 1–11.
+106.PD.Digitalhealthvs.Digitaltherapeutics.Philadelphia,PA:ParkinsonsDisese.net doi:10.1056/CAT.20.0569(AccessedMarch1,2023).
+(2021). Available at: https://parkinsonsdisease.net/clinical/digital-health-versus-digital-
+130.LouisR,HutchinsonT,CabritoT.Strategiesforwidescaledeploymentofvirtual
+therapeutics(AccessedMarch1,2023).
+realityinahospitalsetting.In:GreenleafW,RobertsL,FineR,editors.Appliedvirtual
+107.MakinS.Theemergingworldofdigitaltherapeutics:thetreatmentofmany realityinhealthcare:Casestudiesandperspectives.CoolBlueMediaandInternational
+physical and mental-health conditions is going digital. Nature. (2019) 573(7775): VirtualRealityHealthcareAssociation(IVRHA)(2022).p.237–44.(AccessedMarch
+S106–9.doi:10.1038/d41586-019-02873-1 1,2023).
+108.BurroneV,GrahamL,BevanA.Digitaltherapeutics:Pasttrendsandfuture 131.SCH.TheStanfordvirtualheart—revolutionizingeducationoncongenitalheart
+prospects. Bethesda, MD: Evidera (2020). Available at: https://www.evidera.com/ defects.Stanford,CA:StanfordChildren’sHealthLucilePackardChildren’sHospital
+digital-therapeutics-past-trends-and-future-prospects/#:∼:text=Digital%20therapeutics (2017). Available at: https://www.stanfordchildrens.org/en/innovation/virtual-reality/
+%20(DTx)%20are%20a,1%20DTx%20are%20distinct%20from stanford-virtual-heart(AccessedMarch1,2023).
+FrontiersinMedicalTechnology 21 frontiersin.org
+Yang 10.3389/fmedt.2023.1184925
+132.JonesK,LoizidesF,EslambolchilarP,JohnsonI,BhatiaS,CrawfordO,etal. London: Policy Exchange. (2021). p.1–14. Available at: https://policyexchange.org.
+Reducing anxiety for dental visits. In: Lamas D, Loizides F, Nacke L, Petrie H, uk/wp-content/uploads/Guide-to-the-Finalists-and-Awards.pdf
+Winckler M, Zaphiris P, editors. Human-Computer interaction—iNTERACT
+2019’.17THIFIPTC13internationalconferencepaphos,Cyprus,September2-6,2019 136. HIMSS. Hospitals of the future: Design in a digital world. Chicago, IL:
+proceedings, part IV. Springer (2019). 659–63. doi: 10.1007/978-3-030-29390-1 HIMSS.org (2021). Available at: https://www.himss.org/global-conference/session-
+hospitals-future-design-digital-world
+(AccessedMarch1,2023).
+133. Krukar J, Dalton R, Hölscher C. Applying HCI methods and concepts to 137.CharlesA.Integratedcaresystemsexplained:Makingsenseofsystems,places
+architecturaldesign(orwhyarchitectscoulduseHCIeveniftheydon’tknowit). and neighbourhoods. London: The King’s Fund (2021). Available at: https://www.
+In: Dalton N, Schnädelbach H, Wiberg M, Varoudis T, editors. Architecture and kingsfund.org.uk/publications/integrated-care-systems-explained
+interaction: Human computer interaction in space and place. Springer
+138. NHS. What are integrated care systems? London: NHS Confederation
+(2016).p.17–35.doi:10.1007/978-3-319-30028-3_2(AccessedMarch1,2023).
+(2022c).p.1–4.Availableat:https://www.nhsconfed.org/system/files/2022-07/NHS%
+134.AitkenM,NassD.Digitalhealthtrends2021:Innovation,evidence,regulation, 20Confederation%20parliamentary%20briefing%20-%20Integrated%20Care%20Systems
+andadoption.Durham,NC:IQVIAInstituteforHumanDataScience(2021).1–76. %20%28ICS%29.pdf(AccessedMarch1,2023).
+Available at: https://www.iqvia.com/-/media/iqvia/pdfs/institute-reports/digital-
+139. Cannon Design. Carlos amato on embracing new patient technology
+health-trends-2021/iqvia-institute-digital-health-trends-2021.pdf?_=1659789443388
+in healthcare planning and design. Los Angeles, CA: Cannon Design (2020).
+(AccessedMarch1,2023).
+Available at: https://www.cannondesign.com/news-insights/design/carlos-amato-on-
+135.CulleyN,FieldS,AnderssonJ.Hospitalofthefuture:designinadigitalworld. embracing-new-patient-technology-in-healthcare-planning-and-design/ (Accessed
+In:EdeR,editors.Wolfsoneconomicsprize2021:Guidetothefinalistsandawards. March1,2023).
+FrontiersinMedicalTechnology 22 frontiersin.org

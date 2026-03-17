@@ -1,0 +1,3363 @@
+Open access Original research
+Patient- reported outcome measures for
+knowledge transfer and behaviour
+modification interventions in type 2
+diabetes—the INDICA study: a
+multiarm cluster randomised
+controlled trial
+Yolanda Ramallo- Fariña ,1,2 Amado Rivero- Santana,1,2 Lidia García- Pérez ,1,2
+Miguel Angel García- Bello,1 Ana Maria Wägner,3,4 Himar Gonzalez- Pacheco,1
+Leticia Rodríguez- Rodríguez,1 Sybille Kaiser- Girardot ,5
+Guillermo Monzón- Monzón,5 Carolina Guerra- Marrero,5 Carmen Daranas- Aguilar,5
+Margarita Roldán- Ruano,5 Montserrat Carmona,2,6 Pedro G Serrano- Aguilar,2,5
+INDICA Team
+To cite: Ramallo-F ariña Y, ABSTRACT
+Strengths and limitations of this study
+Rivero-S antana A, García- Objective This study assesses the effectiveness
+Pérez L, et al. Patient- of different interventions of knowledge transfer and
+reported outcome measures ► The INDICA study provides randomised evidence
+behaviour modification to improve type 2 diabetes mellitus for knowledge transfer and on the effectiveness of complex interventions to patients’ (T2DM) reported outcomes measures (PROMs) in behaviour modification improve outcomes in patients with type 2 diabe-
+interventions in type 2
+the long- term. Design: open, community- based pragmatic,
+tes mellitus, with a longer follow- up than previous
+diabetes—the INDICA study: a multicentre, controlled trial with random allocation studies.
+multiarm cluster randomised by clusters to usual care (UC) or to one of the three ► All relevant stakeholders in the community are in-
+controlled trial. BMJ Open interventions.
+volved in the INDICA study (patients and family care-
+2021;11:e050804. doi:10.1136/ Participants A total of 2334 patients with uncomplicated givers and primary care professionals).
+bmjopen-2021-050804
+T2DM and 211 healthcare professionals were included of ► The trial included a large sample of patients with
+► Prepublication history for 32 primary care centres. type 2 diabetes regardless of their baseline HbA1c
+this paper is available online. Setting Primary Care Centers in Canary Islands (Spain). level, reinforcing the external validity of the results.
+To view these files, please visit Intervention The intervention for patients (PTI) included ► The INDICA interventions with information and com-
+the journal online (http:// dx. doi. an educational group programme, logs and a web- based munication technology-b ased components favour
+org/1 0. 1136/b mjopen- 2021-
+platform for monitoring and automated short message applicability and access, in a cost-e ffective manner,
+050804).
+service (SMS). The intervention for professionals (PFI) to a growing number of patients.
+Received 09 March 2021 included an educational programme, a decision support ► A limitation in the use of patient-r eported outcome
+Accepted 03 November 2021 tool embedded into the electronic clinical record and measures is the absence of well-e stablished em-
+periodic feedback about patients’ results. A third group pirically derived minimum clinically significant
+received both PTI and PFI (combined intervention, CBI). differences
+Outcome measure Cognitive-a ttitudinal, behavioural,
+affective and health- related quality of life (HQoL) variables.
+Results Compared with UC at 24 months, the PTI
+group significantly improved knowledge (p=0.005), improvements were also observed at 24 months in the
+self-e mpowerment (p=0.002), adherence to dietary proportion of patients who quit smoking for PTI and CBI
+© Author(s) (or their
+employer(s)) 2021. Re- use recommendations (p<0.001) and distress (p=0.01). The (41.5% in PTI and 42.3% in CBI vs 21.2% in the UC
+permitted under CC BY- NC. No PFI group improved at 24 months in distress (p=0.03) group).
+commercial re- use. See rights and at 12 months there were improvements in depression Conclusions Assessed interventions to improve PROMs
+and permissions. Published by (p=0.003), anxiety (p=0.05), HQoL (p=0.005) and self- in T2DM attain effectiveness for knowledge, self-
+BMJ.
+empowerment (p<0.001). The CBI group improved at 24 empowerment, distress, diet adherence and tobacco
+For numbered affiliations see months in self-e mpowerment (p=0.008) and adherence cessation. PTI produced the most lasting benefits.
+end of article.
+to dietary recommendations (p=0.004) and at 12 months
+Trial registration number C linicalTrials. gov
+in knowledge (p=0.008), depression (p=0.006), anxiety
+Correspondence to NCT01657227 (6 August 2012) https:// clinicaltrials. gov/
+Dr Yolanda Ramallo-F ariña; (p=0.003), distress (p=0.01), HQoL (p<0.001) and ct2/s how/ NCT01657227.
+y ramfar@ sescs.e s neuropathic symptoms (p=0.02). Statistically significant
+Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804 1
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Open access
+INTRODUCTION quality of life dimensions. These outcomes are commonly
+Many patients with type 2 diabetes mellitus (T2DM) targeted for most diabetes interventions because of their
+do not achieve the recommended treatment goals for association with critical, longer term outcomes, such
+glycaemic control.1 This might be due to inappropriate as functional capacity,15 complications,16–18 mortality,19
+healthcare access and/or clinical management. More- healthcare costs20 and quality of life.21
+over, psychological and emotional aspects, such as knowl-
+edge of the disease or diabetes- related distress, are also
+important issues for an appropriate self-m anagement and
+glycaemic control.2 3 Previous research has shown the METHODS
+Trial design
+value of patient- reported outcome measures (PROMs) to
+monitor these variables in diabetes,4 which contribute to The INDICA study is an open, community- based prag-
+patient empowerment and patient-c entred care.5 PROMs matic, multicentre, controlled trial with random allo-
+cation by clusters to usual care (UC) or one of three
+are generally assessed with standardised, validated ques-
+multicomponent interventions of knowledge transfer
+tionnaires aimed to measure patients’ perception of their
+and behaviour modification. One intervention was aimed
+health status, perceived level of impairment, disability or
+health-r elated quality of life.6 at patient and family members (PTI); another interven-
+tion was aimed at primary care healthcare professionals
+Interventions that aim to empower people with chronic
+(physicians and nurses) (PFI) and the third intervention
+illnesses and specifically diabetes have included distinct
+combined the other two (CBI). In the control group, strategies such as educational programmes, websites,
+both patients/families and physicians/nurses received
+support phone calls, text messages and other technolog-
+ical resources,4 7–10 in order to improve patients’ diabetes the usual activities provided by the PHCP. The full study
+protocol has been published before.12
+knowledge, self- management, psychological outcomes
+and health status. However, the results obtained have been
+Study participants
+mixed, with a considerable number of studies showing
+no effect of the interventions.8–11 The INDICA study is The INDICA study included adults aged 18–65 years who
+a pragmatic, cluster- randomised controlled trial with had been diagnosed with T2DM at least 1 year before, did
+2 years follow- up that assesses the effectiveness and cost- not have any diabetes-r elated complications, and used a
+effectiveness of multicomponent interventions for knowl- mobile phone regularly.12 Family Care Units (FCU) in
+edge transfer and behaviour modification of patients with each PHCP, comprised of a family physician and a nurse,
+T2DM, their families and healthcare professionals (physi- were the recruitment unit. All PHCPs included had to
+cians and nurses) in a large number of Primary Care have at least eight FCUs and the availability of appro-
+Health Practices (PHCP). These interventions combine priate facilities to provide educational group sessions.
+conventional group educational and training activities FCUs planning or awaiting placement changes among
+with different information and communication tech- PHCP in the first 6 months after the project began were
+nology (ICT)-b ased interventions to guide the decisions of excluded.
+the main actors involved in the management of T2DM.12
+The intervention for patients (PTI) included an educa- Setting and recruitment
+tional group programme led by trained nurses, consisting PHCPs were randomly selected in the islands of Tenerife,
+of eight face- to- face sessions (one every 3 months over Gran Canaria, Lanzarote, and La Palma (Canary Islands,
+2 years); continuous self-m onitoring by means of logs Spain). Moreover, FCUs were randomly selected from all
+and a web- based platform; and tailored automated SMS consenting FCUs at each PHCP. The ECRs of all poten-
+to provide continuous support to patients and to rein- tially eligible patients in selected FCUs were screened to
+force self- care and lifestyle changes. The intervention for verify inclusion and exclusion criteria.
+professionals (PFI) included an educational programme
+to update their diabetes knowledge, a decision support Patient and public involvement
+tool embedded into the electronic clinical record (ECR) Patients were actively involved in the design of the trial.
+with recommendations based on the best available scien- Two associations of patients with T2DM in the Canary
+tific knowledge, adapted to the specific needs of every Islands were included from the beginning of the study
+patient, and periodic feedback about patients’ results. as part of the research team, with an active participa-
+The results on the effectiveness of these interventions tion in the design of the interventions and selection of
+on clinical outcomes can be seen in Ramallo-F ariña et al.13 the outcomes measured. In the same way, primary care
+and the cost- effectiveness evaluation can be reviewed in professionals and clinical management staff participated
+García- Pérez et al.14 The aim of this article is to report in the elaboration of the protocol. The patients and
+the effect of the INDICA interventions on a set of PROMs professionals included in the study could express their
+assessed in the trial: cognitive-a ttitudinal (knowledge, satisfaction with the interventions through a question-
+empowerment), behavioural (adherence to the dietary naire, as well as through focus groups and in- depth inter-
+recommendation, medication and tobacco use), affec- views that will be the objective of another publication.
+tive (anxiety, depression, distress) and health-r elated Finally, we established a commitment with patients and
+2 Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Open access
+healthcare professionals to share the results with them in with other FCU in their setting and the FCU with the
+an easy- to- understand way. best results. Both interventions were applied during the
+2 years follow- up.
+Random assignment
+Duration of fieldwork Randomisation was applied at different levels. First, three
+different strata were created according to the geographic Fieldwork took place between February 2013 and October
+areas in the more populated islands (Tenerife and Gran 2016. The first year and the following 2 years were devoted
+Canaria). Second, four PHCP (clusters) were randomly to recruitment of patients and healthcare providers, and
+allocated to every geographical stratum and block permu- intervention and follow-u p, respectively. As interventions
+tation was used to assign PHCPs to the study arms; the were maintained over time, intervention and follow- up
+PHCP being the sampling unit. La Palma and Lanzarote periods overlapped.
+(less populated islands) were geographically divided into
+Outcomes
+four zones with only one eligible PHCP available in each
+Cognitive-attitudinal outcomes
+zone randomly assigned to one of the study arms. In every
+To assess potential changes in patient knowledge about
+island, all arms were equally distributed. Six FCUs were
+T2DM and its self-m anagement, we developed a specific
+randomly selected, from all those consenting to partici-
+instrument created in the context of this project,
+pate in each PHCP. From all patients fulfilling inclusion
+Diabetes Knowledge Test (DIATEK), which consisted of
+criteria and consenting to participate in each PHCP, 15
+30 questions. Each item has four response options and
+were randomly selected per FCU. Exceptionally, more
+only one correct answer. Items examined risk factors for
+than six FCUs or more than 15 patients per FCU were
+disease development and deterioration, objective values
+selected, to try to recruit 90 patients in every PHCP.
+for biochemical parameters; recommendations on nutri-
+However, it was not possible to attain this objective of 90
+tion, physical activity, drug use and self-m anagement. The
+patients in all PHCPs as there were insufficient patients
+total score, obtained by adding all correct responses, and
+in all FCU selected that complied with the inclusion and
+ranging from 0 to 30, was later rescaled from 0 to 10.
+exclusion criteria.
+The Diabetes Empowerment Scale-S hort Form (DES-
+FCU and patient randomisation were performed by
+SF)23 is a validated questionnaire designed to evaluate
+simple generation from a list of random numbers.
+psychosocial self-e fficacy in diabetes. DES-S F is the
+short form of the original DES, which includes eight
+Interventions
+items (need for change, developing a plan, overcoming
+Patient interventions
+barriers, asking for support, supporting oneself, coping
+Patients recruited to the PTI and CBI groups received
+with emotion, motivating oneself and making diabetes
+a complex intervention of knowledge transfer and
+care choices appropriate for one’s priorities and circum-
+behaviour modification, informed by conceptual
+stances) with responses on a five- point Likert scale and an
+frameworks of behavioural change.16 The intervention
+overall range from eight to 40, according to increasing
+combined: (1) an eight-s ession, conventional, group
+patient empowerment.
+educational programme given by a nurse specialised in
+diabetes; (2) monitoring of physical activity, diet, drug Behavioural outcomes
+adherence, mood, blood pressure and blood glucose The Mediterranean Diet Adherence Screener (MEDAS)24
+readings by daily use of paper workbooks, complemented
+is a validated questionnaire to assess dietary recom-
+by weekly access to a website platform to upload paper
+mendation adherence, which consists of 14 targets for
+workbook data; and (3) continuous, personalised feed-
+food consumption, rated with one point for each target
+back by semiautomated mobile phone messages (SMS),
+attained. According to the final score, patients are classi-
+modified according to the website information.
+fied as having low (0–6 points), moderate (7–10) or high
+adherence (11–14 points) to the Mediterranean diet.
+Interventions for primary care professionals The Morisky Medication Adherence Scale (MGLS)25
+Primary care professionals recruited to the PFI and
+assesses drug- treatment adherence, by means of a vali-
+CBI groups received a complex intervention of knowl-
+dated four- item self- report instrument and a final score
+edge transfer and decision support, informed by the
+ranging from 0 to 4. Patients are considered adherent,
+determinants of behaviour change suggested by Michie
+only if they obtain four points.
+et al22 for its design and implementation. The interven-
+Smoking status was monitored from baseline and during
+tion included: (1) an educational and interactive group
+follow-u p, to check for potential cessation throughout the
+programme of two sessions to update clinical manage-
+study.
+ment information and promote patient- centred care; (2)
+an automated decision aid tool, based on a Clinical Prac- Affective outcomes
+tice Guide (CPG) for T2DM embedded into the ECR; The State Trait Anxiety Inventory (STAI-S )26 is a validated
+and (3) monthly computerised graphic feedback, which patient- reporting questionnaire that includes two non-
+displayed a set of processes and outcome indicators for all dependent scales; the applied state-a nxiety scale (STAI
+patients with T2DM of the corresponding FCU compared State) and the trait- anxiety scale (STAI Trait). It assesses
+Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804 3
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Open access
+transient emotional state or condition as characterised by Physical Activity Questionnaire and a scale developed
+subjective feelings of tension and apprehension that can for this project to assess patients’ attitudinal changes
+fluctuate in time and intensity. The STAI-S includes 20 regarding lifestyles (INDICA-L SQ). However, the data
+items, with each item scored on a four-p oint Likert scale. quality checking identified many inconsistent or mean-
+Anxiety is defined by a cut- off point≥30. ingless responses to these questionnaires, which indicates
+The Beck Depression Inventory II (BDI-I I)27 consists that patients did not correctly understand the instruc-
+of 21 items scored on a four-p oint scale from 0 (‘not at tions. Therefore, we decided to exclude them from the
+all’) to 3 (‘most of the time’). The items assess depression analyses.
+symptoms in the last 2 weeks. All item scores are added to
+a maximum score of 63. A BDI- II score of ≥14 indicates Statistical analysis
+mild depressive symptoms. Multilevel mixed models including the baseline value of
+The Diabetes Distress Scale (DDS2)28 is a validated dependent variables and time elapsed since diagnosis (in
+two-i tem diabetes distress- screening instrument that asks years) as covariates were implemented for all PROMs. First
+respondents to rate, on a six-p oint scale, the degree of level variables are those corresponding to each measure-
+distress caused by the two following items: (1) feeling ment along follow- up (repeated time measurements).
+overwhelmed by the demands of living with diabetes The second level includes patient variables (the baseline
+and (2) feeling that I am often failing with my diabetes value of dependent variables and time elapsed since diag-
+regimen. High diabetes distress can be identified by an nosis) and third level variables correspond to PHCP in
+average score ≥3 or more, low distress by scores under 2, which patients are grouped (the variable arm to which
+and moderate distress by the scores in between. PHCP was assigned is included in this level). The effect
+that identifies the intervention arm has been considered
+Health-related quality of life and symptoms fixed for the different PHCP, while the intercept has been
+The Audit of Diabetes-D ependent Quality of life considered random. The model also included an inter-
+(ADDQoL- 19)29 is a specific health-r elated quality of action term between arm and month, which allows for
+life (HRQoL) questionnaire for diabetes. It assesses 19 differences in the intervention effect between follow-u p
+domains, each with its impact and importance index to assessments.31 The intraclass correlation coefficient (ICC)
+provide an integrated score for each domain. The sum of was obtained for each model for the PHCP and by patient
+the score in each domain forms the global score (range: according to their PHCP. The adjusted estimated mean
+−9 to 3). The lower the score, the worse the quality of life. was calculated for each follow-u p moment compared with
+The Michigan Neuropathy Screening Instrument baseline; and its statistical significance was calculated by
+(MNSI)30 is an instrument that measures the incidence of means of the model already set out. The relative improve-
+distal diabetic peripheral polyneuropathy. It is composed ment for each follow-u p was obtained as the ratio between
+of 15 self-a dministered items, in which the abnormal the adjusted difference in mean between the intervention
+responses are added. A score of seven or more is consid- and control group and the mean of the control group.
+ered abnormal. A logistic regression model was implemented to
+compare the proportion of patients who quit smoking at
+Satisfaction each follow- up, by intervention arm. Only basal smokers
+An ad- hoc self- completed questionnaire Patient Satisfaction were included in the analysis.
+with INDICA (INDICA- SATP) was developed to measure Analysis was performed on an intention-t o- treat basis,
+satisfaction with each component of the interventions in that is, participants were analysed in the group to which
+PTI and CBI groups. It was measured in the 24- month they were randomised. Missing values were treated by
+follow- up in patients who, having attended the group means of multiple imputation procedures,32 with results
+educational programme, also used the web platform or based on 100 imputed datasets (missing values from all
+received the semiautomated mobile phone messages. follow- up visits were imputed). Analysis under multiple
+Satisfaction with each component was valued from 0 to 10 imputation is valid for randomly missing data.33 We
+points, with 10 reflecting maximum satisfaction. compared the results of imputed and non-i mputed data.
+All information, including demographic data, overall All the analyses were conducted using STATA V.15.0.34
+and personal health history, diabetes health status, current Differences were considered statistically significant if
+medications, smoking status and risk factors for complica- p<0.05.
+tions, was obtained in a face to face interview at baseline
+and at 3, 6, 12, 18 and 24 months of follow-u p. Similarly,
+all self- administered questionnaires (ADDQoL- 19, BDI- RESULTS
+II, DES-S F, DDS2, DIATEK, MEDAS, STAI-S , MGLS and Study participants
+MNSI) were distributed and collected at baseline, and at A total of 2334 patients and 211 healthcare professionals
+12 and 24 months follow-u p. ADDQol-1 9, MEDAS and were included. Figure 1 shows the flowchart with cluster
+MGLS were also applied at 6 and 18 months. randomisation of patients for each intervention, atten-
+Two other questionnaires were included in the trial dance at educational/training sessions of patients and
+registry and the published protocol,12 the International professionals and the number of PROMs questionnaires
+4 Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Open access
+Figure 1 Consolidated Standards of Reporting Trials flow diagram. ADDQoL, Audit of Diabetes-D ependent Quality of life;
+BDI- II, Beck Depression Inventory II; CBI, combined intervention for patients and professionals; DDS2, Diabetes Distress
+Scale; DES- SF, Diabetes Empowerment Scale- Short Form; MEDAS, Mediterranean Diet Adherence Screener; MGLS, Morisky
+Medication Adherence Scale; MNSI, Michigan Neuropathy Screening Instrument; PFI, intervention for professionals; PHCP,
+Primary Care Health Practices; PTI, intervention for patients; STAI-S , State Trait Anxiety Inventory.
+received for each follow-u p assessment. The patients’ base- at all time points are shown in table 1 (intergroup differ-
+line characteristic according to the intervention assign- ences), tables 2 and 3 (intragroup changes).
+ment can be seen in Ramallo- Fariña et al.13 Mean age of the
+whole population was 55.7±7.1 years, with 51.9% women. Cognitive-attitudinal outcomes
+Mean baseline HbA1c was 7.3%/56 mmol/mol. From Table 1 shows that the level of knowledge about diabetes is
+baseline, 49.4% of patients started with HbA1c levels significantly higher for PTI (p=0.007) and CBI (p=0.008),
+within the accepted therapeutic goal (≤7%/53 mmol/ compared with UC at 12 months; and for PTI (p=0.005)
+mol). There were no statistically significant differences at 24 months.
+among groups in terms of their baseline characteristics. Patient empowerment was significantly higher for
+Intention- to- treat results (ITT), reported below, were PFI and CBI groups, compared with UC at 12 months
+very similar to those obtained with non-i mputed data. (p<0.001 for both comparisons). Analysis of non- imputed
+Only three discrepancies were observed that will be data led to a p value of 0.05 for the difference between
+discussed in the corresponding outcome section. Results PTI and UC, favouring the former, at this time point. At
+Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804 5
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Open access
+6 Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804
+puorg
+lortnoc
+eht
+htiw
+derapmoc
+puorg
+hcae
+fo
+naem
+eht
+ni
+ecnereffid
+detsujdA
+1
+elbaT
+eulav
+P
+shtnoM
+42
+eulav
+P
+shtnoM
+81
+eulav
+P
+shtnoM
+21
+eulav
+P
+shtnoM
+6
+semoctuo
+lanidutitta
+-evitingoC
+53.0=PCHP|tcejbus
+CCI
+;60.0=PCHP
+CCI
+;100.0<P
+3.74=F
+:)KETAID(
+egdelwonK
+500.0
+)11.1
+ot
+2.0(
+56.0
+–
+–
+700.0
+)11.1
+ot
+71.0(
+46.0
+–
+–
+ITP
+10.0
+)41.0−
+ot
+60.1−(
+6.0−
+–
+–
+11.0
+)90.0
+ot
+58.0−(
+83.0−
+–
+–
+IFP
+51.0
+)8.0
+ot
+21.0−(
+43.0
+–
+–
+800.0
+)11.1
+ot
+61.0(
+36.0
+–
+–
+IBC
+80.0=PCHP|tcejbus
+;CCI
+;80.0=PCHP
+CCI
+;100.0<P
+3.71=F
+:)FS
+-SED(
+tnemrewopmE
+200.0
+)99.4
+ot
+80.1(
+40.3
+–
+–
+51.0
+)57.3
+ot
+95.0−(
+85.1
+–
+–
+ITP
+70.0
+)97.3
+ot
+11.0−(
+48.1
+–
+–
+100.0<
+)6
+ot
+9.1(
+59.3
+–
+–
+IFP
+800.0
+)85.4
+ot
+86.0(
+36.2
+–
+–
+100.0<
+)40.6
+ot
+9.1(
+79.3
+–
+–
+IBC
+semoctuo
+laruoivaheB
+02.0=PCHP|tcejbus
+CCI
+;30.0=PCHP
+CCI
+;100.0<P
+0.52=F
+:)SADEM(
+snoitadnemmocer
+yrateid
+ecnerehdA
+100.0<
+)53.1
+ot
+4.0(
+78.0
+100.0<
+)14.1
+ot
+64.0(
+39.0
+10.0
+)42.1
+ot
+71.0(
+17.0
+63.0
+)96.0
+ot
+52.0−(
+22.0
+ITP
+09.0
+)5.0
+ot
+44.0−(
+30.0
+94.0
+)46.0
+ot
+13.0−(
+71.0
+100.0<
+)74.0−
+ot
+64.1−(
+69.0−
+10.0
+)11.0−
+ot 40.1−(
+85.0−
+IFP
+400.0
+)71.1
+ot
+22.0(
+7.0
+100.0<
+)53.1
+ot
+4.0(
+88.0
+38.0
+)85.0
+ot
+74.0−(
+60.0
+60.0
+)19.0
+ot
+30.0−(
+44.0
+IBC
+02.0=PCHP|tcejbus
+CCI
+;40.0=PCHP
+CCI
+;100.0<P
+4.41=F
+:)SLGM(
+ecnerehda
+noitacideM
+21.0
+)63.0
+ot
+40.0−(
+61.0
+42.0
+)43.0
+ot
+90.0−(
+31.0
+93.0
+)3.0
+ot
+21.0−(
+90.0
+73.0
+)3.0
+ot
+11.0−(
+90.0
+ITP
+93.0
+)3.0
+ot
+11.0−(
+90.0
+85.0
+)51.0
+ot
+62.0−(
+60.0−
+42.0
+)80.0
+ot
+43.0−(
+31.0−
+09.0
+)22.0
+ot
+2.0−(
+10.0
+IFP
+63.0
+)11.0
+ot
+13.0−(
+1.0−
+89.0
+)12.0
+ot
+12.0−(
+0
+80.0
+)30.0
+ot
+14.0−(
+91.0−
+77.0
+)42.0
+ot
+81.0−(
+30.0
+IBC
+semoctuo
+evitceffA
+43.0=PCHP|tcejbus
+CCI
+;50.0=PCHP
+CCI
+;100.0<P
+6.35=F
+:)II
+-IDB(
+noisserpeD
+44.0
+)61.1
+ot
+86.2−(
+67.0−
+–
+–
+70.0
+)71.0
+ot
+99.3−(
+19.1−
+–
+–
+ITP
+17.0
+)3.2
+ot
+65.1−(
+73.0
+–
+–
+300.0
+)1−
+ot
+99.4−(
+99.2−
+–
+–
+IFP
+28.0
+)91.2
+ot
+37.1−(
+32.0
+–
+–
+600.0
+)78.0−
+ot
+31.5−(
+3−
+–
+–
+IBC
+23.0=PCHP|tcejbus
+;CCI
+70.0=PCHP
+CCI
+;100.0<P
+0.63=F
+:)S
+-IATS(
+yteixnA
+02.0
+)81.1
+ot
+45.5−(
+81.2−
+–
+–
+12.0
+)52.1
+ot
+57.5−(
+52.2−
+–
+–
+ITP
+28.0
+)99.2
+ot
+87.3−(
+93.0−
+–
+–
+50.0
+)20.0
+ot
+59.6−(
+74.3−
+–
+–
+IFP
+77.0
+)9.2
+ot
+9.3−(
+05.0−
+–
+–
+300.0
+)18.1−
+ot
+99.8−(
+4.5−
+–
+–
+IBC
+52.0=PCHP|tcejbus
+;CCI
+50.0=PCHP
+CCI
+;100.0<P
+9.41=F
+:)2SDD(
+ssertsiD
+10.0
+)70.0−
+ot
+26.0−(
+43.0−
+–
+–
+31.0
+)70.0
+ot
+35.0−(
+32.0−
+–
+–
+ITP
+30.0
+)40.0−
+ot
+85.0−(
+13.0−
+–
+–
+01.0
+)50.0
+ot
+35.0−(
+42.0−
+–
+–
+IFP
+80.0
+)30.0
+ot
+15.0−(
+42.0−
+–
+–
+10.0
+)70.0−
+ot
+56.0−(
+63.0−
+–
+–
+IBC
+smotpmys
+dna
+efil
+fo
+ytilauq
+detaler
+-htlaeH
+deunitnoC
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Open access
+24 months, PTI and CBI also attained significantly higher
+scores than UC (p=0.002 and p=0.008, respectively); while
+differences with PFI are marginally significant.
+Behavioral outcomes
+Table 1 shows that the PTI group is significantly more
+adherent to the diet recommendations, compared with
+UC, after 12 months of follow-u p. There is a difference
+of 0.87 (p<0.001) at 24 months. Adherence improves for
+CBI from 18 months, compared with UC, with differences
+of 0.7 (p=0.004) at 24 months. Adherence levels remain
+moderate for all patient groups throughout follow- up
+(see table 2).
+No differences were found in medication adherence,
+compared with UC (table 1). However, average levels of
+medication adherence were significantly improved in all
+four groups, despite the high baseline levels (>3) (see
+table 2).
+Table 3 shows the reduction in the proportion of
+smokers who quit smoking during follow-u p in PTI (12
+months), and CBI (18 months), compared with UC.
+With non-i mputed data the reduction was statistically
+significant from month 6 for PTI (p=0.023) and month
+12 for CBI (p=0.025). The percentage of patients who
+quit smoking at 24 months was 41.5% for PTI (p=0.012)
+and 42.3% (p=0.012) for CBI, versus 21.2% for UC
+group. There were no statistically significant differences
+between groups in the baseline percentage of smokers
+(p=0.99).
+Affective outcomes
+Compared with UC, both PFI and CBI show statisti-
+cally significant differences at 12 months for depres-
+sion (p=0.003 and p=0.006, respectively), and anxiety
+(p=0.05 and p=0.003, respectively) (table 1). These
+differences disappear at 24 months because all groups of
+patients improved (table 2).
+The diabetes distress score improved significantly
+compared with the UC group for CBI at 12 months
+(p=0.01) and for PTI and PFI at 24 months (p=0.01 and
+p=0.03, respectively). The score remained marginally
+significant for CBI (table 1). At baseline, all patient groups
+showed moderate distress, which decreased to a low level from 12 months, except for the UC group, which did so
+at 24 months (table 2).
+Health-related quality of life and symptoms HRQoL significantly improved for all intervention
+groups, at 12 months, compared with UC; a difference
+only maintained for PTI at 18 months (p=0.02) (table 1).
+Neuropathic symptom scores were significantly lower
+for the CBI group at 12 months (p=0.02) compared with
+the UC group (the analysis of non- imputed data led to
+a non- significant result, p=0.12). This difference disap-
+peared at 24 months (table 1). Mean baseline scores for
+all groups were under 4, considerably below the cut-o ff
+point of 7 for abnormal classification (table 4).
+Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804 7
+deunitnoC
+1
+elbaT
+eulav
+P
+shtnoM
+42
+eulav
+P
+shtnoM
+81
+eulav
+P
+shtnoM
+21
+eulav
+P
+shtnoM
+6
+43.0=PCHP|tcejbus
+CCI
+;40.0=PCHP
+CCI
+;100.0<P
+3.52=F
+:)91 -LoQDDA(
+efil
+fo
+ytilauq
+detaler
+-htlaeH
+43.0
+)84.0
+ot 71.0−(
+61.0
+20.0
+)27.0
+ot
+50.0(
+93.0
+30.0
+)67.0
+ot
+40.0(
+04.0
+06.0
+)24.0
+ot
+42.0−(
+90.0
+ITP
+17.0
+)62.0
+ot
+83.0−(
+60.0−
+98.0
+)13.0
+ot
+53.0−(
+20.0−
+500.0
+)68.0
+ot
+61.0(
+15.0
+65.0
+)32.0
+ot 24.0−(
+90.0−
+IFP
+77.0
+)82.0
+ot
+83.0−(
+50.0−
+32.0
+)45.0
+ot
+31.0−(
+12.0
+100.0<
+)81.1
+ot
+94.0(
+48.0
+88.0
+)53.0
+ot
+3.0−(
+30.0
+IBC
+23.0=PCHP|tcejbus
+;CCI
+20.0=PCHP
+CCI
+;100.0<P
+8.95=F
+:)ISNM(
+motpmys
+cihtaporueN
+07.0
+)33.0
+ot
+94.0−(
+80.0−
+–
+–
+21.0
+)90.0
+ot
+8.0−(
+53.0−
+–
+–
+ITP
+11.0
+)87.0
+ot 70.0−(
+53.0
+–
+–
+70.0
+)30.0
+ot
+78.0−(
+24.0−
+–
+–
+IFP
+61.0
+)47.0
+ot 21.0−(
+13.0
+–
+–
+20.0
+)1.0−
+ot
+40.1−(
+75.0−
+–
+–
+IBC
+.sisongaid
+ecnis
+despale
+emit
+dna
+selbairav
+tnedneped
+fo eulav
+enilesab
+eht
+yb
+detsujda
+erew
+sledom
+ehT
+-SED
+;elacS
+ssertsiD
+setebaiD
+,2SDD
+;slanoisseforp
+dna
+stneitap
+rof
+noitnevretni
+denibmoc
+,IBC
+;II
+yrotnevnI
+noisserpeD
+kceB
+,I
+I-IDB
+;efil
+fo ytilauQ
+tnednepeD
+-setebaiD
+fo
+tiduA
+,LoQDDA
+,ISNM
+;elacS
+ecnerehdA
+noitacideM
+yksiroM
+,SLGM
+;reneercS
+ecnerehdA
+teiD
+naenarretideM
+,SADEM
+;tneicfifeoc
+noitalerroc
+ssalcartni
+,CCI
+;mroF
+trohS
+-elacS
+tnemrewopmE
+setebaiD
+,FS
+dna
+stneitap
+rof
+ylno
+noitnevretni
+,ITP
+;secitcarP
+htlaeH
+eraC
+yramirP
+,PCHP
+;erac
+yramirp
+ta
+slanoisseforp
+erachtlaeh
+rof
+ylno
+noitnevretni
+,IFP
+;tnemurtsnI
+gnineercS
+yhtaporueN
+nagihciM
+.yrotnevnI
+yteixnA
+tiarT etatS
+,S
+-IATS
+;srebmem
+ylimaf
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17, 2026
+at
+University
+of
+Oulu
+Medical
+Open access
+8 Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804
+)semoctuo
+evitceffa
+dna
+laruoivaheb
+,lanidutitta
+-evitingoc(
+tnemerusaem
+enilesab
+eht
+htiw
+derapmoc
+secnereffid
+puorgartni
+dna
+puorg
+hcae
+rof
+snaem
+detsujdA
+2
+elbaT
+)IC
+%59(
+enilesab
+htiw
+derapmoc
+snaem
+detsujda
+fo
+puorgartni
+ni ecnereffiD
+)IC %59(
+puorg
+hcae
+ni snaem
+detsujdA
+eulav
+P
+M42
+-B
+eulav
+P
+M81
+-B
+eulav
+P
+M21
+-B
+eulav
+P
+M6
+-B
+shtnoM
+42
+shtnoM
+81
+shtnoM
+21
+shtnoM
+6
+enilesaB
+semoctuo
+lanidutitta
+-evitingoC
+)KETAID(
+egdelwonK
+100.0<
+)63.1 ot 17.0(
+30.1
+–
+–
+100.0<
+)2.1 ot 84.0(
+28.0
+–
+–
+)7.7
+ot
+1.7(
+4.7
+–
+)5.7
+ot
+9.6(
+2.7
+–
+)5.6
+ot 3.6(
+4.6
+ITP
+850.0
+)10.0
+ot 46.0−(
+23.0−
+–
+–
+70.0
+)20.0 ot 36.0−(
+13.0−
+–
+–
+)5.6
+ot
+8.5(
+1.6
+–
+)5.6
+ot
+8.5(
+2.6
+–
+)7.6
+ot 3.6(
+5.6
+IFP
+100.0<
+)49.0 ot
+72.0(
+6.0
+–
+–
+100.0<
+)30.1 ot
+63.0(
+7.0
+–
+–
+)4.7
+ot
+8.6(
+1.7
+–
+)5.7
+ot
+8.6(
+2.7
+–
+)6.6
+ot 4.6(
+5.6
+IBC
+200.0
+)28.0 ot
+81.0(
+5.0
+–
+–
+80.0
+)36.0 ot 40.0−(
+3.0
+–
+–
+)1.7
+ot
+4.6(
+7.6
+–
+)9.6
+ot
+2.6(
+5.6
+–
+)3.6
+ot 1.6(
+2.6
+CU
+)FS−SED(
+tnemrewopmE
+100.0<
+)5.8 ot
+7.5(
+1.7
+–
+–
+100.0<
+)6.4 ot
+6.1(
+80.3
+–
+–
+)9.43
+ot
+1.23(
+5.33
+–
+)0.13
+ot
+9.72(
+5.92
+–
+)0.72
+ot
+8.52(
+4.62
+ITP
+100.0<
+)4.7 ot
+7.4(
+20.6
+–
+–
+100.0<
+)9.6 ot
+2.4(
+6.5
+–
+–
+)7.33
+ot
+9.03(
+3.23
+–
+)2.33
+ot
+5.03(
+9.13
+–
+)4.72
+ot
+2.52(
+3.62
+IFP
+100.0<
+)9.6 ot
+1.4(
+7.5
+–
+–
+100.0<
+)7.5 ot
+8.2(
+3.4
+–
+–
+)5.43
+ot
+7.13(
+1.33
+–
+)3.33
+ot
+4.03(
+9.13
+–
+)3.82
+ot
+0.72(
+6.72
+IBC
+100.0<
+)7.5 ot
+9.2(
+3.4
+–
+–
+20.0
+)3.3 ot
+62.0(
+8.1
+–
+–
+)8.13
+ot
+1.92(
+5.03
+–
+)4.92
+ot
+4.62(
+9.72
+–
+)7.62
+ot
+5.52(
+1.62
+CU
+semoctuo
+laruoivaheB
+)SADEM(
+snoitadnemmocer
+yrateid
+ecnerehdA
+100.0<
+)20.1 ot 43.0(
+86.0
+21.0
+)26.0
+ot
+70.0−(
+72.0
+100.0<
+)5.1 ot
+17.0(
+1.1
+10.0
+)90.0−
+ot
+77.0−(
+34.0−
+)9
+ot
+3.8(
+7.8
+)6.8
+ot
+9.7(
+3.8
+)4.9
+ot
+7.8(
+1.9
+)9.7
+ot
+2.7(
+6.7
+)1.8
+ot 8.7(
+8
+ITP
+810.0
+)70.0−
+ot 47.0−(
+4.0−
+100.0<
+)94.0−
+ot
+2.1−(
+28.0−
+100.0<
+)94.0− ot 2.1−(
+28.0−
+100.0<
+)1.1−
+ot
+8.1−(
+5.1−
+)2.8
+ot
+5.7(
+8.7
+)8.7
+ot
+1.7(
+5.7
+)7.7
+ot
+1.7(
+4.7
+)1.7
+ot
+4.6(
+8.6
+)5.8
+ot 9.7(
+2.8
+IFP
+62.0
+)45.0 ot 41.0−(
+2.0
+36.0
+)62.0
+ot
+34.0−(
+80.0−
+94.0
+)15.0 ot 42.0−(
+31.0
+300.0
+)71.0−
+ot
+48.0−(
+15.0−
+)8.8
+ot
+1.8(
+5.8
+)5.8
+ot
+9.7(
+2.8
+)8.8
+ot
+0.8(
+4.8
+)1.8
+ot
+4.7(
+8.7
+)5.8
+ot 1.8(
+3.8
+IBC
+61.0
+)1.0
+ot 75.0−(
+42.0−
+100.0<
+)73.0−
+ot
+0.1−(
+7.0−
+70.0
+)7.0 ot 20.0−(
+43.0
+100.0<
+)63.0−
+ot
+0.1−(
+96.0−
+)1.8
+ot
+5.7(
+8.7
+)7.7
+ot
+0.7(
+3.7
+)7.8
+ot
+0.8(
+4.8
+)7.7
+ot
+0.7(
+3.7
+)2.8
+ot
+9.7(
+20.8
+CU
+)SLGM(
+ecnerehda
+noitacideM
+100.0<
+)26.0 ot 33.0(
+84.0
+100.0<
+)56.0
+ot
+53.0(
+5.0
+100.0<
+)6.0 ot 92.0(
+54.0
+100.0<
+)65.0
+ot
+62.0(
+14.0
+)7.3
+ot
+5.3(
+6.3
+)8.3
+ot
+5.3(
+6.3
+)7.3
+ot
+4.3(
+6.3
+)7.3
+ot
+4.3(
+5.3
+)2.3
+ot 1.3(
+1.3
+ITP
+100.0
+)4.0 ot 11.0(
+52.0
+620.0
+)13.0
+ot
+20.0(
+61.0
+23.0
+)22.0 ot 70.0−(
+80.0
+20.0
+)33.0
+ot
+30.0(
+81.0
+)7.3
+ot
+4.3(
+5.3
+)6.3
+ot
+3.3(
+4.3
+)5.3
+ot
+2.3(
+3.3
+)6.3
+ot
+3.3(
+5.3
+)3.3
+ot 2.3(
+3.3
+IFP
+06.0
+)2.0 ot 11.0−(
+40.0
+10.0
+)53.0
+ot
+50.0(
+2.0
+78.0
+)51.0 ot 81.0−(
+10.0−
+20.0
+)23.0
+ot
+20.0(
+71.0
+)5.3
+ot
+2.3(
+3.3
+)6.3
+ot
+3.3(
+5.3
+)4.3
+ot
+1.3(
+3.3
+)6.3
+ot
+3.3(
+5.3
+)3.3
+ot 3.3(
+3.3
+IBC
+200.0
+)73.0 ot 80.0(
+32.0
+100.0<
+)34.0
+ot
+41.0(
+92.0
+100.0<
+)24.0 ot 21.0(
+72.0
+200.0
+)83.0
+ot
+80.0(
+32.0
+)6.3
+ot
+3.3(
+4.3
+)6.3
+ot
+3.3(
+5.3
+)6.3
+ot
+3.3(
+5.3
+)6.3
+ot
+3.3(
+4.3
+)3.3
+ot 1.3(
+2.3
+CU
+semoctuo
+evitceffA
+)II−IDB(
+noisserpeD
+100.0<
+)5.3− ot 2.6−(
+9.4−
+–
+–
+100.0
+)69.0− ot 7.3−(
+4.2−
+–
+–
+)5.7
+ot
+7.4(
+1.6
+–
+)9.9
+ot
+1.7(
+5.8
+–
+)5.11
+ot
+4.01(
+9.01
+ITP
+100.0<
+)4.2− ot 2.5−(
+8.3−
+–
+–
+100.0<
+)2.2− ot 9.4−(
+6.3−
+–
+–
+)6.8
+ot
+8.5(
+2.7
+–
+)8.8
+ot
+1.6(
+5.7
+–
+)1.21
+ot
+9.9(
+0.11
+IFP
+100.0<
+)1.3− ot 9.5−(
+6.4−
+–
+–
+100.0<
+)7.2− ot 7.5−(
+2.4−
+–
+–
+)5.8
+ot
+7.5(
+1.7
+–
+)9.8
+ot
+9.5(
+5.7
+–
+)4.21
+ot
+9.01(
+7.11
+IBC
+100.0<
+)2.3− ot 9.5−(
+5.4−
+–
+–
+22.0
+)55.0 ot 4.2−(
+49.0−
+–
+–
+)2.8
+ot
+5.5(
+7.6
+–
+)9.11
+ot
+9.8(
+5.01
+–
+)9.11
+ot
+9.01(
+4.11
+CU
+)S−IATS(
+yteixnA
+100.0<
+)6.4− ot
+4.9−(
+7−
+–
+–
+710.0
+)55.0− ot 5.5−(
+0.3−
+–
+–
+)9.61
+ot
+0.21(
+5.41
+–
+)9.02
+ot
+9.51(
+4.81
+–
+)2.22
+ot
+7.02(
+5.12
+ITP
+100.0<
+)9.1− ot 8.6−(
+4.4−
+–
+–
+600.0
+)1− ot 8.5−(
+4.3−
+–
+–
+)7.81
+ot
+8.31(
+2.61
+–
+)6.91
+ot
+8.41(
+2.71
+–
+)4.22
+ot
+8.81(
+6.02
+IFP
+100.0<
+)6.4− ot 5.9−(
+0.7−
+–
+–
+100.0<
+)4.5− ot 4.01−(
+9.7−
+–
+–
+)6.81
+ot
+7.31(
+1.61
+–
+)8.71
+ot
+8.21(
+3.51
+–
+)3.42
+ot
+0.22(
+2.32
+IBC
+100.0<
+)9.2− ot 7.7−(
+3.5−
+–
+–
+23.0
+)3.1 ot 8.3−(
+3.1−
+–
+–
+)0.91
+ot
+3.41(
+6.61
+–
+)2.32
+ot
+1.81(
+7.02
+–
+)7.22
+ot
+2.12(
+9.12
+CU
+)2SDD(
+ssertsiD
+100.0<
+)68.0−
+ot 2.1−(
+1.1−
+–
+–
+100.0<
+)15.0−
+ot 39.0−(
+27.0−
+–
+–
+)8.1
+ot
+4.1(
+6.1
+–
+)2.2
+ot
+7.1(
+9.1
+–
+)8.2
+ot 6.2(
+8.2
+ITP
+100.0<
+)6.0−
+ot 89.0−(
+97.0−
+–
+–
+100.0<
+)13.0− ot 7.0−(
+5.0−
+–
+–
+)9.1
+ot
+5.1(
+7.1
+–
+)1.2
+ot
+8.1(
+9.1
+–
+)6.2
+ot 3.2(
+5.2
+IFP
+100.0<
+)28.0−
+ot 2.1−(
+10.1−
+–
+–
+100.0<
+)17.0− ot 1.1−(
+19.0−
+–
+–
+)9.1
+ot
+5.1(
+7.1
+–
+)0.2
+ot
+6.1(
+8.1
+–
+)8.2
+ot 6.2(
+7.2
+IBC
+deunitnoC
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on 15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Open access
+Satisfaction
+Table 5 shows the patients’ satisfaction with the inter-
+vention received. While average scores were higher
+than 9/10, in all dimensions, for the group educational
+sessions, satisfaction with the web platform and SMS
+obtained scores above 8.
+Table 6 shows a summary of the results at 12 and 24
+months. For all PROMs, ICC values were close to zero
+at the PHCP levelthus reflected a very small effect asso-
+ciated with PHCP for interventions and control groups
+(similar results among PHCP in every arm). The ICC at
+the patient level was broad, accounting for considerable
+variations among individuals.
+DISCUSSION
+This article assesses the effect of interventions imple-
+mented by the INDICA study to improve T2DM outcomes
+on several health measures self- perceived by patients in
+the cognitive-a ttitudinal (knowledge, empowerment),
+behavioural (ie, adherence to the dietary recommenda-
+tions, medication and tobacco use), affective (anxiety,
+depression, distress) and health- related quality of life
+dimensions. The INDICA study is a pragmatic cluster-
+randomised study with 2 years follow- up that assesses the
+effectiveness of multicomponent interventions for knowl-
+edge transfer and behaviour modification of patients,
+families and healthcare professionals (physicians and
+nurses) at the primary care level.
+At 1 year follow-u p, the combined intervention lead
+to obtaining significant results in all outcomes except
+diet and medication adherence. Relative improvements
+compared with UC ranged between 9.6% (knowledge)
+and 52.2% (HRQoL), with intermediate values for anxiety
+(26.1%) and depression (28.7%). Significant improve-
+ments in HRQoL were also obtained for the PTI and
+PFI groups, although of less intensity (24.8% and 31.7%,
+respectively). However, they showed different results in
+the remaining variables: the PTI group improved in terms
+of knowledge and behavioural outcomes (ie, diet and
+smoking), while the PFI improved in regard to empower-
+ment and depression, but obtained a significantly worse
+result than the UC group for diet adherence.
+After 2 years of follow- up, there were no significant
+differences in HRQoL, anxiety or depression, mainly due
+to the improvement experienced by the UC group in these
+variables. The PTI group obtained the best overall results,
+with significant improvements in the cognitive (ie, knowl-
+edge, empowerment), affective (ie, diabetes distress) and
+behavioural (ie, diet and tobacco) variables. The same
+significant results were obtained for the combined inter-
+vention, except for knowledge and distress. Finally, the
+PFI group outperformed UC only for distress, and showed
+a significantly worse result in regard to knowledge. There
+were no statistically significant differences in medication
+adherence during all the follow-u p, although a ceiling
+effect could have occurred, since all groups showed high
+scores at baseline.
+Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804 9
+deunitnoC
+2 elbaT
+)IC
+%59(
+enilesab
+htiw
+derapmoc
+snaem
+detsujda
+fo
+puorgartni
+ni
+ecnereffiD
+)IC %59(
+puorg
+hcae
+ni
+snaem
+detsujdA
+eulav
+P
+M42
+-B
+eulav
+P
+M81
+-B
+eulav
+P
+M21
+-B
+eulav
+P
+M6
+-B
+shtnoM
+42
+shtnoM
+81
+shtnoM
+21
+shtnoM
+6
+enilesaB
+100.0<
+)93.0−
+ot
+77.0−(
+85.0−
+–
+–
+100.0
+)51.0−
+ot
+85.0−(
+63.0−
+–
+–
+)2.2
+ot
+8.1(
+79.1
+–
+)4.2
+ot
+9.1(
+1.2
+–
+)6.2
+ot 5.2(
+6.2
+CU
+.sisongaid
+ecnis
+despale
+emit
+dna selbairav
+tnedneped
+fo eulav
+enilesab
+eht
+yb
+detsujda
+erew
+sledom
+ehT
+noitnevretni
+,IFP
+;elacS
+ecnerehdA
+noitacideM
+yksiroM
+,SLGM
+;reneercS
+ecnerehdA
+teiD
+naenarretideM
+,SADEM
+;htnom
+,M
+;mroF
+trohS
+-elacS
+tnemrewopmE
+setebaiD
+,FS -SED
+;elacS
+ssertsiD
+setebaiD
+,2SDD
+;slanoisseforp
+dna
+stneitap
+rof
+noitnevretni
+denibmoc
+,IBC ;II
+yrotnevnI
+noisserpeD
+kceB
+,I I-IDB
+;enilesab
+,B
+.puorg
+lortnoc
+ro erac
+lausu
+,CU
+;yrotnevnI
+yteixnA
+tiarT
+etatS
+,S -IATS
+;srebmem
+ylimaf
+dna
+stneitap
+rof ylno
+noitnevretni
+,ITP ;erac
+yramirp
+ta slanoisseforp
+erachtlaeh
+rof
+ylno
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of Oulu
+Medical
+Open access
+Table 3 Proportion of patients who stop smoking at each follow- up compared with the control group
+P value
+P value P value P value CBI versus
+PTI (n=114) PFI (n=156) CBI (n=109) UC (n=145) global PTI versus UC PFI versus UC UC
+3 Months 12.8 8.7 15.4 10.4 0.54 0.99 0.99 0.99
+6 Months 28.5 7.5 24.2 15.4 0.003 0.11 0.22 0.99
+12 Months 33.1 17.4 28.4 14.3 0.014 0.018 0.99 0.11
+18 Months 36.7 19.6 37.6 18.8 0.004 0.04 0.99 0.03
+24 Months 41.5 23.4 42.3 21.2 0.002 0.012 0.99 0.012
+Only basal smokers were included in the analysis.
+CBI, combined intervention for patients and professionals; PFI, intervention only for healthcare professionals at primary care; PTI, intervention
+only for patients and family members; UC, usual care or control group.
+Therefore, the best results were observed in both groups these two outcomes until 18 months. These negative find-
+including patients (PTI and CBI), similar to the findings ings from groups containing professionals are repeated
+observed on clinical outcomes.13 This is not surprising, after 2 years in the case of knowledge, a variable in which
+given the straightforward and continuous application of the CBI group did not obtain significant differences. This
+these patient interventions, and the high reported satisfac- interpretation should be considered cautiously given the
+tion levels with all the intervention components (educa- analysis limitations, since the differences between inter-
+tional sessions, web resources and SMS). Previous studies vention groups have not been statistically contrasted. As a
+that combined education and training with support recent Cochrane review37 reported, current evidence on
+phone calls, assessing interventions aimed at empowering the effect of interventions to promote shared decision-
+diabetes patients to improve self-c are and outcomes, making by healthcare professionals shows benefits when
+showed inconsistent results between clinical variables decision- making is assessed by external observers but not
+and PROMs.8 9 The use of one-w ay messages such as those by patient’s assessment; furthermore, no significant effects
+used in INDICA appears to significantly and consistently were observed in most patient-r eported outcomes.37
+improve HbA1c levels, although with a small- to- moderate Given the paucity and limited quality of available studies,
+effect- size (−0.38%, 95% CI −0.53 to −0.23).10 In addition, more focused research is needed to draw solid conclu-
+continuous advances in smart mobile technology provide sions about the effect of interventions aimed at profes-
+new possibilities for diabetes self-m anagement, despite sionals, and the mechanisms by which these interventions
+the fact that evidence on the effectiveness of these new translate into psychological, behavioural and health
+functionalities remains scarce and uncertain.11 35 changes of patients.
+Reduction in the number of smokers in interventions The assessment of clinical outcome measures in the
+applied directly to patients (PTI and CBI) in regard to INDICA study13 for the total sample recruited regardless
+UC that remain significant at 24 months with percent- of Hb1Ac levels (only 50.6% of all participants had base-
+ages of approximately 42% which is 2.5 times the result line HbA1c concentrations>7%, with a mean of 7.3%),
+obtained by the most extended pharmacological inter- showed an early and significant but temporary reduction
+vention (replacement nicotine therapy). This is according in HbA1c for the PTI group, compared with UC, from 3
+to a meta- analysis published recently36 which puts this to 6 months. Even so, more than 30% of the intervened
+reduction at 16.9% of the intervened group compared patients (PTI and CBI) attained statistically and clini-
+with 10.4% of the control group in studies with follow- up cally relevant reductions in HbA1c (>0.4%); significantly
+varying from 6 to 24 months. higher than UC at 12 and 18 months.
+The intervention effect on professionals raises ques- In the group of patients with baseline HbA1c greater
+tions. At 1 year of follow- up, the PFI and CBI groups than 7% (uncontrolled patients), the magnitude of the
+obtained improvements in psychological variables not intervention effect on clinical outcomes was greater, espe-
+affected by the intervention targeted exclusively at cially in the PTI group compared with the UC group, with
+patients (PTI) (ie, empowerment, anxiety, depression). significant differences up to 18 months, and a significant
+These findings could be interpreted as the lasting result area under the curve at 24 months for PTI compared
+of better shared decision- making/patient-c entred care with UC.13 These results are supported by other studies
+by professionals trained in this care model. However, that report greater intervention effects in patients with
+the PTI group was the only group to show significant higher HbA1c levels.38 39 Longer term reductions in
+improvements in behavioural variables (diet adherence blood pressure were also found in the two groups in
+and tobacco consumption); while PFI obtained signifi- which professionals were intervened, with smaller effects
+cantly worse results for diet adherence from the sixth in the remaining clinical measures (lipid profile, body
+month, and CBI did not show significant benefits for mass index, serum creatinine and glomerular filtration
+10 Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Open access
+rate). Some of these results are more related to changes in medication than lifestyles. From a cost- effectiveness
+perspective, small differences were observed between
+groups after 2 years follow-u p. The PTI was more effec-
+tive and less costly than CBI and PFI, in patients with
+HbA1c>7%.14 This prompted the conclusion that inter- ventions focused on patients with the highest needs
+would limit the impact on the healthcare sector budget.
+This study has several limitations. The high number of instruments and measurement times increase the risk of
+type 1 error, which explains the decision not to compare
+intervention groups with each other. Moreover, the use
+Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804 11
+)smotpmys
+dna
+efil
+fo
+ytilauq
+detaler
+-htlaeh(
+tnemerusaem
+enilesab
+eht
+htiw
+derapmoc
+secnereffid
+puorgartni
+dna
+puorg
+hcae
+rof
+snaem
+detsujdA
+4 elbaT
+)IC %59(
+enilesab
+htiw
+derapmoc
+snaem
+detsujda
+fo puorgartni
+ni ecnereffiD
+)IC %59(
+puorg
+hcae
+ni snaem
+detsujdA
+eulav
+P
+M42
+-B
+eulav
+P
+M81
+-B
+eulav
+P
+M21 -B
+eulav
+P
+M6
+-B
+shtnoM
+42
+shtnoM
+81
+shtnoM
+21
+shtnoM
+6
+enilesaB
+smotpmys
+dna
+efil fo ytilauq
+detaler -htlaeH
+)91
+-LoQDDA(
+efil fo ytilauq
+detaler -htlaeH
+100.0<
+)2.1
+ot 47.0(
+79.0
+100.0<
+)1.1
+ot
+56.0(
+98.0
+100.0<
+)67.0
+ot 72.0(
+25.0
+100.0<
+)39.0
+ot 64.0(
+96.0
+)35.0−
+ot 99.0−(
+67.0−
+)16.0−
+ot
+1.1−(
+58.0−
+)79.0−
+ot
+5.1−(
+2.1−
+)8.0−
+ot 3.1−(
+0.1−
+)6.1−
+ot
+8.1−( 7.1−
+ITP
+100.0<
+)9.0
+ot 54.0(
+86.0
+100.0
+)36.0
+ot
+71.0(
+4.0
+100.0<
+)87.0
+ot 23.0(
+55.0
+100.0<
+)66.0
+ot 12.0(
+34.0
+)57.0−
+ot
+2.1−(
+89.0−
+)0.1−
+ot
+5.1−(
+3.1−
+)88.0−
+ot
+3.1−(
+1.1−
+)1−
+ot 5.1−(
+2.1−
+)5.1−
+ot
+8.1−( 7.1−
+IFP
+100.0<
+)0.1
+ot 45.0(
+87.0
+100.0<
+)69.0
+ot
+94.0(
+37.0
+100.0<
+)2.1
+ot 47.0(
+89.0
+100.0<
+)88.0
+ot 24.0(
+56.0
+)37.0−
+ot
+2.1−(
+79.0−
+)97.0−
+ot
+3.1−(
+0.1−
+)45.0−
+ot
+0.1−(
+87.0−
+)78.0−
+ot 3.1−(
+1.1−
+)6.1−
+ot
+9.1−( 8.1−
+IBC
+100.0<
+)4.1 ot
+9.0(
+1.1
+100.0<
+)1.1
+ot
+95.0(
+28.0
+100.0
+)7.0
+ot 81.0(
+44.0
+100.0<
+)2.1
+ot 7.0(
+29.0
+)96.0−
+ot
+2.1−(
+29.0−
+)1−
+ot
+5.1−(
+2.1−
+)4.1−
+ot
+9.1−(
+6.1−
+)9.0−
+ot 4.1−(
+1.1−
+)9.1−
+ot
+2.2−( 1.2−
+CU
+)ISNM(
+motpmys
+cihtaporueN
+100.0<
+)4.0−
+ot 99.0−(
+96.0−
+–
+–
+70.0
+)20.0
+ot
+16.0−(
+92.0−
+–
+–
+)7.2
+ot
+1.2( 4.2
+–
+)1.3
+ot 5.2(
+8.2
+–
+)2.3
+ot 3( 1.3
+ITP
+500.0
+)31.0−
+ot 67.0−(
+54.0−
+–
+–
+100.0
+)32.0−
+ot
+68.0−(
+55.0−
+–
+–
+)2.3
+ot
+5.2( 9.2
+–
+)1.3
+ot 5.2(
+8.2
+– )6.3
+ot 0.3( 3.3
+IFP
+600.0
+)31.0−
+ot 87.0−(
+64.0−
+–
+–
+100.0<
+)13.0−
+ot 0.1−(
+76.0−
+–
+–
+)1.3
+ot
+5.2( 8.2
+–
+)9.2
+ot 3.2(
+6.2
+– )4.3
+ot 1.3( 3.3
+IBC
+100.0<
+)45.0−
+ot 1.1−(
+28.0−
+–
+–
+63.0
+)71.0
+ot
+74.0−(
+51.0−
+–
+–
+)8.2
+ot
+2.2( 5.2
+–
+)5.3
+ot 9.2(
+1.3
+– )5.3
+ot 2.3( 3.3
+CU
+.sisongaid
+ecnis
+despale
+emit
+dna selbairav
+tnedneped
+fo eulav
+enilesab
+eht yb detsujda
+erew sledom
+ehT
+,CU
+;srebmem
+ylimaf
+dna stneitap
+rof
+ylno
+noitnevretni
+,ITP
+;erac
+yramirp
+ta slanoisseforp
+erachtlaeh
+rof
+ylno noitnevretni
+,IFP
+;tnemurtsnI
+gnineercS
+yhtaporueN
+nagihciM
+,ISNM
+;htnom
+,M ;slanoisseforp
+dna
+stneitap
+rof
+noitnevretni
+denibmoc
+,IBC
+;enilesab
+,B ;efil
+fo ytilauQ
+tnednepeD
+-setebaiD
+fo tiduA ,91 -LoQDDA
+.puorg
+lortnoc ro erac
+lausu
+Table 5 Patient satisfaction with the intervention received
+(only those who made use of each intervention component)
+n Mean (95% CI)
+Conventional group educational programme
+Usability
+Environment generated 592 9.53 (9.46 to 9.60)
+Exchange of experiences with 588 9.59 (9.53 to 9.66)
+participants and educator
+Educator’s work 587 9.79 (9.74 to 9.83)
+Quality of materials 587 9.56 (9.49 to 9.64)
+Personal satisfaction
+The sessions helped me get to know 591 9.67 (9.61 to 9.73)
+my diabetes better
+I found the sessions useful 593 9.60 (9.52 to 9.67)
+The sessions motivated me to look 590 9.62 (9.55 to 9.69)
+after my health better
+General
+General satisfaction 589 9.70 (9.65 to 9.76)
+I would recommend the sessions 588 9.77 (9.72 to 9.82)
+Website platform Usability
+Access to the content 253 8.30 (8.02 to 8.58)
+Usability of the web 251 8.59 (8.33 to 8.85)
+Patient outcomes follow- up charts 215 8.37 (8.03 to 8.72)
+Quality of materials 229 8.81 (8.53 to 9.08) Access to videos of the sessions 216 8.76 (8.47 to 9.05)
+General
+General satisfaction 237 8.56 (8.30 to 8.82)
+I would recommend using the website 239 8.81 (8.56 to 9.05)
+Semi-a utomated mobile phone messages
+Usability Reading SMS 585 9.51 (9.41 to 9.61)
+Usefulness of reminders 576 9.33 (9.22 to 9.45)
+Personal satisfaction
+They adapt to my needs 579 9.04 (8.90 to 9.18)
+They motivate me to look after myself 576 9.15 (9.02 to 9.28)
+I would like to continue receiving them 552 8.80 (8.59 to 9.00)
+General
+General satisfaction 572 9.23 (9.09 to 9.37)
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15 December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of Oulu
+Medical
+Open access
+Table 6 Significant differences compared with usual care for the three intervention groups
+PTI PFI CBI
+12 months 24 months 12 months 24 months 12 months 24 months
+Cognitive/attitudinal
+Knowledge (DIATEK) ** ** ↓** **
+Empowerment (DES- SF) ** *** *** **
+Behavioural
+Diet (MEDAS) ** *** ↓*** **
+Adherence (MGLS)
+Smoking * * * *
+Affective
+Depression (BDI- II) ** **
+Anxiety (STAI- S) * **
+Diabetes Distress (DDS2) ** * **
+HRQOL
+HRQoL (ADDQoL- 19) * ** ***
+Neuropathy (MNSI) *
+↓Represent worsening compare to usual care.
+*P≤0.05. **P≤0.01. ***P≤0.001.
+ADDQoL, Audit of Diabetes- Dependent Quality of life; BDI- II, Beck Depression Inventory II; CBI, combined intervention for patients and
+professionals; DDS2, Diabetes Distress Scale; DES- SF, Diabetes Empowerment Scale- Short Form; MEDAS, Mediterranean Diet Adherence
+Screener; MGLS, Morisky Medication Adherence Scale; MNSI, Michigan Neuropathy Screening Instrument; PFI, intervention only for
+healthcare professionals at primary care; PTI, intervention only for patients and family members; STAI-S , State Trait Anxiety Inventory.
+of PROMs makes it necessary to know the minimum clin- In conclusion, all the interventions assessed improved
+ically significant differences of every instrument used. patients HRQoL at 1 year of follow-u p, with differences
+This difference, however, has not been investigated for according to the intervention in the remaining PROMs
+most of them, and there is currently no consensus on examined. The intervention targeted exclusively at
+the appropriate method (distribution or anchor-b ased) patients (PTI) significantly improved knowledge, empow-
+and/or statistics (eg, absolute vs relative reduction).40 erment, distress, dietary recommendation adherence and
+Furthermore, the use of PROMs implies by definition tobacco cessation, up to 2 years of follow- up. Although the
+an unblind assessment of results, which is added to the
+clinical relevance of these effects is uncertain, except in
+impossibility of blinding the participants regarding the
+the case of smoking cessation, these results are promising
+intervention. Finally, the INDICA study was not designed
+since they reflect improvements in all personal domains
+to test the efficacy of every single component of the inter-
+assessed (cognitive, attitudinal, affective, behavioural),
+ventions assessed (eg, text messages vs patient education
+which highlight the importance of behavioural factors to
+vs web content). Despite these limitations, the INDICA
+attain good health outcomes. The intervention on profes-
+study presents some distinctive characteristics from other
+sionals improved affective variables at 1 year of follow- up,
+published studies that assess the impact of interven-
+but showed virtually no effects at 2 years together with
+tions promoting empowerment, self- management and a negative effect on diet adherence and no effect on
+behaviour modification to patients and professionals:
+tobacco consumption, which emphasises the need for
+(1) a robust design (pragmatic cluster-r andomised
+more focused evaluative research on this type of interven-
+controlled trial with a factorial design for intervention
+tion. For both target groups (patients and professionals),
+arms) with a long follow-u p (2 years); (2) incorporation
+the use of ICT can be a major help to improve care
+of the different actors involved in disease management
+access and continuity; as well as effectiveness and cost- (patients and family caregivers and primary care profes-
+sionals; (3) greater external validity by including patients effectiveness in T2DM self- management.
+regardless of their baseline HbA1c levels; (4) incorpora-
+Author affiliations
+tion of ICT- based components to the intervention that
+1Canary Islands Health Research Institute Foundation (FIISC), Tenerife, Spain
+favours applicability and access, in a cost-e ffective manner,
+2Research Network on Health Services in Chronic Diseases (REDISSEC), Tenerife,
+to a growing number of patients; and (5) inclusion of a
+Spain
+large sample size with 2334 patients and 211 healthcare 3Department of Endocrinology and Nutrition, Insular University Hospital of Gran
+professionals. Canaria, Las Palmas de Gran Canaria, Spain
+12 Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Open access
+4University Institute for Biomedical and Health Research (IUIBS), University of Las Patient and public involvement Patients and/or the public were involved in the
+Palmas de Gran Canaria, Las Palmas de Gran Canaria, Spain design, or conduct, or reporting, or dissemination plans of this research. Refer to
+5Evaluation Unit (SESCS), Canary Islands Health Services (SCS), Tenerife, Spain the Methods section for further details.
+6Health Technology Assesment Agency, Instituto de Salud Carlos III, Madrid, Spain Patient consent for publication Not applicable.
+Ethics approval All participants provided written informed consent. The scientific
+Acknowledgements We thank Prof Clare Bradley and Health Psychology Research
+and ethics committees of both the University Hospital of Canarias (ID: 2012_44) and
+Limited (owners and source of the ADDQoL- 19 questionnaire) for allowing the the University Hospital Nuestra Señora de la Candelaria (ID: EPA-0 7/10) approved
+use of their questionnaire in the INDICA Study. We also thank Jason Willis-L ee for the study protocol. The study was performed in accordance with Good Clinical
+copyediting services during preparation of the final manuscript, and Thayli León Practice standards, prevailing local regulatory requirements, and Declaration of
+Plasencia for her help in recruiting patients. Helsinki recommendations.
+Collaborators The INDICA team included the following members (alphabetical Provenance and peer review Not commissioned; externally peer reviewed.
+order): Abraham Pérez de la Rosa (Canary Islands Health Research Institute
+Data availability statement Data are available upon reasonable request. The
+Foundation, FIISC), Alicia Pareja Ríos (University Hospital of Canary Islands), Andrés
+datasets generated during and/or analysed during the current study, including
+Sifre Perello (Molina Orosa Hospital), Ángela Trinidad Gutiérrez Pérez (Primary Care
+deidentified participant data are available from the corresponding author on
+of Gran Canaria), Antonio Cabrera de León (Ntra. Sra. de la Candelaria University
+reasonable request in the next 10 years. The study protocol is available at https://
+Hospital), Antonio García Quintana (Dr. Negrín University Hospital), Armando Carrillo
+imple men tatio nsc ience.b iomedcentral. com/a rticles/ 10.1 186/ s13012-0 15-0 233- 1.
+Domínguez (Insular University Hospital), Bernardo Eusebio Herrera Domínguez
+(General de La Palma Hospital), Carlos Sedeño Pérez (Primary Care of Tenerife), Open access This is an open access article distributed in accordance with the
+Carlos Ramírez Álamo (Primary Care of Gran Canaria), Cecilia Lobos Soto (Insular Creative Commons Attribution Non Commercial (CC BY- NC 4.0) license, which
+University Hospital), Cristina Padrón Pérez (Canary Islands Health Research permits others to distribute, remix, adapt, build upon this work non-c ommercially,
+and license their derivative works on different terms, provided the original work is
+Institute Foundation, FIISC), Dácil Alvarado Martel (Dr. Negrín University Hospital),
+properly cited, appropriate credit is given, any changes made indicated, and the use Daniel Hernández Obregón (Dr. Negrín University Hospital), Dulce N. Hernández
+is non- commercial. See: http:// creativecommons.o rg/ licenses/b y- nc/4 . 0/.
+Correa (Primary Care of Gran Canaria), Elsa Espinosa Pozuelo (Diabetes Patient'
+association of Tenerife), Elsa Florido Mayor (Canary Islands Health Research
+ORCID iDs
+Institute Foundation, FIISC), Engracia Pinilla Domínguez (Ntra. Sra. de la Candelaria
+Yolanda Ramallo-F ariña http://o rcid. org/0 000- 0002-1 541- 3989
+University Hospital), Fátima Herrera García (University Hospital of Canary Islands), Lidia García-P érez http://o rcid. org/0 000- 0002-5 626- 8116
+Félix Bonilla Aguiar (Dr. José Molina Hospital), Francisco Cabrera López (Insular
+Sybille Kaiser-G irardot http://o rcid. org/0 000- 0002-8 195- 1021
+University Hospital), Gloria Guerra de la Torre (Primary Care of Gran Canaria),
+Gregorio Muelas Martín (Dr. Negrín University Hospital), Héctor de la Rosa Merino
+(Canary Islands Health Research Institute Foundation, FIISC), Ignacio García Puente
+(Dr. Negrín University Hospital), Ignacio Llorente Gómez de Segura (Ntra. Sra. de la REFERENCES
+Candelaria University Hospital), Isabel García Calcerrada (Ntra. Sra. de la Candelaria
+1 Renders CM, Valk GD, Griffin SJ, et al. Interventions to improve the
+University Hospital), Jacqueline Álvarez Pérez (Canary Islands Health Research management of diabetes in primary care, outpatient, and community
+Institute Foundation, FIISC), Jorge Federico Aldunate Page (Insular University settings: a systematic review. Diabetes Care 2001;24:1821–33.
+Hospital), Jose Antonio García Dopico (University Hospital of Canary Islands), Juan 2 Al Sayah F, Majumdar SR, Williams B, et al. Health literacy and
+Andrés Báez Hernández (Primary Care of La Palma), Juan José Pérez Valencia health outcomes in diabetes: a systematic review. J Gen Intern Med
+(Primary Care of Tenerife), Julia Charlotte Wiebe (Dr. Negrín University Hospital), 2013;28:444–52.
+3 Pouwer F, Nefs G, Nouwen A. Adverse effects of depression on
+Lilisbeth Perestelo Pérez (Evaluation Unit, SESCS, Canary Islands Health Service,
+glycemic control and health outcomes in people with diabetes: a
+SCS), Leopoldo Martín Martín (Hospital General de La Palma), Luis Morcillo Herrera
+review. Endocrinol Metab Clin North Am 2013;42:529–44.
+(University Hospital of Canary Islands), Marcos Estupiñán Ramírez (Canary Islands 4 Peyrot M, Rubin RR, Lauritzen T, et al. Patient and provider
+Health Service, SCS), María Inmaculada González Pérez (Ntra. Sra. de la Candelaria perceptions of care for diabetes: results of the cross- national dawn
+University Hospital), María Isabel Visuerte Morales (University Hospital of Canary study. Diabetologia 2006;49:279–88.
+Islands), María Pino Afonso Medina (Dr. Negrín University Hospital), Marta Riaño 5 Skovlund SE, Lichtenberg TH, Hessler D, et al. Can the routine use of
+patient- reported outcome measures improve the delivery of Person-
+Ruiz (Insular University Hospital), Marta Tejera Santana (Dr. Negrín University
+Centered diabetes care? A review of recent developments and a Hospital), Mauro Boronat (Insular University Hospital), Mercedes Lorenzo Medina
+case study. Curr Diab Rep 2019;19:84.
+(Dr. Negrín University Hospital), Miguel Juan Mora García (Primary Care of Gran 6 Borg S, Eeg- Olofsson K, Palaszewski B, et al. Patient- reported
+Canaria), Nayra Pérez Delgado (Ntra. Sra. de la Candelaria University Hospital), outcome and experience measures for diabetes: development of
+Pablo Pedrianez Martín (Dr. Negrín University Hospital), Pedro de Pablos- Velasco scale models, differences between patient groups and relationships
+(Dr. Negrín University Hospital), Pilar Peláez Alba (La Laguna University), Rafael with cardiovascular and diabetes complication risk factors, in
+a combined registry and survey study in Sweden. BMJ Open
+Valcárcel (Primary Care of Tenerife), Remedios Castro Sánchez (Primary Care
+2019;9:e025033.
+of Gran Canaria), Rodrigo Abreu González (Ntra. Sra. de la Candelaria University
+7 Chen Y- C, Li I- C. Effectiveness of interventions using empowerment
+Hospital), Rosa Borges Trujillo (Dr. Negrín University Hospital), Víctor Lorenzo concept for patients with chronic disease: a systematic review. JBI
+Sellarés (University Hospital of Canary Islands). Libr Syst Rev 2009;7:1179–233.
+8 Aquino JA, Baldoni NR, Flôr CR, et al. Effectiveness of individual
+Contributors YR- F is the guarantor. YR- F, LG-P , LR- R, AMW, MR-R and PGS- A
+strategies for the empowerment of patients with diabetes mellitus:
+contributed to the study design. SK- G, GM-M , CG-M , CD- A and MR- R developed the
+a systematic review with meta- analysis. Prim Care Diabetes
+contents and gave the educational sessions to patients. Also, SK-G , GM-M , CG- M, 2018;12:97–110.
+CD- A and MR-R recruited participants and collected data. YR- F, MAG-B and HG- P 9 Baldoni NR, Aquino JA, Sanches- Giraud C, et al. Collective
+contributed to the statistical analyses. YR- F, AR- S, LG-P , AMW and PGS- A were part empowerment strategies for patients with diabetes mellitus:
+of the writing committee of the manuscript. All authors reviewed, commented on, a systematic review and meta- analysis. Prim Care Diabetes
+and approved the final manuscript. 2017;11:201–11.
+10 Haider R, Sudini L, Chow CK, et al. Mobile phone text messaging
+Funding This work was supported by the Spanish Ministry of Economy, Industry in improving glycaemic control for patients with type 2 diabetes
+and Competitiveness (Instituto de Salud Carlos III), grant number: ADE10/00032 and mellitus: a systematic review and meta- analysis. Diabetes Res Clin
+PI16/00769 co- funded by the European Regional Development Fund (ERDF) “A way Pract 2019;150:27–37.
+11 Hou C, Xu Q, Diao S, et al. Mobile phone applications and self-
+to make Europe”.
+management of diabetes: a systematic review with meta- analysis,
+Disclaimer The funders did not participate in the study design; collection, meta- regression of 21 randomized trials and GRADE. Diabetes Obes
+management, analysis, and interpretation of data; writing of the report; and the Metab 2018;20:2009–13.
+12 Ramallo- Fariña Y, García-P érez L, Castilla- Rodríguez I, et al.
+decision to submit the report for publication.
+Effectiveness and cost- effectiveness of knowledge transfer and
+Competing interests None declared. behavior modification interventions in type 2 diabetes mellitus
+Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804 13
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+Open access
+patients--the INDICA study: a cluster randomized controlled trial. 25 Morisky DE, Green LW, Levine DM. Concurrent and predictive validity
+Implement Sci 2015;10:47. of a self- reported measure of medication adherence. Med Care
+13 Ramallo-F ariña Y, García- Bello MA, García- Pérez L, et al. 1986;24:67–74.
+Effectiveness of Internet- based multicomponent interventions 26 Spielberger CD, Gorsuch RL, Lushene R. Manual del Cuestionario de
+for patients and health care professionals to improve clinical Ansiedad Estado- Rasgo (STAI). Madrid: TEA Ediciones, 1982.
+outcomes in type 2 diabetes evaluated through the indica study: 27 Beck AT, Ward CH, Mendelson M, et al. An inventory for measuring
+Multiarm cluster randomized controlled trial. JMIR Mhealth Uhealth depression. Arch Gen Psychiatry 1961;4:561–71.
+2020;8:e18922. 28 Fisher L, Glasgow RE, Mullan JT, et al. Development of a
+14 García- Pérez L, Ramallo-F ariña Y, Vallejo- Torres L. Cost- brief diabetes distress screening instrument. Ann Fam Med
+effectiveness of multicomponent interventions in type 2 diabetes 2008;6:246–52.
+mellitus in a cluster randomized controlled trial: the INDICA study. 29 Bradley C, Todd C, Gorton T, et al. The development of an
+Primary Care Diabetes. individualized questionnaire measure of perceived impact of diabetes
+15 De Rekeneire N, Resnick HE, Schwartz AV, et al. Diabetes is on quality of life: the ADDQoL. Qual Life Res 1999;8:79–91.
+associated with subclinical functional limitation in nondisabled older 30 Feldman EL, Stevens MJ, Thomas PK, et al. A practical two- step
+individuals: the health, aging, and body composition study. Diabetes quantitative clinical and electrophysiological assessment for the
+Care 2003;26:3257–63. diagnosis and staging of diabetic neuropathy. Diabetes Care
+16 Selvin E, Coresh J, Golden SH, et al. Glycemic control and 1994;17:1281–9.
+coronary heart disease risk in persons with and without diabetes: 31 Finucane MM, Samet JH, Horton NJ. Translational methods in
+the Atherosclerosis risk in Communities study. Arch Intern Med biostatistics: linear mixed effect regression models of alcohol
+2005;165:1910–6. consumption and HIV disease progression over time. Epidemiol
+17 Diabetes Control and Complications Trial Research Group, Nathan Perspect Innov 2007;4:8.
+DM, Genuth S, et al. The effect of intensive treatment of diabetes 32 White IR, Royston P, Wood AM. Multiple imputation using
+on the development and progression of long- term complications in chained equations: issues and guidance for practice. Stat Med
+insulin-d ependent diabetes mellitus. N Engl J Med 1993;329:977–86. 2011;30:377–99.
+18 UK Prospective Diabetes Study (UKPDS) Group. Intensive blood- 33 Enders CK. Applied missing data analysis. New York, NY: The
+glucose control with sulphonylureas or insulin compared with Guilford Press, 2010. ISBN: 9781606236390.
+conventional treatment and risk of complications in patients with 34 StataCorp. Stata statistical software: release 15. College Station, TX:
+type 2 diabetes (UKPDS 33). UK prospective diabetes study (UKPDS) StataCorp LLC, 2017.
+group. Lancet 1998;352:837–53. 35 Wu Y, Yao X, Vespasiani G, et al. Correction: mobile App-B ased
+19 Katon WJ, Rutter C, Simon G, et al. The association of comorbid interventions to support diabetes self-m anagement: a systematic
+depression with mortality in patients with type 2 diabetes. Diabetes review of randomized controlled trials to identify functions
+Care 2005;28:2668–72. associated with glycemic efficacy. JMIR Mhealth Uhealth
+20 Eastman RC, Javitt JC, Herman WH, et al. Model of complications 2018;6:e20.
+of NIDDM. II. Analysis of the health benefits and cost- effectiveness 36 Hartmann- Boyce J, Chepkin SC, Ye W, et al. Nicotine replacement
+of treating NIDDM with the goal of normoglycemia. Diabetes Care therapy versus control for smoking cessation. Cochrane Database
+1997;20:735–44. Syst Rev 2018;5:CD000146.
+21 Goldney RD, Phillips PJ, Fisher LJ, et al. Diabetes, depression, and 37 Légaré F, Adekpedjou R, Stacey D, et al. Interventions for increasing
+quality of life: a population study. Diabetes Care 2004;27:1066–70. the use of shared decision making by healthcare professionals.
+22 Michie S, Johnston M, Francis J, et al. From theory to intervention: Cochrane Database Syst Rev 2018;7:CD006732.
+mapping theoretically derived behavioural determinants to behaviour 38 Behavioural interventions for type 2 diabetes: an evidence- based
+change techniques. Appl Psychol 2008;57:660–80. analysis. Ont Health Technol Assess Ser 2009;9:1–45.
+23 Anderson RM, Fitzgerald JT, Gruppen LD, et al. The diabetes 39 Peters RM, Lui M, Patel K, et al. Improving glycemic control with
+Empowerment Scale- Short form (DES- SF). Diabetes Care a standardized Text- Message and Phone- Based intervention: a
+2003;26:1641–2. community implementation. JMIR Diabetes 2017;2:e15.
+24 Martínez- González MA, García- Arellano A, Toledo E, et al. A 14- item 40 Masson SC, Tejani AM. Minimum clinically important differences
+Mediterranean diet assessment tool and obesity indexes among identified for commonly used depression rating scales. J Clin
+high- risk subjects: the PREDIMED trial. PLoS One 2012;7:e43134. Epidemiol 2013;66:805–7.
+14 Ramallo- Fariña Y, et al. BMJ Open 2021;11:e050804. doi:10.1136/bmjopen-2021-050804
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+library
+.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2021-050804
+on
+15
+December
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical

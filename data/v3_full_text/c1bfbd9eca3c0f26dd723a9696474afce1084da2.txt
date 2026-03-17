@@ -1,0 +1,568 @@
+BRIEFRESEARCHREPORT
+published:13July2022
+doi:10.3389/fresc.2022.945464
+Enhancing Person-Centered
+Audiologic Rehabilitation: Exploring
+the Use of an Interview Tool Based
+on the International Classification of
+Functioning, Disability, and Health
+Core Sets for Hearing Loss
+SarahGranberg1,2* andÅsaSkagerstrand2,3
+1SchoolofHealthSciences,FacultyofMedicineandHealth,ÖrebroUniversity,Örebro,Sweden,2AudiologicalResearch
+Center,FacultyofMedicineandHealth,ÖrebroUniversity,Örebro,Sweden,3DepartmentofAudiology,FacultyofMedicine
+andHealth,ÖrebroUniversity,Örebro,Sweden
+Health care interventions that are intended to improve hearing should be based on the
+resultsofindividualpatientassessments.Toimprovetheseassessments,thefeasibilityof
+anInternationalClassificationofFunctioning,Disability,andHealth(ICF)-basedinterview
+Editedby:
+tool was tested in a single clinical setting in Sweden. Audiologists participating in the
+JuliaPatrickEngkasan,
+UniversityofMalaya,Malaysia study used the interview tool during a four-week testing period and provided written
+Reviewedby: reflections after each session. The use of this tool was also evaluated in a focus group
+RazanAlfakir, interview that took place after the completion of the project. The results of this study
+MayoClinicFlorida,UnitedStates
+identified both process-related and structure-related factors that were highly relevant
+AmishaKanji,
+UniversityoftheWitwatersrand, to the implementation of this interview tool. Overall, the findings revealed that the use
+SouthAfrica
+of this interview tool promoted person-centered care in encounters focused on clinical
+*Correspondence:
+audiological rehabilitation. Specifically, the ICF-based holistic approach permitted the
+SarahGranberg
+sarah.granberg@oru.se audiologists to acquire more comprehensive patient narratives. The use of the ICF
+interviewtoolfacilitatedpatientparticipationandpermittedtheaudiologisttocollectmore
+Specialtysection: substantialandmeaningfulinformationfromeachpatient.
+Thisarticlewassubmittedto
+HumanFunctioning,
+Keywords: ICF (International Classification of Functioning, Disability and Health), hearing loss, audiologic
+asectionofthejournal
+rehabilitation(AR),person-centered,interviewtool
+FrontiersinRehabilitationSciences
+Received:16May2022
+Accepted:24June2022 INTRODUCTION
+Published:13July2022
+TheWorldHealthOrganization(WHO)estimatesthatapproximately20%oftheglobalpopulation
+Citation:
+GranbergSandSkagerstrandÅ currently suffers from some degree of hearing loss. Hearing loss is likely to increase and is
+(2022)EnhancingPerson-Centered anticipatedtohaveanimpacton25%ofthepopulationby2050;thus,approximately7%ofthe
+AudiologicRehabilitation:Exploring globalpopulationwillrequirehearinghealthcare(1).
+theUseofanInterviewToolBasedon While the etiology of this disorder varies, sensorineural hearing losses are dominant in
+theInternationalClassificationof
+the adult population (2, 3). Damages in the inner ear and/or the central auditory system
+Functioning,Disability,andHealth
+results in sensorineural hearing loss. These losses result in a diminished ability to detect
+CoreSetsforHearingLoss.
+Front.Rehabilit.Sci.3:945464. and comprehend sounds that are regarded as normally perceivable. Sensorineural hearing
+doi:10.3389/fresc.2022.945464 loss also has an impact on the quality of heard sounds, for example, speech that is
+FrontiersinRehabilitationSciences|www.frontiersin.org 1 July2022|Volume3|Article945464
+GranbergandSkagerstrand AudiologicInterviewToolBasedonICF
+perceived as unclear or distorted. While external hearing aids et al. (20), the study employed a post-only design including
+arethemostcommonlyprovidedhearinginterventionforthese structured reflections and a focus-group session. This study
+patients,thisinterventionaloneisinsufficientasitdoesnotfully followed the evaluation criteria by Patton (21) to ensure
+facilitateactivitiesofdailylivingforadultswithhearingloss(4). credibility of the research including, e.g., accurate methods
+Becauseofthenatureofthishealthconditionandtheincreased for data collection and analysis, and sufficient descriptions
+demands in society for sufficient hearing and communication, oftheresults.
+individualconsequencesofhearingandcommunicationdeficits
+may include reduced quality of life (5), pain in the head,
+Participants and Setting
+shoulders, and neck (6, 7), and fatigue (8), as well as reduced
+The study was carried out at the Audiological Clinic in
+abilitytowork(9)andtoparticipateinsocialactivities(10)thus
+Region Örebro County, one of 21 counties in Sweden. This
+leading to social isolation (11). Hence, many adults experience
+is an umbrella clinic that provides broad audiological services,
+hearinglossasverydisabling.
+including aural habilitation and AR for children and adults,
+Literature on adult audiologic rehabilitation (AR) published
+respectively. The clinic is divided into three subunits, located
+during the past 5 years has focused to a large extent on a
+in three different cities within the region, that serve a
+person-centeredperspective.Thisperspectiveacknowledgesthe
+total of 307,000 inhabitants. Audiologists represent the largest
+complexityofhearinglossandadvisestheuseofabio-psycho-
+professional category of service providers at this clinic; these
+social approach to person-centered AR (12). This represents
+individuals usually practice AR independently. AR is typically
+a significant shift from a more medically-focused AR and
+provided in a series of three to five appointments with an
+interventions focused primarily on the hearing impairment
+audiologist. An individual interview is performed during the
+to a more holistic view that targets interventions based on
+first appointment. The audiologist then collaborates with the
+functioning (i.e., bodily aspects, daily life activities, and the
+patient to design a rehabilitation plan based on the outcomes
+environmentofagivenindividual).
+oftheinterview.
+The International Classification of Functioning, Disability,
+In the current study, four licensed audiologists employed
+and Health (ICF) core sets for hearing loss were published in
+at the aforementioned umbrella clinic performed individual
+2013(13).Rigorousempiricalandliterature-basedevidence(14–
+interviewswithARpatientsusingtheICF-basedinterviewtool.
+17)wasusedtodeveloptwocoresets(comprehensiveandbrief)
+The four audiologists have an average experience of 9.5 years
+that included 117 and 27 categories, respectively. Because the
+(range,1–16years).
+ICF core sets for hearing loss address functioning, they have
+contributed significantly to person-centered care and research
+literature. The brief ICF core sets for hearing loss demonstrate ICF-Based Interview Tool
+appropriatevalidityforuseininternationalsettings(18). The interview tool includes eight main areas of initial focus
+Hearing health care in Sweden is taxpayer-funded. AR is based on ICF core sets for hearing loss that include physical
+provided by licensed audiologists who are required to base health, psychological health, daily activities, communication,
+their practice on state-of-the-art scientific knowledge (19). hearingissues,livinghabits,livingenvironment,andmotivation
+Typically, AR in Sweden include provision of hearing aids torehabilitation.Therelationshipbetweentheseeightareasand
+and assistive listening devices, and communication strategies the ICF categories are as shown in Table1. Of note, the tool
+training. To enhance the person-centered focus in AR clinical featuredspecificICFcategoriesbutdidnotincludeICFcategory
+encounters,Skagerstrandhasdevelopedaninterviewtool(2021, codes. A topic focused on “living habits” was implemented in
+unpublished) based on the ICF core sets for hearing loss that theinterviewtoolbecauseoflegalaspectsandpreviousevidence
+can be used by audiologists during the initial patient interview indicatingitsrelevance(22–25).
+(see methods section). Given the premises for working as an
+audiologistinSweden,thistoolisdesignedtoprovideascientific
+Materials for Data Collection
+basis for the content of the initial patient interview and ensure
+Data were collected from both reflection protocols and a
+thatallrelevantaspectsofindividualfunctioningarerecognized
+groupinterview.
+by the clinician. The information collected during the patient
+interview will then be used to guide the audiologist toward
+adequateandappropriateARinterventions. Reflection Protocol
+The objective of this study was to explore the The reflection protocol was based on Gibbs’ reflective cycle
+feasibility of this ICF-based interview tool by exploring model (26). This systematic reflection model presents a
+its use by a sample group of audiologists engaged in framework for structured reflections on repeated experiences
+AR-clinicalencounters. and permits the user to learn and evolve by identifying
+aspects that were or were not effective in specific situations
+and experiences. In addition to the reflection protocol, the
+METHODS audiologists were asked to consider whether their current
+professional training provided them with sufficient insight into
+This work was designed as a feasibility study executed howtouseinterviewtooloriftheyrecognizedareasbeneficialfor
+between February and April 2022. As recommended by Bowen additionaltraining.
+FrontiersinRehabilitationSciences|www.frontiersin.org 2 July2022|Volume3|Article945464
+GranbergandSkagerstrand AudiologicInterviewToolBasedonICF
+TABLE1|AreasoftheICF-basedinterviewtoolandcorrespondingICFcategories.
+Areas CorrespondingICFcategories
+Physicalhealth
+b210Seeingfunctions
+b280Sensationofpain
+b710Mobilityofjointfunctions
+b780Sensationsrelatedtomusclesandmovementfunctions
+e355Healthprofessionals*
+e580Healthservices,systemsandpolicies*
+Psychologicalhealth(includingmentalfunctions)
+b126Temperamentandpersonalityfunctions
+b140Attentionfunctions
+b144Memoryfunctions
+b152Emotionalfunctions
+b164Higher-levelcognitivefunctions
+d240Handlingstressandotherpsychologicaldemands
+Dailyactivities
+d740Formalrelationships
+d750Informalrelationships
+d830Highereducation
+d850Remunerativeemployment
+d910Communitylife
+d920Recreationandleisure
+Hearingissues
+b230Hearingfunctions
+b240Sensationsassociatedwithhearingandvestibularfunctions
+Communication(includingfacilitating/hindering
+environmentalfactors) d115Listening
+d310Communicationwith-receiving-spokenmessages
+d3503Conversingwithoneperson
+d3504Conversingwithmanypeople
+d3600Usingtelecommunicationdevices
+d3602Usingcommunicationtechniques
+e1250Generalproductsandtechnologyforcommunication
+e1251Assistiveproductsandtechnologyforcommunication
+e250Sound
+e360Otherprofessionals(interpreters)
+Livinghabits
+b1300Energylevel
+b134Sleepfunctions
+d5701Managingdietandfitness
+d5702Maintainingone’shealth
+Livingenvironment
+d760Familyrelationships
+e310Immediatefamily
+e315Extendedfamily
+e325Acquaintances,peers,colleagues,neighborsandcommunity
+e410Individualattitudesofimmediatefamilymembers
+e425Individualattitudesofacquaintances,peers,colleagues,neighbors
+andcommunity
+e460Societalattitudes
+Motivation PfMotivationtowardsAR
+*Theimpactofhealthprofessionalsandhealthservices,systemsandpolicieswerespecificallyevaluatedinrelationtothepatientsoverallphysicalhealth.
+Group Interview process.Thesessionlasted1hand34minandwasvoicerecorded
+A group interview held with the participating audiologists bytwoseparatedevicestoenhancethesecurityandaccuracyof
+focusedonfouraspects,including(a)theoverallexperiencewith thedatacollection.
+theICF-basedinterviewtool,(b)thecontentofthetool,(c)the
+reflections and the reflection protocol, and (d) rehabilitation Procedure
+plansandinterventions.
+The study was carried out in three phases, a
+Thegroupinterviewwasmoderatedbythefirstauthor(SG);
+pre-implementation phase, an implementation phase, and a
+thesecondauthor(ÅS)tooknotesandassistedwiththeinterview
+post-implementationphase.
+FrontiersinRehabilitationSciences|www.frontiersin.org 3 July2022|Volume3|Article945464
+GranbergandSkagerstrand AudiologicInterviewToolBasedonICF
+The pre-implementation phase provided education to the
+audiologistswhowereparticipatingintheproject.Theeducation
+providedincludedlecturesfocusedontheprinciplesofICF,the
+ICFcoresets,andthespecificcontentoftheICF-basedinterview
+tool.Theeducationalsofocusedoninterviewskills,includinga
+generaldiscussionofhowtoperformperson-centeredinterviews
+aswellasthecontentanduseofthereflectionprotocol.
+During the implementation phase, the audiologists carried
+out individual interviews of patients in AR using the ICF-
+basedinterviewtool.Eachpatientsessionincludedaninterview,
+rehabilitationplanning,and,oncethepatienthadleft,reflections
+based on the reflection protocol and written notes placed in
+the patient’s medical chart. After each patient interview, the
+audiologist posted written reflections in a secure data map
+maintained by the clinic that could be accessed only by the
+participating audiologists and the authors of the study. The
+fouraudiologistscompleted25individualinterviewsduringthe
+FIGURE1|Overviewofoverarchingthemeswithsub-themes.
+periodofinvestigation.
+The group interview was held post-implementation after
+all the patient interviews were completed and all reflections
+posted.Thefouraudiologistsandthetwoauthorsofthisstudy Information
+participatedinthegroupinterview.
+The general opinion among the audiologists was that they
+were able to collect deep and important information from
+Analysis
+each patient that might not have surfaced in the absence of
+Alldatawereevaluatedbyqualitativethematicanalysis(27).The
+this interview tool. The audiologists also identified two major
+analysis included six specific steps that involved (1) reviewing
+obstacles. First, they reported unfamiliarity what “to do” with
+the entire dataset, (2) generating initial codes, (3) searching
+all the information. Examples of these issues included patient
+for themes, (4) reviewing the chosen themes, (5) defining and
+reportsofsmoking,sleep,anddiet;theaudiologistsreportedthat
+namingthethemes,and(6)generatingthereport.
+it was difficult to discuss these health concerns while focusing
+The first author (SG) performed steps 1 and 2 as part
+on hearing loss. However, during the group interview, the
+of the analysis of the recorded interview. The second author
+four audiologists collectively determined ways that they might
+(ÅS) performed steps 1 and 2 as part of the analysis of the
+addressthesematterswiththeirpatientsandagreeduponseveral
+reflectionprotocols.Thedatafromthereflectionprotocolsand
+solutions.Theyconcludedthatdiscussionsoftheseaspectswith
+theinterviewwerethenmergedandsteps3–6wereconductedin
+thepatientfrequentlyledtotheirimprovedunderstandingofthe
+collaborationbetweenthetwoauthors.
+complexities of living with hearing loss. The audiologists also
+Inadditiontothethematicanalysis,thetwoauthorsprovided
+noted the lack of routines for referral of the patients to other
+a joint general assessment of the outcomes of the reflection
+healthcareprofessionalsand/orhowtomanagerelevantaspects
+protocols. This assessment focused specifically on the learning
+of patient care that did not relate specifically to the practice of
+curve,i.e.,whetherprogressionregardingtheuseoftheinterview
+theaudiology.
+instrumentandprotocolforpatientsinARcouldbedetected.
+As a second obstacle, the audiologists reported difficulties
+in managing some of the patients’ emotional responses to
+Ethics
+discussions of living with hearing loss. They reported that they
+This study followed “Good research practice” outlined by the
+didnotknowhowto“stop”patientsatanappropriateplacein
+Swedish Research Council. However, as this project did not
+thesediscussions.Oneofthemsaid:
+collectsensitivepersonalinformation,noformalapprovalfrom
+anethicscommitteewasrequired(28). ...oneofmypatientsopenedupalot...Ihaddifficultiestomeet
+thisinformation...aheavysession...afterwardsIthought,Icannot
+RESULTS workthisway,Ifeeltotallydrained...
+Patient Participation
+The two overarching themes with specific relevance to
+feasibility emerged from the data analysis, including process- The audiologists note that they realized rather quickly that it
+related and structure-related factors; both included several was helpful to educate the patients by sharing the pre-printed
+sub-themes(Figure1). figurethatoutlinedtheuseoftheinterviewtool.Thepre-printed
+circle-typefigureincludedcontentintheinterviewtoolinaform
+Process-Related Factors thatwouldfacilitateitsusebytheaudiologists.Accordingtothe
+Process-related factors include sub-themes that focus on the audiologists,thepatientsrespondedpositivelytothispedagogic
+interactionbetweenpatientsandtheaudiologists. activity, as it permitted them to follow the progression of the
+FrontiersinRehabilitationSciences|www.frontiersin.org 4 July2022|Volume3|Article945464
+GranbergandSkagerstrand AudiologicInterviewToolBasedonICF
+interview and return to previous themes to provide additional especially those that highlighted physical health, psychological
+information.Theaudiologistshighlightedthattheywereableto health, and factors related to lifestyle. As noted above, they
+provideabetterunderstandingoftheholisticviewofhearingloss felt unable to respond appropriately to the patient narratives
+topatientsengagedinthisdeepertypeofinterview. and to provide adequate advice regarding the psychological
+aspects of hearing loss. They also struggled to identify the
+...a patient might wonder, “what has this to do with my
+appropriate“level”ofinformation.Thiswasofparticularconcern
+hearing”andthenIexplained,andwediscussed.Iusuallydonot
+for questions regarding physical health as many patients were
+dothis,Imeanexplainsodeeply,butnowwhenIdo,theyclearly
+eager to share detailed information. Nevertheless, they clearly
+openupandthedialogbetweenusbecomegood...
+realizedtheimportanceofthisinformation.Oneaudiologistsaid:
+The audiologists stated clearly that the interview tool
+...I had a patient who recently had learned that XXX had
+enhanced patient participation because of its holistic content.
+[another diagnosis] and I asked whether this was the right time
+They noted that several patients reported that the audiologists
+to engage in AR given that it takes lots of energy and dedication
+listened to their concerns, presented a more in-depth
+toadapttohearingaids.IofferedXXXtothinkaboutitandwe
+understanding of their current life situation, and met their
+bookedanew appointment, butIwasveryclearthat XXXmust
+narrativesadequately.
+consider what health condition to deal with first and to call me
+andrescheduleshouldXXXnothavethestrengthtodealwiththe
+Rehabilitation
+hearingrightnow...
+The audiologists reported that the additional information
+obtained from the patients did not result in any extended AR
+Structure-Related Factors
+beyondhearingaidsandinterventionsrelatedtocommunication
+Structure-related factors include the context of, and aspects
+and that the rehabilitation plans formulated in collaboration
+relatedto,theconditionsneededtocarryoutAR.
+with the patients were largely the same as those generated
+before initiating the project. One audiologist explained that Organization
+the generated plan was based on the professional focus, i.e.,
+OneconcernnotedbytheaudiologistswasthatARwasevaluated
+primarily hearing technology and communication strategies.
+clinicallybythenumberofpatientsandthenumberofhearing
+Thisinterestingfindingrevealedsomeuncertaintyregardingthe
+aidprescriptionsprovidedovertimeandnotbymeasurements
+full nature of a rehabilitation plan and the information that
+that assess the quality of their work. They argued that these
+it should contain. It was clear that the audiologists did not
+issuescomplicatedtheireffortstoprovideperson-centeredcare.
+fullyunderstandthattheiradvicetopatients,recommendations,
+Likewise, while they reported previous positive experiences
+and patient support were extremely important aspects of the
+with patient follow-ups (typically within 6–12 months after
+rehabilitation program that served to empower patients and
+completionoftheARintervention),thesetypesofappointments
+facilitatetheirdailylives.Whendiscussingthispointduringthe
+havebeendiscouragedbythepresentorganizationbecauseofthe
+interview,allfouraudiologistsagreedthattheyareengagedina
+longwaitinglistsforpatientsinneedofprimaryhearinghealth
+greatdealofrehabilitationworkthatisultimatelynotdisclosed
+care. The audiologists reported that follow-ups are important
+inrehabilitationplansand/orpresentedinmedicalrecords.They
+for most patients as it facilitates reinforcement of critical
+agreedthatiftheyhaddocumentedeverythingthattheyactually
+information, communication strategies, and the handling of
+haddoneduringthepatientvisit,therewouldbeabettermatch
+technical aids. They also agreed that, in the absence of patient
+betweentheinformationcollectedduringtheinterviewsandthe
+follow-up visits, it becomes difficult to evaluate the outcome
+documented rehabilitation plan. They also agreed that because
+andthequalityoftheprimaryinterventionsandtoevaluatethe
+thedocumentwiththerehabilitationplanisavailabletopatients
+overallimpactofAR.
+during the entire rehabilitation period, the inclusion of topics
+discussed in the interview (i.e., sleep habits, rest, and recovery) ...Ithinkitisuseful[follow-ups]becauseonecanreallygrasp
+wouldprovidethepatientswithimportantcuesandreminders. what[inAR]thathavebeenabsorbedbythepatientsandwhatwe
+They also noted that it is important to provide more complete havetoworkwithfurther...
+documentation of patient care provided in the clinic so this
+information would be available for professional evaluation by Time
+managementandoversightboards. Although the audiologists considered the interview tool
+beneficial for patient interviews, there were some concerns
+Content about time requirements. The ICF-based interviews were more
+Theaudiologistsreportedthatitwaseasytodiscussthecontent in-depth and thus they were more time-consuming, both with
+oftheinterviewtoolwiththepatientastheinformationprovided respect to direct patient interaction and documentation of
+closely resembled the “common view” of hearing loss as it findings in the medical record. The audiologists report that
+focusedonhearing,hearingcomorbidities,communication,and they are time-limited in their regular daily work due to the
+thelivingsituation.Theyalsoreportedthatthepatientshadno number of aspects and tasks that need to be fulfilled for each
+troublewhenaskedtodiscussthesematters.Bycontrast,allfour patient and at each appointment. This was identified as a
+audiologists struggled with aspects of the interview that were significanthindrancetoperson-centeredARwithinthecurrent
+related to hearing loss but that did not fit the “common view,” organizationalstructure.Asstatedbyoneoftheaudiologists:
+FrontiersinRehabilitationSciences|www.frontiersin.org 5 July2022|Volume3|Article945464
+GranbergandSkagerstrand AudiologicInterviewToolBasedonICF
+...peoplehavemoreproblemstoday,wehavemoretechnology demonstrated an overlap between categories in the brief ICF
+to give information about, it is not just the interview, but we core sets for hearing loss and information in medical records
+inform about hearing aids, compatibilities between hearing aids (29). Hence, the interview tool in the current study might also
+andcellphonesetc.Ittakesalotoftimetoseeiftheycanhandle be useful for audiologists who do not have access to medical
+it[thetechnology],thepatientsexpectustodomore[concerning recordsbutwishestoworkholisticallyinAR.Multiplefunctional
+technology].Thattakestime... aspects may be associated with hearing loss in adults (30) and
+can have a broad impact on patients living with hearing loss.
+Additional Training
+Furthermore, many of these aspects need to be included in
+Questionsinthereflectiontoolrevealedtheneedforadditional the AR program to empower the patients and facilitate their
+training. The audiologists reported the need for both informal activitiesofdailyliving.ICFhasbeenacknowledgedwidelyinthe
+collegial interactions as well as more formal training sessions. literatureasaholisticframeworkthatfacilitatesperson-centered
+The audiologists noted that they did not have the opportunity AR. Numerous studies have concluded that a holistically based
+toengageinstructuredcollegialdiscussionsthatmightprovide view such as that provided by ICF is necessary to address all
+insightsonhowtomanagethedailyassignmentsmosteffectively. relevant aspects of adult hearing loss in AR (4, 12, 29, 31).
+They also raised the need for improved knowledge regarding Saunders et al. [(32), p. S86] concluded that a “redefinition of
+ways to respond to cognitive and psychological issues and therapeuticgoalsettingandhearingoutcomestoincludeaspects
+how to address the specific needs of patients who remain in ofwell-beingsothataudiologistscancaptureandpatientsrealize
+theworkforce. that good hearing outcomes can have a direct positive impact
+onaperson’squalityoflifethatextendsbeyondtheirimproved
+Learning Curve
+abilitytohear”willbenecessaryforclinicalpracticetofacilitate
+The interview tool appears to be beneficial as it enhances the well-being and healthy living. The audiologists participating in
+nature and quality of the initial patient interview. The findings this study worked in a person-centered way, and thus, could
+suggest that improved structure and flow of the interviews incorporatetheICF-basedinterviewtoolintheirdailypractices.
+were achieved; the analysis of the structured reflections also All four audiologists highlighted patient participation as a core
+demonstrated improvement over time. When first introduced, outcome of this project. Consequently, we can conclude that
+the new interview format was stressful for the audiologists. the interview tool promoted a holistic view aligned with both
+However,overtime,theaudiologistsbecamemoreconfidentin person-centered AR and a major aim of ICF, i.e., to be used as
+their skills and were able to focus on the information provided aconceptualbasisfordisabilityandhealth(33).
+bythepatientratherthantheinterviewtoolitself.Furthermore, The interview tool was based on the ICF core set for
+the reflections revealed a change in the depth of information hearing loss with the addition of questions focused on lifestyle
+gathered from each patient. As the audiologists became more factors. This addition was made in accordance with Swedish
+experienced with the interview tool, they noted that it became regulations that require professional health care providers to
+easier to address patient concerns in-depth and to cover more acknowledgelifestylefactorsandtheirroleinimprovinghealth
+areas that may be relevant to the AR process. One interesting (23).Theaudiologistsparticipatinginthisprojectreportedsome
+observation was the change in the way audiologists used the difficulties with these questions, due to inexperience with the
+interview tool. At the beginning of the trial, it was perceived routines of the referral process. This finding suggests that they
+as a tool for the audiologists only; by the end of the project, mayneedtoidentifypossibilitiestoexploreandincorporatenew
+many of the audiologists shared this tool in collaboration with researchfindingsaspartoftheirdailywork.
+thepatients.
+Organizational Aspects That Facilitate
+DISCUSSION
+Implementation of the ICF Based
+The current project evaluated the feasibility of an ICF-based Interview-Tool
+interviewtooltoenhanceperson-centeredAR.Thedataanalysis Santana et al. (34) described several fundamental aspects of
+supportstheuseofthistoolinclinicalencounterswithpatients person-centered care that relate specifically to structures and
+inneedofAR. organizations.Organizationsandmanagementplaycriticalroles
+in establishing policies and practices and fostering a person-
+Use of ICF to Ensure a Holistic View for
+centered work climate among the health care providers and
+Patients in AR staff. The audiologists participating in this project were not
+The interview tool developed for this project featured content aware of any policies or practices that were directly related
+from the ICF Core sets for hearing loss but not the numerical to person-centered care nor were these qualities considered in
+codes. The use of these codes requires a medical record system their professional evaluations. This arrangement is clearly in
+thatfacilitatestheuseofkeywordsrelatedtothesecodesaswell conflict with person-centered ideas and practices. Thus, when
+as in-depth knowledge that is not currently provided to most implementingtheICF-basedinterviewtool,onemustalsofocus
+trained audiologists. However, the interview tool based on the on the concerns of management and the overall organization.
+principlesofICFensureaholisticviewofpatientfunction.This Themanagementhasthepowerandtheresponsibilitytocreate
+finding is in line with the results from a previous study that structuresthatfacilitateperson-centeredAR.Santanaetal.also
+FrontiersinRehabilitationSciences|www.frontiersin.org 6 July2022|Volume3|Article945464
+GranbergandSkagerstrand AudiologicInterviewToolBasedonICF
+remind us that changes in the health care curriculum do not resulted in comprehensive patient narratives that guided the
+automatically result in cultural changes within a given clinic. audiologists with their rehabilitation planning. Our findings
+These findings suggest that change cannot be implemented revealedthattheaudiologistsusedconceptsofperson-centered
+by single health care professionals; all staff members must be careandthattheICF-basedtoolfacilitatedtheseefforts.Tofully
+involvedtoachievesuccess. implementthistoolintoclinicalpractice,managementstaffmay
+needtoreorganizeARtofosteraperson-centeredcultureamong
+Structured Reflections
+cliniciansandhealthcarestaff.
+The progressive facility using the interview tool was clearly
+related to increased audiologist familiarity and confidence.
+DATA AVAILABILITY STATEMENT
+These findings suggest that, when implementing the use of an
+interviewtool,itisusefultoincludeatrainingperiodinvolving
+The raw data supporting the conclusions of this article will be
+structured reflections. Structured reflections provide the user
+madeavailablebytheauthors,withoutunduereservation.
+with the tools needed to learn and evolve (26). This type of
+activity provides essential contributions to those engaged in
+ETHICS STATEMENT
+professional development and learning. Similarly, a structured
+implementation, as shown in this project, may be necessary
+Ethical review and approval was not required for the study
+to support the successful use of new interventions and work
+on human participants in accordance with the local legislation
+habits(35,36).Ourresultsclearlydemonstratethataudiologists
+and institutional requirements. Written informed consent for
+have both the need and desire to improve their knowledge
+participationwasnotrequiredforthisstudyinaccordancewith
+base. This desire is probably not unique to this group or this
+thenationallegislationandtheinstitutionalrequirements.
+clinical setting and is more likely to be a sign of increasingly
+complex needs within the area of hearing health care. The
+AUTHOR CONTRIBUTIONS
+field of audiology is undergoing constant evolution with needs
+that may be met by ongoing updates designed specifically for
+Allauthorslistedhavemadeasubstantial,direct,andintellectual
+audiologyprofessionals.
+contributiontotheworkandapproveditforpublication.
+CONCLUSION
+FUNDING
+The current study explored the feasibility of an ICF-based
+ThisprojectwasfundedbytheDepartmentofAudiologyandthe
+interview tool for use in patients in need of AR. The two
+FacultyofMedicineandHealth,ÖrebroUniversity,Örebro.
+overarching themes identified focused on process-related and
+structure-related factors. Our analysis revealed that the use of
+thisinterviewtoolenhancedperson-centeredcareinclinicalAR ACKNOWLEDGMENTS
+encounters.Theaudiologistshighlightedthatthetoolfacilitated
+patient participation and thus promoted a core concept of Theauthorsacknowledgetheparticipatingaudiologistsfortheir
+person-centeredcare.TheuseoftheICF-basedholisticapproach significantcontributionsinthisproject.
+REFERENCES
+impairment: a phenomenographic study. Int J Audiol. (2015) 54:873–
+80.doi:10.3109/14992027.2015.1060640
+1. WorldHealthOrganization.WorldReportonHearing.WHO(2021). 9. Hogan A, O’Loughlin K, Davis A, Kendig H. Hearing loss and paid
+2. Margolis RH, Saly GL. Distribution of hearing loss employment: Australian population survey findings. Int J Audiol. (2009)
+characteristics in a clinical population. Ear Hear. (2008) 29:524– 48:117–22.doi:10.1080/14992020802449008
+32.doi:10.1097/AUD.0b013e3181731e2e 10. Manchaiah VKC, Stephens D. Perspectives on defining ‘hearing
+3. MichelsTC,DuffyMT,RogersDJ.Hearinglossinadults:differentialdiagnosis loss’ and its consequences. Hear Balance Commun. (2013)
+andtreatment.AmFamPhysician.(2019)100:98–108. 11:6–16.doi:10.3109/21695717.2012.756624
+4. Boothroyd A. Aural rehabilitation as comprehensive hearing 11. HeffernanE,WithanachchiCM,FergusonMA.‘Theworsemyhearinggot,
+health care. Perspectives ASHA Spec Interest Groups. (2017) thelesssociableIgot’:aqualitativestudyofpatientandprofessionalviews
+2:31–8.doi:10.1044/persp2.SIG7.31 ofthemanagementofsocialisolationandhearingloss.AgeAgeing.(2022)
+5. Chia E-M, Wang JJ, Rochtchina E, Cumming RR, Newall P, 51:1–10.doi:10.1093/ageing/afac019
+Mitchell P. Hearing impairment and health-related quality 12. Ferguson M, Maidment D, Henshaw H, Heffernan E. Evidence-
+of life: the blue mountains hearing study. Ear Hear. (2007) based interventions for adult aural rehabilitation: that was then,
+28:187–95.doi:10.1097/AUD.0b013e31803126b6 this is now. Semin Hear. (2019) 40:68–84. doi: 10.1055/s-0038-16
+6. Danermark B, Coniavitis Gellerstedt L. Psychosocial work 76784
+environment, hearing impairment and health. Int J Audiol. (2004) 13. DanermarkB,GranbergS,KramerSE,SelbM,MöllerC.Thecreationofa
+43:383–9.doi:10.1080/14992020400050049 comprehensiveandabriefcoresetforhearinglossusingtheinternational
+7. Coniavitis Gellerstedt L, Danermark B. Hearing impairment, classificationoffunctioning,disabilityandhealth.AmJAudiol.(2013)22:323–
+working life conditions, and gender. Scand J Disabil Res. (2004) 8.doi:10.1044/1059-0889(2013/12-0052)
+6:225–45.doi:10.1080/15017410409512654 14. Granberg S, Dahlström J, Möller C, Kahari K, Danermark B.
+8. Hua H, Carlsson AA, Widén S, Möller C, Lyxell B. Conceptions The ICF core sets for hearing loss–researcher perspective. Part I:
+of working life among employees with mild-moderate aided hearing systematic review of outcome measures identified in audiological
+FrontiersinRehabilitationSciences|www.frontiersin.org 7 July2022|Volume3|Article945464
+GranbergandSkagerstrand AudiologicInterviewToolBasedonICF
+research. Int J Audiol. (2014) 53:65–76. doi: 10.3109/14992027.2013.8 28. The Swedish Research Council. Good Research Practice. (2017). Available
+51799 online at: https://www.vr.se/english/analysis/reports/our-reports/2017-08-
+15. Granberg S, Möller K, Skagerstrand A, Möller C, Danermark B. 31-good-research-practice.html(accessedJune6,2022).
+The ICF core sets for hearing loss: researcher perspective, Part 29. Alfakir R, van Leeuwen LM, Pronk M, Kramer SE, Zapala DA.
+II: Linking outcome measures to the International Classification Comparing the international classification of functioning, disability,
+of Functioning, disability and health (ICF). Int J Audiol. (2014) and health core sets for hearing loss and otorhinolaryngology/audiology
+53:77–87.doi:10.3109/14992027.2013.858279 intake documentation at mayo clinic. Ear Hear. (2019) 40:858–
+16. GranbergS,PronkM,SwanepoeldeW,KramerSE,HagstenH,Hjaldahl 69doi:10.1097/AUD.0000000000000662
+J, et al. The ICF core sets for hearing loss project: functioning and 30. Granberg S. Functioning and Disability in Adults With Hearing Loss :
+disability from the patient perspective. Int J Audiol. (2014) 53:777– Preparatory Studies in the ICF Core Sets for Hearing Loss Project. Örebro:
+86.doi:10.3109/14992027.2014.938370 ÖrebroUniversity(2015).
+17. GranbergS,SwanepoeldeW,EnglundU,MollerC,DanermarkB.TheICF 31. Boothroyd A. Adult aural rehabilitation: what is it and does it
+coresetsforhearinglossproject:Internationalexpertsurveyonfunctioning work? Trends Amplif. (2007) 11:63–71. doi: 10.1177/10847138073
+anddisabilityofadultswithhearinglossusingtheinternationalclassification 01073
+of functioning, disability, and health (ICF). Int J Audiol. (2014) 53:497– 32. Saunders GH, Vercammen C, Timmer BHB, Singh G, Pelosi A, Meis
+506.doi:10.3109/14992027.2014.900196 M, et al. Changing the narrative for hearing health in the broader
+18. Karlsson E, Mäki-Torkko E, Widén S, Gustafsson J, Manchaiah V, context of healthy living: a call to action. Int J Audiol. (2021) 60:86–
+Mahomed-Asmail F, et al. Validation of the Bbrief International 91.doi:10.1080/14992027.2021.1905892
+Classification of Functioning, Disability and Health (ICF) 33. World Health Organization. International Classification of Functioning,
+core set for hearing loss: an international multicentre study. DisabilityandHealth:ICF.Geneva:WHO(2001).
+Int J Audiol. (2021) 60:412–20. doi: 10.1080/14992027.2020.18 34. Santana MJ, Manalili K, Jolley RJ, Zelinsky S, Quan H, Lu M. How to
+46088 practiceperson-centredcare:aconceptualframework.HealthExpect.(2018)
+19. Brännström KJ, Båsjö S, Larsson J, Lood S, Lundå S, Notsten M, et al. 21:429–40.doi:10.1111/hex.12640
+PsychosocialworkenvironmentamongSwedishaudiologists.IntJAudiol. 35. Hunter JR, Chandran TM, Asmall S, Tucker JM, Ravhengani NM,
+(2013)52:151–61.doi:10.3109/14992027.2012.743045 MokgalagadiY.TheidealclinicinSouthAfrica:progressandchallengesin
+20. Bowen DJ, Kreuter M, Spring B, Cofta-Woerpel L, Linnan L, Weiner D, implementation.SAfrHealthRev.(2017)1:111–23.
+et al. How we design feasibility studies. Am J Prev Med. (2009) 36:452– 36. Stevens AB, Strasser DC, Uomoto J, Bowen SE, Falconer JA. Utility
+457.doi:10.1016/j.amepre.2009.02.002 of treatment implementation methods in clinical trial with rehabilitation
+21. PattonMQ.QualitativeResearch&EvaluationMethods:IntegratingTheory teams. J Rehabil Res Dev. (2007) 44:537–46. doi: 10.1682/JRRD.2006.0
+andPractice.4thed.ThousandOaks,CA:SAGEPublications,Inc.(2015). 9.0120
+22. DawesP,CruickshanksKJ,MooreDR,Edmondson-JonesM,McCormack
+A, Fortnum H, et al. Cigarette smoking, passive smoking, alcohol ConflictofInterest:Theauthorsdeclarethattheresearchwasconductedinthe
+consumption, and hearing loss. J Assoc Res Otolaryngol. (2014) 15:663– absenceofanycommercialorfinancialrelationshipsthatcouldbeconstruedasa
+74.doi:10.1007/s10162-014-0461-0 potentialconflictofinterest.
+23. GoderieTPM,StamM,Lissenberg-WitteBI,MerkusP,LemkeU,SmitsC,et
+al.10-yearfollow-upresultsofthenetherlandslongitudinalstudyonhearing: Publisher’sNote:Allclaimsexpressedinthisarticlearesolelythoseoftheauthors
+trendsoflongitudinalchangeinspeechrecognitioninnoise.EarHear.(2020) anddonotnecessarilyrepresentthoseoftheiraffiliatedorganizations,orthoseof
+41:491–9.doi:10.1097/AUD.0000000000000780
+thepublisher,theeditorsandthereviewers.Anyproductthatmaybeevaluatedin
+24. HughesML,RodriguezAI,HatchJ,ZouchaK.Hearingandvestibularloss
+thisarticle,orclaimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+with misuseofopioids and illicit drugs: a review of the literature. Audiol
+endorsedbythepublisher.
+Neurotol.(2022)1–11.doi:10.1159/000521965
+25. NationalBoardofHealthandWelfare.NationellaindikationerförGodVård
+[Nationalindicationsforgoodhealthcare].(2009).Retrievedfrom:https:// Copyright © 2022 Granberg and Skagerstrand. This is an open-access article
+www.socialstyrelsen.se/globalassets/sharepoint-dokument/artikelkatalog/ distributedunderthetermsoftheCreativeCommonsAttributionLicense(CCBY).
+nationella-riktlinjer/2009-11-5.pdf(accessedMay24,2022). Theuse,distributionorreproductioninotherforumsispermitted,providedthe
+26. Gibbs G. Learning by Doing: A Guide to Teaching and Learning Methods. original author(s) and the copyright owner(s) are credited and that the original
+Oxford:FurtherEducationUnit,Polytechnic(1988). publicationinthisjournaliscited,inaccordancewithacceptedacademicpractice.
+27. BraunV,ClarkeV.Usingthematicanalysisinpsychology.QualResPsychol. Nouse,distributionorreproductionispermittedwhichdoesnotcomplywiththese
+(2006)3:77–101.doi:10.1191/1478088706qp063oa terms.
+FrontiersinRehabilitationSciences|www.frontiersin.org 8 July2022|Volume3|Article945464

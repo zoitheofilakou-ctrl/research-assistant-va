@@ -1,0 +1,512 @@
+Review Article
+Ann Rehabil Med 2022;46(2):60-70
+pISSN: 2234-0645 • eISSN: 2234-0653
+https://doi.org/10.5535/arm.22036 Annals of Rehabilitation Medicine
+Rehabilitation of Individuals With Cancer
+Robert Samuel Mayer, MD, Jessica Engle, DO
+Department of Physical Medicine and Rehabilitation, Johns Hopkins University School of Medicine, Baltimore, MD, USA
+The survival rate of cancer is increasing as treatment improves. As patients with cancer now live longer,
+impairments may arise that impact quality of life (QOL) and function. Therefore, a focus on QOL is often as
+important as survival. An interdisciplinary team can achieve goal-oriented and patient-centered rehabilitation,
+which can optimize function and QOL, and minimize impairments, restrictions, and activity limitations. In most
+cases, cancer patients must be active participants in therapy and exhibit carryover. Patients with cancer often have
+impairments that include fatigue, pain, brain fog, impaired cognition, paresis, mood disorders, difficulty with
+activities of daily living (ADL), bowel/bladder/sexual dysfunction, and bone and soft tissue involvement. Adaptive
+equipment, exercise, and ADL training can mitigate restrictions on activity. The trajectory and phase of the disease
+along the continuum of cancer care may influence the goals of rehabilitation in that time window. QOL is often
+influenced by participation in vocational, recreational, and home-based activities. A holistic perspective should
+include an analysis of distress, socioeconomic barriers, and transportation limitations when addressing issues.
+Keywords Cancer, Rehababilitation, Lymphedema, Exercise programs
+INTRODUCTION the patient’s wishes. Communication is key to ensuring
+that the healthcare team is up-to-date with a patient’s
+Rehabilitation is defined by the National Cancer Insti- goals and the potential evolution of those goals across
+tute Dictionary of Cancer Terms as “a process to restore the cancer continuum. Second, a “goal-oriented” tech-
+mental and/or physical abilities lost to injury or disease, nique should be used for rehabilitation. Goals should
+in order to function in a normal or near-normal way” [1]. be measurable, achievable, concrete, and typically focus
+Cancer survivors and those afflicted with terminal dis- on function and/or quality of life (QOL), thus allowing
+ease rely on rehabilitation to optimize quality of life and communication between the patient, caregiver, and the
+maintain dignity. Rehabilitation takes a holistic approach healthcare team. Hope should be maintained when dis-
+integrating multiple key concepts. First, an approach that cussing goals; however, it is also important to be realistic
+is “patient-centered”— tailored to the patient’s individu- and discuss alternatives that maintain dignity. Third,
+alized situation, needs, and wants. The patient (and their rehabilitation that employs an “interdisciplinary team
+family) is the leader of the team and carefully honors approach.” Common goals are paramount. Unlike tradi-
+Received April 4, 2022; Accepted April 8, 2022; Published online April 30, 2022
+Corresponding author: Robert Samuel Mayer
+Department of Physical Medicine and Rehabilitation, Johns Hopkins University School of Medicine, 600 N. Wolfe St./Phipps 198, Baltimore, MD 21287,
+USA. Tel: +1-410-502-2447, Fax: +1-410-502-2420, E-mail: rmayer2@jhmi.edu
+ORCID: Robert Samuel Mayer (https://orcid.org/0000-0001-8671-1951); Jessica Engle (https://orcid.org/0000-0002-4711-7324).
+This is an open-access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/
+licenses/by-nc/4.0) which permits unrestricted noncommercial use, distribution, and reproduction in any medium, provided the original work is properly cited.
+Copyright © 2022 by Korean Academy of Rehabilitation Medicine
+Cancer Rehabilitation
+tional multidisciplinary teams, which strive to achieve EPIDEMIOLOGY OF CANCER DISABILITY
+specialty-oriented tasks, interdisciplinary team members
+work together to meet the patient’s goals as well as the The number of cancer survivors continues to grow be-
+objectives for their individual disciplines. Group commu- cause more people live longer with cancer as a result of
+nication, creativity, and humility are compulsory charac- new advances in surgery, medicine, and radiation oncol-
+teristics of team members needed to achieve these goals. ogy. Survival rates for all cancers in high income coun-
+Fourth, in most cases, “active participation of the pa- tries range from 52.7% in England, 66.6% in the United
+tient” is necessary for rehabilitation. At times, the family States, and 70.6% in Korea [3,4]. Thus, patients live longer
+may learn how to safely care for their loved one at the end with more years of cancer-related disability. In 2020, can-
+of their life. However, during the majority of the cancer cer caused 208.3 disability-adjusted life years (DALYs),
+continuum, rehabilitation requires active engagement of as estimated by the Global Burden of Disease Cancer [5].
+the patient and family to partake in education, therapy, Impaired activities of daily living (ADLs) and mobility,
+and display carry-over of newly acquired skills. There is as well as higher self-reported pain scores, were noted in
+a partnership between the healthcare team and patient; cancer survivors over 55 years old compared with con-
+the patient takes on the onus of self-management. trols [6]. Improving survival rate is insufficient without
+The International Classification of Functioning, Disabil- also optimizing QOL for cancer survivors. Patients with
+ity, and Health (ICF), which supplements the Interna- lymphedema may have an impaired QOL. Approximately
+tional Classification of Disease (ICD-10), was created by 200 million people are affected by lymphedema world-
+the World Health Organization [2]. Definitions are listed wide [7].
+in Fig. 1, which illustrates the integral role of rehabilita-
+tion in optimizing QOL. This review will analyze impair- WHICH PATIENTS SHOULD BE REFERRED FOR CANCER
+ments, activity restrictions, and participation limitations REHABILITATION AND WHEN?
+in cancer patients and reveal the benefits of rehabilita-
+tion in mitigating disabilities. Patients with cancer benefit from rehabilitation at
+all phases of the cancer continuum (Table 1). As early
+Worldhealthorganizationinternationalclassificationoffunctioning,disability,and
+healthdefinitions
+Impairmentsareproblemsinbodyfunctionorstructure,suchassignificantdeviationorlossof
+abodypartororgansystem
+Activitylimitationsaredifficultiesanindividualmaygaveinexecutingactivitiesofdailylife Fig. 1. Definitions of the integral
+Participationrestrictionsareproblemsanindividualmayexperienceininvolvementinlife role of rehabilitation for optimiz-
+situations
+ing quality of life.
+Table 1. Phases of cancer rehabilitation
+Phase Patient needs Symptoms Impact
+1. Pre-hab Education, fitness Pain, anxiety, insomnia, debi- Disruption of daily routines
+lity
+2. Primary training Education, acute care support Pain, fatigue, ROM, ↓ambula- Daily routines, stamina (psy-
+tion, ADL support chological social function)
+3. Post-treatment Education, support, chronic Pain, anxiety, depression, mo- Work, family, avocation, cos-
+(recovery) care, healthy lifestyle bility, edema, fatigue, neu- mesis
+ropathy, insomnia
+4. Recurrence Education, support Same as above; metastatic Daily routines, work/play
+disease effects
+5. End of life Education, support Pain, asthenia, depression Dependence
+ROM, range of motion; ADL, activities of daily living.
+www.e-arm.org 61
+Robert Samuel Mayer and Jessica Engle
+as possible, clinicians should ask, “Has your function effects [15]. Function is intimately correlated with the se-
+changed?” Given the complexity of cancer and chronic verity of pain, and this was demonstrated in 216 patients
+illness, a preventive and comprehensive strategy for dis- with metastatic cancer [16].
+ability and illness should be employed. Throughout the
+continuum of cancer, survivors are concerned about Fatigue
+fatigue, overall health, pain, fitness, and social and emo- Cancer-related fatigue has been defined as “over-
+tional functioning [8]. Early in the disease, anxiety may whelming and sustained exhaustion and decreased
+be the most concerning symptom that is typically accom- capacity for physical and mental work…not relieved by
+panied by the disruption of routines. Patients with cancer rest” [17]. Exercise can reduce cancer-related fatigue [18].
+in the treatment phase, additional impairments, includ- Emotions and social and economic status can have nega-
+ing nausea, fatigue, and sleep disturbances, may arise. tive impact on fatigue [19]. Cancer-related fatigue can be
+Referral to cancer rehabilitation should occur if there is reduced by optimizing sleep quality; however, increasing
+pain, fatigue, impaired ADLs and/or mobility. Additional “rest” is not helpful [20].
+guidelines that indicate site-specific referral recommen-
+dations have been published [9]. Cognitive impairment and delirium
+Physical function is likely to decline from baseline. At Up to 86% of advanced cancer patients have high inci-
+the time of initial cancer diagnosis, patients are likely dence of delirium [21]. About 50% of the time, delirium
+to have physical impairments and ideally would benefit may be reversible and due to manageable and identifi-
+from “prehabilitation” [10]. Research has shown that able causes [22]. Appropriate diagnosis is needed to de-
+education and exercise before treatment can reduce termine the appropriate treatment, and there are numer-
+morbidity and decrease length of hospital stay [11]. In ous causes of delirium in patients with cancer. Research
+patients with vestibular schwannomas, preoperative ves- on bone marrow transplant patients has demonstrated
+tibular training improves postoperative postural function risk factors in pre-transplant patients with higher blood
+[12]. Patients with the poorest endurance/lowest anaero- urea nitrogen, magnesium, and alkaline phosphatase
+bic threshold benefit the most from preoperative reha- levels, and lower cognitive/physical function [23].
+bilitation [13]. Medication plays a significant role in the development
+Physiatrists, who specialize in physical medicine and of delirium. In a study of 216 hospitalized cancer patients,
+rehabilitation, can assist medically complex patients in corticosteroid, opioid, and benzodiazepine use was more
+diagnosing and treating impairments, and can prescribe frequently associated with delirium than the use of other
+racing, assistive devices, durable medical equipment, drugs [23]. The clinician must also consider metabolic
+orthotics, injections, and medications. If required, pre- factors. Fever and sepsis often cause acute delirium, and
+cautionary measures can be taken. When needed, phys- dehydration and uremia frequently contribute to this
+iatrists can discuss the need for rehabilitation at home, or condition. Hypoxia and hypoglycemia are additional fac-
+as part of outpatient or inpatient care [14]. tors that can be easily assessed.
+Delirium may present as either a hypoactive or a hyper-
+IMPAIRMENTS active state. Dehydration is a frequent contributing factor
+to hypoactive cases. Adverse effects of medications (es-
+Cancer rehabilitation focuses on diagnosis and treat- pecially opioids and corticosteroids) and liver failure are
+ment of impairments, which may affect multiple aspects often implicated in hyperactive states.
+of an individual’s function and QOL. Patients with cancer often report cognitive difficulties
+following chemotherapy and other treatment regimens.
+Pain However, one study indicated no significant differences
+The vast majority of patients with cancer develop pain in the long-term cognitive function of cancer survivors
+that may be debilitating during the course of their illness. and control subjects [24]. Many of these reports on cogni-
+This pain can arise from the tumor itself, the sequelae of tive difficulty may be related to fatigue.
+chemotherapy, radiation, surgery, and/or related side
+62 www.e-arm.org
+Cancer Rehabilitation
+Mood disorders rehabilitation outcome in patients with meningiomas
+Receiving a cancer diagnosis is stressful and frighten- and left-hemispheric lesions. Patients receiving acute
+ing for most individuals. Initially, they may experience inpatient rehabilitation show similar improvement re-
+symptoms of shock, disbelief, denial, or despair, as they gardless of whether they have a primary brain tumor or
+struggle to accept and incorporate the reality of the diag- a brain tumor resulting from metastatic disease. Some
+nosis. Patients may also experience various normal fears studies have shown that patients with brain tumors have
+throughout their treatment course, including fear of dis- shorter lengths of stay in acute rehabilitation units than
+ability, loss of societal roles, loss of control, loss of desir- do patients with other noncancerous brain disorders [27].
+ability, abandonment, and death. However, most patients Most patients with brain tumors have multiple im-
+cope successfully with cancer diagnosis and treatment pairments depending on the tumor location, size, and
+and experience good long-term psychological adjust- volume of tissue excised during surgery. In a study of pa-
+ment. Many patients even described positive changes in tients undergoing acute rehabilitation, the most common
+their lives related to their diagnosis, including positive neurological deficits included impaired cognition (80%),
+changes in self-perception, interpersonal relationships, weakness (78%), and visual-perceptual dysfunction (53%)
+priorities, and goals. [28]. Rehabilitation efforts should focus on the patient’s
+Although most patients cope well, a significant num- neurological and functional status, coexisting medical
+ber experience serious mood disorders. Estimates of the problems, and tolerance of physical activity. For patients
+prevalence of depression among patients with cancer who have had a stroke or traumatic brain injury, goal set-
+range from 15% to 25% [25]. Anxiety is common and may ting should be appropriate to the individual’s physical,
+be related to poorly controlled pain, abnormal metabolic cognitive, and behavioral status and should include early
+states, or medication-related adverse effects. Patients planning for post-acute rehabilitation care.
+may also experience post-traumatic stress disorder
+(PTSD) in response to cancer diagnosis and treatment. Paraplegia and tetraplegia
+PTSD is an anxiety disorder that develops after an ex- The incidence of cancer-related spinal cord injury (SCI)
+tremely stressful event, such as life-threatening illness. may exceed that of trauma, and represents the most fre-
+Within 5 years of diagnosis, between 10% and 15% of can- quent type of non-traumatic SCI [29]. Spinal cord metas-
+cer survivors may meet the criteria for PTSD [26]. tases produce a clinical syndrome characterized initially
+by pain in 90% of cases, followed by weakness, sensory
+Neurologic impairments loss, and sphincter dysfunction. Weakness is present in
+A wide variety of impairments of nervous system func- 74% to 76% of patients, autonomic dysfunction is present
+tion may result from cancer, either by direct effects at in 52% to 57% of patients, and sensory loss is present in
+the primary or metastatic tumor site or secondarily as a 51% to 53% of patients [30].
+consequence of surgical or radiation treatment. These
+impairments, regardless of the tumor’s location, extent, Speech/swallowing/nutrition
+or type, may have an adverse impact on an individual’s Disorders of speech and swallowing may be the result
+physical, social, vocational, and emotional capabilities. of direct tumor invasion of the oral cavity, larynx, phar-
+Important differences exist between the management of ynx, esophagus, or adjacent structures, or the result of
+patients with cancer of the central nervous system and surgical or radiation treatment, or they may be a conse-
+those with other types of acquired neurological disabili- quence of nervous system cancers that affect pharyngeal
+ties. or laryngeal control. Head and neck cancers constitute
+approximately 3% to 5% of all malignancies. Preservation
+Hemiplegia of swallowing, having a natural airway, and intact speech
+Brain tumors vary widely in terms of their aggressive- are critical components that affect the QOL of patients
+ness and prognosis. The extent to which tumor type or with head and neck cancer. Among these patients, swal-
+location has an impact on rehabilitation outcomes is lowing has been shown to have the largest impact on
+unclear. However, one study found a tendency for better global QOL [31].
+www.e-arm.org 63
+Robert Samuel Mayer and Jessica Engle
+As soon as feasible after surgery, oral motor exercises Bone metastases are a frequent source of cancer-related
+should be initiated by speech/language pathologists with physical impairment that require active involvement of
+a focus on the strength, range of motion, and sensory the rehabilitation team. Challenges for the treatment
+awareness of the involved structures. Common interven- team arise when metastatic bone lesions produce severe
+tions include modifying food texture, such as thicken- pain that limits function or imposes risks of fracture dur-
+ing liquids or purifying solid food, and/or altering head ing therapeutic exercise or mobility. The incidence of
+posture and swallowing behavior. The latter may include pathological fractures among all tumor types is approxi-
+techniques such as a chin tuck to prevent laryngeal pen- mately 8%, and breast carcinoma is responsible for the
+etration, head rotation to reduce retention in the piriform majority of these fractures. Sixty percent of all long-bone
+sinus, enforced double or effortful swallowing to reduce fractures involve the femur, with most of these fractures
+pharyngeal residue, or supraglottic swallowing to opti- involving the proximal portion [32]. If a patient is deemed
+mize vocal fold closure and airway clearance. at risk of a pathological fracture, they should not bear
+In most patients with head and neck cancer, impaired weight on the affected structure, pending an orthopedic
+vocal communication occurs during treatment. It is im- consultation.
+portant to keep in mind that multiple conditions other Rehabilitation of this patient population focuses on re-
+than total laryngectomy can result in deficient phonation moving weight from or immobilizing compromised bone
+in cancer patients. These conditions include copious se- through the provision of assistive devices and orthoses,
+cretions, localized edema, fibrosis and scarring, trache- strength and balance training, and modification of the
+ostomy, glossectomy, loss of oral mobility from local tu- patient’s environment. Whenever possible, bed rest
+mor or trismus, and neurogenic pharyngeal or laryngeal should be avoided because it adds to general debility and
+paralysis. Patients who have undergone total laryngecto- further functional loss, and also increases the risk of hy-
+my lack a source of voice production and need to replace percalcemia and thromboembolic disease. It is critical to
+laryngeal function with an artificial larynx (electrolarynx), rule out the co-existence of upper extremity lytic lesions
+esophageal speech, or tracheoesophageal puncture voice before prescribing assistive devices that require weight
+restoration with a prosthetic surgical device. support through the arms. Bracing may reduce the risk
+or symptoms of pathological fractures involving the up-
+Bone tumors and amputations per extremities and can facilitate the use of the arms in
+Soft tissue and bony sarcomas are managed using am- functional activities. Individuals with upper limb lesions
+putation or limb-sparing procedures. Limb salvage pro- should be taught to minimize torsion and weight loading
+cedures are increasing in frequency and are associated and may benefit from an arm sling or humeral cuff sup-
+with long-term survival, local recurrence rates, and QOL port. In the spine, when more rigid bracing is not pos-
+equivalent to that of patients with amputations. These sible because of poor skin tolerance or discomfort, the
+procedures are largely made possible by improved surgi- thoracolumbar corset provides limited support and pain
+cal techniques that preserve unaffected tissue, advances relief. Patients with cancer who experience pathological
+in endoprosthetic design and durability, soft tissue re- fractures and associated functional deficits have shown
+constructive procedures, and effectiveness of radiation significant gains when admitted to an inpatient rehabili-
+and chemotherapy in controlling local and distal spread. tation hospital unit [33].
+Rehabilitation after limb-sparing procedures depends
+on the extent of soft tissue and bony resection, and be- Soft tissue impairments associated with cancer
+cause of the nature of tumor resection, skeletal recon- diagnoses
+struction, and soft tissue and muscle transfers, reha- Cancer, its treatment, or both can cause significant
+bilitation may be more intensive than after amputation. soft-tissue abnormalities. One of the most frequently
+Rehabilitation includes instruction regarding the use of observed abnormalities is lymphedema, that is, extrem-
+mobility aids and orthotics for joint stabilization and as- ity swelling that results from disruption of the lymphat-
+sistance with strengthening and endurance exercises in ics after axillary or groin dissection. Lymphedema can
+collaboration with the treating surgeon. become debilitating. In a systematic review, lower-
+64 www.e-arm.org
+Cancer Rehabilitation
+extremity lymphedema was associated with significantly Sexual function
+reduced QOL [34]. The use of manual lymph drainage Maintaining sexual function can be very important for
+and compression garments is effective in controlling patients with cancer; however, it is seldom discussed by
+edema. When applied early in the course of treatment, patients and physicians. In patients with breast cancer,
+before the development of a significant volume increase treatment often produces adverse effects, such as fatigue,
+(e.g., >250 mL increase in the arm), lymphedema can be nausea, and diminished vaginal lubrication, in addition
+reversed [35]. Traditionally, patients with lymphedema to the significant body image changes that accompany
+have been told not to lift weights. However, new data mastectomy. A meta-analysis of 36 studies of sexuality in
+show that not only does weightlifting not worsen lymph- patients with testicular cancer showed that problems were
+edema, but it may also be beneficial [36]. largely related to ejaculatory dysfunction, but fortunately,
+Radiation fibrosis is another frequently observed com- the rates of decreased sexual desire were low and often
+plication of cancer treatment [37]. This process is associ- improve with time [40]. Erectile dysfunction is a common
+ated with vascular permeability, inflammation, and the adverse effect of prostatectomy, hormonal therapy, and
+release of proinflammatory cytokines (e.g., interleukins radiation therapy in prostate cancer patients. Surgery
+and transforming growth factor-β), and continues well for colorectal cancer often leads to sexual dysfunction in
+past cessation of radiation therapy. Physical therapy is men, and gynecological cancers often produce changes
+particularly important for maintaining range of motion. in vaginal sensation, structure, and lubrication. However,
+Splinting may also be helpful in certain cases. The use of 63.5% of patients with cancer who received brief sexual
+antifibrotic agents for the treatment of this condition has counseling reported improvement [41].
+shown promise [38].
+Allogeneic bone marrow transplantation has prolonged ACTIVITY LIMITATIONS
+life expectancy for many patients with hematologic ma-
+lignancies. One of the complications of this procedure is It is not surprising that many people with cancer have
+rejection of the host by the transplanted, immunocompe- significant limitations in their activities of daily living.
+tent engrafted cells, called graft-versus-host disease. The These limitations include reduced mobility and limited
+immunological reaction is often brisk, resulting in organ ability to perform ADLs. ADLs often result from neuro-
+damage (fibrosis) to the lung, liver, skin, and soft tissue. logic or orthopedic impairments but may also be related
+In the chronic form of graft-versus-host disease, limb to fatigue. Communication and socialization skills may
+edema, peau d’orange, fasciitis, and enthesitis can occur, be adversely affected by cognitive deficits, speech im-
+resulting in significant loss of joint motion. Subsequent pairments, depression, and anxiety.
+muscle atrophy may occur as a result of disuse and the
+associated loss of upper and lower extremity mobility [39]. Activities of daily living
+Basic ADLs include feeding, dressing, hygiene, and
+Bladder and bowel management toileting. These ADLs are universal to human dignity
+Loss of bladder or bowel control in patients with cancer throughout the world. Impairments in upper limb func-
+is often multifactorial and can be a result of neurogenic tion play an obvious role in limiting the performance
+causes, such as with brain or spinal cord tumors; it also of ADLs, but other impairments can also impede these
+can result from nonsurgical or surgical cancer therapies functions. Cognition is critical for sequencing, awareness,
+or can occur as a direct effect of gastrointestinal or geni- and carryover in ADL performance. Pain and fatigue
+tourinary tumors. Incontinence may also be related to can limit an individual’s ability to complete these tasks.
+immobilization in the bed, adverse effects of pharmaco- Lower limb impairments can limit standing and transfer,
+logical management, or diminished alertness and com- which makes dressing, hygiene, and toileting difficult.
+munication skills. This condition encompasses both med- When people become disabled enough to require assis-
+ical consequences and QOL issues; it is incumbent on the tance with these skills, the burden generally falls on care-
+treatment team to properly assess patients with fecal or givers. In one study of 483 patients with cancer at varying
+urine incontinence and institute a management plan. stages of their disease course, 18.9% had unmet needs in
+www.e-arm.org 65
+Robert Samuel Mayer and Jessica Engle
+their ADLs because of the lack of a suitable caregiver [42]. or radiation-induced brachial plexopathy, can substan-
+In patients with advanced-stage cancer, the percentage tially improve ADL performance. Simple adaptive aids
+of caregivers with a high level of psychological distress (Fig. 2) can help patients perform everyday tasks. To im-
+varied from 41% to 62%, directly depending on the func- prove feeding independence among patients with cancer
+tional status of the patient [43]. who have upper limb neurologic dysfunction, Chinese
+Rehabilitation efforts, particularly with the involvement researchers used positioning, feeding aid support, and
+of occupational therapy, can significantly reduce this upper limb support, and significantly improved func-
+burden on caregivers and enhance the QOL of cancer tion during a 3-week treatment intervention [44]. Home-
+patients with disabling impairments. Addressing func- based occupational therapy interventions produce a high
+tional loss from impairments of the upper limb, such as level of patient and caregiver satisfaction, thereby reduc-
+chemotherapy-related peripheral neuropathy of the hand ing the burden of care.
+Exercise for patients with cancer
+Exercise is one of the most effective strategies for treat-
+ing symptoms associated with cancer fatigue, sleep dis-
+ruption, and abnormalities in mood, physical function,
+and QOL [45]. Meta-analyses [46] suggests that for adults
+with a variety of cancer diagnoses and who are receiv-
+ing a variety of exercise interventions, exercise improves
+physical function, QOL, and cardiorespiratory fitness,
+and decreases cancer-related fatigue [47-49]. The major-
+ity of these studies employed aerobic exercise, ergometry
+and walking programs, and occasionally, aquatic thera-
+pies. Table 2 outlines the contraindications for exercise.
+Physical modalities
+Fig. 2. Adaptive aides. From top to bottom, grabber, leg Physical modalities may be used to control pain and
+lifter, shoe horn, sponge stick. improve range of motion, thus leading to better mobil-
+Table 2. Contraindications to exercise in patients with cancer
+Organ system Parameter Recommended restriction
+Hematologic Platelets 20,000–50,000 No resistive exercise
+Platelets <20,000 Limited ambulation, no showering or high fall risk activities
+ANC <1,000 Neutropenic precautions
+Pulmonary FEV1 or FVC <50% predicted Limit aerobic exercise and consider oxygen supplementation
+Pulse oximetry <90%
+Cardiac HR >80% maximal (220 minus age) Limit aerobic exercise
+LVEF <20% Limit aerobic exercise
+Unstable arrhythmias Exercise only with cardiac monitoring
+Skeletal >50% cortical involvement Non–weight-bearing
+25%–50% cortical involvement Partial weight bearing
+0%–25% cortical involvement No high-impact activities or sports
+Lymphedema Any grade No restriction for exercise or weightlifting
+Gastrointestinal Uncontrolled emesis or diarrhea No strenuous activity
+ANC, absolute neutrophil count; FEV1, forced expiratory volume in 1 second; FVC, forced vital capacity; HR, heart
+rate; LVEF, left ventricular ejection fraction.
+66 www.e-arm.org
+Cancer Rehabilitation
+ity. Most physical modalities have not been well studied than half quit work during the first year after cancer diag-
+in patients with cancer because of concerns regarding nosis, but three-quarters of those subsequently returned
+the exacerbation of an underlying malignancy. Physical to work. A projected 13% had indefinite work disability.
+modalities that are generally believed to be safe include Survivors of central nervous system, head and neck, and
+cryotherapy, biofeedback, iontophoresis (i.e., transder- stage IV blood and lymph malignancies had the highest
+mal delivery of medication by electrical current), trans- risk of quitting work.
+cutaneous electrical nerve stimulation, and massage, In recent years, the United States laws have provided
+which should not be used directly over a tumor site. Deep more protection for cancer survivors returning to work.
+heat (e.g., ultrasound and phonophoresis) is usually con- These laws include the Americans with Disabilities Act,
+traindicated in patients with cancer because of the theo- the Family and Medical Leave Act, and the Health In-
+retical risk of metastasis from hyperemia. Spinal traction formation and Portability Act. Nevertheless, a number
+is contraindicated in patients with spinal metastases or of barriers remain in the way of gainful employment for
+significant osteoporosis. cancer survivors with disabilities. These barriers include
+ignorance on the part of both employers and cancer sur-
+Durable medical equipment vivors regarding their rights, discrimination, and limits
+Durable medical equipment is an important tool for on pre-existing health insurance benefits.
+improving the activity levels of patients with cancer. Little is known about the medical impairments that
+Durable medical equipment includes hospital beds, have the greatest impact on employability. Undoubtedly,
+canes, walkers, wheelchairs, and motorized scooters. cognitive and communication deficits play a large role,
+Wheelchairs should be individually fitted because using as evidenced by the high work disability rates among sur-
+the wrong size can lead to skin breakdown or make ac- vivors of central nervous system and head and neck ma-
+cessibility difficult if the wheelchair is too wide. Oxygen lignancies. Fatigue and pain are likely to limit work par-
+supplementation can enhance endurance and cognition ticipation. Spelten et al. [53] studied 235 cancer survivors
+and reduce dyspnea in patients with hypoxia as a result in the Netherlands and found that fatigue levels strongly
+of lung cancers or metastases. predicted inability to return to work.
+PARTICIPATION RESTRICTIONS Participation in recreation
+Recreation is critical for both physical and mental well-
+Family and social relationships being. Fatigue, pain, weakness, depression, and other
+Cancer can often draw a family together; however, impairments can limit cancer survivors’ participation in
+this can also lead to significant distress. Support groups vocational pursuits. The benefits of recreational activi-
+can be helpful; however, fewer than half of the patients ties include improvements in fitness, musculoskeletal
+receive information about them, even in large tertiary problems, immune system function, cognition, and sleep
+oncology centers [50]. In one study of 121 patients with quality. One study examined 97 European youth attend-
+cancer, caregiver QOL was significantly correlated with ing a summer camp for adolescents with cancer and dia-
+the social/family and functional dimensions of patients’ betes [54]. Significant improvements in self-esteem, self-
+QOL; physical and emotional dimensions did not cor- efficacy, and anxiety were observed. Adults benefit as
+relate [51]. Cancer also can place a significant economic well. For example, 11 small studies have shown that Tai
+burden on families. Cost considerations play a large role Chi Chuan, an Asian mind-body practice, has beneficial
+in patient decision-making regarding cancer treatment, effects in cancer survivors [55].
+especially among the poor.
+Transportation
+Vocational rehabilitation Patients with cancer may have a limited ability to
+Work disability after a cancer diagnosis is common. drive, fly, or use public transportation. They may not
+Short and Vargo [52] conducted phone interviews with have caregivers available to help transport them. A lack
+1,433 cancer survivors 1 to 5 years after diagnosis. More of transportation can become a major barrier to cancer
+www.e-arm.org 67
+Robert Samuel Mayer and Jessica Engle
+treatment, which often involves frequent medical visits. CONFLICT OF INTEREST
+Some patients forgo recommended treatments because
+of a lack of adequate transportation; thus, physicians No potential conflict of interest relevant to this article
+should explore with patients any limits to their ability to was reported.
+use transportation. Galski et al. [56] showed that patients
+receiving chronic, stable opioid analgesic therapy could AUTHOR CONTRIBUTION
+drive safely. Patients with cerebral dysfunction resulting
+from a tumor, paraneoplastic effects, or treatment ad- Conceptualization: Mayer RS, Engle J. Methodology:
+verse effects should be evaluated for their ability to drive Mayer RS, Engle J. Project administration: Mayer RS. Vi-
+safely before they are allowed to return to the road. Well- sualization: Engle J. Writing - original draft: Mayer RS,
+defined off-road driver evaluation tools are available. Engle J. Writing - review and editing: Mayer RS, Engle J.
+Approval of final manuscript: all authors.
+ONCOLOGIC EMERGENCIES DURING CANCER
+REHABILITATION REFERENCES
+Cancer rehabilitation is safe and prevents many medi- 1. National Cancer Institute. NCI dictionary of cancer
+cal complications. Nonetheless, cancer rehabilitation terms [Internet]. Washington, DC: National Cancer
+providers should be aware of several urgent medical con- Institute; c2022 [cited 2022 Apr 15]. Available from:
+ditions that require immediate intervention [57]. http://www.cancer.gov/dictionary.
+• Spinal cord compression presents as back pain and 2. World Health Organization. International classifica-
+weakness. Imaging should be performed as soon as tion of functioning, disability and health. Geneva,
+possible with referral to neurosurgery and/or radia- Switzerland: World Health Organization; 2001. p. 1-25.
+tion oncology. 3. Santucci C, Carioli G, Bertuccio P, Malvezzi M, Pasto-
+• Cerebral edema presents as obtundation, cranial rino U, Boffetta P, et al. Progress in cancer mortality,
+nerve palsies, and/or increased weakness. It also re- incidence, and survival: a global overview. Eur J Can-
+quires urgent imaging, with referrals to neurosurgery cer Prev 2020;29:367-81.
+or radiation oncology. 4. Jung KW, Won YJ, Kong HJ, Lee ES. Cancer statistics in
+• Hypercalcemia is characterized by drowsiness and Korea: incidence, mortality, survival, and prevalence
+change in mental status with hyporeflexia. Therefore, in 2016. Cancer Res Treat 2019;51:417-30.
+medical oncology should be contacted urgently. 5. Sung H, Ferlay J, Siegel RL, Laversanne M, Soerjo-
+• Venous thromboembolism presents as calf swelling mataram I, Jemal A, et al. Global Cancer Statistics
+and tenderness (deep venous thrombosis), tachycar- 2020: GLOBOCAN estimates of incidence and mortal-
+dia, and tachypnea (pulmonary embolism). Antico- ity worldwide for 36 cancers in 185 countries. CA Can-
+agulation should be urgently initiated. cer J Clin 2021;71:209-49.
+• Malignant pericardial effusion presents with chest 6. Keating NL, Norredam M, Landrum MB, Huskamp
+pain and dyspnea. Echocardiography can confirm the HA, Meara E. Physical and mental health status of
+diagnosis with appropriate referral to cardiology. older long-term cancer survivors. J Am Geriatr Soc
+• Superior vena cava syndrome presents with sudden 2005;53:2145-52.
+swelling of the neck, face, and limbs with dyspnea. It 7. Grada AA, Phillips TJ. Lymphedema: pathophysiol-
+usually shows on chest radiography, but sometimes a ogy and clinical manifestations. J Am Acad Dermatol
+chest CT is required. 2017;77:1009-20.
+• Neutropenic fever is life threatening and needs imme- 8. Silver JK, Baima J, Mayer RS. Impairment-driven can-
+diate attention for control of possible sepsis. cer rehabilitation: an essential component of quality
+• Tumor lysis syndrome can result in life-threatening care and survivorship. CA Cancer J Clin 2013;63:295-
+electrolyte abnormalities, particularly hyperkalemia, 317.
+following chemotherapy. 9. Stout NL, Binkley JM, Schmitz KH, Andrews K, Hayes
+68 www.e-arm.org
+Cancer Rehabilitation
+SC, Campbell KL, et al. A prospective surveillance vest 2005;23:229-39.
+model for rehabilitation for women with breast can- 21. Centeno C, Sanz A, Bruera E. Delirium in advanced
+cer. Cancer 2012;118(8 Suppl):2191-200. cancer patients. Palliat Med 2004;18:184-94.
+10. Carli F, Silver JK, Feldman LS, McKee A, Gilman S, 22. Gagnon P, Allard P, Masse B, DeSerres M. Delirium
+Gillis C, et al. Surgical prehabilitation in patients with in terminal cancer: a prospective study using daily
+cancer: state-of-the-science and recommendations screening, early diagnosis, and continuous monitor-
+for future research from a panel of subject matter ex- ing. J Pain Symptom Manage 2000;19:412-26.
+perts. Phys Med Rehabil Clin N Am 2017;28:49-64. 23. Fann JR, Roth-Roemer S, Burington BE, Katon WJ,
+11. Le Roy B, Pereira B, Bouteloup C, Costes F, Richard Syrjala KL. Delirium in patients undergoing hemato-
+R, Selvy M, et al. Effect of prehabilitation in gastro-oe- poietic stem cell transplantation. Cancer 2002;95:1971-
+sophageal adenocarcinoma: study protocol of a multi- 81.
+centric, randomised, control trial-the PREHAB study. 24. Gaudreau JD, Gagnon P, Harel F, Roy MA, Tremblay A.
+BMJ Open 2016;6:e012876. Psychoactive medications and risk of delirium in hos-
+12. Tjernstrom F, Fransson PA, Kahlon B, Karlberg M, pitalized cancer patients. J Clin Oncol 2005;23:6712-8.
+Lindberg S, Siesjo P, et al. Vestibular PREHAB and 25. Braun IM, Rao SR, Pirl WF. Comparison of self-report-
+gentamicin before schwannoma surgery may improve ed cognitive difficulties in a national sample of long-
+long-term postural function. J Neurol Neurosurg Psy- term cancer survivors and cancer-naïve controls. Psy-
+chiatry 2009;80:1254-60. chosomatics 2012;53:68-74.
+13. Huang GH, Ismail H, Murnane A, Kim P, Riedel B. 26. McDaniel JS, Musselman DL, Porter MR, Reed DA,
+Structured exercise program prior to major cancer sur- Nemeroff CB. Depression in patients with cancer. Di-
+gery improves cardiopulmonary fitness: a retrospec- agnosis, biology, and treatment. Arch Gen Psychiatry
+tive cohort study. Support Care Cancer 2016;24:2277- 1995;52:89-99.
+85. 27. Alter CL, Pelcovitz D, Axelrod A, Goldenberg B, Har-
+14. Cheville AL, Mustian K, Winters-Stone K, Zucker DS, ris H, Meyers B, et al. Identification of PTSD in cancer
+Gamble GL, Alfano CM. Cancer rehabilitation: an survivors. Psychosomatics 1996;37:137-43.
+overview of current need, delivery models, and levels 28. O’Dell MW, Barr K, Spanier D, Warnick RE. Function-
+of care. Phys Med Rehabil Clin N Am 2017;28:1-17. al outcome of inpatient rehabilitation in persons with
+15. Bruera E, Kim HN. Cancer pain. JAMA 2003;290:2476- brain tumors. Arch Phys Med Rehabil 1998;79:1530-4.
+9. 29. Kirshblum S, O’Dell MW, Ho C, Barr K. Rehabilitation
+16. Wang XS, Cleeland CS, Mendoza TR, Engstrom MC, of persons with central nervous system tumors. Can-
+Liu S, Xu G, et al. The effects of pain severity on health- cer 2001;92(4 Suppl):1029-38.
+related quality of life: a study of Chinese cancer pa- 30. Eriks IE, Angenot EL, Lankhorst GJ. Epidural meta-
+tients. Cancer 1999;86:1848-55. static spinal cord compression: functional outcome
+17. Cella DF. Quality of life outcomes: measurement and and survival after inpatient rehabilitation. Spinal Cord
+valid ation. Oncology (Williston Park) 1996;10(11 Suppl): 2004;42:235-9.
+233-46. 31. Gilbert RW, Kim JH, Posner JB. Epidural spinal cord
+18. Mock V, Frangakis C, Davidson NE, Ropka ME, Pickett compression from metastatic tumor: diagnosis and
+M, Poniatowski B, et al. Exercise manages fatigue dur- treatment. Ann Neurol 1978;3:40-51.
+ing breast cancer treatment: a randomized controlled 32. Gillespie MB, Brodsky MB, Day TA, Lee FS, Martin-
+trial. Psychooncology 2005;14:464-77. Harris B. Swallowing-related quality of life after head
+19. Curt GA, Breitbart W, Cella D, Groopman JE, Horn- and neck cancer treatment. Laryngoscope 2004;114:
+ing SJ, Itri LM, et al. Impact of cancer-related fatigue 1362-7.
+on the lives of patients: new findings from the Fatigue 33. Healey JH, Brown HK. Complications of bone me-
+Coalition. Oncologist 2000;5:353-60. tastases: surgical management. Cancer 2000;88(12
+20. Morrow GR, Shelke AR, Roscoe JA, Hickok JT, Mustian Suppl):2940-51.
+K. Management of cancer- related fatigue. Cancer In- 34. Bunting RW, Shea B. Bone metastasis and rehabilita-
+www.e-arm.org 69
+Robert Samuel Mayer and Jessica Engle
+tion. Cancer 2001;92(4 Suppl):1020-8. 47. Holtzman J, Schmitz K, Babes G, Kane RL, Duval S,
+35. Bowman C, Piedalue KA, Baydoun M, Carlson LE. The Wilt TJ, et al. Effectiveness of behavioral interventions
+quality of life and psychosocial implications of can- to modify physical activity behaviors in general popu-
+cer-related lower-extremity lymphedema: a system- lations and cancer patients and survivors. Evid Rep
+atic review of the literature. J Clin Med 2020;9:3200. Technol Assess (Summ) 2004;(102):1-8.
+36. Ramos SM, O’Donnell LS, Knight G. Edema volume, 48. Dimeo FC, Thomas F, Raabe-Menssen C, Propper F,
+not timing, is the key to success in lymphedema treat- Mathias M. Effect of aerobic exercise and relaxation
+ment. Am J Surg 1999;178:311-5. training on fatigue and physical performance of can-
+37. Schmitz KH, Ahmed RL, Troxel AB, Cheville A, Lewis- cer patients after surgery. A randomised controlled
+Grant L, Smith R, et al. Weight lifting for women at risk trial. Support Care Cancer 2004;12:774-9.
+for breast cancer-related lymphedema: a randomized 49. Thorsen L, Skovlund E, Stromme SB, Hornslien K,
+trial. JAMA 2010;304:2699-705. Dahl AA, Fossa SD. Effectiveness of physical activity on
+38. Stubblefield MD. Clinical evaluation and manage- cardiorespiratory fitness and health-related quality of
+ment of radiation fibrosis syndrome. Phys Med Reha- life in young and middle-aged cancer patients shortly
+bil Clin N Am 2017;28:89-100. after chemotherapy. J Clin Oncol 2005;23:2378-88.
+39. Okunieff P, Augustine E, Hicks JE, Cornelison TL, 50. Redinbaugh EM, Baum A, Tarbell S, Arnold R. End-
+Altemus RM, Naydich BG, et al. Pentoxifylline in the of-life caregiving: what helps family caregivers cope? J
+treatment of radiation-induced fibrosis. J Clin Oncol Palliat Med 2003;6:901-9.
+2004;22:2207-13. 51. Chen ML, Chu L, Chen HC. Impact of cancer patients’
+40. Gillis TA, Donovan ES. Rehabilitation following bone quality of life on that of spouse caregivers. Support
+marrow transplantation. Cancer 2001;92(4 Sup- Care Cancer 2004;12:469-75.
+pl):998-1007. 52. Short PF, Vargo MM. Responding to employment con-
+41. Jonker-Pool G, van Basten JP, Hoekstra HJ, van Driel cerns of cancer survivors. J Clin Oncol 2006;24:5138-
+MF, Sleijfer DT, Koops HS, et al. Sexual functioning 41.
+after treatment for testicular cancer: comparison of 53. Spelten ER, Verbeek JH, Uitterhoeve AL, Ansink AC,
+treatment modalities. Cancer 1997;80:454-64. van der Lelie J, de Reijke TM, et al. Cancer, fatigue and
+42. Schover LR, Fouladi RT, Warneke CL, Neese L, Klein the return of patients to work-a prospective cohort
+EA, Zippe C, et al. Defining sexual outcomes after study. Eur J Cancer 2003;39:1562-7.
+treatment for localized prostate carcinoma. Cancer 54. Torok S, Kokonyei G, Karolyi L, Ittzes A, Tomcsanyi
+2002;95:1773-85. T. Outcome effectiveness of therapeutic recreation
+43. Siegel K, Raveis VH, Houts P, Mor V. Caregiver burden camping program for adolescents living with cancer
+and unmet patient needs. Cancer 1991;68:1131-40. and diabetes. J Adolesc Health 2006;39:445-7.
+44. Dumont S, Turgeon J, Allard P, Gagnon P, Charbon- 55. Mansky P, Sannes T, Wallerstedt D, Ge A, Ryan M,
+neau C, Vezina L. Caring for a loved one with ad- Johnson LL, et al. Tai chi chuan: mind-body practice
+vanced cancer: determinants of psychological distress or exercise intervention? Studying the benefit for can-
+in family caregivers. J Palliat Med 2006;9:912-21. cer survivors. Integr Cancer Ther 2006;5:192-201.
+45. Lee WT, Chan HF, Wong E. Improvement of feeding 56. Galski T, Williams JB, Ehle HT. Effects of opioids on dri-
+independence in end-stage cancer patients under ving ability. J Pain Symptom Manage 2000;19:200-8.
+palliative care: a prospective, uncontrolled study. 57. Lewis R, Patel B, Engle J. Cancer rehabilitation. In
+Support Care Cancer 2005;13:1051-6. Gonzalez-Fernandez M, Schaaf S, editors. Handbook
+46. Burnham TR, Wilcox A. Effects of exercise on physi- of physical medicine and rehabilitation. New York,
+ological and psychological variables in cancer survi- NY: Springer Publishing Company; 2022. p. 19-28.
+vors. Med Sci Sports Exerc 2002;34:1863-7.
+70 www.e-arm.org

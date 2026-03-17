@@ -1,0 +1,829 @@
+SYSTEMATICREVIEW
+published:07February2022
+doi:10.3389/fpubh.2021.783565
+The Application of Technological
+Intervention for Stroke Rehabilitation
+in Southeast Asia: A Scoping Review
+With Stakeholders’ Consultation
+SitiNurSuhaidahSelamat1,RosalamCheMe1,2*,HusnaAhmadAinuddin3,4,
+MazatulfazuraS.F.Salim2,3,5,HafizRashidiRamli6andMuhammadHibatullahRomli2,3,5
+1DepartmentofIndustrialDesign,FacultyofDesignandArchitecture,UniversitiPutraMalaysia,SeriKembangan,Malaysia,
+2MalaysianResearchInstituteonAgeing,UniversitiPutraMalaysia,SeriKembangan,Malaysia,3Departmentof
+RehabilitationMedicine,FacultyofMedicineandHealthSciences,UniversitiPutraMalaysia,SeriKembangan,Malaysia,
+4CentreofOccupationalTherapyStudies,FacultyofHealthSciences,UniversitiTeknologiMARASelangor,ShahAlam,
+Malaysia,5DepartmentofRehabilitationMedicine,HospitalPengajar,UniversitiPutraMalaysia,SeriKembangan,Malaysia,
+6DepartmentofElectricalandElectronicEngineering,FacultyofEngineering,UniversitiPutraMalaysia,SeriKembangan,
+Malaysia
+Background: The technological intervention is considered as an adjunct to the
+conventional therapies applied in the rehabilitation session. In most high-income
+Editedby:
+DevinderKaurAjitSingh, countries, technology has been widely used in assisting stroke survivors to undergo
+NationalUniversityof their treatments. However, technology use is still lacking in Southeast Asia,
+Malaysia,Malaysia
+especially in middle- and low-income countries. This scoping review identifies and
+Reviewedby:
+summarizes the technologies and related gaps available in Southeast Asia pertaining
+KokBengGan,
+UniversitiKebangsaan tostrokerehabilitation.
+Malaysia,Malaysia
+Methods: The JBI manual for evidence synthesis was used to conduct a scoping
+ArimiFitriMatLudin,
+NationalUniversityof study.UntilSeptember2021,anelectronicsearchwasperformedusingfourdatabases
+Malaysia,Malaysia
+(Medline, CINAHL, Scopus, ASEAN Citation Index). Only the studies that were carried
+*Correspondence:
+outinSoutheastAsiawerechosen.
+RosalamCheMe
+rosalam@upm.edu.my Results: Forty-one articles were chosen in the final review from 6,873 articles found
+duringtheinitialsearch.Mostofthestudiesreportedtheimplementationoftechnological
+Specialtysection:
+Thisarticlewassubmittedto interventioncombinedwithconventionaltherapiesinstrokerehabilitation.Advancedand
+AgingandPublicHealth, simpletechnologieswerefoundsuchasrobotics,virtualreality,telerehabilitation,motion
+asectionofthejournal
+capture,assistivedevices,andmobilitytrainingfromSingapore,Thailand,Malaysia,and
+FrontiersinPublicHealth
+Indonesia.Themajorityofthestudiesshowthattechnologicalinterventionscanenhance
+Received:26September2021
+Accepted:31December2021 the recovery period of stroke survivors. The consultation session suggested that the
+Published:07February2022
+technological interventions should facilitate the needs of the survivors, caregivers, and
+Citation:
+practitionersduringtherehabilitation.
+SelamatSNS,CheMeR,Ahmad
+AinuddinH,SalimMSF,RamliHRand Conclusions: The integration of technology into conventional therapies has shown
+RomliMH(2022)TheApplicationof
+a positive outcome and show significant improvement during stroke recovery. Future
+TechnologicalInterventionforStroke
+RehabilitationinSoutheastAsia:A studies are recommended to investigate the potential of home-based technological
+ScopingReviewWithStakeholders’ interventionandlowerextremities.
+Consultation.
+Front.PublicHealth9:783565. Keywords: technological intervention, rehabilitation, developing countries, low-middle income countries,
+doi:10.3389/fpubh.2021.783565 developedcountries,SoutheastAsia,cerebrovascularaccident
+FrontiersinPublicHealth|www.frontiersin.org 1 February2022|Volume9|Article783565
+Selamatetal. TechnologicalInterventionforStrokeRehabilitation
+INTRODUCTION In addition, the technological intervention provides access to
+rehabilitation services for those facing physical, financial, and
+Strokes or a cerebrovascular accident (CVA) is caused by the attitudinalbarriers.
+blockage or bursting of the cerebral blood vessels—the leading Most developed countries implement the technology in
+cause of neurological disorder globally (1). Stroke is one of the rehabilitation therapy as an initiative to help stroke survivors
+mostcommonnon-communicablediseasesworldwide,especially during their recovery period other than focusing only on
+in Asia (2, 3). In high-income regions of Asia Pacific, North conventional therapy (19, 20). It is known that the recovery
+America,East,andSoutheastAsia,thoseaged50–64yearshave process can be varied depending on several factors such as the
+the highest prevalence rates of both ischemic and hemorrhagic client’simpairmentlevel,thetherapyintensityandaccess,orthe
+stroke(2).AccordingtotheWorldHealthOrganization(WHO), individualactivityandparticipation.Technologicalinterventions
+strokeorcerebrovascularaccidentsarethesecondleadingcause such as robotics, video-based therapy, teleconferencing, virtual
+of death and the third leading cause of the disabilities (3–5). reality, and assistive devices are more commonly explored and
+Aldehaim et al. (6) also stated that 40% of those who survived utilizedindevelopedcountries,mainlyduetotheirreadinessand
+a stroke experience a physical disability that needs special availability(21,22).
+treatment,andanother10%ofthemendupinanursinghome However, the extent of technology use in low-and
+orotherlong-termrehabcentres.Caringforstrokesurvivorscan middle-income countries is uncertain as it is not explored
+bedepressingandburdensome,anditmayaffectthewell-being comprehensively. Therefore, this scoping review aims to
+ofbothsurvivorsandcaregivers. systematically identify and review the evidence of using
+TheSoutheastAsiaregionwiththesizeofover4.5millionkm2
+technologicalinterventioncombinedwithconventionaltherapy
+constitute of low-income (Myanmar, East Timor, Cambodia, or traditional methods in helping the recovery period of
+Laos), middle-income (Vietnam, Philippines, Indonesia, stroke survivors. The efficacy of rehabilitative interventions is
+Thailand, Malaysia), and high-income (Brunei, Singapore) investigated and discussed according to technological clusters
+countries (2–7). The region is heavily populated with a orcategorizations.
+population of nearly 700 million people and the area is diverse
+in terms of ethnicity and culture, but it also shares similarities
+METHODOLOGY
+in dietary, climate, and lifestyle (2, 3, 8). In terms of stroke
+prevalence,Indonesiaisat8.0,thePhilippinesisat9.0,Singapore
+Theframeworkconsistsofsevenconsecutivestagesfollowingthe
+is 36.5 (>45 years old), Thailand (18.8 for >45 years old),
+JoannaBriggsInstitute(JBI)framework(23):(i)developingthe
+Vietnam (6.1), and Malaysia (7.0) for every 1,000 population
+review question, (ii) defining inclusion and exclusion criteria,
+(2). Stroke is a major public health problem because it is the
+(iii) conducting a search strategy, (iv) evidence screening
+predominantcauseofphysicalimpairmentanddisabilityamong
+and study selection, (v) data extraction, (vi) data analysis,
+adults(9).
+and (vii) presentation of results. Each stage is discussed
+Strokerecoverytreatmentorrehabilitationtypicallyrequires
+further in the following subtopics, and the Preferred Reporting
+conventional therapy, where it is labor intensive involving
+Items for Systematic Reviews and Meta-analysis extension for
+therapist-clientseducationandtraining(10).Rehabilitationisa
+scoping reviews (PRISMA-ScR) (24) (SupplementaryTable1)
+goal-oriented process that helps people with disabilities reach
+wasadoptedasaguidelineforthereportofthescopingreview.
+their full potential in emotional, physical, cognitive, social, and
+functionalskills(11,12).Rehabilitationphysicians,occupational
+Developing a Review Question
+therapists, physiotherapists, speech therapists, rehabilitation
+The study adopted the Population-Concept-Context (PCC)
+nurses, and medical social workers are among the healthcare
+framework (25) to determine the research question’s extent.
+professionals involved (13, 14). Generally, the rehabilitation
+The population is stroke survivors, and the concepts are the
+process may take place in various settings, including inpatient,
+implementations of the technological intervention in stroke
+outpatient, group, and home-based (15–18). The survivor’s
+rehabilitation. The context of this study is focused on the
+period of recovery from stroke depends on the stroke’s severity
+SoutheastAsiaregion.Thisscopingreviewwasdevelopedbased
+stage, and usually, the treatment starts once the main cause of
+onthequestion,“Whatarethetechnologiesandgapsavailablein
+strokehasbeendiagnosed(13).
+SoutheastAsiapertainingtostrokerehabilitation?”
+The rehabilitation treatment is essential for stroke survivors
+toachievethehighestleveloffunctionalindependence,reducing
+DefiningInclusionandExclusionCriteria
+orpreventingtheimpairments(11).However,thisprocesscould
+Studies considered to be included in this scoping review when
+be time-consuming and will lead to extra costs. The cost is
+theyfulfillthefollowingcriteria:
+described as medical procedure on ancillary or referral and
+an idea of loss of productivity and the costs generated from (i) Stroke rehabilitation as defined by Young and Forster (26)
+the recovery processes (8). This fact has become a critical as using a mixture of a therapeutic and problem-solving
+issue to both health practitioners and clients. Thus, due to approach to limit the impact of stroke-related brain damage
+these scenarios, technological solutions could be the beneficial ondailylife,
+adjunct and alternative toward the existing conventional (ii) Utilizingtechnologyasamediumoftherapyorrehabilitation
+method or therapy, making it more accessible to everyone. delivery. Technology is a broad term that refers to how
+FrontiersinPublicHealth|www.frontiersin.org 2 February2022|Volume9|Article783565
+Selamatetal. TechnologicalInterventionforStrokeRehabilitation
+one uses and understands the instruments and craft Thetwoauthors’pre-consensusagreementontheincludedfull-
+and how it affects the ability to control and adapt to text articleswas calculatedusing percentages. Because a critical
+the social and physical environment. It can also refer appraisal of each study is not required for scoping reviews, no
+to physical objects that people use, such as computers, qualityevaluationwascarriedout.
+hardware, or utensils, but may also lead to broader themes
+DataExtraction
+such as structure, organizational methods, and techniques.
+Meanwhile, rehabilitation technology uses technology to The summary of all the study details, including the citation,
+meet the needs of people with disabilities. It helps cut the nation, study objective, design, setting, interventions, and
+barriersandgivesmoreopportunitytopeoplewithdisabilities findings, was presented in a matrix table. The technological
+in education, rehabilitation, employment, living at home, interventionwasthenclassifiedeitherasadvancedorsimple.
+andrecreation.
+DataAnalysis
+(iii) Thetechnologyinvestigatediseitherforthestrokesurvivors
+The findings obtained from the review were summarized into
+orpeoplesurroundingthem(i.e.,familymembers,caregivers)
+observational studies, intervention studies, and qualitative
+oranybodythatdealswiththestrokecases,
+studies. The review syntheses were integrated with the
+(iv) ThestudyisconductedinSoutheastAsia,and
+stakeholders’ consultation session described extensively in
+(v) Any study design (i.e., case study, qualitative study,
+the next section. All the data on the efficacious and validity of
+quantitative survey, experiment) and setting (i.e., clinical,
+using the technological intervention in stroke rehabilitation in
+community,institution)areeligibletobeincluded.
+SoutheastAsiawasdocumented.
+Meanwhile,exclusioncriteriaareasfollows:(i)Non-English,(ii)
+Consultation
+grayliterature(i.e.,thesis,dissertation,book),(iii)non-original
+Aspartofthedataanalysis,stakeholderswereinvitedtoengage
+orreviewstudy(i.e.,lettertoeditor,literaturereview,protocol),
+in a roundtable discussion or known as consultation. The
+and (iv) no full text available (i.e., conference abstracts). The
+discussion-like exercise aims to identify stakeholders’ priorities
+exclusionofnon-Englishandgrayliteratureisexpectedtohave
+and questions to guide the literature review (2). The session
+minimalimpactonthefindings(27,28).
+with the stakeholders mimics a qualitative research design
+on FGD session (29) but could be not rigorous as it is a
+ConductingaSearchStrategy
+complementary step in a scoping review (30). Six stakeholders
+The electronics search was conducted using the following
+were recruited from various fields to provide richness and
+databases: MEDLINE, CINAHL, Scopus, MyCite, and ASEAN
+expertisecontribution.Priortothediscussion,alltheparticipants
+CitationIndexon30thNovember2019andlastupdatedon22nd
+gave their informed consent. The six stakeholders chosen
+September2021.Thekeywordsusedarerelatedtostrokesandits
+were an industrial designer (n = 1), an ergonomist (n =
+associated terminologies (e.g., cerebrovascular accidents, CVA),
+1), an engineer (n = 1), a physiotherapist (n = 1), an
+rehabilitation (including physiotherapy, occupational therapy,
+occupational therapist (n = 1) and a physiatrist (n = 1).
+speech therapy, etc.), and Southeast Asia (including each name
+The consultation session was done virtually via the Zoom
+ofthecountriesmembers).Booleanoperators,parenthesis,exact,
+teleconferenceplatform.Eachparticipantwasgivenasummary
+and wildcards were used when necessary. Search string used
+of the preliminary findings of this scoping review and a set
+was (“cerebrovascular accident” OR “CVA” OR “stroke”) AND
+∗ of open-ended questions to guide the discussions; (i) What is
+(“rehabilitation” OR “therapy” OR “therap ” OR “occupational
+∗ the current practice of technology-use intervention compared
+therapy”OR“physiotherapy”OR“physicaltherap ”OR“speech
+∗ to the gathered literature? (ii) What is the perception of
+therap ”)AND(“SoutheastAsia”OR“Malaysia”OR“Singapore”
+the efficacy of technologies used in stroke rehabilitation? (iii)
+OR “Thailand” OR “Indonesia” OR “Brunei” OR “East Timor”
+What is the perception of implementing technologies as a
+OR “Cambodia” OR“Myanmar” OR“Vietnam”OR “Laos”OR
+mediumofinterventionforstrokerehabilitation?and(iv)What
+“Philippines”)onthosefourdatabases.
+improvementsandsuggestionscanbeprovidedfortechnology-
+based application for stroke rehabilitation intervention? The
+EvidenceScreeningandStudySelection
+discussion was conducted in pidgin languages which were
+The titles and abstracts were independently reviewed by two convenienttotheparticipants.Thewholesessionwasrecorded
+authors (SNSS and HAA), and the eligibility of the studies usingavoicerecorderandthroughnote-taking.Thequalitative
+for inclusion was based on the previously mentioned criteria. data were analyzed by developing a coding excerpt from the
+Any conflicts between the two authors were resolved through session. The themes were generated and selected by comparing
+discussions for each article. Studies were included in the first with review findings and discussions among the authors. One
+screening stage (titles plus abstract) if any of the two authors session was conducted and required two and a half hours
+agreed that they were eligible for inclusion or if there was a tocomplete.
+disputeaboutwhethertoexcludethem.Studieswereincludedin
+thesecondscreeningstage(fulltext)whenbothauthorsagreedto PresentationoftheResults
+matchalltheinclusioncriteria.Whencontradictorystudieswere The findings were reported narratively, and the literature and
+detectedduringthefull-textscreening,anindependentarbitrator stakeholders’ consultation information were synthesized. The
+(MHR)anauthorwithahealthcarebackground,wasconsulted. narrative review is sequenced in themes generated among the
+FrontiersinPublicHealth|www.frontiersin.org 3 February2022|Volume9|Article783565
+Selamatetal. TechnologicalInterventionforStrokeRehabilitation
+FIGURE1|Screeningprocessflowchart.
+authors. The result is combined with external literature—not Characteristics of Included Studies
+only from the systematic searching inclusion, to enhance the The studies found were in the following countries: Singapore
+understandingandsynthesis. (n = 25) (31, 34, 35, 38, 39, 42, 44–46, 48–54, 56–58, 64–69),
+Thailand(n=10)(32,33,36,41,43,47,51,59,61,63),Malaysia
+(n=5)(37,40,55,68,71),Indonesia(n=1)(62)andnostudy
+RESULTS
+werefoundfromMyanmar,Vietnam,Philippines,Laos,Brunei,
+EastTimorandCambodia.Alltheincludedstudieswerewritten
+The initial search yielded a total of 6,873 citations from five
+intheEnglishlanguage.Thestudieswerepublishedbetween2009
+electronic databases, and three additional manually founded
+until2021.Fromthe41articles,therearerandomized-controlled
+citationsbasedonFigure1.Thereasonsforexcludingthearticles
+studies(n=18),clinicalstudies(n=7),casereport(n=2),an
+duringthefull-textscreeningareprovidedinFigure1.Fromthe
+experimental study (n = 2), a crossover study (n = 1), a pilot
+screeningprocess,atotalof41studies(31–71)mettheeligibility
+study (n = 7), an open-labeled study (n = 2) and a qualitative
+requirements and were included in this scoping analysis, as
+study (n = 2). Thirty-two studies (n = 32) were conducted in
+summarizedin SupplementaryTable1.
+thehospitalsandtheremainingnine(n=9)wereconductedin
+A total of 1,470 participants participated from the selected
+thecommunity.
+41 studies with different impairments, types, and stages
+of stroke severity. The data was narratively summarized
+according to a pre-defined theme on survivors’ diagnosis,
+Types of Technological Intervention in
+rehabilitation intervention available in recovery sessions, and
+stroke survivors’ intervention. The theme was established Southeast Asia
+through discussions among researchers, who compared the Themostcomplexornewesttechnologyaccessibleinpost-stroke
+findingsofvariousstudies.Thereview’sfindingswerecombined rehabilitation can also be referred to as advanced technological
+withthestakeholders’consultationsupport. intervention (72, 73). Simple technology is referred to as
+FrontiersinPublicHealth|www.frontiersin.org 4 February2022|Volume9|Article783565
+Selamatetal. TechnologicalInterventionforStrokeRehabilitation
+traditionalornon-mechanical,suchascraftsandtoolsthatpre- fromTretriluxanaetal.(60)showsthatthisinterventionisonly
+date the Industrial Revolution 4.0 concept (74–77). The simple applicable toward the smaller objects when using the reach-to-
+technologycanbepracticedorfabricatedwithaminimalcapital grasp(RTG)action.
+investmentbyanindividual,andasingleindividual’sknowledge
+ofthepracticecanbecomprehended(77).
+Transcranial Direct Current Stimulation
+Advanced Technological Intervention
+From the past three decades, tDCS has become an increasingly
+The study has classified six (n = 6) types of advanced
+popular technique in rehabilitation treatment (84). The use of
+technological intervention for post-stroke rehabilitation,
+tDCS in stroke research has gained particular interest, because
+which are robotics, transcranial magnetic stimulation (TMS),
+both online and offline effects of tDCS can improve functional
+transcranialdirectcurrentstimulation(tDCS),motionanalysis,
+outcomes (85, 86). In the tDCS technique, a mild electrical
+motioncapture,andvirtualreality.
+current travel through the skulls and stimulates the brain. This
+treatment can help the survivors recover their movement from
+Robotics
+stroke and other conditions. Seven (n = 7) studies (38, 46, 56,
+Modern robotics have made tremendous progress and
+59, 63, 69, 71) in this scoping review found that this technique
+contribution to healthcare as they can help physicians
+did improve the recovery process. Majority (38, 46, 56, 63, 71)
+perform various tasks (74–80). Robotic adoption is increasing
+showedpositiveresultsinbothupperandlowerlimbfunctions,
+tremendously in hospitals—robotics help regain and improves
+excepttwo(n=2)studies(59,69).Thesetwostudiesreported
+the function in both upper and lower extremities. In this
+scopingreview,seven(n=7)studies(31,35,42,45,47,62,67) that tDCS does not increase the motor activity on lower limb
+musclesandgaitperformanceanddoesnotimproveanymotor
+were identified that implemented the robot-assisted therapy
+functioninstrokesurvivors.
+intervention in helping the survivors regain their abilities to
+the highest level of independence. Robotics technology found
+in the literature include: MIT-Manus robot coupled with MotionAnalysis[MotorImageryBrain-Computer
+EEG-based MI-BCI, a combination of EEG-based MI-BCI Interface(MI-BCI),Electroencephalogram(EEG),and
+Haptic Knob robotic rehabilitation, a robotic exoskeleton Electrocardiograms(ECG)]
+with EMG signal, a Haptic Knob rehabilitation robot, and
+Motion analysis captures the video of the human motion with
+a soft robotic glove both focuses on grasping assistance. All
+specializedcomputersoftwarethatanalysesthemotionindetail.
+the robotics mentioned before focus on upper extremities
+This technique provides the healthcare practitioner with a
+rehabilitation. From the studies mentioned, six (n = 6) studies
+detailed picture of a person’s specific movement challenges to
+(31, 35, 42, 45, 47, 67) showed that the use of robotics was guidepropertherapy.Inthisscopingreview,nine(n=9)studies
+effective in helping stroke survivors, while only Utomo et al.
+(38,39,45,46,48,56,62,64,69)implementedthistreatmentwith
+(62) reported that the use of the robotic is not effective for
+stroke survivors. Most studies (39, 45, 46, 56, 64) have shown
+short-term rehabilitation. Medical robots are extremely useful
+a tremendous enhancement on the upper limb rehabilitation
+inassistingphysicians.However,beingprofessionallytrainedto
+treatment with this technique, except for two studies (62, 69).
+workwiththemedicalrobotsandfortherobottofullyrespond
+The intervention is less effective for short-term improvement
+totheclinician’sinstructionsaresomewhattime-consumingand
+on lower-limb function (62), similar to the single conventional
+requirecontinuoustraining(81).
+intervention(69).
+TranscranialMagneticStimulation
+In the TMS method, magnetic impulses were sent through MotionCapture
+the skull to stimulate the brain. The treatments have shown Motion capture is a technique that involves using technology
+promising results in improving the upper extremities in stroke capableofrecordinganddeterminingthelocationofpointson
+survivors (82, 83). Three (n = 3) studies (41, 51, 60) included an actor’s body in a particular amount of time (87). A motion
+in this scoping review reported the use of TMS as a treatment capture device is required to precisely monitor participants’
+to help stroke survivors. Most of the survivors who completed movement, to allow physicians to deliver therapeutic advice
+theentirecourseofthistreatmentexperiencedanimprovement based on observable data (88). It typically occurs by using
+in their impairments after 6 months of treatment (51). The a costume or other similar device, which the actor should
+treatment used was able to help the stroke survivors to recover dress him or herself (87). Only three (n = 3) studies (34,
+theirmovementandbrainfunction.Allthestudiesincludedhere 50, 70) included in this scoping review used motion capture
+implemented this technology to treat upper-limb impairment as a strategy for stroke recovery, such as Nintendo Wii. All
+(shoulder to hand). The results show that TMS may enhance the studies mentioned above show that motion capture in the
+thepareticarmreach-to-graspperformanceonthenon-lesioned rehabilitationsettingcouldenhancetheconventionaltherapyin
+hemisphere. From the studies mentioned, it is found that two upper limb subacute and chronic stroke survivors. The studies
+(n=2)studies(41,51)hadshownthatusingtheTMSmethod showed much potential as an adjunct therapy in upper limb
+is helpful for stroke survivors. Although most of the studies stroke recovery and can be employed effectively in an acute
+had shown the effectiveness of using the TMS method, a study inpatientenvironment.
+FrontiersinPublicHealth|www.frontiersin.org 5 February2022|Volume9|Article783565
+Selamatetal. TechnologicalInterventionforStrokeRehabilitation
+VirtualReality donothavecomplexormechanicalfeatures(32).Low-techAT
+Virtual reality has emerged as a therapeutic tool facilitating differsfromhigh-techATbecauseitdoesnotrequiretheuseofa
+motorlearningforbalanceandgaitrehabilitation(89–91).The power source (36). There are three studies (n = 3) (32, 36, 61)
+survivorscanretrainthemselvestoperformthemotionswithin identified to use low-tech AT, such as light touch and force
+avirtualenvironment(92).TheuseofVR-basedtherapycould contact cane, insole shoe wedges, and a new multidirectional
+provide a positive learning experience while at the same time reachtool.Theuseofthissimpletechnologicalinterventionhas
+could be engaging and motivating. Besides, VR applications shownaprogressiveeffecttoimprovethestabilityandbalanceof
+have a huge potential for education and training purposes strokesurvivors.Integrationoflow-techATtowardconventional
+since the simulation can be conducted repeatedly which could trainingissuggestedtoenhancegaitspeed,standingandwalking
+not be replicated in a real-world application (93). This offers symmetry, and balance. In addition, low-tech AT is considered
+a significant advantage over conventional training. From the analternativeandinexpensivetoolforbalancetraininginstroke
+includedstudiesinthisscopingreview,seven(n=7)studies(39, rehabilitationtreatment(61).
+40, 44, 50, 53, 55, 57) implemented VR intervention combined
+with the conventional method for the rehabilitation treatment. GaitTraining(TreadmillTraining)
+Five(n=5)studiesdemonstratethatthecombinedintervention Gaitanalysismeasuresmovementinvarioussituations,making
+hasimprovedbothupperlimbfunctionandlowerlimbpostural it significant and helpful in numerous applications such
+standing balance, while only two (n = 2) studies (40, 53) show as rehabilitation activities, sports training, and identifying
+theoppositeresult.Bothstudiesstatedthatthistechnologydoes problems, among others (80). Walking speed, body-weight-
+notnecessarilyenhancephysicalfunctionorimprovetheupper bearing abilities, and balance have all improved because of
+extremityrecoveryinstrokesurvivors. the training. The training allows therapists to track oxygen
+uptake, which helps the cardiovascular health assessments
+Simple Technological Intervention (94). It aids in treating neurophysiological problems and the
+Simple technological intervention can also refer to a system or stimulation of paretic muscles. Treadmill training was used
+equipment that is non-battery powered and relatively easier to in two (n = 2) studies (49, 54) to assist stroke survivors in
+fabricate (61). This technology is affordable, adaptable, easily their rehabilitation sessions. A variable automated speed and
+managed,andonlyuseslittleenergyandresourcestostayentirely sensing treadmill (VASST) was adopted for chronic stroke by
+environmentally friendly. The study has identified three (n = Chuaetal.(49)andthistechniquewasproventobebeneficial,
+3) types of simple technological interventions for post-stroke safe, and practicable to use. In contrast to another study (54),
+rehabilitation, which are telerehabilitation, simple tech assistive the combination of electromechanical gait trainers (GT) and
+technologies(AT),andgaittraining(GT). conventional therapy has the same effect on stroke survivors’
+ambulation and health status than conventional therapy alone.
+Telerehabilitation Asaresult,thereisnosignificantdifferencecomparedtomerely
+Telerehabilitation, commonly referred to as tele-therapy or usingconventionaltreatments.
+tele-stroke, is information and telecommunications technology
+Stakeholder’s Consultation
+that allows clients to get medical care from doctors located
+remotely (76). It is one of the distance-supporting therapies The stakeholders involved were from two major disciplines
+to help both survivors and caregivers. Five (n = 5) studies i.e., technical sciences (industrial designer, engineer) and
+(37, 52, 65, 66, 68) were identified in this scoping review health sciences (physiatrist, occupational therapists, and
+explored telerehabilitation as the technological aid to help the physiotherapist).Findingsfromthestakeholders’discussionare
+clients in rehabilitation. These studies (37, 52, 68) show that summarizedbelow.
+the application of telerehabilitation is effective as an adjunct Thecurrentmethodimplementedinstrokerehabilitationor
+to the rehabilitation process because it is comfortable and easy stroke recovery process is mostly conventional methods. The
+to be used, which contributes to the stroke recovery process. technologicalinterventionissaidtobeanadjuncttothecurrent
+In addition, telerehabilitation could be a promising solution conventional therapies where it can be implemented to help
+in stroke rehabilitation since this technology may simulate stroke survivors to recover faster. In Southeast Asia countries,
+autonomous repetitive practice to improve the health outcome however, especially in the less developed nations, there is still
+(65, 66). The telerehabilitation technologies used in the studies a lack of technological interventions applied for rehabilitation
+were video-based therapy, a smartphone with ECG-recording, purposeseveninthetertiaryhospitals.
+andvideoconferencingwithtele-therapists. Inaddition,theinterventionimplementedshouldbeableto
+motivate the stroke survivors during the rehabilitation session
+Low-TechAssistiveTechnology and give meaningful outcome to them. The technological
+Equipmentusedtoincrease,maintainorimprovethefunctional intervention also needs to reduce the labor costs of stroke
+capabilities of individuals with disabilities in all aspects of life, rehabilitation, while simultaneously allow the survivors to
+including at work, home, or in the community-dwelling is undergo their treatments with minimum supervision. In
+referred to as assistive technology (AT) (32, 61). Whereas low- some cases, however, survivors tend to rely entirely on the
+techassistivetechnologyorlow-techATisdefinedasdevicesor interventionsandbecometoodependentonthetherapy,which
+equipmentthatdonotrequiremuchtraining,inexpensive,and eventually causes other impairments to occur. If this happens,
+FrontiersinPublicHealth|www.frontiersin.org 6 February2022|Volume9|Article783565
+Selamatetal. TechnologicalInterventionforStrokeRehabilitation
+the technological intervention is not much different from the Fromthepastdecade,newtechnologyisconstantlychanging
+conventional method and could be neglected. The appropriate the rehabilitation arena. Technological treatment is helping in
+technologicalinterventiontobeimplementedshouldbeflexible neuroplasticityandlearningprogressi.e.,thekeyintherecovery
+andnotlimitedtoonlyspecificfunctionalimpairmentandeasy process of stroke (94). Moreover, the technological treatment
+tobelearnedbythepractitionersandcaregivers. gives clients more repetitions, practice time, and intensity than
+On the other hand, technological intervention in theconventionalmethod.
+rehabilitation might bring challenges to both practitioners and
+survivors. For example, the survivors need to be fully assisted The Lack of Technology Utilization
+during the rehabilitation session when using the advanced
+It is pertinent that many countries in Southeast Asia build
+technologicalinterventionatthehospitals.Itispreferredforthe
+rehabilitation centres to benefit in stroke rehabilitation
+technologicalinterventionwithlongandcontinuouspracticeto
+treatment. However, most centres rely on conventional
+becarriedoutasahome-basedtherapytoimprovetherecover
+therapy rather than utilizing technology for rehabilitation.
+process. The technology-based therapy is recommended to be
+The critical factor to the lack of technology utilization in
+applicable toward most stroke survivors with various stages or
+rehabilitation facilities is the dearth of urgency and emphasis
+severities, and diverse functional impairments. Moreover, the
+for clinical rehabilitation by the policy-making authorities
+technology should be intuitive, interesting and attractive in
+(101). The clients at the rehabilitative phase are often not
+termsoffunctionalityandphysicalappearancetoencouragethe
+in dire need than those in emergency trauma or requiring
+continuoususe(95).
+a lifesaving procedure (102). Besides, the lack of awareness
+From the consultation session, it can be concluded that the
+among healthcare professionals toward advanced rehabilitation
+technologicalinterventionsareexpectedtofacilitatetheneedsof
+technology may influence the utilization of technology in
+survivors,practitioners,andcaregiversduringtherehabilitation.
+rehabilitation facilities (103). The absence of active interest
+The intervention should also be user-friendly, safe to use,
+groups or society in promoting rehabilitation technology also
+and easily operated by the clients and healthcare practitioners.
+hinderstheawarenessoftheadvantageofadvancedrehabilitation
+In addition, most of the existing interventions found in
+equipment. Furthermore, conventional practices and manual
+Southeast Asia were classified as high-tech interventions, and
+therapy have long been accepted by therapists to be providing
+the clients are required to attend the therapy session in the
+substantialbenefitstoclients(104).Oneofthepurposesofusing
+hospital or rehab center. This adds to the financial burden
+thetechnologicalinterventionistoreducetheburdenofstroke
+of the survivors and their families. Therefore, it is highly
+survivors’ caregivers and families. However, if the cost of the
+recommended to make full use of the current advanced
+technology is not proportional to the benefits obtained from
+technology to help reduce the recovery period and provide a
+its application, it will lead to financial burden for the stroke
+moreaffordablehome-basedtechnologicalinterventionforpost-
+survivors and their family members. Thus, there is a need to
+strokerehabilitation.
+ensure the cost-effectiveness of the interventions implemented
+forthispurpose.
+DISCUSSIONS
+Country’s Economic Status Influences the
+Implementation of Technological
+Thisscopingreviewaddressesanewresearcharearelatedtothe
+technological therapy implemented in stroke rehabilitation for Interventions
+strokesurvivorsinSoutheastAsia.Itprovidesacomprehensive Based on this scoping review, Singapore has reported the
+understanding of this topic and has identified the critical highest number of studies (n = 25) involving the advanced
+gaps.Theconsultationsessionconductedwiththestakeholders technologicalinterventionimplementedinstrokerehabilitation
+provides additional value to the review. According to a and followed by Thailand (n = 10), Malaysia (n = 5), and
+framework designed by Arksey and O’Malley (96), a review Indonesia (n = 1). In Southeast Asia, Singapore has rapidly
+canbeimproved,andthefindingsgeneratedaremorevaluable developedfromalow-incomecountrytoahigh-incomecountry
+whenpractitionersandconsumerscontributetotheworkinthe (105) and has become another developed country after Brunei
+consultationsession(97). (106). Likewise, Thailand has made extraordinary social and
+Themaingoalofrehabilitationistohelpstrokesurvivorsbe economic development progress during the last four decades,
+asindependentaspossibleandattainthebestqualityoflife(98). shiftingfromalow-incometoanupper-middle-incomecountry
+The treatment receives by the stroke survivors is to help them inlessthanageneration(107).Asaresult,Thailandhasbecome
+relearnthelostskillswhenpartofthebrainisdamaged.These areferenceforanation’sdevelopmentsuccessstory,withrobust
+skills may include coordinating the leg movements to regain growth and significant poverty reduction and significant social
+walking ability or teaching survivors new ways of performing progress(107).
+tasks by complementing the remining disabilities (99). There This paper reveals that the acceptance of technological
+is a strong consensus among the rehabilitation experts that the advancement has a relevant correlation with the country’s
+mostimportantelementinanyrehabilitationprogrammeisfor economicgrowth.Thiscorrelationisapparentwhencomparing
+the stroke survivors to be carefully directed, well-focused, and the number of studies using technological interventions in
+performacontinuouspractice(100). stroke rehabilitation in Southeast Asia countries based on their
+FrontiersinPublicHealth|www.frontiersin.org 7 February2022|Volume9|Article783565
+Selamatetal. TechnologicalInterventionforStrokeRehabilitation
+economicstatus.ItjustifieswhySingaporehasreportedthemost (COVID-19)pandemicoutbreakcausesanurgentneedtoreduce
+studies followed by other countries. Unfortunately, in low and hospital stays and visits (119). At this crucial time, stroke
+middle-incomecountries,thetechnologyforrehabilitationisnot clients have been forced to be catered to as a lower priority to
+widely used, though there are attempts on its applications for avoid overburdening the healthcare system (119, 120). Because
+therapeuticpurposes(108,109). of this, the clients’ therapy sessions have been reduced as a
+In this scoping review, most of the interventions used were result of physical distancing and this has indirectly affected the
+advancedtechnologiesandfoundmostlyinthetertiaryhospitals quality of care in stroke survivors. For the same reason, the
+or the rehabilitation units. Besides, the stroke rehabilitation technological intervention should be fundamentally safe, user-
+facilities available are platform-based. This could be somewhat friendly, cost-effective, engaging and motivating. The home-
+inconvenient in terms of traveling and logistics, especially based technological aids or devices can also be designed to be
+if the client stays far away from the health institutions. portableorevenwearabletofitintoalimitedspace.Furthermore,
+Due to this, the home-based therapies should at least offer thesedevicesortoolsshouldbedurablesothatlittlemaintenance
+compatible benefits and affordable in price. An overpriced isrequiredoverpotentiallylongperiodsofuse(119).
+technological aid causes a burden on survivors’ caregivers and Itisrelevanttousetechnologicalinterventionasanalternative
+theirfamilymembers,eventuallydemotivatingthemtocontinue methodtoprovideclientswithhigh-qualitytherapytooptimize
+thetherapysessions. long-term functional outcomes and promote stroke survivors’
+independence and quality of life. This is particularly for those
+who have difficulties traveling to the hospitals or rehabilitation
+Further Promoting the Use of
+facilities. Therefore, it is undoubtedly that there is an obvious
+Technological Interventions in Stroke
+need to further promote the integration of technological aids
+Rehabilitation toward the conventional techniques in stroke rehabilitation,
+The mentioned technological interventions in the selected due to positive effect shown on the client’s recovery period, a
+studiesweremostlypracticaltobeimplementedasanadjunctto decrease of human labor intensive, reducing the traveling cost,
+conventionaltherapy.However,inthisscopingreview,itisfound andlesseningthehospitalvisits.
+thatmostofthetechnologicalinterventionsappliedwerefocused
+Limitation
+on physical training, especially on the upper extremities, and
+only a few studies were meant for the lower extremities. When This scoping review has several limitations. Firstly, although
+a person is diagnosed with a stroke, he/she usually experience the exclusion of gray literature gives a small impact, it may
+difficultiesinperformingtheactivitiesofdailyliving(ADL)due still be beneficial in controlling for the overestimation of
+to weakened mobility (110). A review by Hobbs & Artemiadis conclusion(121),providingbettercoverageandwiderevidence
+(111) suggested the exploration of other technologies for lower mapping (122). Hence, limited resources in terms of facility
+limbstrokerehabilitation—whichwerenotfoundinthisscoping andaccesstograyliterature,lackofexpertiseinsearchingsuch
+review, such as on physical implementation (i.e., exoskeleton evidence, and lack of manpower and financial support have
+andpoweredorthoses)andtargetedsensorimotorpathways(i.e., prevented our efforts from including the gray literature. Many
+vision and auditory feedback, equilibrioception, cutaneous and publications are made available in English due to the lingua
+hapticperception,inter-limbcoordinationmechanisms).Hence, francastatusandmostofthefindingsfromgrayliteraturewere
+it is necessary for the stroke survivors to perform repetitive also translated into journal publications for knowledge-sharing
+lower limb exercises to help them regain the gait, balance, purposes(28).Nevertheless,thisscopingreviewisstillvaluable
+and overall mobility. This is, therefore, highlights the need to andcomprehensiveinconveyingthepractice.
+encouragemorestudiesontechnologicalinterventionforlower Secondly,duringthestakeholders’consultation,somepanels
+extremityrehabilitation. briefly raised the limitation on utilization and acceptance
+Equallyimportant,moreattentiononothercomponentssuch of technology in practice and limited client preferences.
+as cognitive, social, and emotional support using technology is Nevertheless, although it is interesting to explore users’
+required,asagreedbythepreviousreviewfinding(2).Thereare perspectivesinunderstandingtheuseoftechnologyandhowit
+severalothertechnologicaladvancementsforrehabilitationthat benefitsthem,itisbeyondthescopeofthisscopingreview.
+canberesearchedbyreferringtotheinternationalreviews,which
+include the use of information technology and apps for home- CONCLUSION
+based,cognitiveandcaregivers’intervention(112–115),wearable
+devicesforupper-limb,participationintervention(116,117),and Strokescausesurvivorstolivewithseveredisabilitiesthataffect
+otheremergenceavailabilityoftheIndustrialRevolution4.0and their daily activities due to paralysis and impaired balance and
+InternetofThings. mobility.Fromthestandpointofrehabilitation,theclientsmust
+Anotheressentialpoint,technologicalinterventionsreported engage in an extensive and continuous therapeutic exercise for
+in the reviewed studies mostly took place in hospitals and the recovery process. The conventional stroke rehabilitation
+rehabilitationcentres,withveryfewinthecommunity-dwelling techniques usually take longer for stroke survivors to fully
+population. Traveling from home to the hospitals regularly for recover since they rely on the therapy sessions and exercises
+continuoustherapysessionscouldbeburdensome,especiallyfor conductedbythetherapists.Newrehabilitationtechniques,such
+rural areas (118). More importantly, the current coronavirus as constraint-induced, biofeedback, and robot-assisted therapy,
+FrontiersinPublicHealth|www.frontiersin.org 8 February2022|Volume9|Article783565
+Selamatetal. TechnologicalInterventionforStrokeRehabilitation
+have evolved in recent years and have been embraced as an DATA AVAILABILITY STATEMENT
+adjuncttoconventionaltechniques.
+The integration of technological intervention toward The original contributions presented in the study are included
+conventional therapies has shown a positive outcome to inthearticle/SupplementaryMaterial,furtherinquiriescanbe
+the survivor’s post-stroke recovery process. This is indeed a directedtothecorrespondingauthor/s.
+better form of therapy especially during the pandemic, where
+face-to-face consultation is restricted, which at the same time AUTHOR CONTRIBUTIONS
+encourages the survivors to undergo treatments. As a result,
+they could regain independence on mobility and perform the The inclusion/exclusion criteria and search strategy were
+activities of daily living (ADLs). However, there are several developed under the supervision of MR and RC. The search
+gaps identified in this scoping review, which include the in the databases was carried out by SS, HA, and MR who also
+lack of studies on technological intervention toward lower led the writing of the methodology section in the manuscript.
+extremities. Besides, most of the interventions were found in SS, RC, HA, and MR worked together on data analysis and
+the hospitals and rehabilitation units, and only a few studies manuscript writing. SS, MS, and HR contributed information
+were done in the community-dwelling or home-based therapy. on the direction of the data analysis and revised continuous
+Inaddition,manytechnologiesarestillyettobeexploredsince amendmentsofthemanuscriptdraft.Thefinalmanuscriptwas
+this scoping review only covers Southeast Asia countries and readandapprovedbyalltheauthors.
+the technologies available are predominated by prosperous
+countries. International references and collaborations should SUPPLEMENTARY MATERIAL
+be further encouraged to promote the use latest technological
+advancements.Nevertheless,thisscopingreviewrevealsthatthe The Supplementary Material for this article can be found
+utilization of technologies in stroke rehabilitation has begun to online at: https://www.frontiersin.org/articles/10.3389/fpubh.
+beacknowledgedandestablishedinSoutheastAsia. 2021.783565/full#supplementary-material
+REFERENCES
+12. Clare L, Kudlicka A, Oyebode JR, Jones RW, Bayer A, Leroi I, et al.
+Goal-orientedcognitiverehabilitationforearly-stagealzheimer’sandrelated
+1. LindsayMP,NorrvingB,SaccoRL,BraininM,HackeW,MartinsS,etal. dementias: the GREAT RCT. Health Technol Assess. (2019) 23:1–244.
+Worldstrokeorganization(WSO):globalstrokefactsheet2019.IntJStroke. doi:10.3310/hta23100
+(2019)14:806–17.doi:10.1177/1747493019881353 13. WhiteMJ,GutierrezA,McLaughlinC,EziakonwaC,NewmanLS,White
+2. Ahmad Ainuddin H, Romli MH, Hamid TA, Salim MS, Mackenzie L. M,etal.Apilotforunderstandinginterdisciplinaryteamsinrehabilitation
+StrokerehabilitationforfallsandriskoffallsinSoutheastAsia:ascoping practice.RehabilNurs.(2013)38:142–52.doi:10.1002/rnj.75
+reviewwithstakeholders’consultation.FrontPublicHealth.(2021)9:112. 14. GittlerM,DavisAM.Guidelinesforadultstrokerehabilitationandrecovery.
+doi:10.3389/fpubh.2021.611793 JAMA.(2018)319:820–1.doi:10.1001/jama.2017.22036
+3. Ying CY, Harith S, Ahmad A, Mukhali HB. Prevalence, risk factors and 15. DonohueK,HoevenaarsR,McEachernJ,ZemanE,MehtaS.Home-based
+secondarypreventionofstrokerecurrenceineightcountriesfromSouth, multidisciplinaryrehabilitationfollowinghipfracturesurgery:whatisthe
+EastandSoutheastAsia:ascopingreview.MedJMalaysia.(2018)73:90–9. evidence?RehabilResPract.(2013)2013:1–10.doi:10.1155/2013/875968
+4. WHOGlobalHealthEstimates.WHO.(2018).Availableonlineat:http:// 16. BuhagiarMA,NaylorJM,HarrisIA,XuanW,KohlerF,WrightR,etal.Effect
+www.who.int/healthinfo/global_burden_disease/en/ (accessed March 12, ofinpatientrehabilitationvsamonitoredhome-basedprogramonmobility
+2021). inpatientswithtotalkneearthroplastytheHIHOrandomizedclinicaltrial.
+5. Johnson W, Onuma O, Owolabi M, Sachdev S. Stroke: a global JAmMedAssoc.(2017)317:1037–46.doi:10.1001/jama.2017.1224
+response is needed. Bull World Health Organ. (2016) 94:634A−5A. 17. DoigE,FlemingJ,KuipersP,CornwellP,KhanA.Goal-directedoutpatient
+doi:10.2471/BLT.16.181636 rehabilitationfollowingTBI:apilotstudyofprogrammeeffectivenessand
+6. AldehaimAY,AlotaibiFF,UpholdCR,DangS.Theimpactoftechnology- comparisonofoutcomesinhomeanddayhospitalsettings.BrainInj.(2011)
+basedinterventionsoninformalcaregiversofstrokesurvivors:asystematic 25:1114–25.doi:10.3109/02699052.2011.607788
+review.Telemede-Health.(2016)22:223–31.doi:10.1089/tmj.2015.0062 18. Stolee P, Lim SN, Wilson L, Glenny C. Inpatient versus home-based
+7. YingCY,SakinahH,AhmadA,MukhalHB.Prevalence,riskfactorsand rehabilitationforolderadultswithmusculoskeletaldisorders:asystematic
+secondarypreventionofstrokerecurrenceineightcountriesfromSouth, review.ClinRehabil.(2012)26:387–402.doi:10.1177/0269215511423279
+EastandSoutheastAsia:ascopingreview.MedJMalaysia.(2018)73:90–9. 19. Putrino D. Telerehabilitation and emerging virtual reality approaches
+8. Chongsuvivatwong V, Phua KH, Yap MT,Pocock NS,Hashim JHet al. to stroke rehabilitation. Curr Opin Neurol. (2014) 27:631–6.
+HealthandhealthcaresystemsinSoutheastAsia:diversityandtransitions. doi:10.1097/WCO.0000000000000152
+Lancet.(2011)377:429–37.doi:10.1016/S0140-6736(10)61507-3 20. Ifejika-Jones NL, Barrett AM. Rehabilitation-emerging technologies,
+9. Donkor ES. Stroke in the 21st century: a snapshot of the burden, innovative therapies, and future objectives. Neurotherapeutics. (2011)
+epidemiology, and quality of life. Stroke Res Treat. (2018) 2018:1–10. 8:452–62.doi:10.1007/s13311-011-0057-x
+doi:10.1155/2018/3238165 21. FerreiraB,MenezesP.Gamifyingmotorrehabilitationtherapies:challenges
+10. Winstein CJ, Stein J, Arena R, Bates B, Cherney LR, Cramer SC, et al. and opportunities of immersive technologies. Information. (2020) 11:88.
+AHA/ASAguidelineguidelinesforadultstrokerehabilitationandrecovery. doi:10.3390/info11020088
+Stroke.(2016)47:98–169.doi:10.1161/STR.0000000000000098 22. ChanCV,KaufmanDR.Atechnologyselectionframeworkforsupporting
+11. Clare L, Bayer A, Burns A, Corbett A, Jones R, Knapp M, et al. Goal- deliveryofpatient-orientedhealthinterventionsindevelopingcountries.J
+orientedcognitiverehabilitationinearly-stagedementia:studyprotocolfor BiomedInform.(2010)43:300–6.doi:10.1016/j.jbi.2009.09.006
+a multi-centre single-blind randomised controlled trial (GREAT). Trials. 23. MunnZ,AromatarisE,TufanaruC,SternC,PorrittK,FarrowJ,etal.The
+(2013)14:1–15.doi:10.1186/1745-6215-14-152 developmentofsoftwaretosupportmultiplesystematicreviewtypes:the
+FrontiersinPublicHealth|www.frontiersin.org 9 February2022|Volume9|Article783565
+Selamatetal. TechnologicalInterventionforStrokeRehabilitation
+Joanna Briggs Institute System for the Unified Management, Assessment after chronic stroke. Disabil Rehabil Assist Technol. (2013) 8:121–4.
+andReviewofInformation(JBISUMARI).IntJEvidBasedHealthc.(2019) doi:10.3109/17483107.2012.737136
+17:36–43.doi:10.1097/XEB.0000000000000152 42. VárkutiB,GuanC,PanY,PhuaKS,AngKK,KuahCWK,etal.Restingstate
+24. Tricco AC, Lillie E, Zarin W, O’Brien KK, Colquhoun H, Levac D, changesinfunctionalconnectivitycorrelatewithmovementrecoveryfor
+etal.PRISMAextensionforscopingreviews(PRISMA-ScR):checklistand BCIandrobot-Assistedupper-extremitytrainingafterstroke.Neurorehabil
+explanation.AnnInternMed.(2018)169:467–73.doi:10.7326/M18-0850 NeuralRepair.(2013)27:53–62.doi:10.1177/1545968312445910
+25. PetersMD,MarnieC,TriccoAC,PollockD,MunnZ,AlexanderL,etal. 43. Suriya-Amarit D, Gaogasigam C, Siriphorn A, Boonyong S.
+Updatedmethodologicalguidancefortheconductofscopingreviews.JBI Effect of interferential current stimulation in management of
+EvidSynth.(2020)18:2119–26.doi:10.11124/JBIES-20-00167 hemiplegic shoulder pain. Arch Phys Med Rehabil. (2014) 95:1441–6.
+26. YoungJ,ForsterA.Rehabilitationafterstroke.BrMedJ.(2007)334:86–90. doi:10.1016/j.apmr.2014.04.002
+doi:10.1136/bmj.39059.456794.68 44. Yin CW, Sien NY, Ying LA, Chung SFCM, Tan May Leng D.
+27. Nussbaumer-StreitB,KleringsI,DobrescuAI,PersadE,StevensA,Garritty Virtual reality for upper extremity rehabilitation in early stroke: a
+C,etal.Excludingnon-Englishpublicationsfromevidence-synthesesdidnot pilot randomized controlled trial. Clin Rehabil. (2014) 28:1107–14.
+changeconclusions:ameta-epidemiologicalstudy.JClinEpidemiol.(2020) doi:10.1177/0269215514532851
+118:42–54.doi:10.1016/j.jclinepi.2019.10.011 45. AngKK,GuanC,PhuaKS,WangC,ZhouL,TangKY,etal.Brain-computer
+28. HartlingL,FeatherstoneR,NusplM,ShaveK,DrydenDM,Vandermeer interface-basedroboticendeffectorsystemforwristandhandrehabilitation:
+B. Grey literature in systematic reviews: a cross-sectional study of the resultsofathree-armedrandomizedcontrolledtrialforchronicstroke.Front
+contributionofnon-Englishreports,unpublishedstudiesanddissertations Neuroeng.(2014)7:1–9.doi:10.3389/fneng.2014.00030
+to the results of meta-analyses in child-relevant reviews. BMC Med Res 46. AngKK,GuanC,PhuaKS,WangC,ZhaoL,TeoWP,etal.Facilitating
+Methodol.(2017)17:1–1.doi:10.1186/s12874-017-0347-z effectsoftranscranialdirectcurrentstimulationonmotorimagerybrain-
+29. DahlinIvanoffS,HultbergJ.Understandingthemultiplerealitiesofeveryday computerinterfacewithroboticfeedbackforstrokerehabilitation.ArchPhys
+life:basicassumptionsinfocus-groupmethodology.ScandJOccupTher. MedRehabil.(2015)96:S79–87.doi:10.1016/j.apmr.2014.08.008
+(2006)13:125–32.doi:10.1080/11038120600691082 47. ThanakamchokchaiJ,TretriluxanaJ,JalayondejaC,PakaprotN.Immediate
+30. O’BrienKK,ColquhounH,LevacD,BaxterL,TriccoAC,StrausS,etal. effects of low-frequency repetitive transcranial magnetic stimulation to
+Advancingscopingstudymethodology:aweb-basedsurveyandconsultation augmenttask-specifictraininginsub-acutestroke.KKUResJ.(2015)20:105–
+ofperceptionsonterminology,definitionandmethodologicalsteps.BMC 19.doi:10.14456/kkurj.2015.10
+HealthServRes.(2016)16:305.doi:10.1186/s12913-016-1579-z 48. Ang KK, Chua KSG, Phua KS, Wang C, Chin ZY, Kuah CWK, et al. A
+31. AngKK,GuanC,SuiK,ChuaG,AngT,KuahC,etal.Aclinicalstudy randomizedcontrolledtrialofEEG-basedmotorimagerybrain-computer
+ofmotorimagery-basedbrain-computerinterfaceforupperlimbrobotic interfaceroboticrehabilitationforstroke.ClinEEGNeurosci.(2015)46:310–
+rehabilitation.In:AnnualInternationalConferenceoftheIEEEEngineering 20.doi:10.1177/1550059414522229
+inMedicineandBiologySociety.Singapore:IEEE(2009).p.5981–4. 49. ChuaKSG,CheeJ,WongCJ,LimPH,LimWS,HooCM,etal.Apilot
+32. Boonsinsukh R, Panichareon L, Phansuwan-Pujito P. Light touch cue clinicaltrialonavariableautomatedspeedandsensingtreadmill(VASST)
+throughacaneimprovespelvicstabilityduringwalkinginstroke.ArchPhys forhemipareticgaitrehabilitationinstrokepatients.FrontNeurosci.(2015)
+MedRehabil.(2009)90:919–26.doi:10.1016/j.apmr.2008.12.022 9:1–9.doi:10.3389/fnins.2015.00231
+33. Klaiput A, Kitisomprayoonkul W. Increased pinch strength in acute 50. SamuelGS,ChooM,ChanWY,KokS,NgYS.Theuseofvirtualreality-based
+and subacute stroke patients after simultaneous median and ulnar therapytoaugmentpoststrokeupperlimbrecovery.SingaporeMedJ.(2015)
+sensory stimulation. Neurorehabil Neural Rep. (2009) 23:351–6. 56:127–30.doi:10.11622/smedj.2015117
+doi:10.1177/1545968308324227 51. TretriluxanaJ,KantakS,TretriluxanaS,WuAD,FisherBE.Improvement
+34. Joo LY, Yin TS, Xu D, Thia E, Chia PF, Kuah CWK, et al. A feasibility inpareticarmreach-to-graspfollowinglowfrequencyrepetitivetranscranial
+studyusinginteractivecommercialoff-the-shelfcomputergaminginupper magneticstimulationdependsonobjectsize:apilotstudy.StrokeResTreat.
+limbrehabilitationinpatientsafterstroke.JRehabilMed.(2010)42:437–41. (2015)2015:1–13.doi:10.1155/2015/498169
+doi:10.2340/16501977-0528 52. KohGCH,YenSC,TayA,CheongA,NgYS,DeSilvaDA,etal.Singapore
+35. LambercyO,DovatL,YunH,WeeSK,KuahCW,ChuaKS,etal.Effectsofa tele-technologyaidedrehabilitationinstroke(STARS)trial:protocolofa
+robot-assistedtrainingofgraspandpronation/supinationinchronicstroke: randomized clinical trial on tele-rehabilitation for stroke patients. BMC
+apilotstudy.JNeuroengRehabil.(2011)8:63.doi:10.1186/1743-0003-8-63 Neurol.(2015)15:1–4.doi:10.1186/s12883-015-0420-3
+36. Sungkarat S, Fisher BE, Kovindha A. Efficacy of an insole shoe wedge 53. Kong KH, Loh YJ, Thia E, Chai A, Ng CY, Soh YM, et al. Efficacy of
+and augmented pressure sensor for gait training in individuals with a virtual reality commercial gaming device in upper limb recovery after
+stroke: a randomized controlled trial. Clin Rehabil. (2011) 25:360–9. stroke:arandomized,controlledstudy.TopStrokeRehabil.(2016)23:333–40.
+doi:10.1177/0269215510386125 doi:10.1080/10749357.2016.1139796
+37. Redzuan NS, Engkasan JP, Mazlan M, Freddy Abdullah SJ. Effectiveness 54. ChuaJ,CulpanJ,MenonE.Efficacyofanelectromechanicalgaittrainer
+of a video-based therapy program at home after acute stroke: a poststroke in singapore: a randomized controlled trial. Arch Phys Med
+randomized controlled trial. Arch Phys Med Rehabil. (2012) 93:2177–83. Rehabil.(2016)97:683–90.doi:10.1016/j.apmr.2015.12.025
+doi:10.1016/j.apmr.2012.06.025 55. Ahmad MA, Singh DK, Mohd Nordin NA, Hooi Nee K, Ibrahim N.
+38. AngKK,GuanC,PhuaKS,WangC,TehI,ChenCW,etal.Transcranial Virtual reality games as an adjunct in improving upper limb function
+direct current stimulation and EEG-based motor imagery BCI for upper and general health among stroke survivors. International journal of
+limbstrokerehabilitation.ProcAnnuIntConfIEEEEngMedBiolSocEMBS. environmental research and public health. (2019) 16:5144. doi: 10.3390/
+(2012)4128–31.doi:10.1109/EMBC.2012.6346875 ijerph16245144
+39. RajaratnamBS,GuiKaiEnJ,LeeJiaLinK,SweeSinK,SimFenRuS,Enting 56. HongX,LuZK,TehI,NasrallahFA,TeoWP,AngKK,etal.Brainplasticity
+L, et al. Does the inclusion of virtual reality games within conventional followingMI-BCItrainingcombinedwithtDCSinarandomizedtrialin
+rehabilitationenhancebalanceretrainingafterarecentepisodeofstroke? chronic subcortical stroke subjects: a preliminary study. Sci Rep. (2017)
+RehabilResPract.(2013)2013:1–6.doi:10.1155/2013/649561 7:1–12.doi:10.1038/s41598-017-08928-5
+40. Singh DKA, Mohd Nordin NA, Aziz NAA, Lim BK, Soh LC. Effects of 57. SamuelGS,OeyNE,ChooM,JuH,ChanWY,KokS,etal.Combining
+substitutingaportionofstandardphysiotherapytimewithvirtualreality levodopaandvirtualreality-basedtherapyforrehabilitationoftheupper
+gamesamongcommunity-dwellingstrokesurvivors.BMCNeurol.(2013) limbafteracutestroke:pilotstudypartII.SingaporeMedJ.(2017)58:610–7.
+13:1–7.doi:10.1186/1471-2377-13-199 doi:10.11622/smedj.2016111
+41. Tretriluxana J, Kantak S, Tretriluxana S, Wu AD, Fisher BE. Low 58. YapHK,LimJH,NasrallahF,YeowCH.Designandpreliminaryfeasibility
+frequency repetitive transcranial magnetic stimulation to the non- studyofasoftroboticgloveforhandfunctionassistanceinstrokesurvivors.
+lesioned hemisphere improves paretic arm reach-to-grasp performance FrontNeurosci.(2017)11:547.doi:10.3389/fnins.2017.00547
+FrontiersinPublicHealth|www.frontiersin.org 10 February2022|Volume9|Article783565
+Selamatetal. TechnologicalInterventionforStrokeRehabilitation
+59. SirinuchUtarapichatMD.Effectsoftranscranialdirectcurrentstimulation 75. ErikssonJ,Mataric´MJ,WinsteinCJ.Hands-offassistiveroboticsforpost-
+on motor activity of lower limb muscles in chronic stroke. J Med Assoc strokearmrehabilitation.In:9thInternationalConferenceonRehabilitation
+Thailand.(2018)105:131–6. Robotics.LosAngeles,CA:IEEE(2005).p.21–4.
+60. Tretriluxana J, Thanakamchokchai J, Jalayondeja C, Pakaprot N, 76. Poli P, Morone G, Rosati G, Masiero S. Robotic technologies and
+TretriluxanaS.Thepersistedeffectsoflow-frequencyrepetitivetranscranial rehabilitation:newtoolsforstrokepatients’therapy.BiomedResInt.(2013)
+magnetic stimulation to augment task-specific induced hand recovery 2013:1–8.doi:10.1155/2013/153872
+following subacute stroke: extended study. Ann Rehabil Med. (2018) 77. ForresterLW,RoyA,KrebsHI,MackoRF.Ankletrainingwitharobotic
+42:777–87.doi:10.5535/arm.2018.42.6.777 deviceimproveshemipareticgaitafterastroke.NeurorehabilNeuralRepair.
+61. Khumsapsiri N, Siriphorn A, Pooranawatthanakul K, Oungphalachai (2011)25:369–77.doi:10.1177/1545968310388291
+T. Training using a new multidirectional reach tool improves balance 78. DePaulaGV,DaSilvaTR,DeSouzaJT,LuvizuttoGJ,BazanSGZ,Modolo
+in individuals with stroke. Physiotherapy Res Int. (2018) 23:e1704. GP,etal.Effectofankle-footorthosisonfunctionalmobilityanddynamic
+doi:10.1002/pri.1704 balanceofpatientsafterstroke:studyprotocolforarandomizedcontrolled
+62. Utomo B, Triwiyanto, Suhartini S, Luthfiyah S, Mudjiono U. Impact of clinicaltrial.Med.(2019)98:e17317.doi:10.1097/MD.0000000000017317
+roboticexoskeletonbasedonelectromyographyforrehabilitationofpost 79. Bamdadian A, Guan C, Ang KK, Xu J. Online semi-supervised learning
+strokepatient.AIPConfProc.(2018)2014:020105.doi:10.1063/1.5054509 withKLdistanceweightingforMotorImagery-basedBCI.In:2012Annual
+63. Klomjai W, Aneksan B, Pheungphrarattanatrai A, Chantanachai T, InternationalConferenceoftheIEEEEngineeringinMedicineandBiology
+ChoowongN,BunleukhetS,etal.Effectofsingle-sessiondual-tDCSbefore Society.Singapore:IEEE(2012).p.2732–5.
+physicaltherapyonlower-limbperformanceinsub-acutestrokepatients:a 80. PollockA,GrayC,CulhamE,DurwardBR,LanghorneP.Interventionsfor
+randomizedsham-controlledcrossoverstudy.AnnPhysRehabilMed.(2018) improvingsit-to-standabilityfollowingstroke.CochraneDatabaseSystRev.
+61:286–91.doi:10.1016/j.rehab.2018.04.005 (2014)1–65.doi:10.1002/14651858
+64. FoongR,TangN,ChewE,ChuaKSG,AngKK,QuekC,etal.Assessmentof 81. KumutpongpanichT,SenanarongV.Associationsbetweenbrainimaging
+theefficacyofEEG-basedMI-BCIwithvisualfeedbackandEEGcorrelatesof characteristics and cognition in post-stroke patients. J Med Assoc Thai.
+mentalfatigueforupper-limbstrokerehabilitation.IEEETransBiomedEng. (2017)100:504–11.
+(2020)67:786–95.doi:10.1109/TBME.2019.2921198 82. NurmikkoT,MacIverK,BresnahanR,HirdE,NelsonA,SaccoP.Motor
+65. Asano M, Tai BC, Yeo FYT, Yen SC, Tay A, Ng YS, et al. Home-based cortexreorganizationandrepetitivetranscranialmagneticstimulationfor
+tele-rehabilitation presents comparable positive impact on self-reported pain—a methodological study. Neuro Technol Neural Interface. (2016)
+functional outcomes as usual care: the Singapore tele-technology aided 19:669–78.doi:10.1111/ner.12444
+rehabilitation in stroke (STARS) randomised controlled trial. J Telemed 83. ThibautA,MoissenetF,DiPerriC,SchreiberC,RemacleA,Kolanowski
+Telecare.(2021)27:231–8.doi:10.1177/1357633X19868905 E, et al. Brain plasticity after implanted peroneal nerve electrical
+66. Bower KJ, Verdonck M, Hamilton A, Williams G, Tan D, Clark RA. stimulation to improve gait in chronic stroke patients: two case reports.
+Whatfactorsinfluenceclinicians’useoftechnologyinneurorehabilitation? NeuroRehabilitation.(2017)40:251–8.doi:10.3233/NRE-161410
+A multisite qualitative study. Physical Therapy. (2021) 101:pzab031. 84. Elsner B, Kugler J, Pohl M, Mehrholz J. Transcranial direct current
+doi:10.1093/ptj/pzab031 stimulation(tDCS)forimprovingactivitiesofdailyliving,andphysicaland
+67. BudhotaA,ChuaKS,HussainA,KagerS,CherpinA,ContuS,etal.Robotic cognitivefunctioning,inpeopleafterstroke.CochraneDatabaseSystRev.
+assistedupperlimbtrainingpoststroke:arandomizedcontroltrialusing (2020)1–296.doi:10.1002/14651858.CD009645.pub4
+combinatoryapproachtowardreducingworkforcedemands.FrontNeurol. 85. Yozbatiran N, Keser Z, Davis M, Stampas A, O’Malley M, Cooper-Hay
+(2021)12:622014.doi:10.3389/fneur.2021.622014 C, et al. Transcranial direct current stimulation (tDCS) of the primary
+68. KohKT,LawWC,ZawWM,FooDH,TanCT,StevenA,etal.Smartphone motorcortexandrobot-assistedarmtraininginchronicincompletecervical
+electrocardiogramfordetectingatrialfibrillationafteracerebralischaemic spinal cord injury: a proof of concept sham-randomized clinical study.
+event: a multicentre randomized controlled trial. EP Europace. (2021) NeuroRehabilitation.(2016)39:401–11.doi:10.3233/NRE-161371
+23:1016–23.doi:10.1093/europace/euab036 86. Hordacre B. The role of telehealth to assist in-home tDCS:
+69. HuM,ChengHJ,JiF,ChongJS,LuZ,HuangW,etal.Brainfunctional opportunities, promising results and acceptability. Brain Sci. (2018)
+changesinstrokefollowingrehabilitationusingbrain-computerinterface- 8:102.doi:10.3390/brainsci8060102
+assistedmotorimagerywithandwithouttDCS:apilotstudy.FrontHuman 87. RibeiroTH,VieiraML.Motioncapturetechnology—benefitsandchallenges.
+Neurosci.(2021)15:692304.doi:10.3389/fnhum.2021.692304 IntJInnovResTechnolSci.(2016)48:2321–1156.
+70. Luo Z, Durairaj P, Lau CM, Katsumoto Y, Do EY, Zainuddin AS, et al. 88. KongW,SessaS,CosentinoS,ZeccaM,SaitoK,WangC,etal.Development
+Gamificationofupperlimbvirtualrehabilitationinpoststrokeelderlyusing ofareal-timeIMU-basedmotioncapturesystemforgaitrehabilitation.In:
+silvertune-amulti-sensorytactilemusicalassistivesystem.In:2021IEEE7th 2013IEEEInternationalConferenceonRoboticsandBiomimetics(ROBIO).
+InternationalConferenceonVirtualReality(ICVR).Singapore:IEEE(2021). Tokyo:IEEE(2013).p.2100–5.
+p.149–55. 89. Boian RF, Deutsch JE, Lee CS, Burdea GC, Lewis J. Haptic effects for
+71. Mohamad NA, Che Adinan SN, Yusof Khan AHK, Nik Abdul Ghani virtualreality-basedpost-strokerehabilitation.In:11thSymposiumonHaptic
+NNH, Kamis MFA-K, Wan Sulaiman WA, et al. Transcranial direct InterfacesforVirtualEnvironmentandTeleoperatorSystems,2003.HAPTICS
+current stimulation with multiple oral re-reading therapy for pure 2003.Proceedings.NewJersey:IEEE(2003).p.247–53.
+alexia without agraphia: a case report. Neurocase. (2021) 3:1–5. 90. ChoiYH,KuJ,LimH,KimYH,PaikNJ.Mobilegame-basedvirtualreality
+doi:10.1080/13554794.2021.1974487 rehabilitationprogramforupperlimbdysfunctionafterischemicstroke.Res
+72. Chiri A, Vitiello N, Giovacchini F, Roccella S, Vecchi F, Carrozza MC. NeurolNeurosci.(2016)34:455–63.doi:10.3233/RNN-150626
+Mechatronic design and characterization of the index finger module of 91. MubinO,AlnajjarF,JishtuN,AlsinglawiB,AlMahmudA.Exoskeletons
+a hand exoskeleton for post-stroke rehabilitation. Trans Mechatr. (2011) withvirtualreality,augmentedreality,andgamificationforstrokepatients’
+17:884–94.doi:10.1109/TMECH.2011.2144614 rehabilitation: systematic review. JMIR Rehabil Assis Technol. (2019)
+73. EdwardsDF,HahnMG,BaumCM,PerlmutterMS,SheedyC,Dromerick 6:e12010.doi:10.2196/12010
+AW.Screeningpatientswithstrokeforrehabilitationneeds:validationof 92. BoianR,LeeC,DeutschJ,BurdeaG,LewisJ.Virtualreality-basedsystem
+thepost-strokerehabilitationguidelines.NeurorehabilNeuralRepair.(2006) for ankle rehabilitation post stroke. Workshop Virt Real Rehabil. (2002)
+20:42–8.doi:10.1177/1545968305283038 77:86–96.
+74. Gao D, Furukawa K, Nakashima H, Gao J, Wang J, Muraoka K. Room 93. ShahrinS,RosliA,AbHadiMH,AwangH.Atheoreticalframeworkof
+temperature deposition of silicon nitride films for passivation of organic secureenvironmentofvirtualrealityapplicationintertiaryTVETeducation
+electroluminescence device using a sputtering-type electron cyclotron using blockchain technology. J Contemp Soc Sci Educ Studies. (2021)
+resonanceplasma.JapanJApplPhysics.(1999)38:4868. 1:39–46.
+FrontiersinPublicHealth|www.frontiersin.org 11 February2022|Volume9|Article783565
+Selamatetal. TechnologicalInterventionforStrokeRehabilitation
+94. FangZ,YangZ,WangQ,WangC,ChenS.Awearablecomprehensivedata rehabilitation. Front Neuro. (2020) 14:19. doi: 10.3389/fnbot.2020.0
+sampling system for gait analysis. J Med Eng Technol. (2018) 42:335–43. 0019
+doi:10.1080/03091902.2018.1430184 112. Piran P, Thomas J, Kunnakkat S, Pandey A, Gilles N, Weingast
+95. DemainS,BurridgeJ,Ellis-HillC,HughesAM,YardleyL,Tedesco-Triccas S, et al. Medical mobile applications for stroke survivors
+L, et al. Assistive technologies after stroke: self-management or fending and caregivers. J Stroke Cerebrov Dis. (2019) 28:104318.
+for yourself? A focus group study. BMC Health Serv Res. (2013) 13:1–2. doi:10.1016/j.jstrokecerebrovasdis.2019.104318
+doi:10.1186/1472-6963-13-334 113. Akbari A, Haghverd F, Behbahani S. Robotic home-based rehabilitation
+96. Arksey H, O’Malley L. Scoping studies: towards a methodological systems design: from a literature review to a conceptual framework
+framework. Int J Soc Res Methodol. (2005) 8:19–32. for community-based remote therapy during CoViD-19 pandemic. Front
+doi:10.1080/1364557032000119616 RoboticsAI.(2021)8:612331.doi:10.3389/frobt.2021.612331
+97. Oliver S, Peersman G, Using Research for Effective Health Promotion. 114. Chen Y, Abel KT, Janecek JT, Chen Y, Zheng K, Cramer
+Buckingham;Philadelphia,PA:OpenUniversityPress(2001). SC. International journal of medical informatics home-based
+98. Kowal M, Kołcz A, Dymarek R, Paprocka-Borowicz M, Gnus J. Muscle technologies for stroke rehabilitation. Syst Rev. (2019) 123:11–22.
+torque production and kinematic properties in post-stroke patients: doi:10.1016/j.ijmedinf.2018.12.001
+a pilot cross-sectional study. Acta Bioengin Biom. (2020) 22:11–20. 115. Cogollor JM, Rojo-Lacal J, Hermsdörfer J, Ferre M, Waldmeyer MT,
+doi:10.37190/ABB-01467-2019-02 GiachritsisC,etal.Evolutionofcognitiverehabilitationafterstrokefrom
+99. Federici S, Meloni F, Bracalenti M, De Filippis ML. The effectiveness of traditionaltechniquestosmartandpersonalizedhome-basedinformation
+powered,activelowerlimbexoskeletonsinneurorehabilitation:asystematic and communication technology systems: literature review. JMIR Rehabil
+review.NeuroRehabilitation.(2015)37:321–40.doi:10.3233/NRE-151265 AssisTechnol.(2018)5:e8548.doi:10.2196/rehab.8548
+100. Moreno JC, Del Ama AJ, de Los Reyes-Guzmán A, Gil-Agudo A, 116. Maceira-ElviraP,PopaT,SchmidAC,HummelFC.Wearabletechnology
+Ceres R, Pons JL. Neurorobotic and hybrid management of lower limb in stroke rehabilitation: towards improved diagnosis and treatment
+motor disorders: a review. Med Biol Eng Comp. (2011) 49:1119–30. of upper-limb motor impairment. J Neuroeng Rehabil. (2019) 16:1–8.
+doi:10.1007/s11517-011-0821-4 doi:10.1186/s12984-019-0612-y
+101. MaggioniS,Melendez-CalderonA,VanAsseldonkE,Klamroth-Marganska 117. Parker J, Powell L, Mawson S. Effectiveness of upper limb wearable
+V, Lünenburger L, Riener R, et al. Robot-aided assessment of lower technologyforimprovingactivityandparticipationinadultstrokesurvivors:
+extremity functions: a review. J Neuroeng Rehabil. (2016) 13:1–25. systematicreview.JMedIntRes.(2020)22:e15981.doi:10.2196/15981
+doi:10.1186/s12984-016-0180-3 118. ChenY,ChenY,ZhengK,DodakianL,SeeJ,ZhouR,etal.Aqualitative
+102. TuckerMR,OlivierJ,PagelA,BleulerH,BouriM,LambercyO,etal.Control study on user acceptance of a home-based stroke telerehabilitation
+strategiesforactivelowerextremityprostheticsandorthotics:areview.J system.TopicsStrokeRehabil.(2020)27:81–92.doi:10.1080/10749357.2019.
+NeuroengRehabil.(2015)12:1–30.doi:10.1186/1743-0003-12-1 1683792
+103. Gil-CastilloJ,AlnajjarF,KoutsouA,TorricelliD,MorenoJC.Advancesin 119. Lambercy O, Lehner R, Chua KS, Wee SK, Rajeswaran DK, Kuah CW,
+neuroprosthetic management offoot drop: areview. J Neuroeng Rehabil. etal.Neurorehabilitationfromadistance:canintelligenttechnologysupport
+(2020)17:1–9.doi:10.1186/s12984-020-00668-4 decentralized access to quality therapy?. Front Robotics AI. (2021) 8:126.
+104. Pin TW, Butler PB, Purves S. Use of whole body vibration therapy in doi:10.3389/frobt.2021.612415
+individualswithmoderateseverityofcerebralpalsy-afeasibilitystudy.BMC 120. JordanRE,AdabP,ChengK.Covid-19:riskfactorsforseverediseaseand
+Neurol.(2019)19:1–7.doi:10.1186/s12883-019-1307-5 death.(2020)368:1–2.doi:10.1136/bmj.m1198
+105. Haberfehlner H, Goudriaan M, Bonouvrié LA, Jansma EP, Harlaar J, 121. McAuley L, Tugwell P, Moher D. Does the inclusion of grey literature
+Vermeulen RJ, et al. Instrumented assessment of motor function in influenceestimatesofinterventioneffectivenessreportedinmeta-analyses?
+dyskineticcerebralpalsy:asystematicreview.JNeuroengRehabil.(2020) Lancet.(2000)356:1228–31.doi:10.1016/s0140-6736(00)02786-0
+17:1–2.doi:10.1186/s12984-020-00658-6 122. Blackhall K. Finding studies for inclusion in systematic reviews of
+106. Raimi L, Olowo R, Shokunbi M. A comparative discourse of sustainable interventionsforinjuryprevention–theimportanceofgreyandunpublished
+finance options for agribusiness transformation in Nigeria and Brunei: literature.InjuryPrev.(2007)113:359.doi:10.1136/ip.2007.017020
+implicationsforentrepreneurshipandenterprisedevelopment.WorldJSci
+TechnolSustainDev.(2021)18:325–50.doi:10.1108/WJSTSD-05-2021-0051
+ConflictofInterest:Theauthorsdeclarethattheresearchwasconductedinthe
+107. Estrada G, Han X, Park D, Tian G. Asia’s middle-income challenge:
+absenceofanycommercialorfinancialrelationshipsthatcouldbeconstruedasa
+an overview, emerging markets finance and trade. (2018). 54:1208–24.
+potentialconflictofinterest.
+doi:10.1080/1540496X.2017.1421939
+108. Naslund JA, Aschbrenner KA, Araya R, Marsch LA, Unützer J, Patel V,
+Publisher’sNote:Allclaimsexpressedinthisarticlearesolelythoseoftheauthors
+etal.Digitaltechnologyfortreatingandpreventingmentaldisordersinlow-
+anddonotnecessarilyrepresentthoseoftheiraffiliatedorganizations,orthoseof
+incomeandmiddle-incomecountries:anarrativereviewoftheliterature.
+LancetPsychiatry.(2017)4:486–500.doi:10.1016/S2215-0366(17)30096-2 thepublisher,theeditorsandthereviewers.Anyproductthatmaybeevaluatedin
+109. Abaza H, Marschollek M. mHealth application areas and technology thisarticle,orclaimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+combinations. Methods Inform Med. (2017) 56(Suppl. 01):e105–22. endorsedbythepublisher.
+doi:10.3414/ME17-05-0003
+110. Vourvopoulos A, Faria AL, Ponnam K, Bermudez i Badia S. RehabCity: Copyright©2022 Selamat,CheMe,AhmadAinuddin,Salim,RamliandRomli.
+design and validation of a cognitive assessment and rehabilitation tool Thisisanopen-accessarticledistributedunderthetermsoftheCreativeCommons
+throughgamifiedsimulationsofactivitiesofdailyliving.In:Proceedingsof AttributionLicense(CCBY).Theuse,distributionorreproductioninotherforums
+the11thConferenceonAdvancesinComputerEntertainmentTechnology. ispermitted,providedtheoriginalauthor(s)andthecopyrightowner(s)arecredited
+Madeira:ACM(2014).p.1–8. andthattheoriginalpublicationinthisjournaliscited,inaccordancewithaccepted
+111. Hobbs B, Artemiadis P. A review of robot-assisted lower-limb academicpractice.Nouse,distributionorreproductionispermittedwhichdoesnot
+stroke therapy: unexplored paths and future directions in gait complywiththeseterms.
+FrontiersinPublicHealth|www.frontiersin.org 12 February2022|Volume9|Article783565

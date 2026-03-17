@@ -1,0 +1,315 @@
+Churchill et al. J Patient Rep Outcomes 2021, 5(Suppl 2):103 Journal of Patient-
+https://doi.org/10.1186/s41687-021-00369-z
+Reported Outcomes
+REPORT Open Access
+Implementation of EQ-5D-5L as a routine
+outcome measure in Community Outpatient
+and Specialized Rehabilitation Services
+Katie Churchill1,2,3,5* , Lisa Warner1, Eileen Keogh1 and Fatima Al Sayah4
+Abstract
+Rehabilitation is a person-centred approach that optimizes functioning to reduce impairments in individuals with
+illness, injury or disability. Patient-reported outcome measures (PROMs) have a role in rehabilitation to inform clinical
+practice, enhance patient-centered care, support health services programming, direct performance measurement,
+and contribute to quality improvement. A Canadian provincial health system implemented a Rehabilitation Model of
+Care that provides a real-world perspective on the adoption of a standardized PROM, the EuroQol EQ-5D-5L, in the
+community rehabilitation setting. This article will provide an overview of PROMs implementation in the community
+rehabilitation context, and discuss key facilitators and challenges to implementation within the 18 early adopter sites
+and with the spread and scale to 152 urban and rural sites. A change management approach, contextualized local
+coaching and strong leadership support were facilitators in the initial phases of implementation. Adequate resources
+and infrastructure from technological platforms for electronic data capture and visualization were assets in addition to
+clinical teams that had existing strong quality improvement cultures to collect PROMS in existing workflows. Chal-
+lenges to implementation include the clinical relevance of the PROM, difficulty with contextualization to suit diverse
+clinical and programmatic teams, and the need for further knowledge sharing activities to build readiness for adop-
+tion. The implementation of PROMs in community rehabilitation has added value at the clinical (micro), programmatic
+(meso) and health system level (macro). Clinically, it has promoted the importance of incorporating the patients’ voice
+into outcome measurement. At the program level, the cultivation of a data informed learning community was fos-
+tered as teams make improvements and use data to inform future program growth or service changes. Finally, at the
+health system level, data visualization promotes transparency and accountability with performance across the prov-
+ince and the standardized use of the EQ-5D-5L provides a consistent language to promote measurement throughout
+the health system.
+Background and contribute to quality improvement initiatives [2].
+Rehabilitation is a person-centred approach that opti- Capturing patient’s perception of their health and health
+mizes function to reduce impairments in individuals with outcomes through the collection of PROMs is one
+illness, injury or disability [1]. Patient-reported outcome approach used in Canada and around the world to pro-
+measures (PROMs) have a role to inform clinical prac- mote patient-centred care [3].
+tice, enhance patient-centered care, support health ser- Globally, there is a growing body of literature on the
+vice programming, direct performance measurement, routine use of PROMs within the rehabilitation context
+[4]; however, consistent and standardized use of PROMs
+in rehabilitation has not been extensively adopted [5].
+*Correspondence: Katie.churchill@ahs.ca In a recent systematic review, Briggs and colleagues
+1 Alberta Health Services, Edmonton, AB, Canada report more barriers than facilitators to PROMs use in
+Full list of author information is available at the end of the article
+© The Author(s) 2021. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/.
+Churchill et al. J Patient Rep Outcomes 2021, 5(Suppl 2):103 Page 2 of 6
+this setting [5]. Alberta Health Services (AHS) recently adopter group (pilot phase) which included the collec-
+implemented a Rehabilitation Model of Care (R-MoC) tion of standardized outcome measures. Eighteen teams
+that provides a real-world perspective on the adoption of representing diverse geographical locations and service
+a standardized PROM in the community rehabilitation models stepped forward to begin the process. The imple-
+context [6]. PROMs implementation is part of a patient- mentation of the R-MoC was facilitated through the use
+focused, equitable and data-driven model of care. This of the Institute for Healthcare Improvement’s (IHI) Col-
+paper will provide an overview of PROMs implementa- laborative Model for Achieving Breakthrough Improve-
+tion within the R-MoC model in Alberta, and highlight ment [8]. The Innovation Learning Collaborative (ILC)
+key facilitators and challenges of this process. process provided the structure to engage teams through
+learning strategies that included face-to-face learn-
+Organizational context
+ing, independent study, webinars, team driven balanced
+AHS is a provincial health system in Canada whose pro- scorecards and coaching [9]. Provincial rehabilitation
+vision of rehabilitation services in the community sup- consultants provided direct support, engagement and
+ports people by enhancing function, improving quality coaching.
+of life and increasing meaningful productivity [6]. The
+implementation of the R-MoC in AHS community reha- Innovation learning collaboratives
+bilitation is in line with the global, national and provin- Over the 14 months of the ILC process, the teams came
+cial movement to empower patients in their care, and together for three full day face-to-face and one half-
+strives to move the best evidence into practice [3, 6]. The day virtual meetings. Agenda items for the meetings
+R-MoC has several domains including: wellness; collabo- included an explanation of the R-MoC, the IHI Model for
+rative goal setting; transitions; service options; access and Improvement, and balanced score cards. Topics included
+wayfinding and, patient outcomes [6]. The R-MoC out- further information on the outcome and experience
+lines the standardized use of outcome measures to cap- measures, group programing tips and tricks, resiliency,
+ture collaborative goal setting, PROMs, such as health and opportunities for knowledge sharing. In between
+related quality of life (EQ-5D-5L) and a patient reported meetings, during the action period phases of the ILC,
+experience measure. These tools map onto the Health several on-line webinars were offered. Extensive training
+Quality Council of Alberta’s quality matrix elements for was conducted with providers to ensure they understood
+health services and includes acceptability, accessibil- the EQ-5D-5L scores and its interpretation. Providers
+ity, effectiveness, and appropriate quality dimensions were encouraged to use the dimension and visual ana-
+[7]. These quality dimensions inform future health care logue scores to explore patient’s current health status
+implementation efforts, quality improvement, account- and guide treatment planning. Operational leaders were
+ability and research [7]. encouraged to use the index scores for program devel-
+opment and improvement initiatives. In addition to the
+PROMs implementation
+ILC process, clinicians were provided with training in a
+The adoption of the EQ-5D-5L as a PROM in AHS behavior change approach to support person-centered
+community rehabilitation began in 2017 as part of the care, shared decision making and collaborative goal set-
+R-MoC implementation. The process involved consulta- ting. Learnings from the ILC process included: timely
+tions with rehabilitation leaders, clinicians, patients and access to data, early support on quality improvement and
+families, and stakeholders from across Canada and the data management, opportunity to problem solve, and
+United Kingdom. It was also informed by completion of ongoing leadership support. The learnings from the Early
+a literature review, population needs assessment, cur- Adopter teams (2017–2018) were used to inform the
+rent state report, future state review, and a gap analysis spread and scale of the R-MoC to an additional 152 adult
+to conceptualize the R-MoC. In addition to being the rec- community rehabilitation sites across the province [10].
+ommended generic PROM by provincial health authori-
+ties in Alberta, the EQ-5D-5L was chosen for use in the PROMs data collection
+R-MoC as it could be embedded within workflows to As part of routine data collection, all community reha-
+facilitate patient-centred conversations; act as a quality bilitation patients who demonstrated cognitive capacity
+indicator for programs and services; and inform health were invited to complete the survey at intake and the end
+system planning and decision making. of the episode of care. Examples of the primary reasons
+for rehabilitation include: musculoskeletal conditions,
+Early adopters neurological conditions, respiratory conditions, cardiac
+To initiate the implementation process, AHS rehabili- conditions, falls, fractures, and stroke.
+tation leaders identified teams to be part of the early
+C hurchill et al. J Patient Rep Outcomes 2021, 5(Suppl 2):103 Page 3 of 6
+The intake PROM survey includes the EQ-5D-5L, well as the opportunity to examine program effective-
+and questions on age, gender, primary condition, region ness. Other providers expressed concern that the EQ-
+within the province, and program name. The survey takes 5D-5L lacked specificity and therefore was not applicable
+approximately 10 min to complete. The PROM surveys to their patients or practice area. For example, the inter-
+are completed via iPad or laptop computer using a secure pretation of “walking about” in the mobility dimension
+platform and responses are stored within the AHS fire- was not relevant for patients who use mobility devices,
+wall. In sites without access to electronic data capture, such as wheelchairs. Consistent with other published lit-
+the survey is paper-based and responses are entered into erature, teams acknowledged that the addition of a diag-
+the secure platform by an administrative member of the nostic specific PROM would add greater value from a
+rehabilitation team. All patients are assigned a Unique clinical perspective [5]. The addition of a diagnostic spe-
+Lifetime Identifier (ULI) to match intake and end of epi- cific PROM may be considered in the future but currently
+sode of care surveys for further analysis and visualization community rehabilitation clinicians and leaders are only
+via Tableau Dashboards. encouraged to supplement their EQ-5D-5L outcome
+measure collection with diagnostic specific PROMs that
+Provider feedback reflect the patient population and rehabilitation services
+Given the diversity of patients receiving community they provide.
+rehabilitation services, the EQ-5D-5L, a generic PROM,
+was chosen as the PROM for the R-MoC. Clinician per- Displaying EQ‑5D‑5L results—Tableau dashboard
+spective on the EQ-5D-5L implementation was gath- The PROM survey data is aggregated and uploaded on
+ered throughout the ILC process by surveys and a focus a monthly basis to the AHS R-MoC Tableau Dashboard.
+group. Provider perspective on the use of a generic Tableau is a secure online platform that provides visual-
+PROM was mixed. Some providers indicated that admin- ization and data analytics. [Figs. 1 and 2]. For data pri-
+istering the PROM provided the opportunity to hear vacy and security purposes, access to the dashboard is
+directly from the patient what is important to them, as restricted to the leaders of the participating sites involved
+Fig. 1 AHS Tableau Dashboard for Community Rehabilitation—Visual Analogue Summary view. In this figure, the EQ VAS score for 1992 patients
+with complete data at intake and end of episode of care is presented; mean of 64 at intake, and 73 at the endof episode of care. The distribution of
+scores at both time points is also presented. The summary also showcases (right) the distribution of scores by site
+Churchill et al. J Patient Rep Outcomes 2021, 5(Suppl 2):103 Page 4 of 6
+Fig. 2 AHS Tableau Dashboard for Community Rehabilitation—EQ-5D-5L Dimensions Summary view. In this figure, the distribution of the
+EQ-5D-5L levels across the five dimensions for 1992 patients with complete data at intake and end of episode of care ispresented, along with the
+general Alberta population norms data for comparative purposes. A legend for color coding for the levels is also provided for ease ofinterpretation.
+Dashboard data is from December 2018–October 2020
+in service improvements. The dashboard can be filtered infrastructure provided by the technological platforms
+by zone, service, site, service type, primary condition, for electronic data capture and visualization. The charac-
+age, and gender. Analytics are collected on visits to the teristics of the teams also had an impact. Teams already
+R-MoC dashboard and ongoing improvements are made collecting outcome measures in their clinical work-
+to facilitate data use and promote data informed decision flows and those with existing quality improvement pro-
+making. cesses were more successful in adapting their processes
+to integrate the PROM into data collection. In addition,
+Discussion
+access to an external centre of excellence, such as the
+The R-MoC was implemented to cultivate a patient- Alberta PROMs and EQ-5D Research and Support Unit
+focused and data-informed service model. Implementing (APERSU) at the University of Alberta, was vital as a
+the EQ-5D-5L as a PROM in a provincial context resulted resource and facilitator to develop buy-in with the opera-
+in many learnings, both with the initial pilot implementa- tional and clinical teams.
+tion of the 18 early adopter teams, as well as the spread
+and scale to 152 urban and rural sites [11]. Challenges
+Understanding the challenges of implementation was
+Facilitators important so that further refinements to the implemen-
+The importance of adequate support and resources has tation process can be realized. Due to the diversity of
+been well established in the literature [5]. The R-MoC teams, service areas and contexts there could not be a
+success with implementation was facilitated by the infra- standardized provincial approach. Some teams found it
+structure set up by the ILC process for early adopter challenging to integrate the survey into their workflows.
+teams; contextualized coaching provided by the provin- Additionally, some teams found that the chosen PROM
+cial rehabilitation consultants within the zones; strong (EQ-5D-5L) did not provide significant clinical or pro-
+operational and management support; and the PROMs grammatic value in comparison to condition specific
+C hurchill et al. J Patient Rep Outcomes 2021, 5(Suppl 2):103 Page 5 of 6
+PROMs, especially with respect to therapeutic areas or all community rehabilitation programs, 56% of patients
+aspects of health not captured by the EQ-5D-5L dimen- reported significant clinical improvements in their self-
+sions. Adjunct education sessions were required to reported health status following rehabilitation. This data
+develop knowledge and skills in the PROM tool before is also being used to explore the relationship between
+teams felt confident to implement it. This observation is patient-reported experience and change in PROMs
+consistent with other reports in the current literature [5, across various community rehabilitation programs.
+11]. The data collection method also impacted the teams’ At the macro (system) level, aggregate PROMs data
+readiness to adopt the tool. Paper-based data collec- will be used to compare the performance of rehabilita-
+tion provided an improved opportunity for clinicians to tion teams across sites and health zones in our province.
+review responses with the patient and incorporate their Current data in terms of sample size does not permit yet
+responses into their treatment planning. The collection such comparisons. An overall threshold of 60% achieving
+of PROMs via iPads made patient responses less acces- an improvement, based on the minimal important differ-
+sible to providers thereby creating a barrier for use at the ence of the EQ-5D-5L index score, has been established
+clinical level. by our PROMs program team. Service specific thresh-
+olds are being considered. Additionally, we are planning
+Micro, meso and macro level applications PROMs data linkage to administrative claims databases
+that would allow exploring health service utilization and
+The routine collection of PROMs in has the potential to
+conducting economic analyses.
+inform decision at various levels within the system. For
+instance, at the micro (clinical patient management)
+level, rehabilitation professionals have the opportunity to The value of PROMs
+review EQ-5D-5L responses with the patient and use it
+The implementation of PROMs in community rehabili-
+to discuss current health status and rehabilitation goals.
+tation has added value on multiple levels. Clinically, it
+It supports the clinician to be intentional about includ-
+has promoted the importance of incorporating patients’
+ing the patient’s voice in their care. It has been acknowl-
+voice in outcome measurement. It has also encour-
+edged that PROMs can assist rehabilitation professionals
+aged clinicians to be more intentional about shared
+with clinical decision making and collaborative goal set-
+decision-making, with the co-construction of goals and
+ting, and can enhance shared decision-making between
+using person-centred behavior change strategies to have
+patient and provider [5, 12]. Further exploration into
+thoughtful and meaningful conversations with patients.
+PROMS use at the micro level in AHS community reha-
+At the program level, an increase in the quality improve-
+bilitation is warranted as the implementation moves
+ment culture of the teams and the development of a
+toward spread and scale. Current data collection systems
+learning community had developed in community reha-
+do not allow for observing changes in PROMs scores
+bilitation. Teams are becoming data informed as they
+over time, which has been reported as a barrier to the
+make improvements and inform future program or ser-
+usefulness of PROMs by clinicians for decision mak-
+vice changes. Tableau dashboards displaying all the out-
+ing, care planning and in practice [13]. As well, the cur-
+come measures promote transparency and accountability
+rent data collection system does not feedback individual
+with performance. Standardized use of the EQ-5D-5L has
+patient results to the clinicians which is a limitation of
+also provided a consistent language to promote measure-
+the technology platform. As AHS moves towards a uni-
+ment throughout the health system.
+fied provincial electronic medical record, clinicians may
+have increased access to individual and programmatic
+Conclusion
+PROMs data, thus addressing some of the potential bar-
+riers to use. The implementation of a PROM as part of the R-MoC in
+At the meso (organization) level, aggregate PROMs a provincial health setting has been a large undertaking
+data could be used to inform performance measurement with many lessons learned. Mitigation strategies to over-
+through national monitoring and drive quality improve- come barriers to PROMs use in practice were employed
+ment initiatives, especially when combined with other during the implementation phase, such as robust clini-
+condition specific outcomes and patient experience cian training, leadership support, PROM collection and
+measures [12]. Within the R-MoC, we have been using reporting infrastructure and access to the EQ-5D-5L tool
+aggregate data to examine the impact of rehabilitation and training, among others. The implementation of the
+services on patient-reported health status across various R-MoC, including a PROM as part of routine data collec-
+community rehabilitation programs and sites, and iden- tion in community rehabilitation, has increased the qual-
+tify factors associated with improvements and deterio- ity improvement culture with the clinical teams collecting
+rations in health status [14]. Results indicate that across and analyzing data. It has informed characteristics and
+Churchill et al. J Patient Rep Outcomes 2021, 5(Suppl 2):103 Page 6 of 6
+health related quality of life of patients accessing com- School of Public Health, University of Alberta, Edmonton, AB, Canada. 5 Allied
+Health Professional Practice and Education, 10301 Southport Rd SW, Calgary,
+munity rehabilitation, and will help direct where future
+AB T2W 1S7, Canada.
+efforts need to be focused. Ongoing work with PROMS
+data at the clinical level will be explored to further inform Received: 2 September 2021 Accepted: 7 September 2021
+Published: 12 October 2021
+clinical interventions and care planning.
+Abbreviations References
+AHS: Alberta Health Services; APERSU: Alberta PROMs and EQ-5D Research 1. World Health Organization (2019) Rehabilitation: key for health in the
+and Support Unit; EQ-5D-5L: EuroQol 5 dimensions, 5 level questionnaire; IHI: 21st century. Geneva https:// www. who. int/ disab iliti es/ care/ KeyFo rHeal
+Institute for Healthcare Improvement; ILC: Innovation Learning Collaborative; th21s tCent ury. pdf. Accessed 16 Oct 2020
+PROMs: Patient Reported Outcome Measure; R-MoC: Rehabilitation Model of 2. Alberta PROMs and EQ5D Research and Support Unit (APERSU) (2020)
+Care; ULI: Unique lifetime identifier. Enhancing the Use of Patient-reported Outcome Measures (PROMs) in
+the Healthcare System in Alberta. https:// apersu. ca/ wp- conte nt/ uploa ds/
+Acknowledgements 2020/ 09/ APERSU- PROMs- White- Paper. pdf. Accessed 21 Nov 2020
+We would like to acknowledge the contributions of all the patients, opera- 3. Canadian Institute for Health Information (CIHI) (2019) Patient Reported
+tional leaders and clinicians at participating sites for engaging in the imple- Outcome Measures. Information Sheet: 19973-0419. https:// www. cihi.
+mentation of the Rehabilitation Model of Care. ca/ sites/ defau lt/ files/ docum ent/ patie nt- repor ted- outco me- measu res-
+proms- infos heet- may20 19- en- web. pdf. Accessed 12 Nov 2020
+About this supplement 4. Ernstsson O, Janssen MF, Heintz E (2020) Collection and use of EQ-5D
+This article has been published as part of Journal of Patient-Reported for follow up, decision-making, and quality improvement in health care
+Outcomes Volume 5, Supplement 2 2021: The Use of PROMs in Health - the case of the Swedish National Quality Registries. J Patient Report
+Systems – Implementation Stories from Alberta, Canada. The full contents of Outcomes. https:// doi. org/ 10. 1186/ s41687- 020- 00231-8
+the supplement are available at https:// jpro. sprin gerop en. com/ artic les/ suppl 5. Briggs MS, Rethman KK, Crokkes K, Cheek F, Pottkotter K, McGrath S,
+ements/ volume- 5- suppl ement-2. DeWitt J, Harmon-Mathews LE, Quatman-Yates CC (2020) Implementing
+patient-reported outcome measures in outpatient rehabilitation settings:
+Authors’ contributions a systematic review of facilitators and barriers using the consolidated
+KC contributed to the R-MoC conceptualization, design and implementation; framework for implementation research 10(101):1796–1812. https:// doi.
+and developed all manuscript drafts. Lisa Warner led the R-MoC conceptu- org/ 10. 1016/j. apmr. 2020. 04. 007
+alization and provided ongoing leadership in close collaboration with the 6. Alberta Health Services (2019) Rehabilitation Model of care: a discussion
+other senior authors (KC, EK, FAS) regarding its methods, conduct, analysis, guide for clinicians, practice leaders and operational leaders. Edmonton
+and manuscript development. EK contributed to the R-MoC conceptualization 7. Health Quality Council of Alberta (2005) The Alberta Quality Matrix for
+and directly supported implementation with the clinical teams. FAS provided Health. https:// www. hqca. ca/ wp- conte nt/ uploa ds/ 2018/ 05/ HQCA_
+PROM expertise, data analytics and supported the manuscript development 11x8_5_ Matrix. pdf. Accessed 10 Dec 2020
+and revisions. All authors read and approved the final manuscript. 8. Institute for Healthcare Improvement (IHI) (2003) The Breakthrough
+Series: IHI’s Collaborative Model for Achieving Breakthrough Improve-
+Funding ment (2003). Institute for Healthcare Improvement, Boston; www. IHI. org.
+In-kind contributions from AHS and APERSU. Article processing fees for Accessed 07 March 2020
+the publication of this supplement were paid by a grant from the EuroQol 9. Alberta Health Services (2014) AHS strategic clinical networks: guide to
+Research Foundation to Alberta PROMs and EQ-5D Research and Support Unit establishing an innovative learning collaborative. Edmonton
+(APERSU), University of Alberta. Authors received no direct remuneration. 10. Manhas KP, Olson K, Churchill K, Vohra S, Wasylak T (2021) Implementa-
+tion of a novel rehabilitation model of care across Alberta, Canada:
+Availability of data and materials a focused ethnography. BMJ Open Quality. https:// doi. org/ 10. 1136/
+The datasets generated and analyzed during the current study are not pub- bmjoq- 2020- 001261
+licly available but can be made available from the corresponding author upon 11. Manhas KP, Olson K, Churchill K, Vohra S, Wasylak T (2020) Experiences of
+reasonable request. shared decision-making in community rehabilitation: a focused ethnog-
+raphy. BMC Health Serv Res. https:// doi. org/ 10. 1186/ s12913- 020- 05223-4
+Declarations 12. Kyte DG, Calvert M, van der Wees PJ, ten Hove R, Tolan S, Hill JC (2015) An
+introduction to patient-reported outcome measures (PROMs) in physi-
+otherapy. Physiotherapy 101(2):119–125. https:// doi. org/ 10. 1016/j. physio.
+Ethics approval and consent to participate
+2014. 11. 003
+Ethics was approved by the University of Alberta, Health Research Ethics
+13. Boyce MB, Browne JP, Greenhalgh J (2014) The experiences of profes-
+Board, REB III certificate # Pro00105374. A waiver of consent was obtained as
+sionals with using information from patient-reported outcome measures
+the data was collected as part of routine data collection and it would not be
+to improve the quality of healthcare: a systematic review of qualita-
+feasible to contact all participants.
+tive research. BMJ Qual Saf 6(23):508–518. https:// doi. org/ 10. 1136/
+bmjqs- 2013- 002524
+Consent for publication
+14. Al Sayah F, Churchill K, Warner L (2020) Using routinely collected patient-
+A waiver of consent was obtained as it was a retrospective review of routinely
+reported outcome measures (PROMs) data in evaluating community
+collected data as part of the implementation of Rehabilitation Model of Care.
+rehabilitation service in Alberta, Canada. Virtual: Virtual ISOQOL 27th
+Annual Conference
+Competing interests
+15. Alberta Health Services (2016) Community rehabilitation population
+The authors declare that they have no competing interests.
+need baseline report. Edmonton: Alberta
+Author details
+1 Alberta Health Services, Edmonton, AB, Canada. 2 Department of Rehabilita- Publisher’s Note
+tion Medicine, University of Alberta, Edmonton, AB, Canada. 3 Department Springer Nature remains neutral with regard to jurisdictional claims in pub-
+of Clinical Neuroscience, Cummings School of Medicine, University of Calgary, lished maps and institutional affiliations.
+Calgary, AB, Canada. 4 Alberta PROMs and EQ-5D Research and Support Unit,

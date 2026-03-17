@@ -1,0 +1,490 @@
+Liu et al. Journal of NeuroEngineering and Rehabilitation (2024) 21:16 Journal of NeuroEngineering
+https://doi.org/10.1186/s12984-024-01315-y
+and Rehabilitation
+RESEARCH Open Access
+Reminiscent music therapy combined
+with robot-assisted rehabilitation for elderly
+stroke patients: a pilot study
+Qian Liu1†, Li Liu1†, Zuoyan Liu2, Yang Xu3, Fang Wang1, Hong Cheng4 and Xiuying Hu1*
+Abstract
+Background Although some studies suggest that robot-assisted technology can significantly improve upper limb
+function in stroke patients compared to traditional rehabilitation training, it is still necessary to incorporate an auxiliary
+intervention to alleviate negative emotions, thereby alleviating the post-stroke fatigue and encouraging patients to
+actively respond to rehabilitation. However, the effect of the auxiliary intervention is unknown.
+Objective To evaluate the effect of reminiscent music therapy combined with robot-assisted rehabilitation in elderly
+patients with upper limb dysfunction.
+Methods From November 2022 to March 2023, elderly patients with upper limb dysfunction after stroke were
+assigned to one of three groups, with group A receiving usual rehabilitation treatment and care plus robot-assisted
+rehabilitation and reminiscent music therapy, group B receiving usual rehabilitation treatment and care plus robot-
+assisted rehabilitation, and group C receiving only usual rehabilitation treatment and care. Thirty patients completed
+this study, with 10 participants in each group. Activities of daily living, self-esteem, rehabilitation self-efficacy, positive
+emotion and upper limb function were measured before and after the intervention. One-way analysis of variance,
+paired-sample t-test, Kruskal-Wallis H test, Wilcoxon signed rank sum test and Chi-square test were used to analyze the
+data.
+Results According to the intragroup comparisons, in the three groups, all outcome measurements were
+significantly higher than those at baseline (all P < 0.05). After the intervention, the differences in the self-management
+effectiveness, rehabilitation self-efficacy, and positive emotion score were statistically significant among the three
+groups (all P < 0.05). In accordance with the results of Bonferroni analysis, the self-management effectiveness score of
+group A was significantly higher than that of Group B and Group C (all P < 0.05). The rehabilitation self-efficacy score
+of group A was significantly higher than that of Group B and Group C (P < 0.05). The positive emotion score of group A
+was significantly higher than that of Group B and Group C (P < 0.05).
+†Qian Liu and Li Liu contributed equally to this work.
+*Correspondence:
+Xiuying Hu
+huxiuying@scu.edu.cn
+Full list of author information is available at the end of the article
+© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use,
+sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and
+the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The
+Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available
+in this article, unless otherwise stated in a credit line to the data.
+Liu et al. Journal of NeuroEngineering and Rehabilitation (2024) 21:16 Page 2 of 9
+Conclusion Reminiscent music therapy combined with robot-assisted rehabilitation is a promising approach to
+improve rehabilitation self-efficacy and positive emotion, which is evidence that reminiscent music therapy may be
+an effective auxiliary intervention to improve rehabilitation outcomes.
+Keywords Stroke, Music therapy, Reminiscence therapy, Robotics, Rehabilitation
+Introduction
+neurological rehabilitation [16, 17]. In addition, previ-
+Stroke is one of the main causes of disability in the cur- ous studies have shown that music can induce activation
+rent world [1], which is the main cause of the burden of of the motor regions together with the auditory cortex,
+neurological disease in elderly people [2]. After stroke, indicating that music is able to induce the process of
+there are varying degrees of functional impairment, with brain reorganization and enhance the neuronal co-acti-
+80% of patients exhibiting upper limb motor dysfunc- vation and functional coupling of the auditory-motor
+tion [3]. However, less than 20% of patients can partially network after stroke [16, 18]. Moreover, music is help-
+recover upper limb motor function within 6 months of ful to reorganize and integrate information processing,
+onset [4]. Upper limb dysfunction after stroke seriously executive control, and emotion, thereby shifting atten-
+affects patients’ daily life, learning and work, and greatly tion away from fatigue and promoting the acquisition of
+reduces their quality of life [5]. Therefore, timely and motor skills [19, 20]. Music therapy is beneficial for sev-
+effective upper limb rehabilitation training is of great sig- eral motor-cognitive functions, which may be an appro-
+nificance to improve the quality of life of stroke patients priate method for neurological rehabilitation after stroke
+and reduce the economic burden on families and society. [21, 22]. Reminiscent music can help elderly patients
+In recent years, robot-assisted technology has become summon autobiographical memory and recall, which
+a research hotspot in the rehabilitation of upper limb are central to improve the level of self-esteem, mastery,
+function in stroke patients [6]. Robot-assisted train- and self-efficacy [23]. Music is one of the most common
+ing contains the key elements of motor learning, which media for evoking nostalgia [24], and reminiscence inter-
+can provide interactive, quantifiable and highly repeti- vention has been proven to be beneficial to improve posi-
+tive training programs for hemiplegic patients [7]. Com- tive attitude and hope level of elderly stroke patients [25,
+pared with traditional rehabilitation training, upper limb 26]. It seems that music may play two roles in summon-
+rehabilitation robot can provide stroke patients with ing memories, meaning that it promotes the retrieval
+high-intensity, high-repeatability and accurate active of autobiographical memories and enhances the vivid-
+rehabilitation training to reshape neural function and ness, accessibility, and impact of the retrieved memories
+motor function, to help the recovery of brain injury, and [27]. Some scholars investigated the neurochemistry of
+to promote the reorganization of the motor cortex of the music and found that music therapy improved markers
+brain [8–10]. However, in addition to differences in reha- of innate immunity, and it is plausible that these benefits
+bilitation modalities, there are other factors that affect may be observed when music and nostalgia are combined
+rehabilitation outcomes. Patients are prone to exhibit- and used for the elderly [27, 28].
+ing negative emotions and negative coping styles after Population ageing has become a global public health
+stroke [11], which may easily lead to the emergence of problem [29], and the World Health Organization pro-
+post-stroke fatigue, with an incidence rate of 25–85% posed that the healthy life expectancy would be more
+[12, 13]. Post-stroke fatigue has a negative impact on significant than the average life expectancy [30]. Mean-
+patients’ quality of life and independence [14], affecting while, independent physical and cognitive abilities are
+the subjective perception of autonomous activities and considered key components of healthy life expectancy for
+the susceptibility to exercise fatigue [15], leading to poor elderly to achieve successful ageing [30]. Therefore, we
+rehabilitation prognosis [14]. For this reason, it is neces- combined reminiscent music therapy with robot-assisted
+sary to incorporate auxiliary interventions in the upper rehabilitation, and preliminarily explored the impact of
+limb rehabilitation process to alleviate the negative emo- this intervention on elderly patients after stroke through
+tions of stroke patients, such as depression and anxi- clinical trials, to provide a new idea for the clinical
+ety, thereby alleviating the level of post-stroke fatigue, exploration of a safe and effective non-pharmacological
+encouraging patients to actively respond to functional therapy.
+rehabilitation treatment, and ultimately improving the
+Methods
+effects of rehabilitation.
+Music have a positive impact on hypokinesia and Settings and participants
+music therapy can facilitate and modulate neural plastic- This single-blind, three-arm randomized controlled pilot
+ity, and easily elicit the interactions between perception trial was conducted from November 2022 to March 2023
+and action systems, which is one of the key elements of in the Department of Rehabilitation Medicine Center
+Liu et al. Journal of NeuroEngineering and Rehabilitation (2024) 21:16 Page 3 of 9
+of West China Hospital of Sichuan University. This trial care, diet care, drug care, health education, psychologi-
+was approved by the Ethics Committee of West China cal care, and rehabilitation care. There was no extra con-
+Hospital of Sichuan University (number: 2022 − 852) and ventional therapy time to make up for the time spent on
+was registered on the Chinese Clinical Trial Registry robotic therapy.
+(ChiCTR2200063738).
+Elderly patients with upper limb dysfunction after Robot-assisted rehabilitation
+stroke participated in this pilot study. The inclusion cri- In accordance with the specific conditions of the patients,
+teria were: diagnosed with stroke; 60 years old and above; the rehabilitation therapists developed an appropriate
+with upper limb dysfunction; conscious and in stable scheme to carry out upper limb rehabilitation training
+condition with stable vital signs; normal cognitive func- lasting for 40 min once a day, five times per week for 3
+tion with score of mini-mental state examination ≥ 27; weeks. The robot equipment used in this study was pro-
+normal attention, vision, hearing and communication duced by Guangzhou Yikang medical equipment industry
+judged by communication; no music-related learning Co Ltd. It is a three-dimensional upper limb rehabilita-
+experience and accept music; participate in this study tion robot (model: A6), with five training modes: passive
+voluntarily and sign the informed consent form. Exclu- mode, active-passive mode, active mode, prescription
+sion criteria were: with severe primary diseases of the mode and track editing mode. The specific rehabilita-
+heart, liver, kidney and hematopoietic system; with a his- tion training tasks were achieved through playing games.
+tory of mental disease; joint dislocation or skin damage Rehabilitation therapists assessed the level of limb func-
+of the upper limb; excessive area of cerebral infarction or tion of stroke patients and matched them with appropri-
+cerebral hemorrhage; and uncooperative participants. ate training modes and games, such as WEATHER GIRL,
+CUT FRUITS, AVOID OBSTACLES, EAT COINS,
+Sample size Whac-A-Mole, and so on. Each game can be played in
+A general flat rule of a pilot study is to recruit at least 30 the five training modes. During the intervention period,
+participants to estimate a parameter [31–33]. In addition, appropriate game changes were made for stroke patients
+some scholars have suggested that the minimum sample to maintain their interest in training.
+size is 12 participants per treatment group [34]. and pre-
+vious works have suggested that the sample size of this Reminiscent music therapy
+study is feasible for a pilot study. Therefore, we finial This study used music to stimulate patients to develop a
+decided that the sample size was 30 based on these rec- sense of nostalgia. One hundred Chinese songs released
+ommendations, which was suggested by previous works from 1935 to 1980 were selected through preliminary
+to be feasible for a pilot study. surveys to ensure that elderly aged 60 and above were
+familiar with these songs when they were young. Songs
+Randomization and blinding were divided into 10 song lists and each list had 10 remi-
+Participants were randomly assigned to receive usual niscent songs. Each time the robot-assisted rehabilita-
+rehabilitation treatment and care plus robot-assisted tion training of upper limb was carried out, a reminiscent
+rehabilitation and reminiscent music therapy (group song list was played for patients with a wireless headset.
+A), usual rehabilitation treatment and care plus robot- Music was heard contemporaneously with the robotic
+assisted rehabilitation (group B), or usual rehabilitation therapy. After the training, the patients were asked to sit
+treatment and care (group C). For randomization, the down and concentrate on breathing for 2 min.
+random number table was generated in advance by SPSS
+22.0 software. To ensure the full concealment of alloca- Assessment
+tion, randomized allocation was carried out by a person Demographic data, such as gender, age, educational level,
+who was not involved in the intervention. The data col- marital status, residence, nationality, religion, monthly
+lector and study statistician were blinded to the partici- income per capita of family, type of medical insurance,
+pants’ allocation. diagnosis, type of combined chronic disease (hyperten-
+sion, diabetes, and coronary heart disease), Brunnstrom
+Intervention stage and main caregivers, were collected before inter-
+Usual rehabilitation treatment and care vention. A research assistant who did not know the ran-
+All patients received usual rehabilitation treatment and domization scheme collected the outcomes before (T0)
+care for stroke every day during hospitalization. Usual and after intervention (T1). The primary outcome was
+rehabilitation treatment mainly included drug treatment, the activities of daily living, and secondary outcomes
+comprehensive training of hemiplegic limbs, physical included self-esteem, rehabilitation self-efficacy, positive
+therapy, acupuncture and hyperbaric oxygen therapy. emotion and upper limb function.
+Usual rehabilitation care included basic environmental
+Liu et al. Journal of NeuroEngineering and Rehabilitation (2024) 21:16 Page 4 of 9
+The modified Barthel Index with 10 items was used to analyze the counting data. Statistical significance was
+measure the activities of daily living [35]. Each item is defined as P < 0.05.
+divided into five levels according to the degree of depen-
+Results
+dence. The total score ranges from 0 to 100. The higher
+the total score, the better the self-care ability. Baseline characteristics of participants
+Self-esteem was evaluated by the Self-Esteem Scale As shown in Fig. 1, of the 52 eligible patients, 10 did not
+compiled by Rosenberg in 1965 [36]. This scale has meet the inclusion criteria and 6 refused to take part in
+10 items and each item of the Chinese version of Self- the study. Finally, a total of 36 participants were recruited
+Esteem Scale is scored from 1 (quite wrong) to 4 (quite and each group consisted of 12 patients. During the
+right). The total score ranges from 10 ~ 40, and a higher intervention process, two participants were excluded
+total score indicates a higher sense of self-esteem. from group C due to undergoing robot rehabilitation,
+The Stroke Self-Efficacy Questionnaire compiled two participants from group A were unwilling to undergo
+by Jones et al. in 2008 was used to examine the level of the robotic therapy because they did not want to bear
+rehabilitation self-efficacy [37]. Li et al. translated and the cost of robotic therapy, and two participants were
+revised it into Chinese with 2 dimensions including daily excluded from group B due to discharge midway. Finally,
+life activity effectiveness and self-management effec- 30 participants were included in this pilot study and 10
+tiveness, and 11 items [38]. Each item is scored from 1 patients were included in each group, including 21 men
+(very unconfident) to 10 (very confident). The total score and 9 women. Table 1 shows the participants’ demo-
+ranges from 11 to 110, and a higher total score indicates a graphics, and there was no significant difference in the
+higher sense of rehabilitation self-efficacy. baseline data between the three groups (P > 0.05).
+The Positive Affect and Negative Affect Scale devel-
+oped by Watson et al. in 1988 and revised by Qiu et al. in Effects of the three interventions on elderly patients with
+2008 was used to measure the level of positive emotion stroke
+[39]. We only used the positive emotion dimension with All the outcome assessments at baseline and after inter-
+9 items. Each item is scored from 1 (never) to 5 (almost). vention are presented in Table 2, and there was no sig-
+The total score ranges from 9 to 45, and a higher total nificant difference between the three groups at baseline
+score indicates more positive emotions. (P > 0.05). According to the intragroup comparisons, in
+Upper limb function was measured by the Fugl-Meyer all groups, self-esteem, daily life activity effectiveness,
+Assessment with the advantages of reliability and high self-management effectiveness, total score of rehabilita-
+sensitivity [40]. The upper limb dimension of the sim- tion self-efficacy, positive emotion, upper limb function,
+plified Fugl-Meyer Assessment has 33 items. Each item and activities of daily living after intervention were sig-
+is scored from 0 (cannot complete) to 2 (complete). The nificantly higher than those at baseline (Table 2). After
+total score ranges from 0 to 66. The higher the total score, intervention, the difference in the self-management
+the better the motor function of the upper limbs and effectiveness score was statistically significant among the
+hands. three groups, and the results of Bonferroni indicated that
+the score of group A was significantly higher than that
+Statistical analysis of Group B and Group C (P < 0.05). The difference in the
+IBM SPSS Statistics 22.0 was used to analyze the data. rehabilitation self-efficacy score was statistically signifi-
+A P-P diagram was used to test the normal distribution cant among the three groups after intervention. In accor-
+of measurement data. Normally distributed measure- dance with the results of Bonferroni analysis, the score
+ment data were expressed as the mean ± standard devia- of group A was significantly higher than that of Group
+tion (SD); otherwise, the median and quartile were used. B and Group C (P < 0.05). Moreover, a significant differ-
+When measurement data followed a normal distribution ence in positive emotion among the three groups was
+and homogeneity of variance, one-way analysis of vari- observed, and the results of Bonferroni indicated that
+ance (ANOVA) was used for intergroup comparisons and the score of group A was significantly higher than that of
+a paired-sample t-test was used for intragroup compari- Group B and Group C (P < 0.05).
+sons. Otherwise, the Kruskal-Wallis H test was used for
+Discussion
+intergroup comparisons, and the Wilcoxon signed rank
+sum test was used for intragroup comparisons. If the This study reports the results of a pilot study of a single-
+results of ANOVA had significant differences, the Bon- blinded, three-arm randomized controlled trial. A total
+ferroni post hoc test was used for multiple comparisons. of 36 stroke patients were recruited and 30 patients
+Counting data were described by number and percent- completed the trial. Through a three-week pilot trial,
+age. Chi-square test and Fisher’s exact test were used to the levels of self-esteem, self-efficacy, positive emotion,
+activities of daily living and upper limb function of three
+Liu et al. Journal of NeuroEngineering and Rehabilitation (2024) 21:16 Page 5 of 9
+Fig. 1 The consolidated standards of reporting trials flow diagram of this study
+groups showed significant increases. After intervention, care plus robot-assisted rehabilitation and reminiscent
+the levels of self-management effectiveness, rehabilita- music therapy, usual rehabilitation treatment and care
+tion self-efficacy and positive emotion of Group A were plus robot-assisted rehabilitation, and only usual reha-
+significantly higher than those of Group C and Group B. bilitation treatment and care could all be effective for
+In addition, recruitment, randomization, and assessment improving self-esteem, rehabilitation self-efficacy, posi-
+of patients were successful, meaning that the design was tive emotion, upper limb function and activities of daily
+feasible and acceptable. living in elderly patients after stroke. These are somewhat
+We found that all the outcome assessments of similar to other studies [41–43]. The reason may be that
+the three groups, including self-esteem, daily life all three interventions could effectively improve upper
+activity effectiveness dimension and self-manage- limb function and activities of daily living in elderly
+ment effectiveness dimension of rehabilitation self- stroke patients. When the motor function of stroke
+efficacy, total score of rehabilitation self-efficacy, patients has been significantly improved and the rehabili-
+positive emotion, upper limb function and activities of tation effect is obvious, their psychological state may be
+daily living, significantly improved after compared to the improved accordingly [44, 45].
+corresponding scores before the intervention. These find- The results of intergroup comparison showed that
+ings suggested that usual rehabilitation treatment and the differences in the self-management effectiveness
+Liu et al. Journal of NeuroEngineering and Rehabilitation (2024) 21:16 Page 6 of 9
+Table 1 Baseline demographics of 30 participants
+Items Group A (n = 10) Group B (n = 10) Group C (n = 10) F/χ2 P
+Age a; mean ± SD 67.60 ± 8.96 69.10 ± 9.46 65.60 ± 8.09 0.453 0.640
+Gender b; n (%) 0.000 1.000
+Male 7 (70.0) 7 (70.0) 7 (70.0)
+Female 3 (30.0) 3 (30.0) 3 (30.0)
+Education b; n (%) 2.865 0.581
+Junior high school and below 2 (20.0) 3 (30.0) 3 (30.0)
+Senior high school 3 (30.0) 5 (50.0) 5 (50.0)
+College and above 5 (50.0) 2 (20.0) 2 (20.0)
+Marital status b; n (%) 1.920 0.383
+Widowed 1 (10.0) 3 (30.0) 1 (10.0)
+Married 9 (90.0) 7 (70.0) 9 (90.0)
+Residence b; n (%) 1.875 0.392
+Rural 3 (30.0) 6 (60.0) 5 (50.0)
+Urban 7 (70.0) 4 (40.0) 5 (50.0)
+Monthly income per capita (RMB) b; n (%) 5.143 0.273
+< 3000 1 (10.0) 3 (30.0) 4 (40.0)
+3000–5000 4 (40.0) 5 (50.0) 5 (50.0)
+≥ 5000 5 (50.0) 2 (20.0) 1 (10.0)
+Medical insurance b; n (%) 0.800 0.670
+New Rural Cooperative medical insurance 4 (40.0) 6 (60.0) 5 (50.0)
+Urban resident medical insurance 6 (60.0) 4 (40.0) 5 (50.0)
+Diagnosis b; n (%) 3.732 0.155
+Ischemic stroke 7 (70.0) 8 (80.0) 4 (40.0)
+Hemorrhagic stroke 3 (30.0) 2 (20.0) 6 (60.0)
+Hemiplegia b; n (%) 2.500 0.287
+Left upper limb 6 (60.0) 3 (30.0) 3 (30.0)
+Right upper limb 4 (40.0) 7 (70.0) 7 (70.0)
+Brunnstrom stage- upper limb b; n (%) 6.000 0.199
+I 5 (50.0) 2 (20.0) 5 (50.0)
+II 3 (30.0) 7 (70.0) 2 (20.0)
+III 2 (20.0) 1 (10.0) 3 (30.0)
+Brunnstrom stage- hand b; n (%) 3.764 0.439
+I 5 (50.0) 3 (30.0) 6 (60.0)
+II 3 (30.0) 6 (60.0) 2 (20.0)
+III 2 (20.0) 1 (10.0) 2 (20.0)
+Number of combined chronic disease b; n (%) 1.505 0.826
+0 1 (10.0) 2 (20.0) 2 (20.0)
+1 6 (60.0) 6 (60.0) 7 (70.0)
+2 3 (30.0) 2 (20.0) 1 (10.0)
+Main caregivers b; n (%) 1.207 0.877
+Nursing workers 5 (50.0) 7 (70.0) 7 (70.0)
+Offspring 3 (30.0) 2 (20.0) 2 (20.0)
+Spouse 2 (20.0) 1 (10.0) 1 (10.0)
+a ANOVA was used for intergroup comparisons. b Chi-square test was used for intergroup comparisons
+dimension of rehabilitation self-efficacy, rehabilitation which were released from 1935 to 1980, were selected
+self-efficacy total score, and positive emotion were statis- through preliminary surveys to ensure that elderly stroke
+tically significant among the three groups after interven- patients aged 60 and above were familiar with these songs
+tion, indicating that reminiscent music therapy assisted when they were young, as memories from youth are more
+robot-assisted rehabilitation could better improve reha- easily recalled [48]. Listening to familiar music can help
+bilitation self-efficacy and positive emotions, which is stimulate conversations and memories about past expe-
+somewhat similar to the results of previous studies [26, riences and events [27], enhance the recall of autobio-
+46, 47]. The 100 reminiscent songs included in this study, graphical memory and therapeutic reconstruction of the
+Liu et al. Journal of NeuroEngineering and Rehabilitation (2024) 21:16 Page 7 of 9
+Table 2 The outcome assessments at baseline (T0) and after intervention (T1) (mean ± SD/median and quartile)
+Outcomes Time Group A (n = 10) Group B (n = 10) Group C (n = 10) P (intergroup)
+Self-esteem T0 22.30 ± 3.95 22.90 ± 2.96 22.40 ± 3.72 0.922a
+T1 27.50 ± 4.30 24.20 ± 2.39 24.10 ± 3.81 0.073 a
+P (intragroup) 0.006c 0.003c 0.000c
+Rehabilitation self-efficacy
+Daily life activity effectiveness T0 10.40 ± 7.89 13.10 ± 6.23 9.60 ± 10.71 0.631 a
+T1 20.80 ± 5.49 16.40 ± 3.98 15.90 ± 5.13 0.066 a
+P (intragroup) 0.103c 0.004c 0.003c
+Self-management effectiveness T0 16.80 ± 8.26 13.80 ± 8.30 14.90 ± 7.49 0.702 a
+T1 23.10 ± 5.82#,† 16.50 ± 5.72 17.20 ± 4.98 0.024 a
+P (intragroup) 0.004c 0.000c 0.000c
+Total score T0 27.20 ± 13.96 26.90 ± 14.15 24.50 ± 16.25 0.905a
+T1 48.00 (35.75, 52.50)#,† 28.00 (24.75, 41.50) 30.00 (26.75, 43.25) 0.044b
+P (intragroup) 0.005d 0.011d 0.033d
+Positive emotion T0 17.00 (13.75, 23.00) 17.50 (12.75, 24.00) 14.00 (11.75, 22.50) 0.586 b
+T1 32.80 ± 2.57#,† 24.30 ± 2.83 24.50 ± 2.84 < 0.000a
+P (intragroup) 0.005d 0.005d 0.008d
+Upper limb function T0 11.70 ± 5.25 13.30 ± 5.10 13.70 ± 7.60 0.742 a
+T1 16.50 (15.00, 24.25) 13.50 (13.00, 18.50) 13.00 (11.75, 23.25) 0.082 b
+P (intragroup) 0.005d 0.007d 0.017d
+Activities of daily living T0 37.00 (26.00, 42.75) 38.50 (31.25, 43.25) 30.00 (25.00, 46.75) 0.706 b
+T1 48.30 ± 7.65 45.70 ± 5.21 43.10 ± 8.88 0.307 a
+P (intragroup) 0.008d 0.005d 0.005d
+a ANOVA was used for intergroup comparisons. b Kruskal-Wallis H Test was used for intergroup comparisons. c A paired-sample t-test was used for intragroup
+comparisosns. d Wilcoxon signed rank sum test was used for intragroup comparisons. # Significant in comparison to B group: obtained from Bonferroni. † Significant
+in comparison to C group: obtained from Bonferroni
+meaning of life [27], and improve the level of well-being can avoid environmental threats and restore positive
+in older people [49] Some scholars believe that recalling self-esteem and self-efficacy through nostalgia [55]. A
+happy events helps to maintain a positive self to improve high level of self-esteem is associated with positive traits,
+self-esteem and happiness, while recalling sad events including initiative, coping ability, and resilience when
+helps to examine and explain past events to promote facing challenges, while individuals with low levels of
+the ability to adapt to the existing environment [50, 51]. self-esteem have more difficulty recovering from physi-
+Therefore, patients are prompted to generate nostalgia ological illnesses [56]. The rehabilitation self-efficacy of
+through nostalgic music and think about past experi- stroke patients is a reflection of their rehabilitation abil-
+ences, self-narratives, accomplishments, and problem ity and the self-confidence in self-management. Individu-
+solving, helping to improve self-efficacy and positive als with a high level of self-efficacy tend to adopt positive
+emotions [23]. In addition, a previous study showed that coping styles and actively solve problems to improve the
+the combination of music therapy with family recollec- disadvantaged situation [57]. Positive emotions and self-
+tion can moderate physiological parameters and improve efficacy are considered as two important resources for
+physiological stress responses [52], which may be benefi- individuals to actively cope with stress [58], which may
+cial for improving the psychological state of patients. help patients actively cope with rehabilitation treatment.
+Although significant improvements were not observed In this study, reminiscent music therapy may evoke nos-
+in self-esteem, daily life activity effectiveness dimension, talgia in stroke patients, and encourage patients to look
+upper limb function and activities of daily living, trends back on past experiences and their own feelings, thereby
+of improvements were presented, which may be helpful promoting joyful emotions and enhancing the value
+for patients to participate in society and their function- of life. Positive self-esteem, rehabilitation self-efficacy
+ality. Self-esteem is an individual’s positive evaluation and positive emotion are beneficial for them to actively
+and experience of self-worth, which is a core trait that respond to their own status. These psychological traits
+affects psychological adaptation and development [53]. are essential for patients to improve their subjective feel-
+Changes or “loss” of self-esteem after stroke are common ings of independent activities and reduce post-stroke
+[54]. As a universal psychological activity, nostalgia has fatigue, and actively respond to functional rehabilita-
+some positive functions of storing positive emotions and tion treatment, thus improving upper limb function and
+strengthening individual self-identity, and individuals activities of daily living.
+Liu et al. Journal of NeuroEngineering and Rehabilitation (2024) 21:16 Page 8 of 9
+Data availability
+There are some limitations in this pilot study. The nega- The datasets generated and/or analysed during the current study are not
+tive result may be related to the small sample size, which publicly available due [REASON WHY DATA ARE NOT PUBLIC] but are available
+from the corresponding author on reasonable request.
+is a limitation to this study. A future study should recruit
+the required sample size calculated based on the results
+Declarations
+of this study to evaluate the intervention effect. West
+China Hospital of Sichuan University has shortened the Ethics approval and consent to participate
+hospitalization time of patients as much as possible, so This trial was approved by the Ethics Committee of West China Hospital of
+Sichuan University (number: 2022 − 852) and was registered on the Chinese
+the frequency of intervention was relatively low. More-
+Clinical Trial Registry (ChiCTR2200063738).
+over, most patients live far away from the hospital and it
+is not convenient to return to the hospital after discharge, Consent for publication
+Not applicable.
+and scientific and accurate outcome measurements can-
+not be conducted. Therefore, this study did not consider Competing interests
+the long-term effects of the intervention. It is necessary The authors declare no competing interests.
+for future studies to clarity the long-term effects. Finally,
+Author details
+group C was not time matched and had a lower intensity 1Innovation Center of Nursing Research, Nursing Key Laboratory of
+than the other two groups. The intervention protocol Sichuan Province, West China Hospital, West China School of Nursing,
+Sichuan University, Sichuan University, Chengdu, China
+should be modified and the training intensity of group C
+2Department of Rehabilitation Medicine Center, West China Hospital,
+can be changed to 1 h in the future study. School of Nursing, Sichuan University/West, Sichuan University, Chengdu,
+China
+Conclusions 3Department of Rehabilitation Medicine Center, West China Hospital,
+Sichuan University, Chengdu, China
+This is the first pilot study to examine the benefits of 4School of Automation Engineering, University of Electronic Science and
+reminiscent music therapy combined with robot-assisted Technology of China, Chengdu, China
+rehabilitation on elderly patients with upper limb dys-
+Received: 9 May 2023 / Accepted: 24 January 2024
+function after stroke. This pilot study is limited, in gen-
+eralization, due to the small sample size. However, this
+pilot study has, for the first time, provided some prelimi-
+nary empirical evidence of the practical significance of
+References
+reminiscent music therapy combined with robot-assisted 1. Wang M, Wang CJ, Gu HQ, Meng X, Jiang Y, Yang X, et al. Sex differences in
+rehabilitation for significantly improving self-manage- short-term and long-term outcomes among patients with Acute ischemic
+stroke in China. Stroke. 2022;53(7):2268–75.
+ment effectiveness dimension, rehabilitation self-efficacy
+2. GBD 2016 Neurology Collaborators. Global, regional, and national burden
+total score and positive emotion in elderly patients with of neurological disorders, 1990–2016: a systematic analysis for the global
+upper limb dysfunction after stroke. Reminiscent music burden of Disease Study 2016. Lancet Neurol. 2019;18(5):459–80.
+3. Langhorne P, Coupar F, Pollock A. Motor recovery after stroke: a systematic
+therapy combined with robot-assisted rehabilitation
+review. Lancet Neurol. 2009;8(8):741–54.
+is a potentially promising approach, and rehabilitation 4. Kwakkel G, Kollen BJ, van der Grond J, Prevo AJ. Probability of regaining dex-
+environment with reminiscent music may help reduce terity in the flaccid upper limb: impact of severity of paresis and time since
+onset in acute stroke. Stroke. 2003;34(9):2181–6.
+patients’ negative emotions, which may prompt them to
+5. Malliarou M, Tsionara C, Patsopoulou A, Bouletis A, Tzenetidis V, Papathana-
+actively participate in rehabilitation training. Moreover, siou I, et al. Investigation of factors that affect the quality of Life after a stroke.
+based on the results of the pilot study, the required sam- Adv Exp Med Biol. 2023;1425:437–42.
+6. Chien WT, Chong YY, Tse MK, Chien CW, Cheng HY. Robot-assisted therapy
+ple size will be calculated, and a comprehensive random-
+for upper-limb rehabilitation in subacute stroke patients: a systematic review
+ized controlled trial will be conducted to scientifically and meta-analysis. Brain Behav. 2020;10(8):e01742.
+evaluate the effectiveness of the intervention. 7. Lo K, Stephenson M, Lockwood C. The economic cost of robotic rehabilita-
+tion for adult stroke patients: a systematic review protocol. JBI Database
+Acknowledgements System Rev Implement Rep. 2018;16(8):1593–8.
+Not applicable. 8. Zhao M, Wang G, Wang A, Cheng LJ, Lau Y. Robot-assisted distal training
+improves upper limb dexterity and function after stroke: a systematic review
+Author contributions and meta-regression. Neurol Sci. 2022;43(3):1641–57.
+Qian Liu and Xiuying Hu conceived the study. Qian Liu, Li Liu, Zuoyan Liu, 9. Mehrholz J, Hädrich A, Platz T, Kugler J, Pohl M. Electromechanical and
+Hong Cheng, Yang Xu and Xiuying Hu contributed to the design of this study. robot-assisted arm training for improving generic activities of daily living, arm
+Qian Liu drafted the manuscript. Li Liu, Zuoyan Liu, Fang Wang, and Xiuying function, and arm muscle strength after stroke. Cochrane Database Syst Rev.
+Hu critically reviewed the manuscript for important intellectual content. All 2012;(6):CD006876.
+authors read and approved the final manuscript. 10. Zhang L, Jia G, Ma J, Wang S, Cheng L. Short and long-term effects of robot-
+assisted therapy on upper limb motor function and activity of daily living
+Funding in patients post-stroke: a meta-analysis of randomized controlled trials. J
+This work is funded by the cooperation program of West China Hospital of Neuroeng Rehabil. 2022;19(1):76.
+Sichuan University and University of Electronic Science and Technology of 11. Liu L, Xu M, Marshall IJ, Wolfe CD, Wang Y, O’Connell MD. Prevalence and
+China (grant number HXDZ21003). natural history of depression after stroke: a systematic review and meta-
+analysis of observational studies. PLoS Med. 2023;20(3):e1004200.
+Liu et al. Journal of NeuroEngineering and Rehabilitation (2024) 21:16 Page 9 of 9
+12. Rahamatali M, De Bont N, Valet M, Halkin V, Hanson P, Deltombe T, et al. 39. Qiu L, Zheng X, Wang YF. Revision of positive affect and negative affect scale.
+Post-stroke fatigue: how it relates to motor fatigability and other modifiable Chin J Appl Psychol. 2008;14(03):249–54.
+factors in people with chronic stroke. Acta Neurol Belg. 2021;121(1):181–9. 40. See J, Dodakian L, Chou C, Chan V, McKenzie A, Reinkensmeyer DJ, et al. A
+13. Cumming TB, Packer M, Kramer SF, et al. The prevalence of fatigue after standardized approach to the Fugl-Meyer assessment and its implications for
+stroke: a systematic review and meta-analysis. Int J Stroke. 2016;11(9):968–77. clinical trials. Neurorehabil Neural Repair. 2013;27(8):732–41.
+14. Alghamdi I, Ariti C, Williams A, Wood E, Hewitt J. Prevalence of fatigue after 41. Chen YW, Li KY, Lin CH, Hung PH, Lai HT, Wu CY. The effect of sequential
+stroke: a systematic review and meta-analysis. Eur Stroke J. 2021;6(4):319–32. combination of mirror therapy and robot-assisted therapy on motor function,
+15. Su Y, Yuki M, Otsuki M. Non-pharmacological interventions for post- daily function, and self-efficacy after stroke. Sci Rep. 2023;13(1):16841.
+stroke fatigue: systematic review and network Meta-analysis. J Clin Med. 42. Lee MJ, Lee JH, Lee SM. Effects of robot-assisted therapy on upper extremity
+2020;9(3):621. function and activities of daily living in hemiplegic patients: a single-blinded,
+16. Francois C, Grau-Sanchez J, Duarte E, Rodriguez-Fornells A. Musical training randomized, controlled trial. Technol Health Care. 2018;26(4):659–66.
+as an alternative and effective method for neuro-education and neuro- 43. Wei D, Hua XY, Zheng MX, Wu JJ, Xu JG. Effectiveness of robot-assisted virtual
+rehabilitation. Front Psychol. 2015;6:475. reality mirror therapy for upper limb motor dysfunction after stroke: study
+17. Sacks O. The power of music. Brain. 2006;129(Pt 10):2528–32. protocol for a single-center randomized controlled clinical trial. BMC Neurol.
+18. Särkämö T, Tervaniemi M, Laitinen S, Forsblom A, Soinila S, Mikkonen M, et al. 2022;22(1):307.
+Music listening enhances cognitive recovery and mood after middle cerebral 44. Medeiros P, Cardoso FL, Cordeiro PC, Paiva Vieira E, Silva WRD, Tamplain P. Self-
+artery stroke. Brain. 2008;131(Pt 3):866–76. esteem, self-efficacy, and social support mediate the relationship between
+19. Fotakopoulos G, Kotlia P. The value of Exercise Rehabilitation Program accom- motor proficiency and internalizing problems in adults: exploring the
+panied by Experiential Music for Recovery of Cognitive and Motor skills in environmental stress hypothesis in adulthood. Hum Mov Sci. 2023;88:103072.
+Stroke patients. J Stroke Cerebrovasc Dis. 2018;27(11):2932–9. 45. Rigoli D, Kane RT, Mancini V, Thornton A, Licari M, Hands B, et al. The
+20. Fujioka T, Ween JE, Jamali S, Stuss DT, Ross B. Changes in neuromagnetic relationship between motor proficiency and mental health outcomes in
+beta-band oscillation after music-supported stroke rehabilitation. Ann N Y young adults: a test of the environmental stress hypothesis. Hum Mov Sci.
+Acad Sci. 2012;1252:294–304. 2017;53:16–23.
+21. Raglio A. A novel music-based therapeutic approach: the therapeutic music 46. Xu C, He Z, Shen Z, Huang F. Potential benefits of music therapy on Stroke
+listening. Front Hum Neurosci. 2023;17:1204593. Rehabilitation. Oxid Med Cell Longev. 2022;2022:9386095.
+22. Chen WG, Iversen JR, Kao MH, Loui P, Patel AD, Zatorre RJ, et al. Music and 47. Yu J, Tang Y, Han J, Chen J, Lin W, Cui W. Reminiscence therapy is a feasible
+brain circuitry: strategies for strengthening evidence-based research for care program for improving cognitive function, anxiety, and depression in
+music-based interventions. J Neurosci. 2022;42(45):8498–507. recurrent acute ischemic stroke patients: a randomized, controlled study. Ir J
+23. Webster JD, Bohlmeijer ET, Westerhof GJ. Mapping the future of remi- Med Sci. 2022.
+niscence: a conceptual guide for Research and Practice. Res Aging. 48. Platz F, Kopiez R, Hasselhorn J, Wolf A. The impact of song-specific age and
+2010;32(4):527–64. affective qualities of popular songs on music-evoked autobiographical
+24. Cuevas PEG, Davidson PM, Mejilla JL, Rodney TW. Reminiscence therapy for memories (MEAMs). Musicae Sci. 2015;19(4):327–49.
+older adults with Alzheimer’s disease: a literature review. Int J Ment Health 49. Istvandity L. Combining music and reminiscence therapy interventions for
+Nurs. 2020;29(3):364–71. wellbeing in elderly populations: a systematic review. Complement Ther Clin
+25. Li A, Liu Y. Reminiscence therapy serves as an optional nursing care strategy Pract. 2017;28:18–25.
+in attenuating cognitive impairment, anxiety, and depression in acute isch- 50. Sedikides C, Wildschut T, Arndt J, Routledge C. Nostalgia: past, present, and
+emic stroke patients. Ir J Med Sci. 2022;191(2):877–84. future. Curr Dir Psychol Sci. 2008;17(5):304–7.
+26. Cheng C, Fan W, Liu C, Liu Y, Liu X. Reminiscence therapy-based care program 51. Hart CM, Sedikides C, Wildschut T, Arndt J, Routledge C, Vingerhoets
+relieves post-stroke cognitive impairment, anxiety, and depression in acute AJJM. Nostalgic recollections of high and low narcissists. J Res Pers.
+ischemic stroke patients: a randomized, controlled study. Ir J Med Sci. 2011;45(2):238–42.
+2021;190(1):345–55. 52. Froutan R, Eghbali M, Hoseini SH, Mazloom SR, Yekaninejad MS, Boostani R.
+27. Engelbrecht R, Bhar S, Ciorciari J. Planting the SEED: a model to describe the The effect of music therapy on physiological parameters of patients with
+functions of music in reminiscence therapy. Complement Ther Clin Pract. traumatic brain injury: a triple-blind randomized controlled clinical trial.
+2021;44:101441. Complement Ther Clin Pract. 2020;40:101216.
+28. Chanda ML, Levitin DJ. The neurochemistry of music. Trends Cogn Sci. 53. Xu W. Influence of Trait Mindfulness on Self-Esteem of College stu-
+2013;17(4):179–93. dents: mediating Effect of Physical Self-Esteem. J Shandong Sport Univ.
+29. The Lancet. Population ageing in China: crisis or opportunity? Lancet. 2022;38(01):112–8.
+2022;400(10366):1821. 54. Lapadatu I, Morris R. The relationship between stroke survivors’ perceived
+30. Zhang Y, Xiong Y, Yu Q, Shen S, Chen L, Lei X. The activity of daily living (ADL) identity and mood, self-esteem and quality of life. Neuropsychol Rehabil.
+subgroups and health impairment among Chinese elderly: a latent profile 2019;29(2):199–213.
+analysis. BMC Geriatr. 2021;21(1):30. 55. Huang X, Mayer RE, Usher EL. Better together: effects of four self-efficacy-
+31. Parker S, Zhang AL, Zhang CS, Goodman G, Wen Z, Yan Y, et al. Add-on building strategies on online statistical learning. Contemp Educ Psychol.
+effect of PSORI-CM01 to topical calcipotriol for moderate psoriasis vulgaris: 2020;63:101924.
+a multi-center, randomized, double-blind pilot study. Clin Transl Med. 56. Liu ZX, Qiao YL, Wu RG. Predicting mechanism of self- esteem on meaning in
+2021;11(1):e286. life: a dual mediation model of locus of control and positive emotion. Chin
+32. Julious SA. Sample size of 12 per group rule of thumb for a pilot study. Phar- Mental Health J. 2018;32(09):772–7.
+maceut Statist. 2005;4:287–91. 57. Bandura A, Locke EA. Negative self-efficacy and goal effects revisited. J Appl
+33. Belle GV. Statistical rules of thumb. 2nd ed. New Jersey: John Wiley & Sons; Psychol. 2003;88(1):87–99.
+2008. 58. Wang YF, Xie GR, Emotional, Intelligence. Self-leadership and coping in Col-
+34. Browne RH. On the use of a pilot sample for sample size determination. Stat lege students: the Mediating Role of positive affect and self-efficacy. Chin J
+Med. 1995;14(17):1933–40. Clin Psychol. 2016;24(03):558–60.
+35. Wang YL. Rehabilitation Function Assessment. Beijing: People’s Health Pub-
+lishing House. 2008;164–168.
+36. Wang XD, Wang XL, Ma H. Rating scales for mental health. Beijing: Chinese Publisher’s Note
+Mental Health Journal. 1999;230–232 + 318–320.
+Springer Nature remains neutral with regard to jurisdictional claims in
+37. Jones F, Partridge C, Reid F. The Stroke Self-Efficacy Questionnaire: measuring
+published maps and institutional affiliations.
+individual confidence in functional performance after stroke. J Clin Nurs.
+2008;17(7B):244–52.
+38. Li HY, Fang L, Bi RX, Cheng HL, Huang J, Feng LQ. The reliability and valid-
+ity of Chinese version of stroke self-efficacy questionnaire. Chin J Nurs.
+2015;50(07):790–4.

@@ -1,0 +1,238 @@
+Frontiers in Business, Economics and Management
+ISSN: 2766-824X | Vol. 12, No. 2, 2023
+The Rapid Rise of Digital Economy and Macroeconomic
+Stability in China after the Epidemic
+Qingxi Mi
+High School Attached to Shandong Normal University, Jinan, China
+Abstract: In the 21st century, the digital economy has gradually become a new driving force for global economic growth. The
+COVID-19 pandemic has accelerated this trend, forcing countries to quickly adjust their economic strategies to adapt to the new
+challenges brought by the epidemic. This article focuses on the rapid rise of China's digital economy after the epidemic and its
+impact on macroeconomic stability. Firstly, this article defines the digital economy and emphasizes its core characteristics in
+modern society, such as high automation, low marginal costs, and cross-border integration. Subsequently, the importance of the
+digital economy in the context of the epidemic was analyzed, especially the key roles of online office, remote healthcare, e-
+commerce, and other fields in the epidemic. In summary, China's digital economy has not only rapidly risen after the epidemic,
+but also made significant contributions to the stability of the national economy at the macro level. This development provides
+useful reference for other countries in dealing with similar crises, and also indicates the key position of the digital economy in
+the future global economy.
+Keywords: After the epidemic, China's digital economy has rapidly risen and macroeconomic stability has been achieved.
+providing a solid support for macroeconomic stability [5-6].
+1. Introduction
+From production, distribution to consumption, the digital
+With the rapid technological progress in the 21st century, economy has a profound impact on the traditional economic
+digital economy has gradually become the new engine of model and promotes the optimization and upgrading of the
+global economic development. This change has become more economic structure. Many traditional retailers and enterprises
+and more obvious in recent years, especially after the invest in building their own online platforms or cooperate
+outbreak of COVID-19, countries have been forced to adjust with existing e-commerce platforms to realize online to
+their economic strategies quickly to adapt to new challenges. offline business models. Enterprises have adopted cloud
+In this context, China, as the second largest economy in the computing, VPN and online conference tools, such as Zoom
+world, is particularly important in coping with and choosing and Nail, to support employees to work from home, thus
+strategies for the digital economy, which is usually defined as ensuring business continuity. In order to cope with the
+economic activities based on digital computing technology, interruption of supply chain, enterprises have accelerated the
+including digital products, services and modes of production. digitalization of supply chain management system to monitor
+Compared with the traditional economy, it relies more on data, and adjust the supply chain status in real time. The purpose of
+information and Internet technology, and its characteristics this paper is to deeply discuss the development trend of digital
+include high automation, strong expansibility, low marginal economy in China in the post-epidemic era, and how it can
+cost and cross-border integration [2]. COVID-19 epidemic shape and stabilize the macro-economic structure. We will
+has had a profound impact on the global economy. The systematically analyze its significance and value to the future
+epidemic has caused a huge economic impact on a global economic development of China from four aspects: the
+scale, but it has also accelerated the development of some definition, characteristics, current situation and the
+industries and fields, especially the digital economy in China. relationship with the macro-economy [6].
+With blockade and social isolation becoming the norm, digital
+2. The Impact of the Epidemic on
+services and solutions such as online office, telemedicine and
+China's Digital Economy
+e-commerce have become the key to social operation [3]. This
+rapid digital transformation has provided new impetus and
+2.1. The growth of online consumption
+direction for China's economic development. In recent years,
+China has made remarkable achievements in many fields of The epidemic has caused a huge economic impact globally,
+digital economy. Whether it is e-commerce, mobile payment but it has also accelerated the development of certain
+or artificial intelligence, China is in a leading position in the industries and fields, especially China's digital economy. The
+world. The government's strong support for digital innovation, following will explore this impact in detail. Due to the policy
+combined with the huge market scale and Internet penetration of home quarantine, a large number of consumers have turned
+rate, has created favorable conditions for the rapid rise of the to online shopping platforms, and e-commerce, online
+digital economy in China [4]. With the wide application of shopping, contactless delivery, etc. have become the new
+digital technology in all walks of life, its impact on China's norm in daily life. New online consumption modes such as
+macro-economy has become increasingly prominent. There is live broadcast sales, online agricultural products market,
+a close relationship between the digital economy and China's virtual fitting and so on have come to the fore, becoming a
+macro-economy. The digital economy has not only brought new track in the e-commerce industry. The usage rate of
+innovation-driven growth to China, but also promoted the mobile payment and electronic wallet has increased
+optimization and upgrading of the economic structure, significantly, such as Alipay, WeChat payment, which further
+44
+strengthens the security and convenience of online With the development of cloud computing, big data, AI and
+transactions [8]. other technologies, the demand for positions such as
+engineers, data analysts and AI researchers in related fields
+2.2. Digital Transformation of Traditional
+has increased dramatically. New online service businesses,
+Enterprises such as live broadcast anchor, e-commerce purchasing, online
+Many traditional retailers and enterprises invest in building education tutor and other new occupations came into being,
+their own online platforms or collaborate with existing e- providing new working platforms and opportunities for the
+commerce platforms to achieve an online to offline business majority of the workforce. China has made remarkable
+model. Enterprises are adopting cloud computing, VPN, and progress in the field of digital economy. Whether in the fields
+online conference tools such as Zoom and DingTalk to of mobile payment, artificial intelligence or e-commerce,
+support employees working from home, thereby ensuring China is in the forefront of the world. This is due to the
+business continuity. In response to supply chain disruptions, government's support for digital innovation, huge market
+enterprises have accelerated the digitization of supply chain scale and high Internet penetration rate. Traditional
+management systems to monitor and adjust supply chain enterprises provide employees with digital skills training to
+status in real-time. better adapt to the digital working environment, thus avoiding
+large-scale unemployment. The digital economy has
+2.3. Technological Progress and Investment
+promoted the transformation of industrial structure from low
+Growth in Digital Infrastructure added value to high added value, such as the migration from
+manufacturing to service industry and technology industry.
+In the context of the epidemic, the deployment and
+Digital supply chain management enables enterprises to
+application of 5G have gained new impetus. Its high speed,
+adjust their supply chain strategies more flexibly and reduce
+large bandwidth, and low latency provide possibilities for
+their dependence on a single supply source. Digital tools
+various application scenarios, such as telemedicine and
+enable enterprises and individuals to work and start
+unmanned driving. In epidemic prevention and control, AI
+businesses anywhere, reducing dependence on specific
+and big data technology have played a key role in data
+geographical locations. AI and machine learning technology
+collection, epidemic prediction, patient screening, and other
+help enterprises to automate repetitive tasks and optimize
+aspects. Cloud computing has become a key infrastructure
+production processes in real time, thus improving production
+supporting remote work, online education, and a large number
+efficiency. Big data analysis provides enterprises with in-
+of online services. Large domestic cloud service providers
+depth insight, enabling them to make more informed business
+such as Alibaba Cloud and Tencent Cloud have achieved
+decisions. Cloud computing and online collaboration tools
+significant business growth. Overall, although the COVID-19
+such as Teams and nailing simplify teamwork and improve
+pandemic has posed challenges to the Chinese economy, it has
+work efficiency.
+also created unprecedented opportunities for the development
+Due to the characteristics of digital economy, enterprises
+of the digital economy. In this process, online consumption,
+are no longer over-concentrated in big cities, which helps to
+digital transformation of enterprises, and the construction and
+alleviate the problems of congestion and over-concentration
+upgrading of digital infrastructure have all been rapidly
+of resources in big cities. Digital tools enable rural areas to
+promoted, laying a solid foundation for the future growth of
+access the global market and provide new business and
+China's digital economy.
+employment opportunities for local residents. According to
+3. The Influence of Digital Economy on their own resources and advantages, various places have
+Macroeconomic Stability formed their own digital economy innovation centers, such as
+hardware manufacturing in Shenzhen, e-commerce and
+With the rapid rise of digital economy in China, its positive financial technology in Hangzhou. Overall, the digital
+role in macroeconomic stability has become increasingly economy has made an important contribution to the
+prominent. This chapter will discuss in depth how the digital macroeconomic stability of China. It not only provides a large
+economy can strengthen macroeconomic stability. The impact number of employment opportunities, but also enhances
+of digital economy on macroeconomic stability can be economic resilience, improves productivity and promotes
+divided into four aspects, as shown in Figure 1. balanced development among regions. With the further
+development of digital economy in China, its positive impact
+on macroeconomic stability is expected to be further
+strengthened.
+4. Policy Recommendations and
+Prospects
+In the context of the rapid development of the digital
+economy, it has become an important task for decision-
+makers to formulate appropriate policies to further promote
+its healthy development while ensuring economic and social
+stability. The corresponding policy recommendations will be
+Figure 1. The influence of digital economy on provided below, as shown in Figure 2.
+macroeconomic stability
+45
+Figure 2. Policy Suggestions
+In order to meet the needs of big data, remote work, and
+5. 5 Conclusions
+other digital services, it is necessary to further expand and
+optimize the coverage of high-speed broadband and 5G
+With the continuous progress of technology and the digital
+networks. Data center expansion: Given the growing demand
+transformation of society, digital economy has gradually
+for cloud computing and big data, it is recommended to
+become an important engine of economic growth in China.
+further invest in the construction of data centers to meet
+From mobile payment to AI technology, from cloud
+storage and computing needs. With the growth of the digital
+computing to big data analysis, these emerging technologies
+economy, the demand for data security has also increased
+not only create huge economic value, but also promote
+accordingly. Suggest increasing investment in network
+innovation and upgrading in all walks of life. The digital
+security technology and infrastructure. Incorporate digital
+economy has created a lot of employment opportunities for
+skills teaching in primary and secondary education to ensure
+China, especially in the fields of technology, e-commerce and
+that the new generation can adapt and innovate in the digital
+online services. It not only provides more choices for the
+age. To help workers in traditional industries adapt to the
+younger generation, but also helps workers in many
+digital economy, digital skills training and re education
+traditional industries to transform and upgrade, thus ensuring
+opportunities are provided. Encourage universities to offer
+the stability of employment in society. Digital economy has
+majors and courses related to the digital economy, such as
+played a positive role in promoting traditional economy by
+data science, AI, and blockchain technology. Referring to
+improving production efficiency, optimizing supply chain and
+international standards such as GDPR, formulate domestic
+enhancing economic resilience. Its development has provided
+data protection regulations to ensure the data security of
+a new impetus for economic growth, but also brought stability
+enterprises and individuals. Establish specialized agencies to
+to the macro-economy. In order to ensure the healthy
+regulate data security and privacy in the digital economy,
+development of digital economy, it is necessary to further
+ensuring effective enforcement of regulations. Through
+strengthen the construction of digital infrastructure, improve
+public education activities, raise public awareness of data
+the digital literacy of the whole people, formulate data
+privacy and enable them to better protect their own data.
+protection and privacy laws and regulations, and strengthen
+Collaborate with major economies in the digital economy,
+international cooperation. In a word, the rapid rise of digital
+such as data flow, technology exchange, and joint research
+economy in China is an irreversible trend. Its sustainable
+and development. Actively participate in digital economy
+development will not only promote the economic growth of
+issues in international organizations such as the WTO and
+China, but also provide valuable experience and
+G20, and jointly formulate international standards and rules.
+demonstration for the development of global digital economy.
+Through the "the Belt and Road" initiative, share the
+In order to make full use of this opportunity, the government,
+development experience and technology of digital economy
+enterprises and the public need to work together to ensure that
+with countries along the line, and jointly promote the
+the digital economy can bring greater benefits to China in the
+development of digital economy in the region. In summary,
+future.
+with the rapid rise of the digital economy in China,
+corresponding policies and strategies also need to be adjusted References
+and improved. Through reasonable policy guidance,
+investment, and international cooperation, the digital [1] Tingting W.China's Digital Economy Ready to Soar after the
+economy is expected to bring greater economic growth and Epidemic[J].China Today: English Version, 2020, 69(5):2-8.
+social development to China. Overall, although the COVID- [2] Xiaodong C, Xiaoxia Y.The Impact of Digital Economy
+19 pandemic has posed challenges to the Chinese economy, it Developmenton the Industrial Structure Upgrading:A Study
+has also created unprecedented opportunities for the Based on Grey Relational Entropy and Dissipative Structure
+development of the digital economy. In this process, online Theory[J].Academic Abstract of Chinese Higher Education
+consumption, digital transformation of enterprises, and the Institutions - Economics (English Version), 2022, 17(1):29-33.
+construction and upgrading of digital infrastructure have all [3] Peng W.China's Economic Trend and Development Ideas
+been rapidly promoted, laying a solid foundation for the Under the Impact of the Epidemic[J]. Bulletin of Chinese
+future growth of China's digital economy. Academy of Sciences, 2022, 22(6):17-24.
+46
+[4] He Y.A Research on Development Strategy of China's Digital [8] Jing W U, Zhang F, Sun Y,et al.Fight Against COVID-19
+Economy in the Post-COVID-19 Era[J].Modern Economics & Promotes China's Digital Transformation: Opportunities and
+Management Forum, 2021, 2(5):26-29. Challenges[J].Bulletin of Chinese Academy of Sciences, 2020,
+35(3):306-311.
+[5] Zhang L, Chen S.China's Digital Economy: Opportunities and
+Risks[J].IMF Working Papers, 2019, 5(4):17-24. [9] He,Yin.Epidemic cannot stop China's contribution to global
+economy[J].Report on the the Belt and Road, 2020, 12(2):2-8.
+[6] MALI.Can China's Economy Withstand the Epidemic. [J].
+China Today: English Version, 2020, 15(3):33-35. [10] Yang Y.Clustering and Prediction Analysis of the Coordinated
+Development of China's Regional Economy Based on Immune
+[7] Chen B, Zhu H.Has the Digital Economy Changed the Urban
+Genetic Algorithm[J].Complexity, 2021, 11(4):10-15.
+Network Structure in China?—Based on the Analysis of
+China's Top 500 New Economy Enterprises in 2020 [J].
+Sustainability, 2021, 14(5):19-24.
+47

@@ -1,0 +1,425 @@
+Dean&Francis
+ISSN 2959-409X
+Brain-Computer Interface Technology in Stroke Rehabilitation
+Cheng Zhao
+School of Biotechnology, Tianjin University of Science & Technology, Tianjin, China
+zhaocheng@stu.sqxy.edu.cn
+Abstract:
+Stroke survivors and their families have had to cope with major obstacles, but Brain-Computer Interface (BCI)
+technology is being touted as an innovation that is a game changer. Traditional modes of rehabilitation offer only
+minimal help to the severely impaired; however, BCI technology provides a unique ray of hope by enabling direct
+communication between the brain and devices for therapy and interactive purposes. This means not only restoring
+movement skills or improving thinking and talking abilities but also transforming the way a person interacts with their
+surroundings after having a stroke. Despite this potentiality, there are several challenges that must be overcome before
+BCI technology can be effectively applied in clinics, like signal decoding complexity and universality & accessibility
+hunt. It seeks to delve into the possibilities of BCI in rehabilitation after stroke, focusing on motor recovery, cognitive
+and communication restoration as well as environmental interactions. These include demonstrations of innovative
+uses such as fNIRS-based BCIs for controlling prosthetic limbs, neurofeedback training for cognitive enhancements,
+and making better use of customizing BCIs to improve mobility and communication. However, it also addresses the
+obstacles faced in signal acquisition, interpretation, personalization, adaptation, and the training necessary for effective
+BCI utilization. In order to tackle these issues, forward-looking algorithms, machine learning hybrid BCI systems,
+and adaptive learning systems were discussed, which mark out how these obstacles will be overcome in this detailed
+review. The article underscores interdisciplinary collaboration in addition to user-centric designs, ethical considerations
+regarding access, and continued innovation, which all speak towards a future where BCI technology not only overcomes
+current limitations but makes rehabilitation different, giving new hope and skills among stroke survivors again.
+Keywords: BCI; stroke rehabilitation; signal decoding; neurofeedback training; neuroplasticity
+1. Introduction function and augmenting cognitive and communicative
+capabilities. The thought of using one’s thoughts alone to
+When trying to recover from a stroke, people and their
+power prosthetics or interact with digital environments is
+families get tangled up with difficulties and uncertainties.
+nothing short of extraordinary.
+Strokes can thwart communication pathways in the brain
+However, there is still an arduous path ahead before BCI
+that are crucial for physical, cognitive, and emotional
+technology can be seamlessly integrated into clinical set-
+functions. This usually leaves survivors with intense hard-
+tings. Technological intricacies such as signal decoding
+ships as they embark on their journey back to normalcy.
+pose monumental challenges when it comes to capturing
+Although conventional rehab methods have been found
+brain activity accurately. Additionally, the golden standard
+effective, they don‘t offer much help to those who are
+here is universality and accessibility - two things that will
+more severely impaired.
+not be easily achieved.
+Brain-computer interface (BCI) technology has recently
+Despite these barriers, though, we must push forward in
+emerged as a solution to address this issue. It was not cre-
+our efforts because there‘s really no other option at this
+ated as just another innovation but rather presents itself as
+point. Right now, strokes impose immense limitations on
+a lifeline for those seeking recovery after a stroke. Unlike
+people‘s lives, but if we are able to crack the code behind
+traditional rehab practices, which rely on rebuilding dam-
+the successful implementation of BCI tech, then there may
+aged pathways, BCI technology takes information directly
+be hope yet! This article aims to do exactly that by explor-
+from the user‘s brain to external devices, where it is sent
+ing every inch of possibility within this field so that stroke
+out into the world or used for therapeutic purposes.
+survivors can regain control over their lives once again.
+It might sound like something out of science fiction nov-
+els, but BCI actually shows promise in restoring motor 2. The Promise of BCIs in Stroke Re-
+1
+Dean&Francis
+habilitation patients in brain-training tasks that stimulate their brain
+functions. Such programs are designed specifically for
+2.1 Motor Rehabilitation this purpose. They are aimed at capturing users’ attention,
+challenging their cognitive faculties, and providing them
+BCI technology facilitates a direct communication path-
+with real-time feedback, which is significant for cognitive
+way between the brain and external devices without the
+recovery and neuroplasticity.
+need for any physical movement. This is particularly revo-
+Another critical area where BCIs can be used for therapy
+lutionary for motor rehabilitation, where the primary goal
+is communication. If one cannot speak or write due to
+is to re-establish the lost connection between intention and
+aphasia caused by a stroke or has severe motor impair-
+action. BCI systems decode neural signals generated by
+ments, BCIs may still offer alternative means of communi-
+the brain—signals that represent the intent to move—and
+cation. By reading neural signals associated with intended
+translate them into commands that control external devic-
+speech or language production, BCIs can facilitate written
+es, such as robotic arms, computer cursors, or electrical
+text or speech synthesis without any physical movement.
+stimulation units.
+One of the most studied BCI systems used for communi-
+One of the most significant applications of BCI technol-
+cation involves detecting P300 waves - a type of event-re-
+ogy in motor rehabilitation involves the use of these sys-
+lated potential that occurs when an individual recognizes a
+tems to control robotic exoskeletons or prosthetic limbs.
+character or symbol that they desire – known as a desired
+For stroke survivors, especially those with severe motor
+letter – highlighted on screen matrixes showing different
+impairments, traditional rehabilitation methods may offer
+letters. Users are thereby able to spell out words and sen-
+limited improvements. BCIs, however, can enable these
+tences by simply allowing BCIs to detect specific P300
+individuals to control robotic devices with their thoughts,
+responses whenever the highlighted letter is desired. For
+thereby engaging in physical activities and exercises that
+this reason, they facilitate communication.
+were previously impossible.
+The study discusses the potential of neurofeedback (NFB)
+The study introduces a brand new fNIRS-based
+training using brain-computer interfacing to improve at-
+brain-computer interface (BCI) structure as a means to
+tention in healthy adults. The research employs an innova-
+control prosthetic legs and rehabilitate locomotive disor-
+tive technique that applies iterative learning control (ILC)
+ders patients. By using fNIRS signals, this study aims to
+to change the difficulty of a P300 speller task during NFB
+initiate and stop the gait cycle using a nonlinear propor-
+training with the aim of improving event-related poten-
+tional derivative computed torque controller (PD-CTC)
+tials (ERPs) as well as cognitive performance. The study
+with gravity compensation so as to minimize position
+was carried out as a single-blind, three-arm, randomized
+error by controlling torques at hip and knee joints. Brain
+controlled trial, including 45 healthy participants who
+signals related to walking intention and rest were collect-
+were divided into groups and who were receiving different
+ed from the primary motor cortex of nine subjects in this
+methods of task difficulty adaptation during a P300 spell-
+study. Different filters for eliminating motion artifacts
+ing task. Results show that all groups exhibited significant
+and physiological noises, as well as several classifiers for
+gains in performance on the visual spatial attention task
+finding the most effective combination concerning classi-
+after training, with the group utilizing the proposed ILC
+fication accuracy, were examined. The outcomes revealed
+approach recording 22% increased amplitude of P300s
+that SVM classifiers employing hemodynamic response
+during training and 17% reduced post-training alpha pow-
+filter (hrf) yielded significantly higher accuracies than
+er, indicating enhanced attentional focus. This analysis
+other combinations. This proposed strategy enabled the
+proves that there are prospects for ERP-based NFB train-
+efficient production of commands for initiating and termi-
+ing using a P300 speller in enhancing cognitive processes,
+nating movement phases in prosthetic limbs, controlling
+highlighting how personalized task difficulty adaptation
+knee and hip torques aimed at minimizing position errors.
+can be effective in speeding up teaching and increasing
+Furthermore, it could prove helpful during neurofeedback
+successfulness among healthy adults. The investigation
+training or rehabilitation programs directed at lower-limb
+indicates that there must be an acceleration of NFB prac-
+amputees or paraplegic patients [1].
+tice so as to increase its acceptability and feasibility by
+2.2 Cognitive and Communication Rehabili-
+end-users and clinicians alike [2].
+tation
+2.3 Environmental Interactions
+Stroke can cause cognitive impairments such as attention
+BCI technology, on the other hand, is not restricted to
+problems, memory deficits, executive dysfunction, and
+physical and cognitive rehabilitation-only; it also stretch-
+problem-solving difficulties. This makes BCI technology
+es to enhance environmental interaction among stroke
+the best tool for cognitive rehabilitation since it involves
+2
+Dean&Francis
+survivors. BCI technology serves as a bridge between an the signal interpretation phase because low SNR prevails.
+individual’s intention and interaction with his or her im- Blinking movements or user’s movements could result
+mediate surroundings, thereby laying a firm foundation in artifacts while using equipment, too. Therefore, devel-
+for independence and bettering life quality in post-stroke oping methods that can detect these artifacts, effectively
+survivors who have mobility impairments and communi- replace them, or even reduce their impact is crucial to im-
+cation difficulties. proving the dependability of BCI systems [5].
+Mobility plays a vital role in determining one’s freedom;
+3.2 Personalization and Adaptation
+thus, the adoption of BCI technology has been instru-
+One of the key problems of personalizing BCI technology
+mental in alleviating mobility challenges experienced
+lies in the fact that different individuals have different pat-
+by stroke victims. BCIs present an alternative way for
+terns of brain activity. The specific signs that may indicate
+people with disabilities such as spinal cord injuries to
+certain intentions or conditions can vary enormously from
+move around using thought commands that interface with
+one person to another due to age, the extent of stroke-in-
+wheelchair control systems or prosthetic limbs. Direct
+duced neurological damage, previous experience with
+brain control over mobility aids enhances independence
+similar technologies, as well as genetic predispositions.
+both physically while bringing about psychological
+Considering this variation necessitates BCI systems,
+well-being by restoring autonomy and self-efficacy.
+which are highly adapted so that they can be customized
+BCI devices are more than objects controlling one’s en-
+for each user’s particular neural landscape.
+vironment; they play a significant role in assisting people
+Stroke rehabilitation is a dynamic process because patients
+to communicate with what is beyond themselves. Several
+continually change what they are capable of and face new
+ways of communication other than speech can be facil-
+challenges. As people move through their journey of re-
+itated by BCIs among individuals who have aphasia or
+covery, their capacities and needs might change, thereby
+profound speech impairment/motor disorders, including
+demanding equal dynamism from BCI systems. Creating
+producing text or synthesizing speech, among others. By
+this kind of adaptive BCI system means having a real-time
+decoding neural signals associated with intended commu-
+response mechanism that ensures that it continuously sup-
+nication or utilizing visual or auditory cues for selection
+ports services in line with ever-changing demands during
+processes, BCI systems enable users to express their
+recovery.
+thoughts, needs, and desires, thereby breaking down barri-
+For personalized BCI technology to work effectively, it
+ers to social interaction and participation [3].
+should respond not only according to an individual’s brain
+3. Challenges Facing BCI Integration patterns but also be subjectively acceptable by him/her
+in Stroke Rehabilitation based on his/her tastes, preferences, or lifestyle. Aesthet-
+ic and functionality aspects like wearability qualities for
+3.1 Signal Acquisition and Interpretation EEG caps or other sensing devices, ease-of-use interface
+The human brain is a very complex organ, with about 86 software, and assistive device appearances do matter when
+billion neurons forming intricate connections and engag- it comes to user acceptability as well as fidelity towards
+ing in different patterns of activity. This complexity makes interventions based on BCIs over time [6].
+it difficult to capture specific thoughts or intentions associ- 3.3 Adaptation and Training
+ated with neural signals due to its profoundness. In stroke
+For BCI systems to remain effective over time, they have
+recovery, for example, where brain damage may change
+to be provided with mechanisms for continuous learning
+normal signal patterns, such distinctions get even harder.
+as well as adaptation. These need machine learning algo-
+In terms of signal acquisition, the issue at hand is the sig-
+rithms capable of adjusting to both short-term fluctuations
+nal-to-noise ratio (SNR). Normally, electrical activities
+as well as longer-term changes in brain activity patterns.
+from muscles (EMG), eye movement (EOG), and external
+Nonetheless, guaranteeing the stability of such adaptive
+electromagnetic fields cause noise when dealing with non-
+algorithms to prevent inadvertent consequences or mis-
+invasive techniques like electroencephalography (EEG),
+takes during their growth poses major technical challeng-
+which measure brain signals. Sophisticated filtering, as
+es.
+well as advanced signal processing methods, make up this
+In BCI adaptation and training, one of the major difficul-
+delicate process involved in distinguishing meaningful
+ties is that different people have varying abilities to learn
+neural signals from this noise [4].
+and utilize the system effectively. An individual’s brain
+Furthermore, the problem is compounded by artifacts
+plasticity, cognitive functioning, and motivation signifi-
+- extraneous signals unlinked to the desired cognitive
+cantly affect their ability to use BCI devices. Some users
+processes – which can drastically affect accuracy during
+3
+Dean&Francis
+may readily adjust to operating a device with their minds, tasks. Take, for instance, Convolutional Neural Networks
+while others may see the process as slow and frustrating. (CNNs) and Recurrent Neural Networks (RNNs), which
+This will require subtle adjustments during training so as can learn complex patterns within temporal sequences of
+not to affect the user’s motivation or confidence within neural data; thus, they can be used for decoding dynamic
+different learning curves [7]. brain activities over time [12].
+One of the key aims of stroke rehabilitation is exploiting The adaptability of the BCI system is crucial due to the
+neuroplasticity, which signifies a brain’s capacity to re- dynamic nature of the human brain as well as its capabil-
+structure itself through the formation of new neural con- ity for neuroplasticity. Through continuous training on
+nections. Nonetheless, making BCI systems that can ef- incoming data, machine learning models can adjust their
+fectively stimulate neuroplasticity for functional recovery parameters as a response to changes in the user‘s brain
+complicates adaptation as well as training procedures. The signal patterns. Such adaptation is important for maintain-
+challenge here lies in determining when exactly it should ing efficacy over time, particularly in rehabilitation con-
+be done so that overall adaptive capacity can be increased, texts where a user‘s neurological condition may change.
+leading to actual improvements in motor or cognitive abil- Adaptive Learning Systems within BCIs do not just cater
+ities, respectively [8]. to long-term alterations but also facilitate moment-to-mo-
+Effective feedback is crucial for BCI training and adap- ment fluctuations in neural signals. This ensures that
+tation because it gives users real-time responses on how performance remains consistent even when there are vari-
+they are performing over time. Nevertheless, creating in- ations due to attention shifts, fatigue, or physiological/
+tuitive feedback mechanisms that are meaningful enough environmental factors [13, 14].
+for enhanced learning has been found hard because it al- Personalization is another critical area in which ma-
+ways looks easy but is not straightforward at all times un- chine-learning algorithms are important. By using data
+less one understands what they are trying to achieve with from individual users, machine learning models can cus-
+diverse populations affected differently by either auditory tomize BCI interfaces and functionalities to a person‘s
+or visual stimuli provided under specific circumstances [9, preferences, abilities, and rehabilitation goals. This us-
+10]. er-centric approach promotes engagement, comfort, and
+overall effectiveness of BCIs.
+4. The Path Forward: Addressing
+Unsupervised learning techniques such as clustering can
+Challenges
+be used for discovering patterns within user data without
+Overcoming the technical challenges of Brain-Computer predefined labels, hence providing insights into how to
+Interface (BCI) technology in stroke rehabilitation calls optimally tailor the BCI experience for different groups
+for creative solutions and interdisciplinary collaborations. of users or even individuals. In addition, reinforcement
+In order to get closer to realizing its full potential in clin- learning, which involves algorithms that learn optimal
+ical settings, issues regarding signal acquisition, inter- actions by trial and error, could help to dynamically adjust
+pretation, hardware and software constraints, and person- BCI settings or feedback in real time based on user re-
+alization need to be addressed. Here are some proposed sponses [15].
+solutions. 4.2 Hybrid BCI Systems
+4.1 Advanced Algorithms and Machine A hybrid BCI system integrates two or more different
+Learning BCI technologies or includes BCI in combination with
+Improving BCI technology with advanced algorithms is other neurotechnology interfaces such as neuroimaging or
+based on signal processing and feature extraction. Neu- neuromodulation techniques. In this way, the system can
+ral signals captured by electroencephalography or EEG take advantage of strengths while mitigating individual
+are intricate and usually contaminated by noise originat- weaknesses. For instance, a hybrid BCI may combine
+ing from various sources. Advanced signal processing electroencephalography (EEG), which has high temporal
+techniques are used to cleanse these signals and extract resolution, with functional magnetic resonance imaging
+relevant neural information from artifacts/outside noise. (fMRI) or near-infrared spectroscopy (NIRS), having
+Furthermore, feature extraction algorithms further ana- superior spatial precision and providing a more holistic
+lyze these processed signals in order to identify specific understanding of brain activity.
+patterns or characteristics that link them up with different Hybridization offers several important benefits for BCI
+brain activities or intentions [11]. systems, including improved accuracy, versatility, and
+Machine learning models, especially deep learning, have customer satisfaction. The use of several signal acquisi-
+been exceptional in feature extraction and classification tion approaches increases the accuracy of detecting user
+4
+Dean&Francis
+intentions and translating them into commands. This is 5. Conclusion
+especially important where fine control, such as prosthet-
+This work is on the verge of a new era in stroke reha-
+ic limb manipulation or accurate cursor movement on a
+bilitation, with the dawn of Brain-Computer Interface
+screen, is desired [16].
+(BCI) technology heralding a shift in our recovery mind-
+Moreover, hybrid systems also offer greater versatility
+sets. This trip has combined neurology, engineering, and
+by meeting various customers‘ requirements. The design
+custom-made medicine to open up ways of brightening
+can permit switching between different modes depending
+the lives of stroke patients. In this way, BCI technology
+on context or task, creating flexibility and usability for
+helps us see a time ahead when recovering from a stroke
+the system. Furthermore, through multiple channels con-
+would not be as hard as it is now but will just be another
+necting a user to the system, hybrid BCIs can still operate
+challenge that can easily be overcome. The future is one
+even if one channel fails, thus keeping performance con-
+where rehab will always reach beyond what we think and
+stant [17].
+bring back life to once hopeless cases.
+4.3 Adaptive Learning Systems
+The potential and problems associated with BCI technol-
+In BCI technology, adaptive learning systems are founded ogy are highlighted in this exploration. We have seen how
+on the machine learning principle that enables systems it can transform motor, cognitive, and communication
+to learn from data, identify patterns, and make decisions rehabilitation processes so that people can engage their
+with the least possible human input. Adaptive learning environment in ways previously thought impossible. But
+systems employ this ability to always update or modify it’s a journey with lots of challenges along the way. There-
+their algorithms based on current feedback from the indi- fore, there are also some technicalities in this realm, such
+vidual’s brain activity. Through this ongoing process of as individualization needs, accessibility, and integration
+learning, it ensures that the BCI system stays up-to-date into clinical settings, that must be handled carefully and
+with the user’s current state and needs, thus making it creatively.
+more responsive than ever before [18].
+References
+4.2.1 Main components and strategies
+[1]Khan RA, Naseer N, Qureshi NK, Noori FM, Nazeer H, Khan
+Real-Time Feedback Loop: The real-time feedback loop
+MU. fNIRS-based Neurorobotic Interface for gait rehabilitation.
+is a critical aspect of adaptive learning systems that con-
+J Neuroeng Rehabil. 2018; 15(1):7.
+sistently monitor the person’s brain signals and system
+[2]Noble SC, Woods E, Ward T, Ringwood JV. Accelerating
+responses. This information alters the system’s algorithms
+P300-based neurofeedback training for attention enhancement
+so that its interface adapts to changing needs while main-
+using iterative learning control: a randomized controlled trial. J
+taining utmost performance levels.
+Neural Eng. 2024; 21(2).
+Personalization: Adaptive learning systems personalize
+[3]Pirasteh A, Shamseini Ghiyasvand M, Pouladian M. EEG-
+each user’s experience with the BCI by matching interface
+based brain-computer interface methods with the aim of
+designs and control strategies with individual capabilities
+rehabilitating advanced stage ALS patients. Disabil Rehabil
+as well as preferences. Examples of personalization may
+Assist Technol. 2024:1-11.
+include adjusting signal detection sensitivity, choosing an
+[4]Sun, S., & Zhou, J. A review of adaptive feature extraction
+alternative layout for an interface, or selecting effective
+and classification methods for EEG-based brain-computer
+feedback modes for a particular user.
+interfaces. 2014 International Joint Conference on Neural
+Incremental Learning: As opposed to retraining, the mod-
+Networks (IJCNN), 2014,1746-1753.
+el poses a flat advantage for these types of systems. Using
+[5]Jafarifarmand, A., & Badamchizadeh, M.A. EEG Artifacts
+incremental 2learning methods, they can be exposed to
+Handling in a Real Practical Brain-Computer Interface
+new sets of data. In situations where there is a gradual im-
+Controlled Vehicle. IEEE Transactions on Neural Systems and
+provement or decline regarding patient conditions’ incre-
+Rehabilitation Engineering, 2019,27, 1200-1208.
+mental training proves valuable in rehabilitation contexts.
+[6]Othman, A. Utilizing Brain-Computer Interface to Enhance
+Error Correction & Optimisation: Real-time error recogni-
+the Learning Capacities of Individuals with Impairments: A
+tion capability inherent in adaptive learning systems helps
+Brief Review. International Journal of Research Publication and
+them correct their mistakes online. By examining instanc-
+Reviews.2022, 3(11),1248-1252
+es where predictions from the system do not correspond to
+[7]McFarland DJ, Wolpaw JR. Brain-computer interface use is a
+users’ intentions, these algorithms keep on enhancing their
+skill that the user and system acquire together. PLoS Biol. 2018;
+models for better accuracy and reduce false positives or
+16(7):e2006719.
+negatives.
+[8]Maier M, Ballester BR, Verschure PFMJ. Principles of
+5
+Dean&Francis
+Neurorehabilitation After Stroke Based on Motor Learning and [14]Saha, S., & Baumert, M. Intra- and Inter-subject Variability
+Brain Plasticity Mechanisms. Front Syst Neurosci. 2019; 13:74. in EEG-Based Sensorimotor Brain Computer Interface: A
+[9]Ishihara, W., Moxon, K.A., Ehrman, S., Yarborough, M., Review. Frontiers in Computational Neuroscience, 2020, 13.
+Panontin, T.L., & Nathan-Roberts, D. Feedback Modalities in [15]Hassouni A, Hoogendoorn M, van Otterlo M, et al.
+Brain–Computer Interfaces: A Systematic Review. Proceedings Personalization of health interventions using cluster-based
+of the Human Factors and Ergonomics Society Annual Meeting, reinforcement learning[C]//PRIMA 2018: Principles and Practice
+2020, 64, 1186 - 1190. of Multi-Agent Systems: 21st International Conference, Tokyo,
+[10]Angulo-Sherman, I.N., & Gutiérrez, D. Effect of different Japan, October 29-November 2, 2018, Proceedings 21. Springer
+feedback modalities in the performance of brain-computer International Publishing, 2018: 467-475.
+interfaces. 2014 International Conference on Electronics, [16]Kwon J, Shin J, Im CH. Toward a compact hybrid brain-
+Communications and Computers (CONIELECOMP), 2014, 14- computer interface (BCI): Performance evaluation of multi-class
+21. hybrid EEG-fNIRS BCIs with limited number of channels. PLoS
+[11]Pawar D, Dhage S N. Feature extraction methods for One. 2020; 15(3):e0230491.
+electroencephalography based brain-computer interface: a [17]Amiri S, Fazel-Rezai R, Asadpour V. A review of hybrid
+review[J]. Entropy, 2020, 1: 4. brain-computer interface systems[J]. Advances in Human-
+[12]Murad A, Pyun J Y. Deep recurrent neural networks for Computer Interaction, 2013, 2013: 1-1.
+human activity recognition[J]. Sensors, 2017, 17(11): 2556. [18]Nguyen CH, Karavas GK, Artemiadis P. Adaptive multi-
+[13]Da Silva-Sauer, L., Torre-Luque, A.D., Silva, J.S., degree of freedom Brain Computer Interface using online
+& Fernández-Calvo, B. New Perspectives for Cognitive feedback: Towards novel methods and metrics of mutual
+Rehabilitation: Could Brain-Computer Interface Systems Benefit adaptation between humans and machines for BCI. PLoS One.
+People With Dementia? Psychology & Neuroscience, 2019, 12, 2019;14(3):e0212620.
+25–37.
+6

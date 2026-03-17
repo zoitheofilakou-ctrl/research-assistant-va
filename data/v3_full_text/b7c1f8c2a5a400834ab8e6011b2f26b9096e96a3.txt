@@ -1,0 +1,328 @@
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+Case Analysis on Three Methods of BCI Systems for Stroke
+Rehabilitation
+Jinshuo Wang*
+School of Information and Electronics, Beijing Institute of Technology, Beijing, China
+*Corresponding author: 1120211609@bit.edu.cn
+Abstract. Stroke is a disease that can cause disability to patients, and many people suffer from
+stroke. Brain-computer interface (BCI) technology development leads to BCI stroke rehabilitation
+system. After several years of development of theory and technology, BCI systems show great
+potential in stroke rehabilitation. There are three specific methods of BCI stroke rehabilitation
+systems. The methods involve Functional Electric Stimulation, Robotics Assisted Systems, and
+Virtual Reality. This paper will introduce three methods and analyze the research cases of each
+technique. The article will introduce the principle and investigate some research cases of each
+method. The paper will present the procedure, analyze the results and evaluate each experiment.
+By analyzing the cases, it can be learned that all three methods are feasible and effective, proving
+that the BCI system for stroke rehabilitation is a promising therapy. At last, limitations on BCI systems
+will be analyzed, such as small sample size and limitations on particular actions.
+Keywords: BCI; Stroke rehabilitation; FES; RAS; VR.
+1. Introduction
+Stroke is a medical disorder that manifests as a damaged cortex or a broken motor connection
+between the brain and limbs after an abrupt interruption of blood flow to a portion of the brain. So,
+stroke can cause damage to the patient’s motor function, which causes disability to stroke patients.
+The third most common reason for impairment is stroke. [1] There have been more than 13 million
+stroke patients in China, and by 2030, there may be more than 30 million, which imposes a significant
+burden on patients and their families. Traditionally, physical therapy or occupational therapy were
+conventional therapies for stroke rehabilitation.
+Electroencephalogram (EEG)-measurable brain impulses can be acquired by a computer-based
+device called BCI, which converts them into commands, too. [2] The development of BCI leads to a
+relatively new therapy, which shows better effectiveness than conventional therapy. When people are
+thinking or imaging, the EEG acquisition device can acquire brain signals with the help of BCI
+technology. One kind of received EEG signal is motor imagery (MI). When people imagine executing
+tasks, MI will generate. As the research shows, when in the task movement execution or the task
+movement imagination, MI possesses the same motor area activation.[3] So researchers can use MI
+to study the brain signals related to movement, whether the subject is a patient or a healthy person.
+Though disrupted motor connection between the brain and limbs, the researchers can also get accurate
+MI to learn what the patients want to do.
+According to Hebbian theory, cells that fire together wire together, promoting the nervous system's
+plasticity is beneficial to stroke rehabilitation.[4] Plastic changes can lead to improvements in motor
+control. Muti-sensory feedback is vital to plastic changes. So, close-loop feedback is more critical for
+BCI system. There are three methods to provide muti-sensory feedback:
+1. Functional Electric Stimulation (FES):
+In the BCI-FES system, BCI system and FES device are coupled. The FES device will stimulate
+the affected area to make the affected limb move. It will give visual and tactile feedback.
+2. Robotics Assisted Systems (RAS):
+In the BCI-RAS system, a robot will help the patient execute the task that the patient wants to do.
+It will also provide visual and tactile feedback.
+3. Virtual Reality (VR)
+154
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+In the BCI-VR system, the patient is provided with a virtual environment. The patient images task
+execution which is related to the virtual environment. The model in the environment will act
+according to MI. The feedback will be holistic as there are many kinds of feedback, including visual
+feedback, auditory feedback. Generally, BCI-VR system is often combined with FES or RAS, as FES
+and RAS can provide more feedback types, strengthening the motor function.
+No matter which method, the procedure is similar. Figure 1 provides a visualization of the procedure.
+Fig. 1 The procedure of BCI stroke rehabilitation systems
+In the following parts, to demonstrate the effectiveness and feasibility of the three methods, the
+paper will introduce the principle and analyze some research cases of each method. When analyzing
+every case, the paper will describe the experiment procedure and result and evaluate the experiment.
+As to the evaluation of experiments, there are test scores, such as Action Research Arm Test (ARAT),
+9-Hole Peg Test(9-HTP), and Fugl-Meyer Assessment (FMA). Besides, the rehabilitation effect can
+be judged by patients' motor control after the treatment.
+2. BCI-FES System
+Stroke neural damage typically disrupts the activation of various body parts' muscles. Therefore,
+an efficient "Functional Electrical Stimulation" technology has been adopted to restore muscle
+activity. FES offers a non-invasive strategy to reconnect motor pathways by stimulating muscle in
+the affected limb. According to research, in several clinical settings, FES has been used to recover
+walking, standing, arm moving, and other post-stroke rehabilitation skills. To recover the injured limb
+better with the help of FES, many critical factors, including dosage and therapy onset time, must be
+considered.
+According to Hebb's principle, coupling peripheral and cortical activities could reinforce and
+repair defective motor performance. It would be useful to combine FES systems with other systems
+in charge of receiving cerebral activities to improve FES device’s efficacy. In order to record the
+brain signals brought by the imagination of the planned movement, BCI devices are employed in this
+context. The following three cases will be used to analyze the effectiveness and feasibility of the BCI-
+FES system.
+155
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+2.1. The first research case
+In this experiment, the researchers designed a BCI-FES rehabilitation system, including an EEG
+acquisition device using the BCI technology and FES device. Four subjects participated in the
+experiment, including two healthy subjects and two stroke patients.
+Before the treatment, all the subjects need to take an off-line training. In the off-line training, the
+subjects were required to implement the relax state and imagery task switched in turn. After receiving
+the EEG data, the researchers will set the decision value to determine whether the subject is relaxed
+or motor-imaging. In the rehabilitation treatment, the BCI device can infer the motor intention of the
+subject by decision value. After receiving the command, the FES device will stimulate the targeted
+area.
+In this study, there are two kinds of results. The first one is the classification accuracy rate. The
+second one is the event-related desynchronization (ERD) phenomenon. The high classification
+accuracy means that the BCI-FES system has a vast potential to restore impaired motor function, as
+accurate classification of motor intention is fundamental for stroke rehabilitation. Additionally,
+regarding the categorization accuracy rate, healthy individuals and stroke patients do not significantly
+differ from one another. The spectrogram time-frequency distribution of motor-related cortex
+analyzes the EEG phenomenon. By comparing the spectrogram of the same patient before and after
+the treatment, it can be learned that a stroke patient's ERD phenomenon is significantly enhanced. It
+proves that the BCI-FES system can lead to a favorable impact on recovery in motor performance.
+This experiment demonstrates the great potential of the BCI-FES system in stroke rehabilitation.[5]
+2.2. The second research case
+In this research, to demonstrate that BCI-mediated neurofeedback mechanisms can promote
+neuroplasticity, there were two groups with various input signals and feedback: the control group
+(EEG-based BCI) and the experiment group (Hybrid BCI). In the control group, EEG signals were
+collected. Visual realistic hands showed on the screen. When the subject controlled his/her hands to
+move, the visually realistic hands will move following his/her idea. It seemed that the subject
+successfully controlled the movement of his/her hands. Thus, the visual illusion of hand movement
+was the feedback. In the experiment group, visual realistic hands and motor imagery were similar.
+The brain signal collected was EEG and electromyogram (EMG). After collecting the brain
+signal, the device will deal with the EMG and EEG signals separately and fuse the EMG and EEG
+data. Then the fusion signal will manage the FES Controller, and the stimulation from the FES device
+that helps the patients exercise their muscles properly will be given to them. Thus, the affected hand's
+actual movement served as feedback.
+After the treatment, researchers got the value of arm section of the Medical Research Council Scale
+(MRC), European Stroke Scale (ESS), and arm Fugl-Meyer scale (FM) in the control group and the
+experiment group. Figure 2 provides a visualization of the result. It can be inferred that hybrid BCI
+system is better than pure EEG-based BCI system in terms of clinical results. Hence, BCI-FES system
+for stroke rehabilitation is promising.[6]
+156
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+Fig. 2 The value of ESS, MRC, FM in the control group and the experiment group [6]
+2.3. The third research case
+This study introduces the RecoveriX stroke rehabilitation system that utilizes the BCI technology
+and FES device.
+The design of RecoveriX system is similar to other BCI-FES systems. There were only two
+subjects who were stroke patients participating in the experiment. The procedure of the treatment is
+as follows. There were several trials in one session. In every trial, the movement task will appear on
+the screen. Then the patient imaged hand-moving. The BCI device will process the MI, and the FES
+device will provide proper stimulation. Hence, close-loop feedback is realized.
+After the treatment, the motor function of each patient has been recovered. For the first patient, his
+limitation of hand movement wasn't very significant, so the researchers attempted the 9-Hole Peg
+Test (9-HPT). The outcomes demonstrate that the patient accomplished the task effectively, and the
+time to complete the task is shorter and shorter. For the second patient, as her hand movement
+impairment was too severe, the researchers did not attempt 9-HPT. However, evidence shows the
+patient regained limited hand control after the treatment.
+The clinical results show that the BCI-FES system is an excellent therapy for stroke rehabilitation.
+Nevertheless, given the small number of experimental samples, it is difficult to determine whether
+the BCI-FES system is a reliable therapy.
+Additionally, RecoveriX is a company developing a kind of BCI-FES system, RecoveriX system,
+for stroke rehabilitation. It demonstrates the technology's viability that a company is working to
+develop it. [7]
+3. BCI-RAS System
+Unlike the BCI-FES system, the BCI-RAS system utilizes robots to help move the patient's
+affected limb. There are many kinds of robotics modes, such as passive and active-assistive. In passive
+mode, the patient does not move at all; instead, a robot controls every aspect of the paretic limb's
+mobility. When working in assistive mode, the robot helps the patient move the wounded limb
+appropriately by guiding their motions. The robots measure the patient's motions and modify their
+activities based on various control parameters. The main goal of the BCI-RAS system is to recover
+damaged limb motions by providing sensorimotor feedback. The following three cases will be used
+to analyze the viability and efficiency of the BCI-RAS system.
+157
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+3.1. The first research case
+The research introduces a BCI-RAS system for stroke rehabilitation. According to Hebbian Rule,
+the study designed a framework to increase cortical plasticity. The rehabilitation system is to help
+patients move their arms.
+The rehabilitation setup is as follows: Firstly, to decide among the patient's movement intents,
+such as resting and extending, the system has to collect and pre-process brain signals and continuously
+update the movement intention categorization online. Then is the haptic feedback, which will bring
+improved performance. At last, it comes to treatment strategy. The rehabilitation session was divided
+into parts. A part was a group of trials that were separated from one another by a brief pause. The
+patient tried to move the forearm or imaged forearm-moving in each trial.
+After the treatment, this study discussed the power spectra of two electrodes. It compares the
+spatial and spectral distribution of classifier weights throughout the treatment in various modes in
+healthy participants. The results demonstrate synchronization between the patient's desire and the
+movement of the robot controlling the patient's injured limb. Due to Hebbian theory, this
+synchronization will likely improve cortical plasticity. By evaluating the experiment, the BCI-RAS
+system can lead to an improvement in functional recovery.[8]
+3.2. The second research case
+The project’s objective is to examine the viability as well as effectiveness of BCI-RAS systems
+for stroke rehabilitation. Seventy-four patients participated in the project. They are all stroke patients
+and have their hands affected. Before the treatment, patients' movement was estimated using FMMA
+and ARAT. The targeted area of the study is hand-grasping and hand-pinching.
+Randomly, they were split into the BCI group and the control group. Patients in the BCI group
+received training using a robotic arm that can help the individual open his or her injured hand and is
+controlled by a BCI. On the contrary, the subjects in the control group were trained with only a robotic
+arm, without linking to the patient’s brain signal.
+After the treatment, patients' movement was estimated using FMMA and ARAT. By comparing
+the FMMA and ARAT of the patients before and after treatment, it can be known that the FMMA
+and ARAT scores rose in each group. However, the scores of the BCI group increased more. The
+positive results showed that the hand performance of the subjects in both groups had been improved.
+At the same time, the BCI-RAS system is proved to help improve hand function recovery more
+effectively. The positive results demonstrate the BCI-RAS system feasible.
+In this study, fatigue is the most common adverse event, which must be taken seriously.[9]
+3.3. The third research case
+This study investigates the ability of the BCI-RAS system for stroke rehabilitation. Furthermore,
+the effectiveness of motor improvements on the upper limb that suffered a stroke utilizing the BCI-
+RAS system is also evaluated compared to traditional rehabilitation therapy. There were 2 phases in
+the study: the first was testing the capacity to use an EEG-based BCI device, and the second was
+estimating the efficacy in motor improvement. In the first phase, EEG signals were collected. After
+processing the EEG signals, it can be found that most stroke patients can use EEG-based BCI devices
+well, and there isn't a correlation between the capacity to use an EEG-based BCI device and the FMA
+of the patient. In the second phase, they were divided into two groups randomly: the BCI group and
+the control group. The experiment content of each group is similar to the second case. After the
+treatment, the gains in FMA scores show whether the BCI-RAS system or conventional therapy can
+improve motor function.
+The results of the 2 phases demonstrate that the BCI-RAS system for stroke rehabilitation is
+suitable for most patients, and the BCI-RAS system can restore motor function.[10]
+158
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+4. BCI-VR System
+Stroke patients can restore their impaired limbs better in a realistic and motivating environment.
+To provide a more realistic environment, VR technology was introduced to stroke rehabilitation. VR
+can provide auditory, visual, and even haptic feedback for patients. In the virtual environment created
+by VR technology, the patient's motivation gets boosted, which benefits stroke recovery. Additionally,
+a realistic environment can stimulate real-world activities, which is impossible in other rehabilitation
+therapies. To improve the effectiveness of rehabilitative therapy, the BCI-VR system is often
+combined with the BCI-FES system or BCI-RAS system, as the combination can create a more
+realistic environment.
+Compared with the BCI-FES system and BCI-RAS system, BCI-VR system is a relatively new
+technology. The following two cases will be used to analyze the viability and efficiency of the BCI-
+VR system.
+4.1. The first research case
+The study designed a BCI-VR system for stroke rehabilitation. There are three parts in the system,
+and the process is as follows: collecting of EEG signals, triggering control commands, and control of
+the movement of the virtual model.
+The design of VR is crucial for stroke rehabilitation. The better the VR system, the more the patient
+focuses on it. The design comprises three parts: virtual training environment, user interface, and
+feedback.
+The study designed VR scenes, virtual models, and animations for the virtual training environment.
+There are six training scenes and nine actions in the VR system. The subject can select training scenes
+and actions in the user interface. After the treatment, the number of successes will show on the user
+interface so that the researchers can get the result immediately. The design of feedback is vital, too.
+If the subject feels more realistic, he/she will concentrate more on motor imagery, which is more
+beneficial to stroke rehabilitation. In this study, the BCI-VR system will provide auditory, visual, and
+haptic feedback. The movement of the virtual model that was displayed on the screen gave patients
+visible feedback. Auditory feedback is provided by the display on the screen. The FES device
+provides haptic feedback.
+The subjects of this study were all healthy. The subjects were required to complete all the training
+actions. At the same time, they were required to complete the actions in two cases: the screen showed
+the visual feedback or the screen showed nothing, which can compare the correct rate of BCI-VR
+system for stroke rehabilitation and conventional therapy.
+After the treatment, the result shows that the subjects performed better when provided visual
+feedback from the screen. Under visual feedback, most individuals improved their accuracy in motor
+imaging. Additionally, the more complex the action is, the higher the correct rate the subjects got.
+The findings demonstrate that the BCI-VR system can aid stroke therapy. At the time, the more
+realistic the VR system, the better the rehabilitation effect.[11]
+4.2. The second research case
+This study proves that the BCI-VR system for stroke rehabilitation is more effective than
+conventional therapy combined with VR technology.
+The BCI-VR system consists of an EEG device, a motion tracking device (MTD), and a VR game.
+MTD monitors the patient's motion and records the motion data. As mentioned earlier, EEG devices
+record and processed the signals. After receiving the MTD and EEG device data, the VR game will
+run according to the patient's thoughts and motor. In the VR game, the subject need to finish the task
+with the help of the patient’s mind and wrist motion.
+There were 12 subjects in this study. They were divided into three groups (A, B, and C). The
+study’s control group is Group A, which used the conventional rehabilitation therapy. The subjects
+in Group B were treated with VR games and MTD devices. The subjects in Group C were treated
+159
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+with VR games, EEG devices, and MTD devices. Before the treatment, the researchers evaluated
+every subject’s Fugl-Meyer Upper Extremity Assessment (FMA-UE), as it will be a crucial metric
+for assessing the efficacy of the rehabilitation.
+After the treatment, the FMA-UE of the subjects in each group were tested again. Comparing
+FMA-UE scores before the treatment and after the treatment shows that the patients trained by the
+BCI-VR system got more rehabilitation effectiveness. It proves that the BCI-VR system for stroke
+rehabilitation is effective.[12]
+5. Conclusion
+The paper introduces 3 methods of BCI systems for stroke rehabilitation. The paper introduces the
+principle and analyzes some research cases on each method. The studies show that signal
+classification accuracy is high, and most patients can manipulate the BCI device well. These positive
+facts, the accuracy of signal classification and the capacity to perform the BCI device, are vital to
+completing the rehabilitation treatment. The clinical results prove that every stroke rehabilitation
+system can effectively strengthen the patient's motor function. Compared with conventional therapies
+for stroke rehabilitation, BCI systems can get more positive effectiveness on motor recovery. So, BCI
+systems for stroke rehabilitation combined with FES, RAS, or VR is a promising therapy for restoring
+impaired motor function.
+Though there are not much studies on which method of BCI system can get the best effectiveness
+on motor recovery, we can learn that the BCI-VR system can lead to more concentration on task
+execution as the virtual environment is more realistic. It can be learned that the effectiveness of the
+BCI-VR system is better than that of the BCI-FES system by the first case introduced in the third part.
+At the same time, subjects participating in the BCI-VR system feel more enjoyable and exciting. To
+some degree, the BCI-VR system is better than the other.
+The paper shows that when in stroke rehabilitation, two different methods can be combined. BCI-
+VR system combined with FES or RAS can provide more kinds of feedback so that the patients can
+focus more on the tasks, which is vital to motor recovery.
+However, there are also limitations to the three methods. Firstly, rehabilitation is limited to
+particular actions, but the goal is to restore the motor function completely. Secondly, the number of
+sample sizes is small. Even in some research, all the subjects are healthy people. It's challenging to
+consider the three methods of BCI stroke rehabilitation systems reliable. Thirdly, the effectiveness of
+stroke rehabilitation is limited. Especially for severe stroke conditions, the patient can only execute
+limited movement tasks after the treatment.
+References
+[1] Johnson W, Onuma O, Owolabi M, Sachdev S. Stroke: A global response is needed. Bulletin of the World
+Health Organization, 2016, 94(9), 634.
+[2] Khan M A, Das R, Iversen H K, Puthusserypady S. Review on motor imagery based BCI systems for
+upper limb post-stroke neurorehabilitation: From design to application. Computers in biology and
+medicine, 2020, 123, 103843.
+[3] Eaves D L, Haythornthwaite L, Vogt S. Motor imagery during action observation modulates automatic
+imitation effects in rhythmical actions. Frontiers in human neuroscience, 2014, 8, 28.
+[4] Remsik A, Young B, Vermilyea R, Kiekhoefer L, Abrams J, Evander Elmore S, Prabhakaran V, et al. A
+review of the progression and future implications of brain-computer interface therapies for restoration of
+distal upper extremity motor function after stroke. Expert review of medical devices, 2016, 13(5), 445-
+454.
+[5] Jiang Shenglong, Chen Long, Wang Zhongpeng, Xu Jiapeng, Qi Cheng, Qi Hongzhi, Ming Dong, He
+Feng. Application of BCI-FES system on stroke rehabilitation. In 2015 7th international ieee/embs
+conference on neural engineering (ner), 2015, 1112.
+160
+Highlights in Science, Engineering and Technology CSIC 2023
+Volume 85 (2024)
+[6] Cincotti F, Pichiorri F, Aricò P, Aloise F, Leotta F, de Vico Fallani F, Mattia D, et al. EEG-based Brain-
+Computer Interface to support post-stroke motor rehabilitation of the upper limb. In 2012 Annual
+International Conference of the IEEE Engineering in Medicine and Biology Society, 2012, 4112.
+[7] Sabathiel N, Irimia D C, Allison B Z, Guger C, Edlinger G. Paired associative stimulation with brain-
+computer interfaces: a new paradigm for stroke rehabilitation. In Foundations of Augmented Cognition:
+Neuroergonomics and Operational Neuroscience: 10th International Conference, 2016, 261.
+[8] Gomez-Rodriguez M, Grosse-Wentrup M, Hill J, Gharabaghi A, Schölkopf B, Peters J. Towards brain-
+robot interfaces in stroke rehabilitation. In 2011 IEEE International Conference on Rehabilitation
+Robotics, 2011, 1.
+[9] Frolov A A, Mokienko O, Lyukmanov R, Biryukova E, Kotov S, Turbina L, Bushkova Y, et al. Post-
+stroke rehabilitation training with a motor-imagery-based brain-computer interface (BCI)-controlled hand
+exoskeleton: a randomized controlled multicenter trial. Frontiers in neuroscience, 2017, 11, 400.
+[10] Ang K K, Guan C, Chua K S. G, Ang B T, Kuah C, Wang C, Zhang H, et al. Clinical study of
+neurorehabilitation in stroke using EEG-based motor imagery brain-computer interface with robotic
+feedback. In 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology,
+2010, 5549.
+[11] Wang Wei, Yang Banghua, Guan Cuntai, Li Bo. A VR combined with MI-BCI application for upper limb
+rehabilitation of stroke. In 2019 IEEE MTT-S International Microwave Biomedical Conference (IMBioC),
+2019, 1.
+[12] Lin B S, Hsu H C, Jan G E, Chen J L. An interactive upper-limb post-stroke rehabilitation system
+integrating BCI-based attention monitoring and virtual reality feedback. In 2016 Third International
+Conference on Computing Measurement Control and Sensor Network (CMCSN), 2016, 44.
+161

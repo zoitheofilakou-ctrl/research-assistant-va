@@ -1,0 +1,618 @@
+Sagen et al. BMC Musculoskeletal Disorders (2022) 23:738
+https://doi.org/10.1186/s12891-022-05678-y
+RESEARCH ARTICLE Open Access
+Organisation, influence, and impact
+of patient advisory boards in rehabilitation
+institutions—an explorative cross-sectional
+study
+Joachim Sagen1* , Elin Børøsund2, Ann Elisabeth Simonsen3, Andreas Habberstad4, Ingvild Kjeken5,
+Hanne Dagfinrud5 and Rikke Helene Moe5
+Abstract
+Background: Patient participation is highlighted as an important facilitator for patient-centered care. Patient par-
+ticipation organised as patient advisory boards (PABs) is an integral part of health care institutions in Norway. More
+knowledge is needed on how PAB representatives experience patient engagement (PE) with regard to organisation,
+influence, and impact. The objective was to describe how PAB representatives experience their tasks, roles, and impact
+on decision-making processes and service delivery in the setting of rehabilitation institutions.
+Methods: PAB representatives recruited from rehabilitation institutions completed the Norwegian version of the
+generic Public and Patient Engagement evaluation tool (Norwegian abbreviation EBNOR). EBNOR is tested for reliabil-
+ity and validity with good results and comprises 35 items within four main domains, policies and practices, participa-
+tory culture, collaboration, and influence and impact that provide responses about PE-levels. The domain items are
+scored from “strongly disagree” to “strongly agree” on a five-point scale, in addition to a don’t know category. Items in
+the domain “influence and impact” are scored from “never” to “all of the time” on a four-point scale. Categorical data
+were summarized using frequencies and percentages, and response categories were collapsed into three PE-levels:
+barrier, intermediate, and facilitating level. Free-text responses were analysed according to principles of manifest con-
+tent analysis, summed up, and used to elaborate the results of the scores.
+Results: Of the 150 contacted PAB representatives, 47 (32%) consented to participate. The results showed that
+approximately 75% agreed that the organisation as a whole was strengthened as a result of patient participation. Four
+out of five domains were scored indicating a facilitating level; policies and practices (53%), participatory culture (53%),
+collaboration and common purpose (37%), and final thoughts (63%). The modal score in the domain influence and
+impact was in the intermediate PE-level (44%). Of a total of 34 codes from free text analyses, barriers to PE were coded
+26 times, and PE facilitators were coded 8 times.
+Conclusions: The findings indicate that most PAB representatives are satisfied with how rehabilitation institutions
+organise their PAB, but they still experience their impact as limited.
+*Correspondence: Joachim.Sagen@diakonsyk.no
+1 Oslo Metropolitan University, St. Olavs plass, P.O. Box 4, NO-0130 Oslo,
+Norway
+Full list of author information is available at the end of the article
+© The Author(s) 2022. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat ivec o
+mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Sagen et al. BMC Musculoskeletal Disorders (2022) 23:738 Page 2 of 10
+Keywords: Patient engagement, Patient participation, Health care services, Rehabilitation, Organisational,
+Institutional, Meso-level, System-level
+Background However, there is limited agreement on how to engage
+Rheumatic and Musculoskeletal Disease (RMD) is patient representatives in a meaningful manner [20].
+the most common cause of disability in Europe and Various stakeholders display dissimilar views on what
+is described as one of the major challenges to human patient participation should entail according to val-
+health [1]. About 75% of years lived with disability are ues, roles, and organisation [21]. In some cases, there
+due to conditions for which rehabilitation may be ben- are indications that formal meso-level patient par-
+eficial [2], and WHO calls for action to address these ticipation is performed as tokenism, and is thus not
+health needs [3]. In Norway, RMDs are the single larg- founded on mutual respect, or rooted in organisa-
+est diagnostic group in need of rehabilitation, about tional culture [21, 22].
+30% of patients who receives in- or outpatient services In Norway, political strategies state that patient par-
+in private rehabilitation institutions are due to RMDs ticipation constitutes one of six dimensions that define
+[4]. Engagement of and participation by patients may the quality of the health care service [23]. The National
+serve as an important key to meeting the current and Health Plan 2020–2023 stipulates that patients should be
+future health care needs of people with RMDs [1]. involved in shaping all parts of their health care service
+Over the last decades, patient-centered care has [24]. Although patient participation is a contributor to
+become increasingly prioritized at all levels of health quality, it is an area with great potential for improvement
+care services [5]. A patient-centered health care service [25]. There are major differences in how patient partici-
+advocates patients’ needs and values, both in the health pation in health care services at various levels of care is
+care setting and in everyday life, considering each per- organised and described related to patient representa-
+son’s health-related knowledge [6, 7]. It is argued that tive’s role and influence [26].
+patient-centered care has the potential to improve self- To meet political demands and formally address
+dignity, quality of life, well-being, and relevance of care, patient-centered care, patient advisory boards (PABs) are
+as well as to reduce costs [8, 9]. included as a statutory part of rehabilitation institutions
+The shift towards a more patient-centered health care in Norway. Even so, there are no general rules or pro-
+service has increased the focus on individual rights cedures regarding how PABs should operate, including
+driven by engaged patient organisations and political how PAB representatives are recruited. Therefore, there
+incentives, resulting in a shift from institutionalization is a need to explore how PAB representatives experience
+and paternalism to democratization and individualiza- their organisation, influence and impact. As rehabilita-
+tion [10]. Patient-centered care can be facilitated by tion institutions implement PABs, rigorous evaluation of
+active participation from patients and patient repre- PAB participation is needed to ensure future quality in
+sentatives, defined as patient engagement (PE) [11, 12]. meso-level PE.
+Even if PE can facilitate patient-centered care, there This study aims to explore the impact of PE and patient
+is still little data supporting that PE has an impact on participation in rehabilitation institutions. More spe-
+health care delivery [13]. cifically, the objective was to describe how PAB repre-
+Patient participation can take place at micro, meso, sentatives experience their tasks, roles and impact on
+or macro-levels [14–16]. At the macro-level, patient decision-making processes and service delivery in the
+representatives participate in shaping national health setting of rehabilitation institutions.
+care policy. The micro-level refers to patients partici-
+pating in shared decision-making regarding their own
+Method
+treatment. In recent years, patient participation in
+Design
+the development and delivery of health care services
+at the meso-level has been highlighted as important The study was performed using an exploratory, cross-
+[17]. At this level, patient representatives use their sectional design.
+unique expertise to influence how planned actions
+are designed, organized, and/or delivered to meet the
+Data collection
+needs of larger groups of patients [8, 18].
+Today, national policies around the world call atten- A web-based survey was distributed by e-mail, provided
+tion to patient-centered health care services [19]. by Quest Back. Recruitment and data collection took
+place between February and May 2021.
+S agen et al. BMC Musculoskeletal Disorders (2022) 23:738 Page 3 of 10
+Setting the items in the survey were mandatory, and it was possi-
+The study was performed during a period when COVID- ble to return to previous items on earlier pages if needed.
+19 affected health care and rehabilitation. Meso-level
+patient participation was addressed by exploring a spe- Participants and recruitment
+cific group of individuals working together in PABs. Par- The inclusion criteria were current PAB representatives
+ticipants in this study share a common interest in the aged 18 or older affiliated with rehabilitation institu-
+organisation, development, and delivery of rehabilitation, tions. Invitations to take part in this study were sent to
+as part of health care. Study participants were recruited the email addresses of 150 PAB representatives registered
+from PABs from 37 private rehabilitation institutions rep- by the rehabilitation umbrella organizations VIRKE and
+resenting all four health regions in Norway. These insti- UNICARE. The electronic survey was thus administrated
+tutions offer inpatient and outpatient rehabilitation to a to 150 email addresses using convenience sampling.
+variety of diagnostic groups, with people with rheumatic
+and musculoskeletal diseases being the largest group. Ethics
+They are committed by Norwegian health authorities to All participants signed an informed consent before anon-
+engage patients in service development and delivery. ymously completing the survey. Quest Back enabled two
+automatic reminders to those who did not respond after
+Survey instrument the first four weeks. The survey closed on May 18, 2021.
+The evaluation of PE is limited by a lack of reliable and Given that no health-related data were collected or gen-
+valid outcome measures [27]. Therefore, the generic Pub- erated by the survey tool, the study did not require for-
+lic and Patient Engagement Evaluation Tool (PPEET) was mal ethical approval, but the survey was approved by
+applied to gain more knowledge about PE and participa- the data protection officer at Diakonhjemmet Hospital
+tion at the meso-level [28]. PPEET was designed to com- (DS-00040). The study was conducted in line with the
+pare PE across health care organisations and assess how Helsinki Declaration and is part of the RehabNytte study
+PE is performed and experienced. The Norwegian version NCT03764982.
+of PPEET, named Evalueringsverktøy for Brukermedvirkn-
+ing (EBNOR) [29], was applied. EBNOR is a translated, Analysis
+back-translated, and culturally adapted patient-reported Items with categorical responses were summarized
+instrument. The original as well as the translated version separately for each domain using frequencies and per-
+have been tested for content validity and reliability with centages. Distributional plots were inspected. Response
+good results [28, 29]. options were collapsed from the original three to five
+categories into three categories, plus the “don’t know”
+Measures category as follows: strongly disagree and disagree, nei-
+ther agree or disagree, and agree and strongly agree. The
+EBNOR comprises 35 items representing four core
+response categories “rarely” and “some of the time” were
+domains relating to different domains of PE-activity:
+also collapsed. Item 14 had response options yes, no and
+“Policies and practices” (six items), “participatory cul-
+don’t know, and was not collapsed. The collapsed catego-
+ture” (ten items), “influence and impact” (seven items),
+ries were divided into PE-levels, presented as a barrier,
+and “collaboration and common purposes” (three items).
+intermediate, or facilitating level. Data were systematized
+There are also sections with “background questions” (five
+using IBM SPSS version 27.
+items) and “final thoughts” (four items). The respondents
+Free-text responses were analysed abductively and
+are asked to take a position on various statements in each
+descriptively according to principles of manifest content
+domain. Response categories are measured on a scale
+analysis by two researchers (JS and EB) independently
+with three to five response options, indicating the level
+[30, 31]. All free-text responses were first read as a whole
+of PE, and a “don’t know” response category. The items
+and then analysed answer by answer. Words or sentences
+in four domains are scored from “strongly disagree” to
+were categorised into meaning units and labelled with
+“strongly agree” on a five-point scale. Items in the domain
+codes using an agreed coding scheme. Themes and mean-
+“influence and impact” are scored from “never” to “all of
+ing units were reviewed by each researcher separately
+the time” on a four-point scale. One item in the domain
+and then discussed by the research team until a consen-
+“participatory culture” scores “yes”, “no” or “don’t know”,
+sus was reached. The codes were thereafter compared
+and “final thoughts” items do not have a “don’t know”
+and sorted into one of two themes reflecting facilitators
+category. At the end of each domain, there is an open
+or barriers to PE related to the domains. Free text data
+space that offers the possibility for free text additions or
+were analysed using Quirkos version 2.4.1. The free-text
+comments. All participants were informed that none of
+responses were used to elaborate the results of the scores.
+Sagen et al. BMC Musculoskeletal Disorders (2022) 23:738 Page 4 of 10
+Patient participation statement Table 1 Demographic characteristics of the study sample from
+In this study, patient representatives were actively the electronic survey (N 47)
+=
+involved as advisors and research partners from the plan- Respondents
+ning phase. Both the Norwegian Federation of Organi-
+Demographicsa n %
+sations of Disabled People (FFO), a patient umbrella
+organisation, and a representative for PABs in rehabili- Age
+tation, was engaged at an early stage and helped develop 30–39 1 2
+the main research priorities and interests. After the 40–49 10 22
+research topic was established and funding ensured, 50–59 11 23
+the two research partners participated in the discus- 60–69 13 28
+sion, interpretation, presentation and publication of the 70–79 11 23
+results. These two patient research partners contributed 80 1 2
+≥
+to the use of inclusive language in the final manuscript Gender
+and to the plain language summaries in Norwegian Female 29 62
+(Additional file 1) and in English (Additional file 2), they Highest completed education
+were engaged in all stages of the research project. For a Basic ( 10 yrs.) 5 11
+≤
+detailed description of how PPI were incorporated into Secondary (11–13 yrs.) 10 21
+the study design, please see Additional file 3 (GRIPP-2 College or university 32 68
+checklist). All relevant patient research partners were User experience
+included as authors in accordance with the Vancouver 2 years 9 19
+≤
+declaration. > 2 years 38 81
+Health region
+North 4 9
+Results
+West 2 4
+All of the contacted institutions, except one, had an Central region 10 21
+active operating PAB. A total of 150 eligible PAB repre- South East 31 66
+sentatives were contacted via email, 63 agreed to par- Organisational role
+ticipate, and 47 (32%) of these responded to the survey Board member 3 7
+(Table 1). Based on the age categories the PAB repre- Member of PAB 36 76
+sentatives’ mean age was approximately 60.5 (30 to 81 Employee 1 2
+yrs.), and a majority (81%) had above two years’ experi- Senior manager 2 4
+ence with patient participation. Some of the PAB repre- Patient organisation 3 7
+sentatives (n = 9) reported to have an additional specific Missing 2 4
+organisational role, for instance representing a patient
+a The percentages are rounded up or down to meet a total of 100
+organisation.
+In general, when inspecting the plots, data were skewed
+towards a facilitating PE level, except for the domain
+of codes with examples of condensed meaning units is
+influence and impact, in which the modal value (most fre-
+presented in Table 3. The most frequent barrier was the
+quent value) was at the intermediate PE-level (Table 2).
+direct or indirect exclusion of PAB in institutional activi-
+The modal value regarding background items com-
+ties (13 codes), and the most coded facilitator was the
+bined (items 1–5) was at the intermediate PE level, with
+inclusion of PAB (4 codes). Regarding PAB exclusion,
+approximately half of the responses. According to almost
+one participant stated: “One problem to genuine patient
+three quarters (74%) of the respondents, the institutions
+participation is use of hard-to-understand language in
+had established or were in progress of routinely engaging
+meetings, and too collegial attitude among health care
+patient representatives in their activities. Of the respond-
+professionals. I wonder if medical education is necessary
+ents, 57% reported that they had some level of aware-
+to influence PAB processes”.
+ness of the institution overall PE approach, 28% had high
+For the domain policies and practices that includes
+level of awareness, and 15% were neither aware or una-
+items about PE strategies and resources, the modal value
+ware. Over 70% answered that they sometimes or fairly
+was at the facilitating PE level. Approximately 80% agreed
+frequently interacted with professionals in charge of
+or strongly agreed with the item Do the organisation have
+patient participation, and 2% interacted very frequently.
+an explicit PE strategy? The free text item resources dedi-
+Approximately 60% of free-text answers were coded as
+cated to PE contained answers that were coded two times
+barriers (n 26) or facilitators (n 8) for PE. The number
+= = as a PE barrier. One participant stated the following: “I
+S agen et al. BMC Musculoskeletal Disorders (2022) 23:738 Page 5 of 10
+Table 2 Modal values of collapsed categories, divided into patient engagement levels [7]
+Barrier PE-level Intermediate PE-level Facilitating PE-level
+Domain/ Itema,b Strongly disagree/ Neither agree nor Agree/strongly agree Don’t know
+disagree disagree n (%) n (%)
+n (%) n (%)
+Policies and practices c
+6 Explicit strategy for PEd 4 (8) 5 (11) 37 (79) 1 (2)
+7 Explicit strategies for 5 (11) 13 (28) 28 (59) 1 (2)
+recruiting participants
+8 Identified resources for PE 5 (11) 9 (19) 20 (42) 13 (28)
+9 Adequate PE resources 10 (21) 9 (19) 18 (39) 10 (21)
+10 Prepares reports of PE 9 (19) 12 (26) 22 (46) 4 (9)
+Total n (%) 33 (14) 48 (20) 125 (53) 29 (13)
+Participatory culture e, f
+12 Commitment to PE in key 2 (4) 6 (13) 35 (74) 4 (9)
+organisational documents
+13 Commitment to PE through 8 (17) 11 (23) 25 (53) 3 (7)
+structure
+15 Clear responsibilities for 6 (13) 8 (17) 31 (66) 2 (4)
+PABg
+16 Responsibilities in job 4 (9) 9 (19) 16 (34) 18 (38)
+descriptions of relevant
+staff
+17 Comprehensive PE training/ 11 (23) 10 (21) 14 (30) 12 (26)
+materials to support staff
+18 Adequate PE training 7 (15) 13 (28) 27 (57) 0 (0)
+19 Leaders show commitment 3 (7) 10 (21) 33 (70) 1 (2)
+to using PE input
+20 Reports of contribution 5 (11) 17 (36) 18 (38) 7 (15)
+from PE shared with par-
+ticipants
+Total n (%) 46 (12) 84 (22) 199 (53) 47 (13)
+Influence and impacth Never Rarely/some of the time All of the time Don’t know
+22 PE contributions are iden- 0 (0) 28 (60) 11 (23) 8 (17)
+tifiable
+23 Leaders use input from PAB 0 (0) 25 (53) 13 (28) 9 (19)
+24 Patient representatives 4 (9) 11 (23) 29 (62) 3 (6)
+are equal to employees in
+meetings
+25 PAB representatives have 7 (15) 10 (21) 13 (28) 17 (36)
+voting rights in meetings
+with employees
+26 Instances where PAB input 1 (2) 30 (64) 4 (9) 12 (25)
+had an influence
+27 Instances where PAB input 1 (2) 21 (45) 2 (4) 23 (49)
+influenced management
+decisions
+Total n (%) 13 (5) 125 (45) 72 (25) 72 (25)
+Collaboration and common purpose Strongly disagree/disagree Neither agree nor disagree Agree/strongly agree Don’t know
+29 PE led to collaboration with 5 (11) 10 (21) 19 (40) 13 (28)
+other groups
+30 PE led to identifying shared 1 (2) 16 (34) 14 (30) 16 (34)
+goals with other organisa-
+tions
+Total n (%) 6 (6) 26 (28) 33 (35) 29 (31)
+Final thoughts Strongly disagree/disagree Neither agree nor disagree Agree/ strongly agree
+Sagen et al. BMC Musculoskeletal Disorders (2022) 23:738 Page 6 of 10
+Table 2 (continued)
+Barrier PE-level Intermediate PE-level Facilitating PE-level
+Domain/ Itema,b Strongly disagree/ Neither agree nor Agree/strongly agree Don’t know
+disagree disagree n (%) n (%)
+n (%) n (%)
+32 Appropriate level of 9 (19) 12 (26) 26 (55)
+engagement activity
+33 Appropriate level of 14 (30) 10 (21) 23 (49)
+resources to PE activity
+34 The organisation is 1 (2) 6 (13) 40 (85)
+strengthened as a result
+of PE
+Total n (%) 24 (17) 28 (20) 89 (63)
+a The percentages are rounded up or down to meet a total of 100
+b Modal values are presented in bold
+c Question numbers 11, 21, 28, 31, and 35 are free text fields
+d PE Patient engagement
+e Items 6–10, 12–13, 15- 20, 29–30 and 32–34 valued 1–5: strongly disagree, disagree, neither agree nor disagree, agree, strongly agree, Items 32–34 did not have a
+don’t know category
+f Item 14: valued 1–3: yes, no, don’t know, and was not collapsed and not presented in the table
+g PAB Patient advisory board
+h Items 22–27 valued 1–4: never, rarely, some of the time, all of the time and don’t know
+Table 3 Codes and themes of free-text responsesa with condensed example statements
+Code Frequency Theme Examples using condensed meaning units
+of codes
+Barriers to PEb
+Screening of information 2 “It appears that some information is adapted before made available to
+everyone.”
+Unclear PAB tasks 1 “Unclear PAB mandate and role.”
+Inaccessible information 3 “Reports from PAB should be open to all PAB representatives.”
+Exclusion of P ABc in institutional activities 13 “Pronounced use of hard-to-understand language.”
+“Leader of PAB does not have voting rights.”
+“Documents only available to employees.”
+Resources dedicated to PE 2 “No resources are set aside for PAB education.”
+Covid 19 5 “Not allowed to physically access the institution.”
+Total codesd 26
+Facilitating PE
+Inclusion of PAB in institutional activities 4 “Mostly quite open and clear dissemination.”
+“In some cases, it has been useful when employees have initiated PAB inclu-
+sion.”
+Available information 2 “Reports are made available from PAB meetings.”
+Covid 19 1 “Everything worked well and digital meetings have been arranged.”
+Independence of PAB 1 “PAB has developed its guidelines and helped draw up ethical guidelines.”
+Total Codes 8
+a Free-text answers (N 30): Q11: practices and policies (n 5), Q21 participatory culture (n 7), Q28 Influence and impact (n 8), Q 31 collaboration and common
+= = = =
+purpose (n 3), Q 35 Final thoughts (n 7)
+= =
+b PE patient engagement
+c PAB Patient advisory board
+d Total codes related to a theme are presented in bold
+S agen et al. BMC Musculoskeletal Disorders (2022) 23:738 Page 7 of 10
+am fairly new as a patient representative and have not their activities, a majority still experienced their impact
+seen an overview of financial recourses dedicated to as limited, seldom affecting institutional decisions. Thus,
+patient participation”. PE may not yet be an integral part of the culture of reha-
+The domain participatory culture comprises items bilitation institutions. Findings by others may shed light
+about PE commitment, responsibilities and stakeholder on these contradictory results when describing lack of
+training. The modal value fell within the facilitating meaningful relations based on trust and respect as a PE
+PE level for the domain. Over two-thirds of the par- barrier [32]. One reason may be that integrating PE as
+ticipants reported that the institutions have available part of an institutions culture and structures may take
+PE guidelines, such as values, principles, and responsi- time, and as time goes by, this will evolve as a natural part
+bilities found in key organisational documents. Free-text of service development. PE progress towards meso-level
+answers indicated that the prioritization and organisation PAB impact may also be hindered by unwritten cultural
+of patient participation changed as a result of the pan- values, experienced through structural assumptions and
+demic. One PAB representative stated: “I have not been human interactions, referred to as “the glass ceiling” [33].
+allowed to access the institution since February 20, due to Even if meso-level patient participation within the
+infection control”. field of rehabilitation is a relatively new focus area in
+The domain influence and impact include items about Norway, this study indicates that a large majority of the
+identifiable PE contributions and equality among stake- respondents are aware of and included in the overall
+holders. The modal value was placed at the intermediate institutional PE approach, and have regular interactions
+PE level for the overall domain. For the item equality in with professionals in charge of patient participation.
+meetings, the most frequent response category was found As suggested by others, this indicates a process in the
+at the facilitating PE level, and for the item voting rights direction of more participatory acceptance and shows
+in the “don’t know category”. In relation to the item voting institutional willingness to patient-initiated, meso-level
+rights, one PAB representative stated: “I have the right to impact [34]. Principles for carrying out high quality PE
+express my opinion, but not the right to vote”. Another activities may progress towards procedural influence and
+stated: “I’m not sure if PAB representatives have the right meso-level impact by increasing the frequency of inter-
+to vote”. Regarding the item PE input influenced manage- action between representatives and professionals. Recent
+ment decisions, the most frequent value was found for the findings suggest that the co-creation process itself may
+“don’t know” response category. One PAB representative improve relations between PE stakeholders [35, 36].
+commented: “Sometimes patient participation is expe- A majority of respondents reported that a commit-
+rienced more like information transfer than as mutual ment to PE values and principles was to be found in key
+communication”. documents (74%) and stated in the organisational struc-
+For the domain collaboration and common purpose, ture (53%). However, fully integrating PABs in institu-
+which consists of two items about PE partnership with tional decisions by overcoming unwritten PE barriers
+other organisations and shared goals, the modal value is found to be an extensive process dependent on long-
+showed a facilitating PE level. The “don’t know” response lasting commitment [32, 37]. Implementing agreement
+category had the second-most frequent value. among PAB representatives and health care profession-
+Regarding the three final items about the level of PE als in the setting of priorities can be seen in the context
+activity, resources and perceived benefits from PE, the of allocated resources to facilitate PE. Involving patients
+modal value indicated a facilitating PE level. One PAB and professionals in setting priorities has been found to
+representative specified: “Organisations with a focus on require approximately 10 percent more time and 17 per-
+patient participation show that they do their best for the cent more financial resources than engaging solely health
+patients/…/the organisation is strengthened”. care professionals [27]. The results from our study may
+inform this finding, where the majority of participants
+Discussion
+did not agree or did not know if the organisation had
+This is one of very few studies to explore how PAB rep- enough resources for PE.
+resentatives experience their engagement in PABs A majority (66%) reported that responsibilities related
+and impact on decision-making processes and service to PAB were clearly stated, and (62%) of the respondents
+delivery. answered that they felt equal to employees in meetings.
+The results from this study mainly indicate a facilitat- Simultaneously, 32% did not have, or did not know if they
+ing PE level. However, an important finding is that even had voting rights in these meetings, and only 4% could
+if almost three-quarters of the participants reported think of instances where PE had contributed to organi-
+that their institution had established or were in pro- sational change. The low proportion that regularly expe-
+gress of routinely engaging patient representatives in rienced meso-level impact can be understood by the
+Sagen et al. BMC Musculoskeletal Disorders (2022) 23:738 Page 8 of 10
+presence of more or less invisible barriers such as to use responsibilities in agreement with PAB representatives
+of difficult language and withholding important informa- before prioritizing further PE activities. Findings of this
+tion. Procedural experiences from PAB representatives study imply that stakeholder adherence to PE values and
+that may contribute to the “The glass ceiling” are enlight- commitments may facilitate active patient participation
+ened through the free-text responses. The lack of influ- and should be prioritized. Active participation from pro-
+ence from PABs is exemplified by institutional changes fessionals and PAB representatives may progress towards
+due to the pandemic (Table 3). In contrast, free-text a patient-centered structure, facilitating equal opportu-
+responses about the pandemic indicate that rehabilita- nities to influence service delivery. A patient-centered
+tion institutions have strengthened accessibility to attend structure could involve a commonly rooted reprioritiza-
+meetings by arranging them digitally. Increased use of tion of resources, practices, and work tasks that are fully
+digital meetings may facilitate interaction among PE supported by all stakeholders in the PE process. However,
+stakeholders. This may point to the positive potential of there is a need to further explore how local and general
+remote participation, with accelerated training and expe- political guidelines work as facilitators or barriers for PE
+rience with digital tools, and with the potential of becom- and identifiable PAB contributions. Additional research
+ing regular PAB practice for rehabilitation institutions is necessary to help explore factors that may increase
+after the pandemic. Since the consequences of RMDs PAB inclusion and for investigating how these factors
+may include chronic pain, disability, social exclusion, and may facilitate equal opportunities for influence and
+reduced productivity [1], the possibility of digital access impact through active patient participation, and hinder
+to PABs may have the potential to strengthen the repre- tokenism.
+sentation of this group of patients. In concordance with
+recent findings by others [38, 39], less time consuming Limitations
+and more accessible patient participation could ease the This study has some limitations. First, due to the research
+participation of PAB representatives regardless of the aim, all of the participants were recruited from rehabili-
+degree of functioning, disability or handicap, and thus tation institutions in Norway. This may limit the gener-
+strengthen representativeness. alization of results to other settings, health care systems
+Approximately half of the respondents could not think and countries. Second, prolonged periods of unfamiliar
+of events where input from PAB had consequences for operations within the rehabilitation institutions due to
+management decisions. Regardless of a lack of procedural the pandemic may have led to challenges in generaliz-
+influence and structural impact identifiable for PAB rep- ing the results to normal operations and circumstances.
+resentatives, roughly 75% agreed that the organisation as Third, there was a relatively small population of 150 PAB
+a whole was strengthened as a result of patient participa- representatives, and the response rate was just above
+tion. Supported by findings from others [36, 40], this may 32%, leaving the study prone to nonresponse bias. There
+imply that respondents see an intrinsic democratic value is a possibility that participants who responded and com-
+from being a part of the participatory process. Simulta- mented were systematically more critical towards the
+neously, PABs may have a function as an administrative health care services and/or more engaged than those
+organisation for health care managers, who can register who did not respond. The low response rate may have
+and show patient participation to control bodies, even if been amplified due to the pandemic, which in turn may
+PAB contributions do not necessarily lead to meso-level have led to a reduced priority for patient representative-
+impact. related tasks, such as responding to emails or question-
+The results of this survey indicate that PE may improve naires. Even so, most participants reported analogous
+patient-centered rehabilitation and has the potential representative PAB experiences.
+to benefit a large group of patients with RMDs. Active
+Conclusion
+patient participation may optimize the organization of
+future rehabilitation, the collaboration between differ- The findings of this study indicate that PAB representa-
+ent stakeholders, and the management of RMDs. We tives are generally satisfied with how rehabilitation
+identified better inclusion of PABs, and clearer PAB tasks institutions organise PABs, suggesting that most pre-
+as possible improvement areas to increase PAB impact conditions for meaningful co-creation are present. On
+and influence. To facilitate equal opportunities to influ- the other hand, unwritten social PE barriers may affect
+ence development and delivery of rehabilitation services, PAB possibilities to influence meso-level decisions. The
+institutions and institutional leaders should consider the findings indicate that PAB representatives still expe-
+importance of all relevant information to be understand- rience their impact as limited. These results may con-
+able and accessible for PAB representatives. Rehabilita- tribute to future PAB participation with impact on
+tion institutions should also aim to clarify PAB tasks and patient-centered care.
+S agen et al. BMC Musculoskeletal Disorders (2022) 23:738 Page 9 of 10
+References
+1. The European Alliance of Associations for Rheumatology. RheumaMap
+Abbreviations A Research Roadmap to Transform the Lives of People with Rheumatic
+PE: Patient Engagement; PAB: Patient advisory board; PPEET: Public and and Musculoskeletal Diseases [online document]. EULAR RheumaMap
+Patient Engagement Evaluation Tool; EBNOR: Evalueringsverktøy for Task Force; 2019 https:// www. eular. org/ myUpl oadDa ta/ files/ eular_ rheum
+Brukermedvirkning. amap_ 2019. pdf. [cited 2022 Jun 10]
+2. Cieza A, Causey K, Kamenov K, Hanson SW, Chatterji S, Vos T. Global
+estimates of the need for rehabilitation based on the Global Burden of
+Supplementary Information
+Disease study 2019: a systematic analysis for the Global Burden of Disease
+The online version contains supplementary material available at https:// doi. Study 2019. Lancet. 2021;396(10267):2006–17.
+org/ 10. 1186/ s12891- 022- 05678-y. 3. World Health Organization. Rehabilitation 2030: a call for action - meeting
+report. Geneva: Executive Boardroom, WHO Headquarters; 2017. (https://
+www. who. int/ publi catio ns/m/ item/ rehab ilita tion- 2030-a- call- for- action.
+Additional file 1. Plain language summary in Norwegian.
+cited 2022 Jun 10).
+Additional file 2. Plain language summary in English. 4. Helsedirektoratet (The Norwegian Directorate of Health). Rehabilitering
+i spesialisthelsetjenesten [online document]. Helsedirektoratet; 2018.
+Additional file 3. PPI using GRIPP2 – SF.
+Available from: https:// www. helse direk torat et. no/ rappo rter/ rehab ilite
+ring-i- spesi alist helse tjene sten/ 2018- 08% 20Ana lysen otat% 20reh ab%
+Acknowledgements 202017. pdf/_/ attac hment/ inline/ f9046 ecc- b0ee- 4340- a275- b9867 810bb
+The authors acknowledge all participants who took part in this study, VIRKE 49: 2f669 dc774 140fc 029f3 494db be191 bed0d 98864/ 2018- 08% 20Ana
+and UNICARE rehabilitation organisations for cooperation, and the DAM lysen otat% 20reh ab% 202017. pdf. cited 2022 Jun 15
+foundation for founding. 5. World Health Organization. Declaration of Alma Ata: Report of Interna-
+tional Conference on Primary Health Care. Geneva: WHO; 1978. (https://
+Authors’ contributions cdn. who. int/ media/d ocs/ defau lt- source/ docum ents/ almaa ta- decla
+All authors (JS, EB, AES, AH, IK, HD, RHM) participated in planning the study, ration- en. pdf? sfvrsn = 7b3c2 167_2. cited 2021 Aug 1).
+data collection, writing, and approving the final manuscript. JS, EB and RHM 6. Mead N, Bower P. Patient-centredness: a conceptual framework and
+performed the data analysis and prepared the first draft of the manuscript. review of the empirical literature. Soc Sci Med. 2000;51(7):1087–110.
+7. Coulter A, Oldham J. Person-centred care: what is it and how do we get
+Funding there? Future Hosp J. 2016;3(2):114–6.
+The first author (JS) received a PhD grant from the DAM Foundation, applied 8. Livingston JD, Nijdam-Jones A, Lapsley S, Calderwood C, Brink J. Sup-
+through The Norwegian Federation of Organisations of Disabled People. A porting recovery by improving patient engagement in a forensic mental
+small grant for the translation of the outcome measure, PPEET to Norwegian health hospital: results from a demonstration project. J Am Psychiatr
+was provided by the Grethe Harbitz Endowment. The funding bodies were Nurses Assoc. 2013;19(3):132–45.
+not involved in the design of the study and collection, analysis, and interpreta- 9. Kuipers SJ, Cramm JM, Nieboer AP. The importance of patient-centered
+tion of data or in writing the manuscript. care and co-creation of care for satisfaction with care and physical and
+social well-being of patients with multi-morbidity in the primary care
+Availability of data and materials setting. BMC Health Serv Res. 2019;19(1):13.
+The data that support the findings of this study are available from the authors 10. Thompson AG. The meaning of patient involvement and participation in
+upon reasonable request and with permission of the research board. health care consultations: a taxonomy. Soc Sci Med. 2007;64(6):1297–310.
+11. Sheikh A, Donaldson L, Dhingra-Kumar N, Bates D, Kelley E, Larizgoitia I,
+et al. Patient Engagement: Technical Series on Safer Primary Care. Geneva:
+Declarations World Health Organization; 2016. p. 2016.
+12. Nooteboom LA, Kuiper CHZ, Mulder EA, Roetman PJ, Eilander J, Vermeiren
+Ethics approval and consent to participate R. What Do Parents Expect in the 21st Century? A Qualitative Analysis of
+This study was conducted according to approved guidelines, in accordance Integrated Youth Care. Int J Integr Care. 2020;20(3):8.
+with the Declaration of Helsinki, approved by the local data protection officer 13. Sharma AE, Knox M, Mleczko VL, Olayiwola JN. The impact of patient advi-
+at Diakonhjemmet Hospital (DS-00040) and is part of the RehabNytte study sors on healthcare outcomes: a systematic review. BMC Health Serv Res.
+NCT03764982. All participants were informed about the purpose of the study 2017;17(1):693.
+and provided written informed consent. 14. Andreassen TA. Service user involvement and repositioning of healthcare
+professionals: A framework for examining implications of different forms
+Consent for publication of involvement. Nordisk välfärdsforskning (Nordic Welfare Research).
+Not applicable. 2018;3(01):58–69.
+15. Solvang PK, Hanisch H, Reinhardt JD. The rehabilitation research matrix:
+Competing interests producing knowledge at micro, meso, and macro levels. Disabil Rehabil.
+The authors declare that they have no competing interests. 2017;39(19):1983–9.
+16. Halabi IO, Scholtes B, Voz B, Gillain N, Durieux N, Odero A, et al. “Patient
+Author details participation” and related concepts: A scoping review on their dimen-
+1 Oslo Metropolitan University, St. Olavs plass, P.O. Box 4, NO-0130 Oslo, sional composition. Patient Educ Couns. 2020;103(1):5–14.
+Norway. 2 Department of Digital Health Research, Division of Medicine, Oslo 17. World Health Organization. World report on disability. Geneva: WHO;
+University Hospital, Oslo, Norway. 3 Røysumtunet Rehabilitation Center, Jaren, 2011. (https:// www. who. int/ publi catio ns/i/ item/ 97892 41564 182. cited
+Norway. 4 The Norwegian Federation of Organisations of Disabled People, Oslo, 2021 Sept 1).
+Norway. 5 Norwegian National Advisory Unit On Rehabilitation in Rheumatol- 18. Cox T, Taris TW, Nielsen K. Organizational interventions: Issues and chal-
+ogy, Oslo, Norway. lenges. Work Stress. 2010;24(3):217–8.
+19. European Commission. Eurobarometer Qualitative Study, PATIENT
+Received: 27 February 2022 Accepted: 20 July 2022 INVOLVEMENT, Aggregate Report. Directorate-General for health and
+Consumers; 2012 [https:// www. ab. gov. tr/ files/ ardb/ evt/ patie nt_ invol
+vement_ 2012. pdf. cited 2022 Feb 26
+20. Dukhanin V, Topazian R, DeCamp M. Metrics and Evaluation Tools for
+Patient Engagement in Healthcare Organization- and System-Level
+Decision-Making: A Systematic Review. Int J Health Policy Manag.
+2018;7(10):889–903.
+Sagen et al. BMC Musculoskeletal Disorders (2022) 23:738 Page 10 of 10
+21 Rise MB, Solbjør M, Lara MC, Westerlund H, Grimstad H, Steinsbekk A. Publisher’s Note
+Same description, different values. How service users and providers Springer Nature remains neutral with regard to jurisdictional claims in pub-
+define patient and public involvement in health care. Health Expect. lished maps and institutional affiliations.
+2013;16(3):266–76.
+22. Slomic M, Christiansen B, Soberg HL, Sveen U. User involvement and
+experiential knowledge in interprofessional rehabilitation: a grounded
+theory study. BMC Health Serv Res. 2016;16(1):547.
+23. Helsedirektoratet (The Norwegian Directorate of Health). Veileder om oppføl-
+ging av personer med store og sammensatte behov. Oslo: Helsedirektoratet;
+2017. (https:// www. helse direk torat et. no/ veile dere/ oppfo lging- av- perso ner -
+med- store- og- samme nsatte- behov. updated 11.02.2019; cited 2022 Feb 26).
+24. Helse- og omsorgsdepartementet (Minsitry of Health and Care Services).
+Nasjonal helse- og sykehusplan 2020–2023. Meld. St. 7 [online document].
+regjeringen.no: Helse og omsorgsdeprtementet; 2020 https:// www. regje
+ringen. no/ conte ntass ets/ 95eec 808f0 434ac f942f ca449 ca353 86/ no/ pdfs/
+stm20 19202 00007 000dd dpdfs. pdf. updated 11.02.2019; cited 2022 Feb 26
+25. KPMG. Evaluering av opptrappingsplan for habilitering og rehabilitering
+(2017–2019). Oslo: Helsedirektoratet; 2020. (Report No.: IS-2975).
+26. Solbjor M, Rise MB, Westerlund H, Steinsbekk A. Patient participation in
+mental healthcare: when is it difficult? A qualitative study of users and
+providers in a mental health hospital in Norway. Int J Soc Psychiatry.
+2013;59(2):107–13.
+27. Boivin A, Lehoux P, Lacombe R, Burgers J, Grol R. Involving patients in
+setting priorities for healthcare improvement: a cluster randomized trial.
+Implement Sci. 2014;9:24.
+28. Abelson J, Li K, Wilson G, Shields K, Schneider C, Boesveld S. Supporting
+quality public and patient engagement in health system organizations:
+development and usability testing of the Public and Patient Engagement
+Evaluation Tool. Health Expect. 2016;19(4):817–27.
+29. Garratt A, Sagen J, Børøsund E, Varsi C, Kjeken I, Dagfinrud H, et al. The
+Public and Patient Engagement Evaluation Tool: forward-backwards
+translation and cultural adaption to Norwegian. BMC Musculoskelet
+Disord. 2022;23(1):556.
+30. Graneheim UH, Lundman B. Qualitative content analysis in nursing
+research: concepts, procedures and measures to achieve trustworthiness.
+Nurse Educ Today. 2004;24(2):105–12.
+31. Graneheim UH, Lindgren BM, Lundman B. Methodological challenges in quali-
+tative content analysis: A discussion paper. Nurse Educ Today. 2017;56:29–34.
+32. Grundy AC, Bee P, Meade O, Callaghan P, Beatty S, Olleveant N, et al.
+Bringing meaning to user involvement in mental health care planning:
+a qualitative exploration of service user perspectives. J Psychiatr Ment
+Health Nurs. 2016;23(1):12–21.
+33. Johns ML. Breaking the glass ceiling: structural, cultural, and organiza-
+tional barriers preventing women from achieving senior and executive
+positions. Perspect Health Inf Manag. 2013;10(Winter):1e.
+34 Amann J, Brach M, Rubinelli S. How healthcare professionals experience
+patient participation in designing healthcare services and products. A
+qualitative study in the field of spinal cord injury in Switzerland. Patient
+Educ Couns. 2018;101(8):1452–9.
+35. Boaz A, Robert G, Locock L, Sturmey G, Gager M, Vougioukalou S, et al.
+What patients do and their impact on implementation. J Health Organ
+Manag. 2016;30(2):258–78.
+36. McKevitt C, Ramsay AIG, Perry C, Turner SJ, Boaden R, Wolfe CDA,
+et al. Patient, carer and public involvement in major system change
+in acute stroke services: The construction of value. Health Expect.
+2018;21(3):685–92.
+37. de Souza S, Galloway J, Simpson C, Chura R, Dobson J, Gullick NJ, et al.
+Patient involvement in rheumatology outpatient service design and RReeaaddyy ttoo ssuubbmmiitt yyoouurr rreesseeaarrcchh ?? CChhoooossee BBMMCC aanndd bbeenneeffiitt ffrroomm::
+delivery: a case study. Health Expect. 2017;20(3):508–18.
+• fast, convenient online submission
+38. Brouwers MC, Vukmirovic M, Spithoff K, Makarski J. Understanding opti-
+mal approaches to patient and caregiver engagement in the develop- • thorough peer review by experienced rese archers in your field
+ment of cancer practice guidelines: a mixed methods study. BMC Health • rapid publication on acceptance
+Serv Res. 2017;17(1):186.
+• support for research data, including large and complex data types
+39. Dendere R, Slade C, Burton-Jones A, Sullivan C, Staib A, Janda M. Patient
+Portals Facilitating Engagement With Inpatient Electronic Medical • gold Open Access which fosters wider collaboration and increased citations
+Records: A Systematic Review. J Med Internet Res. 2019;21(4):e12779. • maximum visibility for your research: over 100M website views per year
+40. Conklin A, Morris Z, Nolte E. What is the evidence base for public involve-
+ment in health-care policy?: results of a systematic scoping review. Health At BMC, research is always in progress.
+Expect. 2015;18(2):153–65.
+Learn more biomedcentral.com/submissions

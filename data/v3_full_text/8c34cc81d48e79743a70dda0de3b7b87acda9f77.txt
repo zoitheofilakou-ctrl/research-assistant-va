@@ -1,0 +1,617 @@
+Open access Protocol
+Virtual communities of practice to
+improve clinical outcomes in healthcare:
+protocol for a 10- year scoping review
+Louise Shaw ,1,2 Dana Jazayeri,2 Debra Kiegaldie,1,3 Meg Morris 2,4
+To cite: Shaw L, Jazayeri D, ABSTRACT
+Strengths and limitations of this study
+Kiegaldie D, et al. Virtual Introduction Virtual communities of practice (VCoPs)
+communities of practice to use a common online platform to provide healthcare
+improve clinical outcomes in ► The scoping review will identify methods used to es-
+professionals with the opportunity to access highly
+healthcare: protocol for a 10- tablish and maintain virtual communities of practice
+specialised knowledge, build a professional support
+year scoping review. BMJ Open (VCoPs) in healthcare.
+network and promote the translation of research
+2021;11:e046998. doi:10.1136/ ► The review will provide detailed analysis of the ex-
+evidence into practice. There is limited reporting of how bmjopen-2020-046998 tent of the literature on VCoPs in healthcare pub-
+best to design and administer VCoPs within healthcare
+lished in the last 10 years. ► Prepublication history and organisations. The primary aim of this scoping review is to
+additional supplemental material ► The review will be limited to studies in English writ- identify the best methods used to establish and maintain
+for this paper are available ten in the last 10 years.
+VCoPs. Findings shall be used to develop a flexible
+online. To view these files, ► VCoPs that are purely for teaching purposes, for ex-
+framework to guide the establishment and facilitation of a
+please visit the journal online ample, online learning, will be excluded.
+(http://d x. doi.o rg/ 10.1 136/ VCoP for healthcare professionals to ensure the translation
+bmjopen-2 020- 046998). of falls prevention clinical guidelines into practice.
+Methods and analysis A five- stage scoping review
+Received 15 November 2020 process will be followed based on Arksey and O’Malley’s learning through social interactions),
+Accepted 04 May 2021 framework and refined by the Joanna Briggs Institute domain (within a particular area of interest)
+Methodology. An initial limited search of PubMed and and practice (developing, sharing and main-
+Cumulative Index to Nursing and Allied Health Literature taining knowledge). Examples of CoPs where
+will identify relevant studies and assist with search term professionals have sought further education,
+development. This will be followed by a search of five
+development and innovation in a particular
+online databases to identify papers published from January
+practice area, include the promotion of a
+2010 until November 2020. Papers will be independently
+new measurement tool in child and youth
+screened by two reviewers, and data extracted and
+mental healthcare,5 promotion of recovery-
+analysed using a reporting framework. Qualitative data will
+© Author(s) (or their be analysed thematically and numerical synthesis of the oriented practices in mental healthcare6 and
+employer(s)) 2021. Re- use data will be conducted. the management of COVID-19.7
+permitted under CC BY- NC. No Results and dissemination The results of this scoping The advantages of CoPs within health-
+commercial re- use. See rights review will highlight the best ways to design and manage care include the joint analysis of prac-
+and permissions. Published by VCoPs in healthcare organisations. The findings will be tical experiences and information among
+BMJ.
+presented at relevant stakeholder workshops, conferences their members.3 They allow members to
+1Faculty of Health Science, and published in peer- reviewed journals.
+openly discuss concerns and acknowledge
+Youth & Community Studies,
+Holmesglen Institute of TAFE, errors, encourage in-s itu learning, shared
+Parkdale, Victoria, Australia decision-m aking and coordination of experi-
+2School of Allied Health, Human INTRODUCTION mentation.8 While CoPs aim to promote stan-
+Services and Sport, Faculty of
+Communities of practice (CoPs) within dardisation of practice and the establishment
+Science, Health and Engineering,
+healthcare involve groups of people who of interpersonal relationships that encourage
+La Trobe University, Bundoora,
+Victoria, Australia share an interest in a particular topic, and a knowledge sharing, there is diversity in how
+3Eastern Clinical School, Faculty desire to deepen their knowledge and exper- and why they are implemented.9 CoPs in
+of Medicine, Nursing & Health tise by interacting with others regularly.1 2 healthcare have been found to be complex
+Sciences, Monash University,
+They foster mutual learning and knowledge and multifaceted. They vary in composition,
+Melbourne, Victoria, Australia
+4Victorian Rehabilitation Centre, sharing outside the silos of discipline-s pecific intended purpose and use a variety of models
+Healthscope Limited, Melbourne, professional expertise,3 provide a forum for for members to share their knowledge.9 The
+Victoria, Australia developing and implementing evidence- diversity of CoPs, can be influenced by various
+based practice,4 and facilitate the delivery social, cultural and individual factors, such as
+Correspondence to of high quality, cost-e ffective care. The three clinical leadership, support and commitment
+Dr Louise Shaw;
+l ouise. shaw@h olmesglen. main elements characterising CoPs identified for quality management, regular communica-
+edu.a u by Wenger et al1 are community (collective tion, and availability of accurate and relevant
+Shaw L, et al. BMJ Open 2021;11:e046998. doi:10.1136/bmjopen-2020-046998 1
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2020-046998
+on
+26
+July
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+library
+.
+Open access
+data.10 Their establishment requires a flexible framework presence of a centralised leadership structure and the
+that will guide their formation and ongoing operational frequent rotating of leadership over time.
+procedures.9 Healthcare organisations have a responsibility to
+Advances in technology-b ased communication and deliver high- quality, cost- effective care by implementing
+the growth of the internet has led to a rapid increase evidence- informed policy and practice.29–31 Despite
+in the sharing of health information globally. Health the growing number of clinical guidelines produced
+professionals can use virtual communities of practice by government agencies to improve effectiveness and
+(VCoPs) to share their knowledge.11 12 More recently, quality of care,32 frequently there are gaps between
+the COVID-19 pandemic has significantly limited phys- research evidence and clinical practice.33–36 By providing
+ical interactions and meetings for sharing of expertise, a platform for healthcare professionals to collaborate
+and therefore, the relevance and utility of VCoPs is towards a common purpose, VCoPs can bridge the gap
+more evident.13 VCoPs provide the opportunity to stay between research evidence, policy-m aking and imple-
+connected and informed, by the sharing of emerging mentation of clinical guidelines.37 To attempt to address
+resources and dissemination of research on health the problems of translating falls prevention clinical
+issues.13 VCoPs use a wide variety of media to establish guidelines into practice across multiple sites of a resi-
+a virtual collaborative space including social media dential aged care organisation, one team used a web-
+sites, videoconferencing and websites.14 The creation based falls prevention CoP.28 Member engagement with
+of VCoPs means that health professionals who are the Information Communication Technology (ICT)
+geographically dispersed,15 can use virtual commu- applications of asynchronous discussions and accessing
+nities for learning, support, continuing professional evidence were low, with a number of barriers and facili-
+education, knowledge management and information tators to web- based CoP operation identified.28 Barriers
+sharing.11 12 Being a member of a VCoP can be a great to sustainability included members’ capabilities for
+opportunity for healthcare professionals to share and using ICT applications and lack of dedicated time
+gain access to highly specialised knowledge.16 They allow provided by management for web- based participation.28
+healthcare professionals to build a professional support However, the operation of a VCoP in falls prevention
+network and promote the translation of evidence into was found to be achievable if staff were given sufficient
+daily practice, by accessing a common platform.17 18 time, and provided with suitable training and support.38
+VCoPs have a key role in promoting interprofessional All of these points could be considered when estab-
+learning and collaboration, with virtual modes of lishing a VCoP in falls prevention.
+communication helping to reduce professional barriers It is essential to clarify effective methods of VCoPs
+and encourage communication within and between for knowledge synthesis and translation into practice.
+healthcare professions.19 Given the limited reporting of a standard approach to
+The successful design and management of VCoPs the design and administration of VCoPs within health-
+depend on the characteristics of the virtual commu- care, a scoping review shall be conducted to determine
+nity.8 Members of CoPs and VCoPs are likely to expe- the nature of reported VCoPs within this context in
+rience very different environments because of the the last 10 years. It aims to identify the methods used
+primary way they interact.14 Computer-m ediated inter- to establish and maintain VCoPs and ascertain poten-
+actions are likely to make it more difficult for members tial barriers and facilitators to the implementation of
+to build mutual knowledge, trust, a sense of belonging VCoPs. This information will then be used to develop
+and open exchange of ideas.20 21 Factors found to affect a flexible framework that will guide the establishment
+knowledge sharing in online communities identified in and facilitation of a VCoP for healthcare professionals
+the literature include individual factors, technological on falls prevention in hospitals to assist the translation
+factors and social factors.22–25 Individual factors include of clinical guidelines into practice.
+the contributions of members, with active participation
+being essential for the VCoP to grow and develop.16
+Active participation refers to members’ knowledge- METHODS AND ANALYSIS
+exchange activities, such as posting questions on online The methodological structure will follow Arksey and
+community boards, engaging in live chats, participating O’Malley’s framework for scoping reviews,39 which was
+in online and videoconferencing discussion sessions refined by the Joanna Briggs Institute.40 41 The protocol
+and providing asynchronous answers and feedback in will use the Preferred Reporting Items for System-
+discussion threads.26 27 Active participation is influenced atic reviews and Meta- Analyses extension for Scoping
+by members’ motivations, personalities, time available Reviews (PRISMA- ScR) checklist,42 which was revised by
+and values.1 16 26–28 Social factors include the social the research team (LS, DJ, MM, DK). The framework
+interaction among members within the group and the has five sections: (a) identifying the research question,
+roles of group moderators, while technological factors (b) identifying relevant studies, (c) identifying the study
+involve technical and usability issues.16 A 7-y ear longi- selection criteria, (d) charting the data incorporating
+tudinal study by Antonacci et al16 showed the growth of both quantitative and qualitative thematic analysis and
+VCoPs for healthcare professionals to be related to the (e) collating, summarising and reporting the results.
+2 Shaw L, et al. BMJ Open 2021;11:e046998. doi:10.1136/bmjopen-2020-046998
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2020-046998
+on
+26
+July
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+library
+.
+Open access
+Review stages Types of evidence sources
+Stage 1: identifying the research question To be included, articles should be peer-r eviewed and in
+Scoping reviews are a form of knowledge synthesis that the English language. Included articles can be existing
+present a broad overview of the evidence on a topic of literature on VCoPs including primary research studies of
+interest, without addressing study quality, and can be used any design (quantitative, qualitative and mixed-m ethods),
+to identify key concepts for a topic area and identify any systematic reviews, meta- analyses, guideline implementa-
+knowledge gaps.43 The concepts underpinning a research tion. Exclusions include grey literature, commentaries
+area can be mapped by systematically searching, selecting and any other opinion pieces. The articles need to be
+and synthesising existing knowledge.39 44 accessible as full text and published between January
+The primary research question is: 2010 and October 2020.
+i. What is the extent of reported research on establish-
+Search strategy
+ing VCoPs in healthcare (for clinical purposes) pub-
+lished in the last 10 years (2010 to current)? A three- step approach will be developed by the study
+Secondary research questions add focus to the review group in collaboration with an academic librarian. The
+and provide guidance for setting up and conducting a librarian will execute the searches on behalf of the study
+VCoP for falls prevention: group.
+ii. What methods are used to establish and maintain i. There will be an initial limited search of PubMed
+VCoPs (what frameworks are used for VCoP develop- and Cumulative Index to Nursing and Allied Health
+ment, who are the participants, how is it coordinat- Literature (CINAHL), to identify relevant studies to
+ed and what are the methods of communication and assist with search term development, based on the
+knowledge exchange?). research questions and purpose of the study. The
+iii. What potential barriers and facilitators are identified librarian will assist in guiding a rigorous analysis
+during the implementation of VCoPs? process to identify the best search terms and strate-
+The authors are aware and prepared for themes and gy related to VCoPs in healthcare. The process will
+recommendations that arise from the literature that are be iterative, to ensure all relevant search terms are
+beyond these research questions and will amend and captured.
+update the questions as required. ii. Words in the title and abstract of the initial re-
+trieved papers and indexing terms will be analysed
+Stage 2: identifying relevant studies and used to classify the articles.
+Eligibility criteria iii. A second comprehensive search across PubMed,
+In a scoping review, the three elements of population, CINAHL, CENTRAL, PsycINFO, Cochrane Library
+concept and context are used to establish inclusion and and Education Resources Information Center from
+exclusion criteria. The population details the relevant January 2010 to October 2020 will be conducted, to
+characteristics of participants, the concept is the prin- ensure VCoPs are contemporary in terms of design
+cipal focus of the review and the context describes the and content. The reference lists of all identified re-
+setting under examination. ports and articles will be searched for additional stud-
+ies meeting the inclusion criteria. We will retrieve all
+Participants supplementary files that are referred to in the includ-
+The population of interest is any healthcare professionals ed papers and any papers that are referred to in a par-
+who are part of a VCoP for the purposes of building ticular study that were part of the research project.
+and exchanging knowledge, developing individual capa- Online supplemental appendix 1 shows the initial
+bilities, ensuring their practice is evidence-b ased and search strategy to be executed in CINAHL and PubMed.
+enhancing interprofessional collaboration.
+Stage 3: study selection
+All studies identified from the search strategy will be
+Concept uploaded to the online systematic review software, Covi-
+The concept is VCoPs for the purposes of improving clin- dence.45 Two reviewers will independently screen the
+ical outcomes. CoPs that describe themselves as ‘virtual’,
+titles and abstracts of retrieved papers. The full texts of
+‘online’ or ‘web- based’ are included. They should report
+identified papers will be obtained and assessed by two
+on the establishment and maintenance of VCoPs that independent reviewers, to identify studies that meet
+have been implemented in a healthcare setting for health
+the inclusion criteria. Discrepancies will be resolved
+professionals.
+through discussion and if necessary, consensus will be
+achieved via a third reviewer. The results of the search
+Context
+will be presented in a PRISMA- ScR flow diagram (see
+The context is any platform used by healthcare profes- figure 1).42
+sionals to support virtual interactions in healthcare for
+knowledge advancement and sharing of ideas. VCoPs that Stage 4: data charting
+are purely for teaching purposes, for example, online Data from eligible studies will be charted inde-
+learning, will be excluded. pendently by two researchers using a data extraction
+Shaw L, et al. BMJ Open 2021;11:e046998. doi:10.1136/bmjopen-2020-046998 3
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2020-046998
+on
+26
+July
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+library
+.
+Open access
+Figure 1 PRISMA- ScR flow diagram example. PRISMA- ScR, Preferred Reporting Items for Systematic reviews and Meta-
+Analyses extension for Scoping Reviews.
+chart developed in Covidence.45 The chart will capture calculated. Data synthesis will be an iterative process
+the relevant information on key study characteris- with new categories and themes identified through
+tics (eg, year of publication, country of origin, type ongoing analysis. For the qualitative analysis, two
+of research, setting, study population of those in the reviewers will categorise the key components inde-
+VCoP), objectives, terminology used, development
+pendently in Excel. Through discussion, they will
+(activities undertaken at the inquiry, design and
+develop a coding framework. The coding framework
+launch stages), barriers and facilitators to VCoP devel-
+will be piloted on a random sample of 10 included arti-
+opment, outcomes and key findings related to the
+cles by the two primary reviewers and modifications will
+review questions. This process will be iterative and vari-
+be made as required. One of the primary reviewers will
+ables may be identified following complete review of
+then code the remaining articles according to the final
+the full texts. The data extraction form will be trialled
+framework. Quantitative results will be summarised in
+by two reviewers on a random sample of 10 included
+tables, charts and diagrams as indicated by the data,
+articles to ensure that all relevant results were able
+to be captured, and modifications will be made as to allow for easy comparison. Following synthesis and
+required. After this, the same two reviewers will inde- analysis of the data best practice methods to estab-
+pendently chart the data for all included studies, and lish and maintain VCoPs, barriers and facilitators to
+then compare and merge the data into a final dataset. establishing VCoPs, approaches to evaluation and the
+Conflicts at the data merging stage will be resolved by impact of VCoPs on clinical practice, will be identified.
+discussion until consensus is reached. If a consensus
+cannot be reached, a third study group member will
+Ethics and dissemination
+be consulted.
+The results of this scoping review will highlight the best
+ways to design and manage VCoPs in healthcare organ- Stage 5: collating, summarising and reporting the results
+isations. The findings will be presented at relevant
+The synthesis of extracted data will include thematic
+analysis for qualitative data. Quantitative data will stakeholder workshops, conferences and published in
+be summarised using frequency analysis, with the peer- reviewed journals. Ethics approval is not required
+counts and percentages of articles for each category for this scoping review.
+4 Shaw L, et al. BMJ Open 2021;11:e046998. doi:10.1136/bmjopen-2020-046998
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2020-046998
+on
+26
+July
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+library
+.
+Open access
+SUMMARY 4 Kislov R. From a project team to a community of practice? an
+exploration of boundary and identity in the context of healthcare
+VCoPs are becoming increasingly popular, yet the best
+collaboration. Patient- Centred Health Care. Berlin: Springer,
+methods of how to establish them have not been realised. 2013: 103–17.
+The proposed scoping review will follow an updated, 5 Barwick MA, Peters J, Boydell K. Getting to uptake: do communities
+of practice support the implementation of evidence- based practice?
+five- step rigorous methodology for conducting scoping J Can Acad Child Adolesc Psychiatry 2009;18:16.
+reviews as described by the Joanna Briggs Institute. The 6 Piat M, Briand C, Bates E, et al. Recovery communities of practice:
+an innovative strategy for mental health system transformation.
+review will provide a new and detailed analysis of the
+Psychiatr Serv 2016;67:10–12.
+extent of the literature on VCoPs in healthcare published 7 New South Wales Health. Communities of practice for the
+in the last 10 years. It will highlight the best methods for management of COVID19, 2020. Available: https://www. health. nsw.
+gov. au/ Infectious/ covid- 19/ communities- of- practice/ Pages/ default.
+establishing and maintaining VCoPs within a healthcare aspx
+setting. It will also outline any potential barriers and facil- 8 LC L, Grimshaw JM, Nielsen C. Use of communities of practice
+in business and health care sectors: a systematic review.
+itators to developing a VCoP in a healthcare setting. The
+Implementation science 2009;4:1–9.
+findings will inform the development of a standardised 9 Ranmuthugala G, Cunningham FC, Plumb JJ, et al. A realist
+but flexible framework for the translation of falls preven- evaluation of the role of communities of practice in changing
+healthcare practice. Implement Sci 2011;6:49.
+tion clinical guidelines into practice. 10 Fung- Kee- Fung M, Morash R, Goubanova E. Evaluating cops in
+cancer surgery. Handbook of research on communities of practice
+Twitter Debra Kiegaldie @DKiegaldie for organizational management and networking: methodologies for
+competitive advantage. Pennsylvania: IGI global, 2011: 456–66.
+Contributors LS was involved in study conception, preliminary literature review, 11 Barnett S, Jones SC, Bennett S, et al. A virtual community of
+writing and editing of the protocol, scoping review framework and analysis, practice for general practice training: a preimplementation survey.
+design of the search strategy and content expert input. DJ was involved in study JMIR Med Educ 2016;2:e13.
+conception, editing of the protocol, content expert input and preliminary literature 12 Dieleman C, Duncan EAS. Investigating the purpose of an online
+discussion group for health professionals: a case example from
+review. MM and DK were involved in editing of the protocol, provided general
+forensic occupational therapy. BMC Health Serv Res 2013;13:1–8.
+guidance to the research team, were involved in study conception and content
+13 Mills J, Li C, Fullerton S, et al. Staying connected and informed:
+expert input. All authors have made substantive intellectual contributions to the
+online resources and virtual communities of practice supporting
+development of this protocol. All authors read and approved the manuscript. palliative care during the novel coronavirus pandemic. Prog Palliat
+Care 2020;28:251–3.
+Funding This scoping review is being conducted as a part of an NHMRC funded
+14 Dubé L, Bourhis A, Jacob R. Towards a typology of virtual
+public–private partnership (#GNT1152853) which aims to use implementation
+communities of practice. IJIKM 2006;1:069–93. science principles to enable both clinicians and patients to better mitigate
+15 Barnett S, Jones SC, Bennett S, et al. General practice training and
+future risk of hospital falls and to reduce falls rates. The partnership is between virtual communities of practice - a review of the literature. BMC Fam
+the Healthscope private hospital network, Holmesglen Institute and Australian Pract 2012;13:1–12.
+universities. 16 Antonacci G, Fronzetti Colladon A, Stefanini A, et al. It is rotating
+leaders who build the Swarm: social network determinants of growth
+Competing interests None declared.
+for healthcare virtual communities of practice. Journal of Knowledge
+Patient consent for publication Not required. Management 2017;21:1218–39.
+17 Rolls K, Kowal D, Elliott D, et al. Building a statewide knowledge
+Provenance and peer review Not commissioned; externally peer reviewed. network for clinicians in intensive care units: knowledge brokering
+and the NSW intensive care coordination and monitoring unit
+Supplemental material This content has been supplied by the author(s). It has
+(ICCMU). Aust Crit Care 2008;21:29–37. not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been
+18 Ho K, Jarvis- Selinger S, Norman CD, et al. Electronic communities
+peer- reviewed. Any opinions or recommendations discussed are solely those
+of practice: guidelines from a project. J Contin Educ Health Prof
+of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and 2010;30:139–43.
+responsibility arising from any reliance placed on the content. Where the content 19 McLoughlin C, Patel KD, O'Callaghan T, et al. The use of virtual
+includes any translated material, BMJ does not warrant the accuracy and reliability communities of practice to improve interprofessional collaboration
+of the translations (including but not limited to local regulations, clinical guidelines, and education: findings from an integrated review. J Interprof Care
+terminology, drug names and drug dosages), and is not responsible for any error 2018;32:136–42.
+and/or omissions arising from translation and adaptation or otherwise. 20 Pan SL, Leidner DE. Bridging communities of practice with
+information technology in pursuit of global knowledge sharing. The
+Open access This is an open access article distributed in accordance with the Journal of Strategic Information Systems 2003;12:71–88.
+Creative Commons Attribution Non Commercial (CC BY- NC 4.0) license, which 21 DeSanctis G, Fayard A-L , Roach M, et al. Learning in online forums.
+permits others to distribute, remix, adapt, build upon this work non-c ommercially, European Management Journal 2003;21:565–77.
+and license their derivative works on different terms, provided the original work is 22 Hara N, Foon Hew K, Hew KF. Knowledge‐sharing in an online
+community of health‐care professionals. Info Technology & People
+properly cited, appropriate credit is given, any changes made indicated, and the use
+2007;20:235–61.
+is non- commercial. See: http:// creativecommons.o rg/ licenses/b y- nc/4 . 0/. 23 Malinen S. Understanding user participation in online communities:
+a systematic literature review of empirical studies. Comput Human
+ORCID iDs Behav 2015;46:228–38.
+Louise Shaw http://o rcid. org/0 000- 0001-8 188- 2313 24 Amichai- Hamburger Y, Gazit T, Bar- Ilan J, et al. Psychological factors
+Meg Morris http://o rcid. org/0 000- 0002-0 114- 4175 behind the lack of participation in online discussions. Comput
+Human Behav 2016;55:268–77.
+25 Nistor N, Baltes B, Dascălu M, et al. Participation in virtual academic
+communities of practice under the influence of technology
+acceptance and community factors. A learning analytics application.
+REFERENCES Comput Human Behav 2014;34:339–44.
+1 Wenger E, McDermott RA, Snyder W. Cultivating communities of 26 Ardichvili A. Learning and knowledge sharing in virtual communities
+practice: a guide to managing knowledge. Brighton, Massachusetts: of practice: motivators, barriers, and enablers. Advances in
+Harvard Business Press, 2002. Developing Human Resources 2008;10:541–54.
+2 Wenger E. Communities of practice: a brief introduction, 2004. 27 Ardichvili A, Page V, Wentling T. Motivation and barriers to
+Available: https:// wenger- trayner. com/ introduction- to- communities- participation in virtual knowledge‐sharing communities of practice.
+of- practice/ Journal of Knowledge Management 2003;7:64–77.
+3 Nicolini D, Scarbrough H, Gracheva J. Communities of practice and 28 Francis- Coad J, Etherton- Beer C, Bulsara C, et al. Can a web- based
+situated learning in health care. The Oxford handbook of health care community of practice be established and operated to lead falls
+management 2016:255–78. prevention activity in residential care? Geriatr Nurs 2017;38:133–40.
+Shaw L, et al. BMJ Open 2021;11:e046998. doi:10.1136/bmjopen-2020-046998 5
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2020-046998
+on
+26
+July
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+library
+.
+Open access
+29 Sarkies MN, Bowles K- A, Skinner EH, et al. The effectiveness of 37 Ford J, Korjonen H, Keswani A, et al. Virtual communities of practice:
+research implementation strategies for promoting evidence- informed can they support the prevention agenda in public health? Online J
+policy and management decisions in healthcare: a systematic review. Public Health Inform 2015;7:e222.
+Implement Sci 2017;12:132. 38 Francis- Coad J, Etherton- Beer C, Bulsara C, et al. Can a web-
+30 Elshaug AG, Watt AM, Mundy L, et al. Over 150 potentially low‐ based community of practice be established and operated to
+value health care practices: an Australian study. Medical Journal of lead falls prevention activity in residential care? Geriatr Nurs
+Australia 2012;197:556–60. 2017;38:133–40.
+31 Haines TP, Bowles K- A, Mitchell D, et al. Impact of disinvestment 39 Arksey H, O'Malley L. Scoping studies: towards a methodological
+from weekend allied health services across acute medical and framework. Int J Soc Res Methodol 2005;8:19–32.
+surgical wards: 2 stepped-w edge cluster randomised controlled
+40 Peters MDJ, Godfrey CM, Khalil H, et al. Guidance for conducting
+trials. PLoS Med 2017;14:e1002412. systematic scoping reviews. Int J Evid Based Healthc 2015;13:141–6.
+32 Kredo T, Bernhardsson S, Machingaidze S, et al. Guide to clinical
+41 Peters MDJ GC, McInerney P, Munn Z. Chapter 11: scoping reviews practice guidelines: the current state of play. Int J Qual Health Care
+(2020 version). In: Aromataris EMZ, ed. JBI manual for evidence
+2016;28:122–8.
+synthesis. Adelaide, Australia: Joanna Briggs Institute, 2020.
+33 Shekelle P, Woolf S, Grimshaw JM, et al. Developing clinical
+42 Tricco AC, Lillie E, Zarin W, et al. PRISMA extension for scoping
+practice guidelines: reviewing, reporting, and publishing guidelines;
+reviews (PRISMA- ScR): checklist and explanation. Ann Intern Med
+updating guidelines; and the emerging issues of enhancing guideline
+implementability and accounting for comorbid conditions in 2018;169:467–73.
+Guideline development. Implement Sci 2012;7:62. 43 Peters MDJ, Marnie C, Tricco AC, et al. Updated methodological
+34 Runciman WB, Hunt TD, Hannaford NA, et al. CareTrack: assessing guidance for the conduct of scoping reviews. JBI Evid Synth
+the appropriateness of health care delivery in Australia. Medical 2020;18:2119–26.
+Journal of Australia 2012;197:100–5. 44 Colquhoun HL, Levac D, O'Brien KK, et al. Scoping reviews: time
+35 Greenhalgh T, Howick J, Maskrey N, et al. Evidence based medicine: for clarity in definition, methods, and reporting. J Clin Epidemiol
+a movement in crisis? BMJ 2014;348:g3725. 2014;67:1291–4.
+36 Pronovost PJ. Enhancing physicians' use of clinical guidelines. 45 Veritas Health Innovation. Covidence systematic review software.
+JAMA 2013;310:2501–2. Melbourne, Australia 2019.
+6 Shaw L, et al. BMJ Open 2021;11:e046998. doi:10.1136/bmjopen-2020-046998
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+BMJ
+Open:
+first
+published
+as
+10.1136/bmjopen-2020-046998
+on
+26
+July
+2021.
+Downloaded
+from
+http://bmjopen.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu
+Medical
+library
+.

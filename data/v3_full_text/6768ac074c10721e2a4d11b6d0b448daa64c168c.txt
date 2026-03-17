@@ -1,0 +1,828 @@
+Current Research in Medical Sciences
+ISSN 2958-0390
+www.pioneerpublisher.com/crms
+Volume 3 Number 1 March 2024
+A Study of the Current Status of Rehabilitation
+Intervention in the Clinical Recovery of Stroke
+Patients
+Fangyu Zhao1
+1 The First Clinical Medical School, Shanxi Medical University, Shanxi, China
+Correspondence: Fangyu Zhao, The First Clinical Medical School, Shanxi Medical University,
+Shanxi, China.
+doi:10.56397/CRMS.2024.03.12
+Abstract
+At the present stage, rehabilitation therapy, as a comprehensive recovery aid, promotes the recovery
+effect of stroke patients, and plays an indispensable value in helping patients to recover function and
+improve the quality of life. The overall trend of the intervention of rehabilitation therapy in stroke is
+favourable, and it is an effective treatment for stroke patients to be assisted by rehabilitation therapy
+based on independent clinical treatment with Western medicine, independent clinical treatment with
+Chinese medicine, or combined treatment with Chinese and Western medicine. This advantage is still
+prominent for stroke patients in different periods. However, the degree of intervention of
+rehabilitation therapy in stroke is still unsatisfactory, as the patient’s willingness, the support of family
+strength, the imbalance of medical resources, and the limitations of the level of science and technology
+are the reasons for the limitation, which affects that the functional value of rehabilitation therapy is
+not fully realised in the recovery process of the patients with stroke, and this makes the development
+of rehabilitation therapy in the intervention of stroke a long way to go.
+Keywords: rehabilitation, stroke, cause of limitation, value functioning
+1. Introduction this study aims to explore the current situation
+of rehabilitation therapy intervention in force
+With the development of society and economy
+trauma recovery of stroke patients, analyse the
+and the ageing of the population, the incidence
+existing problems, and provide a basis for
+and disability rate of stroke is on the rise year by
+optimizing the rehabilitation therapy program
+year, bringing a heavy burden to individuals,
+and improving the effect of rehabilitation
+families and society. Rehabilitation therapy is an
+therapy.
+important part of stroke recovery, which is
+significant for improving patients’ dysfunction 2. Rehabilitation Intervention Situation of
+and quality of life. However, there are many Stroke
+problems with the current status of
+A questionnaire survey of stroke patients in a
+rehabilitation therapy intervention in the clinical
+tertiary care hospital was conducted to collect
+recovery of stroke patients in China. Therefore,
+93
+Current Research in Medical Sciences
+basic information about the patients, and angioplasty or stenting to assist some
+statistics were made on the related diseases, anticoagulant, anti-spasmodic, anti-platelet
+whether rehabilitation was intervened, first or aggregation, as well as antihypertensive,
+recurrent, age, and family size. There were 281 lipid-lowering and other cerebrovascular
+stroke patients, 169 men and 112 women, with a medications to restore cerebral vascular
+mean age of (60.21 ± 10.12) years. The survey smoothness, is not enough to completely restore
+showed that those who were older and did not the damaged neurological function of the
+receive rehabilitation treatment had poorer subsequent stage of stroke patients. Relevant
+functional recovery and lower social studies indicate that the degree of recovery of
+participation. neurological deficits as a comparative standard,
+the quantitative stroke patients were randomly
+2.1 The Effect of Rehabilitation Therapy Combined
+divided into two groups, one group as a
+with Different Clinical Treatment Modalities
+conventional treatment group, one group for
+Presented
+rehabilitation therapy intervened in the
+2.1.1 The Effect of Western Clinical Treatment
+conventional treatment of rehabilitation therapy
+Combined with Rehabilitation Therapy on
+group, statistics of the number of people in the
+Stroke
+two groups, age, disease, gender and the degree
+Stroke patients suffer from different degrees of of neurological deficits, after a series of recovery
+neurological dysfunction such as speech sessions as shown in Table 1. The results show
+disorder, motor disorder, and cognitive that the conventional group of Western medicine
+impairment. Western clinical treatment can drug treatment recovery rate and neuromotor
+effectively control the development of the and other functions were significantly lower
+disease, but only through basic Western than those of the rehabilitation therapy group.
+Table 1.
+Group Before treatment 28d after treatment 45d after treatment
+Rehabilitation group 22.9±6.64 13.56±8.52 9.17±8.20
+Conventional group 23.03±7.61 18.13±8.87 16.03±8.38
+p >0.05 < 0.05 < 0.05
+Western medicine treatment of stroke patients is other TCM treatments can play an effective and
+often accompanied by a variety of comorbidities positive role in the recovery of limb function of
+and sequelae in the late stage, the rate of stroke patients. Taking acupuncture, massage
+occurrence of more muscle strength loss, muscle and acupressure combined with rehabilitation
+atrophy, muscle stiffness, etc., the situation is therapy as an example, the improvement of limb
+more serious will cause patients to lose the mobility and daily life level of patients in the
+ability to live independently. For stroke patients late stage of stroke was analysed accordingly,
+with related conditions, rehabilitation therapy and the recovery of stroke patients with
+can provide appropriate physiotherapy methods rehabilitation training alone as the control group
+for targeted intervention and control, and future was compared with that of stroke patients with
+research can further explore the specific rehabilitation therapy combined with
+mechanisms of Western medicine combined acupuncture, massage and acupressure
+with rehabilitation therapy, optimise the programme as the observation group, excluding
+treatment plan and further improve the the effects of other irrelevant factors, as shown
+therapeutic effect. in Table 2. The study showed that acupuncture
+combined with rehabilitation therapy was more
+2.1.2 Effectiveness of Chinese Medicine Clinical
+advantageous compared to rehabilitation
+Treatment Combined with Rehabilitation
+therapy alone.
+Therapy on Stroke
+Chinese medicine, acupuncture, massage and
+94
+Current Research in Medical Sciences
+Table 2. Comparison of ADL scores between the two groups
+Group n Before treatment After treatment t p
+Observation group 42 61.05±6.94 82.29±7.33 13.637 0.000
+Control group 42 62.20±7.44 71.03±8.35 5.117 0.000
+t 0.733 6.568
+p 0.466 0.000
+Compared with the single use of rehabilitation relevant data show that in the study of the
+training for stroke patients, the application of proportion of different modalities of
+specific Chinese medicine on top of it can make intervention in Chinese medicine, acupuncture
+the rehabilitation effect of stroke patients more therapy is the main means of treatment at about
+significant, and studies have shown that the 42.31%, traditional Chinese medicine accounts
+combination of specific rehabilitation methods for 11.12%, moxibustion accounts for 2.32%, the
+with Chinese medicine can significantly proportion of integrated rehabilitation therapy
+accelerate the healing process of patients with of Chinese medicine is 6.68% and the proportion
+stroke. of other effective treatments in Chinese
+medicine accounts for 37.57% and so on. The
+The acupuncture method is also the majority
+proportion of integrated rehabilitation treatment
+choice for TCM practitioners during stroke
+in Chinese medicine is relatively low.
+rehabilitation, with Baihui and Shusanli being
+the key acupuncture points for acupuncture. The 2.1.3 Effectiveness of Combined Chinese and
+physiological functions of patients such as Western Medicine Clinical Treatment and
+swallowing and articulation can be improved to Rehabilitation Therapy on Stroke
+a certain extent by using ordinary acupuncture
+Clinical observations made in the purely
+methods, and rehabilitation training alone can
+Western medicine treatment group and the
+also help patients recover from swallowing
+combined Chinese and Western medicine
+disorders, but acupuncture combined with TCM
+treatment group confirmed that the recovery
+rehabilitation training is more advantageous
+rate of the combined Chinese and Western
+than the former in recovering from swallowing
+medicine treatment is almost 1.859 times higher
+dysfunction in stroke patients. Relevant clinical
+than that of the purely Western medicine
+studies have also confirmed this view.
+treatment in terms of the recovery of stroke
+Stroke patients need to undergo a patients. Comparing the effect of conventional
+comprehensive physical examination before Western medicine and rehabilitation therapy as
+receiving acupuncture treatment according to a controlled study with the combined Western
+the condition and individual differences of the and Chinese medicine and rehabilitation
+patient’s choice such as warm needles, therapy group, the clinical study shows that the
+electroacupuncture, moxibustion and so on. combination of Western and Chinese medicine
+Rehabilitation therapy can improve the recovery and rehabilitation therapy as a whole has a
+level of stroke patients through physical therapy, better effect on the recovery of stroke patients
+functional training and psychological than the former.
+counselling. The combination of Chinese
+In the treatment of patients with partial cerebral
+medicine and rehabilitation therapy in stroke
+dysfunction due to disruption of blood supply
+has a good application prospect, and the
+to the brain or rupture of blood vessels, the
+practical application of Chinese medicine and
+method of combining traditional Chinese and
+rehabilitation therapy has the advantages of
+Western medicine with rehabilitation therapy
+Chinese medicine theory and modern
+was significantly more effective in the recovery
+rehabilitation medicine, which promotes the
+effect and CNS score of patients with stroke than
+further development of the combination of
+the traditional Western medical therapy when
+Chinese medicine and rehabilitation therapy in
+compared with the CNS deficit capacity during
+stroke, however, the recognition of the
+the recovery period of the treatment. Under the
+combination of Chinese medicine and
+auxiliary treatment of rehabilitation exercise,
+rehabilitation therapy is not enough. Statistical
+some of the functional functions of the patient’s
+95
+Current Research in Medical Sciences
+brain as well as the involved daily life ability only a small proportion of those who did not
+and so on had a relatively stable recovery receive rehabilitation were able to achieve this
+effectiveness on the original basic level. goal within the same period. Secondly, in a
+randomised controlled trial of acute stroke
+Chinese and Western medicine combined with
+patients, it was found that the speed of limb
+rehabilitation therapy is an effective
+function recovery was relatively fast among
+comprehensive medical model for stroke
+patients who received rehabilitation therapy.
+patients, and the theory of rehabilitation therapy
+Observations of grip strength, balance, walking
+intervenes in the relative perfection of Chinese
+ability, and walking speed in acute-phase stroke
+and Western medicine combined treatment of
+patients over three months of receiving
+stroke, and the practical application has been
+rehabilitation therapy found that all of the above
+gradually promoted, which makes full use of the
+functions were significantly improved in
+advanced techniques and therapies of
+patients who were also intervening in early
+rehabilitation therapy while giving full play to
+rehabilitation therapy.
+the unique advantages of the combination of
+Chinese and Western medicine. It is worthwhile In the experimental analysis of the degree of
+to widely promote the clinical application of this neurological deficits in acute stroke patients,
+treatment method to effectively improve the under the same base case, the total effective rate
+recovery of stroke patients. However, further of clinical recovery of interventional
+research is needed to explore the optimal rehabilitation therapy is 1.32 times that of the
+treatment plan and mechanism of combined control group, of which the probability of basic
+Chinese and Western medicine rehabilitation recovery is 1.75 times that of the group that did
+therapy for stroke patients, to provide better not receive rehabilitation therapy, and the
+rehabilitation services for stroke patients. majority of the patients who received
+rehabilitation therapy showed better results in
+2.2 Effectiveness of Rehabilitation Therapy on Stroke
+the recovery process, and very few patients had
+Patients in Different Periods
+no effect in the recovery process; as the
+Through collecting and collating relevant
+inefficiency of the control group without
+clinical practice studies in recent years, we make
+interventional rehabilitation therapy is
+comparative analyses on the selection of
+significantly higher than that of the
+rehabilitation therapy intervention for stroke
+experimental group that received rehabilitation
+patients in different periods.
+therapy at an early stage, the total effective rate
+2.2.1 Effect of Rehabilitation Therapy on Acute of the latter group highlights a greater
+Stroke Patients advantage. The inefficiency of the control group,
+Acute stroke is a serious condition that requires which did not intervene in rehabilitation, was
+timely intervention and treatment. Studies have significantly higher than that of the
+found that early initiation of rehabilitation experimental group, which received
+therapy can significantly improve the prognosis rehabilitation at an early stage, i.e., the latter’s
+of stroke patients. A comparison of the efficacy total effective rate highlighted a greater
+of acute stroke patients treated with advantage, which also indicates that the early
+conventional medication and stroke patients acceptance of comprehensive rehabilitation
+treated with conventional medication with therapy in acute stroke patients has a certain
+simultaneous intervention of rehabilitation degree of improvement in the improvement of
+therapy shows that timely rehabilitation of acute the neurological function of stroke patients. In
+stroke patients can reduce the risk of disability addition, the implementation of standard
+and improve the ability of stroke patients to take treatment measures and rehabilitation
+care of themselves in the subsequent period of physiotherapy programmes for acute stroke
+life. The results show that timely rehabilitation patients during the post-traumatic period can
+for acute stroke patients can reduce the risk of significantly reduce the morbidity and mortality
+disability and improve the ability of stroke rates of stroke patients, especially for the overall
+patients to take care of themselves. Comparative long-term recovery of the patients, which also
+studies have shown that a larger proportion of indicates that rehabilitation not only improves
+acute stroke patients who received early the recovery of some of the abilities of the acute
+rehabilitation regained the ability to walk stroke patients but also reduces the risk of some
+independently within the same period, whereas disabilities.
+96
+Current Research in Medical Sciences
+2.2.2 Effectiveness of Rehabilitation Therapy on combined with the special rehabilitation exercise
+Recovering Stroke Patients therapy can significantly improve the efficiency
+of walking, and effectively restore the stroke. It
+The recovery period of stroke patients also
+was concluded that the combination of
+occupies a relatively important position in the
+rehabilitation therapy and special rehabilitation
+whole treatment process. In the clinical study of
+exercise therapy could significantly improve the
+stroke recovery patients, some patients were
+walking efficiency and effectively restore the
+treated with conventional therapy. The other
+mobility of the patients in the post-stroke period.
+side was intervened with rehabilitation therapy
+Formal rehabilitation training for patients in the
+under the condition of stable condition. The
+post-stroke period has the effect of attenuating
+results showed that receiving rehabilitation
+the rate of functional deterioration to varying
+therapy in the recovery period from stroke had
+degrees. In the process of rehabilitation training
+an outstanding improvement in the ability to
+in the late stage of stroke, the condition is
+reduce the degree of neurological damage. T
+relatively stable in the late stage, and the use of
+patients who the same application of
+effective medical resources such as in the
+rehabilitation therapy training is helpful for the
+community and at home can be accompanied by
+formation of brain cells around the foci in the
+family members to carry out rehabilitation
+brain of the patients, and the new neural
+training, and the effect is more significant.
+pathways are better able to restore the patient’s
+neurological function. For the recovery of There are many deficiencies in the intervention
+cognitive, speech and motor functions in of rehabilitation therapy in stroke, and early
+patients recovering from stroke, corresponding rehabilitation therapy has a more prominent
+clinical studies have shown that the efficacy of impact on the recovery outcome of stroke
+systematic rehabilitation therapy has a positive patients. However, there still exists the
+impact on these aspects. Rehabilitation therapy phenomenon that rehabilitation therapy is not
+in the collaborative treatment of patients sufficiently intervened, which causes many
+recovering from stroke is not an important stroke patients to miss the best time for recovery
+means, there are many breakthroughs and and slows down their recovery process.
+research based on the existing rehabilitation
+3. Reasons for Limitation of Rehabilitation
+extended care combined with spasmolytic
+Intervention in Stroke
+formula can effectively improve the function of
+Rehabilitation therapy is becoming more and
+the patient’s upper limbs, so that the efficacy of
+more important for the recovery of stroke
+rehabilitation is greatly improved, this type of
+patients, aiming at restoring their functional
+method of recovery of the body function of
+deficits and improving their quality of life.
+stroke patients is a more prominent
+However, there are several limitations in the
+improvement.
+intervention of rehabilitation therapy in stroke
+2.2.3 Effectiveness of Rehabilitation Therapy for
+that lead to the inadequacy of the intervention of
+Stroke Patients in the Post-Stroke Period
+rehabilitation therapy in stroke, and there are
+After the onset of stroke patients do not receive many aspects that need to be broken through.
+timely and effective follow-up of appropriate
+3.1 Rehabilitation Intervention in Stroke Is Limited
+rehabilitation programmes, which may cause
+by the Wishes of Stroke Patients and Family Support
+some patients to enter the post-stroke period,
+As most of the strokes are of sudden onset, the
+these patients need a longer recovery process,
+phenomenon of not actively participating in the
+the rehabilitation therapy as an auxiliary
+treatment during the stroke treatment process
+treatment method is more effective. Existing
+directly leads to poor results.
+research divided the patients with stroke in the
+sequelae stage into two groups, both groups of The wishes of stroke patients are particularly
+patients received medication and rehabilitation important. On the one hand, stroke patients
+training, one group added specific rehabilitation need to undergo a series of long-term training
+therapies based on which to maintain the and exercises in the course of rehabilitation, and
+consistency of the training time and frequency may be reluctant to continue the treatment due
+of the two groups and assessed the mobility, to psychological fear or pain, at the same time,
+range of motion, and speed of movement of the they may have psychological problems of loss of
+lower limbs of the patients in the later stage to confidence, believing that the rehabilitation can’t
+conclude that the rehabilitation therapy bring about significant improvement, thus
+97
+Current Research in Medical Sciences
+limiting the effect of rehabilitation treatment. On equipment and technology still need to be
+the other hand, the rehabilitation process may improved, which cannot fully simulate the brain
+be arduous and time-consuming, and stroke activity, limiting the presentation of the
+patients may lack the motivation to continue rehabilitation effect, and the evaluation indexes
+during the recovery period, thus losing their of the level of science and technology of
+willingness to be treated. Tedious rehabilitation rehabilitation intervention in stroke in the
+training may not be able to achieve much effect, existing medical system are not clear, which
+but two-way interaction, motivation and other need to be standardised to strengthen the
+behaviours can, to a certain extent, help stroke provision of individualised rehabilitation
+patients’ self-affirmation and help them therapy for each stroke patient.
+overcome negative emotions and difficulties in
+Monitoring during rehabilitation is an important
+the process of rehabilitation, which is beneficial
+means of assessing the effect of rehabilitation
+to the recovery of the disease, but we must also
+and adjusting the treatment plan. However, at
+keep the training in phases to keep up with our
+this stage, there is no clear consensus on the
+strengths, and not to seek for quicker and
+optimal start time and duration of rehabilitation
+quicker training.
+intervention in stroke. For example, although
+Family support is likewise an indispensable early rehabilitation has a positive impact on
+factor in the recovery process of rehabilitation improving the speed of recovery of limb motor
+therapy. However, some families may not function in stroke patients, its correlation with
+believe that rehabilitation can bring significant functional prognosis needs to be further
+results, and many stroke patients and their investigated. At the same time, the optimal
+family members lack awareness of the intensity or “dosage” of rehabilitation
+importance of rehabilitation, have a negative intervention in stroke is still unclear, and the
+attitude or lack of understanding of the monitoring and evaluation of the process of
+intervention of rehabilitation in stroke, and thus rehabilitation intervention in stroke by medical
+do not have much positive support for the institutions is not comprehensive and systematic
+treatment process. Rehabilitation requires the enough, and the emergence of inaccurate data
+cooperation of both the stroke patient and indexes makes it difficult to accurately assess
+family members, including assistance in daily and adjust the effects of rehabilitation therapy.
+life and supervision of exercises, etc., and the There are also unregulated organisations that
+absence of either party may lead to difficulties in usually claim to have professional standards,
+the recovery process. but in reality, there are unpredictable risks.
+Some patients do not have enough trust in this
+3.2 Rehabilitation Therapy Faces Limitations in the
+type of organisation, making it difficult to
+Development of Stroke in Terms of the Level of
+distinguish which organisations are reliable and
+Science and Technology and Process Monitoring
+qualified, which makes patients feel confused
+Domestic rehabilitation therapy technology has
+and uneasy when choosing a rehabilitation
+made a certain degree of progress, but there are
+treatment for stroke.
+still breakthroughs to be made on the original
+3.3 Rehabilitation Intervention in Stroke Faces a Lack
+basis. For example, the methods and means of
+of Medical Resources
+rehabilitation therapy are still relatively single
+and lack personalisation. Rehabilitation China’s investment in the field of stroke
+treatments for stroke include things like rehabilitation therapy is still relatively
+rehabilitation training, neural stem cell therapy, insufficient, and medical resources are not
+and endoscopic surgery, but the efficacy of these enough to meet the needs of stroke patients. The
+treatments has yet to form a unified consensus treatment facilities required for rehabilitation
+in clinical practice, causing problems for stroke therapy directly affect the rehabilitation effect of
+patients in their choices. They also fail to meet stroke patients, however, in many areas, the
+the rehabilitation needs of different patients at rehabilitation treatment facilities are relatively
+different stages of their lives. Each stroke lagging, and the lack of facilities is one of the
+patient’s condition is different, and thus a main manifestations of the insufficiency of
+personalised plan needs to be developed medical resources, and at present the medical
+according to the patient’s condition and resources are mainly concentrated in the
+individual differences. However, in some relatively well-developed big cities, while the
+medical institutions, the existing rehabilitation rural areas and some underdeveloped areas are
+98
+Current Research in Medical Sciences
+lacking in a certain amount of medical is currently a general shortage of these
+equipment and professionals, which makes the personnel, who help stroke patients improve
+local stroke patients not able to get rehabilitation their physical function through rehabilitation
+therapy in a timely and effective manner. This techniques and daily training. However, due to
+unbalanced development has prevented early the current situation of a lack of rehabilitation
+rehabilitation from being adequately therapists practising in the country, the demand
+implemented, and many stroke patients have is high, the number of hospitals and other
+missed the best time for recovery, slowing down rehabilitation treatment institutions has been
+their rehabilitation process. increasing in the last two decades, and the
+number of institutions in need of rehabilitation
+Rehabilitation therapy requires comprehensive
+therapists has also increased as much as the
+intervention by a professional medical team,
+number of demand for rehabilitation therapists
+including rehabilitation physicians,
+has increased, the supply exceeds the demand
+rehabilitation therapists, rehabilitation nurses,
+resulting in the difficulty in meeting the demand
+etc. The lack of professionals restricts the
+for rehabilitation treatment of stroke, and many
+promotion and development of rehabilitation
+stroke patients are unable to get the services and
+therapy. Rehabilitation physicians, rehabilitation
+guidance of specific rehabilitation therapists
+therapists, and rehabilitation nurses are
+promptly.
+important components that form a triad and are
+indispensable in rehabilitation therapy, but there
+Number of hospitals Number of rehabilitation therapists up
+Level of hospital
+(number) to standard (number)
+Level III hospitals 821 442
+Level II hospitals 6765 1588
+Rehabilitation centres 87 87
+Total
+2002
+Number of hospitals Number of rehabilitation therapists up
+Level of hospital
+(number) to standard (number)
+Level III hospitals 821 656-738
+Level II hospitals 6765 5462-6089
+Rehabilitation centres 87 87
+Total
+2005
+Type of Institution Level Number (No.)
+Level III hospitals 1284
+Level II hospitals 6472
+Rehabilitation centres 268
+Social Health Service Centres 10100
+Total
+2010
+99
+Current Research in Medical Sciences
+Type of Institution Level Number (No.)
+Level III hospitals 2996
+Level II hospitals 10404
+Rehabilitation centres 739
+Social Health Service Centres 35365
+Total
+2020
+Rehabilitation medical equipment used by patients but also has an unintended policy
+rehabilitation therapists also has a certain impact on the development of the relevant
+impact on the recovery of stroke patients. departments in the healthcare organisations.
+Insufficient investment in medical resources has
+3.4 Rehabilitation Therapy Is Generally Limited in
+affected the inability of many medical
+Terms of Long-Term Outcomes in Stroke
+institutions to supply adequate rehabilitation
+Rehabilitation therapy aims to improve the
+equipment, which has seriously constrained the
+quality of life and functional recovery of stroke
+development of rehabilitation therapy. Many
+patients, and the continuity and effectiveness of
+slower-developing hospitals also face the
+rehabilitation therapy need to be fully reflected,
+problem of insufficient beds, however, the
+unsatisfactory long-term results require further
+rehabilitation of stroke patients takes a long time,
+research to explore how to optimise the
+and the relative lack of beds in medical
+treatment plan. In conclusion, rehabilitation
+resources makes it impossible to carry out
+therapy in the development of stroke is faced
+rehabilitation treatment smoothly.
+with the limitations of patients’ wishes and
+The health insurance system for rehabilitation
+family support, insufficient medical resources
+also has some shortcomings and challenges.
+and professionals, lack of early intervention,
+After some reforms and adjustments were made
+difficulties in personalisation, incomplete
+to the health insurance system for stroke
+monitoring, limitations in the level of science
+rehabilitation treatment in recent years, more
+and technology, and unsatisfactory long-term
+stroke patients flowed to primary hospitals,
+results.
+which optimised the allocation of healthcare
+To improve the rehabilitation effect of stroke
+resources, and the increase in the length of
+patients, we need to strengthen the investment
+hospitalisation of stroke patients made it
+in rehabilitation treatment, improve the
+possible to meet the demand for rehabilitation
+allocation of medical resources, the rational use
+treatment. However, this has also led to an
+of health insurance funds, increase the
+increasing trend in hospitalisation costs and
+proportion of early rehabilitation intervention in
+out-of-pocket expenses, a lower reimbursement
+stroke, strengthen the implementation of
+rate within the domestic health insurance
+personalised treatment for stroke patients,
+coverage, and a heavier financial burden for
+improve the monitoring and evaluation of the
+stroke patients.
+entire rehabilitation process, and explore more
+On the other hand, there are some problems
+personalised and targeted treatment methods.
+with the application of the health insurance
+Strengthen the publicity and education of
+system to stroke inpatients in rehabilitation
+rehabilitation intervention in stroke, and
+departments. For example, for stroke patients
+increase the awareness and participation of
+who need rehabilitation treatment in the late
+stroke patients and their families in this
+stage of acute treatment, the payment method
+treatment programme. To achieve a better
+according to Disease Diagnosis-Related
+long-term effect of rehabilitation intervention in
+Grouping (DRG)/per diem implemented at this
+stroke, it is also necessary to further carry out
+stage is not appropriate, which leads to some
+relevant research to understand the mechanism
+patients being forced to be discharged early or
+and method of rehabilitation intervention in
+transferred to other hospitals for many times,
+stroke, to provide better support and guidance
+which not only affects the normal course of
+for the rehabilitation of stroke patients.
+treatment and the experience of the stroke
+100
+Current Research in Medical Sciences
+4. The Value and Function of Rehabilitation rehabilitation can play an important role in the
+Therapy in Stroke psychological aspect. Stroke patients often fall
+into psychological difficulties because of
+4.1 Rehabilitation Therapy Effectively Promotes the
+physical dysfunction and reduced living ability.
+Recovery of Various Functions of Stroke Patients
+Rehabilitation therapy can not only help stroke
+Stroke patients often suffer from a series of
+patients restore physical function but also
+neurological dysfunctions such as unclear
+provide psychological support and counselling
+speech, dysphagia, muscle weakness, sensory
+to help stroke patients cope with these
+abnormalities, motor incoordination and so on
+challenges. At the macro level, in these respects
+due to brain damage, and rehabilitation therapy
+rehabilitation therapy intervenes in stroke as a
+has an outstanding effect on the recovery of
+systematic and comprehensive medical
+these dysfunctions. For stroke patients with
+treatment, highlighting its value as an adjunctive
+unclear speech and swallowing difficulties,
+treatment. Rehabilitation therapy provides
+rehabilitation therapy can effectively improve
+comprehensive support for the full recovery of
+the speech ability of stroke patients through
+stroke patients, helping them to recover
+specialised articulation training, language
+functionally and improve their quality of life,
+comprehension and other speech training; after
+giving them more hope for recovery, and thus
+targeted swallowing training, the swallowing
+achieving the best possible rehabilitation
+ability of stroke patients is also significantly
+outcome.
+improved, and the risk of swallowing aspiration
+4.3 Rehabilitation Therapy Is Specifically Designed
+is reduced. Rehabilitation therapy helps stroke
+to Optimise the Allocation of Social Medical
+patients with limb motor dysfunction to
+Resources for Stroke Patients
+undergo a series of physical training to promote
+motor recovery of damaged muscles. Balance Due to the limited nature of social medical
+training and coordination training for stroke resources, stroke patients often face a lack of
+patients can improve the plasticity of the resources. Rehabilitation therapy is a key link in
+nervous system of stroke patients and promote the recovery of stroke patients, which plays an
+the reconnection of damaged areas. These optimising role in the rational allocation of
+training tools help stroke patients to actively social medical resources needed by stroke
+face the difficulties in the rehabilitation process, patients, and promotes the recovery of patients’
+and improve the motivation and persistence of physical functions and the reconstruction of
+treatment so that they can regain the self-care their social roles. This important means of
+ability of daily life and the subsequent quality of rehabilitation therapy improves the utilisation of
+life of stroke patients can be improved. social medical resources to a certain extent, and
+by rationally arranging the process and time of
+4.2 Rehabilitation Is an Important Adjunct to Stroke
+rehabilitation therapy, hospitals can make better
+Recovery
+use of beds and medical equipment to provide
+Early intervention of rehabilitation therapy in
+medical equipment for other patients, thus
+stroke can minimise complications such as
+promoting the high-quality development of
+muscle atrophy, joint stiffness and disability.
+rehabilitation medical services and meeting the
+Early intervention in rehabilitation usually
+diversified and differentiated needs of the
+begins as soon as the stroke patient’s condition is
+masses for rehabilitation medical services.
+stabilised, and in some cases even while the
+4.4 Rehabilitation Therapy Intervention in Stroke
+stroke patient is still in the intensive care unit.
+Promotes the Improvement of the Rehabilitation
+Rehabilitation therapists develop an
+Treatment System
+individualised treatment plan that is tailored to
+the specific needs of the stroke patient. Through The refinement of the technical level of
+the use of various methods of physiotherapy, rehabilitation therapy promotes the
+functional restoration and assistive devices, improvement of the rehabilitation therapy
+comprehensive rehabilitation interventions are system, and the virtual reality technology
+carried out for stroke patients. Rehabilitation provides different treatment effects from the
+goal-setting, rehabilitation assessment, usual ones, such as some gradual intelligence:
+rehabilitation training and rehabilitation dynamic orthosis, virtual reality technology,
+education are all essential aspects of intelligent rehabilitation machine, etc., which
+rehabilitation treatment. In addition, greatly improves the effect and efficiency of the
+101
+Current Research in Medical Sciences
+rehabilitation therapy. Divani AA, Vazquez G, Barrett AM, et al. (2009).
+Risk factors associated with injury
+The construction of rehabilitation therapy
+attributable to falling among elderly
+disciplines and the increase in teaching power
+population with history of stroke. Stroke,
+have improved the professional level and
+40(10), 3286-92.
+professional quality of the whole industry. The
+intervention of rehabilitation therapy in stroke Feng Bizhen, Zheng Qinfu, Chen Daoqing et al.
+has promoted the research in the field of (2023). The impact and effect of health
+rehabilitation therapy, including the research on insurance system reform on stroke
+the effectiveness of rehabilitation therapy and rehabilitation. Health Soft Science, 37(08), 6-9.
+the research on new treatment methods, etc.,
+Fu Chunfeng. (2019). The effect of early
+which provides stroke patients with more
+comprehensive rehabilitation therapy on
+comprehensive and effective rehabilitation
+functional reconstruction of acute stroke
+therapy and thus improves the rehabilitation
+patients. Chinese Contemporary Medicine,
+therapy system.
+26(22), 65-68.
+Reasonable and effective strengthening of
+Fu Yan, Yao Xugao. (2014). Effect analysis of
+cooperation and coordination between medical
+progressive rehabilitation nursing in limb
+institutions, close cooperation between multiple
+function rehabilitation of stroke patients.
+disciplines to form a comprehensive
+Journal of Guiyang College of Traditional
+rehabilitation treatment model, the
+Chinese Medicine, 36(03), 96-98.
+establishment of a professional network for
+Gao Chunhua, Huang Jie, Wang Shengqiang et
+stroke rehabilitation treatment, the formation of
+al. (2014). Effect of early integrated
+a rehabilitation service network with wider
+rehabilitation on functional reconstruction
+coverage from the rehabilitation departments of
+in acute stroke patients. Neurological Injury
+large general hospitals to community
+and Functional Reconstruction, 9(05), 408-410.
+rehabilitation centres, and the promotion of
+information sharing between medical Gao Juntai, Yan Chunlu, Yu Xiaoying et al.
+institutions. (2023). Clinical study on functional
+rehabilitation of ischaemic stroke patients
+Rehabilitation therapy has multiple advantages
+with combined rehabilitation therapy of
+in the clinical application of intervention in
+Chinese and Western medicine. Journal of
+stroke patients. At this stage, the degree of
+Shaanxi University of Traditional Chinese
+rehabilitation therapy intervention in stroke
+Medicine, 46(03), 81-86.
+needs to be improved, and we should fully
+DOI:10.13424/j.cnki.jsctcm.2023.03.016.
+recognise the effective level of recovery of
+rehabilitation therapy intervention in stroke Huang Santao. (2016). The effect of
+patients, continue to fight to break through the psychological care combined with motor
+restricted conditions, and spare no effort to function rehabilitation therapy on
+support and promote this important medical neurological function recovery of
+service. hemiplegic patients with stroke.
+Contemporary Nurses (Upper Ten Journal), (10),
+References
+136-137.
+Chen Hongxia, Guo Youhua, Xie Renming, et al.
+Huang XM, Zhang MX, Shi YH et al. (2015).
+(2010). Effects of rehabilitation combined
+Analysis of the current status of early
+with qi benefit method on neurological
+rehabilitation treatment after stroke. China
+function, motor function and activities of
+Health Standard Management, 6(20), 31-33.
+daily living in patients with ischaemic
+stroke with qi deficiency. New Chinese Huang Ying. (2020). Discussion on the clinical
+Medicine, 42(10), 13-15. efficacy of early comprehensive
+DOI:10.13457/j.cnki.jncm.2010.10.008. rehabilitation for acute stroke. Medical Food
+Therapy and Health, 18(24), 227-228.
+Ding Xuehui, Hu Xinyu. (2023). Clinical effect of
+general acupuncture combined with Jin Pretty, Huang Qian. (2006). Clinical research
+Chinese medicine rehabilitation training in on early comprehensive rehabilitation
+the treatment of dysphagia after ischaemic treatment of acute stroke patients. Chinese
+stroke. Chinese MedicineGuide, 21(18), 57-60. Journal of Modern Medicine, (22), 3444-3446.
+DOI:10.15912/j.cnki.gocm.2023.18.028.
+102
+Current Research in Medical Sciences
+LI Jingbin, CUI Xianghong, TONG Mingjie et al. formula on spastic upper limbs of patients
+(2024). Progress of rehabilitation treatment recovering from stroke. Modern Medicine and
+for hand dysfunction after stroke. Chinese Health Research Electronic Journal, 6(17),
+Convalescent Medicine, 33(02), 54-58. 123-125.
+DOI:10.13517/j.cnki.ccm.2024.02.011.
+Qiu W-Ran, Xu H-M, Shen W et al. (2022). An
+LIN Hao, ZHU Qingbin, NI Xiaojia et al. (2018). overview of the evaluation of the
+A systematic evaluation of Chinese superiority of Chinese medicine in the
+guidelines on stroke prevention and treatment of ischaemic stroke. Chinese
+treatment by neurovascular surgery. Chinese Journal of Experimental Formulary, 28(12),
+Journal of Cerebrovascular Disease, 15(04), 225-232. DOI:10.13422/j.cnki.syfjx.20221238.
+169-176.
+Rao Mingli. (2006). Abstract of the Chinese
+Liu Qiuju, Yang WB, Sheng Xueping et al. (2010). Guidelines for the Prevention and
+Clinical observation on functional Treatment of Cerebrovascular Disease (III).
+rehabilitation of haemorrhagic stroke Journal of Stroke and Neurological Diseases,
+patients treated with a combination of (01), 4-8.
+Chinese and Western medicine. Journal of
+Shang Min, Wang Yufeng, Yang Fengmei. (2014).
+Gansu College of Traditional Chinese Medicine,
+Effects of systematic rehabilitation on
+27(03), 32-35.
+cognitive function, motor function and
+Liu Songchan, Kou Qixing, Sun Gen et al. (2023). quality of life of patients recovering from
+Clinical effect study of Chinese acupuncture stroke. Chinese Journal of Gerontology, 34(23),
+and moxibustion rehabilitation for patients 6551-6553.
+with limb dysfunction in stroke. Clinical
+Sun Guanghua. (2016). Research on the effect of
+Medical Engineering, 30(05), 629-630.
+staged comprehensive rehabilitation
+Liu Zhimei. (2018). Research on the clinical therapy on the neurological function of
+efficacy of early intensive rehabilitation stroke patients. Electronic Journal of Clinical
+therapy assisted by regulating and Medicine Literature, 3(49), 9677-9678.
+dredging liver and collateral soup on DOI:10.16281/j.cnki.jocml.2016.49.001.
+post-stroke depression. Chinese Community
+The Collaborative Group of the Comprehensive
+Physician, 34(21), 92+94.
+Standardised Clinical (Internal Medicine)
+Lu Didi. (2019). Analysis of the current situation Diagnosis and Treatment Research
+and demand of practitioners in Programme for Stroke. (2005). Standardised
+rehabilitation institutions. China treatment of acute stroke significantly
+Rehabilitation Theory and Practice, 25(07), reduces in-hospital mortality. Chinese
+859-864. Journal of Neurology, (01), 20-24.
+Lu Dongying. (2017). Clinical application effect Time. (2016). Analysis of clinical efficacy of 36
+of rehabilitation therapy in the cases of stroke disease treated with Chinese
+rehabilitation of stroke patients. Journal of and Western medicine combined
+Practical Clinical Medicine, 21(04), 175-177. rehabilitation methods. World Digest of
+Latest Medical Information, 16(17), 151.
+Lun Yixi, Wang Qiang, Mao Yong et al. (2023).
+The effect of motor imagery therapy on WANG Biru, ZHOU Sweet, LIAO Weijing.
+lower limb motor function of stroke patients (2021). Progress in the application of virtual
+in the postictal stage. Chinese Journal of reality technology in the rehabilitation of
+Physical Medicine and Rehabilitation, 45(02), stroke patients. China Rehabilitation, 36(12),
+131-133. 765-768.
+Luo Hongqiu, Gao Yuanjie et al. (2015). Effects Xia Fan, Luo Yang. (2022). Effect of acupuncture
+of early rehabilitation on neurological with rehabilitation therapy on functional
+function and cerebral haemodynamics in recovery of early stroke patients. Bright
+acute stroke patients. Chinese Journal of Chinese Medicine, 37(19), 3561-3563.
+Practical Neurological Diseases, 18(20), 74-75.
+Xie Xiaoleng, Zhang Cuixiang, Sun Ying. (2003).
+Lv Qin, Wang Heqiang, Chen Bing et al. (2022). Effects of early rehabilitation on
+The effect of rehabilitation extended care neurological deficits and ADL during stroke
+combined with soothing and antispasmodic recovery. Zhongguo Nation Health Medicine,
+103
+Current Research in Medical Sciences
+(11), 650-652.
+Xue Dongxia, Li Jin. (2021). Effects of
+synchronous health education of ultra-early
+rehabilitation training on the prevention of
+complications and functional recovery after
+ischaemic stroke. Disease Surveillance and
+Control, 15(06), 473-474+483.
+DOI:10.19891/j.issn1673-9388.(2021)06-0473-
+03.
+Zhang H. (2022). Analysis of the improvement
+effect of comprehensive rehabilitation
+therapy on motor function of hemiplegic
+patients with stroke. Electronic Journal of
+Modern Medicine and Health Research, 6(10),
+10-13.
+ZHANG Xiuping, HAO Chunyan, ZHAO Huili.
+(2006). Effects of rehabilitation on daily
+living activities of elderly patients with
+post-stroke sequelae. Chinese Journal of
+Gerontology, (08), 1136.
+Zhang Yuqing, Gao Jingjing, Cui Xiuzhen et al.
+(2018). Improvement effect of graded
+rehabilitation on swallowing function in
+stroke patients. Biped and Health Care, 27(16),
+43-44.
+DOI:10.19589/j.cnki.issn1004-6569.2018.16.0
+43.
+Zhuo Dahong. (2004). Analysis of some issues
+on the reform and development of
+rehabilitation therapy technology education
+in China. Chinese Journal of Rehabilitation
+Medicine, (06), 6-10.
+104

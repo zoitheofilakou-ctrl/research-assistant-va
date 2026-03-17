@@ -1,0 +1,580 @@
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+“It all ends too soon” - Exploring stroke survivors and physiotherapists perspectives on
+stroke rehabilitation and the role of technology for promoting access to rehabilitation
+in the community
+Faux-Nightingale, A., Philp, F., Leone, E., Helliwell, B., and Pandyan, A.
+Abstract
+INTRODUCTION: Many stroke survivors do not receive the optimal levels of personalised therapy
+needed to support their recovery. Rehabilitation technology could offer a means to provide
+personalised guidance to stroke survivors struggling to access rehabilitation through other means.
+AIMS: The aim of this study was to explore stroke survivor and therapist experiences of stroke
+rehabilitation post discharge into the community and their thoughts about the potential use of
+markerless, 3D motion capture technology which could support rehabilitation, to contribute towards
+a better understanding of how technology can support stroke rehabilitation.
+METHODS: Focus groups and interviews were conducted with stroke survivors and therapists and
+the transcripts analysed using thematic analysis.
+RESULTS: Six themes were identified across the data: access and continuity of care for stroke
+survivors in the community, stroke survivor confusion and lack of education impacting service
+navigation and ability to access rehabilitation services, stroke survivor access to non-NHS/private
+facilities, impact of Covid on stroke services, potential use of technology to support post-stroke
+rehabilitation in the community and, stroke survivors’ willingness to try new technology.
+CONCLUSIONS: Stroke survivors and therapists identified problems with stroke survivors accessing
+rehabilitation services but were positive about the potential for technology to support stroke
+rehabilitation.
+Introduction
+Stroke is a leading cause of long-term disability, often resulting in a combination of sensory-motor,
+communication, visual, and cognitive symptoms1. While some survivors recover, many remain with
+considerable levels of disability after stroke1 and residual deficits that can deteriorate post-discharge
+from care2. These disabilities can impact on stroke survivors’ quality of life and can limit their ability
+to reintegrate into society or return to employment. To maximise a patient’s chances of recovering
+to their full potential, they need access to services which provide information and feedback about
+lifestyle, risk factor modification and therapy to address the impairments which are resultant from
+the stroke. A minimum dosage of therapy has been suggested, with a typical stroke patient
+recommended to receive 45 minutes of rehabilitation, five days a week3. However, this is rarely
+provided or made accessible for patients4-6 and stroke survivors experience difficulties in adequately
+accessing rehabilitation services following discharge4, 7-10. Furthermore, time spent in therapy is not a
+sufficient metric for addressing impairments. Stroke survivors need time and correct information or
+feedback for their individual situation, otherwise there is a risk that they will not benefit.
+Reduced access to effective rehabilitation services is likely to have long term effects on the stroke
+survivor as any gains can decay if access to services is restricted for a period of time. This can be
+further associated with poor recovery profiles and readmissions6. Services in the community can be
+difficult to access for discharged stroke survivors and in some cases are not present in local
+communities. Furthermore, patient perceptions of when they are ready to be discharged from the
+NOTE: This preprint reports new research that has not been certified by peer review and should not be used to guide clinical practice.
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+service may well be different from the threshold levels for end point of care. Removal of necessary
+support systems when they are still needed may well lead to deterioration and need for additional
+support further down the line.
+Technology can be used to support rehabilitation for stroke survivors. Studies investigating the
+potential use of telerehabilitation or technology for stroke rehabilitation have been positive, see
+table 1.
+Table 1 – Summary of the impact of technology in stroke rehabilitation
+Benefit Source References
+Improvements to stroke survivor health, & wellbeing 11
+Improved rehabilitation outcomes 12, 13
+Greater autonomy and control for stroke survivors over their therapy 5, 6, 14-16
+Provision of some structure and purpose to life following discharge 17
+Technology increased long term access to services not otherwise available 11, 13, 18, 19
+Improved the information provided to stroke survivors 18
+Increased survivor sense of connection with the healthcare 6
+Increased motivation and adherence 6, 15, 18
+Secondary health benefits – early identification of other health conditions 11
+Although these forms of technology support stroke survivors, they limit the stroke survivor to only
+being able to progress with knowledge from external therapists. Currently there isn’t a facility that
+stroke survivors can use independently at home that offers a personalised service which supports
+the user with effective rehabilitation through an exercise programme, assessment of ability, monitor
+incremental improvement, and guide effective rehabilitation by providing feedback about
+knowledge or performance. Technology which contributes to knowledge of performance and result
+could support stroke survivors in carrying out meaningful independent rehabilitation and could
+supplement or support more traditional forms of therapy, increasing the amount of time available
+for stroke rehabilitation and leading to better outcome measures.
+The VARE (Virtual Assessment and REhabilitation in Stroke) project is investigating the potential for
+interactive, personalised technology to support stroke survivors as they carry out rehabilitative
+exercises at home, alone or assisted by a carer. Using depth sensors for markerless, 3D motion
+capture, it may possible to accurately measure and assess user movements, provide personalised
+guidance and feedback in real time, and monitor incremental progression over time. Whilst not
+appropriate for all stroke survivors due to cognitive or severe physical disability, systems like this
+could benefit individuals who want additional support by providing individualised guidance and
+exercises. In addition to the physical benefits for stroke survivors, who could access therapy over a
+longer timeframe, this could also benefit both the healthcare services by reducing costs associated
+with inpatient care. The recent Covid-19 pandemic has significantly impacted stroke rehabilitation
+and its means of administration, restricting many in-person services and causing a surge in uptake of
+technology in all areas of healthcare20, making it an opportune time to consider further integration
+of technology into rehabilitative therapy to provide care which has been further stretched due to
+Covid-19.
+The aim of this study was to 1) better understand the experiences of stroke survivors and therapists
+with stroke rehabilitation in the community, 2) investigate the needs of stroke survivors who are
+currently unable to benefit from available technology and 3) to explore their thoughts about the
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+potential use of markerless, 3D motion capture technology to support rehabilitation. This will
+contribute towards a better understanding of how technology could be developed to support stroke
+survivors and therapists in the future.
+Methods
+UK stroke survivors and therapists were invited to focus groups using mailing lists from either
+professional societies (ACPIN) or a stroke specialist therapy centre (ARNI). Participants were asked to
+talk about their experiences of post-stroke rehabilitation and their thoughts about potential
+technology to support them in this area. Participants were either 1) people with a previous stroke
+who had experienced rehabilitation in the community and who could clearly communicate about
+their experiences or 2) therapists with an interest in stroke.
+Focus groups were made up of either physiotherapists or stroke survivors and included up to five
+participants at a time. The longest was an hour and a half. Focus groups were hosted virtually and
+were conducted by two members of the research team, with one clinical (AP), and one non-clinical
+(AFN) representative. Participants who couldn’t attend the focus group were given the opportunity
+to participate via an interview. All encounters with participants were audio recorded, and
+anonymised transcripts were produced.
+A thematic analysis was carried out by two members of the research team, one clinical (EL) and one
+non-clinical (AFN), following the guidelines laid out by Braun & Clarke21. Reflexive practices were
+built into the analysis process with both authors considering how their experiences and disciplinary
+knowledge affected their interpretation of the data. Codes were generated by the non-clinical
+author and were verified with the other authors. Themes and subthemes were generated iteratively
+by both researchers separately according to relevance to the research questions, and then were
+combined and refined by both researchers. Themes were further refined by all authors with regular
+revisiting of the data to confirm understanding and ensure that the analysis accurately represented
+participants’ experiences.
+Analysis
+Participants
+In total, ten stroke survivors took part in the stroke survivor focus groups (seven women, three
+men), and five therapists (all women, all physiotherapists working for the NHS in either acute
+neurorehabilitation roles or community stroke services, 3 specialist, 1 advanced) took part in the
+therapist focus groups. One participant participated through a phone interview, although this was
+not recorded, notes were taken during the interview to support analysis.
+One participant with language impairments participated with their carer, who sometimes spoke on
+their behalf.
+Findings
+Six themes were identified across the stroke survivor and therapist focus groups:
+• Access and continuity of care for stroke survivors in the community
+• Stroke survivor confusion and lack of education impacting service navigation and ability to
+access rehabilitation services
+• Stroke survivor access to non-NHS/private facilities
+• Impact of Covid on stroke services
+• Potential use of technology to support post-stroke rehabilitation in the community
+• Stroke survivors’ willingness to try new technology
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+Access and continuity of care for stroke survivors in the community
+All of the focus groups discussed the provision of services in the community, and community-based
+care was often compared to the facilities present in hospital or stroke-specific intermediate facility.
+Participants described positive experiences of stroke rehabilitation in the hospital, with regular,
+consistent therapy and rehabilitation.
+“And I was in hospital for three months. During that time, the physiotherapy that I got was extremely
+good. I was in every day, Monday to Friday, and the weekends I did my own thing”
+Stroke survivors described a big contrast between inpatient and community experiences, with many
+describing an inability to access sufficient care or rehabilitation after discharge. This was also raised
+by the therapists who discussed problems with transfer of care into the community. They described
+struggling to access follow up support when needed, particularly in areas where there were few
+community services, long waiting lists, strict entry criteria, or services being only available for fixed
+amounts of time with little to no flexibility to increase the amount of time accessed.
+The stroke survivors described feeling that they were not given enough support post-discharge from
+hospital and were unable to access needed care or rehabilitation, feeling left on their own once they
+were discharged. This was most frequently characterised through: support being delayed due to long
+waiting lists, an inability to access community services appropriate for individual needs (either
+through lack of referral, services not being available in their area, or referral to services that were
+not specific to stroke survivor needs), or as services cut off after a fixed number of weeks without
+assessment of individual need.
+“By the time I left hospital, I’d started walking with this good stick but when I got home the physical
+therapy went downhill. I was promised speech therapy but in the last three years I've had none.”
+“I think there's lots of people appreciate it all ends too soon. You know, I was on a quad stick and
+they were helping me to work to single point stick and then it was like, right we're gonna have to
+finish with you. I was like can you not carry on work with me ‘til I can just use a single point stick right
+now? Their parting shot was ‘you know what you need to do’”
+Lack of access was identified across both local private and NHS services, although the latter was
+more frequently referenced by stroke survivors and therapists as it was their main provider of stroke
+rehabilitation. The consequences of this perceived lack of support were prevalent with nearly all of
+the stroke survivors describing physical impacts to their conditions associated with the reduction of
+rehabilitation, and consequent searching for further support. Stroke survivors’ search for new
+services or information from other sources was often personally motivated and carried out online
+and through stroke support groups
+“I just keep looking on the internet to see whether there's anything that's come along. Either
+technology-wise or any otherwise to see what improvements can be made or what research is going
+on and you know, if there's something that I think that might be useful to me, then I'll join in with it.”
+Most stroke survivors mentioned wanting to do more to support themselves with their post-stroke
+rehabilitation but described limited access to community services due to lack of available facilities
+and difficulty travelling to the location. Participants described searching for stroke specific
+programmes, community programmes, alternative therapists/trainers specialised in stroke, or
+research projects that they could be part of to receive additional support or information about their
+conditions. These individuals expressed high levels of determination to support and rehabilitate
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+themselves as much as possible, despite many reporting that their therapists had said that they
+would not be able to progress further.
+“I think I find it interesting that everybody in this group has said that they want to progress more.
+They want to do more but there aren't the facilities.”
+“And after observing [Participant], the physio said there’s nothing he can do. OK, so he discharged
+him […] [Participant] is mobile now […] that’s all [Participant]’s doing.”
+They described their recovery journey in individual terms, emphasising the “hard work” that they
+had put in to support themselves either as personal practice or through support from non-therapist
+figures they had gone to see. Individuals also described the physical benefit of this individual work
+and were proud of the improvements which they saw as a result.
+The search for beneficial support or further information about how to improve personal condition
+was mentioned by every stroke survivor, but this individual work was guided by financial resources.
+Those who were financially able described attending local services, stroke specific facilities, or
+buying technology to support their development at home. However, many of the stroke survivors
+described limitations in the resources they could access due to cost. Many engaged in research
+projects to access therapy that they would be unable to afford otherwise with one participant
+explicitly mentioning four research projects that they had been part of (not including this study) and
+indicating that they had also participated in others, describing how these projects allowed them to
+engage with therapy that they would not have been able to otherwise access and the perceived
+benefits which came from the additional support.
+Stroke survivor confusion and lack of education impacting service navigation and ability to access
+rehabilitation services
+Despite individually searching for further services and resources, many stroke survivors described a
+lack of knowledge about their condition and how to navigate the healthcare system to access
+services. They expressed how they had experienced feelings of uncertainty and confusion due to a
+lack of accessible knowledge about their stroke, treatment options open to them, how their
+prescribed exercises were related to their stroke, and how these things might change in the future.
+This lack of education was attributed to staff not explaining their situation to them thoroughly:
+“Nobody ever really kind of explained that all to me and the purpose of these exercises. They'd say to
+this, do that, but nobody actually explained why we were doing it.”
+“I think it's changing now, but in hospital, they'd sort of tell you reached a plateau and what you
+didn't do in the first six months or so, you would never be able to do. […] So sometimes you come out
+of hospital with this belief that, or you finish your community physio with the belief that that's it.
+You're done. Now you won't go any further.”
+An element of this was suggested to be due to the clinicians’ language which some stroke survivors
+described as complex and difficult to understand. They perceived the knowledge about their
+condition to be inaccessible, leaving them feeling ostracised and unable to access the support and
+information they needed particularly at the point of discharge from hospital.
+“I don't have much movement in my arm, but nobody's really explained to me if there's anything I
+can do about it. I just wondered if it would be, sort of like this, just dangling down my side all my life,
+I don't know, and when you ask questions, they say ‘well try an orthotic of some sort’.”
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+A particular area of confusion for many pertained to the care pathways within the NHS and how to
+navigate the community services. Several participants discussed not understanding referrals or
+knowing how to access further services when needed, with no signposting or further information
+from therapists. They described feeling abandoned and frustrated because they felt that they had to
+manage the process alone and at a disadvantage because they were unaware of the processes to go
+through or whether they could ask for further help.
+“[The NHS] don't actually supply you with any information at all when you’re discharged. There
+ought to be some sort of support chain once you’re actually discharged, even if they just give you a
+few names and addresses, but there's nothing.”
+One individual described problems with their therapist and needing further support but being
+unaware of how to access it themselves. While they did eventually receive a referral to a stroke
+specialist clinic, they had been given the referral by a family member, not their GP, and so described
+their process as “a bit cheating” because they perceived that it would have been inaccessible
+without the family member’s intervention.
+Stroke survivor access to non-NHS/private facilities
+Private services were mentioned by both stroke survivors and therapists as an alternative option for
+rehabilitation post-discharge. While both acknowledged the presence of these alternatives, and
+many stroke survivors suggested that some private services were immensely beneficial for their
+development, there was a lot of discussion about whether these facilities were accessible to stroke
+survivors.
+Therapists said that they were aware of private options for stroke survivors but were not sure
+whether patients were able to access these services. Similarly, they were not sure if stroke survivors
+would have the equipment or skills to access digital or online services. Stroke survivors confirmed
+this in their focus groups. Private services were mentioned in all focus groups and those who used
+them mentioned benefitting from them. However, the groups described multiple factors which
+limited access to private services including: unequal distribution of services across the country,
+limited places on services, personal problems accessing services, and cost. Cost was the most
+mentioned barrier to accessing any stroke services. Several individuals described taking part in
+research projects specifically to access care that would otherwise be financially inaccessible, while
+others described using carers or more financially accessible support like gym instructors to access
+exercise prescription and support because they couldn’t afford the expense of private
+physiotherapy.
+Impact of Covid-19 on stroke services
+Both groups of participants discussed how the Covid-19 pandemic had limited access or provision of
+stroke services in the UK and made navigating the systems more difficult. Several stroke survivors
+said that the pandemic stopped therapists or support workers visiting their houses and noted that
+their physical progress had suffered because they hadn’t been able to have people working with
+them.
+“I found that I cannot do exercises on my own but if I have somebody there to help me, it's spurs me
+on to do more […] but then when the pandemic started, they said they couldn't do it again…”
+They described how private programmes had stopped or had introduced entry restrictions to comply
+with social distancing requirements which limited the amount of supported rehabilitation that was
+available. Therapists also mentioned that community services had been restricted, specifically
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+mentioning the national exercise referral scheme, and described how this led to increases in the
+amount of time that stroke survivors spent without access to therapist-led programmes.
+Therapists described how the pandemic had altered priorities in hospitals and how it had affected
+stroke survivor care. They said that the Covid pandemic had shifted the focus from rehabilitation to
+progressing patients so that they could be moved into community where they would be at lower risk
+of catching the virus.
+“Our main focus was shifted from rehab to just getting people out of the door”
+This shift in priority impacted stroke therapy and reduced the amount of time stroke survivors
+received with therapists. The therapists also discussed how the Covid restrictions meant that
+relatives could not visit stroke survivors in hospital which had an emotional impact on the families
+and made family/carer education difficult impacting patients’ transition into the home.
+While all participants agreed that Covid had been difficult, there were some positive elements
+attributed to it. Many stroke survivors said that the social distancing regulations had caused services
+to introduce virtual methods of provision and explained how this was beneficial for them as it
+allowed them to access services that they would not have been able to attend in person.
+“[…] Since Covid, obviously, that hasn't been able to happen, but I found lots of things online, so I
+actually think it's been a positive thing that people, organizations have been forced to use technology
+to deliver their services. My physio is based down near Northampton. I've never met them; it's all
+done online. That wouldn't have happened for me because where I am up in the North-West, there
+just isn't the services available.”
+Potential use of technology to support post-stroke rehabilitation in the community
+All participants were positive about the prospect of technology which could be used to support post-
+stroke rehabilitation in the community. Both stroke survivors and therapists thought that a
+telehealth-based system which could provide visual guidance and feedback for the stroke survivor,
+has the potential to be useful and beneficial for stroke survivors. In particular they were positive
+about being able to continue to receive personalised guidance and feedback about quality of
+movement when unable to attend or see physical therapists.
+“So I'm a great believer in technology and making technology work and I think for me I've made it
+work for me. Now organizations that are embracing technology in, according to environment, that's
+a really good thing and I hope it continues.”
+Participating therapists indicated that they thought that integration of technology into stroke
+rehabilitation was expected, a natural progression of healthcare, and could be ideal for a patient
+who needs to be discharged from a service but who would benefit from further therapy and who
+could manage exercises by themselves. They suggested that technology supporting data collection of
+assessment of survivors’ actions as they carried out exercises would be a beneficial attribute for
+both therapist and stroke survivor and would allow both to monitor progression over time. Having a
+record of development was raised as a potential motivator for stroke survivors and was thought
+likely to increase adherence.
+Stroke survivors suggested that technology would empower the users by educating them and their
+carers about the rehabilitation process so that they were better able to support themselves without
+needing a therapist to be physically present. They talked positively about the potential of being
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+supported to work independently and self-manage their rehabilitation rather than being a passive
+receiver limited to improvement only when they could access therapy through stroke services.
+Both stroke survivors and therapists had reservations about the inclusion of technology in post-
+stroke rehabilitation. Stroke survivors were concerned that technology would not provide the same
+level of tailored support that an in-person therapist would administer. This concern could be
+alleviated, they suggested, if the technology was monitored by a therapist. Therapists suggested that
+technology may not be accessible to all patients and that some survivors may have concerns about
+engaging with technology or may not have the equipment or skills to access technology-based
+therapy. They suggested that in general a younger cohort might be better able to use technology
+than an older cohort, and that it might be better for higher functioning patients and prove difficult
+for patients with cognitive issues or perceptual problems. Users would also have to be self-
+motivated to engage with it because there may not be another driving force to encourage them to
+interact with it. Stroke survivors also discussed the holistic elements of therapy, saying that also act
+as a point of social contact for individuals who can be lonely following discharge. Although the
+technology could empower survivors to control their own rehabilitation, many were concerned that
+use of the technology could result in emotional challenges due to fewer social interactions. Cost was
+raised as a significant barrier for uptake by both stroke survivors and therapists.
+Stroke survivor willingness to try new technology
+Despite their reservations, all stroke survivors suggested that they would be likely to try new stroke
+rehabilitation technology. However, it was apparent that this was associated with an inability to
+access other services.
+“If we have the app when we leave hospital, […] he can be engaged with physio straightaway rather
+than being left in fact for 2-3 years with nothing.”
+The stroke survivors were willing to try anything which had the potential to support them with their
+rehabilitation and appreciated technology which they could use independently as it would ensure
+that they had continuous, stroke-specific rehabilitation support post-discharge either while on
+waiting lists for services or otherwise unable to access support.
+Discussion
+This study aimed to document stroke survivors’ and therapists’ perceptions of stroke rehabilitation,
+with a view to better understanding whether markerless, 3D motion capture technology could
+support stroke rehabilitation at home. Six themes were developed from the data which identified
+difficulties that stroke survivors face accessing stroke rehabilitation and their thoughts about the
+prospect of incorporating technology into rehabilitative practice in the community.
+Developments in stroke services and interventions can benefit stroke survivors if they are able to
+access them at the right time, but they are not ubiquitous across the care pathway. The focus groups
+drew attention to the inability of stroke survivors to access sufficient rehabilitation and the
+consequent physical impact. Many participants described struggling to access further support when
+needed, either from limited services available in their area or due to difficulties navigating the
+healthcare system. While not explored in this study, this may well be worse for those with higher
+levels of disability or who have lower levels of support around them. Although, the participants here
+may be those who are more likely to engage with rehabilitation in general, the discussion highlighted
+that there are groups of stroke survivors who want to improve but who are not able to access
+facilities to support them in rehabilitation, a finding seen in other studies5 and highlighted how little
+has changed in stroke rehabilitation services since the National Stroke strategy was published in
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+200722. The stroke survivors in this study expressed a desire to improve and were willing to take
+personal responsibility for their rehabilitation but were unable to access appropriate support
+through their current pathways, which were predominantly NHS services. For those without
+additional funds or knowledge to access private services, research studies were the only way they
+could access guidance (and many benefited from this engagement). While not all survivors want
+additional therapy, it was clear in the focus groups that many stroke survivors felt they would
+benefit from further rehabilitation with integrated feedback, and that there are a number of stroke
+survivors who would like to be able to access this kind of rehabilitative support. For many of these
+individuals, technology could offer a good way to access additional, personal rehabilitation when
+they are ready to engage with it, even when discharged.
+A common discussion point raised by stroke survivors was a lack of knowledge about their condition,
+how to manage it, and how to access services and navigate the healthcare system. Stroke survivors
+often described not feeling like they received enough information about their situation and
+recounted problems accessing suitable services, suggesting that they felt cut off by not being able to
+navigate the healthcare system. Interestingly, those who had managed to access services alluded to
+feelings of guilt, perceiving themselves as ‘cheating’ when they accessed support through family or
+friends rather than through standard routes. A perceived lack of knowledge about strokes, and a
+desire for better provision of knowledge about the condition to be provided to stroke survivors upon
+discharge has been identified in earlier research23, 24. This study highlights the need for clinics to
+provide detailed, accessible knowledge to stroke survivors and to ensure that healthcare
+professionals have up-to-date knowledge about strokes and stroke services so that they are able to
+make accurate knowledge accessible to the patients and families they work with. It is likely that, the
+chronological point at which information is provided to patients and family/carers is equally
+important, given the readiness of patients to make sense of the information during the initial phases
+after the events of a stroke when they may have more pressing priorities at hand. The disconnection
+from healthcare services, driven by a lack of knowledge about access and navigation, is a novel
+finding which should be viewed with concern, as it could have more serious health connotations for
+individuals who may be missing out on necessary support. Markerless 3D motion capture technology
+could also potentially act as a point of later contact, ensuring that stroke survivors and their families
+are able to access information about rehabilitation and wider support services when they are ready
+to receive and engage with it, an unintended potential benefit. The ability to monitor incremental
+improvement could also support stroke survivors in tracking their developments and sharing their
+progress with others, and in identifying any problems which occur over time. Historic data could also
+support stroke survivors if they seek additional support, offering a quantitative assessment of their
+capabilities which can be used by therapists to assess their suitability against service thresholds.
+It is important that technology is accessible, easy to use, and meets user needs. Cognitive ability and
+capacity will influence the degree that any technology can be engaged with, but there are a wide
+range of factors that should also be considered as part of the development of the device. Of these,
+cost was regularly mentioned by stroke survivors and therapists in the focus groups, including cost of
+the technology, the device to host it, and the resources and internet infrastructure to support it,
+similarly identified in earlier studies 10, 25. Other elements that should be considered as part of the
+development of rehabilitation technology include the role that rehabilitation plays for stroke
+survivors and whether survivors will be safe to use the technology alone. In the focus groups stroke
+survivors suggested that therapy provided a social link beyond the health benefits, particularly
+where survivors were unable to access former socialising opportunities. This has been documented
+before10, and while socialising is not the primary function of rehabilitation, the impact of loss of
+social links can impact on survivors’ wellbeing and so should continue to be considered while
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+developing stroke services. Safety should also be considered and incorporated to ensure survivors
+are not at risk while exercising14. Current rehabilitation exercises consider what the stroke survivor
+will be able to do alone with minimal risk of harm and these thoughts should be integrated into
+technology, considering risk of falls and whether the survivor is alone or accompanied by a carer
+when presenting exercises to the user. Other elements to be considered include the need for the
+service to last beyond the usable life of the technological device it is hosted on. Technology is
+developing at an intense rate, so it is important to ensure that any system built for stroke
+rehabilitation is integrative with other services and can remain useful or not made redundant as
+technology develops. A model with integrated updates for developing hardware will ensure that the
+technology remains relevant and useful for stroke survivors into the future. Wherever possible,
+effort should be made to utilise the most affordable and accessible materials possible to minimise
+potential users from being ostracised from healthcare services.
+All participants were positive about the prospect of integrating technology into stroke rehabilitation
+in the community, particularly technology which could provide guidance and personalised feedback.
+Everyone expressed interest in trialling future technology as part of the project. This was largely
+expected given positive results of previous research 10, 16, 26 and the increasing use of technology to
+administer healthcare services in recent years. However, it was encouraging to see a high level of
+enthusiasm within this study. Stroke survivors suggested that the provision of this technology would
+empower them to take control of their therapy and be able to support themselves in situations
+where they were unable to access in-person therapy, and this may positively impact on adherence
+and could have wider impacts on stroke survivor health and wellbeing, and potentially reduce their
+need to access other health services. However, it should be acknowledged that the participant base
+which we were working with during this study were individuals who were engaged in stroke
+rehabilitation research and already had technology that they were comfortable using. Therefore,
+these results only reflect the thoughts of motivated participants. Additional work needs to be carried
+out to identify the thoughts and experiences of stroke survivors and stroke therapists who may be
+less motivated or who are less able to engage with technology.
+From these focus groups, it is apparent that there is a need for greater support with stroke
+rehabilitation in the community and markerless 3D motion capture technology could be a tool which
+could support stroke survivors and therapists in these areas. Accessibly priced technology could
+provide a means to provide continuous, stroke-specific therapy as stroke survivors leave hospital,
+and the findings of this study suggest that both stroke survivors and therapists would be willing to
+trial new technology to access this support. The ability to personalise a programme and adapt it to
+the users’ personal developments could support and empower stroke survivors with their
+rehabilitation and help maintain access to therapy even when services are limited or inaccessible.
+Incremental change, and the ability to observe this in a comprehensible format, was suggested to be
+important to the stroke survivors in the focus groups, and likely to contribute towards increased
+adherence over time. Markerless 3D motion capture technology could support the stroke survivors
+with this element of rehabilitation and thus encourage the maintenance of rehabilitation practice
+over time. This could contribute to reducing deterioration caused by lack of access to services and
+would also ensure that patients and their family had access to support and information when they
+were ready to engage with it. This education is important because stroke survivor needs will change
+throughout their life23, and will support them in managing their condition and know the best services
+to support themselves if needed.
+Limitations
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+The study was impacted by Covid-19 restrictions and this significantly affected our ability to recruit.
+While we received some interest from stroke survivors, recruitment from therapists was limited and
+not very diverse. It would have been beneficial to include a wider range of therapists, particularly
+those from different backgrounds, to gain additional insight into their understanding of post-stroke
+rehabilitation.
+The virtual participation was beneficial for recruiting stroke survivors as it allowed us to talk to
+individuals across the country, some of whom said they would have been unable to participate had
+we conducted the focus groups in person. However, we acknowledge that there was a sampling bias
+in favour of stroke survivors and therapists who were already comfortable with the use of
+technology (and who have the finances and resources accessible to engage with technology in their
+homes), and stroke survivors who are motivated to engage with rehabilitation and technology-based
+exercises. Future studies should investigate populations who may be less willing to engage with
+rehabilitation or technology to determine factors which would affect their likelihood to engage with
+technological methods of therapy.
+Conclusion
+This paper investigated the perspectives of stroke survivors and therapists with community stroke
+rehabilitation experience and their thoughts about the potential benefit of markerless, 3D motion
+capture technology for their rehabilitation exercises following discharge from acute care. Stroke
+survivors and therapists discussed problems with stroke survivors accessing services but were
+positive about the prospect of incorporating technology into their future, particularly where it could
+supplement services that were inaccessible either due to cost, availability or location. This
+investigation also identified changes to stroke rehabilitation and the delivery of therapy which have
+been brought about by the Covid-19 pandemic, noting the widespread uptake of video calls and
+telehealth-based methods to engage with stroke rehabilitation. As the country moves out from the
+pandemic, further development and integration of technology and telerehabilitation to support
+stroke rehabilitation services could be a solution to empower stroke survivors in their rehabilitation
+and ensure that they have a means to access rehabilitation continuously from discharge from
+hospital. For therapists, technology provides an additional tool that can be used to support stroke
+survivors in the community. While care needs to be taken to ensure that the technology is accessible
+to all users, this is an area to be expanded upon in the future.
+Acknowledgements
+This project has been funded by the Stroke Association and MedCity (SA MC 20\100003). This study
+received a favourable ethical opinion from Keele University’s Faculty of Medicine and Health
+Sciences Research Ethics Committee (MH-210203).
+References
+1. Lawrence ES, Coshall C, Dundas R, et al. Estimates of the prevalence of acute stroke
+impairments and disability in a multiethnic population. Stroke 2001; 32: 1279-1284.
+2. Van De Port IG, Kwakkel G, Van Wijk I, et al. Susceptibility to deterioration of mobility long-
+term after stroke: a prospective cohort study. Stroke 2006; 37: 167-171.
+3. Stroke II, Bowen A, James M, et al. National Clinical Guideline for Stroke. In: 2016, Royal
+College of Physicians.
+4. Sentinel Stroke National Audit Programme (SSNAP). Clinical audit Aut-Nov 2016 (Public
+Report). 2016.
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+5. Marwaa MN, Ytterberg C and Guidetti S. Significant others’ perspectives on person-centred
+information and communication technology in stroke rehabilitation–a grounded theory study.
+Disability and rehabilitation 2020; 42: 2115-2122.
+6. Marwaa MN, Kristensen HK, Guidetti S, et al. Physiotherapists’ and occupational therapists’
+perspectives on information and communication technology in stroke rehabilitation. Plos one 2020;
+15: e0236831.
+7. Hayward KS and Brauer SG. Dose of arm activity training during acute and subacute
+rehabilitation post stroke: a systematic review of the literature. Clinical rehabilitation 2015; 29:
+1234-1243.
+8. Stockley R, Peel R, Jarvis K, et al. Current therapy for the upper limb after stroke: a cross-
+sectional survey of UK therapists. BMJ open 2019; 9: e030262.
+9. Holden MK, Dyar TA and Dayan-Cimadoro L. Telerehabilitation using a virtual environment
+improves upper extremity function in patients with stroke. IEEE transactions on neural systems and
+rehabilitation engineering 2007; 15: 36-42.
+10. Edgar MC, Monsees S, Rhebergen J, et al. Telerehabilitation in stroke recovery: a survey on
+access and willingness to use low-cost consumer technologies. Telemedicine and e-Health 2017; 23:
+421-429.
+11. Johansson T and Wild C. Telerehabilitation in stroke care–a systematic review. Journal of
+telemedicine and telecare 2011; 17: 1-6.
+12. Ameer K and Ali K. iPad use in stroke neuro-rehabilitation. Geriatrics 2017; 2: 2.
+13. Crotty M, Killington M, van den Berg M, et al. Telerehabilitation for older people using off-
+the-shelf applications: acceptability and feasibility. Journal of telemedicine and telecare 2014; 20:
+370-376.
+14. Luker J, Lynch E, Bernhardsson S, et al. Stroke survivors' experiences of physical
+rehabilitation: a systematic review of qualitative studies. Archives of physical medicine and
+rehabilitation 2015; 96: 1698-1708. e1610.
+15. Mallet KH, Shamloul RM, Corbett D, et al. Recovernow: Feasibility of a mobile tablet-based
+rehabilitation intervention to treat post-stroke communication deficits in the acute care setting. PloS
+one 2016; 11: e0167950.
+16. Pugliese M, Ramsay T, Johnson D, et al. Mobile tablet-based therapies following stroke: A
+systematic scoping review of administrative methods and patient experiences. PloS one 2018; 13:
+e0191566.
+17. Damush TM, Plue L, Bakas T, et al. Barriers and facilitators to exercise among stroke
+survivors. Rehabilitation nursing 2007; 32: 253-262.
+18. Brouns B, Meesters JJ, Wentink MM, et al. Why the uptake of eRehabilitation programs in
+stroke care is so difficult—a focus group study in the Netherlands. Implementation Science 2018; 13:
+1-11.
+19. Pugliese M, Ramsay T, Shamloul R, et al. RecoverNow: A mobile tablet-based therapy
+platform for early stroke rehabilitation. PloS one 2019; 14: e0210725.
+20. Bhaskar S, Bradley S, Chattu VK, et al. Telemedicine across the globe-position paper from the
+COVID-19 pandemic health system resilience PROGRAM (REPROGRAM) international consortium
+(Part 1). Frontiers in public health 2020; 8: 644.
+21. Braun V and Clarke V. Thematic analysis: A practical guide. Sage, 2021.
+22. Health Do. National Stroke Strategy. 2007.
+23. Eames S, Hoffmann T, Worrall L, et al. Stroke patients’ and carers’ perception of barriers to
+accessing stroke information. Topics in stroke rehabilitation 2010; 17: 69-78.
+24. Rodgers H, Bond S and Curless R. Inadequacies in the provision of information to stroke
+patients and their families. Age and ageing 2001; 30: 129-133.
+25. Chen CC and Bode RK. Factors influencing therapists' decision-making in the acceptance of
+new technology devices in stroke rehabilitation. American journal of physical medicine &
+rehabilitation 2011; 90: 415-425.
+medRxiv preprint doi: https://doi.org/10.1101/2022.03.18.22272596; this version posted March 21, 2022. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-ND 4.0 International license .
+26. Mallet K, Shamloul R, Pugliese M, et al. RecoverNow: A patient perspective on the delivery
+of mobile tablet-based stroke rehabilitation in the acute care setting. International Journal of Stroke
+2019; 14: 174-179.

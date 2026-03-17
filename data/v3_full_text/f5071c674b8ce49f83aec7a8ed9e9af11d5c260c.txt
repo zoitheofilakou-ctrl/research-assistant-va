@@ -1,0 +1,110 @@
+Preparing for a clinical study on implant-enhance stroke
+rehabilitation
+openaccessgovernment.org/article/preparing-for-a-clinical-study-on-implant-enhance-stroke-rehabilitation/172570
+19 January 2024
+1: Electrode Model Module 2: Electrode Connector 3: Implant Module 4: Headpiece (Wireless Power
+Supply of Implant Module) 5: Communication Unit (Wireless Communication with Implant Module) A:
+Trigger Input B: PC Cable Connector C: Headpiece Cable Connector 6: Personal Computer (PC)
+Martin Schuettler, Chief Technology Officer at CorTec GmbH,
+addresses key questions around the development of the company’s
+innovative Brain Interchange System to support stroke rehabilitation
+therapy
+1/5
+CorTec has developed the Brain Interchange (BIC) implant system to improve stroke
+rehabilitation outcomes by enhancing the effect of conventional physio and/or occupational
+therapy. (1, 2) The effectiveness of the new implant-supported therapy will be investigated in
+an early feasibility study planned for 2024 to be carried out in Washington, US.
+While working on the approval of the feasibility study, uncertainties and unknowns of the
+study are investigated. These involve questions around usability and technical performance.
+Usability aspects
+Neurologists, clinical researchers, occupational therapists, and reimbursement experts were
+interviewed to identify potential gains and pain points for using the BIC system in conjunction
+with conventional therapy to treat upper extremity functional deficits. Usability is a major
+topic; as long as the system is easy to activate, does not require calibration or other expert
+interaction, and is not physically impeding exercises during rehabilitation sessions, the
+patient and therapist are expected to accept it. However, the surgery required for applying
+the system and removing it after nine to 12 months must be justified by a substantial
+functional improvement compared to conventional therapy. Today, it is presumed that an
+improvement of seven or more points in the Upper Extremity Fugl-Meyer (UEFM) score
+would be considered substantial and justify an implantation for patients between 25 and 48
+UEFM.
+The early feasibility study is an instrument to provide input into a device development that
+would otherwise not be accessible. The patients (four to 12) are carefully guided and
+supervised; hence, not all requirements essential for the successful commercialization of an
+implant system must be met; aspects that are cared for by the clinical team, who work
+closely with the patient, can be in a premature state. In some cases, this applies to aspects
+of usability.
+2/5
+Functional testing and validations
+Regarding system functionality, very few or no open questions should remain before
+considering implantation in the framework of an EFS. All questions that can be answered
+before were addressed either in bench tests or pre-clinical studies. While the latter was used
+to investigate device longevity, general device function and biocompatibility of implanted
+hardware, bench testing permits the validation of system performance, mechanical
+robustness, electromagnetic compliance, electrical safety, cybersecurity, the effectiveness of
+built-in safety measures, sterilization effectiveness, and more. These tests are carried out by
+the medical device manufacturer and accredited laboratories and are, to a high degree,
+standardized by international standards.
+Performance data from humans before clinical study
+Interaction of the implant system with the brain is difficult to accurately model on the bench.
+This is done to a certain extent using a saline basin representing the brain’s electrical volume
+conduction and playing brain signals recorded in different settings back to this basin while
+using the implant to record from and stimulate to the saline; however, the conclusion to be
+drawn for this setup is still limited.
+An alternative to these studies in vitro is the involvement of patients who undergo sub-
+chronic brain mapping. These patients, typically scheduled for a surgical brain procedure,
+have electrodes implanted for a few days up to a few weeks and are cared for in an epilepsy
+monitoring unit. The leads of the implanted electrodes are externalized and accessible for
+connection to electrical recorders and stimulators. Patients who formally consent to
+3/5
+participate in an experimental session (besides their diagnostic protocol) provide an
+opportunity to collect in vivo data. Such experimental sessions, in case they are of minor risk
+to the patient, need approval by the local ethics committee and do not require approval by
+the FDA (US) or Competent Authorities (EU).
+In preparation for implant studies, also suitable for experimental sessions in the epilepsy
+monitoring unit, CorTec developed a version of the implant system that is easy to interface
+with on the bench / in the monitoring unit and meant for evaluation of system performance
+and for getting acquainted with system programming. Hence, it is called the ‘BIC Evaluation
+Kit.’
+The evaluation kit is an implant in an implant module box with an electrode connector instead
+of brain electrodes attached to it. The electrode model module can be connected to the
+electrode connector, an electrical representation of electrodes placed in the brain. Using
+laboratory equipment such as signal sources and oscilloscopes, the function of the implant
+system can be observed – by feeding in small electrical signals, mimicking brain activity, (3)
+or watching electrical pulses sent by the implant into the electrode model, for example.
+Once the programming of the system and the resulting performance are evaluated, the
+system can be connected to the externalized leads of a patient, disconnecting the electrode
+model module. Now, studies of human brain recording and stimulation can be carried out
+within the scope of the session plan.
+In the past, CorTec had the chance to benefit from this methodology in the US in the field of
+epilepsy treatment research (4), showing that the wireless implant system has epilepsy onset
+detection qualities comparable to that of established clinical amplifiers and stroke
+rehabilitation research which started by the end of 2023 with the closed-loop stimulation
+session with promising results.
+Conclusion
+The BIC Evaluation Kit permits collecting human data in vivo as an important preparation
+and risk mitigation for the early feasibility study, using a fully implanted system, planned for
+2024.
+References
+1. Schuettler, M. “Options for stroke survivors: From stroke to conventional therapy”.
+Open Access Government, 4 Oct 2023a.
+2. Schuettler, M. “CorTec’s Brain Interchange System: Revolutionizing brain therapy with
+closed-loop neuromodulation”. Open Access Government, 4 July 2023b.
+4/5
+3. Cho, H., Ojemann, J., and Herron, J.. “Open Mind Neuromodulation Interface for the
+CorTec Brain Interchange (OMNI-BIC): an investigational distributed research platform
+for next-generation clinical neuromodulation research.” 2023 11th International
+IEEE/EMBS Conference on Neural Engineering (NER). I EEE, 2023.
+4. Ayyoubi, A. H., Besheli, B. F., Quach, M. M., Gavvala, J. R., Goldman, A. M., Swamy,
+C. P., Bartoli, E., Adkinson, J., Curry, D. J., Sheth, S. A., Francis, D. J., Ince, N. F. “The
+Early Feasibility of Recording Prolonged iEEG in Human Subjects Using CorTec Brain
+Interchange System: Assessment of Signal Quality, System Performance, and Spike
+Analysis.” Nature Scientific Reports, 2023 – SUBMITTED
+Please Note: This is a Commercial Profile
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives
+4.0 International License.
+More About Stakeholder
+CorTec, neurotechnology and the Brain Interchange System
+CorTec’s mission is “communicating with the brain – for the cure of disease”. By using
+their Brain Interchange System, they hope to develop stroke rehabilitation.
+5/5

@@ -1,0 +1,555 @@
+Submitted:25August,2021 Accepted:12October,2021 Published:08November,2022 DOI:10.22514/sv.2021.229
+COMMENTARY
+Digital technology to control COVID-19 in China:
+issues, challenges and implications for the healthcare
+system
+Jianliang Xiao1, Ruilian Zhang2,*
+1SchoolofPublicAdministration,Hohai Abstract
+University,211100Nanjing,Jiangsu, In the current era, public health crises are presenting new systematic and cross-border
+China
+2SustainableMineralsInstitute,The characteristics and uncertainty. Public health crises are challenges for governments
+UniversityofQueensland,4072 andhealthsystems. Thedevelopmentofdigitaltechnologyhaschangedtheworldand
+Brisbane,Australia connecteditasa“village”,anddigitaltechnologyhasplayedacriticalroleinproviding
+support during public health crises over the past three decades. From the perspective
+*Correspondence
+of empowerment theory, we explore the role of digital technology in responding to
+ruilian.zhang@uq.edu.au
+(RuilianZhang) the COVID-19 pandemic and digital technology approaches to controlling COVID-
+19 in China. Accordingly, we identify the challenges of using digital technology to
+controlpublichealthcrises,includingtheimbalanceoftherightsandresponsibilitiesof
+governancesubjects,theincompatibilityofthegovernancemodelanddigitaltechnology
+and the inadequate application of digital technology. Considering implications for the
+successfulpreventionandcontrolofCOVID-19,wesuggestthatthegovernmentshould
+improvethebalanceofrightsandresponsibilitiesforcoordinatedcrisisgovernance,link
+digital technology and the governance system and broaden the grassroots governance
+community.
+Keywords
+Publichealthcrisis;Digitaltechnology;Healthcaresystem;Challenges;COVID-19
+1. Introduction mission system and institutional inertia in addressing long-
+standingabuses,theimplementationandpromotionofdigital
+Around the world, different countries’ development histo- governancemodelshavenotreceivedadequateattention[5,6].
+ries,socio-politicalandeconomicsystems,andculturalback-
+In the prevention and control of the COVID-19 pandemic,
+grounds have determined their different approaches to gov-
+the role and functions of digital governance have gradually
+ernance. In the face of the global outbreak of coronavirus
+been recognized by governments, markets, society and the
+disease2019(COVID-19),theresponsestrategiesadoptedby
+public. Compared to the management and dissemination of
+different countries have varied widely [1]. The governments
+information in the traditional public governance model, the
+of some countries or regions, in line with practices in China,
+digital governance model has the advantage of superimpos-
+have adopted active measures to fight the pandemic for all
+ing the health crisis and governance crisis to form a double
+people, regardless of the cost of saving lives [2]. Some
+dilemma [7]. For instance, digital technology has been used
+Western governments, such as those of the United Kingdom
+not only for diagnosis/monitoring, but also for conducting
+andNorway,haveadvocatedapassiveresponsebypromoting
+experimentalstudieswhichopenednewvenuesontheimpact
+herdimmunity,whichmeansthatsixtypercentofadultsmay
+of COVID beyond the mere biology. In particular, digital
+have to be infected to achieve collective immunity [3]. For
+technology-basedstudieshaveshownthatCOVID-relatedre-
+those young people who do not consider the society/herd
+strictionsdeterminednegativeeffectsonpsychologicalaspects
+immunity, they are bearing the brunt of the next waves. In
+suchasemotionalprocessing[8]andbehaviouralaspectssuch
+constructingadigitalgovernancemodelandexploringtherule
+aseatingattitudes,alsoinhealthypopulations[9].
+of law, scholars have clearly stated that it is necessary to
+“establishandimprovethesystemandrulesofadministration Existingresearchhasmainlyfocusedontheeffectsofdigital
+using the internet, big data, artificial intelligence and other crisis management, which refers to the application of digital
+technicalmeansaswellaspromotetheconstructionofdigital technology for crisis management [10, 11]. Some scholars
+government,strengthentheorderlysharingofdata,andprotect have pointed out that the health quick response (QR) code
+individuals in accordance with the law” [4]. In practice, uses three colours (green, yellow and red) to manage the
+however,duetotheimpactofpublicgovernanceonthetrans- health status of residents. This strategy provides an efficient
+ThisisanopenaccessarticleundertheCCBY4.0license(https://creativecommons.org/licenses/by/4.0/).
+SignaVitae2022 vol.18(6),103-109 ©2022TheAuthor(s).PublishedbyMREPress. http://www.signavitae.com/
+104
+and flexible approach that can be used to prevent and con- fore being widely used to describe the behaviours of socially
+trol the spread of COVID-19 based on personal solutions, disadvantaged groups to gain equal rights and enhance self-
+greatlyimprovingtheworkingefficiencyofdigitalcrisisman- control [12]. In short, empowerment refers to a certain ca-
+agement [12]. Others have systematically analysed the role pacity and embodied energy. This concept was subsequently
+of artificial intelligence, big data, geographical information applied in the fields of business and management from two
+systems (GISs), information visualization, image recognition mainperspectives: employeeempowerment,emphasizingthe
+and other technologies in pandemic prevention and control decentralizationofmanagerialpowerandmoreemployeeau-
+monitoring. Someresearchersbelievethatdigitaltechnology tonomy, and customer empowerment, emphasizing customer
+can improve the timeliness of pandemic monitoring and the initiative and constituting the main body of corporate value
+pertinenceofpreventionandcontrolmethodssothatdecision- cocreation [15]. The concept of empowerment has natural
+making agencies, public health agencies and pandemic pre- applicability to the field of disaster relief and public health
+vention agencies can better predict, control, and prevent the crisis management [16, 17]. The self-help perspective in
+spread of pandemics among humans, animals and plants and theinitialconceptofempowermentisinstructiveforsubjects
+treatinfectedpersons[13,14]. However,theabovementioned facingmajorcrisesanddisasters. Relatedresearchhasfound
+research highlights the advantages of technology for digital that through collective action, shared cognition, and collabo-
+crisismanagementoperationswhileignoringgoverningbodies rativecontrol,communities(basic-levelorganizations)canbe
+aswellasthecharacteristicsoftensionandchallengesthatmay furtherempoweredfordisasterrelief[18].
+exist. Therefore,thisstudyexaminestheChinesegovernment
+inanefforttorethinkpublicdigitaltechnologyandtoenable 2.2 Theroleofdigitaltechnologyin
+theco-governancecrisismanagementprocess. Weaimtocom- respondingtotheCOVID-19pandemic
+binegovernmentpracticesinfightingtheCOVID-19outbreak
+withdirectionandguidanceforpreventingandcontrollingnew First,inmonitoringandcontrollingthepandemic,digitaltech-
+wavesoftheCOVID-19pandemic. nology helps to accurately monitor the dynamics of the pan-
+demic,analyseandjudgerisks,andoptimizetheallocationof
+We mainly explore the characteristics, approaches, chal-
+materials,demonstratingthepowerfuladvantagesofprecision
+lengesandimplicationsofusingdigitaltechnologytocontrol
+andefficiency[19]. Digitaltechnologycanbeusedforthefull
+COVID-19inChina. Ourmajorcontributionofthisresearch
+dynamicmonitoringofthehealthofthepopulationbyforming
+has enriched the concepts of social action and self-help in
+a network of real-time monitoring in a grid system. Once an
+empowerment theory. Five sections follow this introduction.
+infectedpersonisidentified,thepopulationassociatedwiththe
+Section2introducesthetheoryandcharacteristicsofthedigital
+infected person can be quickly analysed and closely tracked,
+technologyusedinCOVID-19preventionandcontrol. Section
+and joint prevention and control can be carried out [20, 21].
+3 describes the digital technology approaches to controlling
+Bigdataefficientlyintegratesdataresources, minesanalysts’
+COVID-19. Section4explainsthechallengesfacingthecon-
+tracedatatopredicttheriskofinfection,andhelpsachieveac-
+trolofpublichealthcrises. Section5presentstheimplications
+curatepandemicpreventionandcontrol. Artificialintelligence
+forapplyingdigitaltechnologytocontrolCOVID-19. Section
+technologycanbeusedtoimplementhigh-precisionstandards
+6concludesthepaper.
+for testing virus mutations, to determine the need for virus
+boostervaccinations,andtomanagedrugdevelopment[22].
+2. The role of digital technology in
+Second, in the process of returning to normal life, health
+responding to COVID-19
+codes, online offices, online education, and purchases and
+delivery on behalf of others have brought convenience to
+As the first country to deal with the pandemic, China has
+people’sproductivityandprivatelives[7,12]. Thehealthcode
+shownoutstandingperformanceinmonitoringandpreventing
+is one of the major highlights of how digital technology can
+thespreadofthepandemic. Theentirecountrywasmobilized,
+be used to fight the pandemic. The health code can monitor
+and everyone joined in the battle. After a fierce struggle,
+notonlythedynamictrajectoryofpeoplebutalsotheirhealth
+Chinabecameoneofthefirstcountriesintheworldtocontrol
+[13]. Inaddition,digitaltechnologyhashelpedpublicservices,
+therapidspreadofthepandemic[6]. Chinanotonlygaineda
+onlineoffices,andonlineteachingbecomethenorm,making
+criticalwindowforworldwidepandemicpreventionandcon-
+itconvenienttopurchasegeneralservicesonlinetoeffectively
+trolintheearlystageoftheCOVID-19outbreakanddefended
+reducepersonalcontactsandexchangesandthuscontributing
+the world’s regional front line for pandemic prevention and
+totheeffectivepreventionandcontrolofthepandemic[23].
+control but also accumulated experience in the global fight
+In regard to the digital health code, for example, the pur-
+against the pandemic that has frequently been confirmed by
+pose of each country’s health code is to track and monitor
+theWorldHealthOrganization[1,2]. Digitaltechnologyplays
+users to identify potential risks and to respond in time [12].
+a crucial role in controlling inflammatory diseases such as
+However,therearedifferencesinspecificmethods. Chinaand
+COVID-19 and has left a strong mark on the monitoring and
+South Korea belong to one category, other countries belong
+controlofthepandemic.
+to another category, and the internal health codes of the two
+categories differ [14]. The Chinese and South Korean health
+2.1 Empowermenttheory
+codesaregovernmentmandated;thus,theyarerelativelyrich
+The concept of empowerment originated from sociology and in collected data. In South Korea’s early implementation,
+first appeared in the fields of social action and self-help be- government agencies were able to obtain user information
+105
+TABLE 1. Contacttracingappsdevelopedindifferentcountriesandvaccinationstatus.
+Country Name Connectionmethod Developmentbody Datamonitoring Voluntary Vaccinationrate
+China Healthcode Mobilenetworks Government+Company IDinfo+location+ Yes 76%
+tracking
+SouthKorea Corona100m Mobilenetworks Government+Company IDinfo+location+ Yes 74%
+videomonitor+
+creditcardinfo
+Singapore Tracetogether Bluetooth Government Anonymoustracking No 79%
+(Bluetoothmatch)
+USA Contacttracing Bluetooth Google+Apple Anonymoustracking No 63%
+(Bluetoothmatch)
+UK NHS Bluetooth Government Anonymoustracking No 71%
+(Bluetoothmatch)
+Germany CoronApp Bluetooth Arago Anonymoustracking No 67%
+(Bluetoothmatch)
+France StopCovid Bluetooth Government Anonymoustracking No 74%
+(Bluetoothmatch)
+UAE AIHosn Bluetooth Government Anonymoustracking No 92%
+(Bluetoothmatch)
+Australia Checkin Mobilenetworks Government Anonymoustracking Yes 62%
+(Bluetoothmatch)
+Note: Vaccinationratedataareextractedfrom‘OurWorldinData’. Vaccinationrateisbefore1stOctober2021.
+and publicly shared location and trajectory information for platform; (3) a collaborative scheduling system for multiple
+eachconfirmedperson’spreviousinteractionswithotherusers subjects;and(4)apublicservicesupplysystem.
+[20]. China had a similar approach, announcing the daily-
+life trajectory of confirmed cases and seeking close contacts 2.4 Multiplesubjectsinvolved
+to follow the chain of infection. However, the system exists
+COVID-19 pandemic prevention and control involve multi-
+mainlyintheformofinformationrelease, andpracticesvary
+plegovernancesubjects,suchasthegovernment,enterprises,
+in different parts of the country [21]. The main difference
+nongovernmental organizations, and citizens [4]. Currently,
+in the implementation of health codes in other countries is
+theCOVID-19pandemicpreventionandcontrolsystemarea
+the governmental approach. The government public health
+multidimensionalsystemthatcombinesphysicalspace,social
+departments or science and technology departments of Sin-
+space and digital space. Physical space reflects pandemic
+gapore, France, the United Kingdom, and the United Arab
+prevention, and the control system needs to be continuously
+Emirates (UAE) are actively developing software, whereas
+supplied by the outside world and service exchange [12]. It
+those of the United States and Germany are not; however,
+includestheplacementofcaserescueandprotection,thesup-
+therearenohard-and-fastrulesonmandatoryuse. Peopleare
+ply of medical services, and the guarantee of production and
+merelyencouragedtoinstallthesoftware[4,5]. TheUAEis
+livingmaterials. Socialspacereflectstheoverallplanningand
+slightly more formal, emphasizing that people should install
+developmentofeconomicandsocialworkunderthepremise
+and use this software. In China and South Korea, the most
+thatthepandemicpreventionandcontrolsituationisimprov-
+fundamentaldifferenceisthatthedatacollectionmethodsrely
+ing. Itincludespublicopinionguidancewiththegoalofedu-
+onmobilephonesforBluetoothshort-rangeexchangeofdata
+catingpublicsentimentandimplementingpreferentialpolicies
+and identification with the implementation of the minimum
+[14]. Digital space reflects wider and deeper collaboration,
+principlestocollectuserdata(seeTable1below).
+both to expand the sharing of spatial data and to establish
+credible and accurate data to ensure cross-validation of the
+2.3 Approachestocontrolling
+data governance management mode. For example, after the
+COVID-19throughdigitaltechnology
+outbreak, health authorities shared information on confirmed
+TheCOVID-19pandemicisragingaroundtheworld,anditis andsuspectedcases. Thepublicsecuritydepartmentcollected
+anotherpublichealthcrisisfollowingsevereacuterespiratory informationaboutclosecontactamongpeopleassociatedwith
+syndrome (SARS) in 2003 that has tested governance. In particular vehicles, and the transportation sector compared
+the fight against the COVID-19 pandemic, in which digital personal tracking information with vehicle information and
+technology is fully involved, the actions of the Chinese gov- airport and railway station usage information. Multisectoral
+ernment, enterprises, society, and citizens reflect many char- collaborationprovidescriticalinformationonconfirmedcases
+acteristicsofthecoordinatedgovernanceofpubliccrises: (1) andslowsthespreadofCOVID-19[5].
+multiplesubjectsinvolved;(2)anopenandsharedinformation Inaddition,theCOVID-19pandemicpreventionandcontrol
+106
+systemhasnonlinearcharacteristics. Itinvolvesmultiplepar- 2.6 Thecollaborativeschedulingsystemfor
+ticipants,suchasadministrativesystems,medicalinstitutions, multiplesubjects
+enterprises, and community residents, among whom interac-
+From the perspective of collaborative governance theory,
+tions are complicated and not simply linear [7]. This system
+the goal of the collaborative governance of public crises is
+may be constructed in two or even multidirectional ways,
+to achieve synergy among various subsystems. In the fight
+suchasnegotiation,cooperationorcompetition. Furthermore,
+against COVID-19, due to digital technology intervention
+although the number of digital technologies has gradually
+in the market supply, emergency rescue services, the
+deepenedthegovernancesystem,atthebeginningofthecrisis,
+government, internet companies, and volunteer organizations
+there was no particular manifestation of digital governance
+couldcollaboratetosupportallkindsofresources,production,
+[14]. Forexample,thedistributionofreliefsupplieswasstill
+system chips, supply and use to meet various needs [15].
+stuckintheeraoflettersofintroduction,andthetimeneeded
+In terms of market supply, in response to the problem of
+forpandemicnotificationwassubjecttodelays. Theseissues
+vegetable supply in some areas affected by the pandemic,
+reflectedtheexistenceoftraditionalgovernancestructuresand
+the Ministry of Agriculture and Rural Affairs issued an
+changes in the social system that would inevitably lead to
+emergencynoticeonJanuary29, 2020, requiringagricultural
+incorrect uses of sophisticated digital technology. Therefore,
+and rural departments at all levels to formulate emergency
+for the COVID-19 pandemic prevention and control system
+plans, increase productivity, and cooperate with the relevant
+to achieve and maintain an orderly and stable structure, it
+departmentstoensureanadequatevegetablesupply[6]. This
+was necessary to upgrade the collaboration system through
+vegetable supply provided solid material guarantees for the
+informationsharingandcooperationamongmultiplesubjects
+fight against the pandemic. In terms of emergency rescue,
+[15].
+whenthepandemicbrokeout,22nationalemergencymedical
+rescueteamsfromdifferentprovincesrushedtoHubei,where
+theywerestationedatvariousshelterhospitalsandbecamethe
+2.5 Theopenandsharedinformation
+mainforcefortreatingpatients[1]. Thelevelofprivaterescue
+platform
+isreflectedinthefactthatvolunteersfromalloverthecountry
+usetheonline+offlineservicemodeltoquicklymeetvarious
+Asapubliccrisis,theCOVID-19pandemichascross-regional
+emergency rescue needs. Online services provide support
+characteristics; thus, there was an urgent need to establish a
+mainly for needs assessment and psychological counselling
+cross-regionalcoordinationapproachtodealwithgovernance
+for people in the hardest-hit areas of the pandemic. Offline
+challenges [19]. The problem of collaborative governance is
+services,mainlycharitabledonations,materialoperationsand
+the integration of data and the sharing of information. Only
+public services, have played an important role in additional
+by effectively integrating information and making it publicly
+servicesforprofessionalteams[7].
+known on a shared platform can data references be provided
+for subsequent collaborative actions and for research on and
+2.7 Thepublicservicesupplysystem
+theassessment,preventionandcontrolofthepandemicinthe
+early and medium terms as well as the subsequent recovery Inthispandemic,themainproblemhasbeenthecontradiction
+period[20]. betweenlimitedservicesandunlimiteddemand. Ifpublicser-
+viceresourcesareexportedonlybythegovernment,problems
+After the outbreak of the pandemic, 28 provinces, suchasbottlenecks,resourceoverloadandlimitedoutputoc-
+autonomous regions, and municipalities across the country cur,promptingallgovernanceentitiestoreachaconsensus:the
+cooperated with Alibaba to launch the Digital Pandemic government,themarket,andsociety,assourcesofthepublic
+Prevention System [4]. The system is divided into four servicesupply,mustjointlybeartheunlimiteddemandforser-
+mainmodules: residents, communitystreets,medicaldisease vicesduringtemporarypandemicoutbreaks[1,2]. Therefore,
+control, and government management. The content includes with the help of digital technology, the government’s mobile
+pandemic information collection, active declaration and government, the platform economy of internet companies,
+pandemic clue provision, and real-time pandemic tracking. and the grid governance of the community coordinated and
+In addition, AutoNavi launched the COVID-19 Pandemic cogoverned to jointly respond to people’s service needs and
+Map to help determine the location of confirmed cases and resource requests. During the special period of pandemic
+to publish the population density heat map to provide action preventionandcontrol,toensuretheorderlyprogressofpro-
+guidelines for necessary travel [5]. Baidu Maps and many duction and life, the governments of Guangdong, Zhejiang,
+other technology companies launched the patient peer query Shanghai,Fujianandotherprovincesandcitiesgavefullplay
+tool, which helps provide emotional relief to the public. tomobilegovernmentaffairs, advocatingtheimplementation
+Meanwhile, information sharing further strengthened the ofonenetworktohandleservicesthatarefrequentlyusedand
+supervision of pandemic prevention and control among urgentlyneededbycitizensandsimplifyingandoptimizingthe
+the masses. The uninterrupted 5G live broadcast of the onlineserviceprocess[14].
+construction of the Huoshenshan and Leishenshan hospitals Atthesametime,localgovernmentssuccessivelylaunched
+by China Central Television’s (CCTV’s) caused spectators services related to pandemic prevention and control through
+of the construction process to become the strongest cloud serviceportalssuchasWeChatandAlipayMiniProgrammes,
+supervisorinhistory[15]. providing services such as pandemic dynamics, protection
+information,pandemicrumours,onlinefreeclinics,andfever
+107
+clinics. The provision of such services enabled people at the has enabled social governance in the field based on the con-
+grassroots level to grasp the current situation of prevention tinued strong development of broad prospects [12]. With
+and control in a timely manner, resolved doubts, answered thedeepeningapplicationofdigitalapproachesandtherapid
+questions, and objectively soothed the social emotions that upgradingofdigitalcapabilities,digitallyenabledpublicgov-
+emergedduringthisextraordinaryperiod[22]. ernancediffersfromthefunction-centredconceptofthetradi-
+In particular, community grid management is an important tionalgovernancemodel. Itincreasinglyemphasizesacitizen-
+link in the fight against the pandemic. Because COVID-19 centred strategy, with the aim of improving governance effi-
+has the characteristics of human-to-human transmission, the ciencyandoptimizingthecustomerexperienceofpublicser-
+state passed requirements for residents to congregate as little vices[15]. Thismeansthatthesocialgovernancemodelshould
+as possible and to stay home; thus, it was able to take full be compatible with digital technology in a downward-facing
+advantage of community grid digital platforms. Externally, and inclusive reform. However, the current collaborative
+the community grid and government made it convenient for governance crisis model has not completely broken through
+gridmemberstoreportthepandemicsituationtotheplatform the operational logic of the traditional administrative system
+in a timely manner. Internally, community grid members and it has encountered obstacles related to compatibility and
+can receive feedback from residents at any time through the matchingwithdigitaltechnology[4,5].
+platform[24,25]. Additionally,thereisalackofunifiedcalibrationandstan-
+dards in the construction of government information systems
+3. Challenges facing the control of arelacking, resultinginrepeatedreconstructionandthefrag-
+public health crises mented distribution of data resources. It makes difficult to
+realize a cross-regional and cross-departmental information
+3.1 Theimbalanceoftherightsand interconnection [14]. The reason is that participants in dif-
+responsibilitiesofgovernancesubjectsina ferent regions, levels and departments have not yet formed a
+publichealthcrisis mature sharing mechanism. For example, in the early stage
+ofthepandemic,itwasdifficulttoestablishacompletechain
+The collaborative crisis governance structure based on dig-
+for the emergency logistics system based on informatization
+ital technology uses multiple nodes to jointly maintain data
+and big data due to local card setting, road segmentation and
+anddevelopsacorrespondingpowerallocationanddecision-
+even regional discrimination. This difficulty led to delays
+making approach. This approach requires the organizational
+in emergency logistics, a supply-demand mismatch and low
+structureofcollaborativegovernancetoconsiderboththehor-
+efficiency[3]. Additionally,thegovernmentsinsomeregions
+izontalandverticaldimensionsoforganizationaldesign. The
+fought their own battles, formulated various local policies
+horizontaldimensioninvolvestherealizationofcollaborative
+and focused on their own pandemic prevention software and
+governance through information exchange, resource sharing,
+systems,whichmadeitdifficultforthemtobecompatibleand
+and joint action among different departments and subjects.
+coordinatedwithotherjurisdictions.
+Theverticaldimensioninvolvesthepromotionofcollaborative
+governance through authoritative guidance and hierarchical
+connections [2]. However, due to unclear rights and respon- 3.3 Theinadequateapplicationofdigital
+sibilities, governance subjects will have problems with each technology
+other,leadingtoineffectivedecision-making. Thissituationis
+Intheearlystageofpandemicpreventionandcontrol,digital
+particularlyevidentinthehorizontalcoordinationrelationship.
+technology lacked the last mile in terms of its intervention
+The multiple legal subjects involved experience a lack of
+in collaborative crisis management. As a result, technol-
+clearlydefinedstatusandmeansforcrisismanagement;thus,
+ogy,products,andservicesfailedtosinktothegrassrootslevel
+therightsofparticipantsareunclearandnotstandardized[4].
+[21]. For example, in Hubei Province, where the pandemic
+Theregulationofthestatusisthere,andyetthetransmissionof
+situation was serious, those collecting community household
+thevirushasbeenextremelyfast. Knowledgemanagementand
+information and statistics needed to make up lessons on the
+coordinationwillhelpalleviatethebottlenecks. Forexample,
+spot due to residents’ inability to grasp basic information.
+regarding the early assessment and warning of the COVID-
+There was a time lag between the release and implementa-
+19pandemic,first,thelawhadextremelyvaguerequirements
+tion of documents for the benefit of the people related to the
+for experts from the Center for Disease Control and Preven-
+pandemic situation and the community [14]. The allocation
+tion (CDC) to respond to public health event [5]. Second,
+ofreliefmaterialsstoppedattheRedCrossbecausetherewas
+the lack of practical operational norms made it difficult for
+noletterofintroduction. Suchproblemsrevealthatthereare
+expertstoenterthepandemicassessmentanddecision-making
+still weak links in the construction of digital infrastructure
+mechanisminatimelymannerinresponsetothephenomenon
+at the grassroots level. There are three main reasons. First,
+ofhuman-to-humantransmission. Thisdifficultydelayedthe
+thegrassrootslevelandhigherlevelshavenotyetestablished
+optimalperiodforpandemicmanagementandcontrol.
+a functional data sharing system [1, 2]. Second, grassroots
+governanceisstillinthestageoffillingoutformstofightthe
+3.2 Difficultiesinthecompatibilityofthe
+pandemic,manualoperationandmultilevelmanagement. The
+governancemodelanddigitaltechnology
+segmentationofvariousdepartmentsisaseriousproblem,re-
+DigitaltechnologyhasshoneinthefightagainsttheCOVID- sultinginredundantworkandlowefficiency. Third,formalist
+19pandemicowingtoagreatreleaseofenergyandbecauseit thinkingstillexists,condoningcertainphenomenaofmediocre
+108
+andlazygovernment[4,5]. we should build a health big data sharing platform between
+grassrootsunitsandlocalmedicalinstitutionsandhigher-level
+4. Implications medicalinstitutionstopreventresidentsfromestablishingnew
+diagnosis and treatment records and health files at any time
+4.1 Balancetherightsandresponsibilityfor when they are in different places. In this way, higher-level
+differentstakeholders andsubordinatehospitalscansmoothlycarryouttelemedicine
+[1, 2]. In summary, sinking good technologies and products
+Theessenceofcollaborativegovernanceisthediversification
+verified by the market to the grassroots level and making
+ofgovernancesubjects,whichmeansthatpowershouldbeal-
+them available to the public will help to broaden the welfare
+locatedtomarkets,socialorganizationsandcitizensoutsidethe
+coverageofdigitaltechnology[30,31].
+government,andthatthecorrespondingresponsibilitiesshould
+be assigned [1, 2]. In particular, digital economy platform
+5. Conclusions
+must be used to build two-way information communication.
+It is critical to mobilize enterprises, non-profit organizations, COVID-19 not only threatens human health but also has a
+citizens and other entities outside the government to partic- major adverse effect on social development. In fighting the
+ipate in collaborative crisis management, build a larger and pandemicandprotectingthelivesofcitizens,medicalworkers,
+broadercrisispreventionandcontrolinformationplatform,and biomedical experts and relevant pandemic prevention units
+improvetheemergencymaterialallocationmechanismbased havepaidaheavyprice[24]. Loopholesinpublichealthand
+onclearresponsibilitiesandrights[26,27]. Additionally,itis pandemic prevention systems have been highlighted. In this
+necessarytoimprovetheassessmentandevaluationincentive research,weidentifythechallengesofusingdigitaltechnology
+mechanismfornongovernmentalentitiesthatactivelypartici- to control public health crises, including an imbalance of
+pateinthecollaborativegovernanceofcrisesandfulfilsocial the rights and responsibilities of governance subjects, dif-
+responsibilities. Thus, material incentives, such as financial ficulties in the compatibility of the governance model and
+support and spiritual incentives, such as authorization and digital technology and the inadequate application of digital
+praise,mustbeprovided[28]. technology[1]. Consideringtheimplicationsforthesuccessful
+prevention and control of COVID-19, we suggest that the
+4.2 Linkdigitaltechnologyandthe government should balance the rights and responsibility for
+governancesystem crisis governance stakeholders, link digital technology and
+systemsandbroadenthecommunityofgrassrootsgovernance.
+Thekeytocollaborativegovernanceistoreversethesituation
+At present, COVID-19 has spread to more than 100 coun-
+of separate governance. To promote information sharing and
+tries and regions. Many countries failed to achieve effective
+businesscollaboration,itisnecessarytoimplementalinkage
+prevention and control in the early stage of the pandemic,
+mechanism between digital technology and the governance
+leadingtotherapidspreadofthedisease[2]. Infacingthedelta
+system[29]. Itiscriticaltoallowtechnologytosupportsocial
+strainofCOVID-19,itisimportanttopursuethecorrectpathto
+collaborativegovernancethroughtheoptimizationofinternal
+savelivesandtoenabletheeconomytorecoverbyreviewing
+mechanismandtheinnovationofexternalmeans. Atthetech-
+possibleimprovementstothehealthsystem. Fromourcitizen’s
+nicallevel,weshouldbuildmultidimensionaldataaggregation
+view,theapplicationofdigitaltechnologytocontrolthespread
+and drive business collaboration digital platforms [24]. At
+ofCOVID-19isnecessaryandcriticalinChinaalthoughithas
+the system level, a unified framework should be formed for
+been criticised by Western medias. Furthermore, the digital
+horizontalmultidepartmentjointconstructionprojects. Verti-
+approachhascontributedtotracingclosecontacts,savinglives
+caljointconstructionprojectsbetweenthecentralgovernment
+andslowingthespreadofCOVID-19. Ascitizensaffected,our
+andlocalgovernmentsmustbecoordinated[15].
+personalprivacymighthavetobesacrificedintheprocessof
+trackingthisdisease. Therefore,itiscrucialtofindtheoptimal
+4.3 Broadenthegrassrootscommunity
+balance to control the pandemic without major economic or
+governance
+personalsacrifices.
+Refined governance is the future trend of social governance.
+Refined governance must realize not only the transformation
+AUTHOR CONTRIBUTIONS
+of governance units from the macro to the micro level but
+also the transformation of governance from a resource flow JX—Conceptualization; Writing-original draft; Writing-
+to a data sharing model [4]. Therefore, communities must reviewing & editing; Funding acquisition; RZ—
+be considered the last mile of collaborative governance to Conceptualization; Writing-original draft; Writing-reviewing
+bring services to local communities [5]. In practice, first, &editing;Supervision.
+weshouldbeskilledatusingdigitaltechnologiessuchasbig
+datatoestablishadigitalofficesystemthatisinterconnected
+ETHICS APPROVAL AND CONSENT TO
+between rural areas and communities, townships and streets
+and we should expand this system to public service fields PARTICIPATE
+related to health. Second, we should change the means of Notapplicable.
+collecting grassroots data from traditional means of tabular
+collection to digital means of intelligent apps [13]. Third,
+109
+ACKNOWLEDGMENT Employees’RolesinServiceOrganizations.JournalofServiceResearch.
+2000;3:66–81.
+Thankstoallthepeerreviewersfortheiropinionsandsugges- [16] Sun J. Precise efforts and proactive actions to give full play to the
+tions. key role of big data applications in pandemic prevention and control
+[EB/OL].2020.Availableat:https://www.chinathinktanks.org.
+cn/content/detail/id/l1xtkp51(Accessed:2November2021).
+FUNDING [17] BeaunoyerE,DupéréS,GuittonMJ.COVID-19anddigitalinequalities:
+Reciprocal impacts and mitigation strategies. Computers in Human
+This research was funded by the Research Innovation Pro- Behavior.2020;111:106424.
+gramforCollegeGraduatesofJiangsuProvince,grantnumber [18] Kwok AH, Becker J, Paton D, Hudson-Doyle E, Johnston D. Stake-
+KYZZ_0158. holders’ Perspectives of Social Capital in Informing the Development
+of Neighborhood-Based Disaster Resilience Measurements. Journal of
+AppliedSocialScience.2019;13:26–57.
+[19] Hassounah M, Raheel H, Alhefzi M. Digital Response During the
+CONFLICT OF INTEREST
+COVID-19 Pandemic in Saudi Arabia. Journal of Medical Internet
+Theauthorsdeclarenoconflictofinterest. Research.2020;22:e19338.
+[20] HeW,ZhangZ,LiW.Informationtechnologysolutions,challenges,and
+suggestionsfortacklingtheCOVID-19pandemic.InternationalJournal
+ofInformationManagement.2021;57:102287.
+REFERENCES
+[21] IntawongK,OlsonD,ChariyalertsakS.Applicationtechnologytofight
+[1] Xing C, Zhang R. COVID-19 in China: Responses, Challenges and theCOVID-19pandemic:LessonslearnedinThailand.Biochemicaland
+ImplicationsfortheHealthSystem.Healthcare.2021;9:82. BiophysicalResearchCommunications.2021;534:830–836.
+[2] Zhang J, Zhang R. COVID-19 in China: Power, Transparency and [22] Sun Z, Cheng X, Zhang R, Yang B. Factors Influencing Rumour Re-
+GovernanceinPublicHealthCrisis.Healthcare.2020;8:288. Spreading in a Public Health Crisis by the Middle-Aged and Elderly
+[3] YuanB,JianW,HeL,WangB,BalabanovaD.Theroleofhealthsystem Populations.InternationalJournalofEnvironmentalResearchandPublic
+governanceinstrengtheningtheruralhealthinsurancesysteminChina. Health.2020;17:6542.
+InternationalJournalforEquityinHealth.2017;16:44. [23] SunZ,YangB,ZhangR,ChengX.InfluencingFactorsofUnderstanding
+[4] QiaoY,SunZ.Onactivegovernment-acomparativestudyofgovernment COVID-19RisksandCopingBehaviorsamongtheElderlyPopulation.
+models under market economy conditions. Journal of Jiangnan Social InternationalJournalofEnvironmentalResearchandPublicHealth.2020;
+University.2001;02:33–37. 17:5889.
+[5] LingJ,HouC.From“activegovernment”to“self-controlgovernment”: [24] PapouliE,ChatzifotiouS,TsairidisC.Theuseofdigitaltechnologyat
+theportraitofgovernmentinmodernuniversitygovernanceinthenew homeduringtheCOVID-19outbreak:Viewsofsocialworkstudentsin
+era.FudanEducationForum.2020;18:32–38. Greece.SocialWorkEducation.2020;39:1107–1115.
+[6] BurkiT.China’ssuccessfulcontrolofCOVID-19.TheLancetInfectious [25] ShahSGS,NoguerasD,vanWoerdenHC,KiparoglouV.TheCOVID-19
+Diseases.2020;20:1240–1241. Pandemic:APandemicofLockdownLonelinessandtheRoleofDigital
+[7] GuoX,LiuB.WinningFast:TheNationalGovernanceSysteminCrisis Technology.JournalofMedicalInternetResearch.2020;22:e22287.
+Management——TakingtheresponsetotheCOVID-19pandemicasan [26] TingDSW,CarinL,DzauV,WongTY.DigitaltechnologyandCOVID-
+example.ZhongzhouAcademicJournal.2020;04:10–19.(InChinese) 19.NatureMedicine.2020;26:459–461.
+[8] CecchettoC,AielloM,GentiliC,IontaS,OsimoSA.Increasedemotional [27] Vargo D, Zhu L, Benwell B, Yan Z. Digital technology use during
+eatingduringCOVID-19associatedwithlockdown,psychologicaland COVID‐19pandemic: Arapidreview.HumanBehaviorandEmerging
+socialdistress.Appetite.2021;160:105122. Technologies.2021;3:13–24.
+[9] Osimo SA, Aiello M, Gentili C, Ionta S, Cecchetto C. The Influence [28] Wang J, Zhang R. COVID-19 in Rural China: Features, Challenges
+of Personality, Resilience, and Alexithymia on Mental Health During andImplicationsfortheHealthcareSystem.JournalofMultidisciplinary
+COVID-19Pandemic.FrontiersinPsychology.2021;12:630751. Healthcare.2021;14:1045–1051.
+[10] PanX.Applicationofpersonal-orienteddigitaltechnologyinpreventing [29] WhitelawS,MamasMA,TopolE,VanSpallHGC.Applicationsofdigital
+transmission of COVID-19, China. Irish Journal of Medical Science technologyinCOVID-19pandemicplanningandresponse.TheLancet
+(1971-).2020;189:1145–1146. DigitalHealth.2020;2:e435–e440.
+[11] Kapoor A, Guha S, Kanti Das M, Goswami KC, Yadav R. Digital [30] HopmanJ,AllegranziB,MehtarS.ManagingCOVID-19inLow-and
+healthcare: the only solution for better healthcare during COVID-19 Middle-IncomeCountries.JournaloftheAmericanMedicalAssociation.
+pandemic?IndianHeartJournal.2020;72:61–64. 2020;323:1549.
+[12] YeZ,WangL,TianH.Digitalgovernmentanddatagovernancefromthe [31] AhmadAR,MuradHR.TheImpactofSocialMediaonPanicduring
+perspectiveofgovernmentresponsibilitysystemconstruction.Chinese theCOVID-19PandemicinIraqiKurdistan:OnlineQuestionnaireStudy.
+Administration.2018;7:57–62. JournalofMedicalInternetResearch.2020;22:e19556.
+[13] MurrayCJL,AlamroNMS,HwangH,LeeU.Digitalpublichealthand
+COVID-19.TheLancetPublicHealth.2020;5:e469–e470.
+Howtocitethisarticle:JianliangXiao,RuilianZhang.Digital
+[14] ChengYD,YuJ,ShenY,HuangB.CoproducingResponsestoCOVID
+technologytocontrolCOVID-19inChina:issues,challengesand
+‐19 with Community‐Based Organizations: Lessons from Zhejiang
+implicationsforthehealthcaresystem.SignaVitae.2022;18(6):
+Province,China.PublicAdministrationReview.2020;80:866–873.
+103-109.doi:10.22514/sv.2021.229.
+[15] ChebatJ,KolliasP.TheImpactofEmpowermentonCustomerContact

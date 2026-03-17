@@ -1,0 +1,652 @@
+Available online at www.ijournalse.org
+Emerging Science Journal
+(ISSN: 2610-9182)
+Vol. 8, No. 1, February, 2024
+Digital Transformation of EU Customs: eCommerce VAT
+Legislation and a Proposed Customs Clearance Application
+Irene Gkoni 1, 2, Maria Rigou 2 , Georgios Thanasas 2* , Stefanos Balaskas 2
+1 Directorate for Digital Transformation & Digital Competencies, GRNET, Athens, Greece.
+2 Department of Management Science and Technology, University of Patras, Patras, Greece.
+Keywords:
+Abstract
+eCommerce; VAT;
+In the digital world, borders between countries are fading, and many people keep making more and
+Cross-Border;
+more online purchases, often from offshore vendors. Cross-border e-commerce is a game-changer
+Import Declarations;
+for international trade but poses serious challenges for traditional customs procedures. As the
+number of parcels continues to grow rapidly, customs authorities around the world strive to balance EU Customs;
+between effective revenue collection, trade facilitation, and proper safety controls. At the EU level, Information Systems;
+significant revenue losses and competition distortion have led to changes in VAT rules with a key
+Digital Transformation.
+policy objective to fight tax fraud in e-commerce and reduce the administrative burden of VAT
+collection. The VAT e-commerce package that came into force on July 1, 2021, includes measures
+on imports of low-value goods from third countries. The adopted solution imposes liability on digital
+platforms that play a crucial role in the rise of B2C internet sales. This article provides an overview
+of e-commerce global trends and challenges, international organizations’ initiatives, emerging Article History:
+technology pilots, as well as best practices. It also offers a critical description of the new EU VAT
+provisions that have a severe effect on customs. Moreover, it describes the design, functional, and Received: 10 October 2023
+interoperability specifications of a proposed web-based application that enables buyers to lodge Revised: 03 January 2024
+customs declarations themselves, aiming for improved transparency on import-related charges and
+more effective e-government at a more general level through the digital transformation of customs Accepted: 11 January 2024
+clearance.
+Published: 01 February 2024
+1- Introduction
+Information and communication technologies are fundamentally changing our daily lives, the way we work and do
+business, how we move, communicate, and relate to each other. Social media interaction, e-commerce and all kinds of
+digital services are steadily transforming our world. E-commerce is at the heart of the internet and is transforming
+commerce globally as it grows four times faster than the global economy, as reported by the World Bank [1]. Consumers
+from all countries choose cross-border online shopping mainly for reasons related to better product availability, wider
+product range, attractive prices, trust in the brand and the reliability of the online store [2]. One of the main benefits of
+e-commerce is that it brings customers and sellers in direct interaction with each other, while digital platforms which
+facilitate online sales allow smaller businesses to effectively reach millions of consumers in a global marketplace.
+It is necessary to clarify that when importing goods both the VAT and the corresponding duties are mainly collected
+by customs authorities. This is true in most countries of the world. There are no customs formalities for transactions
+within the single market of the European Union, thus import of goods for the EU countries means receiving goods from
+* CONTACT: thanasasgeo@upatras.gr
+DOI: http://dx.doi.org/10.28991/ESJ-2024-08-01-024
+© 2024 by the authors. Licensee ESJ, Italy. This is an open access article under the terms and conditions of the Creative
+Commons Attribution (CC-BY) license (https://creativecommons.org/licenses/by/4.0/).
+Page | 341
+Emerging Science Journal | Vol. 8, No. 1
+third (non-EU) countries. In addition, customs authorities at import are entrusted with many other critical functions, such
+as legal trade facilitation, anti-smuggling enforcement of intellectual property laws and, above all, protection of health,
+cultural heritage, the environment and nature through product safety and compliance controls [3].
+Crossing a parcel across the borders involves a series of steps, from preparing and submitting the necessary
+commercial documents to customs clearance. The more complex the customs authorities' procedures are, the more
+difficult it is to clear the ever-increasing volumes of parcels. For fast customs clearance of a package, information about
+the consignor, the recipient, the country of dispatch and its contents are of great importance. The specific information is
+particularly important both for the purposes of public revenue collection (duties and taxes), as well as for conducting
+effective safety and security controls. Information quality issues remain major challenges for customs authorities. E-
+commerce, inherently time-sensitive (on-time delivery, fast turnaround), leverages advanced technology in both logistics
+and large-volume data management, unlike traditional forms of trade. Consequently, an opportunity is provided for
+customs authorities to potentially exploit this information and technologies to their advantage. The EU-mandated
+solution imposes liability on digital platforms that play a key role in increasing B2C online sales.
+The topic of digitally transforming customs’ operations has attracted the interest of both the technological and the
+policy-making audiences working in the customs domain. Related research has delved into both related technologies and
+how they can be deployed and organizational changes that need to occur so that customs can move to the digital age
+without the burdens imposed by bureaucratic processes. Smith [4] highlights the importance of data and its relevance in
+modern customs operations, as they play a central role to a proactive customs that can conduct intelligent targeting and
+make decisions based on evidence. Ababneh et al. [5] emphasize the positive impact of blockchain technology on
+Jordan's sustainable supply chains and stress the importance of efficient customs port practices. Adherence to
+environmental standards enhances the success of blockchain in achieving sustainability goals, while technology skills
+are crucial for promoting sustainability in customs ports. Tsolakis et al. [6] highlight the essential roles of artificial
+intelligence (AI) and blockchain technology in managing digital supply chains, with their impact on sustainability and
+data monetization contingent on stakeholder-defined parameters. The convergence of digitization, AI, and other digital
+technologies in customs intelligence has the potential to positively reshape supply chains, enhancing productivity,
+reducing environmental impact, improving security, and generating financial gains [7].
+This study provides an overview of global e-commerce trends and challenges, the legislative and policy initiatives of
+international organizations, pilot applications of emerging technologies, as well as best practices. The focus is on the
+new EU VAT provisions, which have serious implications for customs. To this end, the article proposes a usable web-
+based application design that allows buyers to self-declare their consignment to customs with the aim of improving
+transparency on import-related charges and enhancing e-governance in general. In addition, the study concludes with
+interoperability consideration so that such a system can be effectively integrated in the wider technological infrastructure
+of the digital services of the Greek government and the existing information systems operated by Customs personnel.
+The study concludes by highlighting the foreseen technological trends able to foster the smooth transformation of
+Customs’ offices to the digital era.
+2- Related Work
+2-1- The Challenges for Tax and Customs Authorities
+The sheer volume of e-commerce micro-parcels poses certain challenges for tax and Customs authorities, who are
+called upon to deal with the fiscal and non-fiscal risks inherent in such imports. From a tax point of view, in principle,
+it is difficult to enforce the tax rules as the true value of each micro-parcel can only be verified by physical inspection
+and at the same time the fiscal impact per item is negligible, given that the majority of e-commerce shipments are of low
+value: below of €100 in 85% of cases, according to the IPC annual survey for 2020 [8].
+In addition, the ability to connect smaller and larger businesses as well as non-entrepreneurs with customers around
+the world, through digital platforms that facilitate online sales, undoubtedly puts the traditional rules of VAT
+enforcement and collection to the test, as Scarcella argues [9]. Especially the existence of platforms that facilitate C2C
+transactions, allowing private individuals to turn into entrepreneurs (since they are in fact carrying out commercial
+transactions) have made it much more difficult to determine the person who is liable for the tax. In addition, the
+opportunity to exploit the online market and take advantage of the discrepancies among States allowed new tax evasion
+and avoidance schemes, which consequently resulted in a discrimination towards traditional businesses.
+On the Customs side, the range of Customs operations is broadened from the processing and control of large sea and
+road cargo (mainly in containers but also in bulk), to the management of many small consignments of low value and
+weight, the majority of which are transported by air, without a corresponding increase in the available control resources.
+Based on research carried out in 2017 by the World Customs Organization, the main challenges identified by Customs
+administrations in Europe, regarding the facilitation of Customs clearance of parcels are the manual procedures of postal
+operators, insufficient information on parcels, shortages in human resources and undervaluation [10].
+Page | 342
+Emerging Science Journal | Vol. 8, No. 1
+Generally, cross-border shipments, whether from e-commerce or traditional business transactions, are subject to VAT
+and import duties, unless exempted by special provision. The level of import duties is linked to the category of goods,
+country of origin and their value. The average tariff rates for cargo originating outside the EU Customs union range
+between 2 and 13%. Also, import VAT is directly linked to the category and value of the goods and is calculated on the
+Customs value and duties. VAT is levied on certain goods imported from countries outside the EU and when they are
+imported into one EU country via another.
+To achieve an ideal balance between the cost of calculation and the benefit of collecting Customs duties and VAT,
+minimum duty, and VAT exemption thresholds, the so-called de minimis thresholds, have been established in most
+countries of the world. The rationale for establishing the thresholds is that in the case of low-value goods, the
+administrative cost of enforcing the tax exceeds the actual amount of the tax. Indeed, the calculation and collection of
+VAT and import duties entails additional costs not only for Customs and tax authorities, but also for economic operators
+in the supply chain, importers, and consumers. In addition, it causes time delays with an impact on the cost of goods.
+Consequently, the application of de minimis thresholds is estimated to reduce costs for all parties involved, while
+improving the rapid flow of goods [11].
+In the EU, relief from import duties is granted to all goods of negligible value, the total value of which does not
+exceed €150 per consignment, in accordance with article 23 (1) of Regulation 1186/2009 (L 324/10 -12-2009) setting
+up a community system of reliefs from Customs duty. Regarding VAT, before the implementation of the new e-
+commerce VAT legislative package effective from 1 July 2021, it was possible for member states to grant an exemption
+for imported goods with a value between 10 and 22 euros, according to the provisions of Directive 2009/132/EC, (L
+292/10-11-2009). In most M-S, though, the upper limit of 22 euros applied [11, 12].
+However, in recent years, the aforementioned thresholds for imports of low-value goods have become increasingly
+controversial and need to be reviewed under the light of the growing digital economy, as data suggest that imports of
+low-value goods account for the vast majority of e-commerce packages reaching the borders and pose increasingly
+significant logistical challenges for Customs authorities to process [9, 13].
+2-2- OECD Collection Models
+The Organization for Economic Co-operation and Development (OECD) is made up of the 38 most developed
+countries, with a significant influence on global economic development. As early as 2015, the OECD examined the
+impact of e-commerce on taxation in the Base Erosion and Profit Shifting (BEPS) Action Plan agreed with the twenty
+largest economies (G20). With a view to reducing the administrative cost of VAT collection, the report explores, inter
+alia, four import VAT collection models for duty-free imports: the traditional model, the purchaser model, the vendor
+model and the intermediary model. The distinction between these collection models is essentially based on the person
+liable to account for the VAT. Building on the conclusions of this report, the OECD further proceeded to an in-depth
+analysis of the liability that digital platforms can assume and in 2019 published a report entitled "The role of digital
+platforms in the collection of VAT on online sales", which provides practical guidance to tax administrations on the
+design and implementation of relevant measures [14]. In particular, the report analyzes the full-VAT liability model for
+platforms while emphasizing data sharing and enhanced cooperation between tax authorities and digital platforms. The
+main points of this model are the following [3, 14]:
+• The time when the tax liability arises (taxing point) is defined as the time when the payment is accepted.
+• Two possible scenarios are conceivable for the practical process of collecting and remitting the VAT. The main
+distinction is between the scenario where the customer pays the VAT-inclusive price to the platform and the
+scenario where the customer pays directly to the supplier. When the customer pays the purchase price inclusive of
+VAT through the digital platform, the digital platform will in principle remit the VAT component to the tax
+authorities in the taxing jurisdiction and the balance (sales price minus any fees and commissions) to the underlying
+supplier. If the customer pays the purchase price inclusive of VAT directly to the underlying supplier, the digital
+platform will need to recuperate the VAT component from the supplier (plus any fees and commissions).
+• Proper interaction of such a simplified tax registration and compliance regime with Customs processes and systems
+should be ensured. At this point the OECD proposes that the registration of a digital platform in a taxing jurisdiction
+that forms part of a group of countries bound by a common tax and/or Customs framework (e.g. the European
+Union) could be further facilitated through a "one-stop-shop" arrangement. Under such an arrangement, the digital
+platform could register in one member state to fulfil its compliance obligations under the full VAT liability regime
+in all member countries, including remitting the tax in the country of registration followed by a transfer of the tax
+to the country of registration to the country of consumption (e.g. the country of final destination of the imported
+item).
+• A key advantage of the full liability model is that the Customs authorities intervene less or not at all in the collection
+processes for low-value imports that are not subject to Customs duties, since digital platforms are responsible for
+Page | 343
+Emerging Science Journal | Vol. 8, No. 1
+collecting and remitting VAT. As a result, collection costs (administrative costs) will decrease, allowing Customs
+authorities to use the saved resources for other key tasks, such as security controls, illicit and counterfeit products,
+health protection and the fight against undervaluation, as Scarcella [9] points out.
+• However, the implementation of the full liability model requires adjustments to tax and Customs procedures as
+well as to the systems of the economic operators involved (digital platforms) to ensure effective VAT collection
+[3].
+As a necessary safeguard for the successful operation of the collection model by the platforms and the minimization
+of the risk of double taxation, i.e. paying it both at the time of online sale and at importation, Battiau [15] recognizes the
+timely exchange of information needed throughout supply and delivery process, primarily via the exchange of pre-arrival
+electronic data (electronic advance data-EAD) with Customs authorities.
+2-3- Case Studies
+This section selectively presents some case studies of countries that have implemented innovative policies regarding
+the management of cross-border e-commerce and are included in the WCO Compendium of Case Studies on E-
+Commerce. They can be considered as best practices either in terms of taxation (Australia) or in harnessing emerging
+technologies for Customs control and data sharing (China, Korea).
+Since 1 July 2018 Australia has implemented the vendor model to collect goods and services tax (GST) on "low
+value" imported goods, i.e., those whose value does not exceed AUD 1,000. This collection model requires certain
+suppliers, including platforms, merchants, and re-distributors to register in order to collect and remit GST on low-value
+goods sold to consumers in Australia (B2C transactions only). The taxing point is the moment of the online sale and not
+the importation of the goods (excluding alcohol and tobacco products). As for the success of the model, based on official
+statistics published in the WCO Case Study Collection [16], the net GST revenue collected from low value imported
+goods was AUD 348 million in 2018-2019. This amount significantly exceeded the initial projection of AUD 70 million
+over the first year of the measure.
+After years of extensive research and leveraging the WCO toolbox in its strategic planning, China's Customs
+administration has developed a mechanism to obtain EAD for all inbound cross-border e-commerce items, regardless of
+value, directly from the source and in real time. This model, according to the WCO Compendium of Case Studies on E-
+Commerce, is a best practice in big data analysis and more effective risk management. The mechanism relies on the
+cooperation of all parties that play an active role in cross-border e-commerce and balances the two countervailing forces:
+Customs control on one hand and trade facilitation on the other, without compromising the existing institutional
+framework for the protection of personal data [16]. Most importantly, automated checks and cross-checks of data
+collected from all sources are performed at the individual transaction level, e.g., for each item the taxable value is the
+actual transaction value derived from the payment amount and cross-checked against the order details. When
+discrepancies occur, a risk is identified by the system and specific shipments are indicated for control (physical
+inspection). By applying big data analytics technology, China Customs has been able to improve the effectiveness of
+risk analysis, traceability, ex-post control and anti-smuggling.
+Korea Customs Service (KCS) has in recent years been leveraging emerging technologies: blockchain, artificial
+intelligence and big data analytics to improve the targeting of controls on e-commerce items. In the blockchain system,
+all parties to a transaction or nodes, i.e., sellers, courier companies, delivery service providers and Customs brokers, send
+their information (block of data) directly to the Customs authority in real time. The use of blockchain helps to reduce
+controls on low-risk consignments, thus facilitating the overall Customs clearance process. Also, a lesson learned from
+the pilot project is that the initial investment cost for the installation and operation of the private blockchain is higher
+compared to other types of data exchange systems as a dedicated server and specialized experts were required. In
+conclusion, according to Choi [17], before choosing a blockchain solution, it is important to consider issues such as
+maintenance, data privacy, sustainability and scalability. Regarding the adoption of artificial intelligence in image
+processing, Choi reports that KCS is working on the development of algorithms that will allow scanners to identify
+objects, link to the automated risk analysis system and display the identity of objects over the scanned image to assist
+image analysts. Finally, KCS is leveraging big data analytics to compare retail prices of goods provided by a digital
+platform with the corresponding values declared for the same goods on Customs declarations. This method detects any
+undervaluation and speeds up the Customs clearance process for shipments that do not show a significant discrepancy.
+2-4- The European Context
+At EU level, significant revenue losses and distortion of competition have led to the modernization of VAT rules with
+the main objective of combating tax fraud in e-commerce and reducing the administrative burden of VAT collection.
+The VAT e-commerce legislative package that entered into force on July 1st, 2021 includes measures for the importation
+of low value consignments - up to €150 from third countries. In particular, the following changes were introduced:
+Page | 344
+Emerging Science Journal | Vol. 8, No. 1
+1. The VAT exemption for imports of goods with a value of up to €22 is abolished, so that all imports of goods,
+regardless of value, are subject to VAT. It should be noted that the abolition of the VAT threshold does not affect
+the duty relief for goods up to a value of €150, which remains in force.
+2. Two new special VAT schemes on import are established:
+i. Special regime for distance sales of goods imported from third countries with payment of the tax through the
+import one-stop-shop (IOSS) by the vendor or an intermediary on behalf of the vendor (vendor collection
+model). The vendor of the goods (located inside or outside the Union) is liable for VAT. In cases where a digital
+platform facilitates the online sale of goods, it becomes liable to pay the tax. According to Papis-Almansa [13],
+the IOSS model adopted by the EU corresponds to the full-VAT liability regime proposed by the OECD
+(presented in section 2-2 above) for the imposition of obligations on platforms, with a key policy focus on
+reducing the costs and risks for tax authorities of VAT administration, enforcement and collection (Figure 1).
+Figure 1. IOSS process overview [18]
+ii. Special arrangements for declaration and payment of import VAT, with payment of the tax to the Customs
+authorities (traditional Customs model). The person responsible for paying the tax is the person for whom the
+goods are intended (consignee of the parcel). However, VAT is paid, on behalf of the final consignee, by the
+person presenting the goods to Customs, usually international courier companies and postal operators, with an
+option for deferred payment (until the 16th of next month).
+It is clarified that regardless of the tax scheme that will be chosen, Customs import formalities are compulsory and
+private consumers are charged the VAT rate applicable in their country, normal or reduced, depending on the item. An
+obligation to submit a declaration for release into free circulation for each consignment (parcel/small package) is
+therefore introduced. To enable the smooth application of VAT rules in cross-border e-commerce, the Customs
+provisions concerning the importation of low-value consignments were adapted accordingly.
+Recognizing the expected exponential increase in the volume of micro parcels that are now subject to Customs import
+formalities and VAT collection, the European Commission has established a new declaration - the so-called "super-
+reduced" data set H7 dataset) for goods valued up to €150. The Independent Authority for Public Revenue in Greece
+(IAPR) implemented the new declaration, with the possibility of submitting it before the arrival of the goods, to the
+Imports Subsystem of the ICISnet integrated Customs IT system. Thus, from 1/7/2021, the use of the H7 declaration
+was established for the Customs clearance of goods with a value up to the amount of €150, with the aim of facilitating
+the implementation of the Customs aspects of the VAT e-commerce package of measures, in the form of (i) pre-arrival
+declaration – type D lodged before the arrival of the goods, with the aim of faster processing of Customs import
+formalities and the immediate release of small parcels and (ii) full declaration – type A lodged upon presentation of the
+goods. Pre-arrival data is currently available mainly for goods transported via courier companies, while its availability
+is gradually improving for goods transported via postal operators (Figure 2).
+Page | 345
+Emerging Science Journal | Vol. 8, No. 1
+Figure 2. Special arrangement process overview [18]
+In general, and apart from a few problems during the initial period, the implementation of the new rules progressed
+smoothly [19]. Despite late implementation in their systems, Member States reported no significant difficulties to the
+Commission.
+3- Proposed Design of myParcel Application
+Τhis section discusses the key features of the proposed Customs clearance application named myParcel, which will
+allow users in Greece to self-declare shipments worth up to 150 euros, whether they are B2C or C2C, subject to Customs
+formalities (self-declaring application). The aim of myParcel is to allow users to complete Customs clearance and VAT
+payment online without the need for physical presence at the Customs office. The recent years after COVID, people are
+used to the transformation of traditional face-to-face transactions into their online equivalents that allow the flexibility
+of 14x7 availability, convenience, and speed. The acceptance of such changes is evidently high in various e-government
+sectors [20]. Such a system must comply with usability and accessibility standards so that users can simply follow the
+instructions to fill out the online forms without requiring any pre-existing knowledge. Moreover, it is crucial to make
+sure that the system is displayed correctly and operates smoothly on PC and mobile devices (tablets and smartphones).
+The system is proposed to be integrated into the range of services provided to citizens by the central Greek government
+portal available at https://www.gov.gr/.
+The proposed app will improve transparency and citizens will avoid the unexpected additional Customs clearance
+charges imposed by transport companies, which often cause protests, as they tend to be disproportionate to the value of
+the goods. The volume of returned goods (due to the refusal of consignees to accept them) is also reduced. The possibility
+for the consignees to submit the declaration directly would significantly reduce both the delivery time and the workload
+of the postal operator, especially in cases they lack pre-arrival data. At the same time, by providing high quality digital
+services to citizens, with a focus on usability, digital governance and citizens' trust in the state is enhanced. The overall
+feeling from using this self-declaring application is that Customs are now aligning with the global trend of using
+technology as a driver to promote efficiency and growth within public services.
+3-1- Methodological Approach
+The current study applied an 8-steps methodology comprising theoretical research and practical application phases
+(Figure 3). More specifically, the study began with a desk research for collecting information on the related EU
+legislative framework and the VAT rules for cross-border e-commerce. Then, a second desk research was conducted to
+gather case studies of Customs offices that already made the shift to becoming digital with a focus on identifying best
+practices. The next 3 steps concerned the definition of the necessary steps in the process of self-declaring low-value
+goods bought online from non-EU countries. After the steps identification, the design and implementation of the
+interactive graphical user interface (GUI) mockups for the proposed application took place, which also included the
+selection of a prototyping tool. Along with the mockups design we defined the required interoperability aspects of the
+system and in the last step we conducted with a desk research to identify future technological trends foreseen for the
+Customs Offices’ domain.
+Page | 346
+Emerging Science Journal | Vol. 8, No. 1
+Definition of
+Desk research Definition of Interactivity and interope-
+Design layout Desk research
+for EU Desk research Definition of screens flow usability rabillity
+and style for for identifying
+legislation and for identifying self-declaration and design of assessement of considera-tions
+myParcel future technolo-
+Customs best practices process steps wireframes for myParcel (internal and
+screens gical directions
+processes myParcel prototype external
+systems)
+Figure 3. Methodological approach
+3-2- Design Considerations
+The requirements and assumptions taken into consideration when designing myParcel are as follows:
+(1) Carriers engaged in cross-border e-commerce (ELTA and courier companies) will communicate with each
+recipient as soon as the shipment arrives and before proceeding with the clearance on their behalf. It is proposed
+to send a standardized message called "Notice of Arrival," which contains essential information required for
+filling out the clearance form in myParcel, including the parcel tracking number, reference number of the
+previous document, item number, and shipment weight (in kilograms).
+(2) There should be a published list of excluded categories of goods that cannot be cleared through this process (i.e.
+using myParcel), such as excise products (tobacco, electronic cigarettes, etc.), and goods subject to restrictions
+or prohibitions, such as plant seeds, drugs, cultural items, weapons, and furs.
+(3) User authentication will be done using TAXISnet credentials (following the single sign-on principle), thus users
+will not have to fill-in personal details (VAT number, residential address) already available in the taxpayers'
+registry. Users will only need to enter their mobile phone number and email address in case they need to
+communicate with the Customs office.
+(4) For simplicity, it is assumed that the recipient who submits the declaration is also the declarant. However, if
+deemed necessary by Greek Customs authorities during implementation, a checkbox for confirmation of dual
+roles could be added in the system along with the option to also foster other conditions.
+(5) Submitting the declaration implies accepting responsibility for the accuracy and completeness of the information
+provided. If in the Customs authorities' inspection, inaccuracies or violations are detected, the penalties
+prescribed by the National Customs Code (Law 2960/2001, as amended) will apply.
+(6) The proposed application does not allow the user to amend or invalidate the declaration after VAT payment, as
+this could disrupt the delivery of packages by postal providers. The right to make changes could be exercised at
+the Customs office, and inclusion in the application requires further examination.
+(7) The application must incorporate all necessary functions for secure data storage and management to protect data
+at every level. It should be fully compliant with the General Data Protection Regulation (GDPR), and necessary
+encryption, authentication, and protection against malicious programs must be implemented.
+(8) myParcel will offer the option for direct payment using the electronic payment code RF (supported by IAPR) or
+a card payment through the ePOS application. The widespread use of direct payments is expected to facilitate
+citizens' daily interactions with the government and enhance its efficiency.
+Apart from the functional design considerations, myParcel also adheres to usability design principles and guidelines,
+as it is an application that will be used by the general population and its design should offer effectiveness, efficiency,
+learnability, and error tolerance [21, 22]. To this end, the steps of self-declaration process where thoroughly studied and
+a sequence of 5 main screen was designed, with each screen asking for information about a discrete part of the process.
+Screens share the same layout, same navigation buttons at stable places, a steps bar at the top where the current step is
+clearly indicated, short help texts where needed (in yellow highlight) and “i” buttons for more details on specific fields.
+User control and freedom was prioritized, along with clear system feedback, error avoidance and support to overcome
+them. The design of the system was evaluated by a usability expert who applied heuristic evaluation [23] on the
+interactive screen mockups of the system.
+Page | 347
+Emerging Science Journal | Vol. 8, No. 1
+3-3- myParcel Walkthrough and Functionality
+The submission of the declaration in myParcel will be completed in 5 steps, namely (1) Consignment data, (2)
+Consignor, (3) Goods, (4) Additional Info and (5) VAT calculation (Figure 4). The first 4 steps ask the user in respective
+screens (see Figures 5 and 6) to enter the basic information required for Customs clearance. In the 5th step (see Figure
+7a), the automatic calculation of VAT is displayed without any entry by the user. A progress bar at the top indicates the
+current step of the process. At any time, users have the option to: (a) temporarily save their application for editing at a
+later time (in this case no MRN number is assigned), (b) clear filled fields, (c) exit the application, which puts their
+declaration in a "temporarily saved" state. Users can continue the submission of a temporarily saved declaration by
+selecting "My Declarations" on the initial screen and clicking the edit button for the specific declaration from the
+displayed list.
+The information entered by the user on all screens is based on the H7 dataset with the following fields omitted: (a)
+fields related to the intermediary for Customs clearance (representative, representative identification number, type of
+representation code), (b) technical fields not relevant to citizens (LRN, declaration type), and (c) fields inferred from
+other data, such as the location of goods related to the choice of carrier or supporting documents that do not require their
+details to be declared since they are attached. Also, the "additional status code" field has been omitted, as special
+arrangements do not apply in the case of self-declared consignments, and IOSS is supported by the application. As
+typical, mandatory fields are marked with an asterisk (*) and in all fields that have specific requirements according to
+legislation, there is an "𝑖" button with guidance on how to fill them out.
+In case a user detects an error, there is option to cancel by clicking the "Cancel" button either in step 5 (Figure 7a)
+where the VAT calculation is displayed, or after submission and before payment. This action will terminate the process
+and delete the temporarily saved or completed declaration, thus a confirmation is required where the user is informed
+that a new declaration must be submitted to clear the goods through Customs. In addition, the carrier may need to be
+contacted, as any delay may incur charges such as storage costs. If a user identifies an error after payment, Customs
+assistance will be required.
+Regarding the classification of products with a six-digit HS code and providing an acceptable product description, it
+is suggested to include a smart keyword search feature in the "Description" field (as shown in Figure 6a). On the relevant
+information screen, there will be a link to a classification guide, displaying categories of goods and opening a "tree" of
+choices, following the patterns of “HS Browse & Check” [24], a mobile application designed by WCO to provide
+Customs professionals and international traders with convenient access to the Harmonized System (HS) 2022 [25]. In
+the "Six-digit code" field, the user selects the appropriate code from a dropdown list. To facilitate users, the integration
+of an automated commercial classification solution could also be considered. Since a consignment can contain more than
+one type of goods (e.g., shoes and books) shipped together with the same barcode, the "Goods" tab provides the option
+to add or remove items (refer to Figure 6a).
+The application automatically calculates the VAT due (Figur.e 4). For B2B transactions, it supports both the IOSS
+regime and direct payment of VAT. For C2C transactions, it supports the applicable exemption still in force, in case the
+value of the shipment does not exceed 45 euros. The following operational rules apply concerning the “Shipment type”
+field:
+• If "Online Purchase" is selected and a valid IOSS VAT number is entered in the "Seller's IOSS Number" field,
+an exemption is granted, and no VAT is calculated. The payment process is skipped, and the declaration directly
+transitions to the "Accepted" state without passing through the "Under Payment" state. A prerequisite is for the
+customer to know the seller's IOSS number, typically mentioned on the invoice or order confirmation. Otherwise,
+the customer needs to obtain this information from the seller.
+o Otherwise, if the "Seller's IOSS Number" field is left empty or its validity is not confirmed, the VAT calculation
+is done automatically based on the reference table containing the current VAT rates (standard rate of 24% for
+all products, except for specific products such as books, which have a 6% rate).
+• If "From Private Individual" is selected and the shipment's value is less than 45 euros, no VAT is calculated as
+an exemption is granted.
+o Otherwise (i.e., value more than 45 euros), the automatic VAT calculation is applied as usual.
+• Important fields for calculating the taxable value include the value, the six-digit HS code, and the transportation
+costs, which are declared in a separate field only if they are not included in the good's value and are listed
+separately on the purchase invoice. In cases where the value is specified in a currency other than euro, the
+application automatically converts it based on the exchange rate registered in the Customs system.
+• Users can track the progress of the Customs clearance process through the application by monitoring the status
+of their declaration. Emails are not sent to the declarant unless the competent authority, during the verification
+Page | 348
+Emerging Science Journal | Vol. 8, No. 1
+stage, requires additional information related to the consignment, such as a PayPal payment confirmation. A
+parcel declaration can be in one of the following statuses: Temporarily Saved, Accepted, Not Accepted (changes
+required), Under Payment (if there is an outstanding payment and until it is completed), Under Control, Released,
+Import Not Allowed, or Invalidated. Also, users can access details about their declarations, they can sort them by
+date, carrier, or status. Search filters based on acceptance date (range from... to) or status are also available.
+Figur.e 4. VAT calculation process
+(a) (b)
+Figure 5. myParcel mock-up design for (a) filling in shipment details (consignment data) in step 1 and (b) providing sender
+(consignor) information in step 2 of the process
+(a) (b)
+Figure 6. myParcel mock-up design for (a) filling in goods’ details in step 3 and (b) providing additional information in step
+4 of the process
+Page | 349
+Emerging Science Journal | Vol. 8, No. 1
+(a) (b)
+Figure 7. myParcel mock-up design for (a) displaying the calculated VAT in step 5 of the process and (b) viewing all past
+declarations
+3-4- Process Flow
+The flow of the process follows these steps (Figure 8):
+(1) As soon as the user presses "Submit", a validation check is performed to verify that:
+a. The declaration complies with the formal specifications (checks in the filled-in fields, e.g. that the value of
+the shipment as derived from the sum of the value of items does not exceed 150 euros),
+b. The information submitted with the declaration agrees with data acquired through interoperability of myParcel
+with other internal (Customs) subsystems or external systems of the economic operators involved (validity of
+the IOSS VAT number, barcode and unique identifier of the previous document, payment verification).
+(2) If the validation is successful, the declaration is "Accepted" and assigned a unique MRN (movement reference
+number) and date of acceptance. If there are errors, the declaration is not accepted, does not receive an MRN
+and changes its status to "Not accepted - changes required”.
+(3) The package remains at the "Pending payment" stage until it is cleared through the interbank system. If it is not
+paid within 3 days, it is automatically invalidated, i.e., it changes to "Invalidated" status.
+(4) Once the payment is validated, an automatic risk analysis is performed, and a risk score is assigned.
+(5) If it is indicated for a control, a control command is issued, and it automatically switches to the "Under Control"
+state.
+(6) After the control (inspection) is complete and is successful (or if it was initially classified as low risk), it goes
+to "Released" status. The user is waiting for the package to be delivered by the carrier.
+a. If the control concludes that the import is not allowed (e.g., the package contains prohibited items or
+counterfeit products), the Customs procedure is stopped and the declaration changes to "Import not allowed"
+status. Further management is done outside the application.
+Submission Acceptance Payment Risk Control (upon Release
+Analysis customs' decision)
+Figure 8. The flow of the process
+3-5- Interoperability with Internal and External Systems
+An important advantage of web services is their reusability. For the proper functioning of myParcel application, it is
+necessary to ensure interoperability with both internal (administrative) and external systems. At the level of internal
+interoperability, myParcel will connect with the existing infrastructure of the General Secretariat for Information
+Systems and Digital Governance (oAuth2– Open Authentication Service) for user authentication. For the validation of
+the IOSS VAT number, the application will call the service of the ICISnet's Market Participant Register, which, in turn,
+calls the EU-provided information services for the synchronization of national IOSS databases with the central IOSS-
+DR (distributed registry) through SOAP. In addition, after assigning the MRN (Movement Reference Number), the
+ICISnet's Risk Analysis Subsystem (DSS) will be called to provide the results of risk analysis. Risk analysis is based on
+criteria defined at the national level, followed by an assessment of information/data analysis, as well as fiscal criteria
+and risk standards defined at the EU level to protect the financial interests of the Union and the Member States.
+Page | 350
+Emerging Science Journal | Vol. 8, No. 1
+Regarding interoperability with external systems, myParcel will need to exchange messages with DIAS AE (interbank
+systems) for immediate confirmation of the payment, allowing the progression of the declaration's status. Moreover, the
+system will need to exchange messages with the carrier systems, as it will call the selected provider's external system
+using web services to verify the validity of the barcode and the unique number of the previous document. Upon
+acceptance of the declaration and with any change in its status, myParcel will send a status update message to the carrier's
+system for corresponding updates to its own shipment tracking system and necessary actions.
+myParcel will also require communication with the Surveillance System of the European Commission, for mapping
+the data of the declaration fields with the mandatory elements required for the Surveillance system. Checkbox fields in
+the application will be transformed into codes specified by legislation so that they can be sent in an acceptable format.
+For example, if the user has selected IOSS in the checkbox that represents the type of shipment, it should be transmitted
+as code F48 to the Surveillance System. Additionally, if an IOSS VAT number has been declared, the file sent to the
+Surveillance System should be filled with the FR5 code.
+4- Conclusions
+While electronic commerce facilitates access to global markets, especially for small and medium-sized enterprises,
+Customs authorities worldwide are faced with the challenge of finding a balance between facilitation and effective
+supervision to prevent various tax and non-tax-related risks. As the 'guardians of the borders,' they play a significant but
+challenging role. Consequently, cross-border e-commerce needs to be understood and accepted as a whole, rather than
+an extension to traditional Customs procedures. This approach focuses on finding a balance between Customs control
+and facilitation by using information and communication technology, electronic data, and performance measurement
+indicators to promote compliance with regulations rather than just enforcing them. Given the high volume of e-commerce
+packages entering the EU from various countries around the world, the ability of Customs authorities to electronically
+receive and process data before the arrival of goods is of critical importance.
+This article discusses the implications imposed by current conditions of cross-border e-commerce, which is a game-
+changer for international trade but poses serious challenges for traditional Customs procedures, with the number of
+parcels growing fast. The proposed design of myParcel application aims to provide a usable option for effectively
+implementing the VAT e-commerce package that came into force in July 2021 and concerns measures on imports of
+low-value products bought from third countries. myParcel enables buyers to lodge Customs declaration themselves,
+aiming at improved transparency on import-related charges and more effective e-government in a more general level.
+The methodological approach adapted in this study allowed for gathering necessary information regarding the new
+legislative framework for VAT for cross-border e-commerce and best practices from Customs offices that already
+implemented their digital transformation. The next phase comprised steps for designing the screen wireframes, the
+mockups, as well as the transition between them and as a last step, myParcel design was complemented with
+interoperability requirements and the most prevailing technological trends foreseen for the Customs Offices’ domain.
+Moreover, usability guidelines were taken into consideration when designing the mockups and myParcel interactivity to
+assure its effectiveness, efficiency, learnability, and error tolerance.
+From the above analysis it is evident that a holistic and harmonized Customs approach is required to balance the
+facilitation of new developing trade channels on the one hand and address the associated border risks on the other. In
+this context, the role of international organizations such as the World Customs Organization and the Universal Postal
+Union in developing and disseminating know-how and promoting innovative solutions is particularly important. This
+modern approach focuses on finding a balance between Customs control and citizen facilitation, using information and
+communication technology, data and performance metrics aimed at promoting compliance, not just enforcement. Given
+the high volume of e-commerce packages, the ability of Customs authorities to receive and process electronic data before
+goods arrive, deriving actionable information, is critical. Although this approach has led to significant reforms
+internationally, e-commerce itself and new technologies such as big data analytics, artificial intelligence and blockchain
+have given new impetus to many countries to continue their digital transformation.
+The expected impact of the new VAT rules on imports of low-value goods and the resulting weaknesses have
+preoccupied the academic community and have been the subject of studies by e-commerce consultancies. Despite the
+initial concerns, according to the European Commission, the data on the revenue collected and the acceptance of IOSS
+at EU level during the first half of implementation are quite encouraging. A key problem remains the ongoing
+undervaluation due to poor data quality, which according to the next steps of the EU, includes sending data to Customs
+authorities directly from the "source", i.e., the digital platforms. At the national level, the key issue remains that the
+additional revenue is not offset by the administrative costs of collection, especially when complete electronic data are
+not available and manual Customs procedures are required by the involved bodies handling the consignments (postal
+operators and courier companies) with consequent delivery delays and complaints about additional Customs clearance
+costs. In this light, the development of a user-friendly online application (government service) was proposed, which
+would provide the possibility to submit the declaration-declaration directly by the citizens (recipients) and pay the VAT
+due, according to the standards of the respective government services provided by other Member States. It is estimated
+Page | 351
+Emerging Science Journal | Vol. 8, No. 1
+that it would significantly reduce both the delivery time of low-value items and the workload of postal providers, while
+strengthening digital governance and citizens' sense of trust in the state.
+In May, 2023, the European Commission put forward proposals for the reform of the EU Customs Union [26]. The
+current reform shifts responsibility from individual consumers to online platforms, making them key in ensuring goods
+sold online to the EU comply with Customs obligations. Platforms will now handle Customs duties and VAT during
+purchase, eliminating hidden charges and ensuring purchases align with EU standards. As also proposed by Blegen [27],
+e-commerce platform could handle clearance directly, with full control of supplier access to process, increasing certainty
+for customer in cross-border ordering processes. Detailed parcel data required by Customs would be collected from e-
+commerce platforms which would act as intermediary declarant pre-arrival (as early as transaction confirmation),
+enabling preclearance (green channel treatment) for Customs-approved parcels. This is considered as a realistic
+possibility for EU with platforms selling goods from non-EU countries would also in future be responsible for ensuring
+Customs duties and VAT are paid at purchase [28]. This digital transformation streamlines Customs duty calculation for
+frequently purchased low-value goods from outside the EU, condensing numerous categories to just four. This
+simplification facilitates the calculation of Customs duties for small parcels, aiding platforms and Customs authorities
+in efficiently handling the one billion e-commerce purchases entering the EU annually, while also reducing the risk of
+fraud. Towards the same direction is the aforementioned announcement of the World Customs Organization [24] for the
+launch of the "HS Browse & Check" app designed to offer quick verification of any H.S. code and easy navigation within
+the entire HS 2022. The app provides a user-friendly platform to quickly access the content of HS 2022, including Legal
+Notes, Explanatory Notes, and Classification Opinions.
+Regarding the near future, among the main conclusions of the second WCO Global Conference on Cross-Border e-
+Commerce [29] about the role of new technologies in e-commerce, was that the role of data and their sources is crucial.
+Data can be collected from different sources and will allow Customs authorities to cross-check in real time and when
+the data from different sources does not match, then a control of the goods and transactions (verification of digital
+information) is required. Furthermore, digital transformation strategies and capabilities play a significant role in shaping
+the future of Customs processes. Digital transformation involves using new digital technologies like blockchain and
+smart contracts to enable significant business improvements, streamline operations, and create new business models
+[30]. Considering the proposed Customs clearance application based, it would be essential to explore the potential of
+blockchain in trade supply chain solutions, an approach already adopted by the tourism industry [31]. This exploration
+can provide valuable insights into the design and optimization of blockchain solutions for Customs processes by adopting
+big data technologies [32], aligning with enhancing transparency and efficiency in Customs clearance.
+In addition, digitization as well as technology will play a key role on another level that regards scanning technology
+that allows goods to be screened at strategic points in the supply chain to detect illegal goods upon entry (to ensure that
+illegal goods do not enter the country). But when massive amounts of data are gathered from both digital avenues and
+supply chain controls (data from physical controls), artificial intelligence is essential. The use of artificial intelligence
+will allow Customs authorities to cross-check data coming from digital highways with scans of goods on a continuous
+basis and establish continuous surveillance and control. Legislation should be adapted as it is no longer suitable for e-
+commerce, however this is not easy to implement. The key is to make it transparent, useful and affordable for e-
+commerce stakeholders to provide the required data.
+5- Declarations
+5-1- Author Contributions
+Conceptualization, I.G. and M.R.; software, I.G.; resources, I.G.; writing—original draft preparation, I.G. and M.R.,
+and S.B.; writing—review and editing, M.R. and G.T.; supervision, M.R. All authors have read and agreed to the
+published version of the manuscript.
+5-2- Data Availability Statement
+The data presented in this study are available on request from the corresponding author.
+5-3- Funding
+The authors received no financial support for the research, and authorship of this article. Publication fees were
+covered by ELKE University of Patras.
+5-4- Institutional Review Board Statement
+Not applicable.
+5-5- Informed Consent Statement
+Not applicable.
+Page | 352
+Emerging Science Journal | Vol. 8, No. 1
+5-6- Conflicts of Interest
+The authors declare that there is no conflict of interest regarding the publication of this manuscript. In addition, the
+ethical issues, including plagiarism, informed consent, misconduct, data fabrication and/or falsification, double
+publication and/or submission, and redundancies have been completely observed by the authors.
+6- References
+[1] Huria, A. (2019). Facilitating Trade and Logistics for E-Commerce. Facilitating Trade and Logistics for E-Commerce.
+doi:10.1596/33174.
+[2] DHL. (2016). Electronic Commerce of the 21st Century Opportunities in Cross-Border Trade: DHL. Available online:
+https://www.greekecommerce.gr/wp-content/uploads/2021/03/DHL_Wp_CrossBorder_eCommerce_EL_19052017.pdf
+(accessed on May 2023).
+[3] OECD. (2019). The Role of Digital Platforms in the Collection of VAT/GST on Online Sales. Organisation for Economic Co-
+operation and Development: OECD. doi:10.1787/e0e2dd2d-en.
+[4] Smith, C. B. (2023). Data Culture, the Obstacle to SMART Customs in the Face of Disruptive Innovations – a Jamaican
+Perspective. World Customs Journal, 17(1), 1–13.
+[5] Ababneh, A. M., Almarashdah, M. A., Jebril, I., Al-Zaqeba, M. A. A., & Assaf, N. (2023). Driving sustainable supply chains:
+Blockchain-enabled eco-efficiency for resilient customs ports. Uncertain Supply Chain Management, 11(4), 1719–1734.
+doi:10.5267/j.uscm.2023.6.018.
+[6] Tsolakis, N., Schumacher, R., Dora, M., & Kumar, M. (2023). Artificial intelligence and blockchain implementation in supply
+chains: a pathway to sustainability and data monetisation? Annals of Operations Research, 327(1), 157–210. doi:10.1007/s10479-
+022-04785-2.
+[7] Shubailat, O. M., Al-Zaqeba, M. A. A., Madi, A., & Ababneh, A. M. (2024). Customs intelligence and risk management in
+sustainable supply chain for general customs department logistics. Uncertain Supply Chain Management, 12(1), 387–398.
+doi:10.5267/j.uscm.2023.9.013.
+[8] IPC. (202). IPC Online Shopper Survey 2020 Reports. International Post Corporation. Available online:
+https://www.ipc.be/services/markets-and-regulations/cross-border-shopper-survey/2020 (accessed on May 2023).
+[9] Scarcella, L. (2020). E-commerce and effective VAT/GST enforcement: Can online platforms play a valuable role? Computer
+Law and Security Review, 36, 105371. doi:10.1016/j.clsr.2019.105371.
+[10] González, J. L., & Sorescu, S. (2021). Trade in the Time of Parcels. Organisation for Economic Co-operation and Development:
+OECD. Available online: https://read.oecd.org/10.1787/0faac348-en?format=pdf (accessed on May 2023).
+[11] Hintsa, J., Profile, S., & Ivens, B. (2014). The import VAT and duty de-minimis in the European Union-Where should they be
+and what will be the impact? Cross-border Research Association, Lausanne, Switzerland. Available online: https://www.cross-
+border.org/wp-content/uploads/2015/02/CDS-Report-Jan2015-publishing-final.pdf (accessed on May 2023).
+[12] Vroom, L.L.M. (2018). Modernization of E-commerce Imports into the EU – A Customs and VAT Perspective. Erasmus EFS.
+Available online: https://www.erasmusfiscalstudies.nl/upload/Paper Martijn Vroom.pdf (accessed on May 2023).
+[13] Papis-Almansa, M. (2019). VAT and electronic commerce: the new rules as a means for simplification, combatting fraud and
+creating a more level playing field? ERA Forum, 20(2), 201–223. doi:10.1007/s12027-019-00575-9.
+[14] OECD. (2020). Tax Policy Reforms 2020: OECD and Selected Partner Economies. Organisation for Economic Co-operation
+and Development. Available online: http://www.oecd.org/fr/ctp/tax-policy-reforms-26173433.htm (accessed on May 2023).
+[15] Battiau, P. (2021). Ensuring fair and effective revenue collection through cooperation. WCO Second Global Conference on
+Cross-Border E-Commerce (OECD), 28-29 June 2021, Paris, France. Available online: https://na.eventscloud.com/file_
+uploads/fa680213a4c86cde5e23cc6304d673f1_SE6_2OECD.pdf (accessed on May 2023).
+[16] WCO. (2023). Compendium of case studies on E-Commerce (4th edition). World Customs Organization, June 2023. Available
+online: https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/facilitation/activities-and-programmes/ecommerce/e-
+commerce-compendium_en.pdf (accessed on May 2023).
+[17] Choi, Y. (2021). Blockchain, artificial intelligence and big data: how Korea Customs Service leverages technology to supervise
+e-commerce. WCO News, 96. Available online: https://mag.wcoomd.org/uploads/2021/10/WCO_News_96_October2021.pdf
+(accessed on May 2023).
+[18] European Commission (2022). Importation and Exportation of Low Value Consignments –Vat E-Commerce Package “Guidance
+for Member States and Trade”. European Commission, Revision 2, 1-74. Available online: https://taxation-
+customs.ec.europa.eu/system/files/2022-11/Customs Guidance doc on LVC-Clean-20220915.pdf (accessed on May 2023).
+Page | 353
+Emerging Science Journal | Vol. 8, No. 1
+[19] European Commission. (2021). E-commerce – recent developments, main challenges. Customs 2020 High-Level Seminar on E-
+Commerce – The Way Forward, October13, 2021, Online Event.
+[20] Balaskas, S., Panagiotarou, A., & Rigou, M. (2022). The Influence of Trustworthiness and Technology Acceptance Factors on
+the Usage of e-Government Services during COVID-19: A Case Study of Post COVID-19 Greece. Administrative Sciences,
+12(4), 129. doi:10.3390/admsci12040129.
+[21] Seffah, A., Donyaee, M., Kline, R. B., & Padda, H. K. (2006). Usability measurement and metrics: A consolidated model.
+Software Quality Journal, 14(2), 159–178. doi:10.1007/s11219-006-7600-8.
+[22] Shultz, S., & Hand, M. W. (2015). Usability: A Concept Analysis. Journal of Theory Construction & Testing, 19(2), 65.
+[23] Jackson, F., & Cheng, L. (2018). UX in practice: Applying a heuristic evaluation technique to real world challenges. Proceedings
+of the Human Factors and Ergonomics Society, 2(1), 702–703. doi:10.1177/1541931218621159.
+[24] Bickel, M. (2009). World customs organization. Handbook of Transnational Economic Governance Regimes, 30, 267–278.
+doi:10.1163/ej.9789004163300.i-1081.207.
+[25] WCO. (2022). Harmonized System: WCO Trade Tools. World Customs Organization & OMD. Available online:
+https://www.wcotradetools.org/index.php/en/harmonized-system (accessed on May 2023).
+[26] European Commission. (2023). Taxation and Customs Union: EU Customs Reform. European Commission. Available online:
+https://taxation-customs.ec.europa.eu/customs-4/eu-customs-reform_en (accessed on May 2023).
+[27] Blegen, B. (2023). The E-Commerce Revolution & Cross-Border Goods Clearance: Time for Fundamental Change? Charles
+Sturt University, Bathurst, Australia.
+[28] Blenkinsop, P. (2023). EU seeks to simplify customs system, tighten up on e-commerce. Reuters. Available online:
+https://reuters.com/world/europe/eu-seeks-simplify-customs-system-tighten-up-e-commerce-2023-05-17/ (accessed on May
+2023).
+[29] Vanderwaeren, K. (2021). WCO 2nd Global Online Conference on Cross Border E-Commerce. Federal Public Service Finance.
+Available online: https://na.eventscloud.com/file_uploads/0b18219244e6db8485c103b70469383a_2_SE3_BelgiumDG.pdf
+(accessed on May 2023).
+[30] Gousteris, S., Stamatiou, Y. C., Halkiopoulos, C., Antonopoulou, H., & Kostopoulos, N. (2023). Secure Distributed Cloud
+Storage based on the Blockchain Technology and Smart Contracts. Emerging Science Journal, 7(2), 469–479. doi:10.28991/ESJ-
+2023-07-02-012.
+[31] Halkiopoulos, C., Antonopoulou, H., & Kostopoulos, N. (2023). Integration of Blockchain Technology in Tourism Industry:
+Opportunities and Challenges. Springer Proceedings in Business and Economics, 353–368. doi:10.1007/978-3-031-26829-8_22.
+[32] Theodorakopoulos, L., Halkiopoulos, C., & Papadopoulos, D. (2023). Applying Big Data Technologies in Tourism Industry: A
+Conceptual Analysis. Springer Proceedings in Business and Economics, 337–352. doi:10.1007/978-3-031-26829-8_21.
+Page | 354

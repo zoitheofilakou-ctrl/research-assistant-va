@@ -1,0 +1,546 @@
+JMIR RESEARCH PROTOCOLS Lai et al
+Protocol
+COVID-19 Modifications for Remote Teleassessment and
+Teletraining of a Complementary Alternative Medicine Intervention
+for People With Multiple Sclerosis: Protocol for a Randomized
+Controlled Trial
+Byron Lai1*, MS, PhD; Chia-Ying Chiu2*, MPH; Emily Pounds3*, MS; Tracy Tracy4*, OT/L, MSCS; Tapan Mehta2*,
+PhD; Hui-Ju Young5*, PhD; Emily Riser4*, MD; James Rimmer3*, PhD
+1Division of Pediatric Rehabilitation Medicine, School of Medicine, University of Alabama at Birmingham, Birmingham, AL, United States
+2Department of Health Services Administration, School of Health Professions, University of Alabama at Birmingham, Birmingham, AL, United States
+3Dean's Office, School of Health Professions, University of Alabama at Birmingham, Birmingham, AL, United States
+4Tanner Foundation, Birmingham, AL, United States
+5Department of Physical Therapy, School of Health Professions, University of Alabama at Birmingham, Birmingham, AL, United States
+*all authors contributed equally
+Corresponding Author:
+Byron Lai, MS, PhD
+Division of Pediatric Rehabilitation Medicine
+School of Medicine
+University of Alabama at Birmingham
+1720 University Blvd
+Birmingham, AL, 35294
+United States
+Phone: 1 205 638 9790 ext 8
+Email: byronlai@uab.edu
+Abstract
+Background: Access to comprehensive exercise and rehabilitation services for people with multiple sclerosis (MS) remains a
+major challenge, especially in rural, low-income areas. Hence, the Tele-Exercise and Multiple Sclerosis (TEAMS) study aims to
+provide patient-centered, coordinated care by implementing a 12-week complementary and alternative medicine (CAM) intervention
+for adults with MS. However, due to the societal impact of coronavirus disease (COVID-19) in mid-March 2020, the University
+of Alabama at Birmingham announced a limited business model halting all nonessential research requiring on-site visits, which
+includes the TEAMS study.
+Objective: In compliance with the shelter-in-place policy and quarantine guidance, a modified testing and training protocol
+was developed to allow participants to continue the study.
+Methods: The modified protocol, which replaces on-site data collection and training procedures, includes a teleassessment
+package (computer tablet, blood pressure cuff, hand dynamometer, mini disc cone, measuring tape, an 8” step, and a large-print
+8” × 11” paper with ruler metrics and wall-safe tape) and a virtual meeting platform for synchronous interactive training between
+the therapist and the participant. The teleassessment measures include resting blood pressure and heart rate, grip strength, Five
+Times Sit to Stand, Timed Up & Go, and the Berg Balance Scale. The teletraining component includes 20 sessions of synchronous
+training sessions of dual tasking, yoga, and Pilates exercises designed and customized for a range of functional levels. Teletraining
+lasts 12 weeks and participants are instructed to continue exercising for a posttraining period of 9 months.
+Results: The protocol modifications were supported with supplemental funding (from the Patient-Centered Outcomes Research
+Institute) and approved by the University Institutional Review Board for Human Use. At the time nonessential research visits
+were halted by the university, there were 759 people enrolled and baseline tested, accounting for 92.5% of our baseline testing
+completion target (N=820). Specifically, 325 participants completed the 12-week intervention and follow-up testing visits, and
+289 participants needed to complete either the intervention or follow-up assessments. A modified analysis plan will include
+sensitivity analyses to ensure the robustness of the study results in the presence of uncertainty and protocol deviations. Study
+results are projected to be published in 2021.
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 1
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+Conclusions: This modified remote teleassessment/teletraining protocol will impact a large number of participants with MS
+who would otherwise have been discontinued from the study.
+Trial Registration: ClinicalTrials.gov NCT03117881; https://clinicaltrials.gov/ct2/show/NCT03117881
+International Registered Report Identifier (IRRID): DERR1-10.2196/18415
+(JMIR Res Protoc 2020;9(7):e18415) doi: 10.2196/18415
+KEYWORDS
+multiple sclerosis; telerehabilitation; teletraining; physical activity; disability; tele-exercise; telehealth; COVID-19
+In response to coronavirus disease (COVID-19), the University
+Introduction
+of Alabama at Birmingham halted all nonessential research
+studies that required on-site interaction with research
+Multiple sclerosis (MS) is an autoimmune-mediated neurological
+participants. This included the TEAMS study, which had a total
+disorder that results in demyelination and transection of axons
+of 759 participants enrolled and baseline tested at the time of
+in the central nervous system, and it affects more than two
+closure (March 2020); this accounts for 92.5% of our baseline
+million people across the world [1,2]. The current literature
+testing target (N=820). Specifically, 325 participants completed
+strongly supports the use of home telerehabilitation or what is
+the study, and 289 participants were in the process of completing
+commonly referred to as telehealth (to encompass a broader set
+the study (ie, they needed to either complete the intervention
+of uses) as an equally effective alternative to usual care for
+or their follow-up data collection visits at 3-, 6-, and 12-months
+patients with MS [3-6]. Because exercise has a strong effect in
+postintervention). Breaking this sample down further, there
+managing health and MS symptoms [7-10], exercise
+were 545 remaining data collection (on-site) visits that needed
+rehabilitation is one of the major applications of telehealth
+to be completed at the time of the COVID-19 closure. With no
+technology. The advantages of telehealth over usual care include
+apparent end date to COVID-19, the research team requested a
+increased social support, participant adherence, quality of care,
+modification to the protocol from the study program officer.
+cost-effectiveness, access to services (no need for
+The teleassessment and training protocol modifications were
+transportation), and reduced burden on health professionals to
+approved and supported with supplemental funding provided
+allow easier dissemination of services [11]. Since comprehensive
+by the funding agency (Patient-Centered Outcomes Research
+exercise and rehabilitation services are not provided on-site
+Institute [PCORI]) on March 27, 2020, and the protocol was
+across all MS clinics, remote testing and training can make such
+approved by the University Institutional Review Board for
+services more accessible for patients who do not live near
+Human Use on March 29, 2020. This paper describes the
+center-based programs.
+COVID-19 protocol modifications.
+In 2017, our research team began to implement a randomized
+controlled effectiveness trial comparing two methods of Methods
+delivering a complementary and alternative medicine (CAM)
+intervention: CAM delivered at home and on-site at a clinic (the The TEAMS study is a randomized controlled trial comparing
+TEAMS [Tele-Exercise and Multiple Sclerosis] study; the effectiveness of a 12-week tele-exercise program delivered
+ClinicalTrials.gov NCT03117881) [12]. The CAM intervention at home via a computer tablet (TeleCAM) or at the clinic by a
+consists of yoga, Pilates, and dual tasking exercises. Participants therapist (DirectCAM). Further details of the TEAMS study
+are randomized into one of two groups: (a) home-based CAM can be found elsewhere [12].
+involving the use of a computer tablet with an app to stream 20
+Recruitment
+prerecorded exercise or rehabilitation video sessions tailored to
+an individual’s functional level [13]; and (b) clinic-based CAM A total of 289 participants are in the process of completing the
+involving 20 supervised exercise training sessions with trained TEAMS study and will be reconsented to undergo the
+study therapists. The supervised sessions were implemented by COVID-19 modified study procedures. Inclusion and exclusion
+86 therapists at 43 clinics that were spread across three states criteria remain the same as the original study (Textbox 1).
+(Alabama, Mississippi, and Tennessee). The study originally
+aimed to include 820 people with MS by April 30, 2020.
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 2
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+Textbox 1. Inclusion and exclusion criteria.
+Inclusion criteria
+• Patient Determined Disease Steps score: 0-7 (mild-to-moderate disability)
+• Able to use arms and/or legs for exercise while standing or seated
+• Aged 18-70 years
+• Physician permission for study participation
+Exclusion criteria
+• Significant visual acuity that prevents seeing a tablet screen in order to follow along with the home exercise program (self-reported)
+• Event(s) of cardiovascular disease, severe pulmonary disease, or renal failure within the last 6 months
+• Active pressure ulcer
+• Pregnancy
+• Received a rehabilitation session within the last 30 days
+• Godin Leisure-Time Exercise Questionnaire score ≥24 (ie, physically active)
+that need to complete follow-up data collection at 3 months
+The Intervention and COVID-19 Modifications
+postintervention; 168 at 6 months; and 289 at 12 months. There
+The 12-week DirectCAM intervention is composed of dual are 25 participants who were randomized to receive DirectCAM
+tasking, yoga, and Pilates. Participants in DirectCAM receive but were unable to because of COVID-19 restrictions.
+in-person instruction from a therapist 2 times a week for the
+In response to COVID-19, PCORI provided the study team with
+first 8 weeks and then once a week for the last 4 weeks for a
+supplemental funding, which was used to adapt the on-site
+total of 20 sessions (1 hr/session). TeleCAM participants receive
+intervention into remote testing and training with a licensed
+the same 12-week intervention through exercise videos that are
+occupational or physical therapist. DirectCAM participants are
+preloaded to a custom-designed tablet app [13]. Figure 1
+now receiving their remaining intervention sessions with a study
+demonstrates a person with MS performing the intervention
+therapist through videoconferencing. These participants are
+using the provided equipment and computer tablet. They also
+categorized into a separate group referred to as remote
+receive phone calls through an Interactive Voice Response
+DirectCAM (rDirectCAM). rDirectCAM participants who
+system to collect data and enhance adherence to the intervention.
+decline or are unable to videoconference (eg, no compatible
+After the 12-week intervention, DirectCAM participants receive
+computer or internet access at home) have the option of
+written instructions and photos of the exercises and are
+communicating with their therapist via telephone. Thus, this
+encouraged to continue the program at home for 9-months
+study includes two methods of teletraining: (1)
+postintervention. TeleCAM participants are encouraged to
+internet-supervised training (rDirectCAM) and (2) self-regulated
+continue to exercise using the videos on their tablet 9-months
+training using preloaded videos on a computer tablet
+postintervention. Currently, there is a total of 545 participants
+(TeleCAM).
+for whom data collection needs to be completed: 88 participants
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 3
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+Figure 1. An example of a person with multiple sclerosis exercising in their home with the intervention equipment and computer tablet.
+measures except the Timed Up & Go Test and Berg Balance
+Teleassessments
+Scale (due to safety concerns as noted previously during on-site
+A total of 16 therapists will conduct all assessments through clinic visits). The teleassessment measures are listed below, and
+videoconferencing (teleassessments). To ensure strong fidelity specific details and procedures can be found in the supplemental
+across therapists, they will undergo a 30-minute training session data collection form and therapist guide (Multimedia Appendices
+directed by the clinical study coordinator (author TT). TT is a 1and 2, respectively):
+licensed occupational therapist with 24 years of training and
+• Height and weight (self-report)
+has been involved with the TEAMS study since its inception.
+• Changes in medication (self-report)
+TT will also train and monitor therapists to deliver rDirectCAM
+• Blood pressure/heart rate
+through videoconferencing.
+• Equipment: a chair with an arm, a heart rate monitor,
+A Brief Description of Assessment Measures and and a blood pressure cuff
+Protocols • Setup:
+• Camera view: frontal view of the participant’s
+Participants Who Decline or Are Unable to Participate in
+upper body
+Teleassessments
+• The participant sits quietly for at least 5 minutes
+Participants who decline or are unable to participate in the prior to assessment
+teleassessments will be sent the study questionnaires either
+through mail or email via the study database (Research • Hand-grip strength
+Electronic Data CAPture [REDCap]), based on their preference. • Equipment: a chair with an arm and a digital hand
+Questionnaires include the 36-Item Short Form Survey (SF-36), dynamometer
+the Modified Fatigue Impact Scale, and the Godin Leisure Time • Setup:
+Exercise Questionnaire (for more details refer to our original • Camera view: frontal view of the participant’s
+study protocol [12]). upper body
+• The participant sits in a stationary chair or a
+Protocol for Teleassessment Participants
+wheelchair and uses a hand dynamometer; three
+The goal of the teleassessment protocol is to mirror the on-site
+trials with each hand with the elbow flexed at 90
+assessment protocol [12]. The measures have strong
+degrees, with 30-second rest in between trials
+psychometric properties to support their use in people with MS.
+The measures that participants undergo depend on their Patient
+• Five Times Sit to Stand (Figure 2)
+Determined Disease Steps (PDDS) score. Participants with a
+• Equipment: a chair (a chair with arms can enhance
+PDDS score between 0-4 (indicative of minimal mobility
+safety but discourage the participant from using, if
+disability) will complete all measures: the Hand-Grip Strength
+unnecessary)
+Test [14], the Five Times Sit to Stand test [15], the Timed Up
+• Setup:
+& Go Test [16-18], and the Berg Balance Scale [19,20].
+Participants with a PDDS score between 5-7 complete all
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 4
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+• Camera view: side view of the participant’s entire • An open space, support from a caregiver/or
+body (at least shoulders, hip, and knees) family member, if needed
+• The participant sits in a chair or a wheelchair • Supported against a wall
+• Three options for where to place the chair:
+• An open space, not supported by a mat or wall
+• Berg Balance Scale (note: the research team anticipated
+• An open space, support from a caregiver or
+that the Berg Balance Scale would be the most difficult test
+family member, if necessary
+to administer via telehealth. Thus, the team incorporated
+• Supported against a wall (if chair movement
+elements from a previous study demonstrating that the Berg
+is an issue)
+could be conducted reliably through teleassessment [21])
+• Conducted only for people with PDDS Score between
+• Timed Up & Go (Figure 3) 0-4, determined via self-report during prescreening.
+• Conducted only for people with PDDS Score between • Equipment: two chairs (one with arms and one without),
+0-4, determined via self-report during prescreening. an 8” therapy step, a printed paper with ruler metrics
+• Equipment: a chair with arms, a mini disc cone, and a and wall safe tape, and a mini disc cone
+3-meter soft measuring tape • Setup:
+• Setup: • Camera view includes the frontal view of the
+• Camera view: diagonal or frontal view to capture participant’s entire body for all tasks
+the participant’s entire body throughout the test • Three options for where to place the chair:
+(camera view should include the 3-meter walkway • An open space, not supported by a mat or wall
+and the chair) • An open space, support from a caregiver/or
+• The participant can place the computer tablet on family member, if possible
+the floor or on furniture for better view • Supported against a wall
+• The participant places a chair at the beginning of
+a 12-foot cleared space, free from obstacles or • Test instructions and modifications:
+throw rugs • All tasks completed in frontal view
+• The participant lays down the measuring tape • After completing all tasks once, repeat the
+starting at the tip of their toes when sitting in a unsupported standing and standing with eyes closed
+chair and places the cone at the end of the task with a side view (in order to reduce the
+measuring tape likelihood of missing data) [21]
+• The participant removes the measuring tape • Perform the functional reach task with a custom
+• Chair setup options: print paper with large-numbered metrics and
+• An open space, not supported by a mat or wall markings to indicate critical scoring criteria for the
+therapist (Figure 4).
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 5
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+Figure 2. An example of the videoconference view of the starting position for the Five Times Sit to Stand test.
+Figure 3. An example of the videoconference view for the Timed Up & Go test.
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 6
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+Figure 4. An example of the videoconference view for the starting position of the functional reach task of the Berg Balance Scale.
+• Heart rate and blood pressure cuff (A&D Medical Wrist
+Teleassessment Equipment
+Blood Pressure Monitor, UB-543);
+After participants have reconsented, they will be asked whether • CAMRY Hand Grip Dynamometer;
+they would like to participate in the teleassessments. Research • American Challenge Soccer Mini Disc Cones (required to
+personnel will ship interested participants a single package complete the Timed Up & Go test and used for the pick-up
+(minimum package dimensions 18.5” × 12.1” × 8.75”) task of the Berg Balance Scale);
+containing the following teleassessment equipment (Figure 5): • Soft measuring tape, precut to a 3-meter length for the
+Timed Up & Go test;
+• A roll of wall-safe tape;
+• An 8” small foldable step stool (required to complete the
+• Computer tablet (Lenovo S340 81TB0000US);
+Berg Balance Scale);
+• A large-print 8” × 11” paper with ruler metrics.
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 7
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+Figure 5. A teleassessment package prior to being shipped to a participant's home. The equipment includes an 8" step, a blood pressure cuff, a roll of
+wall-safe tape, a 3-meter measuring tape, a hand dynamometer, a mini disc cone, a large print paper with ruler metrics, a sheet with participant instructions
+(under the step), and a computer laptop (bottom).
+systematic review paper of interrater reliability of the Berg
+General Teleassessment Procedures
+Balance Scale in a clinical population [22]. We anticipated that
+Teleassessments will be conducted at baseline and at 3, 6, and the Berg Balance Scale would be the most difficult test to
+12 months postintervention. Given the size of the project and conduct via teleassessment.
+the strong psychometric properties of the teleassessments, the
+Therapists will schedule the teleassessments with study
+research team was primarily concerned with whether the
+participants and send them a Zoom meeting link that can be
+teleassessments could be delivered reliably across different
+accessed via the provided tablet. During the meeting, therapists
+therapists. Accordingly, the first 8 participants who will receive
+will have access to two documents to help guide them through
+the teleassessments will participate in a preliminary interrater
+the teleassessments: (1) a manual for quick visual reminders,
+reliability study. These 8 participants will complete 2
+and (2) a step-by-step data collection form to be completed
+teleassessment sessions (done in the same day). Each
+during the meeting (Multimedia Appendix 2). Therapist
+teleassessment session will be conducted by one of two
+interactions with the participant will be guided by the Supportive
+therapists. A sample size of 8 was chosen based on an intraclass
+Accountability Theory [23]. Specifically, therapists will aim to
+correlation (ICC) power calculation with the following
+components: statistical power of 0.8; α=0.05; two raters; develop a social relationship/bond and present a social presence
+that provides a sense of accountability to enhance participants’
+minimum acceptable reliability (H0)=0.75, expected reliability
+motivation and adherence to the teleassessment protocol. The
+(H1)=0.97. The value for expected reliability was based on a
+procedures for the teleassessments are listed in Textbox 2.
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 8
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+Textbox 2. General teleassessment procedures.
+1. Open data collection form in the box
+2. Start videoconference meeting with the participant
+3. Build social bond with the participant (introductions and establish rapport)
+4. Brief the participant on what the teleassessment will entail and duration (max 2 hours)
+5. Ask the participant if their medication has changed and document additions
+6. Ask the participant if they have all the necessary equipment and sufficient space
+7. Assess the room for safety hazards or obstacles
+8. Ensure the participant has adequate privacy
+9. Inform the participant to be careful during teleassessments
+10. Complete anthropometrics and functional assessments using the data collection form
+11. Remind the participant to complete the questionnaires that were sent to them
+12. Inform the participant that research personnel will send them a gift card
+13. Schedule the next teleassessment follow-up (if applicable)
+14. End the videoconference meeting
+15. Upload the data collection forms to Box and notify research personnel that testing is complete and to send a gift card
+for the teleassessments; (2) number of participants who complete
+Statistical Analysis
+the follow-up teleassessments at months 3, 6, and 12
+All statistical analyses for the TEAMS study intervention will postintervention; (3) number of teleassessment tasks completed;
+be conducted in an intent-to-treat manner at the individual level (4) total time in minutes required to complete the
+considering the multilevel and repeated nature of the data teleassessments; and (5) adverse events.
+(participants nested within clinics with 4 time points for every
+participant). We will conduct analyses with an additional Results
+time-varying covariate to account for protocol deviations
+(rDirectCAM and participants who received teleassessments). Recruitment commenced on March 16, 2020, using a
+Contrasts and estimate statements will be used to draw multipronged recruitment strategy. Participants were recruited
+inferences pooling estimates from the original intervention types via study brochures or word of mouth from MS clinics and
+(DirectCAM versus TeleCAM). We will conduct sensitivity specialists, a large three-state (Alabama, Mississippi, and
+analyses with and without the rDirectCAM participants. Given Tennessee) community organization network, and through the
+that the rDirectCAM group was created unexpectedly in networks of a diverse MS stakeholder team that was engaged
+response to COVID-19, this group may not be adequately in the project [12]. Recruitment is now complete and there are
+powered to detect changes in outcomes. 837 individuals with MS randomized into the study. Data
+collection is ongoing. Details on data collected for participant
+Regarding the teleassessment interrater reliability examination,
+characteristics (eg, type of MS, disability severity, and functional
+ICC values of 0.5-0.75 will be interpreted as moderate
+mobility) and outcomes are reported elsewhere [12]. The
+reliability; 0.75-0.9 good reliability; and 0.9 excellent reliability
+modified CONSORT (Consolidated Standards of Reporting
+[24]. We will also collect feasibility data related to participant
+Trials) diagram (Figure 6) displays consented, enrolled, and
+uptake and implementation processes throughout the remainder
+completed participants, as well as the number of teleassessments
+of the TEAMS study and publish this in a future paper. These
+required to complete the study.
+data will include the (1) number of participants who volunteer
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 9
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+Figure 6. Modified CONSORT (Consolidated Standards of Reporting Trials) diagram reporting the number of teleassessments that need to be completed
+and participants who need to undergo rDirectCAM. COVID-19: coronavirus disease.
+The study findings will be of great relevance to health
+Discussion
+professionals who aim to conduct similar remote, synchronous
+telerehabilitation/tele-exercise trials for people with MS and
+This paper describes a modified teleassessment and teletraining
+other disability groups. While the research team matched as
+protocol for the TEAMS intervention due to COVID-19
+closely as possible the standardized on-site assessment
+restrictions on on-site visits. To the best of our knowledge, this
+procedures with the remote teleassessment protocol, the
+study will also include the largest number of teleassessments
+psychometric properties (ie, validity and reliability) of the
+ever conducted in a telerehabilitation/exercise trial for people
+specific teleassessment procedures have not yet been tested.
+with MS.
+We aim to establish the psychometric properties of these tests
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 10
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+once COVID-19 restrictions are lifted. General feasibility data and time to implement the tests). These findings will be used
+will be recorded for all participants who undergo the to support evidence-based policy decisions regarding
+teleassessments (eg, participants volunteering for the telerehabilitation implementation, development, and
+teleassessments, percentage of tasks completed/not completed, programming.
+Acknowledgments
+BL, C-YC, EP, and TT created the initial manuscript draft. BL and TT developed the teleassessment protocol. EP, TT, H-JY,
+TM, and JR designed the study procedures related to the teleassessments. All authors contributed equally to later manuscript
+drafts.
+The research was supported by the PCORI (award #MS-1511-33653). The opinions in this publication are solely the responsibility
+of the authors and do not necessarily represent the views of PCORI, its Board of Governors, or Methodology Committee. The
+authors have no financial disclosures.
+We would also like to thank the University of Alabama at Birmingham / Lakeshore Foundation Research Collaborative. The
+development of this project would not have been possible without the collaboration of various experts within the Collaborative.
+Conflicts of Interest
+None declared.
+Multimedia Appendix 1
+Teleassessment data collection form.
+[DOCX File , 195 KB-Multimedia Appendix 1]
+Multimedia Appendix 2
+Therapist instruction guide.
+[DOCX File , 2400 KB-Multimedia Appendix 2]
+References
+1. Wallin M, Culpepper W, Nichols E, Bhutta Z, Gebrehiwot T, Hay S, et al. Global, regional, and national burden of multiple
+sclerosis 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016. The Lancet Neurology 2019
+Mar;18(3):269-285. [doi: 10.1016/S1474-4422(18)30443-5] [Medline: 6372756]
+2. Trapp BD, Nave KA. Multiple sclerosis: an immune or neurodegenerative disorder? Annu Rev Neurosci 2008
+Dec;31(6):247-269 [FREE Full text] [doi: 10.1146/annurev.neuro.30.051606.094313] [Medline: 18558855]
+3. Amatya B, Galea MP, Kesselring J, Khan F. Effectiveness of telerehabilitation interventions in persons with multiple
+sclerosis: A systematic review. Mult Scler Relat Disord 2015 Jul;4(4):358-369. [doi: 10.1016/j.msard.2015.06.011] [Medline:
+26195057]
+4. Rintala A, Hakala S, Paltamaa J, Heinonen A, Karvanen J, Sjögren T. Effectiveness of technology-based distance physical
+rehabilitation interventions on physical activity and walking in multiple sclerosis: a systematic review and meta-analysis
+of randomized controlled trials. Disabil Rehabil 2018 Feb 15;40(4):373-387. [doi: 10.1080/09638288.2016.1260649]
+[Medline: 27973919]
+5. Robb JF, Hyland MH, Goodman AD. Comparison of telemedicine versus in-person visits for persons with multiple sclerosis:
+A randomized crossover study of feasibility, cost, and satisfaction. Mult Scler Relat Disord 2019 Nov;36:101258. [doi:
+10.1016/j.msard.2019.05.001] [Medline: 31472419]
+6. Bove R, Garcha P, Bevan CJ, Crabtree-Hartman E, Green AJ, Gelfand JM. Clinic to in-home telemedicine reduces barriers
+to care for patients with MS or other neuroimmunologic conditions. Neurol Neuroimmunol Neuroinflamm 2018 Nov;5(6):e505
+[FREE Full text] [doi: 10.1212/NXI.0000000000000505] [Medline: 30775409]
+7. Razazian N, Kazeminia M, Moayedi H, Daneshkhah A, Shohaimi S, Mohammadi M, et al. The impact of physical exercise
+on the fatigue symptoms in patients with multiple sclerosis: a systematic review and meta-analysis. BMC Neurol 2020 Mar
+13;20(1):93 [FREE Full text] [doi: 10.1186/s12883-020-01654-y] [Medline: 32169035]
+8. Motl RW, Gosney JL. Effect of exercise training on quality of life in multiple sclerosis: a meta-analysis. Mult Scler 2008
+Jan;14(1):129-135. [doi: 10.1177/1352458507080464] [Medline: 17881388]
+9. Ensari I, Motl RW, Pilutti LA. Exercise training improves depressive symptoms in people with multiple sclerosis: results
+of a meta-analysis. J Psychosom Res 2014 Jun;76(6):465-471. [doi: 10.1016/j.jpsychores.2014.03.014] [Medline: 24840141]
+10. Platta ME, Ensari I, Motl RW, Pilutti LA. Effect of Exercise Training on Fitness in Multiple Sclerosis: A Meta-Analysis.
+Arch Phys Med Rehabil 2016 Sep;97(9):1564-1572. [doi: 10.1016/j.apmr.2016.01.023] [Medline: 26896750]
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 11
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+11. Jennett PA, Affleck Hall L, Hailey D, Ohinmaa A, Anderson C, Thomas R, et al. The socio-economic impact of telehealth:
+a systematic review. J Telemed Telecare 2003 Oct 13;9(6):311-320. [doi: 10.1258/135763303771005207] [Medline:
+14680514]
+12. Rimmer JH, Thirumalai M, Young HJ, Pekmezi D, Tracy T, Riser E, et al. Rationale and design of the tele-exercise and
+multiple sclerosis (TEAMS) study: A comparative effectiveness trial between a clinic- and home-based telerehabilitation
+intervention for adults with multiple sclerosis (MS) living in the deep south. Contemp Clin Trials 2018 Aug;71(6):186-193
+[FREE Full text] [doi: 10.1016/j.cct.2018.05.016] [Medline: 29859267]
+13. Thirumalai M, Rimmer JH, Johnson G, Wilroy J, Young H, Mehta T, et al. TEAMS (Tele-Exercise and Multiple Sclerosis),
+a Tailored Telerehabilitation mHealth App: Participant-Centered Development and Usability Study. JMIR Mhealth Uhealth
+2018 May 24;6(5):e10181 [FREE Full text] [doi: 10.2196/10181] [Medline: 29798832]
+14. Guclu-Gunduz A, Citaker S, Nazliel B, Irkec C. Upper extremity function and its relation with hand sensation and upper
+extremity strength in patients with multiple sclerosis. NRE 2012 Jun 01;30(4):369-374. [doi: 10.3233/nre-2012-0768]
+15. Fry DK, Pfalzer LA. Reliability of Four Functional Tests and Rating of Perceived Exertion in Persons with Multiple
+Sclerosis. Physiotherapy Canada 2006 Jul;58(3):212-220. [doi: 10.3138/ptc.58.3.212]
+16. Kalron A, Dolev M, Givon U. Further construct validity of the Timed Up-and-Go Test as a measure of ambulation in
+multiple sclerosis patients. Eur J Phys Rehabil Med 2017 Dec;53(6):841-847 [FREE Full text] [doi:
+10.23736/S1973-9087.17.04599-3] [Medline: 28290192]
+17. Sebastião E, Sandroff BM, Learmonth YC, Motl RW. Validity of the Timed Up and Go Test as a Measure of Functional
+Mobility in Persons With Multiple Sclerosis. Arch Phys Med Rehabil 2016 Jul;97(7):1072-1077. [doi:
+10.1016/j.apmr.2015.12.031] [Medline: 26944709]
+18. Learmonth YC, Paul L, McFadyen AK, Mattison P, Miller L. Reliability and clinical significance of mobility and balance
+assessments in multiple sclerosis. International Journal of Rehabilitation Research 2012;35(1):69-74. [doi:
+10.1097/mrr.0b013e328350b65f]
+19. Cattaneo D, Regola A, Meotti M. Validity of six balance disorders scales in persons with multiple sclerosis. Disabil Rehabil
+2006 Jun 30;28(12):789-795. [doi: 10.1080/09638280500404289] [Medline: 16754576]
+20. Cattaneo D, Jonsdottir J, Repetti S. Reliability of four scales on balance disorders in persons with multiple sclerosis. Disabil
+Rehabil 2007 Dec 30;29(24):1920-1925. [doi: 10.1080/09638280701191859] [Medline: 17852286]
+21. Venkataraman K, Morgan M, Amis KA, Landerman LR, Koh GC, Caves K, et al. Tele-Assessment of the Berg Balance
+Scale: Effects of Transmission Characteristics. Arch Phys Med Rehabil 2017 Apr;98(4):659-664.e1 [FREE Full text] [doi:
+10.1016/j.apmr.2016.10.019] [Medline: 27894732]
+22. Downs S, Marquez J, Chiarelli P. The Berg Balance Scale has high intra- and inter-rater reliability but absolute reliability
+varies across the scale: a systematic review. Journal of Physiotherapy 2013 Jun;59(2):93-99 [FREE Full text] [doi:
+10.1016/S1836-9553(13)70161-9] [Medline: 23663794]
+23. Mohr DC, Cuijpers P, Lehman K. Supportive accountability: a model for providing human support to enhance adherence
+to eHealth interventions. J Med Internet Res 2011 Mar 10;13(1):e30 [FREE Full text] [doi: 10.2196/jmir.1602] [Medline:
+21393123]
+24. Koo TK, Li MY. A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research.
+Journal of Chiropractic Medicine 2016 Jun;15(2):155-163 [FREE Full text] [doi: 10.1016/j.jcm.2016.02.012] [Medline:
+27330520]
+Abbreviations
+CAM: complementary alternative medicine
+CONSORT: Consolidated Standards of Reporting Trials
+COVID-19: coronavirus disease
+ICC: intraclass correlation
+MS: multiple sclerosis
+PCORI: Patient-Centered Outcomes Research Institute
+PDDS: Patient Determined Disease Steps
+RCT: randomized controlled trial
+REDCap: Research Electronic Data CAPture
+SF-36: 36-Item Short Form Survey
+TEAMS: Tele-Exercise And Multiple Sclerosis
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 12
+XSL FO (page number not for citation purposes)
+•
+RenderX
+JMIR RESEARCH PROTOCOLS Lai et al
+Edited by G Eysenbach; submitted 04.05.20; peer-reviewed by M Narasaki Jara, I Fioratti; comments to author 10.06.20; revised
+version received 11.06.20; accepted 13.06.20; published 03.07.20
+Please cite as:
+Lai B, Chiu CY, Pounds E, Tracy T, Mehta T, Young HJ, Riser E, Rimmer J
+COVID-19 Modifications for Remote Teleassessment and Teletraining of a Complementary Alternative Medicine Intervention for
+People With Multiple Sclerosis: Protocol for a Randomized Controlled Trial
+JMIR Res Protoc 2020;9(7):e18415
+URL: https://www.researchprotocols.org/2020/7/e18415
+doi: 10.2196/18415
+PMID: 32540838
+©Byron Lai, Chia-Ying Chiu, Emily Pounds, Tracy Tracy, Tapan Mehta, Hui-Ju Young, Emily Riser, James Rimmer. Originally
+published in JMIR Research Protocols (http://www.researchprotocols.org), 03.07.2020. This is an open-access article distributed
+under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits
+unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in JMIR Research
+Protocols, is properly cited. The complete bibliographic information, a link to the original publication on
+http://www.researchprotocols.org, as well as this copyright and license information must be included.
+https://www.researchprotocols.org/2020/7/e18415 JMIR Res Protoc 2020 | vol. 9 | iss. 7 | e18415 | p. 13
+XSL FO (page number not for citation purposes)
+•
+RenderX

@@ -1,0 +1,133 @@
+Abstracts
+4CPS-210 PHARMACISTS’COMMUNICATIONWITHFOREIGN enzalutamide increase survival and therefore it is important to
+LANGUAGESPEAKINGPATIENTSINAFOREIGNER assess adherence and interactions of these treatments.
+SETTLEMENTAREA,JAPAN Aim and objectives Our objective was to determine adherence
+to abiraterone or enzalutamida and interactions in patients
+1ETakahashi*,2YTakahashi,3HSato,1KObayashi,4YTakechi,5KTakahashi.1Takasaki
+UniversityofHealthandWelfare,FacultyofPharmacy,Takasaki-Gunma,Japan;2Pharma with castration resistant prostate cancer (CRPC).
+MiraiCoLtd,Kyoso-MiraiKakezukaPharmacy,Isesaki-Gunma,Japan;3HoshinoPharmacy, Material and methods This retrospective observational study
+Tsunatori Branch, Isesaki-Gunma, Japan; 4Gunma Pharmaceutical Association, Gunma included patients with CRPC receiving abiraterone or enzaluta-
+PharmaceuticalAssociation,Maebashi-Gunma,Japan;5TeikyoUniversityGraduateSchoolof mide for at least 4 months. Demographic data were obtained
+PublicHealth,DepartmentofGlobalCommunityHealth,Itabashi-Tokyo,Japan from the computerised medical history. Adherence was meas-
+ured by combining the Morisky–Green questionnaire and the
+10.1136/ejhpharm-2020-eahpconf.311
+dispensing record. Search and classification of the interactions
+was obtained from Drugs.com
+Background and importance Recently, the number of foreign
+Results Thirty-seven patients were included, with an average residents has significantly increased in Japan. At the consulta-
+age of 74 years (SD 5). The average number of medications
+tion with physicians, the foreign language speaking patients
+consumed by these patients was 7 (SD 2.5). Comorbidities
+(FLSP) often utilise medical interpreter services or ad hoc
+averaged 5 per patient. All patients were adherent according
+interpreters. However, few studies have reported how such
+to the Morisky–Green questionnaire, and combined with the
+patients receive information in community pharmacies affili-
+dispensing records, adherence to abiraterone was 85% and
+ated with hospitals/clinics.
+92% to enzalutamida.
+Aim and objectives The objective of the study was to examine
+Pharmacological interactions were major interactions in
+how and what pharmacists communicate with FLSP at pharma-
+21% of cases, of which the most frequent was amiodarone
+cies, in the Gunma prefecture, one of the most foreign residen-
+and abiraterone. Moderate interactions occurred in 65% of
+tialprefecturesinJapan.
+patients, the most frequent being enzalutamide with lipid low-
+Material and methods A self-administered questionnaire survey
+ering agents (atorvastatin, simvastatin) and enzalutamide with
+was conducted among the pharmacy members of Gunma Phar-
+proton pump inhibitors (omeprazole, esomeprazol): 14% of
+maceutical Association, in January and February 2018. The
+patients had no drug interactions.
+contents of the questionnaire were divided into two parts: (1)
+pharmacy system targeting the manager; and (2) pharmacists’ Conclusion and relevance In these patients, good adherence to
+enzalutamide and abiraterone was found. All interactions clas-
+experience and skills. The answers were compared between
+sified as major were monitored. All patients with CRPC the foreigner settlement area and the other area.
+required pharmaceutical care. Results Of the 773 pharmacies, 372 pharmacies responded.
+Approximately 90% of had ever treated FLSP with English
+REFERENCES AND/OR ACKNOWLEDGEMENTS
+and 25 other languages. For the pharmacists’ experiences,
+No conflict of interest.
+65% of 844 pharmacist participants had some issues with lan-
+guage, regularly/often. Multilingual instruction tools were pre-
+pared in 18.5% of the pharmacies. Of the pharmacies without
+the tools, 54% did not know of the availability of these tools. 4CPS-212 HEALTHCAREPROVIDERS’VIEWSOFPHARMACY
+As a means of communication, ‘accompanying acquaintance TEAMINVOLVEMENTINTHEPREPARATIONAND
+and family member interpreter’ was used significantly more ADMINISTRATIONOFMEDICINESONINPATIENTS
+often in the foreigner settlement area than in the other area. WARDS:ANEXPLORATORYSTUDY
+Most common medication instructions for FLSP were: how to 1EMVella*,2ACutajar,1PLewis.1TheUniversityofManchester,SchoolofHealthSciences,
+use, how to follow and confirm the effects of the medicines, Manchester,UK;2MaterDeiHospital,DepartmentofPharmacy-ClinicalPharmacyPractice
+and how to confirm the side effects of the medicines. All Unit,Msida,Malta
+were explained significantly better in the foreigner settlement
+area than in the other areas. 10.1136/ejhpharm-2020-eahpconf.313
+Conclusion and relevance Regardless of where pharmacies are
+BackgroundandimportanceLack of nursing staff, interruptions
+located, it is recommended to introduce multilingual instruc-
+when preparing and administering medicines, and lack of
+tion tools for FLSP.
+knowledge can increase the risk of medication errors. The
+REFERENCES AND/OR ACKNOWLEDGEMENTS involvement of the pharmacy team in the preparation and
+No conflict of interest. administration of medicines on hospital wards has been high-
+lighted as an opportunity to provide better guidance and sup-
+port to nurses, enhance patient safety and improve service
+delivery. However, to date there is no evidence on this devel-
+opment in our country.
+4CPS-211 ADHERENCEANDINTERACTIONSINPATIENTS
+Aim and objectives To explore indepth the views of healthcare
+TREATEDWITHABIRATERONEANDENZALUTAMIDE
+professionals towards pharmacy team (pharmacists and phar-
+1MV Tarazona Casany*, 2P Perez, 2E Monte, 2MJ Cuellar. 1Hospital Pharmacy Hospital macy technicians) involvement in the preparation and adminis-
+Universitario Y Politécnico La Fe Valencia Spain, Hospital Pharmacy, Valencia, Spain; tration of medications on inpatient wards in a general
+2Hospital Universitario Y Politécnico La Fe Valencia Spain, Hospital Pharmacy, Valencia, hospital.
+Spain
+Material and methods Semi-structured, one to one interviews
+were conducted with a purposive sample of various healthcare
+10.1136/ejhpharm-2020-eahpconf.312
+professionals from the country’s main general hospital between
+Background and importance Prostate cancer is a common February and June 2018. A topic guide was developed to
+tumour in elderly men. Treatment with abiraterone and explore the acceptability and extent of involvement, including
+EJHP2020;27(Suppl1):A1–A232 A147
+Protected
+by
+copyright,
+including
+for
+uses
+related
+to
+text
+and
+data
+mining,
+AI
+training,
+and
+similar
+technologies.
+Medical
+library.
+Eur
+J
+Hosp
+Pharm:
+first
+published
+as
+10.1136/ejhpharm-2020-eahpconf.311
+on
+24
+March
+2020.
+Downloaded
+from
+http://ejhp.bmj.com/
+on
+March
+17,
+2026
+at
+University
+of
+Oulu

@@ -1,0 +1,951 @@
+PLOS ONE
+RESEARCHARTICLE
+Minimum data set harmonization in the
+management of cross-border Multi Casualty
+Incidents. Modified Delphi (VALKYRIES—
+H2020 project)
+NavidBehzadiKoochaniID 1,2,3,4*,Rau´lMuñozRomo1,IgnacioHerna´ndezPalencia5,
+SergioLo´pezBernal6,CarmenMartinCurtoID 7,Jose´CabezasRodr´ıguez5,
+AlmudenaCastañoReguilloID 2
+a1111111111
+a1111111111 1 ServiciodeUrgenciasMe´dicasdelaComunidaddeMadrid(SUMMA112),Madrid,Spain,2 Fundacio´n
+paralaInvestigacio´neInnovacio´nBiosanitariasenAtencio´nPrimaria(FIIBAP),Madrid,Spain,3 Facultad
+a1111111111
+HMdeCienciasdelaSaluddelaUniversidadCamiloJose´Cela,Spain,4 InstitutodeInvestigacio´nSanitaria
+a1111111111
+HMHospitales,Spain,5 NovotecConsultoresS.A.,Madrid,Spain,6 UniversityofMurcia,Murcia,Spain,
+a1111111111 7 TassicaEmergencyTraining&Research,Spain
+*navid.behzadi@salud.madrid.org
+OPENACCESS Abstract
+Citation:BehzadiKoochaniN,MuñozRomoR,
+Herna´ndezPalenciaI,Lo´pezBernalS,MartinCurto
+C,CabezasRodr´ıguezJ,etal.(2024)Minimum Introduction
+datasetharmonizationinthemanagementof
+ThereisaneedtodevelopharmonizedproceduresandaMinimumDataSet(MDS)for
+cross-borderMultiCasualtyIncidents.Modified
+Delphi(VALKYRIES—H2020project).PLoSONE cross-borderMultiCasualtyIncidents(MCI)inmedicalemergencyscenariostoensure
+19(7):e0305699.https://doi.org/10.1371/journal. appropriatemanagementofsuchincidents,regardlessofplace,languageandinternalpro-
+pone.0305699
+cessesoftheinstitutionsinvolved.Thatinformationshouldbecapableofreal-timecommu-
+Editor:StefanKurtBeckers,UniversityHospital nicationtothecommand-and-controlchain.Itiscrucialthatthemodelsadoptedare
+RWTHAachen&CityofAachen,GERMANY
+interoperablebetweencountriessothattherightsofpatientstocross-borderhealthcareare
+Received:October13,2023 fullyrespected.
+Accepted:June4,2024
+Objective
+Published:July18,2024
+Tooptimizemanagementofcross-borderMultiCasualtyIncidentsthroughaMinimumData
+Copyright:©2024BehzadiKoochanietal.Thisis
+anopenaccessarticledistributedundertheterms Setcollectedandcommunicatedinrealtimetothechainofcommandandcontrolforeach
+oftheCreativeCommonsAttributionLicense, incident.Todeterminethedegreeofagreementamongexperts.
+whichpermitsunrestricteduse,distribution,and
+reproductioninanymedium,providedtheoriginal
+Method
+authorandsourcearecredited.
+WeusedthemodifiedDelphimethodsupplementedwiththeUtsteintechniquetoreachcon-
+DataAvailabilityStatement:Allrelevantdataare
+withinthepaperanditsSupportinginformation sensusamongexperts.Inthefirstphase,theminimumrequirementsoftheproject,thepro-
+files. fileoftheexpertswhoweretoparticipate,thebasicrequirementsofeachvariablechosen
+Funding:Thisprojecthasreceivedfundingfrom andthewayofcollectingthedataweredefinedbyprovidingbibliographyonthesubject.In
+theEuropeanUnion’sHorizon2020researchand thesecondphase,thepreliminaryvariablesweregroupedinto6clusters,theobjectives,the
+innovationprogrammeundergrantagreementNo
+characteristicsofthevariablesandthelogisticsoftheworkwereapproved.Severalmeet-
+101020676.Thefundershadnoroleinstudy
+ingswereheldtoreachaconsensustochoosetheMDSvariablesusingaModifiedDelphi
+design,datacollectionandanalysis,decisionto
+publish,orpreparationofthemanuscript. technique.Eachexperthadtoscoreeachvariablefrom1to10.Non-votingvariableswere
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 1/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+Competinginterests:Theauthorshavedeclared eliminated,andtheroundofvotingended.Inthethirdphase,theUtsteinStylewasapplied
+thatnocompetinginterestsexist. todiscusseachgroupofvariablesandchoosetheoneswiththehighestconsensus.After
+severalroundsofdiscussion,itwasagreedtoeliminatethevariableswithascoreofless
+than5points.Inphasefour,theresearcherssubmittedthevariablestotheexternalexperts
+forfinalassessmentandvalidationbeforetheiruseinthesimulations.Datawereanalysed
+withSPSSStatistics(IBM,version2)software.
+Results
+Sixdataentitieswith31sub-entitiesweredefined,generating127itemsrepresentingthe
+finalMDSregardedasessentialforincidentmanagement.Thelevelofconsensusforthe
+choiceofitemswasveryhighandwashighestforthecategory‘Incident’withanoverall
+kappaof0.7401(95%CI0.1265–0.5812,p0.000),agoodlevelofconsensusintheLandis
+andKochmodel.Theitemswiththegreatestdegreeofconsensusattenwerethoserelating
+tolocation,typeofincident,date,timeandidentificationoftheincident.Allitemsmetthecri-
+teriaset,suchasdigitalcollectionandreal-timetransmissiontothechainofcommandand
+control.
+Conclusions
+ThisstudydocumentsthedevelopmentofaMDSthroughconsensuswithahighdegreeof
+agreementamongagroupofexpertsofdifferentnationalitiesworkingindifferentfields.All
+itemsintheMDSweredigitallycollectedandforwardedinrealtimetothechainofcommand
+andcontrol.Thistoolhasdemonstrateditsvalidityinfourlargecross-bordersimulations
+involvingmorethaneightcountriesandtheiremergencyservices.
+Introduction
+TheCommitteeonDisasterRiskReduction(UNDRR,UNOfficeforDisasterRiskReduction)
+hasdefinedadisasterasaseriousdisruptionofthefunctioningofacommunityorsociety
+involvingwidespreadhuman,material,economicorenvironmentallossesandimpacts,which
+exceedstheabilityoftheaffectedcommunityorsocietytocopeusingitsownresources[1]On
+thatbasis,itisnoteworthythatdisastersthatoccurintransborderareasareespeciallycomplex,
+especiallywheninternationalinterventionisrequired[2,3].Inadditiontothecomplexitiesof
+multi-victimincidents,cross-bordereventsrequirethecollaborationofdifferentemergency
+providers,ofdifferentnationalities,speakingdifferentlanguages,withdifferentskills(emer-
+gencyvehicleswithmedicalstaffarenotalwaysprovided)[4]andwithfirstrespondersystems
+thatdifferfromoneanother(sometimespoliceorfirefighters,eventhemilitaryarethefirston
+thescene)[5]inadditiontothedifferencesrelatedtothepreventionandpromotionpro-
+grammesofthedifferentcountries,thehealthsystemstheyhave(publicand/orprivate)and
+theimplicationforthehealthofthepatientsattended[6],whichisrelatedtosurvivalinthe
+eventofaneventofthesecharacteristics.Includingtheriskassociatedwiththesafetyofstaff
+workinginthistypeofevent.
+Herewemustacknowledgethefundamentalroleoftheemergencymedicalservices(EMS)
+indisastersituationswithmultiplecasualties,whenthelackofresourcesidentifiedintheUN’s
+definitionisparticularlyapparentalongwiththeneedforcollaborativeworkingacross
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 2/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+differingactionprotocols,meansofcommunicationandevenlaws.Suchscenariosraisesignif-
+icantethicalissues,becausecriticaldecisionshavetobetakenquicklybyresponders,whomay
+alsobecomedirectorindirectcasualtiesinthecourseoftheirefforts.
+Itisinthesescenariosthatahighlyeffectivechainofcommandandcontroltranslatesinto
+highlyeffectiveuseofresources,theshortesttimetointerventionand,finally,thesavingof
+humanlives.ThereisaneedtodevelopharmonizedproceduresandaMinimumDataSet
+(MDS)forcross-borderMultiCasualtyIncidents(MCI)toensureappropriatemanagementof
+suchincidents,regardlessofplace,languageandinternalprocessesoftheinstitutionsinvolved.
+Suchtransnationalincidentmanagementwillbepossibleandhaveasignificantsocialimpact
+ifthereisprioragreementastotheinformationrequired,makinguseoftheopportunities
+offeredintermsoftechnology,procedures,collaboration,andtraining,bytheSecurityMarket
+oftheEuropeanUnion(EU),thusfarveryfractured.
+TodaytherearealreadyMDSastoolsforthesystematiccollectionofminimalbasicinfor-
+mationaboutepisodesofcareforindividualpatientstohaveasystemofhigh-qualityexhaus-
+tiveandconsistentinformationthatallowsimprovedprocessmanagement[7,8].Thus,
+variousworkshavevalidatedMDSandsohighlightedtheneedforconsensusonthecritical
+informationrequiredtosupportthemanagementofdisasterscenarios[9,10].
+Althoughgreatprogressisbeingmadeinstandardisingprocessesanddatacollection
+throughMDS,thereareimportantdifferencesnotonlybetweencountries,butalsobetween
+regionswithinthesamecountry,especiallyinlower-middle-incomecountries[11].Thereare
+alsoinequalitiesintermsofresourcesused,withlargedifferencesbetweenhospitals,primary
+carecentresornursinghomes,evenwithinthesamecities[12].Thisiswhy,in2015,theUN
+developedadocumenttohelpbuildandimprovehealthelectronicsystemsthroughtheMDSs
+toimprovedatainteroperabilityatnationalandsubnationallevels[13].
+Itiscrucialtoadoptclinicalinformationstructuresthatallowinteroperabilityamongthe
+EU’sMemberStatesunderlawsconcerningpatients’rightsincross-borderhealthcare(Direc-
+tive(EU)2011/24oftheEuropeanParliamentandoftheCouncilof9March2011)[14].This
+advancewillalsofacilitatetheavailabilityofhigh-qualitynormalizeddatathatmaybeusefulin
+thecontextoftheEuropeanHealthDataSpace[15],whichisahealth-specificecosystemcom-
+prisedofrules,commonstandardsandpractices,infrastructuresandagovernanceframework
+thataimsatempoweringindividualsthroughincreaseddigitalaccesstoandcontroloftheir
+electronicpersonalhealthdata,atthenationallevelandEU-wide,andsupporttotheirfree
+movement,aswellasfosteringagenuinesinglemarketforelectronichealthrecordsystems,
+relevantmedicaldevicesandhigh-riskAIsystems,providingaconsistent,trustworthyand
+efficientset-upfortheuseofhealthdataforresearch,innovation,policy-makingandregula-
+toryactivities[16].
+TheEUhasdevelopedvarioustoolsforcollectivecollaborationandcooperationbetween
+MemberStatesandacrossindustries.OfparticularnoteistheEU’sMandateM/487[17],
+adoptedtodevelopworkplansandroadmapsforthenormalizationofstandardsinsecurity
+andtheprotectionofcriticalinfrastructureintheEU.MandateM/487requirestheidentifica-
+tionofthechallengestobemetintheuseofterminology,planning,resilienceandinstitutional
+interoperability.
+Inresponsetothatneedandinordertoidentifyasetofsolutionstoimprovecollective
+resilienceinthefaceofMCI,ProjectVALKYRIESwaslaunchedundertheEU’sHorizon2020
+FrameworkProgramme(HarmonizationandPre-StandardizationofEquipment,Training
+andTacticalCoordinatedproceduresforFirstAidVehiclesdeploymentonEuropeanMCI.
+ProjectVALKYRIESfallsundertheprogrammeentitled‘SecureSocieties—Protectingfree-
+domandsecurityofEuropeanditscitizens’andmorespecificallyunderthesub-programme
+‘IncreaseEurope’sresiliencetocrisesanddisasters’,Sub-topic3‘FirstAidvehicles
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 3/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+deployment,training,maintenance,logisticandremotecentralizedcoordinationmeans’,
+underprocurementprocessSU-DRS03-2018-2019-2020,‘Pre-normativeresearchanddemon-
+strationfordisaster-resilientsocieties’.ThisprojectwasactivefromOctober2021toOctober
+2023acomprisedasetofpartnersfromawidevarietyofEUcountriesanddifferentexpertise.
+InthatcontextandinlightofthesalientissuesidentifiedinEUM/487[18]intermsofthe
+gapstobebridgedininteroperability,incidentmanagement,organizationalinteroperability,
+andoperationaleffectiveness,H2020-VALKYRIESidentifiedthefollowingobjectivesinspired
+bytheObserve-Orient-Decide-Actloop(Boyd’sOODALoop[19]).
+Generalobjective
+Tooptimizemanagementofcross-borderMultiCasualtyIncidentsthroughaMinimumData
+Setcollectedandsentinrealtimetothechainofcommandandcontrolforanincident.
+Specificobjectives
+1. TodevelopandagreeaMinimumDataSettoensureoptimalmanagementofcross-border
+MultiCasualtyIncidentsconsistentwiththeprocesses,protocolsandlawsofthecountries
+involved.
+2. Todeterminethedegreeofagreementamongexpertsastothevariablesagreedtomakeup
+theMinimumDataSet.
+Materialsandmethods
+Tothatend,agroupof6researchersfromtheVALKYRIESprojectcarriedoutaconsensus
+dataharmonizationprocesstodetermineanMDSthatcouldbecollectedandcommunicated
+electronicallyinrealtimetothechainofcommandandcontrol,seekingoptimalmanagement
+ofanMCIincross-borderareasregardlessoftheparticularprocedures,protocols,languages
+andlocationoftheevent.
+ThatexercisewascarriedoutthroughacombinationofavariantoftheDelphimethod
+(modifiedDelphi)[20,21]asavalidatedconsensustoolandtheUtsteintechniqueorstyle[22]
+toselecttheessentialdata,asdescribedabove.
+Thebasicprinciplesthatguidedusintheselectionofthefinalitemswere:thefeasibilityof
+collectingthedata,real-timeonwardcommunicationofthedatatothewholechainofcom-
+mandandcontrolandbeingthoughttobeessentialtogoodmanagementofanMCI.
+ModifiedDelphiisanabbreviatedversionoftheclassicDelphimodifiedtothespecific
+needsandresourcesoftheproject.Subsequently,abbreviatedDelphiwascomplementedby
+theUtsteinmethodtoimprovethequalityofthedatagatheredandallowmoreprecisecom-
+parisonofresultsacrossdifferentstudiesconcerningemergencyresponse.
+Forthispurpose,theresearchersweresupportedby17experts(withmorethan20yearsof
+experienceintheirfieldofexpertise)from17agenciesandinstitutionsof8differentcountries,
+involvedintheValkyriesproject.
+TheMDSwaspresentedandvalidatedbyexternalexpertsoftheValkyriesprojectbefore
+beingtestedinthe4majorcross-bordersimulationsforeseenintheproject.Thelistandpro-
+fileofresearchers,internalandexternalexpertscanbeseeninTable1.
+Theconsensusprocessinfourphasesdescribedbelow(Fig1).
+Phase1—Logisticalandoperationalframeworkoftheprocess:Inthisphase,carriedoutby
+theconsortium,wedeterminedtheshared,essentialprinciplestogovernthewholeprocess.
+Theyweretheminimumrequirementstobemetbytheitemsselected(beingthoughttobe
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 4/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+Table1. Studyparticipantsclassifiedbyareaofworkandcountryofactivity.
+Organizationname Country Profile
+Listofresearchers
+ServicioMadrileñodeSalud(SERMAS) Spain Emergencycoordination
+Tassicaemergencytraining&researchS.A.(TASSICA) Spain Emergencycoordination
+UniversityofMurcia(UMU) Spain University:Cybersecurityanddatascience
+NovotecConsultoresS.A.(NOVOTEC) Spain Standardisation,qualityassessment
+Listofinternalexperts(VALKYRIESexpertpanel)
+IndraSistemasS.A.(INDRA) Spain Consulting
+InternationalSecurityandEmergencyManagementInstitute(ISEMI) Slovakia Emergencymanagement
+ScuolaSuperioreSant’Anna(SSSA) Italy University:lawschool
+Blockchain2050BV(BC2050) Netherlands Cybersecurity
+BulgarianDefenseInstitute(BDI) Bulgaria Military,ciberdefense
+BulgarianRedCross(BRC) Bulgaria Emergencycoordination
+CenterofSecurityStudies(KEMEA) Greece Nationalsecurity
+HospitaldoEspíritoSantodeÉvoraEPE(HESE) Portugal Hospital
+AratosNTOTNETLTD(ARATOS) Greece Technologicalservices
+UniversityofSouth-EasternNorway(USN) Norway University:maritimeresearch
+AziendaRegionaleEmergenzaUrgenza(AREU) Italy Emergencycoordination
+HellenicRescueTeam(HRT) Greece Emergencycoordination
+Particlesummary(PARTICLE) Portugal Technologicalservices
+ServicioMadrileñodeSalud(SERMAS)* Spain Emergencycoordination
+Tassicaemergencytraining&researchS.A.(TASSICA)* Spain Emergencycoordination
+UniversityofMurcia(UMU)* Spain University:Cybersecurityanddatascience
+NovotecConsultoresS.A.(NOVOTEC)* Spain Standardisation,qualityassessment
+Externalexperts
+EmergencyCoordinationCentre112fromExtremadura Spain Emergencycoordination
+CivilProtectionGeneralDirection.Extremaduracouncil Spain Civilprotection
+EmergenciesandCivilProtectionGeneralDirection.Extremaduracouncil Spain Emergencycoordination
+MilitaryEmergencyUnit Spain Militaryemergencies
+ProvincialFirePreventionandExtinctionServiceofCáceres Spain Regionalfirefightercoordination
+NationalInstituteofMedicalEmergencies(INEM) Portugal Nationalemergencycoordination
+Departmentfordetectionofhazardoussubstancesandenvironmentalcrime Slovakia Nationalemergencycoordination
+BratislavaEmergencyMedicalService Slovakia Municipalemergencycoordination
+BratislavaFireandRescueSystem Slovakia Municipalfirefightercoordination
+GeneralDirectorate“FiresafetyandProtectionofPopulation” Bulgaria Nationalfirefightercoordination
+Militarymedicalacademyteam Bulgaria Nationalmilitaryeducation
+BulgarianEmergencyambulanceservices Bulgaria Nationalemergencycoordination
+Bulgarianarmedforces Bulgaria Nationalmilitary
+FireServiceCommandofthePrefectureofThessaloniki Greece Regionalfirefightercoordination
+HellenicNationalCentreforEmergencyAssistance(EKAB) Greece Nationalemergencycoordination
+NorwegianSocietyforSeaRescue Norway Nationalemergencycoordination
+*Theinternalexpertsbelongingtotheseorganisationswerepeopleotherthantheorganisations’investigators.
+https://doi.org/10.1371/journal.pone.0305699.t001
+essentialtomanagementofMCIsincross-borderareas;suitabilityforcollection,andonward
+communicationofitemswithoutanyneedtochangetheprotocolsandproceduresoffirst
+responders(regardlessofplaceandcountry)),qualificationsandexperienceofgroupof
+experts.
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 5/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+Fig1.Studydevelopmentprocess.*MDS:minimumdataset.
+https://doi.org/10.1371/journal.pone.0305699.g001
+Afterthat,itwasnecessarytopre-identifythedata.Thisinformationcomesfromprevious
+studies[9,23,24]andtheinformationcurrentlycollectedinemergencymanagementindiffer-
+entcountries.
+Phase2–ModifiedDelphi.Itwasledbythestudyteamandtheinternalexpertsalsopartici-
+patedinthisphase.Therewereseveralface-to-faceandonlinemeetingsasdescribedbelow.In
+thefirstroundoftheDelphimethod,thescopeandstructuredevelopedatearlierstageswere
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 6/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+validated,theresearchersorganisedthepreliminaryvariablesinto6groupsbasedonthelitera-
+tureconsulted.Subsequently,eachmemberoftheparticipatingsuggestednewitemsthatthey
+consideredimportantforreview.Inthefirstmeetings,theobjectivesandcriteriadetermined
+inPhase1werevalidatedandnewitemswereaddedattherequestoftheinternalexperts.
+Therewerethentworoundsofvoting.Votingrequiredeachexperttoscoreeachcandidate
+variablefrom1(theitemisnotmaterialtomanagementofanMCI)to10(theitemismaterial
+formanagementofanMCI).InRound1ofvoting,itemswithnovotesinfavourweredis-
+carded.Theobjectivesoftheprojectwerereviewed,andanewvotewastakenonthevariables.
+Phase3(UtsteinMethod),ledbytheresearchers,severalroundsofdiscussionswereheldto
+choosetheessentialvariablesoftheMDS.Theinternalexpertswhohadassignedeachvariable
+avaluebetween1(notessentialforMDSmanagement)and10(essentialforMDSmanage-
+ment)agreedtoeliminatethosevariableswithlessthan5points.Asaresult,thedatawere
+orderedfrommosttoleastessentialforincidentmanagement.Theinternalexpertsdecided
+thatthedatawithanaveragescorebelowfiveshouldnotbeconsideredasessentialand,there-
+fore,shouldnotbepartoftheMDS.ThisresultedinadigitalCMDagreeduponbyallthe
+expertsintheproject.
+InPhase4,theresearcherssubmittedtheCMDtoexternalexperts,consistingofdisaster
+managementandMCIexpertsfromtheinstitutionsandagenciesinvolvedinthefourmajor
+simulationsforeseenintheproject,forfinalassessmentandvalidationpriortoitsuseinthe
+simulations.
+Finally,aspartofourmodifiedDelphistrategy,wedeterminedthedegreeofagreement
+amongtheexpertsbycalculatingCohen’skappa[25,26].
+Tothatend,weconsideredagreementbetweenthreeormoreraters(experts)withthreeor
+morepossiblescores(degreesofagreement).Inthiscase,weusedaweightedkappagiventhe
+numberofcategoriesofdegreeofagreementequivalenttoanordinalscale.Thetwotypesof
+weightingusedweresquaredweightsandCicchettiweights,basedonrelativedistances
+betweencategories[27].
+Thepresentationofvaluesofkappacomplementedthepresentationoftheconsensusshow-
+ingdegreesofagreementof55%andabove.DatawereanalysedusingIBM’sSPSSStatistics
+version2.0.ThisstudydidnotrequireconsiderationandapprovalbytheEthicsCommitteeof
+ResearchwithMedicines.
+ThepresentstudydidnotneedtobesubmittedtotheevaluationofanEthicsCommittee
+sincetheVALKYRIESProjectdidnotdealwithpersonaldata,onlysimulateddatawere
+applied.ThePanel(specificworkinggrouptoensurelegal-ethicalcompliancewiththeEU
+Regulation,whichallconsortiummemberssignedupto)wasmadeupofethical-legalexperts,
+whowereinvolvedinbothcomplianceandregulatoryandstandardizationtasks,andadecla-
+rationwassignedbythoseresponsibleforthePanel,showingthecommitmenttocomplywith
+allethical-legalissues.Withinthisdeclaration,thedecisionofthePaneltodevelopthework
+withouthiringvolunteers,notprocessingpersonaldata,isstated.Thecasestudyscenarios
+involvedfirstresponderstoreceivefeedbackontheeffectivenessoftheinteroperableplatform
+throughtheapplicationofsimulatedandunrealdata.Thesimulateddataweregenerated
+directlybythePanel.
+Withregardtoinclusivityinglobalresearchadditionalinformationregardingtheethical,
+cultural,andscientificconsiderationsspecifictoinclusivityinglobalresearchisincludedin
+theS1Dataset.
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 7/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+Results
+Sixdataentitiesweredefinedwith31sub-entities(pre-incidentdata,incident,vehicles,first
+responders,casualties,andhospitals)thatgeneratedthe127itemsinthefinalMDSs,compris-
+ingdataessentialtoincidentmanagement,capableofbeingcollectedandcommunicatedelec-
+tronicallyinreal-timetothechainofcommandandcontrolasshowninTable2.Thistable
+presentseachdataentityandsub-entityidentified,inadditiontoeachdataentryselectedby
+theorganizationsparticipatinginthevotingprocess.Moreover,thistablecontainsthedata
+typeassociatedwitheachdataentrytobetterunderstandthenatureoftheinformationdis-
+played.Furthermore,thetablepresentsoneormoreexamplesperdataentrytoeasetheunder-
+standingofthecontent.Itisrelevanttonotethattheseexamplesarenotagreedvaluesand
+merelyserveasanorientationforinterpretation.Finally,Table2presentsthedegreeofagree-
+mentbetweenvotingorganizations.
+Therefore,thedataobtainedispresentedasfollows:
+1.Pre-eventsettingMDS
+Thedatarelatedtothepre-eventconfigurationcollectedthoserelatedtopopulationgroups,
+healthsystems,criticalinfrastructures,climatologicalfactors,andresourcemanagement.
+Thecollectionofpreviousdatawasessentialforefficientmanagementandbasedonrisk
+prevention.Forthisreason,theexpertsparticipatingintheselectionofthedatareliedonpre-
+viousstudiesandrelevantinformationanalysedtoarriveattheproposeddata.
+Herethesub-entityhealthcaresystem(includingcapacities)wasgeneratedwith3itemsthat
+obtainedalevelofagreementof6/10forall.Theirname,classificationandorderareshownin
+Table2.
+2.IncidentMDS
+TheMDSoftheincidentmainlycollectedthecharacterizationoftheincident,damages,risks,
+vulnerability,resourcesoffirstrespondersintheevent,accessroutes,zoning,andfacilities.
+Thisinformationwascollectedinanyofthescenarios.Thecomplexitywaslinkedtothe
+natureandcharacteristicsofsaidincident.
+Herethesub-entitiescharacterization,damage,hazards,firstresponders,approach,zonation
+andfacilitiesweregeneratedwith21itemsthatobtainedadegreeofagreementof10/10(from
+“incidentID”,dateofdeclaration,timeofdeclarationtype“location"),8/10("estimatednum-
+berofvictims"),7.5/10("activehazards")and6/10("severity",“statushazardlocation”,“hazard
+type”,“rescuersonscene”,“firefightersonscene”,“securityforcesonscene”,“EMSonscene”,
+“otherfirstrespondsonscene”,“labellocation”,“zerozonelocation”,“location”,“type”).
+3.VehicleMDS
+Thevehicleswerecollectedinaseparatesectiontoidentifythem,characterizethem,position
+them,andknowtheirstatus.Adatasetwasproposedforambulancedevices,victimparame-
+tersinambulancetransport,andambulanceassignment.
+Herethesub-entitiesidentification,characterization,positioning,status,ambulance(static)
+andambulanceassignmentweregeneratedwith14itemsthatobtainedadegreeofagreement
+of10/10(“vehicleID”,“agency”,“code”,“relatedtoincident”,“areastatus“),7.5/10(“plate”,
+“function”,“location”,“victimsID”,“destinationhospitalassigned”)and5/10(“country”,
+“type”,“relatedtozonation”,“lifesupportcapacity”).
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 8/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+Table2. Presentationandclassificationofdata:Dataentities,subentitiesanditems.
+DATAENTITY DATASUBENTITY DATA DATATYPE EXAMPLES DEGREEOF
+AGREEMENT
+Pre-event HEALTHCARESYSTEM(INCLUDING EMSSYSTEM TEXT MEDICALSERVICESFROMMADRID 6
+setting CAPACITIES) HEALTHCAREFACILITIES(PRIMARY,SECONDARY, LISTOFTEXT HOSPITAL,EMERGENCYCENTER 6
+TERTIARYANDSPECIALISTCENTERS)
+CRITERIAFORACTIVATIONOFTHEDISASTER TEXT FIRE,EARTHQUAKE 6
+MEDICALMANAGEMENTPLAN(DMMP)
+IncidentMDS CHARACTERIZATION INCIDENTID NUMBER 1545 10
+DATEOFDECLARATION DATE 12/02/2022 10
+TIMEOFDECLARATION DATE 12/02/2022 10
+TYPE NUMBER 5 10
+LOCATION COORDINATE 41.40338,2.17403 10
+SEVERITY TEXT EXTREME,SEVERE,MODERATE, 6
+MINOR,UNKNOWN
+STATUS TEXT DISPATCHED,ONTHEWAY,ON 6
+SITE,RESOLVED
+DAMAGE ESTIMATEDNUMBEROFVICTIMS NUMBER 60 8
+HAZARDS(1..n) ACTIVEHAZARD(Y/N) BOOLEAN YES 7.5
+HAZARDLOCATION COORDINATE 41.40338,2.17403 6
+HAZARDTYPE TEXT CHEMICAL 6
+FIRSTRESPONDERS RESCUERSONSCENEY/N BOOLEAN YES 6
+FIREFIGHTERSONSCENEY/N BOOLEAN NO 6
+SECURITYFORCESONSCENEY/N BOOLEAN NO 6
+EMSONSCENEY/N BOOLEAN YES 6
+OTHERFIRSTRESPONDERSONSCENE BOOLEAN NO 6
+APPROACH(1..n) LABEL TEXT ??? 6
+LOCATION COORDINATE 41.40338,2.17403 6
+ZONATION ZEROZONELOCATION COORDINATE 41.40338,2.17403 6
+FACILITIES(1..n) LOCATION COORDINATE 41.40338,2.17403 6
+TYPE TEXT INCIDENTCOMMANDPOST,TRIAGE 6
+AREA
+VehicleMDS IDENTIFICATION VEHICLEID NUMBER 42 10
+COUNTRY TEXT SPAIN 5
+AGENCY TEXT MEDICALSERVICESFROMMADRID 10
+CODE NUMBER 87 10
+PLATE TEXT 12456F 7.5
+CHARACTERIZATION TYPE TEXT PASSENGER,LOGISTIC 5
+FUNCTION TEXT RESCUE,RECONNAISANCE 7.5
+POSITIONING LOCATION COORDINATE 41.40338,2.17403 7.5
+RELATEDTOINCIDENTAREA TEXT ONTHEWAY,ONTHESCENE 10
+RELATEDTOZONATION TEXT ZEROZONE,TRIAGEAREA 5
+STATUS STATUS TEXT INOPERATIVE,AVAILABLE 10
+AMBULANCE(STATIC) LIFESUPPORTCAPACITY TEXT BASIC,ADVANCED 5
+AMBULANCEASSIGNMENT VICTIMSID NUMBER 34 7.5
+DESTINATIONHOSPITALASSIGNED TEXT LAPAZHOSPITAL,VALENCIA 7.5
+FirstResponder IDENTIFICATION RESPONDERID NUMBER 43 8
+MDS
+AGENCY TEXT MEDICALSERVICESFROMMADRID 10
+CODE NUMBER 14 8
+NAME TEXT DOE 5
+SURNAME TEXT JHON 5
+CHARACTERIZATION FUNCTION TEXT SEARCH,RESCUE 8
+ROLE(C&C) TEXT INCIDENTCOMANDER,TRIAGE 5
+CHIEF
+POSITIONING LOCATION COORDINATE 41.40338,2.17403 6
+RELATEDTOZONATION TEXT MEDICALAREA,RESCUEAREA 8
+STATUS STATUS TEXT INOPERATIVE,AVAILABLE 6
+(Continued)
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 9/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+Table2. (Continued)
+DATAENTITY DATASUBENTITY DATA DATATYPE EXAMPLES DEGREEOF
+AGREEMENT
+VictimMDS IDENTIFICATION VICTIMID NUMBER 11 10
+CODE(RELATEDTOINCIDENT) NUMBER 4 10
+NATIONALID TEXT 12345678J 5
+NAME TEXT DOE 5
+SURNAME TEXT JOHN 5
+CHARACTERIZATION AGE NUMBER 24 5
+RANGEOFAGE INTERVALOF 20–30 10
+NUMBER
+GENDER TEXT MALE,FEMALE 10
+PREGNANTY/N BOOLEAN YES 7.5
+COUNTRYOFORIGIN TEXT GERMANY,THAILAND 5
+NATIONALITY TEXT INDIAN,FRENCH 5
+NATIVELANGUAGE TEXT ENGLISH,SPANISH 5
+TYPE TYPEOFVICTIM TEXT DEAD,INJUREND,UNINJURED 7.5
+CAUTIONS ALLERGIES LISTOFTEXT PENICILIN,IBUPROFEN 5
+CHRONICDISEASES LISTOFTEXT ASTHMA,ALZHEIMER 5
+PERSONOFCONTACT(1,..n) PoCDATA LISTOFTEXT JOHNDOE,90BEDFORDSTREET, 7.5
+NEWYORK
+POSITIONING LOCATION COORDINATE 41.40338,2.17403 7.5
+RELATEDTOZONATION STRING MEDICALAREA,STAGINGAREA 10
+INJURED(Storehistorical) STATUSRELATEDTOINCIDENT STRING WAITINGFORTRIAGE,INHOSPITAL 7.5
+STATUSRELATEDTOHAZARD TEXT TRAPPED,CONFINED,FREE 7.5
+ASSISTANCETRIAGE TEXT URGENT,DELAYED 7.5
+BLEEDINGCONTROL TEXT NOTNECESSARY,SUCCESSFUL 7.5
+CONTROL
+AIRWAY(Multiplechoice) TEXT SUPRAGLOTICDEVICE,TRACHEAL 7.5
+INTUBATION
+VENTILATION(Multiplechoice) TEXT OXYGENSUPPLY,INVASIVE 7.5
+VENTILATORYSUPPORT
+HEMODYNAMICSTATUS TEXT STABLE,UNSTABLE 7.5
+UNDERINTRAVENOUSFLUIDSY/N BOOLEAN NO 7.5
+INJURIESNATURE TEXT PSICHOLOGYCAL,INTOXICATION 7.5
+INJURIESLOCATION TEXT NECK,EYES 7.5
+INJURIESSEVERITY TEXT MILD,MODERATE,SEVERE 5
+EVACUATIONTRIAGE TEXT IMMEDIATE,URGENT,DELAYED 10
+(Continued)
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 10/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+Table2. (Continued)
+DATAENTITY DATASUBENTITY DATA DATATYPE EXAMPLES DEGREEOF
+AGREEMENT
+HospitalMDS IDENTIFICATION HOSPITALID NUMBER 25
+HOSPITALNAME TEXT LAPAZHOSPITAL,VALENCIA 7.5
+AGENCY FRENCHPUBLICHHEALTHCARE 10
+SYSTEM
+COUNTRY TEXT ITALY 7.5
+CITY TEXT LONDON 10
+ADDRESS TEXT 90BEDFORDSTREET,NEWYORK 10
+HOSPITALLOCATION TEXT SPAIN,FRANCE 10
+GENERALCONTACT GENERALPHONENUMBER NUMBER 1234567789 10
+EDPHONENUMBER(EmergencyDepartment) NUMBER 1234567789 8
+ICUPHONENUMBER NUMBER 1234567789 7.5
+HOSPITALINCIDENTMANAGER HOSPITALINCIDENTMANAGERCATEGORY TEXT MEDICALCOORDINATOR 5
+STATICDATA TOTALADULTEMERGENCYDEPARTMENTPOSTS NUMBER 3 5
+TOTALADULTICUPOSTS NUMBER 40 5
+TOTALADULTBURNUNITBEDS NUMBER 14 7.5
+TOTALPEDIATRICEMERGENCYDEPARTMENTPOSTS NUMBER 5 5
+TOTALPEDIATRICICUPOSTS NUMBER 20 5
+TOTALPEDIATRICBURNUNITBEDS NUMBER 9 7.5
+TOTALGENERALSURGERYOPROOMSNUMBER NUMBER 7 5
+TOTALPEDIATRICSURGERYOPROOMSNUMBER NUMBER 4 5
+TOTALCTNUMBER NUMBER 3 5
+DYNAMICDATA AVAILABLEADULTEMERGENCYDEPARTMENTPOSTS NUMBER 1 5
+AVAILABLEADULTICUPOSTS NUMBER 21 7.5
+AVAILABLEADULTBURNUNITBEDS NUMBER 6 10
+AVAILABLEPEDIATRICHOSPITALBEDS NUMBER 33 7.5
+AVAILABLEPEDIATRICEMERGENCYDEPARTMENT NUMBER 2 5
+POSTS
+AVAILABLEPEDIATRICICUPOSTS NUMBER 12 7.5
+AVAILABLEPEDIATRICBURNUNITBEDS NUMBER 3 10
+AVAILABLEOPERATINGROOMSNUMBER NUMBER 5 7.5
+AVAILABLEORTHOPEDICSURGERYOPROOMS NUMBER 1 5
+NUMBER
+AVAILABLEGENERALSURGERYOPROOMSNUMBER NUMBER 4 5
+AVAILABLENEUROSURGERYOPROOMSNUMBER NUMBER 1 5
+AVAILABLETHORACICSURGERYOPROOMSNUMBER NUMBER 2 7.5
+AVAILABLEVASCULARSURGERYOPROOMSNUMBER NUMBER 2 5
+AVAILABLECARDIACSURGERYOPROOMSNUMBER NUMBER 1 10
+AVAILABLEPLASTICSURGERYOPROOMSNUMBER NUMBER 3 10
+AVAILABLEPEDIATRICSURGERYOPROOMSNUMBER NUMBER 4 10
+AVAILABLEOBSTETRICOPROOMSNUMBER NUMBER 2 10
+AVAILABLECTNUMBER(ComputerTomography) NUMBER 2 10
+AVAILABLEMRINUMBER(MagneticResonance) NUMBER 3 10
+AVAILABLEDIALYSISPOSTSNUMBER NUMBER 5 10
+AVAILABLEISOLATIONROOMSNUMBER NUMBER 3 10
+AVAILABLEHYPERBARICCHAMBERSNUMBER NUMBER 1 10
+TASKASSIGNED TASKID NUMBER 4 10
+INCIDENTID NUMBER 5 10
+VEHICLEID NUMBER 42 7.5
+HOSPITALID NUMBER 25 10
+VICTIMSASSIGNED LISTOFNUMBER 11,14,21 10
+*MDS:minimumdataset
+https://doi.org/10.1371/journal.pone.0305699.t002
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 11/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+4.FirstresponderMDS
+Thefirstrespondersrequiredasetofdataforidentification,characterization,positioning,and
+status.
+Herethesub-entitiesidentification,characterization,positioning,andstatusweregenerated
+with10itemsthatobtainedadegreeofagreementof10/10(“agency)”,8/10(“respondID”,
+“code”,“function”,“relatedtozonation”),6/10(“location”,“status”)and5/10(“name”,“sur-
+name”,“role”).
+5.VictimMDS
+Regardingthevictims,datarelatedtotheiridentification,characterization,type,precautions,
+contactperson,positioning,injuries,healthmonitoringdataandotherinformationrelatedto
+thepersonweregrouped.
+Herethesub-entitiesidentification,characterization,type,cautions,personofcontact,posi-
+tioningandinjured(storehistorical)weregeneratedwith18itemsthatobtainedadegreeof
+agreementof10/10(“victimID”,“code(relatedtoincident)”,“rangeofage”,“gender”,“related
+tozonation”,“evacuationtriage”),7.5/10(“pregnant”,“typeofvictim”,“pocdata”,“location”,
+“statusrelatedtoincident”,“statusrelatedtohazard”,“assistancetriage”,“bleedingcontrol”,
+“airway”,“ventilation”,“hemodynamicstatus”,“underintravenousfluids”,“injuriesnature”,
+“injurieslocation”)andfrom5/10“(nationalID”,“name”,“surname”,“age”,“countryofori-
+gin”,“nationality”,“nativelanguage”,“allergies”,“chronicdiseases”,“injuriesseverity”).
+6.HospitalMDS
+Finally,hospital-relatedinformation,suchasidentification,contactroute,hospitalincident
+manager,statisticaldataanddynamicdataneededforresourceandincidentmanagement
+werespecified.
+Herethesub-entitiesidentification,generalcontact,hospitalincidentmanager,staticdata,
+dynamicdataandtaskassignedweregeneratedwith46itemsthatobtainedadegreeofagree-
+mentof10/10(“agency”,“city”,“address”,“hospitallocation”,“generalphonenumber”,
+“availableadultburnunitbeds”,“availablepediatricburnunitbeds”,“availablecardiacsurgery
+oproomsnumber”,“availableplasticsurgeryoproomsnumber”,“availablepediatricsurgery
+oproomsnumber”,“availableobstetricoproomsnumber”,“availableCTnumber(computer
+tomography)”,“availableMRInumber(magneticresonance)”,“availabledialysispostsnum-
+ber”,“availableisolationroomsnumber”,“availablehyperbaricchambersnumber”,“taskID”,
+“incidentID”,“hospitalID”,“victimsassigned”),7.5/10(“hospitalname,country”,“ICU
+phonenumber”,“totaladultBURNunitbeds”,“totalpediatricburnunitbeds”,“available
+adultICUposts”,“availablepediatrichospitalbeds”,“availablepediatricICUposts”,“available
+operatingroomsnumber”,“availablethoracicsurgeryoproomsnumber”,“vehicleID”)8/10
+(“EDphonenumber(emergencydepartment)”)andfrom5/10(“hospitalincidentmanager
+category”,“totaladultemergencydepartmentposts”,“totaladultICUpost”,“totalpediatric
+emergencydepartmentposts”,“totalpediatricICUposts”,“totalgeneralsurgeryoprooms
+number”,“totalpediatricsurgeryoproomsnumber”,“totalCTnumber”,“availableadult
+emergencydepartmentposts”,“availablepediatricemergencydepartmentposts”,“available
+orthopedicsurgeryoproomsnumber”,“availablegeneralsurgeryoproomsnumber”,“avail-
+ableneurosurgeryoproomsnumber”,“availablevascularsurgeryoproomsnumber”).
+The127itemsfinallyagreedforinclusionintheMDScanbereadilyrecordedinrealtime
+byfirstresponderstoanMCIthankstoasystemforthecollectionandcommunicationofdigi-
+taldatacalledSIGRUN,developedunderProjectVALKYRIES.Infact,theagreedMDSwas
+testedinthefoursimulationsrunbytheEU’sProjectValkyries.Themedicalemergency
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 12/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+responseservicesoftheeightcountriesinvolvedinthesimulationsatfourcross-borderand
+cross-sectorialscenarios(Spain-Portugal,Slovenia-Italy,Bulgaria-Greece,Norway-Nether-
+lands)wereabletogatherandcommunicatetheMDSitemstothechainofcommandand
+controlforeachincidentinrealtime.Theywereabletoconfirmtheeffectivenessofthisnew
+harmonizedtoolsindifferenthighlycomplexscenarios,suchas:forestfires;earthquake;
+chemical,biological,radiologicalandnuclear(CBRN)andoffshoredisasters.Theresultsof
+thosesimulationswillbepublishedinthecomingmonths.
+TheresultswiththehighestlevelofconsensusinourstudyarefortheMDSforthecategory
+‘Incident’withoverallkappaof0.7401(95%CI0.1265–0.5812,p0.000),agoodlevelofcon-
+sensusintheLandisandKochmodel[25].Theitemswiththegreatestdegreeofconsensus(10
+outof10)werethoserelatingtolocation,typeofincident,timeandidentificationofthe
+incident.
+Withmoderatevalues(kappaof0.4–0.6)intheLandisandKochmodel,wefindthe
+descriptionofthesituationpriortotheincident,withoverallkappaof0.44(95%CI0.0114–
+0.2531,p0.0093)and‘firstresponders’withoverallkappaof0.4318(95%CI0.0599–0.5928,p
+0.0000).Thedegreeofagreementontheitemsconcerningpre-incidentinformationwassimi-
+lar(6outof10).Conversely,thedisposition,functionandtypeoffirstrespondersgarnered
+thehighestlevelofagreement,inexcessofeightoutoften.
+Thecategoriesthathadlowlevelsofagreement(kappa0.2–0.4)werevehicleswithkappaof
+0.2696(95%CI0.0780–0.2482,p0.0000);casualties,withkappa0.2320(95%CI0.0261–
+0.1393,p0.0006);andhospitals,withkappaof0.3241(95%CI0.1076–0.1500,p0.0000).How-
+ever,thedegreeofagreementwasmaximalforsomeitems,includingthepersonaldetailsof
+patientsandtheirpatientreferencenumberstoensuremaximumtraceability;patientage
+bandandgender;location;andtriagecolourcode.Allresultsfordegreesofagreementare
+shownintheTable3.
+Discussion
+ScientificpublicationsonMCIarestillveryscarce,evenmoresowhenitcomestocross-bor-
+dereventsinvolvinginternationalorganisations.Todate,thereisnoevidencethatdetermines
+whatMDSshouldbecollectedorhowthatdatashouldbecollectedandmanaged.Conse-
+quently,theprincipalstrengththatcanbeclaimedforthemethodemployedisthatitachieved
+consensusinareaswherethereisnocertaintyorwhereevidenceonatopicisempirical[9].
+Inaddition,theresultsadvancetheprincipalobjectiveoftheprojectbecausealthoughthere
+areanumberoflimited-scopeMDSs,thereiscurrentlynoexhaustiveMDSandnoanalysis
+acrossarangeofcross-borderdisasterscenarios,giventhatinformationhastraditionallybeen
+collectedfromobservationoranaloguecapture.However,thisstudyworkedinparallelonthe
+captureofdigitaldata,aswillbedescribedinsubsequentarticles.
+OneoftheproblemsobservedinthemanagementofMCIisvariabilityinthewayinwhich
+informationisgathered,whichmayinturnleadtodivergentresultsandsohindercomparison
+andstandardizationofthoseresults[28].Thatisallthemoresoincross-border(MCI),such
+asthesimulationsthatwereconductedinanearlierphaseofthisproject.
+AnotherprobleminthemanagementofdisastersseeninconnectionwithMDSsforcasu-
+altyinformationandhowtocollectthatinformationisthatnotalltheinformationabouta
+casualtyshouldbesharedwithalltheagenciesinvolvedinanMCI.However,somepartofthat
+informationmaybeimportantforcommand-and-controldecision-making[29].
+ModifiedDelphiandsubsequentUtstain-styletechniqueallowedadigitalMDStobedevel-
+opedwiththeinvolvementof17expertsfromeightorganizationsandinstitutionsinvolvedin
+theValkyriesproject.Expertsfromeightdifferentcountrieswithextensiveexperienceof
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 13/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+Table3. Levelsofagreementbetweenparticipatingagencies.
+DataEntity Kappa ZStatistic 95%CI p-value
+1.Pre-eventsetting
+CategoriesofDegreesofAgreement
+NotApplicable 0.0308 0.4128 -0.11320.1736 0.6797
+2 -0.0465 -0.6240 -0.09280.0003 0.5326
+4 0.1346 1.8061 0.03900.2300 0.0709
+6 0.4444 5.9628 0.37550.5132 0.0000
+OverallKappa 0.4444 2.6009 0.01140.2531 0.0093
+2.IncidentMDS
+CategoriesofDegreesofAgreement
+NotApplicable -0.0756 -1.0960 -0.19510.0435 0.2731
+6 0.1667 2.4152 -0.02020.3526 0.0157
+7.5 0.4853 7.0326 -17.966119.8414 0.0000
+8 0.7401 10.7251 -17.216519.5776 0.0000
+10 1.0000 14.4914 1.00001.0000 0.0000
+OverallKappa 0.7401 8.1186 0.12650.5812 0.0000
+3.VehicleMDS
+CategoriesofDegreesofAgreement
+Didnotvote -0.1809 -2.6215 -0.2069–0.1551 0.0088
+NotApplicable -0.0111 -0.1610 -0.10700.0838 0.8721
+5 0.2735 3.9636 -0.09110.6320 0.0001
+7.5 0.2696 3.9064 0.14320.3952 0.0001
+10 0.5302 7.6827 0.35530.7035 0.0000
+OverallKappa 0.2696 4.5643 0.07800.2482 0.0000
+4.FIRSTRESPONDERSMDS
+CategoriesofDegreesofAgreement
+Didnotvote -0.0638 -0.6383 -0.14140.0135 0.5233
+NotApplicable -0.1409 -1.4087 -0.2563–0.0272 0.1589
+5 0.1477 1.4773 0.01600.2786 0.1396
+6 0.4318 4.3182 0.31950.5432 0.0000
+8 0.6324 6.3235 0.47450.7872 0.0000
+10 1.0000 10.0000 -16.423520.2235 0.0000
+OverallKappa 0.4318 6.5389 0.05990.5928 0.0000
+5.VictimMDS
+CategoriesofDegreesofAgreement
+Didnotvote -0.1447 -3.1706 -0.2259–0.0637 0.0015
+NotApplicable -0.0722 -1.5824 -0.1240–0.0206 0.1136
+5 0.1070 2.3437 0.05080.1631 0.0191
+7.5 0.2320 5.0829 0.14280.3210 0.0000
+10 0.4742 10.3894 0.38190.5661 0.0000
+OverallKappa 0.2320 3.4197 0.02610.1393 0.0006
+6.HospitalMDS
+CategoriesofDegreesofAgreement
+Didnotvote -0.1970 -5.3405 -0.2030–0.1909 0.0000
+NotApplicable 0.0046 0.1238 -0.04210.0512 0.9015
+5 0.1158 3.1392 0.07320.1583 0.0017
+7.5 0.3241 8.7877 0.27830.3699 0.0000
+8 0.5945 16.1170 -17.739019.3117 0.0000
+(Continued)
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 14/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+Table3. (Continued)
+DataEntity Kappa ZStatistic 95%CI p-value
+10 0.4178 11.3275 0.33600.4995 0.0000
+OverallKappa 0.3241 0.3241 0.10760.1500 0.0000
+*MDS:minimumdataset
+https://doi.org/10.1371/journal.pone.0305699.t003
+emergencyanddisastermanagement,ITandcybersecurity,standardisation,etc.validatedthis
+MDS,whichwassubsequentlytestedinfourlarge-scalesimulationsineightEuropean
+countries.
+ThistoolcomplieswiththeHealthDisasterManagement:GuidelinesforEvaluationand
+ResearchissuedbytheWorkingGrouponQualityAssuranceinDisasterManagement
+(WADEM)[30]andthetooldevelopedbytheAcademyforEmergencyManagementand
+DisasterMedicine(EMDMAcademy)[9]whichprovidesstandardisedsystematicempirical
+informationondisastermedicalresponsetosupportmonitoringforfurtherevaluation,train-
+ingandresearch.
+Thevariabilityacrossproceduresandactionprotocolsoforganizationswithresponsibility
+forMCI/disastermanagementandthevariabilityoftechnicalandhumanresources,withdif-
+ferentdegreesoftraining,educationandspecialisation,canmakeitdifficulttoprovidean
+optimaljointresponse.Thisfurthercomplicatestheevaluation,trainingandinvestigationof
+suchincidents[31–35].ThedigitalMDSthathasbeendevelopedandtestedinthefoursimula-
+tionsmakespossiblestandardizedsystematiccollectionofdatathatsupportsthemonitoring
+ofmanyaspectsofincidentmanagementandsointurnundoubtedlyleadtotheidentification
+andassessmentofareasforimprovement,training,guidanceandresearchinthisfield.
+Datacollectioninthecoursedisastermanagementhasnotthusfarbeenregulated[34,
+36–38].TheMDSinthisstudyisbasedoncurrentscientificevidenceandallowsforthesys-
+tematiccollectionofdatainrealtime,asshownbythecollectionofdatainlarge-scalesimu-
+lationsinvolvingeightEuropeancountries–inafieldofresearchsorelylackingempirical
+research[28,39].Theautomaticdigitalcollectionofdataspeedstheprovisionofhealthcare,
+whichisoneofthemostsignificantissuesinthereportingofmedicalcareinsuchincidents
+[36,40,41].
+Itisalsosignificantthatinformationaboutcasualtiesdoesnotalwaysoriginatefromhealth
+services.Casualtiesmayreceiveinitialcarefromotheragencies,suchasfirefighters,policeand
+volunteersandthatinformationisnotrecordedinsupportsystems,leadingtolossofinforma-
+tionasacasualtypassesfromthecareofoneserviceintothecareofanotherservice.Conse-
+quently,thewayinwhichinformationshouldbeprocessedisnotalwaysthesameand
+applicablelawsrelatingtothecollectionofsensitivepersonaldatashouldbefollowedatall
+timesandtherightsofcasualtiesundertheGeneralDataProtectionRegulation(GDPR)
+shouldbegivenfulleffect.
+Theadvantageofthetoolliesinitsneutralitywiththewayofworkingoffirstresponders,
+theiractionprotocols,language,etc.TheseMDSisputforwardastheminimumessentialdata
+foroptimalMCImanagement.AnotheradvantageofthedigitalMDSpresentedisthepossibil-
+ityofcombinedcollectionanddigitaldisseminationinrealtimetotheentirechainofcom-
+mandandcontrol,bothinthecountryofcollectionandtoothercountries.Forexample,in
+thesimulationexercisecarriedoutinMay2023ontheborderbetweenSpainandPortugal,it
+waspossibletorecordalltheitemsdigitallyinrealtimeandinternationalcommandacrossthe
+twocountrieshadinformationonthenumberofcasualties,theircharacteristicsandthe
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 15/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+resourcesinvolvedatalltimes.Thedatawerestratifiedandprotectedsothateachresponder
+couldonlyaccessdatarelatedtotheirspecialism.
+Thehealthcarecoordinators,likethesecurityservices,didnothaveaccesstospecificmedi-
+caldataforpatients,buttheywereinformedinrealtimeofthenumberandseverity(colour)
+ofeachTriagestation.Conversely,doctorsandnursesatthemedicalstationscouldaccess
+patients’medicalreport,butnotothernon-medicaldatasuchasnumbersandtypesof
+resourcesknowntotheincidentcommander.
+Wethuseliminatedtheneedtousetelephonesorradiotocommunicatetheinformation
+neededtomanagetheincidentwithasignificantimpactondelaystoincidentmanagement
+pendingavailabilityofinformation.
+Forthatreason,inthisstudytheexpertconsensusreachedthroughDelphifocusedonopti-
+mizingincidentmanagementandminimizingtheneedtocommunicateinformationbyvoice
+andmaximizingthetraceabilityofcasualtiesandthemanagementoftransport,amongother
+data.Itwasnotthereforefocusedonthemedicaltreatmentormanagementofindividual
+patients.Interventionsofthisnatureareparticularlyusefulwhenthereareissuessuchas
+remotenessandchallenginggeographies,requiringtheinterventionofteamsfromdifferent
+countries,withdifferentlanguagesandwaysofworking.Thescopeforerrorisreducedbya
+standardizedprocedureinespeciallycomplicatedsituationssuchas(MCI),whichcanreduce
+thetimetakenbyhealthcarestaffintreatingcasualtiesandsoreducemorbimortalityand
+allowinvestigatorstocollectandinterpretreliableevidencetoimprovesurvivalandreduce
+morbidityamongpatientstreatedinanMCI.
+AscanbeseenfromTable3,thedegreeofconsensuswasashighaspossible(10/10)among
+expertsforthebasicitemsthatdirectlyaffectincidentmanagement,suchasidentificationof
+theincident,itslocation,typeofresources,casualtytriage,etc.Weshouldrememberthatall
+datawasgatheredandcommunicatedinrealtimetothewholechainofcommandandcontrol,
+greatlyimprovingthemanagementofthefourlargesimulationsruntoconfirmtheeffective-
+nessofthistool.Itisalsoimportantthatitprovedpossibletocollectthedataregardlessof
+placeandlanguage,withfullrespectthroughoutfortheprocedures,protocols,andlawsof
+eachcountry.
+ThevalueforCohen’skappatobetakenasshowingagoodlevelofagreementvaries
+dependingontheproblemathand.Inpractice,wehaveusedascalefortheinterpretationof
+kappavaluesfromAcceptableasequaltoorgreaterthan0.40(FirstResponder)toExcellentas
+above0.75(forIncident)[26].
+However,ourresults(particularlyinrelationtocasualtiesandhospitals)showthatitispos-
+siblefortheretobeahighlevelofobservedagreementand,atthesametime,akappaofclose
+tozero.Theapparentparadoxofhighlevelsofobservedagreementandlowkappavaluescan
+beexplainedbythefactthatforagivenlevelofobservedagreement,thevalueofkappa
+dependsonthefrequencyorrarityofthephenomenonunderstudy[27].Amongthesolutions
+proposedforthisproblemistostatethemaximumandminimumvaluesofkappawiththecal-
+culatedvalueofkappa.Wemustalsobearinmindthatasthenumberofcategoriesincreases,
+sodoesthedifficultyofcorrectlyclassifyingtheobserveditems,whichgenerallyleadstolower
+valuesofkappa[42].
+Itisnowworthnotingapeculiarityofthisstudy,namelytheuseofKappatomeasurethe
+degreeofagreementoftheevaluations.Thatthisisuncommoncanbeconfirmedfroma
+reviewofpriorsimilarstudiesinthesamearea[43–46]wheresuchcalculationswerenotcar-
+riedout.InanothercasetheKendalcoefficientwasused[47].TheKendalcoefficientisusedto
+measureassociationsbetweenratingsandissuitableforordinalrankings(ratingsonascale),
+whichisnotthecaseinthisstudy[48].Asnotedabove,Kappaisparticularlysuitableforuse
+withaDelphi-typeconsensusmethod.
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 16/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+StudiessuchasthatbyDebackerM.etal.[9],involvingthedevelopmentofastandardized
+modelforthemanagementofdataincatastrophes,proposedtestingsuchmodelsinthefield.
+Thatiswherethenoveltyofthisstudylies,thatwehavetestedthedegreeofagreementofthis
+gatheringofUtstein-styleMDSnotonlyinsitubutincross-borderMCIs,thusgivingagood
+representationoftheoperationofthemodel.
+OnthebasisofthedataobtainedthroughDelphi,weproposeconductingfurtherprojects
+toaddressthechallengesthatweencountered.Toassessthepotentialusabilityofmetadata
+wheredataarecollectedelectronically.Analysisshouldbecarriedoutafterthefactwithexact
+responsetimes.Atrialshouldbeconductedtodeterminetheformatofsuchinformation:
+therearemanychoices,suchastriagecolour,ageband,numericalvaluessuchasageand
+alphanumericinformationsuchasnameandsurname(s).Inconclusion,tofindasolutionto
+theproblemofdatasegmentation.
+Intermsoflimitations,whileamajorstepforwardhasbeenmadeinbringingthismethod
+tothefield,itisstillasimulation.Toassessitsfullpotential,theMDSwouldhavetobetested
+inreal-worldmulti-casualtyincidents.AsecondlimitationistestingonlyinEuropeancoun-
+tries:itshouldalsobetestedinareasundergoingdevelopmenttoassessitssuitability.The
+modifiedapproachadoptedinthisDelphisurveyisconsideredsuperiortotheoriginal
+approachbecauseitishighlyeffectiveandlesstimeconsuming.Havingan“expertpanel”is
+centraltotheprocessoftheDelphitechnique,althoughtherearenostandardcriteriafor
+determiningexpertise.Inthecurrentstudy,thepanelofexpertscomprisedpeoplefromseveral
+countries/citieswhoareindiverseprofessions,suchasuniversityacademics,physicians,and
+nurses.
+Conclusion
+ThisstudydocumentsthedevelopmentofanMDSthroughconsensuswithahighdegreeof
+agreementinagroupofexpertsofdifferentnationalitiesworkingindifferentfields.Allitems
+intheMDSweredigitallycollectedandcommunicatedinrealtimetothechainofcommand
+andcontrol.Thistoolhasdemonstrateditsvalidityinfourlargecross-bordersimulations
+involvingmorethaneightcountriesandtheiremergencyservicesusingamethodthatgener-
+atesproposalsforfurtherinvestigation.Theworkfallswithintheframeworkofproposals
+madeintheConclusionsoftheCouncilofEuropeforDisasterRiskReductioninEUexternal
+action(28November2022).
+Supportinginformation
+S1Checklist.Inclusivityinglobalresearch.
+(DOCX)
+S1Dataset.
+(XLSX)
+Acknowledgments
+WethanktheProjectVALKYRIESteam,theFoundationforBiosanitaryResearchandInno-
+vationinPrimaryCare(FIIBAP),theEuropeanProgrammesTechnicalSupportUnit
+(UTAPE)attheMinistryofHealthoftheAutonomousCommunityofMadridformakingthis
+studypossibleandtoalltheorganisationsandinstitutionsinvolvedinthe4majordrills,
+togetherwiththeexpertsparticipatinginthesedrills.
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 17/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+AuthorContributions
+Conceptualization:NavidBehzadiKoochani,IgnacioHerna´ndezPalencia,SergioLo´pezBer-
+nal,CarmenMartinCurto,Jose´CabezasRodr´ıguez.
+Datacuration:NavidBehzadiKoochani,IgnacioHerna´ndezPalencia,SergioLo´pezBernal,
+CarmenMartinCurto,Jose´CabezasRodr´ıguez.
+Formalanalysis:NavidBehzadiKoochani,Rau´lMuñozRomo,IgnacioHerna´ndezPalencia,
+SergioLo´pezBernal.
+Fundingacquisition:NavidBehzadiKoochani,IgnacioHerna´ndezPalencia,SergioLo´pez
+Bernal,CarmenMartinCurto,Jose´CabezasRodr´ıguez.
+Investigation:NavidBehzadiKoochani,Rau´lMuñozRomo,IgnacioHerna´ndezPalencia,Ser-
+gioLo´pezBernal,CarmenMartinCurto,Jose´CabezasRodr´ıguez,AlmudenaCastaño
+Reguillo.
+Methodology:NavidBehzadiKoochani,Rau´lMuñozRomo,IgnacioHerna´ndezPalencia,
+SergioLo´pezBernal,CarmenMartinCurto,Jose´CabezasRodr´ıguez.
+Projectadministration:NavidBehzadiKoochani,IgnacioHerna´ndezPalencia.
+Resources:NavidBehzadiKoochani,IgnacioHerna´ndezPalencia.
+Supervision:NavidBehzadiKoochani,IgnacioHerna´ndezPalencia,SergioLo´pezBernal.
+Validation:NavidBehzadiKoochani,Rau´lMuñozRomo,IgnacioHerna´ndezPalencia,Sergio
+Lo´pezBernal,CarmenMartinCurto.
+Visualization:NavidBehzadiKoochani,IgnacioHerna´ndezPalencia.
+Writing–originaldraft:NavidBehzadiKoochani,Rau´lMuñozRomo,IgnacioHerna´ndez
+Palencia,SergioLo´pezBernal,AlmudenaCastañoReguillo.
+Writing–review&editing:NavidBehzadiKoochani,Rau´lMuñozRomo,IgnacioHerna´ndez
+Palencia,SergioLo´pezBernal,CarmenMartinCurto,AlmudenaCastañoReguillo.
+References
+1. UNISDR.2009UNISDRTerminologyonDisasterRiskReduction.IntStratDisasterReduct.2009.
+2. RouhaniSA,RimpelL,PlantinJJ,CalahanCF,JulmisseM,EdmondMC,etal.MassCasualtyIncident
+ManagementforResource-LimitedSettings:LessonsFromCentralHaiti.DisasterMedPublicHealth
+Prep.2022Apr11;16(2):770–6.https://doi.org/10.1017/dmp.2020.439PMID:33691825
+3. OfficefortheCoordinationofHumanitarianAffairs.UnitedNations.UnitedNationsDisasterAssess-
+mentandCoordinationTeamUNDAC.FieldManual.Vol.7thEdition.AccesedFeb19,2024;2018.
+4. Rosell-OrtizF,Escalada-RoigX,Ferna´ndezdelValleP,Sa´nchez-SantosL,Navalpotro-PascualJM,
+Echarri-SucunzaA,etal.Out-of-hospitalcardiacarrest(OHCA)attendedbymobileemergencyteams
+withaphysicianonboard.ResultsoftheSpanishOHCARegistry(OSHCAR).Resuscitation.2017Apr;
+113:90–5.
+5. AdiniB,BodasM,NilssonH,PelegK.Policiesformanagingemergencymedicalservicesinmasscasu-
+altyincidents.Injury.2017Sep;48(9):1878–83.https://doi.org/10.1016/j.injury.2017.05.034PMID:
+28583418
+6. HartleyA,MarshallDC,SalciccioliJD,SikkelMB,MaruthappuM,ShalhoubJ.TrendsinMortalityFrom
+IschemicHeartDiseaseandCerebrovascularDiseaseinEurope.Circulation.2016May17;133
+(20):1916–26.
+7. RanseJ,HuttonA.MinimumDataSetforMass-GatheringHealthResearchandEvaluation:ADiscus-
+sionPaper.PrehospDisasterMed.2012Dec19;27(6):543–50.https://doi.org/10.1017/
+S1049023X12001288PMID:23174040
+8. ShanbehzadehM,Kazemi-ArpanahiH.DevelopmentofminimalbasicdatasettoreportCOVID-19.
+MedJIslamRepubIran.2020;34(1).https://doi.org/10.34171/mjiri.34.111PMID:33315989
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 18/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+9. DebackerM,HubloueI,DhondtE,RockenschaubG,Ru¨terA,CodreanuT,etal.Utstein-StyleTem-
+plateforUniformDataReportingofAcuteMedicalResponseinDisasters.PLoSCurr.2012;https://doi.
+org/10.1371/4f6cf3e8df15aPMID:23066513
+10. IdrisAH,BierensJJLM,PerkinsGD,WenzelV,NadkarniV,MorleyP,etal.2015RevisedUtstein-Style
+RecommendedGuidelinesforUniformReportingofDataFromDrowning-RelatedResuscitation:An
+ILCORAdvisoryStatement.CircCardiovascQualOutcomes.2017Jul;10(7).
+11. MoulaeiK,BahaadinbeigyK,MazhariS.Designingtheminimumdatasetofbipolardisorder:Abasis
+forintroducingtheeffectivefactorsinmanaging,controlling,andmonitoringthebipolardisorder.JEduc
+HealthPromot.2022;11(1):147.https://doi.org/10.4103/jehp.jehp_971_21PMID:35847134
+12. BurtonJK,WoltersAT,TowersA-M,JonesL,MeyerJ,GordonAL,etal.Developingaminimumdataset
+forolderadultcarehomesintheUK:exploringtheconceptanddefiningearlycoreprinciples.LancetHeal
+Longev.2022Mar;3(3):e186–93.https://doi.org/10.1016/S2666-7568(22)00010-1PMID:35282598
+13. WorldHealthOrganization.Humanresourcesforhealthinformationsystem:minimumdatasetfor
+healthworkforceregistry.2015.https://www.who.int/publications/i/item/9789241549226.Accessed5
+Feb2024.
+14. Directive2011/24/oftheEuropeanParliamentandoftheCouncilof9March2011ontheapplicationof
+patients’rightsincross-borderhealthcare.
+15. RoyalDecree572/2023of4July,amendingRoyalDecree1093/2010of3September,approvingthe
+minimumsetofdataforclinicalreportsintheNationalHealthSystem.
+16. EuropeanHealthDataSpace.PublicHealth.https://health.ec.europa.eu/ehealth-digital-health-and-
+care/european-health-data-space_en.AccesedJan222024.
+17. APoustourli.EuropeanSecurityStandardisation:AnOverviewofEC487Mandate.RECENT.2016;17
+(3):247–58.
+18. StandardizationmandatetoCEN-CLC-ETSIfortheimplementationoftheEuropeanCriticalInfrastruc-
+tureProtectionDirective(2008/114/EC).
+19. VonLubitzDKJE,BeakleyJE,PatricelliF.‘Allhazardsapproach’todisastermanagement:theroleof
+informationandknowledgemanagement,Boyd’sOODALoop,andnetwork-centricity.Disasters.2008
+Dec24;32(4):561–85.https://doi.org/10.1111/j.1467-7717.2008.01055.xPMID:18479475
+20. KennedyHP.EnhancingDelphiresearch:methodsandresults.JAdvNurs.2004Mar18;45(5):504–
+11.https://doi.org/10.1046/j.1365-2648.2003.02933.xPMID:15009353
+21. HassonF,KeeneyS,McKennaH.ResearchguidelinesfortheDelphisurveytechnique.JAdvNurs.
+2000Oct;32(4):1008–15.PMID:11095242
+22. OttoQ,NolanJP,ChamberlainDA,CumminsRO,SoarJ.UtsteinStyleforemergencycare—thefirst
+30years.Resuscitation.2021Jun;163:16–25.https://doi.org/10.1016/j.resuscitation.2021.03.022
+PMID:33823223
+23. SvensøyJN,NilssonH,RimstadR.AQualitativeStudyonResearchers’ExperiencesafterPublishing
+ScientificReportsonMajorIncidents,Mass-CasualtyIncidents,andDisasters.PrehospDisasterMed.
+2021Oct6;36(5):536–42.https://doi.org/10.1017/S1049023X21000911PMID:34486507
+24. LinC-H.DisasterMedicineinTaiwan.JacuteMed.2019Sep1;9(3):83–109.https://doi.org/10.6705/j.
+jacme.201909_9(3).0002PMID:32995238
+25. LandisJR,KochGG.Themeasurementofobserveragreementforcategoricaldata.Biometrics.1977
+Mar;33(1):159–74.PMID:843571
+26. ThompsonWD,WalterSD.AreappraisaloftheKappaCoefficient.JClinEpidemiol.1988Jan;41
+(10):949–58.https://doi.org/10.1016/0895-4356(88)90031-5PMID:3057117
+27. FeinsteinAR,CicchettiDV.HighagreementbutlowKappa:I.theproblemsoftwoparadoxes.JClin
+Epidemiol.1990Jan;43(6):543–9.https://doi.org/10.1016/0895-4356(90)90158-lPMID:2348207
+28. Kar-PurkayasthaI,ClarkeM,MurrayV.Dealingwithdisasterdatabases—Whatcanwelearnfrom
+healthandsystematicreviews?Applicationinpractice.PLoSCurr.2011Sep30;3:RRN1272.https://
+doi.org/10.1371/currents.RRN1272PMID:22033606
+29. KippnichM,MeybohmP,WurmbT.Pra¨klinischeundklinischeVersorgungskonzepteinderKatastro-
+phenmedizin.AINS—Ana¨sthesiologie�Intensivmed�Notfallmedizin�Schmerztherapie.2021Feb19;
+56(02):111–23.
+30. SundnesKO,AdlerJ,BirnbaumML,CalltorpJ,GunnSWA,KhatibOJ,etal.HealthDisasterManage-
+mentGuidelinesforEvaluationandResearchintheUtsteinStyle.Vol. 17,Prehospitalanddisaster
+medicine. Madison;2003.
+31. LennquistS.ProtocolforReportsfromMajorAccidentsandDisastersintheInternationalJournalof
+DisasterMedicine.EurJTraumaEmergSurg.2008Oct26;34(5):486–92.https://doi.org/10.1007/
+s00068-008-8806-1PMID:26815992
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 19/20
+PLOS ONE Minimumdatasetharmonizationinthemanagementofcross-borderincidentswithmultiplevictims
+32. FattahS,RehnM,LockeyD,ThompsonJ,LossiusHM,WisborgT.Aconsensusbasedtemplatefor
+reportingofpre-hospitalmajorincidentmedicalmanagement.ScandJTraumaResuscEmergMed.
+2014Dec30;22(1):5.https://doi.org/10.1186/1757-7241-22-5PMID:24517242
+33. KullingP,BirnbaumM,MurrayV,RockenschaubG.GuidelinesforReportsonHealthCrisesandCriti-
+calHealthEvents.PrehospDisasterMed.2010Aug28;25(4):377–83.https://doi.org/10.1017/
+s1049023x00008402PMID:20845331
+34. BradtDA,AitkenP.Disastermedicinereporting:TheneedfornewguidelinesandtheCONFIDEstate-
+ment.EmergMedAustralas.2010Dec8;22(6):483–7.https://doi.org/10.1111/j.1742-6723.2010.
+01342.xPMID:21143395
+35. RU¨TERA,O¨RTENWALLP,WIKSTRO¨MT.PerformanceIndicatorsforMajorIncidentMedicalMan-
+agement–APossibleToolforQualityControl?IntJDisasterMed.2004Jan13;2(1–2):52–5.
+36. AufderHeideE.TheImportanceofEvidence-BasedDisasterPlanning.AnnEmergMed.2006Jan;47
+(1):34–49.https://doi.org/10.1016/j.annemergmed.2005.05.009PMID:16387217
+37. QuarantelliEL,TaylorVA.Deliveryofemergencymedicalservicesindisasters:assumptionsandreali-
+ties. NY: IrvingtonPublishers.1983;
+38. NojiEK.Disasters:IntroductionandStateoftheArt.EpidemiolRev.2005Jul1;27(1):3–8.https://doi.
+org/10.1093/epirev/mxi007PMID:15958421
+39. BradtDA.Evidence-BasedDecision-Making(PartII):ApplicationsinDisasterReliefOperations.Pre-
+hospDisasterMed.2009Dec28;24(6):479–92.https://doi.org/10.1017/s1049023x0000738xPMID:
+20301064
+40. StrattonSJ,TylerRD.CharacteristicsofMedicalSurgeCapacityDemandforSudden-impactDisasters.
+AcadEmergMed.2006Nov28;13(11):1193–7.https://doi.org/10.1197/j.aem.2006.05.008PMID:
+16885401
+41. HoganDE,WaeckerleJF,DireDJ,LillibridgeSR.EmergencyDepartmentImpactoftheOklahomaCity
+TerroristBombing.AnnEmergMed.1999Aug;34(2):160–7.https://doi.org/10.1016/s0196-0644(99)
+70224-6PMID:10424916
+42. KramerMS,FeinsteinAR.Clinicalbiostatistics:LIV.Thebiostatisticsofconcordance.ClinPharmacol
+Ther.1981Jan;29(1):111–23.
+43. Mackway-JonesK,CarleySD,RobsonJ.Planningformajorincidentsinvolvingchildrenbyimplement-
+ingaDelphistudy.ArchDisChild.1999May1;80(5):410–3.https://doi.org/10.1136/adc.80.5.410
+PMID:10208943
+44. CrawfordIWF.Delphibasedconsensusstudyintoplanningforchemicalincidents.EmergMedJ.2004
+Jan1;21(1):24–8.https://doi.org/10.1136/emj.2003.003087PMID:14734369
+45. RandicL,CarleyS,Mackway-JonesK,DunnK.PlanningformajorburnsincidentsintheUKusingan
+acceleratedDelphitechnique.Burns.2002Aug;28(5):405–12.https://doi.org/10.1016/s0305-4179(02)
+00108-0PMID:12163277
+46. BrownN,CrawfordI,CarleyS,Mackway-JonesK.ADelphi-basedconsensusstudyintoplanningfor
+biologicalincidents.JPublicHealth(Bangkok).2006Sep1;28(3):238–41.https://doi.org/10.1093/
+pubmed/fdl015PMID:16809791
+47. MAOX,LOKEAY,HUX.Developingatoolformeasuringthedisasterresilienceofhealthcarerescuers:
+amodifiedDelphistudy.ScandJTraumaResuscEmergMed.2020Dec20;28(1):4.https://doi.org/10.
+1186/s13049-020-0700-9PMID:31959218
+48. GearhartA,BoothDT,SedivecK,SchauerC.UseofKendall’scoefficientofconcordancetoassess
+agreementamongobserversofveryhighresolutionimagery.GeocartoInt.2013Oct;28(6):517–26.
+PLOSONE|https://doi.org/10.1371/journal.pone.0305699 July18,2024 20/20

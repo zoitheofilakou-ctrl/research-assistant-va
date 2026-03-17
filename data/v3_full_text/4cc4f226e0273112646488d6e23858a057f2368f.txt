@@ -1,0 +1,579 @@
+TYPE OriginalResearch
+PUBLISHED 13January2023
+DOI 10.3389/fpubh.2022.962924
+Digital maturity and its
+determinants in General
+OPENACCESS
+EDITEDBY Practice: A cross-sectional study
+MuhammedElhadi,
+UniversityofTripoli,Libya
+in 20 countries
+REVIEWEDBY
+JessicaG.Shull,
+UniversityofBarcelona,Spain
+ErnestinaMenasalvas,
+PolytechnicUniversityofMadrid,Spain FábiaTeixeira1,EdmondLi2,LilianaLaranjo3,4,ClaireCollins5,
+MostafaA.Shehata,
+GregIrving6,MariaJoseFernandez7,8,JosipCar9,10,
+UniversityofTexasMDAnderson
+CancerCenter,UnitedStates MehmetUngan11,DavorinaPetek12,RobertHoffman13,
+ArgyroMavrogiorgou,
+UniversityofPiraeus,Greece AzeemMajeed10,KatarzynaNessler14,HeidrunLingner15,16,
+*CORRESPONDENCE GeronimoJimenez9,17,AraDarzi2,CristinaJácome18 and
+AnaLuísaNeves
+AnaLuísaNeves2,10,18* onbehalfoftheinSIGHTResearch
+ana.luisa.neves14@imperial.ac.uk
+Group
+SPECIALTYSECTION
+Thisarticlewassubmittedto
+DigitalPublicHealth, 1FacultyofMedicineoftheUniversityofPorto,Porto,Portugal,2InstituteofGlobalHealth
+asectionofthejournal Innovation,DepartmentofSurgeryandCancer,FacultyofMedicine,ImperialCollegeLondon,
+FrontiersinPublicHealth London,UnitedKingdom,3WestmeadAppliedResearchCentre,FacultyofMedicineandHealth,
+UniversityofSydney,Sydney,NSW,Australia,4AustralianInstituteofHealthInnovation,Macquarie
+RECEIVED19July2022 University,Sydney,NSW,Australia,5IrishCollegeofGeneralPractitioners,Dublin,Ireland,6Health
+ACCEPTED20December2022 ResearchInstitute,EdgeHillUniversity,Ormskirk,UnitedKingdom,7GaliciaSouthHealthResearch
+PUBLISHED13January2023 Institute,Vigo,Spain,8LeiroHealthCenter,Leiro,Spain,9CenterforPopulationHealthSciences,Lee
+CITATION KongChianSchoolofMedicine,NanyangTechnologicalUniversity,Singapore,Singapore,
+TeixeiraF,LiE,LaranjoL,CollinsC, 10DepartmentofPrimaryCareandPublicHealth,SchoolofPublicHealth,ImperialCollegeLondon,
+IrvingG,FernandezMJ,CarJ, London,UnitedKingdom,11DepartmentofFamilyMedicine,AnkaraUniversitySchoolofMedicine,
+UnganM,PetekD,HoffmanR, Ankara,Türkiye,12DepartmentofFamilyMedicine,FacultyofMedicine,UniversityofLjubljana,
+MajeedA,NesslerK,LingnerH, Ljubljana,Slovenia,13DepartmentofFamilyMedicine,SacklerFacultyofMedicine,TelAviv
+JimenezG,DarziA,JácomeCand University,TelAviv,Israel,14DepartmentofFamilyMedicine,JagiellonianUniversityMedicalCollege,
+NevesAL(2023)Digitalmaturityandits Kraków,Poland,15CenterforPublicHealthandHealthcare,GermanCenterforLungResearch
+determinantsinGeneralPractice:A (DZL),Giessen,Germany,16BREATHHannover,HannoverMedicalSchool,Hanover,Germany,
+cross-sectionalstudyin20countries. 17DepartmentofPublicHealthandPrimaryCare,LeidenUniversityMedicalCenter,Leiden,
+Front.PublicHealth10:962924. Netherlands,18CINTESIS@RISE,MEDCIDS,FacultyofMedicineoftheUniversityofPorto,Porto,
+doi:10.3389/fpubh.2022.962924 Portugal
+COPYRIGHT
+©2023 Teixeira,Li,Laranjo,Collins,
+Irving,Fernandez,Car,Ungan,Petek, Background: The extent to which digital technologies are employed to
+Hoffman,Majeed,Nessler,Lingner, promote the delivery of high-quality healthcare is known as Digital Maturity.
+Jimenez,Darzi,JácomeandNeves.
+Individual and systemic digital maturity are both necessary to ensure a
+Thisisanopen-accessarticle
+distributedunderthetermsofthe successful, scalable and sustainable digital transformation in healthcare.
+CreativeCommonsAttributionLicense However,digitalmaturityinprimarycarehasbeenscarcelyevaluated.
+(CCBY).Theuse,distributionor
+reproductioninotherforumsis Objectives: This study assessed the digital maturity in General Practice
+permitted,providedtheoriginal
+(GP) globally and evaluated its association with participants’ demographic
+author(s)andthecopyrightowner(s)
+arecreditedandthattheoriginal characteristics, practice characteristics and features of Electronic Health
+publicationinthisjournaliscited,in Records(EHRs)use.
+accordancewithacceptedacademic
+practice.Nouse,distributionor Methods: GPs across 20 countries completed an online questionnaire
+reproductionispermittedwhichdoes
+between June and September 2020. Demographic data, practice
+notcomplywiththeseterms.
+characteristics, and features of EHRs use were collected. Digital
+maturity was evaluated through a framework based on usage, resources
+and abilities (divided in this study in its collective and individual
+components), interoperability, general evaluation methods and impact
+of digital technologies. Each dimension was rated as 1 or 0. The
+digital maturity score was calculated as the sum of the six dimensions
+and ranged between 0 to 6 (maximum digital maturity). Multivariable
+FrontiersinPublicHealth 01 frontiersin.org
+Teixeiraetal. 10.3389/fpubh.2022.962924
+linearregressionwasusedtomodelthetotalscore,whilemultivariablelogistic
+regression was used to model the probability of meeting each dimension of
+thescore.
+Results: One thousand six hundred GPs (61% female, 68% Europeans)
+participated.GPshadamediandigitalmaturityof4(P25–P75:3–5).Positive
+associationswithdigitalmaturitywerefoundwith:malegender[B=0.18(95%
+CI0.01;0.36)],useofEHRsforlongerperiods[B=0.45(95%CI0.35;0.54)]and
+higherfrequenciesofaccesstoEHRs[B=0.33(95%CI0.17;0.48)].Practicingin
+aruralsettingwasnegativelyassociatedwithdigitalmaturity[B=−0.25(95%CI
+−0.43; −0.08)]. Usage (90%) was the most acknowledged dimension while
+interoperability (47%) and use of best practice general evaluation methods
+(28%)weretheleast.ShorterdurationsofEHRsusewerenegativelyassociated
+withalldigitalmaturitydimensions(aORfrom0.09to0.77).
+Conclusion: Our study demonstrated notable factors that impact digital
+maturityandexposeddiscrepanciesindigitaltransformationacrosshealthcare
+settings. It provides guidance for policymakers to develop more efficacious
+interventionstohastenthedigitaltransformationofGeneralPractice.
+KEYWORDS
+primary care, quality of care, digital technology, digital maturity, electronic health
+records,healthinformationinteroperability
+Introduction
+whichdigitaltechnologiesareemployedtopromotethedelivery
+of high quality healthcare is known as digital maturity and it
+Digital technologies have revolutionized many aspects is an emerging concept across developed health care systems
+of modern society — health care is no exception (1). (16).Thedigitalmaturityofhealthprofessionalsandsystemsis
+Around the world, the onset of the digital transformation necessarytoensureasuccessful,scalableandsustainabledigital
+has radically changed the primary care landscape (2, 3) transformation(17–19).
+throughthewidespreadcomputerizationandthedigitalization Morethanthemodernizationofmedicalresources,digital
+ofpersonalhealthinformationintoElectronicHealthRecords transformation is a complex multidimensional process (8)
+(EHRs).Simultaneously,thedisseminationofelectronicmedical and therefore digital maturity, as any care intervention,
+devices (4), as well as adoption of systems enabling digital needs to be rigorously evaluated and monitored to ensure
+drug prescriptions, referrals, billing, scheduling tests and successfulimplementation(16).Whiletherehavebeenstudies
+appointments are also major contributors to this change (5). focused on the assessment of digital maturity in secondary
+Advances in digital technologies can also be seen from the care (20, 21), similar efforts are likewise needed in primary
+proliferation of implantable devices which offer real time care (3). The importance of exploring digital maturity
+monitoring of physiological parameters (6, 7), to telemedicine shortcomings in primary care increases as some of its
+(1) and mobile health—the use of mobile devices to improve components such as EHRs have been cited as a contributor
+healthoutcomes(8–11).Thisalreadyongoingdigitaltransition to physicians’ burnout, particularly GPs’ (22). To our best
+has been further accelerated as a result of the COVID-19 knowledge, digital maturity in primary care has not been
+pandemic(1,12). previouslyevaluated.
+From facilitating communication between providers to This study assesses digital maturity — per individual
+improvingprevention,achievingearlydiagnosisandproviding dimensions (i.e., usage, resources and ability, interoperability,
+timely treatments, digital technologies have demonstrated general evaluation methodology, and impact) and overall
+tremendouspotentialtoimprovehealthcaredelivery(13,14). score (sum of all dimensions) — in General Practice
+However, they are yet to play a major role among efforts to across 20 countries. It also evaluates if the characteristics
+improve primary health care delivery (15). Nonetheless, the of participants or clinical practices, as well as features
+relevanceofdigitaltechnologieskeepsgrowinginprimarycare of EHR adoption, are associated with digital maturity.
+as governments’ approaches to this sector continue to move Our hypothesis is that the characteristics described
+towardtheuseofmorecollaborativesystems(3).Theextentto above can affect digital maturity. The identification
+FrontiersinPublicHealth 02 frontiersin.org
+Teixeiraetal. 10.3389/fpubh.2022.962924
+of such factors may contribute to developing more (including the full questionnaire) is available as a published
+efficacious digital transformation implementation paperinJMIRResearchProtocols(23).
+strategiesworldwide. Demographic data (gender, age, and country), practice
+features (setting, number of hours of clinical work per week,
+Methods number of years of experience as GP and involvement
+in teaching activities) and characteristics of access to
+Study design and setting EHRs (availability of EHRs, duration, and frequency of
+use) were collected. Digital maturity was assessed using
+This is a cross-sectional study, utilizing an online the digital maturity framework developed by Flott et al.
+questionnaire completed by GPs. Ethical approval was (Supplementarymaterial), which considers the dimensions
+grantedfromtheImperialCollegeResearchEthicsCommittee usage, resources and abilities (organizational and individual),
+(Reference 20IC5956), which oversees health-related interoperability, general evaluation methodology, and impact
+research with human participants. The study adheres to (21). These dimensions were assessed, respectively, by
+the STrengthening the Reporting of OBservational studies in measuringagreementwiththestatementsbelow.
+Epidemiology (STROBE) guideline for cross-sectional studies.
+The research was conducted by a primary care consortium • Usage: “Most healthcare providers in our practice use the
+(inSIGHTResearchGroup)whichgathershealthprofessionals digitalsystem.”
+from20countries(Australia,Brazil,Canada,Chile,Colombia, • Resourcesandability(organizational):“Ourorganizationis
+Croatia,Finland,France,Germany,Ireland,Israel,Italy,Poland, readytousethedigitalsystemcorrectly.”
+Portugal,Slovenia,Spain,Sweden,Turkey,theUnitedKingdom, • Resourcesandability(individual):“Wehavetheindividual
+andtheUnitedStates). abilitiesneededtousethedigitalsystemcorrectly.”
+• Interoperability: “Our digital system has the capability to
+communicateacrossservicesorwithothersystems.”
+Study population • General evaluation methodology: “We have best practice
+digitalmaturityevaluationmethodsinplace.”
+Participants were eligible if they were GPs working in the • Impact: “Our system has a positive impact in terms of
+countriesabovebetweenMarchandSeptember2020. outcomesforpatients,structure,processorfinance.”
+Alldimensionswereevaluatedbytheparticipantasoneof
+Sample size and recruitment the following options: agree, neutral or disagree. The overall
+digital maturity score was calculated as the sum of the scores
+Thesamplesizeissuperiortothetotalnumberofresponses for the six dimensions. Whenever the participant expressed
+needed to provide a confidence level of 95% and a margin of agreement with one dimension, one point was granted, and
+error of 5% (901), according to the published protocol (23). thereforeoveralldigitalmaturityscoresrangedbetween0to6.
+Recruitment of participants was conducted by national leads Afulllistofthequestionsincludedinthisworkisprovided
+who invited GPs working in their country to take part in the asSupplementaryTableS1.
+questionnaireviaemailandthroughsocialmediachannels,such
+asFacebookandLinkedIn.Participantswererecruitedbetween
+Data analysis
+JuneandSeptember2020.
+All participants, even those in which some parameters
+Description of questionnaire were missing, were used in the analysis. Countries were
+categorized as European (Finland, France, Germany, Ireland,
+Investigators at the Patient Safety Translational Research Italy, Poland, Portugal, Slovenia, Spain, Sweden, and the
+Center and Department of Primary Care and Public Health UnitedKingdom)andNon-European(remaining).Thevariable
+at Imperial College London constructed the questionnaire. It “Setting of practice” was split into “Rural” and “Urban.” The
+was piloted by the national leads of the 20 inSIGHT Research option “Prefer not to answer” in the questions regarding age,
+GroupassociatecountriesinMay2020andeditedfornational, gender and involvement in teaching activities were treated as
+cultural or organizational adaptations. The questionnaire was missinginformation.
+originally developed in English, and was translated to French, The normality of distribution of each continuous variable
+German, Italian, Portuguese, and Spanish by national leads to was assessed using the Kolmogorov-Smirnov test (24). This
+stimulatehigherparticipation.Thequestionnairewasprovided test is one of the most general non-parametric methods
+to participants through Qualtrics. The research protocol for comparing two samples, as it is sensitive to differences
+FrontiersinPublicHealth 03 frontiersin.org
+Teixeiraetal. 10.3389/fpubh.2022.962924
+FIGURE1
+Visualrepresentationofmethodology.OR,oddsratio;CI,confidenceinterval;characteristicsP<0.12,independentvariableswhoseassociation
+withthedependentvariablehadaP-value<0.12.
+in both location and shape of the empirical cumulative CI)] were calculated (Figure1). The models were evaluated
+distributionfunctionsofthetwosamples,thereforewaschosen using Hosmer Lemeshow tests and Nagelkerke’s R-square (26,
+to assess normality in this case. Descriptive statistics were 27). Data were analyzed using IBM SPSS Statistics 26.0 (IBM
+performedusingabsoluteandrelativefrequenciesforcategorical Corporation,Armonk,NY,USA).
+variables, and median and interquartile range are presented
+for continuous variables with skewed distribution. Univariate
+Results
+linearregressionwasperformedtodeterminethecharacteristics
+(i.e., gender, age, country, years of experience as GP, hours
+Participants characteristics
+of clinical work per week, involvement in teaching activities,
+rural setting of practice, urban setting of practice, access to
+Atotalof1,600 GPswere enrolled,mostlyfemale (61%;n
+EHRs, duration and frequency of use of EHRs) associated
+= 976), aged between 30 to 39 years old (33%; n = 530) and
+with the digital maturity score (25) (continuous variable).
+practicing in European countries (68%; n = 1,081). Most of
+Unstandardized coefficients (B) and 95% confidence intervals
+themhadmorethan20yearsofexperienceasaGP(31%;n=
+were calculated. All independent variables associated with
+digital maturity score with a P-value < 0.12 were included in 431),workedamedianof36hperweek(P25–P75:28–40),in
+anurbansetting(73%,n=1,354)andwereinvolvedinteaching
+the first multivariable model iteration. P-value represents the
+activities (64%; n = 1,017). Most of them had access to EHRs
+probability of obtaining the observed results, assuming that
+(95%,n=1,523),wereusingiteveryday(91%,n=1,379)and
+thesecharacteristicswereunrelatedtothedigitalmaturityscore.
+formorethan10years(55%,n=838).Thecharacteristicsofthe
+Thevariablesformultivariableanalysiswerechosenthroughthe
+participantsaresummarizedinTable1.
+stepwise method. The models were evaluated using P-values,
+coefficientsofdetermination(R2).Similarly,univariatebinomial
+logisticregressionswereusedtoidentifycharacteristicspossibly
+predicting the binomial outcome (0 = neutral/disagree, 1 = Digital maturity and participants’
+agree) of each of the six components of the digital maturity characteristics
+scoreusage,collectiveresourcesandability,individualresources
+and ability, interoperability, general evaluation methods and Participants had a median digital maturity score of 4 (3–
+impact(26,27).CharacteristicswithP-value<0.12atunivariate 5). The highest three levels of the score accounted for almost
+analysis were used in a multivariable logistic regression. The 60%oftheanswers.Amongthesixdimensions,usageregistered
+finalmodelwasobtainedusingaforwardconditionalregression. thehighestpercentageofagreement(90%,n=1,209),followed
+Adjusted odds ratio and 95% confidence intervals [aOR (95% by collective and individual resources and ability (80%, n =
+FrontiersinPublicHealth 04 frontiersin.org
+Teixeiraetal. 10.3389/fpubh.2022.962924
+TABLE1 Participantscharacteristics(n=1,600). 1,073 and 77%, n = 1,035, respectively), impact (59%, n =
+788)andinteroperability(47%,n=633).Bestpracticegeneral
+Characteristics Total
+(n=1,600) evaluation methods registered the lowest scores of agreement
+Gendera (28%, n = 380). A significant multivariable linear regression
+model explained the digital maturity score (R2 = 11%, P <
+Female 976(61%)
+0.001).Beingmalewasassociatedwithahigherdigitalmaturity
+Male 613(39%) score [B = 0.18 (95% CI 0.01; 0.36)], while practicing in a
+Ageb ruralsettingwasinverselyassociatedwithit[B=−0.25(95%
+<30years 101(6%) CI −0.43; −0.08)]. Additionally, longer duration and higher
+frequency of use of EHRs were also associated with a higher
+30–39years 530(33%)
+digital maturity score [B = 0.45 (95% CI 0.35; 0.54), B =
+40–49years 414(26%)
+0.33 (95% CI 0.17; 0.48), respectively]. A detailed overview of
+50–59years 325(20%)
+the model is provided in Table2 and a graphic representation
+60–69years 208(12%) inFigure2A.
+70+years 18(1%)
+Countryc
+Individual dimensions of digital maturity
+European 1,081(68%)
+and participants’ characteristics
+Non-European 517(32%)
+YearsofexperienceasGP
+Unadjusted ORs estimating the association between the
+<5years 335(21%) characteristicsoftheparticipantsandeachofthesixdimensions
+5–10years 360(23%) ofthedigitalmaturityarepresentedinSupplementaryTableS2.
+Urbansettingofpracticewasnotassociatedwithanydimension,
+10–15years 241(15%)
+whiledurationofuseofEHRswasassociatedwithallofthem.
+>15years 173(42%)
+Adjusted ORs (aORs) represent the multivariable analysis
+Hoursofclinicalworkperweek,median(P25–P75), 36(28–40)
+of the predictors of each dimension and are summarized in
+hoursc
+SupplementaryTableS3. The models explained 19% of the
+Settingofpracticec
+variance of usage, 13% of collective resources and ability, 6%
+Urban 1,354(73%) of individual resources and ability, 7% of interoperability, 4%
+Rural 1,000(63%) of general evaluation methods and 6% of impact. Hosmer
+Involvementinteachingd 1,017(64%) Lemeshow tests showed that the models adequately fitted the
+data(P =0.713,P =0.983,P =0.276,P =0.554,P =0.981,
+AccesstoEHRsc 1,523(95%)
+andP=0.956,respectively).
+DurationofuseofEHRse
+OnlyafterCOVID-19outbreak 23(2%)
+BeforeCOVID-19outbreak,but<2years 111(7%) Usage
+GPswerelesslikelytousedigitalsystemsiftheywereusing
+(2–5)years 205(14%)
+EHRsforashorterperiodoftime(aORfrom0.09to0.52)when
+(5–10)years 336(22%)
+comparedtoGPsaccessingthemformorethan10years.Lower
+>10years 838(55%)
+frequencies of access to EHRs were also associated with lower
+FrequencyofaccesstoEHRse
+oddsofuseofthedigitalsystems(aORfrom0.18to0.43)when
+Lessthan1∗month 29(2%) compared toaccessing them every day. On theother hand, in
+Atleast1∗month 12(1%) comparison with GPs practicing for more than 15 years, GPs
+whostartedpracticingmorerecentlyhadhigheroddsofusing
+Atleast1∗week 27(2%)
+thedigitalsystems(aORfrom1.58to2.42).Thenumberofhours
+Morethan1∗week 66(4%)
+GPsworkedinaweekwerenegativelyassociatedwithusageof
+Everyday 1,379(91%) digitaltechnologies[aOR=0.99(0.98;1.00);Figure2B].
+Unlessotherwiseindicated,valuesaredisplayedinn(%).
+GP,GeneralPractitioner;P25–P75,percentile25topercentile75.
+EHRs,electronichealthrecords.
+aElevenGPswithmissinginformation. Collectiveresourcesandability
+bFourGPswithmissinginformation. WhencomparedtoGPsaccessingEHRsformorethan10
+cTwoGPswithmissinginformation.
+years, GPs who startedaccessing them later were less likely to
+dFifteenGPswithmissinginformation.
+eEighty-sevenGPswithmissinginformation. expresshavingcollectiveresourcesandabilities(aORfrom0.14
+FrontiersinPublicHealth 05 frontiersin.org
+Teixeiraetal. 10.3389/fpubh.2022.962924
+TABLE2 Univariateandmultivariablelinearregressionmodelstoexplainthedigitalmaturityscore.
+Characteristics Univariateanalysis Multivariableanalysis
+B(95%CI) P-value B(95%CI) P-value
+Gender(Ref=Female) 0.27(0.08;0.45) 0.005 0.18(0.01;0.36) 0.042
+Age 0.18(0.11;0.26) <0.001
+Country(Ref=Non-European) 0.26(0.07;0.45) 0.008
+YearsofexperienceasGP 0.21(0.13;0.28) <0.001
+Hoursofclinicalworkperweek −0.01(−0.01;0.01) 0.864
+Ruralsettingofpractice −0.15(−0.34;0.40) 0.114 −0.25(−0.43;−0.08) 0.005
+Urbansettingofpractice −0.03(−0.28;0.22) 0.797
+Involvementinteachingactivities 0.19(−0.01;0.38) 0.056
+AccesstoEHRs 0.28(−0.18;0.74) 0.229
+DurationofuseofEHRs 0.53(0.44;0.61) <0.001 0.45(0.35;0.54) <0.001
+FrequencyofaccesstoEHRs 0.57(0.42;0.72) <0.001 0.33(0.17;0.48) <0.001
+Ref,reference;B,unstandardizedregressioncoefficient;95%CI,95%confidenceinterval;GP,GeneralPractitioner;EHRs,electronichealthrecord.
+to0.54),aswellasGPswhoaccessEHRslessfrequently(aOR wasassociatedwithloweroddsofhavingbestpracticeevaluation
+from0.39to0.85)whencomparedtoGPsaccessingthemevery methodsinplace(aORfrom0.27to0.65;Figure2F).
+day(Figure2C).
+Impact
+Individualresourcesandability Maleshadhigheroddsofreportingdigitalsystem’simpact
+Being male was positively associated with reporting (aOR1.35), as well as younger GPs (aOR 3.41–5.30) when
+individualresourcesandability[aOR1.33(95%CI1.00;1.80)], compared to being 70 or more years old. On the other hand,
+while practicing in a rural setting was negatively associated incomparisonwithGPswhostartedtoaccessEHRsoverthan
+with it [aOR 0.67 (95% CI 0.51; 0.88)]. GPs who started 10 years ago, GPs who started accessing them more recently
+accessing EHRs more recently were less likely to acknowledge were associated with lower odds of recognizing impact of the
+individual resources and abilities (aOR from 0.47 to 0.77), digital systems they used (aOR from 0.33 to 0.62). Similarly,
+whencomparedtoGPsaccessingthemformorethan10years. whencomparedtoGPswitheverydayaccesstoEHRs,GPswith
+GPs who accessed EHRs less frequently were also less likely less frequent accesses were less likely to identify impact as an
+to acknowledge individual resources and ability (aOR from assetofthedigitalsystems(aORfrom0.16to0.86;Figure2G).
+0.20to0.55)whencomparedtoGPsaccessingthemeveryday
+(Figure2D). Discussion
+Principal findings
+Interoperability
+In comparison with non-European GPs, Europeans were GPs had an overall good digital maturity score. While
+more likely to identify interoperability in the digital system overall usage was the most acknowledged dimension of the
+they used [aOR = 1.42 (1.11; 1.80)]. In contrast, GPs who digital maturity evaluation framework (90%), interoperability
+started accessing EHRs more recently were less likely to (47%)anduseofbestpracticeevaluationmethods(28%)were
+identify interoperability (aOR from 0.28 to 0.51) than those dimensions which received a lower score, highlighting the
+who have been accessing them for more than 10 years potentialforimprovementintheseareas.
+(Figure2E). Being male, having used EHRs for longer periods of
+time, and higher frequency of access to EHRs, were all
+positively associated with self-reported digital maturity. On
+Generalevaluationmethods the other hand, practicing in rural settings was negatively
+BeingEuropeanwasassociatedwithloweroddsofpracticing associated with digital maturity. No significant associations
+the best digital systems evaluation methods [aOR 0.68 (0.52; were found with age, country, years of experience as GP,
+0.88)]. Likewise, having started to access EHRs more recently hours of clinical work per week, urban setting of practice,
+FrontiersinPublicHealth 06 frontiersin.org
+Teixeiraetal. 10.3389/fpubh.2022.962924
+FIGURE2
+Forestplotsofmultivariableanalysisforcharacteristicsassociatedwithoveralldigitalmaturity(A)anditsdimensions-usage(B),collective
+resourcesandabilities(C),individualresourcesandabilities(D),interoperability(E),generalevaluationmethodology(F)andimpact(G).B,beta;
+OR,oddsratio;CI,confidenceinterval;vs,incomparisonwith.
+involvement in teaching activities, and having or not access The World Health Organization has already recognized
+toEHRs. investment in resources, strategies for maximizing impact,
+Allsixdimensionsofdigitalmaturitymaybeexplainedby standardizedevaluationmetricsandinteroperabilityofsystems,
+distinct characteristics, with shorter durations of use of EHRs askeytothesuccessofdigitaltransformation(30).Interestingly,
+beingnegativelyassociatedwithallofthem. wefoundinteroperabilityandgeneralevaluationmodelstobe
+the most prevalent shortcomings of digital systems maturity.
+Comparison with previous literature Previousevidenceregardingthedeterminantsofdigitalhealth
+transformation in integrated care in Europe showed that
+althoughtheimportanceofinteroperabilityiswellunderstood,
+There has been an increase in the number of studies
+the maturity of its implementation at present remains poor
+focusedondevelopingdigitalmaturityevaluationtools(28,29).
+(31),afindingwhichisconsistentwithourfindings.However,
+Although a considerable amount of research on this topic has
+comparisonsbetweenstudiesshouldbeinterpretedwithcaution
+beenrecentlypublished,toourknowledge,therearenostudies
+giventhedifferenttoolsusedtoassessdigitalmaturity.
+reportingtheusageofsuchtoolsinprimarycare.
+FrontiersinPublicHealth 07 frontiersin.org
+Teixeiraetal. 10.3389/fpubh.2022.962924
+O’Donnel et al. conducted a systematic review on GPs of digital maturity indicators across patient pathway in
+attitudes toward EHRs which included 33 articles based on primary care and the exploitation of its determinants
+the American, European and Asian countries. It is concluded across distinct countries in the perspective of GPs.
+that the perception that EHRs can improve patient safety and Participants were GPs working from 20 different countries
+quality of care common among GPs. Nevertheless, concerns worldwide, with diversified resource management policies
+regardingtheimpactofadynamic,rigidfunctionalitiesofEHRs in primary care. A comprehensive set of participants’
+in GPs’ productivity were also raised (32). These findings are demographic characteristics, practice characteristics
+congruentwithours,sinceinteroperabilityandbestevaluation and features of EHRs adoption was collected and
+methodology—a necessary tool to enable positive changes in analyzed, which allowed us to explore their role in
+thesystemstobemade—arehighlightedasthemostprevalent digitalmaturity.
+digital maturity shortcomings despite the good overall digital However, this study also has some limitations that should
+maturityscore. beacknowledged.Itisbasedonanonvalidatedquestionnaire,
+Previous studies on the analysis of digital maturity whichgivesnoguaranteesthatthecollectedvariablesaretruly
+determinants in secondary care focused on investigating measuringdigitalmaturity.Thequestionnairewasdisseminated
+whetheravailabilityofresourceswasrelatedtodigitalmaturity. online via email and social media channels and therefore a
+Inhospitals,investmentinhardwareandsoftwarewaspositively potential selection bias cannot be excluded. For example, we
+associatedwithhigherlevelsofdigitalmaturity(33).However, can hypothesize that GPs that were more prone to answer
+the effects of demographic factors, practice characteristics and the online questionnaire were those working with higher
+adoption of EHRs features on digital maturity is less well digital maturity. This can possibly explain that 55% of the
+documentedintheliterature. participants were using EHRs for more than 10 years and
+ZaresaniandScott(33)havesuggestedthatphysicianswho 91% were accessing them every day. Additionally, the lack of
+useddigitalhealthtechnologyweremorelikelytobemale.In translationofthisquestionnairetotheofficial languages ofall
+the present study, being male was positively associated with 20 inSIGHT Research Group member countries might have
+digital maturity, but this information should be interpreted presented an obstacle to its enrollment in certain countries.
+with caution due to the possibility of the existence of other Nevertheless, this data collection methodology enabled us to
+confoundingfactors. gather data from 20 countries in a short period of time,
+Gheorghiu and Hagens conducted a study in Canada to proving it to be prompt, economical, and safe to use. Due
+study the adoption of interoperable EHRs across different to its cross-sectional design, this study only enabled us to
+jurisdictions. They concluded that jurisdictions where assess digital maturity during a specific period. It would be
+physicians accessed interoperable EHRs more often were also importanttoreproducethisonlinequestionnaireinthefuture,
+the ones where they have already been doing so for longer toallowdeductionsonthedigitalmaturitytemporalevolution
+periods of time. The authors used the frequency of end users’ tobemade.
+access to EHRs as a method of gauging the systems’ maturity Additionally, it is important to stress that the framework
+(34). Corresponding in our study, GPs accessing EHRs more used to assess digital maturity was developed in 2016 and
+frequently were associated not only with higher overall digital the employment of digital technologies in health has
+maturity, but also with better scores on usage, collective been rapidly changing since then. However, this tool was
+resources and abilities, individual resources and abilities and a result of a systematic search about the best methods
+impactofthedigitalsystemstheyused.Thedurationofuseof and metrics for evaluating digital maturity and allowed
+EHRs was also associated with better overall digital maturity us to perform a patient-centric evaluation focused on
+andwitheachofitssixdimensions. identifying how digital maturity can be most significantly
+Regardingclinicalpracticeinruralareas,thiswasnegatively refined in the health sector. The choice of evaluating
+associatedwiththematurityofdigitalsystems.Althoughthere digital maturity at the primary care level only was made
+was sparse evidence specifically exploring the impact of the since the focus of our work was in fact general practice.
+practicesettingonthedigitalmaturityofhealthsystems,existing Future studies should consider the utilization of the entire
+studiesnotedthatruralareasoftenremainleftbehindinterms frameworkacrossfourlevels(home,community,primaryand
+ofbroadbandcoverageandotherformsofdigitalconnectivity, secondary care) since the evaluation of the digital maturity
+aswellaslowerratesofdigitaladoptionandskills(35). of health services is dependent on a sector-wide patient
+understanding(11).
+Finally, most GPs included in this study were female
+Strengths and limitations (61%), European (68%), involved in teaching activities (64%).
+Therefore, any attempts to generalize these findings to
+This study has several strengths. To the best of our populationswithdifferentcharacteristicsneedtobeapproached
+knowledge, it is the first study focusing on the evaluation withcaution.
+FrontiersinPublicHealth 08 frontiersin.org
+Teixeiraetal. 10.3389/fpubh.2022.962924
+Implications for research and policy Author contributions
+Our study provides an initial overview of the factors FT, CJ, and AN wrote the first manuscript. All authors
+that impact digital maturity and highlights discrepancies reviewed the manuscript and approved the version submitted
+in digital transformation across healthcare settings. Future forpublication.
+research should evaluate how specific characteristics and
+features of different healthcare systems, and countries, Funding
+impact the various aspects of digital maturity and its
+overall score. Robust comparisons across countries will
+This project was supported by a grant from the European
+need to adequately adjust for these factors, and their
+GeneralPracticeResearchNetwork.AN,EL,andADarefunded
+potential impact as mediators or confounders to robustly
+byImperialNIHRPatientSafetyTranslationalResearchCentre,
+support learning from best practices. Additionally, future
+withinfrastructuresupportfromtheImperialNIHRBiomedical
+research should address and measure, other aspects of
+Research Centre. Sponsors had no role on the approval of the
+digital maturity in primary care, beyond the scope of
+manuscriptforpublication.
+EHRsinteroperability.
+Acknowledgments
+Conclusion
+The authors would like to thank all General Practitioners
+This is the first international study performed in general who participated in this study. The authors would also like to
+practice providing important results for putting into practice thank all General Practitioners who piloted the questionnaire
+in different levels. This work generates evidence on the and those who completed the survey. The inSIGHT Research
+level of digital maturity in primary care. It demonstrates Group is a research collaborative across 20 countries, and the
+interoperability and best practice evaluation methods of the authorswouldliketothankallthenon-authorcontributorsto
+digital systems as common digital maturity shortcomings thiswork,namelyAliceSerafini,AnaClaveria,BradenGregory
+in primary care, which prioritizes the need for these two O’Neill, Ensieh Memarian, Gianluca Fontana, Gustavo Gusso,
+dimensionstobeaddressedbystakeholdersinordertoimprove Kyle Hoedebecke, Rosy Tsopra, Saira Ghafur, Sandra Milena
+digital maturity across health systems. Our results identified Espitia,TuomasHKoskela,andVanjaLazic.
+a negative association between practicing general medicine in
+a rural setting and the level of digital maturity, highlighting
+Conflict of interest
+discrepanciesacrossvarioushealthcaresettingswhichcanslow
+overalldigitaltransformation.
+Theauthorsdeclarethattheresearchwasconductedinthe
+Therefore,ourfindingscanhelptoinformkeystakeholders
+absenceofanycommercialorfinancialrelationshipsthatcould
+in digital health, mainly to policymakers, in developing
+beconstruedasapotentialconflictofinterest.
+more bespoke and effective strategies to hasten and take
+ThehandlingeditorMEdeclaredapastcollaborationwith
+the best advantage of the ongoing digital transformation in
+theauthors.
+GeneralPractice.
+Publisher’s note
+Data availability statement
+All claims expressed in this article are solely those of the
+The original contributions presented in the study are
+authorsanddonotnecessarilyrepresentthoseoftheiraffiliated
+includedinthearticle/Supplementarymaterial,furtherinquiries
+organizations, or those of the publisher, the editors and the
+canbedirectedtothecorrespondingauthor.
+reviewers.Anyproductthatmaybeevaluatedinthisarticle,or
+claimthatmaybemadebyitsmanufacturer,isnotguaranteed
+Ethics statement orendorsedbythepublisher.
+Supplementary material
+The studies involving human participants were
+reviewed and approved by Imperial College Research Ethics
+Committee (Reference 20IC5956). The patients/participants The Supplementary Material for this article can be found
+provided their written informed consent to participate in online at: https://www.frontiersin.org/articles/10.3389/fpubh.
+thisstudy. 2022.962924/full#supplementary-material
+FrontiersinPublicHealth 09 frontiersin.org
+Teixeiraetal. 10.3389/fpubh.2022.962924
+References
+1.Powell J,Arvanitis TN. Welcome to the digitalhealth revolution. Digital 19.JimenezG,SpinazzeP,MatcharD,HuatG,vanderKleijR,Chavannes
+Health.(2015)1:2055207614561571.doi:10.1177/2055207614561571 NH, et al. Digital health competencies for primary healthcare professionals: a
+scopingreview.IntJMedInform.(2020)143:104260.doi:10.1016/j.ijmedinf.2020.
+2. Darmon D, Sauvant R, Staccini P, Letrilliart L. Which functionalities
+104260
+are available in the electronic health record systems used by French general
+practitioners? An assessment study of 15 systems. Int J Med Inform. (2014) 20.MartinG,ClarkeJ,LiewF,AroraS,KingD,AylinP,etal.Evaluatingthe
+83:37–46.doi:10.1016/j.ijmedinf.2013.10.004 impactoforganisationaldigitalmaturityonclinicaloutcomesinsecondarycarein
+England.NPJDigitMed.(2019)2:41.doi:10.1038/s41746-019-0118-9
+3.AnisimowiczY,BowesAE,ThompsonAE,MiedemaB,HoggWE,Wong
+ST,etal.ComputeruseinprimarycarepracticesinCanada.CanFamPhysician. 21.MettlerT,PintoR.Evolutionarypathsandinfluencingfactorstowardsdigital
+(2017)63:e284–90. maturity:ananalysisofthestatusquoinSwisshospitals.TechnolForecastSoc
+Change.(2018)133:104–17.doi:10.1016/j.techfore.2018.03.009
+4.RicciardiW,BarrosPP,BourekA,BrouwerW,KelseyT,LehtonenL,etal.
+Howtogovernthedigitaltransformationofhealthservices.EurJPublicHealth. 22. Shanafelt TD, West CP, Sinsky C, Trockel M, Tutty M, Wang H, et al.
+(2019)29:7–12.doi:10.1093/eurpub/ckz165 Changesinburnoutandsatisfactionwithwork-lifeintegrationinphysiciansand
+thegeneralUSworkingpopulationbetween2011and2017.MayoClinProc.(2019)
+5. Sobral D, Rosenbaum M, Figueiredo-Braga M. Computer use in primary
+94:1681–94.doi:10.1016/j.mayocp.2018.10.023
+careandpatient-physiciancommunication.PatientEducCouns.(2015)98:1568–
+76.doi:10.1016/j.pec.2015.07.002 23. Neves AL, Li E, Serafini A, Jiménez G, Lingner H, Koskela TH, et al.
+EvaluatingtheimpactofCOVID-19ontheadoptionofvirtualcareingeneral
+6.LiP,LeeGH,KimSY,KwonSY,KimHR,ParkS.Fromdiagnosistotreatment:
+practicein20countries(inSIGHT):protocolandratieonalestudy.JMIRResProtoc.
+recentadvancesinpatient-friendlybiosensorsandimplantabledevices.ACSNano.
+(2021)10:e30099.doi:10.2196/30099
+(2021)15:1960–2004.doi:10.1021/acsnano.0c06688
+24.WayneW.Kolmogorov–SmirnovOne-sampleTest.AppliedNonparametric
+7.GaoW,YuC.Wearableandimplantabledevicesforhealthcare.AdvHealthc
+Statistics,2nded.Boston,MA:PWS-Kent(1990),p.319–30.ISBN978-0-534-
+Mater.(2021)10:e2101548.doi:10.1002/adhm.202101548
+91976-4
+8.FernándezA,BeratarrecheaA,RojoM,RidaoM,CeliL.Startingthepathof 25.JamesG,WittenD,HastieT,TibshiraniR.LinearRegression.(2021),59–128.
+digitaltransformationinhealthinnovationindigitalhealth:conferenceproceeding Availableonlineat:https://link.springer.com/chapter/10.1007/978-1-0716-1418-
+HHS.PublicAccess.(2020)74:68–75.doi:10.17081/innosa.74 1_3(accessedDecember15,2022).
+9.SymvoulidisC,KiourtisA,MavrogiorgouA,KyriazisD.Healthcareprovision 26.HosmerD,LemeshowS,SturdivantR.AppliedLogisticRegression,3rded.
+inthecloud:AnEHRobjectstore-basedcloudusedforemergency.In:Proceedings NewYork,NY:JohnWiley&Sons(2013).doi:10.1002/9781118548387
+ofthe14thInternationalJointConferenceonBiomedicalEngineeringSystemsand
+Technologies,Vol.4.(2021).p.435–42.doi:10.5220/0010247004350442 27.ZhangZ.Modelbuildingstrategyforlogisticregression:purposefulselection.
+AnnTranslMed.(2016)4:111–111.doi:10.21037/atm.2016.02.15
+10.AlshamraniM.IoTandartificialintelligenceimplementationsforremote
+healthcaremonitoringsystems:asurvey.JKingSaudUniv-ComputInfSci.(2022) 28.WilliamsPAH,LovelockB,CabarrusT,HarveyM.Improvingdigitalhospital
+34:4687–701.doi:10.1016/j.jksuci.2021.06.005 transformation: development of an outcomes-based infrastructure maturity
+assessmentframework.JMIRMedInform.(2019)7:e12465.doi:10.2196/12465
+11. Kiourtis A, Mavrogiorgou A, Kyriazis D. Health information exchange
+throughadevice-to-deviceprotocolsupportinglosslessencodinganddecoding. 29. Liaw ST, Zhou R, Ansari S, Gao J. A digital health profile & maturity
+JBiomedInform.(2022)134:104199.doi:10.1016/j.jbi.2022.104199 assessmenttoolkit:cocreationandtestinginthePacificIslands.JAmMedInform
+Assoc.(2021)28:494–503.doi:10.1093/jamia/ocaa255
+12. Alexander GC, Tajanlangit M, Heyward J, Mansour O, Qato DM,
+StaffordRS.Useandcontentofprimarycareoffice-basedvstelemedicinecare 30. World Health Organization. Global strategy on digital health 2020-
+visits during the COVID-19 pandemic in the US. JAMA Netw Open. (2020) 2025. Available online at: https://www.who.int/docs/default-source/documents/
+3:e2021476.doi:10.1001/jamanetworkopen.2020.21476 gs4dhdaa2a9f352b0445bafbc79ca799dce4d.pdf(accessedMarch2,2022).
+31. Baltaxe E, Czypionka T, Kraus M, Reiss M, Askildsen JE, Grenkovic
+13. Golinelli D, Boetto E, Carullo G, Nuzzolese AG, Landini MP, Fantini
+R, et al. Digital health transformation of integrated care in Europe:
+MP. Adoption of digital technologies in health care during the COVID-19
+overarchinganalysisof17integratedcareprograms.JMedInternetRes.(2019)
+pandemic:systematicreviewofearlyscientificliterature.JMedInternetRes.(2020)
+21:e14956.doi:10.2196/14956
+22:e22280.doi:10.2196/22280
+32. O’Donnell A, Kaner E, Shaw C, Haighton C. Primary care physicians’
+14.BodenheimerT.Coordinatingcare—aperilousjourneythroughthehealth
+attitudestotheadoptionofelectronicmedicalrecords:asystematicreviewand
+caresystem.NEnglJMed.(2008)358:1064–71.doi:10.1056/NEJMhpr0706165
+evidencesynthesisusingtheclinicaladoptionframework.BMCMedInformDecis
+15.JimenezG,MatcharD,KohCHG,vanderKleijR,ChavannesNH,CarJ. Mak.(2018)18:101.doi:10.1186/s12911-018-0703-x
+Theroleofhealthtechnologiesinmulticomponentprimarycareinterventions:
+33.ZaresaniA,ScottA.Originalresearch:doesdigitalhealthtechnologyimprove
+systematicreview.JMedInternetRes.(2021)23:e20195.doi:10.2196/20195
+physicians’ job satisfaction and work–life balance? A cross-sectional national
+16.FlottK,CallahanR,DarziA,MayerE.Apatient-centeredframeworkfor surveyandregressionanalysisusinganinstrumentalvariable.BMJOpen.(2020)
+evaluatingdigitalmaturityofhealthservices:asystematicreview.JMedInternet 10:e041690.doi:10.1136/bmjopen-2020-041690
+Res.(2016)18:e75.doi:10.2196/jmir.5047
+34. Gheorghiu B, Hagens S. Measuring interoperable EHRs adoption and
+17. Koh A, Wet Swanepoel D, Ling A, Lorraine Ho B, Ying Tan S, Lim maturity: a Canadian example. BMC Med Inform Decis Mak. (2016) 16:1–
+J. Digital health promotion: promise and peril. Health Promot Int. (2021) 7.doi:10.1186/s12911-016-0247-x
+36(Supplement_1):i70–80.doi:10.1093/heapro/daab134
+35. CowieP, TownsendL,Salemink K.Smart rural futures: willrural areas
+18.JohnstonADS.Digitalmaturity:arewereadytousetechnologyintheNHS? be left behind in the 4th industrial revolution? J Rural Stud. (2020) 79:169–
+FHJ.(2017)4:189–92.doi:10.7861/futurehosp.4-3-189 76.doi:10.1016/j.jrurstud.2020.08.042
+FrontiersinPublicHealth 10 frontiersin.org
