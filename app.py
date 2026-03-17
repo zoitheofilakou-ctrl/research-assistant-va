@@ -1,12 +1,20 @@
 import streamlit as st
 import json
 import os
+from dotenv import load_dotenv
 
 st.write("DEBUG: App started")
 
+st.write("DEBUG: Loading .env")
+# Load environment variables
+load_dotenv()
+
+st.write("DEBUG: Importing")
+# Backend imports
 #from ingestion.scripts.updated_scraper import fetch_rehabilitation_papers
 #from llm.rag_generator import generate_rag_answer
 
+# Try/Except import version for debugging and error handling. Without try/except commented above ^^^
 try:
     from ingestion.scripts.updated_scraper import fetch_rehabilitation_papers
     from llm.rag_generator import generate_rag_answer
@@ -15,162 +23,225 @@ except Exception as e:
     st.error(f"Import error: {e}")
 
 # -------------------------
-# Page configuration
+# Page config
 # -------------------------
-
 st.set_page_config(
-    page_title="HybReDe Research Assistant",
+    page_title="HybReDe AI Research Assistant",
     page_icon="🔬",
     layout="wide"
 )
 
 # -------------------------
-# Session state
+# Session State Init
 # -------------------------
+if "results" not in st.session_state:
+    st.session_state.results = []
 
-if "search_results" not in st.session_state:
-    st.session_state.search_results = []
-
-if "selected_papers" not in st.session_state:
-    st.session_state.selected_papers = []
+if "selected_ids" not in st.session_state:
+    st.session_state.selected_ids = set()
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 # -------------------------
-# Title
-# -------------------------
-
-st.title("🔬 HybReDe AI Research Assistant")
-
-st.write(
-"""
-Search for research papers, select useful ones, and build a RAG knowledge base.
-"""
-)
-
-# -------------------------
 # Sidebar
 # -------------------------
+with st.sidebar:
+    st.title("⚙️ Settings")
 
-st.sidebar.header("Settings")
+    provider = st.selectbox(
+        "LLM Provider",
+        ["ollama", "openai"]
+    )
 
-model_provider = st.sidebar.selectbox(
-    "LLM Provider",
-    ["openai", "ollama"]
-)
+    k_articles = st.slider("Articles to retrieve", 1, 10, 5)
 
-k_articles = st.sidebar.slider(
-    "Number of papers retrieved",
-    1,
-    10,
-    5
-)
+    st.markdown("---")
+
+    st.subheader("RAG Status")
+
+    if os.path.exists("data/processed/filtered_papers.json"):
+        st.success("Filtered papers available")
+    else:
+        st.warning("No filtered papers yet")
+
+    st.markdown("---")
+    st.caption("HybReDe Research Assistant")
 
 # -------------------------
-# Search
+# Header
 # -------------------------
+st.title("🔬 HybReDe AI Research Assistant")
+st.caption("Search → Select → Build RAG → Ask Questions")
 
-st.subheader("Search Research Papers")
+# -------------------------
+# Search Section
+# -------------------------
+st.subheader("🔎 Search Research Papers")
 
 query = st.text_input(
-    "Enter research topic",
-    placeholder="Effects of intermittent fasting on metabolism"
+    "Enter your research topic",
+    placeholder="Effects of fasting on metabolism"
 )
 
-if st.button("🔎 Search Papers"):
+if st.button("Search Papers"):
 
     with st.spinner("Searching Semantic Scholar..."):
-
         results = fetch_rehabilitation_papers(query, result_limit=k_articles)
 
-        st.session_state.search_results = results
-        st.session_state.selected_papers = []
+        st.session_state.results = results
+        st.session_state.selected_ids = set()
 
 # -------------------------
-# Results
+# Results Section
 # -------------------------
+st.subheader("📄 Search Results")
 
-st.subheader("Search Results")
+if not st.session_state.results:
+    st.info("No results yet. Run a search.")
+else:
 
-if st.session_state.search_results:
+    for i, paper in enumerate(st.session_state.results):
 
-    for i, paper in enumerate(st.session_state.search_results):
-
+        paper_id = paper.get("paperId", str(i))
         title = paper.get("title", "No title")
         abstract = paper.get("abstract", "No abstract")
         year = paper.get("year", "N/A")
+        url = paper.get("url", "")
+        authors = paper.get("authors", [])
+        author_names = ", ".join([a.get("name", "") for a in authors[:5]])
+
+        if len(authors) > 5:
+             author_names += " et al."
+
+        selected = paper_id in st.session_state.selected_ids
 
         with st.container(border=True):
 
-            col1, col2 = st.columns([1,9])
+            col1, col2 = st.columns([1, 10])
 
+            # Checkbox
             with col1:
-                selected = st.checkbox("", key=f"paper_{i}")
+                if st.checkbox("", value=selected, key=f"chk_{paper_id}"):
+                    st.session_state.selected_ids.add(paper_id)
+                else:
+                    st.session_state.selected_ids.discard(paper_id)
 
-                if selected:
-                    if paper not in st.session_state.selected_papers:
-                        st.session_state.selected_papers.append(paper)
-
+            # Paper content
             with col2:
-
-                st.markdown(f"**{title}**")
+                st.markdown(f"### {title}")
                 st.caption(f"Year: {year}")
+                st.caption(f"Authors: {author_names if author_names else 'Unknown'}")
 
                 with st.expander("Abstract"):
                     st.write(abstract)
 
-# -------------------------
-# Selected papers
-# -------------------------
-
-st.subheader("Selected Papers")
-
-st.write(f"{len(st.session_state.selected_papers)} papers selected.")
-
-if st.button("📚 Add Selected to RAG"):
-
-    if len(st.session_state.selected_papers) == 0:
-        st.warning("Select papers first.")
-    else:
-
-        # save selected papers to filtered file
-        path = "data/processed/filtered_papers.json"
-
-        os.makedirs("data/processed", exist_ok=True)
-
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(st.session_state.selected_papers, f, indent=2)
-
-        st.success("Selected papers saved to filtered_papers.json")
+                if url:
+                    st.link_button("Open Paper", url)
 
 # -------------------------
-# AI Chat
+# Selection Summary
 # -------------------------
+st.subheader("📚 Selected Papers")
 
-st.subheader("AI Research Assistant")
+selected_papers = [
+    p for p in st.session_state.results
+    if p.get("paperId", str(id(p))) in st.session_state.selected_ids
+]
 
-user_question = st.chat_input("Ask a question based on indexed papers...")
+st.write(f"Selected: **{len(selected_papers)} papers**")
 
-if user_question:
+col1, col2 = st.columns(2)
 
-    st.chat_message("user").write(user_question)
+# Save to RAG
+with col1:
+    if st.button("Add Selected to RAG"):
 
-    with st.spinner("Generating answer..."):
+        if not selected_papers:
+            st.warning("No papers selected")
+        else:
+            os.makedirs("data/processed", exist_ok=True)
 
-        result = generate_rag_answer(
-            user_question,
-            provider=model_provider,
-            k=5
-        )
+            with open("data/processed/filtered_papers.json", "w", encoding="utf-8") as f:
+                json.dump(selected_papers, f, indent=2)
 
-        answer = result["answer"]
-        sources = result["sources"]
+            st.success("Saved to filtered_papers.json")
 
-    st.chat_message("assistant").write(answer)
+# Clear selection
+with col2:
+    if st.button("Clear Selection"):
+        st.session_state.selected_ids = set()
 
-    with st.expander("Sources"):
+# -------------------------
+# RAG Debug Panel
+# -------------------------
+with st.expander("🧠 RAG Debug Panel"):
 
-        for s in sources:
-            st.markdown(f"**{s['title']}** ({s['year']})")
-            st.write(s["url"])
+    st.write("### Selected Paper Titles")
+    for p in selected_papers:
+        st.write("-", p.get("title", "No title"))
+
+    st.write("### Provider")
+    st.write(provider)
+
+# -------------------------
+# Chat Section
+# -------------------------
+st.subheader("💬 Ask the Research Assistant")
+
+# Display chat history
+for msg in st.session_state.chat_history:
+    with st.chat_message(msg["role"]):
+        st.write(msg["content"])
+
+user_input = st.chat_input("Ask a question about your selected papers...")
+
+if user_input:
+
+    # Add user message
+    st.session_state.chat_history.append({
+        "role": "user",
+        "content": user_input
+    })
+
+    with st.chat_message("user"):
+        st.write(user_input)
+
+    # Generate answer
+    with st.chat_message("assistant"):
+        with st.spinner("Generating answer..."):
+
+            try:
+                result = generate_rag_answer(
+                    user_input,
+                    provider=provider,
+                    k=5
+                )
+
+                answer = result.get("answer", "No answer")
+                sources = result.get("sources", [])
+
+                st.write(answer)
+
+                # Show sources
+                if sources:
+                    with st.expander("Sources"):
+                        for s in sources:
+                            st.markdown(f"**{s.get('title','Unknown')}** ({s.get('year','')})")
+                            if s.get("url"):
+                                st.link_button("Open Source", s["url"])
+
+                # Save assistant response
+                st.session_state.chat_history.append({
+                    "role": "assistant",
+                    "content": answer
+                })
+
+            except Exception as e:
+                st.error(f"Error: {e}")
+
+# -------------------------
+# Footer
+# -------------------------
+st.markdown("---")
+st.caption("HybReDe AI Research Assistant – Functional UI Prototype")
