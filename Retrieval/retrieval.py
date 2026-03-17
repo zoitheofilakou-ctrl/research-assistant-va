@@ -313,26 +313,46 @@ def rerank_query_result(result: dict, query_text: Optional[str], limit: Optional
     reranked = dict(result)
     for key in query_keys:
         reranked[key] = []
+    reranked["embedding_scores"] = []
+    reranked["final_scores"] = []
 
     for q_idx in range(query_count):
         row_ids = ids_by_query[q_idx] if isinstance(ids_by_query[q_idx], list) else []
         row_docs = result.get("documents", [[]])[q_idx] if isinstance(result.get("documents"), list) else []
         row_metas = result.get("metadatas", [[]])[q_idx] if isinstance(result.get("metadatas"), list) else []
         row_distances = result.get("distances", [[]])[q_idx] if isinstance(result.get("distances"), list) else []
+        row_embedding_scores = [
+            distance_to_score(row_distances[i]) if i < len(row_distances) else None
+            for i in range(len(row_ids))
+        ]
+        row_final_scores = [
+            score_reranked_result(
+                query_text=query_text,
+                doc=row_docs[i] if i < len(row_docs) else "",
+                meta=row_metas[i] if i < len(row_metas) and isinstance(row_metas[i], dict) else {},
+                distance=row_distances[i] if i < len(row_distances) else None,
+            )
+            for i in range(len(row_ids))
+        ]
 
         ranked_indices = list(range(len(row_ids)))
         ranked_indices.sort(
             key=lambda i: (
-                score_reranked_result(
-                    query_text=query_text,
-                    doc=row_docs[i] if i < len(row_docs) else "",
-                    meta=row_metas[i] if i < len(row_metas) and isinstance(row_metas[i], dict) else {},
-                    distance=row_distances[i] if i < len(row_distances) else None,
-                ),
-                distance_to_score(row_distances[i]) if i < len(row_distances) else 0.0,
+                row_final_scores[i],
+                row_embedding_scores[i] if row_embedding_scores[i] is not None else 0.0,
             ),
             reverse=True,
         )
+
+        seen = set()
+        filtered_indices = []
+        for i in ranked_indices:
+            meta = row_metas[i] if i < len(row_metas) and isinstance(row_metas[i], dict) else {}
+            pid = meta.get("paperId") or row_ids[i]
+            if pid not in seen:
+                filtered_indices.append(i)
+                seen.add(pid)
+        ranked_indices = filtered_indices
 
         if limit is not None:
             ranked_indices = ranked_indices[:limit]
@@ -343,6 +363,12 @@ def rerank_query_result(result: dict, query_text: Optional[str], limit: Optional
                 reranked[key].append([row_values[i] for i in ranked_indices if i < len(row_values)])
             else:
                 reranked[key].append(row_values)
+        reranked["embedding_scores"].append([
+            row_embedding_scores[i] for i in ranked_indices if i < len(row_embedding_scores)
+        ])
+        reranked["final_scores"].append([
+            row_final_scores[i] for i in ranked_indices if i < len(row_final_scores)
+        ])
 
     return reranked
 
@@ -557,13 +583,26 @@ def cmd_query(user_query: str, k: int, min_score: Optional[float] = DEFAULT_MIN_
     docs = res.get("documents", [[]])[0]
     metas = res.get("metadatas", [[]])[0]
     dists = res.get("distances", [[]])[0]
+    embedding_scores = res.get("embedding_scores", [[]])[0]
+    final_scores = res.get("final_scores", [[]])[0]
 
     out = {"query": user_query, "k": k, "min_score": min_score, "results": []}
-    for cid, doc, meta, dist in zip(ids, docs, metas, dists):
-        score = distance_to_score(dist)
+    for i, (cid, doc, meta, dist) in enumerate(zip(ids, docs, metas, dists)):
+        embedding_score = (
+            embedding_scores[i]
+            if i < len(embedding_scores)
+            else distance_to_score(dist)
+        )
+        final_score = (
+            final_scores[i]
+            if i < len(final_scores)
+            else embedding_score
+        )
         out["results"].append({
             "chunk_id": cid,
-            "score": score,
+            "score": final_score,
+            "embedding_score": embedding_score,
+            "final_score": final_score,
             "paperId": meta.get("paperId"),
             "title": meta.get("title"),
             "url": meta.get("url"),
