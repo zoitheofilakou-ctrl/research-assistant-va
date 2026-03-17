@@ -8,8 +8,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 
 from Retrieval.retrieval import (
     CHROMA_DIR,
-    EMBED_MODEL_NAME,
-    SentenceTransformer,
+    get_embedding_model,
     get_chroma_collection,
     require_retrieval_dependencies,
 )
@@ -99,7 +98,7 @@ def generate_rag_answer(
     # Retrieve relevant papers
     print(f"Retrieving {k} relevant papers...")
     collection = get_chroma_collection()
-    model = SentenceTransformer(EMBED_MODEL_NAME)
+    model = get_embedding_model()
     
     q_emb = model.encode([user_query], convert_to_numpy=True, normalize_embeddings=True).tolist()[0]
     
