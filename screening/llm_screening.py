@@ -26,19 +26,19 @@ import json
 import os
 from openai import OpenAI
 from datetime import datetime
-from dotenv import load_dotenv
-
 
 
 # ------------------------------ 1. CONFIGURATION ------------------------------ 
 # paths, constants, environment set up
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 METADATA_PATH = os.path.join(BASE_DIR, "data", "hybrede_metadata_v4.json")
 PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 FILTERED_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "filtered_papers.json")
 SCREENING_LOG_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "screening_log.json")
 AUDIT_LOG_PATH = os.path.join(PROCESSED_DIR, "audit_log.json")
+
+os.makedirs(PROCESSED_DIR, exist_ok=True)
 
 # load previous included papers if exists
 if os.path.exists(FILTERED_OUTPUT_PATH):
@@ -53,83 +53,65 @@ print("=== START SCREENING RUN ===")
 # ------------------------------ 2. PROMPTS ------------------------------ 
 # LLM prompts for screening and verification
 
-SCREENING_PROMPT = """You are an academic assistant performing STRICT literature pre-screening.
+SCREENING_PROMPT = """You are an academic assistant performing STRICT literature pre-screening for a healthcare research project.
 
-This system is a conservative, rule-based filtering tool designed to identify
-ONLY papers relevant to healthcare research workflows, knowledge use,
-and decision-support contexts.
+This system is a conservative, rule-based filtering tool designed to identify literature relevant to healthcare research processes and the use of knowledge in professional contexts.
 
-Your goal is to aggressively EXCLUDE irrelevant papers.
-
+Your goal is to EXCLUDE papers that are not clearly and directly relevant.
 
 ----------------------
 CORE INCLUSION LOGIC
 ----------------------
 
-A paper can be INCLUDED ONLY if it clearly falls into ONE of the following categories:
+A paper should be INCLUDED if MOST of the following conditions are satisfied:
 
-CATEGORY A — SYSTEM-CENTERED (STRONG INCLUDE)
+1. The paper is situated within a healthcare or clinical research context
 
-- AI system, machine learning model, or algorithm in healthcare
-- Clinical decision-support system (CDSS)
-- Digital health system, platform, or software tool
-- Healthcare information system or data system
-- Knowledge system (e.g., database, knowledge graph, RAG)
-- Digital tool actively used by healthcare professionals
+AND
 
-The system MUST be a central element of the paper.
+2. The paper addresses at least one of the following:
 
+- use of knowledge, research evidence, or information
+- evidence-based practice
+- decision-making processes in healthcare professionals
+- interpretation, application, or management of knowledge in healthcare
 
-CATEGORY B — KNOWLEDGE / EVIDENCE USE (STRICT INCLUDE)
+AND
 
-- Healthcare professionals’ use of research evidence or knowledge
-- Evidence-based practice in clinical or research workflows
-- Decision-making processes in healthcare professionals
-- Information use, knowledge management, or knowledge translation in healthcare
-
-IMPORTANT:
-This category is INCLUDED ONLY if it clearly relates to professional
-knowledge use or decision-making.
-
-If the connection is weak or general → EXCLUDE.
-
+3. The relevance to healthcare research or professional practice is DIRECT 
+or reasonably inferred from the context (not purely background)
 
 ----------------------
 STRICT EXCLUSION RULES
 ----------------------
 
-EXCLUDE if ANY apply:
+EXCLUDE if ANY of the following apply:
 
-- Focus on treatment, intervention, rehabilitation, or clinical procedures
-- Focus on patient outcomes, effectiveness, or clinical results
-- Focus on patient behaviour, engagement, or patient-facing tools
-- General health promotion without knowledge/system relevance
-- Education/training WITHOUT connection to knowledge use or systems
-- Policy, ethics, or discussion WITHOUT a concrete system or workflow
-- System/tool is vague, secondary, or not clearly described
-- Domain is not healthcare
-- Abstract is missing or insufficient
-- Non-English paper
-
+- The paper focuses on diseases, treatments, or clinical outcomes without discussing knowledge use
+- The paper is purely biomedical, experimental, or laboratory-based
+- The paper describes patient behavior, patient tools, or patient-facing applications
+- The paper discusses general healthcare topics without connection to research or knowledge processes
+- The connection to professional practice or research use is indirect or unclear
+- The abstract is missing, vague, or does not provide enough information
 
 ----------------------
-CRITICAL DECISION RULE
+DECISION RULE
 ----------------------
 
-✔ System OR strong knowledge-use → INCLUDE  
-✘ Everything else → EXCLUDE  
+✔ INCLUDE only if MOST inclusion conditions are clearly satisfied  
+✘ EXCLUDE only if criteria are clearly not met 
 
-If loosely related → EXCLUDE  
-If uncertain → EXCLUDE  
-
+If uncertain but potentially relevant → INCLUDE
+If clearly irrelevant → EXCLUDE
 
 ----------------------
-OUTPUT FORMAT (STRICT)
+OUTPUT FORMAT
 ----------------------
 
 Decision: INCLUDE or EXCLUDE  
-Justification: 1 sentence referencing the rule.
-
+Justification must explicitly reference one inclusion criterion or one exclusion rule.
+Do not use vague reasoning such as "generally relevant" or "somewhat related".
+The justification must clearly explain WHY the paper meets or does not meet the criteria.
 
 ----------------------
 INPUT
@@ -288,6 +270,17 @@ def parse_llm_response(response_text):
     return decision, justification
 
 
+def load_json_file(path, default):
+    if not os.path.exists(path):
+        return default
+
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return default
+
+
 # ------------------------------ 5. VERIFICATION ------------------------------
 # Secondary check to validate the screening decision
 
@@ -311,9 +304,6 @@ def verify_screening(decision, justification, title, abstract, client):
     )
 
     return response.choices[0].message.content.strip()
-
-load_dotenv()
-
 #create client
 client = OpenAI()
 
@@ -334,29 +324,20 @@ if os.path.exists(SCREENING_LOG_OUTPUT_PATH):
 else:
     screened_ids = set()
 
+audit_data = load_json_file(AUDIT_LOG_PATH, [])
+
 
 # ------------------------------ 6. AUDIT LOGGING ------------------------------ 
 # Records screening decisions for traceability
 
 def write_audit_entry(paper_id, decision, validation_status):
-
     entry = {
         "timestamp": datetime.utcnow().isoformat(),
         "paperId": paper_id,
         "decision": decision,
         "validation": validation_status
     }
-
-    if os.path.exists(AUDIT_LOG_PATH):
-        with open(AUDIT_LOG_PATH, "r", encoding="utf-8") as f:
-            audit_data = json.load(f)
-    else:
-        audit_data = []
-
     audit_data.append(entry)
-
-    with open(AUDIT_LOG_PATH, "w", encoding="utf-8") as f:
-        json.dump(audit_data, f, ensure_ascii=False, indent=4)
 
 # ------------------------------  7. MAIN SCREENING LOOP ------------------------------ 
 # Iterates through papers and applies screening pipeline
@@ -392,7 +373,6 @@ for idx, paper in enumerate(papers, start=1):
     if "INVALID" in validation:
         invalid_cases += 1
         validation_status = "INVALID"
-    
 
         print(f"[{idx}]  INVALID screening detected")
         
@@ -427,12 +407,14 @@ for idx, paper in enumerate(papers, start=1):
             "justification": justification
         })
 
-os.makedirs(PROCESSED_DIR, exist_ok=True)
 with open(FILTERED_OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(included_papers, f, ensure_ascii=False, indent=4)
 
 with open(SCREENING_LOG_OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(all_screening_results, f, ensure_ascii=False, indent=4)
+
+with open(AUDIT_LOG_PATH, "w", encoding="utf-8") as f:
+    json.dump(audit_data, f, ensure_ascii=False, indent=4)
 
 print(f"Total INVALID cases: {invalid_cases}")
 print("Saved filtered_papers.json and screening_log.json")
@@ -444,7 +426,6 @@ print(f"Total INCLUDED papers: {len(included_papers)}")
 
 included = sum(1 for r in all_screening_results if r["decision"] == "INCLUDE")
 excluded = sum(1 for r in all_screening_results if r["decision"] == "EXCLUDE")
-valid = sum(1 for r in all_screening_results if r["validation"] == "VALID")
 
 
 
@@ -454,8 +435,8 @@ print("Total papers:", len(all_screening_results))
 print("Included:", included)
 print("Excluded:", excluded)
 print("Invalid:", invalid_cases)
-print("Valid:", valid)
-
 
 print("\nScreening completed successfully.")
 print("Filtered corpus ready for retrieval indexing.")
+
+
