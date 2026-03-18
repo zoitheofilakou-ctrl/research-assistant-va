@@ -31,14 +31,12 @@ from datetime import datetime
 # ------------------------------ 1. CONFIGURATION ------------------------------ 
 # paths, constants, environment set up
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-METADATA_PATH = os.path.join(BASE_DIR, "data", "hybrede_metadata_v4.json")
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+METADATA_PATH = os.path.join(BASE_DIR, "data", "hybrede_metadata_v3.json")
 PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 FILTERED_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "filtered_papers.json")
 SCREENING_LOG_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "screening_log.json")
 AUDIT_LOG_PATH = os.path.join(PROCESSED_DIR, "audit_log.json")
-
-os.makedirs(PROCESSED_DIR, exist_ok=True)
 
 # load previous included papers if exists
 if os.path.exists(FILTERED_OUTPUT_PATH):
@@ -53,69 +51,73 @@ print("=== START SCREENING RUN ===")
 # ------------------------------ 2. PROMPTS ------------------------------ 
 # LLM prompts for screening and verification
 
-SCREENING_PROMPT = """You are an academic assistant performing STRICT literature pre-screening for a healthcare research project.
+SCREENING_PROMPT = """You are an academic assistant performing literature screening for a research project.
 
-This system is a conservative, rule-based filtering tool designed to identify literature relevant to healthcare research processes and the use of knowledge in professional contexts.
+The goal of this screening process is to identify literature relevant to
+healthcare research, evidence-based practice, and the use of knowledge
+or information within professional healthcare contexts.
 
-Your goal is to EXCLUDE papers that are not clearly and directly relevant.
+The system operates as a conservative pre-screening assistant that
+applies rule-based inclusion and exclusion criteria before human review.
+Its purpose is to narrow the candidate evidence set while preserving
+final evaluative authority with the human researcher.
 
-----------------------
-CORE INCLUSION LOGIC
-----------------------
+Your task is to decide whether a scientific paper should be INCLUDED
+or EXCLUDED based solely on the title and abstract provided.
 
-A paper should be INCLUDED if MOST of the following conditions are satisfied:
 
-1. The paper is situated within a healthcare or clinical research context
+Inclusion criteria (INCLUDE if MOST apply):
 
-AND
+- The paper concerns healthcare, rehabilitation, clinical research,
+  public health, or professional healthcare practice.
 
-2. The paper addresses at least one of the following:
+- The paper relates to healthcare professionals' use, understanding,
+  management, or application of knowledge, research evidence,
+  digital tools, or information systems in healthcare contexts.
 
-- use of knowledge, research evidence, or information
-- evidence-based practice
-- decision-making processes in healthcare professionals
-- interpretation, application, or management of knowledge in healthcare
+- The paper discusses evidence-based practice, professional education,
+  decision-making, digital health technologies, information systems,
+  or knowledge-related processes in healthcare.
 
-AND
+- Studies involving AI systems, digital platforms, decision-support
+  tools, or health technologies are acceptable when they are discussed
+  in relation to healthcare professionals, healthcare systems,
+  professional practice, or healthcare research contexts.
 
-3. The relevance to healthcare research or professional practice is DIRECT 
-or reasonably inferred from the context (not purely background)
 
-----------------------
-STRICT EXCLUSION RULES
-----------------------
+Exclusion criteria (EXCLUDE if ANY apply):
 
-EXCLUDE if ANY of the following apply:
+- The paper is directly addressed to patients or primarily studies
+  patient behaviour, engagement, or patient-facing applications.
 
-- The paper focuses on diseases, treatments, or clinical outcomes without discussing knowledge use
-- The paper is purely biomedical, experimental, or laboratory-based
-- The paper describes patient behavior, patient tools, or patient-facing applications
-- The paper discusses general healthcare topics without connection to research or knowledge processes
-- The connection to professional practice or research use is indirect or unclear
-- The abstract is missing, vague, or does not provide enough information
+- The paper describes treatment delivery, therapeutic interventions,
+  or clinical procedures performed on patients as actionable care.
 
-----------------------
-DECISION RULE
-----------------------
+- The paper evaluates patient outcomes, treatment effectiveness,
+  or clinical efficacy of medical or rehabilitation interventions.
 
-✔ INCLUDE only if MOST inclusion conditions are clearly satisfied  
-✘ EXCLUDE only if criteria are clearly not met 
+- The paper proposes or evaluates AI systems for diagnosis,
+  prediction of clinical outcomes, or autonomous clinical decision-making.
 
-If uncertain but potentially relevant → INCLUDE
-If clearly irrelevant → EXCLUDE
+- The paper focuses exclusively on non-healthcare domains
+  (e.g., finance, digital currency, general blockchain infrastructure)
+  without clear relevance to healthcare practice.
 
-----------------------
-OUTPUT FORMAT
-----------------------
 
-Decision: INCLUDE or EXCLUDE  
-Justification must explicitly reference one inclusion criterion or one exclusion rule.
-Do not use vague reasoning such as "generally relevant" or "somewhat related".
-The justification must clearly explain WHY the paper meets or does not meet the criteria.
+Important constraints:
 
-----------------------
-INPUT
-----------------------
+- Do NOT summarise the paper.
+- Do NOT evaluate scientific quality.
+- Do NOT provide recommendations.
+- Do NOT add extra commentary.
+
+If there is uncertainty, output EXCLUDE.
+
+Your output must follow this exact format:
+
+Decision: INCLUDE or EXCLUDE
+Justification: 1–2 sentences explaining which criteria were applied.
+
 
 Title:
 {title}
@@ -270,17 +272,6 @@ def parse_llm_response(response_text):
     return decision, justification
 
 
-def load_json_file(path, default):
-    if not os.path.exists(path):
-        return default
-
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except (json.JSONDecodeError, OSError):
-        return default
-
-
 # ------------------------------ 5. VERIFICATION ------------------------------
 # Secondary check to validate the screening decision
 
@@ -324,20 +315,29 @@ if os.path.exists(SCREENING_LOG_OUTPUT_PATH):
 else:
     screened_ids = set()
 
-audit_data = load_json_file(AUDIT_LOG_PATH, [])
-
 
 # ------------------------------ 6. AUDIT LOGGING ------------------------------ 
 # Records screening decisions for traceability
 
 def write_audit_entry(paper_id, decision, validation_status):
+
     entry = {
         "timestamp": datetime.utcnow().isoformat(),
         "paperId": paper_id,
         "decision": decision,
         "validation": validation_status
     }
+
+    if os.path.exists(AUDIT_LOG_PATH):
+        with open(AUDIT_LOG_PATH, "r", encoding="utf-8") as f:
+            audit_data = json.load(f)
+    else:
+        audit_data = []
+
     audit_data.append(entry)
+
+    with open(AUDIT_LOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(audit_data, f, ensure_ascii=False, indent=4)
 
 # ------------------------------  7. MAIN SCREENING LOOP ------------------------------ 
 # Iterates through papers and applies screening pipeline
@@ -407,14 +407,12 @@ for idx, paper in enumerate(papers, start=1):
             "justification": justification
         })
 
+os.makedirs(PROCESSED_DIR, exist_ok=True)
 with open(FILTERED_OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(included_papers, f, ensure_ascii=False, indent=4)
 
 with open(SCREENING_LOG_OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(all_screening_results, f, ensure_ascii=False, indent=4)
-
-with open(AUDIT_LOG_PATH, "w", encoding="utf-8") as f:
-    json.dump(audit_data, f, ensure_ascii=False, indent=4)
 
 print(f"Total INVALID cases: {invalid_cases}")
 print("Saved filtered_papers.json and screening_log.json")
@@ -438,5 +436,3 @@ print("Invalid:", invalid_cases)
 
 print("\nScreening completed successfully.")
 print("Filtered corpus ready for retrieval indexing.")
-
-

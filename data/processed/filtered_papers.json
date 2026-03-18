@@ -1,464 +1,146 @@
 [
     {
-        "paperId": "f86bbf1f6be39fe5c3fc8373e832b16bd828a405",
-        "title": "Healthcare professionals’ perception of using a web-based reminiscence therapy to support person with dementia during the COVID-19 pandemic",
+        "paperId": "2f06cdba66b60003ceb92579cef8ce8f3058940b",
+        "title": "Understanding, experience and attitudes towards artificial intelligence technologies for clinical decision support in hearing health: a mixed-methods survey of healthcare professionals in the UK",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on healthcare professionals' perceptions of using web-based reminiscence therapy (WBRT) to support individuals with dementia. It addresses the use of knowledge and research evidence in the context of dementia care, aligning with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it discusses the implications of WBRT in supporting dementia care during the COVID-19 pandemic."
+        "justification": "The paper concerns healthcare professionals' attitudes towards AI technologies in clinical decision support within the context of hearing health, aligning with the inclusion criteria related to healthcare practice and the use of digital tools."
+    },
+    {
+        "paperId": "169316c86726d0d48fd3cee927cf25197c2eb74c",
+        "title": "Knowledge, attitudes, and concerns about psilocybin and MDMA as novel therapies among U.S. healthcare professionals",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' knowledge and attitudes towards novel therapies, specifically psychedelic-assisted therapy, which relates to the use and understanding of evidence-based practice in a healthcare context."
     },
     {
         "paperId": "5f1a24be097954cb8a5ca1bee1a12a45a460bf04",
         "title": "Education and clinical decision support for healthcare professionals on emergency preparedness for extremely dangerous pathogens: report of a conference workshop",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and evidence-based methodologies in the education and clinical decision support for healthcare professionals. It discusses how these resources can be integrated into educational curricula and continuous professional development, which directly relates to the interpretation and application of knowledge in healthcare. Thus, it satisfies the inclusion criteria regarding the use of knowledge and its relevance to professional practice."
+        "justification": "The paper concerns healthcare professionals' education and clinical decision support related to emergency preparedness for infectious diseases, aligning with the inclusion criteria regarding professional healthcare practice and the application of knowledge in healthcare contexts."
+    },
+    {
+        "paperId": "bb133c9343bfc2f2788f16c32f09c94acdab5a06",
+        "title": "Instruments for assessing healthcare professionals' knowledge and skills of evidence-based practice: A scoping review.",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' knowledge and skills related to evidence-based practice, which aligns with the inclusion criteria regarding the use and understanding of research evidence in professional healthcare contexts."
     },
     {
         "paperId": "8ba8ed724bdf25a39aed605132a92ac0773c9a82",
         "title": "What do healthcare professionals want from a resource to support person-centred conversations on physical activity? A mixed-methods, user-centric approach to developing educational resources",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and resources to support healthcare professionals in conducting person-centred conversations about physical activity, which directly relates to evidence-based practice and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is clear, as it discusses the development of an educational resource based on the needs of healthcare professionals, fulfilling the inclusion criteria."
+        "justification": "The paper concerns healthcare professionals' needs for resources to support person-centred conversations about physical activity, which relates to professional healthcare practice and the application of knowledge in clinical contexts. It discusses the development of educational resources aimed at improving healthcare professionals' skills and confidence in engaging with patients about physical activity."
     },
     {
-        "paperId": "38ecc1c820a205bb48d05521dbb95d085ad16999",
-        "title": "Self-Efficacy and Determinants of Newborn Resuscitation Practices among Healthcare Professionals in Chipata District, Eastern Province, Zambia",
+        "paperId": "4ad09107c87cf61ebe5187f1419d69e7b89b0331",
+        "title": "Exploration of the views and experiences of research healthcare professionals during their redeployment to clinical roles during the COVID‐19 pandemic",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and self-efficacy in newborn resuscitation practices among healthcare professionals, which relates directly to decision-making processes in healthcare. The relevance to healthcare research and professional practice is clear, as it investigates factors influencing the application of knowledge in a critical area of clinical practice."
+        "justification": "The paper concerns healthcare professionals' experiences and adaptation during their redeployment to clinical roles, which relates to professional practice and the use of knowledge in healthcare contexts. It discusses implications for practice and support for healthcare professionals, aligning with the inclusion criteria."
     },
     {
-        "paperId": "4c9f6b5989665c9037a4217b06953024b547a1a6",
-        "title": "Healthcare professionals' experiences and perceptions about LGBTIQA+ safety and responsiveness in a mainstream Australian health service: Qualitative findings.",
+        "paperId": "b1a1948e5b8ec9b431fa98a2960f5cbd1715cd80",
+        "title": "ImpENSA eHealthy Conversation Skills training for healthcare professionals aimed at improving micronutrient status during the first 1000 days in South Africa",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and experiences of healthcare professionals regarding LGBTIQA+ safety and responsiveness, which relates to evidence-based practice and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it discusses the implications for training and organizational support in health services."
+        "justification": "The paper concerns healthcare professionals' training and knowledge application related to nutrition and behaviour change support, which aligns with the inclusion criteria regarding healthcare practice and the use of knowledge in professional contexts."
+    },
+    {
+        "paperId": "d339c190259035de7d11ebb8965c4f613618f2ea",
+        "title": "Perspectives of healthcare professionals on the use of immersive virtual reality in teenage and young adult oncology: a qualitative interview study",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare professionals' perspectives on the use of immersive virtual reality in oncology, relating to the application of digital tools in a healthcare context, which aligns with the inclusion criteria."
     },
     {
         "paperId": "b7173949b349921d7d31536ce28b91071e272b2c",
         "title": "Dietary intervention in gestational diabetes: a qualitative study of the acceptability and feasibility of a novel whole-diet intervention in healthcare professionals",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing gestational diabetes and the role of healthcare professionals in delivering dietary interventions. It discusses the use of knowledge related to the acceptability and feasibility of a novel whole-diet intervention, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research is direct, as it explores the implications of dietary interventions in a clinical setting and how healthcare professionals perceive and manage these interventions."
+        "justification": "The paper concerns healthcare professionals' views on a dietary intervention for gestational diabetes, relating to the use and acceptability of a novel intervention in a healthcare context, which aligns with the inclusion criteria."
     },
     {
-        "paperId": "7244aeb3623d58222efb6bb0d3395821d389c0d5",
-        "title": "A National Cross-Sectional Survey to Assess the Education and Training Needs of Allied Health Professionals and Clinical Psychologists Delivering Rehabilitation for Children and Young People Affected by COVID-19 in the United Kingdom",
+        "paperId": "c624607d09dc1e4807381b72ed5178c0436cfe1b",
+        "title": "Bioethical knowledge in students and health professionals: a systematic review",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the education and training needs of Allied Health Professionals and clinical psychologists in relation to rehabilitation for children affected by COVID-19. It addresses the use of knowledge and training to meet rehabilitation needs, which aligns with the inclusion criteria regarding the use of knowledge and evidence-based practice. The relevance to healthcare research and professional practice is direct, as it explores the views of healthcare professionals on education needs and the management of specific conditions, thereby satisfying the core inclusion logic."
+        "justification": "The paper concerns healthcare professionals' understanding and application of bioethical knowledge, which is relevant to professional healthcare practice and education. It discusses the importance of training in bioethics, aligning with the inclusion criteria related to knowledge-related processes in healthcare."
+    },
+    {
+        "paperId": "49bbb4bb4c1a086d721223c121669ef2e791f104",
+        "title": "Towards a Knowledge Graph-Based Explainable Decision Support System in Healthcare",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses a knowledge graph-based framework for AI-based clinical decision support systems, which relates to healthcare professionals' use of digital tools and decision-support technologies in healthcare contexts."
+    },
+    {
+        "paperId": "e7e8de3fd7dbc1fa0effa103506429264ce24cab",
+        "title": "Unmet needs and gaps in the identification of secondary progression in multiple sclerosis: a Southern Italy healthcare professionals’ perspective",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the identification and management of multiple sclerosis from the perspective of healthcare professionals, focusing on knowledge and communication strategies, which aligns with the inclusion criteria related to healthcare practice and the use of information systems."
     },
     {
         "paperId": "58444ef0794b7aeb9117156a5c97c6abc7c08ca2",
         "title": "The Medical Science Liaison Role in Spain: A Survey About the Opinion of HealthCare Professionals",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge by healthcare professionals regarding the Medical Science Liaison (MSL) role, which relates to the interpretation and application of knowledge in healthcare (inclusion criterion 2). The study directly explores healthcare professionals' opinions on the utility of MSL activities in their clinical practice, making the relevance to healthcare research and professional practice direct (inclusion criterion 3)."
+        "justification": "The paper concerns healthcare professionals' understanding and opinion of the Medical Science Liaison role, which relates to the use and application of knowledge in professional healthcare contexts."
     },
     {
-        "paperId": "cc2ad19bf5420b740d14a66a97420b7a6a5e63ec",
-        "title": "Mobile health applications for managing atrial fibrillation for healthcare professionals and patients: a systematic review.",
+        "paperId": "6b6a84f2f1fa59cf319010480d11b662a073f480",
+        "title": "A pilot exploration of staff and service-user perceptions of a novel digital health technology (Virtual Engagement Rehabilitation Assistant) in complex inpatient rehabilitation",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge related to atrial fibrillation (AF) through mobile health applications. It discusses the impact of these applications on healthcare professionals' behavior, specifically mentioning guideline adherence, which aligns with the inclusion criteria regarding decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it evaluates the effectiveness of m-health apps in improving knowledge and behavior among both patients and healthcare professionals."
-    },
-    {
-        "paperId": "0221e2c46f9e5a4499239a11ab7607a12cf95e1f",
-        "title": "Clinical decision support systems to improve drug prescription and therapy optimisation in clinical practice: a scoping review",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge through clinical decision support systems (CDSSs) to improve drug prescription and therapy optimization. It discusses how understanding CDSSs can enhance their use by healthcare professionals, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it evaluates the effectiveness of CDSSs in clinical settings."
-    },
-    {
-        "paperId": "3966af126c6b10f56c6e74e9b3ad552f328221f1",
-        "title": "Mobilising computable biomedical knowledge: challenges for clinical decision support from a medical knowledge provider",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge in clinical decision support, which aligns with the inclusion criteria regarding the use of knowledge, research evidence, or information. It discusses challenges faced by knowledge providers in ensuring that their content is accessed and utilized by healthcare professionals, directly relating to decision-making processes in healthcare. The relevance to healthcare research and professional practice is clear and direct, as it focuses on mobilizing computable biomedical knowledge for clinical decision support."
-    },
-    {
-        "paperId": "acaf5a0ac1228edd9d776850f070d8365ab8511f",
-        "title": "Electronic alerts based on clinical decision support system for post-contrast acute kidney injury",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge through clinical decision support systems (CDSS), which directly relates to the use of research evidence and information in decision-making processes for healthcare professionals. The relevance to healthcare research and professional practice is clear, as it discusses how CDSS can improve patient care by providing clinical knowledge to professionals."
-    },
-    {
-        "paperId": "7783d83cd68c99106d637537ba3291b0ff432b3b",
-        "title": "FUTURE OF THE LANGUAGE MODELS IN HEALTHCARE: THE ROLE OF CHATGPT",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and discusses the role of ChatGPT in improving the use of knowledge and evidence-based guidelines in clinical practice. It addresses the use of knowledge and research evidence, particularly in how AI can assist healthcare professionals in decision-making processes and the creation of clinical practice guidelines, thus satisfying the inclusion criteria. The relevance to healthcare research and professional practice is direct, as it explores the implications of AI in enhancing healthcare delivery."
-    },
-    {
-        "paperId": "02290c326d0c2312849db2c7e2bef37461a57ccb",
-        "title": "Health Professionals’ Competencies in the Framework of Complexity: Digital Training Model for Education 4.0",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and information resources by healthcare professionals, which aligns with inclusion criterion 2. It discusses the need for digital competency training to support decision-making in clinical research, directly relating to the interpretation and application of knowledge in healthcare, fulfilling inclusion criterion 3."
-    },
-    {
-        "paperId": "8c34cc81d48e79743a70dda0de3b7b87acda9f77",
-        "title": "Virtual communities of practice to improve clinical outcomes in healthcare: protocol for a 10-year scoping review",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and research evidence through the establishment and facilitation of virtual communities of practice (VCoPs) for healthcare professionals. It directly relates to the translation of clinical guidelines into practice, which aligns with the inclusion criteria regarding the use of knowledge in professional contexts. The relevance to healthcare research and professional practice is clear and direct, as it aims to improve clinical outcomes through better knowledge management."
-    },
-    {
-        "paperId": "5affe6f599ba042ffb7270e396a1e380c8ef07b4",
-        "title": "Knowledge Management-Based Nursing Care Educational Training: A Key Strategy to Improve Healthcare Associated Infection Prevention Behavior",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge management in nursing care, which directly relates to the use of knowledge and evidence-based practice in healthcare. It discusses how knowledge management-based training can improve clinical decision-making and infection prevention behavior among nursing professionals, fulfilling the inclusion criteria regarding the use of knowledge and its application in professional practice."
-    },
-    {
-        "paperId": "9856eb322305a7860d2d1d74bc5292b586bb166c",
-        "title": "How Knowledge Mapping Can Bridge the Communication Gap Between Caregivers and Health Professionals Supporting Individuals With Complex Medical Needs: A Study in Fragile X Syndrome",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing the communication challenges between caregivers and health professionals in the care of individuals with complex medical needs. It discusses the use of knowledge mapping as a tool to enhance communication, which directly relates to the use of knowledge and information in healthcare (inclusion criterion 2). The relevance to healthcare research and professional practice is clear, as it focuses on improving communication and knowledge transfer in clinical settings (inclusion criterion 3)."
-    },
-    {
-        "paperId": "e0024f27311292e94baa13d7afb6bba89ae1a96c",
-        "title": "ACcurate COnsensus Reporting Document (ACCORD) explanation and elaboration: Guidance and examples to support reporting consensus methods",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare research context and addresses the use of knowledge and research evidence in the decision-making processes of healthcare professionals through the development of the ACCORD guideline for reporting consensus methods. It directly discusses the importance of transparency and clarity in reporting consensus exercises, which is relevant to evidence-based practice and the interpretation and application of knowledge in healthcare."
-    },
-    {
-        "paperId": "a4a1d5f33602163eb99919ca11e6da1ca73c1a7b",
-        "title": "Measuring clinical trial set-up complexity: development and content validation of a pharmacy scoring tool to support workload planning",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare research context, specifically focusing on the development and validation of a pharmacy scoring tool to assess clinical trial complexity. It addresses the use of knowledge and research evidence in the context of workload planning for pharmacy activities in clinical trials, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as the tool aims to improve the execution of clinical trials, thereby enhancing evidence-based practice in pharmacy settings."
-    },
-    {
-        "paperId": "86a82036555624a36d0e00efd0c9ead59906b064",
-        "title": "What should all health professionals know about movement behaviour change? An international Delphi-based consensus statement",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and competencies required by health professionals to support movement behaviour change, which relates directly to evidence-based practice and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it discusses the competencies necessary for effective support in changing movement behaviours, thus satisfying the inclusion criteria."
-    },
-    {
-        "paperId": "547393e274fb2098d18ec9be5d636cf096bb4dad",
-        "title": "Standardized assessment of evidence supporting the adoption of mobile health solutions: A Clinical Consensus Statement of the ESC Regulatory Affairs Committee",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and evidence in the selection and evaluation of mobile health (mHealth) solutions by healthcare professionals (HCPs). It discusses decision-making processes related to the adoption of mHealth solutions, which aligns with the inclusion criteria regarding the use of knowledge and evidence-based practice in healthcare. The relevance to healthcare research and professional practice is direct, as it proposes criteria for HCPs to evaluate mHealth solutions, thereby facilitating informed decision-making."
-    },
-    {
-        "paperId": "310165642e145dadd879c166cbb2fc5598b37a93",
-        "title": "Effectiveness and harms of clinical decision support systems for referral within chronic pain practice: protocol for a systematic review and meta-analysis",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing the use of clinical decision support systems for referral in chronic pain management. It discusses the application of knowledge and research evidence in improving healthcare professionals' decision-making processes, which aligns with the inclusion criteria. The relevance to healthcare research and professional practice is direct, as the systematic review aims to synthesize knowledge on the effectiveness of these systems, thereby contributing to evidence-based practice in chronic pain management."
-    },
-    {
-        "paperId": "9bedde787dd0d939e427a75862f940e49c541acd",
-        "title": "Using ways of knowing in nursing to develop educational strategies that support knowledge mobilization",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing the challenges of pain management for children and young people (CYP). It discusses the use of knowledge and educational strategies to improve knowledge mobilization among healthcare professionals, which aligns with the inclusion criteria regarding the use of knowledge and evidence-based practice. The relevance to healthcare research and professional practice is direct, as it explores how different ways of knowing can enhance nursing education and ultimately improve patient care."
-    },
-    {
-        "paperId": "093c2e4f78fd0fb64873e9dee4a2c8f1bfbad80d",
-        "title": "Assessment of Knowledge, Attitude and Factors Associated with Perinatal Bereavement Care among the Nurses in Madhya Pradesh, Central India",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on perinatal bereavement care among nursing personnel. It addresses the use of knowledge and attitudes of healthcare professionals regarding bereavement care, which aligns with the inclusion criteria related to the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it discusses the implications of knowledge and attitudes on the care provided to bereaved parents, thus satisfying the core inclusion logic."
-    },
-    {
-        "paperId": "29eeaec57cdbd9da49086c1cbf2dc0e476d35f51",
-        "title": "AN OVERVIEW OF OUTCOME MEASURES IN HEALTHCARE",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and information related to outcome measures, which aligns with the inclusion criteria. It discusses the importance of understanding and standardizing terminology in outcome measures, which directly relates to the interpretation and application of knowledge in healthcare. The relevance to healthcare research and professional practice is clear, as it aims to enhance the knowledge and decision-making of health professionals regarding measurement tools."
-    },
-    {
-        "paperId": "7dec7d6fb3b05483ff8b2c70169e864a80e22fff",
-        "title": "Clinical nutrition in surgical oncology: Young AIOM-AIRO-SICO multidisciplinary national survey on behalf of NutriOnc research group",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the nutritional management of cancer patients, which is relevant to clinical oncology. It addresses the use of knowledge and practices regarding nutritional management, aligning with the inclusion criterion of discussing the use of knowledge in healthcare. The relevance to healthcare research and professional practice is direct, as it highlights gaps in knowledge and practices among healthcare professionals, thus fulfilling the requirement for a clear connection to professional practice."
-    },
-    {
-        "paperId": "7605068ff327f1da58109521cb0b58a21a1b56ed",
-        "title": "Facilitators for and barriers to radiography research in public healthcare in Nordic countries.",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on clinical radiographers in public healthcare. It addresses the use of knowledge and research evidence by exploring facilitators and barriers to participation in radiography research, which aligns with the inclusion criteria regarding the use of knowledge and evidence-based practice. The implications for practice section directly discusses strategies for establishing a research culture, indicating a clear relevance to healthcare research and professional practice."
-    },
-    {
-        "paperId": "1f163a5ae81ccb019fb532a2873e6829022e2114",
-        "title": "Toward a Population-Based Breast Cancer Risk Stratification Approach? The Needs and Concerns of Healthcare Providers",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on breast cancer prevention and early detection. It addresses the use of knowledge and research evidence by exploring healthcare professionals' perceptions regarding the implementation of a risk-based screening approach, which aligns with the inclusion criteria related to the use of knowledge in professional contexts. The relevance to healthcare research and professional practice is direct, as it discusses the conditions necessary for the acceptability of this strategy and emphasizes knowledge management, fulfilling the requirement for a clear connection to healthcare research processes."
-    },
-    {
-        "paperId": "ab5675b829ba4666b97532a250e419725ff9f771",
-        "title": "Evaluating a clinical ethics committee (CEC) implementation process in an oncological research hospital: protocol for a process evaluation study using normalisation process theory (EvaCEC)",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the implementation of a Clinical Ethics Committee (CEC) in an oncological research hospital. It addresses the use of knowledge and perception of the CEC among healthcare professionals, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it evaluates how the CEC can be integrated into clinical practice, thus satisfying the core inclusion logic."
-    },
-    {
-        "paperId": "7565b535ba0179c1f43b934d603e3d3170ec0272",
-        "title": "Physical activity is for everyone: a call to action for education and knowledge mobilisation to optimise the continuum of services for people with mobility disabilities in Québec, Canada",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing the barriers to physical activity for people with mobility disabilities. It discusses the need for enhanced knowledge mobilisation and education for healthcare professionals, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare. The relevance to healthcare research and professional practice is direct, as it focuses on optimizing services and promoting physical activity through knowledge application and research evidence."
-    },
-    {
-        "paperId": "9d56fa50f38e8819ad9d79b7b3025ceddbe26fc5",
-        "title": "Clinical Ethics Committee in an Oncological Research Hospital: two-years Report",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the role of Clinical Ethics Committees (CECs) in supporting healthcare professionals. It addresses the use of knowledge in the implementation and functioning of CECs, which relates directly to the management and application of knowledge in healthcare settings. The findings aim to inform future strategies for CECs, indicating a direct relevance to healthcare research and professional practice."
-    },
-    {
-        "paperId": "e2854c0adbfb78d86b4357a1384f5a0ac83a3be6",
-        "title": "Education programmes on performance-based assessment for allied health and nursing clinical educators: A scoping review protocol",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context as it discusses education programmes for clinical educators in allied health and nursing, which directly relates to the preparation of healthcare professionals. It addresses the use of knowledge and skills related to performance-based assessment (PBA), fulfilling the inclusion criteria regarding the use of knowledge in professional contexts. The relevance to healthcare research and professional practice is direct, as it aims to investigate and describe educational programmes that enhance the knowledge and skills of clinical educators, thereby supporting evidence-based practice and decision-making processes in healthcare."
-    },
-    {
-        "paperId": "88b6283e7b27a1b175e04f3164a5dce5325eaa75",
-        "title": "Personalizing Care Through Robotic Assistance and Clinical Supervision",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and decision-making processes in healthcare professionals, specifically through the integration of AI in assistive robotics to support clinicians. This aligns with the inclusion criteria regarding the use of knowledge and decision-making in healthcare. The relevance to healthcare research and professional practice is direct, as it discusses how the proposed system aids clinicians in evaluating and managing patients."
-    },
-    {
-        "paperId": "eca1593a77b3d5a9c1716c72e885d9c849322d5a",
-        "title": "Update to the essential genomic nursing competencies and outcome indicators.",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and evidence-based practice in nursing genomics, which aligns with inclusion criterion 2. It discusses the integration of genomic competencies into nursing practice and education, directly relevant to healthcare research and professional practice, satisfying inclusion criterion 3."
-    },
-    {
-        "paperId": "99e55ed8d93b01ef5cbf266a5d0b855438062d3e",
-        "title": "Challenges associated with the integration of immuno-oncology agents in clinical practice",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the integration of immuno-oncology agents in clinical practice. It addresses the use of knowledge and skills among healthcare professionals (HCPs) in decision-making processes, which aligns with inclusion criterion 2. The relevance to healthcare research and professional practice is direct, as it discusses educational gaps and challenges faced by HCPs, thereby fulfilling inclusion criterion 3."
-    },
-    {
-        "paperId": "92b3b604968de1d740f745496d624b0035edb808",
-        "title": "4CPS-212 Healthcare providers’ views of pharmacy team involvement in the preparation and administration of medicines on inpatients wards: an exploratory study",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and decision-making processes among healthcare professionals regarding pharmacy team involvement in medication preparation and administration. It directly explores healthcare providers' views, which relates to the interpretation and application of knowledge in healthcare, satisfying the inclusion criteria."
-    },
-    {
-        "paperId": "ee0bf7d53bd127629e55db4453868b68400d7028",
-        "title": "Delivering Optimal Care to People with Cognitive Impairment in Parkinson's Disease: A Qualitative Study of Patient, Caregiver, and Professional Perspectives",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing the care of individuals with cognitive impairment in Parkinson's disease. It discusses the use of knowledge and information in clinical management and healthcare interactions, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it highlights the need for tailored information and support, thus satisfying the core inclusion logic."
-    },
-    {
-        "paperId": "e33222f608376468a6ea1f87fe9afbc0df2817b3",
-        "title": "Implementation of pharmacist-led deprescribing in collaborative primary care settings",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge in the implementation of pharmacist-led deprescribing, which relates directly to evidence-based practice and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it discusses the application and management of knowledge in a collaborative primary care setting."
-    },
-    {
-        "paperId": "5d582056179e02302d6661880e852ba10a7d3dfe",
-        "title": "Demystification of artificial intelligence for respiratory clinicians managing patients with obstructive lung diseases",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing the use of artificial intelligence in managing obstructive lung diseases, which relates to decision-making processes in healthcare professionals. It discusses the application of AI to optimize diagnosis and treatment strategies, thereby directly addressing the use of knowledge and research evidence in clinical practice. The relevance to healthcare research and professional practice is clear, as it aims to bridge the knowledge gap between clinicians and data scientists, which is essential for effective implementation of AI in healthcare."
-    },
-    {
-        "paperId": "47d38a4442d500c61c66c437b57bd2aa793f9130",
-        "title": "Evaluation of a pregnancy loss education intervention for undergraduate nursing students in Northern Ireland: A pre- and post-test study",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on an educational intervention for nursing students related to pregnancy loss, which directly addresses the use of knowledge and skills in professional practice (inclusion criterion 2). It discusses the importance of communication and support in managing pregnancy loss, which relates to evidence-based practice and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it evaluates the impact of the intervention on students' knowledge and confidence, thereby contributing to improved care quality (inclusion criterion 3)."
-    },
-    {
-        "paperId": "f6d91d7bf51f26d12f2ec025574627aa38868f93",
-        "title": "#3956 PRIORITY OUTCOMES FOR EDUCATION AND SELF-MANAGEMENT IN NON-DIALYSIS CHRONIC KIDNEY DISEASE: A PATIENT AND PROFESSIONAL DELPHI SURVEY",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on Chronic Kidney Disease (CKD) and the importance of education and self-management. It addresses the use of knowledge and skills in managing health, which aligns with the inclusion criteria regarding the use of knowledge in healthcare. The relevance to healthcare research and professional practice is direct, as it discusses the outcomes valued by both patients and healthcare professionals, which is essential for the design and implementation of effective interventions."
-    },
-    {
-        "paperId": "16240e78d3274f890b5ecfa4fc330e2b3fe6a01e",
-        "title": "Improving sepsis recognition through use of the Sepsis Trust's community screening tool.",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and decision-making processes in healthcare professionals through the implementation of a community screening tool for sepsis. It discusses how the tool supports healthcare professionals in making informed decisions, which aligns with the inclusion criteria regarding the use of knowledge and evidence-based practice. The relevance to healthcare research and professional practice is direct, as it focuses on improving sepsis recognition and patient outcomes through enhanced decision-making."
-    },
-    {
-        "paperId": "4dc71ce7f1c52477524000b6c0e8963c4a834525",
-        "title": "The experiences and perceptions of female breast cancer patients regarding weight management during and after treatment for oestrogen-receptor positive disease: a qualitative study",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on female breast cancer patients and their experiences with weight management during and after treatment. It addresses the use of knowledge and research evidence by discussing healthcare professionals' (HCPs) knowledge of public health dietary and physical activity recommendations, which relates directly to evidence-based practice and decision-making processes in healthcare. The relevance to healthcare research and professional practice is direct, as it explores the provision of weight management advice and the challenges faced by HCPs in delivering this information, thus satisfying the inclusion criteria."
-    },
-    {
-        "paperId": "fd778ecb80e2629ff061cb02ee9bcf82e6f0f214",
-        "title": "A survey of speech pathologists' opinions about the prospective acceptability of an online implementation platform for aphasia services.",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the implementation of an online intervention for speech pathologists aimed at improving the uptake of best practices in aphasia services. It addresses the use of knowledge translation (KT) approaches and the acceptability of these interventions to healthcare professionals, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare. The relevance to healthcare research and professional practice is direct, as it discusses factors influencing the integration of evidence-based practices in clinical settings."
+        "justification": "The paper discusses a digital health technology in the context of rehabilitation, focusing on healthcare professionals' and service-users' perceptions, which aligns with the inclusion criteria related to healthcare practice and the use of digital tools in professional contexts."
     },
     {
         "paperId": "2e38487ceced33bdb95f1dc6e7a4a47c9e11674d",
         "title": "How Commercially Available Virtual Reality-Based Interventions Are Delivered and Reported in Gait, Posture, and Balance Rehabilitation: A Systematic Review.",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the use of virtual reality technologies in rehabilitation, which directly relates to the interpretation and application of knowledge in healthcare. It addresses the role of therapists in delivering these interventions, which connects to decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it discusses the implications for intervention design and delivery in clinical settings."
+        "justification": "The paper concerns healthcare and rehabilitation, specifically focusing on the use of virtual reality technologies in physical rehabilitation, which relates to healthcare professionals' roles and practices. It discusses the implementation of interventions and the involvement of therapists, aligning with the inclusion criteria."
     },
     {
-        "paperId": "a02ed5fe165794cff280c75e5f7f4a8c73b2a847",
-        "title": "How ontology can be used to achieve semantic interoperability in healthcare",
+        "paperId": "f21810bd0ae5f1ec3910b6d9a91c5785eaaf55c9",
+        "title": "Advanced Technology in a Real-World Rehabilitation Setting: Longitudinal Observational Study on Clinician Adoption and Implementation",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and information through the lens of semantic interoperability in healthcare. It discusses the importance of knowledge sharing and the role of healthcare professionals in achieving interoperability, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare. The relevance to healthcare research and professional practice is direct, as it focuses on improving healthcare interoperability through systematic processes involving knowledge management."
+        "justification": "The paper discusses the implementation and adoption of advanced technology in a rehabilitation setting, focusing on healthcare professionals' use and understanding of these technologies, which aligns with the inclusion criteria related to healthcare practice and evidence-based implementation."
     },
     {
-        "paperId": "c5d90f4b36f66ff75ce5688b3bb2582e04344030",
-        "title": "The Architecture of a Feasibility Query Portal for Distributed COVID-19 Fast Healthcare Interoperability Resources (FHIR) Patient Data Repositories: Design and Implementation Study",
+        "paperId": "89737a3d51bf15d90602f31dc51fb665679b2273",
+        "title": "AB1354-HPR CURRENT SITUATION OF TRAINING IN RHEUMATOLOGY IN THE POSTGRADUATE CURRICULUMS OF INTERNAL MEDICINE, FAMILY MEDICINE, GERIATRICS, PAIN MEDICINE AND, PHYSICAL AND REHABILITATION MEDICINE ACROSS COLOMBIA",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare research context, specifically focusing on the design and implementation of a feasibility query platform for accessing patient data across multiple hospitals. It addresses the use of knowledge and information in the context of research by discussing how to effectively utilize existing real-world data sources for multicentric studies, which aligns with the inclusion criteria regarding the use of knowledge and research evidence in healthcare. The relevance to healthcare research is direct, as it pertains to improving the processes of data access and interoperability for research purposes."
+        "justification": "The paper discusses the training status in rheumatology within various postgraduate medical specialties, which relates to professional healthcare practice and education, thus meeting the inclusion criteria."
     },
     {
-        "paperId": "82dad7f2b2ee0e5f058d5a3b5a1b18cc805f0e88",
-        "title": "Healthcare professional and manager perceptions on drivers, benefits, and challenges of telemedicine: results from a cross-sectional survey in the Italian NHS",
+        "paperId": "e1358d8574e3ccc9b99179809e2cbc3e2d4d424c",
+        "title": "Clinnova Federated Learning Proof of Concept: Key Takeaways from a Cross-border Collaboration",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and information regarding telemedicine implementation, which aligns with the inclusion criteria. It discusses the perceptions of healthcare professionals and managers on the drivers, benefits, and challenges of telemedicine, directly relating to decision-making processes in healthcare professionals and the management of knowledge in a professional context. The relevance to healthcare research and professional practice is clear, as it explores the implications of telemedicine in the healthcare system."
+        "justification": "The paper discusses the use of artificial intelligence and data science in enhancing healthcare outcomes, specifically in the context of a collaborative initiative aimed at improving patient care for multiple sclerosis, which aligns with the inclusion criteria related to healthcare professionals and digital health technologies."
     },
     {
-        "paperId": "ca1fbab08a3e9cb462a287a4ca9997b6a86f8fcd",
-        "title": "Architecture for a privacy preserving feasibility query portal for distributed COVID-19 Fast Healthcare Interoperability Resources (FHIR) patient data repositories: Design and Implementation Study (Preprint)",
+        "paperId": "ffa40ae9fa240bed719ee1e41e306e49f1bc36b2",
+        "title": "Medical Data in the Digital Era - Legal Challenges Related to Providing Information Security, Applying GDPR and Respecting the Professional Secrecy",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare research context, specifically focusing on the design and implementation of a feasibility query platform for COVID-19 patient data repositories. It addresses the use of knowledge and information through the development of a system that enables researchers to conduct feasibility queries across multiple hospitals, which directly relates to decision-making processes in healthcare professionals. The relevance to healthcare research is direct, as it discusses the application of the FHIR standard to improve data interoperability and facilitate research, thus satisfying the inclusion criteria."
+        "justification": "The paper discusses the challenges of processing medical data in electronic form, focusing on information security and legal regulations in healthcare, which relates to the use and management of information systems in professional healthcare contexts."
     },
     {
-        "paperId": "aa2fb74d443523fca635c6670b588cd056e1e793",
-        "title": "Cross-Border Medical Research Using Multi-Layered and Distributed Knowledge",
+        "paperId": "57bc7d9375c2be1e0083f3877c0f4ffae913d439",
+        "title": "An overview of Personalized Medicine landscape and policies in the European Union",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare research context and addresses the use of knowledge in the form of a novel knowledge architecture for cross-border medical research. It discusses the integration of medical knowledge and the challenges of data heterogeneity, which directly relates to the management and application of knowledge in healthcare. The relevance to healthcare research is clear, as it focuses on improving data interoperability for research purposes."
+        "justification": "The paper discusses healthcare policies related to Personalized Medicine in the European Union, which aligns with the inclusion criteria concerning healthcare systems and professional practice. It also addresses the role of healthcare workers and decision-making in the context of implementing these policies."
     },
     {
-        "paperId": "585639020a690530c308d66ac846fed970451f17",
-        "title": "A hackathon as a tool to enhance research and practice on electronic health record systems’ interoperability for chronic disease management and prevention",
+        "paperId": "f017d679a8a49dac3f5e395ae7171e1250050ba1",
+        "title": "The challenge of bringing evidence in decision-making for public health emergencies: can preparedness reach out to HTA?",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the interoperability of electronic health record systems, which is relevant to healthcare research processes. It addresses the use of knowledge and information through the evaluation of a hackathon aimed at developing a standardized framework for electronic health records, thus fulfilling the inclusion criteria related to the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it discusses the implications of the hackathon outcomes for managing and preventing chronic diseases."
+        "justification": "The paper discusses evidence-based decision-making in public health, focusing on the use of digital health tools and Health Technology Assessment (HTA) in healthcare contexts, which aligns with the inclusion criteria related to healthcare professionals' use of knowledge and information systems."
     },
     {
-        "paperId": "01e3b45b618a7bbd0619921723e82079441f4168",
-        "title": "Implications of immersive technologies in healthcare sector and its built environment",
+        "paperId": "a2f7cc1401165058641d1fe01c580e50798ae1be",
+        "title": "Constitutional foundations of cross-border digital healthcare",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and evidence-based practices in the implementation of immersive technologies (MXR) in healthcare settings. It discusses how built environment experts can contribute to healthcare innovation and emphasizes the importance of evidence-based approaches, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it explores the implications of these technologies for improving health outcomes and resource efficiency in the healthcare sector."
+        "justification": "The paper discusses legal regulation and constitutional aspects of digital healthcare, which relates to healthcare professionals' use and management of information systems in healthcare contexts. It also addresses the integration of law and biomedicine, relevant to professional healthcare practice."
     },
     {
-        "paperId": "6a333808e04b3d6105d6cf291d0cb10fe14e53c0",
-        "title": "Developing a Transnational Health Record Framework with Level-Specific Interoperability Guidelines Based on a Related Literature Review",
+        "paperId": "0d881553ad69cdef9d4db85bf305e70f32c8b09e",
+        "title": "Implementing a Cross-Border Next-Generation Personal Health Record in the Philippines and Taiwan: An Implementation Case Report Using Health Level 7 International Fast Healthcare Interoperability Resources",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge and information through the development of a Transnational Health Record framework. It discusses interoperability guidelines, which relate to the management and application of knowledge in healthcare, thus satisfying the inclusion criteria regarding the use of knowledge and research evidence. The relevance to healthcare research and professional practice is direct, as it aims to improve the accessibility and reliability of health information across borders."
+        "justification": "The paper discusses the implementation of a cross-border personal health record system, which relates to healthcare professionals' use of information systems and addresses interoperability in healthcare contexts."
     },
     {
-        "paperId": "2e2f06d34f010a2f0c74c2a99b41448207913866",
-        "title": "Seamless EMR data access: Integrated governance, digital health and the OMOP-CDM",
+        "paperId": "3e77ce42df11bdfc25cc34e6cc929691d866cd8a",
+        "title": "Interoperability Challenges and Critical Success Factors in the Deployment of Cross-border Digital Medical Prescriptions in Finland and Estonia",
         "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and discusses the use of the Observational Medical Outcomes Partnership Common Data Model (OMOP-CDM) to enhance access to electronic medical record (EMR) data for health service providers and researchers. It addresses the use of knowledge and information in healthcare by promoting interoperability and simplifying governance processes, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research is direct, as it focuses on transforming health data analytics and facilitating research projects."
-    },
-    {
-        "paperId": "14052d46997793efd4cbb93746461e899691f5da",
-        "title": "Evaluating Digital Health Capability at Scale Using the Digital Health Indicator",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge in the form of evaluating digital health capability, which is relevant to informing digital health strategy and investment. This aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as the findings are intended to inform policy and organizational management in the healthcare sector."
-    },
-    {
-        "paperId": "897b5b2dd2b06dc46c4ac1442b1ade14566d444a",
-        "title": "Estimating the impact on patient safety of enabling the digital transfer of patients’ prescription information in the English NHS",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the impact of digital prescription information transfer on patient safety within the NHS. It addresses the use of knowledge and research evidence in estimating medication errors and the potential benefits of implementing an interoperable prescription information system, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it discusses the implications of knowledge use in improving patient safety and healthcare outcomes."
-    },
-    {
-        "paperId": "1a53918adb08b163a9fd4bc6951ad8a0f5016dc8",
-        "title": "Cybersecurity policy framework requirements for the establishment of highly interoperable and interconnected health data spaces",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing the establishment of health data spaces, which is relevant to the use of knowledge and information in healthcare. It discusses the implications of cybersecurity policies for protecting sensitive health information, which relates directly to the management and application of knowledge in healthcare settings. The relevance to healthcare research and professional practice is direct, as it explores practical implications and requirements for enhancing data security in healthcare systems."
-    },
-    {
-        "paperId": "c8306c97c5381897c537e6683d603b57b8c9a11c",
-        "title": "Secondary use of helath data in EU: Exploring the legal challenges of the upcoming European Health Data Space Reguation in light of the findings of the TEHDAS project",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of health data, which relates directly to the use of knowledge and information in healthcare (inclusion criterion 2). It discusses the European Health Data Space Regulation and its implications for researchers and policymakers, indicating a direct relevance to healthcare research and professional practice (inclusion criterion 3). The focus on legislative challenges and the empowerment of citizens in the context of data use further supports its inclusion."
-    },
-    {
-        "paperId": "5e77fa89082ecfd563d5183c48a4f00731e2287e",
-        "title": "GDPR Compliance of Hospital Management Systems in the UAE",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing the compliance of hospital management systems with GDPR, which directly relates to the use of knowledge and information regarding data protection in healthcare. It discusses the implications of GDPR on healthcare practices, including the management of patient data and privacy rights, which aligns with the inclusion criteria regarding the interpretation and application of knowledge in healthcare. The relevance to healthcare research and professional practice is direct, as it provides insights into compliance challenges and mitigation measures that healthcare organizations must consider."
-    },
-    {
-        "paperId": "0a04675d77367f6f89f4ad6e6eee941b50e282b9",
-        "title": "Mapping of surveillance systems for health crisis preparedness and response in Member States",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on health crisis preparedness and response, which is relevant to healthcare research processes. It addresses the use of knowledge and information systems in the context of surveillance for health emergencies, aligning with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research is direct, as it discusses the mapping of surveillance systems and their interoperability, which is crucial for effective health crisis management."
-    },
-    {
-        "paperId": "f16e3e3ed5081517a6ab2a82a0538486651927a1",
-        "title": "Global Infectious Disease Surveillance and Case Tracking System for COVID-19: Development Study",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing the development of a global infectious disease surveillance and case tracking system for COVID-19. It discusses the use of knowledge and information exchange among healthcare professionals (inclusion criterion 2) and emphasizes the importance of evidence-based practices in managing the pandemic (inclusion criterion 3). The relevance to healthcare research and professional practice is direct, as it outlines how the system can facilitate data sharing and improve decision-making processes in response to COVID-19."
-    },
-    {
-        "paperId": "73d7b7946ddc10c9d6700f84fe846f91df1de242",
-        "title": "4.Q. Workshop: Showcasing PHIRI use case results measuring the impact of COVID-19 on population health",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing the impact of COVID-19 on population health, which is relevant to healthcare research. It discusses the use of health information and data to facilitate research and guide political decision-making, thereby addressing the use of knowledge and evidence-based practice. The relevance to healthcare research and professional practice is direct, as it aims to provide actionable outcomes for policymakers based on the analysis of health data across European countries."
-    },
-    {
-        "paperId": "1be0db673407fd91d05629bc8ae904ff0df754f0",
-        "title": "Health Services Trade and the COVID-19 Pandemic",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically addressing the impact of the COVID-19 pandemic on healthcare systems. It discusses the use of knowledge and information related to healthcare resource management, including the role of digital technologies and telemedicine, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it outlines measures to improve healthcare delivery and resource allocation during a crisis."
-    },
-    {
-        "paperId": "c4cc0d6b8cdef6104f423e21c6958cec001c17ff",
-        "title": "Current clinical practice in managing somatosensory impairments and the use of technology in stroke rehabilitation",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on stroke rehabilitation, which is a clinical research area. It addresses the use of knowledge and research evidence in the management of somatosensory impairments and the integration of technology in rehabilitation practices, fulfilling the inclusion criteria related to the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it discusses current clinical practices and perspectives of therapists, making it pertinent to the research project."
-    },
-    {
-        "paperId": "6a22656771c84c6adfa5eae5dcab89fd228a2456",
-        "title": "Implementation of Telerehabilitation in an Early Supported Discharge Stroke Rehabilitation Program before and during COVID-19: An Exploration of Influencing Factors",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the implementation of telerehabilitation in a stroke rehabilitation program. It addresses the use of knowledge and decision-making processes as perceived by clinicians and managers, which aligns with the inclusion criteria regarding the use of knowledge and evidence-based practice. The relevance to healthcare research and professional practice is direct, as it explores factors influencing the implementation of a healthcare intervention, making it pertinent to the research processes in healthcare."
-    },
-    {
-        "paperId": "c1bfbd9eca3c0f26dd723a9696474afce1084da2",
-        "title": "Enhancing Person-Centered Audiologic Rehabilitation: Exploring the Use of an Interview Tool Based on the International Classification of Functioning, Disability, and Health Core Sets for Hearing Loss",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on audiologic rehabilitation. It addresses the use of knowledge through the implementation of an interview tool based on the International Classification of Functioning, Disability, and Health (ICF), which relates to evidence-based practice and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it discusses how the tool enhances person-centered care and improves the assessment process in clinical settings."
-    },
-    {
-        "paperId": "14d7d0cd392362ac080edb2292ccff4d46037df3",
-        "title": "Development of an implementation strategy for routine collection of generic patient reported outcome measures: a qualitative study in multidisciplinary community rehabilitation",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the implementation of patient-reported outcome measures (PROMs) in community rehabilitation. It addresses the use of knowledge and research evidence by exploring staff perceptions and developing an implementation strategy, which aligns with the inclusion criteria regarding the use of knowledge in professional contexts. The relevance to healthcare research and professional practice is direct, as it discusses barriers and enablers in the implementation of evidence-based practices in a clinical setting."
-    },
-    {
-        "paperId": "47239c47275e852c11f02ce0df6c93aad2955f54",
-        "title": "Person centered care in neurorehabilitation: a secondary analysis",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context and addresses the use of knowledge in professional practice by discussing person-centered care in neurorehabilitation. It explores themes related to the interpretation and application of care practices, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research is direct, as it aims to identify examples of effective practices and reflects on the implications for rehabilitation."
-    },
-    {
-        "paperId": "6e43c0e27efe42c809ea3618d225f14c65d2a884",
-        "title": "Organisation, influence, and impact of patient advisory boards in rehabilitation institutions—an explorative cross-sectional study",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on patient advisory boards in rehabilitation institutions. It addresses the use of knowledge and the impact of patient engagement on decision-making processes and service delivery, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare professionals. The relevance to healthcare research and professional practice is direct, as it explores how patient participation influences organizational practices in a healthcare setting."
-    },
-    {
-        "paperId": "5bfc5d4c362d9aeec2767ba7c3fa15788fe8910b",
-        "title": "A protocol to evaluate the impact of embedding Public and Patient Involvement in a structured PhD program for stroke care",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare research context, specifically focusing on the integration of Public and Patient Involvement (PPI) in a structured PhD program for stroke care. It addresses the use of knowledge and research evidence in the context of training healthcare researchers, which aligns with the inclusion criteria regarding the use of knowledge in professional contexts. The relevance to healthcare research is direct, as it evaluates the impact of PPI on the training of future healthcare researchers, thus satisfying the core inclusion logic."
-    },
-    {
-        "paperId": "a5ceccd59e88e822e9a9ac35a38ac4ee71cdd172",
-        "title": "The experiences of care managers and rehabilitation coordinators of a primary care intervention to promote return to work for patients with common mental disorders: a qualitative study",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on the experiences of care managers and rehabilitation coordinators in a primary care intervention. It addresses the use of knowledge and collaboration processes among healthcare professionals, which aligns with the inclusion criteria regarding the use of knowledge and decision-making processes in healthcare. The relevance to healthcare research and professional practice is direct, as it explores the implementation and experiences of a model aimed at improving patient outcomes through collaborative practices."
-    },
-    {
-        "paperId": "f3a2af02c83fc75a8a9dbf7d26d74ccce8ddff52",
-        "title": "Physical medicine and rehabilitation clerkships in medical school: A valuable and integrated addition to the advanced clerkships",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on medical education related to physical medicine and rehabilitation (PM&R). It addresses the use of knowledge and decision-making processes in healthcare professionals, particularly in the context of training medical students. The relevance to healthcare research and professional practice is direct, as it discusses the integration of PM&R clerkships into medical education and their impact on knowledge application and patient-centered care."
-    },
-    {
-        "paperId": "16d6f5adaf84b7dfe8b827b5a97a4de848106316",
-        "title": "Reasoning about reasoning – using recall to unveil clinical reasoning in stroke rehabilitation teams",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on stroke rehabilitation teams. It addresses the use of knowledge and decision-making processes among healthcare professionals, which aligns with the inclusion criteria. The study explores how clinical reasoning is influenced by both professional expertise and patient perspectives, making the relevance to healthcare research and professional practice direct and clear."
-    },
-    {
-        "paperId": "750d5f021914503e1104e5f3577661dd0eca2a21",
-        "title": "Rehabilitation professions’ core competencies for entry-level professionals: a thematic analysis",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on rehabilitation professions. It addresses the use of knowledge in the form of \"evidence-based clinical practice knowledge and skills,\" which aligns with the inclusion criterion regarding the use of knowledge and research evidence. Additionally, the relevance to healthcare research and professional practice is direct, as it explores core competencies that can enhance interprofessional collaboration and decision-making among healthcare professionals."
-    },
-    {
-        "paperId": "328471a294f8e57c3dfe546135fa505e258572d1",
-        "title": "Systematic scoping review protocol of Stroke Patient and Stakeholder Engagement (SPSE)",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on Stroke Patient and Stakeholder Engagement (SPSE), which directly relates to the use of knowledge and research evidence in healthcare. It addresses the engagement of patients and stakeholders in research, which is relevant to evidence-based practice and decision-making processes in healthcare professionals. The relevance to healthcare research is direct, as it aims to clarify concepts and identify existing evidence related to SPSE, thus satisfying the inclusion criteria."
-    },
-    {
-        "paperId": "c584353ff1d52a54a45031cdfbe2cc05ee93d869",
-        "title": "A Swiss Health Care Professionals’ Perspective on the Meaning of Interprofessional Collaboration in Health Care of People with MS—A Focus Group Study",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on interprofessional collaboration (IPC) among healthcare professionals in the care of patients with multiple sclerosis (MS). It addresses the use of knowledge and decision-making processes in healthcare professionals, which aligns with the inclusion criteria. The relevance to healthcare research and professional practice is direct, as it explores how IPC can enhance patient-centered care, fulfilling the requirement for a clear connection to knowledge use in healthcare."
-    },
-    {
-        "paperId": "8699e9afb217e227ccece27b4218c50917bdccc9",
-        "title": "Prosthetic Rehabilitation in Practice: An Exploration of Experiential Knowledge in the Multidisciplinary Team",
-        "decision": "INCLUDE",
-        "justification": "The paper is situated within a healthcare context, specifically focusing on prosthetic rehabilitation, which is relevant to clinical practice. It addresses the use of experiential knowledge among healthcare professionals, aligning with the inclusion criterion of discussing the use of knowledge in professional contexts. Additionally, it contributes to understanding evidence-based practice by facilitating the translation of practice-based evidence into evidence-based practice, thus meeting the requirement for direct relevance to healthcare research and professional practice."
+        "justification": "The paper discusses interoperability challenges and critical success factors related to digital medical prescriptions, which pertains to healthcare systems and the application of digital tools in professional healthcare contexts."
     }
 ]
