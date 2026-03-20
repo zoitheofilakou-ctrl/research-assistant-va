@@ -1,34 +1,52 @@
 import os
 import json
 import pdfplumber
+import sys
 from rapidfuzz import process, fuzz
+
+PROJECT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if PROJECT_DIR not in sys.path:
+    sys.path.insert(0, PROJECT_DIR)
+
+from project_paths import FULLTEXT_DIR, HARVESTED_PDFS_DIR, METADATA_PATH, ensure_dir
+from run_manifest import RunManifest
 
 # ROLE: Data Acquisition Group
 # PURPOSE: High-fidelity Text Extraction from harvested PDFs with UUID-based naming (paperId).
 #          Includes a Truncation-Aware Fuzzy Matching engine to resolve metadata sync issues.
 
 def extract_text_from_pdfs(
-    metadata_file="../data/hybrede_metadata_v4.json", 
-    pdf_folder="../data/harvested_pdfs", 
-    output_folder="../data/v3_full_text"
+    metadata_file=None,
+    pdf_folder=None,
+    output_folder=None
 ):
     """
     Orchestrates the conversion of PDF assets into plain text files.
     Ensures filenames in 'harvested_pdfs' (truncated to 100 chars) are correctly
     mapped back to their unique 'paperId' for RAG indexing.
     """
+    metadata_file = metadata_file or METADATA_PATH
+    pdf_folder = pdf_folder or HARVESTED_PDFS_DIR
+    output_folder = output_folder or FULLTEXT_DIR
+    manifest = RunManifest("pdf_to_text")
+
     # Pre-flight Check: Validate directory structure and data sources
     if not os.path.exists(pdf_folder):
         print(f"[!] Critical Error: Source folder '{pdf_folder}' not found.")
+        manifest.add_event("missing_input", pdf_folder, {})
+        manifest.write()
         return
 
     if not os.path.exists(metadata_file):
         print(f"[!] Critical Error: Metadata '{metadata_file}' missing.")
+        manifest.add_event("missing_input", metadata_file, {})
+        manifest.write()
         return
 
     if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+        ensure_dir(output_folder)
         print(f"[*] Initialized output directory: {output_folder}")
+        manifest.add_event("created_directory", output_folder, {})
 
     # Load Metadata 'Source of Truth'
     try:
@@ -59,6 +77,9 @@ def extract_text_from_pdfs(
 
     success_count = 0
     fail_count = 0
+    updated_count = 0
+    skipped_existing_count = 0
+    unmatched_count = 0
 
     for pdf_name in pdf_files:
         pdf_path = os.path.join(pdf_folder, pdf_name)
@@ -83,26 +104,62 @@ def extract_text_from_pdfs(
                             text_content.append(page_text)
                     
                     full_text = "\n".join(text_content)
-                    
+
+                    existing_text = None
+                    if os.path.exists(output_path):
+                        with open(output_path, 'r', encoding='utf-8') as f:
+                            existing_text = f.read()
+
+                    if existing_text == full_text:
+                        print(f"[-] Text unchanged: {paper_id[:12]}...")
+                        skipped_existing_count += 1
+                        manifest.add_event("skipped_existing", output_path, {"source_pdf": pdf_name})
+                        continue
+
                     # Final I/O: Save extracted text with paperId naming convention
                     with open(output_path, 'w', encoding='utf-8') as f:
                         f.write(full_text)
-                    
-                print(f"[+] Processed: {pdf_name[:50]}... -> {paper_id[:12]}...")
-                success_count += 1
+
+                if existing_text is None:
+                    print(f"[+] Created: {pdf_name[:50]}... -> {paper_id[:12]}...")
+                    success_count += 1
+                    manifest.add_event("created", output_path, {"source_pdf": pdf_name})
+                else:
+                    print(f"[~] Updated: {pdf_name[:50]}... -> {paper_id[:12]}...")
+                    updated_count += 1
+                    manifest.add_event("updated", output_path, {"source_pdf": pdf_name})
             except Exception as e:
                 print(f"[!] PDF Extraction Error ({pdf_name}): {e}")
                 fail_count += 1
+                manifest.add_event("extract_error", pdf_path, {"error": str(e)})
         else:
             print(f"[?] Mapping Failed: No metadata entry aligns with '{pdf_name}'")
             fail_count += 1
+            unmatched_count += 1
+            manifest.add_event("unmatched_pdf", pdf_path, {})
 
     # Final Execution Summary for Group Reporting
     print("=" * 60)
     print(f"CONVERSION SUMMARY:")
-    print(f"- Successfully mapped and extracted: {success_count}")
+    print(f"- Newly created text files: {success_count}")
+    print(f"- Updated text files: {updated_count}")
+    print(f"- Unchanged existing text files: {skipped_existing_count}")
     print(f"- Failures (Unmapped/Corrupted): {fail_count}")
+    print(f"- Unmatched PDFs: {unmatched_count}")
     print(f"- Target storage: {output_folder}")
+
+    manifest.set_summary(
+        metadata_path=os.path.relpath(metadata_file, PROJECT_DIR),
+        pdf_folder=os.path.relpath(pdf_folder, PROJECT_DIR),
+        output_folder=os.path.relpath(output_folder, PROJECT_DIR),
+        created=success_count,
+        updated=updated_count,
+        skipped_existing=skipped_existing_count,
+        failures=fail_count,
+        unmatched=unmatched_count,
+    )
+    manifest_path = manifest.write()
+    print(f"Run manifest written to: {manifest_path}")
 
 if __name__ == "__main__":
     # Ensure relative paths work when called from the data_acquisition folder

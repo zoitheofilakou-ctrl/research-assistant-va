@@ -2,9 +2,17 @@ import requests
 import time
 import json
 import os
+import sys
 from dotenv import load_dotenv
 
 load_dotenv()
+
+PROJECT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if PROJECT_DIR not in sys.path:
+    sys.path.insert(0, PROJECT_DIR)
+
+from project_paths import METADATA_PATH, ensure_parent_dir
+from run_manifest import RunManifest
 
 #ROLE: Data Acquisition Group
 #PURPOSE: Automated Metadata Collection from Semantic Scholar API
@@ -12,8 +20,7 @@ load_dotenv()
 #Global Configuration
 API_KEY = os.environ["OPENAI_API_KEY"]
 BASE_URL = "https://api.semanticscholar.org/graph/v1"
-PROJECT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-OUTPUT_V3_PATH = os.path.join(PROJECT_DIR, "data", "hybrede_metadata_v3.json")
+OUTPUT_METADATA_PATH = METADATA_PATH
 
 def fetch_rehabilitation_papers(search_query, result_limit=20):
     """
@@ -57,20 +64,45 @@ def fetch_rehabilitation_papers(search_query, result_limit=20):
         return []
 
 if __name__ == "__main__":
+    manifest = RunManifest("updated_scraper")
+
     # Define a high-relevance query to align with HybReDe project goals
     target_keyword = "clinical knowledge support healthcare professionals"
     
     # Execute the fetch process
     collected_papers = fetch_rehabilitation_papers(target_keyword, result_limit=20)
 
-    # Export metadata to the canonical v3 file used by the project pipeline.
+    output_filename = OUTPUT_METADATA_PATH
+    output_existed = os.path.exists(output_filename)
+
     if collected_papers:
-        output_filename = OUTPUT_V3_PATH
-        os.makedirs(os.path.dirname(output_filename), exist_ok=True)
+        ensure_parent_dir(output_filename)
         with open(output_filename, 'w', encoding='utf-8') as json_file:
             json.dump(collected_papers, json_file, ensure_ascii=False, indent=4)
-        
+
+        manifest.add_event(
+            "updated" if output_existed else "created",
+            output_filename,
+            {
+                "paper_count": len(collected_papers),
+                "query": target_keyword,
+            },
+        )
         print("-" * 50)
         print(f"SUCCESS: Metadata exported to '{output_filename}'")
         print("ACTION: This file can now be processed by the LLM Reasoning Team.")
         print("-" * 50)
+    else:
+        manifest.add_event(
+            "no_results",
+            output_filename,
+            {"query": target_keyword},
+        )
+
+    manifest.set_summary(
+        metadata_path=os.path.relpath(output_filename, PROJECT_DIR),
+        paper_count=len(collected_papers),
+        query=target_keyword,
+    )
+    manifest_path = manifest.write()
+    print(f"Run manifest written to: {manifest_path}")

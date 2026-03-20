@@ -16,13 +16,13 @@ research-assistant-va/
   app.py
   README.md
   data/
-    hybrede_metadata_v3.json
     hybrede_metadata_v4.json
     harvested_pdfs/
     processed/
       filtered_papers.json
       screening_log.json
       audit_log.json
+      run_manifests/
     v3_full_text/
   data_acquisition/
     PDFscraper.py
@@ -109,22 +109,41 @@ python -c "from sentence_transformers import CrossEncoder; CrossEncoder('cross-e
 
 If the offline check fails, the model is not cached yet.
 
-## Important Path and Version Notes
+## Canonical Project Files
 
-There is currently a version mismatch in the codebase:
+The main pipeline is now aligned to one canonical metadata file:
 
-- `ingestion/scripts/updated_scraper.py` writes `data/hybrede_metadata_v3.json`
-- `screening/llm_screening.py` reads `data/hybrede_metadata_v3.json`
-- `Retrieval/retrieval.py` defaults to `data/hybrede_metadata_v4.json`
-- `data_acquisition/PDFscraper.py` defaults to `../data/hybrede_metadata_v4.json`
-- `data_acquisition/pdf_to_text.py` defaults to `../data/hybrede_metadata_v4.json`
-
-That means the acquisition scripts are not automatically aligned with the retrieval pipeline unless your `v4` file contains the papers you want to process.
+- metadata: `data/hybrede_metadata_v4.json`
+- filtered papers: `data/processed/filtered_papers.json`
+- screening log: `data/processed/screening_log.json`
+- audit log: `data/processed/audit_log.json`
+- downloaded PDFs: `data/harvested_pdfs/`
+- extracted full text: `data/v3_full_text/`
+- retrieval index: `rag_store/`
 
 Also note:
 
-- `data_acquisition/PDFscraper.py` and `data_acquisition/pdf_to_text.py` use relative paths and are safest to run from inside the `data_acquisition/` directory.
-- `app.py` does not rebuild the retrieval index for you. If you change `data/processed/filtered_papers.json`, you must run indexing again manually.
+- the scripts now use absolute project paths, so they can be launched from the repository root
+- `app.py` still does not rebuild the retrieval index for you; if `data/processed/filtered_papers.json` changes, run indexing again manually
+- old files such as `data/hybrede_metadata_v3.json` may still exist locally, but the current pipeline does not use them by default
+
+## Run Manifests
+
+Scripts that create or update project artifacts now write a manifest JSON to:
+
+```text
+data/processed/run_manifests/
+```
+
+Current manifests:
+
+- `updated_scraper.json`
+- `llm_screening.json`
+- `pdfscraper.json`
+- `pdf_to_text.json`
+- `retrieval_index.json`
+
+Each manifest records what the script created, updated, skipped, rejected, or failed to produce during the last run.
 
 ## Recommended End-to-End Workflow
 
@@ -139,7 +158,8 @@ python ingestion/scripts/updated_scraper.py
 What it does:
 
 - queries Semantic Scholar
-- writes metadata to `data/hybrede_metadata_v3.json`
+- writes metadata to `data/hybrede_metadata_v4.json`
+- writes a run manifest to `data/processed/run_manifests/updated_scraper.json`
 
 Current limitation:
 
@@ -156,13 +176,14 @@ python screening/llm_screening.py
 
 What it does:
 
-- reads `data/hybrede_metadata_v3.json`
+- reads `data/hybrede_metadata_v4.json`
 - screens papers with OpenAI
 - validates each decision with a second OpenAI call
 - writes:
   - `data/processed/filtered_papers.json`
   - `data/processed/screening_log.json`
   - `data/processed/audit_log.json`
+  - `data/processed/run_manifests/llm_screening.json`
 
 Important behavior:
 
@@ -171,35 +192,34 @@ Important behavior:
 
 ### 3. Download PDFs
 
-Run from inside `data_acquisition/`:
+Run from repository root:
 
 ```powershell
-Push-Location data_acquisition
-python PDFscraper.py
-Pop-Location
+python data_acquisition/PDFscraper.py
 ```
 
 What it does:
 
-- reads metadata from `../data/hybrede_metadata_v4.json`
+- reads metadata from `data/hybrede_metadata_v4.json`
 - downloads open-access PDFs to `data/harvested_pdfs/`
 - validates that files are real English-language PDFs
+- writes a run manifest to `data/processed/run_manifests/pdfscraper.json`
 
 ### 4. Convert PDFs to Text
 
-Run from inside `data_acquisition/`:
+Run from repository root:
 
 ```powershell
-Push-Location data_acquisition
-python pdf_to_text.py
-Pop-Location
+python data_acquisition/pdf_to_text.py
 ```
 
 What it does:
 
-- reads metadata from `../data/hybrede_metadata_v4.json`
+- reads metadata from `data/hybrede_metadata_v4.json`
 - matches downloaded PDFs back to `paperId`
 - writes plain text files to `data/v3_full_text/`
+- does not silently overwrite identical text files; unchanged outputs are reported as `skipped_existing`
+- writes a run manifest to `data/processed/run_manifests/pdf_to_text.json`
 
 ### 5. Build the Hybrid Retrieval Index
 
@@ -222,6 +242,7 @@ What it does:
 - falls back to abstracts if full text is missing
 - builds a hybrid index in `rag_store/`
 - writes a lexical sidecar file at `rag_store/lexical_index.json`
+- writes a run manifest to `data/processed/run_manifests/retrieval_index.json`
 
 ### 6. Query Retrieval Directly
 
@@ -305,12 +326,10 @@ python Retrieval/retrieval.py index
 
 1. `python ingestion/scripts/updated_scraper.py`
 2. `python screening/llm_screening.py`
-3. `Push-Location data_acquisition`
-4. `python PDFscraper.py`
-5. `python pdf_to_text.py`
-6. `Pop-Location`
-7. `python Retrieval/retrieval.py index`
-8. `python llm/rag_generator.py "your question" openai --k 5`
+3. `python data_acquisition/PDFscraper.py`
+4. `python data_acquisition/pdf_to_text.py`
+5. `python Retrieval/retrieval.py index`
+6. `python llm/rag_generator.py "your question" openai --k 5`
 
 ### Option B: Retrieval only from existing processed files
 
@@ -348,10 +367,11 @@ python llm/rag_generator.py "your question" ollama
 
 Main files produced by the pipeline:
 
-- `data/hybrede_metadata_v3.json` - metadata fetched from Semantic Scholar
+- `data/hybrede_metadata_v4.json` - canonical metadata fetched from Semantic Scholar
 - `data/processed/filtered_papers.json` - screened or manually selected papers
 - `data/processed/screening_log.json` - screening decisions
 - `data/processed/audit_log.json` - screening audit trail
+- `data/processed/run_manifests/*.json` - last-run manifests describing created or updated artifacts
 - `data/harvested_pdfs/` - downloaded PDF files
 - `data/v3_full_text/` - extracted full text by `paperId`
 - `rag_store/` - ChromaDB index and lexical sidecar index
@@ -384,13 +404,11 @@ streamlit run app.py
 
 ### PDF scripts cannot find metadata or folders
 
-Run them from inside `data_acquisition/`:
+Run them from the repository root:
 
 ```powershell
-Push-Location data_acquisition
-python PDFscraper.py
-python pdf_to_text.py
-Pop-Location
+python data_acquisition/PDFscraper.py
+python data_acquisition/pdf_to_text.py
 ```
 
 ### Cross-encoder is skipped during retrieval

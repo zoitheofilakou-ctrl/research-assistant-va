@@ -13,6 +13,7 @@ import json
 import math
 import os
 import re
+import sys
 from collections import Counter, defaultdict
 from functools import lru_cache
 from typing import Dict, List, Optional, Tuple
@@ -30,11 +31,20 @@ except ModuleNotFoundError:
 
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
 
-DEFAULT_FILTERED_FILE = os.path.join(BASE_DIR, "data", "processed", "filtered_papers.json")
-DEFAULT_METADATA_FILE = os.path.join(BASE_DIR, "data", "hybrede_metadata_v4.json")
-FULLTEXT_DIR = os.path.join(BASE_DIR, "data", "v3_full_text")
-CHROMA_DIR = os.path.join(BASE_DIR, "rag_store")
+from project_paths import (
+    FILTERED_PAPERS_PATH,
+    FULLTEXT_DIR,
+    METADATA_PATH,
+    RAG_STORE_DIR,
+)
+from run_manifest import RunManifest
+
+DEFAULT_FILTERED_FILE = FILTERED_PAPERS_PATH
+DEFAULT_METADATA_FILE = METADATA_PATH
+CHROMA_DIR = RAG_STORE_DIR
 COLLECTION_NAME = "hybrede"
 LEXICAL_INDEX_FILE = os.path.join(CHROMA_DIR, "lexical_index.json")
 
@@ -525,6 +535,44 @@ def compute_source_boost(text_source: str) -> float:
     return 0.01
 
 
+def score_exact_match_rerank(query_analysis: dict, doc: str, meta: dict, distance: Optional[float]) -> float:
+    semantic_score = distance_to_score(distance) or 0.0
+    terms = query_analysis.get("base_terms") or []
+    if not terms:
+        return semantic_score
+
+    normalized_query = query_analysis.get("normalized_query", "")
+    normalized_query_alt = normalized_query.replace("-", " ")
+    normalized_title = normalize_text_for_match((meta or {}).get("title", ""))
+    normalized_doc = normalize_text_for_match(doc)
+
+    title_hits = sum(1 for term in terms if contains_exact_term(normalized_title, term))
+    doc_hits = sum(1 for term in terms if contains_exact_term(normalized_doc, term))
+    matched_terms = {
+        term for term in terms
+        if contains_exact_term(normalized_title, term) or contains_exact_term(normalized_doc, term)
+    }
+
+    coverage_bonus = len(matched_terms) / len(terms) if terms else 0.0
+
+    phrase_bonus = 0.0
+    if normalized_query and " " in normalized_query:
+        if normalized_query in normalized_title:
+            phrase_bonus += 0.30
+        if normalized_query in normalized_doc:
+            phrase_bonus += 0.18
+        if normalized_query_alt != normalized_query:
+            if normalized_query_alt in normalized_title:
+                phrase_bonus += 0.18
+            if normalized_query_alt in normalized_doc:
+                phrase_bonus += 0.10
+
+    title_bonus = title_hits * 0.12
+    doc_bonus = doc_hits * 0.05
+
+    return semantic_score + (coverage_bonus * 0.35) + phrase_bonus + title_bonus + doc_bonus
+
+
 class LexicalIndex:
     def __init__(self, records: List[dict]):
         self.records = records
@@ -629,9 +677,10 @@ class HybridCollectionProxy:
         return getattr(self._collection, name)
 
     def _fallback_vector_query(self, query_embeddings: List[List[float]], n_results: int, include: List[str], query_texts: List[str]):
+        candidate_pool = max(n_results, n_results * self._oversample_factor)
         raw_result = self._collection.query(
             query_embeddings=query_embeddings,
-            n_results=n_results,
+            n_results=candidate_pool,
             include=include,
         )
 
@@ -662,6 +711,7 @@ class HybridCollectionProxy:
             row_metas = metadatas_by_query[q_idx] if q_idx < len(metadatas_by_query) else []
             row_distances = distances_by_query[q_idx] if q_idx < len(distances_by_query) else []
             analysis = build_query_analysis(query_text)
+            retrieval_notes = ["vector-only fallback"]
 
             keep = []
             for i, _chunk_id in enumerate(row_ids):
@@ -675,20 +725,64 @@ class HybridCollectionProxy:
             row_metas = [row_metas[i] for i in keep if i < len(row_metas)]
             row_distances = [row_distances[i] for i in keep if i < len(row_distances)]
 
-            out["ids"].append(row_ids[:n_results])
-            out["documents"].append(row_docs[:n_results])
-            out["metadatas"].append(row_metas[:n_results])
-            out["distances"].append(row_distances[:n_results])
-            embedding_scores = [distance_to_score(dist) or 0.0 for dist in row_distances[:n_results]]
+            row_embedding_scores = [
+                distance_to_score(row_distances[i]) if i < len(row_distances) else None
+                for i in range(len(row_ids))
+            ]
+            row_final_scores = [
+                score_exact_match_rerank(
+                    query_analysis=analysis,
+                    doc=row_docs[i] if i < len(row_docs) else "",
+                    meta=row_metas[i] if i < len(row_metas) and isinstance(row_metas[i], dict) else {},
+                    distance=row_distances[i] if i < len(row_distances) else None,
+                )
+                for i in range(len(row_ids))
+            ]
+
+            ranked_indices = list(range(len(row_ids)))
+            ranked_indices.sort(
+                key=lambda i: (
+                    row_final_scores[i],
+                    row_embedding_scores[i] if row_embedding_scores[i] is not None else 0.0,
+                ),
+                reverse=True,
+            )
+
+            filtered_indices = []
+            seen_papers = set()
+            for i in ranked_indices:
+                meta = row_metas[i] if i < len(row_metas) and isinstance(row_metas[i], dict) else {}
+                paper_id = meta.get("paperId") or row_ids[i]
+                if paper_id in seen_papers:
+                    continue
+                seen_papers.add(paper_id)
+                filtered_indices.append(i)
+
+            ranked_indices = filtered_indices[:n_results]
+            if ranked_indices and analysis.get("base_terms"):
+                retrieval_notes.extend(["exact-term rerank", "paper dedupe"])
+
+            out["ids"].append([row_ids[i] for i in ranked_indices])
+            out["documents"].append([row_docs[i] for i in ranked_indices if i < len(row_docs)])
+            out["metadatas"].append([row_metas[i] for i in ranked_indices if i < len(row_metas)])
+            out["distances"].append([row_distances[i] for i in ranked_indices if i < len(row_distances)])
+            embedding_scores = [
+                row_embedding_scores[i] if i < len(row_embedding_scores) and row_embedding_scores[i] is not None else 0.0
+                for i in ranked_indices
+            ]
+            final_scores = [
+                row_final_scores[i] if i < len(row_final_scores) else 0.0
+                for i in ranked_indices
+            ]
             out["embedding_scores"].append(embedding_scores)
-            out["bm25_scores"].append([0.0 for _ in embedding_scores])
-            out["hybrid_scores"].append(list(embedding_scores))
-            out["paper_scores"].append(list(embedding_scores))
-            out["cross_encoder_scores"].append([None for _ in embedding_scores])
-            out["mmr_scores"].append(list(embedding_scores))
-            out["final_scores"].append(list(embedding_scores))
+            out["bm25_scores"].append([0.0 for _ in ranked_indices])
+            out["hybrid_scores"].append(list(final_scores))
+            out["paper_scores"].append(list(final_scores))
+            out["cross_encoder_scores"].append([None for _ in ranked_indices])
+            out["mmr_scores"].append(list(final_scores))
+            out["final_scores"].append(list(final_scores))
             out["query_analysis"].append(analysis)
-            out["retrieval_notes"].append(["vector-only fallback"])
+            out["retrieval_notes"].append(retrieval_notes)
 
         return out
 
@@ -1035,6 +1129,9 @@ def collection_count(collection) -> int:
 def cmd_index(metadata_file: str, filtered_file: str):
     require_retrieval_dependencies()
     ensure_files_exist(filtered_file, metadata_file)
+    manifest = RunManifest("retrieval_index")
+    lexical_index_existed = os.path.exists(LEXICAL_INDEX_FILE)
+    chroma_dir_existed = os.path.exists(CHROMA_DIR)
 
     filtered = load_json(filtered_file)
     metadata = load_json(metadata_file)
@@ -1123,6 +1220,20 @@ def cmd_index(metadata_file: str, filtered_file: str):
         "records": lexical_records,
     })
 
+    manifest.add_event(
+        "updated_index" if chroma_dir_existed else "created_index",
+        CHROMA_DIR,
+        {
+            "collection": COLLECTION_NAME,
+            "chunk_count": total_chunks,
+        },
+    )
+    manifest.add_event(
+        "updated" if lexical_index_existed else "created",
+        LEXICAL_INDEX_FILE,
+        {"record_count": len(lexical_records)},
+    )
+
     print("=== INDEX DONE ===")
     print(f"Metadata input: {metadata_file}")
     print(f"Filtered input: {filtered_file}")
@@ -1134,6 +1245,20 @@ def cmd_index(metadata_file: str, filtered_file: str):
     print(f"Lexical records written: {len(lexical_records)}")
     print(f"Chroma collection size: {collection_count(collection)}")
     print(f"Stored at: {CHROMA_DIR}/ (collection: {COLLECTION_NAME})")
+
+    manifest.set_summary(
+        metadata_path=os.path.relpath(metadata_file, BASE_DIR),
+        filtered_path=os.path.relpath(filtered_file, BASE_DIR),
+        allowed_papers=len(allowed_set),
+        missing_in_metadata=missing_in_metadata,
+        fulltext_papers=fulltext_papers,
+        abstract_fallback_papers=abstract_fallback_papers,
+        total_chunks=total_chunks,
+        lexical_records=len(lexical_records),
+        collection_size=collection_count(collection),
+    )
+    manifest_path = manifest.write()
+    print(f"Run manifest written to: {manifest_path}")
 
 
 def cmd_query(user_query: str, k: int, min_score: Optional[float] = DEFAULT_MIN_SCORE):
@@ -1180,9 +1305,11 @@ def cmd_query(user_query: str, k: int, min_score: Optional[float] = DEFAULT_MIN_
         "results": [],
     }
     for i, (cid, doc, meta) in enumerate(zip(ids, docs, metas)):
+        final_score = final_scores[i] if i < len(final_scores) else None
         out["results"].append({
             "chunk_id": cid,
-            "score": final_scores[i] if i < len(final_scores) else None,
+            "score": final_score,
+            "final_score": final_score,
             "embedding_score": embedding_scores[i] if i < len(embedding_scores) else distance_to_score(dists[i]) if i < len(dists) else None,
             "bm25_score": bm25_scores[i] if i < len(bm25_scores) else None,
             "hybrid_score": hybrid_scores[i] if i < len(hybrid_scores) else None,

@@ -24,21 +24,32 @@ the system does not perform clinical decision-making.
 
 import json
 import os
+import sys
 from openai import OpenAI
 from datetime import datetime
 from dotenv import load_dotenv
+
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
+from project_paths import (
+    AUDIT_LOG_PATH,
+    FILTERED_PAPERS_PATH,
+    METADATA_PATH,
+    PROCESSED_DIR,
+    SCREENING_LOG_PATH,
+)
+from run_manifest import RunManifest
 
 
 
 # ------------------------------ 1. CONFIGURATION ------------------------------ 
 # paths, constants, environment set up
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-METADATA_PATH = os.path.join(BASE_DIR, "data", "hybrede_metadata_v3.json")
-PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
-FILTERED_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "filtered_papers.json")
-SCREENING_LOG_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "screening_log.json")
-AUDIT_LOG_PATH = os.path.join(PROCESSED_DIR, "audit_log.json")
+FILTERED_OUTPUT_PATH = FILTERED_PAPERS_PATH
+SCREENING_LOG_OUTPUT_PATH = SCREENING_LOG_PATH
+manifest = RunManifest("llm_screening")
 
 # load previous included papers if exists
 if os.path.exists(FILTERED_OUTPUT_PATH):
@@ -185,6 +196,11 @@ for paper in papers:
 
 papers = list(unique_papers.values())
 print(f"Loaded {len(papers)} unique papers after deduplication.")
+manifest.add_event(
+    "loaded_metadata",
+    METADATA_PATH,
+    {"paper_count": len(papers)},
+)
 
 
 #----Helpers---
@@ -416,11 +432,31 @@ for idx, paper in enumerate(papers, start=1):
         })
 
 os.makedirs(PROCESSED_DIR, exist_ok=True)
+filtered_existed = os.path.exists(FILTERED_OUTPUT_PATH)
+screening_log_existed = os.path.exists(SCREENING_LOG_OUTPUT_PATH)
+audit_log_existed = os.path.exists(AUDIT_LOG_PATH)
 with open(FILTERED_OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(included_papers, f, ensure_ascii=False, indent=4)
 
 with open(SCREENING_LOG_OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(all_screening_results, f, ensure_ascii=False, indent=4)
+
+manifest.add_event(
+    "updated" if filtered_existed else "created",
+    FILTERED_OUTPUT_PATH,
+    {"included_count": len(included_papers)},
+)
+manifest.add_event(
+    "updated" if screening_log_existed else "created",
+    SCREENING_LOG_OUTPUT_PATH,
+    {"screening_entries": len(all_screening_results)},
+)
+if os.path.exists(AUDIT_LOG_PATH):
+    manifest.add_event(
+        "updated" if audit_log_existed else "created",
+        AUDIT_LOG_PATH,
+        {},
+    )
 
 print(f"Total INVALID cases: {invalid_cases}")
 print("Saved filtered_papers.json and screening_log.json")
@@ -447,3 +483,14 @@ print("Valid:", valid)
 
 print("\nScreening completed successfully.")
 print("Filtered corpus ready for retrieval indexing.")
+
+manifest.set_summary(
+    metadata_path=os.path.relpath(METADATA_PATH, BASE_DIR),
+    total_papers=len(all_screening_results),
+    included=included,
+    excluded=excluded,
+    invalid=invalid_cases,
+    valid=valid,
+)
+manifest_path = manifest.write()
+print(f"Run manifest written to: {manifest_path}")

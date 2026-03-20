@@ -3,7 +3,15 @@ import json
 import time
 import requests
 import pdfplumber
+import sys
 from langdetect import detect, DetectorFactory
+
+PROJECT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if PROJECT_DIR not in sys.path:
+    sys.path.insert(0, PROJECT_DIR)
+
+from project_paths import HARVESTED_PDFS_DIR, METADATA_PATH, ensure_dir
+from run_manifest import RunManifest
 
 # Set a fixed seed for langdetect to ensure deterministic results across different runs
 DetectorFactory.seed = 0
@@ -50,21 +58,27 @@ def is_valid_pdf(file_path):
     except Exception as e:
         return False, f"Integrity check failed: {str(e)}"
 
-def download_paper_pdfs(json_file_path="../data/hybrede_metadata_v4.json", output_folder="../data/harvested_pdfs"):
+def download_paper_pdfs(json_file_path=None, output_folder=None):
     """
     Orchestrates the metadata-driven download process. 
     Implements filename truncation to prevent OS-level path length errors in the RAG module.
     """
+    json_file_path = json_file_path or METADATA_PATH
+    output_folder = output_folder or HARVESTED_PDFS_DIR
+    manifest = RunManifest("pdfscraper")
+
     # Path Verification: Ensure metadata is accessible from the current execution context
     if not os.path.exists(json_file_path):
         print(f"[!] Critical Error: Metadata source '{json_file_path}' not found.")
-        print("[*] Note: This script must be executed from the 'data_acquisition' subdirectory.")
+        manifest.add_event("missing_input", json_file_path, {})
+        manifest.write()
         return
 
     # Initialization: Create the target data directory if it does not exist
     if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+        ensure_dir(output_folder)
         print(f"[*] Initializing directory: {output_folder}")
+        manifest.add_event("created_directory", output_folder, {})
 
     # Data Loading: Parse the metadata 'Source of Truth'
     try:
@@ -80,6 +94,7 @@ def download_paper_pdfs(json_file_path="../data/hybrede_metadata_v4.json", outpu
     downloaded_count = 0
     cleaned_count = 0
     failed_count = 0
+    skipped_existing_count = 0
 
     for paper in papers:
         title = paper.get('title', 'Unknown_Title')
@@ -104,6 +119,8 @@ def download_paper_pdfs(json_file_path="../data/hybrede_metadata_v4.json", outpu
         if os.path.exists(file_path):
             print(f"[-] Asset exists: {safe_title}.pdf (Skipping)")
             downloaded_count += 1
+            skipped_existing_count += 1
+            manifest.add_event("skipped_existing", file_path, {"title": title})
             continue
 
         try:
@@ -120,19 +137,27 @@ def download_paper_pdfs(json_file_path="../data/hybrede_metadata_v4.json", outpu
                 if valid:
                     print(f"[+] Verified and Indexed: {safe_title}.pdf")
                     downloaded_count += 1
+                    manifest.add_event("created", file_path, {"title": title})
                 else:
                     print(f"[!] Purging Invalid File: {message}")
+                    manifest.add_event("rejected", file_path, {"title": title, "reason": message})
                     if os.path.exists(file_path): os.remove(file_path)
                     cleaned_count += 1
             else:
                 print(f"[!] Download Failed: HTTP Status {response.status_code}")
                 failed_count += 1
+                manifest.add_event(
+                    "download_failed",
+                    file_path,
+                    {"title": title, "status_code": response.status_code},
+                )
 
             # Compliance: Delay requests to respect server bandwidth and avoid IP throttling
             time.sleep(1.2)
 
         except Exception as e:
             print(f"[!] Network/IO Error: {str(e)}")
+            manifest.add_event("download_error", file_path, {"title": title, "error": str(e)})
             if os.path.exists(file_path): os.remove(file_path)
             failed_count += 1
 
@@ -142,6 +167,18 @@ def download_paper_pdfs(json_file_path="../data/hybrede_metadata_v4.json", outpu
     print(f"- Verified PDFs in {output_folder}: {downloaded_count}")
     print(f"- Files rejected by validation pipeline: {cleaned_count}")
     print(f"- Critical download failures: {failed_count}")
+    print(f"- Existing PDFs skipped: {skipped_existing_count}")
+
+    manifest.set_summary(
+        metadata_path=os.path.relpath(json_file_path, PROJECT_DIR),
+        output_folder=os.path.relpath(output_folder, PROJECT_DIR),
+        verified_pdfs=downloaded_count,
+        rejected_files=cleaned_count,
+        failures=failed_count,
+        skipped_existing=skipped_existing_count,
+    )
+    manifest_path = manifest.write()
+    print(f"Run manifest written to: {manifest_path}")
 
 if __name__ == "__main__":
     # Standard entry point assuming the script is in 'data_acquisition/'

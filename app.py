@@ -3,6 +3,8 @@ import json
 import os
 from dotenv import load_dotenv
 
+from project_paths import FILTERED_PAPERS_PATH, ensure_parent_dir
+
 st.write("DEBUG: App started")
 
 st.write("DEBUG: Loading .env")
@@ -60,7 +62,7 @@ with st.sidebar:
 
     st.subheader("RAG Status")
 
-    if os.path.exists("data/processed/filtered_papers.json"):
+    if os.path.exists(FILTERED_PAPERS_PATH):
         st.success("Filtered papers available")
     else:
         st.warning("No filtered papers yet")
@@ -160,12 +162,12 @@ with col1:
         if not selected_papers:
             st.warning("No papers selected")
         else:
-            os.makedirs("data/processed", exist_ok=True)
+            ensure_parent_dir(FILTERED_PAPERS_PATH)
 
-            with open("data/processed/filtered_papers.json", "w", encoding="utf-8") as f:
+            with open(FILTERED_PAPERS_PATH, "w", encoding="utf-8") as f:
                 json.dump(selected_papers, f, indent=2)
 
-            st.success("Saved to filtered_papers.json")
+            st.success(f"Saved to {os.path.relpath(FILTERED_PAPERS_PATH)}")
 
 # Clear selection
 with col2:
