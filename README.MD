@@ -123,7 +123,7 @@ Open the UI
 ```bash
 python -m streamlit run app.py
 ```
-UI Available in browset at http://localhost:8501
+UI Available in browser at http://localhost:8501
 
 
 ## Important Behavior Notes
