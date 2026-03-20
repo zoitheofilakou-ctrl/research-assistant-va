@@ -89,7 +89,7 @@ if __name__ == "__main__":
         
     #2.Export the combined data to the V3 version JSON file
     if all_collected_papers:
-        output_filename = 'hybrede_metadata_v5.json'
+        output_filename = '../data/hybrede_metadata_v5.json'
         with open(output_filename, 'w', encoding='utf-8') as json_file:
             json.dump(all_collected_papers, json_file, ensure_ascii=False, indent=4)
         
