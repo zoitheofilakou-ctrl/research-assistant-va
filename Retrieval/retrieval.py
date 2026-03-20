@@ -14,6 +14,7 @@ import math
 import os
 import re
 import sys
+import unicodedata
 from collections import Counter, defaultdict
 from functools import lru_cache
 from typing import Dict, List, Optional, Tuple
@@ -58,17 +59,47 @@ ABSTRACT_WORD_LIMIT = 220
 DEFAULT_MIN_SCORE = 0.55
 QUERY_OVERSAMPLE_FACTOR = 3
 HYBRID_CANDIDATE_POOL = 40
+LEXICAL_CANDIDATE_POOL = 25
 CROSS_ENCODER_TOP_N = 20
 MMR_CANDIDATE_POOL = 15
 MMR_LAMBDA = 0.78
 BM25_K1 = 1.5
 BM25_B = 0.75
+FIELD_SCORE_CAPS = {"title": 0.45, "abstract": 0.28, "body": 0.18}
+FIELD_HIT_CAPS = {"title": 3, "abstract": 3, "body": 2}
+QUERY_TYPE_BOOST_CAP = 0.06
+QUERY_TYPE_BOOST_PER_TERM = 0.015
+STRICT_LEXICAL_MIN_EMBEDDING = 0.18
+STRICT_LEXICAL_SOFT_RATIO = 0.70
+STRICT_LEXICAL_MIN_TITLE_HITS = 2
+STRICT_LEXICAL_MIN_SUPPORT_HITS = 1
+PAPER_SUPPORT_MAX_CHUNKS = 3
+PAPER_SUPPORT_MIN_RELATIVE_SCORE = 0.85
+PAPER_SUPPORT_PER_CHUNK = 0.025
+PAPER_SUPPORT_MAX_BONUS = 0.075
+PAPER_SECTION_DIVERSITY_BONUS = 0.01
+PAPER_SECTION_DIVERSITY_MAX = 0.02
+CROSS_ENCODER_BLEND_WEIGHT = 0.16
 
 QUERY_STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "how",
     "in", "into", "is", "of", "on", "or", "that", "the", "to", "what",
     "which", "with",
 }
+
+INSTRUMENT_DETECTION_SPECIFIC_TERMS = [
+    "instrument", "questionnaire", "scale", "measure", "measurement",
+    "survey", "psychometric", "validation", "inventory", "checklist",
+]
+INSTRUMENT_DETECTION_BROAD_TERMS = ["tool", "tools", "assessment", "assess"]
+QUALITATIVE_DETECTION_TERMS = [
+    "qualitative", "interview", "focus group", "perception", "experience",
+    "acceptability", "feasibility", "barrier", "barriers", "challenge",
+    "challenges", "implementation", "adoption",
+]
+EVIDENCE_DETECTION_TERMS = [
+    "evidence", "effectiveness", "efficacy", "outcome", "trial", "randomized",
+]
 
 SECTION_ALIASES = {
     "abstract": "abstract",
@@ -132,6 +163,8 @@ QUERY_TYPE_CONFIG = {
             "qualitative", "interview", "interviews", "focus", "group",
             "perception", "perceptions", "experience", "experiences",
             "attitude", "attitudes", "acceptability", "feasibility", "theme",
+            "barrier", "barriers", "challenge", "challenges",
+            "implementation", "adoption", "facilitator", "facilitators",
         ],
     },
 }
@@ -200,22 +233,78 @@ def ensure_files_exist(*paths: str):
 
 
 def normalize_text_for_match(text: str) -> str:
-    normalized = (text or "").lower().replace("/", " ")
-    normalized = re.sub(r"[^a-z0-9\-\s]+", " ", normalized)
+    normalized = unicodedata.normalize("NFKC", text or "").casefold()
+    normalized = normalized.replace("/", " ")
+    normalized = re.sub(r"[\u2010\u2011\u2012\u2013\u2014\u2212]", "-", normalized)
+    normalized = normalized.replace("_", " ")
+    normalized = re.sub(r"[^\w\-\s]+", " ", normalized, flags=re.UNICODE)
     return re.sub(r"\s+", " ", normalized).strip()
 
 
 def tokenize_lexical(text: str) -> List[str]:
     normalized = normalize_text_for_match(text).replace("-", " ")
-    return [tok for tok in re.findall(r"[a-z0-9]+", normalized) if tok]
+    return [tok for tok in re.findall(r"[^\W_]+", normalized, flags=re.UNICODE) if tok]
 
 
 def singularize_term(term: str) -> str:
-    if term.endswith("ies") and len(term) > 4:
-        return f"{term[:-3]}y"
-    if term.endswith("s") and not term.endswith("ss") and len(term) > 4:
-        return term[:-1]
-    return term
+    if not term:
+        return term
+
+    normalized = normalize_text_for_match(term)
+    if " " in normalized or "-" in normalized:
+        return normalized
+
+    irregular_or_invariant = {
+        "analysis", "analyses", "basis", "crisis", "diagnosis", "diabetes",
+        "evidence", "hypothesis", "mathematics", "news", "physics", "thesis",
+    }
+    if normalized in irregular_or_invariant:
+        return normalized
+    if normalized.endswith(("ss", "us", "is", "ics", "ness", "osis", "asis")):
+        return normalized
+    if normalized.endswith("ies") and len(normalized) > 4:
+        return f"{normalized[:-3]}y"
+    if normalized.endswith("ses") and len(normalized) > 4 and not normalized.endswith(("sses", "uses", "ises")):
+        return normalized[:-2]
+    if normalized.endswith("s") and len(normalized) > 4:
+        if normalized.endswith(("aes", "ees", "oes")):
+            return normalized
+        if normalized.endswith("tes") and normalized in {"diabetes"}:
+            return normalized
+        return normalized[:-1]
+    return normalized
+
+
+def canonicalize_term(term: str) -> str:
+    normalized = normalize_text_for_match(term).replace("-", " ")
+    tokens = tokenize_lexical(normalized)
+    if not tokens:
+        return ""
+    return " ".join(singularize_term(token) for token in tokens if token)
+
+
+def build_term_variant_groups(terms: List[str]) -> List[List[str]]:
+    grouped: Dict[str, List[str]] = {}
+    ordered_keys: List[str] = []
+
+    for term in terms:
+        normalized = normalize_text_for_match(term)
+        if not normalized:
+            continue
+        key = canonicalize_term(normalized)
+        if not key:
+            continue
+        if key not in grouped:
+            grouped[key] = []
+            ordered_keys.append(key)
+
+        variants = grouped[key]
+        for variant in {normalized, normalized.replace("-", " "), key, key.replace("-", " ")}:
+            cleaned_variant = normalize_text_for_match(variant)
+            if cleaned_variant and cleaned_variant not in variants:
+                variants.append(cleaned_variant)
+
+    return [grouped[key] for key in ordered_keys]
 
 
 def dedupe_preserve_order(items: List[str]) -> List[str]:
@@ -234,8 +323,24 @@ def distance_to_score(distance: Optional[float]) -> Optional[float]:
     return 1.0 / (1.0 + float(distance))
 
 
+def semantic_distance_from_embeddings(query_embedding: List[float], candidate_embedding: List[float]) -> Optional[float]:
+    if query_embedding is None or candidate_embedding is None:
+        return None
+    if len(query_embedding) == 0 or len(candidate_embedding) == 0:
+        return None
+    cos = max(-1.0, min(1.0, cosine_similarity(query_embedding, candidate_embedding)))
+    return math.sqrt(max(0.0, 2.0 - (2.0 * cos)))
+
+
+def semantic_score_from_embeddings(query_embedding: List[float], candidate_embedding: List[float]) -> Optional[float]:
+    distance = semantic_distance_from_embeddings(query_embedding, candidate_embedding)
+    return distance_to_score(distance)
+
+
 def cosine_similarity(vec_a: List[float], vec_b: List[float]) -> float:
-    if not vec_a or not vec_b:
+    if vec_a is None or vec_b is None:
+        return 0.0
+    if len(vec_a) == 0 or len(vec_b) == 0:
         return 0.0
     return sum(a * b for a, b in zip(vec_a, vec_b))
 
@@ -250,9 +355,17 @@ def normalize_scores(scores: List[float]) -> List[float]:
     return [(score - lo) / (hi - lo) for score in scores]
 
 
+def calibrate_cross_encoder_scores(scores: List[float]) -> List[float]:
+    calibrated = []
+    for score in scores:
+        clipped = max(-12.0, min(12.0, float(score) / 3.0))
+        calibrated.append(1.0 / (1.0 + math.exp(-clipped)))
+    return calibrated
+
+
 def extract_query_terms(query_text: str) -> List[str]:
     normalized_query = normalize_text_for_match(query_text)
-    raw_terms = re.findall(r"[a-z0-9]+(?:-[a-z0-9]+)*", normalized_query)
+    raw_terms = re.findall(r"[^\W_]+(?:-[^\W_]+)*", normalized_query, flags=re.UNICODE)
 
     terms: List[str] = []
     for term in raw_terms:
@@ -270,8 +383,61 @@ def extract_query_terms(query_text: str) -> List[str]:
 def contains_exact_term(text: str, term: str) -> bool:
     if not text or not term:
         return False
-    pattern = rf"(?<![a-z0-9]){re.escape(term)}(?![a-z0-9])"
-    return re.search(pattern, text) is not None
+    pattern = rf"(?<![\w]){re.escape(term)}(?![\w])"
+    return re.search(pattern, text, flags=re.UNICODE) is not None
+
+
+def count_term_group_hits(text: str, term_groups: List[List[str]]) -> int:
+    if not text or not term_groups:
+        return 0
+    hits = 0
+    for variants in term_groups:
+        if any(contains_exact_term(text, variant) for variant in variants):
+            hits += 1
+    return hits
+
+
+def match_term_groups(text: str, term_groups: List[List[str]]) -> List[List[str]]:
+    if not text or not term_groups:
+        return []
+    return [
+        variants for variants in term_groups
+        if any(contains_exact_term(text, variant) for variant in variants)
+    ]
+
+
+def query_matches_any_groups(normalized_query: str, raw_terms: List[str]) -> bool:
+    return bool(match_term_groups(normalized_query, build_term_variant_groups(raw_terms)))
+
+
+def detect_query_type(normalized_query: str) -> str:
+    instrument_specific_hits = count_term_group_hits(
+        normalized_query,
+        build_term_variant_groups(INSTRUMENT_DETECTION_SPECIFIC_TERMS),
+    )
+    instrument_broad_hits = count_term_group_hits(
+        normalized_query,
+        build_term_variant_groups(INSTRUMENT_DETECTION_BROAD_TERMS),
+    )
+    if instrument_specific_hits >= 1 or instrument_broad_hits >= 2:
+        return "instrument"
+    if query_matches_any_groups(normalized_query, QUALITATIVE_DETECTION_TERMS):
+        return "qualitative"
+    if query_matches_any_groups(normalized_query, EVIDENCE_DETECTION_TERMS):
+        return "evidence"
+    return "general"
+
+
+def contains_query_phrase(query_analysis: dict, text: str) -> bool:
+    if not text:
+        return False
+    normalized_query = query_analysis.get("normalized_query", "")
+    if not normalized_query or " " not in normalized_query:
+        return False
+    normalized_query_alt = normalized_query.replace("-", " ")
+    if normalized_query in text:
+        return True
+    return normalized_query_alt != normalized_query and normalized_query_alt in text
 
 
 def normalize_section_name(name: str) -> str:
@@ -391,21 +557,33 @@ def get_best_url(meta_record: dict) -> str:
     return (meta_record.get("url") or "").strip()
 
 
-def get_text_for_paper(meta_record: dict, fulltext_dir: str = FULLTEXT_DIR) -> Tuple[str, str, str, int, str]:
+def get_text_for_paper(
+    meta_record: dict,
+    fulltext_dir: str = FULLTEXT_DIR,
+    preloaded_full_text: Optional[str] = None,
+) -> Tuple[str, str, str, int, str]:
     title = (meta_record.get("title") or "").strip()
     paper_id = (meta_record.get("paperId") or "").strip()
     year = meta_record.get("year") or 0
     abstract_text = get_abstract_text(meta_record)
 
-    full_text = load_full_text(paper_id, fulltext_dir=fulltext_dir)
+    full_text = preloaded_full_text if preloaded_full_text is not None else load_full_text(paper_id, fulltext_dir=fulltext_dir)
     if full_text:
         return title, abstract_text, full_text, year, "fulltext"
 
     return title, abstract_text, abstract_text or "No abstract provided", year, "abstract"
 
 
-def build_chunk_records(meta_record: dict, fulltext_dir: str = FULLTEXT_DIR) -> List[dict]:
-    title, abstract_text, text_for_index, year, text_source = get_text_for_paper(meta_record, fulltext_dir=fulltext_dir)
+def build_chunk_records(
+    meta_record: dict,
+    fulltext_dir: str = FULLTEXT_DIR,
+    preloaded_full_text: Optional[str] = None,
+) -> List[dict]:
+    title, abstract_text, text_for_index, year, text_source = get_text_for_paper(
+        meta_record,
+        fulltext_dir=fulltext_dir,
+        preloaded_full_text=preloaded_full_text,
+    )
     paper_id = (meta_record.get("paperId") or "").strip()
     url = get_best_url(meta_record)
 
@@ -439,36 +617,33 @@ def build_chunk_records(meta_record: dict, fulltext_dir: str = FULLTEXT_DIR) -> 
 def build_query_analysis(query_text: str) -> dict:
     normalized_query = normalize_text_for_match(query_text)
     base_terms = extract_query_terms(query_text)
-    expanded_terms = list(base_terms)
+    lexical_terms = list(base_terms)
 
     for phrase, variants in DOMAIN_EXPANSIONS.items():
         normalized_phrase = normalize_text_for_match(phrase)
         if normalized_phrase in normalized_query or any(term == normalized_phrase for term in base_terms):
-            expanded_terms.extend(extract_query_terms(" ".join([phrase] + variants)))
+            lexical_terms.extend(extract_query_terms(" ".join([phrase] + variants)))
 
-    detected_query_type = "general"
-    if any(term in normalized_query for term in ("instrument", "questionnaire", "scale", "measure", "survey", "tool", "psychometric")):
-        detected_query_type = "instrument"
-    elif any(term in normalized_query for term in ("qualitative", "interview", "focus group", "perception", "experience", "acceptability", "feasibility")):
-        detected_query_type = "qualitative"
-    elif any(term in normalized_query for term in ("evidence", "effectiveness", "efficacy", "outcome", "trial", "effective")):
-        detected_query_type = "evidence"
+    detected_query_type = detect_query_type(normalized_query)
 
-    expanded_terms.extend(QUERY_TYPE_CONFIG[detected_query_type]["intent_terms"])
-    expanded_terms = dedupe_preserve_order(expanded_terms)
-
-    expanded_query_text = " ".join(dedupe_preserve_order([query_text] + expanded_terms))
+    intent_terms = list(QUERY_TYPE_CONFIG[detected_query_type]["intent_terms"])  # copy — never mutate the global config
+    lexical_terms = dedupe_preserve_order(lexical_terms)
+    expanded_terms = dedupe_preserve_order(lexical_terms + intent_terms)
+    base_term_groups = build_term_variant_groups(base_terms)
+    lexical_term_groups = build_term_variant_groups(lexical_terms)
 
     return {
         "raw_query": query_text,
         "normalized_query": normalized_query,
         "query_type": detected_query_type,
         "base_terms": base_terms,
+        "base_term_groups": base_term_groups,
+        "lexical_terms": lexical_terms,
+        "lexical_term_groups": lexical_term_groups,
         "expanded_terms": expanded_terms,
-        "expanded_query_text": expanded_query_text,
-        "hybrid_weights": QUERY_TYPE_CONFIG[detected_query_type]["hybrid_weights"],
-        "section_boosts": QUERY_TYPE_CONFIG[detected_query_type]["section_boosts"],
-        "intent_terms": QUERY_TYPE_CONFIG[detected_query_type]["intent_terms"],
+        "hybrid_weights": dict(QUERY_TYPE_CONFIG[detected_query_type]["hybrid_weights"]),  # copy
+        "section_boosts": dict(QUERY_TYPE_CONFIG[detected_query_type]["section_boosts"]),  # copy
+        "intent_terms": intent_terms,
     }
 
 
@@ -477,24 +652,21 @@ def compute_field_match_score(query_analysis: dict, text: str, field_name: str) 
     if not normalized_text:
         return 0.0
 
-    terms = query_analysis["expanded_terms"]
-    if not terms:
+    term_groups = query_analysis.get("lexical_term_groups") or query_analysis.get("base_term_groups") or []
+    if not term_groups:
         return 0.0
 
-    matched_terms = [
-        term for term in terms
-        if contains_exact_term(normalized_text, term)
-    ]
-    if not matched_terms:
+    matched_term_groups = match_term_groups(normalized_text, term_groups)
+    if not matched_term_groups:
         return 0.0
 
     field_weights = {"title": 0.34, "abstract": 0.22, "body": 0.14}
     phrase_weight = {"title": 0.20, "abstract": 0.14, "body": 0.08}
     hit_weight = {"title": 0.05, "abstract": 0.035, "body": 0.025}
 
-    coverage = len(set(matched_terms)) / max(1, len(terms))
+    coverage = len(matched_term_groups) / max(1, len(term_groups))
     score = field_weights.get(field_name, 0.14) * coverage
-    score += hit_weight.get(field_name, 0.025) * len(matched_terms)
+    score += hit_weight.get(field_name, 0.025) * min(FIELD_HIT_CAPS.get(field_name, 2), len(matched_term_groups))
 
     normalized_query = query_analysis["normalized_query"]
     normalized_query_alt = normalized_query.replace("-", " ")
@@ -504,7 +676,7 @@ def compute_field_match_score(query_analysis: dict, text: str, field_name: str) 
         if normalized_query_alt != normalized_query and normalized_query_alt in normalized_text:
             score += phrase_weight.get(field_name, 0.08) * 0.7
 
-    return score
+    return min(FIELD_SCORE_CAPS.get(field_name, 0.18), score)
 
 
 def compute_query_type_boost(query_analysis: dict, record: dict) -> float:
@@ -515,13 +687,15 @@ def compute_query_type_boost(query_analysis: dict, record: dict) -> float:
     searchable = " ".join([
         record.get("title", ""),
         record.get("abstract_text", ""),
-        record.get("text", ""),
     ])
     normalized_searchable = normalize_text_for_match(searchable)
-    matches = sum(1 for term in intent_terms if contains_exact_term(normalized_searchable, term))
-    if matches == 0:
+    matches = {
+        term for term in intent_terms
+        if contains_exact_term(normalized_searchable, term)
+    }
+    if not matches:
         return 0.0
-    return min(0.16, matches * 0.03)
+    return min(QUERY_TYPE_BOOST_CAP, len(matches) * QUERY_TYPE_BOOST_PER_TERM)
 
 
 def compute_section_boost(query_analysis: dict, section: str) -> float:
@@ -535,10 +709,42 @@ def compute_source_boost(text_source: str) -> float:
     return 0.01
 
 
-def score_exact_match_rerank(query_analysis: dict, doc: str, meta: dict, distance: Optional[float]) -> float:
-    semantic_score = distance_to_score(distance) or 0.0
-    terms = query_analysis.get("base_terms") or []
-    if not terms:
+def passes_strict_lexical_gate(query_analysis: dict, candidate: dict, min_score: Optional[float]) -> bool:
+    term_groups = query_analysis.get("base_term_groups") or query_analysis.get("lexical_term_groups") or []
+    if not term_groups:
+        return False
+
+    normalized_title = normalize_text_for_match(candidate.get("title", ""))
+    normalized_abstract = normalize_text_for_match(candidate.get("abstract_text", ""))
+    normalized_body = normalize_text_for_match(candidate.get("text", ""))
+
+    title_hits = count_term_group_hits(normalized_title, term_groups)
+    abstract_hits = count_term_group_hits(normalized_abstract, term_groups)
+    body_hits = count_term_group_hits(normalized_body, term_groups)
+    support_hits = abstract_hits + body_hits
+
+    embedding_score = candidate.get("embedding_score", 0.0) or 0.0
+    semantic_floor = min_score if min_score is not None else 0.25
+    soft_semantic_floor = max(STRICT_LEXICAL_MIN_EMBEDDING, semantic_floor * STRICT_LEXICAL_SOFT_RATIO)
+    if embedding_score < soft_semantic_floor:
+        return False
+
+    if contains_query_phrase(query_analysis, normalized_title):
+        return True
+    if title_hits >= STRICT_LEXICAL_MIN_TITLE_HITS and support_hits >= STRICT_LEXICAL_MIN_SUPPORT_HITS:
+        return True
+    if title_hits >= 1 and (
+        contains_query_phrase(query_analysis, normalized_abstract) or
+        contains_query_phrase(query_analysis, normalized_body)
+    ):
+        return True
+    return False
+
+
+def score_exact_match_rerank(query_analysis: dict, doc: str, meta: dict, embedding_score: Optional[float]) -> float:
+    semantic_score = embedding_score or 0.0
+    term_groups = query_analysis.get("base_term_groups") or []
+    if not term_groups:
         return semantic_score
 
     normalized_query = query_analysis.get("normalized_query", "")
@@ -546,14 +752,21 @@ def score_exact_match_rerank(query_analysis: dict, doc: str, meta: dict, distanc
     normalized_title = normalize_text_for_match((meta or {}).get("title", ""))
     normalized_doc = normalize_text_for_match(doc)
 
-    title_hits = sum(1 for term in terms if contains_exact_term(normalized_title, term))
-    doc_hits = sum(1 for term in terms if contains_exact_term(normalized_doc, term))
-    matched_terms = {
-        term for term in terms
-        if contains_exact_term(normalized_title, term) or contains_exact_term(normalized_doc, term)
-    }
+    title_matches = match_term_groups(normalized_title, term_groups)
+    doc_matches = match_term_groups(normalized_doc, term_groups)
+    combined_matches = []
+    seen_keys = set()
+    for variants in title_matches + doc_matches:
+        key = tuple(variants)
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        combined_matches.append(variants)
 
-    coverage_bonus = len(matched_terms) / len(terms) if terms else 0.0
+    title_hits = len(title_matches)
+    doc_hits = len(doc_matches)
+
+    coverage_bonus = len(combined_matches) / len(term_groups) if term_groups else 0.0
 
     phrase_bonus = 0.0
     if normalized_query and " " in normalized_query:
@@ -588,9 +801,8 @@ class LexicalIndex:
             self.record_by_id[chunk_id] = record
 
             title_tokens = tokenize_lexical(record.get("title", ""))
-            abstract_tokens = tokenize_lexical(record.get("abstract_text", ""))
             body_tokens = tokenize_lexical(record.get("text", ""))
-            search_tokens = title_tokens + abstract_tokens + body_tokens
+            search_tokens = title_tokens + body_tokens
 
             tf = Counter(search_tokens)
             self.search_tf[chunk_id] = tf
@@ -617,53 +829,70 @@ class LexicalIndex:
         if not self.records or limit <= 0:
             return []
 
-        query_terms = tokenize_lexical(" ".join(query_analysis["expanded_terms"]))
-        query_terms = dedupe_preserve_order(query_terms)
-        if not query_terms:
-            return []
-
         candidates = []
-        doc_count = len(self.records)
-        avg_doc_length = self.avg_doc_length or 1.0
 
         for record in self.records:
-            chunk_id = record["chunk_id"]
-            tf = self.search_tf.get(chunk_id, Counter())
-            if not tf:
-                continue
-
-            bm25_score = 0.0
-            for term in query_terms:
-                freq = tf.get(term, 0)
-                if freq == 0:
-                    continue
-                df = self.doc_freqs.get(term, 0)
-                idf = math.log(1 + ((doc_count - df + 0.5) / (df + 0.5)))
-                doc_len = self.doc_lengths.get(chunk_id, 0)
-                denom = freq + BM25_K1 * (1 - BM25_B + BM25_B * (doc_len / avg_doc_length))
-                bm25_score += idf * ((freq * (BM25_K1 + 1)) / max(denom, 1e-9))
-
-            title_score = compute_field_match_score(query_analysis, record.get("title", ""), "title")
-            abstract_score = compute_field_match_score(query_analysis, record.get("abstract_text", ""), "abstract")
-            body_score = compute_field_match_score(query_analysis, record.get("text", ""), "body")
-            lexical_score = bm25_score + title_score + abstract_score + body_score
-
-            if lexical_score <= 0:
+            scored = self.score_record(query_analysis, record)
+            if scored["lexical_score"] <= 0:
                 continue
 
             candidates.append({
-                "chunk_id": chunk_id,
-                "bm25_score": bm25_score,
-                "lexical_score": lexical_score,
-                "title_field_score": title_score,
-                "abstract_field_score": abstract_score,
-                "body_field_score": body_score,
+                "chunk_id": record["chunk_id"],
+                **scored,
             })
 
         candidates.sort(key=lambda item: (item["lexical_score"], item["bm25_score"]), reverse=True)
         for rank, candidate in enumerate(candidates, start=1):
             candidate["bm25_rank"] = rank
         return candidates[:limit]
+
+    def score_record(self, query_analysis: dict, record: dict) -> dict:
+        query_terms = tokenize_lexical(" ".join(query_analysis.get("lexical_terms") or query_analysis["base_terms"]))
+        query_terms = dedupe_preserve_order(query_terms)
+        if not query_terms:
+            return {
+                "bm25_score": 0.0,
+                "lexical_score": 0.0,
+                "title_field_score": 0.0,
+                "abstract_field_score": 0.0,
+                "body_field_score": 0.0,
+            }
+
+        chunk_id = record["chunk_id"]
+        tf = self.search_tf.get(chunk_id, Counter())
+        if not tf:
+            return {
+                "bm25_score": 0.0,
+                "lexical_score": 0.0,
+                "title_field_score": 0.0,
+                "abstract_field_score": 0.0,
+                "body_field_score": 0.0,
+            }
+
+        doc_count = len(self.records)
+        avg_doc_length = self.avg_doc_length or 1.0
+        bm25_score = 0.0
+        for term in query_terms:
+            freq = tf.get(term, 0)
+            if freq == 0:
+                continue
+            df = self.doc_freqs.get(term, 0)
+            idf = math.log(1 + ((doc_count - df + 0.5) / (df + 0.5)))
+            doc_len = self.doc_lengths.get(chunk_id, 0)
+            denom = freq + BM25_K1 * (1 - BM25_B + BM25_B * (doc_len / avg_doc_length))
+            bm25_score += idf * ((freq * (BM25_K1 + 1)) / max(denom, 1e-9))
+
+        title_score = compute_field_match_score(query_analysis, record.get("title", ""), "title")
+        abstract_score = compute_field_match_score(query_analysis, record.get("abstract_text", ""), "abstract")
+        body_score = compute_field_match_score(query_analysis, record.get("text", ""), "body")
+
+        return {
+            "bm25_score": bm25_score,
+            "lexical_score": bm25_score + title_score + abstract_score + body_score,
+            "title_field_score": title_score,
+            "abstract_field_score": abstract_score,
+            "body_field_score": body_score,
+        }
 
 
 class HybridCollectionProxy:
@@ -678,16 +907,25 @@ class HybridCollectionProxy:
 
     def _fallback_vector_query(self, query_embeddings: List[List[float]], n_results: int, include: List[str], query_texts: List[str]):
         candidate_pool = max(n_results, n_results * self._oversample_factor)
-        raw_result = self._collection.query(
-            query_embeddings=query_embeddings,
-            n_results=candidate_pool,
-            include=include,
-        )
+        requested_include = list(dict.fromkeys(list(include) + ["embeddings"]))
+        try:
+            raw_result = self._collection.query(
+                query_embeddings=query_embeddings,
+                n_results=candidate_pool,
+                include=requested_include,
+            )
+        except Exception:
+            raw_result = self._collection.query(
+                query_embeddings=query_embeddings,
+                n_results=candidate_pool,
+                include=include,
+            )
 
         ids_by_query = raw_result.get("ids", [])
         documents_by_query = raw_result.get("documents", [])
         metadatas_by_query = raw_result.get("metadatas", [])
         distances_by_query = raw_result.get("distances", [])
+        embeddings_by_query = raw_result.get("embeddings", [])
 
         out = {
             "ids": [],
@@ -709,24 +947,49 @@ class HybridCollectionProxy:
             row_ids = ids_by_query[q_idx] if q_idx < len(ids_by_query) else []
             row_docs = documents_by_query[q_idx] if q_idx < len(documents_by_query) else []
             row_metas = metadatas_by_query[q_idx] if q_idx < len(metadatas_by_query) else []
-            row_distances = distances_by_query[q_idx] if q_idx < len(distances_by_query) else []
+            row_embeddings = embeddings_by_query[q_idx] if q_idx < len(embeddings_by_query) else []
             analysis = build_query_analysis(query_text)
             retrieval_notes = ["vector-only fallback"]
+            fallback_embeddings = fetch_embeddings_by_id(
+                self._collection,
+                [
+                    chunk_id for idx, chunk_id in enumerate(row_ids)
+                    if not (idx < len(row_embeddings) and row_embeddings[idx] is not None)
+                ],
+            )
 
             keep = []
             for i, _chunk_id in enumerate(row_ids):
-                distance = row_distances[i] if i < len(row_distances) else None
-                embedding_score = distance_to_score(distance)
+                candidate_embedding = row_embeddings[i] if i < len(row_embeddings) else None
+                if candidate_embedding is None:
+                    candidate_embedding = fallback_embeddings.get(row_ids[i])
+                embedding_score = semantic_score_from_embeddings(query_embeddings[q_idx], candidate_embedding)
                 if self._min_score is None or embedding_score is None or embedding_score >= self._min_score:
                     keep.append(i)
 
             row_ids = [row_ids[i] for i in keep]
             row_docs = [row_docs[i] for i in keep if i < len(row_docs)]
             row_metas = [row_metas[i] for i in keep if i < len(row_metas)]
-            row_distances = [row_distances[i] for i in keep if i < len(row_distances)]
+            row_embeddings = [row_embeddings[i] if i < len(row_embeddings) else None for i in keep]
 
+            row_missing_embeddings = [
+                chunk_id for idx, chunk_id in enumerate(row_ids)
+                if not (idx < len(row_embeddings) and row_embeddings[idx] is not None)
+            ]
+            if row_missing_embeddings:
+                fallback_embeddings.update(fetch_embeddings_by_id(self._collection, row_missing_embeddings))
             row_embedding_scores = [
-                distance_to_score(row_distances[i]) if i < len(row_distances) else None
+                semantic_score_from_embeddings(
+                    query_embeddings[q_idx],
+                    row_embeddings[i] if i < len(row_embeddings) and row_embeddings[i] is not None else fallback_embeddings.get(row_ids[i]),
+                )
+                for i in range(len(row_ids))
+            ]
+            row_distances = [
+                semantic_distance_from_embeddings(
+                    query_embeddings[q_idx],
+                    row_embeddings[i] if i < len(row_embeddings) and row_embeddings[i] is not None else fallback_embeddings.get(row_ids[i]),
+                )
                 for i in range(len(row_ids))
             ]
             row_final_scores = [
@@ -734,7 +997,7 @@ class HybridCollectionProxy:
                     query_analysis=analysis,
                     doc=row_docs[i] if i < len(row_docs) else "",
                     meta=row_metas[i] if i < len(row_metas) and isinstance(row_metas[i], dict) else {},
-                    distance=row_distances[i] if i < len(row_distances) else None,
+                    embedding_score=row_embedding_scores[i] if i < len(row_embedding_scores) else None,
                 )
                 for i in range(len(row_ids))
             ]
@@ -801,11 +1064,18 @@ class HybridCollectionProxy:
             return self._fallback_vector_query(query_embeddings, original_n, include, query_texts)
 
         candidate_pool = max(original_n * self._oversample_factor, HYBRID_CANDIDATE_POOL)
-        raw_vector_result = self._collection.query(
-            query_embeddings=query_embeddings,
-            n_results=candidate_pool,
-            include=["documents", "metadatas", "distances"],
-        )
+        try:
+            raw_vector_result = self._collection.query(
+                query_embeddings=query_embeddings,
+                n_results=candidate_pool,
+                include=["documents", "metadatas", "distances", "embeddings"],
+            )
+        except Exception:
+            raw_vector_result = self._collection.query(
+                query_embeddings=query_embeddings,
+                n_results=candidate_pool,
+                include=["documents", "metadatas", "distances"],
+            )
 
         return hybrid_query_result(
             collection=self._collection,
@@ -829,7 +1099,10 @@ def build_candidate_record(base_record: dict) -> dict:
         "text_source": base_record.get("text_source", "unknown"),
         "section": base_record.get("section", "body"),
         "text": base_record.get("text", ""),
+        "embedding": None,
         "distance": None,
+        "vector_rank": None,
+        "bm25_rank": None,
         "embedding_score": 0.0,
         "bm25_score": 0.0,
         "lexical_score": 0.0,
@@ -848,6 +1121,65 @@ def build_candidate_record(base_record: dict) -> dict:
     }
 
 
+def fetch_embeddings_by_id(collection, candidate_ids: List[str]) -> Dict[str, List[float]]:
+    if collection is None or not candidate_ids or not hasattr(collection, "get"):
+        return {}
+
+    try:
+        payload = collection.get(ids=candidate_ids, include=["embeddings"])
+    except Exception:
+        return {}
+
+    ids = payload.get("ids", []) if isinstance(payload, dict) else []
+    embeddings = payload.get("embeddings", []) if isinstance(payload, dict) else []
+    return {
+        chunk_id: embeddings[idx]
+        for idx, chunk_id in enumerate(ids)
+        if idx < len(embeddings) and embeddings[idx] is not None
+    }
+
+
+def enrich_candidates_from_collection(collection, lexical_index: LexicalIndex, candidate_ids: List[str]) -> Dict[str, dict]:
+    if collection is None or not candidate_ids or not hasattr(collection, "get"):
+        return {}
+
+    try:
+        payload = collection.get(ids=candidate_ids, include=["documents", "metadatas", "embeddings"])
+    except Exception:
+        try:
+            payload = collection.get(ids=candidate_ids, include=["documents", "metadatas"])
+        except Exception:
+            return {}
+
+    ids = payload.get("ids", []) if isinstance(payload, dict) else []
+    documents = payload.get("documents", []) if isinstance(payload, dict) else []
+    metadatas = payload.get("metadatas", []) if isinstance(payload, dict) else []
+    embeddings = payload.get("embeddings", []) if isinstance(payload, dict) else []
+
+    enriched: Dict[str, dict] = {}
+    for idx, chunk_id in enumerate(ids):
+        base_record = lexical_index.record_by_id.get(chunk_id)
+        if not base_record:
+            continue
+
+        meta = metadatas[idx] if idx < len(metadatas) and isinstance(metadatas[idx], dict) else {}
+        doc = documents[idx] if idx < len(documents) else base_record.get("text", "")
+        embedding = embeddings[idx] if idx < len(embeddings) else None
+
+        enriched[chunk_id] = {
+            "text": doc or base_record.get("text", ""),
+            "embedding": embedding,
+            "paperId": meta.get("paperId") or base_record.get("paperId"),
+            "title": meta.get("title") or base_record.get("title", ""),
+            "url": meta.get("url") or base_record.get("url", ""),
+            "year": meta.get("year") if meta.get("year") is not None else base_record.get("year"),
+            "text_source": meta.get("text_source") or base_record.get("text_source", "unknown"),
+            "section": meta.get("section") or base_record.get("section", "body"),
+        }
+
+    return enriched
+
+
 def aggregate_papers(candidates: List[dict]) -> List[dict]:
     grouped: Dict[str, List[dict]] = defaultdict(list)
     for candidate in candidates:
@@ -858,13 +1190,41 @@ def aggregate_papers(candidates: List[dict]) -> List[dict]:
     for paper_id, paper_candidates in grouped.items():
         paper_candidates.sort(key=lambda item: item["chunk_score"], reverse=True)
         best_candidate = paper_candidates[0]
-        second_score = paper_candidates[1]["chunk_score"] if len(paper_candidates) > 1 else 0.0
-        support_bonus = min(0.14, second_score * 0.18) + min(0.06, max(0, len(paper_candidates) - 1) * 0.02)
+        best_score = max(best_candidate["chunk_score"], 1e-9)
+        support_candidates = []
+        for candidate in paper_candidates[1:]:
+            if len(support_candidates) >= PAPER_SUPPORT_MAX_CHUNKS:
+                break
+            if candidate["chunk_score"] < best_score * PAPER_SUPPORT_MIN_RELATIVE_SCORE:
+                continue
+            support_candidates.append(candidate)
+
+        support_bonus = min(
+            PAPER_SUPPORT_MAX_BONUS,
+            sum(
+                min(PAPER_SUPPORT_PER_CHUNK, (candidate["chunk_score"] / best_score) * PAPER_SUPPORT_PER_CHUNK)
+                for candidate in support_candidates
+            ),
+        )
+        unique_sections = {
+            normalize_section_name(best_candidate.get("section", "body"))
+        }
+        unique_sections.update(
+            normalize_section_name(candidate.get("section", "body"))
+            for candidate in support_candidates
+        )
+        section_diversity_bonus = min(
+            PAPER_SECTION_DIVERSITY_MAX,
+            max(0, len(unique_sections) - 1) * PAPER_SECTION_DIVERSITY_BONUS,
+        )
+        support_bonus += section_diversity_bonus
         paper_score = best_candidate["chunk_score"] + support_bonus
 
         representative = dict(best_candidate)
         representative["paper_score"] = paper_score
         representative["supporting_chunks"] = len(paper_candidates)
+        representative["support_bonus"] = support_bonus
+        representative["supporting_sections"] = sorted(unique_sections)
         representative["candidate_chunk_ids"] = [candidate["chunk_id"] for candidate in paper_candidates]
         paper_entries.append(representative)
 
@@ -893,17 +1253,17 @@ def apply_cross_encoder(query_analysis: dict, papers: List[dict]) -> str:
 
     raw_scores = model.predict(pairs)
     raw_scores = raw_scores.tolist() if hasattr(raw_scores, "tolist") else list(raw_scores)
-    normalized_scores = normalize_scores([float(score) for score in raw_scores])
+    calibrated_scores = calibrate_cross_encoder_scores([float(score) for score in raw_scores])
 
-    for idx, normalized_score in enumerate(normalized_scores):
-        papers[idx]["cross_encoder_score"] = normalized_score
-        papers[idx]["paper_score"] += 0.24 * normalized_score
+    for idx, calibrated_score in enumerate(calibrated_scores):
+        papers[idx]["cross_encoder_score"] = calibrated_score
+        papers[idx]["paper_score"] += CROSS_ENCODER_BLEND_WEIGHT * calibrated_score
 
     papers.sort(key=lambda item: (item["paper_score"], item["chunk_score"]), reverse=True)
     return "cross-encoder applied"
 
 
-def apply_mmr_selection(query_embedding: List[float], papers: List[dict], k: int) -> List[dict]:
+def apply_mmr_selection(papers: List[dict], k: int) -> List[dict]:
     if not papers:
         return []
 
@@ -1008,20 +1368,30 @@ def hybrid_query_result(collection, lexical_index: LexicalIndex, raw_vector_resu
     ids_by_query = raw_vector_result.get("ids", [])
     documents_by_query = raw_vector_result.get("documents", [])
     metadatas_by_query = raw_vector_result.get("metadatas", [])
-    distances_by_query = raw_vector_result.get("distances", [])
+    embeddings_by_query = raw_vector_result.get("embeddings", [])
 
     for q_idx, query_text in enumerate(query_texts):
         query_analysis = build_query_analysis(query_text)
-        retrieval_notes = ["hybrid retrieval", f"query_type={query_analysis['query_type']}"]
+        retrieval_notes = [
+            "hybrid retrieval",
+            f"query_type={query_analysis['query_type']}",
+            "hybrid candidate generation",
+        ]
 
         row_ids = ids_by_query[q_idx] if q_idx < len(ids_by_query) else []
         row_docs = documents_by_query[q_idx] if q_idx < len(documents_by_query) else []
         row_metas = metadatas_by_query[q_idx] if q_idx < len(metadatas_by_query) else []
-        row_distances = distances_by_query[q_idx] if q_idx < len(distances_by_query) else []
+        row_embeddings = embeddings_by_query[q_idx] if q_idx < len(embeddings_by_query) else []
+        fallback_embeddings = fetch_embeddings_by_id(
+            collection,
+            [
+                chunk_id for idx, chunk_id in enumerate(row_ids)
+                if not (idx < len(row_embeddings) and row_embeddings[idx] is not None)
+            ],
+        )
 
-        lexical_candidates = lexical_index.search(query_analysis, limit=max(k * QUERY_OVERSAMPLE_FACTOR, HYBRID_CANDIDATE_POOL))
-        lexical_rank_by_id = {candidate["chunk_id"]: idx + 1 for idx, candidate in enumerate(lexical_candidates)}
         candidate_by_id: Dict[str, dict] = {}
+        lexical_only_ids: List[str] = []
 
         for vector_rank, chunk_id in enumerate(row_ids, start=1):
             base_meta = row_metas[vector_rank - 1] if vector_rank - 1 < len(row_metas) else {}
@@ -1037,24 +1407,57 @@ def hybrid_query_result(collection, lexical_index: LexicalIndex, raw_vector_resu
                 "text": row_docs[vector_rank - 1] if vector_rank - 1 < len(row_docs) else "",
             })
             candidate = build_candidate_record(base_record)
-            candidate["distance"] = row_distances[vector_rank - 1] if vector_rank - 1 < len(row_distances) else None
-            candidate["embedding_score"] = distance_to_score(candidate["distance"]) or 0.0
+            candidate_embedding = row_embeddings[vector_rank - 1] if vector_rank - 1 < len(row_embeddings) else None
+            if candidate_embedding is None:
+                candidate_embedding = fallback_embeddings.get(chunk_id)
+            candidate["embedding"] = candidate_embedding
+            candidate["distance"] = semantic_distance_from_embeddings(query_embeddings[q_idx], candidate_embedding)
+            candidate["embedding_score"] = semantic_score_from_embeddings(query_embeddings[q_idx], candidate_embedding) or 0.0
             candidate["vector_rank"] = vector_rank
+            lexical_scores = lexical_index.score_record(query_analysis, base_record)
+            candidate["bm25_score"] = lexical_scores.get("bm25_score", 0.0)
+            candidate["lexical_score"] = lexical_scores.get("lexical_score", 0.0)
+            candidate["title_field_score"] = lexical_scores.get("title_field_score", 0.0)
+            candidate["abstract_field_score"] = lexical_scores.get("abstract_field_score", 0.0)
+            candidate["body_field_score"] = lexical_scores.get("body_field_score", 0.0)
             candidate_by_id[chunk_id] = candidate
 
+        lexical_limit = max(k * QUERY_OVERSAMPLE_FACTOR, LEXICAL_CANDIDATE_POOL)
+        lexical_candidates = lexical_index.search(query_analysis, limit=lexical_limit)
         for lexical_candidate in lexical_candidates:
             chunk_id = lexical_candidate["chunk_id"]
             base_record = lexical_index.record_by_id.get(chunk_id)
             if not base_record:
                 continue
-            candidate = candidate_by_id.get(chunk_id) or build_candidate_record(base_record)
+
+            candidate = candidate_by_id.get(chunk_id)
+            if candidate is None:
+                candidate = build_candidate_record(base_record)
+                candidate_by_id[chunk_id] = candidate
+                lexical_only_ids.append(chunk_id)
+
             candidate["bm25_score"] = lexical_candidate.get("bm25_score", 0.0)
             candidate["lexical_score"] = lexical_candidate.get("lexical_score", 0.0)
             candidate["title_field_score"] = lexical_candidate.get("title_field_score", 0.0)
             candidate["abstract_field_score"] = lexical_candidate.get("abstract_field_score", 0.0)
             candidate["body_field_score"] = lexical_candidate.get("body_field_score", 0.0)
-            candidate["bm25_rank"] = lexical_rank_by_id.get(chunk_id)
-            candidate_by_id[chunk_id] = candidate
+            candidate["bm25_rank"] = lexical_candidate.get("bm25_rank")
+
+        if lexical_only_ids:
+            enriched = enrich_candidates_from_collection(collection, lexical_index, lexical_only_ids)
+            for chunk_id in lexical_only_ids:
+                candidate = candidate_by_id.get(chunk_id)
+                details = enriched.get(chunk_id)
+                if not candidate or not details:
+                    continue
+                candidate["text"] = details.get("text", candidate.get("text", ""))
+                candidate["embedding"] = details.get("embedding")
+                candidate["paperId"] = details.get("paperId", candidate.get("paperId"))
+                candidate["title"] = details.get("title", candidate.get("title", ""))
+                candidate["url"] = details.get("url", candidate.get("url", ""))
+                candidate["year"] = details.get("year", candidate.get("year"))
+                candidate["text_source"] = details.get("text_source", candidate.get("text_source", "unknown"))
+                candidate["section"] = details.get("section", candidate.get("section", "body"))
 
         if not candidate_by_id:
             empty_row = build_result_row([], query_analysis, retrieval_notes + ["no candidates"])
@@ -1063,6 +1466,9 @@ def hybrid_query_result(collection, lexical_index: LexicalIndex, raw_vector_resu
             continue
 
         candidates = list(candidate_by_id.values())
+        for candidate in candidates:
+            candidate["distance"] = semantic_distance_from_embeddings(query_embeddings[q_idx], candidate.get("embedding"))
+            candidate["embedding_score"] = semantic_score_from_embeddings(query_embeddings[q_idx], candidate.get("embedding")) or 0.0
         normalized_embedding_scores = normalize_scores([candidate["embedding_score"] for candidate in candidates])
         normalized_bm25_scores = normalize_scores([candidate["bm25_score"] for candidate in candidates])
 
@@ -1070,6 +1476,7 @@ def hybrid_query_result(collection, lexical_index: LexicalIndex, raw_vector_resu
         bm25_weight = query_analysis["hybrid_weights"]["bm25"]
 
         scored_candidates = []
+        rescued_candidates = 0
         for idx, candidate in enumerate(candidates):
             candidate["field_score"] = candidate["title_field_score"] + candidate["abstract_field_score"] + candidate["body_field_score"]
             candidate["section_boost"] = compute_section_boost(query_analysis, candidate.get("section", "body"))
@@ -1086,14 +1493,24 @@ def hybrid_query_result(collection, lexical_index: LexicalIndex, raw_vector_resu
                 candidate["source_boost"] +
                 candidate["query_type_boost"]
             )
-            if min_score is None or candidate["embedding_score"] >= min_score or candidate["bm25_score"] > 0:
+            if min_score is None or candidate["embedding_score"] >= min_score:
                 scored_candidates.append(candidate)
+                continue
+            if passes_strict_lexical_gate(query_analysis, candidate, min_score=min_score):
+                scored_candidates.append(candidate)
+                rescued_candidates += 1
 
         if not scored_candidates:
             empty_row = build_result_row([], query_analysis, retrieval_notes + ["all candidates filtered by min_score"])
             for key, value in empty_row.items():
                 out[key].append(value)
             continue
+
+        retrieval_notes.append(
+            f"candidate union: vector={len(row_ids)} lexical={len(lexical_candidates)} merged={len(candidates)}"
+        )
+        if rescued_candidates:
+            retrieval_notes.append(f"strict lexical rescue={rescued_candidates}")
 
         scored_candidates.sort(key=lambda item: (item["chunk_score"], item["embedding_score"], item["bm25_score"]), reverse=True)
         paper_entries = aggregate_papers(scored_candidates)
@@ -1103,7 +1520,7 @@ def hybrid_query_result(collection, lexical_index: LexicalIndex, raw_vector_resu
         if cross_encoder_note:
             retrieval_notes.append(cross_encoder_note)
 
-        selected_papers = apply_mmr_selection(query_embeddings[q_idx], paper_entries, k)
+        selected_papers = apply_mmr_selection(paper_entries, k)
         retrieval_notes.append("mmr diversification")
         result_row = build_result_row(selected_papers, query_analysis, retrieval_notes)
         for key, value in result_row.items():
@@ -1137,7 +1554,7 @@ def cmd_index(metadata_file: str, filtered_file: str):
     metadata = load_json(metadata_file)
     meta_index = build_metadata_index(metadata)
     allowed_set = {p.get("paperId") for p in filtered if p.get("paperId")}
-    allowed_ids = list(allowed_set)
+    allowed_ids = sorted(allowed_set)
 
     model = get_embedding_model()
     client = chromadb.PersistentClient(path=CHROMA_DIR)
@@ -1166,13 +1583,18 @@ def cmd_index(metadata_file: str, filtered_file: str):
             missing_in_metadata += 1
             continue
 
-        text_source = "fulltext" if load_full_text(pid, fulltext_dir=FULLTEXT_DIR) else "abstract"
+        full_text = load_full_text(pid, fulltext_dir=FULLTEXT_DIR)
+        text_source = "fulltext" if full_text else "abstract"
         if text_source == "fulltext":
             fulltext_papers += 1
         else:
             abstract_fallback_papers += 1
 
-        records = build_chunk_records(meta_rec, fulltext_dir=FULLTEXT_DIR)
+        records = build_chunk_records(
+            meta_rec,
+            fulltext_dir=FULLTEXT_DIR,
+            preloaded_full_text=full_text,
+        )
         for record in records:
             lexical_records.append(record)
             docs.append(record["text"])
