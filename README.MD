@@ -30,7 +30,7 @@ rag_store/                       # created by Retrieval/retrieval.py
 Install dependencies:
 
 ```bash
-pip install openai requests python-dotenv pdfplumber chromadb sentence-transformers
+pip install openai requests python-dotenv pdfplumber chromadb sentence-transformers streamlit
 ```
 
 Optional (for local LLM mode):
@@ -117,6 +117,15 @@ Using Ollama:
 python llm/rag_generator.py "What are key trends in clinical decision support?" ollama
 ```
 
+## Using the User interface
+Open the UI
+
+```bash
+python -m streamlit run app.py
+```
+UI Available in browset at http://localhost:8501
+
+
 ## Important Behavior Notes
 - Retrieval indexes only papers allowed by `data/processed/filtered_papers.json`.
 - Retrieval prefers full text from `data/v3_full_text/{paperId}.txt`.
@@ -141,3 +150,4 @@ python llm/rag_generator.py "What are key trends in clinical decision support?" 
 - `Retrieval/retrieval.py` - index/query/suggest
 - `llm/interface.py` - LLM provider abstractions
 - `llm/rag_generator.py` - end-to-end retrieval + answer generation
+- `app.py` - User interface
