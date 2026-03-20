@@ -18,9 +18,9 @@ st.write("DEBUG: Importing")
 try:
     from ingestion.scripts.updated_scraper import fetch_rehabilitation_papers
     from llm.rag_generator import generate_rag_answer
-    st.write("Imports successful")
+    st.write("DEBUG: Imports successful")
 except Exception as e:
-    st.error(f"Import error: {e}")
+    st.error(f"DEBUG: Import error: {e}")
 
 # -------------------------
 # Page config
@@ -74,171 +74,177 @@ with st.sidebar:
 st.title("🔬 HybReDe AI Research Assistant")
 st.caption("Search → Select → Build RAG → Ask Questions")
 
-# -------------------------
-# Search Section
-# -------------------------
-st.subheader("🔎 Search Research Papers")
+left_col, right_col = st.columns([2, 1])
 
-query = st.text_input(
-    "Enter your research topic",
-    placeholder="Effects of fasting on metabolism"
-)
+with left_col:
+    # -------------------------
+    # Search Section
+    # -------------------------
+    st.subheader("🔎 Search Research Papers")
 
-if st.button("Search Papers"):
+    query = st.text_input(
+        "Enter your research topic",
+        placeholder="Effects of fasting on metabolism"
+    )
 
-    with st.spinner("Searching Semantic Scholar..."):
-        results = fetch_rehabilitation_papers(query, result_limit=k_articles)
+    if st.button("Search Papers"):
 
-        st.session_state.results = results
-        st.session_state.selected_ids = set()
+        with st.spinner("Searching Semantic Scholar..."):
+            results = fetch_rehabilitation_papers(query, result_limit=k_articles)
 
-# -------------------------
-# Results Section
-# -------------------------
-st.subheader("📄 Search Results")
+            st.session_state.results = results
+            st.session_state.selected_ids = set()
 
-if not st.session_state.results:
-    st.info("No results yet. Run a search.")
-else:
+    # -------------------------
+    # Results Section
+    # -------------------------
+    st.subheader("📄 Search Results")
 
-    for i, paper in enumerate(st.session_state.results):
+    if not st.session_state.results:
+        st.info("No results yet. Run a search.")
+    else:
 
-        paper_id = paper.get("paperId", str(i))
-        title = paper.get("title", "No title")
-        abstract = paper.get("abstract", "No abstract")
-        year = paper.get("year", "N/A")
-        url = paper.get("url", "")
-        authors = paper.get("authors", [])
-        author_names = ", ".join([a.get("name", "") for a in authors[:5]])
+        for i, paper in enumerate(st.session_state.results):
 
-        if len(authors) > 5:
-             author_names += " et al."
+            paper_id = paper.get("paperId", str(i))
+            title = paper.get("title", "No title")
+            abstract = paper.get("abstract", "No abstract")
+            year = paper.get("year", "N/A")
+            url = paper.get("url", "")
+            authors = paper.get("authors", [])
+            author_names = ", ".join([a.get("name", "") for a in authors[:5]])
 
-        selected = paper_id in st.session_state.selected_ids
+            if len(authors) > 5:
+                author_names += " et al."
 
-        with st.container(border=True):
+            selected = paper_id in st.session_state.selected_ids
 
-            col1, col2 = st.columns([1, 10])
+            with st.container(border=True):
 
-            # Checkbox
-            with col1:
-                if st.checkbox("", value=selected, key=f"chk_{paper_id}"):
-                    st.session_state.selected_ids.add(paper_id)
-                else:
-                    st.session_state.selected_ids.discard(paper_id)
+                col1, col2 = st.columns([1, 10])
 
-            # Paper content
-            with col2:
-                st.markdown(f"### {title}")
-                st.caption(f"Year: {year}")
-                st.caption(f"Authors: {author_names if author_names else 'Unknown'}")
+                # Checkbox
+                with col1:
+                    if st.checkbox("", value=selected, key=f"chk_{paper_id}"):
+                        st.session_state.selected_ids.add(paper_id)
+                    else:
+                        st.session_state.selected_ids.discard(paper_id)
 
-                with st.expander("Abstract"):
-                    st.write(abstract)
+                # Paper content
+                with col2:
+                    st.markdown(f"### {title}")
+                    st.caption(f"Year: {year}")
+                    st.caption(f"Authors: {author_names if author_names else 'Unknown'}")
 
-                if url:
-                    st.link_button("Open Paper", url)
+                    with st.expander("Abstract"):
+                        st.write(abstract)
 
-# -------------------------
-# Selection Summary
-# -------------------------
-st.subheader("📚 Selected Papers")
+                    if url:
+                        st.link_button("Open Paper", url)
 
-selected_papers = [
-    p for p in st.session_state.results
-    if p.get("paperId", str(id(p))) in st.session_state.selected_ids
-]
+    # -------------------------
+    # Selection Summary
+    # -------------------------
+    st.subheader("📚 Selected Papers")
 
-st.write(f"Selected: **{len(selected_papers)} papers**")
+    selected_papers = [
+        p for p in st.session_state.results
+        if p.get("paperId", str(id(p))) in st.session_state.selected_ids
+    ]
 
-col1, col2 = st.columns(2)
+    st.write(f"Selected: **{len(selected_papers)} papers**")
 
-# Save to RAG
-with col1:
-    if st.button("Add Selected to RAG"):
+    col1, col2 = st.columns(2)
 
-        if not selected_papers:
-            st.warning("No papers selected")
-        else:
-            os.makedirs("data/processed", exist_ok=True)
+    # Save to RAG
+    with col1:
+        if st.button("Add Selected to RAG"):
 
-            with open("data/processed/filtered_papers.json", "w", encoding="utf-8") as f:
-                json.dump(selected_papers, f, indent=2)
+            if not selected_papers:
+                st.warning("No papers selected")
+            else:
+                os.makedirs("data/processed", exist_ok=True)
 
-            st.success("Saved to filtered_papers.json")
+                with open("data/processed/filtered_papers.json", "w", encoding="utf-8") as f:
+                    json.dump(selected_papers, f, indent=2)
 
-# Clear selection
-with col2:
-    if st.button("Clear Selection"):
-        st.session_state.selected_ids = set()
+                st.success("Saved to filtered_papers.json")
 
-# -------------------------
-# RAG Debug Panel
-# -------------------------
-with st.expander("🧠 RAG Debug Panel"):
+    # Clear selection
+    with col2:
+        if st.button("Clear Selection"):
+            st.session_state.selected_ids = set()
 
-    st.write("### Selected Paper Titles")
-    for p in selected_papers:
-        st.write("-", p.get("title", "No title"))
+    # -------------------------
+    # RAG Debug Panel
+    # -------------------------
+    with st.expander("RAG Debug Panel"):
 
-    st.write("### Provider")
-    st.write(provider)
+        st.write("### Selected Paper Titles")
+        for p in selected_papers:
+            st.write("-", p.get("title", "No title"))
+
+        st.write("### Provider")
+        st.write(provider)
+
 
 # -------------------------
 # Chat Section
 # -------------------------
-st.subheader("💬 Ask the Research Assistant")
 
-# Display chat history
-for msg in st.session_state.chat_history:
-    with st.chat_message(msg["role"]):
-        st.write(msg["content"])
+with right_col:
+    st.subheader("💬 Ask the Research Assistant")
 
-user_input = st.chat_input("Ask a question about your selected papers...")
+    # Chat history
+    for msg in st.session_state.chat_history:
+        with st.chat_message(msg["role"]):
+            st.write(msg["content"])
 
-if user_input:
+    user_input = st.chat_input("Ask a question about your selected papers...")
 
-    # Add user message
-    st.session_state.chat_history.append({
-        "role": "user",
-        "content": user_input
-    })
+    if user_input:
 
-    with st.chat_message("user"):
-        st.write(user_input)
+        # Add user message
+        st.session_state.chat_history.append({
+            "role": "user",
+            "content": user_input
+        })
 
-    # Generate answer
-    with st.chat_message("assistant"):
-        with st.spinner("Generating answer..."):
+        with st.chat_message("user"):
+            st.write(user_input)
 
-            try:
-                result = generate_rag_answer(
-                    user_input,
-                    provider=provider,
-                    k=5
-                )
+        # Generate answer
+        with st.chat_message("assistant"):
+            with st.spinner("Generating answer..."):
 
-                answer = result.get("answer", "No answer")
-                sources = result.get("sources", [])
+                try:
+                    result = generate_rag_answer(
+                        user_input,
+                        provider=provider,
+                        k=5
+                    )
 
-                st.write(answer)
+                    answer = result.get("answer", "No answer")
+                    sources = result.get("sources", [])
 
-                # Show sources
-                if sources:
-                    with st.expander("Sources"):
-                        for s in sources:
-                            st.markdown(f"**{s.get('title','Unknown')}** ({s.get('year','')})")
-                            if s.get("url"):
-                                st.link_button("Open Source", s["url"])
+                    st.write(answer)
 
-                # Save assistant response
-                st.session_state.chat_history.append({
-                    "role": "assistant",
-                    "content": answer
-                })
+                    # Show sources
+                    if sources:
+                        with st.expander("Sources"):
+                            for s in sources:
+                                st.markdown(f"**{s.get('title','Unknown')}** ({s.get('year','')})")
+                                if s.get("url"):
+                                    st.link_button("Open Source", s["url"])
 
-            except Exception as e:
-                st.error(f"Error: {e}")
+                    # Save assistant response
+                    st.session_state.chat_history.append({
+                        "role": "assistant",
+                        "content": answer
+                    })
+
+                except Exception as e:
+                    st.error(f"Error: {e}")
 
 # -------------------------
 # Footer
