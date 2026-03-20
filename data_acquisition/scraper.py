@@ -95,8 +95,8 @@ if __name__ == "__main__":
         
         print("-" * 50)
         print(f"SUCCESS: Total {len(all_collected_papers)} papers exported to '{output_filename}'")
-        print("PURPOSE: 20 per topic (Clinical Support, Rehab Assistant, Cross-border)")
-        print("ACTION: Ready for LLM Reasoning Team to filter top 20.")
+        print("PURPOSE: 10 queries x 20 papers, deduplicated for RAG screening pipeline.")
+        print("ACTION: Ready for LLM screening stage.")
         print("-" * 50)
     else:
         print("[!] No data collected. Please check API status or network.")
