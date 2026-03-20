@@ -50,7 +50,7 @@ def is_valid_pdf(file_path):
     except Exception as e:
         return False, f"Integrity check failed: {str(e)}"
 
-def download_paper_pdfs(json_file_path="../data/hybrede_metadata_v4.json", output_folder="../data/harvested_pdfs"):
+def download_paper_pdfs(json_file_path="../data/hybrede_metadata_v5.json", output_folder="../data/harvested_pdfs"):
     """
     Orchestrates the metadata-driven download process. 
     Implements filename truncation to prevent OS-level path length errors in the RAG module.

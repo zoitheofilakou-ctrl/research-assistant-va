@@ -8,9 +8,9 @@ from rapidfuzz import process, fuzz
 #          Includes a Truncation-Aware Fuzzy Matching engine to resolve metadata sync issues.
 
 def extract_text_from_pdfs(
-    metadata_file="../data/hybrede_metadata_v4.json", 
+    metadata_file="../data/hybrede_metadata_v5.json", 
     pdf_folder="../data/harvested_pdfs", 
-    output_folder="../data/v3_full_text"
+    output_folder="../data/fulltext"
 ):
     """
     Orchestrates the conversion of PDF assets into plain text files.

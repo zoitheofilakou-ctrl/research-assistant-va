@@ -32,7 +32,7 @@ from datetime import datetime
 # paths, constants, environment set up
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-METADATA_PATH = os.path.join(BASE_DIR, "data", "hybrede_metadata_v3.json")
+METADATA_PATH = os.path.join(BASE_DIR, "data", "hybrede_metadata_v5.json")
 PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 FILTERED_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "filtered_papers.json")
 SCREENING_LOG_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "screening_log.json")
