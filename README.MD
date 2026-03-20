@@ -115,7 +115,7 @@ There is currently a version mismatch in the codebase:
 
 - `ingestion/scripts/updated_scraper.py` writes `data/hybrede_metadata_v3.json`
 - `screening/llm_screening.py` reads `data/hybrede_metadata_v3.json`
-- `Retrieval/retrieval.py` defaults to `data/hybrede_metadata_v3.json`
+- `Retrieval/retrieval.py` defaults to `data/hybrede_metadata_v4.json`
 - `data_acquisition/PDFscraper.py` defaults to `../data/hybrede_metadata_v4.json`
 - `data_acquisition/pdf_to_text.py` defaults to `../data/hybrede_metadata_v4.json`
 
@@ -212,7 +212,7 @@ python Retrieval/retrieval.py index
 Explicit files:
 
 ```powershell
-python Retrieval/retrieval.py index --metadata data/hybrede_metadata_v3.json --filtered data/processed/filtered_papers.json
+python Retrieval/retrieval.py index --metadata data/hybrede_metadata_v4.json --filtered data/processed/filtered_papers.json
 ```
 
 What it does:

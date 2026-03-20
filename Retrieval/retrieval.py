@@ -32,7 +32,7 @@ except ModuleNotFoundError:
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 DEFAULT_FILTERED_FILE = os.path.join(BASE_DIR, "data", "processed", "filtered_papers.json")
-DEFAULT_METADATA_FILE = os.path.join(BASE_DIR, "data", "hybrede_metadata_v3.json")
+DEFAULT_METADATA_FILE = os.path.join(BASE_DIR, "data", "hybrede_metadata_v4.json")
 FULLTEXT_DIR = os.path.join(BASE_DIR, "data", "v3_full_text")
 CHROMA_DIR = os.path.join(BASE_DIR, "rag_store")
 COLLECTION_NAME = "hybrede"
