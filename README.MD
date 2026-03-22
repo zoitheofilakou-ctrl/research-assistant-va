@@ -1,437 +1,153 @@
 # Research Assistant VA
 
-Research Assistant VA is a local literature-search and RAG pipeline for healthcare-related papers. The repository currently contains:
+Research Assistant VA is a local RAG pipeline for healthcare-related literature.
+It supports:
+- metadata acquisition
+- LLM-based screening
+- PDF harvesting and PDF-to-text extraction
+- vector indexing and retrieval
+- optional answer generation with OpenAI or Ollama
 
-- metadata search against Semantic Scholar
-- LLM-based title/abstract screening
-- PDF download and PDF-to-text conversion
-- hybrid retrieval (`embeddings + BM25 + reranking + paper aggregation`)
-- CLI answer generation with OpenAI or Ollama
-- a Streamlit UI prototype
-
-## Current Repository Layout
+## Current Standard Paths
+All scripts are now aligned to this folder layout:
 
 ```text
-research-assistant-va/
-  app.py
-  README.md
-  data/
-    hybrede_metadata_v4.json
-    harvested_pdfs/
-    processed/
-      filtered_papers.json
-      screening_log.json
-      audit_log.json
-      run_manifests/
-    v3_full_text/
-  data_acquisition/
-    PDFscraper.py
-    pdf_to_text.py
-  docs/
-    ai_usage_disclosure.md
-  ingestion/
-    scripts/
-      updated_scraper.py
-  llm/
-    interface.py
-    rag_generator.py
-  Retrieval/
-    retrieval.py
-  screening/
-    llm_screening.py
-  rag_store/
-    ... created after indexing
+data/
+  hybrede_metadata_v3.json
+  harvested_pdfs/                # created by PDFscraper.py
+  v3_full_text/                  # created/used by pdf_to_text.py and Retrieval/retrieval.py
+  processed/
+    filtered_papers.json
+    screening_log.json
+    audit_log.json
+rag_store/                       # created by Retrieval/retrieval.py
 ```
 
 ## Requirements
-
 - Python 3.10+
 - `pip`
-- Internet access for:
-  - Semantic Scholar search
-  - OpenAI API calls
-  - first-time Hugging Face model download
-  - PDF downloads
 
-Optional:
+Install dependencies:
 
-- Ollama, if you want local answer generation
-
-## Install Dependencies
-
-From the repository root:
-
-```powershell
-python -m pip install --upgrade pip
-python -m pip install openai requests python-dotenv pdfplumber chromadb sentence-transformers streamlit rapidfuzz langdetect
+```bash
+pip install openai requests python-dotenv pdfplumber chromadb sentence-transformers streamlit
 ```
 
-Notes:
-
-- `sentence-transformers` will also pull the transformer stack used by retrieval.
-- If your environment does not already have a compatible PyTorch build, install one separately according to the official PyTorch instructions.
+Optional (for local LLM mode):
+- Ollama running locally at `http://localhost:11434`
 
 ## Environment Variables
-
-Create a `.env` file in the repository root:
+Create a `.env` file in the project root (or use your shell environment):
 
 ```env
 OPENAI_API_KEY=your_api_key_here
 ```
 
-Important:
+Notes:
+- `screening/llm_screening.py` needs `OPENAI_API_KEY` for OpenAI API calls.
+- `llm/interface.py` also uses `OPENAI_API_KEY` for OpenAI responses.
+- `ingestion/scripts/updated_scraper.py` currently also reads `OPENAI_API_KEY` for Semantic Scholar requests (name is legacy in code).
 
-- `screening/llm_screening.py` needs `OPENAI_API_KEY` for OpenAI.
-- `llm/interface.py` uses `OPENAI_API_KEY` for the OpenAI provider.
-- `ingestion/scripts/updated_scraper.py` also reads `OPENAI_API_KEY` and sends it as the Semantic Scholar API key. The variable name is legacy in code.
+## Recommended Run Order (from repo root)
+1. Acquire or refresh metadata (`v3`):
 
-## Optional Model Pre-Download
-
-Retrieval uses local Hugging Face models. They are downloaded automatically on first use, but you can cache them manually.
-
-Embedding model:
-
-```powershell
-python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2'); print('EMBEDDING_MODEL_CACHED')"
-```
-
-Cross-encoder reranker:
-
-```powershell
-python -c "from sentence_transformers import CrossEncoder; CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2'); print('CROSS_ENCODER_CACHED')"
-```
-
-Offline cache check:
-
-```powershell
-python -c "from sentence_transformers import CrossEncoder; CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2', local_files_only=True); print('MODEL_CACHED')"
-```
-
-If the offline check fails, the model is not cached yet.
-
-## Canonical Project Files
-
-The main pipeline is now aligned to one canonical metadata file:
-
-- metadata: `data/hybrede_metadata_v4.json`
-- filtered papers: `data/processed/filtered_papers.json`
-- screening log: `data/processed/screening_log.json`
-- audit log: `data/processed/audit_log.json`
-- downloaded PDFs: `data/harvested_pdfs/`
-- extracted full text: `data/v3_full_text/`
-- retrieval index: `rag_store/`
-
-Also note:
-
-- the scripts now use absolute project paths, so they can be launched from the repository root
-- `app.py` still does not rebuild the retrieval index for you; if `data/processed/filtered_papers.json` changes, run indexing again manually
-- old files such as `data/hybrede_metadata_v3.json` may still exist locally, but the current pipeline does not use them by default
-
-## Run Manifests
-
-Scripts that create or update project artifacts now write a manifest JSON to:
-
-```text
-data/processed/run_manifests/
-```
-
-Current manifests:
-
-- `updated_scraper.json`
-- `llm_screening.json`
-- `pdfscraper.json`
-- `pdf_to_text.json`
-- `retrieval_index.json`
-
-Each manifest records what the script created, updated, skipped, rejected, or failed to produce during the last run.
-
-## Recommended End-to-End Workflow
-
-### 1. Fetch Metadata
-
-Run from repository root:
-
-```powershell
+```bash
 python ingestion/scripts/updated_scraper.py
 ```
 
-What it does:
+2. Run screening (writes `data/processed/` files):
 
-- queries Semantic Scholar
-- writes metadata to `data/hybrede_metadata_v4.json`
-- writes a run manifest to `data/processed/run_manifests/updated_scraper.json`
-
-Current limitation:
-
-- when run directly, `updated_scraper.py` uses a hardcoded search query from the script body
-- if you need custom queries without editing code, use the Streamlit UI or import `fetch_rehabilitation_papers()` manually
-
-### 2. Screen Papers with OpenAI
-
-Run from repository root:
-
-```powershell
+```bash
 python screening/llm_screening.py
 ```
 
-What it does:
+3. Download open-access PDFs:
 
-- reads `data/hybrede_metadata_v4.json`
-- screens papers with OpenAI
-- validates each decision with a second OpenAI call
-- writes:
-  - `data/processed/filtered_papers.json`
-  - `data/processed/screening_log.json`
-  - `data/processed/audit_log.json`
-  - `data/processed/run_manifests/llm_screening.json`
-
-Important behavior:
-
-- this script resumes from existing logs if they already exist
-- if you want a clean screening run, delete the files in `data/processed/` first
-
-### 3. Download PDFs
-
-Run from repository root:
-
-```powershell
-python data_acquisition/PDFscraper.py
+```bash
+python PDFscraper.py
 ```
 
-What it does:
+4. Convert PDFs to text files (`paperId.txt` in `data/v3_full_text`):
 
-- reads metadata from `data/hybrede_metadata_v4.json`
-- downloads open-access PDFs to `data/harvested_pdfs/`
-- validates that files are real English-language PDFs
-- writes a run manifest to `data/processed/run_manifests/pdfscraper.json`
-
-### 4. Convert PDFs to Text
-
-Run from repository root:
-
-```powershell
-python data_acquisition/pdf_to_text.py
+```bash
+python pdf_to_text.py
 ```
 
-What it does:
+5. Build vector index:
 
-- reads metadata from `data/hybrede_metadata_v4.json`
-- matches downloaded PDFs back to `paperId`
-- writes plain text files to `data/v3_full_text/`
-- does not silently overwrite identical text files; unchanged outputs are reported as `skipped_existing`
-- writes a run manifest to `data/processed/run_manifests/pdf_to_text.json`
-
-### 5. Build the Hybrid Retrieval Index
-
-Run from repository root:
-
-```powershell
+```bash
 python Retrieval/retrieval.py index
 ```
 
-Explicit files:
+## Retrieval Usage
+Build index with explicit files:
 
-```powershell
-python Retrieval/retrieval.py index --metadata data/hybrede_metadata_v4.json --filtered data/processed/filtered_papers.json
+```bash
+python Retrieval/retrieval.py index --metadata data/hybrede_metadata_v3.json --filtered data/processed/filtered_papers.json
 ```
 
-What it does:
+Run query:
 
-- reads screened papers from `data/processed/filtered_papers.json`
-- prefers full text from `data/v3_full_text/{paperId}.txt`
-- falls back to abstracts if full text is missing
-- builds a hybrid index in `rag_store/`
-- writes a lexical sidecar file at `rag_store/lexical_index.json`
-- writes a run manifest to `data/processed/run_manifests/retrieval_index.json`
-
-### 6. Query Retrieval Directly
-
-Run from repository root:
-
-```powershell
+```bash
 python Retrieval/retrieval.py query "evidence-based practice instruments" --k 5
 ```
 
-You can also change the semantic filter:
+Get suggestions:
 
-```powershell
-python Retrieval/retrieval.py query "clinical decision support" --k 5 --min-score 0.45
-```
-
-Paper suggestions:
-
-```powershell
+```bash
 python Retrieval/retrieval.py suggest --n 5
 ```
 
-What the retrieval layer currently does:
+## RAG Answer Generator
+Generate answers from indexed evidence:
 
-- embedding retrieval with ChromaDB
-- lexical search with BM25-style scoring
-- query expansion for some domain terms
-- query-type aware weighting
-- title and abstract boosting
-- section-aware chunk scoring
-- full-text vs abstract boosting
-- paper-level aggregation
-- optional cross-encoder reranking
-- MMR diversification
-
-### 7. Generate a RAG Answer from CLI
-
-OpenAI:
-
-```powershell
-python llm/rag_generator.py "What are the main themes in evidence-based practice instruments?" openai --k 5 --template structured
+```bash
+python llm/rag_generator.py "What are key trends in clinical decision support?" openai --k 5 --template structured
 ```
 
-OpenAI JSON output:
+JSON output mode:
 
-```powershell
-python llm/rag_generator.py "What are the main themes in evidence-based practice instruments?" openai --output json
+```bash
+python llm/rag_generator.py "What are key trends in clinical decision support?" openai --output json
 ```
 
-Ollama:
+Using Ollama:
 
-```powershell
-python llm/rag_generator.py "What are the main themes in evidence-based practice instruments?" ollama
+```bash
+python llm/rag_generator.py "What are key trends in clinical decision support?" ollama
 ```
 
-### 8. Run the Streamlit App
+## Using the User interface
+Open the UI
 
-Run from repository root:
-
-```powershell
-streamlit run app.py
+```bash
+python -m streamlit run app.py
 ```
+UI Available in browser at http://localhost:8501
 
-Current app behavior:
 
-- search papers through `fetch_rehabilitation_papers()`
-- let you select papers
-- save selected papers to `data/processed/filtered_papers.json`
-- use `generate_rag_answer()` for chat
-
-Important limitation:
-
-- after changing selected papers, you still need to rebuild the retrieval index manually:
-
-```powershell
-python Retrieval/retrieval.py index
-```
-
-## Quick Start Options
-
-### Option A: Full pipeline
-
-1. `python ingestion/scripts/updated_scraper.py`
-2. `python screening/llm_screening.py`
-3. `python data_acquisition/PDFscraper.py`
-4. `python data_acquisition/pdf_to_text.py`
-5. `python Retrieval/retrieval.py index`
-6. `python llm/rag_generator.py "your question" openai --k 5`
-
-### Option B: Retrieval only from existing processed files
-
-If `data/processed/filtered_papers.json` and `data/v3_full_text/` already exist:
-
-```powershell
-python Retrieval/retrieval.py index
-python Retrieval/retrieval.py query "your topic" --k 5
-```
-
-### Option C: UI workflow
-
-1. `streamlit run app.py`
-2. Search and select papers
-3. Click `Add Selected to RAG`
-4. In a terminal, run `python Retrieval/retrieval.py index`
-5. Return to the app and ask questions
-
-## Ollama Setup
-
-If you want local generation:
-
-```powershell
-ollama pull phi
-ollama serve
-```
-
-Then use:
-
-```powershell
-python llm/rag_generator.py "your question" ollama
-```
-
-## Outputs and Artifacts
-
-Main files produced by the pipeline:
-
-- `data/hybrede_metadata_v4.json` - canonical metadata fetched from Semantic Scholar
-- `data/processed/filtered_papers.json` - screened or manually selected papers
-- `data/processed/screening_log.json` - screening decisions
-- `data/processed/audit_log.json` - screening audit trail
-- `data/processed/run_manifests/*.json` - last-run manifests describing created or updated artifacts
-- `data/harvested_pdfs/` - downloaded PDF files
-- `data/v3_full_text/` - extracted full text by `paperId`
-- `rag_store/` - ChromaDB index and lexical sidecar index
+## Important Behavior Notes
+- Retrieval indexes only papers allowed by `data/processed/filtered_papers.json`.
+- Retrieval prefers full text from `data/v3_full_text/{paperId}.txt`.
+- If full text is missing, retrieval falls back to abstract from metadata.
+- `cmd_query` output includes `text_source` for traceability (`fulltext` or `abstract`).
 
 ## Troubleshooting
+- `ModuleNotFoundError: chromadb`
+  - Install dependencies: `pip install chromadb sentence-transformers`
+- `No index found. Run: python Retrieval/retrieval.py index`
+  - Build the index first.
+- `PDF folder ... data/harvested_pdfs not found`
+  - Run `python PDFscraper.py` before `python pdf_to_text.py`.
+- `OPENAI_API_KEY` errors
+  - Ensure `.env` exists and the key is valid.
 
-### `ModuleNotFoundError: chromadb`
-
-Install retrieval dependencies:
-
-```powershell
-python -m pip install chromadb sentence-transformers
-```
-
-### `No index found. Run: python Retrieval/retrieval.py index`
-
-Build the retrieval index first:
-
-```powershell
-python Retrieval/retrieval.py index
-```
-
-### `Import error` in Streamlit app
-
-Run the app from the repository root:
-
-```powershell
-streamlit run app.py
-```
-
-### PDF scripts cannot find metadata or folders
-
-Run them from the repository root:
-
-```powershell
-python data_acquisition/PDFscraper.py
-python data_acquisition/pdf_to_text.py
-```
-
-### Cross-encoder is skipped during retrieval
-
-That usually means the reranker model is not cached yet. Download it once:
-
-```powershell
-python -c "from sentence_transformers import CrossEncoder; CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2'); print('DOWNLOADED')"
-```
-
-### `OPENAI_API_KEY` errors
-
-- check that `.env` exists in the repository root
-- check that the key is valid
-- restart the shell after editing environment variables if needed
-
-## Active Scripts
-
-- `ingestion/scripts/updated_scraper.py` - metadata acquisition
-- `screening/llm_screening.py` - LLM screening and audit logging
-- `data_acquisition/PDFscraper.py` - PDF download and validation
-- `data_acquisition/pdf_to_text.py` - PDF-to-text conversion
-- `Retrieval/retrieval.py` - hybrid retrieval index/query/suggest
-- `llm/interface.py` - LLM provider abstraction
-- `llm/rag_generator.py` - retrieval + answer generation
-- `app.py` - Streamlit UI prototype
+## Repository Scripts (Active)
+- `ingestion/scripts/updated_scraper.py` - metadata acquisition (`v3`)
+- `screening/llm_screening.py` - LLM screening and audit logs
+- `PDFscraper.py` - PDF download
+- `pdf_to_text.py` - PDF-to-text conversion by `paperId`
+- `Retrieval/retrieval.py` - index/query/suggest
+- `llm/interface.py` - LLM provider abstractions
+- `llm/rag_generator.py` - end-to-end retrieval + answer generation
+- `app.py` - User interface
