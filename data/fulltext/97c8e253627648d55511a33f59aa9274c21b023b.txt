@@ -1,0 +1,2449 @@
+Abell et al. Implementation Science (2023) 18:32 Implementation Science
+https://doi.org/10.1186/s13012-023-01287-y
+SYSTEMATIC REVIEW Open Access
+Identifying barriers and facilitators
+to successful implementation of computerized
+clinical decision support systems in hospitals:
+a NASSS framework-informed scoping review
+Bridget Abell1†, Sundresan Naicker1*† , David Rodwell1, Thomasina Donovan1, Amina Tariq1, Melissa Baysari2,
+Robin Blythe1, Rex Parsons1 and Steven M. McPhail1
+Abstract
+Background Successful implementation and utilization of Computerized Clinical Decision Support Systems (CDSS)
+in hospitals is complex and challenging. Implementation science, and in particular the Nonadoption, Abandonment,
+Scale-up, Spread and Sustainability (NASSS) framework, may offer a systematic approach for identifying and address-
+ing these challenges. This review aimed to identify, categorize, and describe barriers and facilitators to CDSS imple-
+mentation in hospital settings and map them to the NASSS framework. Exploring the applicability of the NASSS
+framework to CDSS implementation was a secondary aim.
+Methods Electronic database searches were conducted (21 July 2020; updated 5 April 2022) in Ovid MEDLINE,
+Embase, Scopus, PyscInfo, and CINAHL. Original research studies reporting on measured or perceived barriers and/
+or facilitators to implementation and adoption of CDSS in hospital settings, or attitudes of healthcare profession-
+als towards CDSS were included. Articles with a primary focus on CDSS development were excluded. No language
+or date restrictions were applied. We used qualitative content analysis to identify determinants and organize them
+into higher-order themes, which were then reflexively mapped to the NASSS framework.
+Results Forty-four publications were included. These comprised a range of study designs, geographic locations, par-
+ticipants, technology types, CDSS functions, and clinical contexts of implementation. A total of 227 individual barriers
+and 130 individual facilitators were identified across the included studies. The most commonly reported influences
+on implementation were fit of CDSS with workflows (19 studies), the usefulness of the CDSS output in practice (17
+studies), CDSS technical dependencies and design (16 studies), trust of users in the CDSS input data and evidence
+base (15 studies), and the contextual fit of the CDSS with the user’s role or clinical setting (14 studies). Most deter-
+minants could be appropriately categorized into domains of the NASSS framework with barriers and facilitators
+in the “Technology,” “Organization,” and “Adopters” domains most frequently reported. No determinants were assigned
+to the “Embedding and Adaptation Over Time” domain.
+†Bridget Abell and Sundresan Naicker have equal contribution as co-first
+authors.
+*Correspondence:
+Sundresan Naicker
+sundresan.naicker@qut.edu.au
+Full list of author information is available at the end of the article
+© The Author(s) 2023. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat ivec o
+mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Abell et al. Implementation Science (2023) 18:32 Page 2 of 20
+Conclusions This review identified the most common determinants which could be targeted for modification
+to either remove barriers or facilitate the adoption and use of CDSS within hospitals. Greater adoption of implementa-
+tion theory should be encouraged to support CDSS implementation.
+Keywords Barriers and facilitators, Implementation science, CDSS, Clinical decision support systems, Hospital, Digital
+health, NASSS
+Contributions to the literature identify potential barriers and facilitators to successful
+implementation [13, 14]. This is important as contextu-
+• To our knowledge, this is the first review to systemati- ally informed implementation strategies targeting clini-
+cally identify, classify, and map peer-reviewed literature cian behavior are a stronger predictor of CDSS uptake
+about barriers and facilitators of hospital-based CDSS than technological design and content features [6]. Con-
+implementation using an implementation science sequently, evidence-based guidance to inform and plan
+framework. for such contextually appropriate implementation is
+• This review supports the value of the NASSS frame- necessary for greater systematic success of technological
+work for assessing context and guiding CDSS imple- interventions in healthcare systems [5–12].
+mentation. Implementation science offers theory-informed sys-
+• This review identified a need for CDSS to be designed tematic processes for research translation [15]. Its theo-
+to fit the workflows and contexts of clinical practice for ries, models, and frameworks help to identify barriers
+effective implementation outcomes. and facilitators throughout the implementation process
+• No determinants mapped to the “embedding over time” and at different contextual levels. This includes both the
+domain of NASSS, underscoring the need to examine immediate context of individuals receiving health-related
+how implementation factors change over time. interventions, their healthcare providers, healthcare
+organizations, and other stakeholders involved in care
+delivery, as well as the broader political, economic, and
+social setting [16]. Yet, few previous reviews of CDSS
+Background have applied a comprehensive implementation science
+Clinical Decision Support Systems (CDSS) are digital framework within the context of the implementation
+tools that can assist healthcare providers in making clini- processes [2, 3, 6].
+cal decisions by providing targeted information [1]. They The Nonadoption, Abandonment, Scale-up, Spread
+have the potential to improve various aspects of health- and Sustainability (NASSS) framework was developed to
+care delivery, such as patient safety, clinical management, understand the successful implementation of technology-
+diagnostic support, cost management, and administra- supported health (and social) care programs [17]. It posi-
+tive efficiency [2]. CDSS can take different forms, such as tions technological interventions as part of a complex
+guideline-based algorithms for chronic disease risk and system [18] and has been used to guide implementation
+screening, personalized medication dosing, and alerts for efforts and identify factors that influence implementation
+potential or historical adverse events [3, 4]. success in digital health [19–21]. A previous systematic
+Despite the varied applications and benefits of CDSS, review used the NASSS framework to assess contextual
+there are challenges related to their adoption, appropriate factors that can influence implementation success of vir-
+use, and sustainment over time in clinical settings [5, 6]. tual care in primary care settings [22]. The authors con-
+Challenges include poor uptake, inappropriate use, unin- cluded that applying the NASSS framework helped to
+tended consequences, and abandonment of the technol- identify key contextual factors that can influence imple-
+ogy over time [5, 7–9]. The reasons for these challenges mentation success.
+are multifactorial and include the social and organiza- There is a substantial amount of literature which
+tional complexity of large health systems which makes it appears to examine different aspects of the implementa-
+difficult to plan for downstream consequences with con- tion process for CDSSs within hospitals [3, 23, 24]. How-
+fidence [10, 11]. CDSS implementation is also affected by ever, there have been limited attempts to classify these
+unforeseen system modifications to adapt to fast chang- findings according to a deterministic implementation
+ing contexts [12]. Ideally, hospital-system and research framework like NASSS. Such an approach may identify
+stakeholders need to identify constructs that have been generalizable determinants to scale CDSS implementa-
+shown to influence implementation processes and out- tion efforts across varying hospital settings, integrate
+comes, understand potential mechanisms of change, and implementation processes into a unified framework, and
+A bell et al. Implementation Science (2023) 18:32 Page 3 of 20
+inform more synergetic and comparative CDSS imple- which were also searched for additional subject headings.
+mentation research moving forward. The final search results were exported into EndNote [31],
+This study aimed to apply a qualitative reflexive analy- duplicates removed, and remaining records uploaded
+sis to identify, classify, and describe the potential bar- into Rayyan [32] for screening. Generation of the search
+riers and facilitators, identified within peer-reviewed terms, execution of both searches, and deduplication of
+literature, that influence the implementation process records were all conducted by the same author (BA) in
+(adoption, uptake, and use over time) of CDSS in hospi- consultation with a medical librarian.
+tal settings and map these findings to the NASSS frame-
+work. A secondary aim was to explore the applicability of Study selection
+the NASSS framework to CDSS implementation within a Inclusion and exclusion criteria were determined prior
+hospital context. to the database searches. For inclusion, articles were
+required to be (1) published, peer-reviewed original
+Method
+research studies of qualitative, quantitative or mixed
+A scoping review methodology was deemed appro- methods design, (2) prospectively or retrospectively
+priate to address the aims of this study as our goal was reported on measured or perceived barriers and/or
+not to evaluate the evidence, but to identify and map facilitators to implementation and adoption of CDSS,
+key determinants of CDSS implementation and identify (3) based in hospital settings. Studies of similar and
+knowledge gaps [25]. This scoping review was conducted potentially overlapping concepts, including (4) attitudes
+in accordance with the recommendations of Arksey of healthcare professionals towards CDSS, were also
+and O’Malley [26] and Levac, Colquhoun [27]. Step (1) included. All health conditions, hospital settings (inpa-
+involved identifying the research question as “What are tient and outpatient), and patient groups were eligible.
+the barriers and facilitators to implementation of CDSS For this review CDSS was defined as any technology
+in hospital settings,” with the sub-question of “How can system designed to provide health professionals or opera-
+the determinants of CDSS implementation in hospital tional staff with information/decision support that was
+settings be categorized using an implementation sci- filtered or targeted to a specific user, patient, or situa-
+ence framework.” The remaining review steps consisted tion [33]. All decision support typologies, including both
+of (2) identifying relevant studies, (3) selecting studies, knowledge-based and non-knowledge-based systems,
+(4) charting the data, and (5) collating, summarizing, were included. There were no exclusion criteria related
+and reporting the results. The reporting of this scoping to the ways by which the users engaged with the decision
+review was guided by the Preferred Reporting Items for support information; for example, dashboards, inter-
+Systematic Reviews and Meta-Analyses extension for ruptive alerts, or reminder systems were all considered
+Scoping Reviews (PRISMA-ScR) checklist [28]. A pro- within scope.
+tocol for this review and mapping was developed by BA Articles were excluded if they focused on consumer/
+before commencing searches but was not published. patient facing decision support, e.g., decision aids, or
+primarily on CDSS development and not implementa-
+Identifying relevant studies tion. No language or date restrictions were applied, but
+We searched electronic databases on 21 July 2020 and papers unobtainable in full-text format (e.g., conference
+again on 5 April 2022. The databases searched were Ovid abstracts) were excluded.
+MEDLINE (via EBSCOhost), Embase, Scopus, PyscInfo, Preliminary screening was piloted by all reviewers with
+and CINAHL (via EBSCOhost). The search strategy was a small sample of records to improve consistency of study
+iteratively created and refined using the SearchRefin- selection criteria. The titles and abstracts of all records
+ery tool [29] with MeSH terms and keywords related to were then independently co-screened in Rayyan by eight
+CDSS, implementation, and hospital settings (see Addi- reviewers working in pairs. Coding pairs met with a
+tional file 1). The final search string is provided in Table 1. third reviewer (BA) to reach consensus about disagree-
+The Polyglot Search Translator [30] was used to translate ments. Records that proceeded to full-text review were
+the Ovid MEDLINE string across all other databases, obtained and independently co-screened by two reviewer
+Table 1 Final search string used to identify articles for the study
+Database Search string
+MEDLINE (Ovid) ((exp Decision Support Systems, Clinical/ OR Artificial Intelligence.ti,ab. OR Dashboard.ti,ab. OR Reminder system*.ti,ab. OR electronic
+feedback.ti,ab. OR CDSS.ti,ab.) AND (barrier*.ti,ab. OR Facilitat*.ti,ab.))
+Abell et al. Implementation Science (2023) 18:32 Page 4 of 20
+pairs (BA and SN, TD and DR). Disagreements about codes onto one or more of the NASSS domains and sub-
+the inclusion of articles between reviewers in each pair domains with which they aligned.
+were discussed in meetings facilitated by a third reviewer The analysis was primarily deductive with the intent
+from the other pair until consensus was reached. As rec- was to align barriers and facilitators identified in the lit-
+ommended by Levac, Colquhoun, and O’Brien [27], the erature with pre-existing domains within the NASSS
+core multidisciplinary review team (BA, SN, TD, and DR) framework. It is important to note that, in the analysis,
+met regularly to discuss any uncertainties related to study no restriction was placed on the number of domains or
+selection or review scope. sub-domains with which an individual barrier or facili-
+tator could align. This was because the object of the
+Charting the data study was not to strictly categorize barriers and facilita-
+A shared online data extraction form was created using tors using the NASSS but to understand the role of such
+Microsoft Excel and was piloted and refined with several a theoretical framework in capturing the complexity of
+included studies. Subsequently, the following information CDSS implementation and adoption within real-world
+was extracted from each included article independently hospital systems.
+by two authors (TD, DR): study identifiers (e.g., year, A descriptive numerical summary of all included stud-
+author, country), study type (e.g., observational, RCT), ies, and the individual barriers and facilitators to CDSS
+research methodology (e.g., quantitative, qualitative, implementation was collated. We also developed a visual
+mixed methods), participant descriptors (e.g., sample matrix including each study’s barriers and facilitators
+size, professional discipline), description of CDSS, clini- mapped across NASSS domains to demonstrate com-
+cal or organizational setting of CDSS (e.g., ward, hospital mon findings and identify gaps in the research. Finally,
+or multiple sites), key barriers to implementation/adop- a tree map was created to visualize the most frequently
+tion, key facilitators to implementation/adoption, and reported determinants to CDSS implementation and
+any other details noted as potentially important for the adoption in the included studies.
+study (e.g. implementation processes or frameworks).
+Results
+To address discrepancies in the extracted data, report-
+ing issues, and data verification, three authors (TD, DR, After deduplication, 2163 articles were identified in the
+SN) held meetings and iteratively updated the extraction database searches. Based on title and abstract screening,
+form. In these cases, the relevant manuscript was thor- 1983 of these were excluded. The remaining 181 full-text
+oughly re-examined, specifically referring to each vari- publications were retrieved and assessed for eligibility,
+able in the extraction document, until a consensus was resulting in the exclusion of 137 studies. The 44 remain-
+reached. ing publications were included in this scoping review.
+The article selection process and reasons for exclusion
+Collating, reporting, and summarizing the results are presented in Fig. 1.
+There were several steps in collating and reporting the
+results which were conducted iteratively in a series of Study characteristics
+day-long workshops attended by four of the authors (TD, The characteristics of the 44 included studies, includ-
+DR, BA, SN). ing their aim, participants, and CDSS type, are pre-
+sented in Table 2. The studies were published between
+Data analysis 2002 and 2022 with approximately 70% published since
+Our approach involved basic qualitative content analy- 2015. Most studies were published by authors residing
+sis of all included publications (qualitative, quantitative, in North America (n = 24). There were a mix of study
+and mixed methods) using open coding and allocation designs, although most employed qualitative or mixed
+into higher-order categories [34]. First, using the data methods (n = 38). Ten studies were conducted as a pre-
+extraction Excel sheet, each barrier and facilitator was cursor to CDSS implementation with the remainder
+assigned a short summarizing phrase or word that mean- completed during (peri) or post-implementation. CDSS
+ingfully captured its essence. These initial codes were were implemented across a wide range of clinical con-
+discussed and revised with some original codes being texts and conditions (e.g., pulmonary embolism), uses
+discarded, amended, or subsumed by other codes to cre- (e.g., antimicrobial stewardship), patient cohorts (e.g.,
+ate higher-order codes. Following this, the content of older persons), or combinations of these (e.g., imaging
+each higher-order code and the underlying meaning of for pediatric traumatic brain injury). However, over one
+each was examined and discussed. The outcome of this quarter of studies (n = 12) focused on CDSS intended
+process was to reflexively map each of the higher-order for use in hospital emergency departments. Participants
+in the studies were overwhelmingly those engaged in
+A bell et al. Implementation Science (2023) 18:32 Page 5 of 20
+Fig. 1 Preferred Reporting Items for Systematic Reviews and Meta-Analyses flow diagram for article selection
+clinical or patient-facing roles (e.g., physicians, nurses, total, 227 individual barriers and 130 individual facilita-
+pharmacists) with almost all studies (n = 40) clearly iden- tors were reported across the 44 included studies (imple-
+tifying individuals occupying these roles as participants. mentation determinants, n = 357). Sixty-five higher-order
+codes were deductively constructed from these barriers
+Summary of facilitators and barriers to CDSS and facilitators during qualitative content analysis and
+implementation (determinants) data synthesis. Fifty of these codes (77%) could be repre-
+A visual summary of the analysis, synthesis, and report- sented as 25 matched pairs which acted as either a barrier
+ing process we undertook to move from individual barri- or facilitator depending on the study and implementa-
+ers and enablers [A] to higher-order codes [B] and unique tion context. For example, CDSS implementation was
+determinants [C] is presented in Additional file 2. In facilitated when stakeholders perceived benefits to its use
+Abell et al. Implementation Science (2023) 18:32 Page 6 of 20
+pam
+ecnedive
+dna
+weiver
+gnipocs
+eht
+ni
+dedulcni
+seiduts
+fo
+scitsiretcarahC
+2 elbaT
+yduts ni stnapicitraP
+detnemelpmi
+SSDC fo noitpircseD
+sucof
+ro
+,evitcejbo
+,mia
+yduts feirB
+ngised
+ydutS
+yduts
+fo
+yrtnuoc
+dna
+,raey ,rohtuA
+noitatnemelpmi-erp
+dessessa
+srotatilicaf
+dna sreirraB
+-rahp
+,stnatsissa
+naicisyhp ,snaicisyhp
+,sesruN
+yllacitamotua
+SSDC detargetni-RHE
+-pecrep
+srekrow
+erachtlaeh
+dnatsrednU
+lauQ
+]53[
+ASU
+,8102
+,.la
+te ocnalB
+-norivne
+dna
+,snaicinhcet
+tsigoloidar
+,stsicam
+-uacerp
+tcatnoc
+rof redro na setareneg
+detaler
+srotatilicaf
+dna sreirrab
+fo snoit
+.)74
+= n( srekrow ecivres
+latnem
+gnitset
+elicffiid
+muidirtsolC nehw
+snoit
+sloot
+deziretupmoc
+fo ekatpu
+eht
+ot
+.deredro
+si
+.noitcefni
+elicffiid
+muidirtsolC
+ecuder
+ot
+ekorts
+dna
+,snaicisyhp
+DE ,snaicisyhp
+ekortS
+ekortS
+rof
+diA noisiced deziretupmoC
+cfiiceps-tneitap
+troppus
+ot SSDC
+a poleveD
+lauQ
+]63[
+KU
+,5102
+,.la te nnylF
+.)13 = n( srenoititcarp
+esrun
+noisiced
+sedivorp
+;)SSAPMOC( sisylobmorht
+-morht
+ot detaler
+gnikam-noisiced
+lacinilc
+.sisylobmorht rof troppus
+-moc dna
+ekorts
+cimeahcsi
+etuca
+rof sisylob
+noitamrofni
+ksir
+dezilanosrep
+etacinum
+.seilimaf dna
+stneitap
+ot
+-ircodne
+,stsigoloidrac
+gnidulcni
+stsilaicepS
+.depoleved tey
+toN
+-ilc rof ecnadiug
+edivorp
+ot SSDC
+a poleveD
+sdohtem
+dexiM
+]73[
+ASU
+,8102
+,.la
+te einsaH
+yramirp
+dna ,stsiciteneg
+lacidem
+,stsigolon
+gnitaert
+nehw
+erac
+fo tniop eht
+ta snaicin
+sucof
+91
+= n ,yevrus
+012 = n( snaicisyhp
+erac
+.aimeloretselohcrepyh
+lailimaf htiw
+stneitap
+.)spuorg
+slatipsoh
+ni snaicinilc
+gnibircserp
+citoibitnA
+noitamrofni
+desab-ecnedive stcennoC
+lanoitazinagro
+,laudividni
+yfitnedI
+sdohtem
+dexiM
+]7[
+ailartsuA
+,1202
+,.la te akaL
+.)081 = n( erac yramirp
+dna
+tneitap
+htiw
+gnibircserp citoibitna
+no
+ecneuflni
+taht
+srotcaf level-metsys
+dna
+emit-laer
+,etarucca
+tneserp ot noitamrofni
+-rep dna
+esu
+,noitpoda
+eht etaredom
+dna
+-noisiced
+lacinilc tsissa ot noitamrofni
+laiborcimitna
+rof SSDC
+a fo esu
+fo snoitpec
+.gnikam
+.tnemeganam
+.)62 = n( snaicisyhP
+DE
+gnidivorp
+SSDC
+desab-bew detargetni-RHE
+noitatnemelpmi
+ot segnellahc
+ebircseD
+lauQ
+]83[
+ASU
+,9102
+,.la
+te kcinleM
+tnemtaert
+dna
+sloot tnemssessa lanoitpo
+detaitini-DE
+rof
+SSDC fo ytilibalacs
+dna
+enihpronerpub
+gnitaitini rof syawhtap
+.redrosid
+esu
+dioipo rof snoitnevretni
+.DE eht ni tnemtaert
+-aidar
+ni
+devlovni
+stsilaiceps dna
+snaicinilC
+IA
+no
+desucof ;defiiceps ton
+SSDC
+-ekil dna
+srotatilicaf
+,sreirrab eht
+etagitsevnI
+tnauQ
+]93[
+dnalaeZ
+weN
+,1202
+,ebaguM
+.)101 = n( tnemtaert
+noit
+evorpmi
+ot gninrael enihcam
+dna
+slanoisseforp
+ypareht
+noitaidar
+fo doohil
+,stceffe
+edis
+ecuder ,erac fo sdradnats
+.gninnalp
+tnemtaert
+dia ot
+IA gnitpoda
+.efil fo ytilauq ecnahne
+dna
+-isyhp
+erac
+yraitret
+dna ,yradnoces
+,yramirP
+snaicinilc
+troppus ot detargetni-RME
+esu SSDC
+rof
+srotatilicaf
+dna sreirrab
+ssessA
+tnauQ
+]04[
+eporuE
+,2202
+,.la
+te srekamgeolP
+’snaicisyhp
+dna
+,srenoititcarp esrun
+,snaic
+gnibircserped
+dna sweiver noitacidem
+ni
+gnillewd-ytinummoc
+gnitaert snaicisyhp
+yb
+.)185
+= n( eporuE ssorca
+stnatsissa
+sgurd
+gnicudni-ksir-llaf
+gnidrager snoisiced
+ksir
+ta stneitap
+redlo dezilatipsoh
+dna
+.stneitap sllaf redlo
+ni
+.sllaf
+fo
+-moc
+dna
+cimedaca
+evlewt morf
+snaicisyhP
+serocs
+gnizilitu
+loot SSDC noitacfiitarts
+ksiR
+srotatilicaf
+dna sreirrab
+yfitnedI
+lauQ
+]14[
+ASU
+,0202
+,.la
+te refatseW
+.)32 = n( slatipsoh
+ytinum
+.senilediug
+lacinilc dezingocer
+morf
+-gaid
+desab-ecnedive
+fo noitpoda
+eht
+ot
+msilobmE
+yranomluP
+rof gnitset
+citson .DE eht
+ni
+sredivorp
+enicidem
+ycnegreme
+cirtaideP
+desab
+SSDC desab-elur emit-laeR
+-htem
+gnireenigne
+srotcaf
+namuh
+esU
+sdohtem
+dexiM
+]24[
+ASU
+,5102
+,.la te vadaY
+,)3
+= n(
+sreenigne
+srotcaf namuh
+,)04
+=
+n(
+sesnopser
+)on/sey( suomotohcid
+no
+SSDC
+etairporppa
+erom a ngised
+ot
+sdo
+ytlucaf
+cimedaca
+enicidem ycnegreme
+.naicinilc
+eht yb deretne snoitseuq
+ot
+.snoitaticsuser
+amuart
+cirtaidep
+rof
+.)5 = n(
+srebmem
+A bell et al. Implementation Science (2023) 18:32 Page 7 of 20
+)deunitnoc(
+2 elbaT
+yduts
+ni stnapicitraP
+detnemelpmi
+SSDC
+fo noitpircseD
+sucof ro ,evitcejbo ,mia yduts feirB
+ngised
+ydutS
+yduts
+fo
+yrtnuoc
+dna
+,raey
+,rohtuA
+noitatnemelpmi-tsop
+ro
+gnirud
+dessessa
+srotatilicaf
+dna sreirraB
+.detats ylraelc
+ton n ,ffats
+DE
+setaluclac
+SSDC
+evitsissa
+deknil
+RHE
+-etis
+rof SSDC fo noitpoda naicinilc ssessA
+tnauQ
+]34[
+ASU
+,6102
+,.la
+te drallaB
+xednI ytireveS
+msilobmE
+yranomluP
+eht
+stneitap
+DE rof gnikam-noisiced erac-fo
+noitacfiitarts
+ISEP sedivorp
+dna ,erocs
+)ISEP(
+-rahc
+dna msilobme yranomlup etuca htiw
+lanoitidda fo
+tsil a dna
+,selfiorp
+ksir
+dna atad
+-ilekil
+desaercni htiw detaicossa scitsiretca
+.stneitap fo
+noissimda
+redisnoc
+ot
+snosaer
+.esu fo dooh
+,pihsredael
+tinu
+,srebircserp
+,ffats gnisruN
+atad RHE
+emit-laer
+gnizilitu
+draobhsaD
+noitaulave noitatnemelpmi tcudnoC
+sdohtem
+dexiM
+]44[
+ASU
+,0202
+,.la
+te inasreB
+.)314 =
+n( ffats rehto
+dna
+-hgih ssessa
+ylkciuq
+ot
+snaicinilc
+tsissa ot
+ytefas tneitap rof draobhsad SSDC fo
+-timda stneitap
+rof
+sniamod
+ytefas
+ytiroirp
+-libasu
+sti fo snoitpecrep dna ,esu gnidulcni
+.latipsoh
+ot det
+.ssenevitceffe dna yti
+.)401
+= n( snaicisyhP
+sredro
+gnigami
+citsongaid
+serapmoC
+gnitaroprocni fo ssenevitceffe ssessA
+dexiM
+]54[
+adanaC
+,1102
+,.la
+te newoB
+-retla stseggus
+dna
+senilediug
+lacinilc
+htiw
+-gaid
+cirtaidep rof EOPC a otni senilediug
+.redro etairporppa
+erom
+evitan
+noitatnemelpmi
+gniyfitnedi ,gnigami citson
+’sredlohekats
+yek dna srotatilicaf ,sreirrab .sevitcepsrep
+h
+94(
+sesrun
+UCI amuart
+dna UCI lacigruS
+deddebme
+noitaluclac
+gnisod A
+SSDC
+ot srotatilicaf dna sreirrab thgilhgiH
+lauQ
+]64[
+ASU
+,1102
+,.la
+te
+noipmaC
+.)noitavresbo
+fo
+.EOPC
+eht ni
+sesrun
+yb ypareht nilusni evisnetni rof esu .stinu erac evisnetni ni
+,yevrus
+562
+=
+n( srotcod
+roinuj dna roineS
+cinortcele
+htiw
+SMA
+setargetni
+SSDC
+-pecrep ’snaicisyhp dnatsrednU
+sdohtem
+dexiM
+]74[
+eropagniS
+,4102
+,.la
+te wohC
+.)spuorg
+sucof 11
+= n
+.gnibircserp
+SSDC citoibitna s’latipsoh a fo snoit
+srotcaf
+laicosohcysp fo tcapmi eht dna
+-adnemmocer
+tnemtaert fo ecnatpecca no .snoit
+.)73
+=
+n( snaicisyhp
+latipsoh
+roinuj dna roineS
+-ecnedive
+cfiiceps-tneitap
+sedivorp
+SSDC
+snoitpecrep
+’snaicisyhp latipsoh erolpxE
+lauQ
+]84[
+eropagniS
+,8102
+,.la
+te auhC
+snoitadnemmocer
+citoibitna
+desab
+-wets
+laiborcimitna sdrawot sedutitta dna
+.gnibircserp
+fo tniop
+eht ta
+.SSDC dna smargorp pihsdra
+lacidem
+,ytefas
+dna ytilauq
+,scitamrofnioiB
+.depoleved
+eb ot teY
+sreirrab ,sfeileb larutluc enimreteD
+lauQ
+]94[
+ASU
+,7102
+,.la
+te gnuhC
+-idem
+ycnegreme
+cirtaidep
+,SMA ni sredael
+-RHE
+fo noitatnemelpmi ot srotatilicaf dna
+troppus
+noisiced
+lacinilc ,snaicirtaidep
+,enic
+-drawets
+laiborcimitna rof SSDC detargetni
+-itcarp
+esrun
+dna
+,stnatsissa
+naicisyhp ,smaet
+.DE cirtaidep eht ni pihs
+.)spuorg
+sucof
+71
+= n ,sweivretni
+5 = n( srenoit
+-amrahp
+ygolocno
+dna stsigolocno
+lacideM
+desab snoitseggus
+lacinilc
+sekam
+SSDC
+SSDC
+a fo ngised deretnec-resu mrofnI
+dexiM
+]05[
+dnalerI
+,2102
+,.la
+te snilloC
+.)14 = n(
+stsic
+resu eht yb
+dettimbus
+noitamrofni
+eht no
+sedutitta
+dnatsrednu dna ,ygolocno rof
+.enicidem
+desab-ecnedive
+gnisu ro
+-amrahp
+dna snaicisyhp fo egdelwonk dna .ygolocno ni SSDC tuoba stsic
+htlaeh
+deilla
+,stsicamrahp
+,sesrun
+,snaicisyhP
+gnibircserp
+latipsoh
+rof
+SSDC dna
+EOPC
+-nagro
+dna srekrow erachtlaeh woh erolpxE
+lauQ
+]01[
+KU
+,7102
+,.la
+te
+llewsserC
+noitatnemelpmi
+,ffats troppus
+,slanoisseforp
+-elpmi
+metsys
+fo
+epyt
+ni deirav
+hcihw
+noitcudortni
+eht detadommocca snoitazi
+srodnev
+metsys
+dna ,snaicinhcet
+,sreganam
+-etni-RHE
+sv enola-dnats
+,.g.e(
+detnem
+gnibircserp
+latipsoh rof SSDC dna EOPC fo
+42
+= n
+,sweivretni
+371 = n( slatipsoh
+xis ssorca
+.)detarg
+.emit revo
+.)stidua
+tnemucod
+71
+= n ,snoitavresbo
+Abell et al. Implementation Science (2023) 18:32 Page 8 of 20
+)deunitnoc(
+2 elbaT
+yduts
+ni
+stnapicitraP
+detnemelpmi
+SSDC
+fo noitpircseD
+sucof ro ,evitcejbo ,mia yduts feirB
+ngised
+ydutS
+yduts
+fo yrtnuoc
+dna
+,raey ,rohtuA
+sesrun
+eruliaf
+traeh
+dna
+stsigoloidraC
+traeh
+fo
+tnemtaert eht
+ni SSDC cfiiceps
+A
+secnereffid
+dna sreirrab deviecrep erolpxE
+tnauQ
+]15[
+sdnalrehteN
+eht
+,3102
+,.la te seirV
+ed
+.)261
+=
+n(
+.debircsed
+ton si
+tub stneitap
+eruliaf
+stsigoloidrac
+dna sesrun eruliaf traeh fo -taert eruliaf traeh rof SSDC a gnisu ot
+ecneuflni
+dna ecnaveler ssessa dna ,tnem .tnemeganam egdelwonk fo
+.)52
+=
+n(
+stsicamrahp
+lacinilC
+ecnallievrus
+emit-laer
+sedivorp
+SSDC
+ecnatpecca
+’stsicamrahp lacinilc enimreteD
+tnauQ
+]25[
+ASU
+,7102
+,.la te hsilgnE
+draobhsad
+a ni seipareht
+lacituecamrahp
+fo
+-ituecamrahp
+fo ecnallievrus rof SSDC a fo
+,noitacidem
+tsniaga
+selur sedulcnI
+.weiv
+.metsys htlaeh a ssorca seipareht lac
+.atad
+tneitap
+cihpargomed
+dna ,yrotarobal
+.)91
+=
+n(
+stsicamrahp
+desab-latipsoH
+stneitap
+sefiitnedi SSDC
+detargetni-RHE
+gnisu stsicamrahp fo ssecorp erolpxE
+lauQ
+]35[
+ASU
+,8102
+,.la te onailuiG
+enevretni
+dna noitaulave
+evitcepsorp
+rof
+laiborcimitna
+mrofrep ot loot SSDC elgnis a
+.gnibircserp
+laiborcimitna
+evorpmi
+ot
+.metsys
+erachtlaeh a ssorca pihsdrawets
+,)ytlaicepsbus
+dna
+lareneg(
+enicidem
+lanretnI
+-rocni
+margorp
+gniredro
+noitacidem
+RHE
+esu
+ot sreirrab dna stfieneb dnatsrednU
+tnauQ
+]45[
+ASU
+,2002
+,.la
+te namssalG
+yrtaihcysp
+dna
+,enicidem
+lacisyhp
+,ygoloruen
+detamotua
+”tnacfiingis“
+ro ”lacitirc“ gnitarop
+strela
+gurd EOPC deddebme ,detamotua fo
+.)861
+=
+n( snaicinilc
+dnasuoht
+owt yletamixorppa
+rof
+strela
+sriaffA
+snareteV a ssorca erac tneitaptuo ni
+.snoitanibmoc
+gurd defiiceps
+.metsys erac htlaeh
+.)92
+=
+n(
+sesrun
+noitatilibaher
+caidraC
+-aher
+caidrac
+rof stnemssessa
+sdeen
+stsissA
+-ingoc
+no SSDC a fo tceffe eht dnatsrednU
+lauQ
+]55[
+sdnalrehteN
+eht
+,0102
+,.la te duoG
+-ilpicsiditlum
+hctuD ot
+gnidrocca noitatilib
+latnemnorivne
+dna ,lanoitazinagro ,evit
+.senilediug
+noitatilibaher
+caidrac
+yran
+tcapmi
+yam hcihw srotatilicaf dna sreirrab
+-nemelpmi
+enilediug noitatilibaher caidrac .noitat
+stnediser
+enicidem
+lanretni
+dna
+snaicisyhP
+SSDC
+deddebme
+RHE na ,SPOTS-E
+-yhp
+ot srotatilicaf dna sreirrab dnatsrednU
+lauQ
+]65[
+ASU
+,9102
+,.la te uarG
+.)12
+=
+n(
+s’tneitap
+eht fo snaicisyhp
+strela
+taht
+SSDC
+noitassec gnikoms a fo esu naicis
+noitceles
+setatilicaf
+dna sutats gnikoms
+ekatpu
+sti evorpmi ot woh niatrecsa dna
+-taert
+noitassec
+gnikoms
+desab-ecnedive
+fo
+.esu dna
+.snoitpo
+tnem
+.)801
+=
+n(
+snaicisyhP
+srotaluclac
+lacidem
+erawtfos retupmoC
+esu
+timil yam taht srotcaf eht dnatsrednU
+sdohtem
+dexiM
+]75[
+ASU
+,9102
+,.la te neerG
+yllacinilc
+ro/dna deilppus
+tneitap
+tupni
+-uclac
+lacidem fo ssenlufesu deviecrep dna
+rewsna
+etercsid
+a snruter
+dna atad decruos
+.)noitargetni RHE gnidulcni( srotal
+-seuq/eert
+noisiced a ,noitauqe
+na hguorht
+.mhtirogla
+na ro ,eriannoit
+-isyhp
+ygoloidrac
+dna
+enicidem
+ycnegremE
+stca
+taht yawhtap
+lacinilc latigid
+A
+etuca
+rof yawhtap lacinilc latigid a etaerC
+lauQ
+]85[
+dnalaeZ
+weN
+,9102
+,.la
+te nietsnetuG
+.)01
+=
+n(
+snaic
+lacinilc
+fo
+pam a dna ediug
+citamgarp
+a sa
+lacinilc
+gninibmoc yb DE eht ni niap tsehc
+-ruoj
+tneitap
+eht sebircsed
+taht woflkrow
+-atnemucod
+,troppus noisiced ,woflkrow
+.metsys
+htlaeh
+lacol a hguorht
+yen
+.RHE eht nihtiw hcraeser dna ,noit
+.)08
+=
+n(
+srebmem
+maet
+erac
+tnalpsnart
+reviL
+.depoleved
+eb
+ot teY
+-sys
+noitamrofni lacinilc tnerruc ebircseD
+sdohtem
+dexiM
+]95[
+ASU
+,4102
+,.la te sbocaJ
+maet
+erom
+ro
+eno
+yb
+detelpmoc
+syevruS
+-rotinom
+yrotarobal rof ytilanoitcnuf met
+.srebmem
+ebircsed
+,erac evisserppusonummi fo gni
+cigol
+elbatupmoc elbane ot esu enilediug
+,ecnerehda
+enilediug troppus ot strela dna
+sreirrab
+noitatnemelpmi SDC erolpxe dna .sretnec tnalpsnart revil ni
+A bell et al. Implementation Science (2023) 18:32 Page 9 of 20
+)deunitnoc(
+2
+elbaT
+yduts
+ni stnapicitraP
+detnemelpmi SSDC
+fo noitpircseD
+sucof
+ro ,evitcejbo
+,mia yduts feirB
+ngised
+ydutS
+yduts
+fo
+yrtnuoc
+dna
+,raey
+,rohtuA
+,sesrun
+caidrac
+tsilaiceps
+,stsigoloidraC
+noitagitsevni stroppus
+SSDC desab-beW
+ytilibisaef
+gnicneuflni
+srotcaf dnatsrednU
+sdohtem
+dexiM
+]06[
+KU
+,5102
+,.la
+te nosnhoJ
+582
+fo sisylana
+dna
+;)47
+=
+n( stsigoloisyhp
+stneitap rof snoisiced
+noitacidem dna
+SSDC
+a
+fo
+roivaheb
+redivorp no tcapmi dna
+.sdrocer
+tneitap
+.niap tsehc
+elbats tesno htiw
+tsehc
+ni
+tnemeganam
+anigna ezimitpo
+ot
+.scinilc niap
+.)61
+= n(
+stnediser
+enicidem
+lanretnI
+-isnesnI emiT-aimehcsI
+caidraC etucA ehT
+detimil
+gniylrednu
+snosaer dnatsrednU
+sdohtem
+dexiM
+]16[
+ASU
+,6002
+,.la
+te
+iaL
+laer ni detnirp si tnemurtsnI
+evitciderP evit
+,DE
+ni
+SSDC
+aimehcsi
+caidrac etuca fo esu
+.redaeh
+GCE eht no emit
+desab-retupmoc
+fo laitnetop erolpxe dna
+.esu
+SSDC
+ot sreirrab
+emocrevo ot lairotut
+.detats
+ylraelc
+ton n
+,snoegruS
+sixalyhporp TVD htiw
+snoegrus sedivorP
+evorpmi
+ot noitnevretni
+SSDC a ebircseD
+sdohtem
+dexiM
+]26[
+ASU
+,1102
+,.la
+te htorlesseL
+lacinilc htiw gningila
+snoitadnemmocer
+sixalyhporp
+TVD ot
+snoegrus fo ecnerehda
+evitarepo-tsop gnissecca
+nehw senilediug
+lacinhcetoicos
+esu
+dna snoitadnemmocer
+.stes redro
+noitpoda
+metsys
+wen yfitnedi ot yroeht .srotatilicaf dna sreirrab
+stsilaiceps
+TI
+dna
+,sreganam
+,sesrun
+,srotcoD
+elbaliava selipmoc taht
+SSDC laicremmoC
+srotatilicaf
+dna sreirrab
+deviecrep enimaxE
+lauQ
+]21[
+ylatI
+,7102
+,.la te itarebiL
+.)03
+=
+n(
+egnar ediw a fo tnemtaert
+rof ecnedive
+tnereffid
+ta slatipsoh
+ni ekatpu SSDC
+ot
+tniop sedivorp dna snoitidnoc
+nommoc
+fo
+tcurtsnoc
+dna ,noitpoda
+SSDC fo segats
+.snoitadnemmocer
+erac
+fo
+-atnemelpmi
+SSDC
+ediug ot krowemarf
+a
+.noit
+rehto
+dna
+,stnatsissa
+,sesrun
+,snaicisyhP
+-inilc fo ksir setamitse SSDC
+TC desab RHE
+-elpmi
+NRACEP
+ertnecitlum ezirammuS
+sdohtem
+dexiM
+]36[
+ASU
+,8102
+,.la
+te nosretsaM
+.)73
+=
+n( sredlohekats
+)IBT( yrujnI niarB citamuarT
+tnatropmi yllac
+,hcaer
+dna
+sgnidnfi lairt noitatnem
+desab TC sdnemmocer
+dna srotacidni
+-etniam
+dna ,noitatnemelpmi
+,noitpoda
+.selur noitciderp
+IBT NRACEP eht
+no
+deziretupmoc
+detargetni-RHE
+a fo ecnan
+.DE eht ni
+SSDC )TC( yhpargomot
+stneitap
+tnecseloda
+dna
+)75
+= n(
+snaicinilC
+cigol-hcnarb a sa detatilicaf
+eert noisiceD
+gnipoleved
+fo ssecorp
+evitareti ebircseD
+sdohtem
+dexiM
+]46[
+ASU
+,9102
+,.la te
+relliM
+.)75
+=
+n(
+sesnopser tneitap gnisu
+eriannoitseuq
+sdeen
+htlaeh
+lauxes
+tnecseloda rof SSDC
+a
+.snoitadnemmocer
+ekam
+ot
+.DE eht
+ni
+retnec
+htlaeh
+cimedaca
+,srepoleved
+SSDC
+larutan dna gninrael
+peed sesu SSDC
+noitatnemelpmi
+SSDC desab-IA ezylanA
+lauQ
+]56[
+adanaC
+,0202
+,.la
+te dnagtiteP
+.)02
+= n(
+sesrun
+DE
+,snaicisyhp
+DE
+,sreganam
+stneitap egairt ot gnissecorp
+egaugnal
+-atneserper
+’srotca
+eht no gnisucof DE
+ni
+tneitap no desab ,DE
+eht ot detneserp
+.metsys eht fo snoit
+.snoitseuq evitpada
+ot sesnopser
+.)21
+= n(
+snaicisyhP
+ksir owt senibmoc SSDC
+deddebme RHE
+woflkrow
+ot srotatilicaf
+dna sreirrab ydutS
+lauQ
+]66[
+ASU
+,1202
+,.la te
+iewlaS
+-pus ot dednemmocer
+smhtirogla gnirocs
+-aca
+egral
+fo DE
+ni SSDC a fo noitargetni
+.msilobmE yranomluP
+fo sisongaid trop
+.metsys htlaeh cimed
+RHE eht morf atad
+setalupop SSDC
+,erocs ksir s’tneitap
+eht etaluclac
+ot
+txen eht rof noitadnemmocer
+a sedivorp
+,tset citsongaid eht gniredro
+stroppus ,pets
+redro dna noisiced eht
+stnemucod dna
+.eton
+s’naicisyhp eht
+ni
+Abell et al. Implementation Science (2023) 18:32 Page 10 of 20
+)deunitnoc(
+2 elbaT
+yduts ni stnapicitraP
+detnemelpmi
+SSDC fo noitpircseD
+sucof
+ro ,evitcejbo
+,mia
+yduts feirB
+ngised
+ydutS
+yduts
+fo
+yrtnuoc
+dna
+,raey ,rohtuA
+.)43 = n(
+srotcod
+UCI roinuj dna
+roineS
+laicremmoc
+a
+nihtiw deddebme
+SSDC
+-lufesu
+deviecrep
+dna
+ekatpu
+enimreteD
+lauQ
+]76[
+ailartsuA
+,6102
+,.la
+te iccutnaS
+tniop
+ta strela
+htiw loot gnibircserp
+cinortcele
+ni
+deddebme
+SSDC fo ssen
+-erp
+htiw
+sredro
+nettirw-erp
+,gnibircserp
+fo
+noitazimotsuc
+fi dna
+,UCI
+eht
+ni gnibircserp
+lairetam
+ecnerefer
+a dna ,sdlefi detalupop
+.dedeen si
+.loot
+hcraes
+,pihsredael
+dna
+ffats
+gnisrun ,snaicisyhp
+DE
+nerdlihc
+rof
+elur noitciderp
+lacinilC
+tnemnorivne
+lacinhcetoicos
+DE ebircseD
+lauQ
+]86[
+ASU
+,3102
+,.la
+te naheehS
+-krow
+fo h 09
+;)621
+=
+n( pihsredael TI
+lacinilc
+.amuart
+daeh tnulb ronim
+htiw
+-leved SSDC
+erutuf
+fo
+ngised
+eht mrofni ot
+.snoitavresbo
+wofl
+.amuart
+cirtaidep
+rof tnempo
+.slatipsoh
+neves :seiduts
+esaC
+etelpmoc
+ot
+IA sezilitu
+SSDC laicremmoC
+-elpmi IA
+ot
+srotatilicaf
+dna sreirrab
+yfitnedI
+lauQ
+]96[
+sdnalrehteN
+eht
+,0202
+,.la te mhortS
+-tlusnoc
+lagel
+,stsigoloidar
+roinuj dna
+roineS
+stnemssessa
+ytirutam
+enob detamotua
+-hteN eht
+ni
+ygoloidar
+lacinilc
+ni noitatnem
+lacinhcet
+roinuj
+,stsicisyhp lacinilc
+,tna
+.sdnah
+’stneitap
+cirtaidep
+fo syar-X
+no
+desab
+.sdnalre
+,sreganam
+,tsitneics
+atad roines ,snaicisyhp
+noitavonni
+dna
+,srosivda
+noitatnemelpmi .)42 = n( sreganam
+-soh
+dna
+ytinummoc
+,sevitatneserper
+tneitaP
+motpmys
+detroper-tneitap
+senibmoc
+SSDC
+ytilibatpecca
+dna
+ytilibisaef
+etaulavE
+lauQ
+sdnalrehteN
+eht
+,1202
+,.la
+te
+patS red nav
+erac
+evitaillap
+dna
+,sPG
+latipsoh ,sesrun
+latip
+desab-enilediug
+htiw elacs tnemssessa
+erac evitaillap
+ni tnemeganam
+motpmys fo
+]07[
+.)15 = n( stsilaiceps
+snaicinilc
+strela
+dna snoitadnemmocer
+-sys eht
+fo sweiv
+eht
+gnirolpxe
+yb SSDC
+.smotpmys ssessaer
+ot
+.sresu
+dne
+erutuf s’met
+.)02 = n( srebircserp
+DE
+cirtaireg
+rof
+tes
+yrtne redro noitpircserP
+esu
+ot
+sreirrab
+dna
+srotatilicaf
+yfitnedI
+lauQ
+]17[
+ASU
+,7102
+,.la
+te
+grebnednaV
+.stneitap
+cirtaireg
+evorpmi
+ot
+DE eht
+ni SSDC a fo
+.ytilauq
+gnibircserp
+.)33
+= n( sesrun
+deretsiger
+dna snaicisyhP
+lacigoloisyhp
+71
+sesu SSDC laicremmoC
+SSDC
+a gnisu
+fo
+secneirepxe
+erolpxE
+lauQ
+]27[
+ASU
+,9002
+,.la te rebeW
+-aulave
+htlaeh
+cinorhc
+a dna ,ega
+,selbairav
+-lav dna
+,sevitom
+gnidulcni
+erac lacitirc rof
+.semoctuo
+tneitap tciderp
+ot noit
+.ygolonhcet
+eht
+esu ton
+ro esu ot seu
+.)61 = n(
+sesruN
+sisongaid
+gnidivorp
+erawtfos desab-eluR
+erawtfos
+SSDC
+tnemelpmi
+dna poleveD
+sdohtem
+dexiM
+]37[
+yekruT
+,7102
+,.la te zamlıY
+tset
+yrotarobal
+ni segnahc
+nopu gnidneped
+stneitap
+recnac
+htiw
+gnikrow
+sesrun rof
+.stnemtaert
+lacidem dna
+seulav
+gnisu
+secneirepxe
+rieht
+erolpxe dna .SSDC eht
+-amrahp
+dna ,ffats
+lacidem
+roines dna
+roinuJ
+lavorppa
+selbane
+taht SSDC laicremmoC
+ylwen
+fo
+ytidilav
+dna
+ytilibailer
+enimaxE
+tnauQ
+]47[
+ailartsuA
+,2102
+,.la te idiaZ
+.)511 =
+n(
+stsic
+scitoibitna
+detcirtser
+fo gnibircserp
+rof
+’snaicisyhp
+gnirusaem
+elacs
+depoleved
+-iced
+dna
+senilediug
+lacinilc sedivorp
+dna
+srotatilicaf
+dna
+sreirrab
+fo snoitpecrep
+.troppus
+nois
+lavorppa
+citoibitna
+na
+fo noitpoda
+sdrawot .SSDC
+-amrahp
+dna ,ffats
+lacidem
+roines dna
+roinuJ
+senilediug
+lacinilc
+htiw SSDC laicremmoC
+noitaulave
+ssecorp
+fo tcapmi
+enimaxE
+sdohtem
+dexiM
+]57[
+ailartsuA
+,3102
+,.la te idiaZ
+.)24 =
+n(
+stsic
+ebircserp
+ot
+ytilanoitcnuf
+desab-elor
+dna
+-itna rof loot
+SSDC
+desab-bew
+fo ekatpu no
+.erac
+fo
+tniop eht ta scitoibitna
+gnihcaet
+ytisrevinu
+a
+ni pihsdrawets
+citoib .latipsoh
+DE ,margoidracortcelE
+GCE ,sisobmorht
+suonev
+peeD
+TVD
+,yrtne
+redro redivorp
+deziretupmoC
+EOPC ,metsys
+troppus
+noisiced
+lacinilC SSDC
+,pihsdrawets
+laiborcimitnA
+SMA
+,ecnegilletni
+laicfiitrA
+IA :snoitaiverbbA
+noitamrofnI
+TI ,tinu
+erac
+evisnetni UCI ,metsys
+troppus
+noisiced
+lacinilc
+tnegilletnI
+SSDC ,noitatilibaheR
+baher ,srenoititcarp
+lareneG
+PG
+,drocer lacidem
+cinortcelE
+RME
+,drocer
+htlaeh
+cinortcelE
+RHE
+,tnemtraped
+ycnegremE
+tinu
+erac
+evisnetni
+lacigruS
+UCIS ,ygolonhceT
+A bell et al. Implementation Science (2023) 18:32 Page 11 of 20
+but hindered when they perceived it brought little rela- after a clinical decision was recommended. While this
+tive advantage to usual practice (determinant: perceived could be coded as a challenge in the “Wider System”
+benefits of CDSS). Other codes were only reported to act domain, we felt it only weakly aligned with the “interor-
+as barriers (n = 12, e.g., CDSS not sensitive to complex- ganizational networking” sub-domain we mapped it to.
+ity) or only as facilitators (n = 3, e.g., CDSS used in audit, This was also the case for some codes aligning with the
+feedback, and benchmarking). “Adopters” category, where the nuance of psychologi-
+Combined, these higher-order codes represented 40 cal and motivational factors related to end users was not
+unique determinants influencing the implementation and adequately captured in the “Staff” sub-domain. Addition-
+use of CDSS in hospital settings (Fig. 2). The most com- ally, we chose to interpret the “Condition” sub-domain of
+monly reported determinants were the fit of CDSS with “Nature of Condition” as “Clinical Context” where bar-
+workflows (n = 19, 44% of studies), the usefulness of the riers or facilitators may have been specific to the com-
+CDSS output in practice (n = 17, 40% of studies), CDSS plexity of a particular clinical area (e.g., the emergency
+technical dependencies and design (n = 16, 37% of stud- department).
+ies), trust of users in the CDSS input data and evidence
+base (n = 15, 35% of studies), and the contextual fit of the Condition domain
+CDSS with the user’s role or clinical setting (n = 14, 33% This domain refers to the contextual factors and char-
+of studies). acteristics of the healthcare condition or problem for
+Fourteen of these higher-level determinants were which a particular intervention or technology is being
+reported in 25% or more of the included studies (Fig. 3). implemented. Twenty-five studies (57%) reported at
+While these common determinants occurred across least one barrier or facilitator which could be catego-
+almost all NASSS domains, the CDSS “technology” and rized in the “Condition” domain. The condition or clini-
+“value proposition” domain contained the largest concen- cal context was most often reported to act as a barrier
+tration of reported barriers and facilitators. to CDSS implementation. The most common barriers
+included the inflexibility of CDSS to allow for tailoring
+Mapping barriers and facilitators to the NASSS framework to contextual and situational factors specific to a par-
+Mapping the barriers and facilitators identified in each ticular illness, clinical context, or patient cohort and the
+individual study (Additional file 2A) to one of the seven difficulties associated with “defining complex clinical sit-
+domains of the NASSS framework enabled an examina- uations within a set of rules” [50]. These were a particu-
+tion of the key areas, and potentially understudied or lar concern for CDSS deployed in complex, fast-paced
+underreported gaps, for CDSS implementation. This emergency departments [36, 65, 66, 68] for specialist
+is visualized as a matrix in Fig. 4. Overall, barriers and clinicians, and in intensive care units [67]. Where CDSS
+facilitators reported in individual studies were most information and recommendations could be tailored to
+often aligned with the NASSS domains of “Technol- local practice, however, implementation was facilitated.
+ogy” (n = 140, 35%), “Organization” (n = 108, 27%), and
+“Adopters” (n = 73, 18%). No codes were assigned to the Technology domain
+“Embedding and Adaptation Over Time” domain. More The technology domain captured the material features,
+barriers than facilitators were identified related to the knowledge inputs and outputs of the CDSS, its procure-
+“Condition/Context,” “Technology,” and “Adopters.” How- ment model, and the knowledge and skill required to
+ever, for the “Value Proposition,” “Organization,” and use it. Almost all studies reported barriers or facilitators
+“Wider System,” just as many facilitators as barriers were related to the CDSS technology itself (n = 40, 91%) and it
+noted. A detailed summary of the barriers and facilitators consistently acted as a barrier across all sub-domains.
+related to each NASSS domain and represented in Fig. 4 Many material and technical features inherent within
+is discussed below. implemented CDSS led to limitations and challenges in
+how users adopted the tools in practice. These included
+Appropriateness of NASSS framework for categorizing CDSS poor user experience, issues with the interface or physi-
+implementation determinants cal design, alert fatigue, information redundancy, privacy
+We experienced challenges mapping some codes to suit- concerns, technical issues, and inconsistent performance.
+able NASSS sub-domains. In several instances, a code Other issues related to the lack of CDSS integration
+was applicable to a NASSS domain but the available sub- within existing clinical pathways and limited interoper-
+domains were not adequate to capture the description of ability within existing technological architecture, both
+the barrier or facilitator. For example, in one study [65], requiring workarounds for successful implementation.
+CDSS use was hindered by having limited available ser- By contrast, ensuring CDSS integrated easily into existing
+vice options in the community for onward patient care systems and employing user-informed design principles
+Abell et al. Implementation Science (2023) 18:32 Page 12 of 20
+Fig. 2 Number of included studies reporting each higher-order determinant for CDSS implementation and adoption
+A bell et al. Implementation Science (2023) 18:32 Page 13 of 20
+Fig. 3 Tree map highlighting most common CDSS implementation determinants (reported in 25% or more of studies) mapped to NASSS
+framework domain. Numbers represent the number of studies reporting the determinant
+in its creation were both highlighted as key facilitators to disparities in diagnostic accuracy or treatment recom-
+implementation. mendations based on race or gender. Additionally, in
+An important aspect to consider during the imple- several studies, the CDSS output was perceived to have
+mentation of CDSS is the type and quality of knowl- limited usefulness in practically delivering care. For
+edge or information that the technology provides to end example, one output was described as “not prescriptive
+users. Studies indicated clinicians held concerns about enough to effectively apply to individual patients at
+the completeness, quality, accuracy, and relevance of the point-of-care” [62]. However, this technology sub-
+the information used to inform the decision support domain could equally act as an important implementa-
+(e.g., evidence or guideline in knowledge-based CDSS). tion facilitator. Studies observing this sub-domain as a
+This often led to a mistrust of the CDSS output and facilitator reported clear evidence-based inputs under-
+lack of acceptance of the decision made. Related to this pinning the CDSS to build clinician trust; a CDSS
+were wider issues of CDSS design such as possibilities output which could be used to effectively supplement
+for bias inherent in the data used (e.g., population- clinical expertise or judgment; and/or an output which
+specific) or the level of validation required to ensure could be used as a tool to foster communication with
+Artificial Intelligence and algorithms are sufficiently patients, and between teams of clinicians.
+equitable. For example, consider an algorithm used to Fewer studies reported determinants related to skills
+detect lung cancer from medical imaging scans. If this or knowledge of end users, and most of these were barri-
+algorithm is trained on a dataset consisting mainly of ers. Challenges were related to a lack of user knowledge
+scans from male patients, it may not perform as well of the CDSS system or clinical condition supported,
+when applied to scans from female patients. This gen- coupled with limited or poor technical training and sup-
+der bias in the training data can lead to disparities port. Perceptions that using a new CDSS would result
+in the algorithm’s accuracy, potentially resulting in in a loss of productivity could also deter end users from
+missed or delayed lung cancer diagnoses in women. engaging with the CDSS. Two studies [62, 71] high-
+Additionally, it is crucial to determine the appropri- lighted such impacts on productivity for clinicians due
+ate level of validation needed to ensure that the inte- to the learning curve of a new technology, “when clinical
+gration of Artificial Intelligence and algorithms in pathways were used, providers initially struggled with
+CDSS is fair and unbiased. This validation process the order sets. Surgeons had increased order entry time
+should address potential algorithmic biases, such as and a decrease in productivity” [62].
+Abell et al. Implementation Science (2023) 18:32 Page 14 of 20
+Fig. 4 Matrix demonstrating the frequency and distribution of barriers and facilitators reported in each study across NASSS domains
+and sub-domains
+Value proposition domain or perceived, then it would be unlikely to be accepted.
+This domain explores the proposition or value that the Several studies [12, 46, 50] also cited the risk of medi-
+intervention offers to users, providers, organizations, and cal errors and patient safety concerns as diminishing the
+the wider healthcare system. It is important to consider value of the technology.
+how, and for whom, a new CDSS technology generates
+value to ensure its successful implementation. Almost Adopter system domain
+two-thirds of studies in this review (n = 28) reported the The adopter system refers to the individuals, groups, or
+perceived relative advantage of using CDSS compared organizations that are involved in the adoption, imple-
+to usual practice was an equally important barrier and mentation, and use of a particular innovation or inter-
+facilitator of uptake. That is, CDSS use was facilitated if it vention within the healthcare setting. Thirty-six studies
+was perceived to enhance the ability of clinicians to work (82%) reported key considerations of CDSS adoption
+effectively or efficiently, improve workflow and save time, related to its users. Determinants in this domain more
+or contribute to positive patient outcomes. Additionally, often acted as barriers than facilitators; however, some
+if clinicians saw benefit in the role of CDSS to standard- key enabling factors were noted. While the NASSS
+ize implementation of guidelines or care, it was more framework considers staff, patients, and caregivers in
+readily accepted. Conversely, if the CDSS was not use- this domain, the studies in this review almost exclusively
+ful or did not deliver benefit of some kind, whether real focused on healthcare professionals. The key themes
+A bell et al. Implementation Science (2023) 18:32 Page 15 of 20
+related to perceptions of impact of CDSS on their role, skills, or familiarity with the CDSS. Physical opportunity
+responsibility, and professional autonomy; personal fac- barriers related to limited time to invest in learning and
+tors such as general attitudes and motivations; and their using the new CDSS.
+physical capability and opportunity to use the CDSS.
+Only two papers [37, 70] highlighted barriers which were Organization domain
+perceived to impact patient adoption of CDSS. The main This domain considered organizational capacity and
+concerns were the requirement of patients to enter data readiness to implement CDSS, funding and costs of the
+into the system, and patients who did not act on recom- new technology, implementation processes, and changes
+mendations provided by the clinician and CDSS. to team interactions and routines. Interestingly, the 35
+Staff perceptions of professional autonomy were per- studies (80%) categorized in this domain reported barri-
+ceived to be either reduced or enhanced by CDSS. This ers and facilitators to occur almost equally.
+depended on whether CDSS was seen as a tool that inhib- One of the most frequently reported considerations
+ited or facilitated clinician ability to make judgments. in the organizational domain was the extent of change
+While implementation and adoption were hindered needed to organizational routines to implement a new
+when clinicians had “fear of losing control over autono- CDSS. More likely to act as a barrier in included studies,
+mous decision-making” [12], where local implementation this was reflective of CDSS fit with existing workflows,
+allowed professional autonomy to be balanced with the and existing governance practices. CDSS implementation
+standardization provided by the CDSS output, adoption that required minimal workflow changes, interruptions,
+was facilitated. Similarly, perceptions of professional role or unnecessary duplication of activities were more likely
+identity and responsibility were both positive and nega- to be successful.
+tive influences on implementation. CDSS were seen as An early, ongoing, and supported implementation plan
+enabling professionals of different specialties to engage in was also reported as one of the most frequent facilitators
+the decision-making domains of others. This was seen as of CDSS implementation in the organization domain.
+a barrier in some specialties where there may be clearly Components of successful implementation strategies
+defined hierarchies, but as a facilitator where CDSS could included local champions and super-users that promoted
+reinforce the tasks and responsibilities of one particu- and supported use of the CDSS; benchmarking, audit,
+lar profession (e.g., Doctor) compared to another (e.g., and feedback to drive change; provision of technical
+Pharmacist). training and support; and early engagement and involve-
+Perceptions, irrespective of their accuracy, about the ment of users in the development and implementation
+time and effort required to use a CDSS, its complexity, of the CDSS. Conversely, a lack of planned implementa-
+availability, usability, timeliness, or usefulness in particu- tion process was reported by other studies to lead to poor
+lar work contexts were reported to reduce user motiva- organizational preparedness and limited buy-in which
+tion for CDSS. Lack of acceptance, intentional passive hindered implementation.
+resistance, and cognitive influences (e.g., memory and Organizations that demonstrated a good overall capac-
+attention) often meant users reverted to workflows and ity to innovate provided enabling environments for CDSS
+processes they were more comfortable with. Psychologi- implementation. This incorporated a positive institu-
+cal characteristics of individual end users also emerged tional culture, clear innovation strategy, organizational
+as barriers to the adoption and implementation of CDSS. support for change, and previous successful technologi-
+This included individual preferences and attitudes about cal deployment. Conversely, limited leadership buy-in for
+the features, usability, or perceived benefits of a CDSS. innovation or a lack of organizational policies or goals
+The level of risk tolerance exhibited by individual clini- to innovate created barriers for CDSS implementation.
+cians can also influenced their willingness to trust and Some organizations were reported to have an ingrained
+therefore use CDSS. Perceptions about CDSS being less culture that was generally resistant to change. Thus, the
+accurate also led to user hesitancy among clinicians. successful introduction of an innovation such as CDSS
+Additionally, the perceived relationship with the patient was unlikely to be successful unless this cultural factor
+also adversely impacted uptake of CDSS. Healthcare was addressed. The readiness of the organization for tech-
+professionals who highly value personal interactions nology-supported change was more often reported to be a
+and direct patient engagement harbored concerns about barrier in included studies, highlighting such concerns as
+the potential disruption of the doctor-patient relation- limitations in the system-level infrastructure or informa-
+ship that may arise with the use of technology-driven tion technology resources to enable CDSS implementa-
+interventions. tion. Similarly, issues related to governance represented
+Finally, although reported to a lesser extent, capability organizational barriers with respect to the readiness of
+barriers incorporated issues such as lack of knowledge, policies, procedures, and reporting requirements for
+Abell et al. Implementation Science (2023) 18:32 Page 16 of 20
+CDSS. Only one paper [59] specifically reported that con- Adopting a theory-informed implementation science
+sideration of increased costs of resources for the organi- approach to this review has also enabled an examina-
+zation under conditions of uncertain funding could be a tion of the complexity of CDSS implementation in real-
+barrier to CDSS use. world healthcare settings. To our knowledge, this is the
+first review to systematically identify, classify, and map
+peer-reviewed literature about barriers and facilitators
+Wider system domain
+of hospital-based CDSS implementation using an imple-
+The wider system domain considers factors such as the
+mentation science framework. Two recent systematic
+political, economic, and social contexts within which
+reviews assessing the determinants of CDSS uptake have
+the healthcare system operates. Only eight papers (18%)
+been limited to relatively linear descriptions or analysis
+reported determinants of CDSS implementation which
+of the issue (i.e., including a recent pooled analysis with
+sat in the wider healthcare, social, or policy system. The
+extreme heterogeneity [6, 77]). This underscores the
+majority of these (n = 6) were concerned with regulatory
+value of a framework-informed classification of these
+or medico-legal issues related to aspects of CDSS clinical
+determinants which identifies multiple implementation
+use or compliance. For example, in two studies [12, 69],
+influencers along the adoption-user-sustainment path-
+clinicians were concerned about where legal responsi-
+way to inform a cascade of targeted implementation
+bility would lie if patient harm occurred when follow-
+strategies.
+ing CDSS recommendations. However, one study [68]
+By addressing the common barriers and facilitators
+reported CDSS would have better adoption if it provided
+identified, stakeholders can employ context-relevant
+data to help meet external regulatory requirements. Two
+implementation strategies to more effectively promote
+studies [41, 69] reported on the enabling nature of profes-
+and sustain CDSS implementation outcomes [78]. To
+sional bodies in CDSS implementation. This was because
+achieve this, the authors recommend decision mak-
+they could provide guidelines to support CDSS input,
+ers should involve end users in the design and testing
+provide a platform for knowledge exchange, or lead an
+phases of CDSS to ensure that the system meets contex-
+implementation agenda to increase use in different con-
+tual needs and is aligned with existing workflows. This
+texts and professions. Finally, pressure on healthcare
+may allow for more effective and accurate resource pri-
+budgets was identified as a facilitator for the adoption of
+oritization [13]. Transparency and systematic govern-
+CDSS in one paper [69] when there was an expectation
+ance of CDSS may build trust in the data sources and
+that use of such technologies would lead to efficiencies or
+the accuracy of outputs, ensuring the CDSS is being
+increased effectiveness and therefore reductions in costs.
+used appropriately and in the best interests of patients
+[8]. Providing ongoing support and training to end users
+Discussion can address perceptual and psychosocial determinants
+of CDSS acceptance, enabling users to effectively use the
+Our study identified a comprehensive set of determinants
+system [10, 11]. Tailoring implementation strategies to
+prioritized by the literature that impact the implemen-
+different service contexts may address organizational-
+tation process of CDSS within hospital systems. These
+level determinants related to workflow integration and
+were captured across a mix of study designs, geographic
+ensure the CDSS is compatible with the hospital’s exist-
+locations, participants, technology types, CDSS func-
+ing processes and infrastructure [7]. Advocating for leg-
+tions, and clinical contexts of implementation. In doing
+islative clarity regulating the use of CDSS for clinician
+so we have systematically identified common barriers
+decision-making can potentially address wider system
+and facilitators which can inform the design of targeted
+barriers, providing clarity, and may boost confidence in
+implementation strategies to enhance the adoption of
+the use of CDSS tools.
+CDSS within hospitals. In particular, the findings sug-
+Our review supports the value of the NASSS frame-
+gest that there is a need for CDSS to be designed to fit
+work for assessing context and guiding CDSS imple-
+the workflows and contexts of clinical practice and that
+mentation. It offers a nuanced view of determinants,
+enhancing user trust in the accuracy, value, and relevance
+processes, and outcomes by considering the dynamic
+of the CDSS and its output is crucial for effective imple-
+interplay between the system, the context, and the stake-
+mentation outcomes. This finding is supported by previ-
+holders. In our review, most determinants, with very few
+ous literature which has emphasized the importance of
+exceptions, could be appropriately categorized by the
+implementation context and attaining good “clinician-
+contextually specific domains within the NASSS frame-
+patient-system integration” when developing CDSSs [76].
+work. This illustrates the external validity of this frame-
+This review highlights the importance of further integrat-
+work to identify and meaningfully categorize CDSS
+ing implementation science principles into CDSS inter-
+implementation determinants within hospital settings.
+vention design [6].
+A bell et al. Implementation Science (2023) 18:32 Page 17 of 20
+Similar validity of the NASSS framework has been is currently unclear how and if health consumer perspec-
+observed in reviews examining the implementation of tives are generally sought during the intervention roll-out
+artificial intelligence in health care settings [76] and vir- phases of CDSS within hospitals, and this constitutes a
+tual care implementation within primary care [22]. How- significant gap in our knowledge of these potentially
+ever, as was the case in our mapping, the authors of that important determinants. It must also be noted that the
+paper also experienced challenges aligning some of the reported health system determinants of CDSS adoption
+determinants with existing NASSS sub-domains. do not represent an exhaustive list, since the absence of
+Consequently, these findings suggest that NASSS may evidence does not indicate evidence of absence.
+need to be further contextualized to account for indi-
+vidual technologies. Greater clarification of existing
+Conclusions
+domains and sub-domains is required to understand how
+Ongoing efforts are needed to categorize common factors
+implementation of different technologies may be catego-
+within hospital systems that influence the adoption, inte-
+rized within the existing framework. For example, under-
+gration, and sustainability of digital health solutions. This
+standing whether the adaptations to “The Condition”
+will enable the optimal integration of digital innovations
+we made in this review are consistent with the underly-
+into hospital settings, ensuring intended improvements
+ing theory of NASSS. Additionally, new evidence-based
+in outcomes can be achieved and maintained. Applying
+sub-domains (for example in “The Adopters” or “Wider
+established implementation science approaches, such as
+Condition”) may be required to supplement the cur-
+using theoretical frameworks and models, can enhance
+rent NASSS framework. With such refinements, NASSS
+the efficiency and effectiveness of this process in a sys-
+would have better utility for context assessment and
+tematic and contextually appropriate manner. The find-
+development of targeted implementation strategies to
+ings of our review contribute to assisting healthcare
+enhance the adoption, integration, and sustainability of
+stakeholders in identifying key determinants that can be
+CDSS in hospitals.
+modified to facilitate the adoption of Clinical Decision
+Additionally, a noteworthy limitation of the literature
+Support Systems (CDSS) in various hospital settings.
+identified is the lack of identified determinants mapped
+to the “embedding over time” domain of NASSS. This
+reflects an ongoing need to systematically evaluate and Abbreviations
+CDSS Computerized clinical decision support system
+document how adoption factors around digital health
+NASSS Nonadoption, Abandonment, Scale-up, Spread, and Sustainability
+interventions are adapted and changed over time. This
+could be partially due to the limited funding opportuni-
+Supplementary Information
+ties available for longitudinal studies that extend beyond
+The online version contains supplementary material available at https:// doi.
+the initial evaluation phase. Understanding these deter- org/ 10. 1186/ s13012- 023- 01287-y.
+minants are especially important for acute health ser-
+vices like hospitals which face dynamical and changing Additional file 1. Refinement of search strategy.
+contextual pressures related to budgets, socio-political Additional file 2. Visual summary of synthesis and analysis process and
+events, and natural disasters. Furthermore, we note that mapping to key results and figures.
+most studies focusing on healthcare stakeholders pre-
+dominantly included frontline clinicians and other health Acknowledgements
+The authors would like to thank Hannah Carter, Sanjeewa Kularatna, and
+workers. We recommend future work also include other
+Nicole White for their assistance with preliminary title and abstract screening.
+informants involved in policy, informatics, and health The authors gratefully thank the Queensland University of Technology for
+management which may serve to unpack wider-domain supporting this work.
+factors with greater specificity.
+Authors’ contributions
+Limitations of this review are excluding studies which BA and SM conceived the review. BA conducted the systematic search. DR,
+only described intervention development or conducted TD, SN, BA, RP, RB, AT, and MB conducted the screening. DR, TD, SN, and BA
+conducted the data extraction and analysis. DR, TD, SN, BA, RB, RP, AT, MB, and
+context assessments without any explicit reference to a
+SM drafted and edited the manuscript.
+CDSS, which might adjust for contextual determinants
+during the intervention development process (informed Funding
+This work was supported by funding from the Digital Health Cooperative
+by context assessments and related co-design strate-
+Research Centre (DHCRC-0058) and SM is supported by a National Health and
+gies). Furthermore, while patient-reported factors were Medical Research Council administered fellowship (#1181138). The funders
+not explicitly excluded from this review, very few (n = 2) had no role in study design or decision to submit for publication.
+included studies reported on this perspective. These
+Availability of data and materials
+excluded perspectives may serve to further contextual- The authors declare that the data supporting findings of this review are avail-
+ize and potentially add to the determinants identified. It able within the paper.
+Abell et al. Implementation Science (2023) 18:32 Page 18 of 20
+Declarations 15. Bauer MS, Kirchner J. Implementation science: what is it and why should I
+care? Psychiatry Res. 2020;283:112376.
+Ethics approval and consent to participate 16. Peters DH, Adam T, Alonge O, Agyepong IA, Tran N. Republished research:
+Not applicable. implementation research: what it is and how to do it. Br J Sports Med.
+2014;48(8):731.
+Consent for publication 17. Greenhalgh T, Wherton J, Papoutsi C, Lynch J, Hughes G, A’Court C,
+Not applicable. et al. Beyond adoption: a new framework for theorizing and evaluating
+nonadoption, abandonment, and challenges to the scale-up, spread,
+Competing interests and sustainability of health and care technologies. J Med Internet Res.
+The authors declare that they have no competing interests. 2017;19(11):e367.
+18. Greenhalgh T, Wherton J, Papoutsi C, Lynch J, Hughes G, A’Court C, et al.
+Author details Analysing the role of complexity in explaining the fortunes of technology
+1 Australian Centre for Health Services Innovation and Centre for Healthcare programmes: empirical application of the NASSS framework. BMC Med.
+Transformation, School of Public Health and Social Work, Faculty of Health, 2018;16(1):66.
+Queensland University of Technology, Brisbane, QLD, Australia. 2 Biomedical 19. Abimbola S, Patel B, Peiris D, Patel A, Harris M, Usherwood T, et al. The
+Informatics and Digital Health, School of Medical Sciences, Faculty of Medicine NASSS framework for ex post theorisation of technology-supported
+and Health, The University of Sydney, Camperdown, Australia. change in healthcare: worked example of the TORPEDO programme.
+BMC Med. 2019;17(1):233.
+Received: 3 April 2023 Accepted: 17 July 2023 20. KadesjöBanck J, Bernhardsson S. Experiences from implementation of
+internet-delivered cognitive behaviour therapy for insomnia in psychiat-
+ric health care: a qualitative study applying the NASSS framework. BMC
+Health Serv Res. 2020;20(1):729.
+21. Grady A, Barnes C, Wolfenden L, Lecathelinais C, Yoong SL. Barriers and
+References enablers to adoption of digital health interventions to support the imple-
+1. Sutton RT, Pincock D, Baumgart DC, Sadowski DC, Fedorak RN, Kroeker mentation of dietary guidelines in early childhood education and care:
+KI. An overview of clinical decision support systems: benefits, risks, and cross-sectional study. J Med Internet Res. 2020;22(11):e22036.
+strategies for success. NPJ Digit Med. 2020;3(1):17. 22. Darley S, Coulson T, Peek N, Moschogianis S, van der Veer SN, Wong DC,
+2. Dissanayake PI, Colicchio TK, Cimino JJ. Using clinical reasoning ontolo- et al. Understanding how the design and implementation of online
+gies to make smarter clinical decision support systems: a systematic consultations affect primary care quality: systematic review of evidence
+review and data synthesis. J Am Med Inform Assoc. 2020;27(1):159–74. with recommendations for designers, providers, and researchers. J Med
+3. Hak F, Guimarães T, Santos M. Towards effective clinical decision support Internet Res. 2022;24(10):e37436.
+systems: a systematic review. PLoS One. 2022;17(8):e0272846. 23. Khong PCB, Holroyd E, Wang W. A critical review of the theoretical frame-
+4. World Health Organization (WHO). WHO guideline: recommendations works and the conceptual factors in the adoption of clinical decision
+on digital interventions for health system strengthening. Geneva: WHO; support systems. Comput Inform Nurs. 2015;33(12):555–70.
+2019. 24. Khanijahani A, Iezadi S, Dudley S, Goettler M, Kroetsch P, Wise J. Organi-
+5. Laka M, Milazzo A, Merlin T. Why provision of clinical decision support zational, professional, and patient characteristics associated with artificial
+(CDS) is not enough? Factors influencing the CDS adoption. Eur J Public intelligence adoption in healthcare: a systematic review. Health Policy
+Health. 2020;30(Supplement_5):ckaa165.223. Technol. 2022;11(1):100602.
+6. Kouri A, Yamada J, Lam Shin Cheung J, Van de Velde S, Gupta S. Do pro- 25. Munn Z, Peters MDJ, Stern C, Tufanaru C, McArthur A, Aromataris E.
+viders use computerized clinical decision support systems? A systematic Systematic review or scoping review? Guidance for authors when choos-
+review and meta-regression of clinical decision support uptake. Imple- ing between a systematic or scoping review approach. BMC Med Res
+ment Sci. 2022;17(1):21. Methodol. 2018;18(1):143.
+7. Laka M, Milazzo A, Merlin T. Factors that impact the adoption of Clinical 26. Arksey H, O’Malley L. Scoping studies: towards a methodological frame-
+Decision Support Systems (CDSS) for antibiotic management. Int J Envi- work. Int J Soc Res Methodol. 2005;8(1):19–32.
+ron Res Public Health. 2021;18(4):1901. 27. Levac D, Colquhoun H, O’Brien KK. Scoping studies: advancing the meth-
+8. Petkus H, Hoogewerf J, Wyatt JC. What do senior physicians think odology. Implement Sci. 2010;5(1):69.
+about AI and clinical decision support systems: quantitative and 28. Tricco AC, Lillie E, Zarin W, O’Brien KK, Colquhoun H, Levac D, et al.
+qualitative analysis of data from specialty societies. Clin Med (Lond). PRISMA Extension for Scoping Reviews (PRISMA-ScR): checklist and
+2020;20(3):324–8. explanation. Ann Intern Med. 2018;169(7):467–73.
+9. Stone EG. Unintended adverse consequences of a clinical decision sup- 29. Scells H, Zuccon G. searchrefiner: a query visualisation and understanding
+port system: two cases. J Am Med Inform Assoc. 2018;25(5):564–7. tool for systematic reviews. In: Proceedings of the 27th ACM International
+10. Cresswell KM, Lee L, Mozaffar H, Williams R, Sheikh A, Robertson A, et al. Conference on Information and Knowledge Management. Torino: Asso-
+Sustained user engagement in health information technology: the long ciation for Computing Machinery; 2018. p. 1939–42.
+road from implementation to system optimization of computerized phy- 30. Clark JM, Sanders S, Carter M, Honeyman D, Cleo G, Auld Y, et al. Improv-
+sician order entry and clinical decision support systems for prescribing in ing the translation of search strategies using the Polyglot Search Transla-
+hospitals in England. Health Serv Res. 2017;52(5):1928–57. tor: a randomized controlled trial. J Med Libr Assoc. 2020;108(2):195–207.
+11. Perski O, Short CE. Acceptability of digital health interventions: embrac- 31. The Endnote Team. Endnote. Endnote X20 ed. Philadelphia: Clarivate;
+ing the complexity. Transl Behav Med. 2021;11(7):1473–80. 2013.
+12. Liberati EG, Ruggiero F, Galuppo L, Gorli M, González-Lorenzo M, Maraldi 32. Ouzzani M, Hammady H, Fedorowicz Z, Elmagarmid A. Rayyan—a web
+M, et al. What hinders the uptake of computerized decision support and mobile app for systematic reviews. Syst Rev. 2016;5(1):210.
+systems in hospitals? A qualitative study and framework for implementa- 33. Sim I, Gorman P, Greenes RA, Haynes RB, Kaplan B, Lehmann H, et al.
+tion. Implement Sci. 2017;12(1):113. Clinical decision support systems for the practice of evidence-based
+13. Donovan T, Abell B, Fernando M, McPhail SM, Carter HE. Implementa- medicine. J Am Med Inform Assoc. 2001;8(6):527–34.
+tion costs of hospital-based computerised decision support systems: a 34. Pollock D, Peters MDJ, Khalil H, McInerney P, Alexander L, Tricco AC, et al.
+systematic review. Implement Sci. 2023;18(1):7. Recommendations for the extraction, analysis, and presentation of results
+14. Iyamu I, Gómez-Ramírez O, Xu AX, Chang H-J, Watt S, Mckee G, et al. in scoping reviews. JBI Evid Synth. 2022;21(3):520–32.
+Challenges in the development of digital public health interventions 35. Blanco N, O’Hara LM, Robinson GL, Brown J, Heil E, Brown CH, et al. Health
+and mapped solutions: findings from a scoping review. Digit Health. care worker perceptions toward computerized clinical decision support
+2022;8:20552076221102256. tools for Clostridium difficile infection reduction: a qualitative study at 2
+hospitals. Am J Infect Control. 2018;46(10):1160–6.
+A bell et al. Implementation Science (2023) 18:32 Page 19 of 20
+36. Flynn D, Nesbitt DJ, Ford GA, McMeekin P, Rodgers H, Price C, et al. Devel- 55. Goud R, van Engen-Verheul M, de Keizer NF, Bal R, Hasman A, Hellemans
+opment of a computerised decision aid for thrombolysis in acute stroke IM, et al. The effect of computerized decision support on barriers to
+care. BMC Med Inform Decis Mak. 2015;15(1):1–15. guideline implementation: a qualitative study in outpatient cardiac
+37. Hasnie AA, Kumbamu A, Safarova MS, Caraballo PJ, Kullo IJ. A clinical deci- rehabilitation. Int J Med Inform (Shannon, Ireland). 2010;79(6):430–7.
+sion support tool for familial hypercholesterolemia based on physician 56. Grau LE, Weiss J, O’Leary TK, Camenga D, Bernstein SL. Electronic decision
+input. Mayo Clin Proc Innov Qual Outcomes. 2018;2(2):103–12. support for treatment of hospitalized smokers: a qualitative analysis of
+38. Melnick ER, Holland WC, Ahmed OM, Ma AK, Michael SS, Goldberg HS, physicians’ knowledge, attitudes, and practices. Drug Alcohol Depend.
+et al. An integrated web application for decision support and automa- 2019;194:296–301.
+tion of EHR workflow: a case study of current challenges to standards- 57. Green TA, Whitt S, Belden JL, Erdelez S, Shyu C-R. Medical calculators:
+based messaging and scalability from the EMBED trial. JAMIA Open. prevalence, and barriers to use. Comput Methods Programs Biomed.
+2019;2(4):434–9. 2019;179:105002.
+39. Mugabe KV. Barriers and facilitators to the adoption of artificial intel- 58. Gutenstein M, Pickering JW, Than M. Development of a digital clinical
+ligence in radiation oncology: a New Zealand study. Tech Innov Patient pathway for emergency medicine: lessons from usability testing and
+Support Radiat Oncol. 2021;18:16–21. implementation failure. Health Informatics J. 2019;25(4):1563–71.
+40. Ploegmakers KJ, Medlock S, Linn AJ, Lin Y, Seppälä LJ, Petrovic M, et al. 59. Jacobs J, Weir C, Evans RS, Staes C. Assessment of readiness for clinical
+Barriers and facilitators in using a Clinical Decision Support System for fall decision support to aid laboratory monitoring of immunosuppressive
+risk management for older people: a European survey. Eur Geriatr Med. care at U.S. liver transplant centers. Appl Clin Inform. 2014;5(4):988–1004.
+2022;13(2):395–405. 60. Johnson R, Evans M, Cramer H, Bennert K, Morris R, Eldridge S, et al. Feasi-
+41. Westafer LM, Kunz A, Bugajska P, Hughes A, Mazor KM, Schoenfeld EM, bility and impact of a computerised clinical decision support system on
+et al. Provider perspectives on the use of evidence-based risk stratifica- investigation and initial management of new onset chest pain: a mixed
+tion tools in the evaluation of pulmonary embolism: a qualitative study. methods study. BMC Med Inform Decis Mak. 2015;15(1):71.
+Acad Emerg Med. 2020;27(6):447–56. 61. Lai F, Macmillan J, Daudelin DH, Kent DM. The potential of training to
+42. Yadav K, Chamberlain JM, Lewis VR, Abts N, Chawla S, Hernandez A, et al. increase acceptance and use of computerized decision support systems
+Designing real-time decision support for trauma resuscitations. Acad for medical diagnosis. Hum Factors. 2006;48(1):95–108.
+Emerg Med. 2015;22(9):1076–84. 62. Lesselroth BJ, Yang J, McConnachie J, Brenk T, Winterbottom L. Address-
+43. Ballard DW, Vemula R, Chettipally UK, Kene MV, Mark DG, Elms AK, et al. ing the sociotechnical drivers of quality improvement: a case study of
+Optimizing clinical decision support in the electronic health record: post-operative DVT prophylaxis computerised decision support. BMJ
+clinical characteristics associated with the use of a decision tool for Qual Saf. 2011;20(5):381–9.
+disposition of ED patients with pulmonary embolism. Appl Clin Inform. 63. Masterson Creber RM, Dayan PS, Kuppermann N, Ballard DW, Tzimenatos
+2016;7(3):883–98. L, Alessandrini E, et al. Applying the RE-AIM Framework for the evaluation
+44. Bersani K, Fuller TE, Garabedian P, Espares J, Mlaver E, Businger A, et al. of a clinical decision support tool for pediatric head trauma: a mixed-
+Use, perceived usability, and barriers to implementation of a patient methods study. Appl Clin Inform. 2018;9(3):693–703.
+safety dashboard integrated within a vendor EHR. Appl Clin Inform. 64. Miller MK, Mollen C, Behr K, Dowd MD, Miller E, Satterwhite CL, et al.
+2020;11(1):034–45. Development of a novel computerized clinical decision support system
+45. Bowen SP, Johnson KMPA, Reed MHF, Zhang L, Curry LP. The effect of to improve adolescent sexual health care provision. Acad Emerg Med.
+incorporating guidelines into a computerized order entry system for 2019;26(4):420–33.
+diagnostic imaging. J Am Coll Radiol. 2011;8(4):251–8. 65. Petitgand C, Motulsky A, Denis J-L, Régis C. Investigating the barriers to
+46. Campion TR, Waitman LR, Lorenzi NM, May AK, Gadd CS. Barriers and physician adoption of an artificial intelligence-based decision support
+facilitators to the use of computer-based intensive insulin therapy. Int J system in emergency care: an interpretative qualitative study. In: Digital
+Med Inform (Shannon, Ireland). 2011;80(12):863–71. personalized health and medicine. Amsterdam: IOS Press; 2020. p. 1001–5.
+47. Chow A, Lye DCB, Arah OA. Psychosocial determinants of physicians’ 66. Salwei ME, Carayon P, Hoonakker PL, Hundt AS, Wiegmann D, Pulia M,
+acceptance of recommendations by antibiotic computerised decision et al. Workflow integration analysis of a human factors-based clinical deci-
+support systems: a mixed methods study. Int J Antimicrob Agents. sion support in the emergency department. Appl Ergon. 2021;97:103498.
+2014;45(3):295–304. 67. Santucci W, Day RO, Baysari MT. Evaluation of hospital-wide computer-
+48. Chua AQ, Tang SSL, Lee LW, Yii DYC, Kong ST, Lee W, et al. Psychosocial ised decision support in an intensive care unit: an observational study.
+determinants of physician acceptance toward an antimicrobial steward- Anaesth Intensive Care. 2016;44(4):507–12.
+ship program and its computerized decision support system in an acute 68. Sheehan B, Nigrovic LE, Dayan PS, Kuppermann N, Ballard DW, Ales-
+care tertiary hospital. J Am Coll Clin Pharm. 2018;1(1):e1–8. sandrini E, et al. Informing the design of clinical decision support
+49. Chung P, Scandlyn J, Dayan PS, Mistry RD. Working at the intersec- services for evaluation of children with minor blunt head trauma in the
+tion of context, culture, and technology: provider perspectives on emergency department: a sociotechnical analysis. J Biomed Inform.
+antimicrobial stewardship in the emergency department using 2013;46(5):905–13.
+electronic health record clinical decision support. Am J Infect Control. 69. Strohm L, Hehakaya C, Ranschaert ER, Boon WP, Moors EH. Implementa-
+2017;45(11):1198–202. tion of artificial intelligence (AI) applications in radiology: hindering and
+50. Collins I, Breathnach O, Felle P. Electronic clinical decision support facilitating factors. Eur Radiol. 2020;30(10):5525–32.
+systems attitudes and barriers to use in the oncology setting. Ir J Med Sci. 70. van der Stap L, de Heij AH, van der Heide A, Reyners AK, van der Linden
+2012;181(4):521–5. YM. Clinical decision support system to optimise symptom management
+51. de Vries AE, van der Wal MHL, Nieuwenhuis MMW, de Jong RM, van Dijk in palliative medicine: focus group study. BMJ Support Palliat Care. 2021.
+RB, Jaarsma T, et al. Perceived barriers of heart failure nurses and cardiolo- https:// doi. org/ 10. 1136/ bmjsp care- 2021- 002940.
+gists in using clinical decision support systems in the treatment of heart 71. Vandenberg AE, Vaughan CP, Stevens M, Hastings SN, Powers J, Markland
+failure patients. BMC Med Inform Decis Mak. 2013;13(1):54. A, et al. Improving geriatric prescribing in the ED: a qualitative study of
+52. English D, Ankem K, English K. Acceptance of clinical decision support facilitators and barriers to clinical decision support tool use. Int J Qual
+surveillance technology in the clinical pharmacy. Inform Health Soc Care. Health Care. 2017;29(1):117–23.
+2017;42(2):135–52. 72. Weber S, Crago EA, Sherwood PR, Smith T. Practitioner approaches to the
+53. Giuliano CA, Binienda J, Kale-Pradhan PB, Fakih MG. “I never would have integration of clinical decision support system technology in critical care.
+caught that before”: pharmacist perceptions of using clinical decision J Nurs Adm. 2009;39(11):465–9.
+support for antimicrobial stewardship in the United States. Qual Health 73. Yılmaz AA, Ozdemir L. Development and Implementation of the clinical
+Res. 2018;28(5):745–55. decision support system for patients with cancer and nurses’ experiences
+54. Glassman PA, Simon B, Belperio P, Lanto A. Improving recognition of drug regarding the system. Int J Nurs Knowl. 2017;28(1):4–12.
+interactions: benefits and barriers to using automated drug alerts. Med 74. Zaidi STR, Marriott JL. Barriers and facilitators to adoption of a web-based
+Care. 2002;40(12):1161–71. antibiotic decision support system. South Med Rev. 2012;5(2):42–9.
+Abell et al. Implementation Science (2023) 18:32 Page 20 of 20
+75. Zaidi STR, Thursky KA. Using formative evaluation to improve uptake of a
+web-based tool to support antimicrobial stewardship. J Clin Pharm Ther.
+2013;38(6):490–7.
+76. Gama F, Tyskbo D, Nygren J, Barlow J, Reed J, Svedberg P. Implementation
+frameworks for artificial intelligence translation into health care practice:
+scoping review. J Med Internet Res. 2022;24(1):e32215.
+77. Ronan CE, Crable EL, Drainoni ML, Walkey AJ. The impact of clinical
+decision support systems on provider behavior in the inpatient setting: a
+systematic review and meta-analysis. J Hosp Med. 2022;17(5):368–83.
+78. Proctor EK, Powell BJ, McMillen JC. Implementation strategies: recom-
+mendations for specifying and reporting. Implement Sci. 2013;8(1):139.
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in pub-
+lished maps and institutional affiliations.
+RReeaaddyy ttoo ssuubbmmiitt yyoouurr rreesseeaarrcchh ?? CChhoooossee BBMMCC aanndd bbeenneeffiitt ffrroomm::
+• fast, convenient online submission
+• thorough peer review by experienced rese archers in your field
+• rapid publication on acceptance
+• support for research data, including large and complex data types
+• gold Open Access which fosters wider collaboration and increased citations
+• maximum visibility for your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more biomedcentral.com/submissions

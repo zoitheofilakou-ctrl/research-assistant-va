@@ -1,0 +1,550 @@
+Content lists available at Pubmedia
+International Journal of Health and Information System (IJHIS)
+journal homepage : https://ijhis.pubmedia.id/index.php/ijhis
+Review
+Electronic Medical Record and Smoking Cessation Activities:
+Literature Review
+Diah Wijayanti Sutha1*, Bambang Nudji2, Eka Wilda Faida3, Christine4
+1 STIKES Yayasan RS Dr Soetomo, Indonesia; diahwsutha@gmail.com
+2 STIKES Yayasan RS Dr Soetomo, Indonesia; bambangnudji@gmail.com
+3 STIKES Yayasan RS Dr Soetomo, Indonesia; ekawildafaida@gmail.com
+4 Poltekkes Kemenkes Palu, Indonesia; christinekromoprawiro@gmail.com
+* Correspondence : diahwsutha@gmail.com
+Abstract: Vital information regarding the life and health of a patient is gathered in medical records.
+The electronic medical record (EMR) is the product of medical record information technology
+development. Electronic health records and other health information systems have the potential to
+be useful tools for raising the caliber and efficacy of clinical interventions aimed at reducing tobacco
+consumption. Electronic medical records are used by doctors, clinics, and health care organizations
+to track patient smoking cessation outcomes and as a smoking cessation support tool. Thirteen
+papers from the Google Schoolar database and the reference lists of the included research were used
+in the review. We looked for research that was written between 2010 and 2020. Overall, these trials
+discovered that only slight benefits were made by several doctor-recommended therapies related to
+tobacco use. Following modifications to electronic medical records intended to speed up the
+collection and management of tobacco use during medical visits, there seems to have been a rise in
+the documentation of tobacco status and referrals for cessation counseling. To maximize the
+potential of EMRs for extra therapeutic advantages and smoking cessation in hospital settings, more
+research is required.
+Citation: D. W. Sutha, B. Nudji, E. W. Keywords: counseling; medical record; physicians; smoking cessation
+Faida, and C. Christine, “Electronic
+Medical Record and Smoking
+Cessation Activities: Literature
+Review”, IJHIS, vol. 1, no. 3, pp. 95–
+105.
+1. Introduction
+Worldwide, tobacco usage continues to be one of the main issues for public health
+Received: 06-11-2023 [1], with grave implications for global health and well-being. Despite advances in tobacco
+Revised: 22-12-2023
+control with policies supported by the World Health Organization (WHO) Framework
+Accepted: 30-12-2023
+Published: 03-01-2024 Conventions, 19% of the world's population is currently recorded as smoking and causing
+8 million deaths annually [2]. Every year, tobacco products claim the lives of around 7
+million people, or roughly half of their users [3]. If this is left unaddressed, the number of
+tobacco-related deaths is predicted to reach 8.3 million by 2030 [4]. Almost 80% of the 1.1
+Copyright: © 2024 by the authors.
+Submitted for possible open access billion smokers worldwide live in middle-income countries, and these countries are where
+publication under the terms and
+the burden of tobacco-related diseases and deaths is highest [3]. A comprehensive tobacco
+conditions of the Creative Commons
+Attribution-ShareAlike 4.0 control initiative should encompass provisions for aiding current smokers in ceasing their
+International License (CC BY SA) tobacco consumption, as this will contribute to diminishing the prevalence of ailments
+license
+and subsequently ameliorate public health [5], by being able to halve the use of tobacco
+(http://creativecommons.org/licenses
+/by-sa/4.0/). products among adults in the world from total smoking, it is predicted that it will be able
+to prevent 180 million deaths by 2050 [6].
+These alarming statistics reveal the persistent challenges posed by tobacco use on a
+global scale. They emphasize the need for continued efforts and more effective
+interventions to combat this major public health problem, safeguarding the health and
+well-being of individuals worldwide. The battle against tobacco’s harmful effects remains
+IJHIS 2024, Vol. 1, No. 3 https://doi.org/10.47134/ijhis.v1i2.24
+IJHIS 2024, Vol. 1, No. 3 96 of 105
+a critical priority for public health organizations, goverments, and communities around
+the world.
+In developing countries, health facilities are still a place that is used to provide
+smoking cessation assistance after quitting smoking [7]. In recognition of this, the
+Framework Convention on Tobacco Control of the World Health Organization (WHO)
+focuses significant emphasis on promoting the use of scientifically validated tobacco
+cessation techniques as well as the dissemination of comprehensive recommendations
+and best practices. These evidence-based clinical practice guidelines can be employed by
+health care policymakers to aid smokers in their cessation efforts, utilizing already
+existing strategies. [8], [9].
+Quitting smoking has a significant effect on overall health, as it reduces the risk of
+developing disease, increases the duration of life, and overall improves the health-
+promoting functioning of society [10], [11]. Patient attempts to quit smoking were found
+to be greatly enhanced by physician counseling, according to a meta-analysis of 17
+randomized trials. It has been demonstrated that even relatively small counseling efforts
+by medical professionals can boost patients' attempts to stop smoking. Because of this, it
+is now considered "standard of care" for medical practitioners to be able to counsel
+patients on the advantages of quitting as well as effective methods of doing so [12]. To
+increase adoption of standards, governments should provide the facilities and resources
+necessary to record information about smoking rates and interventions in electronic
+medical registers (EMRs). Additionally, they must ensure that the data entered into the
+EMR is properly documented [13]. Electronic Medical Records (EMR) refers to the digital
+version of a patient's paper chart in a healthcare environment. These records contain a
+comprehensive history of the patient's medical and treatment information, including
+demographics, progress notes, medications, vital signs, past medical history,
+immunizations, laboratory data, and radiology reports. EMRs are designed to facilitate
+the exchange of patient information among healthcare providers and organizations. They
+aim to improve the overall quality of healthcare by improving communication and
+coordination among healthcare professionals [14].
+Large-scale investments have been made in several countries regarding the
+technology for patient monitoring via computers. One of the main benefits of electronic
+health records (EHRs) is that they can be used to inform physicians, hospital staff, or other
+providers of healthcare services about patients' use of tobacco. They can also provide
+information about how to properly treat smoking, prescribe medication, and assist in
+making decisions regarding smoking. They can also assist people in adjusting to the new,
+enhanced smoking service, which can be used to improve some of the clinical
+performance's shortcomings. Additionally, EHR can assist in improving the practice of
+maintaining a tobacco standard by providing electronic resources for the maintenance
+service (for example, a teleport or other instrument). Several studies that we discuss here
+highlight various recommendations that can be made for patients who wish to maintain
+their health by using an EMR or EHR as a guide. In particular, changes made to the
+Electronic Health Record (EHR) aim to increase the number of patient records and
+referrals to consultants in order to achieve better patient outcomes. However, a few of
+these studies do not refute or indicate that there is an increase in the number of people
+who are smoking-quit.
+Systems for health information such as electronic health records (EHRs),
+computerized patient monitoring systems, and electronic records are considered valuable
+resources that can be used to improve patient care quality and efficiency. EHRs are likely
+to spread rapidly, at least in developed countries, if the healthcare system is experienced
+in paper form.
+In healthcare settings, electronic medical records (EMR) can help save time, space,
+and money, and improve the quality of care [15], [16]. Furthermore, prior research has
+demonstrated that the electrocardiogram (EMR) is a useful technique and instrument for
+identifying people who are at risk of diabetes and coronary heart disease as well as for
+IJHIS 2024, Vol. 1, No. 3 97 of 105
+enhancing their utilization of healthcare services [17]. Based on the demonstrated benefits
+of EMR for other chronic diseases, using this technology to intervene and, of course, as a
+promotive or curative measure with patients with tobacco dependence, which in turn can
+produce substantial health benefits.
+Previously, research has shown that the use of modified EMRs can help doctors or
+nurses identify a patient's level of nicotine use and provide counseling assistance [18],
+[19]. Although counseling assistance increased when EMR was modified with tobacco
+features, no increase in prescribing was noted [19]. Limited information regarding the
+length of the intervention process and how many appointments are scheduled for
+counseling in tobacco dependent patients can be easily managed in this EMR application.
+Lawmakers, smoking reduction advocates, and insurance companies will be
+interested in the analysis presented here. More sophisticated information systems will
+eventually lead to better health behaviors and outcomes, according to the logical model
+of the EMR Meaningful Use program. Counseling and treatment for smoking cessation
+provide an easily visible evaluation if well documented. By using a modified EMR to
+assist with counseling documentation, smoking cessation efforts have always been
+successful. In a recently published review by Cochrane, 16 studies that provided support
+for EMRs as a means of smoking cessation showed that EMRs slightly improved
+documentation and treatment tobacco use [20]. The increase in the cost of fire insurance
+is correlated with the number of fire insurance policies that they provide, which benefits
+insurance companies by increasing their effectiveness as an intervention to help with fire
+insurance. If ministry of energy and mineral resources in Indonesia (ESDM) proves to be
+an effective solution, the advocates' willingness to apply advice and counsel more broadly
+in this and other situations can be increased.
+This research aims to examine how physicians, clinics, and health care delivery
+systems use electronic medical records to support patients in quitting smoking, as well as
+the effects of this practice on patient outcomes. The novelty of this research is exploring
+the concept of developing integrated protocols in EMR to guide health professionals in
+providing more coordinated and effective smoking cessation services and broadening the
+view by highlighting user perspectives, both from the side of health professionals and
+patients, regarding the use of EMR in the context of smoking cessation. This research will
+provide new insight into how EMR can make a significant contribution to global efforts
+to reduce smoking prevalence, with the hope of creating a strong foundation for the
+development of more effective smoking cessation strategies in the future.
+2. Materials and Methods
+This study was a review of narratives. The Google Scholar database and the
+bibliographic reference lists of the included research were among the sources we
+searched. Our search yielded studies released in the years 2010–2020. We selected the
+search terms "Smoking Cessation," "Electronic Health Record," and "Electronic Medical
+Record" to facilitate the download of the study papers. We were able to acquire 2.252
+articles in the beginning. These thirteen items are thought to be pertinent.
+The manuscript must also contain sufficient details. Quality assessment was
+applied during abstract and full-text review. In the methodology, the author/review
+team first uses search criteria, along with inclusion and exclusion criteria. The final
+selection of the study is to carry out an assessment using instruments from JBI and the
+PRISMA checklist [21], [22], dan and any differences or problems in the assessment are
+resolved through discussion between the three independent reviewers who carried out
+the assessment . The tool used for sharing data is the Mendeley library by forming a
+collaboration group with the authors. The stages of manuscript selection are shown in
+Figure 1.
+IJHIS 2024, Vol. 1, No. 3 98 of 105
+Full abstract screening on
+Google Scholar (n= 2.525)
+1788 articles did not pass
+1665 articles did not pass based on title/abstract
+123 did not pass due to duplication
+T itle and abstract
+screening
+(n=737 ) 691 articles did not pass based on inclusion,
+exclusion and full text criteria
+articles that enter the full
+review process (n= 46)
+Article did not pass full-text review (n= 33)
+Article ready to be reviewed
+(n 13)
+Figure 1. Manuscript selection process
+3. Results and Discussion
+Table 1 shows the tabular results of the review conducted for this study. Overall, the
+study explains and describes the contribution of EMR as a means that can help counseling
+patients to quit smoking. There seem to be more referrals for counseling on quitting
+smoking and documentation regarding smoking status following modifications made to
+the EMR with the goal of expediting the recording and management of tobacco use at
+medical appointments. This study adds to the body of research on EMR and smoking
+cessation by offering verifiable evidence that sophisticated EMR systems with features
+like clinical reminders change the structure of clinical encounters and increase the
+possibility that physicians will record smoking, offer counseling, and write prescriptions.
+When upgrading or purchasing an EMR system, doctors need to make sure it offers
+features that help patients stop smoking. Future proposals for the EMR Meaningful Use
+incentive and reward scheme by the federal government must include explicit measures
+that connect to programs aimed at helping people quit smoking.
+Table 1. Studies Review
+Study Objective Methods Results
+Szatkowski, To compare Survey The records contained in the
+2011 patients' electronic medical record have a
+[23] memories of very good proportion of memory
+smoking cessation and help health workers to review
+advice with their suggestions to patients.
+records in the
+electronic medical
+record.
+Lindlom, Designing a Project Adult patients had a higher
+2010 smoking cessation demonstrated percentage of tobacco use after
+[24] treatment that being identified as using EMR
+focuses on the than previously (71.6% vs 78.4%,
+chief complaint p<.001). In the year following
+through electronic implementation, 6.3% of adults
+medical records who smoked received smoking
+cessation medication, 2.5% of
+IJHIS 2024, Vol. 1, No. 3 99 of 105
+Study Objective Methods Results
+adults who smoked reported that
+they received psychological help,
+and 1.5% of adults who smoked
+received psychological help.
+Rindal, In order to Group- In a telephone survey answered
+2013 provide a brief randomized by patients (72% response) it was
+[25] tobacco trial found that providers felt
+counseling and interested in quitting (70% control
+proceed to a compared to intervention 87%, p
+smoking clinic, 0.0006); talking about specific
+the EMR- strategies for quitting (26%
+approved control compared with
+guidelines should intervention 47%, p 0.003) and
+be used directing patients to smoking
+cessation channels (control 17%
+compared with intervention 37%,
+p 0.007).
+Bernstein, To address Cluster- The study noted that intervention
+2017 hospitalized randomized physicians were more likely to
+[26] smokers' self- trial order tobacco medication (35 vs.
+medication of 29%, P < 0.0001), complete a
+tobacco, explain tobacco use disorder checklist (41
+the usage and vs. 2%, P < 0.0001), and then create
+consequences of referral to smoking cessation state
+new decision (30 vs 0%, P < 0.0001). Designing
+support tools and and implementing a set of orders
+established and alerts for tobacco medication
+sequences, and in the EHR helps physicians place
+incorporate them more orders for tobacco
+into electronic medication treatment, referrals to
+health records smoking cessation departments,
+and efficiently send emails to
+patient PCPs. It was concluded
+that the EHR was very helpful in
+the counseling actions carried out.
+Bae, To evaluate the Observation For primary case visit
+2018 use of electronic with Logit documents, smoking status was
+[27] medical auto- regression recorded 77.7% of the time.
+reminder (EMR) 16.4% of the time in physicians'
+in primary care offices were ordered or
+providers' efforts provided smoking cessation
+to cessation of counseling using electronic
+smoking reminders approximately,
+compared to 9.1% of those
+without functionality. 3.7% of
+current smokers were ordered
+or prescribed smoking cessation
+medication when reminders
+were regularly used versus 2.1%
+of those who did not use
+IJHIS 2024, Vol. 1, No. 3 100 of 105
+Study Objective Methods Results
+reminders. All these differences
+have statistical significance.
+Lisa, To understand A a total of 95 patients were
+2013 some effective retrospective included (48 pre-enhancement, 47
+[28] ways to increase cohort study post-enhancement). After
+the number of enhancement, documentation of
+smoking-cessation methods for smoking cessation
+requests in the increased (0 versus 1, p = 0.03) and
+prenatal EMR documentation of smoking
+cessation attempts increased (1
+versus 2, p = 0.006). The total
+number of cigarettes consumed
+did not change (p = 0.9). The
+counseling journey is well
+tracked.
+Gina, To assess the Multivariate Documentation increased from
+2013 documentation models 48% of 207,471 patients before
+[29] dampness, use the P4P to 71% of 227,574 patients
+P4P incentive that after P4P. Improvement occurred
+serves as a among patients eligible for P4P
+payment agent by 56% to 83% (AOR, 3.6; 95% CI,
+and targets 2.9 to 4.5) and among patients not
+minorities in the eligible for P4P by 56% to 80%
+healthcare system (AOR, 3.0; 95% CI, 2.3 to 3.9),
+with a significant difference
+between the two groups (AOR,
+1.3; 95% CI, 1.1 to 1.4, p=0.009).
+Mathias, The purpose of Pre- In this study there were 1,349 and
+2012 this study is to intervention 1,346 smokers in the groups
+[30] evaluate and post- before and after the intervention.
+electronic test intervention Prescription of smoking cessation
+results and test with cohort medications did not change
+data related to study significantly after the
+research findings intervention (14.4% vs. 13.4% of
+smokers in the pre-intervention
+group, p = 0.5). This study
+showed that counseling referrals
+increased from 2.0% to 7.2% in the
+post-intervention group (p <
+0.001) and were well tracked. The
+study also displayed that more
+smokers in the post-intervention
+group changed their smoking
+status to quit during the study
+period (20.5% vs. 17.1%, p = 0.06).
+Karn, To provide Qualitative Health systems that can modify
+2016 physicians with a their EMR systems can help
+[31] single-click link patients reduce cigarette use
+within the EMR while meeting Meaningful Use
+system to requirements. Furthermore,
+IJHIS 2024, Vol. 1, No. 3 101 of 105
+Study Objective Methods Results
+streamline the research should investigate
+electronic patient whether referrals via eTobacco
+referral process to protocols have a direct
+a state-funded correlation with patient smoking
+quitline service cessation rates.
+Vidrine, To identification group- According to this study, 14.7% of
+2013 the 5As (ask, randomized identified smokers who were
+[32] advice, assess, trial that is registered for treatment benefited
+assist, and pair-matched from AAC, which was
+arrange) and and has two significantly greater than the
+Ask—Advise— treatment impact of AAR which was 0.5%,
+Refer (AAR) are arms t(4) ¼ 14.61, p ¼ 0.0001 ,
+designed to OR¼32.10 (95% CI¼16 .60, 62.06).
+support these
+practices
+Bae, To assess the level Regression Advanced EMR technology users
+2015 of sophistication analysis are more likely to record their
+[33] and efficacy of own smoking status, provide
+electronic medical advice to patients on quitting,
+records (EMRs) in and track prescriptions for
+the context of medications to aid in quitting.
+ambulatory care
+settings with
+regard to
+recording
+smoking status,
+advise on
+quitting, and
+medication use
+Adsit, To develop and Survey When compared with previous
+2014 test a secure and paper fax referrals, the
+[34] closed EHR percentage of adult tobacco users
+referral system referred to the quitline via the
+that connects eReferral system was much
+patients visiting higher, at 14% versus 0.3%. This
+health facilities to case study shows that a secure,
+a government quit closed-loop EHR-based eReferral
+smoking system is effective and safe.
+telephone number
+Greenwood, To assess the Survey with The results of a logistic regression
+2012 extent of the logistic analysis indicated that in 2010, the
+[35] process regresion odds of first documentation (OR =
+improvement on analysis 1.52; 95% CI = 1.42–1.62) and
+the e-health ongoing verification (OR = 2.86;
+record (EHR) that 95% CI = 1.42–1.62) rose after
+enables medical controlling for variations between
+assistants (MA) to treatment sites. This is different
+assist patients in from 2009. Recording smoking
+receiving cessation as the main problem for
+smoking-friendly current cigarette users increased
+IJHIS 2024, Vol. 1, No. 3 102 of 105
+Study Objective Methods Results
+care, more by 91% (OR = 1.91; 95% CI = 1.56–
+documentation 2.34). Documentation and
+and tools will be referrals for smoking cessation
+needed for can be increased in companies
+smoking-friendly adopting electronic health
+counseling records (EHR) by giving MAs the
+authority to encourage smoke
+cessation and by offering
+electronic referral options.
+The facts above also help to partially illustrate how important an EMR is for
+supporting smoking cessation counseling in terms of data gathering , patient tracking
+and treatment effectiveness [13], [20], [25], [33], [35]. EMR support may not directly
+affect the rates of nicotine cessation, but it may help some well-researched, evidence-
+based clinical therapies for tobacco use.
+In an investigation of the use of electronic health records (EHR) to enhance the
+recording and management of tobacco use among patients receiving medical and
+dental care. The use of electronic reminders to give therapeutic care for smoking
+patients appears to have increased, at least temporarily, the documenting of tobacco
+status and aid for smokers to quit [25].
+In terms of prescribing drugs, EMR therapy also plays a very important role,
+because the data will be directly connected to the drug provider. Since there is a
+significant quality difference between patients who wish to stop smoking and those
+who are using the best cessation medications, differentiating services is desirable.
+EMRs could record this [30]. It can be difficult to find clear documentation when EMR
+is in charge of counseling patients. However, approaches such as these treatments for
+provider-directed quality improvement are patient-only procedures that often fall
+short of bridging the disparity between the recommended and actual care provided in
+the field. As a result, it is likely that prescription medication will be stopped. Future
+research should concentrate on overcoming patient-level obstacles to the use of
+medications for smoking cessation, as first efforts in this area have shown promise.
+However, attempts to improve the standard of smoking cessation treatment are likely
+to be unsuccessful unless patient-level barriers to using drugs for quitting smoking are
+routinely addressed.
+Compared with counseling practices that did not optimize the use of EMR, health
+workers who used the basic system of documenting the smoking status of patients who
+maximized EMR were statistically significant in providing counselling. On adherence
+to standard of treatment, baseline EMR does not seem to have the anticipated effect,
+nevertheless. Advanced EMR practices, on the other hand, outperformed standard
+smoking cessation therapy in all three areas noticeably. This implies that the
+organization of encounters is influenced by EMR elements like clinical reminders,
+making physicians far more capable of handling them [20], [33].
+The results of the literature review above illustrate that the electronic medical
+record can be used as a means to assist health workers in smoking cessation programs.
+Generally, more advanced EMR use is associated with increased defenses against
+merokok attacks by physicians in the field. The doctor who is purchasing or upgrading
+an EMR system needs to consider the quality of their surrounding environment as part
+of their patient care. The end of the insentif program and the federal government's
+Mean Use EMR mandate require measuring specific metrics relating to merokok
+activities.
+IJHIS 2024, Vol. 1, No. 3 103 of 105
+The efficiency, quality, and satisfaction of health services are all improved by the
+implementation of an EMR system. The way in which users react to using the EMR
+system is one of the elements that determine whether or not an implementation is
+successful [36], one of which is used as a means of support for smoking cessation
+counseling. Although considerable achievements have been made in the dissemination
+of information technology in healthcare, the general clinical use of EMR systems has
+also been found to be unsuccessful. Although the exact causes of this loss of use are
+unknown, there are a few plausible theories. Computer proficiency, implementation
+procedures, immediate advantages, and effects on time efficiency are a few of them
+[37]. In light of growing financial limitations and stakeholder expectations for a good
+return on investment, it's critical to assess the effectiveness of EMR deployment [38]
+which will later be used to assist other counseling activities.
+Previous research has shown low acceptance and failure rate for EMR
+implementation, but when EMR is always evaluated for its use, success will be
+obtained. The quality, utilization, and satisfaction dimensions are all included in the
+evaluation. If users are dissatisfied with the system, they might not wish to utilize it,
+regardless of the findings of the assessment of the system's satisfaction level. The failure
+of EMR implementation has been attributed, in part, to user resistance [39]. So it can be
+concluded that the effectiveness of using EMR as a supporting tool for smoking
+cessation counseling must continue to be evaluated.
+4. Conclusions
+This study illustrates the contribution of EMR as a tool that can assist health workers
+in providing interventions in patients with smoking heart. EMR has become a
+recommendation for several health workers to simplify the counseling process about
+tobacco use. Records of the state of tobacco and the procedures for smoking cessation
+counseling increased following ESDM modifications intended to maximize the benefits of
+recording and handling for tobacco users when they use health services. Additional
+research into uncovering additional treatment and tobacco cessation outcomes in
+healthcare settings could enhance the potential of EMR.
+Critical to addressing workflow issues unique to the healthcare sector, and to
+ensuring that protocols are implemented in an easy-to-use format, is to address
+background research regarding healthcare. system and collaborate with the vendor of the
+EMR software. Suggestions for incorporating the learning curve into the health system
+include getting support from the administrative staff, companies that provide health
+services, and EMR vendors to make the integration more efficient. System quality,
+including adherence to work templates, is crucial for successful implementation. To
+quickly make changes to any ESDM system, collaboration and system acceptance with the
+target kesiapan threshold are also very important. The health system may still be in the
+early stages of implementation.
+For further research, research can be carried out regarding the effectiveness of
+implementing EMR in improving smoking cessation outcomes. Further analysis related
+to success rates, patient compliance, and long-term impact on health, can also analyze the
+factors that influence the adoption and integration of EMR in daily clinical practice.
+Author Contributions: The study was conceived and designed by DWS and BN; articles were
+screened by DWS and EWF; data was synthesised and interpreted by DWS, BN, and CH; DWS and
+CH reviewed and edited the manuscript; all authors gave their approval for the submitted version
+to be published and promised to take responsibility for all aspects of the work.
+References
+[1] A. Almulla et al., “Smoking cessation services in the eastern mediterranean region: Highlights and findings from the WHO
+IJHIS 2024, Vol. 1, No. 3 104 of 105
+report on the global tobacco epidemic 2019,” East. Mediterr. Heal. J., vol. 26, no. 1, pp. 110–115, 2020, doi:
+10.26719/2020.26.1.110.
+[2] WHO, “WHO report on the global tobacco epidemic 2021: addressing new and emerging products,” 2021.
+[3] WHO, Who global report on trends in prevalence of tobacco smoking 2000-2025, second edition. 2018.
+[4] C. D. Mathers and D. Loncar, “Projections of Global Mortality and Burden of Disease from 2002 to 2030,” PLoS Med., vol. 3,
+no. 11, 2015, doi: 10.1371/journal.pmed.0030442.
+[5] R. Peto and A. . Lopez, “Future worldwide health effects of current smoking patterns,” in Critical Issues in Global Health, and
+M. R. S. C. Everett Koop, C. E. Pearson, Ed. Jossey-Bass, 2001, pp. 154–161.
+[6] D. T. Jamison et al., Disease Control Priorities in Developing Countries (2nd Edition). Washington (DC): The International Bank
+for Reconstruction and Development / The World Bank, 2006.
+[7] S. Kalkhoran, N. L. Benowitz, and N. A. Rigotti, “Prevention and Treatment of Tobacco Use: JACC Health Promotion Series,”
+J. Am. Coll. Cardiol., vol. 72, no. 9, pp. 1030–1045, 2018, doi: 10.1016/j.jacc.2018.06.036.
+[8] NHS, “Brief interventions and referral for smoking cessation in primary care and other settings,” 2011. [Online]. Available:
+http://www.nice.org.uk/guidance/PH1 March 2006. [Accessed: 20-Jan-2001].
+[9] M. C. Fiore et al., “Treating tobacco use and dependence,” Rockville, 2008.
+[10] A. C. Novello, “Surgeon general’s report on the health benefits of smoking cessation,” Public Health Rep., vol. 105, no. 6, pp.
+545–548, 1990.
+[11] S. General, “General, S., 2014. The health consequences of smoking—50 years of progress: a report of the surgeon general,”
+US.
+[12] L. F. Stead, D. Buitrago, N. Preciado, G. Sanchez, J. Hartmann-Boyce, and T. Lancaster, “Physician advice for smoking
+cessation,” Cochrane Database Syst. Rev., vol. 2017, no. 12, 2013, doi: 10.1002/14651858.CD000165.pub4.
+[13] P. Webster, “United States to compel physicians to make ‘meaningful use’ of electronic health records,” CMAJ, vol. 182, no.
+14, p. 1500, 2010, doi: 10.1503/cmaj.109-3361.
+[14] H. J. Tange, A. Hasman, P. F. De Vries Robbé, and H. C. Schouten, “Medical narratives in electronic medical records,” Int. J.
+Med. Inform., vol. 46, no. 1, pp. 7–29, 1997, doi: 10.1016/S1386-5056(97)00048-8.
+[15] R. Hillestad et al., “Can electronic medical record systems transform health care? Potential health benefits, savings, and costs,”
+Health Aff., vol. 24, no. 5, pp. 1103–1117, 2005, doi: 10.1377/hlthaff.24.5.1103.
+[16] S. Shea and G. Hripcsak, “Accelerating the use of electronic health records in physician practices,” N ENGL J MED, vol. 362,
+pp. 192–195, 2010.
+[17] M. F. Hivert, R. W. Grant, P. Shrader, and J. B. Meigs, “Identifying primary care patients at risk for future diabetes and
+cardiovascular disease using electronic health records,” BMC Health Serv. Res., vol. 9, pp. 1–9, 2009, doi: 10.1186/1472-6963-9-
+170.
+[18] C. J. Bentz et al., “Provider feedback to improve 5A’s tobacco cessation in primary care: A cluster randomized clinical trial,”
+Nicotine Tob. Res., vol. 9, no. 3, pp. 341–349, 2007, doi: 10.1080/14622200701188828.
+[19] M. J. Romano and R. S. Stafford, “Electronic health records and clinical decision support systems: Impact on national
+ambulatory care quality,” Arch. Intern. Med., vol. 171, no. 10, pp. 897–903, 2011, doi: 10.1001/archinternmed.2010.527.
+[20] R. Boyle, L. Solberg, and M. Fiore, “Use of electronic health records to support smoking cessation,” Cochrane Database Syst.
+Rev., vol. 2014, no. 12, 2014, doi: 10.1002/14651858.CD008743.pub3.
+[21] E. Aromataris, R. Fernandez, C. Godfrey, C. Holly, H. Khalil, and P. Tungpunkom, “Methodology for JBI umbrella reviews,”
+Joanna Briggs Inst. Rev. Man., pp. 1–34, 2014.
+[22] M. J. Page et al., “The PRISMA 2020 statement: An updated guideline for reporting systematic reviews,” Int. J. Surg., vol. 88,
+no. March, 2021, doi: 10.1016/j.ijsu.2021.105906.
+[23] L. Szatkowski, A. McNeill, S. Lewis, and T. Coleman, “A comparison of patient recall of smoking cessation advice with advice
+recorded in electronic medical records,” BMC Public Health, vol. 11, pp. 2–5, 2011, doi: 10.1186/1471-2458-11-291.
+[24] C. Lindholm et al., “A demonstration project for using the electronic health record to identify and treat Tobacco users,” Wis.
+Med. J., vol. 109, no. 6, pp. 335–340, 2010.
+[25] D. B. Rindal et al., “Computer-assisted guidance for dental office tobacco-cessation counseling: A randomized controlled
+trial,” Am. J. Prev. Med., vol. 44, no. 3, pp. 260–264, 2013, doi: 10.1016/j.amepre.2012.10.023.
+[26] S. L. Bernstein et al., “Design and implementation of decision support for tobacco dependence treatment in an inpatient
+electronic medical record: a randomized trial,” Transl. Behav. Med., vol. 7, no. 2, pp. 185–195, 2017, doi: 10.1007/s13142-017-
+0470-8.
+[27] J. Bae, E. W. Ford, H. H. K. Kharrazi, and T. R. Huerta, “Electronic medical record reminders and smoking cessation activities
+in primary care,” Addict. Behav., vol. 77, no. September 2017, pp. 203–209, 2018, doi: 10.1016/j.addbeh.2017.10.009.
+[28] D. levine Lisa, C. Jitsen, M. Irwin, and B. Peter, “Enhanced physician prompts in prenatal electronic medical records impact
+documentation on smoking cessation,” Open J Onstet Gnecol, vol. 3, no. 10, pp. 717–721, 2013, doi:
+10.4236/ojog.2013.310132.Enhanced.
+[29] K. Gina, C. Yuchiao, Kj. Jennifer, L. Jeffrey, E. Jonathan, and R. Nancy, “Healthcare System Effects of Pay-for-performance
+IJHIS 2024, Vol. 1, No. 3 105 of 105
+for Smoking Status Documentation,” Am J Manag Care, vol. 19, no. 7, pp. 554–561, 2013.
+[30] J. S. Mathias, A. K. Didwania, and D. W. Baker, “Impact of an electronic alert and order set on smoking cessation medication
+prescription,” Nicotine Tob. Res., vol. 14, no. 6, pp. 674–681, 2012, doi: 10.1093/ntr/ntr265.
+[31] S. Karn et al., “Systematically Improving Tobacco Cessation Patient Services Through Electronic Medical Record Integration,”
+Health Promot. Pract., vol. 17, no. 4, pp. 482–489, 2016, doi: 10.1177/1524839916643910.
+[32] J. I. Vidrine et al., “The ask-advise-connect approach for smokers in a safety net healthcare system: A group-randomized
+trial,” Am. J. Prev. Med., vol. 45, no. 6, pp. 737–741, 2013, doi: 10.1016/j.amepre.2013.07.011.
+[33] P. Bae, P. Eric W. Ford, and P. Timoty R. Huerta, “The Electronic Medical Record‘s Role in Support of Smoking Cessation
+Activities,” Nicotine Tob. Res. Adv., vol. 26, no. 6, pp. 1–15, 2015.
+[34] R. T. Adsit et al., “Using the electronic health record to connect primary care patients to evidence-based telephonic tobacco
+quitline services: a closed-loop demonstration project,” Transl. Behav. Med., vol. 4, no. 3, pp. 324–332, 2014, doi:
+10.1007/s13142-014-0259-y.
+[35] D. A. Greenwood et al., “Utilizing clinical support staff and electronic health records to increase tobacco use documentation
+and referrals to a state quitline,” J. Vasc. Nurs., vol. 30, no. 4, pp. 107–111, 2012, doi: 10.1016/j.jvn.2012.04.001.
+[36] K. H. P. D. Dansky, L. D. P. D. Gamm, J. J. P. D. Vasey, and C. K. P. D. Barsukiewicz, “Electronic Medical Records: Are
+Physicians Ready?,” J. Healthc. Manag., vol. 44, no. 6, pp. 440–454, 1999.
+[37] R. Patterson, H. J. Murff, and J. Kannry, “Physician satisfaction with order entry systems,” J. Am. Med. Informatics Assoc., vol.
+9, no. 3, pp. 308–309, 2002, doi: 10.1197/jamia.M1022.
+[38] T. T. Lee, C. H. Yeh, and L. H. Ho, “Application of a computerized nursing care plan system in one hospital: Experiences of
+ICU nurses in Taiwan,” J. Adv. Nurs., vol. 39, no. 1, pp. 61–67, 2002, doi: 10.1046/j.1365-2648.2002.02242.x.
+[39] T. Benson and T. Benson, “Information in practice doctors do not — Part 1 : incentives,” vol. 325, no. November, 2002.

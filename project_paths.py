@@ -6,12 +6,12 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 PROCESSED_DIR = os.path.join(DATA_DIR, "processed")
 
 # Canonical project files and directories
-METADATA_PATH = os.path.join(DATA_DIR, "hybrede_metadata_v4.json")
+METADATA_PATH = os.path.join(DATA_DIR, "hybrede_metadata_v5.json")
 FILTERED_PAPERS_PATH = os.path.join(PROCESSED_DIR, "filtered_papers.json")
 SCREENING_LOG_PATH = os.path.join(PROCESSED_DIR, "screening_log.json")
 AUDIT_LOG_PATH = os.path.join(PROCESSED_DIR, "audit_log.json")
 HARVESTED_PDFS_DIR = os.path.join(DATA_DIR, "harvested_pdfs")
-FULLTEXT_DIR = os.path.join(DATA_DIR, "v3_full_text")
+FULLTEXT_DIR = os.path.join(DATA_DIR, "fulltext")
 RAG_STORE_DIR = os.path.join(BASE_DIR, "rag_store")
 RUN_MANIFEST_DIR = os.path.join(PROCESSED_DIR, "run_manifests")
 

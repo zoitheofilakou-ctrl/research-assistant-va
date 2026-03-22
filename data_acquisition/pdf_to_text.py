@@ -1,16 +1,23 @@
 import os
 import json
+import sys
 import pdfplumber
 from rapidfuzz import process, fuzz
+
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
+from project_paths import FULLTEXT_DIR, HARVESTED_PDFS_DIR, METADATA_PATH, ensure_dir
 
 # ROLE: Data Acquisition Group
 # PURPOSE: High-fidelity Text Extraction from harvested PDFs with UUID-based naming (paperId).
 #          Includes a Truncation-Aware Fuzzy Matching engine to resolve metadata sync issues.
 
 def extract_text_from_pdfs(
-    metadata_file="../data/hybrede_metadata_v5.json", 
-    pdf_folder="../data/harvested_pdfs", 
-    output_folder="../data/fulltext"
+    metadata_file=METADATA_PATH,
+    pdf_folder=HARVESTED_PDFS_DIR,
+    output_folder=FULLTEXT_DIR,
 ):
     """
     Orchestrates the conversion of PDF assets into plain text files.
@@ -27,7 +34,7 @@ def extract_text_from_pdfs(
         return
 
     if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+        ensure_dir(output_folder)
         print(f"[*] Initialized output directory: {output_folder}")
 
     # Load Metadata 'Source of Truth'

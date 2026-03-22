@@ -1,0 +1,1424 @@
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Dateofpublicationxxxx00,0000,dateofcurrentversionxxxx00,0000.
+DigitalObjectIdentifier10.1109/ACCESSxxxxx
+Ethical Framework for Harnessing the
+Power of AI in Healthcare and Beyond
+SIDRANASIR,RIZWANAHMEDKHANANDSAMITABAI
+FacultyofInformationTechnology,SalimHabibUniversity,Karachi,Pakistan
+{sidra.nasir,rizwan.khan,samita.bai}@shu.edu.pk
+Correspondingauthor:RizwanAhmedKhan(e-mail:rizwan.khan@shu.edu.pk).
+ABSTRACT
+In the past decade, the deployment of deep learning (Artificial Intelligence (AI)) methods has become
+pervasiveacrossaspectrumofreal-worldapplications,ofteninsafety-criticalcontexts.Thiscomprehensive
+research article rigorously investigates the ethical dimensions intricately linked to the rapid evolution of
+AItechnologies,withaparticularfocusonthehealthcaredomain.Delvingdeeply,itexploresamultitude
+of facets including transparency, adept data management, human oversight, educational imperatives, and
+international collaboration within the realm of AI advancement. Central to this article is the proposition
+of a conscientious AI framework, meticulously crafted to accentuate values of transparency, equity,
+answerability, and a human-centric orientation. The second contribution of the article is the in-depth and
+thorough discussion of the limitations inherent to AI systems. It astutely identifies potential biases and
+the intricate challenges of navigating multifaceted contexts. Lastly, the article unequivocally accentuates
+the pressing need for globally standardized AI ethics principles and frameworks. Simultaneously, it aptly
+illustrates the adaptability of the ethical framework proposed herein, positioned skillfully to surmount
+emergentchallenges.
+INDEXTERMS EthicalAI,Transparency,Privacy,DataandHumanbias,Human-centricAI
+I. INTRODUCTION recognition [6]. In low-stakes applications, these models
+can autonomously make decisions. For example, they can
+Artificial intelligence (AI) has shown immense promise in
+assisthealthcareprofessionalsindiagnosingdiseasesorrec-
+transforminghealthcarethroughtheapplicationofadvanced
+ommend personalized treatment plans. In high-stakes situa-
+technologies like machine learning (ML) and deep learning
+tions, these models can significantly enhance the efficiency
+(DL) [1], [2]. These techniques enable the processing and
+and accuracy of human decision-making [7]. However, it is
+analysisofvastamountsofmedicaldata,leadingtoimproved
+crucial to ensure that these systems support human users
+patient care through pattern identification and valuable in-
+andoperatorswhobearthefinalresponsibilityfordecision-
+sightsextraction.However,despitetheseadvancements,cer-
+making. The models should also act as "super-assistants,"
+tain limitations hinder the widespread adoption and inte-
+providing an additional layer of insight and analysis to aid
+gration of AI into clinical practice, particularly in terms of
+healthcareprofessionalsintheirdecision-makingprocess[8].
+explainabilityandinterpretability[3],[4].
+Yetwithbenefits,limitationsofAIcannotbeignored[9].
+Unlike traditional computer programs that follow a pre-
+defined set of instructions, ML and DL models learn from The size and complexity of models, particularly deep
+datatoidentifypatternsandmakepredictions[5].Thisself- neuralnetworks(DNNs),haveincreasedinpursuitofbetter
+programming ability, coupled with the immense computing predictive performance. However, there has been criticism
+power of modern computers, allows models to process vast of solely focusing on predictive accuracy. Relying on large,
+amounts of healthcare data quickly. While simple tasks can opaquemodelsraisesconcernsaboutthelackoftransparency
+be automated with conventional programs, it is particularly in decision-making processes. In the healthcare context, the
+suited for complex cognitive tasks in healthcare, such as lackofinterpretability[10]andexplainability[11]inMLand
+naturallanguagetranslation,predictivemaintenanceofmed- DLmodelscanleadtoethicalissuesandalossoftrust[12],
+ical equipment, and large-scale image analysis for object [13].Understandingwhyaparticulardecisionismadeisjust
+VOLUME4,2016 1
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+FIGURE1. MachineLearningfromdatacollectiontoitsinterpretabilityandexplainabilitytohumans
+ascrucialasknowingwhatthedecisionis.Insufficientinter- abilitytoaddressquestionsrelatedtothemodel’sbehaviorin
+pretability hinders the widespread and responsible adoption scenarios involving new data. It involves understanding the
+ofML,especiallyinhigh-stakesdomainswheretransparency consequences of specific actions or changes in the model’s
+and accountability are paramount. However, addressing the predictions as shown in Figure 2. In healthcare, where de-
+issue of interpretability can open doors to valuable future cisions can have life-and-death consequences, it is crucial
+applicationsofMLinhealthcare[14]. to have a clear understanding of how AI algorithms arrive
+Therefore, there is a growing need for explanations that attheirrecommendations.Withoutexplainability,healthcare
+help healthcare professionals understand and trust AI sys- professionalsmayfinditchallengingtotrustandvalidatethe
+tems. Explanations can provide insights into the reasoning outputsofAIsystems,leadingtoresistancetoadoptingthese
+behind ML predictions, ensuring that the learned patterns technologies[19].
+alignwithexpectationsandintentions.Transparentandinter-
+pretable ML models are essential for fostering trust, ethical Moreover,thelackofinterpretabilityhamperstheabilityto
+decision-making, and responsible adoption of AI in health- identifyandmitigatebiasesinthedataoralgorithmsusedby
+care. Additionally, the lack of transparency in traditional AImodels.Biaseddataorbiasedmodelpredictionscanhave
+AI algorithms, particularly DL models, leads to them being serious consequences in healthcare, resulting in inaccurate
+seen as enigmatic systems with concealed internal opera- diagnoses, suboptimal treatments, and potential harm to the
+tions.Thislackofclaritypresentsnotableobstacleswhenit patients. Without the ability to understand and explain the
+comestoestablishingtrustandgainingapprovalfromhealth- reasoningbehindAI-generatedrecommendations,itbecomes
+careprofessionals,patients,andregulatorybodies.However, difficulttoidentifyandaddressthesebiaseseffectively.The
+thesechallengescanbeovercomebyprovidingexplanations absence of explainability in AI systems also raises ethical
+and interpretations that shed light on the inner workings concerns.Inhealthcare,itisessentialtoprovidejustifications
+and decision-making processes employed by the model to and explanations for decisions that impact patients’ well-
+achieveitsresults[4]. being. When AI systems cannot provide transparent and
+Interpretabilityreferstotheabilitytounderstandtheinner interpretable explanations for their recommendations, it be-
+workings or mechanics of a ML model, particularly in the comeschallengingtounderstandandjustifythebasisofthese
+context of predicting temperature over time in a normal decisions. This lack of transparency may result in ethical
+regime. It allows us to gain insights into how the model dilemmas and undermine the accountability of AI systems
+generates its predictions without necessarily understanding inhealthcare[20].Forexample,in[21]theauthorsdiscussed
+theunderlyingreasonsorcausalitybehindthosepredictions that,GPT-4asanAIchatbotformedicinehasbenefitssuchas
+[15],[16].Inotherwords,interpretabilityisadesirablecom- providingaccessiblemedicalinformation,availabilityround-
+ponentforexplainability,butnotallinterpretablemodelsare the-clock, reducing healthcare professionals’ workload, and
+explainable [17]. Additionally, it deals with counterfactual aiding patient education and language translation. However,
+cases, enabling us to examine what would have changed ithascertainlimitationsincludingtheinabilitytounderstand
+if certain features or values had been different. It aims to the full context, lack of clinical judgment, and reliance on
+develop a comprehensive understanding of the ML system, training data. Risks involve potential misinformation, over-
+including both observed and unobserved factors, towards relianceonAI,ethicalandlegalconcerns,andtheabsenceof
+creatingaglobaltheory.Theblack-boxnatureofAImodels emotional support. It should be used cautiously to comple-
+restrictsthetransparencyoftheiroutputs,makingitdifficult menthumanexpertise ratherthanreplaceitentirely.Hence,
+to comprehend the reasoning behind their decisions [18] as the question arises; What is an intelligent system, and what
+illustrated in Figure 1. Nevertheless, it focuses on compre- doesitentails?AIinvolvesthepursuitofimbuingmachines
+hendingtheoperationalaspectsofthemodelwhileexplain- withintelligence,whereinintelligencereferstothecapability
+ability goes beyond interpretability by encompassing the ofanentitytooperateeffectivelyandwithforesightwithinits
+2 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+surroundings[22].
+Toovercometheselimitations,thedevelopmentandadop-
+tion of Explainable Artificial Intelligence (XAI) techniques
+inhealthcareareimperative.XAIaimstoenhancethetrans-
+parencyandinterpretabilityofAImodels,providinginsights
+into the decision-making process and enabling clinicians to
+FIGURE2. (a)Explainabiltyvs(b)Interpretability.
+understandthereasoningbehindAI-generatedrecommenda-
+tions[23].
+Variousapproachesandtechniqueshavebeenproposedto
+bias, accountability, and the potential dehumanization of
+achieveexplainabilityinAImodels.Oneapproachistouse
+patient care. The design and implementation of AI systems
+interpretable algorithms that provide explicit rules or rep-
+should be underpinned by ethical considerations that prior-
+resentations of the decision-making process. These models
+itize transparency, fairness, and the responsible handling of
+offertransparencybyexplicitlyshowinghowspecificinputs
+patient data. The need for an ethical framework becomes
+lead to certain outputs [24]. Another approach is to develop
+evenmorepronouncedasAIispoisedtoextenditsinfluence
+post-hoc explainability methods that provide explanations
+beyond healthcare into various domains, such as education,
+after the AI model has made its predictions. These methods
+transportation,andgovernance[34].
+shed light on the internal workings of black-box models
+WhilethebenefitsofAIinhealthcareareevident,acritical
+by generating explanations as feature importance, saliency
+examination of its ethical implications is crucial to avoid
+maps, or textual descriptions. Techniques such as LIME
+unintended negative consequences. The potential for biases
+[25]andSHAP[26]areexamplesofpost-hocexplainability
+embeddedwithinalgorithmstoexacerbatehealthdisparities
+methodscommonlyusedinhealthcare.
+and perpetuate social injustices underscores the necessity
+Furthermore, advancements in DL have led to the emer-
+of vigilance in algorithm development. Striking a balance
+genceoftechniquesspecificallydesignedtoenhanceexplain-
+between innovation and ethical reflection necessitates inter-
+ability in DNNs. Methods like attention mechanisms and
+disciplinary collaboration involving AI developers, health-
+gradient-based techniques such as GradCAM [27] provide
+careprofessionals,ethicists,policymakers,andpatients[35].
+insightsintotheareasoffocusanddecision-makingprocess
+By fostering open dialogues among these stakeholders, it
+of the models [28]. The benefits of XAI in healthcare are
+becomes possible to create a dynamic ethical framework
+numerous. By integrating transparency and interpretability
+thatadaptstotheevolvinglandscapeofAIapplicationsand
+intoAImodels,thesesystemscaninstilltrustandconfidence
+promotes responsible AI development [36]. The application
+among healthcare professionals and patients. Clinicians can
+ofAIinhealthcarebringsforthseverallimitationsthatneed
+better understand and validate the outputs of AI algorithms,
+to be addressed for its successful integration into clinical
+leadingtoincreasedadoptionandcollaborationbetweenhu-
+practice[37].
+manexpertsandAIsystems.Moreover,itcanalsofacilitate
+regulatorycompliancebyenablingauditsandassessmentsof This paper comprehensively examines the ethical dimen-
+AImodelstoensurefairness,accountability,andcompliance sions of AI development, with a focus on healthcare. It
+with ethical standards [29], [30]. In medical imaging, for outlinesaframeworkemphasizingtransparency,fairness,and
+example, radiologists can benefit from such systems that human-centricity while delving into the challenges of AI
+provideexplanationsfortheirfindings,aidinginthedetection integrationinhealthcare.ThepaperacknowledgesAI’slim-
+anddiagnosisofdiseases.Clinicaldecisionsupportsystems itations,highlightingtheneedforongoingresearch,preserv-
+(CDSS) can also provide justifications for treatment recom- ing human empathy, and fostering responsible AI practices.
+mendations, empowering healthcare professionals to make It underscores the significance of education, advocates for
+informed decisions based on a better understanding of the globalethicalstandards,andemphasizestheadaptivenature
+underlying reasoning. To address these limitations, there is of the framework. Ultimately, this paper offers a profound
+a growing need for the development and adoption of XAI explorationofAIethics,guidingitsresponsibleadvancement
+techniques in healthcare [31]. By fostering explainability, amidstcomplexsocietalconsiderations.
+AIsystemscaninstilltrust,improveregulatorycompliance,
+and enhance collaboration between human experts and AI II. BLACKBOXANDLACKOFTRANSPARENCY
+algorithmsastheyprovideinsightsintothedecision-making InthefieldofAI,blackboxmodelsrefertoMLalgorithmsor
+process and enable clinicians to understand the reasoning DNNsthatproduceaccuratepredictionsordecisionsbutlack
+behindAI-generatedrecommendations. explainability.Thesemodelscanprovideremarkableresults
+The rapid evolution of AI technologies has outpaced intaskssuchasimagerecognition,naturallanguageprocess-
+theformulationofcomprehensiveethicalguidelines,raising ing,orautonomousdriving.However,theinnerworkingsof
+concerns about the potential misuse and unintended con- thesemodelsareoftencomplexandchallengingtoexplainin
+sequences of these powerful tools [32], [33]. In the realm humanterms[38],[39].Thislackofinterpretabilitycanlimit
+of healthcare, these concerns encompass a wide spectrum our ability to understand why certain decisions are made,
+of issues, including data privacy and security, algorithmic leading to potential biases, discrimination, or errors that go
+VOLUME4,2016 3
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+FIGURE3. Exampleofexplainabilityofdeeplearningmodel:PneumoniadetectionusingGradCAM
+unnoticed[25]. abouttrust,interpretability,andaccountability.Theinability
+ML has the ability to develop algorithms for diagno- toexplainhowdecisionsaremadehinderstheacceptanceand
+sis, prognosis, and outcome prediction by utilizing various adoptionofAIincriticalhealthcarescenarios[4].
+features. However, the lack of transparency regarding the To illustrate the challenges posed by black-box models
+reasoning/understanding behind these algorithms creates a in healthcare, let’s consider an example of using DNNs for
+"black box" situation, where the inputs and outputs are not diagnosing diseases from medical images, such as chest
+easily explainable. While this may be acceptable in certain x-rays [44]. DL models, particularly convolutional neural
+fields such as business decisions or human behavioral stud- networks (CNNs), have shown remarkable performance in
+ies, it becomes problematic in clinical management, where detectingvariousdiseasesfromimagesaccurately.However,
+decisionsofteninvolvecritical,life-or-deathsituations[40]. understanding how these models arrive at their predictions
+Clinicians facing such scenarios are understandably con- is often elusive due to their black-box nature. In the case of
+cerned about trusting the model’s appropriateness for their chestx-raydiagnosis,aDLmodelistrainedonalargedataset
+patients, its accuracy in guiding clinical judgment, and its oflabeledimagestolearnpatternsandfeaturesindicativeof
+alignmentwithexistingknowledgeofhumandisease.There different diseases, such as pneumonia [45] or lung cancer.
+are three key aspects to address: trust, consistency, and ex- The model goes through numerous iterations, adjusting its
+planation[41]. internalparametersuntilitcanaccuratelyclassifytheimages
+Conventional medical decisions are based on a thorough basedonthetrainingdata.Oncetrained,theblack-boxnature
+understandingofpathophysiologicalmechanisms,supported of the model becomes apparent. When a new chest x-ray
+by cell-based experiments, genomic and metagenomic anal- image is presented to the model for diagnosis, it produces a
+ysis, animal studies, histopathological observations, clinical prediction,suchas"pneumoniapresent"or"nopneumonia."
+trials,andcohortobservations.Evidence-basedmedicinehas However, the model does not provide explicit information
+long been the gold standard for treatment strategies. The about which regions or features in the image led to that
+questionswhicharisein[42],[43]areasfollows: specific prediction. This nature of results is not acceptable
+1) Can clinicians make vital decisions without grasping by clinicians, hence a surrogate model is applied to explain
+thefundamentalreasoningbehindthem? andverifythevalidityoftheresultsobtainedasexhibitedin
+2) Canpatientsundergotreatment,surgery,orcancerther- Figure3.
+apy without fully understanding the rationale behind Similarly, breast cancer is a prevalent disease, and early
+thechosencourseofaction? detectioniscrucialforsuccessfultreatment[46],andCNNs
+3) Dodoctorshavethecapabilitytoadequatelyelucidate have also shown promising results in accurately identifying
+to patients why they prefer a specific treatment over malignanttumorsinmammogramimages[47].
+otheralternatives?
+However, their black-box nature presents challenges in
+4) HowdoweconvincecliniciansandscientiststhatML
+understandingtheirdecision-makingprocess.Whentraining
+models can excel in clinical decision-making beyond
+a DL model for breast cancer detection, a large dataset
+evidence-baseddiagnosisandtreatment?
+of labeled mammogram images is used to train the model
+5) ThelackoftrustinMLalgorithmsposesaconsiderable
+to recognize patterns indicative of cancerous lesions. The
+challenge in implementing AI medicine. In case of
+model learns to analyze various features, such as the shape,
+adverse outcomes, who bears responsibility for the
+texture, and density of potential tumors, in order to make
+resultingconsequences?
+predictions.Oncetrained,theblack-boxnatureofthemodel
+ManyAIalgorithms,suchasDNNs,operateasblack-box becomes apparent during the inference phase. When a new
+models, making it challenging to understand the reasoning mammogramimageisprovidedtothemodelforevaluation,
+behind their decisions. While these models may produce itproducesapredictionindicatingwhetheramalignanttumor
+accurate results, their lack of transparency raises concerns is present or not. However, it does not explicitly provide
+4 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+FIGURE4. MachineLearningsystems(PlaygroundAI)exhibitinggenderandracialbias
+informationonwhichregionsorcharacteristicsofthemam- caresystem.Thealgorithmreliedonhealthcarespendingto
+mogramcontributedtothatparticularprediction[48]. determine patients requiring extra medical attention. While
+Moreover, the same can be observed in AI technologies spending might serve as a reasonable indicator of illness
+that have demonstrated their potential in addressing various severityandtheneedforadditionalcare,theauthorsshowed
+aspectsofautism.MLalgorithmscananalyzelargedatasets thatimplementingthealgorithmwouldresultinareduction
+toidentifypatternsandmarkersassociatedwithAutismspec- of over 50% in the number of Black patients identified as
+trumdisorder(ASD),aidinginearlydiagnosisandpersonal- needing extra care. Similar racial and gender bias can be
+ized treatment plans. AI-driven virtual reality environments observed in an online AI image creator tool i.e. Playground
+and social communication tools offer innovative platforms AI[56]asexemplifiedinFigure4.
+to develop and practice social skills in a controlled and DatalimitationsposeacriticalchallengeinhealthcareAI,
+supportivesetting[49].ASDisahighlyheterogeneouscon- as biased datasets can result in biased algorithmic outputs.
+dition,andinterventionsneedtobetailoredtoanindividual’s Statistical bias occurs when a dataset does not accurately
+unique needs. Black box models might struggle to explain represent the true distribution of a population, potentially
+why a particular intervention is recommended for a specific leading to algorithmic outputs that deviate from actual es-
+individual, making it challenging to adapt and personalize timates.Inthebiomedicalfield,wherelargedatasetsarecru-
+interventionseffectively[50]. cial, advanced information extraction methods are required
+Thislackofinterpretabilitycanbeasignificantbarrierto tohandlethecomplexityofthedata.However,ifthedataset
+the adoption of AI in healthcare. Clinicians need to under- usedtotrainAIalgorithmsisnotdiverseandrepresentative,
+stand the rationale behind the model’s decision in order to itcanintroducestatisticalbiasandcompromisetheaccuracy
+validate its predictions and make informed treatment deci- andgeneralizabilityofthealgorithms.Anotableexamplecan
+sions. They may want to identify specific areas of concern beseenincardiology[57],whereheartattacksarefrequently
+within the images that influenced the model’s classification. misdiagnosedinwomen.Predictionmodelsforcardiovascu-
+While patients may also desire transparency and explana- lar disease that claim to predict heart attacks several years
+tions for the model’s predictions to gain confidence in the inadvanceareoftentrainedondatasetspredominantlycom-
+diagnosisandtreatmentrecommendations[51].Additionally, prising male subjects [58]. However, cardiovascular disease
+patientsmayfeeluneasyaboutrelyingonAIsystemsifthey manifests differently in men and women, and an algorithm
+cannotcomprehendhowthediagnosiswasmade.Theymay primarily trained on male data may not accurately diagnose
+have concerns about the transparency of the process, the femalepatients[59].
+reliability of the model, and the potential biases in the data
+Social bias in healthcare AI refers to inequities result-
+usedfortraining[52].
+ing in sub-optimal outcomes for specific groups within the
+population. This type of bias is particularly concerning, as
+III. BIASANDFAIRNESS it unintentionally discriminates against vulnerable groups,
+The increasing adoption of DL and AI in healthcare holds perpetuatingdisparities[60],[61].Forexample,indermatol-
+significantpromiseforimprovingdiagnostics,treatment,and ogy,CNNsusedtoclassifyskinlesionsareoftentrainedon
+healthcaredelivery.However,thepresenceofbiasregarding datasets predominantly composed of samples from patients
+AI presents substantial challenges to achieving fairness in with fair skin tones. This limited representation of patients
+healthcare.Biascanbecategorizedasstatisticalorsocial,and withdarkerskintonesanditsvariationsleadstolowerdiag-
+itcanleadtounequaloutcomesandhinderequitablehealth- nosticaccuracywhenthesenetworksaretestedwithimages
+care provision [53], [54]. For instance, [55] highlighted the ofpatientswithdarkerskintones.Thisdisparityisespecially
+significanceofthisissuethroughtheirstudy,whichrevealed problematic given the higher mortality rate for melanoma
+racialbiasinacommonlyusedalgorithmintheU.S.health- in patients with darker skin tones compared to Caucasian
+VOLUME4,2016 5
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+DATASET I II III IV V VI TOTAL
+PPB[67] 6.22% 79 34.02% 432 12.83% 163 4.25% 54 18.27% 232 24.41% 310 1270
+IJB-A[68] 2.60% 13 33.00% 165 44.00% 220 12.60% 63 2.00% 10 5.80% 29 500
+Adience[69] 3.14% 69 60.94% 1337 22.15% 486 8.07% 177 4.38% 96 1.32% 29 2194
+TABLE1. Skintonedrive-biasexhibitedindifferentdatasets[67]
+patients[62].Thus,leadingtomisdiagnosisandsub-optimal data bias could stem from either the dataset employed for
+care. data analysis or the data itself, such as datasets that lack
+Theimpactofdatabiasisnotonlylimitedtospecificmed- diversity.Forinstance,inastudyconductedby[55]andcol-
+ical domains but extends across various areas of healthcare. leagues,racialbiaswasidentifiedintheinitialdata,leading
+Forexample,automatedsleepscoringalgorithmstrainedon totheerroneousconclusionthatBlackpatientsaremoremed-
+data from young and healthy individuals struggle to accu- icallyintricateandcostlytothehealthcaresystemcompared
+rately diagnose sleep disorders in older patients. Despite toWhitepatients.Thisoversightoccurredbecausethemodel
+progressindevelopingthesealgorithms,achievinghighper- failed to consider issues of access. The subsequent problem
+formanceinclinicalroutinesremainschallenging.Cognitive hasbeenglorifiedin[67],andstatisticsareexhibitedinTable
+biasesandthelackofdiversityinthetrainingdatacontribute 1. Similarly, Amazon’s attempt to create an AI-driven tool
+to inter- and intra-scoring disagreement, posing limitations for recruitment faced problems as the algorithm exhibited a
+[63]. negativebiasagainstwomenduetothepredominantlymale-
+Moreover in drug development and clinical trials, bias in orienteddatausedfortrainingpurposes[70].
+AIalgorithmscanhavesignificantconsequences.Clinicaltri- Measurement bias: occurs when proxy variables are used
+alsoftenhavepredominantlymaleparticipantsfromlimited to measure certain features, resulting in inaccurate assess-
+agegroupsandsimilarethnicbackgrounds,leadingtogender ments. For instance, in healthcare, relying solely on body
+andethnicbiases.Thesebiasesduringthepre-clinicalstages mass index (BMI) as a measure of overall health can intro-
+can impact how women respond to newly developed drugs. duce measurementbias, asBMI maynot accuratelycapture
+Thismeansthattheresultsobtainedfromtheseearlystudies individual variations in body composition and health risks
+couldinfluencethedatasetsusedtotrainAIalgorithms[64], [71].
+[65]. Omitted variable bias: occurs when important variables
+While data bias is a critical concern, it is important to are excluded from the model, leading to incomplete predic-
+note that bias in clinical datasets is not the sole source of tions. For example, if an AI algorithm predicts readmission
+bias in healthcare AI. Researchers and clinicians can inad- rates after surgery but overlooks socioeconomic status as a
+vertently introduce unconscious judgments and biases into crucial factor, it may underestimate the influence of social
+theirresearch,whichmaymanifestinbiasedAIalgorithms. determinants of health on readmissions, resulting in incom-
+These biases can further perpetuate health inequities and pletepredictions[72].
+hinder the potential benefits of AI in healthcare. Fairness Representation bias: arises from non-representative sam-
+is fundamental, its principles include fair treatment for all pling during data collection, leading to gaps and anomalies.
+individuals, group fairness (avoiding group-based dispari- In healthcare, if clinical trials predominantly recruit partici-
+ties), statistical parity (equalizing outcomes across groups), pants from urban areas and under-represent rural communi-
+equalopportunity(balancedtruepositiverates),andfairness ties, the resulting algorithm may fail to address the specific
+throughunawareness(ignoringcertainattributes).Achieving healthneedsanddisparitiesfacedbyruralpopulations[71].
+fairness requires addressing biased training data, navigating Aggregation bias: occurs when assumptions about indi-
+complexinteractions,andmakingtrade-offsbetweenfairness viduals are made based on population-level observations.
+andaccuracy[66]. In healthcare, an algorithm that analyzes average treatment
+Therefore, data can be susceptible to various types of responsewithoutconsideringindividualvariationsmayover-
+bias, which can significantly impact healthcare outcomes look subgroups of patients who respond differently to spe-
+while fairness in AI focuses on ensuring that the outcomes cific treatments, leading to biased assumptions about treat-
+and decisions produced by AI systems do not discriminate menteffectiveness[71].
+againstspecificgroupsorindividualsbasedontheirinherent Longitudinal data fallacy: occurs when cross-sectional
+characteristics, such as race, gender, age, or socioeconomic analysis is used instead of longitudinal analysis, leading
+status. The goal is to mitigate bias and achieve equitable to different conclusions. In healthcare, if an AI algorithm
+treatmentacrossdiversedemographics. analyzes a single snapshot of patient data without consider-
+ing their longitudinal health history, it may miss important
+A. DATA-DRIVENBIAS patternsandprovideinaccuratepredictionsordiagnoses[73].
+Despite the independent process of analysis conducted by Linking bias: emerges when network attributes misrepre-
+ML algorithms, the potential for bias remains present. The sentuserbehavior,oftenduetobiasednetworksamplingor
+6 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+overlooking certain user groups. In healthcare, this bias can notions or personal biases that influence their acceptance
+manifest in social network analyses of patient interactions, or rejection of algorithmic medical advice, leading to sub-
+potentially skewing assessments of information dissemina- optimalhealthcaredecisions[77].
+tionordiseasespreadifcertainpatientgroupsareunderrepre- Presentation Bias: refers to biases that arise from how
+sentedortheirinteractionsarenotadequatelycaptured[73]. information is presented. In healthcare platforms, certain
+Explainability can play a vital role in addressing biases medicalinformationortreatmentoptionsmaybeprioritized
+inhealthcaredatabyprovidingtransparency,interpretability, oroverlookedbasedonhowtheyarepresentedtousers.This
+andinsightsintothedecision-makingprocessofAImodels. biascaninfluenceuserbehaviorbyshapingtheirunderstand-
+Its techniques can help researchers understand the factors ing, perception, and decision-making regarding healthcare
+thatcontributetobiasesandenablethemtomakenecessary options[77].
+adjustmentssuchasfeatureimportanceanalysis.Itcanhelp RankingBias: occurswhensearchresultsorrecommenda-
+to identify variables with limitations or biases in measure- tionsinhealthcareapplicationsareinfluencedbybiasesinthe
+ment and longitudinal data, allowing researchers to refine rankingalgorithm.Thisbiascanleadtotheoveremphasisof
+theirmeasurementstrategies.Methodslikesubgroupanalysis certainmedicaltreatmentsorinformationbasedontheirper-
+and counterfactual explanations help uncover biases in data ceived relevance or popularity, potentially influencing user
+representation, enabling researchers to identify disparities behaviortowardsspecifichealthcarechoices[77].
+and take corrective actions. Furthermore, aggregation bias PopularityBias:ariseswhenmorepopularmedicalinter-
+canbeaddressedbyprovidingindividual-levelinsights(Indi- ventions or treatments are favored and promoted in health-
+vidualConditionalExpectations(ICE)Plots)andestimating care systems, while potentially effective but less popular
+treatment effects on specific subgroups, thus reducing bias alternativesareneglected.Thisbiascanimpactuserbehavior
+arisingfromaggregatingdata[74].Additionally,techniques by directing attention towards widely known or commonly
+like model-agnostic explanations and fairness-aware meth- used interventions, potentially overlooking personalized or
+ods can also aid in mitigating biases in sampling. These innovativehealthcareoptions[78].
+approaches help researchers identify biases introduced dur- EmergentBias:arisesasaresultofchangesinpopulation,
+ing data collection or sampling processes and ensure more cultural values, or societal knowledge over time, which can
+representative and fair predictions. Visualization can also affect the outcomes and relevance of algorithmic recom-
+facilitateuncoveringvariousbiasesaswell[75]. mendations in healthcare. For example, as societal values
+evolve, the preferences or priorities of patients and health-
+B. SYSTEMATICBIAS care providers may change, leading to biases in algorithmic
+It refers to biases that are inherent in the system or process decision-makingorrecommendations[79].
+itself and consistently impact outcomes in a particular di- Evaluation Bias: occurs during the assessment of health-
+rection. In the context of algorithms, systematic biases are care algorithms. Biased evaluation benchmarks or inappro-
+the result of design choices, user behaviors, or other factors priatemetricsmayleadtounfairassessmentsandinadequate
+that consistently introduce biases into algorithmic decision- representation of diverse populations. This bias can affect
+makingorrecommendations. the development and deployment of algorithms, potentially
+In healthcare, systematic biases in algorithms can have influencinguserbehaviorifbiasedalgorithmsareconsidered
+far-reaching effects on patient care, health outcomes, and trustworthy or reliable. For instance, it may overlook con-
+equitable access to healthcare services. They can perpetu- siderationssuchassensitivitytodetectingrareconditionsor
+ate disparities, reinforce existing biases, and contribute to false-positive rates, which are critical for patient safety and
+unequal treatment or representation of certain demographic overallhealthcarequality[71].
+groups. Recognizing and addressing systematic biases is
+crucialforpromotingfairness,accuracy,andtransparencyin C. GENERALIZATIONBIAS
+algorithmicsystemswithinthehealthcaredomain. One of the critical challenges in deploying AI systems in
+Algorithmic Bias: refers to biases that are introduced by healthcareisthelimitedgeneralizationofmodelsandensur-
+the algorithm itself and are not present in the input data. In ingtheirsafety.Limitedgeneralizationreferstotheinability
+healthcare, algorithms used for medical diagnosis or treat- of AI models to perform accurately and reliably on data
+mentrecommendationscanexhibitalgorithmicbias,leading that differs significantly from the training data for instance
+tobiasedoutcomes.Forexample,ifanalgorithmistrainedon the data collected in [80] does not contain the images from
+biasedorincompletemedicaldata,itmaydisproportionately differentethnicitieswhichwillhindermodelsgeneralization.
+impactcertaindemographicgroups,resultingindisparitiesin Thislimitationcanhaveseriousconsequencesinhealthcare,
+diagnosisortreatmentrecommendations[76]. where diverse patient populations, evolving medical prac-
+User Interaction Bias: occurs when users, including pa- tices,andcomplexphysiologicalconditionsexist.Inaddition
+tients and healthcare providers, exhibit their own biased tolimitedgeneralization,ensuringthesafetyofAIsystemsis
+behaviorsandpreferenceswhileinteractingwithalgorithmic paramount to prevent harm to patients and maintain trust in
+recommendations. In healthcare, this bias can manifest in AItechnologies.AImodelstrainedonspecificdatasetsmay
+variousways.Forinstance,apatientmayhavepreconceived struggletogeneralizetheirknowledgetonew,unseendatain
+VOLUME4,2016 7
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+FIGURE5. HumanCenteredArtificialIntelligentsystems
+healthcaresettings[81].Thereareseveralreasonsforlimited healthcare, population bias can be observed in studies or
+generalization: datasets that primarily include data from specific regions or
+Data Distribution Shift: if the distribution of the data communities,leadingtolimitedgeneralizabilityoffindings.
+used for training and the real-world data encountered dur- For instance, if a study on diabetes management predom-
+ing deployment differ significantly, models may struggle to inantly includes data from urban areas, the findings may
+perform well. For example, a model trained on data from not accurately represent the experiences and needs of rural
+one hospital may not generalize effectively to data from a populations[86].
+different hospital due to variations in patient demographics, Self-Selection Bias: occurs when individuals voluntarily
+equipment,andclinicalpractices[82]. choose to participate in a study or engage with a particular
+Sampling bias: arises when subgroups are non-randomly
+platform. In healthcare, this bias can arise in self-reported
+selected, affecting the generalizability of findings. For in-
+surveys or patient-generated data. For example, if an online
+stance,ifastudyontheeffectivenessofanewmedicationpri-
+health forum primarily attracts individuals with a particular
+marilyincludesyoungeradultsandexcludesolderadults,the
+conditionwhoareactivelyseekinginformationandsupport,
+findingsmaynotaccuratelyreflectthemedication’sefficacy
+thedatacollectedfromthatplatformmaynotreflecttheex-
+andsafetyintheelderlypopulation[83],[84].Moreover,AI
+periencesandperspectivesofindividualswhodonotactively
+modelsmayhavelimitedexposuretoraremedicalconditions
+engageinonlinediscussions[87].
+or unique patient cases during training. Consequently, their
+Social Bias: refers to the influence of others’ actions on
+ability to accurately diagnose or treat such cases may be
+ourownjudgment.Inhealthcare,socialbiascanmanifestin
+compromised.Inhealthcare,itisessentialtoconsiderthetail-
+theformofratings,reviews,orrecommendationsinfluencing
+enddistributionofdatatoensuremodelscanhandlerareand
+healthcare decisions. For instance, if a healthcare provider
+criticalscenarios[85].
+reliessolelyonpatientratingsandreviewstoselectaspecial-
+ist,theymayunknowinglyfavorproviderswhohavereceived
+D. HUMANBIAS
+morepositivefeedback,potentiallyoverlookinghighlycom-
+Itreferstothepresenceofasubjectiveandunfairordiscrim-
+petentspecialistswhohavefeweronlineratings[88],[89].
+inatory outlook within the information collected, processed,
+Behavioral Bias: arises from differences in user behavior
+andemployedtotrainalgorithms,models,orsystems.There
+across platforms or datasets. In healthcare, behavioral bias
+areseveraltypesofhumanbiasthatcanmanifestindifferent
+canbeseenindigitalhealthapplicationsorwearabledevices
+contexts:
+HistoricalBias:referstobiasesthatexistintheworldand that collect user-generated health data. For example, if a
+arereflectedinthedatagenerationprocess.Inhealthcare,his- mobile health app is primarily used by individuals who are
+toricalbiascanbeseenintheunderrepresentationofcertain already health-conscious and actively managing their well-
+demographicgroupsinclinicaltrialsormedicalresearch.For being, the data collected may not accurately represent the
+example, if a particular medication is primarily tested on a broaderpopulation’shealthbehaviorsandneeds[86],[90].
+specificpopulation(e.g.,predominantlyWhitemales),there TemporalBias:arisesfromdifferencesinpopulationsand
+maybelimitedevidenceonhowitaffectsotherpopulations, behaviorsovertime.Inhealthcare,thisbiascanbeobserved
+leadingtobiasedhealthcaredecisionsforthosegroups[71]. in longitudinal studies tracking health outcomes or disease
+Population Bias: occurs when the user population of a trends.For instance,if astudy investigatestheeffectiveness
+platform differs significantly from the target population. In of a particular treatment based on data collected from a
+8 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+specifictimeperiod,thefindingsmaynotreflectthecurrent environments, leading to sub-optimal performance and po-
+healthcare landscape or advancements in medical practices tentialerrors[98].
+[91]. For instance, some incidents show that contextual intelli-
+Content Production Bias: stems from structural, lexical, genceisstillalimitationinAI.In2018,anAI-poweredfacial
+semantic,andsyntacticdifferencesinuser-generatedcontent. recognition system was used by the Metropolitan Police in
+In healthcare, content production bias can be seen in pa- Londontoidentifysuspects,104previouslyunknownpeople
+tienthealthrecordsoronlinehealthforums.Forexample,if whoweresuspectedofcommittingcrimes,outofwhichonly
+electronic health records (EHR) predominantly use medical 2 were accurately predicted [99]. So, the system was found
+terminology and abbreviations, the language used in those to be biased against people of color. This happened as the
+records may not accurately capture patients’ subjective ex- system was trained on a dataset that was not representative
+periencesorprovideacomprehensiveunderstandingoftheir of the population of London. In 2020, an AI-powered self-
+healthconditions[92]. driving car was involved in a fatal accident. The car was
+unable to understand the context of the situation and it col-
+lidedwithapedestrian[100].AIsystemsneedtobeableto
+IV. HUMAN-CENTRICAI
+understandthedeepermeaningofasituationinordertoavoid
+Human-centric AI refers to the design, development, and
+makingmistakes.AsAIsystemsbecomemoresophisticated,
+deployment of AI systems that prioritize and enhance the
+wecanexpecttoseeimprovementsincontextualintelligence.
+well-being,needs,andvaluesofhumans.Theconceptstems
+However,itislikelythatcontextualintelligencewillalways
+from the recognition that AI technologies are becoming
+bealimitationinAI,asAIsystemswillneverbeabletofully
+increasingly integrated into various aspects of our lives and
+understandtheworldinthesamewayashumansdo.
+society. Therefore, there is a need to ensure that these tech-
+nologies serve human interests, rather than solely pursuing
+B. EQUITYANDACCESS
+technologicaladvancementforitsownsaketheideahasbeen
+Equity and access play vital roles in the advancement and
+illustratedinFigure5.
+implementationofAItechnologies[101],ensuringafairdis-
+tribution of benefits and opportunities for everyone. Never-
+A. CONTEXTUALINTELLIGENCE
+theless,AIencountersvariouschallengesinupholdingthese
+Contextual intelligence, also known as contextual under-
+principles. Biases ingrained in historical data can lead to
+standing or contextual reasoning, refers to an AI system’s
+prejudiceinalgorithms,perpetuatingtheexistinginequalities
+ability to comprehend and interpret information within its
+in areas like hiring and loan approvals [102]. Moreover, the
+context,consideringrelevantfactors,backgroundknowledge,
+lackofdiversitywithinAIdevelopmentteamsmayresultin
+andthebroadersituationalunderstanding[93].Thiscontex-
+models that fail to adequately address the diverse needs of
+tual awareness enables the AI to make more accurate and
+the users. The digital divide further exacerbates the issue,
+relevantdecisions,predictions,orrecommendationsbasedon
+creating discrepancies in accessing AI services and infor-
+thespecificcircumstancesitencounters[94].
+mation, particularly for disadvantaged populations [103].
+ThelimitationofcontextualintelligenceinAIarisesfrom
+Additionally, cost and affordability pose barriers, hindering
+the fact that creating an AI system that fully comprehends
+access to AI advancements for those with limited financial
+and interprets context in the same way as humans do, is
+resources.Culturalandlanguagebarrierscanalsorestrictthe
+a complex challenge. While AI has shown remarkable ad-
+inclusivityandeffectivenessofAIsystems.Inthedomainof
+vancementsinvariousdomains,achievinghuman-levelcon-
+healthcare, disparities in accessing advanced AI diagnostics
+textualunderstandingremainselusive[95].
+can impact patient outcomes [104]–[106]. For instance, in
+Herearesomekeyreasonswhycontextualintelligencecan 2019,Amazon’sAlexawascriticizedfornotbeingaccessible
+bealimitationinAI: to people with disabilities. The voice assistant’s responses
+ComplexityofContext:Contextinreal-worldscenarioscan were not always clear or understandable, and the assistant’s
+becomplexandmulti-faceted.Humancognitionhasevolved features were not always compatible with screen readers
+tounderstandsubtlenuancesandabstractconcepts.However, [107].
+AIsystemstypicallyrelyonpatternsandcorrelationswithin The user-centered design can enhance the usability of
+the data they are trained on. It is still challenging to encode diverse user groups. Bridging the digital divide is crucial
+theintricaciesofcontextinAIalgorithms[96]. to making AI technologies accessible to underserved com-
+LackofCommonSense:Humansoftenusecommonsense munities [108]. Implementing transparent and XAI models
+to fill in gaps or infer information not explicitly stated. AI fosters trust and accountability. Collaborative partnerships
+models,particularlythosebasedonstatisticallearning,might involving AI developers, policymakers, community repre-
+struggle with common-sense reasoning, making them less sentatives, and advocacy groups can identify and address
+effectiveinhandlingunfamiliarorambiguoussituations[97]. potential biases and inequities. By proactively addressing
+Adaptation to Dynamic Environments: Contexts can these challenges and promoting equitable access to AI, we
+change rapidly, especially in real-time scenarios. AI models canharnessitspotentialtobenefitallmembersofsocietyand
+may not be able to adapt quickly enough to these dynamic avoidexacerbatingexistingdisparities.
+VOLUME4,2016 9
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+1) Human-AIinteraction transplantation, AI could assist in matching donors with re-
+Human-AI interaction refers to how humans interact with cipientsefficiently.However,ethicalnuancessuchaspatient
+AI systems. Although progress has been made in this area, preferences, medical histories, and urgency require human
+therearestilllimitationsandchallengesthataffecttheeffec- judgment[124],[125].AI’sroleistofacilitateandaugment
+tiveness and user experience. These challenges include AI’s thedecision-makingprocess,butitcannotreplacetheethical
+abilitytounderstandcomplexlanguage,graspcontextualnu- reflectionandempathythathumanprofessionalsbringtothe
+ances,andprovidetransparentexplanationsforitsdecisions table.
+[109],[110].AI’slimitedlearningfromuserinteractionsand
+difficulty in handling uncertainty and ambiguity also pose C. EROSIONOFHUMANCONNECTIONANDEMPATHY
+obstacles. Users may develop over-reliance on AI, leading The increasing integration of AI in healthcare has raised
+to frustration and reduced trust when AI fails to meet their concerns about the potential erosion of human connection
+expectations.ItissignificantforAItoensureculturalsensi- and empathy in patient care. While AI offers valuable ad-
+tivityandprioritizeusers’welfare[110]. vancements and efficiencies, it also presents limitations that
+One of the real incidents that exemplifies the challenges canimpactthehumanaspectofhealthcare[126].
+inAI’sunderstandingofcomplexlanguageoccurredin2016 Emotional intelligence (EI) refers to the ability to recog-
+whenMicrosoftlaunchedtheAI-poweredchatbot,"Tay,"on nize, understand, manage, and use emotions effectively in
+Twitter. Within hours of interacting with users, Tay started oneself and others. It plays a crucial role in human interac-
+posting offensive and inappropriate tweets, learning from tions, decision-making, and overall health [127], [128]. As
+harmful interactions. The incident exposed the difficulties AIcontinuestoadvance,thequestionarises:"CanAIdevelop
+in teaching AI to grasp contextual nuances and provided emotionalintelligence,andwhataretheimplicationsofsuch
+a stark reminder of the importance of robust moderation development?"
+mechanismstoavoidunintendedbehavior[111],[112]. AI-driven healthcare platforms can utilize facial recogni-
+Another real-life challenge stems from biases in AI sys- tionandvoiceanalysistodetectemotionsinpatientsduring
+tems. In 2018, Amazon’s facial recognition system, Rekog- interactions[129].Forinstance,anAI-poweredvirtualnurse
+nition, came under scrutiny for exhibiting racial and gender could assess a patient’s emotional state during a telehealth
+biases. It significantly had higher error rates for identifying appointment, recognizing signs of distress or anxiety. This
+darker-skinnedindividualsandfemales.Thisincidentunder- informationcanbeusedtotailortheconversation,providing
+scored the need for addressing bias in AI models, ensuring compassionate, and empathetic responses. If the AI detects
+fairnessandtransparency,andusingdiverseandrepresenta- anxiety,itmightsay,"Iunderstandthiscanbestressful.
+tivetrainingdata[113],[114]. Another example is the use of AI-powered companion
+Human-AIinteraction,particularlyinthemedicaldomain, robots in elder care facilities. These robots can sense emo-
+is closely linked between human expertise and AI algo- tions in residents through facial expressions and gestures
+rithms.Anexemplaryinstanceofthissynergyisthefieldof [130]. If a resident appears sad, the robot might engage in
+medical imaging for example multi-spectral image datasets activities like playing soothing music or sharing cheerful
+[115]. Consider radiology, where AI assists radiologists in anecdotes to uplift their mood. While the robot’s responses
+analyzingvastvolumesofmedicalimageswherealgorithms areprogrammed,theintegrationofEIprincipleswillenhance
+can quickly identify anomalies in x-rays or MRIs, flagging theuserexperience[131].
+potentialissuesandrequiringcloserinspection[116].Thus, One primary concern is the growing use of AI-powered
+theradiologists’yearsoftrainingandexperienceareessential virtual assistants and chatbots [132] in patient interactions.
+invalidatingthefindings,understandingclinicalcontext,and Whilethesetoolscanstreamlinecommunicationandprovide
+making informed diagnostic decisions. This collaborative quick responses, they lack the emotional depth and under-
+processnotonlyenhancesaccuracybutalsoexemplifieshow standing of human healthcare providers. Patients may feel
+AI serves as a powerful tool for skilled practitioners [117], a sense of detachment and isolation when their interactions
+[118]. becomesolelyAI-mediated,potentiallyreducingtheperson-
+In the development of AI-driven medical treatments, alizedandempatheticcaretheyreceive.OverrelianceonAI
+human-AIinteractionisequallypivotal[119],[120].Forex- foremotionalsupportcouldhavenegativeconsequences,es-
+ample,inpersonalizedmedicine,AIalgorithmscananalyze peciallyforindividualswithseverementalhealthconditions.
+a patient’s genetic and molecular data to tailor treatments Oneincidentthatgainedattentionwasrelatedtoamental
+with higher precision. Yet, the medical professionals who health chatbot called "Woebot." Woebot is an AI-powered
+interprettheseinsights,weighthemagainstindividualpatient virtual assistant designed to provide emotional support and
+history and overall health. In this context, AI accelerates therapeuticinterventionstousersexperiencingsymptomsof
+the discovery of potential treatments, but the final decision- depression and anxiety. While many users found it helpful
+making rests with the medical experts who understand the to have a tool they could access anytime [133]. It was also
+holisticpictureofthepatient’swell-being[121],[122]. reported feeling disconnected and frustrated with the lack
+Ethical considerations underscore the importance of of genuine human interaction. Some users expressed that
+human-AI collaboration in medical contexts [123]. In organ the chatbot’s responses, although based on evidence-based
+10 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+techniques, felt robotic and impersonal, leading to a sense for their decisions and outcomes. In the context of health-
+ofisolation[134].Hence,AIlackstrueempathy,relyingon care, this means understanding how an AI system arrived
+algorithmsanddatapatternstoassesspatientconditionsand at a particular diagnosis or treatment recommendation. An
+recommendtreatments.AlthoughAIcanassistindiagnosing illustrative example is IBM’s Watson for Oncology, which
+medicalconditions,itmaynotfullygrasptheemotionaland assistsoncologistsinsuggestingpersonalizedtreatmentplans
+psychologicalaspectsofapatient’swell-being. forcancerpatients.Whileitaimstoprovideevidence-based
+Thus, the lack of emotional intelligence in AI systems is recommendations, reports have highlighted instances where
+anotherobstacletoachievingeffectivehuman-AIinteraction. WatsonforOncologysuggestedtreatmentsthatcontradicted
+Instances of AI failing to recognize and respond appropri- medical guidelines [141]. This highlights the importance
+atelytohumanemotionshavebeenwitnessed,hamperingthe of transparency and accountability, ensuring that AI-driven
+ability to form empathetic connections with users. Google’s decisionsareexplainable,justifiable,andalignedwithestab-
+Duplex, an AI system capable of making phone calls and lishedmedicalpractices.
+scheduling appointments on behalf of users, faced criticism Toenhancereliabilityandaccountability,continuousmon-
+for not always disclosing its AI identity during interactions itoring and feedback mechanisms are crucial. Take the case
+[135],[136],highlightingtheimportanceoftransparencyand of predictive analytics in predicting patient deterioration.
+ethical considerations in AI development. Furthermore, the Hospitals like Mount Sinai in New York have implemented
+ideaofAIhavingemotionalcapabilitiesraisesphilosophical AI systems that analyze patient data to predict potential
+questions about consciousness and what it truly means to deteriorationhoursbeforeitoccurs,allowingmedicalteams
+experience emotions. Can a machine truly feel emotions, tointervenepromptly[142].IncorporatingAIintohealthcare
+or is it simply simulating responses based on patterns and also requires legal and regulatory frameworks that ensure
+algorithms? This touches on the broader debate about the both patient safety and accountability. The Food and Drug
+nature of human consciousness and the limitations of AI. Administration (FDA) regulatory approach to AI in health-
+Moreover,if,AIcanmimiccertainaspectsofemotionalintel- care,forexample,seekstoensurethatAIapplicationsmeet
+ligence[137],[138],theethicalandsocietalimplicationsare the same safety and effectiveness standards as traditional
+noteworthy.OneconcernisthepotentialforAItomanipulate medical devices. This approach ensures that AI systems,
+humanemotions.IfAIsystemscandetectemotions,canthey such as those used for diagnosing diseases or making treat-
+beusedtotailorcontentoradvertisementstoprovokedesired mentrecommendations,areheldaccountablefortheirperfor-
+emotional responses? This raises questions about consent, manceandoutcomes[143].
+privacy, and the potential for emotional exploitation. This
+limitation can hinder its ability to respond effectively to V. ETHICALCONCERNSANDVALUEALIGNMENT
+patients’ emotional needs and concerns, potentially leaving AI is revolutionizing healthcare by bringing about unprece-
+themfeelingunheardoremotionallyunsupported. dented advancements in medicine and addressing major
+global healthcare challenges. For instance, AlphaFold, an
+D. TRUSTINAI AI-poweredalgorithm,successfullysolvedthelong-standing
+Reliability and accountability are crucial aspects when im- problem of protein folding, which had hindered progress in
+plementing AI in healthcare due to the potential impact on biology and medicine for decades. The potential applica-
+patientoutcomesandsafety.WhileAIhasshownpromising tionsofAIinhealthcarearevast,includingrapiddiagnosis,
+resultsinvariousmedicalapplications,ensuringitsreliability personalized care, and reduction of unnecessary outpatient
+and holding it accountable for its decisions are paramount visits,resultinginsignificantcostsavings[144].Theethical
+to maintaining patient trust and upholding ethical standards principles of beneficence, non-maleficence, autonomy, and
+[139],[140]. justicerequirethathealthcaredecisionsbemadewithproper
+Reliability in AI healthcare systems refers to the con- justification and accountability. Without XAI, it becomes
+sistent and accurate performance of the technology across challenging to ensure ethical decision-making, informed
+different scenarios and datasets. One example of reliability consent,andaccountabilityforAI-drivenrecommendations.
+is in diagnostic imaging, where AI algorithms can assist Healthcaredatasetsprimarilyconsistofpatientinformation,
+radiologistsindetectingabnormalitiesfrommedicalimages and strict regulation of medical privacy, encompassing the
+like x-rays, MRIs, and CT scans. For instance, AIdoc helps securityofmedicalrecordsandtheconfidentialityofconver-
+radiologistsidentifycriticalfindingslikeintracranialhemor- sationsbetweenhealthcareprofessionals[145],[146].
+rhages, fractures, and pulmonary embolisms. This technol- Modern concerns include managing the disclosure of in-
+ogydemonstratesreliabilitybyconsistentlyhighlightingrel- formationtoinsurancecompanies,employers,andthirdpar-
+evantfindingsandaidingradiologistsinprovidingtimelyand ties. With the advent of patient care management systems
+accuratediagnoses.However,ensuringthatsuchAIsystems (PCMS) and EHR, new privacy challenges have emerged,
+are validated across diverse patient populations, equipment whichmustbebalancedwitheffortstoreduceduplicatedser-
+variations, and clinical settings is essential to maintain their vices.Severalcountrieshaveenactedprivacyprotectionlaws,
+reliability. including Australia, Canada, Turkey, the United Kingdom
+Accountability involves holding AI systems responsible (UK),theUnitedStates(US),NewZealand,andtheNether-
+VOLUME4,2016 11
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+FIGURE6. OverviewofGDPRarticlesrelevanttodataprotection
+lands. However, the effectiveness of these laws in practice directpatientcare[150].AnoverviewofGDPRandHIPAA
+varies. The Health Insurance Portability and Accountability relevant to data regulations are highlighted in Figures 6 and
+Act(HIPAA)[147]waspassedin1996tostrengthenhealth- 7respectively.
+caredataprotectionbytheUSgovernment.
+A. PATIENTSCONSENTFORDATA
+In2018,TheGeneralDataProtectionRegulation(GDPR)
+From the viewpoint of healthcare, securing valid consent
+[148] replaced the Data Protection Directive (DPD) in the
+is crucial when engaging in AI-powered data analytics and
+EuropeanUnion(EU),establishingcomprehensivedatapro-
+profiling, as outlined by GDPR Article 6. The traditional
+tection and privacy regulations. The GDPR grants EU resi-
+data protection approach is built upon the "notice and con-
+dentstherighttorequestsearchenginestoremovepersonal
+sent"model,whereobtainingconsentfromthedata,subject
+informationassociatedwiththeirnamesfromsearchresults.
+is central. This model is designed to protect the right to
+GDPR applies not only within the EU and European Eco-
+"informational self-determination," enabling individuals to
+nomic Area (EEA) but also to the transfer of personal data
+either approve or decline the processing of their data after
+outside these regions. Similar concerns are also discussed
+being adequately informed. Nevertheless, this notification
+in[149],whichencompasspatientprivacyandconfidential-
+process might lose its significance when the data subject
+ity, challenges in obtaining informed consent, limited data
+lacks awareness or control over current or future data pro-
+ownership,potentialinaccuracies,biases,commercialization
+cessing [151]. The Article 29 Working Party’s guidelines
+risks,andsecurityvulnerabilities.Toaddresstheseconcerns
+regardingconsentunderRegulation2016/679stipulatethree
+through transparency, privacy protection, informed consent,
+essentialrequirementsthatmustbefulfilled:
+equitablepractices,androbustsecuritymeasuresisessential
+for responsible and ethical utilization of EHR data beyond 1) SpecificConsentCriterion:Consentmustallowfurther
+12 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+FIGURE7. OverviewofHIPAAclausesrelevanttodataprotection
+processing only if it aligns with a legal basis and explicitandinformedconsentfrompatientsbeforedisclosing
+remains consistent with the original purpose for data or using their PHI for purposes beyond direct treatment,
+collection. payment, and healthcare operations. The informed consent
+2) GranularityofConsentCriterion:Consentforprofiling process serves as a critical ethical safeguard, ensuring that
+mustbedistinctandseparatefromgrantingaccesstoa patients are fully informed about the potential uses of their
+service. health data and the entities that will access it. This aligns
+3) Freedom of Consent Criterion: Consent cannot serve with the principles of transparency, autonomy, and respect
+asavalidlegalbasisforpersonaldataprocessingwhen forindividuals’rightstocontroltheirPHI.
+asignificantimbalanceexistsbetweenthedatasubject
+§164.508 not only emphasizes the necessity of obtaining
+andthecontrollingentity.Whenconsideringdataana-
+patients’ consent but also lays out the specifics of what
+lytics and profiling conducted through AI processing,
+this consent should entail. It requires that consent forms
+it is imperative to adhere to all of these prerequisites
+be written in plain language, clearly explaining the purpose
+[152].
+of data usage and disclosing the individuals or entities that
+Similarly, HIPAA is a pivotal US law that safeguards mayaccessthedata.Thispromotestransparencyandallows
+individuals’ health data. One of the key ethical considera- patients to make informed decisions about the use of their
+tionswithinHIPAAistheemphasisonpatients’consentfor health data in AI applications and other healthcare contexts
+the usage of their protected health information (PHI). This [153].
+emphasis is outlined in various sections of HIPAA, most WithinthelandscapeofAI-poweredhealthcare,whereAI
+notably in Article 164.508, which pertains to the conditions algorithmsanalyzepatients’dataforpredictiveanalyticsand
+fordisclosureofPHI. treatment recommendations, adhering to HIPAA’s emphasis
+Under HIPAA’s provisions, healthcare providers and en- on patients’ consent is crucial. Furthermore, HIPAA grants
+tities, known as "covered entities," are required to obtain patients the right to access and amend their health informa-
+VOLUME4,2016 13
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+tion under §164.524. This aligns with the ethical principle rithmicdecisions[156].Inthisevolvinglandscape,GDPR’s
+of individual control and participation in data governance, principles cast a spotlight on the need for responsible and
+empoweringpatientstoplayanactiveroleinmanagingtheir transparentAIpractices,strikingabalancebetweeninnova-
+healthdata,eveninthecontextofAIapplications[154]. tionandtheprotectionofindividualrightsandinterests.
+HIPAA’sPrivacyRule§164.514establishesguidelinesfor
+B. DATAPRIVACYANDSECURITY the handling of PHI in the US healthcare system. Covered
+Automated decision-making, profiling, and the utilization entities are generally prohibited from using or disclosing
+of ML techniques are reshaping data processing, yet they PHIwithoutindividualauthorization,exceptinspecificcases
+bring forth concerns of bias and privacy invasion. In re- outlined by the rule. These exceptions include treatment,
+sponse,theGDPRemergesasacrucialframeworktoensure payment, healthcare operations, public health activities, and
+equitable data handling, particularly in the context of AI lawenforcementpurposes.Theruleemphasizestheprinciple
+systems. Under GDPR’s Article 5 [155], 5-1a, the focus is ofusingonlytheminimumnecessaryinformationforagiven
+ontransparentandlawfuldataprocessing.Whenitcomesto purpose, and it addresses incidental uses and disclosures.
+AI,transparencybecomesacomplexendeavor,necessitating Covered entities must have contracts with their business
+individualstobeaccuratelyinformedabouthowtheirdatais associates,whohandlePHIontheirbehalf.Researchuseof
+being manipulated while also ensuring equitable automated PHIisallowedundercertainconditions,withsafeguardssuch
+decisions. GDPR Article 5-1b draws a vital link between as Institutional Review Board (IRB) approval. Individuals
+the purpose of data processing and its legality. However, havetherighttoaccesstheirPHI,requestamendments,and
+as data finds new uses in AI applications, the challenge receiveanaccountingofdisclosures.WhileHIPAAprovides
+of re-purposing data without explicit consent emerges. This theframeworkforPHIprotection,detailscanvarybasedon
+becomes a prominent concern, given that individuals may therolesandcircumstances,andit’simportanttorefertoup-
+not have provided consent for their data to be used in the to-dateregulationsandguidance[157].
+context of future automated processing. The principle of TheHIPAAPrivacyRuleaimstoprotectpatientsbyensur-
+dataminimization,asoutlinedinGDPRArticle5-1c,comes ingthattheirhealthinformationisnotusedordisclosedwith-
+into play when AI is applied to extensive data analytics. outtheirconsentorlegaljustification.ThisruledefinesPro-
+This principle underscores the importance of utilizing the tected Health Information (PHI) as any data, in any format,
+necessary and relevant data for the intended purposes. In thatcanidentifyanindividualbasedontheirhealth,care,or
+the domain of AI, where data sets are expansive, under- payment history §§164.501 & 160.103. It also covers both
+standing the collective impact on groups of data subjects privateandpublicentities.Itgenerallytakesprecedenceover
+becomes pivotal, as anonymization and pseudonymization statelawsregardinghealthinformationprivacy.However,if
+techniques might not fully address the shared interests of a state law offers stricter privacy protections, then both the
+individualsconnectedthroughcorrelatedattributes.Dataac- statelawandHIPAAmustbefollowed§160.203.
+curacy, an essential facet emphasized in GDPR Article 5- One key principle of the law is the "Minimum Necessary
+1d, has become paramount in the AI landscape. Ensuring Standard." This principle dictates that any communication
+the precision and timeliness of data is crucial to prevent aboutapatientshouldonlyincludetheleastamountofinfor-
+detrimental profiling and erroneous decision-making based mationneededforitspurpose§164.502[b-1].However,there
+on inaccurate information. GDPR Article 5-1e stresses the are exceptions, for instance, the rule does not apply when
+necessity of limiting the retention of personal data to what theinformationisusedfortreatment,payment,orhealthcare
+is essential for processing. However, in the context of AI operations,amongotherscenarios.Thesuggestedpracticeis
+andbigdata,datastorageforarchival,researchorstatistical tousetheminimumnecessaryinformation.Ifallidentifying
+purposes may extend beyond the original processing scope. details are stripped from the data, it is no longer considered
+Thechallengeliesinstrikingabalancebetweenmaintaining PHI,andtherestrictionsdonotapply§164.514[a].Thelaw
+data for legitimate purposes and adhering to the principle also entails that patients must be given a Notice of Privacy
+of storage limitation. Furthermore, GDPR Article 5-1f in- Practices (NPP), which outlines how their information can
+troduces the security principle, mandating the safeguarding be used, especially for treatment, payment, and health care
+of data integrity and confidentiality during processing. This operations§164.520[b-1][ii-A].Healthcareproviderscanuse
+principle aligns with the essence of AI, where data security ordisclosePHIforthesepurposes,andwhiletheycanobtain
+isintegraltomaintainingpublictrustinalgorithmicdecision- consent for each disclosure related to treatment, it is not
+makingsystems.Crucially,GDPR’saccountabilityprinciple, mandatory§164.506[b-1][158].
+detailed in Article 5-2, extends its reach to AI applications. Moreover, it also guarantees that privacy, accuracy, and
+This principle necessitates controllers to not only adhere to accessibility of all electronic PHI under a covered entity’s
+dataprotectionregulationsbutalsodemonstratecompliance. care, transmission, or storage defends against foreseeable
+Instances like the well-known Cambridge Analytica case misuses or exposures of ePHI, and ensures that its staff
+serve as a stark reminder that stakeholders, policymakers, complieswiththesestandards§164.306[b][159].
+technologygiants,andgovernmentsneedtoaddresscitizens’ In the context of AI-powered healthcare systems, this
+concernsaboutthereasoningandconsequencesbehindalgo- provision assumes greater significance. AI algorithms often
+14 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+process vast amounts of health data to generate insights
+andrecommendations.Byapplyingtheminimumnecessary
+standard, healthcare providers, and AI developers can ethi-
+callymanagepatientdata,ensuringthatAIsystemscanonly
+access the data required for specific tasks while preserving
+patients’privacyrights.
+C. PATIENTS’RIGHTSTOTHEDATA
+GDPRensurestheprotectionofdatasubjectsbyoutlininga
+setofrights.However,whenappliedtoAI-basedprocesses,
+interpreting the implications of these rights becomes intri-
+cate. Article 15 grants individuals the right to access infor-
+mation about their data processing, including details about
+automateddecision-makinglogicanditsconsequences.The
+FIGURE8. SafeAIEthicalframework
+exact extent of disclosing "logic involved" remains unclear,
+whether it pertains to general methods or specific applica-
+tions. Article 17’s right to erasure, allowing data removal, ticesandupholdstheethicalprinciplethatindividualsshould
+canimpactanalgorithmicmodel’scredibility[160]. have knowledge and control over their own personal health
+Similarly,Article20’srighttodataportability,permitting data.
+the transfer of personal data, can affect algorithmic accu- HIPAA goes further to affirm patients’ rights to control
+racy and confidentiality, potentially influencing the larger their health information through §164.524[b], which grants
+dataset.Article21’srighttoobjectenablesindividualstohalt individuals the right to request amendments to their health
+data processing, ensuring data minimization and protecting records. If a patient believes that their health information is
+againstdatamisuse.Article22,crucialinthecontextofAI, incorrect or incomplete, they can formally request that the
+prohibitsautomateddecisionsiftheyproducesignificantef- covered entity make necessary corrections. This provision
+fects.However,thismightbemisinterpretedasAIdecisions aligns with the ethical principle of accuracy and respect for
+are primarily but not exclusively automated. The notion of individualautonomy,ensuringthatpatientshavetheauthor-
+"legal effects" or significant impact, including work perfor- itytomaintainaccurateandup-to-datehealthrecords.
+mance,economicsituation,health,etc.,mightnotbeclearto HIPAAalsoacknowledgespatients’interestinunderstand-
+datasubjects.Article22-2providesexceptions,allowingau- ing who has accessed their health information and for what
+tomateddecisionsiftheyarecontractuallynecessary,legally purpose.§164.524[c]outlinestherighttoreceiveanaccount-
+authorized with safeguards, or based on explicit consent. ing of disclosures, which provides patients with informa-
+Article 22-4 prohibits using sensitive data for automated tion about how their health records have been shared. This
+decisions,withanexception.Yet,AIcaninfersensitivedata transparencyempowerspatientstomonitortheusageoftheir
+from non-sensitive data, potentially leading to unauthorized healthinformation,contributingtoethicalaccountabilityand
+processing. The impact of the GDPR on AI reveals that reinforcingtheprincipleofindividualcontrol[164].
+"sensitive" data can be deduced from "non-sensitive" data, Moreover,HIPAAandGDPRdonotdirectlymentionAI,
+posing challenges. For instance, sexual orientation can be several of its clauses have relevance to AI applications and
+inferredfromseeminglyunrelateddatalikeactivityorlikes. can be challenged by new ways that AI processes personal
+Similarly, non-sensitive data can act as proxies for sensitive data[165],[166].
+data,leadingtopossibleunlawfuldiscrimination[161].
+Subsequently, under HIPAA’s framework, patients are VI. WAYFORWARD
+grantedsubstantialrightsovertheirhealthdata,mostnotably IntherapidlyevolvinglandscapeofAI,theneedforarobust
+throughHIPAA’sethicalframeworkplacesastrongemphasis ethical framework has arisen due to the ethical challenges
+on patients’ rights to access and control their health infor- posed by AI. This framework is designed to regulate AI’s
+mation,asdetailedin§164.524[162],[163].Thisprovision impact on individuals’ lives and interactions, ensuring so-
+explicitly outlines the rights granted to individuals concern- cietal benefit, protection of human rights, and respect for
+ingtheirPHIandunderscorestheethicalprinciplesoftrans- individuals’ privacy and autonomy. By integrating various
+parency,individualautonomy,andactiveparticipationindata components such as governance, ethics, human oversight,
+governance. education, and global standards, this framework provides a
+Under HIPAA §164.524[a], patients are granted the au- comprehensiveroadmapfortheresponsibledevelopmentand
+thority to access their own health records held by covered deploymentofAItechnologies.
+entities. This right ensures that individuals have the ability
+to review the information that is collected and maintained A. SAFEAI
+abouttheirhealth.Byallowingpatientstoaccesstheirhealth AIcontinuestopermeatevariousaspectsofourlives,andthe
+records, HIPAA promotes transparency in healthcare prac- ethicalconsiderationssurroundingitsdesignanddeployment
+VOLUME4,2016 15
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+havegainedparamountimportance.Wepresentameticulous Security ensures the integrity and robustness of AI sys-
+examination of a novel ethical framework comprising six tems. This goes beyond traditional cybersecurity, the AI
+pillars - Sensitivity, Evaluation, User-Centricity, Responsi- models can be vulnerable in unique ways. Techniques like
+bility, Beneficence, and Security - that collectively lay the adversarialtraining,wheremodelsaretrainedwithmalicious
+foundation for a holistic and safe AI ecosystem illustrated inputs to improve robustness, and robust cryptography for
+inFigure8.Eachpillarisdissected,analyzed,andcontextu- data protection are crucial. Regular audits, perhaps utilizing
+alized within the broader landscape of AI ethics, providing blockchain for traceability, can ensure system integrity and
+valuable insights for researchers, practitioners, and policy- protect against unauthorized breaches. Furthermore, unau-
+makerstonavigatethecomplexethicalchallengesassociated thorized access to AI systems, be it for data theft or model
+withAItechnologies.Let’sdelveintoeachpillar,unraveling manipulation,necessitatesstringentaccesscontrols,encryp-
+itsessencewithinthevasttapestryofAIethics. tionmethodologies,andcontinuousmonitoringsystems.Im-
+At the core lies sensitivity, the bedrock of ethical AI. It portantly,thedesignofAIshouldalsofactorinthemitigation
+promotes recognizing and respecting diverse user groups. of unintended consequences by integrating safeguards, roll-
+WithAI’spotentialtoperpetuatebiases,thispillaradvocates back capabilities, and emergency halt functionalities. In the
+systemstoperpetuatebiasesandstereotypes,thispillarsup- dynamic realm of AI, ethics isn’t just a philosophical con-
+portscontinuousmonitoringandmitigationofbiasesthrough cern—ithasdirecttechnicalimplications.Adheringtothese
+data curation, algorithm design, and stakeholder diversity. principles allows us to harness AI’s potential responsibly,
+By fostering sensitivity, AI creators prevent inadvertent re- guiding its evolution in alignment with societal values and
+inforcementofsocietalprejudices,cultivatingadigitalrealm long-termaspirations.
+thatembracesinclusivityandfairness. Theintegrationofethicalconsiderationsisessentialtohar-
+The evaluation pillar patrons meticulous test and assess- ness the full potential of AI technologies while minimizing
+ment methodologies to ascertain the ethical soundness of their potential harms. By embracing these principles, stake-
+AI systems. In a bid to ensure ethical AI, fairness and holderscancollectivelyfosteramoreequitable,transparent,
+unbiased outcomes stand paramount. This pillar proposes a andresponsibleAIecosystemthatalignswithsocietalvalues
+comprehensiveevaluationapproach,encompassingtechnical andaspirations.
+prowess,societalimplications,andriskassessment.Byincor-
+poratingriskassessment,itaidsinidentifyingandmitigating B. GOVERNANCEANDCOLLABORATION
+potentialthreatsandvulnerabilitiesinAIsystems.Thus,AI
+practitioners,equippedwitharobustevaluation,canidentify
+and rectify biases, ensuring that the technology is steered
+ontoanethicaltrajectory.
+User-centricity emerges, accentuating AI designs attuned
+to user needs, experience, and emotions. Through the inte-
+grationofcontextualintelligenceandemotionalintelligence,
+AI technologies can better understand user intentions, pref-
+erences, and emotions, leading to more personalized and
+empathetic interactions. A user-focused paradigm beckons,
+where AI enriches human capabilities while safeguarding
+autonomyandprivacy,ensuringanethicalhorizon.
+The responsibility pillar encapsulates the principles of
+transparency and accountability in AI development and de-
+ployment. This pillar recommends transparent system de-
+sign, explainability, and traceability to instill public trust
+and address concerns about algorithmic opacity. Further-
+more,developersshouldembracetheiraccountabilityforthe FIGURE9. GovernanceandCollaborationecosystem
+outcomes of AI systems, fostering a culture of responsible
+innovation that considers both short-term benefits and long- WiththeadvancementofAIanditsintegrationintovarious
+termconsequences. aspects of society, the need for effective governance and
+Beneficenceembodiesthemoralobligationtoensurethat collaboration mechanisms is paramount. The development
+AI technologies promote the prosperity of individuals and of AI systems, particularly those designed for governance
+societyatlarge.Thispillarsupportstheintegrationofsustain- and collaboration, presents unique challenges that necessi-
+ability,resilience,andreliabilityintothesystem.Byadopting tate a comprehensive framework presented in Figure 9. The
+along-termperspective,AIdeveloperscananticipatepoten- intricate relationships between Human Oversight and Inter-
+tialharms,designforsystemrobustness,andestablishmech- vention (HOI), Multi-Stakeholder Engagement (MSE), Pri-
+anisms for adaptive responses to changing circumstances, vacybyDesign(PbD),SafeAI,EthicalGovernanceCouncil
+thusupholdingthemoralpreceptofbeneficence. (EGC), Awareness Programs, Continuous Improvement and
+16 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+Adaptability (CIA), and Inter-Generational Considerations ensuressafer,moreaccountable,andresilientAIsystems.
+(IGC)formthebackboneofacomprehensiveAIgovernance EGC acts as a bridge between the technical intricacies of
+andcollaborationframework.Thesecomponentsareinterde- AIsystemsandthebroadersocietalimplications.TheEGC,
+pendent, each influencing and enriching the others, thereby comprising experts from various disciplines, is responsible
+creating a resilient and ethically sound AI ecosystem that for defining and upholding ethical principles that guide AI
+alignswithsocietalvaluesandneedsacrossgenerations. development and deployment. This council also influences
+HOI serves as a pivotal element in the development and awareness programs, as its guidance forms the foundation
+deploymentofAIsystems.Itinvolvestheactiveparticipation of educational efforts to raise awareness about AI’s ethical
+of human experts in monitoring and controlling AI actions, implications. Furthermore, the EGC is closely intertwined
+especially in critical decision-making scenarios (feedback with both CIA and IGC. The EGC ensures that AI systems
+loop).Thishumaninvolvementmitigatestherisksofbiased evolveethicallyovertimeandconsidersthelong-termimpact
+or erroneous outcomes that AI systems might produce. In ofAIonfuturegenerations.
+parallel, HOI also relates closely to PbD. Privacy concerns Awareness programs encompass training and education
+emerge due to the sensitive nature of data processed by AI initiativesthatequipstakeholderswiththeknowledgeneeded
+systems. A symbiotic relationship between HOI and PbD to understand AI’s complexities. This component intersects
+ensures that privacy considerations are woven into the very with both the EGC and CIA. By disseminating the EGC’s
+fabricofAIsystems,withhumanoversightactingasacheck ethical guidelines, awareness programs foster a culture of
+onpotentialprivacybreaches. responsibleAIdevelopment(globalperspective).Simultane-
+MSE recognizes the diverse interests and perspectives ously, these programs facilitate the iterative process of the
+of various stakeholders in the AI domain. It promotes in- CIA, as the knowledge gained from awareness initiatives
+clusivity, bringing together experts, policymakers, industry informstherefinementoftheAIsystems.
+leaders,andcivilsocietyrepresentativestocollectivelysteer CIA acknowledges that AI governance is a dynamic pro-
+thedevelopmentofAIgovernance(Legislation)mechanisms cess that must evolve in response to technological advance-
+as well as interdisciplinary engagement. Along with this mentsandchangingsocietalneeds.Thiscomponentdirectly
+engaging the public, end-users, or those affected by AI engages with MSE and IGC. Adapting AI systems requires
+systemsinethicaldiscussionsanddecision-makingprocesses input from diverse stakeholders and an inter-generational
+is a crucial step toward democratizing AI. Their voices and perspective ensures that AI governance strategies remain
+concerns can provide invaluable perspectives that might be relevantforfuturegenerations.
+missed by technologists or policymakers. This engagement IGC highlights the impact of AI systems on future so-
+also affects safe AI, as stakeholders’ input enhances the cieties. This aspect is interwoven with both the EGC and
+identification of potential risks and safeguards that need to CIA. The ethical decisions made today affect generations
+beintegratedintoAIsystems.Inturn,safeAIcontributesto to come, and the adaptability of AI systems ensures that
+thereliabilityofAIsystems,whichsharedwithstakeholders theirimplicationsarecontinuallyassessedandmitigatedfor
+throughMSE,buildsmutualtrustandtransparency. the well-being of the future. Though it is not necessarily an
+PbD is a proactive approach to privacy that integrates ethical consideration, the economic incentives that drive AI
+privacy considerations into the foundation of technology, development can profoundly influence its direction. Recog-
+systems,andprocesses.InthecontextofAI,thisapproachis nizingandpotentiallyaddressingtheseconsiderationscanbe
+crucial due to the processing of personal and sensitive data. crucial,especiallywheneconomicgoalsconflictwithethical
+Guidingprinciplesincludedataminimization,obtaininguser ones.
+consent and control, anonymization and pseudonymization The interconnected relationships between these compo-
+ofdata,implementingstrongsecuritymeasures,user-focused nents create a harmonious symphony of governance and
+design,lifecycleconsiderations,transparency,accountability, collaboration.Thisframeworkpromotesethical,transparent,
+andcross-disciplinarycollaboration.Itisbothalegalrequire- and adaptable AI systems that account for diverse perspec-
+mentandanethicalimperativeinAIdevelopment,aimingto tives,ensureprivacy,andalignwithevolvingsocietalnorms.
+buildsystemsthatrespectuserrights,enhancetrust,andmiti- As AI technology continues to grow, this comprehensive
+gateprivacyrisks.ItalignswithbroaderethicalAIprinciples approachprovidesaroadmaptonavigatethechallengesand
+andpromotesresponsibleandethicalAIpractices. opportunities that lie ahead, fostering an AI landscape that
+SafeAIentailsdevelopinganddeployingAIsystemswith benefitshumanityinthepresentandforgenerationstocome.
+preventive measures to minimize risks and unintended out-
+comes. This involves strategies such as risk assessment, ro- VII. CONCLUSION
+bustdesign,transparency,humanoversight,thoroughtesting, The integration of AI into diverse domains, particularly
+and continuous monitoring to ensure ethical and reliable AI healthcare, has unleashed unprecedented potential for ad-
+operation.Byincorporatingtheseprinciples,AIsystemsare vancementsthatcanredefinehumanwell-beingandprogress.
+designedtohandlevariousinputs,explaindecisionstranspar- However, this progress comes with ethical challenges that
+ently,involvehumanjudgment,undergorigorousvalidation, must be addressed to ensure that AI technologies serve hu-
+and adapt over time to changing conditions. This approach manity’sbestinterests.
+VOLUME4,2016 17
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+Theethicaldimensionsencompassarangeofissues,from [7] DonHeeLeeandSeongNoYoon. Applicationofartificialintelligence-
+transparency in decision-making to safeguarding individual basedtechnologiesinthehealthcareindustry:Opportunitiesandchal-
+lenges. International Journal of Environmental Research and Public
+privacy. The surge in AI-driven decision-making processes
+Health,18(1):271,2021.
+bringsforthconcernsaboutaccountabilityandexplainability. [8] MeikeNauta. ExplainableAIandInterpretableComputerVision:From
+TransparencyinhowAIsystemsarriveatconclusionsisnot OversighttoInsight. PhDthesis,UniversityofTwenteResearchInfor-
+mation,2023.
+only a matter of technological necessity but also an ethical
+[9] MarkusBurger,Anna-MariaNitsche,andJuliaArlinghaus.Hybridintel-
+imperative. ligenceinprocurement:DisillusionmentwithAI’ssuperiority?Comput-
+AI’srelianceondataisundeniable,still,theethicalimpli- ersinIndustry,150:103946,2023.
+[10] Yu Zhang, Peter Tinˇo, Aleš Leonardis, and Ke Tang. A survey on
+cations of data usage loom large. Ensuring that AI systems
+neuralnetworkinterpretability. IEEETransactionsonEmergingTopics
+do not perpetuate biases present in data requires meticulous inComputationalIntelligence,5(5):726–742,2021.
+attentiontodatacollection,processing,andalgorithmdesign. [11] AviRosenfeldandAriellaRichardson. Explainabilityinhuman–agent
+systems. AutonomousAgentsandMulti-AgentSystems,33:673–705,
+The framework must emphasize the ethical use of data,
+2019.
+mitigatingpotentialdiscriminationandensuringfairness.By [12] Emilio Ferrara. Fairness and bias in artificial intelligence: A brief
+adheringtoprinciplesofdiversityandrepresentation,wecan survey of sources, impacts, and mitigation strategies. arXiv preprint
+arXiv:2304.07683,2023.
+reducetheriskofAIsystemsamplifyingsocietalinequities.
+[13] Andreas Holzinger, Georg Langs, Helmut Denk, Kurt Zatloukal, and
+Asignificantchallengearisesinachievingcontextualintel- HeimoMüller. Causabilityandexplainabilityofartificialintelligencein
+ligence in AI systems, akin to human understanding. While medicine.WileyInterdisciplinaryReviews:DataMiningandKnowledge
+Discovery,9(4):e1312,2019.
+AIhasmaderemarkablestrides,itcontinuestograpplewith
+[14] MarzyehGhassemi,LukeOakden-Rayner,andAndrewLBeam. The
+comprehending the nuances and intricacies of human con- falsehopeofcurrentapproachestoexplainableartificialintelligencein
+text. The framework should promote ongoing research and healthcare.TheLancetDigitalHealth,3(11):e745–e750,2021.
+[15] Finale Doshi-Velez and Been Kim. Towards a rigorous science of
+development that strives for nuanced contextual awareness.
+interpretablemachinelearning.arXivpreprintarXiv:1702.08608,2017.
+Additionally,asAIandhumansinteract,understandingcom- [16] ZacharyCLipton. Themythosofmodelinterpretability:Inmachine
+plex language and emotional nuances remains challenging. learning,theconceptofinterpretabilityisbothimportantandslippery.
+Queue,16(3):31–57,2018.
+WhileAIcanassistinvarioustasks,theirreplaceablenature
+[17] RiccardoGuidotti,AnnaMonreale,SalvatoreRuggieri,FrancoTurini,
+ofhumanempathyandconnectionhighlightsthenecessityof FoscaGiannotti,andDinoPedreschi.Asurveyofmethodsforexplaining
+maintainingahuman-centricapproachinAIapplications. blackboxmodels.ACMcomputingsurveys(CSUR),51(5):1–42,2018.
+[18] Himabindu Lakkaraju, Ece Kamar, Rich Caruana, and Jure Leskovec.
+StrikingabalancebetweenAI’sanalyticalcapabilitiesand Interpretable&explorableapproximationsofblackboxmodels. arXiv
+humanoversightiscrucialtomaintainingethicalcontroland preprintarXiv:1707.01154,2017.
+[19] Leilani H Gilpin, David Bau, Ben Z Yuan, Ayesha Bajwa, Michael
+accountability. Educated decisions can only be made when
+Specter, and Lalana Kagal. Explaining explanations: An overview of
+individualsunderstandtheimplicationsandconsequencesof interpretability of machine learning. In 2018 IEEE 5th International
+AIapplications.Equippingpeoplewiththenecessaryknowl- Conferenceondatascienceandadvancedanalytics(DSAA),pages80–
+89.IEEE,2018.
+edgeempowersthemtoengageininformeddiscussionsand
+[20] GillesVandewiele,OlivierJanssens,FemkeOngenae,FilipDeTurck,
+contributetotheresponsibledevelopmentofAItechnologies. andSofieVanHoecke. Genesim:geneticextractionofasingle,inter-
+Thus, standards and guidelines are required to unify the pretablemodel.arXivpreprintarXiv:1611.05722,2016.
+[21] Peter Lee, Sebastien Bubeck, and Joseph Petro. Benefits, limits, and
+framework for global AI practices. Harmonizing these stan-
+risksofgpt-4asanAIchatbotformedicine. NewEnglandJournalof
+dards ensures that AI technologies are developed and de- Medicine,388(13):1233–1239,2023.
+ployed within consistent ethical boundaries. Its agility will [22] NilsJNilsson.Thequestforartificialintelligence.CambridgeUniversity
+Press,2009.
+enable it to effectively respond to new technological devel-
+[23] AminaAdadiandMohammedBerrada. ExplainableAIforhealthcare:
+opments, ensuring that ethical considerations remain at the from black box to interpretable models. In Embedded Systems and
+forefront. ArtificialIntelligence:ProceedingsofESAI2019,Fez,Morocco,pages
+327–337.Springer,2020.
+[24] Yi-Shan Lin, Wen-Chuan Lee, and Z Berkay Celik. What do you
+REFERENCES see?evaluationofexplainableartificialintelligenceXAIinterpretability
+throughneuralbackdoors. InProceedingsofthe27thACMSIGKDD
+[1] StefanoABini. Artificialintelligence,machinelearning,deeplearning, ConferenceonKnowledgeDiscovery&DataMining,pages1027–1035,
+andcognitivecomputing:whatdothesetermsmeanandhowwillthey 2021.
+impacthealthcare?TheJournalofarthroplasty,33(8):2358–2361,2018.
+[25] MarcoTulioRibeiro,SameerSingh,andCarlosGuestrin."whyshouldi
+[2] DennisMDimiduk,ElizabethAHolm,andStephenRNiezgoda. Per- trustyou?"explainingthepredictionsofanyclassifier. InProceedings
+spectivesontheimpactofmachinelearning,deeplearning,andartificial of the 22nd ACM SIGKDD international conference on knowledge
+intelligenceonmaterials,processes,andstructuresengineering.Integrat- discoveryanddatamining,pages1135–1144,2016.
+ingMaterialsandManufacturingInnovation,7:157–172,2018. [26] ScottMLundbergandSu-InLee. Aunifiedapproachtointerpreting
+[3] VaishakBelleandIoannisPapantonis.Principlesandpracticeofexplain- modelpredictions. Advancesinneuralinformationprocessingsystems,
+ablemachinelearning.FrontiersinbigData,page39,2021. 30,2017.
+[4] AbdulKarim,AvinashMishra,M.A.HakimNewton,andAbdulSattar. [27] RamprasaathRSelvaraju,MichaelCogswell,AbhishekDas,Ramakr-
+Machinelearninginterpretability:Ascienceratherthanatool. CoRR, ishna Vedantam, Devi Parikh, and Dhruv Batra. Grad-cam: Visual
+abs/1807.06722,2018. explanations from deep networks via gradient-based localization. In
+[5] GeetaKocherandGulshanKumar. Machinelearninganddeeplearning ProceedingsoftheIEEEinternationalconferenceoncomputervision,
+methodsforintrusiondetectionsystems:recentdevelopmentsandchal- pages618–626,2017.
+lenges.SoftComputing,25(15):9731–9763,2021. [28] Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser,
+[6] GarySCollinsandKarelGMMoons.Reportingofartificialintelligence AdrienBennetot,SihamTabik,AlbertoBarbado,SalvadorGarcía,Ser-
+predictionmodels.TheLancet,393(10181):1577–1579,2019. gioGil-López,DanielMolina,RichardBenjamins,etal. Explainable
+18 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+artificialintelligenceXAI:Concepts,taxonomies,opportunitiesandchal- [48] Panagiota Karatza, Kalliopi Dalakleidi, Maria Athanasiou, and Kon-
+lengestowardresponsibleAI.Informationfusion,58:82–115,2020. stantina S Nikita. Interpretability methods of machine learning al-
+[29] LameckMbangulaAmugongo,AlexanderKriebitz,AuxaneBoch,and gorithms with applications in breast cancer diagnosis. In 2021 43rd
+ChristophLütge. OperationalisingAIethicsthroughtheagilesoftware AnnualInternationalConferenceoftheIEEEEngineeringinMedicine
+developmentlifecycle:acasestudyofAI-enabledmobilehealthapplica- &BiologySociety(EMBC),pages2310–2313.IEEE,2021.
+tions.AIandEthics,pages1–18,2023. [49] MuhammadShoaibJaliaawalaandRizwanAhmedKhan. Canautism
+[30] Aniek F Markus, Jan A Kors, and Peter R Rijnbeek. The role of becateredwithartificialintelligence-assistedinterventiontechnology?a
+explainability in creating trustworthy artificial intelligence for health comprehensivesurvey. ArtificialIntelligenceReview,53(2):1039–1069,
+care: a comprehensive survey of the terminology, design choices, and 2020.
+evaluation strategies. Journal of biomedical informatics, 113:103655, [50] HamzaSharifandRizwanAhmedKhan.Anovelmachinelearningbased
+2021. framework for detection of autism spectrum disorder (asd). Applied
+[31] HuiWenLoh,ChuiPingOoi,SilviaSeoni,PrabalDattaBarua,Filippo ArtificialIntelligence,36(1):2004655,2022.
+Molinari,andURajendraAcharya. Applicationofexplainableartificial [51] ParvathaneniNagaSrinivasu,NSandhya,RutvijHJhaveri,andRoshani
+intelligenceforhealthcare:Asystematicreviewofthelastdecade(2011– Raut. FromblackboxtoexplainableAIinhealthcare:existingtoolsand
+2022). ComputerMethodsandProgramsinBiomedicine,page107161, casestudies.MobileInformationSystems,2022:1–20,2022.
+2022. [52] AmayaArcelus,MeganHowellJones,RafikGoubran,andFrankKnoe-
+[32] ShaneO’Sullivan,NathalieNevejans,ColinAllen,AndrewBlyth,Simon fel.Integrationofsmarthometechnologiesinahealthmonitoringsystem
+Leonard, Ugo Pagallo, Katharina Holzinger, Andreas Holzinger, Mo- fortheelderly. In21stInternationalConferenceonAdvancedInforma-
+hammedImranSajid,andHutanAshrafian.Legal,regulatory,andethical tionNetworkingandApplicationsWorkshops(AINAW’07),volume2,
+frameworksfordevelopmentofstandardsinartificialintelligence(AI) pages820–825.IEEE,2007.
+andautonomousroboticsurgery. Theinternationaljournalofmedical [53] Janneke MT Hendriksen, Geert-Jan Geersing, Karel GM Moons, and
+roboticsandcomputerassistedsurgery,15(1):e1968,2019. JorisAHdeGroot.Diagnosticandprognosticpredictionmodels.Journal
+[33] RayEitel-Porter. Beyondthepromise:implementingethicalAI. AIand ofThrombosisandHaemostasis,11:129–141,2013.
+Ethics,1:73–80,2021. [54] LuisFilipeNakayama,AshleyKras,LucasZagoRibeiro,FernandoKorn
+[34] Dorian Peters, Karina Vold, Diana Robinson, and Rafael A Calvo. Malerbi,LuisaSallesMendonça,LeoAnthonyCeli,CaioViniciusSaito
+Responsible AI—two frameworks for ethical design practice. IEEE Regatieri,andNadiaKWaheed. Globaldisparitybiasinophthalmology
+TransactionsonTechnologyandSociety,1(1):34–47,2020. artificial intelligence applications. BMJ Health & Care Informatics,
+29(1):e100470,2022.
+[35] JessicaMorleyandLucianoFloridi.AnethicallymindfulapproachtoAI
+[55] Ziad Obermeyer, Brian Powers, Christine Vogeli, and Sendhil Mul-
+forhealthcare.TheLancet,395(10220):254–255,2020.
+lainathan. Dissecting racial bias in an algorithm used to manage the
+[36] Nithesh Naik, BM Hameed, Dasharathraj K Shetty, Dishant Swain,
+healthofpopulations.Science,366(6464):447–453,2019.
+MilapShah,RahulPaul,KaivalyaAggarwal,SufyanIbrahim,Vathsala
+[56] MehdiMousavi,AashisKhanal,andRolandoEstrada. AIplayground:
+Patil,KomalSmriti,etal. Legalandethicalconsiderationinartificial
+Unrealengine-baseddataablationtoolfordeeplearning.InInternational
+intelligenceinhealthcare:whotakesresponsibility?Frontiersinsurgery,
+SymposiumonVisualComputing,pages518–532.Springer,2020.
+9:266,2022.
+[57] NancyNMaserejian,CarolLLink,KarenLLutfey,LisaDMarceau,
+[37] KhansaRasheed,AdnanQayyum,MohammedGhaly,AlaAl-Fuqaha,
+andJohnBMcKinlay. Disparitiesinphysicians’interpretationsofheart
+Adeel Razi, and Junaid Qadir. Explainable, trustworthy, and ethical
+diseasesymptomsbypatientgender:resultsofavideovignettefactorial
+machinelearningforhealthcare:Asurvey. ComputersinBiologyand
+experiment.Journalofwomen’shealth,18(10):1661–1667,2009.
+Medicine,page106043,2022.
+[58] Evangelos K Oikonomou, Michelle C Williams, Christos P Kotani-
+[38] YavarBathaee. Theartificialintelligenceblackboxandthefailureof
+dis, Milind Y Desai, Mohamed Marwan, Alexios S Antonopoulos,
+intentandcausation.Harv.JL&Tech.,31:889,2017.
+Katharine E Thomas, Sheena Thomas, Ioannis Akoumianakis, Lamp-
+[39] EricCMakhni,SonyaMakhni,andPremNRamkumar. Artificialin-
+sonMFan,SujathaKesavan,LauraHerdman,AlaaAlashi,ErikaHutt
+telligencefortheorthopaedicsurgeon:anoverviewofpotentialbenefits,
+Centeno, Maria Lyasheva, Brian P Griffin, Scott D Flamm, Cheerag
+limitations,andclinicalapplications. JAAOS-JournaloftheAmerican
+Shirodaria,NikantSabharwal,AndrewKelion,MarcRDweck,Edwin
+AcademyofOrthopaedicSurgeons,29(6):235–243,2021.
+JRVanBeek,JohnDeanfield,JemmaCHopewell,StefanNeubauer,
+[40] MarzyehGhassemi,TristanNaumann,PeterSchulam,AndrewLBeam,
+KeithMChannon,StephanAchenbach,DavidENewby,andCharalam-
+IreneYChen,andRajeshRanganath.Areviewofchallengesandoppor-
+bosAntoniades. Anovelmachinelearning-derivedradiotranscriptomic
+tunitiesinmachinelearningforhealth.AMIASummitsonTranslational
+signatureofperivascularfatimprovescardiacriskpredictionusingcoro-
+ScienceProceedings,2020:191,2020.
+naryCTangiography. EuropeanHeartJournal,40(43):3529–3543,09
+[41] Esra Zihni, Vince Istvan Madai, Michelle Livne, Ivana Galinovic, 2019.
+Ahmed A Khalil, Jochen B Fiebach, and Dietmar Frey. Opening the [59] JLarryJameson. Harrison’sprinciplesofinternalmedicine. McGraw-
+blackboxofartificialintelligenceforclinicaldecisionsupport:Astudy HillEducation„2018.
+predictingstrokeoutcome.Plosone,15(4):e0231166,2020.
+[60] Thomas Davenport and Ravi Kalakota. The potential for artificial
+[42] AlexJohnLondon. Artificialintelligenceandblack-boxmedicaldeci- intelligenceinhealthcare.Futurehealthcarejournal,6(2):94,2019.
+sions:accuracyversusexplainability.HastingsCenterReport,49(1):15– [61] Leo Anthony Celi, Jacqueline Cellini, Marie-Laure Charpignon, Ed-
+21,2019. wardChristopherDee,FranckDernoncourt,ReneEber,WilliamGreig
+[43] Aaron IF Poon and Joseph JY Sung. Opening the black box of AI- Mitchell,LamaMoukheiber,JulianSchirmer,JuliaSitu,etal. Sources
+medicine. JournalofGastroenterologyandHepatology,36(3):581–584, ofbiasinartificialintelligencethatperpetuatehealthcaredisparities—a
+2021. globalreview.PLOSDigitalHealth,1(3):e0000022,2022.
+[44] Hao Ren, Aslan B Wong, Wanmin Lian, Weibin Cheng, Ying Zhang, [62] Titus J. Brinker, Achim Hekler, Alexander H. Enk, Carola Berking,
+JianweiHe,QingfengLiu,JiashengYang,ChenJasonZhang,Kaishun Sebastian Haferkamp, Axel Hauschild, Michael Weichenthal, Joachim
+Wu,etal.Interpretablepneumoniadetectionbycombiningdeeplearning Klode,DirkSchadendorf,TimHolland-Letz,ChristofvonKalle,Stefan
+andexplainablemodelswithmultisourcedata. IeeeAccess,9:95872– Fröhling,BastianSchilling,andJochenS.Utikal.Deepneuralnetworks
+95883,2021. aresuperiortodermatologistsinmelanomaimageclassification. Euro-
+[45] WardahAli,EeshaQureshi,OmamaAhmedFarooqi,andRizwanAhmed peanJournalofCancer,119:11–17,2019.
+Khan. Pneumonia detection in chest x-ray images: Handling class [63] LuigiFiorillo,AlessandroPuiatti,MichelaPapandrea,Pietro-LucaRatti,
+imbalance.arXivpreprintarXiv:2301.08479,2023. PaoloFavaro,CorinneRoth,PanagiotisBargiotas,ClaudioL.Bassetti,
+[46] Shahid Munir Shah, Rizwan Ahmed Khan, Sheeraz Arif, and Unaiza andFrancescaD.Faraci.Automatedsleepscoring:Areviewofthelatest
+Sajid. Artificialintelligenceforbreastcanceranalysis:Trends&direc- approaches.SleepMedicineReviews,48:101204,2019.
+tions.ComputersinBiologyandMedicine,142:105221,2022. [64] SamSOh,JoshuaGalanter,NeetaThakur,MariaPino-Yanes,NicolasE
+[47] UnaizaSajid,RizwanAhmedKhan,ShahidMunirShah,andSheeraz Barcelo,MarquittaJWhite,DanielleMdeBruin,RuthMGreenblatt,
+Arif. Breastcancerclassificationusingdeeplearnedfeaturesboosted Kirsten Bibbins-Domingo, Alan HB Wu, et al. Diversity in clinical
+withhandcraftedfeatures. BiomedicalSignalProcessingandControl, andbiomedicalresearch:apromiseyettobefulfilled. PLoSmedicine,
+86:105353,2023. 12(12):e1001918,2015.
+VOLUME4,2016 19
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+[65] Payal Chandak and Nicholas P Tatonetti. Using machine learning to Ann-SofieSandberg,AnnaSandin,etal. Maternalcharacteristicsand
+identifyadversedrugeffectsposingincreasedrisktowomen. Patterns, pregnancy outcomes in the nice birth cohort: an assessment of self-
+1(7),2020. selectionbias. Thejournalofmaternal-fetal&neonatalmedicine:the
+[66] DaijuUeda,TaichiKakinuma,ShoheiFujita,KojiKamagata,Yasutaka officialjournaloftheEuropeanAssociationofPerinatalMedicine,the
+Fushimi, Rintaro Ito, Yusuke Matsui, Taiki Nozaki, Takeshi Nakaura, Federation of Asia and Oceania Perinatal Societies, the International
+NoriyukiFujima,etal. Fairnessofartificialintelligenceinhealthcare: SocietyofPerinatalObstetricians,35(25):9014–9022,2022.
+reviewandrecommendations. JapaneseJournalofRadiology,pages1– [88] CynthiaWeber.Engineeringbiasinai.IEEEpulse,10(1):15–17,2019.
+13,2023. [89] YvesSaintJamesAquino. Makingdecisions:Biasinartificialintelli-
+[67] Joy Buolamwini and Timnit Gebru. Gender shades: Intersectional gence and data-driven diagnostic tools. Australian journal of general
+accuracydisparitiesincommercialgenderclassification. InConference practice,52(7):439–442,2023.
+onfairness,accountabilityandtransparency,pages77–91.PMLR,2018. [90] EmilioFerrara.Shouldchatgptbebiased?challengesandrisksofbiasin
+[68] BrendanFKlare,BenKlein,EmmaTaborsky,AustinBlanton,Jordan largelanguagemodels.arXivpreprintarXiv:2304.03738,2023.
+Cheney, Kristen Allen, Patrick Grother, Alan Mah, and Anil K Jain. [91] ZeynepTufekci. Bigquestionsforsocialmediabigdata:Representa-
+Pushing the frontiers of unconstrained face detection and recognition: tiveness,validityandothermethodologicalpitfalls. InProceedingsof
+Iarpa janus benchmark a. In Proceedings of the IEEE conference on theinternationalAAAIconferenceonwebandsocialmedia,volume8,
+computervisionandpatternrecognition,pages1931–1939,2015. pages505–514,2014.
+[69] GilLeviandTalHassner. Ageandgenderclassificationusingconvo- [92] Karen Drukker, Weijie Chen, Judy Gichoya, Nicholas Gruszauskas,
+lutional neural networks. In Proceedings of the IEEE conference on Jayashree Kalpathy-Cramer, Sanmi Koyejo, Kyle Myers, Rui C Sá,
+computervisionandpatternrecognitionworkshops,pages34–42,2015. BerkmanSahiner,HeatherWhitney,etal. Towardfairnessinartificial
+[70] EricJTopol.High-performancemedicine:theconvergenceofhumanand intelligenceformedicalimageanalysis:identificationandmitigationof
+artificialintelligence.Naturemedicine,25(1):44–56,2019. potentialbiasesintheroadmapfromdatacollectiontomodeldeploy-
+[71] HariniSureshandJohnGuttag. Aframeworkforunderstandingsources ment.JournalofMedicalImaging,10(6):061104–061104,2023.
+ofharmthroughoutthemachinelearninglifecycle.InEquityandaccess [93] Ed Seabolt, Eser Kandogan, and Mary Roth. Contextual intelligence
+in algorithms, mechanisms, and optimization, pages 1–9. ACM New forunifieddatagovernance. InProceedingsoftheFirstInternational
+York,NY,USA,2021. WorkshoponExploitingArtificialIntelligenceTechniquesforDataMan-
+[72] StephanieKRiegg. Causalinferenceandomittedvariablebiasinfinan- agement,pages1–9,2018.
+cialaidresearch:Assessingsolutions.TheReviewofHigherEducation, [94] Dominik Dellermann, Philipp Ebel, Matthias Söllner, and Jan Marco
+31(3):329–354,2008. Leimeister. Hybrid intelligence. Business & Information Systems
+[73] SamuelBarbosa,DanCosley,AmitSharma,andRobertoMCesarJr. Engineering,61:637–643,2019.
+Averaginggonewrong:Usingtime-awareanalysestobetterunderstand [95] Gleb Papyshev and Masaru Yarime. The limitation of ethics-based
+behavior. InProceedingsofthe25thInternationalConferenceonWorld approachestoregulatingartificialintelligence:regulatorygiftinginthe
+WideWeb,pages829–841,2016. contextofrussia.AI&SOCIETY,pages1–16,2022.
+[74] ChristinaBAzodi,JiliangTang,andShin-HanShiu. Openingtheblack [96] Kanaka Sai Jagarlamudi, Arkady Zaslavsky, Seng W Loke, Alireza
+box:interpretablemachinelearningforgeneticists. Trendsingenetics, Hassani,andAlexeyMedvedev. Requirements,limitationsandrecom-
+36(6):442–455,2020. mendationsforenablingend-to-endqualityofcontext-awarenessinIoT
+[75] ArunDasandPaulRad. Opportunitiesandchallengesinexplainable middleware.Sensors,22(4):1632,2022.
+artificialintelligenceXAI:Asurvey. arXivpreprintarXiv:2006.11371, [97] JohnMcCarthy.Generalityinartificialintelligence.Communicationsof
+2020. theACM,30(12):1030–1035,1987.
+[76] TrishanPanch,HeatherMattie,andRifatAtun. Artificialintelligence [98] NealMDavies.Adaptingartificialintelligenceintotheevolutionofphar-
+andalgorithmicbias:implicationsforhealthsystems. Journalofglobal maceuticalsciencesandpublishing:Technologicaldarwinism.Journalof
+health,9(2),2019. Pharmacy&PharmaceuticalSciences,26:11349,2023.
+[77] RicardoBaeza-Yates. Biasontheweb. CommunicationsoftheACM, [99] EdwardSantow. Canartificialintelligencebetrustedwithourhuman
+61(6):54–61,2018. rights?AQ:AustralianQuarterly,91(4):10–17,2020.
+[78] GiovanniLucaCiampaglia,AzadehNematzadeh,FilippoMenczer,and [100] CarlMacrae. Learningfromthefailureofautonomousandintelligent
+Alessandro Flammini. How algorithmic popularity bias hinders or systems: Accidents, safety, and sociotechnical sources of risk. Risk
+promotesquality.Scientificreports,8(1):15951,2018. analysis,42(9):1999–2025,2022.
+[79] BatyaFriedmanandHelenNissenbaum.Biasincomputersystems.ACM [101] Coralea Kappel, Moira Rushton-Marovac, Darryl Leong, and Susan
+Transactionsoninformationsystems(TOIS),14(3):330–347,1996. Dent. Pursuing connectivity in cardio-oncology care—the future of
+[80] Rizwan Ahmed Khan, Arthur Crenn, Alexandre Meyer, and Saida telemedicine and artificial intelligence in providing equity and access
+Bouakaz. Anoveldatabaseofchildren’sspontaneousfacialexpressions toruralcommunities. FrontiersinCardiovascularMedicine,9:927769,
+(liris-cse).ImageandVisionComputing,83:61–69,2019. 2022.
+[81] Zitong Yang, Yaodong Yu, Chong You, Jacob Steinhardt, and Yi Ma. [102] LindsayWeinberg. Rethinkingfairness:aninterdisciplinarysurveyof
+Rethinkingbias-variancetrade-offforgeneralizationofneuralnetworks. critiques of hegemonic ML fairness approaches. Journal of Artificial
+InInternationalConferenceonMachineLearning,pages10767–10777. IntelligenceResearch,74:75–109,2022.
+PMLR,2020. [103] Pravik Solanki, John Grundy, and Waqar Hussain. Operationalising
+[82] TongtongFang,NanLu,GangNiu,andMasashiSugiyama. Rethinking ethicsinartificialintelligenceforhealthcare:AframeworkforAIde-
+importance weighting for deep learning under distribution shift. Ad- velopers.AIandEthics,3(1):223–240,2023.
+vancesinneuralinformationprocessingsystems,33:11996–12007,2020. [104] Hassane Alami, Lysanne Rivard, Pascale Lehoux, Steven J Hoff-
+[83] Robert P Anderson and Israel Gonzalez Jr. Species-specific tuning man,StéphanieBernadetteMafaldaCadeddu,MathildeSavoldelli,Ma-
+increasesrobustnesstosamplingbiasinmodelsofspeciesdistributions: maneAbdoulayeSamri,MohamedAliAgAhmed,RichardFleet,and
+animplementationwithmaxent. EcologicalModelling,222(15):2796– Jean-PaulFortin. Artificialintelligenceinhealthcare:layingthefoun-
+2811,2011. dationforresponsible,sustainable,andinclusiveinnovationinlow-and
+[84] Thomas Oommen, Laurie G Baise, and Richard M Vogel. Sampling middle-incomecountries.GlobalizationandHealth,16:1–6,2020.
+bias and class imbalance in maximum-likelihood logistic regression. [105] DenisHorgan,MarioRomao,ServaasAMorré,andDipakKalra.Artifi-
+MathematicalGeosciences,43:99–120,2011. cialintelligence:powerforcivilisation–andforbetterhealthcare. Public
+[85] JAlexanderCole,JohnSTaylor,ThomasNHangartner,NealJWeinreb, healthgenomics,22(5-6):145–161,2020.
+PramodKMistry,andAnealKhan. Reducingselectionbiasincase- [106] MehulCMehta,IngridTKatz,andAshishKJha. Transformingglobal
+controlstudiesfromrarediseaseregistries. OrphanetJournalofRare healthwithAI. TheNewEnglandjournalofmedicine,382(9):791–793,
+Diseases,6(1):1–7,2011. 2020.
+[86] AlexandraOlteanu,CarlosCastillo,FernandoDiaz,andEmreKıcıman. [107] Naizeth Núñez Macías, Martina Hielscher-Fastabend, and Hendrik
+Social data: Biases, methodological pitfalls, and ethical boundaries. Buschmeier. Useandacceptanceofvoiceassistantsamongpeoplewith
+Frontiersinbigdata,2:13,2019. aphasiainGermany.FrontiersinCommunication,8,2023.
+[87] Linda Englund Ögge, Fiona Murray, Dominika Modzelewska, Robert [108] VeliborBožic´. Artificalintelligenceasthereasonandthesolutionof
+Lundqvist,StaffanNilsson,HelenaCarré,MariaKippler,AgnesEWold, digitaldivide.LanguageEducationandTechnology,3(2),2023.
+20 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+[109] Wei Xu, Marvin J Dainoff, Liezhong Ge, and Zaifeng Gao. From [132] Achtaich Khadija, Fagroud Fatima Zahra, and Achtaich Naceur. AI-
+human-computer interaction to human-AI interaction: new challenges poweredhealthchatbots:towardageneralarchitecture. ProcediaCom-
+and opportunities for enabling human-centered AI. arXiv preprint puterScience,191:355–360,2021.
+arXiv:2105.05424,5,2021. [133] KathleenKaraFitzpatrick,AlisonDarcy,andMollyVierhile.Delivering
+[110] QianYang,AaronSteinfeld,CarolynRosé,andJohnZimmerman. Re- cognitivebehaviortherapytoyoungadultswithsymptomsofdepression
+examining whether, why, and how human-AI interaction is uniquely and anxiety using a fully automated conversational agent (woebot): a
+difficulttodesign. InProceedingsofthe2020chiconferenceonhuman randomizedcontrolledtrial.JMIRmentalhealth,4(2):e7785,2017.
+factorsincomputingsystems,pages1–13,2020. [134] AntonieAlmandLarianMNkomo. Chatbotexperiencesofinformal
+[111] MartyJWolf,KMiller,andFrancesSGrodzinsky.Whyweshouldhave language learners: A sentiment analysis. In Research Anthology on
+seenthatcoming:commentsonMicrosoft’sTay"experiment,"andwider Implementing Sentiment Analysis Across Multiple Disciplines, pages
+implications.AcmSigcasComputersandSociety,47(3):54–64,2017. 933–948.IGIGlobal,2022.
+[112] SaraSuárez-Gonzalo,LluísMasManchón,andFredericGuerreroSolé. [135] Jonathan Grudin and Richard Jacques. Chatbots, humbots, and the
+Tayisyou:Theattributionofresponsibilityinthealgorithmicculture. questforartificialgeneralintelligence. InProceedingsofthe2019CHI
+Observatorio(OBS*).2019;13(2):[14]p.,2019. conferenceonhumanfactorsincomputingsystems,pages1–11,2019.
+[113] Peter NK Schuetz. Fly in the face of bias: Algorithmic bias in law [136] Alexander Maedche, Christine Legner, Alexander Benlian, Benedikt
+enforcement’sfacialrecognitiontechnologyandtheneedforanadaptive Berger,HennerGimpel,ThomasHess,OliverHinz,StefanMorana,and
+legalframework.Law&Ineq.,39:221,2021. MatthiasSöllner. AI-baseddigitalassistants:Opportunities,threats,and
+[114] SarahMyersWest,MeredithWhittaker,andKateCrawford. Discrimi- research perspectives. Business & Information Systems Engineering,
+natingsystems.AINow,pages1–33,2019. 61:535–544,2019.
+[115] Rumaisah Munir and Rizwan Ahmed Khan. An extensive review on [137] Max More. The philosophy of transhumanism. The transhumanist
+spectral imaging in biometric systems: Challenges & advancements. reader:Classicalandcontemporaryessaysonthescience,technology,
+JournalofVisualCommunicationandImageRepresentation,65:102660, andphilosophyofthehumanfuture,pages3–17,2013.
+2019. [138] MargaretABoden. AI:Itsnatureandfuture. OxfordUniversityPress,
+[116] Ahmed Hosny, Chintan Parmar, John Quackenbush, Lawrence H 2016.
+Schwartz, and Hugo JWL Aerts. Artificial intelligence in radiology. [139] FelixGille,AnnaJobin,andMarcelloIenca. Whatwetalkaboutwhen
+NatureReviewsCancer,18(8):500–510,2018. wetalkabouttrust:TheoryoftrustforAIinhealthcare. Intelligence-
+[117] Nikhil Agarwal, Alex Moehring, Pranav Rajpurkar, and Tobias Salz. BasedMedicine,1:100001,2020.
+Combining human expertise with artificial intelligence: Experimental [140] IoannisVourganas,HaniAttar,andAnnaLitoMichala. Accountable,
+evidencefromradiology.Technicalreport,NationalBureauofEconomic responsible,transparentartificialintelligenceinambientintelligencesys-
+Research,2023. temsforhealthcare.InIntelligentHealthcare:Infrastructure,Algorithms
+[118] BernardFKing.Artificialintelligenceandradiology:whatwillthefuture andManagement,pages87–111.Springer,2022.
+hold? JournaloftheAmericanCollegeofRadiology,15(3):501–503, [141] Helen Smith. Clinical AI: opacity, accountability, responsibility and
+2018. liability.AI&Society,36(2):535–545,2021.
+[119] AbhimanyuSAhuja.Theimpactofartificialintelligenceinmedicineon [142] SharvariShuklaNishitaMehta. Pandemicanalytics:howcountriesare
+thefutureroleofthephysician.PeerJ,7:e7702,2019. leveragingbigdataanalyticsandartificialintelligencetofightcovid-19?
+[120] Pouyan Esmaeilzadeh, Tala Mirzaei, and Spurthy Dharanikota. Pa- SNComputerScience,3(1):54,2022.
+tients’ perceptions toward human–artificial intelligence interaction in [143] DavidLyell,EnricoCoiera,JessicaChen,ParinaShah,andFarahMa-
+healthcare:experimentalstudy. JournalofmedicalInternetresearch, grabi. Howmachinelearningisembeddedtosupportcliniciandecision
+23(11):e25856,2021. making:ananalysisofFDA-approvedmedicaldevices. BMJhealth&
+[121] Nicholas J Schork. Artificial intelligence and personalized medicine. careinformatics,28(1),2021.
+PrecisionmedicineinCancertherapy,pages265–283,2019. [144] Ruth Nussinov, Mingzhen Zhang, Yonglan Liu, and Hyunbum Jang.
+[122] KevinBJohnson,Wei-QiWei,DilhanWeeraratne,MarkEFrisse,Karl Alphafold, artificial intelligence (AI), and allostery. The Journal of
+Misulis,KyuRhee,JuanZhao,andJaneLSnowdon.Precisionmedicine, PhysicalChemistryB,126(34):6372–6383,2022.
+AI,andthefutureofpersonalizedhealthcare. Clinicalandtranslational [145] Ismail Keshta and Ammar Odeh. Security and privacy of electronic
+science,14(1):86–93,2021. healthrecords:Concernsandchallenges. EgyptianInformaticsJournal,
+[123] Manoj KumarKamila and Sahil SinghJasrotia. Ethicalissues in the 22(2):177–183,2021.
+developmentofartificialintelligence:recognizingtherisks.International [146] YuqiSi,Jingcheng Du,ZhaoLi,XiaoqianJiang,Timothy Miller,Fei
+JournalofEthicsandSystems,2023. Wang,WJimZheng,andKirkRoberts. Deeprepresentationlearningof
+[124] JeffreyClementandAngelaQMaldonado. Augmentingthetransplant patientdatafromElectronicHealthRecords(EHR):Asystematicreview.
+teamwithartificialintelligence:TowardmeaningfulAIuseinsolidorgan Journalofbiomedicalinformatics,115:103671,2021.
+transplant.Frontiersinimmunology,12:694222,2021. [147] Healthinsuranceportabilityandaccountabilityactof1996HIPAA,Pub.
+[125] AndreaPeloso,BeatMoeckli,VaihereDelaune,GrazianoOldani,Axel L.No.104-191,110Stat.1936,1996.,1996.
+Andres,andPhilippeCompagnon. Artificialintelligence:presentand [148] RegulationEU2016/679oftheEuropeanParliamentandofthecouncil
+futurepotentialforsolidorgantransplantation. TransplantInternational, of27April2016ontheprotectionofnaturalpersonswithregardtothe
+35:10640,2022. processingofpersonaldataandonthefreemovementofsuchdata,and
+[126] SarahKamensky. Artificialintelligenceandtechnologyinhealthcare: repealingdirective95/46/EC(GeneralDataProtectionRegulation),2016.
+overviewandpossiblelegalimplications.DePaulJ.HealthCareL.,21:1, [149] Shahid Munir Shah and Rizwan Ahmed Khan. Secondary use of
+2019. electronichealthrecord:Opportunitiesandchallenges. IEEEAccess,
+[127] Sweta Dixit and Mohit Maurya. Equilibrating emotional intelligence 8:136947–136965,2020.
+and AI driven leadership for transnational organizations. In 2021 [150] Sebastian Porsdam Mann, Julian Savulescu, and Barbara J Sahakian.
+International Conference on Innovative Practices in Technology and Facilitating the ethical use of health data for the benefit of society:
+Management(ICIPTM),pages233–237.IEEE,2021. electronichealthrecords,consentandthedutyofeasyrescue. Philo-
+[128] MeganBeckandBarryLibert. TheriseofAImakesemotionalintelli- sophicalTransactionsoftheRoyalSocietyA:Mathematical,Physical
+gencemoreimportant.HarvardBusinessReview,15(1-5),2017. andEngineeringSciences,374(2083):20160130,2016.
+[129] Kaveh Memarzadeh Adam Bohr. The rise of artificial intelligence in [151] Maria Milossi, Eugenia Alexandropoulou-Egyptiadou, and Konstanti-
+healthcareapplications. ArtificialIntelligenceinhealthcare,Academic nos E. Psannis. AI Ethics: Algorithmic Determinism or Self-
+Press,15:25–60,2020. Determination? the GPDR Approach. IEEE Access, 9:58455–58466,
+[130] Maria R Lima, Maitreyee Wairagkar, Nirupama Natarajan, Sridhar 2021.
+Vaitheswaran,andRaviVaidyanathan. Robotictelemedicineformental [152] DataProtectionWorkingParty. Guidelinesonconsentunderregulation
+health: a multimodal approach to improve human-robot engagement. 2016/679(wp259rev.01),2016.
+FrontiersinRoboticsandAI,page37,2021. [153] BarbaraJEvans. Rulesforrobots,andwhymedicalAIbreaksthem.
+[131] KerstinDautenhahn. Sociallyintelligentrobots:dimensionsofhuman– JournalofLawandtheBiosciences,10(1):lsad001,2023.
+robot interaction. Philosophical transactions of the royal society B: [154] HenryDeYoung,DeepakGarg,LiminJia,DilsunKaynar,andAnupam
+Biologicalsciences,362(1480):679–704,2007. Datta. ExperiencesinthelogicalspecificationoftheHIPAAandGLBA
+VOLUME4,2016 21
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/
+This article has been accepted for publication in IEEE Access. This is the author's version which has not been fully edited and
+content may change prior to final publication. Citation information: DOI 10.1109/ACCESS.2024.3369912
+Khanetal.
+privacy laws. In Proceedings of the 9th Annual ACM Workshop on DR. SAMITA BAI received her Ph.D. degree
+PrivacyintheElectronicSociety,pages73–82,2010. in Computer Science from Institute of Business
+[155] NiamhClarke,GillianVale,EmerPReeves,MaryKirwan,DavidSmith, Administration(IBA),Karachi,Pakistanin2021.
+Michael Farrell, Gerard Hurl, and Noel G McElvaney. GDPR: an She is currently working as Assistant Professor
+impediment to research? Irish Journal of Medical Science (1971-), in Department of Computer Science at Salim
+188:1129–1135,2019. Habib University (SHU), Karachi, Pakistan. She
+[156] HielkeHijmansandCharlesDRaab. EthicaldimensionsoftheGDPR.
+alsoservesasaChair,IEEE-WomeninEngineer-
+CommentaryontheGeneralDataProtectionRegulation,Cheltenham:
+ing (WIE) affinity group, Karachi Section. Her
+EdwardElgar(2018,Forthcoming),2018.
+research interests include Explainable Artificial
+[157] IGlennCohen,SaraGerke,andDanielBKramer. Ethicalandlegal
+Intelligence (XAI), Semantic Web, Information
+implications of remote monitoring of medical devices. The Milbank
+RetrievalandMachineLearning.
+Quarterly,98(4):1257–1289,2020.
+[158] Jennifer Horner and Michael Wheeler. HIPAA: Impact on clinical
+practice.TheASHALeader,10(12):10–23,2005.
+[159] Lorna L Hecker and Anne B Edwards. The impact of HIPAA and
+HITECH:Newstandardsforconfidentiality,security,anddocumentation
+for marriage and family therapists. The American Journal of Family
+Therapy,42(2):95–113,2014.
+[160] Janis Wong and Tristan Henderson. The right to data portability in
+practice:exploringtheimplicationsofthetechnologicallyneutralGDPR.
+InternationalDataPrivacyLaw,9(3):173–191,2019.
+[161] SandraWachter.Normativechallengesofidentificationintheinternetof
+things:Privacy,profiling,discrimination,andtheGDPR. Computerlaw
+&securityreview,34(3):436–449,2018.
+[162] KevinMKeogh,AndrewJBelli,MonicaMMatta,KathrynATanen-
+baum,KaeleighFarrish,MichaelMulcahy,ShivamMathura,Christopher
+Williams,ShaadiMehr,DanielAuclair,etal. Theunforeseenbusiness
+andmedicalconsequencesofEHRdatacollectionforareal-worlddata
+multiplemyelomaregistry.,2019.
+[163] Oliver Aalami, Angela Ingraham, and Shipra Arya. Applications
+of mobile health technology in surgical innovation. JAMA surgery,
+156(5):414–415,2021.
+[164] Revised Common Rule. US department of health & human
+services. URL: https://www. hhs. gov/ohrp/regulations-and-
+policy/regulations/finalized-revisions-common-rule/index. html
+[accessed2022-04-10],2022.
+[165] IGlennCohenandMichelleMMello. HIPAAandprotectinghealth
+informationinthe21stcentury.Jama,320(3):231–232,2018.
+[166] JimQChenandAllenBenusa. HIPAAsecuritycompliancechallenges:
+Thecaseforsmallhealthcareproviders.InternationalJournalofHealth-
+careManagement,10(2):135–146,2017.
+SIDRANASIRreceivedherMSdegreeinCom-
+puterSciencefromBahriaUniversity,Islamabad,
+Pakistanin2021.SheiscurrentlyworkingasLec-
+turerinDepartmentofComputerScienceatSalim
+Habib University (SHU), Karachi, Pakistan. Her
+research interests include Explainable Artificial
+Intelligence (XAI), Machine Learning, Natural
+LanguageProcessing,LargeLanguageModels.
+DR. RIZWAN AHMED KHAN has received
+PhDinComputerVisionfromUniversitéClaude
+BernardLyon1,Francein2013.Hehasworked
+as postdoctoral research associate at Labora-
+toire d’InfoRmatique en Image et Systemes
+d’information(LIRIS),Lyon,France.Currentlyhe
+isworkingasProfessoratSalimHabibUniversity,
+Karachi, Pakistan. His research interests include
+machinelearning,computervision,medicalimage
+analysis, pattern recognition, Explainable Artifi-
+cialIntelligence(XAI)andhumanperception.
+22 VOLUME4,2016
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License. For more information, see https://creativecommons.org/licenses/by-nc-nd/4.0/

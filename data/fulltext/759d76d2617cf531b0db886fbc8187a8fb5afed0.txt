@@ -1,0 +1,1006 @@
+| TYPEReview
+PUBLISHED11June2024
+DOI10.3389/frhs.2024.1368030
+Towards evidence-based practice
+fi
+2.0: leveraging arti cial
+EDITEDBY intelligence in healthcare
+MelanieBarwick,
+UniversityofToronto,Canada
+REVIEWEDBY Per Nilsen1,2*, David Sundemo3,4, Fredrik Heintz5, Margit Neher1,
+KatrinaMareeLong,
+MonashUniversity,Australia Jens Nygren1, Petra Svedberg1 and Lena Petersson1
+ManonIronside,
+1SchoolofHealthandWelfare,HalmstadUniversity,Halmstad,Sweden,2DepartmentofHealth,
+UniversityofCalifornia,SanDiego,
+MedicineandCaringSciences,LinköpingUniversity,Linköping,Sweden,3SchoolofPublicHealthand
+UnitedStates
+CommunityMedicine,InstituteofMedicine,SahlgrenskaAcademy,UniversityofGothenburg,
+*CORRESPONDENCE Gothenburg,Sweden,4LerumNärhälsanPrimaryHealthcareCenter,Lerum,Sweden,5Departmentof
+PerNilsen ComputerandInformationScience,LinköpingUniversity,Linköping,Sweden
+per.nilsen@liu.se
+RECEIVED09January2024
+Background: Evidence-based practice (EBP) involves making clinical decisions
+ACCEPTED31May2024
+PUBLISHED11June2024 based on three sources of information: evidence, clinical experience and
+patient preferences. Despite popularization of EBP, research has shown that
+CITATION
+NilsenP,SundemoD,HeintzF,NeherM, there are many barriers to achieving the goals of the EBP model. The use of
+NygrenJ,SvedbergPandPeterssonL(2024) artificial intelligence (AI) in healthcare has been proposed as a means to
+Towardsevidence-basedpractice2.0: improve clinical decision-making. The aim of this paper was to pinpoint key
+leveragingartificialintelligenceinhealthcare.
+challenges pertaining to the three pillars of EBP and to investigate the
+Front.HealthServ.4:1368030.
+potential of AI in surmounting these challenges and contributing to a more
+doi:10.3389/frhs.2024.1368030
+evidence-based healthcare practice. We conducted a selective review of the
+COPYRIGHT
+literatureon EBPand the integrationof AIin healthcareto achieve this.
+©2024Nilsen,Sundemo,Heintz,Neher,
+Nygren,SvedbergandPetersson.Thisisan ChallengeswiththethreecomponentsofEBP:Clinicaldecision-makinginline
+open-accessarticledistributedunderthe withtheEBPmodelpresentsseveralchallenges.Theavailabilityandexistenceof
+termsoftheCreativeCommonsAttribution
+robust evidence sometimes pose limitations due to slow generation and
+License(CCBY).Theuse,distributionor
+reproductioninotherforumsispermitted, dissemination processes, as well as the scarcity of high-quality evidence.
+providedtheoriginalauthor(s)andthe Direct application of evidence is not always viable because studies often
+copyrightowner(s)arecreditedandthatthe
+involve patient groups distinct from those encountered in routine healthcare.
+originalpublicationinthisjournaliscited,in
+accordancewithacceptedacademicpractice. Clinicians need to relyon theirclinical experience to interpret the relevance of
+Nouse,distributionorreproductionis evidence and contextualize it within the unique needs of their patients.
+permittedwhichdoesnotcomplywith
+Moreover, clinical decision-making might be influenced by cognitive and
+theseterms.
+implicit biases. Achieving patient involvement and shared decision-making
+between clinicians and patients remains challenging in routine healthcare
+practice due to factors such as low levels of health literacy among patients
+and their reluctance to actively participate, barriers rooted in clinicians’
+attitudes, scepticism towards patient knowledge and ineffective
+communicationstrategies,busyhealthcareenvironmentsandlimitedresources.
+AI assistance for the three components of EBP: AI presents a promising
+solution to address several challenges inherent in the research process, from
+conducting studies, generating evidence, synthesizing findings, and
+disseminating crucial information to clinicians to implementing these findings
+into routine practice. AI systems have a distinct advantage over human
+clinicians in processing specific types of data and information. The use of AI
+has shown great promise in areas such as image analysis. AI presents
+promising avenues to enhance patient engagement by saving time for
+clinicians and hasthe potential to increase patient autonomyalthough there is
+a lackof researchon thisissue.
+FrontiersinHealthServices 01 frontiersin.org
+Nilsenetal. 10.3389/frhs.2024.1368030
+Conclusion: This review underscores AI’s potential to augment evidence-based
+healthcare practices, potentially marking the emergence of EBP 2.0. However,
+there are also uncertainties regarding how AI will contribute to a more
+evidence-based healthcare. Hence, empirical research is essential to validate
+and substantiatevarious aspectsof AI usein healthcare.
+KEYWORDS
+artificialintelligence,evidence-basedpractice,clinicaldecision-making,evidence,clinical
+experience,patientpreferences
+1 Introduction
+capabilities and the abundance of available healthcare data
+(8–12). Under the definition approved by the EU Parliament, an
+Morethanthreedecadesago,evidence-basedmedicine(EBM) AI system means “a machine-based system designed to operate
+emerged as a ground-breaking concept introduced by the with varying levels of autonomy, that may exhibit adaptiveness
+Evidence-Based Medicine Working Group, marking a pivotal after deployment and that, for explicit or implicit objectives,
+shift in medical practice (1). Originating at McMaster University infers, from the input it receives, how to generate outputs such
+in Hamilton, Canada, the term was coined to describe a new as predictions, content, recommendations, or decisions that can
+methodology in learning the practice of medicine (2). EBM was influence physical or virtual environments” (13). The promise of
+developed in response to the recognition of limitations and AI has fostered expectations of a paradigm shift towards an “AI-
+shortcomings in traditional medical practices, which often relied assisted” (also referred to as “data-driven” or “information-
+on anecdotal evidence, expert opinion and historical practices driven”) healthcare, with expectations of improving care quality
+rather than rigorous scientific evidence. EBM emerged as a while curbing costs(14, 15). This review pinpoints key challenges
+response to the need for a more systematic and scientific pertaining to the three pillars of EBP: evidence, clinical
+approach to medical decision-making. It aimed to improve the experience and patient preferences. The potential of AI to
+qualityof patient care byensuring thatmedical interventions and surmount these challenges and contribute to a more evidence-
+treatments were based on sound empirical evidence and basedhealthcare practiceis discussed.
+demonstrated effectiveness through rigorous evaluation methods AselectivereviewoftheliteratureonEBPandtheintegration
+such asrandomized controlled trials (RCTs)(3). of AI in healthcare was undertaken, focusing on the domains of
+Subsequently, EBM swiftly disseminated and its influence evidence, clinical experience and patient preferences. Thus, this
+expanded to become evidence-based practice (EBP), extending article draws on secondary sources, encompassing empirical
+beyond traditional medical domains to disciplines such as studies, overviews, reviews, assessments of research and opinion
+nursing, mental health, physiotherapy, occupational therapy, as papers. Although the primary responsibility for sourcing and
+well as broader fields such as public health, social work, evaluating pertinent literature rested with the first author (PN),
+education, and management. At the same time, a vertical spread all authors collaborated in identifying relevant materials for
+occurred from an early focus on various forms of interventions this review.
+to also include the policy process concerning the use of evidence
+for identifying and prioritizing problem areas and for decision-
+2 Challenges with the three
+making (4). This widespread adoption was facilitated by
+components of EBP
+technological advancements, including electronic databases and
+theInternet (5).
+EBPisoftendescribedintermsofdecisionsbeingmadebased This section addresses the challenges identified in research
+on three sources of information: evidence, clinical experience and associated with the three key components of EBP: evidence,
+patient preferences (6). However, despite the popularization of clinicalexperienceand patient preferences.
+EBP, research in implementation science has shown that there
+are many barriers to achieving the goals of the EBP model,
+including practitioners having insufficient time to find relevant 2.1 Challenges concerning evidence
+studies or guidelines and a lack of skills and confidence in
+assessing the quality of research. There are also organizational The EBP model is based on the existence and availability of
+barriers such as lack of leadership support and a culture that evidence to inform clinicians’ decision-making to achieve
+does notfacilitatetheuseof researchinpractice (7). evidence-based healthcare. Nevertheless, there are numerous
+The use of artificial intelligence (AI) in healthcare has been hurdles in the transition from the generation of evidence to its
+proposed as a means to improve clinical decision-making (8–12). practical use. The journey from research conception and
+The upsurge in interest in AI, which involves machines or publication to dissemination and implementation in routine
+computer systems simulating human intelligence processes, has healthcare is often dogged by significant time gaps. The
+been propelled by the exponential increase in computing prolongedduration from inception to publication may render the
+FrontiersinHealthServices 02 frontiersin.org
+Nilsenetal. 10.3389/frhs.2024.1368030
+findingsoutdateduponrelease.Furthermore,thescarcityofhigh- Clinical experience can be susceptible to various cognitive
+qualityevidencestemmingfromRCTs,whichisthepinnacleinthe biases, i.e., distortions in judgement and decision-making arising
+evidencehierarchy,compelsclinicianstorelyonlower-tiersources from the human brain’s inclination to simplify and expedite
+of evidence. In several instances, the absence of any evidence information processing based on personal experiences and
+compounds these challenges, leaving practitioners with no preferences (24). These biases have the potential to significantly
+foundational support (16, 17). affect clinical decision-making, leading to adverse health
+SystematicreviewsconstituteacornerstoneoftheEBPmodel. outcomes (25). Studies have identified that time constraints, a
+These reviews locate, assess and synthesize evidence on a health hectic work environment, frequent task switching and the
+topic, making the information accessible and digestible to pressure to make swift decisions based on limited information
+clinicians and decision-makers. They also serve as the foundation contributetohigh cognitive loads and work-relatedstress,further
+for developing clinical guidelines (18). However, the process of exacerbating the impact of these biases (26, 27). A review by
+generating evidence via systematic reviews is typically slow and Gopal et al. (25) identified 12 different types of cognitive biases
+resource-intensive, involving substantial time for preparation and in healthcare. For example, selection bias might occur when
+writing. Factors such as the authors’ expertise, methodologies selective observations of favourable outcomes attributed to a
+used and the number of studies incorporated contribute to this certain treatment yield undue confidence in its effectiveness (28).
+duration (19). Studies have indicated that the average duration to Availability bias might occur as a result of having experience
+complete a systematic review exceeds 15 months (20). with cases or studies that come more easily to mind, which may
+Consequently, there is a risk that once published, a systematic yield assumptions of the same scenario being repeated (29).
+review may already be outdated (18). Moreover, due to the Further, satisfaction bias occurs when a clinician concludes a
+labour-intensive nature of this process, many systematic reviews diagnosis when identifying a single disease as the root cause
+arenotupdated at sufficiently regularintervals (21). althoughmore causes maybe possible(30).
+Clinicalexperiencecanalsobeinfluencedbyimplicitbiases,i.e.,
+the subconscious tendencies for stereotype-affirming thoughts to
+2.2 Challenges concerning clinical traverse our minds, potentially leading to discrimination (27).
+experience Implicit biases are associated with underlying attitudes, whether
+favourable or unfavourable, whereas cognitive biases are linked to
+Clinicians gain theirexpertise through many years of training thought processes (31). These implicit biases might be directed
+and practice, from undergraduate education to higher degrees towards various characteristics such as race, gender, age or health
+and hands-on experience in real-world healthcare settings. This conditions, possibly resulting in discriminatory practices. For
+extensive training is essential to ensure clinicians possess the instance, research indicates that healthcare professionals, including
+proficiency required for accurate diagnosis, treatment and physicians,nurses,nutritionistsanddietitians,often harbourbiases
+prognosis for their patients (22). Clinical experience equips against individuals with obesity. This prejudice leads to implicit
+clinicians with the ability to draw informed conclusions about assumptions regarding weight-related issues, associating them with
+patients’ health conditions, enabling them to make critical aperceivedlackofwillpowerorpersonalcharacter(25,32).
+assessments, distinctions and decisions based on their
+accumulated knowledge. Although the EBP model underscores
+the significance of evidence in clinical decision-making, its direct 2.3 Challenges concerning patient
+application is not always feasible. Clinicians must leverage their preferences
+clinical experience to interpret the relevance of research findings
+and contextualize them within the unique needs and conditions The EBP model underscores the significance of patient
+oftheir patients (17). preferences alongside evidence and clinical expertise. Patient
+Clinical experience plays a crucial role in discerning the engagement has long been seen as the “last mile” problem of
+applicabilityof research-generatedevidence toindividual patients, healthcare, the assumption being that the more patients
+primarily because evidence is often derived from studies participate in their own care, the better the health outcomes (8).
+involving patient groups that differ from those encountered in However, patient involvement and shared decision-making where
+routine healthcare. These studies typically involve homogeneous clinicians and patients make decisions together have been found
+populations, unlike the diverse range of individuals seen in to be difficult to achieve in routine healthcare practice (33, 34).
+everydaypractice.As a result, patients in routine healthcareoften Multiple obstacles hinder this process, ranging from low levels of
+exhibit variations from the averaged descriptions found in health literacy among patients and their reluctance to actively
+research (23). Research conclusions hold validity at a population participate, to barriers rooted in clinicians’ attitudes, scepticism
+level, but they might not necessarily apply uniformly at the towards patient knowledge and ineffective communication
+individual patient level (4). Consequently, even if the evidence strategies. In addition, high workloads, bustling healthcare
+supports a specific treatment for a particular patient population, environments and limited resources pose further challenges
+clinical experience becomes essential in gauging the extent to (35, 36). Consequently, living up to the EBP model’s aspiration
+which this evidence can be extended and tailored to suit the of integrating patients’ preferences into clinical decision-making
+needsof specific individuals. oftenproveschallenging.
+FrontiersinHealthServices 03 frontiersin.org
+Nilsenetal. 10.3389/frhs.2024.1368030
+3 Enhancing EBP through AI support while enhancing efficiency (46). Notably, various AI systems can
+facilitate screening of titles and abstracts in systematic reviews
+(39). A systematic review of AI-assisted systematic reviews
+This section explores how the use of AI in healthcare can
+concluded that several AI systems “have taken hold with varying
+address challenges within the EBP model and enhance the three
+success in evidence synthesis” (47). This trend indicates a
+key components of evidence, clinical experience and patient
+growing probability of AI-assisted systematic reviews gaining
+preferencesthrough AI support.
+prevalence, thereby accelerating the synthesis of evidence.
+Furthermore, AI provides assistance in conducting literature
+3.1 Enhancing evidence through AI support reviews, particularly those that are less structured compared with
+quantitativesystematicreviews(48).
+AIpresentsapromisingsolutiontoaddressseveralchallenges However,AIisnotwithoutlimitationswhenusedforresearch
+inherent in the research process, from conducting studies, purposes.Largelanguagemodels(LLMs)maytemptresearchersto
+generating evidence, synthesizing findings, and disseminating utilizethemfortasksbeyondtheirvalidation,astheirresultsoften
+crucial information to clinicians to implementing these findings appearsoundsuperficially(49).Thisposeschallengesinqualitative
+into routine practice. Notably, it has been suggested that AI may evidence synthesis, which relies on careful consideration of
+free up researchers’ time to delve into new areas of pioneering evidence quality and quantity (50). For instance, summarizing
+research, commonly referred to as “blue skies” research (37). AI evidence in a systematic review may overlook actual probabilities
+is proficient in focused tasks, such as sifting through abstracts to if LLMs generate text without causal understanding. If the
+identify pertinent information and excels in analysing substantial training data for the LLM model is pertinent to the topic, the
+volumes of unstructured data (38). Further, AI may assist in the generated text may correlate with the underlying evidence, but it
+laborious process of performing systematic reviews, increasing does not establish a causal relationship. Conversely, if the
+the relevance of the suggested articles, thereby saving valuable training data is irrelevant, the resulting text may be eloquent and
+time (39). Consequently, AI can enhance researchers’ efficiency, persuasive but likely lacks accuracy and truthfulness (51). As
+expediting theprocess of generating evidence. LLM availability grows, there is a risk of diluting valid evidence
+AI presents an opportunity to enhance the efficiency and with AI-generated content. Vigilance within the scientific
+effectiveness of clinical RCTs, often considered the gold standard communityis crucialto prevent this.
+for generation of evidence. Its potential covers all phases of these Although AI offers support to researchersthroughout various
+trials, from discovery, pre-trial planning and design to patient phases of the research process, integrating this evidence into
+recruitment, trial execution and analysis of results (40, 41). In clinical practice poses challenges for clinicians. They might
+pharmaceutical research, the discovery and design of potential encounter difficulties in critically reviewing and interpreting
+drugs demand significant time and resources, often relying on research findings or assessing the quality of the evidence,
+labor-intensive processes (42). Leveraging AI-driven tools like potentially due to limited training in developing academic
+Alphafold, researchers can predict the three-dimensional evidence assessment skills (40, 45). Keeping up with the evolving
+structure of amino acids, expediting the identification of research landscape requires significant time and expertise.
+promising compound candidates during the preclinical phase Notably, Hoffmann et al.’s study (52) observed a drastic increase,
+(41, 42). Moreover, AI can forecast potential toxicity and side more than 20-fold, in indexed systematic reviews in the past two
+effects in the initial stages, thus enhancing the likelihood of trial decades, averaging 80 publications per day in 2019. Despite
+success. It is estimated thatapproximately 30% of potential drugs suggestions indicating AI’s potential to afford clinicians more
+are discarded due to toxicity concerns, making AI-enabled time to engage with evidence (33), empirical studies supporting
+toxicity prediction a valuable resource-saving tool (43). thisrelationship arecurrently lacking.
+Additionally, AI can streamline the identification of suitable trial
+participants, as demonstrated by Hassanzadeh et al., who utilized
+an algorithm to match individuals with the eligibility criteria of 3.2 Enhancing clinical experience through
+relevant trials using text-based data extracted from patient AI support
+records (44). During the active trial phase, AI offers improved
+patient monitoring, enhancing adherence to the medication or AIsystemshaveadistinctadvantageoverhumancliniciansin
+treatment regimen under study (45). AI systems can contribute processing specific types of data and information. Equipped with
+to the analysis of the results by providing more comprehensive accesstovast amounts of data and the capability to processthem
+assessments, such as identifying key risk factors, managing in real time, AI systems demonstrate an unparalleled capacity for
+missing data and automating data extraction to minimize human rapid learning and adaptation, continuously enhancing their
+error. Moreover, AI’s efficiency in supporting clinical trials performance atanexponential rate (22). The use ofAI inclinical
+expands the feasibility of conducting trials in areas where decision-making offers clear benefits, notably in minimizing
+profitability might otherwise hinder progress, such as developing variations among clinicians, thereby ensuring more uniform and
+medications forrare diseases ortargetedtherapies(40). precise diagnoses, treatmentsand prognoses (53).
+AIcanalsoplayanimportantroleinenhancingthesynthesis AI has shown significant promise in revolutionizing image
+of evidence within systematic reviews, reducing time and costs analysis within healthcare. For example, Cohen et al. (54)
+FrontiersinHealthServices 04 frontiersin.org
+Nilsenetal. 10.3389/frhs.2024.1368030
+showcased a recent study where an AI algorithm specialized in deskilling, characterized by reduced clinician discretion,
+wrist fracture detection outperformed radiographic analysis autonomy, decision-making capabilities and domain knowledge
+conducted by non-specialized radiologists. The study highlighted withintheirroles(65).
+that a combination of AI and physician analysis achieved the
+highest sensitivity in identifying radiographic fractures. This
+trend was echoed in a mammography study (55), where the 3.3 Enhancing patient preferences through
+combined approach of AI and physician assessment surpassed AI support
+the performance of two individual physicians or AI analysis
+alone. In addition, a separate study (56) revealed that AI- AI presents promising avenues for enhancing patient
+supported mammography screenings achieved cancer detection engagement, aligning with the aspirations of the EBP model.
+rates comparable with readings by two physicians and the Despite the lack of dedicated research on AI systems explicitly
+workload associated with screen reading was reduced designed for this purpose, its capacity to save time for clinicians
+considerably. Thus, clinicians using AI-driven clinical decision has been acknowledged, potentially fostering more meaningful
+support systemsare notconfined by theirown clinical experience interactions between clinicians and patients (8, 33, 66, 67).
+but can harness data from thousands of relevant cases to Previously, simpleralgorithms likethe Wells score for diagnosing
+enhance theirdecision-makingprocess. deep vein thrombosis (68) and the FRAX score for assessing
+AIholdsthepromiseofaugmentingclinicians’capabilitiesand osteoporosis risk (69) have supported clinicians in medical
+enriching their clinical experience through innovative simulation decision-making. These tools help avoid unnecessary diagnostic
+training methods. The emergence of LLMs presents an added procedures by identifying patients who are more likely to benefit.
+avenue for creating interactive medical simulation cases. These MoreadvancedAIalgorithms,likevoicerecognitionandgenerative
+simulations provide patients’ responses to every conceivable AI,haveevengreaterpotentialtosavecliniciantimebyautomating
+action or reaction by medical students, offering promising the transcription of complete clinician-patient interactions (70).
+educational possibilities (57). Recent studies using the LLM Other examples include automating administrative tasks such as
+ChatGPT have demonstrated its efficiency and accuracy in appointment scheduling, reminders and managing no-shows can
+simulating patients for educational purposes (58). Research is alleviate clinicians’ burden of data entry, freeing up time (71).
+important to assess the equivalency of AI-simulated medical Research on AI in radiology suggests that radiologists, with a
+training to genuine patient consultations and to ascertain the reduced administrative load, can devote more time to patients,
+extent to which the knowledge acquired from simulated cases enablingthemtoprioritizepersonalizedcare(72).
+translatesinto practicalreal-worldhealthcare scenarios(59). AI holds promise in enhancing patient autonomy, presenting
+AI may alleviate some of the challenges with clinicians’ the prospect of a more balanced clinician-patient relationship
+cognitive and implicit biases but AI systems still carry a risk for with a more equitable decision-making process (73). Forexample,
+various flaws (60). For example, the input or output of an AI an AI-driven self-monitoring device has been developed to
+application maynecessitatehuman judgement, such asaclinician anticipate exacerbation risks(severe worsening of lung symptoms)
+determining what data should be used in the application (61). A in patients with chronic obstructive pulmonary disorder (COPD)
+novel challenge for clinicians is to know when and how to use (74). This device utilizes both hardware for biometric data
+the output froma particularalgorithm in aclinical situation. The capture and AI-driven software to predict exacerbation risks
+importance of increased knowledge among clinicians has been within the patient’s home, eliminating the need for consultation
+emphasized to ensure appropriate use of AI (62). Bias can be with a clinician. Its goal is to offer automated recommendations
+generated across AI system development, from the preparation to patients, empowering them to make informed decisions
+and collection of the data to the development and training of the withoutthenecessityofconsultingaclinician.
+algorithm, and the evaluation and deployment of the system in While there is hope that AI will enhance patient autonomy,
+clinical settings (15, 63). These challenges underscore the there are also uncertainties about how this will happen. Efficient
+importance of not taking the objectivity of AI for granted but algorithms require vast amounts of data, often sensitive health
+rather devoting research to investigate the consequences of AI information in healthcare settings. Developing AI systems using
+flawsprior toroutine use. non-anonymized data poses privacy risks, as individual patient
+The journey towards expertise for clinicians is multifaceted, data could be traced back (75). Additionally, AI-driven profiling
+encompassing experiential learning and self-reflection, may unveil health-related details about individuals without their
+encountering errors, observing peers and receiving feedback from consent. For instance, companies can predict individuals’ health
+both senior staff and patients. Typically, clinicians start with using publicly available social media data, potentially selling this
+basic tasks that require fundamental skills, gradually progressing information for profit. The conventional clinician-patient
+to more complex responsibilities as their expertise advances. This dynamic is often marked by the patient’s vulnerability to the
+gradual ascent builds a crucial foundational framework for clinician, which raises questions concerning how AI might
+expertise (64). However, the integration of AI in performing reshape this power balance. Empirical questions remain on the
+tasks traditionally conducted by clinicians may potentially omit impact and evolution of the clinician-patient relationship with
+the foundational learning stage acquired through years of AI deployment, necessitating further investigation. In addition,
+practice. This transfer of responsibilities to AI could lead to accommodating diverse preferences in AI systems poses a
+FrontiersinHealthServices 05 frontiersin.org
+Nilsenetal. 10.3389/frhs.2024.1368030
+challenge. McDougall (76) has raised a concern that the processes, ensuring transparency in understanding why
+integration of AI might unintentionally promote a new type of certain decisions were made (2). Nevertheless, proponents argue
+paternalism, encouraging a paradigm where “the computer that if AI consistently outperforms clinicians, the necessity for
+knows best”. Such a transition could contradict the recognized explainability diminishes (33). Thus, the credibility and
+significance of incorporating the patient’s viewpoint within the trustworthiness of AI systems could be assessed based on the
+EBP model. reliability of their output rather than the transparency of their
+processes. Moreover, it could be contended that traditional
+clinical decision-making also harbours “black box” components,
+4 Discussion where cognitive and implicit biases influence clinicians’
+decisions (81).
+Striving to achieve evidence-based healthcare practice aligned Another debate surrounding AI is the potential deskilling of
+with the EBP model has encountered substantial challenges, clinicians due to the automation of tasks by AI systems. There
+resulting in the rapid growth of implementation science. This are concerns regarding potential negative consequences, such as
+discipline aims to identify barriers and formulate strategies that compromised decision-making, a decline in clinical skills and a
+enable the integration of research-based practices into routine possible compromise in patient safety (64). In the short term, the
+healthcare (77). When evidence is beset with quality limitations, challenge of deskilling may not present a significant issue
+restricted applicability or even absence, clinicians’ experience is because the current clinical workforce has substantial clinical
+necessary to contextualize and apply it in specific cases. In experience, making them valuable resources in handling complex
+addition, clinical decision-making may suffer from cognitive and cases that AI systems might find challenging. However, in the
+implicit biases, limiting its accuracy. Incorporating patients’ long term, newly educated clinicians may lack experience and
+preferences poses another challenge within the EBP model. proficiency in tasks that have been automated, potentially
+Recognizing these limitations, several scholars (8–12) advocate affecting the quality of care. Deskilling is not a new
+forleveraging AI toenhance clinicaldecision-making. phenomenon; across various sectors, technological advancements
+OuranalysisunderscoresthepotentialofAItoenhancevarious have reduced the skill requirements for specific jobs over
+aspectsofthethreepillarsofEBP.Nonetheless,theuseofAIcomes generations (82). The evolution and implications of deskilling in
+withinherentlimitations.Thereisariskofperpetuatingbiasesand healthcare remain uncertain and warrantthoroughinvestigation.
+the potential deskilling of clinicians as the automation of tasks The ongoing debate on AI-induced deskilling resonates with
+progresses. Furthermore, within various AI applications in the historical discourse that surrounded the emergence of the
+healthcare, we face a realm of uncertainty concerning its EBP model. Initially, the EBP model faced critique and was
+uncharted effects, leading to speculation due to the nascent stage labelled as “cookbook medicine” and a “straitjacket” for
+of AI development and implementation in practice. Undoubtedly, clinicians. Concerns about potential de-professionalization arose
+the ongoing discourse on AI in healthcare will persist, because it was perceived that clinicians might lose their
+necessitating empirical research to comprehend and shape its autonomy and critical judgement by adhering to pre-established
+implementationand influencewithinhealthcare. guidelines and protocols (4, 83). Yet, while past criticisms have
+AIhasbeenlaudedasasubstantialtime-savingtool,potentially waned over time, the current discourse on the potential
+affording clinicians more time to enhance their expertise in deskilling of clinicians due to AI automation seems moreserious.
+evidence assessment or deepen patient engagements (33). This elevated gravity likely arises from heightened concerns
+Nevertheless, skeptics have expressed concerns regarding the about the possible displacement of the workforce by AI-enabled
+potential increase in the number of patients navigating the automation(64).
+healthcare system due to economic dynamics (78). The actual Thisselectiveliteraturereviewhassomelimitationsthatrequire
+outcome, whether AI will predominantly optimize throughput or consideration. The primary focus was to explore AI’s potential
+pursue alternate objectives, will be contingent upon how impact on the three components of EBP: evidence, clinical
+healthcare systems and decision-makers prioritize efficiency experience and patient preferences. Consequently, the review did
+relative to other crucial values. It is essential to study both the not encompass the extensive array of existing or potential
+intended and unintended consequences of AI deployment in applications of AI in healthcare, such as its use as a managerial
+healthcare to gain a holistic understanding of its impact. tool for administrative tasks, resource allocation in healthcare
+A European survey by the European Patients’ Forum highlighted facilities or facilitating continuous quality improvement initiatives
+the promise of AI in delivering more personalized care to through data analysis and feedback mechanisms. This review
+patients (79), but further research is crucial to explore how AI does not provide acomprehensive overview but rather focuses on
+implementation will influence clinician-patient relationships and AI inrelationtothethreepillarsofEBP.
+its broader impact onenhancing patient involvement.
+AI has faced criticism for its “black box” nature, making it
+challenging to decipher or explain the reasoning behind specific 5 Conclusion
+predictions or decisions due to the intricate structures and
+numerous variables within AI systems (80). Conversely, the This review of the literature on EBP and AI in healthcare
+EBP model was designed to elucidate clinical decision-making suggests considerable potential for AI to advance evidence-
+FrontiersinHealthServices 06 frontiersin.org
+Nilsenetal. 10.3389/frhs.2024.1368030
+based healthcare practices, potentially heralding the advent Funding
+of what might be termed EBP 2.0. Nonetheless, empirical
+research is crucial to substantiate various aspects of the use of Theauthor(s)declarethatnofinancialsupportwasreceivedfor
+AI in healthcare. There is speculation about AI potentially
+theresearch,authorship, and/or publication ofthisarticle.
+replacing clinicians’ roles in healthcare, but we believe
+that human clinicians will continue to provide critical value
+for patients through their uniquely human attributes. Acknowledgments
+Consequently, a paradox arises whereby the integration of AI
+might indirectly emphasize and increase the value of human ThankstoElin Karlssonforcomments onthemanuscript.
+skills within healthcare.
+Conflict of interest
+Author contributions
+The authors declare that the research was conducted in the
+PN: Conceptualization, Formal Analysis, Investigation, absence of any commercial or financial relationships that could
+Methodology, Writing – original draft, Writing – review & beconstrued asapotential conflictofinterest.
+editing. DS: Formal Analysis, Investigation, Methodology,
+Validation, Writing – review & editing. FH: Formal Analysis,
+Investigation, Methodology, Validation, Writing – review & Publisher’s note
+editing. MN: Formal Analysis, Investigation, Methodology,
+Validation, Writing – review & editing. JN: Formal Analysis, All claims expressed in this article are solely those of the
+Investigation, Methodology, Validation, Writing – review & authors and do not necessarily represent those of their affiliated
+editing. PS: Formal Analysis, Investigation, Methodology, organizations, or those of the publisher, the editors and the
+Validation, Writing – review & editing. LP: Formal Analysis, reviewers. Any product that may be evaluated in this article, or
+Investigation, Methodology, Supervision, Validation, Writing – claim that may be made by its manufacturer, is not guaranteed
+review&editing. orendorsed bythe publisher.
+References
+1.GuyattG,CairnsJ,ChurchillD,CookD,HaynesB,HirshJ,etal.Evidence-based 14.BarrettM,BoyneJ,BrandtsJ,Brunner-LaRoccaHP,DeMaesschalckL,DeWit
+medicine:anewapproachtoteachingthepracticeofmedicine.JAMA.(1992)268 K,etal.Artificialintelligencesupportedpatientself-careinchronicheartfailure:a
+(17):2420–5.doi:10.1001/jama.1992.03490170092032 paradigmshiftfromreactivetopredictive,preventiveandpersonalisedcare.EPMA
+J.(2019)10(4):445–64.doi:10.1007/s13167-019-00188-9
+2. Sackett DL. Evidence-Based Medicine: How to Practice and Teach EBM.
+NewYork:ChurchillLivingstone(1997). 15. Ferryman K, Mackintosh M, Ghassemi M. Considering biased data as
+informativeartifactsinAI-assistedhealthcare.NEnglJMed.(2023)389(9):833–8.
+3.HowickJ.ThePhilosophyofEvidence-BasedMedicine.Chichester,WestSussex,
+doi:10.1056/NEJMra2214964
+UK:Wiley-Blackwell,BMJBooks(2011).
+4.TrinderL.Introduction:thecontextofevidence-basedpractice.In:TrinderL, 16. Burns PB, Rohrich RJ, Chung KC. The levels of evidence and their role in
+Reynolds S, editors. Evidence-based Practice. (2000). p. 1–16. doi: 10.1002/ evidence-based medicine. Plast Reconstr Surg. (2011) 128(1):305–10. doi: 10.1097/
+9780470699003.ch1 PRS.0b013e318219c171
+5.AvbyG.EvidenceinPractice:OnKnowledgeUseandLearninginSocialWork. 17.NilsenP.ImplementeringavEvidensbaseradPraktik.Malmö:Gleerup(2014).
+Linköping:LinköpingUniversity,DepartmentofBehaviouralSciencesandLearning 18. Dones V. Systematic review writing by artificial intelligence: can artificial
+(2015).
+intelligence replace humans? Musculoskelet Disord Treat. (2022) 8. doi: 10.23937/
+6. Sackett DL,WilliamMCR, Gray JAM,HaynesRB, Richardson WS.Evidence 2572-3243.1510112
+basedmedicine:whatitisandwhatitisn't.BrMedJ.(1996)312(7023):71.doi:10.
+19.delaTorre-LópezJ,RamírezA,RomeroJR.Artificialintelligencetoautomate
+1136/bmj.312.7023.71
+the systematic review of scientific literature. Computing. (2023) 105(10):2171–94.
+7. Nilsen P. Overview of theories, models and frameworks in implementation doi:10.1007/s00607-023-01181-x
+science. In: Nilsen P, Birken SA, editors. Handbook on Implementation Science.
+Cheltenham,UK:EdwardElgarPublishing(2020).p.8–31. 20.BorahR,BrownAW,CapersPL,KaiserKA.Analysisofthetimeandworkers
+neededtoconductsystematicreviewsofmedicalinterventionsusingdatafromthe
+8.DavenportT,KalakotaR.Thepotentialforartificialintelligenceinhealthcare.
+PROSPERO registry. BMJ Open. (2017) 7(2):e012545. doi: 10.1136/bmjopen-2016-
+FutureHealthcJ.(2019)6(2):94–8.doi:10.7861/futurehosp.6-2-94
+012545
+9.TopolEJ.High-performancemedicine:theconvergenceofhumanandartificial
+21.YaffeJ,MontgomeryP,HopewellS,ShepardLD.Emptyreviews:adescription
+intelligence.NatMed.(2019)25(1):44–56.doi:10.1038/s41591-018-0300-7
+andconsiderationofcochranesystematicreviewswithnoincludedstudies.PLoSOne.
+10.SunartiS,FadzlulRahmanF,NaufalM,RiskyM,FebriyantoK,MasninaR. (2012)7(5):e36626.doi:10.1371/journal.pone.0036626
+Artificial intelligence in healthcare: opportunities and risk for future. Gac Sanit.
+(2021)35(Suppl1):S67–s70.doi:10.1016/j.gaceta.2020.12.019
+Ar
+2
+t
+2
+ifi
+.
+c
+K
+ia
+r
+l
+is
+i
+h
+n
+n
+te
+a
+l
+n
+lig
+G
+en
+,
+c
+S
+e
+in
+in
+gh
+cli
+S
+n
+,
+ic
+P
+a
+a
+l
+th
+m
+a
+e
+n
+d
+ia
+ici
+M
+ne
+,
+:
+G
+ca
+o
+t
+s
+a
+a
+l
+v
+y
+i
+zin
+S,
+g
+A
+a
+b
+s
+h
+u
+i
+s
+s
+t
+h
+a
+e
+i
+k
+na
+S
+b
+,
+le
+P
+g
+a
+l
+r
+o
+c
+b
+h
+a
+a
+l
+ni
+he
+A
+a
+,
+lth
+et
+ca
+a
+r
+l
+e
+.
+11.DaveM,PatelN.Artificialintelligenceinhealthcareandeducation.BrDentJ. paradigm.FrontArtifIntell.(2023)6:1227091.doi:10.3389/frai.2023.1227091
+(2023)234(10):761–4.doi:10.1038/s41415-023-5845-2
+23. Nilsen P. Implementation Science: Theory and Application. Abingdon, UK:
+12. Camaradou JCL, Hogg HDJ. Commentary: patient perspectives on artificial Routledge(2024).
+intelligence; what have we learned and how should we move forward? Adv Ther.
+(2023)40(6):2563–72.doi:10.1007/s12325-023-02511-3
+the
+2
+o
+4
+r
+.
+y
+C
+o
+ro
+f
+s
+d
+k
+e
+e
+b
+rr
+ia
+y
+si
+P
+n
+,
+g
+S
+.
+i
+B
+n
+M
+gh
+J
+al
+Q
+G
+u
+,
+al
+M
+S
+a
+a
+m
+f.
+e
+(
+d
+2
+e
+01
+S
+3
+.
+)
+C
+2
+o
+2
+g
+(
+n
+S
+i
+u
+t
+p
+iv
+p
+e
+l
+d
+2
+e
+)
+b
+:i
+i
+i
+a
+5
+s
+8
+i
+–
+n
+6
+g
+4
+1
+.
+:
+d
+o
+o
+r
+i
+i
+:
+g
+1
+in
+0
+s
+.1
+o
+13
+f
+6
+b
+/
+i
+b
+a
+m
+sa
+jq
+n
+s
+d
+-
+13.UnionE.TheEUArtificialIntelligenceAct. 2012-001712
+FrontiersinHealthServices 07 frontiersin.org
+Nilsenetal. 10.3389/frhs.2024.1368030
+25.GopalDP,ChettyU,O’DonnellP,GajriaC,Blackadder-WeinsteinJ.Implicit 50.WrightRW,BrandRA,DunnW,SpindlerKP.Howtowriteasystematicreview.
+biasinhealthcare:clinicalpractice,researchanddecisionmaking.FutureHealthcJ. ClinOrthopRelatRes.(2007)455:23–9.doi:10.1097/BLO.0b013e31802c9098
+(2021)8(1):40–8.doi:10.7861/fhj.2020-0233
+51.MarcusG,LeivadaE,MurphyE.ASentenceisWorthaThousandPictures:Can
+26.O’SullivanED.Cognitivebiasisacrucialfactorinnurses’decisionmaking.Evid Large Language Models Understand Human Language? arXiv preprint
+BasedNurs.(2023)26(1):37.doi:10.1136/ebnurs-2022-103585 arXiv:2308001092023.
+27.ThirskLM,PanchukJT,StahlkeS,HagtvedtR.Cognitiveandimplicitbiasesin 52.HoffmannF,AllersK,RombeyT,HelbachJ,HoffmannA,MathesT,etal.
+nurses’ judgment and decision-making: a scoping review. Int J Nurs Stud. (2022) Nearly 80 systematic reviews were published each day: observational study on
+133:104284.doi:10.1016/j.ijnurstu.2022.104284 trends in epidemiology and reporting over theyears 2000–2019. J Clin Epidemiol.
+(2021)138:1–11.doi:10.1016/j.jclinepi.2021.05.022
+28.MunafòMR,TillingK,TaylorAE,EvansDM,DaveySmithG.Colliderscope:
+whenselectionbiascansubstantiallyinfluenceobservedassociations.IntJEpidemiol. 53.RamgopalS, Sanchez-PintoLN,HorvatCM,CarrollMS, LuoY,FlorinTA.
+(2018)47(1):226–35.doi:10.1093/ije/dyx206 Artificial intelligence-based clinical decision support in pediatrics. Pediatr Res.
+(2023)93(2):334–41.doi:10.1038/s41390-022-02226-1
+29.MamedeS,vanGogT,vandenBergeK,RikersRM,vanSaaseJL,vanGuldener
+C, et al. Effect of availability bias and reflective reasoning on diagnostic accuracy 54. Cohen M, Puntonet J, Sanchez J, Kierszbaum E, Crema M, Soyer P, et al.
+among internal medicine residents. JAMA. (2010) 304(11):1198–203. doi: 10.1001/ Artificial intelligence vs. radiologist: accuracy of wrist fracture detection on
+jama.2010.1276 radiographs.EurRadiol.(2023)33(6):3974–83.doi:10.1007/s00330-022-09349-3
+30. Esteban-Zubero E, Valdivia-Grandez MA, Alatorre-Jiménez MA, Torre LD, 55.DembrowerK,CrippaA,ColónE,EklundM,StrandF.Artificialintelligencefor
+Marín-Medina A, Alonso-Barragán SA, et al. Diagnosis bias and its revelance breast cancer detection in screening mammography in Sweden: a prospective,
+duringthediagnosisprocess.FortuneJ.(2017).10.26502/acmcr.9655005 population-based,paired-reader,non-inferioritystudy.LancetDigitHealth.(2023)5
+(10):e703–11.doi:10.1016/s2589-7500(23)00153-x
+31.HagiwaraN,KronFW,ScerboMW,WatsonGS.Acallforgroundingimplicit
+bias training in clinical and translational frameworks. Lancet. (2020) 395 56. Lång K, Josefsson V, Larsson AM, Larsson S, Högberg C, Sartor H, et al.
+(10234):1457–60.doi:10.1016/s0140-6736(20)30846-1 Artificial intelligence-supported screen Reading versus standard double reading in
+the mammography screening with artificial intelligence trial (MASAI): a clinical
+32.SwiftJA,HanlonS,El-RedyL,PuhlRM,GlazebrookC.WeightbiasamongUK
+safetyanalysisofarandomised,controlled,non-inferiority,single-blinded,screening
+t ( r 4 a ) i : n 39 ee 5– d 4 i 0 e 2 ti . ti d a o n i s : , 10 d . o 1 c 1 t 1 o 1 rs /j , h n n u .1 r 2 s 0 e 1 s 9 and nutritionists. J Hum Nutr Diet. (2013) 26 accuracy study. Lancet Oncol. (2023) 24(8):936–44. doi: 10.1016/s1470-2045(23)
+00298-x
+33. Sauerbrei A, Kerasidou A, Lucivero F, Hallowell N. The impact of artificial
+57.SafranekCW,Sidamon-EristoffAE,GilsonA,ChartashD.Theroleoflarge
+intelligenceontheperson-centred,doctor-patientrelationship:someproblemsand
+language models in medical education: applications and implications. JMIR Med
+solutions. BMC Med Inform Decis Mak. (2023) 23(1):73. doi: 10.1186/s12911-023-
+Educ.(2023)9:e50945.doi:10.2196/50945
+02162-y
+58.LiuX,WuC,LaiR,LinH,XuY,LinY,etal.ChatGPT:whentheartificial
+34.WaddellA,LennoxA,SpassovaG,BraggeP.Barriersandfacilitatorstoshared
+intelligencemeetsstandardizedpatientsinclinicaltraining.JTranslMed.(2023)21
+decision-makinginhospitalsfrompolicytopractice:asystematicreview.Implement
+(1):447.doi:10.1186/s12967-023-04314-0
+Sci.(2021)16(1):74.doi:10.1186/s13012-021-01142-y
+59.WilliamsB,SongJJY.Aresimulatedpatientseffectiveinfacilitatingdevelopment
+35.FridbergH.TheComplexitiesofImplementingPerson-CentredCareinaReal-
+ofclinicalcompetenceforhealthcarestudents?Ascopingreview.AdvSimul(Lond).
+WorldSetting:ACaseStudywithSevenEmbeddedUnits.Falun:HögskolanDalarna
+(2016)1:6.doi:10.1186/s41077-016-0006-1
+(2022).
+60.IbrahimH,LiuX,ZariffaN,MorrisAD,DennistonAK.Healthdatapoverty:an
+36.GrimK,NäslundH,AllaskogC,AnderssonJ,ArgentzellE,BroströmK,etal.
+assailable barrier to equitable digital health care. Lancet Digit Health. (2021) 3(4):
+Legitimizing user knowledge in mental health services: epistemic (in)justice and e260–5.doi:10.1016/s2589-7500(20)30317-4
+barrierstoknowledgeintegration.FrontPsychiatry.(2022)13:981238.doi:10.3389/
+fpsyt.2022.981238 61.BelenguerL.AIbias:exploringdiscriminatoryalgorithmicdecision-makingmodels
+and the application of possible machine-centric solutions adapted from the
+the
+37
+r
+.
+e
+C
+se
+h
+a
+u
+rc
+b
+h
+b
+p
+J,
+ro
+C
+c
+o
+e
+w
+ss
+l
+.
+in
+A
+g
+I
+P
+S
+,
+o
+R
+c.
+ee
+(2
+d
+0
+D
+22
+.
+)
+Sp
+3
+e
+7
+e
+(
+d
+4
+i
+)
+n
+:1
+g
+43
+u
+9
+p
+–
+t
+5
+o
+7
+k
+.
+e
+d
+e
+o
+p
+i:
+u
+1
+p
+0
+:
+.1
+e
+0
+x
+0
+p
+7
+lo
+/
+r
+s
+i
+0
+n
+0
+g
+14
+th
+6
+e
+-0
+u
+2
+s
+1
+e
+-0
+o
+1
+f
+2
+A
+5
+I
+9-
+in
+0
+pharmaceuticalindustry.AIEthics.(2022)2(4):771–87.doi:10.1007/s43681-022-00138-8
+W 3 o 8 rl . d va F n ut B u e r l e k s o R m ev R . . (2 T 0 h 1 e 9 i ) m 1 p 2 a (2 ct ): o 15 f 6 a – rt 6 i 8 fi . ci d a o l i i : n 1 te 0 l . l 1 ig 1 e 7 n 7 c /1 e 9 o 4 n 67 th 56 e 7 a 1 c 9 ti 8 v 7 it 5 i 7 es 20 ofafuturist. cli 6 n 2 ic . al G a o lg o o d r m ith a m n e K ra E . , N R E o n d g m lJ a M n ed A . M (2 , 02 M 3) o 3 rg 8 a 9 n (6): D 48 J. 3– P 7 r . e d p o a i r : i 1 n 0 g .10 p 5 h 6 y / s N ic E ia J n M s p2 f 3 o 0 r 48 t 3 h 9 e
+63.VokingerKN,FeuerriegelS,KesselheimAS.Mitigatingbiasinmachinelearning
+39.vanDijkSHB,Brusse-KeizerMGJ,BucsánCC,vanderPalenJ,DoggenCJM,
+Lenferink A. Artificial intelligence in systematic reviews: promising when formedicine.CommunMed.(2021)1(1):25.doi:10.1038/s43856-021-00028-w
+appropriately used. BMJ Open. (2023) 13(7):e072254. doi: 10.1136/bmjopen-2023- 64.AquinoYSJ,RogersWA,Braunack-MayerA,FrazerH,WinKT,HoussamiN,
+072254 etal.Utopiaversusdystopia:professionalperspectivesontheimpactofhealthcare
+40.AskinS,BurkhalterD,CaladoG,ElDakrouniS.Artificialintelligenceappliedto artificial intelligence on clinical roles and skills. Int JMed Inf. (2023) 169:104903.
+doi:10.1016/j.ijmedinf.2022.104903
+clinical trials: opportunities and challenges. Health Technol (Berl). (2023) 13
+(2):203–13.doi:10.1007/s12553-023-00738-2 65. Randhawa GK, Jackson M. The roleof artificial intelligence in learning and
+professional development for healthcare professionals. Healthc Manage Forum.
+41.JumperJ,EvansR,PritzelA,GreenT,FigurnovM,RonnebergerO,etal.Highly (2020)33(1):19–24.doi:10.1177/0840470419869032
+accurate protein structure prediction with AlphaFold. Nature. (2021) 596
+(7873):583–9.doi:10.1038/s41586-021-03819-2 66.ChenJH,AschSM.Machinelearningandpredictioninmedicine—beyondthe
+peak of inflated expectations. N Engl J Med. (2017) 376(26):2507–9. doi: 10.1056/
+42. Borkakoti N, Thornton JM. Alphafold2 protein structure prediction:
+NEJMp1702071
+implications for drug discovery. Curr Opin Struct Biol. (2023) 78:102526. doi: 10.
+1016/j.sbi.2022.102526 67.FogelAL,KvedarJC.Artificialintelligencepowersdigitalmedicine.NPJDigit
+43.TranTTV,SuryaWibowoA,TayaraH,ChongKT.Artificialintelligenceindrug Med.(2018)1:5.doi:10.1038/s41746-017-0012-2
+toxicityprediction:recentadvances,challenges,andfutureperspectives.JChemInf 68.ModiS,DeislerR,GozelK,ReicksP,IrwinE,BrunsvoldM,etal.Wellscriteria
+Model.(2023)63(9):2628–43.doi:10.1021/acs.jcim.3c00200
+forDVTisareliableclinicaltooltoassesstheriskofdeepvenousthrombosisin
+44.HassanzadehH,KarimiS,NguyenA.Matchingpatientstoclinicaltrialsusing traumapatients.WorldJEmergSurg.(2016)11:24.doi:10.1186/s13017-016-0078-1
+semanticallyenricheddocumentrepresentation.JBiomedInform.(2020)105:103406.
+69.KanisJA,JohanssonH,HarveyNC,McCloskeyEV.AbriefhistoryofFRAX.
+doi:10.1016/j.jbi.2020.103406
+ArchOsteoporos.(2018)13(1):118.doi:10.1007/s11657-018-0510-0
+Tr
+4
+en
+5.
+d
+H
+sP
+ar
+h
+r
+a
+e
+r
+r
+m
+S
+a
+,
+c
+S
+o
+h
+l
+a
+S
+h
+ci
+P
+.
+,
+(2
+A
+0
+n
+1
+t
+9
+o
+)
+ny
+40
+B
+(8
+,
+)
+H
+:5
+u
+77
+J.
+–
+A
+91
+r
+.
+ti
+d
+fi
+o
+ci
+i
+a
+:
+l
+1
+i
+0
+n
+.1
+te
+0
+l
+1
+li
+6
+g
+/
+e
+j
+n
+.t
+c
+ip
+e
+s
+f
+.
+o
+20
+r
+1
+c
+9
+li
+.
+n
+05
+ic
+.
+a
+0
+l
+0
+t
+5
+rialdesign. 70.BakerHP,DwyerE,KalidossS,HynesK,WolfJ,StrelzowJA.ChatGPT’sability
+toassistwithclinicaldocumentation:arandomizedcontrolledtrial.JAmAcadOrthop
+46.WangL,ZhangY,WangD,TongX,LiuT,ZhangS,etal.Artificialintelligence Surg.(2024)32(3):123–9.doi:10.5435/jaaos-d-23-00474
+forCOVID-19:asystematicreview.FrontMed(Lausanne).(2021)8:704256.doi:10.
+71.GloverWiljeanaJ,LiZ,PachamanovaD.TheAI-enhancedfutureofhealthcare
+3389/fmed.2021.704256
+administrativetaskmanagement.CatalNonIssueContent.(2022)3(2).doi:10.1056/
+47.BlaizotA,VeettilSK,SaidoungP,Moreno-GarciaCF,WiratungaN,Aceves- CAT.21.0355
+Martins M, et al. Using artificial intelligence methods for systematic review in
+health sciences: a systematic review. Res Synth Methods. (2022) 13(3):353–62. 72. Aminololama-Shakeri S, López JE. The doctor-patient relationship with
+doi:10.1002/jrsm.1553
+artificialintelligence.AJRAmJRoentgenol.(2019)212(2):308–10.doi:10.2214/ajr.18.20509
+48. Wagner G, Lukyanenko R, Paré G. Artificial intelligence and the conduct 73.ŽaliauskaitėM.Roleofrulerorintruder?Patient’srighttoautonomyintheage
+of literature reviews. J Inf Technol. (2021) 37(2):209–26. doi: 10.1177/ ofinnovationandtechnologies.AISoc.(2021)36(2):573–83.doi:10.1007/s00146-020-
+02683962211048201 01034-7
+49.BhardwajA,KishoreS,PandeyDK.Artificialintelligenceinbiologicalsciences. 74.BoerL,BischoffE,vanderHeijdenM,LucasP,AkkermansR,VercoulenJ,etal.
+Life(Basel,Switzerland).(2022)12(9).doi:10.3390/life12091430 Asmartmobilehealthtoolversusapaperactionplantosupportself-managementof
+FrontiersinHealthServices 08 frontiersin.org
+Nilsenetal. 10.3389/frhs.2024.1368030
+chronic obstructive pulmonary disease exacerbations: randomized controlled trial. 79.ForumEP.SurveyforPatientOrganisationsandIndividualPatientAdvocateson
+JMIRMhealthUhealth.(2019)7(10):e14408.doi:10.2196/14408 thePerceptionofAIinHealthcareSpring.(2023).
+75.RickertJ.Onpatientsafety:thelureofartificialintelligence-arewejeopardizing 80.GilvaryC,MadhukarN,ElkhaderJ,ElementoO.Themissingpiecesofartificial
+ourpatients’privacy?ClinOrthopRelatRes.(2020)478(4):712–4.doi:10.1097/corr. intelligenceinmedicine.TrendsPharmacolSci.(2019)40(8):555–64.doi:10.1016/j.
+0000000000001189 tips.2019.06.001
+76.McDougallRJ.Computerknowsbest?Theneedforvalue-flexibilityinmedical 81.NalliahRP.Clinicaldecisionmaking—choosingbetweenintuition,experience
+AI.JMedEthics.(2019)45(3):156–60.doi:10.1136/medethics-2018-105118 andscientificevidence.BrDentJ.(2016)221(12):752–4.doi:10.1038/sj.bdj.2016.942
+77.NilsenP.Makingsenseofimplementationtheories,modelsandframeworks. 82.LuJ.Willmedicaltechnologydeskilldoctors.IntEducStud.(2016)9:130–4.
+ImplementSci.(2015)10(1):53.doi:10.1186/s13012-015-0242-0 doi:10.5539/ies.v9n7p130
+78.SparrowR,HatherleyJJ.ThepromiseandperilsofAIinmedicine.IntJChin 83.BergmarkA,BergmarkÅ,LundströmT.EvidensbaseratSocialtArbete:Teori,
+CompPhilosMed.(2019)17(2):79–109.doi:10.24112/ijccpm.171678 Kritik,Praktik.Stockholm:Natur&kultur(2011).
+FrontiersinHealthServices 09 frontiersin.org

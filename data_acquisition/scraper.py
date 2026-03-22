@@ -1,6 +1,14 @@
 import requests
 import time
 import json
+import os
+import sys
+
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
+from project_paths import METADATA_PATH, ensure_parent_dir
 
 #ROLE: Data Acquisition Group
 #PURPOSE: Automated Metadata Collection from Semantic Scholar API
@@ -89,7 +97,8 @@ if __name__ == "__main__":
         
     #2.Export the combined data to the V3 version JSON file
     if all_collected_papers:
-        output_filename = '../data/hybrede_metadata_v5.json'
+        output_filename = METADATA_PATH
+        ensure_parent_dir(output_filename)
         with open(output_filename, 'w', encoding='utf-8') as json_file:
             json.dump(all_collected_papers, json_file, ensure_ascii=False, indent=4)
         

@@ -1,0 +1,530 @@
+ORIGINALRESEARCH
+published:30November2020
+doi:10.3389/frai.2020.543405
+fi
+A Comparison of Arti cial Intelligence
+and Human Doctors for the Purpose of
+Triage and Diagnosis
+Adam Baker1*†, YuraPerov1†,Katherine Middleton1, Janie Baxter1, DanielMullarkey1,
+Davinder Sangar1,Mobasher Butt1, ArnoldDoRosario2and SaurabhJohri1
+1BabylonHealth,London,UnitedKingdom,2NortheastMedicalGroup,YaleNewHavenHealth,NewHaven,CT,UnitedStates
+AIvirtualassistantshavesignificantpotentialtoalleviatethepressureonoverlyburdened
+healthcaresystemsbyenablingpatientstoself-assesstheirsymptomsandtoseekfurther
+carewhenappropriate.Forthesesystemstomakeameaningfulcontributiontohealthcare
+globally,theymustbetrustedbypatientsandhealthcareprofessionalsalike,andservice
+theneedsofpatientsindiverseregionsandsegmentsofthepopulation.Wedevelopedan
+AIvirtualassistantwhichprovidespatientswithtriageanddiagnosticinformation.Crucially,
+thesystemisbasedonagenerativemodel,whichallowsforrelativelystraightforwardre-
+Editedby: parameterization to reflect local disease and risk factor burden in diverse regions and
+WojciechSamek,
+population segments. This is an appealing property, particularly when considering the
+HeinrichHertzInstitute(FHG),
+Germany potential of AI systems to improve the provision of healthcare on a global scale in many
+Reviewedby: regions and for both developing and developed countries. We performed a prospective
+ShaileshTripathi,
+validation study of the accuracy and safety of the AI system and human doctors.
+TampereUniversityofTechnology,
+Finland Importantly, we assessed the accuracy and safety of both the AI and human doctors
+SamikGhosh, independentlyagainstidenticalclinicalcasesand,unlikepreviousstudies,alsoaccounted
+SBXCorporation,Japan
+fortheinformationgatheringprocessofbothagents.Overall,wefoundthattheAIsystem
+*Correspondence:
+is able to provide patients with triage and diagnostic information with a level of clinical
+AdamBaker
+adam.baker@babylonhealth.com accuracy and safety comparable to that of human doctors. Through this approach and
+†Theseauthorshavecontributed study, we hope to start building trust in AI-poweredsystems by directly comparing their
+equallytothiswork
+performancetohumandoctors,whodonotalwaysagreewitheachotheronthecauseof
+patients’ symptoms or the most appropriate triage recommendation.
+Specialtysection:
+ThisarticlewassubmittedtoMedicine
+Keywords: virtual assistant, diagnosis, triage, diagnosis, AI diagnosis, symptom checker, computer-assisted
+andPublicHealth,
+diagnosis,bayesiannetworks
+asectionofthejournal
+FrontiersinArtificialIntelligence
+Received:16March2020 INTRODUCTION
+Accepted:04November2020
+Published:30November2020 AIvirtualassistants(symptomcheckers)areaconvenientandvaluableresourceforuserstobetter
+Citation: understandtheunderlyingcause(s)oftheirsymptomsandtoreceiveadviceonthemostappropriate
+BakerA,PerovY,MiddletonK,Baxter pointofcare(Millensonetal.,2018;Rowlandetal.,2020).Inlow-incomecountriestheirimpactmay
+J,MullarkeyD,SangarD,ButtM, beevengreatersince,althoughaccesstohumanhealthcareexpertsmaybelimited,manydeveloping
+DoRosarioAandJohriS(2020)A countrieshaveseenarapidexpansionofmobilephonesandwirelesstechnologywhichhasenabled
+ComparisonofArtificialIntelligence
+opportunitiestodelivermHealthtechnologies(Wahletal.,2018).Forexample,atelehealthservice
+andHumanDoctorsforthePurposeof
+thatprovidesaccesstotriageadvice,GPappointments,prescriptionsandtestsisalreadyusedbytwo
+TriageandDiagnosis.
+million patients in Rwanda and trials are underway to augment this service with AI technology
+Front.Artif.Intell.3:543405.
+doi:10.3389/frai.2020.543405 (Burki, 2019).
+FrontiersinArtificialIntelligence|www.frontiersin.org 1 November2020|Volume3|Article543405
+Bakeretal. AIforTriageandDiagnosis
+Typically,symptomcheckerscatertothreehealthcareneedsofa MATERIALS AND METHODS
+patient.Firstistheprovisionofinformation,whereinapatientmay
+seek to know more about the symptoms or conditions that they The Babylon Triage and Diagnostic System
+know or think they have. Secondly, a patientmay wanttoknow TheBabylonTriageandDiagnosticSystemisdesignedtoprovide
+whethertheirsymptomsrequiretreatmentorfurtherinvestigation; users with triage advice alongside an explanation of why this
+this is medical triage and involves directing patients to the most actionhasbeensuggested;thisconsistsofanyreportedsymptoms
+suitable location within an appropriate time frame. The thatrequireurgentattention,and/oralistofpossiblecausesfor
+appropriate action depends on the nature and urgency of the theuser’ssymptoms.Acomprehensivedescriptionofthesystem
+symptomsortheirunderlyingcause,whichmightrequirefurther thatpowerstheBabylonTriageandDiagnosticSystemisoutside
+investigation. Finally, patients may want to understand the ofthescopeofthispaper,howeverweprovideabriefsummaryof
+conditions that might be responsible for their symptoms. This this system by way of background.
+correspondstodiagnosisor“differentialdiagnosis”andistypically The Babylon Triage and Diagnostic System–a new
+performedbyan experienced medicalpractitioner. implementation after the previous generation (Middleton
+Symptomcheckershavethepotentialtoalleviatethepressureon et al., 2016)–is based on a Bayesian Network (Koller and
+overlyburdenedhealthcaresystemsandtoreducehealthdisparities Friedman, 2009) of primary care medicine, which models
+withinunder-servedpopulations(VanVeenetal.,2019).Forthisto conditional dependencies between variables via a Directed
+happen, healthcare professionals and the wider public must have Acyclic Graph (DAG). Nodes in the graph represent medical
+confidence in the performance of symptom checkers and conceptsandedgesrepresentconditionaldependencies.Here,we
+applications of AI to medicine more generally. Previous work has modelmedicalconceptsprimarilyasBooleanvariables,wherethe
+investigatedthediagnosticandtriageaccuracyofsymptomcheckers statesrepresentthepresenceorabsenceofthatconcept.Alimited
+(Semigranetal.,2015;Millensonetal.,2018;Chambersetal.,2019; numberofconceptsaremodeledasordinalvariables,forexample
+Yu et al., 2019). In particular, (Semigran et al., 2015) assessed 23 symptom duration. Each node in the graph isassociated with a
+commercial symptom checker apps and highlighted significant ConditionalProbabilityTable(CPT)whichdescribesthestateof
+variation in terms of clinical accuracy. Whilst providing a useful the variable, given the states of its parents in the graph. We
+benchmark, that study did not assess the accuracy of symptom assumeathree-layerDAGstructure,wherethetop,middleand
+checkersagainstthegold-standardperformanceofhumandoctors. bottom layers represents risk factors, disease and symptoms,
+Thiswasassessedinafollow-upstudy,wheretheauthorsnotedthat respectively. Edges may exist between risk factors and diseases
+doctors significantly outperform symptom checkers, providing a orbetweendiseasesandsymptoms.Onechallengewhencreating
+valuable contribution to our understanding of comparative largescaleBayesianNetworksisthatthenumberofparameters
+diagnostic performance (Semigran et al., 2016). However, the required to specify the CPT is exponential in the number of
+method used in this follow-up study did not adequately assess parent nodes. This can make parameterization of the CPT
+the information gathering process through which patients challenging, and subsequent inference intractable. We adopt a
+typically interact with symptom checkers or doctors, and so the noisy-ORmodel,whichiswidelyusedindiagnosticmodelingas
+conclusions are not based on a fair or realistic comparison. it greatly simplifies inference, allowing large networks to be
+Diagnostic accuracy is not routinely measured in clinical practice, described by a number of parameters that grows linearly with
+butawiderangeofstudieshaveattemptedtoestimatetheincidence thesizeofthenetwork(Heckerman,1990).Underthenoisy-OR
+of diagnostic error. Irrespective of whether the true error rate lies assumption, diseases cause symptoms independently of other
+closertothe10–20%foundinautopsystudies(Graber,2013)orthe diseases,andtheCPTforasymptomwhenmultiplediseasesare
+44% found in a study analyzing the correlation of diagnostic present may be derived through a logical OR function of its
+accuracy with doctor confidence (Meyer et al., 2013), it is critical parents.Themodelisparameterizedbythepriorprobabilitiesof
+to perform a fair assessment of how a doctor takes a history and riskfactorsanddiseases,andtheconditionalprobabilitieswhich
+establishesadiagnosiswhencomparingagainstsymptomcheckers. define the CPTs between risk factors and diseases and between
+Inthisstudyweadoptasemi-naturalistic,role-playparadigm diseases and symptoms. Prior probabilities are obtained from
+thatsimulatesarealisticconsultationbetweenapatientandeither epidemiologicaldatawhichvariestoreflectlocaldiseaseandrisk
+ourTriageandDiagnosticSystemorhumandoctor.Basedonthe factor burden in different regions and population segments.
+assessmenttechniqueusedthroughoutmedicalschoolandpost- Sources of epidemiological data include published literature
+graduate medical qualifications (Objective Structured Clinical and data from the Global Burden of Disease (GBD) study,
+Examinations [OSCE]), this protocol was designed to assess which provides age- and sex-stratified estimates of disease
+not only the clinical (diagnostic1 and triage) accuracy, but also incidence and prevalence in different regions2. The range of
+the ability to gather all of the relevant information from the disease incidence values used to calculate the priors in our
+patient, i.e., to take a history. model are shown in Supplementary Table S1. The GBD
+1Theterm“diagnosis”isusedforeaseofreference,asshorthandtosuggestthe 2GlobalBurdenofDiseaseCollaborativeNetwork.GlobalBurdenofDiseaseStudy
+matching of symptoms with diseases and/or conditions. However, we are not 2017(GBD2017)Results.Seattle,UnitedStates:InstituteforHealthMetricsand
+suggestingthatonlinesymptomcheckersarediagnosingusers,orthattheBabylon Evaluation(IHME),2018.Availablefromhttp://ghdx.healthdata.org/gbd-results-
+Chatbotprovidesadiagnosis. tool
+FrontiersinArtificialIntelligence|www.frontiersin.org 2 November2020|Volume3|Article543405
+Bakeretal. AIforTriageandDiagnosis
+datasetwasaugmentedwithdatafromliteraturesearchesbyour
+in-houseepidemiologyteam,andestimatesfrommedicalexperts.
+Conditional probabilities (for example, the probability of a
+symptom occurring given a disease) were obtained through
+elicitation from multiple independent medical experts.
+Onceconstructedandparameterized,themodelmaybeused
+to reason about the possible underlying disease or diseases that
+explain the user-entered symptoms and risk factors, using a
+variety of Bayesian inference methods (Cheng and Druzdzel,
+2000; Wainwright and Jordan, 2008; Gu et al., 2015; Douglas
+et al., 2017). This allowsthe AI powered Triage and Diagnostic
+Systemtooutputthemostlikelycausesofthesymptomsentered
+byauser,andalsogeneratefollowupquestionsthatprovidethe
+most information to confirm or rule out the diseases under
+consideration. It should be noted that while we use posterior
+inference in this study (i.e., the application of approximate
+Bayesian inference to calculate the posterior probabilities given
+a prior belief and evidence), the same model structure may be
+used in conjunction with other inference schemes such as
+counterfactual inference.
+The Babylon Triage and Diagnostic System is designed to
+identify one of six mutually-exclusive triage recommendations:
+“call an ambulance”, “go to A&E/ER”, “urgent GP” (i.e., within
+6h),“non-urgentGP”(i.e.,withinaweek),“pharmacy”and“self-
+care”. These are ordered in terms of urgency from highest to
+lowest. We define under-triage and over-triage to be
+recommendations from the system that are of a lower or
+higher urgency than is appropriate. The triage capability is
+based on a utility model, which provides a generalization of
+the Bayesian Network to a decision network (Koller and
+Friedman, 2009). This combines the likelihood of each disease
+withthepotentialharmcausedbythatdisease,underallpossible
+triagedecisions.Thetriagedecisionthatisrecommendedisthe FIGURE1|Anexampleofatestvignette.
+onethatminimizestheexpectedharmtothepatient,whilealso
+penalizingover-triaging.Thismodelcalculatestheexpectedharm
+(i.e.,negativeexpectedutility)associatedwitheachdiseaseasthe Experimental Paradigm
+probabilityofthatdiseasemultipliedbytheharmthatwouldbe WecomparedtheaccuracyandsafetyoftheBabylonTriageand
+incurredbytakingaparticulartriagedecision,shouldthatdisease DiagnosticSystemagainstthatofhumandoctors.Accuracywas
+exist. The total expected harm to the patient for each triage assessedintermsoftherelevanceofthesuggestedconditions,and
+decision is calculated as the sum of expected harm for each the appropriateness of the recommended triage action. Triage
+possibledisease.Thetotalexpectedutilityforatriagedecisionis safetywasassessedintermsofwhetherthesuggestedtriageaction
+theexpectedharm,plusaseparatecosttermwhichdependsonly was deemed safe (even if it was overly cautious).
+onthetriagedecision.Theeffectofthiscosttermistopenalize Theevaluationwasperformedusingasemi-naturalisticrole-
+over-triaging,bymakingurgenttriagedecisionsmorecostly.The playscenariothatinvolvedmockconsultationsbetweenapatient
+utility model is parameterized using distributions over clinical and either a human doctor or the chatbot, based on realistic
+outcomes for each disease (e.g., the proportion of patients with clinical vignettes. The role of doctors was played by general
+thediseasethatwouldexperienceaparticularclinicaloutcome). practitioners (GPs) who were hired on a locum basis for the
+Thecostsassociatedwiththeseoutcomes,andthecostsforeach experimentandwhowerenotinvolvedwiththedevelopmentof
+triagedecisionarelearnedfromacombinationofsimulatedand the model. Patients were played by GPs, some of whom were
+realclinicalcases(whichweredistinctfromthoseusedwithinthis employeesofBabylon,butnoneofwhomwereinvolvedwiththe
+study). To guarantee the safe triage of patients with symptoms development of the model. We opted to use GPs to play the
+thatrequireaparticularurgencyorlocationofcare(regardlessof patients instead of professional actors as in a previous study
+theirunderlyingcause),theutilitymodelisaugmentedwithaset (Middletonetal.,2016)toprioritizetheaccuracyofinterpreting
+of rules that dictate a specific triage action where a particular theinformationonthevignetteovertherealismofalayperson.
+combination of symptoms (so-called “red-flag” symptoms) are One hundred clinical vignettes were created by independent
+present. medical practitioners who were not involved in the role-play
+FrontiersinArtificialIntelligence|www.frontiersin.org 3 November2020|Volume3|Article543405
+Bakeretal. AIforTriageandDiagnosis
+experiment (see Supplementary Table S2 for further details of foundtobe83.9%,(64.1–93.8%),meaningthatdoctorsfailedto
+the participants of the study). Each vignette was designed to includethevignettediseaseintheirdifferentialinsixteenpercent
+simulate a medical condition from the list of all conditions of cases on average.
+currently modeled by the Triage and Diagnostic System3, in a TheBabylonSymptomSelectorisbasedonaBayesianmodel,
+patient of at least 16 years of age. The vignettes contained whichcancalculatetheposteriorprobabilitiesofallconditionsin
+information about the patient, their initial complaint(s), the model given the evidence known about a patient. Whether
+information about their symptoms and past medical history particular conditions are displayed to the user depends on
+that should be offered on open questioning, and information whether they meet internal thresholds, defined by a
+thatshouldonlybereportedondirectquestioning.Anexample combination of the probability and severity of these
+can be found in Figure 1. conditions. The threshold parameters used in the model are
+ThestudywasconductedinJune2018andconsistedoffour selected based on independent training vignettes but may be
+rounds over consecutive days. In each round, there were up to varied to allow a trade-off to be made between recall and
+four “patients” and four doctors. Each patient was assigned a precision. It is interesting to observe that different parameters
+vignette as their presenting history and had independent canmovethemodel’sresultclosertothoseofdifferentdoctors,
+consultations with each doctor and the Babylon Triage and forexampletowardDoctorDorE(Figure2),perhapsemulating
+Diagnostic System. This protocol was designed in the OSCE thevariabilityinindividualdoctors’preferenceforshorter,more
+format to assess both history taking and diagnostic and triage precise differentials or longer, more exhaustive ones.
+accuracy. After each consultation the differential diagnosis and
+recommended triage produced by the doctor or Triage and Expert Rating of Differential Diagnoses
+Diagnostic System was recorded. In order to maintain blinding Inadditiontoassessingtheprecisionandrecallcomparedtothe
+in the judging process, doctors selected their differential disease modeled by the vignette, we also evaluated the overall
+diagnoses from a list of all conditions covered by the Triage differential diagnosis qualitatively. This was based on the
+and Diagnostic System. Once the patient had completed intuition that, to be useful, a differential diagnosis must not
+consultations with all doctors and the Triage and Diagnostic only include the relevant diseases but also exclude diseases that
+System, they were assigned a new vignette and the process was areoflittlerelevancetothepatient’ssymptoms.Tothisend,we
+repeated. askedaseniormedicalpractitioner4(Judge1)andtwoin-house
+GPs (Judge 2 and Judge 3) who were not part of the role play
+experiment, to serve as judges and to independently rate the
+RESULTS qualityofthedifferentialsproducedbothbytheBabylonTriage
+andDiagnosticSystemandbydoctors.Eachjudgefirstreviewed
+Accuracy of Differential Diagnosis Against thevignetteandthenratedallthedifferentialsforthisvignetteon
+Vignette Modeled Disease afourpointscale(poor,okay,good,excellent).Adifferentialwas
+rated “excellent” if the judge could not find any issues with it,
+We assessed the precision (also called positive predictive value)
+“good”ifithadminorissues(suchastheomissionofaslightly
+and recall (also called sensitivity) of the Babylon Triage and
+irrelevant conditions, or if the order of the differential was
+Diagnostic System and doctors against the condition on which
+deemed imperfect), “okay” if the list of conditions was
+the vignette was based. Recall is the proportion of relevant
+generally acceptable, and “poor” if it was unacceptable (such
+diseases that are included in the differential. When
+astheomissionofthemostimportantconditions,ortheinclusion
+considering only the single disease modeled by the vignette,
+of diseases completely unrelated to the presenting symptoms).
+this corresponds to the proportion of differentials that
+Thedifferentialswereshowninrandomorderandthejudgewas
+contained this disease, over all vignettes. Precision is the
+blinded to whether the differential had been produced by a
+proportion of the diseases in the differential that are relevant.
+human or the Babylon Triage and Diagnostic System.
+A precision of one hundred percent would be achieved if the
+Wefoundthattherewasconsiderabledisagreementbetween
+differentialdiagnosiscontainedonlythediseasemodeledbythe
+the medical practitioners’ subjective assessment of the
+vignette. In general this level of certainty is unlikely and even
+differentials (see Figure 3; Supplementary Tables S3–S5). For
+undesirable,givenonlytheinformationprovidedonthevignette
+Judge 1, the lists of diseases output by the Babylon Triage and
+(i.e.intheabsenceofdiagnostictests),butpenalizesoverlylong
+Diagnostic System were found to be of comparable quality to
+differentials that would result in a higher recall.
+those produced by doctors (83.0% rated “okay” or better,
+Inthisstudy,theBabylonTriageandDiagnosticSystemwas
+compared to 78.2–97.9%). The same was the case for one of
+able to produce differential diagnoses with precision and recall
+theGPs(Judge3),whowasgenerallyharsherontheevaluation
+comparabletothatofdoctors,andinsomecasesexceededhuman
+(53.0% rated “okay” or better, compared to 51.3–82.4%).
+level performance (Table 1). The average recall of doctors was
+However, another GP (Judge 2) rated the quality of
+differentials of the Babylon Triage and Diagnostic System
+3ThelistofconditionsmodeledbytheTriageandDiagnosticSystemincludesthe
+majorityofthoseencounteredinGeneralPracticeintheUnitedKingdom(where
+thestudywasconducted),butdoesnotincludeskinconditions,pregnancy-related 4Dr. Benjamin A. White from Harvard Medical School/Massachusetts General
+conditionsorpediatricconditions. Hospital,DepartmentofEmergencyMedicine.
+FrontiersinArtificialIntelligence|www.frontiersin.org 4 November2020|Volume3|Article543405
+Bakeretal. AIforTriageandDiagnosis
+TABLE1|DiagnosticperformanceforallsevendoctorsandtheBabylonTriageandDiagnosticSystem(BabylonAI).
+Averagerecall(%) Averageprecision(%) F1-score(%) Numberofvignettes
+(95%CI) (95%CI) (95%CI)
+DoctorA 80.9 42.9 56.1 47
+DoctorB 64.1 36.8 46.7 78
+DoctorC 93.8 53.5 68.1 48
+DoctorD 84.3 38.1 52.5 51
+DoctorE 90.0 33.9 49.2 70
+DoctorF 90.2 43.3 58.5 51
+DoctorG 84.3 56.5 67.7 51
+Doctoraverage 83.9 43.6 57.0 56.6
+— (75.6–92.3) (36.3–50.9) (49.7–64.2) —
+BabylonAI 80.0 44.4 57.1 100
+ThediagnosticperformanceoftheBabylonTriageandDiagnosticSystemiscomparabletothatofdoctorsintermsoftherecall,precision(positivepredictivevalue)andF1-score
+(harmonicmeanofprecisionandrecall)againstthediseasemodeledbytheclinicalvignette.
+FIGURE3|Percentageofdifferentialdiagnosesratedas“okay”or
+betterbythreejudgesfordoctorsandtheBabylonTriageand
+DiagnosticSystem(BabylonAI).Thereisconsiderabledisagreement
+betweenthethreeratings,suggestingthequalitativeassessment
+ofdifferentialdiagnosesmightbeinfluencedbypersonalpreference.
+FIGURE2|AveragerecallandprecisionfordoctorsandfortheBabylon
+TriageandDiagnosticSystem(BabylonAI)fordifferentthresholdparameters,
+showingtheoperatingpointtypicallyused(mode1)andanalternative
+operatingpoint(mode2)thatfavorshigherprecisionattheexpenseof
+reducedrecall.Varyingtheinternalthresholdsallowsthemodeltobehave
+moresimilarlytodifferentindividualdoctors,whilemaintainingahighlevelof
+performance,suggestingthatitisnotoverlytunedtoaparticular
+operatingpoint.
+lower than those of doctors (52.0% rated “okay” or better,
+compared to 76.9–93.8%).
+We considered that the disparity in the qualitative
+evaluation of differential diagnoses might be due to a
+difference in interpretation and that some medical
+practitioners might be less tolerant of disease lists that
+are long or contain less relevant diseases, even if the
+relevant conditions are included. We repeated the
+experiment with the Babylon Triage and Diagnostic
+FIGURE4|Percentageofdifferentialdiagnosesratedas“okay”or
+System tuned to provide higher precision at the expense
+betterbythreejudgesfordoctorsandtheBabylonTriageandDiagnostic
+of lower recall (Figure 2; mode 2). This mode resulted in a System(BabylonAI),wherethelatteristunedtoprovidehigherprecisionat
+markedimprovementintheratingsoftheGPs(Judges2and theexpenseofrecall(mode2).Thedifferentialsprovidedbythe
+3), which may suggest a preference for more concise BabylonTriageandDiagnosticSystemwereratedtobeofcomparable
+qualitytothoseofdoctors.
+differentials for these individuals (Figure 4).
+FrontiersinArtificialIntelligence|www.frontiersin.org 5 November2020|Volume3|Article543405
+Bakeretal. AIforTriageandDiagnosis
+TABLE2|Safetyandappropriatenessoftriagerecommendationsfordoctorsand The methodology described previously was repeated for 30
+theBabylonTriageandDiagnosticSystem(BabylonAI)againstarangeof vignettes from a previous study by (Semigran et al., 2015).
+acceptablerecommendationsprovidedbyanindependentjudge.
+Following the methodology of the original study, we excluded
+Safety Appropriateness Numberofvignettes vignettes that were based on conditions that fall outside of the
+(95%CI) (95%CI) scopeoftheBabylonTriageandDiagnosticSystem.Specifically,
+these included pediatric and dermatological conditions, and
+DoctorA 95.7 91.5 47
+DoctorB 89.7 89.7 78 tetanus which is not currently in the model yet based on its
+DoctorC 100.0 93.8 48 verylowincidencerateintheUnitedKingdom.Thesevignettes
+DoctorD 94.1 94.1 51 were tested against both the Babylon Triage and Diagnostic
+DoctorE 90.0 85.7 70
+System and three doctors. As per the original study, we report
+DoctorF 94.1 90.2 51
+therecalloftheconditionmodeledbythevignetteforthetopone
+DoctorG 88.2 88.2 51
+Doctoraverage 93.1 90.5 56.6 and top three conditions listed in the differential. The Babylon
+— (89.6–96.6) (87.9–93.0) — TriageandDiagnosticSystemidentifiedthemodeledconditionas
+BabylonAI 97.0 90.0 100 itstoponein21outof30vignettes(70.0%)andinitstopthreein
+TheBabylonTriageandDiagnosticSystemgivessafertriagerecommendationsthanthe
+29outof30vignettes(96.7%).Onaverage,doctorsidentifiedthe
+doctorsonaverage,attheexpenseofamarginallylowerappropriateness. modeledconditionintheirtoponein75.3%ofvignettesandin
+their top three in 90.3% of vignettes. This demonstrates a
+considerable improvement relative to other symptom checkers
+Assessment of Triage Safety and evaluated in the original study.
+Appropriateness
+In addition to rating the quality of doctors differential
+DISCUSSION
+diagnoses, the expert judge (Judge 1) was also asked to
+specify a range of safe and appropriate triage outcomes for
+Weperformedaprospectivevalidationstudyoftheaccuracyand
+each vignette. Providing a range of acceptable triage
+safetyofanAIpoweredTriageandDiagnosticSystem,usingan
+recommendations was motivated by the fact that doctors
+experimental paradigm designed to simulate realistic
+often disagree on the most appropriate triage
+consultations. Overall we found that the Babylon Triage and
+recommendation (Supplementary Figure S1), however it is
+DiagnosticSystemwasabletoidentifytheconditionmodeledby
+notnecessarilythecasethatanyofthesedifferentopinionsare
+inappropriateorunsafe(O’Cathainetal.,2003).Byproviding aclinicalvignettewithaccuracycomparabletohumandoctors(in
+terms of precision and recall). We also found that the triage
+the minimum and maximum appropriate triage, our judge
+advice recommended by the Babylon Triage and Diagnostic
+indicates the range of recommendations that are neither
+System was safer on average than human doctors, when
+unsafe nor overly cautious.
+compared to the ranges provided by independent expert
+Wecomparedthetriagerecommendationsofdoctorsandthe
+BabylonTriageandDiagnosticSystemagainstthejudge’s“gold judges, with only minimal reduction in appropriateness. In
+standard”range.Wedefinea“safe”triageasanyrecommendation other words, the AI system was able to safely triage patients
+whichwasofequalorgreaterurgencythanthejudge’sminimum without reverting to overly pessimistic fallback decisions.
+triage,andan“appropriate”triageasanyrecommendationthatfell Weadoptedatestprotocolusingsimulatedclinicalvignettes
+within the judge’s range of acceptable recommendations. In this whichallowedustoevaluateacombinationofcommonandrare
+conditions, the latter of which would be difficult to evaluate
+study, we found that the Babylon Triage and Diagnostic System
+withoutaclinicaltrialwithasamplesizelargeenoughtocontain
+providedasafertriagerecommendationthandoctorsonaverage
+diseaseswithlowincidencerates.Whilethismightbeconsidered
+(97.0% vs. 93.1%), at the expense of a marginally lower
+a strength of our study, since it is not biased toward common
+appropriateness(90.0%vs. 90.5%; see Table2).
+presentations, our results cannot be directly interpreted with
+Werepeatedthisprocesswiththreein-houseGPsandfound
+respect to real-world accuracy and safety. To illustrate the
+thetriagesafetyandappropriateness oftheBabylonTriageand
+differences that might be expected in a real-world study, we
+Diagnostic System relative to the doctors to be consistent with
+reweighted our results by the annual incidence of the modeled
+thoseofthejudge,althoughthescoresfromtheGPswerefound
+diseaseforeachvignette.Wefoundthattheaccuracyandrating
+to be lower for both the Babylon Triage and Diagnostic System
+of differentials produced by the Babylon Triage and Diagnostic
+and the doctors (Table 3).
+Systemimprovedcomparedtothoseofdoctorsafteraccounting
+for disease incidence (Supplementary Table S6 and
+Performance Against Publicly Available
+Supplementary Figure S2). Surprisingly, we found that the
+Case Vignettes accuracy and rating of some doctors decreased considerably
+Inordertoprovideabenchmarkagainstpreviouswork,aswellas after reweighting. This is likely due to the fact that the most
+to the diagnostic accuracy that is expected for human common conditions carry substantially more weight than the
+practitioners, we assessed the performance of the Babylon rarer ones; thus the results will be highly sensitive to a few
+Triage and Diagnostic System against the set of publicly vignettes (in particular, Doctor A did not include a modeled
+available case vignettes used in a previous study. disease in their differential for a vignette, where that modeled
+FrontiersinArtificialIntelligence|www.frontiersin.org 6 November2020|Volume3|Article543405
+Bakeretal. AIforTriageandDiagnosis
+TABLE3|SafetyandappropriatenessoftriagerecommendationsfordoctorsandtheBabylonTriageandDiagnosticSystem(BabylonAI)againstarangeofacceptable
+recommendationsprovidedbyGPs.
+GP-1 GP-2 GP-3
+Safety(%) Appr.(%) Safety(%) Appr.(%) Safety(%) Appr.(%)
+(95%CI) (95%CI) (95%CI)
+DoctorA 97.9 89.4 91.5 83.0 95.7 89.4
+DoctorB 79.5 75.6 60.3 59.0 75.6 74.4
+DoctorC 97.9 89.6 93.8 89.6 95.8 93.8
+DoctorD 80.4 76.5 64.7 62.8 86.3 84.3
+DoctorE 84.3 78.6 70.0 67.1 80.0 78.6
+DoctorF 92.2 86.3 74.5 68.6 92.2 84.3
+DoctorG 92.2 88.2 72.6 70.6 84.3 80.4
+Doctoraverage 89.2 83.5 75.3 71.5 87.1 83.6
+— (82.5–95.9) (78.1–88.8) (64.4–86.3) (62.1–80.9) (80.4–93.8) (78.0–89.2)
+BabylonAI 90.0 74.0 81.0 75.0 90.0 81.0
+TheAIpoweredSystemgivessafertriagerecommendationsthanthedoctorsonaverage,attheexpenseofaslightlylowerappropriateness.
+disease was very common and hence had high weight). Further diagnosis,andfutureworkwouldbenefitfromassessingtheinter-
+work will be required to more rigorously investigate the rater agreement between a larger sample of doctors. Further
+diagnostic accuracy in a real-world clinical setting. studies using real-world cohorts, for example within a health
+One source of bias in this study derives from the limitation clinic (Berry et al., 2019), will be required to demonstrate the
+imposedondoctorstoonlyselectdiseasesthataremodeledinthe relativeperformanceofthesesystemstohumandoctorsinmore
+BabylonTriageandDiagnosticSystem.Asthe“correct”disease realisticcontexts,wheretheabilitytocommunicatewithapatient
+foreachvignettewasalwaysfromthislist,thismayhaveprovided is an additional factor in the diagnostic process. Such studies
+human doctors with some advantage in terms of precision and should ideally assess both algorithm performance and user
+recall compared to free text entry. However, it would have also interaction and could follow a multistage process whereby
+constrained them from providing a fuller and more nuanced exposure to real-life clinical environments is gradually
+differential diagnosis overall, which may have disadvantaged increased from early observational studies through randomised
+them in terms of judge rating of overall differential quality. controlled trials to post-market surveillance during routine
+The intention in assigning this limitation as part of the testing operational use (Fraser et al., 2018). Such studies could be
+protocol was to ensure blinding when the judges assessed the informed by existing frameworks for evaluating digital health
+quality of the differential diagnosis. systems(Steadetal.,1994;Talmonetal.,2009;JutelandLupton,
+Anotherpossiblelimitationofourstudyisthatweevaluated 2015; Murray et al., 2016; Millenson et al., 2018).
+only clinical cases that were based on a single underlying Finally,weacknowledgetheneedforstandardizedevaluation
+condition (although we did include past medical history and protocols and datasets that allow for a robust and fair
+pre-existing conditions). In reality, patients may have multiple comparison of different symptom checkers. No agreed
+undiagnosed diseases. However, one of the strengths of our framework currently exists for assessing such AI systems as
+approach, which uses a Bayesian model, is that it is able to thereisfornewdrugsorsurgicalinterventions,whichpresents
+reasonaboutmultiplecausesofapatient’spresentingsymptoms. achallengeforregulatingbodies.However,weareencouraged
+It would be useful to test whether the performance relative to by the recent step taken by the World Health Organization
+doctors is different in cases where multiple diseases must be (WHO) and the International Telecommunication Union
+diagnosed. (ITU) in establishing a Focus Group on Artificial
+Thisstudyemphasizesthedifficultyinobjectivelyevaluating Intelligence for Health (FG-AI4H) with the aim of
+the accuracy of a differential diagnosis. Even when the true developing a benchmarking process for applications of AI-
+underlying condition is identified, the quality of the overall assisted healthcare technologies (Wiegand et al., 2019).
+differential may be poor due to the omission of important Through our active participation in this focus group we
+alternative explanations for a patient’s symptoms, or the hope to contribute toward developing an open and
+inclusion of irrelevant diseases. By evaluating differential transparent framework for evaluating symptom checkers
+diagnoses qualitatively using independent judges, we found that can build trust in this technology.
+that considerable disagreement exists in the subjective rating VirtualassistantsandmedicalAItechnologyingeneralhave
+by different individuals, including differential diagnoses of thepotentialtoreducecostsandimproveaccesstohealthcarein
+human doctors. This may be due to the fact that a judge’s resource-poor settings (Guo and Li, 2018). While such
+rating is itself based on personal assessment of the clinical technologies may hold the promise of narrowing the gap in
+case, which may be prone to error, or due to differences in healthcare access between high and low income countries,
+personal preference for longer or shorter differential diagnoses. great care must be taken to ensure that algorithms are fair and
+Ultimately,thereislikelynoadequate“goldstandard”differential generalize to different subsets of the population. In particular,
+FrontiersinArtificialIntelligence|www.frontiersin.org 7 November2020|Volume3|Article543405
+Bakeretal. AIforTriageandDiagnosis
+lackofdiversityinmedicaldatasetshasthepotentialtoresultin AUTHOR CONTRIBUTIONS
+biased algorithms which could widen healthcare inequality
+(Nordling, 2019). An advantage of Bayesian generative models AB,YP,KM,andSJcontributedtotheconceptionanddesignofthe
+suchastheoneusedinthisstudyisthatitislesssusceptibletosuch study and drafted the manuscript. AB, YP, and SJ contributed to
+biases by incorporating robust epidemiological data for different analysisandinterpretationofexperimentaldata.KM,JB,DMandDS
+regionsratherthanrelyingsolelyondatasetswhichmaybebiased conductedtheexperimentsandacquireddata.Allauthorscontributed
+toward a particular population. A further benefit of using a tomanuscriptrevisionandapprovedthesubmittedversion.
+Bayesian network is that the model is interpretable, since the
+causal structure of the model allows cause and effect within the
+system to be observed and understood. This in turn makes the ACKNOWLEDGMENTS
+systemexplainable,whichallowstriagedecisionsfromthemodel
+tobeexplainedtotheuserintermsofthediseasesandsymptoms Independent medical practitioners helped us create the testing
+that gave rise to the recommendation. This allows the patient to vignettes used in the role-play experiment. They were: Megan
+make a more informed decision about whether to adhere to the Mahoney from Stanford University, Benjamin A. White from
+advice ofthe system. Thispropertyalso enablesthe model tobe Harvard Medical School/Massachusetts General Hospital,
+internally audited, to understand why particular inferences were Department of Emergency Medicine. The authors would like to
+madeandwhereimprovementstothemodelneedtobetargeted. thankBenjaminA.White,HannahAllen,MariekeReddingiusfor
+theirhelpratingthedifferentialsandtriage.Wewouldalsoliketo
+thank Nathalie Bradley-Schmieg and Lucy Kay for their help
+DATA AVAILABILITY STATEMENT during preparation of the manuscript. Some sections of this
+manuscripthavebeenreleasedasapre-printathttps://arxiv.
+Thevignettesusedfortheroleplayexperimentmaybefoundin org/pdf/1806.10698.pdf (Razzaki et al., 2018).
+the Supplementary Material.
+SUPPLEMENTARY MATERIAL
+ETHICS STATEMENT
+Ethical review and approval was not required for the study on TheSupplementaryMaterialforthisarticlecanbefoundonline
+humanparticipantsinaccordance withthelocallegislationand at:https://www.frontiersin.org/articles/10.3389/frai.2020.543405/
+institutional requirements. full#supplementary-material
+REFERENCES Jutel,A.,andLupton,D.(2015).Digitizingdiagnosis:areviewofmobileapplications
+inthediagnosticprocess.Diagnosis2,89–96.doi:10.1515/dx-2014-0068
+Koller,D.,andFriedman,N.(2009).Probabilisticgraphicalmodels:principlesand
+Berry,A.C.,Berry,N.A.,Wang,B.,Mulekar,M.S.,Melvin,A.,Battiola,R.J., techniques.Cambridge,MA:MITpress,1270.
+etal.(2020).Symptomcheckersversusdoctors:aprospective,head-to- Meyer, A. N. D., Payne, V. L., Meeks, D. W., Rao, R., and Singh, H. (2013).
+head comparison for cough. Clin. Res. J 14, 413–415. doi:10.1111/crj. Physicians’ diagnostic accuracy, confidence, and resource requests. JAMA
+13135 InternMed173,1952–1958.doi:10.1001/jamainternmed.2013.10081
+Bulacan, T. (2019). Gp at hand: a digital revolution for health care provision? Middleton, K.,Butt, M.,Hammerla,N.,Hamblin,S.,Mehta,K.,andParsa,A.
+Lancet394,457–460.doi:10.1016/s0140-6736(19)31802-1 (2016).Sortingoutsymptoms:designandevaluationofthe’babyloncheck’
+Chambers,D.,Cantrell,A.J.,Johnson,M.,Preston,L.,Baxter,S.K.,Booth,A.,etal. automatedtriagesystem.Availableat:https://arxiv.org/abs/1606.02041.
+(2019). Digital and online symptom checkers and health assessment/triage Millenson,M.L.,Baldwin,J.,Zipperer,L.,andSingh,H.(2018).Beyonddr.google:
+servicesforurgenthealthproblems:systematicreview.BMJOpen9,e027743. the evidence on consumer-facing digital tools for diagnosis. Diagnosis 5,
+doi:10.1136/bmjopen-2018-027743 105–195.doi:10.1515/dx-2018-0009
+Cheng,J.,andDruzdzel,M.J.(2000).AIS-BN:anadaptiveimportancesampling Murray,E.,Hekler,E.B.,Andersson,G.,Collins,L.M.,Doherty,A.,Hollis,C.,etal.
+algorithmforevidentialreasoninginlargeBayesiannetworks.J.Artif.Intell. (2016).Evaluatingdigitalhealthinterventions:keyquestionsandapproaches.
+Res.13,10264.doi:10.1613/jair.764 Am.J.Prev.Med.51,843–851.doi:10.1016/j.amepre.2016.06.008
+Douglas,L.,Zarov,I.,Gourgoulias,K.,Lucas,C.,Hart,C.,Baker,A.,etal.(2017).A Nordling, L. (2019). A fairer way forward for AI in health care. Nature 573,
+universalmarginalizerforamortizedinferenceingenerativemodels.Available S103–S105.doi:10.1038/d41586-019-02872-2
+at:https://arxiv.org/abs/1711.00695. O’Cathain,A.,Webber,E.,Nicholl,J.,Munro,J.,andKnowles,E.(2003).NHS
+Fraser,H.,Coiera,E.,andWong,D.(2018).Safetyofpatient-facingdigitalsymptom direct:consistencyoftriageoutcomes.Emerg.Med.J.20,289–292.doi:10.1136/
+checkers.Lancet392,2263–2264.doi:10.1016/s0140-6736(18)32819-8 emj.20.3.289
+Graber,M.L.(2013).Theincidenceofdiagnosticerrorinmedicine.BMJQual.Saf. Razzaki,S.,Baker,A.,Perov,Y.,Middleton,K.,Baxter,J.,Mullarkey,D.,etal.
+22,ii21–ii27.doi:10.1136/bmjqs-2012-001615 (2018).Acomparativestudyofartificialintelligenceandhumandoctorsfor
+Gu, S., Ghahramani, Z., and Turner, R. E. (2015). Neural adaptive sequential the purpose of triage and diagnosis. Available at: https://arxiv.org/abs/
+MonteCarlo.Adv.NeuralInf.Process.Syst.28,2611–2617. 1806.10698.
+Guo, J., and Li, B. (2018). The application of medical artificial intelligence Rowland,S.P.,Fitzgerald,J.E.,Holme,T.,Powell,J.,andMcGregor,A.(2020).
+technologyinruralareasofdevelopingcountries.Healthequity2,174–181. WhatistheclinicalvalueofmHealthforpatients?npjDigit.Med.3,4.doi:10.
+doi:10.1089/heq.2018.0037 1038/s41746-019-0206-x
+Heckerman,D.(1990).Atractableinferencealgorithmfordiagnosingmultiple Semigran,H.L.,Levine,D.M.,Nundy,S.,andMehrotra,A.(2016).Comparisonof
+diseases.Mach.Intell.Patt.Recog.10,163–171.doi:10.1016/B978-0-444-88738- physician and computer diagnostic accuracy. JAMA Intern Med 176,
+2.50020-8 1860–1861.doi:10.1001/jamainternmed.2016.6001
+FrontiersinArtificialIntelligence|www.frontiersin.org 8 November2020|Volume3|Article543405
+Bakeretal. AIforTriageandDiagnosis
+Semigran,H.L.,Linder,J.A.,Gidengil,C.,andMehrotra,A.(2015).Evaluationof artificial intelligence in health. Lancet 394, 9–11. doi:10.1016/s0140-
+symptomcheckersforselfdiagnosisandtriage:auditstudy.BMJ351,h3480. 6736(19)30762-7
+doi:10.1136/bmj.h3480 Yu,S.W.Y.,Ma,A.,Tsang,V.H.M.,Chung,L.S.W.,Leung,S.-C.,andLeung,L.-
+Stead,W.W.,Haynes,R.B.,Fuller,S.,Friedman,C.P.,Travis,L.E.,Beck,J.R.,etal. P. (2019). Triage accuracy of online symptom checkers for accident and
+(1994).Designingmedicalinformaticsresearchandlibrary--resourceprojects emergencydepartmentpatients. Hong KongJ.Emerg.Med.27,217.doi:10.
+toincreasewhatislearned.J.Am.Med.Inf.Assoc.1,28–33.doi:10.1136/jamia. 1177/1024907919842486
+1994.95236134
+Talmon,J.,Ammenwerth,E.,Brender,J.,Dekeizer,N.,Nykänen,P.,andRigby,M.
+(2009). STARE-HI-Statement on reporting of evaluation studies in Health
+ConflictofInterest:AB,YP,KM,JB,DM,DS,MBandSJarecurrentorformer
+Informatics.Int.J.Med.Inf.78,1–9.doi:10.1016/j.ijmedinf.2008.09.002 employeesofBabylonHealth.
+VanVeen,T.,Binz,S.,Muminovic,M.,Chaudhry,K.,Rose,K.,Calo,S.,etal.
+(2019).Potentialofmobilehealthtechnologytoreducehealthdisparitiesin Theremainingauthorsdeclarethattheresearchwasconductedintheabsenceof
+underservedcommunities.West.J.Emerg.Med.20,799.doi:10.5811/westjem. anycommercialorfinancialrelationshipsthatcouldbeconstruedasapotential
+2019.6.41911 conflictofinterest.
+Wahl, B., Cossy-Gantner, A., Germann, S., and Schwalbe, N. R. (2018).
+Artificial intelligence (AI) and global health: how can ai contribute to Copyright © 2020 Baker, Perov, Middleton, Baxter, Mullarkey, Sangar, Butt,
+healthinresource-poorsettings?BMJGlobHealth3,e000798.doi:10.1136/ DoRosario and Johri. This is an open-access article distributed under the terms
+bmjgh-2018-000798 oftheCreative CommonsAttributionLicense(CCBY).Theuse,distributionor
+Wainwright,M.J.,andJordan,M.I.(2008).Graphicalmodels,exponentialfamilies,and reproductioninotherforumsispermitted,providedtheoriginalauthor(s)andthe
+variationalinference.Found.TrendsMach.Learn.1,1–305.doi:10.1561/2200000001 copyrightowner(s)arecreditedandthattheoriginalpublicationinthisjournalis
+Wiegand,T.,Krishnamurthy,R.,Kuglitsch,M.,Lee,N.,Pujari,S.,Salathé, cited, in accordance with accepted academic practice. No use, distribution or
+M., et al. (2019). Who and itu establish benchmarking process for reproductionispermittedwhichdoesnotcomplywiththeseterms.
+FrontiersinArtificialIntelligence|www.frontiersin.org 9 November2020|Volume3|Article543405

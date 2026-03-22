@@ -1,0 +1,60 @@
+Obesity Surgery (2023) 33:2597
+https://doi.org/10.1007/s11695-023-06688-y
+LETTER TO EDITOR/LED REPLY
+Ensuring Ethical and Responsible Integration of AI Tools in Healthcare
+Jamil S. Samaan1 · Yee Hui Yeo1 · Nithya Rajeev2 · Wee Han Ng3 · Nitin Srinivasan2 · Kamran Samakar2
+Received: 9 June 2023 / Revised: 9 June 2023 / Accepted: 16 June 2023 / Published online: 24 June 2023
+© The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2023
+We read with great interest the letter by Amnuay Klee- fairness, accountability, transparency, and privacy, are indeed
+bayoon and Viroj Wiwanitkit [1]. Thank you for facilitating critical areas to be addressed. We strongly support initiatives
+this dialogue in light of our recent study, “Assessing the that promote the responsible use of AI and the creation of com-
+Accuracy of Responses by the Language Model ChatGPT to prehensive guidelines for its deployment in various sectors.
+Questions Regarding Bariatric Surgery” [2]. We agree that It is our hope that this research can further conversations
+considerations regarding the application and ethical use of about how to responsibly integrate AI technologies into
+AI tools such as ChatGPT are essential in order to safely and healthcare and beyond, always prioritizing patient safety,
+effectively utilize this technology in healthcare. data security, and the highest standard of care.
+Our study evaluated the performance of ChatGPT in a par-
+ticular context, specifically its ability to provide accurate and
+Acknowledgements The authors used ChatGPT when drafting this
+consistent responses to common patient inquiries related to
+response.
+bariatric surgery. It is important to clarify that our study does
+not advocate for ChatGPT or similar AI models to autono- Data Availability No data was analyzed or presented in this manuscript.
+mously produce, evaluate, or accept primary content without
+Declarations
+human oversight. Rather, we consider AI as a tool to aug-
+ment the capabilities of healthcare professionals, potentially
+Ethical Approval This article does not contain any studies with human
+enhancing patient education and engagement while always
+participants or animals performed by any of the authors.
+deferring to human expertise for critical decision-making.
+Regarding ChatGPT’s architecture, we feel that such Informed Consent Informed consent does not apply.
+technical discussions are beyond the scope of our study,
+which focused primarily on the current state of the model’s Conflict of Interest The authors declare no competing interests.
+accuracy in a specific context. However, we acknowledge
+that AI is a rapidly evolving field, and periodic updates to
+References
+the underlying technology and architecture are inherent and
+necessary for its advancement.
+1. Kleebayoon A, Wiwanitkit V. Accuracy of responses by the lan-
+We appreciate the authors call for an updated code of con-
+guage model ChatGPT and bariatric surgery: comment. Obes
+duct when using ChatGPT in various contexts, including prac-
+Surg. 2023. https://d oi.o rg/1 0.1 007/s 11695-0 23-0 6687-z.
+tice, teaching, and research. AI ethics, including issues such as 2. Samaan JS, Yeo YH, Rajeev N, et al. Assessing the accuracy of
+responses by the language model ChatGPT to questions regarding
+bariatric surgery. Obes Surg. Published online April 27, 2023.
+* https://d oi.o rg/1 0.1 007/s 11695-0 23-0 6603-5.
+Jamil S. Samaan
+jamil.samaan@gmail.com
+Publisher's Note Springer Nature remains neutral with regard to
+1 Karsh Division of Gastroenterology and Hepatology, Cedars- jurisdictional claims in published maps and institutional affiliations.
+Sinai Medical Center, 8700 Beverly Blvd, Los Angeles,
+CA 90048, USA
+2 Division of Upper GI and General Surgery, Department
+of Surgery, Keck School of Medicine of USC, Health Care
+Consultation Center, 1510 San Pablo St #514, Los Angeles,
+CA 90033, USA
+3 Bristol Medical School, University of Bristol, 5 Tyndall Ave,
+Bristol BS8 1UD, UK
+Vol.:(0112 33456789)

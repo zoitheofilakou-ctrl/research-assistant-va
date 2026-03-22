@@ -1,0 +1,210 @@
+IJARSCT ISSN (Online) 2581-9429
+International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)
+International Open-Access, Double-Blind, Peer-Reviewed, Refereed, Multidisciplinary Online Journal
+Impact Factor: 7.301 Volume 3, Issue 8, April 2023
+Robot for the Treatment of Communicable
+Diseased Patients using AI & ML
+Prof Indira1, Prof Malatesh Kamatar2, Mr. Prajwal S Hiremath3, Mr. Syed Suban4,
+Ms. Kaivalya Rao5, Mr. Mohammed Aftab6
+Associate Professor, Department of Computer Science and Engineering1,2
+Students, Department of Computer Science and Engineering3,4,5,6
+Proudhadevaraya Institute of Technology, Hospet, Karnataka, India
+Abstract: In recent years there has been significant research in the development of medical assistance
+autonomous robots these robots have the potential to revolutionize healthcare by improving efficiency
+reducing workload and improving patient outcomes one common theme in this research has been the desire
+for medical professionals to control their assistant robots remotely through the internet many advanced
+healthcare technologies have been developed such as smart healthcare systems digital thermometers non-
+contact infrared thermometers pulse oximeters heartbeat monitoring devices and iot devices for heart
+problem detection in addition temperature humidity measurement systems have been developed to monitor
+environmental conditions in healthcare facilities our work focuses on utilizing robotics to provide unique
+prescription medication care in the digital healthcare sector we have explored various methods of
+controlling these robots including pathfinding autonomous movement and obstacle avoidance additionally
+some research has focused on user end manual control through android apps however the development and
+implementation of medical assistant robots also raise important ethical legal and social implications
+patient privacy and data security must be protected and there must be regulations in place to ensure the
+safe and responsible use of these technologies.
+Keywords: Digital Thermometers, Data security, Iot Devices.
+I. INTRODUCTION
+According to the WHO member status report, there is a shortage of doctors, with less than one doctor per thousand
+people worldwide. This shortage is particularly noticeable during emergencies such as the current coronavirus
+pandemic. As a result, medical professionals such as doctors, nurses, and medical assistants are at increased risk of
+contracting the virus themselves and spreading it to their families. In addition, poverty is a significant issue in
+developing countries, where more people require medical attention and healthcare spending is high. A possible solution
+to these problems could be the use of robots to collect initial patient information such as body temperature, heart rate,
+oxygen saturation levels, and ECG readings, reducing the need for direct contact with medical staff. This could also
+help with tasks such as administering medication and conducting regular check-ups. As we sort out this research and
+summarize this, we have concluded that a complete solution can only be achieved by combining these three points.
+Those are: (i) Mobility- Movement and Transportation characteristic from one location to another; (ii) Physiological
+monitoring- to evaluate the physiological conditions of patients and monitor their health status remotely; (iii)
+Assistance with daily activities- help in carrying out activities related to self-care. One task that is crucial is ensuring
+that the elderly receive their medication on time. To help with this, an automatic medicine dispenser has been designed
+specifically for those who need to take medication without close supervision. This dispenser eliminates the possibility
+of administering the wrong medicine at the wrong time, thus reducing errors. The dispenser comprises various
+components, including a microcontroller, alphanumeric keypad, LED display, Motor Controller, Alarm system,
+multiple pill container, and dispenser.
+Copyright to IJARSCT DOI: 10.48175/IJARSCT-9604 477
+www.ijarsct.co.in
+IJARSCT ISSN (Online) 2581-9429
+International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)
+International Open-Access, Double-Blind, Peer-Reviewed, Refereed, Multidisciplinary Online Journal
+Impact Factor: 7.301 Volume 3, Issue 8, April 2023
+II. LITERATURE SURVEY
+A literature survey on nurse robots reveals that there is significant research being conducted in this field. Nursing robots
+are designed to provide care and assistance to patients in a variety of healthcare settings. They are being developed to
+help alleviate the workload of healthcare professionals, improve patient outcomes, and reduce healthcare costs. Here are
+some of the key findings from the literature survey: Types of nurse robots: Nurse robots can be categorized into several
+types, including telepresence robots, social robots, and assistive robots. Telepresence robots are designed to provide
+remote care and enable healthcare professionals to interact with patients from a distance. Social robots are designed to
+interact with patients in a more natural and social way, using gestures, facial expressions, and speech. Assistive robots
+are designed to perform physical tasks, such as lifting and transferring patients.
+Benefits of nurse robots: The literature suggests that nurse robots can provide several benefits to patients and healthcare
+professionals. They can improve patient outcomes by providing continuous monitoring and timely interventions. They
+can also reduce the workload of healthcare professionals, enabling them to focus on more complex tasks. Nursing
+robots can also help to reduce healthcare costs by reducing the need for human resources and improving efficiency.
+Challenges of nurse robots: Despite the potential benefits, nurse robots also face several challenges. One of the main
+challenges is ensuring that they are safe and reliable, especially in critical care settings. There are also ethical
+considerations to be considered, such as privacy and confidentiality. Additionally, there is a need to ensure that nurse
+robots are user-friendly and acceptable to patients and healthcare professionals. Current state of research: The literature
+suggests that there is a significant amount of research being conducted in the field of nursing robots. There are several
+ongoing projects that are focused on developing nurse robots for various healthcare settings. These projects are
+exploring different types of nurse robots, as well as their potential benefits and challenges.
+Future directions: The literature suggests that the development of nurse robots is likely to continue in the future, as
+healthcare systems seek to improve patient outcomes and reduce healthcare costs. Future research is likely to focus on
+developing more advanced nurse robots that are capable of performing a wider range of tasks, as well as improving
+their safety and reliability.
+In conclusion, nurse robots are an area of significant research interest, with the potential to provide several benefits to
+patients and healthcare professionals. While there are several challenges to be addressed, the development of nurse
+robots is likely to continue in the future, with a focus on developing more advanced and user-friendly robots.
+III. METHODOLOGY
+Nursing robots are an emerging technology that aims to enhance the quality of care for patients and reduce the
+workload of healthcare professionals. These robots can perform a variety of tasks, such as monitoring vital signs,
+administering medication, and assisting with mobility. They can also provide emotional support and companionship to
+patients.
+Animal Detection
+One of the key features of nursing robots is their ability to interact with patients in a human-like manner. Some robots
+are equipped with artificial intelligence and natural language processing capabilities that enable them to understand and
+respond to verbal and nonverbal cues from patients. They can also use facial recognition technology to identify patients
+and personalize their interactions.
+Objective.
+The goal of this project is to design a robot that can perform various human tasks, including the important task of
+dispensing medication. This is especially important for elderly individuals who may need medication but do not have
+constant supervision from healthcare professionals.
+To accomplish this task, we have designed an automatic medication dispenser that is user-friendly and reliable. The
+dispenser includes a microcontroller that is connected to an alphanumeric keypad, LED display, motor controller, alarm
+system, and multiple pill containers.
+Copyright to IJARSCT DOI: 10.48175/IJARSCT-9604 478
+www.ijarsct.co.in
+IJARSCT ISSN (Online) 2581-9429
+International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)
+International Open-Access, Double-Blind, Peer-Reviewed, Refereed, Multidisciplinary Online Journal
+Impact Factor: 7.301 Volume 3, Issue 8, April 2023
+Methodology
+Our methodology involves pairing high-tech advancements with an easy-to-use dispenser that can be loaded with the
+patient's medication. The dispenser will dispense each dose according to a preset schedule, with an audio reminder to
+notify the patient when it's time to take their pills. The system can accommodate up to three separate medication times
+each day, depending on the patient's needs.
+By designing this robot with a medication dispenser, we aim to provide a reliable and efficient solution for patients who
+need to take medication regularly. We hope to make the process of taking medication less daunting and error-prone,
+ensuring that patients receive their medication on time and in the correct dosage.
+IV. BLOCK DIAGRAM
+4.1 Proposed Block Diagram for Virtual Doctor Robot
+Our team has designed a virtual doctor robot with the aim of making healthcare more accessible and convenient for
+patients who may face difficulty in physically visiting their doctor's office.
+To achieve this, we equipped the robot with a 4-wheel drive system to ensure easy navigation, as well as an arm for
+lifting a tray and a controller box for circuitry. We also added a mounting to hold a mobile phone or tablet, which
+patients can use to have live video calls with their doctor.
+To control the robot, doctors can use an IoT-based panel to send commands online, which are then received by the
+robot controller over Wi-Fi internet. This allows for real-time movement commands to be executed by the robot's
+motors.
+We wanted to ensure that the robot is always ready for use, so we added a battery status alert system. This reminds
+users to charge the battery on time, ensuring that the robot is always available to provide care.
+Our aim was to create a virtual doctor robot that not only improves accessibility to healthcare but also enhances the
+overall patient experience. With its features, the robot can provide remote healthcare services to those in need,
+ultimately making healthcare more convenient, affordable, and accessible for everyone.
+Copyright to IJARSCT DOI: 10.48175/IJARSCT-9604 479
+www.ijarsct.co.in
+IJARSCT ISSN (Online) 2581-9429
+International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)
+International Open-Access, Double-Blind, Peer-Reviewed, Refereed, Multidisciplinary Online Journal
+Impact Factor: 7.301 Volume 3, Issue 8, April 2023
+Raspberian OS
+When it comes to the Raspberry Pi's operating system, some people might find it like the Mac but with a desktop
+interface that's more reminiscent of Windows. While it may take a bit of getting used to, using Raspbian is pretty much
+like using Windows (except for Windows 8, which is a whole different story!). One thing that's great about Raspbian is
+that it has all the familiar features you'd expect from a desktop environment. There's a menu bar, web browser, file
+manager, and plenty of desktop shortcuts for the pre- installed applications. In fact, Raspbian is an unofficial port of
+Debian Wheezy arm, with compilation settings optimized to produce "hard float" code that runs smoothly on the
+Raspberry Pi. This means that applications that heavily rely on floating-point arithmetic operations will perform much
+faster, and all other applications will run more efficiently thanks to the advanced instructions of the ARMv6 CPU in the
+Raspberry Pi.
+While Mike Thompson (MP Thompson) and Peter Green (plug wash) are primarily responsible for Rasp Bian’s
+development, the Raspberry Pi community has played a huge role in its success as well. The community is always
+finding new ways to maximize the performance of their devices, and their passion and enthusiasm have greatly
+contributed to the continued development and improvement of Raspbian.
+LCD MODULE
+To connect the LCD module to the Arduino, we use a simple method that requires fewer connections and allows us to
+utilize almost the full potential of the LCD module. The RS pin of the LCD module is connected to digital pin 12 of the
+Arduino, while the R/W pin of the LCD is grounded. The Enable pin of the LCD module is connected to digital pin 11
+of the Arduino.
+To interface the digital lines DB4, DB5, DB6, and DB7 with the Arduino, we connect them to digital pins 5, 4, 3, and 2
+respectively. Additionally, we use a 10K potentiometer to adjust the contrast of the display.
+To power the Arduino, we can use the external power jack provided on the board. Alternatively, we can tap into the 5V
+source on the Arduino board to power any other parts of the circuit that require +5V. The Arduino can also be powered
+via the USB port on a PC. Overall, this method is quite simple and allows for easy connectivity between the LCD
+module and the Arduino, making it a great option for various projects.
+V. CONCLUSION
+In this project, mainly focused on designing and developing of medical assistant robot "Virtual doctor robot" as primary
+patient monitoring and patient caring assistance with daily activities. For user friendly the robot is designed with the
+manual and autonomous control system. Doctors from anywhere in the world will be able to show the all patient data
+without touching the patient through the IoT system and make communicate video calls with the patient. This type of
+robots will go a long way in alleviating the lack of adequate doctors in medical services around the world. Anyone who
+Copyright to IJARSCT DOI: 10.48175/IJARSCT-9604 480
+www.ijarsct.co.in
+IJARSCT ISSN (Online) 2581-9429
+International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)
+International Open-Access, Double-Blind, Peer-Reviewed, Refereed, Multidisciplinary Online Journal
+Impact Factor: 7.301 Volume 3, Issue 8, April 2023
+knows primary operating can also use virtual doctor robot as a medical assistant in his family. Machine learning and AI
+system will be carried through in the future
+REFERENCES
+[1]. KavitaSatale, TanmayiBhave, ChiragChandak, Prof. S. A. Patil, “Nursing Robot”, International Research
+Journal of Engineering and Technology (IRJET), Vol. 105, No. 5, pp. 352-362, 2020.
+[2]. Miran Lee, KoAmeyama, HirotakeYamazoe and Joo Ho Lee, “Necessity and feasibility of care training
+assistant robot (CaTARo) as shoulder complex joint with multi-DOF in elderly care education”, Lee et al.
+Robomech J, Vol. 152 pp. 1739-1744, 2020.
+[3]. Xi Vincent Wang, Lihui Wang, “A literature survey of the robotic technologies during the COVID- 19
+pandemic”, Journal of Manufacturing Systems, Vol. 31, No. 25, pp. 2772-2777, 2021.
+[4]. ShuoTian, Wenbo Yang, Jehane Michael Le Grange, Peng Wang, Wei Huang, Zhewei Ye, “Smart healthcare:
+making medical care more intelligent”, Global Health Journal, Vol. 41, pp. 237-240, 2019.
+[5]. Erwin Loh, “Medicine and the rise of the robots: a qualitative review of recent advances of artificial
+intelligence in health”, Vol. 5, No. 3, pp. 205-226, 2018.
+[6]. Leo Louis, “WORKING PRINCIPLE OF ARDUINO AND USING IT AS A TOOL FOR STUDY
+[7]. AND RESEARCH”, International Journal of Control, Automation, Communication and Systems (IJCACS),
+Vol. 1, p. 5. 2016.
+[8]. Krishna Chaitanya, “Robotic nursing aid”, National Science Foundation (NSF), Vol. 49, pp. 1-6, 2021.
+[9]. Amit Kumar Pandey H, RodolpheGelin, “A Mass-Produced Sociable Humanoid Robot: Pepper: The First
+Machine of Its Kind”, IEEE Robotics & Automation, Vol. 30, No. 1, pp. 35-37, 2018.
+[10]. Meir Nitzan, AyalRomem, Robert Koppel, “Pulse oximetry: fundamentals and technology update”, Medical
+Devices: Evidence and Research, Vol. 95, pp. 160-180, 2014.
+[11]. Maria Kyrarini, FotiosLygerakis, AkileshRajavenkatanarayanan, Christos Sevastopoulos, Harish Ram
+Nambiappan , Kodur Krishna Chaitanya, Ashwin Ramesh Babu, Joanne Mathew and FilliaMakedon, “A
+Survey of Robots in Healthcare”, Technologies, Vol. 60, No. 6, pp. 901-911, 2021.
+[12]. A.I.Alexan, A.R.Osan, S.Oniga, “Personal assistant robot”, Techical University of ClujNapoca, North
+University Center of Baia Mare Baia Mare, Romania, Vol. 153, 2015.
+[13]. YANG SHEN, (Member, IEEE), DEJUN GUO, (Member, IEEE), FEI LONG, LUIS A. MATEOS,
+(Member, IEEE), HOUZHU DING, (Member, IEEE), ZHEN XIU, RANDALL B. HELLMAN, (Member,
+IEEE), ADAM KING, SHIXUN CHEN, CHENGKUN ZHANG, (Member, IEEE), AND
+[14]. HUAN TAN, (Senior Member, IEEE), “Robots Under COVID-19 Pandemic: A Comprehensive Survey”,
+IEEE Access, Vol. 44, No. 3, pp. 253-258, 2021.
+[15]. Rachel M. Frazier, Lin Wu, “Robotics in Nursing: A Bibliometric Analysis”, Journal of Nursing Scholarship,
+Vol. 42, No. 3-4, pp. 271-281, 2018.
+[16]. MarcinZukowski, Krzysztof Matus, DawidKamienski, “Humanoid medical assistant and companion robot for
+patients”, AIP Conference Proceedings, Vol. 48, No. 24, pp. 128-133, 2018.
+[17]. Dr.HaiderKadhimHoomod, SadeemMarouf M. Al-Chalabi, “Objects Detection and Angles Effectiveness by
+Ultrasonic Sensors HC-SR04”, International Journal of Science and Research (IJSR), ace of robots:
+Children's perspectives, Interacting with Computers, Vol. 18, No. 6, pp. 1390-1418, 2015.
+[18]. R.V. Nanditta, AtthreyaVenkatesan, Rohit R.1, R. Gowtham, Nagulash Rahul B, Nirab Kumar Das, J Daniel
+Glad Stephen, “Autonomous Obstacle Avoidance Robot using IR Sensors Programmed in Arduino UNO”,
+International Journal of Engineering Research in Electronics and Communication
+Copyright to IJARSCT DOI: 10.48175/IJARSCT-9604 481
+www.ijarsct.co.in

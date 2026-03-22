@@ -1,0 +1,1750 @@
+JMIR Preprints Dingel et al
+Predictors of Healthcare Practitioners' Intention to
+Use AI-Enabled Clinical Decision Support Systems (AI-
+CDSSs): A Meta-Analysis Based on the Unified Theory
+of Acceptance and Use of Technology (UTAUT)
+Julius Dingel, Anne-Kathrin Kleine, Julia Cecil, Anna Sigl, Eva Lermer, Susanne
+Gaube
+Submitted to: Journal of Medical Internet Research
+on: February 15, 2024
+Disclaimer: © The authors. All rights reserved. This is a privileged document currently under peer-review/community
+review. Authors have provided JMIR Publications with an exclusive license to publish this preprint on it's website for
+review purposes only. While the final peer-reviewed paper may be licensed under a CC BY license on publication, at this
+stage authors and publisher expressively prohibit redistribution of this draft paper other than for review purposes.
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Table of Contents
+Original Manuscript. ...................................................................................................................................................................... 5
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Predictors of Healthcare Practitioners' Intention to Use AI-Enabled Clinical
+Decision Support Systems (AI-CDSSs): A Meta-Analysis Based on the
+Unified Theory of Acceptance and Use of Technology (UTAUT)
+Julius Dingel1*; Anne-Kathrin Kleine1*; Julia Cecil1; Anna Sigl2; Eva Lermer1, 2; Susanne Gaube3
+1LMU Munich Munich DE
+2Technical University of Applied Sciences Augsburg Augsburg DE
+3University College London London GB
+*these authors contributed equally
+Corresponding Author:
+Anne-Kathrin Kleine
+LMU Munich
+Geschwister-Scholl-Platz 1
+Munich
+DE
+Abstract
+Background: Artificial Intelligence-enabled Clinical Decision Support Systems (AI-CDSSs) offer potential for improving
+healthcare outcomes, but their adoption among healthcare practitioners remains limited.
+Objective: The meta-analysis identifies predictors influencing healthcare practitioners' intention to use AI-CDSSs based on the
+Unified Theory of Acceptance and Use of Technology (UTAUT) and additional literature.
+Methods: The literature search using electronic databases, forward searches, conference programs, and personal correspondence
+yielded 7,731 results, of which 17 studies met the inclusion criteria. Random-effects meta-analysis, relative weights analyses,
+and meta-analytic moderation and mediation analyses were used to examine the relationships of relevant predictor variables with
+the intention to use AI-CDSSs.
+Results: The meta-analysis results supported the application of the UTAUT to the context of the intention to use AI-CDSSs. The
+results show that performance expectancy (rc = .66), effort expectancy (rc = .55), social influence (rc = .66), and facilitating
+conditions (rc = .66) were positively associated with the intention to use AI-CDSSs, in line with the predictions of the UTAUT.
+The meta-analysis further identified positive attitude (rc = .63), trust (rc = .73), anxiety (rc = -.41), perceived risk (rc = -.21), and
+innovativeness (rc = .54) as relevant additional predictors. Trust emerged as the most influential predictor overall. The results of
+moderation analyses show that the relationship between social influence and use intention becomes weaker with increasing age.
+In addition, the relationship between effort expectancy and use intention was stronger for diagnostic AI-CDSSs compared to
+devices that combined diagnostic and treatment recommendations. Finally, the relationships between facilitating conditions and
+use intention was mediated through performance and effort expectancy.
+Conclusions: The meta-analysis contributes to the understanding of the predictors of the intention to use AI-CDSSs based on an
+extended UTAUT model. More research is needed to substantiate the identified relationships and to explain the observed
+variations in effect sizes by identifying relevant moderating factors. The research findings bear important implications for the
+design and implementation of training programs for healthcare practitioners to ease the adoption of AI-CDSSs into their practice.
+Clinical Trial: https://osf.io/b4j3t
+(JMIR Preprints 15/02/2024:57224)
+DOI: https://doi.org/10.2196/preprints.57224
+Preprint Settings
+1) Would you like to publish your submitted manuscript as preprint?
+Please make my preprint PDF available to anyone at any time (recommended).
+Please make my preprint PDF available only to logged-in users; I understand that my title and abstract will remain visible to all users.
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Only make the preprint title and abstract visible.
+No, I do not wish to publish my submitted manuscript as a preprint.
+2) If accepted for publication in a JMIR journal, would you like the PDF to be visible to the public?
+Yes, please make my accepted manuscript PDF available to anyone at any time (Recommended).
+Yes, but please make my accepted manuscript PDF available only to logged-in users; I understand that the title and abstract will remain visible to all users (see Important note, above). I also understand that if I later pay to participate in <a href="https://jmir.zendesk.com/hc/en-us/articles/360008899632-What-is-the-PubMed-Now-ahead-of-print-option-when-I-pay-the-APF-" target="_blank">JMIR’s PubMed Now! service</a> service, my accepted manuscript PDF will automatically be made openly available.
+Yes, but only make the title and abstract visible (see Important note, above). I understand that if I later pay to participate in <a href="https://jmir.zendesk.com/hc/en-us/articles/360008899632-What-is-the-PubMed-Now-ahead-of-print-option-when-I-pay-the-APF-" target="_blank">JMIR’s PubMed Now! service</a> service, my accepted manuscript PDF will automatically be made openly available.
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Original Manuscript
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Predictors of Healthcare Practitioners' Intention to Use AI-Enabled Clinical
+Decision Support Systems (AI-CDSSs): A Meta-Analysis Based on the Unified
+Theory of Acceptance and Use of Technology (UTAUT)
+Abstract
+Background: Artificial Intelligence-enabled Clinical Decision Support Systems (AI-
+CDSSs) offer potential for improving healthcare outcomes, but their adoption among
+healthcare practitioners remains limited.
+Objective: The meta-analysis identifies predictors influencing healthcare
+practitioners' intention to use AI-CDSSs based on the Unified Theory of Acceptance
+and Use of Technology (UTAUT). Additional predictors are examined based on
+existing empirical evidence.
+Methods: The literature search using electronic databases, forward searches,
+conference programs, and personal correspondence yielded 7,731 results, of which
+17 studies met the inclusion criteria. Random-effects meta-analysis, relative weights
+analyses, and meta-analytic moderation and mediation analyses were used to
+examine the relationships of relevant predictor variables with the intention to use AI-
+CDSSs.
+Results: The meta-analysis results supported the application of the UTAUT to the
+context of the intention to use AI-CDSSs The results show that performance
+.
+expectancy (r = .66), effort expectancy (r = .55), social influence (r = .66), and
+c c c
+facilitating conditions (r = .66) were positively associated with the intention to use AI-
+c
+CDSSs, in line with the predictions of the UTAUT. The meta-analysis further identified
+positive attitude (r = .63), trust (r = .73), anxiety (r = -.41), perceived risk (r = -.21),
+c c c c
+and innovativeness (r = .54) as relevant additional predictors. Trust emerged as the
+c
+most influential predictor overall. The results of the moderation analyses show that
+1
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+the relationship between social influence and use intention becomes weaker with increasing
+age. In addition, the relationship between effort expectancy and use intention was stronger
+for diagnostic AI-CDSSs compared to devices that combined diagnostic and treatment
+recommendations. Finally, the relationships between facilitating conditions and use
+intention was mediated through performance and effort expectancy.
+Conclusions: The meta-analysis contributes to the understanding of the predictors of the
+intention to use AI-CDSSs based on an extended UTAUT model. More research is needed
+to substantiate the identified relationships and to explain the observed variations in effect
+sizes by identifying relevant moderating factors. The research findings bear important
+implications for the design and implementation of training programs for healthcare
+practitioners to ease the adoption of AI-CDSSs into their practice.
+Keywords: UTAUT; AI-CDSSs; meta-analysis; healthcare practitioners
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+1. Introduction
+The past decade has witnessed major advancements in the field of healthcare,
+particularly through the integration of artificial intelligence (AI). AI may be described as
+machines that mimic cognitive functions associated with the human mind, such as learning
+and problem solving [1]. One area of progress involves the development of AI-enabled
+Clinical Decision Support Systems (AI-CDSS; [2–4]). AI-CDSSs use machine learning
+algorithms to process vast amounts of data and provide case-specific advice to healthcare
+practitioners to aid clinical decision-making [5–7]. AI-CDSSs use clinical data both from
+structured (e.g., lab results) and unstructured (e.g., clinician notes or imaging) sources. The
+interpretation of text-based data can be performed using Natural Language Processing
+(NLP) to transform text into usable data for clinical predictions [8]. Additionally, deep
+learning models, including neural networks, can be employed to generate
+recommendations based on image data, for example, in the detection of pneumonia from
+chest radiographs [9]. AI-CDSSs may improve the accuracy and efficiency of medical
+decision-making in several ways.
+First, AI-CDSSs may offer structured rationales underpinning clinical decisions that
+can complement traditional care methods. This structured approach paves the way for
+clearer understanding, improved communication, and better tracking of the decision-making
+process in clinical settings [10,11]. Second, AI-CDSSs can integrate data from various
+sources to provide a comprehensive and personalized recommendation for every patient
+case [7]. Finally, AI-CDSSs promote the consistency of medical decisions. The use of AI
+algorithms may ensure that the same set of facts will consistently produce the same
+recommendations, thus minimizing harmful consequences due to human error [9].
+Despite these advantages, the implementation of AI-CDSSs into clinical practice
+must still overcome numerous barriers. A major challenge in the deployment of AI-CDSSs is
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+the variability in performance. This can occur when the data used to develop the AI models
+does not adequately represent the population for which the tool is intended. Another issue
+is when AI-CDSSs are not used as designed, which can be due to a range of factors
+including user interface problems, lack of integration into clinical workflows, or insufficient
+training of healthcare professionals on how to use the system [7,12–14]. The resulting low
+performance casts doubt on the value of AI-CDSSs in assisting with clinical decision-
+making [12,15]. Additionally, the lack of understanding how AI recommendations are
+derived heightens clinicians' reservations about using these systems [16–18]. There are
+also challenges relating to the alignment of AI-CDSSs with existing workflows that can
+cause additional workload when new AI systems are incorporated into clinical procedures
+[7,19–21].
+As the development of high-performing AI-CDSSs proceeds, understanding the
+factors that influence healthcare practitioners' intention to use these systems becomes
+increasingly relevant. One of the most comprehensive theories to explain individual
+technology adoption is the Unified Theory of Acceptance and Use of Technology (UTAUT;
+[22]). The UTAUT proposes that a person’s intention to use a technology is determined by
+their beliefs and attitudes towards that technology, such as the perception of its
+performance or the perceived effort it would require to use it. The UTAUT's comprehensive
+nature and its ability to account for various determinants of technology acceptance make it
+an appropriate model for examining the predictors of healthcare practitioners’ intention to
+use AI-CDSSs.
+Research to identify predictors of the intention to use AI-CDSSs has accumulated
+over the past years [4,23–25]. However, the existing literature remains scattered and in
+need of systematic synthesis. The overarching goal of this article, therefore, is to
+quantitatively integrate existing studies on the predictors of healthcare practitioners’
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+intention to use AI-CDSSs. The proposed hypotheses are based on the UTAUT model and
+existing empirical evidence. With the current meta-analysis, we make four major
+contributions to theory and practice. First, we use meta-analytic techniques to estimate the
+relationship between the predictors of the UTAUT and the intention to use AI-CDSSs thus
+,
+providing insight into the applicability of the UTAUT to the context of AI-CDSSs. Second, we
+identify additional predictors based on the existing literature and examine the relative
+contribution of the UTAUT and additional predictors in explaining the intention to use AI-
+CDSSs. With this approach, we contribute to a theoretical refinement and potential
+extension of the UTAUT model to the context of AI-CDSSs. Third, based on the UTAUT, we
+examine the role of contextual factors as moderators of the relationships between relevant
+predictors and use intention, thus shedding light on the conditions that influence the
+strength of these relationships. Finally, in line with the UTAUT model, this is the first meta-
+analysis that examines the role of mediators, thus allowing for a better understanding of the
+complex mechanisms through which use intention may be explained. The study protocol,
+including all hypotheses and research questions, has been pre-registered through the Open
+Science Framework (https://osf.io/b4j3t).
+2. Theory and Hypothesis Development
+2.1 The Unified Theory of Acceptance and Use of Technology (UTAUT) and the
+Intention to Use AI-CDSSs
+The UTAUT integrates eight former technology use theories and has become one of
+the most prominent technology use models [22,26]. The UTAUT has been applied to
+investigate factors influencing the acceptance and use of technology in different contexts,
+including healthcare [27–29]. The primary outcome measure considered in the UTAUT,
+alongside actual use, is the intention to use a technology [22,30,31]. Intentions are
+indicators of motivation and reflect the level of determination individuals have to actually
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+perform a certain behavior [32]. The successful deployment of any technology depends
+largely on the user’s intention to use it [33]. Accordingly, understanding the predictors of the
+intention to use AI-CDSSs may help overcome individual-level impediments thwarting the
+adoption of AI-CDSSs in healthcare.
+The UTAUT consists of four core predictors of individual use intention: Performance
+expectancy, effort expectancy, social influence, and facilitating conditions [22]. The
+relationships between these variables and use intention are proposed to be moderated by
+gender, age, experience, and voluntariness of use [22]. The UTAUT model is shown in
+Figure 1. All relationships included in the UTAUT are proposed as hypotheses, while all
+additional relationships and moderators that are derived based on empirical findings and
+other theories are proposed as research questions.
+Figure 1. The UTAUT model. Adapted from Venkatesh et al. (2003), User Acceptance of
+Information Technology: Toward a Unified View, MIS Quarterly, 27(3), p. 447.
+2.2 Predictors of the Intention to Use AI-CDSSs Based on the UTAUT
+Performance expectancy refers to the extent to which individuals believe that using a
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+technology will improve their job performance. AI-CDSSs have the potential to enhance job
+performance by aiding clinicians in deriving diagnoses or making treatment decisions [34]. If
+clinicians perceive their decisions to be improved by using AI-CDSSs, then performance
+expectancy will be high [35,36].
+Hypothesis 1: Performance expectancy is positively related to the intention to use AI-
+CDSSs.
+Effort expectancy concerns the perceived ease of use of a technology. It is
+suggested that a system that is perceived to be easy to use is more likely to be accepted
+than one that is perceived to be complicated to use [22]. If, for example, the perceived effort
+of using an AI-CDSS in one’s existing clinical workflows is perceived to be high, healthcare
+practitioners may be less willing to use it [3,21,23].
+Hypothesis 2: Effort expectancy is positively related to the intention to use AI-
+CDSSs.
+Social influence refers to the impact of social factors, such as the expectations and
+influence of peers, on an individual’s intention to use a technology. The positive relationship
+between social influence and the intention to use AI-CDSSs has consistently been
+supported in empirical studies [23,36]. For example, it was found that medical professionals
+holding the belief that their colleagues, top management, and professional bodies endorse
+the use of AI-CDSSs in clinical settings are more willing to adopt them [36].
+Hypothesis 3: Social influence is positively related to the intention to use AI-CDSSs.
+Facilitating conditions represent the organizational and technical infrastructure
+necessary for technology adoption [22]. It has been argued that if users believe that the
+resources and support are in place to facilitate the use of AI-CDSSs, they are more likely to
+intend to use them [4,22,37].
+Hypothesis 4a: Facilitating conditions are positively related to the intention to use AI-
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+CDSSs.
+In addition, according to the UTAUT, there is a direct relationship between facilitating
+conditions and actual technology use [22]. Facilitating conditions refer to the resources and
+support available to use a technology, including the access to the necessary tools and
+knowledge. This practical aspect makes their influence on usage immediate, as users are
+more likely to use technology when they perceive a supportive environment and available
+resources. Unlike other predictors in the UTAUT, facilitating conditions are proposed as
+direct antecedents of actual use [22].
+Hypothesis 4b: Facilitating conditions are positively related to actual use of AI-
+CDSSs.
+2.3 Additional Predictors of the Intention to Use AI-CDSSs
+The UTAUT has been modified and additional predictors have been added over time
+to account for various settings and technologies [30,38–40]. However, a meta‐analytic
+review is limited to the relationships that have been studied in a literature. Following
+previous research and methodological best practices, we include additional predictors
+beyond the UTAUT in the meta-analysis that have been examined in at least three
+independent samples [41,42]. Following this criterion, we identified attitude, trust, perceived
+risk, AI anxiety, and personal innovativeness as additional predictors of the intention to use
+AI-CDSSs.
+Individual behavior is driven by intention, which is in turn a function of an individual’s
+attitude toward the behavior and subjective norms [30,43]. Indeed, a positive attitude
+towards AI-CDSSs has been identified as a relevant predictor of the intention to use AI-
+CDSSs [44–46]. Because the relationship between positive attitude and use intention is not
+included in the UTAUT, we propose the following research question to explore the
+relationship between positive attitude and the intention to use AI-CDSSs [22].
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Research Question 1: Is there a positive relationship between a positive attitude
+towards AI-CDSSs and the intention to use AI-CDSSs?
+Trust becomes relevant if the outcome of a situation is uncertain or the possibility of
+undesirable outcomes exists [46]. Trust has been argued to be a particularly relevant
+predictor of the intention to use AI-CDSSs due to a lack of transparency of how
+recommendations are derived and the high stakes of erroneous decisions in healthcare
+[23,36]. Generally, we may differentiate between initial trust as the judgement of the trustor
+before being exposed to the trustee and knowledge-based trust that may be established
+after the trustor has interacted with the trustee [46]. In the context of AI-CDSSs, some
+studies refer to initial trust in terms of beliefs in the reliability and safety in AI-CDSSs before
+the user has been exposed to or actively used the system [2,35,47]. An example item for
+initial trust is “I believe AI could provide completely accurate diagnosis assistant service” [3].
+Another aspect of trust that has been explored in empirical studies is trust in different
+attributes of the technology, namely its functionality as being able to do a required task, its
+helpfulness or benevolence as being able to provide effective help when needed or act in
+the best interest of the user, and its integrity as operating reliably or consistently without
+failing [46,48,49]. One example item for trust in the system’s integrity regarding data
+security is “I trust that recommendations from the AI-powered care pathway are reliable”
+[50]. Because trust is not included in the UTAUT model, we propose a research question to
+explore whether there is a positive relationship between trust and the intention to use AI-
+CDSSs [22].
+Research Question 2: Is there a positive relationship between trust and the intention
+to use AI-CDSSs?
+Perceived risk is determined by the unpredictability and perceived intensity of
+outcomes [50]. In the context of AI-CDSSs, perceived risk refers to the perceived potential
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+negative consequences associated with their use, including performance failure and data
+insecurity [4]. An example item for perceived risk of a performance failure is “There is a
+possibility of malfunction and performance failure, so the system might fail to deliver
+accurate contouring areas and could mislead my work with inaccurate contouring” [4].
+Healthcare professionals may be reluctant to engage with new services fearing that their
+perceived risk may result in negative user experience or even harm for them or their
+patients [51]. Different forms of perceived risk have been found to be negatively associated
+with the intention to use AI-CDSSs [3,35,51,52]. For example, it has been found that
+performance and legal risk associated with an AI-CDSSs were negatively related to the
+intention to use AI-CDSSs [36]. Because perceived risk is not included in the UTAUT model,
+we propose the following research question to investigate whether perceived risk is
+negatively associated with the intention to use AI-CDSSs [22].
+Research Question 3: Is there a negative relationship between perceived risk and
+the intention to use AI-CDSSs?
+AI anxiety encompasses general fears and insecurities regarding AI technology. It
+represents an intuitive, negative affective reaction to AI technologies, for example, based on
+the fear of making mistakes [53,54]. AI anxiety is often measured with the AI anxiety scale
+[22]. An example item is “I feel apprehensive about using the system”. If healthcare
+professionals experience anxiety in using AI-CDSSs, their intention to use them is
+presumably low. Indeed, AI anxiety has been identified as a negative predictor of the
+intention to use AI in healthcare [24]. However, because AI anxiety is not included as a
+predictor of use intention in the UTAUT, we propose the following research question to
+explore whether AI anxiety is negatively associated with the intention to use AI-CDSSs [22].
+Research Question 4: Is there a negative relationship between AI anxiety and the
+intention to use AI-CDSSs?
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Personal innovativeness describes an individual's readiness to experiment with and
+embrace a new technology [55]. Those demonstrating a high degree of personal
+innovativeness have greater capabilities and, therefore, demonstrate greater readiness to
+use a new technology [56,57]. Indeed, there exists empirical evidence for a positive link
+between personal innovativeness and the intention to use AI-CDSSs [3,35].
+Research Question 5: Is there a positive relationship between personal
+innovativeness and the intention to use AI-CDSSs?
+2.4 The Relationship Between AI-CDSSs Use Intention and Actual Use
+The UTAUT proposes that an individual's intention to use a technology is the main
+predictor of its actual use [22]. However, this relationship has not yet been extensively
+researched in the context of AI-CDSSs. The limited investigation of actual use may be
+attributed to the restricted number of AI-CDSSs implemented in clinical practice [58].
+Nonetheless, some evidence indicates that use intention predicts the actual use of AI-
+CDSSs [4,46].
+Research Question 6: What is the relationship between the intention to use AI-
+CDSSs and their actual use?
+2.5 The Relative Contribution of the UTAUT Predictors and Additional Predictors in
+Explaining AI-CDSSs Use Intention
+Existing empirical research has explored the extent to which the UTAUT predictors
+account for variance in technology use intention [59]. For example, performance
+expectancy has often emerged as the strongest predictor of use intention [60–62]. Other
+research has found that trust has a stronger effect on the intention to use AI-CDSSs than
+performance expectancy [36]. As the roles of UTAUT and additional predictors in explaining
+the intention to use AI-CDSSs remain unclear, we propose the following research question:
+Research Question 7: What is the relative contribution of the UTAUT predictors and
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+additional predictors in explaining the intention to use AI-CDSSs?
+2.6 Moderators of the Relationships Between UTAUT Predictors and the Intention to
+Use AI-CDSSs
+The relationships between UTAUT predictors and use intention are proposed to be
+moderated by age, gender, user experience with the system, and voluntariness of using the
+system [22]. First, it has been suggested that younger workers prioritize extrinsic rewards
+such as improved job performance, thus exhibiting a stronger relationship between
+performance expectancy and technology use intention [22]. In contrast, it is suggested that
+older workers generally face greater software challenges and are more likely to place
+increased relevance on social influences. Accordingly, they may rely more on effort
+expectancy and social influence when deciding to use a technology [22].
+Hypothesis 5: The relationship of (a) performance expectancy with the intention to
+use AI-CDSSs becomes weaker and the relationships of (b) effort expectancy and (c) social
+influence with the intention to use AI-CDSSs become stronger with increasing age.
+Second, the impact of performance expectancy on use intention is expected to be
+stronger among men, while the relationship of effort expectancy and social influence with
+use intention would be more pronounced among women [22].
+Hypothesis 6: The relationship of (a) performance expectancy with the intention to
+use AI-CDSSs is stronger for men, and the relationships of (b) effort expectancy and (c)
+social influence with the intention to use AI-CDSSs is stronger for women.
+Third, according to the UTAUT, limited experience increases the strength of the
+relationship between effort expectancy and social influence with use intention because
+individuals with limited experience tend to overestimate the challenges associated with
+using a new technology and their opinions are more susceptible to social influence [22]. In
+contrast, as experience increases, facilitating conditions have been proposed to exhibit a
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+greater impact on actual technology use, as more experienced users know better how to
+take advantage of facilitating conditions when using the system [22].
+Hypothesis 7: The relationships of (a) effort expectancy and (b) social influence with
+intention to use AI-CDSSs become weaker with increasing experience and the relationship
+of (c) facilitating conditions with actual use of AI-CDSSs becomes stronger with increasing
+experience.
+Finally, the UTAUT distinguishes between voluntary (i.e., individuals decide
+themselves whether to use a technology) and mandatory (e.g., the use of a technology is
+mandated by the supervisor) adoption settings [22]. It has been suggested that social
+influence affects use intention in mandatory situations more because relevant others have
+the capacity to either incentivize desired actions or penalize noncompliance [22].
+Hypothesis 8: The relationship of social influence with the intention to use AI-CDSSs
+is stronger in mandatory adoption settings.
+In addition to the UTAUT moderators, we investigate the influence of additional
+contextual moderators that are studied in the literature, namely occupation, type of AI-
+CDSS, and culture. All additional moderators were selected based on a comprehensive
+preliminary review of the literature. First, healthcare practitioners may work in different
+contexts requiring them to complete different tasks. These differences may influence their
+perceptions, beliefs, and attitudes towards AI-CDSSs [23,51]. For instance, one study found
+differences in the relationship of social influence and perceived risk with use intention
+between clinicians (e.g., surgery, orthopedics) and non-clinicians (e.g., radiologists,
+pathologists). Specifically, for non-clinicians, social influence positively predicted the
+intention to use AI-CDSSs, while perceived risk did not emerge as a significant predictor. In
+contrast, among clinicians, the reverse pattern was observed [52]. Second, the type of AI-
+CDSS likely influences practitioners’ use intention. Specifically, healthcare practitioners may
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+place greater emphasis on the effectiveness and safety of treatment AI-CDSSs compared
+to diagnostic AI-CDSSs as an erroneous treatment decision is associated with more severe
+consequences [24]. Finally, cultural differences may influence the intention to use AI-
+CDSSs in healthcare [63,64]. For example, one study found perceived ease of use to be a
+more relevant predictor of the intention to use information technology among Taiwanese
+compared to US physicians [64]. Accordingly, we propose the following research question:
+Research Question 8: Do (a) the practitioner’s occupation, (b) the type of AI-CDSS,
+and (c) cultural background moderate the relationship between UTAUT predictors and the
+intention to use AI-CDSSs?
+Finally, we investigate the influence of methodological moderators such as
+publication year and the scale used to measure AI-CDSSs use intention. In a meta-analysis
+based on the UTAUT, it was found that some effect sizes were stronger in more recent
+studies [59]. Moreover, while most studies use the intention to use scale introduced by
+Venkatesh et al. (2003), some studies employ self-developed scales to measure use
+intention [25,35].
+Research Question 9: Do (a) publication year and (b) the use intention scale
+employed moderate the relationship between UTAUT predictors and the intention to use AI-
+CDSSs?
+2.7 Performance and Effort Expectancy as Mediators of the Relationship Between
+Facilitating Conditions and the Intention to Use AI-CDSSs
+According to the UTAUT, the effect of facilitating conditions on use intention may be
+explained through performance and effort expectancy [21,65]. That is, if the required
+support infrastructure is provided, a person would perceive the system to be both high-
+performing and easy to use, which, in turn, positively influences their intention to use it.
+Indeed, effort expectancy has been found to fully mediate the relationship between
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+facilitating conditions and use intention [65]. Accordingly, we propose the following research
+question to investigate the mediating role of performance and effort expectancy:
+Research Question 10: Is the relationship between facilitating conditions and the
+intention to use AI-CDSSs mediated through (a) performance and (b) effort expectancy?
+2.8 Overview of the Hypotheses and Research Questions
+Figure 2 displays all hypotheses and research questions. We omitted the relationship
+between facilitating conditions and actual use of AI-CDSSs (Hypothesis 4b) as well as the
+moderators experience (Hypothesis 7), voluntariness (Hypothesis 8), and occupation
+(Research Question 8a) from the analyses (see dashed lines in Figure 2) due to the limited
+number of available independent samples (k < 3). All deviations from the pre-registration
+are presented in Table S1 in the Online Appendix (https://osf.io/djwkz/?
+view_only=7d6046aac9424a3c8f2facab08ac1e16)
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Figure 2. The proposed research model. Dashed lines represent pre-registered hypotheses
+and research questions that could not be investigated due to the limited number of available
+independent samples (k < 3). Research Question 7 is omitted from the Figure as it refers to
+the relative weights analysis.
+3. Methods
+3.1 Inclusion and Exclusion Criteria
+To qualify for inclusion, the following criteria had to be met: First, studies had to be
+published in English. Second, studies had to include AI-CDSSs. The second inclusion
+criterion is fulfilled if a) one of the terms ‘artificial intelligence’, ‘AI’, ‘machine learning’, ‘deep
+learning’, or ‘deep neural networks’ was used to describe the technology [66] and b) the
+technology was referred to as a CDSS or it was described as providing recommendations
+regarding the diagnosis, treatment, or prognosis of health issues [6]. We included studies if
+AI-CDSSs were mentioned alongside other AI-enabled functionalities [67]. This led to the
+exclusion of studies that investigated the use intention of other healthcare technologies,
+such as telemedicine [68] or the medical internet of things [69]. Notably, one study
+examined the intention to use explainable and non-explainable AI-CDSSs in the same
+sample [37]. Because only one other study examined explainable AI [44], we included only
+the data for the non-explainable AI-CDSSs. Third, studies had to include a measure of the
+intention to use AI-CDSSs as defined in the UTAUT [22], including self-developed scales
+based on the UTAUT scale. Fourth, studies had to be empirical. This led to the exclusion of
+non-empirical studies, such as reviews or case studies [70]. Fifth, studies had to measure
+at least one predictor of the intention to use AI-CDSSs. Sixth, studies had to measure use
+intention among a sample of healthcare practitioners or medical students based on the list
+of health professionals by the World Health Organization [71]. For a detailed overview of
+the inclusion criteria per included study, please refer to Table S2 in the Online Appendix
+(https://osf.io/djwkz/?view_only=7d6046aac9424a3c8f2facab08ac1e16).
+3.2 Search Strategy and Data Extraction
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+This meta-analysis was conducted in accordance with the Preferred Reporting Items
+for Systematic Reviews and Meta-Analyses (PRISMA) guidelines to ensure comprehensive
+and transparent reporting [72]. We used five steps to search for relevant data. First,
+relevant scientific articles, dissertations, and theses were searched using the electronic
+databases Embase, Medline, ProQuest, PsycINFO, and Web of Science between October
+15th, 2022, and January 5th, 2023. Two follow-up searches were conducted on May 2nd,
+2023 and November 7th, 2023. The search string was developed based on the participants,
+intervention, comparators, and outcome framework (PICO) [73]. The framework was
+adapted to fit the research purpose resulting in a three-tiered search term including the
+population (healthcare professionals), the technology (AI-CDSSs), and the outcome (use
+intention) of interest. An overview of the search terms is presented in Table S3 the Online
+Appendix (https://osf.io/djwkz/?view_only=7d6046aac9424a3c8f2facab08ac1e16). We used
+the search term to search in titles, abstracts, and keywords. We conducted follow-up
+searches in Google Scholar using the following search string: [‘healthcare’], AND [‘Artificial
+Intelligence’] AND [‘UTAUT’]. Second, we conducted forward-searching of studies citing
+Venkatesh et al.’s (2003) seminal article via Google Scholar and backward searches in
+review articles [74–78]. Third, abstracts of relevant conference proceedings including the
+Conference on Computer Supported Cooperative Work and Social Computing, the
+Conference on Human Factors in Computing Systems, and the Institute of Electrical and
+Electronics Engineers were searched. Fourth, we sent requests for unpublished articles and
+data using the mailing list of the German Psychology Association (DGPs). Finally, authors
+of articles included in the meta-analysis were contacted and asked for unpublished data
+sets. No additional unpublished data was obtained.
+We reached out to authors when critical information needed to decide the inclusion
+of a study or details essential for the meta-analytic synthesis, such as a correlation table,
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+were missing. From the 24 authors contacted to procure missing information, we
+successfully obtained six data sets. These data sets were used to derive the missing
+information, for instance, to calculate missing correlations between variables of interest.
+Figure 3 shows the PRISMA diagram with the number of studies identified, included,
+and excluded, along with reasons for exclusion. The studies from the literature search were
+assessed following a three-stage approach. First, titles were screened to identify relevant
+articles. Second, the abstracts of the remaining articles were reviewed. Third, full article
+texts were reviewed. As a result of a review of 107 full texts, 17 studies met the inclusion
+criteria (K = 18 independent samples, N = 3,871).
+Following the approach of previous meta-analyses, we only included relationships
+that were identified in a minimum of three separate samples [41,79]. We grouped
+overlapping variables into construct categories (see Table S4 in the Online Appendix for
+definitions of superordinate constructs and subconstructs, https://osf.io/djwkz/?
+view_only=7d6046aac9424a3c8f2facab08ac1e16). Studies from both the primary and the
+follow-up literature search were coded by two researchers each (AK and SG for the primary
+search; and JD and AK for the follow-up search). Any conflicts in the coding were resolved
+in weekly consensus meetings. Additionally, in line with approaches to ensure accuracy in
+coding established in previous meta-analyses [80], a random sample of ten of the 18
+independent samples (56%) was re-coded by JC and AS. We included agreement on
+correlations, reliabilities, and moderator categories into the assessment of interrater
+agreement. Overall interrater agreement was high (94.7%). Notably, no disagreements
+were observed regarding correlations. Some mistakes in the coding of reliabilities occurred
+during the re-coding due to referencing an incorrect line from the source document. The
+final code sheet used for the analyses is published in the OSF Online Appendix
+(https://osf.io/djwkz/?view_only=7d6046aac9424a3c8f2facab08ac1e16).
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Figure 3. PRISMA flow chart of the study selection process
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+3.3 Meta-analytic procedures
+All analyses were conducted with RStudio [81] using the R packages ‘psychmeta’
+[82] and ‘metaSEM’ [83].
+3.3.1 Bivariate Relationships
+To examine the bivariate relationship of the four core constructs of the UTAUT (H1-
+H4) and the additional predictors (RQ1-RQ5) with the intention to use AI-CDSSs, random-
+effects meta-analysis was conducted [84]. Effect sizes were based on Pearson product-
+moment correlations. Composites were calculated if multiple measures of the same
+construct were reported for the same sample [84]. Specifically, a variance-weighted
+composite (across measures of the same construct) was calculated for each independent
+sample to combine multiple measures of the same construct into a single effect size per
+independent sample [84]. Sampling errors were corrected using sample size weighted
+correlations. Measurement errors were corrected based on Cronbach’s alpha [84]. In
+addition to the sample size-weighted correlation (r) and sample size-weighted and
+reliability-corrected correlation (r ), the 95% confidence interval (95% CI) and 80%
+c
+credibility interval (80% CR) for (r ) are reported. Finally, we report the correlation between
+c
+observed effects and the influence of the study design artifacts (cor(r, a)).
+3.3.2 Relative Weights Analysis
+We conducted relative weights analyses to capture the contribution of the correlated
+predictors [85]. Specifically, we calculated multivariate meta-analytic regression models
+based on the pooled correlation matrices to explore the incremental value of the UTAUT
+predictors and additional predictor variables in explaining the intention to use AI-CDSSs.
+We used the harmonic mean of the sample size across the correlations considered as the
+sample size for the estimated regression models [86]. In relative weights analysis, raw
+relative weights are calculated to reflect the proportion of variance explained in the outcome
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+that is attributed to each of the predictors, while rescaled relative weights reflect the
+percentage of variance that is explained by each predictor variable [87,88].
+3.3.3 Moderation Analyses
+Moderator analyses were carried out for constructs that were represented in a
+minimum of k = 10 independent samples to ensure adequate coverage of moderator
+categories [89]. Five constructs met this minimum cutoff and were considered for the
+moderation analyses (i.e., performance expectancy, effort expectancy, social influence,
+trust, and perceived risk). We interpreted categorical moderator effects if each of the levels
+included k ≥ 3 independent samples. Age was coded as the mean age of study participants,
+and gender as the percentage of females in the sample. For the type of AI-CDSS, three
+categories were initially identified: diagnostic decision support systems, treatment decision
+support systems, and systems that combined both diagnostic and treatment decision
+support. However, the category treatment decision support systems had to be excluded
+from the moderator analysis because of the low number of independent samples focusing
+on this kind of AI-CDSS (k = 2). Culture was operationalized based on the individualism
+versus collectivism dimension of the Hofstede country comparison tool [90,91]. A higher
+score denotes stronger individualism. The publication year was coded chronologically.
+Finally, the scale used to measure the intention to use AI-CDSSs was coded as a
+categorical moderator. We differentiated between studies using the Venkatesh scale and
+studies using self-developed scales. We conducted moderation analyses that were not pre-
+registered as part of exploratory analyses.
+3.3.4 Mediation Analysis
+To test Research Question 6, correlation-based meta-analytic structural equation
+modeling (MASEM) [92] based on the two-stage structural equation modeling approach
+(TSSEM) [93,94] was performed. In the first step, the sample-size weighted and reliability-
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+corrected bivariate correlation matrices for each independent sample were pooled together.
+In TSSEM, the total sample size is used for the estimation of the MASEM model [94]. In the
+second step, a path model was fitted to the pooled correlation matrix.
+4. Results
+4.1 Study Characteristics
+The overall mean age was 36.2 years (SD = 13.5 years, range = 21-53 years) and
+48.7% were female. Seven out of the 17 studies focused on diagnostic AI-CDSSs, two on
+treatment AI-CDSSs, four on treatment and diagnostic AI-CDSSs, and four on unspecific AI-
+CDSSs. Eleven studies were conducted in Asia (six in China), three in Europe, one in the
+U.S., and two globally in English-speaking countries.
+4.2 Meta-Analytic Results
+In the following, we report sample size‐weighted and reliability‐corrected correlations
+(r ) for the relationships of relevant antecedent variables with AI-CDSSs use intention. In
+c
+line with Cohen (1988), we classify our reported effects as weak (r = .1), moderate (r = .3),
+c c
+and strong (r = .5).
+c
+4.2.1 Bivariate Relationships
+The results of bivariate meta-analytic analyses are shown in Table 1. The UTAUT
+predictors performance expectancy (r = .66, 95% CI [.59, .73]), effort expectancy (r = .55,
+c c
+95% CI [.43, .67]), social influence (r = .66, 95% CI [.59, .72]), and facilitating conditions (r
+c c
+= .66, 95% CI [.42, .90]) exhibited a strong positive relationship with the intention to use AI-
+CDSSs. The findings support Hypotheses 1 through 3 and 4a. The relationship between
+facilitating conditions and actual use was not investigated in a sufficient number of
+independent samples (k > 2). Accordingly, we could not address Hypothesis 4b. Regarding
+the additional predictors beyond the UTAUT, attitude (r = .63, 95% CI [.52, .73]), trust (r
+c c
+= .73, 95% CI [.63, .82]) and innovativeness (r = .54, 95% CI [.43, .64]) exhibited strong
+c
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+positive relationships, confirming Research Questions 1, 2, and 5. Perceived risk (r = -.21,
+c
+95% CI [-.35, -.08]) was weakly negatively related to use intention, supporting Research
+Question 3. Although the estimate for AI anxiety was strong and negative (r = -.41), the
+c
+95% CI included zero (95% CI [-.98, .15]). Accordingly, we cannot conclude that AI anxiety
+is related to use intention, thus not supporting Research Question 4. The 80% credibility
+interval for effort expectancy (.27 to .83), facilitating conditions (.33 to .99) and AI anxiety
+(-.81, -.01) were wide, suggesting the presence of moderators [84,95]. Finally, the intention
+to use AI-CDSSs was strongly positively related to the actual use of AI-CDSSs, confirming
+Research Question 6 (k = 3, N = 478, r = .75, r = .85, SD = 0.09, 95% CI [.63, 1.00], 80%
+c c
+CR [.70, 1.00], cor(r,a) = .44).
+Table 1
+Bivariate relationships between predictor variables and AI-CDSS use intention
+Predictor Variable k N r r SD 95% CI 80% CR cor(r,a)
+c c
+Performance expectancy 16 3,295 .59 .66 0.13 .59, .73 .50, .82 .39
+Effort expectancy 15 3,058 .49 .55 0.22 .43, .67 .27, .83 .28
+Social influence 15 3,058 .57 .66 0.12 .59, .72 .52, .80 .46
+Facilitating conditions 6 1,048 .57 .66 0.23 .42, .90 .33, .99 .25
+Attitude 9 2,048 .51 .63 0.14 .52, .73 .45, .80 .43
+Trust 10 1,840 .66 .73 0.13 .63, .82 .55, .90 .35
+Perceived risk 10 2,428 -.19 -.21 0.18 -.35, -.08 -.45, .02 .39
+Anxiety 3 391 -.37 -.41 0.23 -.98, -.15 -.81, -.01 .38
+Innovativeness 5 843 .47 .54 0.09 .43, .64 .46, .61 .81
+Note. k = number of independent samples; N = cumulative sample size; r = sample size-weighted
+correlation; r = sample size-weighted and reliability-corrected correlation; SD = standard
+c c
+deviation of r ; CI = confidence interval for r; CR = credibility interval; cor(r, a) = correlation
+c c
+between r and statistical artifacts (a).
+4.2.2 Relative Weights Analysis
+It was not possible to explore all nine predictors in a single relative weights analysis
+because they were not investigated together in a sufficient number of independent samples
+(see Table S5 in the Online Appendix, https://osf.io/djwkz/?
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+view_only=7d6046aac9424a3c8f2facab08ac1e16). Accordingly, to answer Research
+Question 7, we analyzed one model with only the UTAUT predictors (Table 2) and four
+separate extension models, consisting of five to six predictors (Table 3). In the initial model
+with only the UTAUT predictors, the combined effects of performance expectancy, effort
+expectancy, social influence, and facilitating conditions explained 50% of the total variance
+in the intention to use AI-CDSSs. Performance expectancy was the dominant predictor
+accounting for 31% of the total variance explained, followed by social influence (28%),
+facilitating conditions (26%), and effort expectancy (15%). In the extension models, trust
+emerged as the most influential overall predictor of use intention (between 29% and 35% of
+the total variance explained). In all three models including trust, performance expectancy
+was the second most influential predictor (between 19% and 24% of the total variance
+explained). Facilitating conditions (between 20% and 25%) and social influence (between
+14% and 21%) consistently explained additional variance in all extension models. In the
+extension models including trust and perceived risk, and trust and anxiety, the regression
+estimate of effort expectancy became negative. Finally, AI anxiety and perceived risk
+negatively predicted use intention and accounted for 10% (AI anxiety) and 2% (perceived
+risk) of the total variance explained.
+Table 2
+Multiple regression models and relative weights for the UTAUT predictors
+Raw
+Predictor B SE t-value P RS RW
+RW
+Performance expectancy .31 0.02 13.97 <.001 .16 31.19%
+Effort expectancy .08 0.02 3.56 <.001 .08 15.20%
+Social influence .27 0.02 12.29 <.001 .14 27.91%
+Facilitating conditions .21 0.02 9.33 <.001 .13 25.70%
+Note. B = regression estimate; SE = standard error of B; RW = relative weight;
+RS = rescaled.
+F = 429.28 (p < .001), R2 = .498.
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Table 3
+Multiple regression models and relative weights for the UTAUT and additional predictors
+Raw
+Predictor B SE t-value P RS RW
+RW
+UTAUT extension (attitude, perceived risk), F = 222.31 (p < .001), R2 = .509
+Performance expectancy .25 0.03 9.36 <.001 .12 24.00%
+Effort expectancy .05 0.03 2.04 .04 .06 12.14%
+Social influence .17 0.03 6.40 <.001 .10 20.54%
+Facilitating conditions .28 0.03 10.82 <.001 .13 25.31%
+Attitude .13 0.03 5.02 <.001 .08 15.91%
+Perceived risk -.04 0.02 -2.20 .03 .01 2.09%
+UTAUT extension (trust, innovativeness), F = 308.50 (p < .001), R2 = .542
+Performance expectancy .22 0.03 8.77 <.001 .12 22.72%
+Effort expectancy .05 0.02 2.14 .03 .06 11.57%
+Social influence .19 0.03 7.62 <.001 .11 20.40%
+Trust .39 0.03 15.40 <.001 .19 35.04%
+Innovativeness .04 0.02 1.56 .12 .06 10.26%
+UTAUT extension (trust, perceived risk), F = 389.61 (p < .001), R2 = .600
+Performance expectancy .18 0.02 8.40 <.001 .11 18.76%
+Effort expectancy -.06 0.02 -2.65 .01 .05 8.81%
+Social influence .09 0.02 3.87 <.001 .09 15.66%
+Facilitating conditions .32 0.02 14.99 <.001 .13 22.03%
+Trust .42 0.02 19.79 <.001 .20 33.00%
+Perceived risk -.05 0.02 -2.80 .01 .01 1.74%
+UTAUT extension (trust, anxiety), F = 241.15 (p < .001), R2 = .632
+Performance expectancy .23 0.03 8.15 <.001 .12 19.25%
+Effort expectancy -.11 0.03 -3.92 <.001 .05 7.24%
+Social influence .07 0.03 2.44 .02 .09 14.13%
+Facilitating conditions .31 0.03 11.43 <.001 .13 20.44%
+Trust .38 0.03 13.48 <.001 .18 28.68%
+Anxiety -.20 0.02 -8.73 <.001 .06 10.26%
+Note. B = regression estimate; SE = standard error of B; RW = relative weight;
+RS = rescaled.
+4.2.3 Moderation Analyses
+Table 4 shows the results of the meta-regression for continuous moderators.
+Regarding age, older participants revealed a weaker relationship between social influence
+and use intention (B = -.01, 95% CI [.-.01, <-.01]), thus contradicting Hypothesis 5c
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+according to which this effect would become stronger with increasing age. The moderation
+effect is displayed in Figure S1 in the Online Appendix (https://osf.io/djwkz/?
+view_only=7d6046aac9424a3c8f2facab08ac1e16). Age did not moderate any other
+relationship, thus not confirming Hypotheses 5a and 5b. Gender did not moderate any of
+the relationships, thus not confirming Hypothesis 6a, 6b, and 6c. Experience and
+voluntariness of use were not investigated in a sufficient number of independent samples.
+Accordingly, we were unable to address Hypotheses 7 and 8. Cultural individualism
+(Research Question 8c) as a contextual moderator that was measured continuously did not
+influence any of the relationships. Finally, publication year (Research Question 9a) as a
+methodological moderator that was measured continuously did not influence any of the
+relationships.
+Table 4
+Results of meta-regression
+Predictor variable Moderator k B SE P 95% CI
+mod
+Performance Age 4 <.01 <0.01 .56 -.01, .01
+expectancy
+Gender 16 <.01 <0.01 .88 <-.01, <.01
+Individualism 14 <.01 <0.01 .66 <-.01, <.01
+Publication year 16 .02 0.03 .42 -.03, .07
+Effort expectancy Age 4 <.01 0.01 .97 -.02, <.01
+Gender 15 <.01 <0.01 .63 -.01, <.01
+Individualism 13 <.01 <0.01 .95 <-.01, <.01
+Publication year 15 .03 0.04 .68 -.06, .09
+Social influence Age 4 -.01 <0.01 .03 -.01, <-.01
+Gender 15 <.01 <0.01 .09 <-.01, .01
+Individualism 13 <.01 <0.01 .56 <-.01, <.01
+Publication year 15 .02 0.02 .21 -.02, .07
+Trust Age 3 <.01 0.01 .90 -.02, .02
+Gender 10 <.01 <0.01 .88 <-.01, <.01
+Individualism 9 <.01 <0.01 .91 <-.01, <.01
+Publication year 10 -.04 0.03 .24 -.10, .03
+Perceived risk Gender 10 <.01 <0.01 .64 -.01, .01
+Individualism 9 <.01 <0.01 .21 <-.01, <.01
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Publication year 8 -.02 0.04 .60 -.11, .06
+Note. Moderator analysis for predictor variables with k ≥ 10 independent samples. k
+mod
+= number of independent samples per moderator; B = regression estimate; SE =
+standard error; CI = confidence interval; Age = chronological age in years; Gender =
+Percentage female.
+The Wald-type pairwise comparisons for each level of categorical moderators are
+presented in Table 5. We could not investigate Research Question 8a because information
+about occupations was not provided in a sufficient number of independent samples.
+Regarding Research Question 8b, there were no differences for the type of AI-CDSS
+(diagnostic AI-CDSSs vs. diagnostic and treatment AI-CDSSs) on the relationships of
+performance expectancy and social influence. However, the positive relationship of effort
+expectancy on use intention was stronger for diagnostic AI-CDSSs compared to AI-CDSSs
+that combined diagnostic and treatment recommendations (Diff = -.31, 95% CI [-.58, -.04]).
+Finally, regarding Research Question 9b, we observed no differences between studies
+using the Venkatesh et al. (2003) scale and those employing other measures.
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Table 5
+Wald-type pairwise comparisons of categorical moderators
+Predictor variable k k F r r Diff. 95% CI
+1 2 c1 c2
+AI-CDSSs type: Diagnostic and treatment AI-CDSSs (level 1) compared to
+diagnostic AI-CDSSs (level 2)
+Performance expectancy 4 7 1.48 .62 .71 -.09 -.31, .13
+Effort expectancy 4 6 7.15 .41 .72 -.31 -.58, -.04
+Social influence 4 6 6.97 .59 .72 -.14 -.28, <.01
+Trust 3 4 0.09 .70 .72 -.02 -.28, . 24
+Use intention scale: Other scales (level 1) compared to Venkatesh et al. (2003)
+(level 2)
+Performance expectancy 10 6 0.07 .66 .68 -.02 -.18, .15
+Effort expectancy 9 6 0.48 .59 .51 .08 -.18, .35
+Social influence 9 6 0.82 .64 .70 -.06 -.21, .09
+Trust 5 5 0.01 .73 .72 .01 -.19, .20
+Perceived risk 7 3 2.41 -.16 -.37 .21 -.10, .53
+Note. Moderator analysis for constructs with at least k = 10 independent
+samples. k and k = number of independent samples for moderator level 1 and
+1 2
+2; r and r = sample size-weighted and reliability-corrected correlation for
+c1 c2
+moderator level 1 and 2; Diff. = Mean difference, CI = confidence interval.
+4.2.4 The Mediating Role of Performance and Effort Expectancy in the Relationship
+Between Facilitating Conditions and AI-CDSSs Use Intention
+The role of performance and effort expectancy as mediators of the relationship
+between facilitating conditions and the intention to use AI-CDSSs (Research Question 10a
+and 10b) were analyzed by fitting two separate mediation models. The results are displayed
+in Table 6. Performance expectancy mediated the relationship between facilitating
+conditions and the intention to use AI-CDSSs (indirect effect: B = .20, 95% CI [.12, .34]). In
+the second mediation model with effort expectancy as mediator, the direct path from
+facilitating conditions to use intention did not reach statistical significance, while the indirect
+effect was positive (B = .21, 95% CI [.09, .37]). Accordingly, the relationship between
+facilitating conditions and use intention was fully mediated through effort expectancy.
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Table 6
+Mediation models with performance and effort expectancy as mediators
+Path B 95% CI
+Mediator: Performance expectancy
+Direct effects
+Facilitating conditions → Performance expectancy .38 NA, .54
+Performance expectancy → Use intention .53 .36, .70
+Facilitating conditions → Use intention .29 -.01, .57
+Indirect effect
+Facilitating conditions → Performance expectancy → Use intention .20 .12, .34
+Mediator: Effort expectancy
+Direct effects
+Facilitating conditions → Effort expectancy .48 .35, .62
+Effort expectancy → Use intention .43 .17, .68
+Facilitating conditions → Use intention .29 -.04, .61
+Indirect effect
+Facilitating conditions → Effort expectancy → Use intention .21 .09, .37
+Note. B = regression estimate; CI = confidence interval.
+4.3 Sensitivity Analysis
+To assess the robustness of the meta-analytic findings, we employed
+cumulative meta-analysis. This approach involves conducting a sequence of iterative
+meta-analyses, with each analysis adding an additional effect size for a specific
+relationship. Effect sizes are added in the order of decreasing precision, meaning the
+initial effect sizes added represent the most accurate population effect size
+estimates. If less precise studies tend to skew the meta-analytic estimates, this will
+be observable as a shift in cumulative results when these studies are included [89].
+The results of the cumulative meta-analyses are depicted in Figure S2 in the Online
+Appendix (https://osf.io/djwkz/?view_only=7d6046aac9424a3c8f2facab08ac1e16).
+Five “drifts” were identified and all relationships drifted towards stronger effects as
+less precise studies were added, indicating an overestimation of the true effect.
+However meaningful differences were not observed after half the studies were added
+29
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+compared to after all studies were added, for any of the relationships (Table S6 in the
+Online Appendix, https://osf.io/djwkz/?
+view_only=7d6046aac9424a3c8f2facab08ac1e16). Accordingly, we conclude that
+none of the drifts influenced the meta-analytic conclusions.
+5. Discussion
+5.1 Summary of Findings and Implications for Future Research
+The primary goal of the meta-analysis was to gain a better understanding of
+the predictors of the intention to use AI-CDSSs among healthcare practitioners based
+on the UTAUT and its extensions. The results of the meta-analysis provide empirical
+support for the applicability of the UTAUT to the context of AI-CDSSs. As predicted,
+performance expectancy, effort expectancy, social influence, and facilitating
+conditions were positively related to the intention to use AI-CDSSs. These findings
+are largely in line with the findings of UTAUT meta-analyses in other fields
+[25,30,38,59]. We provide a summary of the main findings for our hypotheses and
+research questions in Tables 7 and 8.
+30
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Table 7
+The results of the investigation of hypotheses
+Effect size
+Hypothesis k Result Main findings
+[95% CI]
+H1 16 r = .66 Supported Performance expectancy is positively related to the
+c
+[.59, .73] intention to use AI-CDSSs.
+H2 15 r = .55 Supported Effort expectancy is positively related to the
+c
+[. 43, .67] intention to use AI-CDSSs.
+H3 15 r = .66 Supported Social influence is positively related to the intention
+c
+[.59, .72] to use AI-CDSSs.
+H4a 6 r = .66 Supported Facilitating conditions are positively related to the
+c
+[.42, .90] intention to use AI-CDSSs.
+H4b <3 n/a N/A Not enough independent samples (k < 3) to
+examine the relationship between facilitating
+conditions and actual use of AI-CDSSs.
+H5a 4 B = <.01 Not supported The relationship of performance expectancy with
+[-.01, .01] the intention to use AI-CDSSs does not become
+weaker with increasing age.
+H5b 4 B = <.01 Not supported The relationship of effort expectancy with the
+[-.02, <.01] intention to use AI-CDSSs does not become
+stronger with increasing age.
+H5c 4 B = -.01 Not supported The relationship of social influence with the
+[-.01, <-.01] intention to use AI-CDSSs becomes weaker with
+increasing age.
+H6a 16 B = <.01 Not supported The relationship of performance expectancy with
+[<-.01, <.01] the intention to use AI-CDSSs is not stronger for
+men.
+H6b 15 B = <.01 Not supported The relationship of effort expectancy with the
+[-.01, <.01] intention to use AI-CDSSs is not stronger for
+women.
+H6c 15 B = <.01 Not supported The relationship of social influence with the
+[<-.01, .01] intention to use AI-CDSSs is not stronger for
+women.
+H7a-c <3 n/a N/A Not enough independent samples (k < 3) to
+examine experience as a moderator.
+H8 <3 n/a N/A Not enough independent samples (k < 3) to
+examine mandatory versus voluntary adoption
+setting as a moderator.
+Note. k = number of independent samples; CI = confidence interval; r = sample size-weighted and
+c
+reliability-corrected correlation; B = regression estimate.
+31
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Table 8
+The results of the investigation of research questions
+Research Effect size
+k Result Main findings
+question [95% CI]
+RQ1 9 r =.63 Answered Positive attitude towards AI-CDSSs is positively
+c
+[.52, .73] related to the intention to use AI-CDSSs.
+RQ2 10 r =.73 Answered Trust is positively related to the intention to use AI-
+c
+[.63, .82] CDSSs.
+RQ3 10 r = -.21 Answered Perceived risk is negatively related to the intention
+c
+[-.35, -.08] to use AI-CDSSs.
+RQ4 3 r = -.41 Answered AI anxiety is negatively related to the intention to
+c
+[-.98, -.15] use AI-CDSSs.
+RQ5 5 r = .54 Answered Personal innovativeness is positively related to the
+c
+[.43, .64] intention to use AI-CDSSs.
+RQ6 3 r = .85 Answered The intention to use AI-CDSSs is positively related
+c
+[.63, 1.00] to their actual use.
+RQ7 N/A See Table 3 Partially See Table 3
+answered
+RQ8a <3 N/A N/A Not enough independent samples (k < 3) to
+examine occupation as a moderator.
+RQ8b k = 4;Diff. = -.31 Answered The positive relationship of effort expectancy on use
+1
+k = 6 [-.58, -.04] intention was weaker for diagnostic and treatment
+2
+AI-CDSSs (k ) compared to diagnostic AI-CDSSs
+1
+(k ).
+2
+RQ8c 13-14 See Table 4 Answered Cultural background (individualism) does not
+moderate the relationship of performance
+expectancy (k = 14), effort expectancy (k = 13) and
+social influence (k = 13) with the intention to use AI-
+CDSSs.
+RQ9a 15-16 See Table 4 Answered Publication year does not moderate the relationship
+of performance expectancy (k = 16), effort
+expectancy (k = 15) and social influence (k = 15)
+with the intention to use AI-CDSSs.
+RQ9b 6-10 See Table 5 Answered There are no differences in the relationships of
+performance expectancy, effort expectancy and
+social influence with the intention to use AI-CDSSs
+between samples that used the Venkatesh scale to
+measure use intention (k ) versus those that used
+2
+other scales (k ).
+1
+RQ10a 16 B (indirectAnswered Performance expectancy mediates the relationship
+effect) = .20 between facilitating conditions and the intention to
+[.12, .34] use AI-CDSSs.
+RQ10b 16 B (indirectAnswered Effort expectancy mediates the relationship
+effect) = .21 between facilitating conditions and the intention to
+[.09, .37] use AI-CDSSs.
+Note. k = number of independent samples; CI = confidence interval; r = sample size-weighted and
+c
+reliability-corrected correlation; k and k = number of independent samples for moderator level 1 and 2;
+1 2
+Diff. = Mean difference between sample size-weighted and reliability-corrected correlation for
+moderator level 1 and 2; B = regression estimate.
+32
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+The results of relative weights analyses showed that all four UTAUT predictors
+together explain 50% of the variance in use intention among healthcare practitioners,
+reaffirming the relevance of the UTAUT predictors in the context of AI-CDSSs. Among
+the UTAUT predictors, performance expectancy emerged as the most relevant
+predictor, accounting for 31% of the total explained variance, followed by social
+influence (28%), facilitating conditions (26%), and effort expectancy (15%). In most
+UTAUT research, performance expectancy is more relevant than effort expectancy,
+possibly because performance expectancy is inherently connected to the primary
+motives behind technology use [31,39]. That is, it directly relates to the perceived
+benefits that users expect to gain from using a technology [31,39]. Effort expectancy
+refers to the expected ease of using a technology [22]. While important, the ease of
+use may become a secondary consideration if the technology does not meet the
+primary performance-related objectives. In other words, users might be willing to
+overcome a steeper learning curve if they believe the payoff in performance is
+worthwhile [62]. This could explain why performance expectancy accounts for a
+higher percentage of the variance in technology acceptance and use intentions
+compared to effort expectancy. Overall, the findings of the current meta-analysis
+reflect a common finding in technology acceptance research where the anticipated
+improvement in performance is often found to be a stronger driver of user
+acceptance than the anticipated effort to learn and use the technology [31,39,60,62].
+Among the UTAUT predictors, effort expectancy and facilitating conditions had
+the widest credibility intervals (.56 and .66, respectively), suggesting the presence of
+moderating influences [84,95]. For example, previous research suggests that
+radiologists, accustomed to complex machines and heavy workloads, may be willing
+to invest effort into learning how to use new technology if it reduced their workload,
+33
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+indicating a moderating influence of occupation on the relationship between effort
+expectancy and use intention [4,36]. In addition, the strength of the relationship
+between effort expectancy and use intention has been shown to differ between AI-
+CDSS for feedback versus decision support [24].
+In addition to the core UTAUT variables, we identified attitude, trust, perceived
+risk, AI anxiety, and personal innovativeness as predictors of the intention to use AI-
+CDSSs. Although all included studies reported a negative relationship between AI
+anxiety and use intention, the confidence interval for AI anxiety included zero. This
+lack of an observed relationship may be due to the low sample sizes (total sample
+size was n = 391) and the resulting high uncertainty in the true effect. Interestingly, in
+the relative weights analyses, trust proved to be a more relevant factor than
+performance expectancy in explaining variance in the intention to use AI-CDSSs. The
+relevance of trust may be explained by the lack of transparency in how AI
+recommendations are generated, coupled with the high stakes associated with
+clinical decision-making [96]. Indeed, research has suggested that even highly
+efficient AI-CDSSs may face resistance in clinical applications if healthcare
+practitioners do not trust in the system’s safety [97–99]. The findings of the current
+meta-analysis align with research advocating for the inclusion of trust into the UTAUT
+model [97].
+Furthermore, the current meta-analysis emphasizes the need to consider both
+drivers and inhibitors of the intention to use AI-CDSSs for a more comprehensive
+understanding of the adoption process [100]. The relative weights analyses
+demonstrate that AI anxiety explained about ten percent in the intention to use AI-
+CDSSs, after trust (29%), facilitating conditions (20%), performance expectancy
+(19%), social influence (14%), and before effort expectancy (7%). The relevance of
+perceived risk as a predictor of use intention was small (about 2% after all other
+34
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+predictors). Risk perception is a cognitive assessment of the potential losses and
+gains from using AI-CDSSs, which is based on logical evaluation and can be
+mitigated by providing relevant information [101]. In contrast, AI anxiety is an
+emotional response that encompasses fears and insecurities about AI technology
+[102]. Accordingly, AI anxiety is less rational and more difficult to alleviate because it
+can be deeply rooted in concerns about AI's impact on job security, professional
+autonomy, and the quality of patient care [23,103,104].
+Even for relationships with a substantial number of independent samples,
+such as performance expectancy, effort expectancy, attitude, trust and perceived risk,
+the credibility intervals are wide (> .34), suggesting the presence of moderators
+[84,95]. This observation is supported by the modest amount of variance accounted
+for by statistical artifacts, indicating that there may be other reasons for substantial
+variance between individual studies [84,95]. While we considered multiple
+moderators suggested by the UTAUT and additional contextual and methodological
+moderators, we only found two moderation effects:
+First, age moderated the relationship between social influence and use
+intention, with older healthcare practitioners experiencing a weaker relationship
+between social influence and use intention. This finding does not align with the
+UTAUT proposing that older individuals place more relevance on the opinion of
+relevant others when intending to use a new technology [22]. One explanation for this
+discrepancy may be that practitioners value their professional independence
+increasingly more with age, thus relying less on the opinion of others regarding
+technology use as they get older. While differences in professional values and
+behaviors have been shown to exist between younger and older healthcare
+practitioners [106], a systematic examination of the effect of age on the relationship
+between social influence and the intention to use AI-CDSSs is lacking. It has to be
+35
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+noted that the observed moderation effect is based on only four independent
+samples, underscoring the need to systematically study the influence of age on the
+relationship between social influence and use intention.
+Second, the relationship between effort expectancy and use intention was
+stronger for diagnostic AI-CDSSs compared to devices that combined diagnostic and
+treatment recommendations. When clinicians assess a tool solely for diagnostic
+purposes, they may find it easier to anticipate the required effort to use it, as the task
+is less complex and the outcome more direct. This clear understanding may
+strengthen the relationship between effort expectancy and use intention. Indeed, the
+perceived risk associated with smart devices has been found to negatively influence
+the relationship between effort expectancy and use intention [107]. The multifaceted
+nature of combined tools may make it more challenging for clinicians to evaluate the
+effort needed to understand and use them. This uncertainty possibly leads to a
+weaker relationship between effort expectancy and use intention, as clinicians may
+not be able to adequately assess the effort required, thus not being able to use it as a
+source of information when it comes to indicating their intention to use it. Future
+research is needed to investigate the moderating influence of the device type.
+The results of the mediation analyses indicate that the relationship between
+facilitating conditions and use intention is fully explained through effort expectancy
+and partially explained through performance expectancy. This finding aligns with the
+UTAUT proposing that when performance and effort expectancy are considered,
+facilitating conditions lose their importance in predicting use intention [22]. One
+explanation for the relevance of effort expectancy as a mediator may be that issues
+related to the support infrastructure, a critical aspect of facilitating conditions, are also
+conceptually addressed by effort expectancy [22]. That is, if healthcare organizations
+establish the appropriate support infrastructure, the effort required to use AI-CDSSs
+36
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+becomes lower [21,52]. Similarly, if a user perceives that the technology is supported
+by adequate facilitating conditions, they may be more likely to believe in the
+performance benefits when using the system, explaining the mediating role of
+performance expectancy.
+5.2 Practical Implications
+Performance expectancy and trust emerged as the two most relevant
+predictors of AI-CDSSs use intention, suggesting that measures targeted towards
+healthcare practitioners’ beliefs in the performance and trustworthiness of AI-CDSSs
+may be effective in enhancing their intention to use them. However, the consistently
+positive link between performance expectancy and use intention also suggests that
+healthcare institutions need to take measures to deter the perception of low-
+performing systems as high-performing, which could potentially cause more harm
+than benefit [105]. Healthcare practitioners require transparent communication
+regarding the performance and limitations of AI-CDSSs, alongside adequate training
+to ensure their correct use. In addition, regulatory bodies like the FDA need to ensure
+that available AI-CDSSs meet certain safety and performance standards
+[66,106,107]. Adequate policies and oversight in these contexts may ensure a
+balance between the adoption and safe application of AI-CDSSs in healthcare
+decision-making.
+Trust in technology is a multifaceted construct including users’ perceptions of a
+system's functionality, helpfulness or benevolence, and integrity [46,47].
+Consequently, actions taken to enhance performance expectancy may not be
+sufficient for building trust in a system [97]. If organizations aim to improve healthcare
+practitioners’ trust in AI-CDSSs, they need to address the various facets relevant to
+trust in technology. This includes dealing with ethical issues related to data privacy
+and the potential misuse of AI-CDSS as well as addressing the lack of transparency
+37
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+and explainability in AI-generated recommendations [108,109]. For example, trust
+has been associated with the system's capability to explain its decision-making
+process, emphasizing the role of explainable AI as a path to building trust in AI-
+CDSSs [97,110]. Additionally, regulatory strategies should be designed to promote
+and maintain trust in AI-CDSS, along with safe patient outcomes. This might include
+the use of post-market surveillance systems to monitor the performance of deployed
+AI-CDSSs over time, which has been suggested as a method for identifying and
+mitigating issues of utility and safety in real-world clinical settings [114,115].
+Developers can integrate user-centered design principles to tailor AI-CDSSs to the
+needs and workflows of specific clinical specialties and roles. The early inclusion of
+user feedback may facilitate the development of user-friendly AI-CDSSs and increase
+trust in these systems [116,117]. Healthcare administrators may foster practitioners’
+trust by providing training programs to increase familiarity with the technology and by
+designing evaluation metrics that can monitor system performance and user
+satisfaction [118]
+Social influence has been demonstrated to be a relevant predictor of
+healthcare practitioners’ intentions to use AI-CDSSs, particularly among younger
+professionals. Institutions aiming to adopt AI-CDSSs can leverage the important role
+of social influence by establishing a culture that values technological advancements
+and by engaging key opinion leaders to advocate and exemplify the use of these
+systems. Additionally, trainings can be structured not only to educate but also to
+establish a shared understanding and a community of practice that positively
+reinforces the application of AI-CDSSs [111,112]. By addressing the social aspects of
+technology acceptance, healthcare institutions can ensure that their investment in AI
+is met with a user base that is both competent and willing to integrate these tools into
+their daily practice.
+38
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+The importance of facilitating conditions underscores the need for healthcare
+organizations to provide a supportive infrastructure that simplifies the integration of
+AI-CDSSs into existing workflows. For instance, the provision of training programs,
+allowing healthcare practitioners to gain first-hand experience, and setting up
+accessible support teams ready to address system-related issues can considerably
+boost healthcare practitioners' intention to use such systems [22,113].
+AI anxiety has emerged as a barrier to the intention to use AI-CDSSs in the
+relative weights analysis. Therefore, hospitals and other healthcare institutions
+should consider measures to counteract any irrational negative emotional reactions
+to AI before and during the integration of AI-CDSSs into clinical workflows. One
+potential method to mitigate AI anxiety involves increasing medical staff involvement
+in the development process [104] or providing more training opportunities to increase
+their exposure to AI-enabled devices, thus reducing irrational fears [111]
+5.3 Limitations and Implications for Future Research
+The current meta-analysis is not without limitations. First, the present study
+offers insight into the predictors of use intention as the key determining factor of
+actual use. However, some healthcare practitioners may express intentions to use AI-
+CDSSs but are hesitant when it comes to their actual implementation. Few studies
+included in the meta-analysis examined the predictors of actual use, underscoring
+the need for additional research on predictors of the actual use of AI-CDSSs [4,46].
+Second, we were unable to explain the considerable variation in some of the
+effects based on moderator analyses. We could not evaluate three UTAUT
+moderators—experience with AI-CDSSs, voluntariness of use, and occupation—
+owing to insufficient samples incorporating these variables. Additionally, although all
+studies including AI anxiety reported negative relationships with use intention, the
+confidence interval of the meta-analytic estimate included zero due to the low sample
+39
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+size and the associated high uncertainty in the estimate. More studies on the
+relationship of AI anxiety with the intention to use AI-CDSSs are needed. The large
+credibility intervals and the low correlations between estimates and statistical artifacts
+suggest the existence of moderating factors not included in the meta-analysis [84,95].
+Future research should explore moderating effects, such as differences in the
+observed relationships among healthcare practitioners working in different fields or
+roles, to better understand the boundary conditions that affect the relationships
+between predictors and the intention to use AI-CDSSs.
+Third, the nine relevant predictors could not be examined in a single relative
+weight analysis. The use of multiple models with subsets of predictors is a pragmatic
+approach to addressing data sparsity. However, the selected approach hinders
+definitive conclusions regarding the importance of all considered predictors.
+Furthermore, innovativeness could not be assessed in the relative weights analysis
+due to a lack of available samples assessing this predictor. The compromises that
+had to be made in the relative weights analyses highlight the need for an updated
+meta-analysis that includes complete predictor sets.
+Fourth, the insight derived from the meta-analysis are primarily confined to
+unspecific AI-CDSSs. Given that AI-CDSS adoption is still limited, only a handful of
+studies have delved into exploring predictors of specific AI-CDSSs with distinctive
+features [4,24,37]. The results of these studies show that the attitude towards AI-
+CDSSs may vary depending on use cases and system features. Future research
+should examine the adoption of individual systems and variations in effects across
+different types of AI-CDSSs.
+Fifth, the existing body of research on AI-CDSS adoption primarily relies on
+cross-sectional observational studies, with questionnaires as the main method of
+data collection. These studies inherently limit the establishment of causal
+40
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+relationships, thus underscoring the need for future research to include longitudinal
+or experimental designs for more robust evidence of causality. Longitudinal studies
+may also be used to shed light on the development of use intention and the
+relevance of relevant predictors over time. For example, it is possible that initial trust
+plays a crucial role during the implementation phase, but becomes less relevant once
+a system has been successfully implemented.
+Sixth, we selected the UTAUT as a general theoretical framework to examine
+the predictors of the intention to use AI-CDSSs. However, there has been some
+criticism of the UTAUT [62,114]. For example, the UTAUT may not answer questions
+related to the determinants and processes involved in value-adding technology use
+[62,115,116]. We found support for the prediction that beliefs about the performance
+and ease of use of AI-CDSSs lead to a higher intention to use these systems.
+However, based on the UTAUT, it may not be resolved whether these beliefs are well-
+founded, i.e., whether positive expectations actually lead to beneficial use because
+the system is indeed high-performing and easily implementable. Another criticism
+pertains to the UTAUT's narrow viewpoint on individual use. Other models, such as
+the non-adoption, abandonment, scale-up, spread, and sustainability (NASSS)
+framework [117] adopt a system perspective. This approach enables the examination
+of predictors on micro (individual technology users), meso (organizational processes
+and systems), and macro (national policy and wider context) levels, thereby more
+accurately representing the complex processes involved in technology adoption
+[117,118]. Additionally, the UTAUT focuses on an individual's intention to use a
+technology and does not fundamentally consider how well the technology fits the task
+it is being utilized for. Theories such as the task-technology fit (TTF) model examine
+the interconnectedness between task and technological characteristics. The model
+delves into how features of both the assigned task and the technology at hand shape
+41
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+the task-technology fit, thereby influencing the overall performance and use
+intentions [119].
+Finally, some of the predictors included in the current meta-analysis,
+particularly the additional predictors beyond the UTAUT, may not be adequately
+represented using standard measurement instruments. For instance, AI anxiety has a
+multitude of dimensions, such as privacy violation anxiety, bias behavior anxiety, job
+replacement anxiety, learning anxiety, or ethics violation anxiety [120]. The current
+meta-analysis does not distinguish between these different aspects of AI anxiety as
+separate predictors of AI-CDSS use intentions. Similarly, trust in AI is a multifaceted
+construct that includes perceptions of the system's benevolence, competence, and
+integrity [46,47]. Moreover, trust may refer to different aspects of an AI-CDSS, such
+as trust in the reliability of its predictions when being applied to different contexts,
+trust in legal protection if harm to patients occurs from using the AI-CDSS, and trust
+in data privacy [3,45,121]. More research is needed that explores the relevance of
+different elements of trust (i.e., benevolence, competence, integrity) and elements of
+the AI-CDSS that may be trusted to different degrees (e.g., reliability, legal and
+liability issues, privacy concerns) for the intention to use AI-CDSSs in clinical
+decision-making [121].
+6. Conclusion
+The meta-analysis underscores the relevance of the UTAUT to examine the
+predictors of the intention to use AI-CDSSs in healthcare. The results indicate that
+performance expectancy, effort expectancy, social influence, and facilitating
+conditions are positively related to the intention to use AI-CDSSs among healthcare
+practitioners. The analyses further reveal the relevance of the additional predictors
+attitude, trust, personal innovativeness, AI anxiety, and perceived risk. The results of
+mediation analyses show that expectancy and performance expectancy explain the
+42
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+relationship between facilitating conditions and use intention. Despite identifying age
+and AI-CDSSs type as moderating influences, there is scope for future research to
+investigate other possible moderators to explain the variability in the observed
+effects. While the UTAUT model provides a theoretical framework for studying
+healthcare practitioners' intention to use AI-CDSSs, it remains relatively silent on the
+predictors of value-adding use of AI-CDSSs. Future research could investigate the
+conditions that encourage value-adding usage by applying comprehensive
+frameworks that consider both individual and broader organizational processes (for
+example, clinic systems and administrative hurdles). Finally, the findings of this meta-
+analysis provide starting points for the development and integration of AI-CDSSs that
+are likely to be adopted by healthcare practitioners as end users.
+43
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Conflicts of Interest
+The authors have no conflicts of interest to declare.
+44
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+Acknowledgements
+The research was funded by the Volkswagen Foundation (Grant number: 98 525).
+45
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+References
+1. Russell SJ, Norvig P. Artificial intelligence : a modern approach. Pearson; 2016.
+Available from: https://thuvienso.hoasen.edu.vn/handle/123456789/8967 [accessed Apr
+1, 2024]ISBN:978-1-292-15396-4
+2. Henry K, Kornfield R, Sridharan A, Linton R, Groh C, Wang T, Wu A, Mutlu B, Saria
+S. Human-machine teaming is key to AI adoption: clinicians’ experiences with a
+deployed machine learning system. Npj Digit Med 2022 Jul 21;5(97):1–6. doi:
+10.1038/s41746-022-00597-7
+3. Tran A, Nguyen L, Nguyen H, Nguyen C, Vu L, Zhang M, Vu T, Nguyen S, Tran B,
+Latkin C, Ho R, Ho C. Determinants of intention to use artificial intelligence-based
+diagnosis support system among prospective physicians. Front Public Health 2021 Nov
+26;9:1–9. doi: 10.3389/fpubh.2021.755644
+4. Zhai H, Yang X, Xue J, Lavender C, Ye T, Li J-B, Xu L, Lin L, Cao W, Sun Y.
+Radiation oncologists’ perceptions of adopting an artificial intelligence–assisted
+contouring technology: Model development and questionnaire study. J Med Internet
+Res 2021 Sep 30;23(9):1–16. doi: 10.2196/27122
+5. Berner ES, La Lande TJ. Overview of clinical decision support systems. Clin Decis
+Support Syst Theory Pract 2016;1–17. doi: 10.1007/978-3-319-31913-1_1
+6. Knop M, Weber S, Mueller M, Niehaves B. Human factors and technological
+characteristics influencing the interaction of medical professionals with artificial
+intelligence–enabled clinical decision support systems: Literature review. JMIR Hum
+Factors 2022 Mar 24;9(1):1–12. doi: 10.2196/28639
+7. Sutton RT, Pincock D, Baumgart DC, Sadowski DC, Fedorak RN, Kroeker KI. An
+overview of clinical decision support systems: benefits, risks, and strategies for
+success. Npj Digit Med Nature Publishing Group; 2020;3(1):1–10. doi:
+10.1038/s41746-020-0221-y
+8. Juhn Y, Liu H. Artificial intelligence approaches using natural language processing to
+advance EHR-based clinical research. J Allergy Clin Immunol 2020;145(2):463–469.
+doi: 10.1016/j.jaci.2019.12.897
+9. Ramgopal S, Sanchez-Pinto LN, Horvat CM, Carroll MS, Luo Y, Florin TA. Artificial
+intelligence-based clinical decision support in pediatrics. Pediatr Res
+2023;93(2):Article 2. doi: 10.1038/s41390-022-02226-1
+10. Harada T, Miyagami T, Kunitomo K, Shimizu T. Clinical decision support systems for
+diagnosis in primary care: A scoping review. Int J Environ Res Public Health 2021 Aug
+10;18(16):1–14. doi: 10.3390/ijerph18168435
+11. Musen MA, Middleton B, Greenes RA. Clinical Decision-Support Systems. In:
+Shortliffe EH, Cimino JJ, editors. Biomed Inform Comput Appl Health Care Biomed
+Cham: Springer International Publishing; 2021. p. 795–840. doi: 10.1007/978-3-030-
+58721-5_24
+12. Mucha H, Robert S, Breitschwerdt R, Fellmann M. Usability of clinical decision
+support systems. Z Für Arbeitswissenschaft 2023 Mar 1;77(1):92–101. doi:
+46
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+10.1007/s41449-022-00324-8
+13. Vasey B, Nagendran M, Campbell B, Clifton DA, Collins GS, Denaxas S, Denniston
+AK, Faes L, Geerts B, Ibrahim M, Liu X, Mateen BA, Mathur P, McCradden MD,
+Morgan L, Ordish J, Rogers C, Saria S, Ting DSW, Watkinson P, Weber W, Wheatstone
+P, McCulloch P. Reporting guideline for the early-stage clinical evaluation of decision
+support systems driven by artificial intelligence: DECIDE-AI. Nat Med Nature
+Publishing Group; 2022 May;28(5):924–933. doi: 10.1038/s41591-022-01772-9
+14. Zhang R, Zhang Z, Wang D, Liu Z. Editorial: Responsible AI in healthcare:
+Opportunities, challenges, and best practices. Front Comput Sci 2023;5. doi:
+10.3389/fcomp.2023.1265902
+15. Vasey B, Ursprung S, Beddoe B, Taylor EH, Marlow N, Bilbro N, Watkinson P,
+McCulloch P. Association of clinician diagnostic performance with machine learning–
+based decision support systems: A systematic review. JAMA Netw Open 2021 Mar
+11;4(3):1–15. doi: 10.1001/jamanetworkopen.2021.1276
+16. Choi D-J, Park JJ, Ali T, Lee S. Artificial intelligence for the diagnosis of heart failure.
+NPJ Digit Med 2020;3(1):1–6. doi: 10.1038/s41746-020-0261-3
+17. Duran J, Jongsma K. Who is afraid of black box algorithms? On the epistemological
+and ethical basis of trust in medical AI. J Med Ethics 2021;47(5):329–335. doi:
+10.1136/medethics-2020-106820
+18. Wang L, Chen X, Zhang L, Li L, Huang Y, Sun Y, Yuan X. Artificial intelligence in
+clinical decision support systems for oncology. Int J Med Sci 2023;20(1):79. doi:
+10.7150/ijms.77205
+19. Hummelsberger P, Koch TK, Rauh S, Dorn J, Lermer E, Raue M, Hudecek MFC,
+Schicho A, Colak E, Ghassemi M, Gaube S. Insights on the current state and future
+outlook of AI in health care: Expert interview study. JMIR AI 2023;2(1):1–17. doi:
+10.2196/47353
+20. Lorenzini G., Arbelaez Ossa L., Shaw D.M., Elger B.S. Artificial intelligence and the
+doctor-patient relationship expanding the paradigm of shared decision making.
+Bioethics United Kingdom: NLM (Medline); 2023;((Lorenzini, Arbelaez Ossa, Shaw,
+Elger) Institute for Biomedical Ethics, University of Basel, Basel, Switzerland). doi:
+10.1111/bioe.13158
+21. Van Cauwenberge D., Van Biesen W., Decruyenaere J., Leune T., Sterckx S. “Many
+roads lead to Rome and the Artificial Intelligence only shows me one road”: an
+interview study on physician attitudes regarding the implementation of computerised
+clinical decision support systems. BMC Med Ethics United Kingdom: NLM (Medline);
+2022;23(1):50. doi: 10.1186/s12910-022-00787-8
+22. Venkatesh V, Morris MG, Davis GB, Davis FD. User acceptance of information
+technology: Toward a unified view. MIS Q 2003;27(3):425–478. doi:
+10.2307/30036540
+23. Cheng M, Li X, Xu J. Promoting healthcare workers’ adoption intention of artificial-
+intelligence-assisted diagnosis and treatment: The chain mediation of social influence
+and human-computer trust. Int J Environ Res Public Health 2022;19(20):1–19. doi:
+47
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+10.3390/ijerph192013311
+24. Kleine A-K, Kokje E, Lermer E, Gaube S. Attitudes toward the adoption of 2 artificial
+intelligence–enabled mental health tools among prospective psychotherapists: Cross-
+sectional study. JMIR Hum Factors 2023;10:1–15. doi: https://doi.org/10.2196/46859
+25. Tamori H, Yamashina H, Mukai M, Morii Y, Suzuki T, Ogasawara K. Acceptance of the
+use of artificial intelligence in medicine among japan’s doctors and the public: A
+questionnaire survey. JMIR Hum Factors 2022 Mar 16;9(1):1–10. doi: 10.2196/24680
+26. Dwivedi YK, Rana NP, Chen H, Williams MD. A meta-analysis of the unified theory of
+acceptance and use of technology (UTAUT). Gov Sustain Inf Syst - Manag Transf
+Diffus IT Hamburg, Germany, September 22-24: Springer; 2011. p. 155–170. doi:
+10.1007/978-3-642-24148-2_10
+27. Fujimori R, Liu K, Soeno S, Naraba H, Ogura K, Hara K, Sonoo T, Ogura T, Nakamura
+K, Goto T. Acceptance, barriers, and facilitators to implementing artificial intelligence–
+based decision support systems in emergency departments: Quantitative and qualitative
+evaluation. JMIR Form Res 2022 Jun 13;6(6):1–12. doi: 10.2196/36501
+28. Laka M, Milazzo A, Merlin T. Factors that impact the adoption of clinical decision
+support systems (CDSS) for antibiotic management. Int J Environ Res Public Health
+2021 Jan;18(4):1–14. doi: 10.3390/ijerph18041901
+29. Seliaman ME, Albahly MS. The reasons for physicians and pharmacists’ acceptance of
+clinical support systems in Saudi Arabia. Int J Environ Res Public Health
+Multidisciplinary Digital Publishing Institute; 2023 Jan;20(4):1–19. doi:
+10.3390/ijerph20043132
+30. Dwivedi YK, Rana NP, Jeyaraj A, Clement M, Williams MD. Re-examining the unified
+theory of acceptance and use of technology (UTAUT): Towards a revised theoretical
+model. Inf Syst Front 2019;21:719–734. doi: 10.1007/s10796-017-9774-y
+31. Khechine H, Lakhal S, Ndjambou P. A meta-analysis of the UTAUT model: Eleven
+years later. Can J Adm Sci Can Sci Adm 2016;33(2):138–152. doi: 10.1002/cjas.1381
+32. Ajzen I. The theory of planned behavior. Organ Behav Hum Decis Process
+1991;50(2):179–211. doi: 10.1016/0749-5978(91)90020-T
+33. Davis FD. Perceived usefulness, perceived ease of use, and user acceptance of
+information technology. MIS Q 1989;13(3):319–340. doi: 10.2307/249008
+34. Duan Y, Edwards JS, Dwivedi YK. Artificial intelligence for decision making in the era
+of Big Data–evolution, challenges and research agenda. Int J Inf Manag 2019;48:63–
+71. doi: 10.1016/j.ijinfomgt.2019.01.021
+35. Fan W, Liu J, Zhu S, Pardalos P. Investigating the impacting factors for the healthcare
+professionals to adopt artificial intelligence-based medical diagnosis support system
+(AIMDSS). Ann Oper Res 2020 Nov;294(1–2):567–592. doi: 10.1007/s10479-018-
+2818-y
+36. Prakash AV, Das S. Medical practitioner’s adoption of intelligent clinical diagnostic
+decision support systems: A mixed-methods study. Inf Manage 2021;58(7). doi:
+48
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+10.1016/j.im.2021.103524
+37. Panigutti C, Beretta A, Giannotti F, Pedreschi D. Understanding the impact of
+explanations on advice-taking: A user study for AI-Based clinical decision support
+systems. Proc 2022 CHI Conf Hum Factors Comput Syst New York, NY, USA:
+Association for Computing Machinery; 2022. p. 1–9. doi: 10.1145/3491102.3502104
+38. Akinnuwesi BA, Uzoka F-ME, Fashoto SG, Mbunge E, Odumabo A, Amusa OO,
+Okpeku M, Owolabi O. A modified UTAUT model for the acceptance and use of digital
+technology for tackling COVID-19. Sustain Oper Comput 2022 Jan 1;3:118–135. doi:
+10.1016/j.susoc.2021.12.001
+39. Dwivedi Y, Rana N, Tamilmani K, Raman R. A meta-analysis based modified unified
+theory of acceptance and use of technology (meta-UTAUT): A review of emerging
+literature. Curr Opin Psychol 2020 Apr 1;36:13–18. doi: 10.1016/j.copsyc.2020.03.008
+40. Venkatesh V, Thong JYL, Xu X. Consumer acceptance and use of information
+technology: Extending the unified theory of acceptance and use of technology. MIS Q
+Management Information Systems Research Center, University of Minnesota;
+2012;36(1):157–178. doi: 10.2307/41410412
+41. Rudolph CW, Katz IM, Lavigne KN, Zacher H. Job crafting: A meta-analysis of
+relationships with individual differences, job characteristics, and work outcomes. J
+Vocat Behav 2017;102:112–138.
+42. Kleine A-K, Rudolph CW, Zacher H. Thriving at work: A meta-analysis. J Organ Behav
+2019;40(9–10):973–999. doi: 10.1002/job.2375
+43. Fishbein M, Ajzen I. Belief, attitude, intention, and behavior: An introduction to theory
+and research. Addison-Wesley Publication Company; 1975.
+44. Dalvi-Esfahani M, Mosharaf-Dehkordi M, Leong LW, Ramayah T, Jamal Kanaan-
+Jebna AM. Exploring the drivers of XAI-enhanced clinical decision support systems
+adoption: Insights from a stimulus-organism-response perspective. Technol Forecast
+Soc Change 2023 Oct 1;195. doi: 10.1016/j.techfore.2023.122768
+45. Kohnke A, Cole ML, Bush R. Incorporating UTAUT predictors for understanding
+home care patients’ and clinician’s acceptance of healthcare telemedicine equipment. J
+Technol Manag Innov 2014;9(2):29–41. doi: 10.4067/S0718-27242014000200003
+46. Ritter C. User-based barriers to the adoption of artificial intelligence in healthcare [PhD
+Thesis]. Capella University; 2019.
+47. Mcknight DH, Carter M, Thatcher JB, Clay PF. Trust in a specific technology: An
+investigation of its components and measures. ACM Trans Manag Inf Syst 2011 Jul
+1;2(2):1–25. doi: 10.1145/1985347.1985353
+48. McKnight DH. Trust in information technology. Blackwell Encycl Manag 2005. p.
+329–331.
+49. Thiebes S, Lins S, Sunyaev A. Trustworthy artificial intelligence. Electron Mark 2021
+Jun 1;31(2):447–464. doi: 10.1007/s12525-020-00441-4
+49
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+50. Cornelissen L, Egher C, van Beek V, Williamson L, Hommes D. The drivers of
+acceptance of artificial intelligence-powered care pathways among medical
+professionals: Web-based survey study. JMIR Form Res 2022;6(6):1–12. doi:
+10.2196/33368
+51. Bauer RA. Consumer behavior as risk taking. Mark Crit Perspect Bus Manag New
+York, NY: Routledge; 2001. p. 568.
+52. Pan J, Ding S, Wu D, Yang S, Yang J. Exploring behavioural intentions toward smart
+healthcare services among medical practitioners: a technology transfer perspective. Int
+J Prod Res 2019 Sep 17;57(18):5801–5820. doi: 10.1080/00207543.2018.1550272
+53. Calisto FM, Nunes N, Nascimento JC. Modeling adoption of intelligent agents in
+medical imaging. Int J Hum-Comput Stud 2022 Dec;168:1–15. doi:
+10.1016/j.ijhcs.2022.102922
+54. Johnson D, Verdicchio M. AI anxiety. J Assoc Inf Sci Technol 2017 Jun 22;68. doi:
+10.1002/asi.23867
+55. Kim J, Kadkol S, Solomon I, Yeh H, Soh J, Nguyen T, Choi J, Lee S, Srivatsa A,
+Nahass G, Ajilore O. AI anxiety: A comprehensive analysis of psychological factors
+and interventions. SSRN Electron J 2023 Sep 15;29. doi: 10.2139/ssrn.4573394
+56. Agarwal R, Prasad J. A conceptual and operational definition of personal
+innovativeness in the domain of information technology. Inf Syst Res INFORMS; 1998
+Jun;9(2):204–215. doi: 10.1287/isre.9.2.204
+57. Ciftci O, Berezina K, Kang M. Effect of personal innovativeness on technology
+adoption in hospitality and tourism: Meta-analysis. In: Wörndl W, Koo C, Stienmetz
+JL, editors. Inf Commun Technol Tour 2021 Cham: Springer International Publishing;
+2021. p. 162–174. doi: 10.1007/978-3-030-65785-7_14
+58. Lu J, Yao JE, Yu C-S. Personal innovativeness, social influences and adoption of
+wireless Internet services via mobile technology. J Strateg Inf Syst 2005 Sep
+1;14(3):245–268. doi: 10.1016/j.jsis.2005.07.003
+59. Smith H, Downer J, Ives J. Clinicians and AI use: where is the professional guidance? J
+Med Ethics Institute of Medical Ethics; 2023 Aug 22;1–5. PMID:37607805
+60. Blut M, Chong A, Tsigna Z, Venkatesh V. Meta-analysis of the unified theory of
+acceptance and use of technology (UTAUT): Challenging its validity and charting a
+research agenda in the Red Ocean. J Assoc Inf Syst 2022 Jan 1;23:13–95. doi:
+10.17705/1jais.00719
+61. Holden RJ, Karsh B-T. The technology acceptance model: its past and its future in
+health care. J Biomed Inform 2010;43(1):159–172. doi: 10.1016/j.jbi.2009.07.002
+62. Liu L, Miguel Cruz A, Rios Rincon A, Buttar V, Ranson Q, Goertzen D. What factors
+determine therapists’ acceptance of new technologies for rehabilitation–a study using
+the Unified Theory of Acceptance and Use of Technology (UTAUT). Disabil Rehabil
+2015;37(5):447–455. doi: 10.3109/09638288.2014.923529
+63. Shachak A, Kuziemsky C, Petersen C. Beyond TAM and UTAUT: Future directions for
+50
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+HIT implementation research. J Biomed Inform 2019 Dec 1;100:1–5. doi:
+10.1016/j.jbi.2019.103315
+64. Huang K-Y, Choi N, Chengalur-Smith I. Cultural dimensions as moderators of the
+UTAUT model: A research proposal in a healthcare context. Proc Sixt Am Conf Inf
+Syst Lima, Peru, August 12-15, 2010; 2010. p. 1–10. Available from:
+https://aisel.aisnet.org/amcis2010/188
+65. Lin H-C. An investigation of the effects of cultural differences on physicians’
+perceptions of information technology acceptance as they relate to knowledge
+management systems. Comput Hum Behav 2014 Sep;38:368–380. doi:
+10.1016/j.chb.2014.05.001
+66. Venkatesh V. Determinants of perceived ease of use: Integrating control, intrinsic
+motivation, and emotion into the technology acceptance model. Inf Syst Res 2000
+Dec;11(4):342–365. doi: 10.1287/isre.11.4.342.11872
+67. Benjamens S, Dhunnoo P, Meskó B. The state of artificial intelligence-based FDA-
+approved medical devices and algorithms: an online database. Npj Digit Med
+2020;3(1):118. doi: 10.1038/s41746-020-00324-0
+68. Wang D, Wang L, Zhang Z, Wang D, Zhu H, Gao Y, Fan X, Tian F. “Brilliant AI
+doctor” in rural clinics: Challenges in AI-powered clinical decision support system
+deployment. Proc 2021 CHI Conf Hum Factors Comput Syst New York, NY, USA:
+Association for Computing Machinery; 2021. p. 1–18. doi: 10.1145/3411764.3445432
+69. Pikkemaat M, Thulesius H, Nymberg V. Swedish primary care physicians’ intentions to
+use telemedicine: a survey using a new questionnaire - physician attitudes and
+intentions to use telemedicine (PAIT). Int J Gen Med 2021;14:3445–3455. doi:
+10.2147/IJGM.S319497
+70. Alomari A, Soh B. Determinants of medical internet of things adoption in healthcare
+and the role of demographic factors incorporating modified UTAUT. Int J Adv Comput
+Sci Appl Science and Information (SAI) Organization Limited; 2023;14(7):17–31. doi:
+10.14569/IJACSA.2023.0140703
+71. Wichmann JL, Willemink MJ, De Cecco CN. Artificial intelligence and machine
+learning in radiology: Current state and considerations for routine clinical
+implementation. Invest Radiol 2020;55(9):619–627. doi:
+10.1097/RLI.0000000000000673
+72. Definition and list of health professionals. Transform Scaling Health Prof Educ Train
+World Health Organ Guidel 2013 World Health Organization; 2013. Available from:
+https://www.ncbi.nlm.nih.gov/books/NBK298950/ [accessed Jan 27, 2024]
+73. Moher D, Liberati A, Tetzlaff J, Altman DG, PRISMA Group. Preferred reporting items
+for systematic reviews and meta-analyses: the PRISMA statement. Ann Intern Med
+2009;151(4):264–269. doi: 10.7326/0003-4819-151-4-200908180-00135
+74. Richardson WS, Wilson MC, Nishikawa J, Hayward RS. The well-built clinical
+question: a key to evidence-based decisions. ACP J Club 1995;123(3). doi:
+10.7326/ACPJC-1995-123-3-A12
+51
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+75. Alhashmi SFS, Alshurideh M, Al Kurdi B, Salloum SA. A systematic review of the
+factors affecting the artificial intelligence implementation in the health care sector. In:
+Hassanien A-E, Azar AT, Gaber T, Oliva D, Tolba FM, editors. Proc Int Conf Artif
+Intell Comput Vis AICV2020 Cham: Springer International Publishing; 2020. p. 37–49.
+doi: 10.1007/978-3-030-44289-7_4
+76. AlQudah AA, Al-Emran M, Shaalan K. Technology acceptance in healthcare: A
+systematic review. Appl Sci 2021;11(22):1–40. doi: 10.3390/app112210537
+77. Chen M, Zhang B, Cai Z, Seery S, Gonzalez MJ, Ali NM, Ren R, Qiao Y, Xue P, Jiang
+Y. Acceptance of clinical artificial intelligence among physicians and medical students:
+A systematic review with cross-sectional survey. Front Med 2022;9. doi:
+10.3389/fmed.2022.990604
+78. Chong AYL, Blut M, Zheng S. Factors influencing the acceptance of healthcare
+information technologies: A meta-analysis. Inf Manage 2022 Apr 1;59(3). doi: 10.1016/
+j.im.2022.103604
+79. Santomartino SM, Yi PH. Systematic review of radiologist and medical student
+attitudes on the role and impact of AI in radiology. Acad Radiol 2022 Nov
+1;29(11):1748–1756. doi: 10.1016/j.acra.2021.12.032
+80. Jiang L, Lavaysse LM. Cognitive and affective job insecurity: A meta-analysis and a
+primary study. J Manag SAGE Publications Inc; 2018 Jul 1;44(6):2307–2342. doi:
+10.1177/0149206318773853
+81. Hoffman BJ, Woehr DJ. A quantitative review of the relationship between person–
+organization fit and behavioral outcomes. J Vocat Behav 2006 Jun 1;68(3):389–399.
+doi: 10.1016/j.jvb.2005.08.003
+82. Posit team. RStudio: Integrated development environment for R. Boston, MA: Posit
+Software, PBC; 2023. Available from: http://www.posit.co/
+83. Dahlke JA, Wiernik BM. psychmeta: An R package for psychometric meta-analysis.
+Appl Psychol Meas 2019;43(5):415–416. doi: 10.1177/0146621618795933
+84. Cheung MW-L. metaSEM: An R package for meta-analysis using structural equation
+modeling. Front Psychol 2015;5:7. doi: 10.3389/fpsyg.2014.01521
+85. Schmidt FL, Hunter JE. Methods of meta-analysis: Correcting error and bias in
+research findings. Third edition. Sage; 2015. Available from:
+https://doi.org/10.4135/9781483398105
+86. Johnson JW. A heuristic method for estimating the relative weight of predictor variables
+in multiple regression. Multivar Behav Res 2000;35(1):1–19. doi:
+10.1207/S15327906MBR3501_1
+87. Viswesvaran C, Ones DS. Theory testing: Combining psychometric meta-analysis and
+structural equations modeling. Pers Psychol 1995;48(4):865–885. doi: 10.1111/j.1744-
+6570.1995.tb01784.x
+88. LeBreton JM, Hargis MB, Griepentrog B, Oswald FL, Ployhart RE. A
+multidimensional approach for evaluating variables in organizational research and
+52
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+practice. Pers Psychol 2007;60(2):475–498. doi: 10.1111/j.1744-6570.2007.00080.x
+89. Tonidandel S, LeBreton JM. Relative importance analysis: A useful supplement to
+regression analysis. J Bus Psychol 2011;26:1–9. doi: 10.1007/s10869-010-9204-3
+90. Borenstein M, Hedges LV, Higgins JP, Rothstein HR. Introduction to meta-analysis.
+2nd ed. Hoboken, NJ: John Wiley & Sons; 2021.
+91. Hofstede G. Culture’s Consequences: International Differences in Work-Related
+Values. SAGE; 1984. ISBN:978-0-8039-1306-6
+92. Minkov M, Kaasa A. Do dimensions of culture exist objectively? A validation of the
+revised Minkov-Hofstede model of culture with World Values Survey items and scores
+for 102 countries. J Int Manag 2022 Dec 1;28(4). doi: 10.1016/j.intman.2022.100971
+93. Jak S. Meta-analytic structural equation modelling. Springer; 2015.
+94. Cheung MW-L. Meta-analysis: A structural equation modeling approach. John Wiley &
+Sons; 2015.
+95. Cheung MW-L, Chan W. Meta-analytic structural equation modeling: a two-stage
+approach. Psychol Methods 2005;10(1):40–64. doi: 10.1037/1082-989X.10.1.40
+96. Whitener EM. Confusion of confidence intervals and credibility intervals in meta-
+analysis. J Appl Psychol US: American Psychological Association; 1990;75(3):315–
+321. doi: 10.1037/0021-9010.75.3.315
+97. Tucci V, Saary J, Doyle TE. Factors influencing trust in medical artificial intelligence
+for healthcare professionals: a narrative review. J Med Artif Intell AME Publishing
+Company; 2022 Mar 30;5(0):13. doi: 10.21037/jmai-21-25
+98. Berge GT, Granmo OC, Tveit TO, Munkvold BE, Ruthjersen AL, Sharma J. Machine
+learning-driven clinical decision support system for concept-based searching: a field
+trial in a Norwegian hospital. BMC Med Inform Decis Mak 2023 Jan 10;23(1):5. doi:
+10.1186/s12911-023-02101-x
+99. Evans RP, Bryant LD, Russell G, Absolom K. Trust and acceptability of data-driven
+clinical recommendations in everyday practice: A scoping review. Int J Med Inf 2024
+Mar 1;183. doi: 10.1016/j.ijmedinf.2024.105342
+100. Lambert SI, Madi M, Sopka S, Lenes A, Stange H, Buszello C-P, Stephan A. An
+integrative review on the acceptance of artificial intelligence among healthcare
+professionals in hospitals. Npj Digit Med 2023 Jun 10;6(1):1–14. doi: 10.1038/s41746-
+023-00852-5
+101. Philippi P, Baumeister H, Apolinário-Hagen J, Ebert DD, Hennemann S, Kott L, Lin J,
+Messner E-M, Terhorst Y. Acceptance towards digital health interventions – model
+validation and further development of the Unified Theory of Acceptance and Use of
+Technology. Internet Interv 2021 Dec 1;26:1–9. doi: 10.1016/j.invent.2021.100459
+102. Liu C-F, Chen Z-C, Kuo S-C, Lin T-C. Does AI explainability affect physicians’
+intention to use AI? Int J Med Inf 2022 Dec 1;168. doi:
+10.1016/j.ijmedinf.2022.104884
+53
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+103. Kaya F, Aydin F, Schepman A, Rodway P, Yetişensoy O, Demir Kaya M. The roles of
+personality traits, AI anxiety, and demographic factors in attitudes toward artificial
+intelligence. Int J Human–Computer Interact Taylor & Francis; 2024 Jan 17;40(2):497–
+514. doi: 10.1080/10447318.2022.2151730
+104. Huo W, Zheng G, Yan J, Sun L, Han L. Interacting with medical artificial intelligence:
+Integrating self-responsibility attribution, human–computer trust, and personality.
+Comput Hum Behav 2022 Jul 1;132. doi: 10.1016/j.chb.2022.107253
+105. Huo W, Yuan X, Li X, Luo W, Xie J, Shi B. Increasing acceptance of medical AI: The
+role of medical staff participation in AI development. Int J Med Inf 2023 Jul
+1;175:105073. doi: 10.1016/j.ijmedinf.2023.105073
+106. Foster TL, Bowie P. Professional values and behaviours of younger and older general
+practitioners in Scotland: a cross-sectional survey. BMJ Lead BMJ Specialist Journals;
+2020 Jun 1;4(2):57–63. doi: 10.1136/leader-2019-000138
+107. Jena RK. Exploring Antecedents of Peoples’ Intentions to Use Smart Services in a
+Smart City Environment: An Extended UTAUT Model. J Inf Syst 2022 Mar
+1;36(1):133–149. doi: 10.2308/ISYS-2020-050
+108. Gaube S, Suresh H, Raue M, Merritt A, Berkowitz SJ, Lermer E, Coughlin JF, Guttag
+JV, Colak E, Ghassemi M. Do as AI say: susceptibility in deployment of clinical
+decision-aids. Npj Digit Med 2021 Feb 19;4(1):1–8. doi: 10.1038/s41746-021-00385-9
+109. Kleine A-K, Lermer E, Cecil J, Heinrich A, Gaube S. Advancing mental health care
+with AI-enabled precision psychiatry tools: A patent review. Comput Hum Behav Rep
+2023 Dec 1;12:1–11. doi: 10.1016/j.chbr.2023.100322
+110. Muehlematter UJ, Daniore P, Vokinger KN. Approval of artificial intelligence and
+machine learning-based medical devices in the USA and Europe (2015–20): A
+comparative analysis. Lancet Digit Health Elsevier B.V.; 2021;3(3):195–203. doi:
+10.1016/S2589-7500(20)30292-2
+111. Hlávka JP. Chapter 10 - Security, privacy, and information-sharing aspects of healthcare
+artificial intelligence. In: Bohr A, Memarzadeh K, editors. Artif Intell Healthc
+Academic Press; 2020. p. 235–270. doi: 10.1016/B978-0-12-818438-7.00010-1
+112. Lukyanenko R, Maass W, Storey VC. Trust in artificial intelligence: From a
+Foundational Trust Framework to emerging research opportunities. Electron Mark 2022
+Dec 1;32(4):1993–2020. doi: 10.1007/s12525-022-00605-4
+113. Yang W, Wei Y, Wei H, Chen Y, Huang G, Li X, Li R, Yao N, Wang X, Gu X, Amin
+MB, Kang B. Survey on explainable AI: From approaches, limitations and applications
+aspects. Hum-Centric Intell Syst 2023 Sep 1;3(3):161–188. doi: 10.1007/s44230-023-
+00038-y
+114. Price WN, Cohen IG. Privacy in the age of medical big data. Nat Med Nature
+Publishing Group; 2019 Jan;25(1):37–43. doi: 10.1038/s41591-018-0272-7
+115. Goodman KE, Morgan DJ, Hoffmann DE. Clinical Algorithms, Antidiscrimination
+Laws, and Medical Device Regulation. JAMA 2023 Jan 24;329(4):285–286. doi:
+10.1001/jama.2022.23870
+54
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+116. Neff MC, Schaaf J, Noll R, Holtz S, Schütze D, Köhler SM, Müller B, Ahmadi N, von
+Wagner M, Storf H. Initial User-Centred Design of an AI-Based Clinical Decision
+Support System for Primary Care. Stud Health Technol Inform 2024 Jan 25;310:1051–
+1055. PMID:38269975
+117. Beltrão G, Paramonova I, Sousa S. User Interface Design for AI-Based Clinical
+Decision-Support System : Preliminary Study. 2022. p. 1–4. doi:
+10.23919/CISTI54924.2022.9820378
+118. Wang W, Wang Y, Chen L, Ma R, Zhang M. Justice at the Forefront: Cultivating felt
+accountability towards Artificial Intelligence among healthcare professionals. Soc Sci
+Med 2024 Apr 1;347:1–11. doi: 10.1016/j.socscimed.2024.116717
+119. Kwak Y, Ahn J-W, Seo YH. Influence of AI ethics awareness, attitude, anxiety, and
+self-efficacy on nursing students’ behavioral intentions. BMC Nurs 2022 Sep
+30;21(1):267. doi: 10.1186/s12912-022-01048-0
+120. Vallo Hult H, Hansson A, Gellerstedt M. Digitalization and physician learning:
+Individual practice, organizational context, and social norm. J Contin Educ Health Prof
+2020;40(4):220–227. PMID:33284172
+121. Thakkar B, Bharathi V. Medical specialists’ perception about adoption of artificial
+intelligence in the healthcare sector. Cardiometry 2022 Dec;(25):426–434. doi:
+10.18137/cardiometry.2022.25.426434
+122. Bayaga A, du Plessis A. Ramifications of the unified theory of acceptance and use of
+technology (UTAUT) among developing countries’ higher education staffs. Educ Inf
+Technol 2023 Sep 19; doi: 10.1007/s10639-023-12194-6
+123. Novak LL, Anders S, Gadd CS, Lorenzi NM. Mediation of adoption and use: a key
+strategy for mitigating unintended consequences of health IT implementation. J Am
+Med Inform Assoc 2012 Nov 1;19(6):1043–1049. doi: 10.1136/amiajnl-2011-000575
+124. Shachak A, Montgomery C, Dow R, Barnsley J, Tu K, Jadad AR, Lemieux-Charles L.
+End-user support for primary care electronic medical records: a qualitative case study
+of users’ needs, expectations, and realities. Health Syst 2013 Nov 1;2(3):198–212. doi:
+10.1057/hs.2013.6
+125. Greenhalgh T, Wherton J, Papoutsi C, Lynch J, Hughes G, A’Court C, Hinder S, Fahy
+N, Procter R, Shaw S. Beyond adoption: A new framework for theorizing and
+evaluating nonadoption, abandonment, and challenges to the scale-up, spread, and
+sustainability of health and care technologies. J Med Internet Res 2017 Nov
+1;19(11):1–21. doi: 10.2196/jmir.8775
+126. Greenhalgh T, Wherton J, Papoutsi C, Lynch J, Hughes G, A’Court C, Hinder S, Procter
+R, Shaw S. Analysing the role of complexity in explaining the fortunes of technology
+programmes: empirical application of the NASSS framework. BMC Med 2018 May
+14;16(1):66. doi: 10.1186/s12916-018-1050-6
+127. Abdekhoda M, Dehnad A, Zarei J. Factors influencing adoption of e-learning in
+healthcare: integration of UTAUT and TTF model. BMC Med Inform Decis Mak 2022
+Dec 9;22:327. PMID:36494800
+55
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+JMIR Preprints Dingel et al
+128. Li J, Huang J-S. Dimensions of artificial intelligence anxiety based on the integrated
+fear acquisition theory. Technol Soc 2020 Nov 1;63. doi:
+10.1016/j.techsoc.2020.101410
+129. Jones C, Thornton J, Wyatt JC. Artificial intelligence and clinical decision support:
+clinicians’ perspectives on trust, trustworthiness, and liability. Med Law Rev 2023 May
+22;31(4):501–520. PMID:37218368
+56
+https://preprints.jmir.org/preprint/57224 [unpublished, peer-reviewed preprint]
+Powered by TCPDF (www.tcpdf.org)

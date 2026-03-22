@@ -1,0 +1,391 @@
+International Journal of Academic Research in Business and Social Sciences
+Vol. 12, No. 12, 2022, E-ISSN: 2222-6990 © 2022 HRMARS
+Applications of Artificial Intelligence and Voice Assistant in
+Healthcare
+Elaheh Ahanin, Abu Bakar Sade, Huam Hon Tat
+To Link this Article: http://dx.doi.org/10.6007/IJARBSS/v12-i12/16048 DOI:10.6007/IJARBSS/v12-i12/16048
+Received: 13 October 2022, Revised: 17 November 2022, Accepted: 30 November 2022
+Published Online: 19 December 2022
+In-Text Citation: (Ahanin et al., 2022)
+To Cite this Article: Ahanin, E., Sade, A. B., & Tat, H. H. (2022). Applications of Artificial Intelligence and Voice
+Assistant in Healthcare. International Journal of Academic Research in Business and Social Sciences, 12(12),
+2545 – 2554.
+Copyright: © 2022 The Author(s)
+Published by Human Resource Management Academic Research Society (www.hrmars.com)
+This article is published under the Creative Commons Attribution (CC BY 4.0) license. Anyone may reproduce, distribute,
+translate and create derivative works of this article (for both commercial and non0-commercial purposes), subject to full
+attribution to the original publication and authors. The full terms of this license may be seen
+at: http://creativecommons.org/licences/by/4.0/legalcode
+Vol. 12, No. 12, 2022, Pg. 2545 – 2554
+http://hrmars.com/index.php/pages/detail/IJARBSS JOURNAL HOMEPAGE
+Full Terms & Conditions of access and use can be found at
+http://hrmars.com/index.php/pages/detail/publication-ethics
+2545
+International Journal of Academic Research in Business and Social Sciences
+Vol. 12, No. 12, 2022, E-ISSN: 2222-6990 © 2022 HRMARS
+Applications of Artificial Intelligence and Voice
+Assistant in Healthcare
+Elaheh Ahanin, Abu Bakar Sade, Huam Hon Tat
+Putra Business School, Universiti Putra Malaysia, Selangor, Malaysia
+Abstract
+The modern smart technology such as Artificial Intelligence (AI) is merging with humans’
+physical lives and is going to change the way we live, work, and interact. AI in the healthcare
+sector is gaining attention from researchers, health professionals, and life sciences
+companies. The new technology advancement has brought various opportunities in electronic
+health (e-health) that allows healthcare to be accessible regardless of distance using
+information and communication technologies (ICTs) such as use of blood pressure
+telemonitoring service and voice assistants. Voice Assistant (VA) as an emerging technology
+in healthcare helps to reduce expenses, build loyalty, drive revenue, and it is especially
+beneficial amidst COVID-19 outbreak as healthcare will need to move towards more touch-
+free technologies post-pandemic. In this paper, we summarize the latest developments of
+applications of AI and VA in healthcare, and some basic knowledge regarding the techniques,
+the current state of this technology in healthcare, and possible developments in future, which
+potentially can transform many aspects of patient care.
+Keywords: Artificial Intelligence, Voice Assistant, Electronic Health Record Systems, Machine
+Learning, Healthcare.
+Introduction
+Introduction of new technologies, and improvement of data technologies such as storage size,
+computational power, and data transfer speeds are the key factors driving the growth of
+Artificial Intelligence (AI) in many fields. Voice assistant are AI-based technologies, which are
+designed to think and act like a human. Apple’s Siri, Amazon Alexa, and Google Assistant
+(Figure 1) are examples of Voice-activated systems, which help consumers to manage their
+daily tasks for instance searching online, listening to news, controlling other connected smart
+devices (e.g., light, AC), answering a phone call, paying utility bills, and setting reminders. In
+recent years, such technologies have seen strong growth (The Star Online, 2020). The report
+by Marketsandmarkets in 2020 stated the Voice Assistant Application Market is estimated to
+increase from USD 2.8 billion in 2021 to USD 11.2 billion in 2026, with a Compound Annual
+Growth Rate (CAGR) of 32.4 percent throughout the forecast period.
+The voice assistant application market owes its widespread adoption to the advancements in
+voice-based AI technologies, growth in the number of voice-enabled devices, and increasing
+focus on customer engagement.
+2546
+International Journal of Academic Research in Business and Social Sciences
+Vol. 12, No. 12, 2022, E-ISSN: 2222-6990 © 2022 HRMARS
+Several applications in electronic health (e-health) have been created with the rapid
+development of new technologies, which enables healthcare to be provided for patients from
+home via Information and Communication Technologies (ICTs)(Lo Presti et al., 2019).
+Apple’s Siri Google Assistant Amazon Alexa
+Figure 1: Sample of Voice Assistants
+Over the past decades the focus was on the innovation provided by medical products. The
+present decade is focused on providing medical platforms, real-time, outcome-based care
+such as smart watch. With the explosion of available medical data, the next decade is moving
+towards medical solutions by using AI, robotics, and virtual and augmented reality, with the
+purpose of delivering intelligent solutions (Mehta et al., 2019). Various types of AI-based
+applications are already being employed by healthcare providers, and life science companies.
+These applications include disease diagnosis and treatment recommendations, medical
+document classification, and question answering based on consumer’s commands,
+Voice assistants are becoming important in healthcare as they can help patients get answers
+to critical questions about various diseases, help patients to learn about symptoms, and also
+assist in setting up doctor appointments, etc. More importantly this technology help patients
+to interact with smartphones without using their hands, which is a great help in Covid-19
+outbreak and healthcare will need to move towards more touch-free technologies post-
+pandemic (The Star Online, 2020).
+The significant increase in the number of individuals in need of healthcare services (e.g.,
+growth of golden agers) combined with ongoing developments in healthcare technology is
+predicted to put upward pressure on health and long-term care spending (Fanta & Pretorius,
+2018). VAs are available on smart phones and smart devices, which are used by youngsters as
+well as older adults due to their utility (Vollmer Dahlke & Ory, 2017). These smart devices are
+specifically designed to cater to the needs of all age groups, different ethnic groups, and work
+profiles worldwide (Dogra & Kaushal, 2021; Koon et al., 2020).
+The aim of this review is to understand the availability of recent advancements in AI-based
+technologies, provide awareness about the potential of AI in healthcare services, and inspire
+the researchers in the related field.
+AI-based Technologies in Healthcare
+Voice assistants use AI technology to communicate with the users in natural language
+(Terzopoulos & Satratzemi, 2019). AI-based technologies (Figure 2) such as Machine Learning,
+Deep Learning, and Natural language processing are of high importance to healthcare, which
+are defined and described below.
+2547
+International Journal of Academic Research in Business and Social Sciences
+Vol. 12, No. 12, 2022, E-ISSN: 2222-6990 © 2022 HRMARS
+Figure 2: AI technology
+i. Machine Learning (ML) and Deep Learning (DL)
+Exploring approaches to help machines develop their own sort of common sense has always
+been an interest of scientists. Such machines not only have high predictive accuracy based on
+the previous data, but also are intelligent and have the ability to learn. Artificial intelligence
+(AI), Machine Learning (ML), and Deep Leaning (DL) refer to intelligence demonstrated by
+machines. Conventional machine learning uses the theory of statistics and employs
+algorithms to learn from a large dataset, train the system, and make informed decisions based
+on what it has learned. Deep learning is a subset of machine learning that uses advance
+machine learning approaches. Deep learning structures algorithms in layers to create an
+artificial neural network (ANN) for the purpose of learning and making intelligent decisions
+without any human intervention (Alpaydin, 2008).
+ML plays a key role in many health innovations. It assists researchers with drug development,
+drug discovery, drug testing, and drug repurposing. Drug discovery (Reda et al., 2020) aims at
+uncovering putative drug candidates or gene targets, or causal factors, of a given disease or a
+given chemical compound. Drug testing (Aziz et al., 2021) helps to evaluate the effectiveness
+of drug properties and develop in silico prediction models to save time and money on later
+testing stages, and subsequent in vitro and in vivo experiments. Drug repurposing uses
+various methods such as identify correlations between drug molecules and gene or protein
+targets in literature to find a new therapeutic indications (Tari & Patel, 2014). DL has recently
+been applied to spot malignant tumors or to predict drug effectiveness based on large
+amounts of healthcare data, and various attributes (Chang et al., 2018).
+2548
+International Journal of Academic Research in Business and Social Sciences
+Vol. 12, No. 12, 2022, E-ISSN: 2222-6990 © 2022 HRMARS
+Personalized medicine or “precision medicine” is another well-known application in
+healthcare. It uses enormous amount of data, such as medical imaging data or existing
+medical documentation to predict and analyze diagnostic decisions for each individual patient
+(Toh & Brody, 2021).
+There are many applications such as PathAI1, Tempus2, Microsoft’s Project InnerEye, IBM’s
+Watson AI technology, and Pfizer3 that uses ML to predict illness and deliver personalized
+treatments for patients. These applications use computer vision and machine learning with
+the aim of providing quicker and more accurate diagnoses.
+ii. Natural Language Processing
+Natural language processing (NLP) enables computers to understand text and voice data
+similar to human. NLP employs several technologies including machine learning, and deep
+learning models, to understand the semantic and sentiment of user’s data (Alpaydin, 2008).
+NLP derives computer programs in text translation, text summarization, and speech
+recognition, and is widely used in the form of voice-operated GPS systems, digital assistants,
+speech-to-text dictation software, and customer service chatbots. The dominant applications
+of NLP in healthcare involve classification of clinical documentation, conversational chatbots,
+automated question answering, and disease diagnosis, which are described in the following
+section.
+a. Document Classification
+NLP systems can classify and analyze unstructured medical information into their respected
+categories (such as Diabetes, Cancer, Depression, Pediatrics, etc.), which simplifies access to
+content and reduces the time for retrieving information. NLP algorithms has shown promising
+results in clinical text classification such as classification of online medical articles (Al-Doulat
+et al., 2019), and smoking status classification and proximal femur (hip) fracture
+classification from the clinical notes and radiology reports (Wang et al., 2019).
+b. Chatbots
+A Chatbot helps consumers by simulating human-like conversations via text messages or
+voice commands. Chatbot uses NLP technology and supports speech to text and text to
+speech conversion so that the user can also communicate using voice. Speech and NLP
+technology is used to process text, transcribe consumers interactions, and respond to
+consumers’ inquiries and questions automatically.
+In healthcare chatbots can offer useful medical information based on user needs. Such AI-
+based systems, eliminate the cost and time in seeking medical help, particularly in rural areas,
+which consultation with qualified professionals is not easily available (Hsu & Yu, 2022).
+Moreover, mental health chatbot has shown to be an effective and engaging way to deliver
+mental health support and decreases depression and anxiety symptoms in students
+(Fitzpatrick et al., 2017; Wyllie et al., 2022).
+1 pathai.com
+2 tempus.com
+3 pfizer.com
+2549
+International Journal of Academic Research in Business and Social Sciences
+Vol. 12, No. 12, 2022, E-ISSN: 2222-6990 © 2022 HRMARS
+c. Question Answering
+Question classification and question answering helps to extract information find answers
+efficiently. It employs NLP algorithms to retrieve documents relevant to a question posed by
+humans in a natural language, and then processes such documents to automatically generate
+a paragraph-length answer.
+For instance, automated question classification can be applied on cancer-related questions
+that have been enquired on the web. Question classification could also be used to assist
+clinical support staff in answering questions by suggesting a likely set of answer templates or
+be used to provide metadata for questions on the web, so that questions posted in social
+media could be linked to similar questions or to sources on the web that might provide
+answers. McRoy et al (2016) proposed a classifier to answer community-based questions. The
+scheme of the classification includes a set of questions such as clinical, non-clinical, and
+patient-specific questions.
+d. Diagnosis
+The development of advanced AI-based technologies and the recent research in the field of
+NLP leads to flourishing new businesses with innovative concepts in healthcare. Today,
+applications can perform disease diagnosis based on user’s symptoms through medical
+reports or over one-on-one conversation (Badlani et al., 2021). Such applications can
+transcribe patients’ interaction, and effectively extract the wealth of information into a
+format which can be utilized effectively by physicians and healthcare professionals.
+IBM's Watson is one of the well-known data analytics processors that employs machine
+learning and NLP to generate answers to questions. It has been used in precision medicine to
+help medical staff and provides treatment methods based on huge number of past clinical
+trials. IBM’s Watson is the first medical AI and introduces their first application on cancer
+diagnosis and treatment in 2013, which received attention of healthcare providers. However,
+in recent years, Watson has been criticized for its lack of accuracy (Ross & Swetlitz, 2018).
+Complexity of patient files, and lack of available clinical data based on locality failed the
+system to provide good recommendations. Despite Watson’s unsuccessful attempt, big
+companies such as Google, and Microsoft are still attracted to develop AI solutions in health
+care.
+Voice Assistant Applications
+Some of the well-known VA applications includes Apple’s Siri in 2011, Google Now in 2012,
+Microsoft Cortana in 2013, Amazon Alexa in 2014, and Google Assistant in 2016. Based on
+statistical research by Olmstead (2017), 46% of U.S. adults are using voice assistants at home.
+Due to simplicity of this technology, millions of devices use them in households nowadays.
+Smart speakers are stand-alone devices that can be connected to smartphones. These
+portable devices are useful at home or work, and perform actions based on the given
+commands (Figure 3).
+Voice assistants can also be used on smartphones. Smartphones offer built-in VAs such as
+Samsung Bixby, Google Assistant, and Apple’s Siri. Apple has Siri built into on all Apple devices.
+Recently, apple introduced HomePod mini, a compact smart speaker which has native Apple
+Music and Apple HomeKit integration. Google designed Google Assistant to give users
+conversational and two-way interactions and made it available across all android
+smartphones. Google Assistant also works in Google Home smart speaker that allow users to
+control the smart devices. Amazon successfully launched Alexa led by Echo devices that
+2550
+International Journal of Academic Research in Business and Social Sciences
+Vol. 12, No. 12, 2022, E-ISSN: 2222-6990 © 2022 HRMARS
+provides a lot of functionality and has an associated app for Android and iOS phones. The
+companies are attempting to make VAs ubiquitous and market them across various third-
+party devices to appeal to different user preferences and contexts (Rubin, 2018).
+AI-based Voice Asssiants
+Smartphone Smart Speaker
+Amazon
+Google Google Apple's
+Apple's Siri Alexa
+Asssistant Home HomePod
+(Echo)
+Figure 3: Types of AI-based Voice Assistants
+The working mechanism of VA is simple. Voice assistant is usually unobtrusive and constantly
+monitor its surroundings for trigger words such “Ok Google” or “Hey Siri”. Once the trigger
+word is said loud enough for the bot to hear, it will begin listening to the user’s query. Unlike
+humans, machines require structure, detail, and process to break down complex nuances of
+the human language such as context, user intent, slang, accents, etc. Therefore, voice
+assistants rely on natural language processing (NLP) software to step in and resolve any
+barriers to understanding. After processing the user’s query using voice recognition and NLP,
+voice assistant retrieves information related to the question by accessing knowledge base
+where information is stored. Finally, the output is the answer to the user’s request using text-
+to-speech technology.
+i. Voice Assistant in Healthcare
+The role of AI in healthcare is complex and its capabilities are continuously extending (Cheung
+et al., 2020). Voice assistant systems in healthcare help to:
+• get answers to critical questions about various diseases,
+• learn about symptoms
+• call nurse
+• setting up doctor appointments
+• monitor and analyze health issues, etc.
+Therefore, VA in healthcare improves patient experience in the following use cases:
+1) Intelligent Healthcare Voice Assistant: Alexa and Google Home are intelligent voice
+assistants that let patients get immediate responses to questions about symptoms of
+various illnesses, potential drug side effects, available treatments, drug availability, and
+therapeutic advice.
+2) Real-time Medication Reminders: Patients often forget their medicine, which may cause a
+problem because missing a dose may make the medicine less effective. According to the
+report, 66% of Americans take prescription drugs, however about 50% those consumers
+do not take their medication as prescribed. Currently, medication non-adherence accounts
+2551
+International Journal of Academic Research in Business and Social Sciences
+Vol. 12, No. 12, 2022, E-ISSN: 2222-6990 © 2022 HRMARS
+for 125,000 avoidable deaths, hospitalizations, and failures in treatment (Health Policy
+Institute, 2021). Using VAs such as Alexa on smartphones helps patients, particularly
+elderlies, to create timely reminders for taking their dose on time and prevent missing anu
+doses.
+3) Virtual Care: VAs in healthcare systems recommends doctors or specialists and allow
+consumers to arrange an appointment with their desired doctor by speaking with voice
+assistants.
+4) E-monitoring: Tech companies, and wellness application development companies are
+integrating voice-activated tool, which allows consumers to track and monitor their
+medical conditions via a voice command. For example, users can see trends in blood sugar
+or monitor their eating habits in applications with VAs.
+Enterprise Bot’s HealthAI4 is one of the organizations that provides voice assistant technology
+in healthcare to automate routine tasks. Another application is Dr. AI (Mohr, 2019) launched
+by HealthTap which uses Amazon Alexa to help patients diagnose their illness through a
+conversation. Users are able to ask Dr. A.I. to diagnose their symptoms, pose health questions
+or complaints, and get suggestions for treatment and/or recommendations of nearby doctors.
+Dr. AI checks that against their health profile in HealthTap and can ask follow-up questions to
+gather more data. It then provides potential diagnoses and guidance on what to do next.
+Roche Diabetes Care5 provides voice assistant focusing on pharmaceuticals and diagnostics.
+This application works with Alexa or Google Assistant with the purpose of improving people’s
+lives.
+The Future of AI in Healthcare
+Despite the development of various AI-based applications in several sectors, the use of AI in
+healthcare is still in its early stage. According to the research, the combination of computer
+vision and machine learning to analyze medical imaging and other types of data such as text
+or speech, has shown to be effective in decision making, capturing clinical notes, providing
+automatic answers to the healthcare related questions, and document classification.
+Although there are challenges in delivering precision medicine and providing personalized
+medicine, given the rapid advances in AI, we expect AI to enhance and provide more accurate
+results. The efficiency and accuracy of AI-based healthcare services would enable clinicians to
+cope with the growing demand on healthcare.
+We believe companies will push AI-based healthcare systems toward predictive analysis to
+predict and determine whether an individual is at risk of any diseases based on the individual’s
+place of living, diet, emotion or mental conditions, or daily activities. Therefore, care providers
+can suggest preventative measures before the disease get worse. It not only reduces the costs
+but also improves individuals’ health and quality of life.
+Moreover, the fast advances in voice-based technology coupled with the coronavirus
+precautions encourages individuals to move toward using touch-free technology and voice
+assistants in daily life. The adoption of such technologies has already been accelerated due to
+the pandemic; however, the widespread use of VAs depends on several factors such as
+consumer engagement, public awareness, and governments policies toward using AI-based
+technologies.
+4 enterprisebot.ai
+5 healthline.com
+2552
+International Journal of Academic Research in Business and Social Sciences
+Vol. 12, No. 12, 2022, E-ISSN: 2222-6990 © 2022 HRMARS
+Corresponding Author
+Elaheh Ahanin
+Putra Business School, Universiti Putra Malaysia, Selangor, Malaysia.
+Email: ahanin.elaheh@gmail.com
+References
+Al-Doulat, A., Obaidat, I., & Lee, M. (2019). Unstructured medical text classification using
+linguistic analysis: A supervised deep learning approach. 2019 IEEE/ACS 16th
+International Conference on Computer Systems and Applications (AICCSA), 2019-
+November, 1–7.
+Alpaydin, E. (2008). Introduction to Machine Learning (Adaptive Computation and Machine
+Learning Series). In Natural Language Engineering. The MIT Press.
+Aziz, M., Kaufmann, E., & Riviere, M. K. (2021). On Multi-Armed Bandit Designs for Dose-
+Finding Clinical Trials. Journal of Machine Learning Research, 22, 1–38.
+Badlani, S., Aditya, T., Dave, M., & Chaudhari, S. (2021, May 21). Multilingual healthcare
+chatbot using machine learning. 2021 2nd International Conference for Emerging
+Technology, INCET.
+Chang, Y., Park, H., Yang, H. J., Lee, S., Lee, K. Y., Kim, T. S., Jung, J., & Shin, J. M. (2018). Cancer
+Drug Response Profile scan (CDRscan): A Deep Learning Model That Predicts Drug
+Effectiveness from Cancer Genomic Signature. Scientific Reports, 8(1), 1–11.
+Cheung, M. L., Leung, W. K. S., & Chan, H. (2020). Driving healthcare wearable technology
+adoption for Generation Z consumers in Hong Kong. Young Consumers, 22(1), 10–27.
+Dogra, P., & Kaushal, A. (2021). An Investigation of Indian Generation Z Adoption of the Voice-
+Based Assistants (VBA). Journal of Promotion Management, 27(5), 673–696.
+Fanta, G. B., & Pretorius, L. (2018). A conceptual framework for sustainable eHealth
+implementation in resource-constrained settings. South African Journal of Industrial
+Engineering, 29(3), 132–147.
+Fitzpatrick, K. K., Darcy, A., & Vierhile, M. (2017). Delivering Cognitive Behavior Therapy to
+Young Adults With Symptoms of Depression and Anxiety Using a Fully Automated
+Conversational Agent (Woebot): A Randomized Controlled Trial. JMIR Mental Health,
+4(2), e7785.
+Health Policy Institute. (2021). Prescription Drugs . Health Policy Institute.
+https://hpi.georgetown.edu/rxdrugs/
+Hsu, I. C., & Yu, J. de. (2022). A medical Chatbot using machine learning and natural language
+understanding. Multimedia Tools and Applications, 81, 23777–23799.
+Koon, L. M., McGlynn, S. A., Blocker, K. A., & Rogers, W. A. (2020). Perceptions of Digital
+Assistants From Early Adopters Aged 55+: Ergonomics in Design: The Quarterly of
+Human Factors Applications, 28(1), 16–23.
+lo Presti, L., Testa, M., Marino, V., & Singer, P. (2019). Engagement in Healthcare Systems:
+Adopting Digital Tools for a Sustainable Approach. Sustainability, 11(1), 220.
+Marketsandmarkets. (2020). Voice Assistant Application Market Size, Share and Global
+Market Forecast to 2026. Markets and Markets.
+https://www.marketsandmarkets.com/Market-Reports/voice-assistant-application-
+market-
+141810993.html#utm_source=PRnewswire&utm_medium=refferal&utm_campaign=p
+aidPR
+2553
+International Journal of Academic Research in Business and Social Sciences
+Vol. 12, No. 12, 2022, E-ISSN: 2222-6990 © 2022 HRMARS
+McRoy, S., Jones, S., & Kurmally, A. (2016). Toward automated classification of consumers’
+cancer-related questions with a new taxonomy of expected answer types. Health
+Informatics Journal, 22(3), 523–535.
+Mehta, N., Pandit, A., & Shukla, S. (2019). Transforming healthcare with big data analytics and
+artificial intelligence: A systematic mapping study. Journal of Biomedical Informatics,
+100, 103311.
+Mohr, C. N. (2019). Dr. A.I. - An Alexa Skill to Help Diagnose Illness. The Wonder of Tech.
+https://wonderoftech.com/dr-ai-alexa-skill/
+Olmstead, K. (2017). Nearly half of Americans use digital voice assistants, mostly on their
+smartphones. Pew Research Center. https://www.pewresearch.org/fact-
+tank/2017/12/12/nearly-half-of-americans-use-digital-voice-assistants-mostly-on-
+their-smartphones/?msclkid=e6d99bd3abeb11ec8da8a1677a5fc8a1
+Reda, C., Kaufmann, E., & Delahaye-Duriez, A. (2020). Machine learning applications in drug
+development. Computational and Structural Biotechnology Journal, 18, 241–252.
+Ross, C., & Swetlitz, I. (2018). IBM’s Watson supercomputer recommended “unsafe and
+incorrect” cancer treatments, internal documents show. STAT+.
+https://www.statnews.com/wp-content/uploads/2018/09/IBMs-Watson-
+recommended-unsafe-and-incorrect-cancer-treatments-STAT.pdf
+Rubin, B. F. (2018). Apple, Siri fall further behind Google, Amazon in the smart home. CNET.
+https://www.cnet.com
+Tari, L. B., & Patel, J. H. (2014). Systematic Drug Repurposing Through Text Mining. Methods
+in Molecular Biology, 1159, 253–267.
+Terzopoulos, G., & Satratzemi, M. (2019). Voice assistants and artificial intelligence in
+education. ACM International Conference Proceeding Series.
+The Star Online. (2020). Covid-19: Pandemic gives fresh momentum to digital voice
+technology. The Star. https://www.thestar.com.my/tech/tech-
+news/2020/05/11/covid-19-pandemic-gives-fresh-momentum-to-digital-voice-
+technology
+Toh, C., & Brody, J. P. (2021). Applications of Machine Learning in Healthcare. In T. Y. Kheng
+(Ed.), Smart Manufacturing: When Artificial Intelligence Meets the Internet of Things (p.
+65). IntechOpen.
+Dahlke, V. D., & Ory, M. G. (2017). Emerging Opportunities and Challenges in Optimal Aging
+with Virtual Personal Assistants. Public Policy & Aging Report, 27(2), 68–73.
+Wang, Y., Sohn, S., Liu, S., Shen, F., Wang, L., Atkinson, E. J., Amin, S., & Liu, H. (2019). A clinical
+text classification paradigm using weak supervision and deep representation. BMC
+Medical Informatics and Decision Making, 19(1), 1–13.
+Wyllie, J., Carlson, J., Heinsch, M., Kay-Lambkin, F., & McCoy, A. (2022). eHealth Services and
+SDG3: Increasing the Capacity of Care. Australasian Marketing Journal, 30(2), 131–141.
+2554

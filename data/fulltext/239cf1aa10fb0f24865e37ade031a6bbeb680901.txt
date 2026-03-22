@@ -1,0 +1,615 @@
+| TYPEOriginalResearch
+PUBLISHED14March2024
+DOI10.3389/fdgth.2024.1261031
+Barriers to healthcare data quality
+and recommendations in public
+EDITEDBY health facilities in Dire Dawa city
+UweAickelin,
+TheUniversityofMelbourne,Australia
+administration, eastern Ethiopia:
+REVIEWEDBY
+PradeebanKathiravelu,
+a qualitative study
+EmoryUniversity,UnitedStates
+MelodyL.Greer,
+UniversityofArkansasforMedicalSciences,
+UnitedStates Abebe Tolera1, Dawit Firdisa1* , Hirbo Shore Roba1,
+*CORRESPONDENCE Aboma Motuma2, Monas Kitesa3 and Admas Abera Abaerei1
+DawitFirdisa
+firdisadawit@gmail.com 1SchoolofPublicHealth,CollegeofHealthandMedicalSciences,HaramayaUniversity,Harar,Ethiopia,
+2SchoolofNursingandMidwifery,CollegeofHealthandMedicalSciences,HaramayaUniversity,Harar,
+RECEIVED24August2023
+Ethiopia,3SchoolofPharmacy,CollegeofHealthandMedicalSciences,HaramayaUniversity,Harar,Ethiopia
+ACCEPTED29February2024
+PUBLISHED14March2024
+Background: Maintaining good quality of healthcare data at various levels is a
+CITATION
+ToleraA,FirdisaD,RobaHS,MotumaA, critical challenge in developing countries. The barriers to healthcare data
+KitesaMandAbaereiAA(2024)Barriersto quality remainlargelyunexploredineasternEthiopia.
+healthcaredataqualityandrecommendations
+Objective:Thisstudyaimedtoassessthebarrierstoqualityofhealthcaredatainurban
+inpublichealthfacilitiesinDireDawacity
+publichealthfacilitiesintheDireDawacityadministrationfrom7Aprilto7May2019.
+administration,easternEthiopia:aqualitative
+study. Methods:Aninstitutional-basedqualitativeexploratoryapproachwasusedamong
+Front.Digit.Health6:1261031. 17 purposefully selected key informants. In-depth interviews were inductively
+doi:10.3389/fdgth.2024.1261031 coded using the ATLAS.ti 7.5.4 version software. Inductive analysis was used by
+COPYRIGHT semanticallyanalyzingtheexplicitcontentofthedatatodetermineourthemes.
+©2024Tolera,Firdisa,Roba,Motuma,Kitesa Results:Severalkeythemesandsubthemeswithdifferentbarriers,someofwhich
+andAbaerei.Thisisanopen-accessarticle
+are mutually non-exclusive, were identified. These include: Organizational
+distributedunderthetermsoftheCreative
+CommonsAttributionLicense(CCBY).The Barriers: Lack of an adequate health management information system and data
+use,distributionorreproductioninother clerk staff, poor management commitment, lack of post-training follow-up,
+forumsispermitted,providedtheoriginal
+work overload, frequent duty rotation, lack of incentives for good performers,
+author(s)andthecopyrightowner(s)are
+creditedandthattheoriginalpublicationin lack of targeted feedback, and poor culture of information use. Behavioral/
+thisjournaliscited,inaccordancewith Individual Barriers: Gaps in the skill of managers and health professionals, lack
+acceptedacademicpractice.Nouse,
+of adequate awareness of each indicator and its definitions, inadequate
+distributionorreproductionispermitted
+whichdoesnotcomplywiththeseterms. educational competence, lack of feeling of ownership, poor commitment, lack
+ofdailytallying,andlackofvaluefordata.TechnicalBarriers:Lackofastandard
+form, diverse and too many data entry formats, manual data collection,
+shortage of supplies, failure to repair system break down in a timely manner,
+interruption in electricity and network, delay in digitizing health information
+systems, lack of post-training follow-up, and inadequate supervision. External
+Barriers: Poorcollaboration between stakeholders, dependence on the software
+programofnon-governmentalorganizations,andveryhotweatherconditions.
+Conclusion: Diverse and complex barriers to maintenance of data quality were
+identified. Developing standardized health management information system
+implementation plans, providing advanced supervisory-level training, supportive
+supervision, and site-level mentorship may be very effective in identifying and
+resolving bottleneck data quality issues. Healthcare managers should
+understand the imperative of data quality and accept responsibility for its
+improvement and maintenance. Interventions targeted only at supplies will not
+fully overcome limitations to data quality. Motivation of staff and recognition of
+bestperformancecanmotivateothersandcancreatecooperationamongstaff.
+KEYWORDS
+healthcare data quality, barriers to data quality, health information, qualitative study,
+inductiveanalysis,semanticanalysis
+FrontiersinDigitalHealth 01 frontiersin.org
+Toleraetal. 10.3389/fdgth.2024.1261031
+Introduction non-urbanworeda,orGurgura.Therewere15healthcenters(eight
+urban and seven rural), 2 hospitals, and 32 health posts under the
+Maintainingandobtaininggood-qualityhealthcaredataiscritical city administration. These public health facilities served a
+for improved healthcare delivery to the population (1–3). Good population of 480,000 in reproductive, maternal, neonatal, child
+routine healthcare data quality is important for continuity of care, and adolescent health, major communicable diseases, non-
+good clinical practice, program management, planning, resource communicable diseases, surgical and injury care, emergency and
+allocation, and policy decisions that are crucial for patient care (3– critical care, neglected tropical diseases, hygiene and environmental
+6). Furthermore, routinely collected health data (RCD) with good health services, health education and behavior change
+quality and better feasibility can be used to expand the research communicationservices,andmultisectoralnutritioninterventions.
+agendaandoffernewdesignanddatacollectionoptions(7).
+Despite this, both developed and developing countries have
+limited and highly variable data accuracy, privacy, and security Study population and sampling approach
+(8–10). Unlike developed nations, developing countries have
+reported having a large amount of unreliable health data, poorly Apurposefulsamplingwasusedtoselect17keyinformantsto
+motivated human resources, and a weak information technology improvetheunderstandingofinformation-richcasesonbarriersto
+infrastructure (11, 12). Poor quality of information in patient healthcare data quality. A total of 12 key informants from the
+data may be a cause of poor quality of care and be associated health management information system (HMIS), 1 regional
+with additionalhealthcare costsandproductivityloss(13,14). HMIS focal person, 2 hospital heads, and 2 health center heads
+In Ethiopia, the quality and utilization of health information workinginurban public healthfacilities were interviewed.
+remains weak. The incompleteness of healthcare data is the main
+problem, particularly in primary health facilities and district levels
+(11, 15). Several studies in Ethiopia showed that the quality of Data collection and quality control
+healthcare data is very low (4, 16). Studies among the health procedures
+facilities of the Dire Dawa city administration and Addis Ababa
+showed that the overall quality of the data was 75.3% and 82.5%, Data were collected for one month during working hours each
+respectively, which was below the national expectation level (11, day. The key informants were pre-identified and scheduled for the
+17). A gap in the level of knowledge and skill of health workers interview. Two trained epidemiologists experienced with qualitative
+significantly influences data management processes, timeliness, data collection conducted the in-depth interviews after 2 days of
+completeness,andaccuracyatthepointofservicedelivery(5,13,17). training.Three-itemquestionswithninesub-questionsandin-depth
+InthecurrentEthiopianhealthsectortransformationplan,the probing were used for the in-depth interviews, which were adopted
+information revolution aims to transform the culture of data andcontextualizedforthisstudypurposefromotherstudies(23,24).
+utilization through cultural changes in the health information Thekeyinformantswhowereunavailableatthetimeofthestudy
+systems (HIS) and their digitalization and scaling (18, 19). To wererepeatedlyvisitedtominimizehighnon-responses.ASonyICD
+improve healthcare data quality, the Ethiopian Federal Ministry PX470 sound recorder was used to record the responses of the key
+of Health (EFMOH) collaborated with several national and informants. Upon completion of each in-depth interview, a trained
+international organizations (5, 11). Despite this, the quality of language professional produced a complete transcript and
+healthcare data needed to get valid information to make translation of the data for data entry and analysis since the data
+decisions about health programs is weak or insufficient in were collected in local languages (Afan Oromo and Amharic). The
+Ethiopia (20). Several reports have shown variability in the rigor of the qualitative data was ensured through thoughtful and
+qualityofboth indicators and dataelements(20–22). deliberate planning, ongoing application of researcher reflexivity,
+In particular, there is little evidence on the factors that affect and honest communication between the researcher and the
+the quality of healthcare data in low- and middle-income audienceaboutthestudyanditsresults.
+countries. The barriers to healthcare data quality remain largely
+unexplored in eastern Ethiopia. Therefore, this study aimed to
+identify the barriers to quality of healthcare data among public Operational definition
+healthfacilitiesinthecityadministration of DireDawa.
+(cid:129) Healthcare data: the healthcare data considered in this study
+included electronic health records (including electronic
+Methods medical record (EMR) and paper based health data record
+(PHR)), administrative data, patient and disease registries, and
+Study setting and design healthsurveys.
+(cid:129) The quality of the data is described in three dimensions:
+Aqualitativeexploratoryphenomenologicalstudywasconducted precision, completeness, and timeliness(25).
+in the public health facilities in Dire Dawa city administration in (cid:129) Barrierstohealthcaredataquality:theobstaclesthatcanaffect
+eastern Ethiopia from 7 April to 7 May 2019. Dire Dawa city is the timeliness, accuracy, completeness, accessibility, and use of
+divided administratively into two woredas: the city proper and the datafromanHIS.
+FrontiersinDigitalHealth 02 frontiersin.org
+Toleraetal. 10.3389/fdgth.2024.1261031
+(cid:129) Data clerk: Someone who transfers data from paper formats were involved in these in-depth interviews. The median age of
+intocomputerfiles ordatabase systems. the study participants was 33 [±2 interquartile range (IQR)]
+(cid:129) Healthinformationtechnicians(HIT):aprofessionalwhodevelops, years. In total, 10 of the key informants were women (58.82%)
+maintains,andimplementshealthrecordsprocessing,storage,and and 10 of them lived in an urban setting (Table 1), 9 of them
+retrieval systems in medical facilities and other healthcare settings were married (52.94%), and 8 (47.06%) of them were holders of
+tomeetthelegal,professional,ethical,andadministrativerecords- diplomas(Table1).
+keepingrequirementsofhealthservicedelivery.
+(cid:129) Health posts are primary levels of care that aim to promote
+communities’ abilities to improve their own health services. Identified barriers to health data quality
+The main data collected at this level are the community
+healthinformation system(CHISand/oreCHIS). Multiple,someofwhicharemutuallynon-exclusive,barriersto
+(cid:129) Phenomenological exploratory qualitative study is a
+data quality were cited by key informants during in-depth
+qualitative research approach that seeks to understand the interviews. Common themes were organized as organizational,
+essence of a particular phenomenon through a detailed
+technical, behavioral, and environmental barriers during the
+exploration of individual experiences such as emotions, analysis (Table 2). The key themes and subthemes with identified
+perceptions, and awareness.
+barriersarepresented inTable2.
+(cid:129) Research reflexivity is about acknowledging our role in the
+research. As qualitative researchers, the researchers are part of
+1. Organizational barriers
+the research process, and their prior experiences, assumptions,
+andbeliefs willinfluence theresearchprocess.
+(cid:129) Inductivecodingisaground-upapproachwherewederiveour The inability to use data for decision-making, particularly at
+lower levels, and the lack of timely and targeted feedback
+codesfromthedataandwhereweallowthenarrativeortheory
+(specific to identified gaps) was the main barrier cited by key
+toemergefromtherawdata itself.
+(cid:129) Inductive analysis, as one approach to qualitative content informants to healthcare data quality. Insufficient motivation and
+recognition were also cited as a barrier to the quality of
+analysis, involves collecting and analyzing data without
+healthcare data by all HMIS focal persons and health center
+preconceived categories ortheories.
+(cid:129) Semanticanalysisistheprocessofdrawingmeaningfromtext. managers. A 34-year-old woman head of one of the health
+(cid:129) Explicitcontentaredatathataretransparentandeasytoidentify. centers statesthat
+(cid:129) Timelyand targeted feedbacks arefeedbacks given as soon as
+possible specific to the identified (targeted) event, action, or Lack of recognition of good staff can derail staff morale.
+Everyone may feel that there is no difference between hard-
+behaviorthatneedstobeaddressed.
+(cid:129) Standardization of data quality is the act of using consistent working and poorly working staff. As a result, hardworking
+staff become reluctant and lack interest. They say, “just write
+methodstocollectdatawiththeconsiderationofkeystakeholders.
+what you want and report anything. There is no value in
+reporting correct data or not.”
+Data analysis approach
+Despite a report by most key informants on work overload as a
+The sociodemographic data of the study participants were major barrier to healthcare data quality, a 27-year-old male HIT
+summarized using a simple frequency table and median. The from one of the health centers disagreed with work overload as a
+recorded versions of Amharic and Afan Oromo were transcribed barrierto dataquality.
+and translated back to the English version. The ATLAS.ti 7.5.4
+version softwarewas used for data analysis. Coding was based on
+TABLE 1 Sociodemographic characteristics of study participants, Dire
+inductivecoding, and inductive analysiswasused bysemantically Dawa,easternEthiopia,2019.
+analyzing the explicit content of the data to determine our
+Variable Category Frequency Percentage
+themes. Line-by-line examination of each sentence served as the
+Sex Female 10 58.82
+unit of analysis for coding purposes, and the participants’ own Male 7 41.28
+words guided thedevelopment ofthe quotations. Residence Urban 10 58.82
+Rural 7 41.28
+Educationallevel Diploma 8 47.06
+Results Degree 5 29.41
+Mastersandabove 4 23.53
+Workexperience <7 10 58.82
+Sociodemographic characteristics of the
+>7 7 41.28
+study participants
+Profession HIT 12 70.59
+Nurse 2 11.76
+A total of 17 key informants (12 HMIS/HIT staff, 2 hospital HealthOfficer 2 11.76
+HMISfocalperson 1 5.88
+heads, 2 health center heads, and 1 regional HMIS focal person)
+FrontiersinDigitalHealth 03 frontiersin.org
+Toleraetal. 10.3389/fdgth.2024.1261031
+TABLE2 Keythemesandsubthemeswithidentifiedbarrierstohealthdataquality,easternEthiopia,2019.
+Themes Subthemes Identifiedbarriers
+Organizationalbarriers Organizationalstructureandpolicies (cid:129) LackofadequateHMISandDataclerkstaff
+(cid:129) Lackofaccountability
+(cid:129) Poormanagementcommitment
+Tasks (cid:129) Poorcoordination
+(cid:129) Lackofpost-trainingfollow-up
+(cid:129) Beingnewstaff
+(cid:129) Workoverload
+(cid:129) Shortageofdataentryformatsanddelaysinsupply)b
+(cid:129) Frequentdutyrotation
+Incentives (cid:129) Poorworkmotivationandrecognition
+(cid:129) Lackofincentivesforgoodperformers
+Informationanddecisionprocesses (cid:129) Lackoftargetedfeedback
+(cid:129) Poorcultureofinformationusea
+(cid:129) Requestforreportontheweekend
+Behavioral/individualbarriers Insufficientskillsindatausecorecompetencies (cid:129) Gapinskillofmanages
+(cid:129) Lackofawarenessofnewdiseaseclassification
+(cid:129) Lackofadequateskillbyhealthprofessionals
+(cid:129) Lackofadequateawarenessofeachindicatoranditsdefinitions
+(cid:129) Inadequateeducationalcompetence
+Poorindividualcommitmentandmotivation (cid:129) Lackofresponsibilityandaccountability
+(cid:129) Lackoffeelingownership
+(cid:129) Poorcommitment
+(cid:129) Lackofdailytallying
+Poorattitude (cid:129) Lackofvaluefordatac
+(cid:129) Reluctanceandnegligenced
+Technicalbarriers Systemdesign (cid:129) Lackofstandardform
+(cid:129) Diverseandtoomanydataentryformants
+(cid:129) Frequentlychangingdataentryformants
+(cid:129) Manualdatacollection
+Inputissues (cid:129) Shortageofsupplies
+(cid:129) Failuretorepairsystembreakdowninatimelymanner
+(cid:129) Lackofpurchasingofaccessoriesinatimelymanner
+(cid:129) Interruptioninelectricityandnetwork
+(cid:129) Delayindigitizinghealthinformationsystems
+Inadequatetechnicalsupport (cid:129) Lackofpost-trainingfollow-up
+(cid:129) Poorsupport
+(cid:129) Inadequatesupervision
+Externalbarriers Stakeholders’roles (cid:129) Poorcollaborationbetweenstakeholders
+(cid:129) DependenceonNGOs’softwareprogram
+(cid:129) Veryhotweatherconditions.
+aPoorinformation-usecultureisaculturethatisnon-conducivetoeffectiveinformationmanagementwherethevalueandutilityofinformationinachievingoperational
+andstrategicgoalsisunrecognized.
+bDelaysinthesupplyofdataentryformatsmeananuntimelyorirregularsupply.
+cLackofvaluefordatameansmisunderstandingtheimportanceofhealthcaredataforserviceprovision.
+dReluctanceandnegligencemeananunwillingnesstogather,fill,andrepothealthcaredatainatimelymanner.
+A 33-year-old HIT from another health center states that providers. A 34-year-old male key informant in one of the health
+frequent rotation of staff from one unit to another is one centers said
+challenge tomaintaining dataquality.Hesaid
+There is reluctance of healthcare professionals. They usually
+Ifonehealthproviderworkingonfamilyplanningisassignedto avoid the responsibility of tallying and filling in the data
+the TB clinic, he will be annoyed about the new registers and collection forms. Timeliness is affected by carelessness or
+forms. She will write data on wrong registries and forms. This referring one’s duty to others. They forget when to list and fill
+is because he will be assigned to a new service delivery unit the registers. This will increase the number of data to be filled
+without adequate training on the new forms and registries. next time. They then get frustrated and report unnecessary
+Everything becomesnewtothem. data. They also sometimes think that it is their teammate’s
+responsibility.Theyalways disagree onthis issue.
+Another major behavioral barrier cited by almost all key
+2. Behavioral/individual barriers
+informants is the inadequate knowledge of the healthcare
+Themainbehavioralbarrierstatedbyalmostallkeyinformants providers of each health indicator and their definitions. They
+is the lack of responsibility and accountability of healthcare stated that most healthcare providers were not interested in
+FrontiersinDigitalHealth 04 frontiersin.org
+Toleraetal. 10.3389/fdgth.2024.1261031
+reading and understanding the national classification of diseases data quality. A 32-year-old female HMIS focal person at one of
+and healthcare indicators. A 28-year-old female key informant in thereferralhospitals stated
+oneof thehealthcenters said
+First,thedataiscurrentlycollectedmanuallyonhardcopy.Asa
+Themaindataqualitybarrieristhelackofadequateawareness result,thereisshortageofsuppliessuchasregisters,tallysheets,
+ofeachindicatoranditsdefinitions.Healthprofessionalsdonot and other forms. As these forms are not provided in a timely
+know the appropriate codes and data elements under each manner, it contributed to an incomplete report of the data
+indicator. As a result, they (healthcare workers) usually elementsandan overallincompletemedical record.
+submit incomplete and inaccurate data. They get agitated and
+fill out forms haphazardly. Then it is a dual burden for me to
+goandcheck its comparability betweenrecordsand reports.
+4. Externalbarriers
+Another issue raised by 12 key informants is the attitudes of Some key informants mentioned some external barriers,
+health professionals toward the value of data. A 34-year-old male including poor collaboration between stakeholders, dependence
+key informant inoneofthe healthcenters said onNGOs’ softwareprograms, and veryhot weatherconditions.
+We cannot solve this problem even if we hired a sufficient
+number of HIT personnel unless health professionals feel Recommended measures to improve data
+ownership of the information collected. Data are more useful quality
+tohealthprofessionalsthan toHIT professionals.
+The key informants indicated different suggestions and
+recommendations. These include electronic data recording, the
+provision of adequate training, standardizing forms and
+3. Technical barriers
+registries, timely feedback, hiring appropriate IT professionals,
+Oneofthemajortechnicalbarrierstohealthcaredataqualityis improving the data-use culture, a clear job description, frequent
+thelackofthenecessarytrainingfornewpersonnel.A36-year-old mentoring, regular supervision and support, motivation and
+male headinone ofthehealth centerssaid incentives, educational opportunities, and taking timely corrective
+measures. The most frequent recommendation stated by the key
+New staff members are assigned to the public service without informants is to take timely and sometimes punitive measures
+adequate training and knowledge of the quality of data. They against those staff who do not carry out their responsibilities.
+waitforustoinformthemabouthowtocountandregisterdata. Adequate supervision and recognition of the best performers
+were recommended byalmost all key informants.
+Similarly, a32-year-oldfemale key informantstated that A 28-year-old femaleHIT stated
+The other problem that health professionals have raised is the AsItoldyou,recognitionandincentivesforstaffcanimprovedata
+diversetallysheetandthechangeofthesetallysheetsfromtime quality.Trainingindatamanagementshouldalsobeconsidered.
+to time. Different institutions (including NGOs) want different Moreover,beforeIadviseadvisetheconcernedentitiestoprovide
+data reports. They usually bring different tally sheets. As a adequate training on disease classification. Health professionals
+result, health professionals get confused and their morale fades should also ask for help if they lack adequate knowledge and
+to fill all these formats. In addition, the tally sheets are too skillsonhowtomaintainqualityhealthdata.
+manytofill,andtheyalsogettiredoffillingalltheseformats.
+A 32-year-old female HMIS focal person at one of the
+Failuretorepairthesystem,replaceit,andpurchaseaccessoriesin hospitals said
+atimelymannerwasalsoidentifiedasatechnicalbarrier.Manykey
+HITinformantsalsocitedalackofadequatefunctionalcomputersas Formats should be standardized and after training, mentoring
+onebarrier.A40-year-oldmaleheadinoneofthehospitalssaid should be there. Feedback should be provided in a timely
+manner. On-job follow-up and supervision should be there.
+Some stakeholders also add some registrations for their own Providing timely solutions to problems and questions of health
+report in addition to those provided by the government. Now professionals canimproveall this.
+we are ordered to fill only those forms provided by the
+government, and any interested institution can obtain the type
+of data they want from these registries because it includes all
+Discussion
+dataelements.
+The occasional running out of data recording materials was This study focused mainly on the identification of barriers to
+cited by most key informants as one main barrier to healthcare the quality of health data among public health facilities in the
+FrontiersinDigitalHealth 05 frontiersin.org
+Toleraetal. 10.3389/fdgth.2024.1261031
+administrative city of Dire Dawa. A key finding from our study supervision and mentorship are associated with data quality (22).
+showed major barriers to healthcare data quality were classified Insufficient supervision may result in incomplete charts, which in
+as organizational, behavioral/individual, technical, and external turn affect data quality. Interventionstargeted onlyat supplies will
+barriers. This finding is consistent with previous studies (1, 21, not fully overcome limitations to data quality. The motivation of
+23, 26, 27), which showed barriers to high-quality health data staff and recognition of best performance can motivate others and
+arising mainly from the data generation process, particularly at can create cooperation among staff. User participation is one of
+thelevelofdocumentationbyhealthcareprovidersanddataclerks. the critical aspects of healthcare programs (37). Lack of ownership
+Our study showed a shortage of data entry formats and/or (responsibility and accountability) and lack of value for data were
+delays in supplies affected healthcare data quality. This finding is identified as factors that affect the quality of healthcare data. This
+consistent with studies from Canada (1), Iran (28), Kenya (29, studyisconsistentwithstudiesfromCanada(1),SouthAfrica(22,
+30), and Ethiopia (21), which indicated documentation of service 39), and Iran (28) where physicians played a major role in
+data within the healthcare facility is perhaps the most important influencing the quality of administrative data. Building the
+resource for data quality. Similarly, studies from Ethiopia (31) capacity and control to promote values and beliefs among
+and 41 low-income countries (32) identified poor availability of membersofanorganizationfor the collection,analysis,and use of
+resources and lack of performance feedback as the most frequent information to accomplish its goals is crucial to good-quality
+weaknesses in the information systems. These had an impact on health data (31, 40). A qualitative study in Canada showed a
+staffmotivation, timeliness, andcompleteness ofthedata. communication divide between coders and physicians, resulting in
+Evidence-based planning and interventions are crucial to coders feeling blamed for quality issues around coded data (26).
+improvingservice delivery. This study identified a poorculture of Unlike otherhealthcare providers, healthinformationmanagement
+information use, particularly at the lower level, which affects the professionals are pressured to meet the reporting timeline. This
+quality of healthcare data. This negatively affects the causes the other healthcare care providers to feel a lack of
+commitment and value given to data by the healthcare providers. commitmenttocompletethepatients’cards(1).
+This finding is also consistent with studies from the Southern User experience is a critical aspect of any program’s success
+Nations, Nationalities, and People’s Region (SNNPR) of Ethiopia (37). Participants in this study cited lackof awareness of the new
+(20, 31), Iran (28), Thailand (33), Canada (1), and Kenya (30). classification of diseases, inadequate educational competence, and
+Health facility managers and other responsible bodies usually do inadequate technical skills as barriers from the side of healthcare
+not use the collected data owing to reliability and accuracy providers. This finding is consistent with studies from Ethiopia
+problems. Using and communicating accurate and timely (31), Canada (1), and Iran (28), Lucyk et al. (1) and Haftu et al.
+information to the healthcare community, decision makers, and (22). This indicates that behavioral factors such as motivation,
+the public to effect behavior change and obtain resources and confidence, and demand for data, task competency, and
+support for effective action” is beneficial in improving data problem-solving skills adversely affect chart documentation.
+quality and program implementation (34). Healthcare managers Healthcare provides lack of knowledge and awareness on how to
+should understand the imperative of data quality and accept the code and document patient service adversely influences data
+responsibility for its improvement and maintenance. Another key quality. Tang et al. (26) showed that the difference in the use of
+finding fromour study wasthatinadequate HMIS and HIT staffs terminologies by physicians and coders to describe clinical
+were a major barrier to healthcare data quality. This finding is diagnoses affects the production of high-quality administrative
+consistent with other studies from Ethiopia (1, 21), Canada (26), data (26). A study in the USA showed that training and audit
+and Australia (35) in which insufficient human resources and proceduresresultedin high-qualityadministrativedata(41).
+deficiencies in the training of available human resources were Improving the competence of the health information system
+identified to affect the quality of healthcare data. Insufficient task and the engagement of the caregiver with other staff can
+human resources can, in turn, affect the workload that a given improvedataquality.
+care provider and HMIS staff take to code and document service In addition, diverse, too many, and frequently changing data
+data. Despite the disagreement of some key informants, work entry formats were identified to affect healthcare data quality.
+overload was identified as affecting healthcare data quality. This Despite recent improvements, the participants in this study said
+finding is consistent with a study from China (36) and Canada many organizations, in addition to national data registries,
+(1) in which paper-based documentation and volumes of cases requested to fill in the data in different and diverse formats. This
+that physicians dealt with adversely affected data quality during in turn resulted in frustration of the healthcare workers with
+coding(1).Workflowisacriticalaspectofahealthcaresystem(37). filling out all the forms and registries. This is sometimes
+The lack of targeted feedback, post-training follow-up, and complicatedby a delayin analyzing the datadue to a shortage of
+recognition of good performers, conversely, affected staff data entry formats or a delay in supplies. This finding is
+performance in managing and maintaining data quality. This consistent with studies in different countries, which indicated a
+finding is consistent with studies in Northwest Ethiopia (32, 38), lack of comprehensive and standardized national reporting
+Ethiopia (38), and Kenya (29). The absence of recognition and formats and stakeholder requirements for the use of very
+incentives for good performers impedes the feelings of ownership different tools impeded healthcare data quality (11, 20, 30, 31,
+and value of the data of healthcare providers. A study by Ayele 42). A lack of resources and standardization of a data set can
+et al. (21) and Haftu et al. (22) showed that supportive directlyhinderoureffortsto improvehealthcare delivery.
+FrontiersinDigitalHealth 06 frontiersin.org
+Toleraetal. 10.3389/fdgth.2024.1261031
+This study identified gaps in the computerization of healthcare supervisory-level training, including HMIS manuals, providing
+delivery. Healthcare delivery and administrative data were collected supportive supervision, and providing site-level mentorship may
+manually or in hard copy. The study participants cited that there be very effective in identifying and resolving bottleneck data
+were no national standard EMRs. The facilities used to depend on quality issues. Creating and maintaining partnerships and
+anEMRsoftwareprogram supplied byan NGO.Despite enormous coalitions with public and private sector organizations is crucial.
+advances in computerized healthcare information systems in the More importantly, accelerating the digitization of health
+previous two decades, low-income countries still lag behind other information systems is very critical. Healthcare managers should
+middle- and high-income countries in the digitalization of service understandthe imperative of dataqualityand accept responsibility
+delivery (30, 43). Studies in Kenya (44) and USA (45) showed that foritsimprovementandmaintenance.
+electronic systems such as EMR-based data recording have
+significant impacts on service data quality. Furthermore, the failure
+to repair system breakdowns and purchase accessories in a timely Data availability statement
+manner has complicated the data documentation process. Staffs get
+agitated and lose personal motivation when their organizations fail Therawdatasupportingtheconclusionsofthisarticlewillbe
+to recognize their effort, take advantage of all necessary inputs, and made available by theauthors, withoutundue reservation.
+repairdamagedequipment.
+Unlike a Kenyan study (29), this study showed that poor
+collaboration of stakeholders with health facilities was one major Ethics statement
+barriertomaintainingdataquality,particularlywhenusingelectronic
+systemsfordatarecordingandcapacitybuildingareas.Thisfindingis
+The studies involving human participants were reviewed and
+consistent with studies in Iran (28) and Thailand (33). Frieden approved by the Haramaya University College of Health and
+indicated that partnerships and coalitions with public and private Medical Sciences, Institutional Health Research Ethics Review
+sectororganizationsarecrucialforeffectiveimplementationofpublic Committee (Ref. No.: IHRERC/104/2019). The participants
+health programs (34). This study showed that the dependence on providedtheirwritteninformedconsenttoparticipateinthisstudy.
+NGOs’ software programs significantly affected efforts to maintain
+data quality, particularly in digital health areas. Exceptional to this
+study finding, few key informants indicated that very hot weather Author contributions
+conditions affected the morale of healthcare providers to take their
+timedocumentingservicedataonregistriesandtallies. AT: Writing – original draft, Writing – review & editing,
+This study is not without limitations. It was qualitative, Conceptualization, Formal Analysis. DF: Writing – original draft,
+exploratory, engaging key informants that need triangulation Conceptualization, Formal Analysis, Methodology, Writing –
+with quantitative studies. An extensive overview of the overall
+review & editing. HR: Conceptualization,Formal Analysis,Writing
+barriers requires the inclusion of all health facilities, including – review & editing. AM: Conceptualization, Formal Analysis,
+health posts, rural health facilities, and private health facilities. Writing – review & editing. MK: Conceptualization, Formal
+The generalizability of the findings of this study may not apply Analysis, Writing – review & editing. AA: Conceptualization,
+to private health facilities outside of the Dire Dawa city FormalAnalysis,Methodology,Writing–review&editing.
+administration. However, we believe that the barriers we found
+to quality of healthcare data may reflect wider systemic problems
+insomehealth facilities inEthiopia. Funding
+The authors declare financial support was received for the
+Conclusions and recommendations
+research,authorship, and/or publicationof thisarticle.
+This work was funded by the Doris Duke Charitable
+This study demonstrated the complex nature of barriers to the
+Foundation (DDCF) through the Haramaya University Capacity
+quality of healthcare data among public health facilities in the
+Building and Mentorship Program (CBMP). The sponsor had no
+administrative city of Dire Dawa. Multiple, some of which are
+role in the study design, data collection and analysis, decision to
+mutually non-exclusive, and complex barriers to data quality were
+publish,orarticlepreparation.
+identified. The generation and maintenance of healthcare data is
+found to be complicated by the issues that exist throughout the
+process of the generation and utilization of healthcare data. Lack Acknowledgments
+of standardization in all health facilities and poor commitment
+from management and staff were identified as bottleneck
+WearealsogratefultotheCapacityBuildingandMentorship
+challenges in improvinghealthcare dataquality. This studyfinding
+Program (CBMP), DDCF sub-grant, for providing funds for this
+indicated the need for evidence-based planning and interventions study. In addition, our deepest gratitude to Haramaya University,
+on healthcare data quality from all stakeholders. Developing the College of Health and Medical Science Administration, all
+standardized HMIS implementation plans, delivering advanced the heads of the health facilities in Dire Dawa, and the data
+FrontiersinDigitalHealth 07 frontiersin.org
+Toleraetal. 10.3389/fdgth.2024.1261031
+collectors for always offering boundless encouragement and Publisher’s note
+unwavering supportin allstepsofdatacollection.
+All claims expressed in this article are solely those of
+the authors and do not necessarily represent those of
+Conflict of interest their affiliated organizations, or those of the publisher, the
+editors and the reviewers. Any product that may be
+The authors declare that the research was conducted in the evaluated in this article, or claim that may be made
+absence of any commercial or financial relationships that could by its manufacturer, is not guaranteed or endorsed by
+beconstrued asapotential conflictofinterest. the publisher.
+References
+1.LucykK,TangK,QuanH.Barrierstodataqualityresultingfromtheprocessof 18.BerheM,TadesseK,BerheG,GebretsadikT.Evaluationofelectronicmedical
+codinghealthinformationtoadministrativedata:aqualitativestudy.BMCHealthServ recordimplementationfromuser’sperspectivesinAyderReferralHospitalEthiopia.
+Res.(2017)17(1):766.doi:10.1186/s12913-017-2697-y JHealMedInform.(2017)8(249):1–13.doi:10.4172/2157-7420.1000249
+2.KerrKA,NorrisT,StockdaleR.Thestrategicmanagementofdataqualityin 19.AndualemAsemahagnM.Thefunctionalitystatusandchallengesofelectronic
+healthcare.HealthInformaticsJ.(2008)14(4):259–66.doi:10.1177/1460458208096555 healthmanagementinformationsystem:thecaseofpublichealthcentresinAmhara
+region, Ethiopia. Cogent Med. (2018) 5(1):1437672. doi: 10.1080/2331205X.2018.
+3.GottliebL,TobeyR,CantorJ,HesslerD,AdlerNE.Integratingsocialandmedical
+1437672
+datatoimprovepopulationhealth:opportunitiesandbarriers.HealthAff.(2016)35
+(11):2116–23.doi:10.1377/hlthaff.2016.0723 20.AdaneA,AdegeTM,AhmedMM,AntenehHA,AyalewES,BerhanuD,etal.
+ExploringdataqualityanduseoftheroutinehealthinformationsysteminEthiopia:a
+4. Abiy R, Gashu K, Asemaw T, Mitiku M, Fekadie B, Abebaw Z, et al. A
+mixed-methods study. BMJ Open. (2021) 11(12):e050356. doi: 10.1136/bmjopen-
+comparisonofelectronicrecordstopaperrecordsinantiretroviraltherapyclinicin
+2021-050356
+Ethiopia: whatis affecting the quality of the data? Online J Public Health Inform.
+(2018)10(2):e212.doi:10.5210/ojphi.v10i2.8309 21.AyeleW,BirukE,HabtamuT,TayeG,TamireM,AddissieA.Dataqualityand
+it’scorrelationwithroutinehealthinformationsystemstructureandinputatpublic
+5.EFMoH(EthiopianFederalMinistryofHealth).Informationrevolutionroadmap.
+International Institute For Primary Health Care – Ethiopia. Addis Ababa, health centers in Addis Ababa, Ethiopia. Ethiop J Health Dev. (2021) 35(1):6.
+eISSN:1021-6790.
+Ethiopia (2016). http://repository.iifphc.org/bitstream>handle/123456789/316/
+(accessedOctober23,2023). 22.HaftuB,TayeG,AyeleW,HabtamuT,BirukE.Amixed-methodsassessmentof
+routinehealthinformationsystem(RHIS)dataqualityandfactorsaffectingit,Addis
+6. Massoudi BL, Marcial LH, Tant E, Adler-Milstein J, West SL. Using health
+Ababacityadministration,Ethiopia,2020.EthiopJHealthDev.(2021)35(1)http://
+informationexchangestocalculateclinicalqualitymeasures:astudyofbarriersand
+facilitators.InHealthcare.Elsevier(2016).Vol.4,No.2,p.104–8. repository.iifphc.org/xmlui/handle/123456789/1563(accessedAugust13,2022).
+23.KhalifaM.Barrierstohealthinformationsystemsandelectronicmedicalrecords
+7.McCordKA,Al-ShahiSalmanR,TreweekS,GardnerH,StrechD,WhiteleyW, implementation.AfieldstudyofSaudiArabianhospitals.ProcediaComputSci.(2013)
+et al. Routinely collected data for randomized trials: promises, barriers, and 21:335–42.doi:10.1016/j.procs.2013.09.044
+implications.Trials.(2018)19(1):29.doi:10.1186/s13063-017-2394-5
+24.MurrayE,BurnsJ,MayC,FinchT,O’DonnellC,WallaceP,etal.Whyisit
+8.VanMourikMSM,vanDuijnPJ,MoonsKGM,BontenMJM,LeeGM.Accuracy difficult to implement e-health initiatives? A qualitative study. Implement Sci.
+ofadministrativedataforsurveillanceofhealthcare-associatedinfections:asystematic (2011)6(1):1–11.doi:10.1186/1748-5908-6-6
+review.BMJOpen.(2015)5(8):e008424.doi:10.1136/bmjopen-2015-008424
+25.USAID(UnitedStatesAgencyforInternationalDevelopment).Performanceof
+9.YaqoobI,SalahK,JayaramanR,Al-HammadiY.Blockchainforhealthcaredata
+RoutineInformationSystemManagement(PRISM)Toolkit.ChapelHill:MEASURE
+management:opportunities,challenges,andfuturerecommendations.NeuralComput
+Appl.(2022)34(14):11475–90.doi:10.1007/s00521-020-05519-w Evaluation; Carolina Population Center, University of North Carolina at
+Chapel Hill (2019). ISBN: 978-1-64232-065-7. Available online at: https://www.
+10.PastorinoR,DeVitoC,MigliaraG,GlockerK,BinenbaumI,RicciardiW,etal. measureevaluation.org/resources/tools/rhis-rat/routine-health-information-system-rapid-
+BenefitsandchallengesofBigDatainhealthcare:anoverviewoftheEuropeaninitiatives. assessment-tool.(accessedDecember3,2022).
+EurJPublicHealth.(2019)29(Supplement_3):23–7.doi:10.1093/eurpub/ckz168
+26.TangKL,LucykK,QuanH.Coderperspectivesonphysician-relatedbarriersto
+11. Teklegiorgis K, Tadesse K, Terefe W, Mirutse G. Level of dataquality from producinghigh-qualityadministrativedata:aqualitativestudy.CMAJOpen.(2017)5
+health management information systems in a resources limited setting and its (3):E617–22.doi:10.9778/cmajo.20170036
+associated factors, eastern Ethiopia. S Afr J Inf Manag. (2016) 18(1):1–8. doi: 10.
+27.JamalA,McKenzieK,ClarkM.Theimpactofhealthinformationtechnologyon
+4102/sajim.v18i1.612
+thequalityofmedicalandhealthcare:asystematicreview.HealthInfManagJ.(2009)
+12.TomasiE,FacchiniLA,MaiaMF.Healthinformationtechnologyinprimary 38(3):26–37.doi:10.1177/183335830903800305
+(
+h
+1
+e
+1
+a
+)
+lt
+:8
+h
+67
+c
+–
+a
+7
+re
+4.
+i
+P
+n
+M
+d
+C
+e
+I
+v
+D
+e
+:
+lo
+P
+p
+M
+in
+C
+g
+26
+co
+2
+u
+30
+n
+6
+tr
+1
+i
+.
+es: a literature review. Bull WHO. (2004) 82 28.MosadeghradAM.Factorsinfluencinghealthcareservicequality.IntJHealth
+PolicyManag.(2014)3(2):77.doi:10.15171/ijhpm.2014.65
+13.Gebre-MariamM,BoryckiE,KushnirukA,PurkisME.Anelectronicmedical 29.ChibaY,OguttuMA,NakayamaT.Quantitativeandqualitativeverificationof
+record (EMR) implementation framework for HIV care and treatment facilities in
+Ethiopia. ElectronicHealthcare. (2012). 11(1):14–24. http://hdl.handle.net/1828/6446 d M a i t d a w q i u fe a r l y it . y ( i 2 n 01 th 2 e ) c 2 h 8 i ( l 3 d ) b :3 ir 2 t 9 h – r 3 e 9 g . is d te o r i s :1 o 0 f . t 1 w 0 o 16 r / u j. r m al id d w ist .2 ri 0 c 1 t 1 h .0 o 5 sp .0 i 0 ta 5 lsinWesternKenya.
+(accessedAugust12,2022).
+30.HahnD,WanjalaP,MarxM.Whereisinformationqualitylostatclinicallevel?
+14.AlkureishiMA,LeeWW,LyonsM,PressVG,ImamS,Nkansah-AmankraA,
+et al. Impact of electronic medical record use on the patient–doctor relationship A mixed-method study on information systems and data quality in three urban
+and communication: a systematic review. J Gen Intern Med. (2016) 31(5):548–60. KenyanANCclinics.GlobHealthAction.(2013)6(1):21424.doi:10.3402/gha.v6i0.
+21424
+doi:10.1007/s11606-015-3582-1
+31.BelayH,AzimT,KassahunH.Assessmentofhealthmanagementinformation
+15. Tola K, Abebe H, Gebremariam Y, Jikamo B. Improving completeness of
+system(HMIS)performanceinSNNPR,Ethiopia.MeasureEvaluation.ChapelHill:
+inpatientmedicalrecordsinMenelikIIreferralhospital,AddisAbaba. AdvPublic
+Carolina Population Center, University of North Carolina at Chapel Hill (2013).
+Health.(2017)2017:5.doi:10.1155/2017/8389414
+SR-14-87.http://www.measureevaluation.org(accessedDecember3,2022).
+16. Tilahun B, Fritz F. Comprehensive evaluation of electronic medical record
+system use and user satisfaction at five low-resource setting hospitals in Ethiopia. 32.Bosch-CapblanchX,RonveauxO,DoyleV,RemediosV,BchirA.Accuracyand
+JMIRMedInform.(2015)3(2):e4106.doi:10.2196/medinform.4106 qualityofimmunizationinformationsystemsinforty-onelowincomecountries.Trop
+MedIntHealth.(2009)14(1):2–10.doi:10.1111/j.1365-3156.2008.02181.x
+17.SolomonM,AddiseM,TassewB,BalchaB,AbebeA.Dataqualityassessment
+andassociatedfactorsinthehealthmanagementinformationsystemamonghealth 33.ChansatitpornN,PobkeereeV,NongkhaiSN,SangkijpornS.Factorsaffecting
+centers of southern Ethiopia. PLoS One. (2021) 16(10):e0255949. doi: 10.1371/ quality management at the Thai National Institute of Health. Int J Health Care
+journal.pone.0255949 QualAssur.(2019)32(4):739–51.doi:10.1108/IJHCQA-05-2018-0107
+FrontiersinDigitalHealth 08 frontiersin.org
+Toleraetal. 10.3389/fdgth.2024.1261031
+34. Frieden TR. Six components necessary for effective public health program 40. Aqil A, Lippeveld T, Hozumi D. PRISM Framework: a paradigm shift for
+implementation.AmJPublicHealth.(2014)104(1):17–22.doi:10.2105/AJPH.2013. designing,strengtheningandevaluatingroutinehealthinformationsystems.Health
+301608 PolicyPlan.(2009)24(3):217–28.doi:10.1093/heapol/czp010
+35.SantosS,MurphyG,BaxterK,RobinsonKM.Organisationalfactorsaffecting 41.ShiloachM,FrencherSK,SteegerJE,RowellKS,BartzokisK,TomehMG,etal.
+the quality of hospital clinical coding. Health Inf Manag J. (2008) 37(1):25–37. Towardrobustinformation:dataqualityandinter-raterreliabilityintheAmerican
+doi:10.1177/183335830803700103 College of Surgeons National Surgical Quality Improvement Program. J Am Coll
+Surg.(2010)210(1):6–16.doi:10.1016/j.jamcollsurg.2009.09.031
+36.NiK,ChuH,ZengL,LiN,ZhaoY.Barriersandfacilitatorstodataqualityof
+electronichealthrecordsusedforclinicalresearchinChina:aqualitativestudy.BMJ 42. Callahan T, Barnard J, Helmkamp L, Maertens J, Kahn M. Reporting data
+Open.(2019)9(7):e029314.doi:10.1136/bmjopen-2019-029314 quality assessment results: identifying individual and organizational barriers and
+solutions.EGEMS.(2017)5(1):16.doi:10.5334/egems.214
+37. Kumar M, Gotz D, Nutley T, Smith JB. Research gaps in routine health
+information system design barriers to data quality and use in low- and middle- 43.ChenP-T,LinC-L,WuW-N.Bigdatamanagementinhealthcare:adoption
+incomecountries:aliteraturereview.IntJHealthPlannManage.(2018)33(1):e1–9. challenges and implications. Int J Inf Manage. (2020) 53:102078. doi: 10.1016/j.
+doi:10.1002/hpm.2447 ijinfomgt.2020.102078
+38.TilahunB,DersehL,AtinafuA,MamuyeA,MariamTH,MohammedM,etal. 44.MutheeV,BochnerAF,OstermanA,LikuN,AkhwaleW,KwachJ,etal.The
+Level and contributing factors of health data quality and information use in two impact of routine data quality assessments on electronic medical record data
+districtsinnorthwestEthiopia:social-ecologicalperspective.BMCMedInformDecis quality in Kenya. PLoS One. (2018) 13(4):e0195362. doi: 10.1371/journal.pone.
+Mak.(2021)21(1):373.doi:10.1186/s12911-021-01741-1 019536
+39.MatlalaNT,MalemaRN,BopapeMA,MphekgwanaPM.Theperceptionsof 45.CowanDA,SandsMB,RabizadehSM,AmosCS,FordC,NussbaumR,etal.
+professional nurses regarding factors affecting the provision of quality health care Electronic templates versus dictation for the completion of Mohs micrographic
+servicesatselectedruralpublicclinicsintheCapricorndistrict,Limpopoprovince. surgery operative notes. Dermatol Surg. (2007) 33(5):588–95. doi: 10.1111/j.1524-
+AfrJPrimHealthCareFamMed.(2021)13(1):2830.doi:10.4102/phcfm.v13i1.2830 4725.2007.33120.x
+FrontiersinDigitalHealth 09 frontiersin.org

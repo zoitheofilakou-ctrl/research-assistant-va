@@ -1,0 +1,1717 @@
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+Explainable AI in Healthcare: Systematic
+Review of Clinical Decision Support
+Systems
+NOORA.AZIZ1,2,AWAISMANZOOR1,2,3,MUHAMMADDEEDAHWARMAZHAR
+QURESHI2,4,M.ATIFQURESHI1,2,4,WAELRASHWAN.2
+1ADAPTCentre
+2eXplainableAnalyticsGroup,FacultyofBussiness,TechnologicalUniversityofDublin
+3ArtificialIntelligenceandCognitiveLoadResearchLab,TechnologicalUniversityDublin.
+4ScienceFoundationofIreland,CentreforResearchTraininginMachineLearning(ML-Labs),TechnologicalUniversityDublin.
+ABSTRACT
+ThissystematicreviewexaminestheevolutionandcurrentlandscapeofeXplainableArtificialIntelligence
+(XAI)inClinicalDecisionSupportSystems(CDSS),highlightingsignificantadvancementsandidentifying
+persistent challenges. Utilising the PRISMA protocol, we searched major indexed databases such as
+Scopus, Web of Science, PubMed, and the Cochrane Library, to analyse publications from January 2000
+to April 2024. This timeframe captures the progressive integration of XAI in CDSS, offering a historical
+and technological overview. The review covers the datasets, application areas, machine learning models,
+explainableAImethods,andevaluationstrategiesformultipleXAImethods.
+Analysing 68 articles, we uncover valuable insights into the strengths and limitations of current XAI
+approaches,revealingsignificantresearchgapsandprovidingactionablerecommendations.Weemphasise
+the need for more public datasets, advanced data treatment methods, comprehensive evaluations of XAI
+methods, and interdisciplinary collaboration. Our findings stress the importance of balancing model
+performance with explainability and enhancing the usability of XAI tools for medical practitioners. This
+research provides a valuable resource for healthcare professionals, researchers, and policymakers seeking
+todevelopandevaluateeffective,ethicaldecision-supportsystemsinclinicalsettings.
+INDEX TERMS ClinicalDecisionSupportSystems,eXplainableArtificialIntelligence,MachineLearn-
+ing,ComputerAidedDiagnosis,ElectronicHealthRecord
+I. INTRODUCTION precisionofthesesystems,whileimportant,arenotsufficient
+THe advancements in computer science, particularly in ontheirown.Itisessentialtoempowerdecision-makerswith
+Machine Learning, in the 21st century have been piv- interpretable methods that allow stakeholders to understand
+the technological decisions, evaluate their merits, and make
+otal in ushering in the fourth industrial revolution. This
+necessary adjustments. Rapid advancements in XAI have
+has given rise to an interdisciplinary nexus of technological
+made model explainability a central concern, serving as a
+applications that address challenges beyond the traditional
+much-neededbridgebetweenAIanditsapplicationdomains,
+boundariesofcomputerscience.Onesignificantimpactarea
+includinghealthcare,socialsciences,andengineering.
+is healthcare, where these technologies have seen increased
+acceptanceandadoptionformission-criticaltasks. This need for explainability extends naturally to clinical
+decision-makingforhealthcareprofessionals,particularlyin
+Integrating AI and ML technologies in healthcare has
+fieldsthatalreadyrelyheavilyontechnology,suchasML/AI
+enhanced decision-making capabilities, yet it has also un-
+models integrated into standard protocols. As healthcare
+derscoredtheneedforgreatertransparencyinthesesystems.
+continues to embrace digital transformation, implementing
+The COVID-19 pandemic, in particular, highlighted the im-
+explainable AI within Clinical Decision Support Systems
+portanceofsuchtechnologiesinmanagingnewandevolving
+(CDSS) is crucial for ensuring informed, ethical, and effec-
+medical knowledge during critical situations. AI and ML
+tivepatientcare.
+systems have been crucial in areas such as disease classi-
+fication and cancer diagnosis. However, the accuracy and
+1
+NOTE: This preprint reports new research that has not been certified by peer review and should not be used to guide clinical practice.
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+TABLE1:Listofabbreviationsandtheirdescriptions.
+Abbreviation Description Abbreviation Description
+RNN RecurrentNeuralNetwork GRU GatedRecurrentUnit
+LSTM LongShort-TermMemory CNN ConvolutionalNeuralNetwork
+LR LogisticRegression SVM SupportVectorMachine
+RF RandomForest XGB ExtremeGradientBoost
+MLP Multi-LayerPerceptron ANN ArtificialNeuralNetwork
+DT DecisionTrees GBC GradientBoostingClassifier
+GNB GaussianNaïveBayes KNN k-NearestNeighbors
+LDA LinearDiscriminantAnalysis LGBM LightGradientBoostingMachine
+DNN DeepNeuralNetwork CART ClassificationandRegressionTrees
+NBM NaiveBayesMultinomial GLM GeneralisedLinearModel
+EN ElasticNet TB TreeBoosting
+ICE IndividualConditionalExpectation GBDT GradientBoostedDecisionTrees
+FCN FullyConvolutionalNeuralNetwork GB GradientBoosting
+SVC SupportVectorClassification ETC ExtraTreesClassifier
+SGD StochasticGradientDescent LGB LightGradientBoostingMachine
+CDSS ClinicalDecisionSupportSystem EMR ElectronicMedicalRecords
+EHR ElectronicHealthRecords LGA LargeforGestationalAge
+LIME LocalInterpretableModel-agnosticExplanations AGRAD AttentionGradient
+LORE LOcalRule-basedExplanations LRP Layer-wiseRelevancePropagation
+GradCAM Gradient-weightedClassActivationMapping PDP Partialdependenceplots
+SHAP ShapleyAdditiveExplanations CIU ContextualImportanceandUtility
+FI FeatureImportance BoCSoR BoundaryCrossingSoloRatio
+PFI PermutationFeatureImportance ELI5 ExplainLikeIam5
+Anchors Basic Explanation Linked-Examples En-
+ABELE
+hancedExplanation
+A. NEEDFOREXPLAINABLECDSSINHEALTHCARE arebothinformedandtimely.Theultimategoalofdeploying
+Clinical Decision Support Systems (CDSS) are essential CDSS in healthcare is to harness the best available evi-
+tools in modern healthcare, aiding doctors, nurses, and denceandinsights,therebyenhancingpatientcareoutcomes
+pharmacists in making better-informed decisions about pa- throughinformedclinicaldecision-making.
+tient care [1]. These systems range from basic information XAI is crucial in this context, as it addresses the need
+providers, such as medication and lab result databases like for transparency and interpretability in CDSS. Integrating
+pharmacy information systems [2], to advanced algorithms XAI into CDSS ensures that the decisions made by these
+that recommend personalised treatments [3]. Some CDSSs systems are not only accurate but also understandable to
+operate automatically, providing instant guidance to health- clinicians.Thistransparencyisessentialforgainingthetrust
+care professionals [4], while others require manual input, of healthcare providers and ensuring that the systems’ rec-
+suchasclinicalguidelines[5]. ommendationscanbeeffectivelyscrutinizedandvalidated.
+The digital transformation in healthcare has led to ex-
+ponential growth in data generation, particularly through B. MOTIVATIONFORTHEWORK
+the adoption of Electronic Health Records (EHRs). EHRs TheintegrationofXAIintoCDSSrepresentsasignificantad-
+chroniclecomprehensivepatienthealthinformation,offering vancementinhealthcaretechnology.Despitevariousreview
+a digital alternative to traditional paper records. Leverag- studieshighlightingthemultifacetedchallengesandopportu-
+ing this data, advanced CDSS has been developed to assist nitiesofthisintegration,thereisaneedforacomprehensive
+healthcareprovidersinmakinginformeddecisionsbasedon evaluationofcurrentresearchdirectionsandfuturegoals.
+patient-specificconditions. Severalstudieshaveunderscoredthepotentialandneces-
+ThepotentialofCDSStoreduceerrorsindecision-making sity of XAI in enhancing the transparency and reliability of
+andimprovepatientoutcomesiswell-documented.However, CDSS.Forinstance,Antoniadietal.[7]showcasedsuccess-
+the mere presence of these systems does not automatically fulintegrationsofXAI,providingfoundationalinsightsinto
+guarantee better patient care. While studies have shown a its application within CDSS. Similarly, Du et al. [8] em-
+significantreductionindecision-makingerrors[6],theeffec- phasized the critical importance of explainability in CDSS,
+tiveness of CDSS is highly dependent on the quality of the particularlyinspecifichealthcaredomainssuchaspregnancy
+systemsandtheaccuracyofthedatatheyprocess. care,whereinclusivityandextensivevalidationareessential.
+The utility of CDSS becomes particularly apparent in Vasey et al. [9] revealed a lack of sufficient evidence to
+scenariosrequiringswiftandinformeddecision-making.By conclusivelyassertthatML-basedCDSSenhancesphysician
+providingclinicianswithimmediateaccesstorelevantpatient diagnosticcapabilities,highlightinglimitationssuchassmall
+data and the latest medical knowledge, CDSS empowers participant sizes, biases, and inadequate consideration of
+healthcareprofessionalstonavigatecomplexandvoluminous human factors. Wang et al. [10] identified several obstacles
+data, ensuring that critical decisions regarding patient care to the effective implementation of XAI in CDSS, including
+2
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+300 2) Whattypesofdatasetsarecommonlyusedinexplain-
+ableCDSS,andwhataretheirkeycharacteristics?
+250 3) Whataretheprevailingtrendsandmosteffectivema-
+chine learning models utilised in explainable health-
+200
+caresystems?
+150 4) What are the most commonly used XAI methods in
+electronichealthcare,andhowdotheycontributetothe
+100 interpretabilityofmachinelearningmodels?
+5) How do multiple XAI methods contribute to ensuring
+50
+explainability in the healthcare decision-making pro-
+cess?
+0
+2000 2005 2010 2015 2020 2025
+FIGURE1:Searchresultsfromalldatabases II. METHODOLOGY
+To conduct this systematic review, we adhered to rigorous
+methodology,drawingupontheestablishedliteraturereview
+technical, process-related, attitudinal, informational, usabil- framework [18] and further aligning our review protocols
+ity,andenvironmentalchallenges.Similarly,Moazemietal. with PRISMA-P guidelines [19] to ensure a comprehensive
+[11] similarly reported issues with validation and interoper- and methodological approach. Figure 2 illustrates the de-
+abilityinCDSS.Xuetal.[12]suggestedthatfuturestudies tailedimplementationofthePRISMA-Pprotocoltailoredfor
+should focus on developing a formalism for defining inter- ourreviewobjectives.
+pretability,identifyingitsproperties,andcreatingappropriate The following sections discuss the specifics of the SLR
+andobjectivemetricsforevaluatinginterpretability. methodologicalapproach,includingeligibilitycriteria,iden-
+The analysis of recent systematic literature reviews on tificationofrelevantinformationsources,formulationofthe
+XAI-based CDSS indicates an inadequacy in studies that search strategy, and the screening process undertaken to
+holistically address critical aspects of these systems (see curatethefinalsetofarticlesforanalysis.
+Table 2). This observation underscores the need for a sys-
+tematic review that maps the current research landscape, A. ELIGIBILITYCRITERIA
+identifies existing limitations, and guides future directions. This review focuses on the applications of XAI in health-
+By addressing this gap, researchers and practitioners can care, particularly healthcare/clinical decision support sys-
+betterunderstandthechallengesandopportunitiespresented tems(CDSS).Thepurposeistoassesstheoverallprogressof
+by integrating XAI into CDSS, facilitating the development artificialintelligenceinthelasttwodecadesandthegradual
+ofmoreeffective,ethical,anduser-friendlyAI-drivenhealth- acceptanceandneedforXAItomakeAI-basedsystemsmore
+caresolutions. reliable in critical domains such as healthcare. It also ex-
+This work aims to provide a thorough review of the cur- aminesthechallengesartificialintelligencehasencountered
+rent state of XAI in CDSS, evaluating its implementation, duringthisperiodandthecurrentobstaclestoadoptingmore
+challenges,andpotentialforfutureresearch.Itseekstooffer XAI-based systems. Additionally, it aims to identify future
+valuable insights for healthcare professionals, researchers, researchinsightsinthisspecificdomain.
+and policymakers interested in developing and evaluating The study also aims to determine the types of data sup-
+transparent and reliable AI-based decision support systems ported by artificial intelligence-based clinical decision sup-
+inclinicalsettings. port systems, the implementation of the systems, and the
+outcome of the systems. The terms that describe our work
+C. RESEARCHQUESTIONS most accurately are "clinical decision support systems" and
+This literature review examines the current use of eXplain- "explainableartificialintelligence."Thesetermshelpusfind
+ableAImethodsinAI-assistedhealthcaresystems.WhileAI- all the related studies in scientific databases, and all the
+powered healthcare systems have been extensively studied, searchtermsandsearchstringsweredesignedbasedonthese
+the application of XAI to this domain is still emerging. twoterms.
+Healthcare is rapidly becoming a significant area for XAI ThereviewincludedstudiesthatdiscussCDSSregardless
+applications. This review aims to assess the adoption of of the type of disease. However, the type of disease was
+XAIacrossdifferenthealthcaredomainsanditsimplications. still considered a significant parameter for the classification
+Additionally,itexplorestheinteractionsbetweenvariousML of studies and the data type they used. Studies that did not
+models and XAI methods regarding their compatibility, ne- discussthetechnicalaspectsofCDSS,philosophicalstudies,
+cessity,andeffectivenessinenhancinginterpretability.These review studies, conference articles, and discussion studies
+queriesareformalisedintothefollowingresearchquestions: wereexcludedfromthereview.
+1) Which specific healthcare domains have extensively Furthermore, the research studies were selected based on
+adoptedXAImethods? their use of explainability methods, i.e., at least one XAI
+3
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+TABLE2:SummaryofCDSSLiterature
+ML XAI
+Ref Published Duration Remarks
+Application Models Methods MultipleXAI Dataset
+Area Methods Characteristics
+[7] 2021 2008-2020 - - Low - - TouchesuponXAImethodsinCDSSwith-
+outfocusingonspecificMLmodels.
+[13] 2022 2011 - Low Low High - - FocusesonXAImethodswithlimiteddis-
+2022 cussiononMLmodelsandapplicationar-
+eas.
+[12] 2023 2011-2020 - - Low - - DiscussesCDSSfromatechnologicaland
+medicalperspective,withnodetaileddis-
+cussionofMLmodels,XAImethods,and
+datasets.
+[14] 2023 2018 - Low Low Medium - Medium FocusesonXAImethodsandthedatasets
+2022 for CDSS, with a limited discussion on
+ML models and application areas and no
+discussionofusingmultipleXAImethods
+inasinglestudy.
+[15] 2023 by Oct - - High - - ReviewstheimplementationofXAImeth-
+2022 ods and their challenges from a physi-
+cian’s perspective, with no discussion of
+MLmodels,datasets,andapplications.
+[16] 2023 2019-2022 Medium Medium High - Medium FocusesondifferentXAImethodsmostly
+onimage-basesdatasets,andlacksdiscus-
+siononfree-textandtabulardatasets.
+[17] 2023 2020 - - Low Medium - Low FocusesonthetaxonomyofXAImethods
+2022 inthemedicalfield,lackingdiscussionon
+application areas, with limited discussion
+ondatasetsandMLmodels.
+Thisre- 2024 2003-2023 High High High High High ProvidesacomprehensiveanalysisofXAI
+view methods applied to different ML model
+categoriesacrossvarioushealthcareappli-
+cationareas,detailingdatasetcharacteris-
+ticsandliststradeoffsbetweenXAImeth-
+odsused.
+method(unlikeEDAstrategies)toexplainatleastoneblack- thesetwodatabases.
+boxornon-interpretableMLmodeltodecision-makers.Spe-
+cificXAImethodswerenotarequirementforinclusioninthe
+C. SEARCHSTRATEGY
+review.
+We considered two major terms that define our research
+topic. These terms are "clinical decision support systems"
+B. DATABASES
+and "explainable artificial intelligence." We have designed
+We utilised multiple databases to gather information, in-
+oursearchstrategyintothreepartsbasedonthesetwoterms.
+cluding Scopus, Web of Science, Cochrane Library, IEEE
+Thefirstpartofthesearchstrategyfocusesonexplainability,
+Explore,PubMed,andScienceDirect.Althoughwereceived
+covering all the synonyms and explainability-related words
+almost identical outcomes from different databases, we fo-
+andcombiningthemwiththebinaryORoperator.Thesecond
+cusedonfourprimarydatabasestoeliminateredundancyand
+part covers artificial intelligence in publications related to
+duplicatepublications.ThesefourdatabasesareScopus,Web
+artificial intelligence, while the third part represents clinical
+ofScience,PubMed,andCochraneLibrary.ScopusandWeb
+decision systems, covering all the synonyms and related
+ofSciencearevastdatabasesencompassingvariousresearch
+words to clinical decision support systems. To make these
+topics and publications, making them reliable sources for
+three parts of the search term work together, we have com-
+literature in any field. Meanwhile, PubMed and Cochrane
+binedthemusingthebinaryANDoperator;seeTable3.
+Libraryareimportantsourcesofknowledgeformedicaland
+biomedicalstudies.PubMedcoverstheoveralladvancements After designing the search terms, we selected the topic
+in medical expertise, while Cochrane Library is a valuable title, abstract, and keywords and applied the search string,
+source of clinical studies that examine all clinical-related and adapted the search query according to each database
+practices,implementations,andclinicaloutcomes.Although search policy (see Table 4). Also, we applied the duration
+we tested our search terms on IEEE Explore, we didn’t of the search between 01-Jan-2000 and 31-Dec-2023 and
+achieveenoughresults.WealsodiscoveredthatScienceDi- collected a total of 1226 research articles1. Furthermore,
+rectproducednearlyidenticaloutcomestoScopusandWeb
+of Science. However, due to Scopus and Web of Science’s
+1451,351,229,and195resultsfromScopus,WebofScience,Cochrane
+broad range of multidisciplinary coverage, we focused on Library,andPubMed,respectively.
+4
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+Identification of studies via databases and registers
+Records identified from*:
+Databases (n = 1226)
+n o Scopus (n = 451) Records removed before screening:
+ita
+Web of Science (n = 351)
+Duplicate records removed using
+c ifitn
+e
+C
+Pu
+o
+b
+c
+M
+hra
+e
+n
+d
+e
+( n
+L i
+=
+b r
+1
+a
+9
+r
+5
+y
+)
+(n = 229) e
+R
+n
+e
+d
+c
+n
+o
+o
+rd
+te
+s removed based on
+d document type
+I
+Not relevant to subject
+Limited to English language only
+(n=500)
+Records screened Duplicate records removed manually
+(n = 726) (n = 45).
+Title and Abstract Screening Records removed after title and
+(n = 681) abstract screening.
+g
+n Records which does not discuss AI
+in
+e Records which does not discuss
+e
+r c healthcare
+S
+Record which does not discuss
+Reports assessed for eligibility of CDSS
+full text reading. Records which does not discuss at
+(n =74) leatstone XAI Method.
+(n = 607)
+Reports excluded:
+Low Quality articles (having no clear
+Studies included in review research objectivesor not properly
+(n = 44) reported the results).
+d Reports of included studies after Articles which does not apply XAI
+e
+d forward and backward chasing methods on classification or Blackbox
+u
+lc (n = 19) ML Models.
+n
+I Total Articles = 44 + 19 = 63 (n = 34)
+FIGURE2:PRISMADiagram
+articles from 2024 are also included until April, totaling in criteria (see Table 5). Of these, 74 articles met our criteria
+5additionalarticles. andweresubjectedtoafull-textreview.Duringthisreview,
+weonlyincludedarticlesthathaveclearresearchobjectives,
+properly reported the results, and discussed the application
+D. SCREENINGOFSTUDIES
+oftheXAImethodonclassificationorblack-boxedmachine
+We took several steps to ensure we only considered high- learning models and at least one explanation method to
+quality, relevant articles. Initially, we applied filters based clinical data. Ultimately, we were left with 44 articles that
+on document type, subject matter, and language (English matchedourinclusioncriteria.Toensurewedidn’tmissany
+only)tolimitoursearchresultsonlytoincludepeer-reviewed relevant articles, we also performed forward and backward
+journalarticlesthatfocusedonthetopicofXAIandCDSS. reference chasing, which led us to include 19 additional
+Afterapplyingthesefilters,weusedEndnotereferenceman- articlesthatmatchedourcriteriaand5articlespublisheduntil
+agersoftwaretodetectandremoveduplicatearticles,andwe April2024.
+also removed a small number of duplicate articles through
+manualintervention.Afterthisinitialscreening,wewereleft
+with 681 articles, which we reviewed based on the title and
+abstracttodetermineiftheymetourinclusionandexclusion
+5
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+SearchTerms Operator SearchTerms Operator SearchTerms
+(explainableORinterpretableOR (AIORMLORDeepLearningORmachine (((health*OR*medicalORclinical
+transparentORaccountableOR ANDlearningORdeepANDlearningOR )ANDdecision*AND(supportOR
+AND AND
+human-interpretableOR artificialANDintelligenceORcomputational makingORaids)ANDsystem*)OR
+human-centered) ANDintelligence)ORXAI) cdssORcds))
+TABLE3:SearchTerms
+NameofDatabase SearchString
+Scopus TITLE-ABS-KEY(((explainableORinterpretableORtransparentORaccountableORhuman-interpretableORhuman-centered
+)AND(aiORmlORDLORmachineANDlearningORdeepANDlearningORartificialANDintelligenceORcomputational
+ANDintelligence)ORXAI)AND(((health*OR*medicalORclinical)ANDdecision*AND(supportORmakingORaids)
+ANDsystem*)ORcdssORcds))
+WebofScience AB=(((explainableORinterpretableORtransparentORaccountableORhuman-interpretableORhuman-centered)AND(aiOR
+mlORDLORmachineANDlearningORdeepANDlearningORartificialANDintelligenceORcomputationalANDintelligence
+)ORXAI)AND(((health*ORmedicalORclinical)ANDdecision*AND(supportORmakingORaids)ANDsystem*)OR
+cdssORcds))
+CochraneLibrary ((ExplainableORInterpretableORTransparentORAccountableORHuman-interpretableORHuman-Centered)AND(AIOR
+MLORDLORmachinelearningORDeeplearningORartificialintelligenceORcomputationalintelligence)ORXAI)AND
+(((Health*OR*medicalORclinical)ANDdecision*AND(supportORmakingORaids)ANDsystem*)ORCDSSORCDS)
+PubMed ((("Explainable"[Title/Abstract] OR "interpretable"[Title/Abstract] OR "Transparent"[Title/Abstract] OR "Ac-
+countable"[Title/Abstract] OR "Human-interpretable"[Title/Abstract] OR "Human-Centered"[Title/Abstract]) AND
+("AI"[Title/Abstract] OR "ML"[Title/Abstract] OR "DL"[Title/Abstract] OR "machine learning"[Title/Abstract] OR "deep
+learning"[Title/Abstract] OR "artificial intelligence"[Title/Abstract] OR "computational intelligence"[Title/Abstract])) OR
+"XAI"[Title/Abstract]) AND ((("health*"[Title/Abstract] OR "medical"[Title/Abstract] OR "clinical"[Title/Abstract]) AND
+"decision*"[Title/Abstract] AND ("support"[Title/Abstract] OR "making"[Title/Abstract] OR "aids"[Title/Abstract]) AND
+"system*"[Title/Abstract])OR"CDSS"[Title/Abstract]OR"CDS"[Title/Abstract])
+TABLE4:SummaryofDatabaseSearches
+Inclusion Exclusion
+dressed. This detailed extraction aimed to ensure a compre-
+• Discuss XAI in • Articles lacking attention on hensive understanding of how XAI is being utilised within
+healthcare healthcareandCDSS. CDSS and to identify any prevalent trends or gaps in the
+• Discuss XAI and • ArticlesnotwritteninEnglish
+research.
+CDSS. • Duplicatearticles
+• Articles utilising • Articlesinvolvingfuzzyclassi-
+ML models and fiers
+XAImethodswitha • PhilosophicalStudies
+clinicaldataset. • Reviewstudies
+• Conferencearticles
+• Discussionstudies
+TABLE5:InclusionandExclusionCriteria
+E. DATAEXTRACTIONANDSTUDYCHARACTERISTICS
+This review includes articles published from January 2000
+toApril2024.Afterapplyingthesearchstringsandfiltering
+studiesaccordingtotheinclusionandexclusioncriteria,we
+were left with studies predominantly published in recent
+years,asshowninFigure3.Specifically,sevenarticleswere
+published in 2020, 9 in 2021, 14 in 2022, 33 in 2023, and
+5 articles published by April 2024. The gradual increase FIGURE 3: Studies published from 2020 to 2023 are in-
+in studies over recent years indicates growing interest from cluded (*Statistics for 2024 are not shown as the year is
+researchers and stakeholders in applying artificial intelli- ongoing).
+gence within the healthcare domain. Consequently, it is an
+opportunetimetoevaluatethecurrentstateofXAIinCDSS,
+understand the existing challenges, and provide insights for III. APPLICATIONAREASANDDATASETS
+futureimplementationandresearch. The articles included in the review were analyzed and cate-
+The studies selected for this review were subjected to a gorisedbasedontheirapplicationsinspecificdiseasetypes.
+thorough data extraction process to capture relevant charac- The review identifies 19 application categories summarized
+teristics. Key data extracted included study design, sample inTable6.Thesixmostprominentcategoriesarediscussed
+size, XAI methods used, ML models implemented, datasets in detail below, while the remaining categories with less
+characteristics, and the specific healthcare applications ad- frequentusagearecombinedintoafinalsubsection.Detailed
+6
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+descriptionsofthedatasetsrelevanttoeachapplicationarea A. NEUROLOGICAL
+are presented in Table 8 and 9, including their detailed Neurological conditions are the most studied category, with
+descriptions. 17 studies focusing on diagnosis and assessment (see Ta-
+ble6).Neurologicalconditionsinclude,Alzheimer’sdisease
+[28], [30], [34], stroke [20], [22], [32], [84], dementia [25],
+TABLE 6: Overview of datasets by application areas, avail-
+Parkinson’s disease [26], Cerebrovascular issues [23], brain
+ability,andtypeofdata
+injuries [27], depressive disorder [31], language behavior
+Application Availability Dataset References based mental health issues [24] and brain connectivity net-
+Area Type works [29]. A total of 12 private datasets and five public
+datasetswereused,featuringtabular(14),image(2),andtext
+Pub(5) Tab(3) [20]–[22]
+data (4). These datasets are often imbalanced and contain
+Img(1) [23]
+missing values (see Table 8), necessitating careful prepro-
+Neurological
+Txt(4) [24] cessingtoensurerobustanalysisandmodelperformance.
+(17)
+Prv(12) Tab(11) [25], [26], [27], [28], [29] ,
+[30],[31],[22],[32],[21],[33] B. CANCER
+Img(1) [34] Cancer detection and diagnosis constitute a significant por-
+Pub(7) Tab(4) [21],[35]–[37] tion of the reviewed studies, with 13 studies addressing
+Img(3) [38]–[40] various types of cancer, including cervical [35], liver [33],
+Cancer(13) Prv(6) Tab(3) [33],[41],[42] multiple myeloma [36], prostate [38], lung [33], [41], [85],
+Img(3) [43]–[45] glioma brain [39], [40], breast [21], [33], [44], nasopharyn-
+geal[42],colorectal[43]andtumor[45].Bothimage-based
+Cardiovascular Pub(3) Tab(3) [21],[46],[47]
+and tabular datasets were utilised, with a distribution of 6
+(7) Prv(4) Tab(4) [48],[49],[50],[33]
+image-based and seven tabular datasets, of which three are
+Pub(4) Tab [21],[51],[52]
+Diabetes(6) public in both categories while the remaining are private.
+Prv(3) Tab [53]–[55]
+Similartoneurologicaldatasets,thesedatasetsarefrequently
+Pub(3) Tab(2) [56],[57] imbalanced and contain missing values (see Table 8 and 9),
+COVID-19
+Img(2) [58] whichmustbeaddressedduringpreprocessing.
+(7)
+Prv(3) Tab(3) [59]–[61]
+Mortality Risk Prv(4) Tab(4) [62]–[65] C. CARDIOVASCULAR
+(ICU)(4) Seven studies focused on cardiovascular conditions such as
+Endoscopy(3) Pub(3) Img(3) [66]–[68] cardiac arrest [49], heart failure with coronary heart disease
+Pub(1) Img(1) [69] [48],comorbidity[50],hypertensiveheartdisease[33],my-
+Skin(2)
+Prv(1) Img(1) [70],[71] ocardial infarction [46], assessing conditions through elec-
+trocardiograms [47] and cardiography [21]. All datasets in
+Anti-microbial Prv(2) Tab(2) [72],[73]
+this category are tabular, with three publicly available and
+(2)
+four being private. These datasets are typically imbalanced
+Pregnancy(3) Pub(1) Tab(1) [74]
+and contain noise and missing values, impacting the choice
+Prv(2) Tab(2) [75],[76]
+ofpredictivemodelsandpreprocessingtechniques.
+Cytokines(1) Prv(1) Tab(1) [77]
+Pneumonia(4) Pub(3) Img(3) [58],[78]
+D. COVID-19ANDDIABETES
+Prv(1) Img(1) [78]
+Seven studies each focused on COVID-19 and diabetes.
+Hepatitis(1) Pub(1) Tab(1) [79] COVID-19studiesexploredCOVID-19prediction[56],[86],
+Obesity(1) Pub(1) Tab(1) [50] ICU admissions [59], diagnosis from influenza-like illness
+Pulse Wave Prv(1) Img(1) [80] [60],triage-predictionsystem[57],severityrisk[61],severe
+Classification community-acquired pneumonia and respiratory infections
+(1) [58]. While Diabetes studies explored predicting large ges-
+Surgical(1) Prv(1) Tab(1) [46] tationalage(LGA)inoverweightandobesefemalepatients
+[52]–[54], general classification and prediction of diabetes
+Acute Disease Prv(1) Tab(1) [81]
+[51], and addressing diabetes retinopathy in type 2 diabetes
+(1)
+patients[21],[55].
+Chronic Pub(1) Tab(1) [82]
+The datasets for both categories included all data in tab-
+Disease(1)
+ular format except two images in the COVID-19 Category.
+Medical Pub(1) Text(1) [83]
+Whilethreepublicandthreeprivatedatasetsexistedineach
+Abstracts
+category,bothhadmissingvaluesandoutliers.Thediabetes
+(General)
+datasets showed less imbalance compared to COVID-19,
+7
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+TABLE7:Categorisationofthebest-performingMLmodels
+with one exception of a highly imbalanced dataset in the
+andthefrequencyofeachmodelandcategorybeingreported
+diabetescategory.
+asthebest-performing.
+E. MORTALITYRISKPREDICTION(ICU)
+Category Best Performing ML References
+Fourstudiesfocusedonthemortalityriskpredictioncategory Models
+inICUsettings,i.e.,qualitativeanalysisinpediatricintensive
+Interpretable LR(3) [39],[44],[77]
+care units [64], overall mortality risk prediction [62], [65], (4) ElasticNet(1) [40]
+and assessing the risk of extubation failure in ICU patients
+CNN(15) [23], [34], [45]–[47], [58],
+undergoingvitalisation[63].Alldatasetsusedareprivateand [66]–[71],[78],[81],[83]
+include patient vitals, hospital records, and laboratory tests. LSTM(3) [80],[72],[65]
+Deep Light_LSTM(1) [63]
+Thesedatasetsareoftenimbalanced,withmissingvaluesand
+Learning BO-Tabnet(1) [51]
+outliers that require preprocessing to ensure accurate model (26) RNN(1) [27]
+predictions. HAE-TabNet(1) [49]
+MLP(2) [20],[50]
+MentalRoBERTa(1) [24]
+F. PNEUMONIA,PREGNANCY,ANDENDOSCOPY DNN(1) [82]
+Three studies each focused on pregnancy [74]–[76] and en-
+RF(13) [26], [28], [32], [36], [38],
+doscopy [66]–[68], while two studies addressed pneumonia [54],[55],[57],[62],[64],[74],
+[58], [78]. In pregnancy, studies predicted preterm births [79],[84]
+XGB(6) [25],[31],[33],[42],[48],[50]
+[75], extrauterine growth restriction [76], and anticipated
+CatBoost(2) [22],[29]
+cesareandeliveryoutcomes[74].Endoscopyandpneumonia LightGBM(1) [87]
+studies are primarily used and publicly available image- Ensemble/ GBDT(2) [59],[73]
+Stacking GB(1) [61]
+based, except for one private pneumonia disease dataset.
+(32) AdaBoost(3) [21],[41],[52]
+Two of the endoscopy datasets are multiclass, and one is Ensemble(RNN,GRU, [43]
+highlyimbalanced.Thepregnancycategorydatasetismostly BiLSTM)(1)
+Ensemble (LR, DT, [35]
+tabular,imbalanced,andcontainsmissingvalues.
+MLP)(1)
+Ensemble(XGB,LGB, [85]
+G. RAREAPPLICATIONS SVC,RF,CatBoost)(1)
+Ensemble (ConvXGB) [?]
+Less frequently studied application areas include skin le-
+(1)
+sion classification [69], skin vascular wound images [70], Stacking (RF, DT, [30]
+antimicrobial [73], [79], hepatitis liver disease [79], pulse KNN, LR, NB, SVM)
+(1)
+wave classification [80], obesity [50], surgical [46], chronic
+Stacking (AdaBoost, [60]
+[82] and acute disease [81]. In the context of antimicrobial CatBoost, LGB, XGB)
+aspects, early detection of drug resistance was studied in (1)
+Votingensemble(1) [75]
+[72], and antimicrobial stewardship was examined in [73].
+These studies utilised both tabular (see Table 8) and image SVM(3) Non-LinearSVM(3) [32],[53],[76]
+datasets(see9),withamixofpublicandprivatesources,with
+issues of imbalance and missing data. Despite their rarity,
+these applications highlight the versatility of XAI methods applied are random subsampling [22], [75], under-sampling
+inaddressingdiversemedicalconditions. [75]andADASYN[57],[74].Itisalsoobservedthatmostof
+Fromtheabovediscussion,tabulardatasetsaremostlyim- thedatasetsamongtabularcategoriesareprivate,particularly
+balancedwithmissingvaluesandnoise,necessitatingprepro- in the neurological category, where 12 out of 17 datasets
+cessingandbalancingforimprovedresults.Commonmeth- are private. Similarly, all the datasets related to mortality
+ods used for handling missing values when more than 30% riskprediction,anti-microbial,andPulsewaveclassification
+ismissing,includedroppingdata[20]–[22],[26],[30],[31], are private. Likewise, more than 50% datasets in all the
+[33],[41],[50],[53],[54],[75],[77],[82],means,medianor categoriesareprivate.
+modeimputation[26],[30],[51]–[54],[60],[63],[76],[77],
+[84],KNNinterpolation[28],[33],[74]andlastobservation IV. PREDICTIVEMODELS
+carried forward [63], [65]. However, [52] noted that mean Machine learning models are broadly classified into inter-
+issensitivetonoiseandresultsinwrongimputations.Other pretable and non-interpretable models. Interpretable models
+methods include iterative imputation [56], [61], baseline are simple and transparent, allowing humans to easily un-
+wander removal and power line interference removal [47] derstand their predictions or decisions. Examples of inter-
+and forward imputation [27]. For data balancing, SMOTE pretablemodelsincludeLogisticRegression,DecisionTrees,
+[30], [36], [60], [62], [75] and its other variations such as andNaiveBayes.Ontheotherhand,non-interpretablemod-
+SMOTE-ENN[48],[49],borderlineSMOTE[57],SMOTE- els are complex and lack transparency in decision-making,
+Tomek [57] and SMOTE-NC [62] are the most common thus requiring an explainer method for explaining decision-
+methodsappliedintheliterature.Othercommontechniques making.Examplesofnon-interpretablemodelsincludenon-
+8
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+40 35
+s Interpretable Deep Learning Interpretable Deep Learning
+i
+r e if is s a lc a s e m it f o r e r a e y h c a e d e s u 1 1 2 2 3 3 0 5 0 5 0 5 E N n o s n e - m In b te le rpretable Non-linear SVM s i r e if is s a lc a s e m it f o r e n n iw s a d e tr o 1 1 2 2 3 0 5 0 5 0 E N n o s n e - m In b te le rpretable Non-Linear SVM
+b m u N 5 r e b m p e r 5
+u
+0 N 0
+2020 2021 2022 2023 2020 2021 2022 2023
+(a)ModelsApplied (b)WinnerModels
+FIGURE4:BaselineMLmodelsandwinners’trendsfromJan2020toDec2023areshown;datafor2024isnotshownasitis
+anongoingyear.
+linearSVM,ensembles,anddeeplearning. outcome of stroke survivors [32], and detecting prostate
+Figures 4a and 4b illustrate the evolution of models used canceroncancerimagesdatasets[38].
+and winning models in literature from 2020 to 2023. 2024 Amonginterpretablemodels,logisticregressionandElas-
+data is not included as the year is ongoing. The trend ticNETarechosenasthebaselineandbest-performingmod-
+indicates that interpretable and non-interpretable models els, which have shown noteworthy performance on tabular
+are preferred as baseline models, but as time passes, non- data in specific clinical contexts such as cancer [39], [44],
+interpretable models are increasingly observed as winners, [77]andCytokinesanalysis[77].
+with a significant spike in 2023 and a complete drop for
+interpretable to zero in 2023. Additionally, Table 7 lists
+the categories of models and their frequency count as best-
+performing,alongwithanindividualmodelfrequencycount
+as winners. Ensembles/stacking emerge as the most preva-
+lent category, followed by deep learning, highlighting non-
+interpretable models as the top performers overall between
+2020and2024.
+As shown in Table 7, a diverse range of ML models is
+evident, warranting further discussion to provide a concise
+overview. Convolutional Neural Networks are ideal for sce-
+nariosinvolvingimagedatasuchasskinlesionclassification,
+endoscopy, brain diseases, cancer, viruses, cardiovascular
+diseases,andelectronichealthrecordtime-seriesdata.LSTM
+iscompetitiveontime-seriesandsequentialdata[65],[72].
+Random Forest is a robust choice for structured tabular
+medicaldata,demonstratinghighperformanceinpredicting
+liverdisease,diabetes,brain,cardiovascular,cancer,COVID-
+19,andmortalityriskpredictiontime-seriesdata.Ensembles
+are competitive due to their ability to aggregate predictions
+from multiple models, rendering them robust and highly ef-
+fectiveacrossvariousmedicaldomains.Forexample,anen-
+sembleofdeeplearningtechniquesexcelsonimagedatasets
+[35],[43],whileanensembleoftree-basedmodelsperforms
+bestontabulardatasets[56].Deeplearninghasoutperformed
+XGBoost,NaiveBayes,RandomForest,andCatBoostonthe
+tabulardataset[85].
+Support Vector Machines (SVMs) have stood out as a
+potent model for medical predictions, being successful in
+gestationaldiabetesprediction[53],predictingthefunctional
+9
+TABLE8:OverviewofTabularDatasetsbyApplicationArea,AvailabilityandTypesofData
+Missing Datasetsize
+App Class im- Sampling Strategyformissingval-
+Nameandref. FeaturesDescription Values/ Avail andclassifi-
+Areas balance strategy ues
+Outliers cationtype
+lacigolorueN
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+aMCI
+Domain knowledge to
+conversion Demographicsandclinicalcharacter- Not 19X705
+Prv Imbalanced - remove the unnecessary
+to dementia istics mentioned (Binary)
+variables
+[25]
+Subject Characteristics, Bio-
+>30%weredropped.For-
+PPMI dataset Samples, Medication History, 5X1059
+Yes ARQ Imbalanced SMOTENNwardandbackwardfilling,
+[26] Motor function, and Non-Motor (Multiclass)
+medianandthemode
+functions
+EHR:
+TRACK-TBI EHR:22%, 12x900
+EHR:Vitals,labmeasurements,GCS EHR:GRU-Dunits,Phys-
+(EHR and Physio- (Multi),
+scorecomponentsPhysiological:Vi- ARQ N/A - iological:Linearinterpola-
+Physiological) logical: Physio:
+talsignsandintracranialdata tion
+[27] 8.8% 8x5816
+(Binary)
+MIMIC III 26X22988
+Vitalsigns&labmeasurements 10% Pub N/A - Forwardimputation
+EHR[27] (Multiclass)
+[30] :Median, mean
+Clinical dementia rating, functional
+30X1363 and mode. [28]: >30%
+ADNI[30] activities questionnaire test, AD as- Yes ARQ Imbalanced SMOTE
+(Multiclass) dropped, and KNN
+sessmentscale,andDemographics
+imputation
+Social and Emotional processing 246X30135
+HCP[29] N/A ARQ N/A
+tasks (Multiclass)
+CerebralStroke Outliers
+10x43,400
+Prediction- Im- Demographicandmedicalhistory and Pub 1.8%:98% - Dropped
+(Binary)
+balanced[20] Missing
+Sociodemographics,pasthistory,vi-
+93X16311
+MDD-BD[31] tal signs, laboratory tests and chief Yes ARQ Imbalanced - Dropped
+(Multiclass)
+complaints
+Age,Sex,Historyofcardiac&dia-
+Random
+Ischemicstroke betesmellitus,Hypercholesterolemia 7X514 (Bi-
+Yes ARQ 28%:72% sub- >5%Dropped
+[22] presence, and Thrombolysis treat- nary)
+sampling
+ment
+Demographics,medicalhistory,type
+Stroke
+of stroke, admission levels of sys- 35X470
+Survivors N/A Prv N/A
+tolic blood pressure, glucose, CRP (Binary)
+[32]
+andESR
+Ischemicstroke 10X5110
+Demographicsandmedicalhistory Yes Pub 4.9%:95.1% - Mean
+[84] (Binary)
+D1: Mis-
+Mental health Demographics, work environment matched 27X1259,
+survey14&16 andco-workers,familyhistory,well- D2: >60% Pub 50%:50% 63X1433 - Dropped
+(Kaggle)[21] ness missing (Binary)
+(16var)
+Understanding General Population Sample of the 22%: 62%: 330X11745
+N/A Prv
+Society[21] UKHouseholdLongitudinalStudy 16% (Multiclass)
+30%:
+Chronicdisease 37X32448 >10% dropped and kNN
+Routinebloodandbiochemicaltest Yes Prv 53.5%: -
+prediction[33] (Multiclass) interpolation
+16.5%
+10
+recnaC
+Cervical cancer
+Eating and hygenic behaviour, per- 19X72 (Bi-
+behavior risk No Public 30%:70%
+ception,attitude,socialsupportetc nary)
+(UCI)[35]
+Columns and rows >50%
+Lungs Cancer FeaturesextractedfromlungCTim- 56.2%: 286X2063 missing values were
+Yes Prv -
+[41] ages 43.8% (Binary) dropped. Forward-fill and
+back-fillforremaining
+Demographic, Smoking, Yellow fin-
+gers, Anxiety, Peer Pressure, Fa-
+Survey Lung 17x319(Bi-
+tigue, Allergy, Wheezing, Shortness N/A Pub Imbalanced SMOTE
+Cancer nary)
+of Breath, Swallowing Difficulty,
+ChestPain
+Demographic information, personal
+Multiple
+and family history, various analysis 57X102 SMOTE
+myeloma N/A Pub Imbalanced
+results,medicalexaminationsanddi- (Multiclass) Multiclass
+dataset[36]
+agnostictests
+Surveillance,
+Demographic, AJCC Stages, Grade,
+Epidemiology, 11X1094
+Chemotherapy, Surgical resection N/A ARQ 40%:60%
+andEndResults (Binary)
+andRadiotherapy
+(SEER)[42]
+Breast cancer Characteristics of the cell nuclei Pub 30X569
+No 63%:37%
+[21] presentintheimage (UCI) (Binary)
+30%:
+Chronicdisease 37X32448 >10% were removed.
+Routinebloodandbiochemicaltest Yes Prv 53.5%: -
+prediction[33] (Multiclass) KNNinterpolation
+16.5%
+ralucsavoidraC
+Demographics, medical history,
+physicals status, echocardiography, 8X5188 SMOTE-
+CHF-CRF[48] Yes ARQ Imbalanced
+electrocardiography, and laboratory (Binary) ENN
+parameters
+Demographic,pasthistory,insurance,
+Cardiac Arrest 87.2%: 216X30179 SMOTE- Columns>50%nullvalues
+placeofcardiacarrestandothermed- Yes Prv
+Survival[49] 12.8% (Binary) ENN wereeliminated.
+icalcharacteristics
+China
+Physiological BaselineWanderRemoval
+Features from ECG recordings, age 7X6,877
+Signal Noise Pub N/A - and Power Line Interfer-
+andsex (Multiclass)
+Challenge enceRemoval
+2018[47]
+ECG200:
+ECG200:
+ECG200:Electricalactivityrecorded 200,
+ECG200 and 67%: 33%,
+during a single heartbeat, Synthetic: N/A Pub Synthetic:
+Synthetic[46] Synthetic:
+ECGmeasurements 1000
+50%:50%
+(Binary)
+Cardiovascular age, height, weight, gender, systolic Balanced
+11X70,000
+DiseaseDataset BP,diastolicBP,cholesterol,glucose, Yes ARQ (48.8%: - Dropped
+(Binary)
+[50] smoking,alcohol,physicalactivity 51.2%)
+Cardiotocography Pub 78%:14%: 21X2126
+CardiotocographFeatures No
+[21] (UCI) 8% (Multiclass)
+Chronicdisease 30%: 54%: 37X32448 >10% were removed and
+Routinebloodandbiochemicaltest Yes Prv -
+prediction[33] 16% (Multiclass) kNNinterpolation
+setebaiD
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+Highly im- 23X565 >30% dropped. Median,
+GDM[53],[54] ClinicaldatacollectedatthePEARS Yes Prv SMOTE
+balanced (Binary) meanandmode.
+11
+SMOTE,
+Age, Ethnicity, Diabetes mellitus,
+ADASYN,
+BP (mmHg), Central armellini fat,
+SMOTE-
+Currentgestationalage,Pregnancies,
+GDM[52] Yes Pub 13%:87% 13x133 (ENN, Median
+First fasting glucose, BMI pregesta-
+Tomek,
+tional,Gestationalageatbirth,Type
+border-
+ofdelivery,Child’sbirthweight
+line)
+Age, gender and other features col-
+38.5%: 16X520
+ESDRPD[51] lected from patients via question- No Pub
+61.5% (Binary)
+naires
+DR prevalence Demographic, Family history and 10X172
+N/A Prv N/A
+detection[55] clinicalobservations (Binary)
+Missing
+Glucose, BP, Skin Thickness, Preg-
+Pima indians values and 8X767 (Bi-
+nancies,insulin,BMI,Age,Diabetes Pub 65%:35% - Median
+diabetes[51] extreme nary)
+pedigreefunction
+outliers
+Diabetic
+FeaturesextractedfromtheMessidor 19X1151
+retinopathy No Pub 53%:47%
+images (Binary)
+[21]
+91-DIVOC
+demographicsandriskfactorsonpa-
+CHESS 19X13954
+tients witha confirmeddiagnosis of N/A Prv 65%:35%
+database[59] (Binary)
+COVID-19
+Age, BMI, sex, alcohol, cannabis,
+Under
+contactscount,COVID19symptoms, 13.8% 98.8%: 59X1023426 Iterative imputation tech-
+COVID-19[56] Pub sampling
+smoking and different chronic dis- missing 1.20% (Binary) niques.
+(1:3)
+eases
+COVID-19 Demographics and clinical observa- 22X1169 Borderline- Mean, median and mode.
+Yes Prv 23%:77%
+dataset[60] tions (Binary) SMOTE IQRforhandlingoutliers.
+ADASYN,
+SMOTE,
+COVID- Demographic parameters, nine SMOTE-
+26.6%: 231X1925
+19 dataset grouped diseases, blood parameters, Yes Pub (Tomek,
+73.4% (Binary)
+(Kaggle)[57] andvitalsignsofCOVID-19-positive Border-
+line, and
+ENN)
+48X87 (500
+Demographics,clinicalsigns,chronic
+>50% samples of Iterative imputation using
+COVID-19 illnessesandplatelet-disruptingmed- 65.5%:
+missingfor ARQ synthetic - chained equations Forest
+dataset[61] ications within the previous two 34.5%
+29rows data) (Mice-Forest)
+weeks
+(Binary)
+laiborcim-itnA
+Under
+Antimicrobial sampling
+multidrug Epidemiology, emergence, 23X3470 and
+Yes ARQ 18%:82%
+resistance prevalence,andinfectiousdiseases (Binary) Balanced
+(AMR)[72] Cross-
+Entropy
+Antibiotic
+prescriptions Admission data, patient demograph-
+51X5190
+and ics (age and sex), prescription, and Yes ARQ N/A
+(Binary)
+susceptibilities clinicalrecordsofculturetests
+[73]
+ksirytilatroM
+)UCI(
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+Patient’svitalsigns,hospitalrecords,
+SMOTE,
+fluid information, laboratory tests, 98.5%: 460X7874 Proposedcustomisedalgo-
+MIMIC-III[62] Yes ARQ SMOTE-
+treatment orders, and free-text med- 1.5% (Binary) rithm
+NC
+icalrecords
+12
+Demographics, Hospitalisation data,
+CHP Hospital Assigned diagnoses, Recorded loca- 422
+Yes ARQ N/A
+Dataset[64] tions, Ventilation, Physical assess- (Binary)
+mentandLaboratorytestresults
+Danish
+Demographics and diagnoses (daily
+National 44X15615 Last observation carried
+obtained information, and data ob- Yes Prv Imbalanced -
+PatientRegistry (Binary) forward(LOCF)
+tainedwithhighsamplingrate)
+(DNPR)[65]
+Last observation carried
+Demographic characteristics and 89X8599 forwardandMeanimputa-
+MIMIC-IV[63] Yes ARQ 70%:30% -
+clinicalfeatures (Binary) tionforwithoutanyobser-
+vation
+ycnangerP
+Random
+HosmartAI under- >30% were dropped, and
+Demographics, social and medical 32X375
+project Dataset Yes Prv 34%:66% sampling others with the most fre-
+history,andobstetricsvariables (Binary)
+[75] and quentormedian.
+SMOTE
+CHA Bundang Demographicdataandtheinitialas-
+26X124
+Medical Center sessmentresults(vitalsigns,imaging Yes ARQ 35%:65% - Meanimputation
+(Binary)
+ICU[76] findings,andlaboratorytests)
+Household information, contracep-
+PDHS’17-18
+tive knowledge and practice, post- 13.8%: 875X15,409
+and ’12-13 Yes Pub ADASYN KNNimputation
+delivery,Children’shealthcare,Nu- 86.2% (Binary)
+(C-section)[74]
+tritionandmigrationpatterns
+sititapeH
+Hepatitis 48%
+Demographics and clinical observa- 20.6%: 19X155
+Dataset (UCI) instances Pub SMOTE
+tions 79.4% (Binary)
+[79] missing
+lacigruS SSI (Surgical) 73.6%: 883
+C-reactiveprotein N/A Prv
+[46] 26.4% (Binary)
+dnacinorhC
+etucA
+Dropped missing values
+Demographic, socioeconomic, Se- Missing
+NHANES 51X19225 and outliers. Interquartile
+lectedmedical&laboratorytests,and Values and Pub 66%:34% -
+(Chronic)[82] (Multiclass) range for outlier elimina-
+self-reporteddata outliers
+tion.
+CROSS-
+33X163050 Over- Standardcarry-forwardin-
+TRACKS Laboratoryparametersandvitalsigns Yes ARQ Imbalanced
+(Multiclass) sampling terpolation
+(Acute)[81]
+senikotyC sisylana
+10% for 2
+Cytokine-relatedcharacteristicsanda
+HIV-DED variables 126X42 >10 were Dropped. Im-
+binary feature indicate which eye is Prv N/A -
+Dataset[77] and 49% (Binary) putedthroughthemean.
+involved
+for4
+ytiesbO
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+Diabetes:
+Diabetes Diabetes:
+21X253680,
+BRFSS 2015, 85%: 15%,
+Outliers Cardio:
+Cardiovascular Cardio:
+Demographicandclinical and Pub 11X70000,
+and Heart 49%, 51%,
+duplicates HD:
+diseasedatasets HD: 91%,
+279X400000
+[50] 9%
+(Binary)
+13
+TABLE9:OverviewofImageDatasetsbyApplicationArea,AvailabilityandTypesofData
+App Multi/ Bi- Class
+Name Description Availability Datasetsize OtherRemarks Ref.
+Area naryclass balance
+91-DIVOC 112120 (1024 x
+NIH CXRimage Public Multiclass - - [58]
+1024)
+SARS-COV-2
+CTScan Public 2481(244x244) Binary Balanced Imageresizing
+Ct-Scan
+ypocsodnE
+Imageresizing,normalisa-
+Kvasir-capsule 47,238 images HighlyImbal- tionandimageaugmenta-
+Endoscopyimages Public Multiclass [68]
+dataset and117videos anced tionswithverticalandhor-
+izontalflips
+470,000
+Endoscopy images
+Kvasir Public (720X579 to Multiclass - Dataaugmentation [67]
+(gastrointestinaltract)
+1920X1070)
+Red Lesion Video capsule Preprocessed but no dis-
+Public 3295(320x320) Binary 34%:65% [66]
+Endoscopy endoscopyimages cussiononpreprocessing
+recnaC
+TCGA-GBM MR,CT,DX Public 481,158 Binary - - [40]
+Braintumor T1-weightedMRI Public 3064(512×512) Binary - Dataaugmentation [39]
+Breastcancer(Val-
+Histologicalsamples ARQ 1,000×750 Multiclass - - [44]
+paraíso,Chile)
+D1:colorectalcan- D1: 165 (567 × D1:Binary,
+cer and D2: os- MRImages Private 430to775×522) D2:Multi- Imbalanced - [43]
+teosarcomadataset D2:1144 class
+Cancer Imaging MRI and US image
+Public 611119 Binary - - [38]
+Archive data
+HighlyImbal-
+Thyroiddataset Ultrasoundimages Private 19341 Binary - [45]
+anced
+ainomuenP
+Taichung Veterans D1:2301,
+D1:Private,
+General Hospital D2:112120
+CXRimage D2:Public, Multiclass - Dataaugmentation [78]
+Dataset, Taiwan, (1024 x 1024),
+D3:Public
+NIHandVinDr D3:18000
+112120 (1024 x
+NIH CXRimage Public Multiclass - - [58]
+1024)
+evaWesluP
+noitacfiissalC China Medical
+UniversityHospital RawPulseWave Private - - Imbalanced Oversampling [80]
+Dataset
+nikS
+HighlyImbal- [69],
+ISIC2019dataset Dermoscopicimages Public 25331Images Multiclass Dataaugmentation(Both)
+anced [71]
+Vascular wound Vascular wound im- Oversampling and aug-
+ARQ 2957 Multiclass Imbalanced [70]
+imageregistry ages mentationtechniques
+lacigolorueN
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+Felipe Kitamura’s
+CTImages Public 200(512X512) Binary Balanced - [23]
+CTdataset
+ADNI 3DMRI ARQ 1,692 Binary - - [34]
+14
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+V. XAIMETHODS were used in all studies for image data, applying between
+Explainable methods can be defined based on five aspects threetosixXAImethods.Heatmapwasthedominantcom-
+[88],stage,applicability,scope,formandtype.Thestageof parison strategy, followed by user studies, saliency maps,
+explanation can be post hoc or ante-hoc. Post hoc methods and explainability scores. GradCAM and its variant were
+are applied after the ML model is built (e.g., LIME). In themostfavouredXAImethods,followedbyLIME,SHAP,
+contrast, self-explaining or ante-hoc methods are inherently CIU, and ABELE, the once preferred method in different
+explainable by design (e.g., AGRAD). In terms of applica- studies.Fortabulardata,ensemblemethodswereusedacross
+bility, post hoc methods can be model-agnostic or model- all studies, with one incorporating deep learning and non-
+specific.Model-agnosticmethodscanexplainandbeapplied linearSVMinadditiontoensembles.Allstudiesutilisedtwo
+to any ML model (e.g., LORE), and model-specific models to three XAI methods, highlighting AdaWhip and BoCSoR
+can only be applied to specific ML models (e.g., LRP for as preferred methods, while others viewed XAI methods as
+deeplearning).Themethodcanhaveeitheraglobal(explain- complementaryandsupportiveoftheirrespectivegoals.
+ing the general behavior of the ML model) or local scope Table11presentsacomprehensiveoverviewofstudiesthat
+(explainingsingleinstancesorpredictions).Furthermore,the utilised multiple XAI methods and contrasted them in their
+explainermethodcanpresentexplanationsinvariousforms, research.Forimagedata,
+such as rule-based interpretations (e.g., Anchors) or visual
+• In [58], LIME achieved better quantitative scores than
+representations highlighting key aspects (e.g., GradCAM).
+otherXAImethods.However,radiologistspreferredthe
+The output of an explainer can belong to different types,
+Ensemble XAI over other methods for its localisation,
+like plots (e.g., PDP), graphs (e.g., Qlattice), feature impor-
+effectiveness,andtrustbasedonevaluationofheatmaps
+tance(e.g.,SaliencyMap),orcontrastivecomparisons(e.g.,
+andcomputationalcomplexity.
+SHAP).
+• In [67], GradCAM++ was identified as the top-
+Table 10 presents a comprehensive overview of the XAI
+performing method for endoscopic analysis based on
+methodsutilisedintheliterature,outliningvariousaspectsof
+heatmap evaluation. Similarly, in [68], GradCAM was
+each explainer method and the categories of ML models to
+found to be superior for visual explanations during
+whichthesemethodswereapplied,alongwithreferences.It
+backpropagation, while SHAP and LIME were also
+can be seen that the most widely used explainer method is
+acknowledgedfortheirefficacyinfeature-basedexpla-
+SHAP, which is applied fairly across different categories of
+nations.
+MLmodels.FollowingSHAP,LIMEemergesasthesecond
+• In [66], LIME, SHAP, and CIU were evaluated based
+mostpopularchoice,alsoemployedinasimilarmanner,and
+onhumancomprehension,satisfactionscores,computa-
+both are model-agnostic methods. Among model-specific
+tional complexity, and overall understanding. CIU was
+methods,GradCAMstandsoutasapreferredoptionfordeep
+highlighted as the superior method compared to LIME
+learning models. In terms of stage, the majority of methods
+andSHAP.
+are post hoc, with the exception of two methods, namely
+• In [70], SHAP was favored over LIME and GradCAM
+AGRADandTabNet,bothutilisedinconjunctionwithdeep
+forexplainingdecisionsbasedonanexplainabilityscore
+learning and are attention-based methods. Concerning the
+that measured the model’s focus on the wound area
+scope, the emphasis is primarily on local methods, high-
+comparedtotherestoftheimage.
+lighting the significance of explaining individual instances
+• In[71],ABELEwasmoreeffectivethanlocalexplain-
+or patient records as opposed to the broader behavior of a
+ers LIME and LORE in skin lesion detection due to
+condition, class, or disease, although global scope methods
+itssuperiorsaliencymapsdespitehighercomputational
+arealsoutilised.Visualisationisthepreferredoutputformat
+complexity.
+among the selected methods, providing a straightforward
+Fortabulardata,
+means of explaining decisions, followed by a rule-based
+approachthatexplainsreasoningthroughfeatureconstraints. • In[21],Anchors,AdaWhip,andLOREwerecompared
+Finally, the output type is largely determined by the impor- based on mean coverage and mean precision, with
+tanceoffeaturesininfluencingadecision,typicallyinvolving AdaWhipperformingbetterthantheothertwo.
+a comparison of each feature’s impact on an automated • In [36], SHAP, LIME, and permutation feature impor-
+decision(suchasidentifyingcorrelatedorinfluentialfeatures tance(PFI)wereevaluatedbasedonfeatureimportance
+inaspecificdecision).Additionally,thereareoccasionalin- values and computational complexity. PFI emerged as
+stancesofgraphsandplotsthatexplainthedecision-making the most efficient method for general understanding,
+process. while LIME and SHAP proved valuable for individual
+instances,withconsensusamongmethodsunderscoring
+VI. STUDIESUTILISINGMULTIPLEXAIMETHODS: the significance of distinctive features for each cancer
+Twenty-five studies have utilised various explainable meth- patient.
+odstoexplainpredictionoutcomes,withonlytencomparing • In [29], a novel XAI method, BoCSoR, was compared
+XAImethods.Sixofthesetenstudiesfocusedonimagedata, withSHAPbasedonaveragecorrelationvaluesforso-
+while four analysed tabular data. Deep learning techniques cial and emotional tasks, with BoCSoR outperforming
+15
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+TABLE10:MethodsforExplainability.AbbreviationsbycolumnApplicability=App.,Agnoistic=agn,Specific=spe;Stage=St.,
+posthoc=p,antehoc=a;Scope=Sc.,local=l,global=l;visual=vis;featureimportance=fi,contrastive=con,plot=plt.
+XAIMethod App. St. Sc. Form Type ModelCat. References
+SHAP(43) agn p l/g vis fi/con Interpretable(6) [26],[29],[40],[44],[76],[80]
+Ensemble(29) [22],[25],[26],[28]–[33],[35],[36],[42],[48],[50],[53],[55]–
+[57],[59]–[62],[64],[73]–[75],[79],[80],[84]
+DeepLearning(15) [20],[29],[32],[50],[51],[58],[63],[65],[66],[68],[70],[72],
+[78],[80],[82]
+Non-Lin.SVM(1) [76]
+LIME(24) agn p l vis fi/con Interpretable(2) [26],[77]
+Ensemble(12) [35],[36],[41]–[43],[54],[57],[60],[61],[74],[79],[84]
+DeepLearning(10) [24],[38],[49],[51],[58],[66],[68]–[71]
+GradCAM(8) spe p l vis fi DeepLearning(8) [23],[45],[47],[58],[67],[68],[70],[83]
+Feature spe p l/g vis fi Interpretable(2) [22],[77]
+Importance(5) Ensemble(4) [22],[25],[57],[74]
+ELI5(2) agn p l/g vis fi/con Ensemble(2) [57],[60]
+Qlattice(2) agn p g rule graph Ensemble(2) [57],[60]
+Anchors(2) agn p l rule - Ensemble(2) [21],[57]
+GradCAM++(3) spe p l vis fi DeepLearning(3) [58],[67],[68]
+Saliency MAP agn p l vis fi DeepLearning(1) [58]
+(1)
+LRP(2) spe p l vis fi DeepLearning(2) [22],[81]
+Graph(2) agn p g vis graph Interpretable(1) [39]
+Ensemble(1) [50]
+DeepLearning(1) [50]
+LORE(2) agn p l rule con Ensemble(1) [21]
+DeepLearning(1) [71]
+PDP(2) agn p g vis plt Ensemble(2) [25],[79]
+PFI(2) agn p g vis fi Interpretable(1) [77]
+Ensemble(1) [36]
+ABELE(1) agn p l vis fi/con DeepLearning(1) [71]
+BoCSoR(1) agn p g vis fi/con Interpretable(1) [29]
+Ensemble(1) [29]
+DeepLearning(1) [29]
+CIU(1) agn p l vis fi/con DeepLearning(1) [66]
+LayerCAM(1) spe p l vis fi DeepLearning(1) [68]
+CAM(1) spe p l vis fi DeepLearning(1) [46]
+Guided spe p l vis fi DeepLearning(1) [34]
+GradCAM
+(1)
+AGRAD(1) spe a l vis fi/con DeepLearning(1) [24]
+ICE(1) agn p l vis plt Ensemble(1) [25]
+Ada-WHIPS(1) spe p l rule - Ensemble [21]
+WindowSHAP agn p l vis fi/con DeepLearning(1) [27]
+(1)
+Ensemble XAI spe p l vis fi DeepLearning(1) [58]
+(1)
+BreakDown(1) agn p l vis fi/con Ensemble(1) [31]
+TabNet(1) spe a l/g vis fi DeepLearning(1) [51]
+16
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+SHAPinfeaturecorrelationvalues. dictive performance. Although it is underutilised in
+• In [61], LIME and SHAP were compared based on CDSS,itiswidelyutilisedinotherMLapplications.
+feature importance values for COVID-19 severity in 4) Data imbalance issue - The data is not evenly dis-
+patients. The common key features identified by both tributed among the different classes in most of the
+methods were deemed robust indicators for each pa- dataset, making it challenging to train and evaluate
+tient’srecord. models.Thiscanleadtomodelsbeingbiasedtowards
+the majority class, resulting in poor performance for
+Fifteen additional studies have employed multiple XAI
+the minority class. Some studies suggest that data
+methods without comparing their performance but under-
+balancingtechniquesimprovepredictiveperformance,
+scoredtheirusefulness.Amongthese,14studiesfocusedon
+while others find little impact on predictive perfor-
+tabulardata,withonlyoneinvolvingtextdata.Thesestudies
+mance but note a widening of output probabilities
+andresultsareoutlinedinTable12andthefollowingshows
+demonstratingconfidenceofclassification[81].
+keycharacteristicsofthesestudies:
+5) Thelackofreliableandautomatedsolutions-Thereis
+• Studies [25], [31], [57], [77], [79], [84] confirmed the still a lack of reliable solutions that provide convinc-
+usefulness of XAI methods by confirming important ing explanations to medical experts in their decision-
+identifiedfeaturesthroughpreviousresearch. making.This isdue tothe ethicaland regulatorycon-
+• Some studies have shown that XAI methods can be cerns about the use of AI in healthcare, including bi-
+beneficial in pinpointing crucial features related to a ases,lackoftransparency,privacyconcerns,andsafety
+medicalconditionfor whichadefinitivesolution isyet and liability issues. Ensembles and deep learning-
+to be discovered, as seen during the COVID-19 pan- based approaches have proven helpful for building
+demic[60].Theycanalsobeinstrumentalinunexplored highly performing models; however, they lack inter-
+research domains like early detection of Parkinson’s pretabilityandtransparency.
+disease[26],assessingcancerrisk[35],cancersurvival 6) Diverse Application Areas but Uneven Coverage -
+[42], supporting healthcare professionals and patients While some application areas, like neurological con-
+[50],andaddressingmentalhealthconditions[24],[31]. ditions and cancer, are well-studied, others, such as
+• In [74], XAI methods were proposed as an early ex- antimicrobialresistance,hepatitis,andobesity,receive
+plainable predictive approach to aid in implementing lessattention.
+new policies to reduce unnecessary C-Section deliver- 7) LimitedUseofMultipleXAIMethods-Currently,there
+ies. is a shortage of solutions that can provide convinc-
+• In [51] demonstrated the effectiveness of collective in- ing explanations to medical experts in their decision-
+ference using ante-hoc and posthoc XAI methods, and makingprocess,whichiscrucialforbuildingtrustand
+in[22],variousXAImethodswereemployedtoexplain accountability among clinicians and patients. While
+distinctMLmodels. some studies compare the effectiveness of different
+XAI methods, this comparison is mostly focused on
+imagedata.LimitedformalcomparisonsexistforXAI
+VII. RESEARCHGAPSANDRECOMMENDATIONS
+metricsintabulardata.Additionally,manystudiesrely
+The survey provides a comprehensive guide for medical
+on single XAI methods, potentially missing out on a
+practitioners and researchers, providing an in-depth review
+comprehensiveunderstandingofinterpretability.
+of predictive models, XAI methods, current trends in their
+8) XAIEvaluationMetricsandStandardsforXAI-There
+adaptability,anddatasetsused.Basedonourreviewandanal-
+isalackofstandardizedevaluationmetricsforassess-
+ysisofthestudies,thefollowinggapshavebeenidentified.
+ingtheeffectivenessofXAImethods.
+1) Limited availability public tabular datasets - Over
+To address the discussed gaps, the following are the rec-
+55% of the datasets used in the reviewed studies are
+ommendationstofollow:
+private,particularlyincriticalareassuchasneurolog-
+ical disorders (only 3 out of 14 datasets are public), 1) Opennessofdatasets-Prioritiseprovidingopenaccess
+ICU mortality risk (all private), and antimicrobial (all to high-quality medical datasets, anonymising patient
+private)category.Thislackofpublicdatasetshampers data,obtainingpatientconsentfordataprivacy,setting
+thedevelopmentofreplicablemodelsandlimitscom- clearpublishingguidelines,enforcingdatagovernance
+parativestudies. practices,andincreasingtransparencyandaccessibility
+2) Lackofeffectivedatatreatmentmethods-Manytabu- forXAI-CDSSresearch.
+lardatasetscontainmissingvalues,noise,andoutliers. 2) Data treatment - Develop and adopt more sophis-
+Commonstrategieslikedroppingdatawithsignificant ticated, medical-domain-informed data preprocessing
+missing values are not always effective, especially techniques to effectively handle missing values, noisy
+whendatasetsizesarealreadylimited. data, and outliers using advanced statistical and ma-
+3) Lack of feature selection and engineering - Feature chinelearning-basedapproaches.
+engineering is crucial for improving classifiers’ pre- 3) Adopt feature selection and engineering approaches -
+17
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+TABLE11:SummaryofstudiesthatusedmultipleXAImethodsandcomparedthem.
+Ref Data ModelCat. XAI Methods Comparison Observation Preferred
+Type Used Methodology XAI
+Method
+[58] Image Deep (6)SHAP,LIME, Heatmap along with DevelopedanensembleofSHAPandGrad-CAM++. LIME
+Learning GradCAM, absenceimpact,local- Whileshowingcomparablequantitativeresultstoother (quanti-
+GradCAM++, isationandtrust methods,thequalitativeevaluationbyradiologistsin- tative),
+Saliency MAP, dicatedthattheXAIensembleismoreeffectiveinlo- Ensemble
+EnsembleXAI calisation(precision:0.52,recall:0.57,F1:0.50,IOU: XAI (qual-
+0.36)andtrustedmethodbythepanelofradiologists itative)
+(meanvote:70.2%).
+[67] Image Deep (5) GradCAM, Heatmap All methods yielded comparable results, with Grad- GradCAM++
+Learning GradCAM++, CAM++ showing higher heat maps for dyed-p and
+LayerCAM, polypclasses.Becausedyed-pcontainedmorefixtures
+Hires-CAM, in the image, it produced a more precise heat map
+XGRAD-CAM comparedtothepolypclass.
+[68] Image Deep (5)SHAP,LIME, Heatmap Propagation-basedmodelsextractbettervisualexpla- GradCAM
+Learning GradCAM,Grad- nations from neural networks. GradCAM is the best
+CAM++, Layer- method due to its reliance on back-propagation gra-
+CAM dients. However, it struggles with the localisation of
+objects with multiple occurrences of the same class,
+impacting results in detail-dense applications such as
+bacterialmicroscopicimages.
+[66] Image Deep (3)SHAP,LIME, User (non-medical) CIUiscomputationallyatleast1.15timesmoreeffi- CIU
+Learning CIU study cientthantheothertwomethodsandalsosatisfiesmore
+mean(atleast1.16timesmore)andmedianusers(at
+least1.16timesmore)withitsexplanationcomparedto
+theothertwomethods.
+[70] Image Deep (3)SHAP,LIME, Explainabilityscore Theexplainabilityscoreiscalculatedbyassessingthe SHAP
+Learning GradCAM model’s focus on the wound area versus the rest of
+the image during its prediction. This is done using
+twosegmentationmodels:level1(wound,periwound
+perimeter,woundperimeter,andbackground)andlevel
+2 (18 different wound segmentation classes). SHAP
+achievedmeanexplainabilityscoresof0.61forwound
+classification,0.68forwoundmeasurement,and0.72
+forwoundsegmentation.
+[71] Image Deep (3) LIME, Saliency MAP and ABELEexcelsingeneratingsaliencymaps.Keypixel ABELE
+Learning ABELE,LORE userstudy deletion has a bigger impact on ABELE, indicating
+its regions hold more importance (lime: 0.736, lore:
+0.711, ABELE: 0.461 mean deletion AUC scores).
+Whenaddingpixels,AUCscoresimprove,emphasising
+ABELE’sabilitytohighlightcriticaldecision-making
+areas (lime: 0.417, lore: 0.471, ABELE: 0.748 mean
+insertionAUCscores).Theuserstudyalsoconfirmed
+that the ABELE explanation was effective for both
+expertsandnon-experts.Bothgroupsshowedimproved
+accuracyinclassifyinginstanceswhenpresentedwith
+ABELEexplanations,withexpertsshowinganaverage
+increaseof9%andnon-expertswithanaveragegainof
+9.5%.
+[21] TabularEnsemble (3) Ada-WHIPS, Mean coverage and Anchors has low mean coverage, and Ada-WHIPS AdaWhip
+Anchors,LORE meanprecision and LORE are comparably performant. Furthermore,
+LORE has low mean precision in most datasets, and
+Ada-WHIPSandAnchorsarecomparable.
+[36] TabularEnsemble, (3)SHAP,LIME, Feature-based PFI is important for general trends, but LIME and Methods
+Deep PFI approach SHAP are critical for instance-based explanations. comple-
+Learning, LIME is less computationally expensive than SHAP, ment
+Non-Lin. and the two methods can complement each other by
+SVM agreeingonimportantfeatures.
+[29] TabularEnsemble (2) SHAP, Avg feature impor- BoCSoR is more reliable in identifying the most im- BoCSoR
+BoSCaR tance and correlation portantfeaturesforclassificationinphysiologicaldata,
+between feature im- lesssensitivetofeaturecorrelation,andlesscomputa-
+portance tionallyexpensive.
+[61] TabularEnsemble (2)SHAP,LIME Featureimportance TheSHAPandLIMEmethodswereemployedtoassess Methods
+theexperimentalresultsonthelinkbetweencytokine comple-
+stormandCOVID-19severityinpatients,aswellasthe ment
+influenceofvariouscytokinesonseverity.Theshared
+keyfeaturesfromSHAPandLIMEwerespecifically
+usedasrobustindicatorsforlocalexplanations.
+18
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+TABLE12:SummaryofstudiesthatusedmultipleXAImethodsbutdidnotcomparethem.
+Ref Data ModelCat. XAI Methods Observation
+Type Used
+[57] TabularEnsemble (6) SHAP, TheXAImethodshavebeenvalidatedbyidentifyingtheimportantfeatures,whichwereconfirmed
+LIME, FI, by previous research. The research discovered that anomalies in features such as respiratory
+ELI5,Qlattice, rate,bloodpressure,bodytemperature,calcium,andlactatelevelspositivelycontributetopatient
+Anchor severity.
+[60] TabularEnsemble (4) SHAP, XAImethodswereusedtofindimportantmarkersforscreeningCOVID-19patients.Theimportant
+LIME, ELI5, markersfoundwerealbumin,ALT,basophil,andTWBC.TheauthorssaidthatXAImethodscan
+Qlattice helphealthcareprofessionalsinsituationslikeCOVID-19whenthebestsolutionisunknownand
+behelpfulinthefirstscreeningofcoronaviruspatients.
+[25] TabularEnsemble (4) SHAP, FIandPDPhelpedscrutinizethemostimportantglobalfeaturesconcerningcognitiveimpairment,
+ICE,FI,PDP withICEandSHAPallowingtheinterpretationofspecificpatientdata.Furthermore,usinggraphs,
+patients can better understand the neuropsychological factors at risk, which is a step towards
+precisionmedicine.KeydiscoveriesfromtheexplanationsincludeRCFTdelayedrecall,CDR-
+SOB, age, K-MMSE, COWAT-animal, education, SVLT delayed recall, RCFT copy time, and
+APOEgenotype-allofwhichresonatewithpreviousresearch.
+[79] TabularEnsemble (3) SHAP, PDPandSHAP(viameanSHAPvalues)wereusedasglobalexplainers,andLIMEasalocal
+LIME,PDP explainermethod.Theseexplainermethodsfoundthatascites,spiders,bilirubin,albumin,malaise,
+varices,andtheSpleenPalpablefeaturehadmoreimpactthantheothers,whichisinlinewithprior
+knowledgefromhepatobiliaryphysicians,confirmingtheeffectivenessoftheseXAImethods.
+[77] TabularInterpretable, (3) LIME, FI, In a stacked-based clustering approach, permutation importance was used to evaluate the sig-
+Ensemble PFI nificance of each clustering method in grouping a set of features to identify distinct patterns
+for accurate classification. Feature importance served as the global method, while LIME was
+employedasthelocalexplainer.Thefeaturesidentifiedthroughexplainersconfirmedtheresults
+obtainedandsupportedpreviousstudies,particularlyhighlightingthesignificanceofcytokines
+GRO,EGF,andIP-10andtheirassociationwithDEDdiseaseandseropositivity.
+[74] TabularEnsemble (3) LIME, TheSHAPmethodwasusedtoassessoverallfeatureimportanceglobally,butitwasnotsufficient
+SHAP,FI forunderstandingeachindividualpatient.Asaresult,LIMEexplanationsweredemonstratedto
+provideamoredetailedunderstanding.Thefeature"had_previous_c_section"wasidentifiedasone
+ofthemostimportantglobalfeatures.LIMEwasusedtoidentifycontributingfeatures,including
+"suffered_domestic_violence."XAImethodswerearguedtoprovideanearlyexplainablepredic-
+tiveapproachtoassistinimplementingnewpoliciestoreduceunnecessaryC-Sectiondeliveries.
+[51] TabularDeepLearning (3) SHAP, Uses SHAP and TabNet as global explainers and LIME as a local explainer. The collective
+LIME,TabNet inferencesuggeststhatinsulinandpolyuriaaresignificantfeaturesassociatedwithdiabetesrisk.
+TabNet,anante-hocmethod,alsodemonstrateshighaccuraciesonvariousdatasets.
+[22] TabularEnsemble, (3) SHAP, FI, Took a feature-based approach and used Shapley values for ensembles, model coefficients for
+Interpretable, LRP logisticregressionanddeepTaylordecompositionfordeeplearningtoexplainrespectivemodels.
+DeepLearning
+[42] TabularEnsemble (2) SHAP, Globally,SHAPshowedthatage,T-stage,ethnicity,M-stage,maritalstatus,andgradewerekey
+LIME factorsforNPCpatientsurvival.BothLIMEandSHAPmethodsdemonstratedhoweachfeature
+impactedindividualpredictions,aligningwiththegloballyidentifiedimportantfeatures.
+[84] TabularEnsemble (2) SHAP, SHAPwasusedasaglobalexplainerandidentifiedAge,AverageGlucoseLevel,WorkType,
+LIME ResidenceType,Gender,andEverMarriedasimportantfeatures.Thisgenerallyalignswiththe
+viewsofexpertsinhepato-biliaryandpreviousresearch.Limewasusedtoreveallocalfeatures
+forindividualpatients,highlightinginstanceswhereAgeandWorkTypewereoccasionallyranked
+higherthanotherfeaturesforstrokepatients,echoingobservationsingloballyimportantfeatures.
+[26] TabularEnsemble (2) SHAP, UsedSHAPforglobalandlocalexplanationsandLIMEforlocalexplanationstodetectParkin-
+LIME son’sdiseaseearly.TheresearchcomparedtheoutputsofSHAPandLIMEforRFandLightGBM
+models. XAI methods highlighted the NP3BRADY feature as the most important, while local
+explainersidentifiedtheMESEADLGfeatureasthebestfeatureforbothLGBMandRFmodels.
+[35] TabularEnsemble (2) SHAP, LIME and SHAP were used as local explainers. It was suggested that providing explanations
+LIME fordecision-makingtomedicalprofessionalsinscenarioslikepredictingcancerriskservesthe
+purpose,evenifmethodssharesomefeaturesanddifferinothers.Severityperceptionwasmost
+indicativeofcervicalcancerintwopatientcases,confirmingageneralunderstanding.
+[50] TabularEnsemble, (2) SHAP, Thestudyfocusedonexaminingthelinksbetweenobesity,diabetes,cardiovascularissues,and
+DeepLearning Graph heart disease. It utilised SHAP to provide insights globally and locally. Local findings were
+showcased through three case studies featuring patients with positive test results for multiple
+diseases,negativeresults,andvariedpredictionsforcomorbidities.Amulti-nodegraphwasusedto
+aidhealthcareprofessionalsandpatientsinunderstandingtheprogressionoftheseconditions,with
+ICD-10codesplayingakeyroleininterpretation.Theapproachassistscliniciansinforecasting
+pathologiesassociatedwithobesityandtransitioningtolong-termpreventionandtreatmentplans.
+[31] TabularEnsemble (2) SHAP, UsesSHAPforglobalandBreakDownaslocalexplainers.Overall,explainersofferfourinsights.
+BreakDown 1-clinicalsignificanceishighlightedthroughtopfeatures.2-thehighervaluesoffeatures,suchas
+myocardialenzymespectrummarkersanddiabetes-associatedmarkers,leadtoBD,whilelower
+valuescontributetoMDD.3-potentialforthenewdiscovery.4-offersgeneralrecommendations.
+[24] Text DeepLearning (2) LIME, Uses LIME and model-specific attention-based AGRAD explanation methods to identify the
+AGRAD wordcategoriesreliedonbymodelswhenmakingpredictions.Explainersrevealthatmulti-task
+fusionmodelslearnedsignificantcorrelationsbetweenmentalhealthconditions,emotions,and
+personalitytraits.Specifically,AGRADanalysishighlightsthemodels’preferenceforwordsin
+specificLIWCcategories.Theresearchsuggeststhatinterpretingmodelscanhelpdetectarange
+ofmentalhealthconditions,suchasADHD,anxiety,bipolardisorder,anddepression.
+19
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+Utilisefeatureselectionandengineeringtechniquesto ethical underpinnings and a commitment to transparency,
+identify important characteristics in tabular datasets. laying the foundation for a responsible and collaborative
+Considerdomainexpertisetohighlightimportantfea- futureinhealthcareAI.
+turesanddiscardlesssignificantones.
+4) DataImbalance-Explorevariousdatabalancingtech- ACKNOWLEDGMENTS
+niques on different datasets to determine the most ef- Thispublicationhasemanatedfromresearchconductedwith
+fectiveapproachforaddressingdataimbalance.Inves- the support of the Irish Research Council under award nos.
+tigatecounterfactual-baseddataaugmentationmethods GOIPG/2022/660 & GOIPG/2021/1354 and grant number
+[89]andotheradvancedandnoveltechniquesinformed 18/CRT/6183 from SFI Centre for Research Training in
+ofmedicalconstraints(whenavailable). Machine Learning (ML-Labs) at Technological University
+5) Explainability Centric Model Design - Creating new Dublin with the financial support of Science Foundation
+ML models with built-in explainability features. This Ireland under grant no. 13/RC/2106_P2 at the ADAPT SFI
+includes developing deep learning architectures or ResearchCentreatTechnologicalUniversityDublin.
+ensemble methods that prioritise transparency with-
+out significantly compromising performance. Addi-
+CONFLICTOFINTEREST
+tionally,advancementsinposthocexplanationmethods
+Theauthorsdeclarethatthereisnoconflictofinterestasso-
+shouldbemadetoensurehigherfidelity.
+ciatedwiththispaper.
+6) Focus the less investigated Application Areas - Re-
+search should be encouraged in less-studied applica-
+REFERENCES
+tion areas to ensure a more balanced coverage and
+[1] A.WasylewiczandA.Scheepers-Hoeks,“Clinicaldecisionsupportsys-
+explore the potential of XAI in a broader range of
+tems,”Fundamentalsofclinicaldatascience,pp.153–169,2019.
+healthcare applications. A way to encourage this is [2] A.Alanazi,F.AlRabiah,H.Gadi,M.Househ,andB.AlDosari,“Factors
+by developing and curating public datasets related to influencingpharmacists’intentionstousepharmacyinformationsystems,”
+InformaticsinMedicineUnlocked,vol.11,pp.1–8,2018.
+less-studied application areas (such as antimicrobial
+[3] M.R.Kronenfeld,R.C.Bay,andW.Coombs,“Surveyofuserpreferences
+resistance, hepatitis, and obesity). Publicly available from a comparative trial of uptodate and clinicalkey,” Journal of the
+datasets can facilitate research by providing standard- MedicalLibraryAssociation:JMLA,vol.101,no.2,p.151,2013.
+[4] P.Papadopoulos,M.Soflano,Y.Chaudy,W.Adejo,andT.M.Connolly,“A
+izeddatafordevelopingandtestingXAImethods.
+systematicreviewoftechnologiesandstandardsusedinthedevelopment
+7) PromotetheUseofComprehensiveXAIEvaluations- ofrule-basedclinicaldecisionsupportsystems,”HealthandTechnology,
+Thereisaneedforcomprehensiveanddetailedcriteria vol.12,no.4,pp.713–727,2022.
+[5] G.Feder,M.Eccles,R.Grol,C.Griffiths,andJ.Grimshaw,“Usingclinical
+to evaluate and compare existing XAI methods. This
+guidelines,”Bmj,vol.318,no.7185,pp.728–730,1999.
+will help identify strengths, weaknesses, and areas [6] F.Magrabi,E.Ammenwerth,H.Hyppönen,N.deKeizer,P.Nykänen,
+for improvement, guiding future development to en- M.Rigby,P.Scott,J.Talmon,andA.Georgiou,“Improvingevaluationto
+addresstheunintendedconsequencesofhealthinformationtechnology,”
+sure accuracy, reliability, and ease of use for medical
+Yearbookofmedicalinformatics,vol.25,no.01,pp.61–69,2016.
+practitioners. Researchers should utilise multiple XAI [7] A.M.Antoniadi,Y.Du,Y.Guendouz,L.Wei,C.Mazo,B.A.Becker,
+methods in their studies and conduct comprehensive andC.Mooney,“Currentchallengesandfutureopportunitiesforxaiin
+machine learning-based clinical decision support systems: a systematic
+evaluations considering different interpretability as-
+review,”AppliedSciences,vol.11,no.11,p.5088,2021.
+pects, including comparative analyses. Such studies
+[8] Y. Du, C. McNestry, L. Wei, A. M. Antoniadi, F. M. McAuliffe, and
+can reveal the strengths and weaknesses of different C. Mooney, “Machine learning-based clinical decision support systems
+XAImethods,enhancingourunderstandingoftheiref- forpregnancycare:asystematicreview,”InternationalJournalofMedical
+Informatics,p.105040,2023.
+fectiveness.Astandardisedevaluationcriterionwould
+[9] B.Vasey,S.Ursprung,B.Beddoe,E.H.Taylor,N.Marlow,N.Bilbro,
+enablefairandobjectivecomparisonofdifferentXAI P. Watkinson, and P. McCulloch, “Association of clinician diagnostic
+methods,leadingtoabetterunderstandingofthestate- performance with machine learning–based decision support systems: a
+systematic review,” JAMA network open, vol. 4, no. 3, pp. e211276–
+of-the-art in this field and helping to identify the best
+e211276,2021.
+methods to use in practical applications. Further re- [10] L.Wang,Z.Zhang,D.Wang,W.Cao,X.Zhou,P.Zhang,J.Liu,X.Fan,
+search is required to develop reliable, automated so- and F. Tian, “Human-centered design and evaluation of ai-empowered
+clinicaldecisionsupportsystems:asystematicreview,”FrontiersinCom-
+lutionsthatoffercompellingexplanations.
+puterScience,vol.5,p.1187299,2023.
+8) Standardize XAI Evaluation Metrics - More research [11] S. Moazemi, S. Vahdati, J. Li, S. Kalkhoff, L. J. Castano, B. Dewitz,
+is needed to develop and disseminate standardized R.Bibo,P.Sabouniaghdam,M.S.Tootooni,R.A.Bundschuhetal.,“Ar-
+tificialintelligenceforclinicaldecisionsupportformonitoringpatientsin
+evaluationmetricsforXAIinCDSS.Thesemetricscan
+cardiovascularicus:Asystematicreview,”FrontiersinMedicine,vol.10,
+form the basis for being widely accepted and used by p.1109411,2023.
+theresearchcommunitytofacilitatethecomparisonof [12] Q.Xu,W.Xie,B.Liao,C.Hu,L.Qin,Z.Yang,H.Xiong,Y.Lyu,Y.Zhou,
+A.Luoetal.,“Interpretabilityofclinicaldecisionsupportsystemsbased
+resultsacrossdifferentstudies.
+onartificialintelligencefromtechnologicalandmedicalperspective:A
+systematicreview,”JournalofHealthcareEngineering,vol.2023,2023.
+In conclusion, the synthesis of datasets, winning models, [13] H. W. Loh, C. P. Ooi, S. Seoni, P. D. Barua, F. Molinari, and U. R.
+Acharya,“Applicationofexplainableartificialintelligenceforhealthcare:
+andexplainermethodsformarichtapestryintheevolutionof
+Asystematicreviewofthelastdecade(2011–2022),”ComputerMethods
+XAIforCDSSs.Beyondthetechnicalprowess,itemphasises andProgramsinBiomedicine,vol.226,p.107161,2022.
+20
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+[14] S.Ali,F.Akhlaq,A.S.Imran,Z.Kastrati,S.M.Daudpota,andM.Moosa, biomarkersandparametersforthepredictionofstrokesurvivors’func-
+“Theenlighteningroleofexplainableartificialintelligenceinmedical& tional outcome upon discharge utilizing explainable machine learning,”
+healthcaredomains:Asystematicliteraturereview,”ComputersinBiology Diagnostics,vol.13,no.3,p.532,2023.
+andMedicine,p.107555,2023. [33] M. Liu, J. Zhou, Q. Xi, Y. Liang, H. Li, P. Liang, Y. Guo, M. Liu,
+[15] N. Prentzas, A. Kakas, and C. S. Pattichis, “Explainable ai appli- T. Temuqile, L. Yang et al., “A computational framework of routine
+cations in the medical domain: a systematic review,” arXiv preprint test data for the cost-effective chronic disease prediction,” Briefings in
+arXiv:2308.05411,2023. Bioinformatics,vol.24,no.2,p.bbad054,2023.
+[16] S.S.Band,A.Yarahmadi,C.-C.Hsu,M.Biyari,M.Sookhak,R.Ameri, [34] N.Rahim,T.Abuhmed,S.Mirjalili,S.El-Sappagh,andK.Muhammad,
+I.Dehzangi,A.T.Chronopoulos,andH.-W.Liang,“Applicationofex- “Time-series visual explainability for alzheimer’s disease progression
+plainableartificialintelligenceinmedicalhealth:Asystematicreviewof detectionforsmarthealthcare,”AlexandriaEngineeringJournal,vol.82,
+interpretabilitymethods,”InformaticsinMedicineUnlocked,p.101286, pp.484–502,2023.
+2023. [35] F.Curia,“Cervicalcancerriskpredictionwithrobustensembleandex-
+[17] J. Allgaier, L. Mulansky, R. L. Draelos, and R. Pryss, “How does the plainableblackboxesmethod,”HealthandTechnology,vol.11,no.4,pp.
+model make predictions? a systematic literature review on the explain- 875–885,2021.
+abilitypowerofmachinelearninginhealthcare,”ArtificialIntelligencein [36] N.SettoutiandM.Saidi,“Preliminaryanalysisofexplainablemachine
+Medicine,vol.143,p.102616,2023. learningmethodsformultiplemyelomachemotherapytreatmentrecogni-
+[18] S.Keeleetal.,“Guidelinesforperformingsystematicliteraturereviewsin tion,”EvolutionaryIntelligence,pp.1–21,2023.
+softwareengineering,”2007. [37] S. Deshmukh, B. K. Behera, P. Mulay, E. A. Ahmed, S. Al-Kuwari,
+[19] D.Moher,L.Shamseer,M.Clarke,D.Ghersi,A.Liberati,M.Petticrew, P. Tiwari, and A. Farouk, “Explainable quantum clustering method to
+P.Shekelle,L.A.Stewart,andP.-P.Group,“Preferredreportingitemsfor model medical data,” Knowledge-Based Systems, vol. 267, p. 110413,
+systematicreviewandmeta-analysisprotocols(prisma-p)2015statement,” 2023.
+Systematicreviews,vol.4,pp.1–9,2015. [38] M. R. Hassan, M. F. Islam, M. Z. Uddin, G. Ghoshal, M. M. Hassan,
+[20] C.Kokkotis,G.Giarmatzis,E.Giannakou,S.Moustakidis,T.Tsatalas, S.Huda,andG.Fortino,“Prostatecancerclassificationfromultrasound
+D.Tsiptsios,K.Vadikolias,andN.Aggelousis,“Anexplainablemachine and mri images using deep learning based explainable artificial intelli-
+learningpipelineforstrokepredictiononimbalanceddata,”Diagnostics, gence,” Future Generation Computer Systems, vol. 127, pp. 462–472,
+vol.12,no.10,p.2392,2022. 2022.
+[21] J.Hatwell,M.M.Gaber,andR.M.AtifAzad,“Ada-whips:explaining [39] E.Pintelas,M.Liaskos,I.E.Livieris,S.Kotsiantis,andP.Pintelas,“Ex-
+adaboost classification with applications in the health sciences,” BMC plainablemachinelearningframeworkforimageclassificationproblems:
+MedicalInformaticsandDecisionMaking,vol.20,no.1,pp.1–25,2020. casestudyongliomacancerprediction,”Journalofimaging,vol.6,no.6,
+[22] E.Zihni,V.I.Madai,M.Livne,I.Galinovic,A.A.Khalil,J.B.Fiebach, p.37,2020.
+andD.Frey,“Openingtheblackboxofartificialintelligenceforclinical [40] C.Severn,K.Suresh,C.Görg,Y.S.Choi,R.Jain,andD.Ghosh,“A
+decisionsupport:Astudypredictingstrokeoutcome,”Plosone,vol.15, pipelinefortheimplementationandvisualizationofexplainablemachine
+no.4,p.e0231166,2020. learningformedicalimagingusingradiomicsfeatures,”Sensors,vol.22,
+[23] K.H.Kim,H.-W.Koo,B.-J.Lee,S.-W.Yoon,andM.-J.Sohn,“Cere- no.14,p.5205,2022.
+bral hemorrhage detection and localization with medical imaging for [41] H.V.NguyenandH.Byeon,“Predictionofecogperformancestatusof
+cerebrovasculardiseasediagnosisandtreatmentusingexplainabledeep lung cancer patients using lime-based machine learning,” Mathematics,
+learning,”JournaloftheKoreanPhysicalSociety,vol.79,no.3,pp.321– vol.11,no.10,p.2354,2023.
+327,2021. [42] R.O.Alabi,M.Elmusrati,I.Leivo,A.Almangush,andA.A.Mäkitie,
+[24] E.Kerz,S.Zanwar,Y.Qiao,andD.Wiechmann,“Towardexplainableai “Machinelearningexplainabilityinnasopharyngealcancersurvivalusing
+(xai)formentalhealthdetectionbasedonlanguagebehavior,”Frontiersin limeandshap,”ScientificReports,vol.13,no.1,p.8984,2023.
+psychiatry,vol.14,2023. [43] S.Alkhalaf,F.Alturise,A.A.Bahaddad,B.M.E.Elnaim,S.Shabana,
+[25] M.Y.Chun,C.J.Park,J.Kim,J.H.Jeong,H.Jang,K.Kim,andS.W. S. Abdel-Khalek, and R. F. Mansour, “Adaptive aquila optimizer with
+Seo,“Predictionofconversiontodementiausinginterpretablemachine explainable artificial intelligence-enabled cancer diagnosis on medical
+learninginpatientswithamnesticmildcognitiveimpairment,”Frontiers imaging,”Cancers,vol.15,no.5,p.1492,2023.
+inAgingNeuroscience,vol.14,p.898940,2022. [44] C.Cordova,R.Muñoz,R.Olivares,J.-G.Minonzio,C.Lozano,P.Gonza-
+[26] M.Junaid,S.Ali,F.Eid,S.El-Sappagh,andT.Abuhmed,“Explainable lez,I.Marchant,W.González-Arriagada,andP.Olivero,“Her2classifica-
+machine learning models based on multimodal time-series data for the tioninbreastcancercells:Anewexplainablemachinelearningapplication
+earlydetectionofparkinson’sdisease,”ComputerMethodsandPrograms for immunohistochemistry,” Oncology Letters, vol. 25, no. 2, pp. 1–9,
+inBiomedicine,vol.234,p.107495,2023. 2023.
+[27] A.Nayebi,S.Tipirneni,C.K.Reddy,B.Foreman,andV.Subbian,“Win- [45] D. Song, J. Yao, Y. Jiang, S. Shi, C. Cui, L. Wang, L. Wang, H. Wu,
+dowshap: An efficient framework for explaining time-series classifiers H.Tian,X.Yeetal.,“Anewxaiframeworkwithfeatureexplainabilityfor
+basedonshapleyvalues,”JournalofBiomedicalInformatics,vol.144,p. tumorsdecision-makinginultrasounddata:comparingwithgrad-cam,”
+104438,2023. ComputerMethodsandProgramsinBiomedicine,vol.235,p.107527,
+[28] S. El-Sappagh, J. M. Alonso, S. R. Islam, A. M. Sultan, and K. S. 2023.
+Kwak, “A multilayer multimodal detection and prediction model based [46] K. Wickstrøm, K. Ø. Mikalsen, M. Kampffmeyer, A. Revhaug, and
+on explainable artificial intelligence for alzheimer’s disease,” Scientific R.Jenssen,“Uncertainty-awaredeepensemblesforreliableandexplain-
+reports,vol.11,no.1,p.2660,2021. ablepredictionsofclinicaltimeseries,”IEEEJournalofBiomedicaland
+[29] A. L. Alfeo, A. G. Zippo, V. Catrambone, M. G. Cimino, N. Toschi, HealthInformatics,vol.25,no.7,pp.2435–2444,2020.
+andG.Valenza,“Fromlocalcounterfactualstoglobalfeatureimportance: [47] M.Ganeshkumar,V.Ravi,V.Sowmya,E.Gopalakrishnan,andK.Soman,
+efficient,robust,andmodel-agnosticexplanationsforbrainconnectivity “Explainable deep learning-based approach for multilabel classification
+networks,”ComputerMethodsandProgramsinBiomedicine,vol.236,p. ofelectrocardiogram,”IEEETransactionsonEngineeringManagement,
+107550,2023. 2021.
+[30] A. Almohimeed, R. M. Saad, S. Mostafa, N. El-Rashidy, S. Farag, [48] K.Wang,J.Tian,C.Zheng,H.Yang,J.Ren,Y.Liu,Q.Han,andY.Zhang,
+A.Gaballah,M.AbdElaziz,S.El-Sappagh,andH.Saleh,“Explainable “Interpretable prediction of 3-year all-cause mortality in patients with
+artificial intelligence of multi-level stacking ensemble for detection of heartfailurecausedbycoronaryheartdiseasebasedonmachinelearning
+alzheimer’s disease based on particle swarm optimization and the sub- andshap,”ComputersinBiologyandMedicine,vol.137,p.104813,2021.
+scoresofcognitivebiomarkers,”IEEEAccess,2023. [49] H.V.NguyenandH.Byeon,“Predictionofout-of-hospitalcardiacarrest
+[31] T.Zhu,X.Liu,J.Wang,R.Kou,Y.Hu,M.Yuan,C.Yuan,L.Luo,and survival outcomes using a hybrid agnostic explanation tabnet model,”
+W.Zhang,“Explainablemachine-learningalgorithmstodifferentiatebipo- Mathematics,vol.11,no.9,p.2030,2023.
+lardisorderfrommajordepressivedisorderusingself-reportedsymptoms, [50] G. V. Aiosa, M. Palesi, and F. Sapuppo, “Explainable ai for decision
+vitalsigns,andblood-basedmarkers,”ComputerMethodsandPrograms supporttoobesitycomorbiditiesdiagnosis,”IEEEAccess,2023.
+inBiomedicine,vol.240,p.107723,2023. [51] L.P.Joseph,E.A.Joseph,andR.Prasad,“Explainablediabetesclassifi-
+[32] A.Gkantzios,C.Kokkotis,D.Tsiptsios,S.Moustakidis,E.Gkartzonika, cationusinghybridbayesian-optimizedtabnetarchitecture,”Computersin
+T. Avramidis, N. Aggelousis, and K. Vadikolias, “Evaluation of blood BiologyandMedicine,vol.151,p.106178,2022.
+21
+medRxiv preprint doi: https://doi.org/10.1101/2024.08.10.24311735; this version posted August 10, 2024. The copyright holder for this
+preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in
+perpetuity.
+It is made available under a CC-BY-NC-ND 4.0 International license .
+[52] B. Lalithadevi and S. Krishnaveni, “Diabetic retinopathy detection and [71] C. Metta, A. Beretta, R. Guidotti, Y. Yin, P. Gallinari, S. Rinzivillo,
+severityclassificationusingoptimizeddeeplearningwithexplainableai andF.Giannotti,“Improvingtrustandconfidenceinmedicalskinlesion
+technique,”MultimediaToolsandApplications,pp.1–65,2024. diagnosis through explainable deep learning,” International Journal of
+[53] Y. Du, A. R. Rafferty, F. M. McAuliffe, L. Wei, and C. Mooney, “An DataScienceandAnalytics,pp.1–13,2023.
+explainablemachinelearning-basedclinicaldecisionsupportsystemfor [72] S. Martínez-Agüero, C. Soguero-Ruiz, J. M. Alonso-Moral, I. Mora-
+prediction of gestational diabetes mellitus,” Scientific Reports, vol. 12, Jiménez,J.Álvarez-Rodríguez,andA.G.Marques,“Interpretableclinical
+no.1,p.1170,2022. time-seriesmodelingwithintelligentfeatureselectionforearlyprediction
+[54] Y. Du, A. R. Rafferty, F. M. McAuliffe, J. Mehegan, and C. Mooney, ofantimicrobialmultidrugresistance,”FutureGenerationComputerSys-
+“Towards an explainable clinical decision support system for large-for- tems,vol.133,pp.68–83,2022.
+gestational-agebirths,”Plosone,vol.18,no.2,p.e0281821,2023. [73] M.Cavallaro,E.Moran,B.Collyer,N.D.McCarthy,C.Green,andM.J.
+[55] B. Lalithadevi, S. Krishnaveni, and J. S. C. Gnanadurai, “A feasibility Keeling,“Informingantimicrobialstewardshipwithexplainableai,”PLOS
+studyofdiabeticretinopathydetectionintypeiidiabeticpatientsbased DigitalHealth,vol.2,no.1,p.e0000162,2023.
+onexplainableartificialintelligence,”JournalofMedicalSystems,vol.47, [74] M.S.Islam,M.A.Awal,J.N.Laboni,F.T.Pinki,S.Karmokar,K.M.
+no.1,p.85,2023. Mumenin,S.Al-Ahmadi,M.A.Rahman,M.S.Hossain,andS.Mirjalili,
+[56] K.Debjit,M.S.Islam,M.A.Rahman,F.T.Pinki,R.D.Nath,S.Al- “Hgsorf: Henry gas solubility optimization-based random forest for c-
+Ahmadi,M.S.Hossain,K.M.Mumenin,andM.A.Awal,“Animproved sectionpredictionandxai-basedcauseanalysis,”ComputersinBiology
+machine-learning approach for covid-19 prediction using harris hawks andMedicine,vol.147,p.105671,2022.
+optimizationandfeatureanalysisusingshap,”Diagnostics,vol.12,no.5, [75] I.K.Kokkinidis,E.Logaras,E.S.Rigas,I.Tsakiridis,T.Dagklis,A.Bil-
+p.1023,2022. lis,andP.D.Bamidis,“Towardsanexplainableai-basedtooltopredict
+[57] V.V.Khanna,K.Chadaga,N.Sampathila,S.Prabhu,andR.Chadaga,“A pretermbirth,”CARINGISSHARING–EXPLOITINGTHEVALUEIN
+machinelearningandexplainableartificialintelligencetriage-prediction DATAFORHEALTHANDINNOVATION,p.571,2023.
+systemforcovid-19,”DecisionAnalyticsJournal,p.100246,2023. [76] K.H.Cho,E.S.Kim,J.W.Kim,C.-H.Yun,J.-W.Jang,P.H.Kasani,
+[58] L.Zou,H.L.Goh,C.J.Y.Liew,J.L.Quah,G.T.Gu,J.J.Chew,M.P. andH.S.Jo,“Comparativeeffectivenessofexplainablemachinelearning
+Kumar,C.G.L.Ang,andA.W.A.Ta,“Ensembleimageexplainableai approaches for extrauterine growth restriction classification in preterm
+(xai)algorithmforseverecommunity-acquiredpneumoniaandcovid-19 infantsusinglongitudinaldata,”FrontiersinMedicine,vol.10,2023.
+respiratoryinfections,”IEEETransactionsonArtificialIntelligence,vol.4, [77] F. Curia, “Features and explainable methods for cytokines analysis of
+no.2,pp.242–254,2022. dryeyediseaseinhivinfectedpatients,”HealthcareAnalytics,vol.1,p.
+[59] M.Cavallaro,H.Moiz,M.J.Keeling,andN.D.McCarthy,“Contrasting 100001,2021.
+factorsassociatedwithcovid-19-relatedicuadmissionanddeathoutcomes
+[78] R.-K.Sheu,M.S.Pardeshi,K.-C.Pai,L.-C.Chen,C.-L.Wu,andW.-C.
+inhospitalisedpatientsbymeansofshapleyvalues,”PLOSComputational
+Chen,“Interpretableclassificationofpneumoniainfectionusingexplain-
+Biology,vol.17,no.6,p.e1009121,2021.
+ableai(xai-icp),”IEEEAccess,vol.11,pp.28896–28919,2023.
+[60] K. Chadaga, S. Prabhu, V. Bhat, N. Sampathila, S. Umakanth, and
+[79] J.Peng,K.Zou,M.Zhou,Y.Teng,X.Zhu,F.Zhang,andJ.Xu,“An
+R.Chadaga,“Adecisionsupportsystemfordiagnosisofcovid-19from
+explainable artificial intelligence framework for the deterioration risk
+non-covid-19 influenza-like illness using explainable artificial intelli-
+predictionofhepatitispatients,”Journalofmedicalsystems,vol.45,pp.
+gence,”Bioengineering,vol.10,no.4,p.439,2023.
+1–9,2021.
+[61] M. Laatifi, S. Douzi, H. Ezzine, C. E. Asry, A. Naya, A. Bouklouze,
+[80] H.-C.Chen,C.Damarjati,K.T.Putra,H.-M.Chen,C.-L.Hsieh,H.-J.Lin,
+Y. Zaid, and M. Naciri, “Explanatory predictive model for covid-19
+M.-Y.Wu,andC.-S.Chen,“Pulse-lineintersectionmethodwithunboxed
+severity risk employing machine learning, shapley addition, and lime,”
+artificialintelligenceforhesitantpulsewaveclassification,”Information
+ScientificReports,vol.13,no.1,p.5481,2023.
+Processing&Management,vol.59,no.2,p.102855,2022.
+[62] F. Juraev, S. El-Sappagh, E. Abdukhamidov, F. Ali, and T. Abuhmed,
+[81] S.M.Lauritsen,M.Kristensen,M.V.Olsen,M.S.Larsen,K.M.Lau-
+“Multilayer dynamic ensemble model for intensive care unit mortality
+ritsen,M.J.Jørgensen,J.Lange,andB.Thiesson,“Explainableartificial
+predictionofneonatepatients,”JournalofBiomedicalInformatics,vol.
+intelligencemodeltopredictacutecriticalillnessfromelectronichealth
+135,p.104216,2022.
+records,”Naturecommunications,vol.11,no.1,p.3852,2020.
+[63] Z.Zeng,X.Tang,Y.Liu,Z.He,andX.Gong,“Interpretablerecurrent
+[82] K. Davagdorj, J.-W. Bae, V.-H. Pham, N. Theera-Umpon, and K. H.
+neuralnetworkmodelsfordynamicpredictionoftheextubationfailure
+Ryu, “Explainable artificial intelligence based framework for non-
+riskinpatientswithinvasivemechanicalventilationintheintensivecare
+communicable diseases prediction,” IEEE Access, vol. 9, pp. 123672–
+unit,”BioDataMining,vol.15,no.1,pp.1–19,2022.
+123688,2021.
+[64] A. J. Barda, C. M. Horvat, and H. Hochheiser, “A qualitative research
+frameworkforthedesignofuser-centereddisplaysofexplanationsforma- [83] H.ZhangandK.Ogasawara,“Grad-cam-basedexplainableartificialintel-
+chinelearningmodelpredictionsinhealthcare,”BMCmedicalinformatics ligencerelatedtomedicaltextprocessing,”Bioengineering,vol.10,no.9,
+anddecisionmaking,vol.20,no.1,pp.1–16,2020. p.1070,2023.
+[65] H.-C.Thorsen-Meyer,A.B.Nielsen,A.P.Nielsen,B.S.Kaas-Hansen, [84] K.Mridha,S.Ghimire,J.Shin,A.Aran,M.M.Uddin,andM.Mridha,
+P.Toft,J.Schierbeck,T.Strøm,P.J.Chmura,M.Heimann,L.Dybdahl “Automatedstrokepredictionusingmachinelearning:Anexplainableand
+etal.,“Dynamicandexplainablemachinelearningpredictionofmortality exploratory study with a web application for early intervention,” IEEE
+in patients in the intensive care unit: a retrospective study of high- Access,2023.
+frequencydatainelectronicpatientrecords,”TheLancetDigitalHealth, [85] N. A. Wani, R. Kumar, and J. Bedi, “Deepxplainer: An interpretable
+vol.2,no.4,pp.e179–e191,2020. deeplearningbasedapproachforlungcancerdetectionusingexplainable
+[66] S.Knapicˇ,A.Malhi,R.Saluja,andK.Främling,“Explainableartificial artificialintelligence,”ComputerMethodsandProgramsinBiomedicine,
+intelligenceforhumandecisionsupportsysteminthemedicaldomain,” vol.243,p.107879,2024.
+MachineLearningandKnowledgeExtraction,vol.3,no.3,pp.740–770, [86] M.M.Hassan,S.A.AlQahtani,M.S.AlRakhami,andA.Z.Elhendi,
+2021. “Transparentandaccuratecovid-19diagnosis:Integratingexplainableai
+[67] D.Mukhtorov,M.Rakhmonova,S.Muksimova,andY.-I.Cho,“Endo- withadvanceddeeplearninginctimaging.”CMES-ComputerModeling
+scopicimageclassificationbasedonexplainabledeeplearning,”Sensors, inEngineering&Sciences,vol.139,no.3,2024.
+vol.23,no.6,p.3176,2023. [87] S.Liu,A.B.McCoy,J.F.Peterson,T.A.Lasko,D.F.Sittig,S.D.Nelson,
+[68] D. Varam, R. Mitra, M. Mkadmi, R. Riyas, D. A. Abuhani, S. Dhou, J.Andrews,L.Patterson,C.M.Cobb,D.Mulherinetal.,“Leveraging
+andA.Alzaatreh,“Wirelesscapsuleendoscopyimageclassification:An explainable artificial intelligence to optimize clinical decision support,”
+explainableaiapproach,”IEEEAccess,2023. JournaloftheAmericanMedicalInformaticsAssociation,vol.31,no.4,
+[69] N. Nigar, M. Umar, M. K. Shahzad, S. Islam, and D. Abalo, “A deep pp.968–974,2024.
+learning approach based on explainable artificial intelligence for skin [88] G.SchwalbeandB.Finzel,“Acomprehensivetaxonomyforexplainable
+lesionclassification,”IEEEAccess,vol.10,pp.113715–113725,2022. artificial intelligence: a systematic survey of surveys on methods and
+[70] Z. J. Lo, M. H. W. Mak, S. Liang, Y. M. Chan, C. C. Goh, T. Lai, concepts,”DataMiningandKnowledgeDiscovery,pp.1–59,2023.
+A. Tan, P. Thng, J. Rodriguez, T. Weyde et al., “Development of an [89] M. A. Qureshi, A. Younus, and S. Caton, “Inclusive counterfactual
+explainableartificialintelligencemodelforasianvascularwoundimages,” generation:Leveragingllmsinidentifyingonlinehate,”inInternational
+InternationalWoundJournal,2023. ConferenceonWebEngineering. Springer,2024,pp.34–48.
+22

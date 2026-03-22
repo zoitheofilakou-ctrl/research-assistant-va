@@ -1,0 +1,2434 @@
+Ackerhans et al. Implementation Science (2024) 19:11 Implementation Science
+https://doi.org/10.1186/s13012-024-01339-x
+SYSTEMATIC REVIEW Open Access
+Exploring the role of professional identity
+in the implementation of clinical decision
+support systems—a narrative review
+Sophia Ackerhans1* , Thomas Huynh1, Carsten Kaiser1 and Carsten Schultz1
+Abstract
+Background Clinical decision support systems (CDSSs) have the potential to improve quality of care, patient safety,
+and efficiency because of their ability to perform medical tasks in a more data-driven, evidence-based, and semi-
+autonomous way. However, CDSSs may also affect the professional identity of health professionals. Some profession-
+als might experience these systems as a threat to their professional identity, as CDSSs could partially substitute clinical
+competencies, autonomy, or control over the care process. Other professionals may experience an empowerment
+of the role in the medical system. The purpose of this study is to uncover the role of professional identity in CDSS
+implementation and to identify core human, technological, and organizational factors that may determine the effect
+of CDSSs on professional identity.
+Methods We conducted a systematic literature review and included peer-reviewed empirical studies from two
+electronic databases (PubMed, Web of Science) that reported on key factors to CDSS implementation and were pub-
+lished between 2010 and 2023. Our explorative, inductive thematic analysis assessed the antecedents of professional
+identity-related mechanisms from the perspective of different health care professionals (i.e., physicians, residents,
+nurse practitioners, pharmacists).
+Results One hundred thirty-one qualitative, quantitative, or mixed-method studies from over 60 journals were
+included in this review. The thematic analysis found three dimensions of professional identity-related mecha-
+nisms that influence CDSS implementation success: perceived threat or enhancement of professional control
+and autonomy, perceived threat or enhancement of professional skills and expertise, and perceived loss or gain
+of control over patient relationships. At the technological level, the most common issues were the system’s ability
+to fit into existing clinical workflows and organizational structures, and its ability to meet user needs. At the organi-
+zational level, time pressure and tension, as well as internal communication and involvement of end users were
+most frequently reported. At the human level, individual attitudes and emotional responses, as well as familiarity
+with the system, most often influenced the CDSS implementation. Our results show that professional identity-related
+mechanisms are driven by these factors and influence CDSS implementation success. The perception of the change
+of professional identity is influenced by the user’s professional status and expertise and is improved over the course
+of implementation.
+Conclusion This review highlights the need for health care managers to evaluate perceived professional identity
+threats to health care professionals across all implementation phases when introducing a CDSS and to consider their
+*Correspondence:
+Sophia Ackerhans
+ackerhans@bwl.uni-kiel.de
+Full list of author information is available at the end of the article
+© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/. The Creative Commons Public Domain Dedication waiver (http://creativecom-
+mons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Ackerhans et al. Implementation Science (2024) 19:11 Page 2 of 29
+varying manifestations among different health care professionals. Moreover, it highlights the importance of innova-
+tion and change management approaches, such as involving health professionals in the design and implementation
+process to mitigate threat perceptions. We provide future areas of research for the evaluation of the professional
+identity construct within health care.
+Keywords Professional identity, Identity threat, Clinical decision support system, Health care, Implementation,
+Review
+Contributions to the literature and minimize user resistance, it is crucial to understand
+the factors affecting implementation success and identify
+• We provide a comprehensive literature review and the sources of resistance among the users [1, 13, 14].
+narrative synthesis of the role of professional identity In the health care innovation management and imple-
+in CDSS implementation among diverse health care mentation science literature, a range of theoretical
+professionals and identify human, technological, and approaches have been used to examine the implemen-
+organizational determinants that influence professional tation and diffusion of health care information tech-
+identity and implementation. nologies. Technology acceptance theories focus on key
+• The review shows that a perceived threat to profes- determinants of individual technology adoption, such as
+sional identity plays a significant role in explaining ease of use, perceived usefulness or performance expec-
+failures of CDSS implementation. As such, our study tancy of the technology itself [15–17]. Organizational
+highlights the need to recognize significant challenges theories emphasize the importance of moving beyond
+related to professional identity in the implementation an exclusive focus on the acceptance of technology by
+of CDSS and similar technologies. A better under- individuals. Instead, they advocate for examining behav-
+standing and awareness of individual barriers to CDSS iors and decisions with a focus on organizational struc-
+implementation among health professionals can pro- tures and processes, cultural and professional norms,
+mote the diffusion of such data-driven tools in health and social and political factors such as policies, laws, and
+care. regulations [18, 19]. Other studies analyze the implemen-
+• This narrative synthesis maps, interconnects, and rein- tation of new technologies in health care from a behav-
+terprets existing empirical research and provides a ioral theory perspective [20] and propose frameworks to
+foundation for further research to explore the complex explain how and why resistances emerge among users,
+interrelationships and influences of perceived profes- which may have cognitive, affective, social, or environ-
+sional identity-related mechanisms among health care mental origins [13, 21, 22]. For example, the Theoretical
+professionals in the context of CDSS implementations. Domains Framework has been applied to the behavior of
+health care professionals and serve as the basis for stud-
+ies identifying influences on the implementation of new
+Background medical technologies, processes, or guidelines [21, 23].
+Health care organizations increasingly implement clini- Other, more holistic, implementation frameworks, such
+cal decision support systems (CDSSs) due to rising treat- as the Nonadoption, Abandonment, Scale-up, Spread and
+ment costs and health care professional staff shortages Sustainability framework, identify determinants as part
+[1, 2]. CDSSs provide passive and active referential infor- of a complex system to facilitate CDSS implementation
+mation, computer-based order sets, reminders, alerts, efforts across health care settings [13].
+and patient-specific data to health care professionals at However, these theoretical approaches do not suffi-
+the point of care by matching patient characteristics to ciently take into account the unique organizational and
+a computerized knowledge base [1, 3, 4]. These systems social system in hospitals, which is characterized by
+complement existing electronic health record (EHR) sys- strong hierarchies and the socialization of physicians into
+tems [5] and support various functional areas of medical isolated structures and processes, making CDSS imple-
+care, such as preventative health, diagnosis, therapy, and mentation particularly difficult [5, 24, 25]. Health care
+medication [6, 7]. Research has shown that CDSSs can professionals are considered to have an entrenched pro-
+improve patient safety and quality of care [8–10] by pre- fessional identity characterized by the acquisition of a
+venting medication errors and enhancing decision-mak- high level of expertise and knowledge over a long period
+ing quality [11]. However, despite their potential benefits, of time, as well as by their decision-making authority and
+their successful implementation into the clinical work- autonomy in clinical interventions. Defined roles and
+flow remains low [1, 12]. To facilitate CDSS acceptance structures of different professional groups in medical
+A ckerhans et al. Implementation Science (2024) 19:11 Page 3 of 29
+organizations help to manage the multitude of tasks that lead different health care professionals to perceive
+under high time pressure [26]. In addition, heath care a CDSS as a threat or an enhancement of their profes-
+professionals bear a high degree of responsibility in terms sional identity? And, how do perceptions of threat and
+of ensuring medical quality and patient well-being [27]. enhancement of professional identity influence CDSS
+Changing their professional identity is particularly dif- implementation?
+ficult as they work in organizational contexts with high This study is designed to guide medical practice, health
+levels of inertia and long-lived core values based on IT providers, and health policy in their understanding
+established practices and routines [27]. This resilience of of the mechanisms that lead to conflicts between health
+health care professionals’ identity makes it particularly professionals’ identity and CDSS implementation. It
+difficult to implement new technologies into everyday is intended to identify practices that may support the
+medical practice [28]. implementation and long-term use of CDSSs. By nar-
+By integrating existing evidence into an individual ratively merging insights and underlying concepts from
+physician’s decision-making processes, CDSSs carry existing literature on innovation management, imple-
+the disruptive potential to undermine existing, highly mentation science, and identity theory with the findings
+formalized clinical knowledge and expertise and pro- of the empirical studies included in this review, we aim to
+fessional decision-making autonomy [5, 24, 29, 30]. provide a comprehensive framework that can effectively
+Research has shown that health professionals may per- guide further research on the implementation of CDSSs.
+ceive new technologies, such as CDSSs, as a threat to
+their professional identity and draw potential conse- Understanding professional identity
+quences for themselves and their professional commu- Following recent literature, professional identity refers to
+nity, such as the change of established organizational an individual’s self-perception and experiences as a mem-
+hierarchies, loss of control, power, status, and prestige ber of a profession and plays a central role in how pro-
+[31–33]. Nevertheless, other studies have shown that fessionals interpret and act in their work situations [25,
+health professionals view CDSSs as tools that increase 37, 40–42]. It is closely tied to a sense of belonging to a
+their autonomy over clinical decisions and improve professional group and the identification with the roles
+their relationship with patients [34, 35]. In addition, and responsibilities associated with that occupation. Pro-
+these consequences may vary widely by country, pro- fessionals typically adhere to a set of ethical principles
+fessional status, and medical setting. As a result, the and values that are integral to their professional identity
+use and efficacy of CDSSs differ around the world [24]. and guide their behavior and decision-making. They are
+We therefore suggest that a better understanding of expected to have specialized knowledge and expertise in
+the identity-undermining or identity-enhancing conse- their field. In return, they are granted a high degree of
+quences of CDSSs is needed. Despite growing academic self-efficacy, autonomy, and ability to act in carrying out
+interest, there is surprisingly scant research on the role these tasks [25, 43]. In addition, professionals make active
+of perceived identity threats and enhancements across use of their identities in order to define and change situ-
+different professional hierarchies during CDSS imple- ations. Self-continuity and self-esteem encourages these
+mentation and how they relate to other human, techno- professionals to align their standards of identification
+logical, and organizational influencing factors [5, 36, 37]. with the perceptions of others and themselves [44]. Many
+Therefore, the purpose of this narrative review is to professions have formal organizations or associations
+analyze the state of knowledge on the individual, tech- that promote and regulate their shared professional iden-
+nological, and organizational circumstances that lead tity [45]. Membership in these associations, adherence to
+various health professionals to perceive CDSSs as a threat their standards and to a shared culture within their field,
+or enhancement of their professional identity. In doing including common rituals, practices, and traditions, may
+so, this study takes an exploratory approach and deter- reinforce their professional identity [33, 36, 45].
+mines human, organizational, and technological factors Studies in the field of health care innovation manage-
+for the successful implementation of CDSSs. Our study ment and implementation science reported a number
+extends the current knowledge of CDSS implementation of professional identity conflicts that shape individual
+by deconstructing professional identity related mecha- behavioral responses to change and innovation [5, 24,
+nisms and identifying the antecedents of these perceived 33, 36, 45, 46]. The first set of conflicts relates to indi-
+threats and enhancements. It addresses calls for research vidual factors and expectations, such as their personal-
+to explore identity theory and social evaluations in the ity traits, cognitive style, demographics, and education.
+context of new system implementation [5, 38, 39] by aim- For example, user perception of a new technology can
+ing to answer the following research questions: What be influenced by professional self-efficacy, which can be
+are the human, technological, and organizational factors described as perceived feeling of competence, control
+Ackerhans et al. Implementation Science (2024) 19:11 Page 4 of 29
+and ability to perform [47]. Studies have shown that least one of the search terms, such as “clinical decision
+innovations with a negative impact on individual’s sense support system,” “computer physician order entry,” “elec-
+of efficacy tend to be perceived as threatening, resulting tronic prescribing,” or “expert system.” To ensure that the
+in a lower likelihood of successful implementation. Users identified studies relate to CDSS implementation, usage,
+who do not believe in their ability to use the new system or adoption from the perspective of health care organi-
+felt uncomfortable and unconfident in the workplace and zations and health care professionals, we included, for
+were more likely to resist the new system [48, 49]. example, the words “hospital,” “clinic,” “medical,” and
+The second set of studies relates professional identity “health.” The final search strings are provided in Table
+to sense-making, which involves the active process of S1 (Additional file 1). We obtained a total of 6212 arti-
+acquiring knowledge and comprehending change based cles. From this initial list, we removed 1461 duplicates,
+on existing professional identities as frames of references 6 non-retrievable studies, and 1 non-English articles.
+[50]. For example, Jensen and Aanestad [51] showed that This left us with a total of 4744 articles for the screen-
+health care professionals endorsed the implementation of ing of the titles, abstracts, and full texts. Three authors
+an EHR system only if it was perceived to be congruent independently reviewed these articles to identify empiri-
+with their own role and the physician’s practice, rather cal papers which met the following inclusion criteria: (a)
+than focusing on functional improvements that the sys- evaluated a CDSS as a study object, (b) examined facili-
+tem could have provided. Bernardi and Exworthy [52] tating factors or barriers impacting either CDSS adop-
+found that health care professionals with hybrid roles, tion, use or implementation, (c) were examined from the
+bearing both clinical and managerial responsibilities, use perspective of health care professionals or medical facili-
+their social position to convince health care profession- ties, and (d) represented an empirical study. We identi-
+als to adopt medical technologies only when they address fied 220 studies that met our inclusion criteria. The three
+the concerns of health care professionals. authors independently assessed the methodological qual-
+The final set of studies address struggles related to a ity of these 220 selected studies using the Mixed Methods
+disruption of structures and processes that lead to the Appraisal tool (MMAT), version 2018 [58]. The MMAT
+reorganization of the health professions [53, 54] and the can be used for the qualitative evaluation of five differ-
+introduction of new professional logics [55]. These can ent study designs, i.e., qualitative, quantitative, and mixed
+result in threat perceptions from the perspective of health methods approaches. It is a qualitative scale that evalu-
+professionals regarding their competence, autonomy, and ates the aim of a study, its adequacy to the research ques-
+control over clinical decisions and outcomes. Accord- tion, the methodology used, the study design, participant
+ingly, the perception of new systems not only influences recruitment, data collection, data analysis, presentation
+their use or non-use, but implies a dynamic interaction of findings, and the discussion and conclusion sections
+with the professional identity of the users [56]. CDSSs of the article [59]. One hundred thirty-one studies were
+may be perceived as deskilling or as a skill enhancement included in the review after excluding studies based on
+by reducing or empowering the responsibilities of users the MMAT criteria, primarily due to a lack of a defined
+and thereby as compromising or enhancing the profes- research question or a mismatch between the research
+sional role, autonomy and status. question and the data collected [58]. Any disagreement
+Taking the classical theoretical frameworks for the about the inclusion of a publication between was resolved
+evaluation of health information systems [57] and this through internal discussion. Figure 1 summarizes our
+understanding of professional identity as a starting point, complete screening process.
+our narrative review identifies, reinterprets, and inter- The studies included in the review were then sub-
+connects the key factors to CDSS implementation related ject to a qualitative content analysis procedure [60, 61]
+to threats or enhancement of health professionals’ iden- using MAXQDA, version 2020. For data analysis, we
+tity in different health care settings. initially followed the principle of “open coding” [62].
+We divided the studies equally among the three authors,
+Method
+and through an initial, first-order exploratory analysis,
+We conducted a comprehensive search of the Web of Sci- we identified numerous codes, which were labeled with
+ence and PubMed databases to identify peer-reviewed key terms from the studies. Based on a preliminary lit-
+studies on CDSS implementations published between erature review, we then developed a reference guide with
+January 2010 and September 2023. An initial review the main categories of classic theoretical frameworks
+of the literature, including previous related literature for health information systems implementation (human,
+reviews, yielded the key terms to be used in designing technology, organization) [57] and further characteris-
+the search strings [1, 49]. We searched for English arti- tics of the study. Second-order categories were obtained
+cles whose titles, abstracts, or keywords contained at through axial coding [62], which reduced the number of
+A ckerhans et al. Implementation Science (2024) 19:11 Page 5 of 29
+Fig. 1 Overview of article screening process
+initial codes but also revealed concepts that could not be coder 2. For this purpose, Cohen’s kappa, a measure of
+mapped to these three categories (i.e., perceived threat agreement between two independent categorical sam-
+to professional autonomy and control). This allowed us ples, was calculated. Cohen’s kappa showed that there
+to identify concepts related to professional identity. Sub- was a high agreement in coding (k = 0.8) [64]. We coded
+sequently, a subset of 10% of the studies was randomly for the following aspects: human, organizational, techno-
+selected and coded by a second coder independently of logical, professional identity factor conceptualizations,
+the first coder [63]. Then, an inter-coder reliability analy- dependent variables, study type and type of data, time-
+sis was performed between the samples of coder 1 and frame, clinician type sample, description of the CDSS,
+Ackerhans et al. Implementation Science (2024) 19:11 Page 6 of 29
+implementation phase [65], target area of medical care collection method used (n = 38), followed by surveys
+[7], and applied medical specialty. Tables 2, 3, 4, 5, 6 and (n = 58), and focus group interviews (n = 25). Most of
+7 and Table S2 provide detailed data as per the key cod- the interviews were conducted with physicians (n = 60)
+ing categories. and nursing professionals (n = 23). The studies were per-
+formed at various sites and specialties, with primary care
+Findings settings (n = 35), emergency (n = 11), and pediatric (n = 6)
+Descriptive analysis departments being represented most frequently. Forty-
+A total of 131 studies were included in our review. In line five articles researched exclusively physicians and 10 cov-
+with recent reviews of CDSS implementation research [6, ered nurse practitioners as respondents in their sample.
+14, 57], the reviewed articles are distributed widely across Four studies surveyed pharmacists, one study surveyed
+journals (Table 1). medical residents as a single target group, and 20 articles
+The examined articles were drawn from 69 journals, included clinical leaders in addition to clinicians to their
+55 of which provide only one article. The BMC Medical sample. Twenty-eight studies were longitudinal, although
+Informatics and Decision Making and International Jour- studying system implementation at one point in time will
+nal of Medical Informatics published nearly a third of the insufficiently explain the expected impact of the novel
+included studies, with 67 articles overall in medical infor- system on, e.g., the organizational performance out-
+matics journals. There are additional clusters in medical comes over time [67]. The studies collected data in 29 dif-
+specialty-related (33), health services, public health, or ferent countries, with the most common being the USA
+health care management-related (12), and implementa- (n = 41), the UK (n = 18), and the Netherlands (n = 11).
+tion science-related (2) journals. The journals’ 5-year Included studies were additionally coded according to
+impact factor measured in 2022 ranged between 2.9 and the implementation phase in which the study was con-
+9.7. Of our included articles, 67 were published between ducted (i.e., exploration, adoption/preparation, imple-
+2010 and 2016, while 64 were published between 2017 mentation, sustainment phase) [65]. In 43 of the included
+and 2023. studies, the analysis was conducted during the explora-
+The review includes a mixture of qualitative (n = 61), tion phase, i.e., during a clinical trial or an exploration of
+quantitative (n = 40), and mixed methods (n = 30) studies. the functionality and applicability of a CDSS. Nineteen
+Unless otherwise noted, studies indicated as qualitative studies were conducted in the active implementation
+studies in Table S2 involved interviews and quantita- phase, 15 studies in an implementation adoption or prep-
+tive studies involved surveys. Interviews with individual aration phase, and 46 studies in a sustainment phase (i.e.,
+health care professionals were the most common data implementation completed and long-term system use).
+Table 1 Journals and their 5-year impact factors
+Journal title No. of articles 5-year journal
+impact factor
+(2022)a
+BMC Medical Informatics and Decision Making 25 3.5
+International Journal of Medical Informatics 15 4.9
+Journal of the American Medical Informatics Association 8 6.4
+Applied Clinical Informatics 5 2.9
+International Journal of Environmental Research and Public Health 3 4.8
+Plos One 3 3.8
+BMC Family Practice 3 3.3
+BMJ Open 3 3.3
+Implementation Science 2 9.7
+Journal of Medical Systems 2 5.2
+Applied Ergonomics 2 3.9
+BMC Health Services Research 2 3.5
+BMC Primary Care 2 3.3
+Health Informatics Journal 2 3.0
+Other journals 55
+a 2022 Journal Impact Factor, Journal Citation Reports[66]
+A ckerhans et al. Implementation Science (2024) 19:11 Page 7 of 29
+srotcaf noitatnemelpmi
+SSDC
+fo
+yrammuS
+2
+elbaT
+secnerefer
+yduts
+dedulcnI
+rotcaf noitatnemelpmi
+SSDC
+noisnemid
+noitatnemelpmi
+SSDC
+]521–86 ,53
+,43 ,03 ,42
+,21
+,9 ,8
+,5
+,3[
+serutcurts
+lanoitazinagro
+dna woflkrow
+lacinilc gnitsixe
+otni stfi metsyS
+)235
+=
+n(
+lacigolonhceT
+)76 =
+n(
+,211–901
+,601 ,401–101
+,99–59
+,39–09
+,68 ,48 ,77 ,57
+,47 ,17–86
+,53
+,42 ,01–8[
+,noitamrofni
+tnaveler
+fo
+yalpsid
+.lcni
+,sdeen ’sresu gniteem
+seitilanoitcnuF
+]341–621
+,421 ,221–911
+,611–411
+)85 = n(
+noitazimotsuc
+,701 ,601
+,301–101 ,89
+,79
+,59 ,39 ,09
+,48 ,08 ,87 ,77
+,47 ,27 ,17
+,86
+,53 ,43
+,11[
+)94
+=
+n(
+noitagivan
+evitiutni
+,woflkrow dna ecafretni
+fo ngiseD
+]351–441
+,241 ,141 ,831
+,631–431
+,231
+,131 ,721 ,621
+,221 ,121
+,711
+,411–011
+,121 ,411
+,111 ,701 ,601
+,001
+,39 ,19 ,09
+,88 ,78 ,48 ,38
+,08 ,67 ,27
+,07–86
+,21–8[
+ytilibanialpxe
+.lcni
+,ecnedive
+cfiitneics
+dna ytilauq lacinhcet
+s’metsyS
+]061–451
+,251 ,151
+,941–741
+,241
+,141
+,431
+)34
+= n ( semoctuo
+noisiced fo ycnerapsnart
+dna
+,601 ,401
+,69 ,39 ,19 ,09
+,78
+,68 ,87–67
+,47 ,37 ,17 ,96
+,86 ,43 ,03
+,42
+,71 ,01
+,9[
+)93 =
+n ( esu fo esaE
+]661–061
+,451 ,151
+,051
+,741 ,141
+,631 ,921 ,721
+,021 ,511
+,111
+,011
+,701
+,811 ,411
+,211 ,111 ,601–301
+,101 ,89 ,69
+,19 ,09 ,67–47
+,27 ,96 ,86
+,53
+,42 ,11
+,9[
+)63 = n(
+strela evissecxe ,etaruccani
+,tnavelerrI
+]861
+,761 ,461
+,441 ,831–631
+,131–921
+,721
+,221
+,021
+,511 ,211
+,011 ,601 ,401
+,101
+,59–39
+,19 ,68 ,48 ,08
+,67 ,86 ,53
+,42
+,71 ,21
+,01[
+ecnadiug
+lacitcarp
+.lcni
+,snoitcnuf
+dna serutaef metsys
+fo ssenlufesU
+]371–961
+,261 ,061
+,841 ,541
+,441
+,041
+,231
+)23
+= n( erutcip
+lacinilc
+’stneitap
+fo ytixelpmoc gniteem
+snoitcnuf dna
+,231 ,721
+,321 ,021 ,911
+,411
+,601 ,39
+,09–88 ,68 ,48
+,47–27 ,86
+,53
+,42 ,11
+,01[
+)03 = n( metsys elbailer
+dna tsuboR
+]661
+,461 ,361 ,451
+,941 ,741
+,441
+,831
+,731
+,621 ,421
+,911 ,511 ,411
+,211
+,401 ,201
+,001 ,69 ,49 ,39
+,87 ,57 ,17
+,86
+,53 ,03
+,01[
+)03 = n( ytilibareporetni
+metsyS
+]361 ,451–151
+,931–731
+,431
+,131
+,721
+,341 ,931
+,711 ,611 ,401
+,101–99
+,59
+,98 ,58 ,48 ,97
+,77 ,96 ,86
+,71
+,11 ,01
+,8
+,3[
+)03 = n( troppus
+TI ,lacinhceT
+]471
+,171 ,071 ,761
+,361 ,351
+,741
+,641
+,441
+,041 ,731
+,531 ,131 ,221
+,611–411
+,111
+,601 ,69 ,59 ,87
+,77 ,37 ,96
+,86
+,53 ,11–9[
+)62 =
+n(
+snoitcnuf
+,noitamrofni
+tnaveler ot ssecca
+tsaf dna ylemiT
+]361
+,051
+,741
+,441
+,361 ,041–831
+,131 ,721
+,601
+,101 ,98
+,88 ,58 ,48 ,57
+,37 ,96 ,86
+,43
+,21 ,11
+,3[
+)22
+= n( seussi ytiruces dna
+ycavirp ataD
+]671
+,571
+,161
+,351 ,641 ,041
+,021
+,011 ,801
+,301 ,101 ,69
+,49 ,39 ,77
+,47
+,27 ,86
+,43[
+)22
+= n( seigolonimret
+dna ,sdradnats
+,ytilauq ataD
+]771
+,661–361
+]071
+,861 ,741 ,441
+,531
+,231 ,411
+,901 ,49 ,39
+,48 ,97 ,47
+,96
+,43 ,11
+,01[
+)71
+=
+n( )ecafretni
+dna lanoitcnuf( metsys
+fo ytidigiR
+]871 ,571
+,071
+,861 ,261
+,841 ,231 ,121
+,301 ,98 ,68
+,48
+,18–97
+,9[
+)61 = n( sresu dne ot
+tfieneb ,eulaV
+]461 ,741
+,441
+,041 ,731
+,121 ,411 ,111
+,601 ,69
+,59
+,98 ,21–01[
+)51 = n(
+laitnetop gnivas emit
+dna ycneicffiE
+,201 ,101
+,99–59 ,39 ,19
+,09 ,88
+,78 ,48
+,28 ,97 ,77–47
+,27 ,96 ,86
+,53
+,03 ,11
+,9
+,8[
+)25
+= n( noisnet dna erusserp
+emit ,kroW
+)782
+=
+n(
+lanoitazinagrO
+,541 ,441
+,831 ,431 ,331
+,721
+,621 ,321–121
+,811 ,511
+,411 ,111
+,011
+,601
+,401
+]171
+,961 ,261
+,551
+,351–051
+,701 ,401
+,301 ,101 ,79
+,29
+,88 ,68 ,48
+,38 ,97 ,77–57
+,96 ,84 ,42
+,11
+,01 ,8
+,5
+,3[
+)84
+= n ( noisivrepus dna
+gniniart resU
+,171 ,761–561
+,551 ,451
+,251–051
+,641–441
+,931 ,531
+,031 ,921
+,421
+,511
+,011
+]971
+,871
+,571
+,471
+,501–301
+,101 ,29 ,88
+,78
+,48–28 ,08
+,97 ,67 ,47 ,27
+,07–86 ,43
+,03
+,21 ,11
+,8[
+sresu
+dne
+fo tnemevlovni
+,noitaroballoc
+,kcabdeef ,noitacinummoc
+lanretnI
+,361 ,051
+,541–341 ,041
+,931
+,431 ,131
+,921 ,221 ,121
+,811 ,611
+,511
+,211–901
+)54 =
+n
+(
+]181
+,081 ,871
+,471
+,961
+,761
+,921
+,621 ,611 ,511
+,401
+,001 ,49
+,29 ,58–28 ,97
+,67 ,27 ,07–86
+,42 ,11
+,01[
+)33
+=
+n( egnahc
+rof
+pihsredael
+,tnemeganam
+fo troppus
+,tnemesrodnE
+]871 ,571
+,471 ,271 ,961
+,761 ,351
+,251
+,641–341
+Ackerhans et al. Implementation Science (2024) 19:11 Page 8 of 29
+)deunitnoc(
+2
+elbaT
+secnerefer
+yduts
+dedulcnI
+rotcaf noitatnemelpmi
+SSDC
+noisnemid
+noitatnemelpmi
+SSDC
+,741 ,641 ,441
+,141 ,931 ,431 ,011 ,901 ,59 ,88 ,68–28 ,08
+,97
+,86 ,71
+,11
+,01
+,8[
+)23
+= n( erawdrah dna erutcurtsarfni TI
+lanretni
+fo ssenidaeR
+]281–971 ,571 ,171
+,071
+,551
+,451
+,151
+,971 ,571 ,471
+,171 ,071 ,251 ,151 ,141 ,731 ,711 ,211 ,68 ,48
+,28
+,77–57
+,07
+,42[
+-orp
+fo
+noitazidradnats
+.lcni ,senituor fo egnahc ,noitazinagro)er(
+lanretnI
+]081
+)12 = n( sessec
+]471 ,861–561
+,351 ,151 ,931 ,131 ,421 ,811 ,511 ,49 ,68 ,18
+,67
+,27 ,86
+,21
+,01
+,9[
+lacigolohcysp
+.lcni
+,seicilop dna etamilc noitavonni ,erutluc
+lanoitazinagrO )02 = n( ytefas
+]471 ,661 ,551 ,341 ,621 ,321 ,121 ,39
+,19
+,48
+,38
+,47
+,27[
+)31 = n( egdelwonk dna seicnetepmoc
+TI lanretnI
+]351–151 ,821 ,811 ,711
+,211
+,77
+,07–86
+,42[
+)31 = n( seussi
+lagel
+dna laicnaniF
+]351–151 ,821 ,711
+,211
+,77
+,07
+,96
+,42[
+)01 = n( seiradnuob
+lacihcrareiH
+,641 ,541 ,231
+,121 ,711 ,111 ,501 ,98–68 ,48–18 ,77 ,86 ,53
+,42
+,71
+,21–01
+,5 ,3[
+egnahc
+ot
+ecnatsiser
+.lcni ,sesnopser lanoitome dna
+sedutitta
+laudividnI
+)791
+=
+n(
+namuH
+]481
+,381 ,081 ,871 ,571 ,271 ,071 ,961 ,761 ,361
+,261
+,061
+,451–151
+)14
+=
+n(
+,331 ,131
+,721 ,411 ,111 ,801 ,501 ,401 ,89 ,98–78 ,28 ,97
+,96
+,84
+,42 ,01
+,5 ,3[
+)53 = n( metsys htiw ytirailimaf
+dna ecneirepxE
+]781–581
+,381 ,281 ,871 ,071 ,861 ,851 ,451 ,741
+,441
+,931
+,831
+,531
+,231 ,821 ,721
+,021 ,911 ,901 ,501 ,401 ,59 ,49 ,87 ,77 ,47 ,37
+,96
+,53
+,42
+,21
+,11[
+)13 = n( mhtirogla ro elur gniylrednu
+dna
+metsys ni
+tsurT
+]581 ,081 ,871 ,771 ,461 ,261 ,451 ,151
+,641
+,441
+,731
+,331
+,381 ,181 ,771
+,061 ,251 ,541 ,341 ,021 ,001 ,09 ,98 ,48–28
+,37
+,53
+,21–01
+,8 ,5[
+)32 = n( slliks TI
+,ycaretilli
+retupmoC
+]881
+,751 ,451 ,631
+,531 ,331 ,821 ,611 ,511 ,311 ,211 ,901 ,401 ,101
+,49 ,09
+,37
+,07
+,5[
+)22 = n(
+ssenlufesu
+deviecreP
+]581
+,181
+,561
+,461
+]381 ,281 ,871 ,961 ,951 ,851 ,251
+,441
+,411
+,69
+,48
+,38[
+)31
+=
+n
+(
+tnemrewopme
+dna noitacude tneitap fo
+laitnetop
+deviecreP
+]161 ,151 ,041 ,431 ,511 ,011 ,901 ,401
+,101
+,39
+,57
+,37
+,03[
+)21 = n( troffe detcepxe ,noissap
+,noitavitom
+cisnirtnI
+]581 ,771 ,061 ,251 ,731
+,911
+,49
+,77
+,47
+,8[
+)01 = n( slliks dna
+egdelwonk
+lacinilC
+]871 ,261 ,731 ,231 ,401
+,101
+,98
+,07
+,71
+,21[
+)01
+=
+n(
+metsys
+yb snaicinilc fo noitacude ,gniniart fo
+laitnetop
+deviecreP
+,431 ,121
+,611 ,511 ,901 ,701 ,001 ,79 ,98 ,18 ,08 ,77 ,37
+,27
+,96 ,86
+,71
+,11–8[
+)43
+= n( erac fo ycneicffie dna ssenevitceffe
+sevorpmi metsyS
+)39
+=
+n(
+stfieneB
+]281 ,061 ,851 ,551 ,451 ,251 ,841
+,741
+,441–141
+,531
+,441 ,731 ,621
+,121 ,601 ,401 ,201 ,69 ,49 ,19 ,98 ,18 ,08 ,47
+,96
+,42 ,71
+,11
+,01
+,8[
+)52 = n( ytefas tneitap ot
+laicfieneb
+si metsyS
+]871
+,571
+,951
+,451
+,251
+]461 ,261–061
+,451 ,151 ,841 ,741 ,141 ,331 ,101 ,89 ,18
+,67
+,07 ,96
+,53
+,11–8[
+)12 = n( erac fo ytilauq
+sevorpmi metsyS
+]961 ,451 ,441 ,631 ,431 ,701 ,201
+,08
+,77 ,96
+,42
+,11
+,8[
+)31 = n( srorre tnemtaert dna noitpircserp
+stneverp metsyS
+,49–19 ,98
+,68 ,48 ,28–08 ,77 ,57 ,37 ,27 ,96 ,86 ,84 ,43 ,03
+,42
+,71
+,21 ,01
+,9 ,5[
+elor
+,seitilibisnopser
+,ymonotua ,lortnoc lanoisseforp
+ot
+taerht deviecreP
+)09
+=
+n(
+taerht
+ytitnedi
+lanoisseforP
+,041 ,731 ,431
+,231 ,131 ,921 ,821 ,621 ,121 ,021 ,611 ,411–211
+,401–201
+,89
+,79
+)85
+=
+n(
+]081 ,871 ,771 ,571 ,761 ,561–261
+,551
+,451
+,641–441
+]071 ,261
+,041 ,731 ,631 ,921 ,511 ,411 ,111 ,401 ,101 ,39
+,98
+,18
+,37
+,53
+,21[
+)71 = n( pihsnoitaler tneitap revo lortnoc
+fo ssol deviecreP
+]761 ,461 ,451 ,731 ,021 ,411 ,401 ,201 ,69 ,29
+,19
+,37
+,27
+,03
+,42[
+ecnednepedrevo
+fo ksir .lcni ,esitrepxe dna lliks lacinilc
+ot
+taerht deviecreP )51
+=
+n(
+]141 ,041 ,431–231 ,901 ,59–39 ,98
+,57
+,47
+,86
+,53
+,71[
+laicfieneb
+.lcni
+,pihsnoitaler tneitap fo lortnoc fo tnemecnahne
+deviecreP
+)44
+=
+n(
+tnemecnahne
+ytitnedi
+lanoisseforP
+)81 = n( noitacinummoc
+redivorp-tneitap
+rof
+A ckerhans et al. Implementation Science (2024) 19:11 Page 9 of 29
+)deunitnoc(
+2
+elbaT
+secnerefer
+yduts
+dedulcnI
+rotcaf
+noitatnemelpmi
+SSDC
+noisnemid
+noitatnemelpmi
+SSDC
+]081
+,871
+,961
+,161
+,551
+,731
+,511
+,401
+,29
+,19
+,27 ,53 ,43
+,42[
+-ilibisnopser
+,ymonotua
+dna
+lortnoc
+lanoisseforp
+fo
+tnemecnahne
+deviecreP
+)51
+= n( elor
+,seit
+]871
+,261
+,551
+,041
+,331
+,821
+,101
+,29 ,87 ,21
+,8[
+)11
+=
+n(
+esitrepxe
+dna
+lliks
+lacinilc
+fo
+tnemecnahne
+deviecreP
+,451
+,841
+,341
+,001[
+)8
+=
+n( ecneuflni
+laicoS
+,]471
+,961
+,661
+,99
+,29
+,28 ,07 ,42[
+)8
+=
+n(
+egdelwonk
+fo srotatilicaf
+dna
+snoisseforp
+neewteb
+srotaidem
+sa
+snoipmahC
+:lanoitazinagrO
+:semit
+01
+naht
+ssel
+deretnuocne
+srotcaF
+lortnoc
+thgit
+dna
+senilediug
+gnidaelsim
+.lcni
+,senilediug
+dna
+seicilop
+latnemnrevoG
+:latnemnorivnE
+;]981
+,051
+,811
+,401[
+)4 =
+n( ezis
+noitazinagrO
+,]471
+,561
+,49 ,98[ )4
+=
+n(
+stsoc
+noitatnemelpmi
+metsyS
+,]281
+,271
+,161
+,951
+:namuH
+;]321[
+)1
+=
+n(
+gniniagrab
+lacitilop
+rof
+desusim
+SSDC
+,]01[
+)1 = n( noitcennoc
+dnabdaorB
+,]961
+,931[
+)2
+= n(
+noititepmoc
+lanretxE
+,]471
+,321
+,01[
+)3 = n( gnidnuf
+lanoitaN
+,]471
+,251
+,641
+,621
+,321
+,711
+,09[
+)7
+=
+n(
+sreirrab
+egaugnaL
+,]091[
+)1 =
+n(
+SSDC
+rossecederp
+,metsys
+ycagel
+htiw ecneirepxe
+,noitcafsitassiD
+,]761
+,741
+,041
+,501
+,48
+,38[
+)6
+= n(
+egA
+,]471
+,431
+,79
+,68
+,42 ,01
+,5[
+)7
+= n(
+devlovni
+lla
+neewteb
+tsurt
+dna
+noitaroballoC
+,401
+,96
+,21
+,01[
+)8
+= n(
+sgnivas
+tsoc
+ot
+laicfieneb
+si
+metsyS
+,]741
+,441
+,041
+,221 ,98
+,53
+,43
+,42
+,01[
+)9
+=
+n( tnemeganam
+,TI
+dna
+snaicinilc
+neewteb
+dna
+snaicinilc
+neewteb
+noitacinummoc
+sevorpmi
+metsyS
+:stfieneB
+,]8[
+)1
+=
+n(
+]461
+,241
+,431
+,331
+,311
+,211
+,19
+,42[
+)8
+=
+n(
+traeh
+yb
+gnihtyreve
+rebmemer
+ot
+evah
+regnol
+on
+snaicinilC
+,]471
+,841
+,741
+,141
+Ackerhans et al. Implementation Science (2024) 19:11 Page 10 of 29
+Table 3 Examples of review findings relating to technological factors
+Author Professional type Examples
+CDSS fit into clinical workflow
+[12] Physicians Physicians note that CDSS fit into the clinical workflow is a condition for using
+CDSSs, otherwise the CDSS is perceived as workflow disruption.
+[34] Nursing professionals If a CDSS provides recommendation that is discrepant with what user thinks
+or does not appear to consider patient context, it prompts threat to thinking:
+“Don’t let a tool overtake critical thinking”.
+Intuitive navigation, customization flexibility, applicability
+[102] Physicians A CDSS has to be intuitive and its information must be short and clear.
+[127] Physicians Physicians welcome possibility to customize CDSS recommendation
+and to adjust personal preferences: “I want to be able to set the threshold
+myself”.
+CDSS’s technical quality and scientific evidence
+[77] Junior and senior physicians Senior physicians demand regularly updated evidence-based CDSS whereas
+junior physicians prefer quick answers, trust the CDSS and do not necessarily
+read the source.
+[127] Physicians and nursing professionals Irrelevant alerts for different user groups and for individual users, with vary-
+ing needs over time: “It shouldn’t be necessary to override so many alerts;
+only the sections that apply to us [nurses] should be highlighted”; “… You don’t
+want to receive that alert over and over again”.
+The revealing studies involved an investigation in multi- Technological factors
+ple implementation phases. At the technological level, perceptions of threat to pro-
+Following Berner’s study [7], we classified the exam- fessional identity were associated with factors related to
+ined CDSSs of the included studies according to spe- the nature of the clinical purpose of the CDSS and sys-
+cific target areas of care. As such, in 93 articles, CDSSs tem quality, such as compatibility of the CDSS with cur-
+for planning or implementing treatment were studied. rent clinical workflows [68–70], customization flexibility,
+Thirty-seven studies examined CDSSs whose goal was intuitive navigation [71, 72, 126], and scientific evidence
+prevention or preventive care screening. In 31 studies, and transparency of the decision-outcome [73, 74, 191]. A
+the functional focus of the CDSSs was to provide specific total of 532 technological factors in 125 included studies
+suggestions for potential diagnoses that match a patient’s were identified. In 21 studies, technological factors were
+symptoms. Seventeen CDSSs of the included studies related to study participants’ perceptions of professional
+focused on follow-up management, 15 studies studied identity threat, while in 9 studies these factors were
+CDSSs for hospital and provider efficiency care plans related to perceived professional identity enhancements
+and 12 focused on cost reduction and improved patient (Table 3). The exemplary quotes are chosen based on
+convenience (i.e., through duplicate testing alerts). Most their clarity and representativeness related to the overall
+CDSSs supported medication-related decisions and pro- themes.
+cesses, such as prescribing, administration, and moni- The reviewed studies focused primarily on medica-
+toring for effectiveness and adverse effects (n = 30). An tion-oriented CDSSs. Relevance, accuracy, and trans-
+overview of the characteristics of the included studies parency of the recommendations’ quality and scientific
+can be found in Table S2. evidence were found to be crucial for their acceptance
+In the 131 included studies, we identified 1219 factors, and use. “Irrelevant, inaccurate, excessive, and mislead-
+which we categorized into human, technological, organi- ing alerts” were associated with alert fatigue and lack of
+zational, and professional identity threat and enhance- trust [72, 75, 76, 127, 144]. Some senior physicians pre-
+ment-related factors to implementation (Table 2). The ferred the provision of evidence-based guidelines that
+total amount of factors is reported in Table 2 for each of would reinforce their knowledge, while others advised
+our framework’s dimension and for each of our inferred junior physicians to override the CDSS recommen-
+factor sub-categories. The following section delves into dations in favor of their own instructions. However,
+the elements of our framework (Fig. 1), starting with residents tended to follow CDSS recommendations
+the most commonly identified factors. Finally, the CDSS and used them to enhance their confidence about a
+implementation outcomes are described. clinical decision [69, 77, 128]. Physicians had diverse
+A ckerhans et al. Implementation Science (2024) 19:11 Page 11 of 29
+Table 4 Review findings relating to organizational factors
+Author Professional type Examples
+Collaboration and communication
+[145] Physicians and managers Successful CDSS adoption requires involvement of physicians
+and nursing professionals in CDSS customization: “… what they
+[managers] need to do is sit down with the people in each
+department and work out what are the processes that are criti-
+cal for that department because the paper processes that have
+evolved in each individual section of the hospital have been …
+refined over years … and if you just provide a generic template
+(there is) no way of replicating any of that.”
+[178] Pharmacist Communication and collaboration were seen as important
+for the intervention and for embedding the intervention
+into routine practice. Pharmacists adopted different ways
+of communication with clinicians, in order to engage them
+with the intervention: “It’s difficult, … when’s the best time
+to approach doctors to discuss things, … when the surgery
+is not on, they’re on home visits or they’re in meetings, it’s quite
+a different way of working. So that’s probably one barrier …,
+so it’d be difficult probably to get everybody together unless
+you went to the practice meeting on another day.”
+(Top) management and leadership support
+[72] Manager High importance of communication and follow-up on nurs-
+ing professionals’ roles and tasks; top management needs
+to reward users for their self-sufficiency and motivation to use
+CDSS: “… Some people take it and run with it—the medical
+assistant and doctor are working together, and some just don’t
+really see it as their job. Part of what physicians have to do is
+understand they need to make it known to their MA [medical
+assistant] that this is an expectation. Some doctors have gotten
+that and some say they can’t or don’t know how to make their
+MA [medical assistant] do anything.”
+[24] Physicians CDSSs should not be introduced like an imposition, as it
+has the potential to affect clinical autonomy and decision-
+making. If the use of CDSSs is perceived as a top-down order,
+clinicians will reject it. Strong endorsement from the top man-
+agement is essential.
+[167] Physicians Physicians emphasized the role of leadership in overcoming
+negative perceptions, fear, and resistance to change by high-
+lighting benefits of CDSSs for the patient.
+Innovation culture, climate for innovation, and psychological safety
+[171] Junior physicians A cultural barrier exists where junior health care professionals
+believe “… that the use of [CDSS] in front of a patient is per-
+ceived as being unprofessional. They, therefore, chose not to use
+devices in plain view. This concern was also raised in relation
+to senior colleagues considering junior physicians’ use of their
+mobile device in front of patients or on the ward as being
+unprofessional.”
+[70] Junior physician “I think we hit all the 5 rights of CDS on this one. It’s coming
+at the right time, to the right person, with the right informa-
+tion, using the right channel, and in the right situation…. There
+is been no interest in turning it off …”
+Organizational silos and hierarchies
+[69] Junior and senior physicians Senior physicians influence the practices of junior physicians.
+Junior physicians need organizational support in order to adopt
+CDSSs due to clinical hierarchy.
+[77] Junior and senior physicians The implementation of CDSSs leads to changes in professional
+boundaries: “It’s more hierarchical whether or not we look
+at the recommendations. Often, I look at guidelines, but after my
+superiors told me to do something else.” (junior physicians)
+“The nurses put the residents in a somewhat inferior position
+because of their confidence and their experience….” (senior
+physician).
+Ackerhans et al. Implementation Science (2024) 19:11 Page 12 of 29
+Table 4 (continued)
+Author Professional type Examples
+[82] Junior and senior physicians Senior physicians emphasize that they should not surrender
+their autonomy to the CDSS whereas junior physicians perceive
+a sense of greater clinical autonomy when using the CDSS as it
+reduces their reliance on senior colleagues
+[24] Physicians and nursing professionals Disputes over power and control between physicians and nurs-
+ing professionals arise as the CDSS allows widespread access
+to scientific evidence, which lead to nursing professionals’
+control over medical decisions: “… If we want to implement it it’s
+key to discuss the rules of access for each profession” (surgeon).
+Social norms and endorsement
+[154] Physicians and pharmacists Uncertainty about the accuracy of the CDSS is mitigated
+by invoking expert: “… if I was recommended by the pharma-
+cists and by ID [infectious disease] and micro [microbiology]
+then I am more than happy to use [the CDSS]”; “… I want
+someone from pharmacology or someone that we trust to tell
+us that the [CDSS recommendations] are accurate if not more
+accurate than doing it by hand.”
+[192] Physicians Physicians sought support from colleagues: “… probably more
+important have been colleagues sharing tips and kind of best
+practice or best use. Those are the most useful...”
+perceptions of the scientific evidence supporting the requires collaboration as well as knowledge sharing
+CDSS recommendations. Some regarded it as abstract among experienced professionals [24].
+or useless information that was not applicable to clini-
+cal decision making in practice. These physicians pre- Organizational factors
+ferred a more conventional approach to learning from A total of 287 organizational factors in 104 included stud-
+the “eminences” of their discipline while pragmatically ies were identified. In 17 studies, organizational factors
+engaging in the “art and craft” of medicine. CDSSs were were related to study participants’ perceptions of pro-
+perceived as increasingly undermining clinical work fessional identity threat, while in 7 studies these factors
+and expertise among health professionals [24]. In some were related to perceived professional identity enhance-
+studies examining AI (artificial intelligence)-based ments (Table 4). In the included studies, organizational
+CDSS, explainability and transparency of the CDSS factors influencing professionals’ perceived threat to their
+recommendations played a major role in maintaining identity have been studied from multiple perspectives,
+control over the therapeutic process [78, 129]. such as internal collaboration and communication [145,
+Many studies indicated that the introduction of a 178], (top) managers’ leadership and support [79, 83],
+CDSS was perceived as a disruptive change to estab- innovation culture and psychological safety [24], organi-
+lished clinical workflows and practices [12, 79–81, zational silos and hierarchical boundaries [69, 70], and
+167]. The fit of CDSS with standardized clinical work- the relevance of social norms and endorsement of profes-
+flows was seen as critical to the CDSS implementation. sional peers [161].
+Senior clinicians preferred their own workflows and The empirical studies showed that the innovation cul-
+protocols for complex patient cases [82]. Geriatricians, ture plays a critical role in driving change in health care
+for example, considered CDSS recommendations inap- organizations. In this regard, resistance to the implemen-
+propriate for their clinical workflows because geriatric tation of CDSSs may be due to a lack of organizational
+patients are typically multi-morbid and require indi- support as well as physicians’ desire to maintain the sta-
+vidualized care [77]. Intuitiveness and interactivity of tus quo in health care delivery [24, 70, 75]. Several key
+the CDSS were found to reduce the perceived threat to factors influenced the implementation in this regard.
+professional identity [5], and customization and adjust- These included appropriate timing of the implemen-
+ment of alerts based on specialties’ and individual pref- tation project, user involvement, and dissemination of
+erences were perceived to increase competence [10, understandable information through appropriate com-
+127, 130]. Physicians considered that successful imple- munication channels [70]. Some studies showed that
+mentation of the CDSS depends on the integration of an innovation culture characterized by interdepend-
+existing clinical processes and routine activities and ence and cooperation promotes social interaction (i.e.,
+A ckerhans et al. Implementation Science (2024) 19:11 Page 13 of 29
+Table 5 Examples of review findings relating to human factors
+Author Professional type Examples
+Individual attitudes and emotional responses
+[81] Physicians Physicians express sentiment of apathy toward CDSSs
+and perception of not being able to “change the tide”.
+[154] Physicians Physicians express a degree of skepticism
+toward the use of CDSSs.
+[77] Junior physicians If CDSS “is not worked on upstream and if it
+is not ergonomic, it is a disaster and perceived
+as a real suffering.”
+Experience and familiarization with the CDSS
+[127] Physicians & nursing professionals Perceived barriers related to knowledge regard-
+ing CDSSs functions: “I had no idea about all these
+options! Now, I’m a lot more enthusiastic. I’m going
+to use it right away!”; “I didn’t even know there
+was a feedback option, never heard of it before.”
+[3] Physicians Physicians are unfamiliar with sophisticated
+CDSSs features, “… such as procedures, reminders,
+and charting templates, and thus do not fully utilize
+them.”
+[82] Junior and senior physicians Junior physicians use CDSSs more than senior physi-
+cians because they are still learning the clinical area.
+Senior health care professionals are experienced
+and familiar with common practices that they
+do not need CDSSs.
+Trust in the CDSS and underlying rule or algorithm
+[154] Physicians Physicians want to know the functionality
+of the CDSS’ underlying decision support rule
+and its limitations, especially in situations of high
+risk for patient safety: “There’s just a lot of guesswork
+and I don’t know what happens when someone’s
+kidneys are suddenly knocked off. I don’t know if it
+takes that into consideration.”
+[128] Junior and senior health care professionals Junior health care professionals trust the CDSS
+recommendations and use them as a “confidence
+booster” and to “cross-reference” for their deci-
+sions, while senior health care professionals rarely
+use the CDSS because they believe that the CDSS’
+and their own knowledge are identical.
+[132] Physicians Physicians are comfortable following CDSS recom-
+mendations if the guideline is perceived as coming
+from a credible source.
+[151] Nursing professionals Nursing professionals perceive CDSSs as more
+trustworthy and precise compared to paper-based
+assessment.
+a psychologically safe environment), which in turn facili- autonomy [11, 69, 79, 83, 84, 145, 174]. Involving not
+tates problem-solving and learning related to CDSS use only senior physicians but also nursing and paramedical
+[193, 194]. For example, nursing practitioners recognized leaders increased the legitimacy of CDSSs throughout
+the potential of CDSSs for collaboration in complex the professional hierarchy and helped to overcome the
+cases, which had a positive impact on team and organiza- negative effect of low status on psychological safety by
+tional culture development [24]. flattening hierarchical distances [24, 70, 72]. In contrast,
+Supportive leadership (e.g., by department leaders) was imposing a CDSS on users, led to resistance. Some phy-
+found to be critical to successful CDSS implementation. sicians and nurses felt that the use of the CDSS was not
+This includes providing the necessary resources, such as under their voluntary control (i.e., “we have no choice”,
+time and space for training, technical support, and user “it’s not an option to not use it”) because these systems
+involvement in the implementation process, which were have become “as essential as … carrying a pen and a
+negatively associated with perceived loss of control and stethoscope,” with physicians feeling that they now “are
+Ackerhans et al. Implementation Science (2024) 19:11 Page 14 of 29
+Table 6 Examples of review findings relating to professional identity threat and enhancement
+Author Professional group Examples
+Threat to professional control and autonomy
+[154] Physicians CDSSs’ potential to substitute physician knowledge
+is viewed as a threat: “…So, the fact that it [CDSS] can’t
+take in the whole clinical picture but manually we can.”
+[91] Physicians “… it [CDSS recommendation] makes me feel useless.”
+[128] Senior and junior physicians Senior physicians perceive CDSSs as threat to their
+authority over junior physicians: “Junior physicians
+were inclined to accept [the CDSS’] recommendations
+most of the time, but had to override its recommenda-
+tions when senior colleagues decided on a different
+antibiotic.”
+Threat to professional skills and expertise
+[74] Nursing professionals and physicians Physicians and nursing professionals become
+dependent on pharmacists’ knowledge and expertise
+when resolving complicated CDSS order checks.
+[24] Physicians CDSSs threaten physicians’ expertise and conscience:
+“… It’s humiliating to think that we can be substituted
+by a computer! … We need to have the courage
+to do what we think is right, not to merely comply
+with the guidelines dictated by a system. … The
+knowledge that I get from visiting 150 patients is more
+substantial than what [the CDSS] can give me.”
+[77] Junior physicians Even junior physicians acknowledge that if CDSSs
+are misused or used too much, they “forget to think”
+and “going to lose the ability to think by ourselves.”
+[154] Physicians This potential loss of skill was seen as particular prob-
+lematic in situations in which decision support differs
+between institutions: “… when we use a lot more pro-
+grams we don’t think as much, so if we do go to other
+hospitals where they don’t have these programs
+then you may not be as well versed in how to dose
+and adjust vancomycin.”
+[24] Orthopedics CDSSs are perceived as not being a useful tool
+for orthopedic specialties: “The actual evidences
+in [orthopedic surgery] are not very many, you know,
+I can’t really see how [the CDSS] would be useful
+for us. …. The actual tools of an orthopedic resemble
+those of a crafts worker. … We learn by reading books
+and articles, but also by … observing the experts
+at work, learning how they do things...”
+Loss of control over patient relationships
+[162] Physicians Physicians stated that they “… are responsible
+for the treatment of their patients and not a CDSS.”
+[81] Physicians Physicians stated that “the problem with all of this
+(digitization) is that it is so impersonal. It takes all the joy
+out of practicing medicine. I want to build a relationship
+with the patient. It isn’t all about the medication, they
+want to share their pain, anxiety, family issues. We can’t
+change the tide. We can’t do anything about this (the
+move to digital).”
+Enhancement of professional control and autonomy
+[34] Nurse practitioners Nurse practitioners perceived the CDSS as an empow-
+erment: “… If a CDS tool is designed well, it could
+empower nurses to advocate for patients and con-
+tribute to treatment decision-making. As an objective
+assessment of a patient’s condition, the CDS tool
+has the potential to provide participants with a struc-
+tured method by which nurses can garner support
+for their recommendations.”
+[8] Nurse practitioners The CDSS “empowered staff nurses to manage more
+complicated scenarios independently.”
+A ckerhans et al. Implementation Science (2024) 19:11 Page 15 of 29
+Table 6 (continued)
+Author Professional group Examples
+[155] Physicians The care professionals expressed that the CDSS could
+enhance their control and confidence in their work:
+“Off hand, I would say that I would get a better feeling
+of what I do – and an overview of the patients, espe-
+cially when we take over each other’s patients.”
+Enhancement of professional skills and expertise
+[162] Physicians, nurse practitioners “… sixty-two percent of the respondents reported
+that advice of a CDSS on how to treat a (…) patient
+is a welcome supplement to their own expertise, …”
+[178] Pharmacist Pharmacists saw the CDSS as: “offering opportunities
+to demonstrate their skills and to further develop their
+role working within general practice settings.”
+[24] Physicians Physicians viewed the CDSS as a useful tool, but not to
+support their own work, but as a support tool for other
+specialists or residents with less clinical experience:
+“Maybe I could use it. I think it would be more use-
+ful for young physicians, those who have only just
+graduated, or those with little experience… You know,
+to avoid mistakes…”
+“It’s brilliant. Really, really useful. I think it’s more
+so for medics though, rather than [surgeons].”
+Enhancement of control over patient relationships
+[35] Physicians Physicians expressed the need for CDSS features which
+enhance patient communication, such as “informative
+yet brief patient summaries” as this would provide them
+with a “greater sense of control” over the digitalized
+information and knowledge exchange with patients,
+and engender greater trust between patients and physi-
+cians.
+reliant on the CDSS” [10]. In other cases, top-down deci- Embedding new CDSSs into routine practice required
+sions led to the resolution of initial resistance toward the communication and collaboration among professionals
+CDSS [167]. Overall, committed leadership that involved with clinical expertise and those with IT expertise [86,
+users and transcended professional silos and hierarchies 145, 178]. Involving physicians and nursing practition-
+was critical to successful CDSS implementation. In this ers in decision-making processes increased their willing-
+context, an established hierarchy and culture of physician ness to change their long-standing practice patterns and
+autonomy impeded communication, collaboration, and embrace the newly introduced CDSS [5, 10]. Facilitating
+learning across professional and disciplinary boundaries the CDSS uptake therefore required legitimization of
+[54, 195, 196]. A well-designed CDSS minimized profes- the system’s designers and exploited data sources [24].
+sional boundaries by, for example, empowering nurses Similarly, the success or failure of CDSSs implementation
+and paramedics to make independent treatment deci- depended on the ability of the new system to align with
+sions [8, 180]. CDSSs thus provided structured means existing clinical processes and routine activities. Often,
+for nonmedical professionals to receive support in their successful adoption was at risk when the implementa-
+clinical decision-making that was otherwise reserved for tion was too far away from the reality of clinical practice
+professionals with higher authority [34]. Since CDSSs because those responsible for designing the CDSS poorly
+allow widespread access to scientific evidence, they often understood the rationale for designing the system in a
+led to nursing practitioners’ control or oversight of medi- particular way [145].
+cal decisions, putting junior physicians in an inferior In addition, some studies indicated that resistance was
+position, and thus providing an occasion to renegotiate overcome by communicating the benefits of the CDSS
+professional boundaries and to dispute the distribution of through contextual activities and providing opportuni-
+power [24, 77]. ties to experience the system firsthand. Sharing positive
+In addition, the provision of sufficient training and tech- implementation experiences and fostering discussions
+nical support were essential to ensure that physicians and among actual and potential users could bridge the gap
+nursing practitioners felt confident in using the CDSS between perceptions and actual use [145, 146]. In this
+and increased their satisfaction with the system [77, 85]. regard, endorsement from “respected” and “passionate”
+Ackerhans et al. Implementation Science (2024) 19:11 Page 16 of 29
+Table 7 Table illustrating professional identity threats and professional identity enhancements as perceived by health care
+professionals across implementation phases
+Author Professional group Examples
+Perceived professional identity threats
+Exploration phase
+[1] Physicians “… the more reliant we become on technology
+even with [the CDSSS] and things you de-skill a bit.”;
+“… the clinical judgement aspect of prescribing
+vancomycin will go down.”
+[2] Physicians “You want to be free to decide what you are
+prescribing, when you are prescribing it and you
+want to be free to decide if you are going to get
+the information or not.”
+[3] Physicians “The digital clinic that steal our patients, we experi-
+ence that.”
+[4] Physicians “[Physicians] were concerned about the deskilling
+of future doctors through the use of [CDSSs].”
+[5] Physicians “Clinical decision making is still my primary role, like,
+so it’s up to me.“
+[6] Physicians and nurse practitioners “I mean, I know it’s not mandatory to follow the rec-
+ommendations, but it still feels that way. Some-
+times, you’re just happy that somebody is using
+the medication you prescribe at all, and then you
+get the recommendation to switch the medica-
+tion. [The CDSS] seems to always tell you that it’s
+not good enough. It’s never good enough.”
+[7] Physicians “I am opposed to [the CDSS], as I see it as another
+task being delegated to physicians that can better
+be done by those trained and experienced in it.
+I would prefer to concentrate on those things I
+do well rather than spending time doing secre-
+tarial work. Some of us do not round frequently
+in the hospital anymore, which will make staying
+competent in the system difficult…”
+[8] Physicians “The computer system should be allowed to block
+you. I have my reasons to do what I do and maybe
+I will think about its suggestions, but I do not want
+[the] IT [department] to block me at those
+moments. … I always want to do what I want.”
+[9] Physicians “CDSS technology enforces strict working accord-
+ing to guidelines and thus may deprive physicians
+from their sense of added value. This (…) makes
+physicians feel less valuated.”
+[10] Nurse practitioners The nurse practitioners complained that “…criti-
+cal thinking [is lost] once the tool is embedded
+into [the] workflow.”
+Adoption decision, implementation preparation, active implementation phase
+[11] Physicians and other healthcare professionals Physicians and nurse practitioners mentioned being
+threatened in their own clinical practice and auton-
+omy and they were reluctant to use a CDSS when it
+interfered too much with clinical practice: “When
+the CDSS becomes leading and the clinical view
+of the practitioner is subordinated”, “When my role
+as a care provider is undermined or becomes more
+complicated.”, and “I would like to keep my own
+clinical reasoning without a CDSS.”
+A ckerhans et al. Implementation Science (2024) 19:11 Page 17 of 29
+Table 7 (continued)
+Author Professional group Examples
+[12] Physicians, pharmacists, general practice staff “Pharmacists saw the dashboard component
+as offering opportunities to demonstrate their
+skills and to further develop their role working
+within general practice settings.”; “I think it’ll give us
+a useful tool to be able to perhaps design our pro-
+grammes of work, and also thinking about if we’re
+going to run any quality programmes in the future,
+it will hopefully help us to design what we’re work-
+ing on because it will give us that information, give
+us that baseline that we need so often.”
+Sustainment phase
+[13] Cardiologists, heart failure nurses “Seventy-nine percent stated that they are respon-
+sible for the treatment of ‘their’ patients and not a
+CDSS.”
+[14] Physicians “The professionals who participated in this study’s
+in-depth interview were dissatisfied with this inte-
+grated management system and wanted the ability
+to customize and adjust the alerts they received.”
+[15] Nurse practitioners “… I should be able to order that if I think it’s indi-
+cated without needing further approval.”
+Perceived professional identity enhancements
+Exploration phase
+[16] Physicians and nurse practitioners The physicians expressed that the CDSS could
+enhance their control and confidence in their work:
+“Off hand, I would say that I would get a better feel-
+ing of what I do – and an overview of the patients,
+especially when we take over each other’s patients.”
+(physician); Nurses appreciated the CDSS recom-
+mendations, protocols and checklists to support
+monitoring activities: “I think it would be great
+to know what is recommended because we have
+tuberculosis patients” (nurse practitioner).
+[10] Nurse practitioners “If a [CDSS] is designed well, it could empower
+nurses to advocate for patients and contribute
+to treatment decision-making.”
+[6] Physicians and nurse practitioners “We think that the traditional treatment relation-
+ship between patient and clinician is fundamen-
+tally changing, it is becoming more horizontal,
+not in every aspect but in many. That is where it
+is supposed to go. I really think [the CDSS] can
+facilitate this because it increases commitment
+and a feeling of ownership.”
+Adoption decision, implementation preparation, active implementation phase
+[20] Physicians and nurse practitioners “As a consequence of a reminder for drug dosing
+in renal malfunction, I reduced the methotrexate
+dose, which I had forgotten” (physician); “Once
+when my doctor was away, I used the warfarin assis-
+tant to define the dosing” (nurse practitioner).
+[21] Physicians “[The CDSS] is integrated in the workflow
+because after talking with the patient, the physi-
+cian always returns to the computers and goes
+into the EHR. The [CDSS] fits in this workflow. If
+the physician is unsure on what to order, they will
+go to [the CDSS].”
+[22] Pharmacists “Despite the fact that these evaluations would
+represent an added responsibility, pharmacists felt
+that this was in line with why they chose the profes-
+sion in the first place, and welcomed any [CDSS]
+that would increase their role in patient care.”
+Ackerhans et al. Implementation Science (2024) 19:11 Page 18 of 29
+Table 7 (continued)
+Author Professional group Examples
+Sustainment phase
+[13] Cardiologists, heart failure nurses “A total of […] 55% stated that a CDSS supplements
+their independency as a [heart failure] care expert.”
+[23] Nurse practitioners “Some nurses thought that [the CDSS] could
+supplement their clinical reasoning to facilitate
+decision-making; …”
+[24] Nurse practitioners “After the implementation of the CDSS, we are
+now more focused on the kind of food we order
+for the residents”, and “When screening a new
+resident, I can see from using the CDSS the new
+interventions that are necessary, what we can work
+on and what can wait.”
+internal change promoters, such as expert peers, was seen customization options, as a major implementation bar-
+as key to overcoming user resistance [82]. Confirmation rier [127]. Some studies reported that the lack of system
+from clinical experts that the new system improves effi- customization to meet the personal preferences of users
+ciency and quality of care was essential for the general and the lack of system training weakened their confi-
+system acceptance [154]. Thus, social influence played an dence in the system and compromised their clinical deci-
+important role, especially in the initial phase of system sion-making autonomy [10, 83, 89, 90, 127, 183].
+use, while this influence decreased as users gained expe- Some studies indicated that there were trust issues
+rience with the CDSS [182]. among physicians and nursing practitioners regard-
+ing the credibility of the decision-making outcome [132,
+154], the accuracy of the CDSS recommendations’ algo-
+Human factors rithm [146], and the timeliness of medical guidelines in
+A total of 197 human factors in 99 included studies were the CDSS [127]. Seniors appreciated medication-related
+identified. In 17 studies, human factors were related to alerts but felt that their own decision-making autonomy
+study participants’ perceptions of professional identity regarding drug selection and dosing was compromised by
+threat, while in 6 studies these factors were related to the CDSS [74]. However, they tended to use the CDSS as
+perceived professional identity enhancements. Table 5 a teaching tool for their junior colleagues, advising them
+summarizes the key findings from the included arti- to consult it when in doubt [77, 128]. In some cases, this
+cles, which relate to three factors: individual attitudes led to junior physicians accepting CDSS suggestions,
+and emotional responses, experience and familiarization such as computer-generated dosages, without independ-
+with the CDSS, and trust in the CDSS and its underlying ent verification [128, 144, 154].
+source. Several studies indicated that the CDSS introduction
+It is reported in the empirical studies that physicians elicited different individual attitudes and emotional
+often failed to fully utilize the features of CDSSs, such as responses. More tenured health care professionals were
+protocols, reminders, and charting templates, because “frightened” when confronted with a new CDSS. Others
+they often lacked experience and familiarization with the perceived the CDSS as a “necessary evil” or “unwelcome
+CDSS [3, 79, 87, 127]. In addition to insufficient train- disruption” [81], leading to skepticism, despair, and anxi-
+ing and time constraints, limited IT skills were reported ety [3, 145, 167]. Younger physicians, on the other hand,
+as the main reasons [83, 87, 147, 185]. As a result, users tended to be “thrilled” and embraced the technology’s
+interacted with the CDSS in unintended ways, lead- benefits [84, 147, 167]. Motivation, enthusiasm, and a
+ing to data entry errors and potential security concerns “can do” attitude toward learning orientation and skill
+[88]. According to Mozaffar et al. [131], this includes development positively influenced engagement in CDSS
+physicians’ tendency to enter incorrect data or select the [11, 83, 84, 145, 184].
+wrong medication due to misleading data presentations
+in the system. Inadequate IT skills and lack of user train- The role of professional identity threat and enhancement
+ing also contributed to limited understanding of the full perceptions in CDSS implementation
+functionality of CDSSs. As such, physicians interviewed Overall, we found 90 factors in 65 included studies related
+in one study expressed the lack of knowledge about to perceptions of professional identity threat among
+basic features of a CDSS, including alerts, feedback, and the study participants. Forty-four factors in 34 included
+A ckerhans et al. Implementation Science (2024) 19:11 Page 19 of 29
+studies were associated with perceived professional iden- appeared that senior physicians perceived CDSSs as an
+tity enhancements. We identified three key dimensions intrusion into their professional role and object to their
+of professional identity threat and enhancement percep- expertise and time being misused for “data entry work”
+tions among health care professionals impacting CDSS [10]. They enjoyed the freedom to decide what to pre-
+implementation along different implementation phases scribe, when to prescribe it, and whether or not to receive
+[197]. Table 6 contains exemplary quotes illustrating the more information about it [77] and were determined not
+findings. to “surrender” and “be made to use [the CDSS]” [82].
+A number of physicians perceived CDSSs as an ulti- In line with the increasing dependence of physicians on
+mate threat to professional control and autonomy, leading pharmacists when using CDSS for medication treatment,
+to a potential deterioration of professional clinical judg- pharmacists used the CDSS to demonstrate their profes-
+ment [30, 69, 77, 154, 155]. Most nurse practitioners, on sional skills and to further develop their professional role
+the other hand, experienced a shift in decision-making [178]. Nurse practitioners were empowered by CDSSs
+power, providing an occasion to renegotiate professional guidance to systematically update medications and meas-
+boundaries in favor of health care professionals with urements during their hectic daily clinic routine [24, 91],
+lower levels of expertise [24]. Thus, nurses associated to independently manage more complicated scenarios
+the implementation of a CDSS with enhanced profes- [8], and to facilitate their decision-making [92]. Some
+sional control and autonomy in the performance of tasks physicians stated that CDSS recommendations facilitated
+[34, 155, 169]. Pharmacists often advocated for medica- their critical thinking to critically reflect on the medica-
+tion-related CDSSs, which in turn increased physician tion more than usual and facilitated more conscious deci-
+dependency and resistance to new tasks [12, 84, 178]. The sions [133]. Increased professional identity enhancement
+latter was a consequence of physicians’ increasing reli- in terms of skills and expertise were thus often associ-
+ance on pharmacists for complex drug therapies, as phy- ated with technological factors such as enhanced patient
+sicians had to relinquish some decision-making authority safety, improved efficiency, and quality of care [9].
+to pharmacists by restructuring of decision-making pro- Furthermore, physicians strongly associated their pro-
+cesses [74]. fessional identity with their central role in the quality of
+Senior physicians frequently expressed concerns about patient care based on a high level of empathy and trust
+overreliance on CDSS and potential erosion of expertise, between physician and patient [45, 195]. Their perceived
+which they believed led to patient safety risks [10, 24, 75, threat to professional identity lead to a sense of loss in
+89, 155]. They complained that overreliance on CDSS clinical professionalism and control over patient relation-
+recommendations interfered with their cognition pro- ships [162, 170]. CDSS usage was perceived as unprofes-
+cesses. For example, in medication-related CDSSs, clini- sional or disrupting to the power dynamic between them
+cal data such as treatment duration, units of measure, or and their patients [89, 93, 171]. As a result, they indi-
+usual doses are often based on pharmacy defaults that cated that established personal patient relationships were
+may not be appropriate for certain patients. According to affected by imposed CDSS use [81]. Other physicians saw
+these physicians, their junior colleagues might not dou- CDSSs as having potential to enhance patient relation-
+ble-check recommended medication doses and treatment ships providing them with more control over the system
+activities, leading to increased patient safety risk [131]. In and treatment time, facilitating information and knowl-
+another study, general practitioners expressed concerns edge sharing with patients and building trust between
+about the deskilling of future physicians through CDSSs. patients and physicians [35, 94].
+Some CDSSs required a high level of clinical expertise, Mapping the perceptions of threat and enhancement of
+skill, and knowledge regarding the correct entry of clini- professional identity among physicians and other health
+cal information (e.g., symptoms) for proper support in care professionals identified in each study to implemen-
+clinical decisions. Many physicians feared that the use tation phases allowed for an examination of the evolu-
+of CDSSs would erode this knowledge and thus allow tion of identity perceptions in CDSS implementations.
+the CDSS recommendations to lead to incorrect deci- Table 7 assigns the identity perceptions among physi-
+sions [30]. This potential loss of skills and expertise was cians and other health care professionals to the different
+seen as particularly problematic in situations where deci- implementation phases. The findings illustrate that threat
+sion support for medications and e-prescriptions varied perceptions were predominantly perceived before and
+from facility to facility. Physicians working at different at the beginning of implementation. With steady train-
+institutions who relied on the CDSS for medication treat- ing, use and familiarization with the CDSS, the perceived
+ment support used at one institution reported that they threat to professional identity slightly decreased in the
+had difficulties making the correct clinical decisions at sustainment phase, compared to the pre-implementation
+the other institution [154]. From the reviewed articles, it phase, while perceptions of enhancement of professional
+Ackerhans et al. Implementation Science (2024) 19:11 Page 20 of 29
+identity increased. During the exploration phase, physi- use [5, 48]. Another four studies found empirical evi-
+cians in particular perceived the CDSS as undermining dence of an indirect negative association between threats
+their professional identity, and this perception remained to professional identity and actual CDSS use. Physicians
+relatively constant through the sustainment phase. Other disagreed with the CDSS recommendation because they
+health care professionals, such as nurse practitioners and perceived insufficient control and autonomy over clini-
+pharmacists often changed their perspective over the cal decision making [79, 88] and lacked confidence in the
+course of the implementation phases and perceived the quality of the CDSS and its scientific evidence [154].
+CDSS as supporting their control, autonomy, and skill
+Discussion
+enhancement at work.
+Main findings
+CDSS implementation outcomes The purpose of this narrative review was to identify, rein-
+In total, we identified 93 benefits related to CDSS imple- terpret, and interconnect existing empirical evidence to
+mentation in the reviewed studies (Table 2). The most highlight individual, technological, and organizational
+commonly evaluated benefits were improvements in work factors that contribute to professional identity threat and
+efficiency and effectiveness through the use of CDSSs, enhancement perceptions among clinicians and its impli-
+improvements in patient safety, and improvements in cations for CDSS implementation in health care organi-
+the quality of care. Prevention of prescription and treat- zations. Using evidence from 131 reviewed empirical
+ment errors was also frequently mentioned. The included studies, we develop a framework for the engagement of
+studies measured CDSS implementation in various ways, health care professionals by deconstructing the anteced-
+which we classified into seven groups (Table 8). Most ents of professional identity threats and enhancements
+studies measured or evaluated self-reported interest in (Fig. 2). Our proposed framework highlights the role of
+using the system or intention, willingness to use, or adop- cognitive perceptions and response mechanisms due to
+tion, followed by self-reported attitude toward CDSSs, professional identity struggles or reinforcements of dif-
+and both self-reported and objective measure of imple- ferent individual health care professionals in the imple-
+mentation success. Objective actual use measurement was mentation of CDSSs. Our work therefore contributes to
+evaluated in only 10 studies, while self-reported use was the growing literature on perceived identity deteriora-
+measured in seven studies, and self-reported satisfaction tions with insights into how knowledge-intensive organ-
+and performance of the system was measured in five stud- izations may cope with these threats [37, 45, 46]. We
+ies. Both self-reported and objective measure of usefulness categorized clinicians’ professional identity perceptions
+and usability was measured in one study. into three dimensions: (1) perceived threat and enhance-
+Although we included 40 quantitative studies in our ment of professional control and autonomy, (2) perceived
+review, only a few of these empirically measured the threat and enhancement of professional skills and exper-
+direct effect of professional identity threat or related tise, and (3) perceived loss and gain of control over patient
+organizational consequences on implementation, adop- relationships. These dimensions influenced CDSS imple-
+tion, or use of CDSSs. Two studies empirically demon- mentation depending on the end user’s change of status
+strated a direct significant negative relationship between and expertise over the course of different implementa-
+perceived professional autonomy and intention to CDSS tion phases. While senior physicians tended to perceive
+Table 8 Approaches used to measure CDSS implementation in the 131 studies
+Measurement approach and number of studies Included study references
+Self-reported interest in using or intention, willingness to use, adoption [5, 8, 9, 12, 17, 48, 69, 72, 73, 77, 79, 82–84, 87, 90, 91, 93, 95, 96, 100, 105,
+(n = 74) 106, 108, 109, 111, 113, 116–118, 121, 124, 127, 129–135, 138–141, 143, 149,
+151, 153–155, 157–159, 162, 163, 165, 166, 168–172, 174, 177–180, 182, 183,
+187, 189, 198–200]
+Self-reported attitude toward using CDSS (n = 29) [24, 30, 35, 72, 75, 80, 85, 92, 98, 100, 102, 103, 108, 115, 120, 122, 126, 128,
+136, 147, 148, 160, 161, 164, 167, 175, 181, 184, 185]
+Self-reported use (n = 7) [11, 34, 68, 92, 112, 158, 190]
+Self-reported satisfaction, performance (n = 5) [107, 112, 122, 142, 147]
+Both self-reported and objective measure of implementation success [35, 70, 76, 78, 86, 88, 91, 94, 97, 99, 104, 110, 114, 131, 139, 144, 146, 156,
+(n = 21) 174, 178, 180]
+Both self-reported and objective measure of usefulness, usability (n = 1) [119]
+Objective actual use measurement (n = 10) [74, 89, 92, 96, 102, 104, 137, 186, 188, 189]
+A ckerhans et al. Implementation Science (2024) 19:11 Page 21 of 29
+Fig. 2 A framework for the role of professional identity in CDSS implementation
+CDSSs as undermining their professional identity across Interpretations, implications and applicability
+all implementation stages, nurse practitioners, pharma- to implementation strategies
+cists, and junior physicians increasingly perceived CDSS The results indicate that healthcare professionals may
+as enhancing their control, autonomy, and clinical exper- perceive CDSSs as valuable tools for their daily clini-
+tise. Physicians, on the other hand, were positive about cal decision-making, which can improve their compe-
+the support provided by the CDSS in terms of better tence, autonomy, and control over the relationship with
+control of the physician–patient relationship. In most the patient and their course of treatment. These benefits
+studies, professional identity incongruence was associ- are realized when the system is optimally integrated into
+ated with technological factors, particularly the lack of the clinical workflow, meets users’ needs, and delivers
+adaption of the system to existing clinical workflows and high quality results. Involving users in design processes,
+organizational structures (i.e., process routines), and the usability testing, and pre-implementation training and
+fact that CDSS functionalities have to meet the needs of monitoring can increase user confidence and trust in the
+users. The lack or presence of system usability and intui- system early in implementation and lead to greater adop-
+tive workflow design were also frequently associated tion of the CDSS [146]. To address trust issues in the
+as antecedents of professional identity loss. The other underlying algorithm of the CDSS, direct and open com-
+dimensions (i.e., human and organizational factors) were munication, transparency in decision-making values, and
+encountered less often in relation to professional iden- clinical evidence validation of the CDSS are crucial [154].
+tity mechanisms among health care professionals. Only CDSS reminders and alerts should be designed to be
+six studies found empirical evidence of an indirect or unobtrusive to minimize the perceived loss of autonomy
+direct negative relationship between health professionals’ over clinical decisions [77].
+perceived threats to professional identity and outcomes Contrary, the implementation of a CDSS often lead to
+of CDSS implementation, whereas no study explicitly substantial changes of professional identity and thereby
+analyzed the relationship between dimensions of pro- often associated with fear and anxiety. A sense of a loss of
+fessional identity enhancement and outcomes of CDSS autonomy and control was linked to lower adoption rates
+adoption and implementation. and thus implementation failure. Cognitive styles, which
+Ackerhans et al. Implementation Science (2024) 19:11 Page 22 of 29
+may be expressed in emotional reactions of users toward suggesting that these mechanisms influence the extent
+the CDSS, reinforced reluctance to implement and use and quality of cooperative behavior, psychologically safe
+the system [145, 167]. This underscores the importance of environments, and role adaptation of different profes-
+finding expert peers and professionals who are motivated sional groups [26, 54, 55, 202]. Among the studies we
+and positive toward CDSS adoption and use, and who reviewed, managerial support and collaboration influ-
+can communicate and promote the professional appro- enced coordination during CDSS implementation [82,
+priateness and benefits of the CDSS to their colleagues 83, 174], such as by providing usability testing and time
+[82, 83, 184]. This promotes a focus on the improvement for efforts to change the understanding of why and how
+and benefits of the CDSS while maintaining the integrity, health care professionals should modify their routine
+perceived autonomy, control, and expertise of physicians practices [74, 95].
+and nurses. Overall, the review shows that the consideration of
+Accordingly, the included studies show that health perceived professional identity mechanisms among
+professionals respond to the professional identity threat health care professionals plays an important role when
+triggered by the CDSS implementation by actively main- implementing new CDSSs in health care organizations.
+taining, claiming, or completely changing their identity Additionally, perceived threats and enhancements of
+[39], which is consistent with previous studies elabo- professional identity should be considered and regularly
+rating on the self-verification of professionals [44]. For assessed in long-term oriented implementation strate-
+example, physicians delegated routine tasks to other gies. These strategies often include methods or tech-
+actors to maintain control over the delivery of services niques to improve the adoption, implementation, and
+and thereby enhance their professional status [201]. sustainability of a clinical program or practices [203] and
+Pharmacists used the introduction of CDSS for drug may span from planning (i.e., conducting a local needs
+treatment to demonstrate their skills to physicians and to assessment, developing a formal implementation plan)
+further develop their professional role [178]. Maintaining to educating (i.e., conduct educational meetings, distrib-
+authority over the clinical workflow without the need for ute educational materials) to restructuring professional
+additional relational work with lower-status professionals roles to managing quality (i.e., provide clinical supervi-
+was seen as one of the main factors for health care pro- sion, audit, and feedback) [204, 205]. To ensure imple-
+fessionals’ CDSS acceptance in our findings [10, 12, 84, mentation, health care professionals of all hierarchies
+178]. Physicians influence change processes, such as the should be involved in the planning and decision-making
+implementation of CDSS, in a way that preserves the sta- processes related to CDSS implementation. Continu-
+tus quo of physicians’ responsibilities and practices. They ous feedback loops between health care professionals,
+often stated their objective to avoid increasing depend- IT staff, and implementation managers can help identify
+ence on lower-status professionals such as nurses or unforeseen threats to professional identity and neces-
+pharmacists who were gaining control by using the new sary adjustments to the implementation plan. The review
+CDSS. In addition, CDSS users frequently criticized the found that perceived identity threats particularly need
+system’s lack of fit with clinical work processes and that to be addressed among highly specialized physicians to
+the systems were not able to replace the clinical exper- account for their knowledge-intensive skills, expertise,
+tise and knowledge [12, 34, 77, 82]. The loss of control and clinical workflows [24, 96]. In addition, the purpose
+over the patient-physician relationship also represented of CDSS implementation and information about how it
+a key component of identity undermining through the aligns with organizational strategic goals and individual
+introduction of CDSSs. Many physicians expressed that professional development should be clearly and continu-
+their trust-building interaction with patients was eroded ously communicated at all stages of implementation.
+by the functionalities of the CDSS [81, 170]. The fact Our review also confirms that health care profession-
+that the use of CDSSs saves time in patient therapy and als’ perceptions of the effectiveness of CDSSs reinforce
+treatment, freeing up time for their patients, was rarely the impact of organizational readiness for the ongoing
+expressed [12, 147]. This underscores the need to cope and required transformation of healthcare [17]. Com-
+with the physician’s strong identification with their pro- prehensive assessments of the suitability of the sys-
+fessional role, their tendency to preserve the status quo, tem for established or changing clinical workflows and
+and self-defense against technological change during the the technical quality of the CDSS should be prioritized
+implementation of CDSSs. at the beginning of the implementation. Training pro-
+Furthermore, the reviewed studies emphasized the grams should be developed to help professionals adapt
+importance of both inter- and intra-professional involve- to the new medical systems and allay fears of a loss of
+ment, collaboration, and communication in health competence or relevance. To mitigate threats to profes-
+care organizations, during the CDSS implementation, sional identity in the long term, it is necessary to foster
+A ckerhans et al. Implementation Science (2024) 19:11 Page 23 of 29
+an organizational culture of adaptability, learning, and studies that use longitudinal research designs, quantita-
+psychological safety, in which it is acceptable to make tive data, or experimental study designs. Therefore, the
+mistakes and learn from them. In addition, ongoing identified effects of technological, organizational, and
+leadership support and professional development oppor- human factors on professional identity and consequently
+tunities are critical to ensure that health care profes- on implementation success need to be interpreted with
+sionals continue to adapt their roles and keep pace with caution. Future research should test whether the deter-
+technological developments [79, 84]. minants and effects of professional identity mechanisms
+among healthcare professionals can be observed in real-
+Limitations world settings.
+A literature review of a large sample of empirical studies
+Conclusion
+has many advantages [206]. However, some limitations
+arise from the study design. First, our included studies Professional identity threat is a key cognitive state that
+were mainly conducted in the USA or UK (see Table S2). impedes CDSS implementation among various health
+The dominance of these two countries may pose a poten- care professionals and along all implementation phases
+tial bias, as different cultures may have different implica- [31, 45]. Health care managers need to engage in sup-
+tions for CDSS implementation and threat perceptions portive leadership behaviors, communicate the benefits
+among health care professionals. Therefore, there is of CDSSs, and leverage supportive organizational prac-
+a need for caution in generalizing the findings on the tices to mitigate the perception and effect of professional
+impact of human, technological, and organizational fac- identity threat. An innovation culture needs to support
+tors on professional identity perceptions among profes- the use of CDSSs and top management commitment
+sionals across different cultures. More studies are needed should reduce uncertainty about why a new CDSS is
+to provide a nuanced understanding of professional iden- needed [24]. Therefore, leaders should raise awareness
+tity mechanisms among health care professionals across a of the relevant CDSS functionalities and communicate
+broader range of cultures and countries. the terms and conditions of use. It is crucial to involve
+Second, broad search terms were used to identify a clinicians in updating CDSS features and developing
+larger number of articles in the literature review and to new ones to ensure that CDSSs can be quickly updated
+identify professional identity based on implementation to reflect rapid developments in guideline development
+and adoption factors mentioned in the included studies [195]. One way to achieve this is to engage proactive,
+from the perspective of health professionals who were respected, and passionate individuals who can train col-
+not specifically identified as threats to or enhancements leagues to use the CDSS and promote the potential ben-
+of professional identity. This could also be considered a efits of the system [70, 82].
+methodological strength, as this review combines find- Our framework presented in this study provides a rel-
+ings from qualitative, quantitative, and mixed methods evant foundation for further research on the complex
+studies on this construct from a large and diverse field relationship between human, technological, and organi-
+of research on CDSS implementation. However, non- zational implementation factors and professional identity
+English language articles or articles that did not pass the among different health care professionals. The findings
+MMAT assessment may have been overlooked, which also guide health care management experts and IT sys-
+would have provided valuable information on further tem developers in designing new CDSSs and implemen-
+barriers and facilitators (i.e., threats to professional iden- tation strategies by considering the ingrained norms and
+tity in different cultures), affecting the rigor of this study. cognitions of health care professionals. As suggested
+Third, most of the studies reviewed captured CDSSs for above, more research is needed to determine whether
+use in primary care settings. CDSSs in highly specialized some barriers or facilitators are universal across all types
+specialties or those that frequently treat multi-morbid of CDSSs or whether there are domain-dependent pat-
+patients, such as cardiology and geriatrics, require fea- terns. In this context, research that explicitly focuses on
+tures that allow for detailed workflow customization. In AI-based CDSSs becomes increasingly important as they
+such specialties, even more attention needs to be paid to become more relevant in medical practice. In fact, five of
+balancing provider autonomy and workflow standardi- the studies included in our research, conducted over the
+zation [97]. As such, future research should provide the last 3 years, examined factors related to the adoption and
+missing evidence in such complex settings. implementation of AI-based CDSS [73, 74, 96, 205, 206].
+Fourth, we were only able to identify a limited num- AI-based CDSSs extend to full automation and can dis-
+ber of studies that empirically analyzed the causal rela- cover new relationships and make predictions based on
+tionships included in our framework. There is a lack of learned patterns [97]. However, with their opaque and
+Ackerhans et al. Implementation Science (2024) 19:11 Page 24 of 29
+automated decision-making processes, AI-based systems Supplementary Information
+may increasingly challenge professional identity as they The online version contains supplementary material available at https:// doi.
+org/ 10. 1186/ s13012- 024- 01339-x.
+increasingly disrupt traditional practices and hierarchies
+within healthcare organizations, posing a threat to pro-
+Additional file 1: Table S1. Final search strings used to identify articles for
+fessional expertise and autonomy [156]. This may further the review. Table S2. Characteristics of included studies.
+hinder the implementation and sustainable use of these
+systems compared to non-AI-based systems. Future
+Authors’ contributions
+research could examine overlaps in barriers and facilita- SA conceived the study, developed the literature search, screened citation
+tors between CDSSs and AI-based systems, which are titles, abstracts, and full-text articles, conducted the MMAT screening, cleaned,
+coded, analyzed, and interpreted one third of the data, and conceptualized
+of relevance for professional identity threat perceptions
+and wrote the sections of the manuscript. TH conceived the study, developed
+among health care professionals, and assess the reasons the literature search, screened citation titles, abstracts, and full-text articles,
+behind these differences. In addition, translating the find- conducted the MMAT screening, cleaned, coded, analyzed, and interpreted
+one third of the data, and edited the sections of the manuscript. CK screened
+ings for different medical contexts may provide valuable
+citation titles, abstracts, and full-text articles, conducted the MMAT screening,
+insights. This can eventually lead to guidelines for the cleaned, coded, analyzed, and interpreted one third of the data, and revised
+development of CDSS for different specialties. the manuscript. CS planned and coordinated the study and edited the manu-
+script. All authors read and approved the final manuscript.
+Some factors were found less frequently during our
+analysis; in particular, communication of the benefits of Funding
+a CDSS to users, the importance of trust across different Open Access funding enabled and organized by Projekt DEAL. Parts of the
+study are supported by the research grand by the German Bundesministerium
+hierarchies and among staff involved in implementation,
+für Bildung und Forschung (BMBF) Augmented Auditive Intelligence (A2I).
+and government-level factors related to the environment. Reference: 16SV8599.
+While the former factors represent important psycholog-
+Availability of data and materials
+ical safety and acceptance of the CDSS, the level of the
+The datasets used and/or analyzed during the current study available from the
+environment represents a minor role in the perception of corresponding author on reasonable request.
+professional identity. Future research is needed, however,
+to determine whether all of these factors play an impor- Declarations
+tant role in CDSS implementation. Furthermore, future
+Ethics approval and consent to participate
+research could explore the role of middle managers and
+Not applicable.
+team managers in health care organizations rather than
+the role of senior management in managing professional Consent for publication
+Not applicable.
+identity threats when leading change. Our narrative
+review found that clinical middle managers may have a Competing interests
+special role in legitimizing CDSSs [156]. In addition, a The authors declare that they have no competing interests.
+future research opportunity arises from the perceived
+Author details
+role and identity enhancement through new technologies 1 Kiel Institute for Responsible Innovation, University of Kiel, Westring 425,
+and their consequences for social evaluation in hierarchi- 24118 Kiel, Germany.
+cal healthcare organizations [35, 132, 155].
+Received: 8 August 2023 Accepted: 9 January 2024
+Overall, the findings of this review are particularly rel-
+evant for managers of CDSS implementation projects.
+Thoughtful management of professional identity threat
+factors identified in this review can help overcome bar- References
+riers and facilitate the implementation of CDSSs. By 1. Sutton RT, Pincock D, Baumgart DC, Sadowski DC, Fedorak RN, Kroeker
+KI. An overview of clinical decision support systems: benefits, risks, and
+addressing practical implications and research gaps,
+strategies for success. Npj Digit Med. 2020;3:1–10.
+future studies can contribute to a deeper understanding 2. Antoniadi AM, Du Y, Guendouz Y, Wei L, Mazo C, Becker BA, et al. Cur-
+of the threat to professional identity and provide evi- rent challenges and future opportunities for xai in machine learning-
+based clinical decision support systems: A systematic review. Appl Sci.
+dence for effective implementation strategies of CDSSs
+2021;11:5088.
+and thus for a higher quality and efficiency in the increas- 3. Ash JS, Sittig DF, Wright A, Mcmullen C, Shapiro M, Bunce A, et al.
+ingly overburdened health care system. Clinical decision support in small community practice settings: A case
+study. J Am Med Informatics Assoc. 2011;18:879–82.
+4. Prakash AV, Das S. Medical practitioner’s adoption of intelligent clinical
+Abbreviations diagnostic decision support systems: A mixed-methods study. Inf
+AI Artificial intelligence Manag. 2021;58:103524.
+CDSS Clinical decision support system 5. Esmaeilzadeh P, Sambasivan M, Kumar N, Nezakati H. Adoption of clini-
+EHR Electronic health record cal decision support systems in a developing country: Antecedents and
+MMAT Mixed Methods Appraisal tool outcomes of physician’s threat to perceived professional autonomy. Int
+J Med Inform. 2015;84:548–60.
+A ckerhans et al. Implementation Science (2024) 19:11 Page 25 of 29
+6. Westerbeek L, Ploegmakers KJ, de Bruijn GJ, Linn AJ, van Weert JCM, 28. Hu PJH, Chau PYK, Liu Sheng OR. Adoption of telemedicine technology
+Daams JG, et al. Barriers and facilitators influencing medication-related by health care organizations: An exploratory study. J Organ Comput
+CDSS acceptance according to clinicians: A systematic review. Int J Med Electron Commer. 2002;12:197–221.
+Inform. 2021;152:104506. 29. Alohali M, Carton F, O’Connor Y. Investigating the antecedents of
+7. Berner ES. Clinical decision support systems: state of the art. AHRQ perceived threats and user resistance to health information technology:
+Publication No. 09-0069-EF. Rockville: Agency for Healthcare Research a case study of a public hospital. J Decis Syst. 2020;29:27–52.
+and Quality; 2009. 30. McParland CR, Cooper MA, Johnston B. Differential Diagnosis Decision
+8. Usmanova G, Gresh A, Cohen MA, Kim Y, Srivastava A, Joshi CS, et al. Support Systems in Primary and Out-of-Hours Care: A Qualitative
+Acceptability and barriers to use of the ASMAN provider-facing Analysis of the Needs of Key Stakeholders in Scotland. J Prim Care Com-
+electronic platform for Peripartum Care in Public Facilities in Madhya munity Heal. 2019;10:57–61.
+Pradesh and Rajasthan, India: a qualitative study using the technology 31. Lapointe L, Rivard S. A multilevel model of resistance to information
+acceptance Model-3. Int J Environ Res Public Health. 2020;17:8333. technology implementation. MIS Q. 2005;29:461–91.
+9. Singh K, Johnson L, Devarajan R, Shivashankar R, Sharma P, Kondal 32. Craig K, Thatcher JB, Grover V. The IT identity threat: A con-
+D, et al. Acceptability of a decision-support electronic health record ceptual definition and operational measure. J Manag Inf Syst.
+system and its impact on diabetes care goals in South Asia: a mixed- 2019;36:259–88.
+methods evaluation of the CARRS trial. Diabet Med. 2018;35:1644–54. 33. Jussupow E, Spohrer K, Heinzl A. Identity Threats as a Reason for
+10. Holden RJ. Physicians’ beliefs about using EMR and CPOE: In pursuit Resistance to Artificial Intelligence: Survey Study With Medical Stu-
+of a contextualized understanding of health it use behavior. Int J Med dents and Professionals. JMIR Form Res. 2022;6(3):e28750.
+Inform. 2010;79:71–80. 34. Jeffery AD, Novak LL, Kennedy B, Dietrich MS, Mion LC. Participatory
+11. Devine EB, Williams EC, Martin DP, Sittig DF, Tarczy-Hornoch P, Payne design of probability-based decision support tools for in-hospital
+TH, et al. Prescriber and staff perceptions of an electronic prescribing nurses. J Am Med Informatics Assoc. 2017;24:1102–10.
+system in primary care: A qualitative assessment. BMC Med Inform 35. Richardson JE, Ash JS. A clinical decision support needs assess-
+Decis Mak. 2010;10:72. ment of community-based physicians. J Am Med Informatics Assoc.
+12. Shibl R, Lawley M, Debuse J. Factors influencing decision support 2011;18:28–35.
+system acceptance. Decis Support Syst. 2013;54:953–61. 36. Walter Z, Lopez MS. Physician acceptance of information technolo-
+13. Abell B, Naicker S, Rodwell D, Donovan T, Tariq A, Baysari M, et al. gies: Role of perceived threat to professional autonomy. Decis Sup-
+Identifying barriers and facilitators to successful implementation of port Syst. 2008;46:206–15.
+computerized clinical decision support systems in hospitals: a NASSS 37. Jussupow E, Spohrer K, Heinzl A, Link C. I am; We are - Conceptualiz-
+framework-informed scoping review. Implement Sci. 2023;18:32. ing Professional Identity Threats from Information Technology. 2019.
+14. Kilsdonk E, Peute LW, Jaspers MWM. Factors influencing implementa- 38. Karunakaran A. Status-Authority Asymmetry between Profes-
+tion success of guideline-based clinical decision support systems: A sions: The Case of 911 Dispatchers and Police Officers. Adm Sci Q.
+systematic review and gaps analysis. Int J Med Inform. 2017;98:56–64. 2022;67:423–68.
+15. Davis FD. Perceived usefulness, perceived ease of use, and user accept- 39. Tripsas M. Technology, identity, and inertia through the lens of “The
+ance of information technology. MIS Quarterly. 1989:319–40. Digital Photography Company.” Organ Sci. 2009;20:441–60.
+16. Venkatesh V, Davis FD. Theoretical extension of the Technology 40. Chreim S, Williams BE, Hinings CR. Interlevel influences on the recon-
+Acceptance Model: Four longitudinal field studies. Manage Sci. struction of professional role identity. Acad Manag J. 2007;50:1515–39.
+2000;46:186–204. 41. Ibarra H. Provisional selves: Experimenting with image and identity in
+17. Söling S, Demirer I, Köberlein-Neu J, Hower KI, Müller BS, Pfaff H, et al. professional adaptation. Adm Sci Q. 1999;44:764–91.
+Complex implementation mechanisms in primary care: do physicians’ 42. Jussupow E, Spohrer K, Dibbern J, Heinzl A. AI changes who we are-
+beliefs about the effectiveness of innovation play a mediating role? Doesn’t IT? Intelligent decision support and physicians’ professional
+Applying a realist inquiry and structural equation modeling approach identity. In: Proceedings of the Twenty-Sixth European Conference on
+in a formative evaluation study. BMC Prim Care. 2023;24:1–14. Information Systems, Portsmouth, UK, 2018. pp. 1–11.
+18. Birken SA, Bunger AC, Powell BJ, Turner K, Clary AS, Klaman SL, et al. 43. Freidson E. The Reorganization of the Medical Profession. Med Care Res
+Organizational theory for dissemination and implementation research. Rev. 1985;42:11–35.
+Implement Sci. 2017;12:1–15. 44. Burke PJ, Stets JE. Trust and Commitment through Self-Verification. Soc
+19. Vance Wilson E, Lankton NK. Modeling patients’ acceptance of provider- Psychol Q. 1999;62:347–66.
+delivered E-health. J Am Med Informatics Assoc. 2004;11:241–8. 45. Mishra AN, Anderson C, Angst CM, Agarwal R. Electronic Health Records
+20. Bandura A. Self-efficacy: Toward a unifying theory of behavioral change. Assimilation and Physician Identity Evolution: An Identity Theory Per-
+Psychol Rev. 1977;84:191–215. spective. Inf Syst Res. 2012;23:738–60.
+21. Atkins L, Francis J, Islam R, O’Connor D, Patey A, Ivers N, et al. A guide 46. Mirbabaie M, Brünker F, Möllmann Frick NRJ, Stieglitz S. The rise of
+to using the Theoretical Domains Framework of behaviour change to artificial intelligence – understanding the AI identity threat at the
+investigate implementation problems. Implement Sci. 2017;12:1–18. workplace. Electron Mark. 2022;32:73–99.
+22. Eccles M, Grimshaw J, Walker A, Johnston M, Pitts N. Changing the 47. Klaus T, Blanton JE. User resistance determinants and the psychologi-
+behavior of healthcare professionals: The use of theory in promoting cal contract in enterprise system implementations. Eur J Inf Syst.
+the uptake of research findings. J Clin Epidemiol. 2005;58:107–12. 2010;19:625–36.
+23. Cane J, O’Connor D, Michie S. Validation of the theoretical domains 48. Sambasivan M, Esmaeilzadeh P, Kumar N, Nezakati H. Intention to adopt
+framework for use in behaviour change and implementation research. clinical decision support systems in a developing country: Effect of
+Implement Sci. 2012;7:1–17. Physician’s perceived professional autonomy, involvement and belief: A
+24. Liberati EG, Ruggiero F, Galuppo L, Gorli M, González-Lorenzo M, cross-sectional study. BMC Med Inform Decis Mak. 2012;12:1–8.
+Maraldi M, et al. What hinders the uptake of computerized decision 49. Elsbach KD. Relating physical environment to self-categorizations:
+support systems in hospitals? A qualitative study and framework for Identity threat and affirmation in a non-territorial office space. Adm Sci
+implementation. Implement Sci. 2017;12:1–13. Q. 2003;48(4):622–54.
+25. Pratt MG, Rockmann KW, Kaufmann JB. Constructing professional iden- 50. Carter M, Grover V. Me, my self, and I(T). MIS Quart. 2015;39:931–58.
+tity: The role of work and identity learning cycles in the customization 51. Jensen TB, Aanestad M. Hospitality and hostility in hospitals: A
+of identity among medical residents. Acad Manag J. 2006;49:235–62. case study of an EPR adoption among surgeons. Eur J Inf Syst.
+26. Beane M, Orlikowski WJ. What difference does a robot make? The mate- 2007;16:672–80.
+rial enactment of distributed coordination. Organ Sci. 2015;26:1553–73. 52. Bernardi R, Exworthy M. Clinical managers’ identity at the crossroad of
+27. Reay T, Goodrick E, Waldorff SB, Casebeer A. Getting leopards to change multiple institutional logics in it innovation: The case study of a health
+their spots: Co-creating a new professional role identity. Acad Manag J. care organization in England. Inf Syst J. 2020;30:566–95.
+2017;60(3):1043–70. 53. Doolin B. Power and resistance in the implementation of a medical
+management information system. Inf Syst J. 2004;14:343–62.
+Ackerhans et al. Implementation Science (2024) 19:11 Page 26 of 29
+54. Barrett M, Oborn E, Orlikowski WJ, Yates J. Reconfiguring Bound- 77. Catho G, Centemero NS, Catho H, Ranzani A, Balmelli C, Landelle C,
+ary Relations: Robotic Innovations in Pharmacy Work. Organ Sci. et al. Factors determining the adherence to antimicrobial guidelines
+2012;23:1448–66. and the adoption of computerised decision support systems by
+55. Kellogg KC. Subordinate Activation Tactics: Semi-professionals and physicians: A qualitative study in three European hospitals. Int J Med
+Micro-level Institutional Change in Professional Organizations. Adm Sci Inform. 2020;141:104233.
+Q. 2019;64:928–75. 78. Liu X, Barreto EF, Dong Y, Liu C, Gao X, Tootooni MS, et al. Discrepancy
+56. Pratt MG. The good, the bad, and the ambivalent: Managing identifica- between perceptions and acceptance of clinical decision support
+tion among Amway distributors. Adm Sci Q. 2000;45:456–93. Systems: implementation of artificial intelligence for vancomycin
+57. Yusof MM, Kuljis J, Papazafeiropoulou A, Stergioulas LK. An evaluation dosing. BMC Med Inform Decis Mak. 2023;23:1–9.
+framework for Health Information Systems: human, organization and 79. Zaidi STR, Marriott JL. Barriers and facilitators to adoption of a
+technology-fit factors (HOT-fit). Int J Med Inform. 2008;77:386–98. web-based antibiotic decision support system. South Med Rev.
+58. Hong QN, Pluye P, Fàbregues S, Bartlett G, Boardman F, Cargo M, et al. 2012;5:42–9.
+The Mixed Methods Appraisal Tool (MMAT) version 2018 for informa- 80. Singh D, Spiers S, Beasley BW. Characteristics of CPOE systems and
+tion professionals and researchers. Educ Inf. 2018;34:285–91. obstacles to implementation that physicians believe will affect adop-
+59. Abdellatif A, Bouaud J, Lafuente-Lafuente C, Belmin J, Séroussi B. tion. South Med J. 2011;104:418–21.
+Computerized Decision Support Systems for Nursing Homes: A Scop- 81. Agarwal R, Angst CM, DesRoches CM, Fischer MA. Technological
+ing Review. J Am Med Dir Assoc. 2021;22:984–94. viewpoints (frames) about electronic prescribing in physician practices.
+60. Gioia DA, Chittipeddi K. Sensemaking and sensegiving in strategic J Am Med Informatics Assoc. 2010;17:425–31.
+change initiation. Strateg Manag J. 1991;12:433–48. 82. Hains IM, Ward RL, Pearson SA. Implementing a web-based oncology
+61. Gioia DA, Corley KG, Hamilton AL. Seeking Qualitative Rigor in Induc- protocol system in Australia: Evaluation of the first 3 years of operation.
+tive Research: Notes on the Gioia Methodology. Organ Res Methods. Intern Med J. 2012;42:57–64.
+2012;16:15–31. 83. Fossum M, Ehnfors M, Fruhling A, Ehrenberg A. An evaluation of the
+62. Corbin JM, Strauss AL. Basics of qualitative research. Techniques and usability of a computerized decision support system for nursing homes.
+procedures for developing grounded theory. Los Angeles: Sage; Appl Clin Inform. 2011;2:420–36.
+2015. 84. Sukums F, Mensah N, Mpembeni R, Massawe S, Duysburgh E, Williams
+63. O’Connor C, Joffe H. Intercoder Reliability in Qualitative Research: A, et al. Promising adoption of an electronic clinical decision support
+Debates and Practical Guidelines. Int J Qual Methods. 2020;19:1–13. system for antenatal and intrapartum care in rural primary healthcare
+64. Banerjee M, Capozzoli M, McSweeney L, Sinha D. Beyond kappa: A facilities in sub-Saharan Africa: The QUALMAT experience. Int J Med
+review of interrater agreement measures. Can J Stat. 1999;27:3–23. Inform. 2015;84:647–57.
+65. Aarons GA, Hurlburt M, Horwitz SM. Advancing a conceptual model 85. Cracknell AV. Healthcare professionals’ attitudes of implementing a
+of evidence-based practice implementation in public service sectors. chemotherapy electronic prescribing system: A mixed methods study. J
+Adm Policy Ment Heal Ment Heal Serv Res. 2011;38:4–23. Oncol Pharm Pract. 2020;26:1164–71.
+66. Clarivate. 2022 Journal Impact Factor, Journal Citation Reports. 2023. 86. Peute LW, Aarts J, Bakker PJM, Jaspers MWM. Anatomy of a failure: A
+67. Damanpour F, Walker RM, Avellaneda CN. Combinative effects of sociotechnical evaluation of a laboratory physician order entry system
+innovation types and organizational performance: A longitudinal implementation. Int J Med Inform. 2010;79:e58-70.
+study of service organizations. J Manag Stud. 2009;46:650–75. 87. Sedlmayr B, Patapovas A, Kirchner M, Sonst A, Müller F, Pfistermeister B,
+68. Ploegmakers KJ, Medlock S, Linn AJ, Lin Y, Seppälä LJ, Petrovic M, et al. Comparative evaluation of different medication safety measures
+et al. Barriers and facilitators in using a Clinical Decision Support for the emergency department: Physicians’ usage and acceptance of
+System for fall risk management for older people: a European survey. training, poster, checklist and computerized decision support. BMC
+Eur Geriatr Med. 2022;13:395–405. Med Inform Decis Mak 2013;13.
+69. Laka M, Milazzo A, Merlin T. Factors that impact the adoption of clini- 88. Noormohammad SF, Mamlin BW, Biondich PG, McKown B, Kimaiyo SN,
+cal decision support systems (Cdss) for antibiotic management. Int J Were MC. Changing course to make clinical decision support work in
+Environ Res Public Health. 2021;18:1–14. an HIV clinic in Kenya. Int J Med Inform. 2010;79(3):204–10.
+70. Masterson Creber RM, Dayan PS, Kuppermann N, Ballard DW, Tzi- 89. Hsu WWQ, Chan EWY, Zhang ZJ, Lin ZX, Bian ZX, Wong ICK. Chinese
+menatos L, Alessandrini E, et al. Applying the RE-AIM Framework for medicine students’ views on electronic prescribing: A survey in Hong
+the Evaluation of a Clinical Decision Support Tool for Pediatric Head Kong. Eur J Integr Med. 2015;7:47–54.
+Trauma: A Mixed-Methods Study. Appl Clin Inform. 2018;9:693–703. 90. Kortteisto T, Komulainen J, Mäkelä M, Kunnamo I, Kaila M. Clinical deci-
+71. de Watteville A, Pielmeier U, Graf S, Siegenthaler N, Plockyn B, sion support must be useful, functional is not enough: A qualitative
+Andreassen S, et al. Usability study of a new tool for nutritional and study of computer-based clinical decision support in primary care. BMC
+glycemic management in adult intensive care: Glucosafe 2. J Clin Health Serv Res 2012;12.
+Monit Comput. 2021;35:525–35. 91. Koskela T, Sandström S, Mäkinen J, Liira H. User perspectives on an elec-
+72. Feldstein AC, Schneider JL, Unitan R, Perrin NA, Smith DH, Nichols tronic decision-support tool performing comprehensive medication
+GA, et al. Health care worker perspectives inform optimization of reviews - A focus group study with physicians and nurses. BMC Med
+patient panel-support tools: A qualitative study. Popul Health Manag. Inform Decis Mak. 2016;16:1–9.
+2013;16:107–19. 92. Zhai Y, Yu Z, Zhang Q, Qin W, Yang C, Zhang Y. Transition to a new
+73. Jansen-Kosterink S, van Velsen L, Cabrita M. Clinician acceptance of nursing information system embedded with clinical decision support:
+complex clinical decision support systems for treatment allocation a mixed-method study using the HOT-fit framework. BMC Med Inform
+of patients with chronic low back pain. BMC Med Inform Decis Mak. Decis Mak. 2022;22:1–20.
+2021;21:137. 93. Abidi S, Vallis M, Piccinini-Vallis H, Imran SA, Abidi SSR. Diabetes-related
+74. Russ AL, Zillich AJ, McManus MS, Doebbeling BN, Saleem JJ. Prescrib- behavior change knowledge transfer to primary care practitioners and
+ers’ interactions with medication alerts at the point of prescribing: A patients: Implementation and evaluation of a digital health platform.
+multi-method, in situ investigation of the human-computer interac- JMIR Med Informatics. 2018;6:e9629.
+tion. Int J Med Inform. 2012;81:232–43. 94. Greenberg JK, Otun A, Nasraddin A, Brownson RC, Kuppermann N,
+75. Cresswell K, Callaghan M, Mozaffar H, Sheikh A. NHS Scotland’s Deci- Limbrick DD, et al. Electronic clinical decision support for children with
+sion Support Platform: A formative qualitative evaluation. BMJ Heal minor head trauma and intracranial injuries: a sociotechnical analysis.
+Care Informatics. 2019;26:1–9. BMC Med Inform Decis Mak. 2021;21:1–11.
+76. Harry ML, Truitt AR, Saman DM, Henzler-Buckingham HA, Allen CI, 95. Trafton J, Martins S, Michel M, Lewis E, Wang D, Combs A, et al. Evalu-
+Walton KM, et al. Barriers and facilitators to implementing cancer ation of the acceptability and usability of a decision support system
+prevention clinical decision support in primary care: a qualitative to encourage safe and effective use of opioid therapy for chronic,
+study. BMC Health Serv Res. 2019;19:534. noncancer pain by primary care providers. Pain Med. 2010;11:575–85.
+A ckerhans et al. Implementation Science (2024) 19:11 Page 27 of 29
+96. Berge GT, Granmo OC, Tveit TO, Munkvold BE, Ruthjersen AL, Sharma J. 114. Salwei ME, Carayon P, Hoonakker PLT, Hundt AS, Wiegmann D, Pulia
+Machine learning-driven clinical decision support system for concept- M, et al. Workflow integration analysis of a human factors-based
+based searching: a field trial in a Norwegian hospital. BMC Med Inform clinical decision support in the emergency department. Appl Ergon.
+Decis Mak. 2023;23:1–15. 2021;97:103498.
+97. Chung P, Scandlyn J, Dayan PS, Mistry RD. Working at the intersection of 115. Sayood SJ, Botros M, Suda KJ, Foraker R, Durkin MJ. Attitudes toward
+context, culture, and technology: Provider perspectives on antimicro- using clinical decision support in community pharmacies to promote
+bial stewardship in the emergency department using electronic health antibiotic stewardship. J Am Pharm Assoc. 2021;61(5):565–71.
+record clinical decision support. Am J Infect Control. 2017;45:1198–202. 116. Seliaman ME, Albahly MS. The Reasons for Physicians and Pharmacists’
+98. Arts DL, Medlock SK, Van Weert HCPM, Wyatt JC, Abu-Hanna A. Accept- Acceptance of Clinical Support Systems in Saudi Arabia. Int J Environ
+ance and barriers pertaining to a general practice decision support Res Public Health 2023;20.
+system for multiple clinical conditions: A mixed methods evaluation. 117. Sheehan B, Nigrovic LE, Dayan PS, Kuppermann N, Ballard DW, Ales-
+PLoS ONE. 2018;13:e0193187. sandrini E, et al. Informing the design of clinical decision support
+99. Ash JS, Chase D, Baron S, Filios MS, Shiffman RN, Marovich S, et al. Clini- services for evaluation of children with minor blunt head trauma in the
+cal Decision Support for Worker Health: A Five-Site Qualitative Needs emergency department: A sociotechnical analysis. J Biomed Inform.
+Assessment in Primary Care Settings. Appl Clin Inform. 2020;11:635–43. 2013;46:905–13.
+100. English D, Ankem K, English K. Acceptance of clinical decision support 118. Shi Y, Amill-Rosario A, Rudin RS, Fischer SH, Shekelle P, Scanlon DP,
+surveillance technology in the clinical pharmacy. Informatics Heal Soc et al. Barriers to using clinical decision support in ambulatory care:
+Care. 2017;42:135–52. Do clinics in health systems fare better? J Am Med Informatics Assoc.
+101. Gezer M, Hunter B, Hocking JS, Manski-Nankervis JA, Goller JL. Inform- 2021;28:1667–75.
+ing the design of a digital intervention to support sexually transmis- 119. Snyder ME, Adeoye-Olatunde OA, Gernant SA, DiIulio J, Jaynes HA,
+sible infection care in general practice: a qualitative study exploring the Doucette WR, et al. A user-centered evaluation of medication therapy
+views of clinicians. Sex Health 2023. management alerts for community pharmacists: Recommenda-
+102. Helldén A, Al-Aieshy F, Bastholm-Rahmner P, Bergman U, Gustafsson tions to improve usability and usefulness. Res Soc Adm Pharm.
+LL, Höök H, et al. Development of a computerised decisions support 2021;17:1433–43.
+system for renal risk drugs targeting primary healthcare. BMJ Open. 120. Van Biesen W, Van Cauwenberge D, Decruyenaere J, Leune T, Sterckx
+2015;5:1–9. S. An exploration of expectations and perceptions of practicing
+103. Hinderer M, Boeker M, Wagner SA, Binder H, Ückert F, Newe S, et al. physicians on the implementation of computerized clinical decision
+The experience of physicians in pharmacogenomic clinical decision support systems using a Qsort approach. BMC Med Inform Decis Mak.
+support within eight German university hospitals. Pharmacogenomics. 2022;22:1–10.
+2017;18:773–85. 121. Vandenberg AE, Vaughan CP, Stevens M, Hastings SN, Powers J, Mark-
+104. Jeffries M, Salema NE, Laing L, Shamsuddin A, Sheikh A, Avery A, et al. land A, et al. Improving geriatric prescribing in the ED: a qualitative
+The implementation, use and sustainability of a clinical decision sup- study of facilitators and barriers to clinical decision support tool use. Int
+port system for medication optimisation in primary care: A qualitative J Qual Heal Care. 2017;29:117–23.
+evaluation. PLoS ONE. 2021;16:e0250946. 122. Westerbeek L, de Bruijn GJ, van Weert HC, Abu-Hanna A, Medlock S, van
+105. Kanagasundaram NS, Bevan MT, Sims AJ, Heed A, Price DA, Sheerin NS. Weert JCM. General Practitioners’ needs and wishes for clinical decision
+Computerized clinical decision support for the early recognition and support Systems: A focus group study. Int J Med Inform. 2022;168: 104901.
+management of acute kidney injury: A qualitative evaluation of end- 123. Cranfield S, Hendy J, Reeves B, Hutchings A, Collin S, Fulop N. Investigat-
+user experience. Clin Kidney J. 2016;9:57–62. ing healthcare IT innovations: a “conceptual blending” approach. J
+106. Kastner M, Li J, Lottridge D, Marquez C, Newton D, Straus SE. Develop- Health Organ Manag. 2015;29:1131–48.
+ment of a prototype clinical decision support tool for osteoporosis 124. Jeon J, Taneva S, Kukreti V, Trbovich P, Easty AC, Rossos PG, Cafazzo JA.
+disease management: A qualitative study of focus groups. BMC Med Toward successful migration to computerized physician order entry for
+Inform Decis Mak. 2010;10:1–15. chemotherapy. Curr Oncol. 2014;21(2):221–8.
+107. Khajouei R, Wierenga PC, Hasman A, Jaspers MW. Clinicians satisfaction 125. Patel VL, Shortliffe EH, Stefanelli M, Szolovits P, Berthold MR, Bellazzi R,
+with CPOE ease of use and effect on clinicians’ workflow, efficiency and et al. The Coming of Age of Artificial Intelligence in Medicine. Artif Intell
+medication safety. Int J Med Inform. 2011;80(5):297–309. Med. 2009;46:5–17.
+108. Langton JM, Blanch B, Pesa N, Park JM, Pearson SA. How do medical 126. Finley EP, Schneegans S, Tami C, Pugh MJ, McGeary D, Penney L,
+doctors use a web-based oncology protocol system? A comparison Sharpe Potter J. Implementing prescription drug monitoring and other
+of Australian doctors at different levels of medical training using clinical decision support for opioid risk mitigation in a military health
+logfile analysis and an online survey. BMC Med Inform Decis Mak. care setting: a qualitative feasibility study. J Am Med Inform Assoc.
+2013;13:1–11. 2018;25(5):515–22.
+109. Litvin CB, Ornstein SM, Wessell AM, Nemeth LS, Nietert PJ. Adoption of 127. Lugtenberg M, Weenink JW, Van Der Weijden T, Westert GP, Kool RB.
+a clinical decision support system to promote judicious use of antibiot- Implementation of multiple-domain covering computerized decision
+ics for acute respiratory infections in primary care. Int J Med Inform. support systems in primary care: A focus group study on perceived
+2012;81:521–6. barriers. BMC Med Inform Decis Mak. 2015;15:1–11.
+110. Pratt R, Saman DM, Allen C, Crabtree B, Ohnsorg K, Sperl-Hillen JAM, 128. Chow A, Lye DCB, Arah OA. Psychosocial determinants of physicians’
+et al. Assessing the implementation of a clinical decision support tool acceptance of recommendations by antibiotic computerised decision
+in primary care for diabetes prevention: a qualitative interview study support systems: A mixed methods study. Int J Antimicrob Agents.
+using the Consolidated Framework for Implementation Science. BMC 2015;45:295–304.
+Med Inform Decis Mak. 2022;22:1–9. 129. Ford E, Edelman N, Somers L, Shrewsbury D, Lopez Levy M, van Marwijk
+111. Robertson J, Moxey AJ, Newby DA, Gillies MB, Williamson M, Pearson H, et al. Barriers and facilitators to the adoption of electronic clinical
+SA. Electronic information and clinical decision support for prescribing: decision support systems: a qualitative interview study with UK general
+State of play in Australian general practice. Fam Pract. 2011;28:93–101. practitioners. BMC Med Inform Decis Mak. 2021;21:1–13.
+112. Rock C, Abosi O, Bleasdale S, Colligan E, Diekema DJ, Dullabh P, 130. Jung SY, Hwang H, Lee K, Lee HY, Kim E, Kim M, et al. Barriers and facili-
+et al. Clinical Decision Support Systems to Reduce Unnecessary tators to implementation of medication decision support systems in
+Clostridioides difficile Testing Across Multiple Hospitals. Clin Infect Dis. electronic medical records: Mixed methods approach based on struc-
+2022;75:1187–93. tural equation modeling and qualitative analysis. JMIR Med Informatics.
+113. Roebroek LO, Bruins J, Delespaul P, Boonstra A, Castelein S. Qualitative 2020;8:1–14.
+analysis of clinicians’ perspectives on the use of a computerized deci- 131. Mozaffar H, Cresswell K, Williams R, Bates DW, Sheikh A. Exploring the
+sion aid in the treatment of psychotic disorders. BMC Med Inform Decis roots of unintended safety threats associated with the introduction of
+Mak. 2020;20(1):1–12. hospital ePrescribing systems and candidate avoidance and/or mitiga-
+tion strategies: A qualitative study. BMJ Qual Saf. 2017;26:722–33.
+Ackerhans et al. Implementation Science (2024) 19:11 Page 28 of 29
+132. McDermott L, Yardley L, Little P, Ashworth M, Gulliford M. Developing guideline-based clinical decision support system execution platform. J
+a computer delivered, theory based intervention for guideline imple- Med Syst. 2013;37:1–9.
+mentation in general practice. BMC Fam Pract 2010;11. 150. Huguet N, Ezekiel-Herrera D, Gunn R, Pierce A, O’Malley J, Jones M, Gold
+133. Rieckert A, Teichmann AL, Drewelow E, Kriechmayr C, Piccoliori G, R. Uptake of a Cervical Cancer Clinical Decision Support Tool: A Mixed-
+Woodham A, et al. Reduction of inappropriate medication in older Methods Study. Appl Clin Inform. 2023;14(03):594–9.
+populations by electronic decision support (the PRIMA-eDS project): 151. Paulsen MM, Varsi C, Paur I, Tangvik RJ, Andersen LF. Barriers and facilita-
+A survey of general practitioners’ experiences. J Am Med Informatics tors for implementing a decision support system to prevent and treat
+Assoc. 2019;26:1323–32. disease-related malnutrition in a hospital setting: Qualitative study.
+134. Anderson JA, Godwin KM, Saleem JJ, Russell S, Robinson JJ, Kimmel B. JMIR Form Res 2019;3.
+Accessibility, usability, and usefulness of a Web-based clinical decision 152. Varsi C, Andersen LF, Koksvik GT, Severinsen F, Paulsen MM. Interven-
+support tool to enhance provider-patient communication around tion-related, contextual and personal factors affecting the implementa-
+Self-management to Prevent (STOP) Stroke. Health Informatics J. tion of an evidence-based digital system for prevention and treatment
+2014;20:261–74. of malnutrition in elderly institutionalized patients: a qualitative study.
+135. Carayon P, Cartmill R, Blosky MA, Brown R, Hackenberg M, Hoonakker BMC Health Serv Res. 2023;23:1–12.
+P, et al. ICU nurses’ acceptance of electronic health records. J Am Med 153. Zhai Y, Yu Z, Zhang Q, Zhang YX. Barriers and facilitators to implement-
+Informatics Assoc. 2011;18:812–9. ing a nursing clinical decision support system in a tertiary hospital
+136. Garabedian PM, Gannon MP, Aaron S, Wu E, Burns Z, Samal L. Human- setting: A qualitative study using the FITT framework. Int J Med Inform.
+centered design of clinical decision support for management of 2022;166:104841.
+hypertension with chronic kidney disease. BMC Med Inform Decis Mak. 154. Carland JE, Elhage T, Baysari MT, Stocker SL, Marriott DJE, Taylor N, et al.
+2022;22:1–12. Would they trust it? An exploration of psychosocial and environmental
+137. Jeffries M, Salema NE, Laing L, Shamsuddin A, Sheikh A, Avery T, Keers factors affecting prescriber acceptance of computerised dose-recom-
+RN. Using sociotechnical theory to understand medication safety mendation software. Br J Clin Pharmacol. 2021;87:1215–33.
+work in primary care and prescribers’ use of clinical decision support: a 155. Wannheden C, Hvitfeldt-Forsberg H, Eftimovska E, Westling K, Ellenius J.
+qualitative study. BMJ Open. 2023;13(4):e068798. Boosting Quality Registries with Clinical Decision Support Functionality.
+138. Lugtenberg M, Pasveer D, van der Weijden T, Westert GP, Kool RB. Methods Inf Med. 2017;56:339–43.
+Exposure to and experiences with a computerized decision support 156. Cranfield S, Hendy J, Reeves B, Hutchings A, Collin S, Fulop N. Investigat-
+intervention in primary care: results from a process evaluation. BMC ing healthcare IT innovations: a “conceptual blending” approach. J
+Fam Pract. 2015;16(1):1–10. Health Organ Manag. 2015;29(7):1131–48.
+139. Mozaffar H, Cresswell KM, Lee L, Williams R, Sheikh A; NIHR ePrescrib- 157. Hsiao JL, Wu WC, Chen RF. Factors of accepting pain management deci-
+ing Programme Team. Taxonomy of delays in the implementation of sion support systems by nurse anesthetists. BMC Med Inform Decis Mak
+hospital computerized physician order entry and clinical decision sup- 2013;13.
+port systems for prescribing: A longitudinal qualitative study. BMC Med 158. Jeng DJF, Tzeng GH. Social influence on the use of Clinical Decision
+Inform Decis Mak. 2016;16:1–14. Support Systems: Revisiting the Unified Theory of Acceptance and
+140. Tabla S, Calafiore M, Legrand B, Descamps A, Andre C, Rochoy M, Use of Technology by the fuzzy DEMATEL technique. Comput Ind Eng.
+et al. Artificial Intelligence and Clinical Decision Support Systems or 2012;62:819–28.
+Automated Interpreters: What Characteristics Are Expected by French 159. Liu Y, Hao H, Sharma MM, Harris Y, Scofi J, Trepp R, et al. Clinician
+General Practitioners? Stud Health Technol Inform. 2022;290:887–91. Acceptance of Order Sets for Pain Management: A Survey in Two Urban
+141. Thomas CP, Kim M, McDonald A, Kreiner P, Kelleher SJ, Blackman MB, Hospitals. Appl Clin Inform. 2022;13:447–55.
+et al. Prescribers’ expectations and barriers to electronic prescribing of 160. Zakane SA, Gustafsson LL, Tomson G, Loukanova S, Sié A, Nasiell J, et al.
+controlled substances. J Am Med Informatics Assoc. 2012;19:375–81. Guidelines for maternal and neonatal “point of care”: Needs of and
+142. Yui BH, Jim WT, Chen M, Hsu JM, Liu CY, Lee TT. Evaluation of computer- attitudes towards a computerized clinical decision support system in
+ized physician order entry system- A satisfaction survey in Taiwan. J rural Burkina Faso. Int J Med Inform. 2014;83:459–69.
+Med Syst. 2012;36:3817–24. 161. Mertz E, Bolarinwa O, Wides C, Gregorich S, Simmons K, Vaderhobli R,
+143. Zha H, Liu K, Tang T, Yin Y-H, Dou B, Jiang L, et al. Acceptance of clinical et al. Provider Attitudes Toward the Implementation of Clinical Decision
+decision support system to prevent venous thromboembolism among Support Tools in Dental Practice. J Evid Based Dent Pract. 2015;15:152–63.
+nurses: an extension of the UTAUT model. BMC Med Inform Decis Mak. 162. De Vries AE, Van Der Wal MHL, Nieuwenhuis MMW, De Jong RM, Van
+2022;22:1–12. Dijk RB, Jaarsma T, et al. Perceived barriers of heart failure nurses and
+144. Abramson EL, Patel V, Malhotra S, Pfoh ER, Nena Osorio S, Cheriff A, et al. cardiologists in using clinical decision support systems in the treatment
+Physician experiences transitioning between an older versus newer of heart failure patients. BMC Med Inform Decis Mak 2013;13.
+electronic health record for electronic prescribing. Int J Med Inform. 163. Ahmad N, Du S, Ahmed F, ul Amin N, Yi X. Healthcare professionals
+2012;81:539–48. satisfaction and AI-based clinical decision support system in public
+145. Cresswell K, Lee L, Mozaffar H, Williams R, Sheikh A, Robertson A, et al. sector hospitals during health crises: a cross-sectional study. Inf Technol
+Sustained User Engagement in Health Information Technology: The Manag. 2023:1–13.
+Long Road from Implementation to System Optimization of Computer- 164. Van Cauwenberge D, Van Biesen W, Decruyenaere J, Leune T, Sterckx
+ized Physician Order Entry and Clinical Decision Support Systems for S. “Many roads lead to Rome and the Artificial Intelligence only shows
+Prescribing in Hospitals in England. Health Serv Res. 2017;52:1928–57. me one road”: an interview study on physician attitudes regarding the
+146. Klarenbeek SE, Schuurbiers-Siebers OCJ, van den Heuvel MM, Prokop implementation of computerised clinical decision support systems.
+M, Tummers M. Barriers and facilitators for implementation of a com- BMC Med Ethics. 2022;23:1–14.
+puterized clinical decision support system in lung cancer multidis- 165. Wijnhoven F. Organizational Learning for Intelligence Amplification
+ciplinary team meetings—a qualitative assessment. Biology (Basel). Adoption: Lessons from a Clinical Decision Support System Adoption
+2021;10:1–15. Project. Inf Syst Front. 2022;24:731–44.
+147. Abdel-Qader DH, Cantrill JA, Tully MP. Satisfaction predictors and 166. Sittig DF, Wright A, Simonaitis L, Carpenter JD, Allen GO, Doebbeling
+attitudes towards electronic prescribing systems in three UK hospitals. BN, et al. The state of the art in clinical knowledge management: An
+Pharm World Sci. 2010;32:581–93. inventory of tools and techniques. Int J Med Inform. 2010;79:44–57.
+148. Ballard DW, Rauchwerger AS, Reed ME, Vinson DR, Mark DG, Offerman 167. Simon SR, Keohane CA, Amato M, Coffey M, Cadet B, Zimlichman E,
+SR, et al. Emergency physicians’ knowledge and attitudes of clinical et al. Lessons learned from implementation of computerized provider
+decision support in the electronic health record: A survey-based study. order entry in 5 community hospitals: A qualitative study. BMC Med
+Acad Emerg Med. 2013;20:352–60. Inform Decis Mak 2013;13.
+149. Buenestado D, Elorz J, Pérez-Yarza EG, Iruetaguena A, Segundo U, 168. Hor CP, O’Donnell JM, Murphy AW, O’Brien T, Kropmans TJB. General
+Barrena R, et al. Evaluating acceptance and user experience of a practitioners’ attitudes and preparedness towards Clinical Decision
+A ckerhans et al. Implementation Science (2024) 19:11 Page 29 of 29
+Support in e-Prescribing (CDS-eP) adoption in the West of Ireland: a utilisation de la prescription électronique chez ceux qui viennent de l ’
+cross sectional study. BMC Med Inform Decis Mak. 2010;10:2. adopter dans un contexte de soins primaires 2013;59.
+169. Abejirinde IOO, Zweekhorst M, Bardají A, Abugnaba-Abanga R, Apen- 189. Pevnick JM, Asch SM, Adams JL, Mattke S, Patel MH, Ettner SL, et al.
+tibadek N, De Brouwere V, et al. Unveiling the black box of diagnostic Adoption and use of stand-alone electronic prescribing in a health
+and clinical decision support systems for antenatal care: Realist evalua- plan-sponsored initiative. Am J Manag Care. 2010;16:182–9.
+tion. JMIR MHealth UHealth. 2018;6:e11468. 190. Meulendijk M, Spruit M, Drenth-Van Maanen C, Numans M, Brinkkem-
+170. Charani E, Kyratsis Y, Lawson W, Wickens H, Brannigan ET, Moore LSP, per S, Jansen P. General practitioners’ attitudes towards decision-sup-
+et al. An analysis of the development and implementation of a smart- ported prescribing: An analysis of the Dutch primary care sector. Health
+phone application for the delivery of antimicrobial prescribing policy: Informatics J. 2013;19:247–63.
+Lessons learnt. J Antimicrob Chemother. 2013;68:960–7. 191. B S, A P, M K, A S, F M, B P-KP, et al. Comparative evaluation of different
+171. Patel R, Green W, Shahzad MW, Larkin C. Use of mobile clinical decision medication safety measures for the emergency department: physicians’
+support software by junior doctors at a UK Teaching Hospital: Identifica- usage and acceptance of training, poster, checklist and computerized
+tion and evaluation of barriers to engagement. JMIR Mhealth Uhealth. decision support. BMC Med Inform Decis Mak. 2013;13:79.
+2015;3(3):e4388. 192. Holden RJ, Karsh BT. The Technology Acceptance Model: Its past and its
+172. Hsiao JL, Chen RF. Critical factors influencing physicians’ intention to future in health care. J Biomed Inform. 2010;43:159–72.
+use computerized clinical practice guidelines: An integrative model 193. Edmondson AC. Speaking up in the operating room: How team lead-
+of activity theory and the technology acceptance model. BMC Med ers promote learning in interdisciplinary action teams. J Manag Stud.
+Inform Decis Mak. 2015;16:1–15. 2003;40:1419–52.
+173. Khan S, McCullagh L, Press A, Kharche M, Schachter A, Pardo S, et al. 194. Heinze KL, Heinze JE. Individual innovation adoption and the role of
+Formative assessment and design of a complex clinical decision sup- organizational culture. Rev Manag Sci. 2020;14:561–86.
+port tool for pulmonary embolism. Evid Based Med. 2016;21:7–13. 195. Nembhard IM, Edmondson AC. Making it safe: The effects of leader
+174. Randell R, Dowding D. Organisational influences on nurses’ use of clini- inclusiveness and professional status on psychological safety and
+cal decision support systems. Int J Med Inform. 2010;79:412–21. improvement efforts in health care teams. J Organ Behav Int J Ind
+175. Frisinger A, Papachristou P. The voice of healthcare: introducing digital Occup Organ Psychol Behav. 2006;27:941–66.
+decision support systems into clinical practice-a qualitative study. BMC 196. Singer SJ, Hayes JE, Gray GC, Kiang MV. Making time for learning-
+Prim Care. 2023;24(1):67. oriented leadership in multidisciplinary hospital management groups.
+176. Ifinedo P. Using an Extended Theory of Planned Behavior to Study Health Care Manage Rev. 2015;40:300–12.
+Nurses’ Adoption of Healthcare Information Systems in Nova Scotia. Int 197. Proctor E, Silmere H, Raghavan R, Hovmand P, Aarons G, Bunger A,
+J Technol Diffus. 2017;8:1–17. et al. Outcomes for implementation research: Conceptual distinctions,
+177. Maslej MM, Kloiber S, Ghassemi M, Yu J, Hill SL. Out with AI, in with the measurement challenges, and research agenda. Adm Policy Ment Heal
+psychiatrist: a preference for human-derived clinical decision support in Ment Heal Serv Res. 2011;38:65–76.
+depression care. Transl Psychiatry. 2023;13:1–9. 198. Liang H, Xue Y, Ke W, Wei KK. Understanding the influence of team
+178. Jeffries M, Keers RN, Phipps DL, Williams R, Brown B, Avery AJ, et al. climate on it use. J Assoc Inf Syst. 2010;11:414–32.
+Developing a learning health system: Insights from a qualitative 199. Holden RJ, Brown RL, Scanlon MC, Karsh BT. Modeling nurses’ accept-
+process evaluation of a pharmacist-led electronic audit and feedback ance of bar coded medication administration technology at a pediatric
+intervention to improve medication safety in primary care. PLoS ONE. hospital. J Am Med Informatics Assoc. 2012;19:1050–8.
+2018;13:1–16. 200. Liu C, Zhu Q, Holroyd KA, Seng EK. Status and trends of mobile-health
+179. Malo C, Neveu X, Archambault PM, Émond M, Gagnon MP. Exploring applications for iOS devices: a developer’s perspective. J Syst Softw.
+nurses’ intention to use a computerized platform in the resuscitation 2011;84:2022–33.
+unit: Development and validation of a questionnaire based on the 201. Currie G, Lockett A, Finn R, Martin G, Waring J. Institutional Work to
+theory of planned behavior. J Med Internet Res 2012;14. Maintain Professional Power: Recreating the Model of Medical Profes-
+180. Porter A, Dale J, Foster T, Logan P, Wells B, Snooks H. Implementa- sionalism. Organ Stud. 2012;33:937–62.
+tion and use of computerised clinical decision support (CCDS) in 202. DiBenigno J, Kellogg KC. Beyond Occupational Differences: The Impor-
+emergency pre-hospital care: A qualitative study of paramedic views tance of Cross-cutting demographics and dyadic toolkits for collabora-
+and experience using Strong Structuration Theory. Implement Sci. tion in a US hospital. Adm Sci Q. 2014;59(3):375–408.
+2018;13:1–10. 203. Curran GM, Landes SJ, Arrossi S, Paolino M, Orellana L, Thouyaret L,
+181. Teferi GH, Wonde TE, Tadele MM, Assaye BT, Hordofa ZR, Ahmed MH, et al. Mixed-methods approach to evaluate an mHealth intervention
+et al. Perception of physicians towards electronic prescription system to increase adherence to triage of human papillomavirus-positive
+and associated factors at resource limited setting 2021: Cross sectional women who have performed self-collection (the ATICA study): Study
+study. PLoS ONE. 2022;17:1–11. protocol for a hybrid type i cluster randomized effectiveness-imp. Trials.
+182. Wrzosek N, Zimmermann A, Balwicki Ł. Doctors’ perceptions of 2004;20:1–12.
+e-prescribing upon its mandatory adoption in poland, using the unified 204. Powell BJ, McMillen JC, Proctor EK, Carpenter CR, Griffey RT, Bunger AC,
+theory of acceptance and use of technology method. Healthc 2020;8. et al. A compilation of strategies for implementing clinical innovations
+183. O’Sullivan D, Doyle J, Michalowski W, Wilk S, Thomas R, Farion K. Expand- in health and mental health. Med Care Res Rev. 2012;69:123–57.
+ing usability analysis with intrinsic motivation concepts to learn about 205. Proctor EK, Powell BJ, McMillen JC. Implementation strategies: Recom-
+CDSS adoption: A case study. Health Policy Technol. 2014;3(2):113–25. mendations for specifying and reporting. Implement Sci. 2013;8:1–11.
+184. Wickström H, Tuvesson H, Öien R, Midlöv P, Fagerström C. Health Care 206. Baumeister RF, Leary MR. Writing narrative literature reviews. Rev Gen
+Staff’s Experiences of Engagement When Introducing a Digital Decision Psychol. 1997;1:311–20.
+Support System for Wound Management: Qualitative Study. JMIR Hum
+Factors. 2020;7:1–10.
+Publisher’s Note
+185. Overby CL, Erwin AL, Abul-Husn NS, Ellis SB, Scott SA, Obeng AO, et al.
+Physician attitudes toward adopting genome-guided prescribing Springer Nature remains neutral with regard to jurisdictional claims in pub-
+through clinical decision support. J Pers Med. 2014;4:35–49. lished maps and institutional affiliations.
+186. Elnahal SM, Joynt KE, Bristol SJ, Jha AK. Electronic health record
+functions differ between best and worst hospitals. Am J Manag Care.
+2011;17(4):e121.
+187. Grout RW, Cheng ER, Carroll AE, Bauer NS, Downs SM. A six-year
+repeated evaluation of computerized clinical decision support system
+user acceptability. Int J Med Inform. 2018;112:74–81.
+188. Sicotte C, Taylor L, Tamblyn R. Predicting the use of electronic prescrib-
+ing among early adopters in primary care Recherche Prédire le taux d ’

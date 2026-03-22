@@ -1,0 +1,421 @@
+PriMera Scientific
+Medicine and Public Health
+Volume 5 Issue 3 September 2024
+DOI: 10.56831/PSMPH-05-161
+ISSN: 2833-5627
+Data Sources (LLM) for a Clinical Decision Support Model (SSDC)
+using a Healthcare Interoperability Resources (HL7-FHIR) Platform
+for an ICU Ecosystem
+Type: Research Article Bernardo Chávez Plaza1*, Luis Chicuy Godoy2, Mario Cuellar Martínez3 and Rodrigo
+Received:
+Covarrubias Ganderats4
+Published:
+August 01, 2024
+1ICU, El Salvador Hospital. Santiago, Chile. Artificial Intelligence Hub in Health. Santiago; Chile;
+August 18, 2024
+Citation: Bogotá, Colombia
+2Artificial Intelligence Hub in Health. Santiago; Chile; Bogotá, Colombia
+Bernardo Chávez Plaza., et
+3Artificial Intelligence Hub in Health. Santiago; Chile; Bogotá, Colombia
+al. “Data Sources (LLM) for a
+Clinical Decision Support Model 4Neurosurgery, Navy Hospital. Viña del Mar, Chile; Artificial Intelligence Hub in Health. Santiago; Chile;
+(SSDC) using a Healthcare
+Bogotá, Colombia
+Interoperability Resources
+(HL7-FHIR) Platform for an ICU *Corresponding Author:
+Ecosystem”. PriMera Scientific
+Medicine and Public Health 5.3 Bernardo Chávez Plaza, MD. UPC Service: Adult ICU, El Salvador Avenue
+(2024): 03-12.
+364, Providencia, Santiago, Chile.
+Copyright:
+Summary
+© 2024 Bernardo Chávez Plaza.,
+et al. This is an open-access
+article distributed under the The increasing development of digital technologies in recent years has led to a concomitant
+Creative Commons Attribution
+increase in the availability of data in ICUs. For this vast amount of information to be useful, it
+License, which permits unre-
+must be processed and analyzed to extract meaningful information. However, its size and com-
+stricted use, distribution, and
+reproduction in any medium, plexity often exceed the capabilities of traditional tools, motivating ongoing research efforts to
+provided the original work is develop new analytical techniques better able to address these challenges. This effort has result-
+properly cited.
+ed in the maturation of disciplines such as artificial intelligence, machine learning (ML), data
+mining (LLM), parallel computing, and many others. Despite these advances, countless challeng-
+es of modern computing remain unaddressed and strategies to extract knowledge from complex
+data will undoubtedly persist as an active area of research in the years to come.
+Real-time risk estimation of isolated pathologies provides interpretable information to un-
+derstand the different risks of patients with multiple pathologies using electronic health records
+(EHRs) in an ICU patient; However, in this case there are fundamental problems when formu-
+lating hypotheses such as sample selection bias, imprecise variable definitions, implementation
+limitations, frequency of variable measurement, subjective treatment assignment and model
+overfitting.
+Decision-making and predictive models (CDSS), on the other hand, are not yet widely devel-
+oped with the current known health systems. However, their potential based on massive data
+sources, allows with the structured data of data lakes, to perform artificial intelligence (AI) to
+improve training and control for algorithms according to the different requirements and securi-
+PriMera Scientific Medicine and Public Health https://primerascientific.com/psmph
+Data Sources (LLM) for a Clinical Decision Support Model (SSDC) using a Healthcare Interoperability Resources (HL7-FHIR) Platform for an ICU
+Ecosystem 04
+ty that we must carry out and that we will build for the different syndromes. Here we present an CDSS model that captures data
+from public ICUs and we show in our report the potential data mining, for later analysis with different predictive models.
+We highlight that with the current results of a public ICU, through a Smart ICU there is 0.003% that corresponds to EHR data
+aKnedy wonolryd 3s.:97% is structured data in data lakes that are susceptible to useful algorithms -at the present time- for an CDSS system.
+Data sources; Intensive Care Units; CDSS; Artificial Intelligence; Interoperability; EHR
+Abbreviations
+ICU: Intensive Critical Care Units.
+ML: machine learning.
+LLM: large databases.
+EHR: Electronic Health Record.
+AI: Artificial Intelligence.
+CDSS: clinical decision support system.
+Smart: Intelligent.
+UPC: Critical Care Patient Units.
+FHIR: Fast Health Interoperability Resources.
+HL7 v3: Health Level Seven version 3.
+API: Application Programming Interface.
+DNN: Deep Neural Network.
+NPL: Natural Programing Language.
+IoT: Internet of Things.
+TInI:t Treocdhuncotloiogyn Informations.
+As the amount of data available in healthcare has increased significantly and only 20% of the data included in electronic health
+records (EHR) are in a structured format, databases have become a common solution to manage heterogeneous data in healthcare
+[1]. Today, these are used far below their capacities in medical research. As a result, there is a 15 times higher rate of semi-structured
+data generation (e.g. CSV, JSON and XML), as well as a much higher unstructured and undimensioned data production (in ECG, CT and
+MRI scans) compared to structured data [10]. When focusing on EHR data from an ICU, the analysis is more affected by the criteria for
+admission to the ICU, which vary from one unit to another, and even within the same hospital at different times [1, 4, 8].
+Decision making in the critical care setting is complex, fraught with uncertainty, and stressful. An intensive care physician makes ap-
+proximately 100 decisions when caring for 6 patients and up to 244 ad hoc decisions during a 24-h shift [1]. Most of these are complex,
+event- or data-driven combinations of diagnostic assessments and therapeutic interventions [3]. But, we must also take into account
+other considerations, such as sample selection biases, imprecise variable definitions, implementation limitations, frequency of vari-
+able measurement, subjective treatment assignment, and model overfitting [8]. Similarly, many other clinical decisions are subject to
+subjectivity, such as when a patient is ready to be discharged (selective censoring) [6] or when a patient is readmitted from the ward
+[7].
+Technological advances have led to a “digitalization” of, among others, biomedical research and clinical care. Therefore, in any mod-
+ern hospital, every patient encounter is documented in an EHR, which includes information such as: vital signs, laboratory values,
+images, and much more [3, 4].
+PriMera Scientific Medicine and Public Health https://primerascientific.com/psmph
+Data Sources (LLM) for a Clinical Decision Support Model (SSDC) using a Healthcare Interoperability Resources (HL7-FHIR) Platform for an ICU
+Ecosystem 05
+Moreover, the large databases generated by decades of scientific research are now stored in vast, isolated databases [4]. Further-
+more, the amount and complexity of this data is multiplying every day as more information is produced. In biomedicine, the ideal
+would be to use this information to better understand disease mechanisms, predict clinical outcomes, or design better, optimal treat-
+ments for patient care, i.e. “personalized” medicine. However, this is impossible without analytical tools capable of extracting meaning-
+ful knowledge from the vast amount of data available. This idea is intrinsic to what is known as the “big data” problem, i.e. data of a size
+or complexity beyond the capacity of traditional methods and software to store, process, and analyze, a type of Big Data models large
+database (LLM). The challenges of working with such information are summarized in the “Four Vs of Big Data.” Over the years, LLMs
+have emerged as a breakthrough technology with immense potential to revolutionize various aspects of healthcare. Furthermore,
+with the exponential growth of EHRs, medical literature, and patient-generated data, LLMs could help healthcare professionals extract
+valuable insights and make informed decisions.
+When analyzing or predicting outcomes of treatment decisions, using a clinical decision support system (CDSS), a greater number
+of data from different sources must be incorporated. But ultimately, we must know how we will make decisions and what these data
+sources are and their relative importance.
+This was evident during the COVID-19 pandemic, when demand outstripped ICU capacity [7]. For this, we developed a robust solu-
+tion that captures large volumes of anonymized data from different silos in a dynamic and high-stress environment and generates use-
+fIuml pMoLr taalgnocrei tohfm mse ttoh soudpoploogrtic caliln riocablu dsetnciessiosn making in a public adult service for a multipurpose and undifferentiated ICU [9, 21, 34].
+Although EHR data could offer enormous research opportunities, their analysis is challenging for several reasons. First, the large fea-
+ture space introduces more opportunities for variation in data collection regarding the technology used and sampling frequency com-
+pared to other repositories and clinical trials. Second, the cohort, exposure, and outcome are defined post hoc and therefore provide an
+opportunity for data wrangling and p-hacking. Third, the type and quality of data are not necessarily the same as in other clinical trials.
+The quality of the data, including the patients being captured, is highly dependent on the clinical practice patterns of the designed
+EHR model that introduce biases in sampling selection leading to spurious associations. It must be kept in mind that EHR data are not
+primarily collected for research purposes, but rather represent a digital escape from clinical care or, in some cases, better serve an
+administrative function such as billing a patient.
+The accuracy and reliability of the information provided by language models can be a matter of life and death as it could impact
+healthcare decisions, diagnosis, and treatment plans. In recent years, with the increasing use of data from the EHR, we have observed
+that studies based on these are plagued with validity and semantic interoperability issues that affect their robustness or applicability
+in clinical practice and decision making using AI and we have to consider this as the transcendent importance of not discriminating in
+the use of data between the different data lakes.
+While the practical application of LLMs in healthcare is still in its early stages, preliminary research has already revealed their tre-
+mendous potential in specialized medical research and potential clinical decision support, provided data ethics standards are respect-
+ed. Especially in tasks involving the integration of multimodal medical data from pathology, radiology, and genomics.
+LLMs have demonstrated their unique ability for in-depth interpretation and linkage. Of course, their practical effects and values
+in real medical settings still require further study and validation. With the introduction of these advanced data science tools, we not
+only anticipate efficient consolidation of medical data from multiple sources, but also expect AI agents to offer support in predictive
+analysis and patient management for physicians. For example, AI algorithms could help analyze patient histories, laboratory results,
+and radiology data, subsequently providing diagnostic suggestions based on more robust data. Furthermore, these tools can further
+assist physicians in choosing the optimal treatment plan from a plethora of options, ensuring that patients receive optimal and individ-
+ualized therapeutic outcomes. Through this approach, we can expect a medical decision-making process that is not only more scientific
+PriMera Scientific Medicine and Public Health https://primerascientific.com/psmph
+Data Sources (LLM) for a Clinical Decision Support Model (SSDC) using a Healthcare Interoperability Resources (HL7-FHIR) Platform for an ICU
+Ecosystem 06
+but also more systematic, ensuring that patients receive the best personalized healthcare.
+Clinical information exchange is not seamless due to several technical difficulties, with information interoperability being one of the
+main technical challenges, but still, it is the effective enforcement of interoperability standards that enable the transfer and exchange
+of health data mining; considering authentication, authorization, logging, and auditing mechanisms that must ensure the privacy, in-
+tegrity, and confidentiality of personal data information.
+The FHIR interoperability standard provides a framework for structuring health data and supporting data exchange between dis-
+parate systems and vendors. FHIR documentation is very detailed and available in open source form. Briefly, FHIR consists of a set of
+resources that describe the most common entities in healthcare. As local contexts are expected to deviate from the global standard,
+FHIR introduces a mechanism called “profiling.” Profiles are modifications of the FHIR base resources intended for use in a local con-
+text, such as a hospital system or primary care clinic. These profiles allow the flexibility of capturing data as it is exchanged in the local
+system, while also allowing for standardization, as most fields present in each resource will be consistent with the global standard
+(the base resource). FHIR also provides significant detail on all aspects of information exchange and has a large ecosystem of tools,
+particularly around data exchange. The FHIR format was primarily designed to represent processes; therefore, it closely resembles
+the clinical data model and is more readily available in modern e-health systems. However, no common standardized data format is
+directly suitable for statistical analysis, and data must be pre-processed prior to such analysis.
+FHIR is widely used by healthcare systems around the world, but there remains a shortage of dataderived from publicly available
+healthcare systems in FHIR. Therefore, a system based on HL7v3 FHIR provides unprecedented opportunities for broader dissemi-
+nation and sharing in the logic of an SSDC, with innovative capabilities and instruments that facilitate the development of predictive
+algorithm models in the critical environment.
+With the beginning of the 21st century marked by astonishing growth in artificial intelligence (AI) capabilities and data processing,
+we have witnessed breakthroughs and groundbreaking transformations in various industries. Especially in the healthcare industry,
+these transformations are even more pronounced. However, while AI has revealed countless new opportunities and possibilities to
+us, it also sheds light on the deep complexity inherent in medical decision-making processes. When considering key stages such as
+diagnosis, treatment and prognosis, the real-world medical data we are faced with is incredibly diverse and intricate. Intensive care
+physicians, when dealing with these data, not only refer to a vast and complicated set of standard baseline medical knowledge, but
+also need to develop individualized treatment plans based on the unique circumstances of each critically ill patient. Moreover, medical
+examinations are multimodal and span domains such as pathology, radiology, and genomics. In such a scenario, integrating this vast
+amount of data and information to form a coherent and comprehensive diagnostic and treatment strategy is undoubtedly a challenge.
+Most current tools are isolated to single tasks, implying that clinicians need to perform more holistic analysis and judgment during
+decision-making. Therefore, there is an urgent need for powerful intelligent assistance tools to assist these physicians. This is precisely
+what LLMs [10] generate. Their development and modeling can not only help physicians consolidate and interpret complex data, but
+also provide inputs based on extensive knowledge, thereby ensuring more efficient and accurate assistance at critical stages such as
+diagnosis, treatment, and prognosis of big data. With these smart tools we aim to gain insight into the real, personalized patient situa-
+tion and make more accurate and precise medical decisions when used in an SSDC.
+Not surprisingly, a recent study on clinical rationale models points out that most LLMs in the medical field are trained using “small
+and limited in scope” clinical data sets with limited annotation types (e.g., MIMIC) or “broad and public” biomedical literature (e.g.,
+POubbjeMcetidv)e tsh oaft thhaiss lwimoritked insights into biased healthcare [11].
+In this article we review the current set of SSDC standards that are based on HL7-FHIR in developing an interoperable solution for
+a public ICU of a healthcare ecosystem where LLMs can provide greater statistical power to perform subgroup analysis and reduce the
+risk of type II errors.
+PriMera Scientific Medicine and Public Health https://primerascientific.com/psmph
+Data Sources (LLM) for a Clinical Decision Support Model (SSDC) using a Healthcare Interoperability Resources (HL7-FHIR) Platform for an ICU
+Ecosystem 07
+Our objective is to show LLMs of data from an ICU and which ones are derived from the different sources that could be effectively
+used in decision making. The solution captures and analyzes data, estimating the relative importance of the different data lakes [5, 6]
+in such a way that we can generate both machine learning (ML) and deep neural networks (DNN) algorithms that are used as an SSDC
+iMn adtifeferrieanlst parnedva Mlenett hpaotdhsologies of a critical patient.
+The bibliographic search was carried out in PubMed and Embase, we systematically searched for observational studies published
+between January 2019 and October 2023 and previous narrative reviews before January 2024. Abstracts without full text were exclud-
+ed. The search terms used to find literature included: (“machine learning” or “deep learning” or “neural network” or “artificial intelli-
+gence” or “Big data Large Database (LLM)”) and (“ICU”, “Critical care”, “Electronic Clinical Record”, “Clinical Decision Support System”).
+A total of 74 articles were initially identified with these search terms, of which 15 non-full text abstracts were excluded, leading to
+a final count of 38. Given the narrative nature of this review, the final cohort of articles was selected to provide the reader with the
+best overview of the topic and is not intended to be rigorous or exhaustive. We selected a few other research manuscripts, systematic
+reviews, and doctoral dissertations, and referenced a number of narrative reviews. This article is based on previous studies and only
+contains a summary of the literature. has studies with human participants.
+The original prediction system is based primarily on an CDSS, using data collected at the bedside in the ICU by the Smart UPC type
+system [9]. These massive and constant flows of data volumes include heart rate, respiratory rate, blood pressure (systolic, diastolic
+and mean, differential pressure), temperature, diuresis. In addition, information from the electronic health record (EHR), continuous
+monitoring of mechanical ventilators, visual image coverage from closed circuit video systems, laboratory test results, drug prescrip-
+tions, even environmental variables and management of safety and quality in medical care (hand washing; day/night rotation; number
+of nurses; professional/patient ratio; etc.). Added to this is data from visits by treating specialists and subspecialists, their interconsul-
+tations by means of digitalized forms or in language processed by NPL.
+All this information is extracted through the different application programming integration interfaces (API) in real time; the image
+data is used through DICOM-type imaging data interoperability protocols; or through gateways, from the same suppliers for various
+clinical devices or devices used by professionals. Likewise, we collect and analyze more and more data via Wi-Fi from different sensors
+in critical units, through biosurveillance monitors and other Internet of Things (IoT) data sources in transmission to a capture solution
+based on different layers. This timed information is displayed on a dashboard for the decision-making work of doctors and paramedi-
+cal staff in the command and control rooms that are incorporated into the ICU [9] or through mobile devices.
+Demographic data, comorbidities, vital signs, infused drugs, and laboratory test results are included in the training dataset in the dif-
+ferent algorithmic models of future utility in an ICU [14] in the analysis and work layers of this solution. Thus, for example, for a model
+based on machine learning to advance in the prediction of ventilatory asynchronies or sepsis [11], it will have to improve its perfor-
+mance by increasing the training data not only from the mechanical ventilator, but also from visual analytic monitoring. In addition to
+the deep learning mentioned above, other studies have developed new AI models for the prediction of cardiovascular, neurological,
+sepsis, etc. pathologies [25-30] in different ICU environments and are the conceptual basis for the structural design of a Smart UPC.
+With sufficient data, we are in a position to perform normative artificial intelligence (AI) with training and control data for algorithms
+according to the different requirements that we have pointed out and that we will build for the different syndromes or pathologies [8].
+With the models developed based on open source data for different ICUs [24], we can correlate results with our system. The ex-
+plainable AI model extracts features for variable time and is able to predict different pathologies in real time according to clinical
+requirements.
+PriMera Scientific Medicine and Public Health https://primerascientific.com/psmph
+Data Sources (LLM) for a Clinical Decision Support Model (SSDC) using a Healthcare Interoperability Resources (HL7-FHIR) Platform for an ICU
+Ecosystem 08
+This solution not only has a superior performance in estimating the risk of isolated pathologies in real time, but also provides in-
+terpretable information to understand the different risks of patients with multiple pathologies [8]. In our work proposal, to evaluate
+this function, the performance of deep learning was compared with other methods in the early prediction of different pathologies and
+we will make this explicit in new reports.
+Decision-making and predictive models (SSDC) are not yet widely developed with current known healthcare systems and many
+improvements will be necessary for them to serve as tools in our healthcare centers.
+It is the physician who interprets the data, he or she must reason about the most important content at different stages of a disease.
+For example, physicians may choose to ignore highly abnormal test results, which may be due to sampling, assay, or recording errors.
+Thus, definitions are prone to error and are not fixed. In addition, if reported, the model’s performance must be compared with exist-
+ing algorithms, whether based on expert opinion or linear programming.
+With machine learning-based algorithms used for comparison, the differences must be made with structured data. In recent years,
+this analysis is performed using structured data records from EHRs.
+However, EHRs often fail to capture the relevant clinical determinants of health in such a short time as well as the multiple clinical
+parameters that are being generated in continuous real-time monitoring in an ICU.
+The scope of functions provided by SSDC is broad, including alarm systems, disease management, prescription (Rx), drug inter-
+action, and much more. They can manifest as computerized alerts and reminders, computerized guidelines, order sets, patient data
+reports, documentation templates, and clinical workflow tools [10]. However, the requirements of all clinical environments shown in
+a computational model are difficult to achieve at a technical design stage, since - as we pointed out previously - they are incorporated
+into the structured data record in an EHR. Therefore, the behavior of our solution (Smart UPC) was to exclude it and make it indepen-
+dent of the EHR as a support and security support [12].
+On the other hand, there are other problems in the different AI models used by an SSDC; For example, many studies have only trained
+and validated the model on the same patient cohort with static databases, but have not yet tested its generality in other populations
+in dynamic times. These models need to undergo further prospective testing to demonstrate their clinical benefits or other outcomes
+(the reason for our upcoming publications).
+AI applied by an DCSS model will also face many implementation difficulties when used in the clinical practice of an ICU. Currently,
+many organizations do not have sufficient conditions to implement AI in clinical practice, which requires considerable AI expertise and
+mature information technology or IT capabilities, such as AI evaluation, fusion, continuous monitoring, and recalibration. The security
+Raneds urelltisability of digital data collection and use must also be addressed.
+It took more than 3800 hours of work between medical teams and engineering professionals, with data scientists specialized in
+medicine, to obtain a scalable hybrid data management platform to easily collect, process, protect and analyze all these data models to
+evaluate ways to improve predictive patient outcomes [36].
+With data visualization and processing capabilities for medical decision making and also in nursing, pharmacology and kinesiology
+clinics. We integrated these different systems in standard HL7v3 FHIR formats into our platform [36, 37].
+In Figure 1, we see the amount of data (LLM) captured for 1 patient on average 8 ICU days. With the data from the different data
+sources and their total data load/hour; total data/day; structured and unstructured data and for an undifferentiated public ICU.
+PriMera Scientific Medicine and Public Health https://primerascientific.com/psmph
+Data Sources (LLM) for a Clinical Decision Support Model (SSDC) using a Healthcare Interoperability Resources (HL7-FHIR) Platform for an ICU
+Ecosystem 09
+Figure 1:
+LLM data load graph, used in a Smart UPC system without video control
+(our own authorship in this project).
+We show that in general, the data available through a Smart UPC solution reaches a value of 2244 MB/hr, that is, an average of 53.34
+GB/day, which are available as data lakes through the decision support system (CDSS).
+Of the total available data, the EHR only reaches 0.8% of the data used. For 1 patient, during 8 days of ICU with visual analytics (av-
+erage) we can gather data according to the graph in Figure 2.
+Figure 2:
+Shows a logarithmic graph of the LLM data in 1 patient in 8 days of ICU with
+visual analytics. (our own authorship in this project).
+Unstructured data is 99.2%. There is a percentage of data that corresponds to different variable sources of unstructured data use,
+not daily in ICU (dialysis machines, ultrasounds, echocardiograms, plasmapheresis equipment, multiparametric neurological monitor-
+ing equipment, interconsultant evaluations, etc.).
+The integrated situational analysis in real time, through the visualization layer in a dashboard of each patient is compiled in an Inte-
+grated Command Center and deployable on any mobile device. Figure 3 [40].
+The structured data of the EHRs represent 0.8% as structured data susceptible to use for predictive algorithmic models. The amount
+of data of 1 patient in 8 days averages 492 GB.
+PriMera Scientific Medicine and Public Health https://primerascientific.com/psmph
+Data Sources (LLM) for a Clinical Decision Support Model (SSDC) using a Healthcare Interoperability Resources (HL7-FHIR) Platform for an ICU
+Ecosystem 10
+Figure 3:
+Dashboard of (our own authorship in this project).
+Conclusions
+The LLMs are essential for innovative and disruptive solutions. Any clinical process for decision making supported by Artificial In-
+telligence requires a robust volume of structured data to carry out validly effective algorithms. To fully utilize.
+The power of LLMs in healthcare, it is essential to develop and compare models using a configuration designed specifically for the
+medical field. This configuration must take into account the unique characteristics and requirements of healthcare data and applica-
+tions.
+A CDSS system, such as Smart UPC, relies on structured data from multiple data lakes, which is evident in a highly demanding unit
+such as ICUs. The development of methods to evaluate Medical-LLMs is not only of academic interest but of practical importance, given
+the real-life risks they pose in the healthcare sector.
+C o Int fhlaics tb oeef nin dteemroenssttrated that EHR data is not enough; it is now necessary to process LLMs, as we show in this report.
+The authors (Bernardo Chávez P. and Rodrigo Covarrubias G.) have no conflict of interest.
+(Luis Chicuy Godoy; Mario Cuellar Martínez; Jaime Briggs) partners and data scientists from technology companies (smart cities and
+cybersecurity).
+Private capital contribution through the Waves-CycesProject 02/2021: “Strengthening Patient Safety through Technological Solu-
+tions for Critical Care Units”; from the Artificial Intelligence in Health Hub group. Santiago, Chile and Bogotá, Colombia.
+Informed consent: This study corresponds to a bibliographic review and does not require explicit consent from patients.
+Ethical approval: Approval from the Institutional Review Board was obtained exclusively for the project.
+PriMera Scientific Medicine and Public Health https://primerascientific.com/psmph
+Data Sources (LLM) for a Clinical Decision Support Model (SSDC) using a Healthcare Interoperability Resources (HL7-FHIR) Platform for an ICU
+Ecosystem 11
+Acknowledgement
+To the specialist teams of the UPC of the El Salvador Hospital, Santiago de Chile. The authors also express their sincere gratitude to
+tRheef aenroennycmeosus reviewers for their comments and suggestions to improve the quality of the text.
+1.
+McKenzie Mary S., et al. “An Observational Study of Decision Making by Medical Intensivists”. Critical Care Medicine 43.8 (2015):
+2.
+1660-1668.
+Lundgrén Laine H., et al. “Managing daily activities in intensive care: an observational study of ad hoc decision making by attend-
+3.
+ing nurses and intensivists”. Critical Care 15.4 (2011): R188.
+4.
+Curtis JR and Vincent J-L. “Ethics and end-of-life care for adults in the intensive care unit”. The Lancet 376.9749 (2010): 1347-53.
+Meskó B and Topol EJ. “The imperative for regulatory oversight of large language models (or generative AI) in healthcare”. NPJ
+5.
+Digit. Med 6 (2023): 120.
+Piers RD., et al. “Perceptions of Appropriateness of Care Among European and Israeli Intensive Care Unit Nurses and Physicians”.
+6.
+JAMA 306.24 (2011): 2694-703.
+Lapsley I and Melia K. “Clinical actions and financial constraints: the limits to rationing intensive care”. Sociology of Health &
+7.
+Illness 23.5 (2001): 729-46.
+Mingze Yuan., et al. “Large language models illuminate a progressive pathway to artificial intelligent healthcare assistant”. Med-
+8.
+icine Plus (2024).
+Trentini F., et al. “Pressure on healthcare system and intensive care utilization during the COVID-19 outbreak in the Lombardy
+9.
+region: a retrospective observational study on 43,538 hospitalized patients”. Am J Epidemiol 191.1 (2022): 137-146.
+Thoral PJ., et al. “Explainable Machine Learning on Amsterdam UMCdb for ICU Discharge Decision Support: Uniting Intensivists
+10.
+and Data Scientists”. Critical Care Explorations 3.9 (2021): e0529.
+Cosgriff CV, Celi LA and Sauer CM. “Boosting Clinical Decision-making: Machine Learning for Intensive Care Unit Discharge”.
+11.
+Annals ATS 15.7 (2018): 804-5.
+12.
+Peng C., et al. “A study of generative large language model for medical research and healthcare”. NPJ Digit Med 6.1 (2023): 210.
+Wornow M., et al. “The shaky foundations of large language models and foundation models for electronic health records”. NPJ
+13.
+Digit Med 6 (2023): 135.
+Sauer Christopher M., et al. “Leveraging electronic health records for data science: common pitfalls and how to avoid them”. The
+14.
+Lancet Digital Health 4.12 (2022): e893-e898.
+Chávez Plaza B., et al. “HL7 FHIR Platform, Scalable, Reliable and Comprehensive of Clinical Databases Analyzed with Machine
+Learning for ICU Public Healthcare Center”. In: Pino, E., Magjarević, R., de Carvalho, P. (eds) International Conference on Biomed-
+15.
+ical and Health Informatics 2022. IFMBE Proceedings, Springer vol 108.
+Chávez B., et al. “Data Sources for use in a Healthcare Interoperability Resources (HL7-FHIR) Platform. A Decision Guide for Cli-
+16.
+nicians and Data Scientists in Public ICUs”. Clareus Scientific Medical Sciences 1.1 (2024): 35-42.
+Tobias Gentner., et al. “Data Lakes in Healthcare: Applications and Benefits from the Perspective of Data Sources and Players”.
+17.
+Procedia Computer Science 225 (2023): 1302-1311.
+Sutton RT., et al. “An overview of clinical decision support systems: benefits, risks, and strategies for success”. npj Digit. Med 3
+18.
+(2020): 17.
+19.
+Hripcsak G. “Arden Syntax for Medical Logic Modules”. MD Comput 8.2 (1991): 76-8.
+20.
+HL7 International. Arden Syntax v 2.10 (Health Level Seven Arden Syntax for Medical Logic Systems, Version2.10).
+21.
+Johnson PD., et al. “A virtual medical record for guideline-based decision support”. Proc AMIA Symp 2001: 294-8.
+22.
+Topol EJ. “High-performance medicine: the convergence of human and artificial intelligence”. Nat Med 25 (2019): 44-56.
+Bailly S, Meyfroidt G and Timsit JF. “What’s new in ICU in 2050: big data and machine learning”. Cuidados Intensitivos Med 44
+(2018): 1524-1527.
+PriMera Scientific Medicine and Public Health https://primerascientific.com/psmph
+Data Sources (LLM) for a Clinical Decision Support Model (SSDC) using a Healthcare Interoperability Resources (HL7-FHIR) Platform for an ICU
+Ecosystem 12
+23.
+24.
+Ghassemi M, Celi LA and Stone DJ. “Cutting-edge review: the data revolution in intensive care”. Critical Care 19 (2015): 118.
+25.
+Beam AL and Kohane IS. “Translating artificial intelligence into clinical care”. JAMA 316 (2016): 2368-2369.
+26.
+Ince C. “Intensive care medicine in 2050: the ICU in vivo”. Intensive Care Med 43 (2017): 1700-1702.
+Nemati S., et al. “An interpretable machine learning model for accurate prediction of sepsis in the ICU”. Crit Care Med 46 (2018):
+27.
+547-553.
+Pirracchio R., et al. “Mortality predicting mortality in intensive care units with the ICU super learning algorithm (SICULA): a pop-
+28.
+ulation-based study”. Lancet Respir Med 3 (2015): 42-52.
+Gårdlund B., et al. “Six subphenotypes in septic shock: latent class analysis of the PROWESS Shock study”. J Crit Care 47 (2018):
+29.
+70-79.
+Q Mao., et al. “Multicentre validation of a sepsis prediction algorithm using only vital sign data in the emergency department,
+30.
+general ward and ICU”. BMJ Open 8.1 (2018): e017833.
+Antcliffe DB., et al. “Transcriptomic signatures in sepsis and a differential response to steroids: from the VANISH randomized
+31.
+trial”. Am J Respir Crit Care Med 199 (2018): 980-986.
+Seymour CW., et al. “Derivation, validation, and potential treatment implications of novel clinical phenotypes for sepsis”. JAMA
+32.
+321.20 (2019): 2003-2017.
+33.
+Sutton RS and Barto AG. “Reinforcement Learning: An Introduction”. 2nd ed. MIT Press, Cambridge (2018).
+Guiza F, Van Eyck J and Meyfroidt G. “Predictive data mining on intensive care unit monitoring data”. J Clin Monitor Comput 27
+34.
+(2013): 449-453.
+35.
+Gottesman O., et al. “Guidelines for reinforcement learning in health care”. Nat Med 25 (2019): 16-18.
+Komorowski M., et al. “The Artificial Intelligence Clinician learns optimal treatment strategies for sepsis in intensive care”. Nat
+36.
+Med 24 (2018): 1716-1720.
+37.
+HL7 International. DSTU updates. http://hl7.org/fhir/DSTU1/
+38.
+HL7 International. Welcome to FHIR. http://hl7.org/fhir/R4/
+21st Century Cures Act: Interoperability, information blocking, and the ONC Health IT Certification Program. Fed Regist 85
+39.
+(2020): 25642-961.
+Jung CY, Sward KA and Haug PJ. “Executing medical logic modules expressed in ArdenML using Drools”. J Am Med Inform Assoc
+40.
+19.4 (2012): 533-6.
+Bernardo Chávez P., et al. “SUB-PROJECT: “Monitoring with dashboards for centralized management of data in critical patients,
+ensuring the security and quality of services, with a robust, interoperable and resilient Artificial Intelligence and Machine Learn-
+ing platform, at El Salvador Hospital, Santiago, Chile”. International Conference on Biomedical and Health Informatics 2022.
+IFMBE Proceedings (2022).
+PriMera Scientific Medicine and Public Health https://primerascientific.com/psmph

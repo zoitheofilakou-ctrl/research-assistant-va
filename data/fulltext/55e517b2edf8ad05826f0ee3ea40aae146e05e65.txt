@@ -1,0 +1,912 @@
+Barriers and Facilitators to the Use of Clinical Decision Support
+Systems in Primary Care: A Mixed-Methods Systematic Review
+Pierre-Yves Meunier, MD1,2
+ABSTRACT
+Camille Raynaud, MD1
+PURPOSE To identify and quantify the barriers and facilitators to the use of clinical decision
+Emmanuelle Guimaraes, MD1 support systems (CDSSs) by primary care professionals (PCPs).
+François Gueyffier, MD, PhD3,4 METHODS A mixed-methods systematic review was conducted using a sequential synthe-
+sis design. PubMed/MEDLINE, PsycInfo, Embase, CINAHL, and the Cochrane library were
+Laurent Letrilliart, MD, PhD1,2
+searched in July 2021. Studies that evaluated CDSSs providing recommendations to PCPs
+1Collège universitaire de médecine générale, and intended for use during a consultation were included. We excluded CDSSs used only
+Université Claude Bernard Lyon 1, Lyon, France by patients, described as concepts or prototypes, used with simulated cases, and decision
+2Research on Healthcare Performance supports not considered as CDSSs. A framework synthesis was performed according to the
+(RESHAPE), INSERM U1290, Université HOT-fit framework (Human, Organizational, Technology, Net Benefits), then a quantitative
+Claude Bernard Lyon 1, Lyon, France synthesis evaluated the impact of the HOT-fit categories on CDSS use.
+3Laboratoire de biométrie et biologie évolutive, RESULTS A total of 48 studies evaluating 45 CDSSs were included, and 186 main barri-
+département biostatistiques et modélisation
+ers or facilitators were identified. Qualitatively, barriers and facilitators were classified as
+pour la santé et l’environnement, CNRS
+human (eg, perceived usefulness), organizational (eg, disruption of usual workflow), and
+UMR5558, Université Claude Bernard Lyon 1,
+technological (eg, CDSS user-friendliness), with explanatory elements. The greatest barrier
+Lyon, France
+to using CDSSs was an increased workload. Quantitatively, the human and organizational
+4Fédération de Recherche Santé Lyon Est, PAM
+factors had negative impacts on CDSS use, whereas the technological factor had a neutral
+Santé Publique, Hospices Civils de Lyon, Lyon,
+impact and the net benefits dimension a positive impact.
+France
+CONCLUSIONS Our findings emphasize the need for CDSS developers to better address
+human and organizational issues, in addition to technological challenges. We inferred
+core CDSS features covering these 3 factors, expected to improve their usability in pri-
+mary care.
+Ann Fam Med 2023;21:57-69. https://doi.org/10.1370/afm.2908
+INTRODUCTION
+A
+chieving best practice in primary care is a challenge because primary care
+professionals (PCPs) face a variety of health care issues and cannot always
+identify and access all the relevant information within the timeframe of the
+consultation.1,2 Clinical decision support systems (CDSSs) are software designed to
+be a direct aid to clinical decision making, in which an inference engine matches
+the features of an individual patient to a computerized clinical knowledge base
+or a machine learning algorithm and then presents patient-specific assessments or
+recommendations to the clinician or the patient for a decision.3,4 Clinical decision
+support systems are intended to improve the quality, safety, and efficiency of care.5-7
+In primary care, they have not yet proven effectiveness on clinical outcomes, such
+as morbidity or mortality.8,9 However, according to a large recent meta-analysis of
+controlled trials in any settings, CDSSs increase the proportion of patients receiv-
+ing the desired element of care by 5.8% overall, with a trend toward a worse out-
+come in the outpatient setting.10
+Qualitative evaluations are needed to obtain a comprehensive understanding of
+Conflicts of interest: authors report none.
+the barriers and facilitators to CDSS use, which are key to their implementation
+success.11,12 For this purpose, several systematic reviews focused on specific types
+CORRESPONDING AUTHOR of CDSS (knowledge-based CDSSs,13 clinical reminders14), specific processes of
+Pierre-Yves Meunier care (drug prescription,15,16 diagnosis17), or specific health issues (antibiotics pre-
+Collège universitaire de médecine générale scription,18 HIV management19), without any restriction to their context of use.
+Université Claude Bernard Lyon 1
+However, health information systems implementation or evaluation models such as
+8 avenue Rockefeller
+the HOT-fit framework (Human, Organization, Technology, Net Benefits20) and
+69008, Lyon, France
+pierre-yves.meunier@univ-lyon1.fr others21-25 emphasize the influence of context-specific factors in the use of health
+ANNALS OF FAMILY MEDICINE ✦ WWW.ANNFAMMED.ORG ✦ VOL. 21, NO. 1 ✦ JANUARY/FEBRUARY 2023
+57
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+information systems. This is even more important for the screened titles and abstracts and excluded irrelevant records.
+primary care setting owing to the unique combination of the They independently screened potentially relevant articles
+diversity and complexity of health issues managed (often in full text while documenting reasons for exclusion. The
+multiple in the same consultation), its patient-centered care concordance (κ) was 0.62 for title and abstract screening and
+approach, and its particular decision-making context,26 which 0.72 for full text screening. The disagreements were resolved
+may generate specific needs for decision support systems. by seeking consensus between the 2 authors.
+The objective of the present systematic review was there-
+fore to identify and quantify the barriers and facilitators Quality Appraisal
+to the use of CDSSs by PCPs. From a qualitative synthesis The quality of the included studies was independently
+based on the HOT-fit framework, we derived a quantitative appraised by 2 authors (P-Y.M. and C.R.) using the Covi-
+synthesis assessing the mean impacts of the human, organiza- dence software. We applied the QuADS tool that has been
+tional, technological factors, and the net benefits dimension designed to appraise the methodological and reporting qual-
+on CDSS use by PCPs. ity of qualitative, quantitative, and mixed-methods studies
+in systematic reviews, based on 13 common criteria.28 Each
+criterion is assessed according to the 4 following proposals:
+METHODS
+no mention at all, very slightly, moderately, complete. The
+The present study was a mixed-methods systematic review concordance (κ) was 0.39. The disagreements were resolved
+that followed the Preferred Reporting Items for Systematic by seeking consensus between the 2 authors.
+Review and Meta-Analysis (PRISMA) reporting guideline.
+The study protocol was registered on PROSPERO on July 14, Data Extraction
+2020 (CRD42020185199). We used a structured data collection form to extract CDSS
+features (Supplemental Table 1) and methodological fea-
+Search Strategy tures of the included studies. The extraction process was
+The search strategy was built in cooperation with medi- performed independently by 2 authors (P-Y.M. and C.R.);
+cal librarians. We searched PubMed/MEDLINE, PsycInfo, disagreements were resolved by seeking consensus between
+Embase, CINAHL, and the Cochrane library for relevant them. We contacted the main authors of the included studies
+studies. We tracked citations from included records to identify to obtain data on CDSS features not reported in the pub-
+additional relevant references. The search was performed on lished article.
+July 5, 2021 without date limitation. The complete search strat-
+egy for each database is available in Supplemental Appendix 1. The HOT-fit Framework
+The HOT-fit framework describes the interdependent human,
+Eligibility Criteria organizational, and technological factors related to health
+We included all qualitative, quantitative, and mixed methods information system adoption. These 3 factors are described
+studies and only original articles for which the primary or through 7 dimensions: system use and user satisfaction related
+secondary objectives were to identify barriers and facilitators to the human factor; environment and structure related to
+to the use of CDSSs in primary care. For studies involving the organizational factor; system, information and service
+various professions or specialties, we only considered those quality related to the technological factor. The framework is
+that had at least 50% PCPs in the study sample. We included complemented by an additional dimension, net benefits, which
+CDSSs that provided recommendations to PCPs (and possibly captured the positive and negative effects of CDSS recommen-
+to patients) and were intended for use during the consultation. dations on PCPs (Figure 1).20 Each HOT-fit dimension includes
+We excluded publication types that were posters, dis- several evaluation measures. The HOT-fit framework was cho-
+sertations or theses, conference proceedings, commentaries, sen as it assesses barriers and facilitators to the use of health
+letters, or editorials. We excluded the following decision sup- information systems from a pragmatic, user-centered approach.
+ports that were not considered as being CDSSs: drug-drug
+interaction alert systems, risk assessment tools that provided Data Synthesis
+assessments but not recommendations, and clinical decision The review followed a sequential synthesis design, using a
+supports without inference engine. We excluded the fol- framework synthesis to inform a quantitative synthesis (Fig-
+lowing CDSSs: decision aids only used by patients, CDSSs ure 2).30-32 First, a convergent integrated approach built up a
+described as concepts or prototypes, and CDSSs evaluated common set of qualitative data from the included qualitative
+with simulated clinical scenarios. and quantitative data. It involved data transformation through
+a narrative interpretation of quantitative data.31 The resulting
+Selection Process framework synthesis was based on the HOT-fit framework.
+The selection process was performed using Covidence soft- Second, we performed a quantitative synthesis by calculating
+ware (Veritas Innovation Ltd).27 After automatic removal the difference between barriers and facilitators categorized
+of duplicates, 2 authors (P-Y.M. and C.R.) independently according to the HOT-fit framework.
+ANNALS OF FAMILY MEDICINE ✦ WWW.ANNFAMMED.ORG ✦ VOL. 21, NO. 1 ✦ JANUARY/FEBRUARY 2023
+58
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+From the framework synthesis results, we first
+Figure 1: HOT-fit framework (derived from Yusof et al29).
+quantified the individual impacts of the 3 HOT-
+fit factors (human, organization, technology) and
+Human the net benefits dimension on the use of each
+CDSS. In practice, facilitators to CDSS use were
+System use quantified as +1 and barriers as −1. For example,
+Technology
+if a given CDSS had X barriers and Y facilita-
+User satisfaction
+System quality tors classified in the human factor, this factor’s
+impact on the use of this CDSS was calculated
+Net benefi ts
+Information as Y-X. For each CDSS, barriers and facilitators
+Organization
+were considered only once, regardless of the
+Service quality number of their occurrences in the included stud-
+Structure
+ies. Then, we calculated the mean impact of each
+HOT-fit factor and the net benefits dimension on
+Environment
+the use of the whole sample of CDSSs included,
+Fit
+with a confidence interval (CI).
+HOT-fit = human, organization, technology, net benefits.
+Note: The HOT-fit framework describes the interdependent human, organizational, and technological factors
+related to health information system adoption. A fit between the human, organizational, technological fac- RESULTS
+tors and the net benefit dimension is required for the adoption of these systems.
+A total of 48 studies assessing 45 CDSSs were
+included in the review (Figure 3).34-81 Of these, 29 were
+Figure 2. Mixed-methods synthesis design. mixed-methods studies, 15 were qualitative studies, and 4
+were quantitative studies. Included studies were published
+Qualitative data Quantitative data from 1998 to 2021 (median year: 2016). Three CDSSs
+(EBMeDS, NHGDoc, and PRIMA-EDS) were assessed in
+Convergent 2 studies.
+integrated Qualitative data
+approach
+Description of the CDSSs
+Clinical decision support systems were mainly developed
+Qualitative data
+(n = 18) and used (n = 17) in the United States. The main users
+were primary care physicians (n = 37) and nurses (n = 22).
+Framework synthesis: identifi cation of barriers and Clinical decision support systems were used for preven-
+facilitators to the use of CDSSs according to the tive care (n = 27), treatment (n = 21), management of chronic
+Sequential HOT-fi t framework (Table 2) disease(s) (n = 13), and/or diagnosis (n = 7). All CDSSs were
+synthesis knowledge based; none integrated a machine learning algo-
+design
+rithm. Updates to the knowledge database were made in
+Quantitative synthesis: indicators of the impact of
+11/33 CDSSs for which this information was available. The
+HOT-fi t categories on CDSS use (Table 3)
+strength of evidence of CDSS recommendations was pro-
+CDSS = clinical decision support system; HOT-fit = human, organization, technology, net vided in 4/19 studies for which the information was available.
+benefits.
+Twenty-three CDSSs provided a direct link to the source of
+recommendations. Thirteen CDSSs provided educational
+The framework synthesis was performed using NVivo materials to help patients with shared decision making. Pri-
+(QSR International), released in March 2020.33 Barriers and mary care professionals were trained to the use of 36 CDSSs.
+facilitators to the use of CDSSs were coded inductively as Most CDSSs were partially or fully integrated in the elec-
+concepts and then classified into the appropriate HOT-fit tronic health record (EHR) (n = 28). The main features of the
+evaluation measures.32 This was done independently by 2 included CDSS are described in Table 1. Detailed features are
+authors (P-Y.M. and E.G.), who reviewed together every presented in Supplemental Appendix 2.
+coded citation and reached consensus on the concepts and
+the associated HOT-fit evaluation measures. We extended the Quality Assessment
+HOT-fit framework to include a few concepts we were unable The rationale for the choice of the data collection tool was
+to classify in existing evaluation measures. Due to the various not mentioned at all in 18 studies and very slightly in 6
+level of detail in the description of the barriers and facilitators studies. The format and content of the data collection tool
+to CDSS use in the included studies, certain codes were con- was estimated as completely appropriate to meet the stated
+sidered as explanatory elements of higher concepts that we research objectives in 27 studies, and moderately appropri-
+named main barriers and facilitators. ate in 19 studies. The appraisal of the 13 quality criteria of
+ANNALS OF FAMILY MEDICINE ✦ WWW.ANNFAMMED.ORG ✦ VOL. 21, NO. 1 ✦ JANUARY/FEBRUARY 2023
+59
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+main barriers and facilitators, 43 were classified
+Figure 3. PRISMA flow chart.
+as human factors, 49 as organizational factors, 70
+as technological factors, and 24 in the net benefits
+Records identifi ed from:
+dimension. The full list is presented in Supplemental
+Identifi cation 5,190 Databases
+Appendix 3, and barriers and facilitators (or their
+1 Citation tracking pairs) identified in at least 7 CDSSs are described
+in Tables 2 and 3 with their explanatory elements.
+Records removed before screening: The mean number of main barriers and facilitators
+3,017 Duplicate records identified per CDSS was 28.9; this ranged from 8 to
+86 (Supplemental Table 4). We complemented the
+HOT-fit framework by adding an evaluation measure
+2,174 Records screened
+called “hardware” in the dimension “structure” of the
+factor “organization” to describe barriers and facilita-
+Records excluded
+tors related to hardware issues in PCPs facilities.
+1,923 Irrelevant
+From the human perspective, PCPs valued
+7 Duplicates removed manually
+CDSSs for which they were trained and perceived
+Screening to be useful. Conversely, they did not appreciate
+244 Reports sought for retrieval CDSS that provided recommendations conflict-
+ing with their beliefs or expertise. They frequently
+0 Reports not retrieved experienced alert fatigue or information overload.
+From the organizational perspective, PCPs
+appreciated that the CDSS was well integrated into
+244 Reports assessed for eligibility
+the clinical workflow and physicians appreciated
+that other professionals eased their workload. Con-
+196 Reports excluded
+versely, PCPs expressed difficulties in using CDSSs
+54 Not an original article
+with patients managed by other specialists because
+40 N o identifi cation of barriers
+of disagreements between CDSS recommendations
+and facilitators
+and specialists’ prescriptions.
+31 Not a CDSS
+From the technological perspective, PCPs
+25 E valuation data insuffi ciently
+appreciated fully integrated and easy-to-use CDSSs,
+Include detailed providing reminders for PCPs and educational
+18 Simulated clinical cases
+materials to patients, and relevant and reliable rec-
+10 Not used in the consultation
+ommendations. Conversely, they disliked CDSSs
+6 CDSS concept that were slow, or targeting only a few health issues.
+6 CDSS prototype They sometimes questioned the reliability of the
+4 Not assessed in primary care recommendations, which they attributed to the
+2 Updated evaluation available quality and completeness of the information col-
+lected. PCPs frequently requested CDSS custom-
+ization features.
+48 Reports of included CDSSs
+From the net benefits perspective, PCPs felt that
+48 Studies of included CDSSs
+using CDSSs increased workload during the consul-
+45 CDSSs included in review
+tation for 33 of the 45 included CDSSs. Despite this
+CDSS = clinical decision support system; PRISMA = Preferred Reporting Items for Systematic Review and major barrier, PCPs largely agreed on the benefits of
+Meta-Analysis. CDSSs in terms of their potential to improve qual-
+ity of care, particularly for preventive care. Primary
+the QuADS tool is presented in Supplemental Table 2. The care clinicians also felt that CDSSs improved the automatic
+methodological features of the included studies are presented identification of all useful information that they did not sys-
+in Supplemental Table 3. tematically recognize at the moment the clinical decision is
+made, as well as shared medical decision making through the
+Framework Synthesis provision of educational material to patients and their adher-
+In total, 186 main barriers and facilitators and 69 explanatory ence to guidelines.
+elements were identified. All CDSSs reported technologi-
+cal barriers or facilitators, but 4 CDSSs did not assess the Quantitative Synthesis
+human factor, 4 did not assess the organizational factor, and Organizational and human HOT-fit factors had an overall
+3 did not assess the net benefits dimension. Among the 186 negative impact on CDSS use by PCPs. The technological
+ANNALS OF FAMILY MEDICINE ✦ WWW.ANNFAMMED.ORG ✦ VOL. 21, NO. 1 ✦ JANUARY/FEBRUARY 2023
+60
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+Table 1. Main Features of the 45 Identified CDSSs
+CDSS n = 45 in Country
+48 Studies Name of Use Care Procedures Targeted Health Issues
+North America
+Alagiakrishnan et SMART-CDS Canada Prevention (iatrogenesis) Adaption of medication to renal
+al,36 2016 function from the patient’s EHR
+Ash et al38 2011 USA Diagnosis, Therapeutics (prescribing, Drug-drug, drug-condition, and
+vaccination) drug-allergy interaction check-
+ing, patient care plan dashboard
+with reminders, nearly 3,000
+condition specific point-and-click
+templates for documentation
+Curry et al42 2011 Decision Support Canada Prevention (disease, test ordering) Prescription of diagnostic imaging
+Server
+Dixon et al43 2013 USA Prevention (disease, test ordering), Diabetes mellitus type II, hyperten-
+Management of chronic disease(s) sion, coronary artery disease
+Doerr et al44 2014 My Family USA Prevention (disease, test ordering) Cancer risk management
+Edelman et al45 2014 The Pregnancy and USA Prevention (disease, test ordering) Prenatal genetic screening
+Health Profile (PHP)
+Feldstein et al46 2013 Patient Panel-Support USA Prevention (iatrogenesis, disease, test Graphically displays ‘‘care gaps’’
+Tool (PST) ordering), Management of chronic (eg, for screening, medication
+disease use, monitoring, risk-factor con-
+trol, vaccination)
+Guenter et al47 2019 McMaster Pain Assis- Canada Diagnosis, Therapeutics (prescribing, Neuropathic pain
+tant (MPA) vaccination)
+Jenssen et al51 2016 USA Prevention (disease, test ordering) Smoking cessation
+Therapeutics (prescribing, vaccination)
+Kempe et al52 2017 Immunization infor- USA Prevention (disease, test ordering) Vaccination
+mation systems
+Lam Shin Cheung et eAMS Canada Therapeutics (prescribing, vaccination), Asthma
+al54 2020 Management of chronic disease(s)
+Lemke et al55 2020 GWA USA Prevention (disease, test ordering) Genetic risk assessment
+Litvin et al. (2012) ABX-TRIP CDSS USA Prevention (disease, test ordering), Acute respiratory infections
+Diagnosis, Therapeutics (prescribing)
+Litvin et al56 2016 USA Prevention (disease, test ordering) Identification and management of
+chronic kidney disease
+Minian et al62 2021 Canada Prevention (disease, test ordering) Alcohol cessation
+Montini et al63 2013 USA Prevention (disease, test ordering) Tobacco cessation
+Therapeutics (prescribing, vaccination)
+Price et al67 2017 Canada Prevention (iatrogenesis) Potentially inappropriate prescrip-
+tions in the elderly
+Richardson et al68 USA Therapeutics (prescribing, vaccination) Sore throat, upper respiratory tract
+2019 infections
+Rubin et al72 2006 USA Therapeutics (prescribing, vaccination), Acute respiratory tract infections
+Diagnosis
+Trafton et al76 2010 ATHENA-OT USA Therapeutics (prescribing, vaccination) Opioid therapy for chronic, non-
+cancer pain
+Trinkley et al77 2021 USA Therapeutics (prescribing, vaccination) Heart failure
+Williams et al79 2016 USA Prevention (disease, test ordering) Pediatric cardiovascular risk
+Zheng et al81 2005 CRS USA Prevention (iatrogenesis, disease, test Diabetes mellitus type II, hyper-
+ordering), Therapeutics (prescribing, lipidemia, steroid-induced osteo-
+vaccination), Management of chronic porosis, influenza, pneumonia,
+disease(s) breast cancer, cervical cancer
+continues
+CDSS = clinical decision support system; COPD = chronic obstructive pulmonary disease; EHR = electronic health record; NICE = National Institute for Health and Care Excellence.
+ANNALS OF FAMILY MEDICINE ✦ WWW.ANNFAMMED.ORG ✦ VOL. 21, NO. 1 ✦ JANUARY/FEBRUARY 2023
+61
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+Table 1. Main Features of the 45 Identified CDSSs (continued)
+CDSS Country
+n = 45 in 48 studies Name of Use Care Procedures Targeted Health Issues
+Europe
+af Klercker et al35 Sweden Diagnosis Ear, nose, throat diseases
+1998
+Arts et al37 2018 The Netherlands Management of chronic disease(s) Diabetes mellitus type II, atrial
+fibrillation, hypertension, medi-
+cation prescriptions relating to
+care of older adults
+Bindels et al41 2003 GRIF Automated The Netherlands Prevention (disease, test ordering) Comments on the appropriateness
+Feedback System of diagnostic tests ordered by
+general practitioners
+Helldén et al48 2015 The renal button Sweden Prevention (iatrogenesis) Adaption of medication to renal
+function from the patient’s EHR
+Heselmans et al49 EBMeDS Belgium, Esto- Prevention (iatrogenesis, disease, test > 1,000 NICE-accredited interna-
+2020 and Koskela nia, Finland, ordering), Therapeutics (prescribing, tional guidelines
+et al53 2016 Italy vaccination), Management of chronic
+disease
+Lugtenberg et al58,59 NHGDoc The Netherlands Prevention (disease, test ordering, iat- Diabetes mellitus type II, cardiovas-
+2015 (2 articles) rogenesis), Therapeutics (prescribing, cular risk management, asthma/
+vaccination), Management of chronic COPD, thyroid disorders, viral
+disease(s) hepatitis and other liver diseases,
+atrial fibrillation, subfertility
+Pannebakker et al64 England Prevention (disease, test ordering) Pigmented skin lesions
+2019
+Rieckert et al68,69 PRIMA-EDS Germany, Aus- Prevention (iatrogenesis) Polypharmacy in older and chroni-
+2018, 2019 tria, Italy, cally ill people
+England
+Rousseau et al71 2003 England Therapeutics (prescribing, vaccination), Asthma and angina in adults
+Management of chronic disease(s)
+Toth-Pal et al75 2008 Evibase Sweden Management of chronic disease(s) Congestive heart failure
+Australia
+Abimbola et al34 2019 Health Tracker Australia Prevention (disease, test ordering) Cardiovascular risk management
+Bandong et al39 2019 My Whiplash Australia Therapeutics (prescribing, vaccination) Whiplash-associated disorders
+Navigator
+Peiris et al65 2014 Australia Diagnosis, Therapeutics (prescribing, Back pain management
+vaccination)
+Wan et al78 2012 Australia Management of chronic disease(s) Diabetes mellitus type 2
+Wilson et al80 2007 EMPOWER Australia Prevention (disease, test ordering), Cardiovascular risk management,
+Therapeutics (prescribing, vaccination) hypertension
+South America
+Maia et al60 2016 Brazil Management of chronic disease(s) Diabetes mellitus type II
+Marcolino et al61 Brazil Prevention (disease, test ordering), Diabetes mellitus type II, hyper-
+2021 Management of chronic diseases tension, cardiovascular risk
+treatment
+Silveira et al73 2019 TeleHAS Brazil Prevention (disease, test ordering), Cardiovascular risk management,
+Therapeutics hypertension
+Africa
+Bessat et al40 2019 REC Burkina Faso Diagnosis, Therapeutics (prescribing, Follow-up and treatment of chil-
+vaccination) dren under the age of 5 years in
+developing countries
+Jensen et al50 (2019) eIMCI South Africa Prevention (disease, test ordering), Management of childhood illness
+Therapeutics (prescribing, vaccination)
+Sukums et al74 2015 QUALMAT Burkina Faso, Therapeutics (prescribing, vaccination) Antenatal and intrapartum care
+Ghana,
+Tanzania
+Asia
+Praveen et al66 2014 India, Indone- Management of chronic disease(s) Cardiovascular risk management
+sia, Thailand
+CDSS = clinical decision support system; COPD = chronic obstructive pulmonary disease; EHR = electronic health record; NICE = National Institute for Health and Care Excellence.
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+Table 2. Main Facilitators Reported in More Than 7 CDSSs, and Their Explanatory Elements, Classified According to
+the HOT-Fit Framework
+HOT-Fit Framework
+Factors and Dimensions
+(No. CDSSs concerned) Evaluation Measures Main Facilitatorsa (No. CDSSs Concerned) Explanatory Elements
+Human (n = 41)
+User satisfaction Perceived usefulness Perceived usefulness of the CDSS (n = 23)
+(n = 31) Training Training before use is appreciated (n = 10)
+Software satisfaction PCPs would continue to use the CDSS (n = 9)
+Motivation to use Patients’ perceived usefulness of the CDSS increases
+PCPs motivation to use it (n = 7)
+Overall satisfaction CDSSs increase PCPs satisfaction (n = 7)
+Organization (n = 41) Clinical process Natural integration of the CDSS in the clinical work-
+Structure (n = 39) flow (n = 13)
+Autonomy Producing reports of quality measures through col-
+lected data increases the value from the CDSS’s use
+in clinical practice (n = 7)
+Teamwork Other professionals ease physician’s increased work- Expansion of skill set and roles in
+load with the CDSS (n = 6) assisting physicians and patients
+in meeting care needs
+Technology (n = 45) Ease of use The CDSS is user-friendly (ergonomic) (n = 30)
+System quality CDSS recommendations are easy to understand (n = 9)
+(n = 45) Usefulness of system Reminders (n = 8)
+features and functions
+Ease of learning Easy to use after a short learning period (n = 9)
+Information quality Usefulness Information provided is useful for the targeted pro-
+(n = 40) cess of care (n = 13)
+Educational materials for patients are valuable (n = 7)
+Format Pleasing visual layout [n = 12]
+Relevance Recommendations are relevant (n = 11)
+Reliability Recommendations are reliable (n = 9) General agreement with the valid-
+ity of recommendations
+Service quality Technical support Satisfaction with the CDSS service support (n = 7) CDSS technical staff availability
+(n = 11)
+Net benefits (n = 42) Effectiveness Potential to improve the quality of care (n = 23) Brings preventive care to the
+forefront
+Helps to systematize assessment
+of every patient
+Facilitates patient care
+management
+CDSS helps PCPs to improve guideline adherence
+(n = 11)
+Efficiency Using CDSS saves time (n = 22) Shortening documentation time
+Giving a quick patient evaluation
+from relevant data in patients’
+EHRs
+Decision-making CDSS facilitates decision making (n = 22) CDSS is facilitating decision mak-
+quality ing about referral
+Communication CDSS helps focus on patient education (n = 18) CDSS helps increase patient
+engagement
+CDSS eases patient-PCP communication (n = 13)
+Clinical practice CDSS is a way to update PCP’s knowledge (n = 17)
+CDSS leads to better teamwork in primary care (n = 7)
+CDSS increases PCPs’ self-confidence (n = 7)
+Error reduction CDSS helps PCPs to identify unrecognized information
+needs (n = 17)
+CDSS = clinical decision support system; EHR = electronic health record; HOT-fit = human, organization, technology, net benefits; PCP = primary care professional.
+a Main facilitators are ranked by the number of CDSSs concerned.
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+Table 3. Main Barriers Reported in at Least 7 CDSSs, and Their Explanatory Elements, Classified According to the
+HOT-Fit Framework
+HOT-Fit Framework
+Factors and Dimensions Evaluation Main Barriersa
+(No. CDSSs Concerned) Measures (No. CDSSs Concerned) Explanatory Elements
+Human (n = 41)
+System use (n = 39) Resistance or Conflicts between CDSS recommendations CDSS recommendations do not reflect the com-
+reluctance and PCP expertise or beliefs (n = 18) plexity of the situation
+Report acceptance Alert fatigue (n = 13)
+Information overload (n = 8) Lack of a concise synthesis of the CDSS
+recommendation
+Training Training before use is needed (n = 11) The training session to the CDSS is inadequate
+or too short
+Attitude PCPs don’t need help with the targeted
+health issue (n = 8)
+Lack of engagement from PCPs (inertia of
+previous practice) (n = 8)
+Knowledge and Lack of computer skills (n = 7)
+expertise
+Motivation to use Ask for financial compensation to use the
+CDSS (n = 7)
+Organization (n = 41) Clinical process Using CDSS disrupts usual workflow (n = 25)
+Structure (n = 39) Teamwork Need of more teamwork with other PCPs Physicians fear more the CDSS workload than
+to help physicians with CDSS’s increased assistants or nurses
+workload (n = 13)
+Hardware Lack or computers or tablets (n = 7)
+Environment (n = 18) Inter-organizational Difficulty to use CDSSs for patients coman- Information is sometimes missing or not
+relationship aged by other specialists (n = 11) integrated from external sources
+Technology (n = 45) Ease of use The CDSS is not user-friendly (n = 21) Need to switch windows in the EHR while using
+System quality CDSSs
+(n = 45) Location of CDSS recommendations should be
+changed
+Need to switch windows between the EHR and
+the CDSS
+Turnaround time CDSS slowness (n = 16) CDSS’s slowness impairs the interaction with the
+patient and increases the consultation time
+Usefulness of sys- CDSS not fully integrated in the EHR A CDSS not fully integrated in the EHR is time
+tem features and (n = 14) consuming and disrupts workflow
+functions The most current information collected in the
+EHR is sometimes not updated in the CDSS
+Database contents The CDSS should target more health issues
+(n = 11)
+Questioning validity of CDSS’s knowledge Concerns about the CDSS’s independence from
+database (n = 7) pharmaceutical industry
+Flexibility Need of customization options (n = 8)
+continues
+CDSS = clinical decision support system; EHR = electronic health record; HOT-fit = human, organization, technology, net benefits; PCP = primary care professional.
+a Main barriers are ranked by the number of CDSSs concerned.
+factor had a neutral overall impact, and the net benefits DISCUSSION
+dimension an overall positive impact on CDSS use (Table 4). All barriers and facilitators to CDSS use by PCPs were dis-
+Individual impacts of the 3 HOT-fit factors and the net ben- tributed across the 3 HOT-fit factors and the net benefits
+efits dimension on the use of each CDSS are presented in dimension, with a predominance of the technological factor,
+Supplemental Table 5. that was the only factor explored in all studies. However,
+ANNALS OF FAMILY MEDICINE ✦ WWW.ANNFAMMED.ORG ✦ VOL. 21, NO. 1 ✦ JANUARY/FEBRUARY 2023
+64
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+Table 3. Main Barriers Reported in at Least 7 CDSSs, and Their Explanatory Elements, Classified According to the
+HOT-Fit Framework (continued)
+HOT-Fit Framework
+Factors and Dimensions Evaluation Main Barriersa
+(No. CDSSs concerned) Measures (No. CDSSs concerned) Explanatory Elements
+Information quality Format Format of recommendations (length, struc-
+(n = 40) ture, font colors) (n = 13)
+Reliability Doubtful reliability of the recommendations The reliability of the recommendations depends
+(n = 12) on the quality and completeness of the infor-
+mation collected
+Relevance Recommendations are not relevant (n = 11) Conflicts between patient complaints and unre-
+lated CDSS recommendations
+General recommendations are often irrelevant
+Usefulness Recommendations are not helpful (n = 8)
+Net benefits Efficiency Increased workload during the consultation Lack of time to use the CDSS during the
+(n = 42) (n = 33) consultation
+Structured data collection takes too much time
+Duplication of data collection
+Coping strategies: increased consultation time,
+need of additional time to use the CDSS out-
+side the consultation, scheduling follow-up
+consultations
+Negative effect on patient-PCP communica-
+tion (n = 7)
+CDSS = clinical decision support system; EHR = electronic health record; HOT-Fit = human, organization, technology, net benefits; PCP = primary care provider.
+aMain barriers are ranked by the number of CDSSs concerned.
+Table 4. Mean Impacts of HOT-Fit Categories on CDSS Use by PCPs
+Human Organization Technology Net Benefits
+Mean impact of HOT-fit categories on CDSS use Slightly negative Slightly negative Neutral Positive
+Mean difference between barriers and facilitators (95% CI) –1.5 (–2.2 to –0.8) –1.9 (–2.6 to –1.1) –0.5 (–1.5 to 0.5) +3.1 (2.2 to 3.9)
+CDSS = clinical decision support system; HOT-fit = human, organization, technology, net benefits; PCP = primary care professional.
+Note: In the human factor, there was 1.5 additional barriers per CDSS than there were facilitators. In the net benefits dimension, there was 3.1 additional facilitators per CDSS than there were
+barriers.
+the overall impact of the technological factor on the use evaluations based on simulated clinical scenarios.13 The quan-
+of CDSSs by PCPs was neutral, which indicates a bal- titative gap analysis revealed the predominance of technologi-
+ance between technological barriers and facilitators, while cal and human factors, and a knowledge gap regarding the
+the human and organizational factors had overall negative organizational factor and the net benefits dimension. How-
+impacts and the net benefit dimension an overall positive ever, no conclusion could be drawn on the relative impact of
+impact. The net benefits reported by PCPs support the these factors on CDSS use. In the present review, the orga-
+potential effectiveness of CDSSs in improving quality and nizational factor was not less frequently identified than the
+safety of care. However, they seem unable to improve care human factor, and the quantitative synthesis assessed for the
+efficiency since they are believed to increase PCP workload. first time the relative impact of the HOT-fit factors on CDSS
+use. In 2013, Moxey et al analyzed both health care providers’
+Comparison With Other Studies general views on, and use of, CDSSs including computerized
+This review is the first to identify and quantify barriers and guidelines and risk assessment tools, in various settings.15
+facilitators to the use of CDSSs specifically in the primary These systematic reviews identified barriers and facilitators
+care setting. In 2017, Kilsdonk et al conducted a systematic mostly concerning time consumption, workflow, integration
+review and gap analysis of barriers and facilitators to the use in the EHR, user friendliness, and relevance of the recom-
+of knowledge-based CDSSs in any setting (including hospi- mendations. Moxey et al conducted a subgroup analysis that
+tals) according to the HOT-fit framework, including CDSS identified the lack of CDSS integration into the EHR and
+ANNALS OF FAMILY MEDICINE ✦ WWW.ANNFAMMED.ORG ✦ VOL. 21, NO. 1 ✦ JANUARY/FEBRUARY 2023
+65
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+present review, only CDSSs used in clinical settings and in the
+Table 5. Expected Features of a CDSS for Primary Care
+specific context of primary care were included, which further
+Intrinsic features strengthens the external validity of the results. It may, how-
+Including preventive care ever, not be fully representative of the various CDSSs devel-
+Covering a large array of conditions oped for primary care, as some of them were probably not
+Providing reminders personalized to the patient studied regarding barriers and facilitators to their use.
+Frequency-based indicators of the impact of HOT-fit
+Minimizing information overload and alert fatigue
+categories on CDSS use were useful for comparison pur-
+Providing educational materials to patients
+poses; they were, however, limited by the heterogeneity of
+Integrated in the EHR, with the fewest possible duplicate data entries
+CDSS barriers and facilitators and by the difficulty to weight
+Fast processing
+them individually according to their perceived importance
+Contextual features
+by PCPs. In addition, PCPs reported some barriers such as
+Developed in close collaboration with PCPs
+conflicts between CDSS recommendations and their own
+Providing the rationale for the selection of sources of its knowledge
+base expertise or lack of computer skills, while the first barrier is
+With teamwork for data collection and use of the CDSS more likely related to the use of guidelines86 and the second
+With systematic training for its use to the uptake of EHRs.87,88 The classification of barrier and
+facilitators in the evaluation measures was sometimes subjec-
+CDSS = clinical decision support system; EHR = electronic health record; PCPs = primary
+care professionals. tive because of similarities between, or lack of clear definition
+of some HOT-fit evaluation measures, as already reported by
+other authors.13 For instance, the HOT-fit evaluation measure
+patient negative opinion as barriers specific to the ambula- “clinical process” in the dimension “structure” of the organiza-
+tory care setting.15 Poor CDSS integration was confirmed as tional factor is close to the evaluation measure “clinical prac-
+a main technological barrier in our review. The diversity of tice” of the net benefits dimension.
+EHRs developed for primary care may explain the persistence
+of this barrier over time.82 Patient negative opinion was less Implications
+frequently reported in our review, presumably because of the The present systematic review highlights barriers and facilita-
+increasing acceptance over time of the use of health informa- tors to the use of CDSSs related to its feasibility (eg, increased
+tion systems during consultations.83 workload), acceptability (eg, conflicts with PCPs expertise or
+Other barriers and facilitators identified in the present beliefs), meaningfulness (eg, relevance of recommendations),
+review are original as compared with previous reviews.13,15 and effectiveness (net benefits dimension). These different
+First, teamwork needs for and benefits of using CDSSs were forms of evidence refer to the feasibility, appropriateness,
+frequently reported. The importance of teamwork could meaningfulness, and effectiveness (FAME) evidence-based
+not be identified previously since it is just emerging in pri- model,89 which is useful to understand complex interven-
+mary care in many health care systems, contrarily to the tions such as implementing CDSSs. Based on these findings,
+hospital setting.84,85 Second, PCPs expressed difficulties in we inferred an operational list of 11 intrinsic and contextual
+using CDSSs with patients co-managed by specialists, due CDSS features expected to make them more feasible, accept-
+to discrepancies between specialist and CDSS recommenda- able, meaningful, and effective in primary care (Table 5).
+tions or to outdated patient information in the EHR. Third, They are spread across the 3 interdependent human, organi-
+PCPs expected CDSSs covering a large array of conditions in zational, and technological factors. Among intrinsic features,
+agreement with the diversity of the health issues they man- the expectation of decision support for preventive care is
+age. Fourth, the contribution of CDSSs to reporting on qual- consistent with the great importance of prevention in primary
+ity measures was valued by PCPs, in a context of evaluation care practice. The expectation of a large array of conditions
+programs implemented in primary care. covered by CDSSs is explained by the preference of PCPs
+for a single comprehensive system rather than several CDSSs
+Strengths and Weaknesses with limited clinical coverage displaying recommendations in
+The scope of this review was limited to strictly defined CDSSs separate windows, each requiring a specific training. Informa-
+providing recommendations to PCPs based on individual tion overload refers to PCPs facing more information than
+patient characteristics, according to a medical decision-making they have the time or cognitive ability to process.90,91 Clinical
+perspective. Two previous systematic reviews13,15 also included decision support systems aim at both rationalizing patient
+decision supports providing individualized assessments (risks) management while avoiding overwhelming PCPs with infor-
+or general recommendations (not personalized to the patient), mation, which can be achieved by CDSSs providing concise
+which presumably increased the heterogeneity of the barri- recommendations and prioritizing the most appropriate inter-
+ers and facilitators identified. They also have included deci- ventions recommended for each patient.92 In addition, the fea-
+sion supports used in any care setting (including hospitals), ture of providing patients with educational material supports
+and those evaluated using simulated clinical scenarios. In the shared decision making within a patient-centered approach.
+ANNALS OF FAMILY MEDICINE ✦ WWW.ANNFAMMED.ORG ✦ VOL. 21, NO. 1 ✦ JANUARY/FEBRUARY 2023
+66
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+Among contextual features, developing CDSSs in close col- REFERENCES
+laboration with PCPs according to a bottom-up approach is
+1. World Health Organisation. Technical Series on Primary Health Care: Quality in
+needed to improve their perceived usefulness and user-friend- Primary Health Care. World Health Organisation; 2018. Accessed Oct 5, 2021.
+liness and the relevance of their recommendations. Providing https://w ww.who.int/docs/default-source/primary-health-care-conference/
+quality.pdf
+the rationale for selecting the sources of the CDSS knowledge
+2. van der Keylen P, Tomandl J, Wollmann K, et al. The online health informa-
+base is expected to increase CDSS reliability. This seems
+tion needs of family physicians: systematic review of qualitative and quanti-
+critical, even more for future non–knowledge-based CDSSs, tative studies. J Med Internet Res. 2020; 22(12): e18816. 10.2196/18816
+as health care professionals are exposed to automation bias, 3. Sim I, Gorman P, Greenes RA, et al. Clinical decision support systems for the
+which consists of over-relying on automated advice.93 Team- practice of evidence-based medicine. J Am Med Inform Assoc. 2001;8 (6):5 27-
+534. 10.1136/jamia.2001.0080527
+work for data collection and use of CDSSs may ease physician
+4. Sutton RT, Pincock D, Baumgart DC, Sadowski DC, Fedorak RN, Kroeker KI.
+workload and make EHR patient data more complete and
+An overview of clinical decision support systems: benefits, risks, and strate-
+reliable. Several of these intrinsic and contextual features may gies for success. NPJ Digit Med. 2020; 3(1): 17. 10.1038/s41746-020-0221-y
+allow the leading barrier, increased workload, to be overcome. 5. World Health Organisation. WHO Guideline : Recommendations on Digital
+Since the findings of the present review show that human and Interventions for Health System Strenghtening. World Health Organisation;
+2019. Accessed Oct 5, 2021. https://a pps.who.int/iris/handle/10665/331883
+organizational factors are the most impeding to CDSS use,
+6. Osheroff JA, Teich JM, Middleton B, Steen EB, Wright A, Detmer DE. A road-
+we recommend that CDSS developers investigate the human
+map for national action on clinical decision support. J Am Med Inform Assoc.
+and organizational requirements in the early stages of CDSS 2007; 14(2): 141-145. 10.1197/jamia.M2334
+development and that evaluation studies of CDSS use system- 7. Tcheng JE, National Academy of Medicine, eds. Optimizing Strategies for Clini-
+atically evaluate these factors. In addition, quantitative studies cal Decision Support: Summary of a Meeting Series. National Academy of Medi-
+cine; 2017.
+are particularly needed to assess the weight of the main barri-
+8. Heselmans A, Van de Velde S, Donceel P, Aertgeerts B, Ramaekers D. Effec-
+ers and facilitators identified through the present framework
+tiveness of electronic guideline-based implementation systems in ambulatory
+synthesis. care settings - a systematic review. Implement Sci. 2009; 4(1): 82. 10.1186/
+1748- 5908-4-82
+9. Souza NM, Sebaldt RJ, Mackay JA, et al; CCDSS Systematic Review Team.
+CONCLUSION Computerized clinical decision support systems for primary preventive care:
+a decision-maker-researcher partnership systematic review of effects on
+Although benefits reported by PCPs support the potential process of care and patient outcomes. Implement Sci. 2011; 6(1): 87. 10.1186/
+effectiveness of CDSS use in improving quality and safety of 1748- 5908-6-87
+care, they also highlight its lack of efficiency due to increased 10. Kwan JL, Lo L, Ferguson J, et al. Computerised clinical decision support sys-
+workload. Our findings emphasize the need for CDSS devel- tems and absolute improvements in care: meta-analysis of controlled clinical
+trials. BMJ. 2020; 370: m3216. 10.1136/bmj.m3216
+opers to better address human and organizational issues in
+11. Lobach DF. The road to effective clinical decision support: are we there yet?
+addition to technological stakes. Covering theses 3 factors,
+BMJ. 2013; 346: f1616. 10.1136/bmj.f1616
+we inferred core intrinsic and contextual CDSS features
+12. Sarkar U, Samal L. How effective are clinical decision support systems? BMJ.
+expected to improve their usability in primary care. 2020; 370: m3499. 10.1136/bmj.m3499
+13. Kilsdonk E, Peute LW, Jaspers MWM. Factors influencing implementation
+Read or post commentaries in response to this article.
+success of guideline-based clinical decision support systems: A systematic
+review and gaps analysis. Int J Med Inform. 2017; 98: 56-64. 10.1016/j.
+Key words: primary health care; information technology; medical informatics;
+ijmedinf. 2016.12.001
+quality of health care; decision support systems, clinical
+14. Saleem JJ, Patterson ES, Militello L, Render ML, Orshansky G, Asch SM.
+Submitted April 4, 2022; submitted, revised, September 8, 2022; accepted Octo- Exploring barriers and facilitators to the use of computerized clinical remind-
+ber 10, 2022. ers. J Am Med Inform Assoc. 2005; 12(4): 438-447. 10.1197/jamia.M1777
+Funding support: The study funder was a public health institution (Agence 15. Moxey A, Robertson J, Newby D, Hains I, Williamson M, Pearson SA.
+Computerized clinical decision support for prescribing: provision does not
+Régionale de Santé Auvergne-Rhône-Alpes) through a grant attributed to Pierre-
+guarantee uptake. J Am Med Inform Assoc. 2010; 17(1): 25-33. 10.1197/jamia.
+Yves Meunier.
+M3170
+Disclaimer: The study funder did not interfere in the conduct of this study. All 16. Westerbeek L, Ploegmakers KJ, de Bruijn GJ, et al. Barriers and facilitators
+authors confirm the independence of researchers from funders. All authors had influencing medication-related CDSS acceptance according to clinicians:
+full access to all of the data (including tables) in the study and can take responsi- a systematic review. Int J Med Inform. 2021; 152: 104506. 10.1016/j.ijmedinf.
+bility for the integrity of the data and the accuracy of the data analysis. 2021. 104506
+17. Nurek M, Kostopoulou O, Delaney BC, Esmail A. Reducing diagnostic errors
+Trial registration: Protocol registered on PROSPERO (CRD42020185199) (no
+in primary care. A systematic meta-review of computerized diagnostic deci-
+amendments to information provided in the protocol).
+sion support systems by the LINNEAUS collaboration on patient safety in
+primary care. Eur J Gen Pract. 2015; 21(Suppl): 8-13. 10.3109/ 1381 4788. 2015.
+Acknowledgments: We would like to thank Mathieu Fauvernier and Max-
+1043123
+ime Bonjour (Service de Biostatistiques des Hospices Civils de Lyon, France;
+UMR5558, Laboratoire de Biométrie et Biologie Évolutive, Équipe Biostatistique- 18. Laka M, Milazzo A, Merlin T. Factors that impact the adoption of clinical
+Santé, Villeurbanne, France) for their comments on the data synthesis method. decision support systems (CDSS) for antibiotic management. Int J Environ Res
+Public Health. 2021; 18(4): 1901. 10.3390/ijerph18041901
+We would like to thank Colin Sidre and Bastien Blanchon (BIU Santé Médecine,
+Paris, France) for help with the search strategy. We also thank Philip Robinson 19. Oluoch T, Santas X, Kwaro D, et al. The effect of electronic medical record-
+(DRS, Hospices Civils de Lyon) for help in manuscript preparation. based clinical decision support on HIV care in resource-constrained set-
+tings: a systematic review. Int J Med Inform. 2012; 81(10): e83-e92. 10.1016/j.
+Supplemental materials ijmedinf.2012.07.010
+ANNALS OF FAMILY MEDICINE ✦ WWW.ANNFAMMED.ORG ✦ VOL. 21, NO. 1 ✦ JANUARY/FEBRUARY 2023
+67
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+20. Yusof MM, Kuljis J, Papazafeiropoulou A, Stergioulas LK. An evaluation 40. Bessat C, Zonon NA, D’Acremont V. Large-scale implementation of elec-
+framework for Health Information Systems: human, organization and tech- tronic Integrated Management of Childhood Illness (eIMCI) at the primary
+nology-fit factors (HOT-fit). Int J Med Inform. 2008; 77(6): 386-398. 10.1016/j. care level in Burkina Faso: a qualitative study on health worker perception
+ijmedinf.2007.08.011 of its medical content, usability and impact on antibiotic prescription and
+resistance. BMC Public Health. 2019; 19(1): 449. 10.1186/s12889-019-6692-6
+21. William H. Delone, Ephraim R. McLean. The DeLone and McLean model
+of information systems success: a ten-year update. J Manage Inf Syst. 2003; 41. Bindels R, Hasman A, Derickx M, Van Wersch JW, Winkens RA. User satisfac-
+19(4): 9-30. 10.1080/07421222.2003.11045748 tion with a real-time automated feedback system for general practitioners:
+a quantitative and qualitative study. Int J Qual Health Care. 2003; 15(6): 501-
+22. Damschroder LJ, Aron DC, Keith RE, Kirsh SR, Alexander JA, Lowery JC.
+508. 10.1093/intqhc/mzg076
+Fostering implementation of health services research findings into practice:
+a consolidated framework for advancing implementation science. Implement 42. Curry L, Reed MH. Electronic decision support for diagnostic imaging in
+Sci. 2009; 4: 50. 10.1186/1748-5908-4-50 a primary care setting. J Am Med Inform Assoc. 2011; 18(3): 267-270. 10.1136/
+amiajnl-2011-000049
+23. Sittig DF, Singh H. A new sociotechnical model for studying health informa-
+tion technology in complex adaptive healthcare systems. Qual Saf Health 43. Dixon BE, Simonaitis L, Goldberg HS, et al. A pilot study of distributed
+Care. 2010; 19(Suppl 3): i68-i74. 10.1136/qshc.2010.042085 knowledge management and clinical decision support in the cloud. Artif
+Intell Med. 2013; 59(1): 45-53. 10.1016/j.artmed.2013.03.004
+24. Venkatesh V, Thong J, Xu X. Unified theory of acceptance and use of technol-
+ogy: a synthesis and the road ahead. J Assoc Inf Syst. 2016; 17(5). 10.17705/ 44. Doerr M, Edelman E, Gabitzsch E, Eng C, Teng K. Formative evaluation
+1jais.00428 of clinician experience with integrating family history-based clinical deci-
+sion support into clinical practice. J Pers Med. 2014; 4(2): 115-136. 10.3390/
+25. Greenhalgh T, Wherton J, Papoutsi C, et al. Beyond adoption: a new frame-
+jpm4020115
+work for theorizing and evaluating nonadoption, abandonment, and chal-
+lenges to the scale-up, spread, and sustainability of health and care tech- 45. Edelman EA, Lin BK, Doksum T, et al. Evaluation of a novel electronic genetic
+nologies. J Med Internet Res. 2017; 19(11): e367. 10.2196/jmir.8775 screening and clinical decision support tool in prenatal clinical settings.
+Matern Child Health J. 2014; 18(5): 1233-1245. 10.1007/s10995-013-1358-y
+26. Allen J, Gay B, Crebolder H, et al. The european definition of general prac-
+tice/family medicine. Published 2011. Accessed Feb 20, 2022. https://w ww. 46. Feldstein AC, Schneider JL, Unitan R, et al. Health care worker perspectives
+woncaeurope.org/file/520e8ed3-30b4-4a74-bc35-87286d3de5c7/Definition inform optimization of patient panel-support tools: a qualitative study. Popul
+% 203rd%20ed%202011%20with%20revised%20wonca%20tree.pdf Health Manag. 2013; 16(2): 107-119. 10.1089/pop.2012.0065
+27. Veritas Health Innovation. Covidence systematic review software. www. 47. Guenter D, Abouzahra M, Schabort I, et al. Design process and utilization
+covidence.org of a novel clinical decision support system for neuropathic pain in primary
+care: mixed methods observational study. JMIR Med Inform. 2019; 7(3):
+28. Harrison R, Jones B, Gardner P, Lawton R. Quality assessment with diverse
+e14141. 10.2196/14141
+studies (QuADS): an appraisal tool for methodological and reporting quality
+in systematic reviews of mixed- or multi-method studies. BMC Health Serv 48. Helldén A, Al-Aieshy F, Bastholm-Rahmner P, et al. Development of a com-
+Res. 2021; 21(1): 144. 10.1186/s12913-021-06122-y puterised decisions support system for renal risk drugs targeting primary
+healthcare. BMJ Open. 2015; 5(7): e006775. 10.1136/bmjopen-2014-006775
+29. Yusof MM. A case study evaluation of a Critical Care Information System
+adoption using the socio-technical and fit approach. Int J Med Inform. 2015; 49. Heselmans A, Delvaux N, Laenen A, et al. Computerized clinical decision
+84(7): 486-499. 10.1016/j.ijmedinf.2015.03.001 support system for diabetes in primary care does not improve quality of
+care: a cluster-randomized controlled trial. Implement Sci. 2020; 15(1): 5.
+30. Hong QN, Pluye P, Bujold M, Wassef M. Convergent and sequential synthe-
+10.1186/s13012-019-0955-6
+sis designs: implications for conducting and reporting systematic reviews
+of qualitative and quantitative evidence. Syst Rev. 2017; 6(1): 61. 10.1186/ 50. Jensen C, McKerrow NH, Wills G. Acceptability and uptake of an electronic
+s13643-017-0454-2 decision-making tool to support the implementation of IMCI in primary
+healthcare facilities in KwaZulu-Natal, South Africa. Paediatr Int Child Health.
+31. Lizarondo L, Stern C, Carrier J, et al. Chapter 8: mixed methods systematic
+2019; 40(4): 215-226. 10.1080/20469047.2019.1697573
+reviews. In: Aromataris E, Munn Z, eds. JBI Manual for Evidence Synthesis. JBI;
+2020. 10.46658/JBIMES-20-09 51. Jenssen BP, Bryant-Stephens T, Leone FT, Grundmeier RW, Fiks AG. Clinical
+decision support tool for parental tobacco treatment in primary care. Pediat-
+32. Dixon-Woods M. Using framework-based synthesis for conducting reviews of
+rics. 2016; 137(5): e20154185-e20154185. 10.1542/peds.2015-4185
+qualitative studies. BMC Med. 2011; 9(1): 39. 10.1186/1741-7015-9-39
+52. Kempe A, Hurley LP, Cardemil CV, et al. Use of immunization information
+33. QSR International Pty Ltd. NVivo. Published 2021. https://w ww.
+systems in primary care. Am J Prev Med. 2017; 52(2): 173-182. 10.1016/j.
+qsrinternational.com/nvivo-qualitative-data-analysis-software/home
+amepre.2 016.07.029
+34. Abimbola S, Patel B, Peiris D, et al. The NASSS framework for ex post
+53. Koskela T, Sandström S, Mäkinen J, Liira H. User perspectives on an elec-
+theorisation of technology-supported change in healthcare: worked
+tronic decision-support tool performing comprehensive medication reviews
+example of the TORPEDO programme. BMC Med. 2019; 17(1): 233. 10.1186/
+- a focus group study with physicians and nurses. BMC Med Inform Decis
+s12916- 019-1463-x
+Mak. 2016; 16: 6. 10.1186/s12911-016-0245-z
+35. af Klercker T, Zetraeus S. Dilemmas in introducing World Wide Web-based
+54. Lam Shin Cheung J, Paolucci N, Price C, Sykes J, Gupta S; Canadian Respi-
+information technology in primary care: a focus group study. Fam Pract.
+ratory Research Network. A system uptake analysis and GUIDES checklist
+1998; 15(3): 205-210. 10.1093/fampra/15.3.205
+evaluation of the Electronic Asthma Management System: a point-of-care
+36. Alagiakrishnan K, Wilson P, Sadowski C, et al. Physicians’use of computerized computerized clinical decision support system. J Am Med Inform Assoc. 2020;
+clinical decision supports to improve medication management in the elderly; 27(5): 726-737. 10.1093/jamia/ocaa019
+the Seniors Medication Alert and Review Technology intervention. Clin Interv
+55. Lemke AA, Thompson J, Hulick PJ, et al. Primary care physician experiences
+Aging. 2016; (11): 73-81. 10.2147/CIA.S94126
+utilizing a family health history tool with electronic health record-integrated
+37. Arts DL, Medlock SK, van Weert HCPM, Wyatt JC, Abu-Hanna A. Acceptance clinical decision support: an implementation process assessment. J Commu-
+and barriers pertaining to a general practice decision support system for nity Genet. 2020; 11(3): 339-350. 10.1007/s12687-020-00454-8
+multiple clinical conditions: a mixed methods evaluation. PLoS One. 2018;
+56. Litvin CB, Hyer JM, Ornstein SM. Use of clinical decision support to improve
+13(4): e0193187. 10.1371/journal.pone.0193187
+primary care identification and management of chronic kidney disease
+38. Ash JS, Sittig DF, Wright A, et al. Clinical decision support in small commu- (CKD). J Am Board Fam Med. 2016; 29(5): 604-612. 10.3122/jabfm. 2016. 05.
+nity practice settings: a case study. J Am Med Inform Assoc. 2011; 18(6): 879- 160020
+882. 10.1136/amiajnl-2010-000013
+57. Litvin CB, Ornstein SM, Wessell AM, Nemeth LS, Nietert PJ. Adoption of
+39. Bandong AN, Mackey M, Leaver A, et al. an interactive website for whiplash a clinical decision support system to promote judicious use of antibiotics for
+management (My Whiplash Navigator): process evaluation of design and acute respiratory infections in primary care. Int J Med Inform. 2012; 81(8):
+implementation. JMIR Form Res. 2019; 3(3): e12216. 10.2196/12216 521-526. 10.1016/j.ijmedinf.2012.03.002
+ANNALS OF FAMILY MEDICINE ✦ WWW.ANNFAMMED.ORG ✦ VOL. 21, NO. 1 ✦ JANUARY/FEBRUARY 2023
+68
+CLINICAL DECISION SUPPORT SYSTEMS IN PRIMARY CARE
+58. Lugtenberg M, Weenink JW, van der Weijden T, Westert GP, Kool RB. Imple- 75. Toth-Pal E, Wårdh I, Strender LE, Nilsson G. Implementing a clinical deci-
+mentation of multiple-domain covering computerized decision support sys- sion-support system in practice: a qualitative analysis of influencing attitudes
+tems in primary care: a focus group study on perceived barriers. BMC Med and characteristics among general practitioners. Inform Health Soc Care.
+Inform Decis Mak. 2015; 15: 82. 10.1186/s12911-015-0205-z 2008; 33(1): 39-54. 10.1080/17538150801956754
+59. Lugtenberg M, Pasveer D, van der Weijden T, Westert GP, Kool RB. Exposure 76. Trafton J, Martins S, Michel M, et al. Evaluation of the acceptability and
+to and experiences with a computerized decision support intervention in pri- usability of a decision support system to encourage safe and effective use of
+mary care: results from a process evaluation. BMC Fam Pract. 2015; 16(1): 141. opioid therapy for chronic, noncancer pain by primary care providers. Pain
+10.1186/s12875-015-0364-0 Med. 2010; 11(4): 575-585. 10.1111/j.1526-4637.2010.00818.x
+60. Maia JX, de Sousa LAP, Marcolino MS, et al. The impact of a clinical decision 77. Trinkley KE, Kroehl ME, Kahn MG, et al. Applying clinical decision support
+support system in diabetes primary care patients in a developing country. design best practices with the practical robust implementation and sustain-
+Diabetes Technol Ther. 2016; 18(4): 258-263. 10.1089/dia.2015.0253 ability model versus reliance on commercially available clinical decision sup-
+port tools: randomized controlled trial. JMIR Med Inform. 2021; 9(3): e24359.
+61. Marcolino MS, Oliveira JAQ, Cimini CCR, et al. Development and imple-
+10.2196/24359
+mentation of a decision support system to improve control of hypertension
+and diabetes in a resource-constrained area in Brazil: mixed methods study. 78. Wan Q, Makeham M, Zwar NA, Petche S. Qualitative evaluation of a diabe-
+J Med Internet Res. 2021; 23(1): e18872. 10.2196/18872 tes electronic decision support tool: views of users. BMC Med Inform Decis
+Mak. 2012; 12(1): 61. 10.1186/1472-6947-12-61
+62. Minian N, Noormohamed A, Lingam M, et al. Integrating a brief alcohol
+79. Williams PA, Furberg RD, Bagwell JE, LaBresh KA. Usability testing and
+intervention with tobacco addiction treatment in primary care: qualitative
+adaptation of the pediatric cardiovascular risk reduction clinical decision
+study of health care practitioner perceptions. Addict Sci Clin Pract. 2021; 16(1):
+support tool. JMIR Hum Factors. 2016; 3(1): e17. 10.2196/humanfactors.5440
+17. 10.1186/s13722-021-00225-x
+80. Wilson A, Duszynski A, Turnbull D, Beilby J. Investigating patients’ and gen-
+63. Montini T, Schenkel AB, Shelley DR. Feasibility of a computerized clinical
+eral practitioners’ views of computerised decision support software for the
+decision support system for treating tobacco use in dental clinics. J Dent
+assessment and management of cardiovascular risk. Inform Prim Care. 2007;
+Educ. 2013; 77(4): 458-462. 10.1002/j.0022-0337.2013.77.4.tb05491.x
+15(1): 33-44. 10.14236/jhi.v15i1.642
+64. Pannebakker MM, Mills K, Johnson M, Emery JD, Walter FM. Understanding
+81. Zheng K, Padman R, Johnson MP, Diamond HS. Understanding technol-
+implementation and usefulness of electronic clinical decision support (eCDS)
+ogy adoption in clinical care: clinician adoption behavior of a point-of-care
+for melanoma in English primary care: a qualitative investigation. BJGP
+reminder system. Int J Med Inform. 2005; 74(7-8): 535-543. 10.1016/j.ijmedinf.
+Open. 2019; 3(1): X101635. 10.3399/bjgpopen18X101635
+2005.03.007
+65. Peiris D, Williams C, Holbrook R, et al. A web-based clinical decision sup- 82. Turbow S, Hollberg JR, Ali MK. Electronic health record interoperability:
+port tool for primary health care management of back pain: development how did we get here and how do we move forward? JAMA Health Forum.
+and mixed methods evaluation. JMIR Res Protoc. 2014; 3(2): e17. 10.2196/ 2021; 2(3): e210253. 10.1001/jamahealthforum.2021.0253
+resprot.3071
+83. Luchenski SA, Reed JE, Marston C, Papoutsi C, Majeed A, Bell D. Patient and
+66. Praveen D, Patel A, Raghu A, et al. SMARTHealth India: development and public views on electronic health records and their uses in the United king-
+field evaluation of a mobile clinical decision support system for cardiovas- dom: cross-sectional survey. J Med Internet Res. 2013; 15(8): e160. 10.2196/
+cular diseases in rural India. JMIR Mhealth Uhealth. 2014; 2(4): e54. 10.2196/ jmir.2701
+mhealth.3568
+84. Zijl ALV, Vermeeren B, Koster F, Steijn B. Interprofessional teamwork in pri-
+67. Price M, Davies I, Rusk R, Lesperance M, Weber J. Applying STOPP guide- mary care: the effect of functional heterogeneity on performance and the
+lines in primary care through electronic medical record decision support: role of leadership. J Interprof Care. 2021; 35(1): 10-20. 10.1080/ 135 61820.
+randomized control trial highlighting the importance of data quality. JMIR 2020.1715357
+Med Inform. 2017; 5(2): e15. 10.2196/medinform.6226
+85. Harris M, Advocat J, Crabtree B, et al. Interprofessional teamwork innova-
+68. Richardson S, Feldstein D, McGinn T, et al. Live usability testing of two com- tions for primary health care practices and practitioners: evidence from
+plex clinical decision support tools: observational study. JMIR Hum Factors. a comparison of reform in three countries. J Multidiscip Healthc. 2016(9):
+2019; 6(2): e12471. 10.2196/12471 35-46. 10.2147/JMDH.S97371
+69. Rieckert A, Sommerauer C, Krumeich A, Sönnichsen A. Reduction of inap- 86. Cabana MD, Rand CS, Powe NR, et al. Why don’t physicians follow clinical
+propriate medication in older populations by electronic decision support practice guidelines? A framework for improvement. JAMA. 1999; 282(15):
+(the PRIMA-eDS study): a qualitative study of practical implementation in 1458-1465. 10.1001/jama.282.15.1458
+primary care. BMC Fam Pract. 2018; 19(1): 110. 10.1186/s12875-018-0789-3 87. Ancker JS, Kern LM, Edwards A, et al; HITEC Investigators. How is the elec-
+70. Rieckert A, Teichmann AL, Drewelow E, et al. Reduction of inappropriate tronic health record being used? Use of EHR data to assess physician-level
+medication in older populations by electronic decision support (the PRIMA- variability in technology use. J Am Med Inform Assoc. 2014; 21(6): 1001-1008.
+eDS project): a survey of general practitioners’ experiences. J Am Med Inform 10.1136/amiajnl-2013-002627
+Assoc. 2019; 26(11): 1323-1332. 10.1093/jamia/ocz104 88. Boonstra A, Broekhuis M. Barriers to the acceptance of electronic medical
+records by physicians from systematic review to taxonomy and interventions.
+71. Rousseau N, McColl E, Newton J, Grimshaw J, Eccles M. Practice based,
+BMC Health Serv Res. 2010; 10(1): 231. 10.1186/1472-6963-10-231
+longitudinal, qualitative interview study of computerised evidence based
+guidelines in primary care. BMJ. 2003; 326(7384): 314-314. 10.1136/bmj. 326. 89. Pearson A, Wiechula R, Court A, Lockwood C. The JBI model of evidence-
+7384.314 based healthcare. Int J Evid Based Healthc. 2005; 3(8): 207-215. 10.1111/
+j.1479- 6988.2005.00026.x
+72. Rubin MA, Bateman K, Donnelly S, et al. Use of a personal digital assistant
+for managing antibiotic prescribing for outpatient respiratory tract infections 90. Schick AG, Gordon LA, Haka S. Information overload: a temporal approach.
+in rural communities. J Am Med Inform Assoc. 2006; 13(6): 627-634. 10.1197/ Account Organ Soc. 1990; 15(3): 199-220. 10.1016/0361-3682(90)90005-F
+jamia.M2029 91. Eppler MJ, Mengis J. The concept of information overload - a review of lit-
+73. Silveira DV, Marcolino MS, Machado EL, et al. Development and evaluation erature from organization science, accounting, marketing, MIS, and related
+of a mobile decision support system for hypertension management in the disciplines (2004). Info Soc. 2004(20)5: 1-20. 0.1007/978-3-8349-9772-2_15
+primary care setting in Brazil: mixed-methods field study on usability, fea- 92. Taksler GB, Hu B, DeGrandis F Jr, et al. Effect of individualized preventive
+sibility, and utility. JMIR Mhealth Uhealth. 2019; 7(3): e9869-e9869. 10.2196/ care recommendations vs usual care on patient interest and use of recom-
+mhealth.9869 mendations: a pilot randomized clinical trial. JAMA Netw Open. 2021; 4(11):
+e2131455. 10.1001/jamanetworkopen.2021.31455
+74. Sukums F, Mensah N, Mpembeni R, et al. Promising adoption of an elec-
+tronic clinical decision support system for antenatal and intrapartum care in 93. Goddard K, Roudsari A, Wyatt JC. Automation bias: empirical results assess-
+rural primary healthcare facilities in sub-Saharan Africa: the QUALMAT expe- ing influencing factors. Int J Med Inform. 2014; 83(5): 368-375. 10.1016/j.
+rience. Int J Med Inform. 2015; 84(9): 647-657. 10.1016/j.ijmedinf.2015.05.002 ijmedinf.2014.01.001
+ANNALS OF FAMILY MEDICINE ✦ WWW.ANNFAMMED.ORG ✦ VOL. 21, NO. 1 ✦ JANUARY/FEBRUARY 2023
+69

@@ -1,0 +1,600 @@
+ArgMed-Agents: Explainable Clinical Decision Reasoning
+with LLM Disscusion via Argumentation Schemes
+Shengxin Hong, Liang Xiao, Xin Zhang, Jianxia Chen,
+Hubei University of Technology, Wuhan, China
+lx@mail.hbut.edu.cn
+Abstract—Therearetwomainbarrierstousinglargelanguage researchers have begun to apply argumentation to a wide
+models(LLMs)inclinicalreasoning.Firstly,whileLLMsexhibit range of clinical reasoning applications, including analysis of
+significantpromiseinNaturalLanguageProcessing(NLP)tasks,
+clinical discussions [9], clinical decision making [10]–[12],
+theirperformanceincomplexreasoningandplanningfallsshort addressclinicalconflicting[13].Intherecentpast,somework
+of expectations. Secondly, LLMs use uninterpretable methods to
+make clinical decisions that are fundamentally different from has assessed the ability of LLMs in argumentation reasoning
+the clinician’s cognitive processes. This leads to user distrust. In [14], [15] or non-monotonic reasoning [16]. Although LLMs
+this paper, we present a multi-agent framework called ArgMed- show some potential for computational argumentation, more
+Agents,whichaimstoenableLLM-basedagentstomakeexplain-
+results show that LLMs perform poorly in logical reasoning
+able clinical decision reasoning through interaction. ArgMed-
+tasks[17],andbetterwaystoutiliseLLMsfornon-monotonic
+Agentsperformsself-argumentationiterationsviaArgumentation
+Scheme for Clinical Discussion (a reasoning mechanism for reasoning tasks need to be explored.
+modeling cognitive processes in clinical reasoning), and then Meanwhile, LLM as agent studies have been surprisingly
+constructs the argumentation process as a directed graph repre- successful [18]–[20]. These methods use LLMs as computa-
+senting conflicting relationships. Ultimately, use symbolic solver
+tionalenginesforautonomousagents,andoptimisethereason-
+toidentifyaseriesofrationalandcoherentargumentstosupport
+ing,planningcapabilitiesofLLMsthroughexternaltools(e.g.
+decision. We construct a formal model of ArgMed-Agents and
+present conjectures for theoretical guarantees. ArgMed-Agents symbolic solvers, APIs, retrieval tools, etc.) [20], [21], multi-
+enables LLMs to mimic the process of clinical argumentative agent interactions [22] and novel algorithmic frameworks
+reasoning by generating explanations of reasoning in a self- [23]. Through this design, LLMs agents can interact with the
+directed manner. The setup experiments show that ArgMed-
+environment and generate action plans through intermediate
+Agents not only improves accuracy in complex clinical decision
+reasoning steps that can be executed sequentially to obtain an
+reasoning problems compared to other prompt methods, but
+more importantly, it provides users with decision explanations effective solution.
+that increase their confidence. Motivated by these concepts, we present ArgMed-Agents,
+Index Terms—Clinical Decision Support, Large Language a multi-agent framework designed for explainable clinical
+Model, Multi-Agent System, Explainable AI
+decision reasoning. We formalised the cognitive process of
+clinical discussion using an argumentation scheme for clin-
+I. INTRODUCTION
+ical discussion (ASCD) as a prompt strategy for interactive
+Large Language Models (LLMs) [1] have received a lot reasoning by LLM agents. There are three types of agents in
+of attention for their human-like performance in a variety of ArgMed-Agents:theGenerator,theVerifier,andtheReasoner.
+domains. In the medical field especially, preliminary studies theGeneratorgeneratesargumentstosupportclinicaldecisions
+have shown that LLMs can be used as clinical assistants for based on the argumentation scheme; the Verifier checks the
+tasks such as writing clinical texts [2], providing biomedical arguments for legitimacy based on the critical question, and
+knowledge [3] and drafting responses to patients’ questions if not legitimate, it asks the Generator to generate attack
+[4]. However, the following barriers to building an LLM- arguments; Reasoner is a LLM agent with symbolic solver
+based clinical decision-making system still exist: (i) LLMs that identifies reasonable, non-contradictory arguments in the
+still struggle to provide secure, stable answers when faced resulting directed argumentation graph as decision support.
+with highly complex clinical reasoning tasks [5]. (ii) There is In our method, we do not expect every proposed argument
+a perception that LLMs use unexplainable methods to arrive or detection of Generator or Verifier to be correct, instead we
+at clinical decisions (known as black boxes), which may have considertheirgenerationasaassumption.TheLLMagentsare
+led to user distrust [6]. induced to recursively iterate in a self-argumentative manner
+Toaddressthesebarriers,exploringthecapabilitiesofLLMs through the prompt strategy , while the newly proposed
+inargumentativereasoningisapromisingdirection.Argumen- assumptionsalwayscontradicttheoldones,andeventuallythe
+tation is a means of conveying a compelling point of view Reasoner eliminates unreasonable assumptions and identifies
+that can increase user acceptance of a position. Its considered coherent arguments, leading to consistent reasoning results.
+a fundamental requirement for building Human-Centric AI ArgMed-Agents enables LLMs to explain its own outputs
+[7]. As computational argumentation has become a growing in terms of self-cognitive profiling by modelling their own
+area of research in Natural Language Processing (NLP) [8], generation as a prompt for question recursion.
+4202
+ceD
+82
+]IA.sc[
+3v49260.3042:viXra
+Our experiment was divided into two parts, evaluating (V) inherent within the premises (P.V) or the conclusion
+accuracyandexplainabilityofArgMed-Agentsclinicalreason- (c.V). A pivotal aspect of the argumentation scheme is the
+ing, respectively. We conducted experiments on two datasets, delineation of Critical Questions (CQs) pertinent to AS. Fail-
+including MedQA [24] and PubMedQA [25]. To better align ure to address them prompts a challenge to both the premises
+with real-world application scenarios, our study focused on and the conclusion posited by the scheme. Consequently, the
+a zero-shot setting. The results show that ArgMed-Agents roleofCQsistoinstigateargumentgeneration;whenanASis
+achieves better performance in both accuracy and explainabil- contested, it engenders the formulation of a counter-argument
+itycomparedtodirectgenerationandChainofThought(CoT). in responseto theinitial AS.This iterative processculminates
+In summary, we take following contribution: in the construction of an attack argument graph, facilitating a
+• We present a novel multi-LLM agent framework called nuanced understanding of argumentative dynamics.
+ArgMed-Agents for complex clinical reasoning tasks. ASCDencapsulatesavarietyofargumentationschemesthat
+• Ourapproacheffectivelycombinesargumentationframe- analyse the clinical discussion and reasoning process, such as
+works and cognitive clinical medicine. Arguments are Argumentation Scheme for Decision Making (ASDM), Argu-
+presented through LLM simulations of clinical discus- mentationSchemeforSideEffects(ASSE)andArgumentation
+sions and reasoning results are solved through formal Scheme for Danger Apeal (ASDA). Figure 1 illustrates an
+computational models, which avoids the cumulative er- example of ASDM.
+rors of LLM logical reasoning and improves the safety
+of clinical reasoning.
+Argumentation Scheme for Decision Making
+• We propose the conjecture about ArgMed-Agents’ theo- ASDM (F, D, G)
+retical guarantees now, which is that identify a reasoning Premise - Given the patient Fact F
+error in the LLM when ArgMed-Agents considers all Premise - To achieve Goal G
+Premise - Decision D promotes the goal G
+decisionsunacceptable.Thisconjectureservesasameans
+Conclusion: Decision D should be considered
+for us to identify boundaries in the capabilities of large
+language models (e.g., hallucinatory phenomena, knowl- CQ1: Is there any evidence to support Decision
+edge conflicts), which are important for clinical decision D promote goal G?
+support. If the LLM makes a serious error but humans
+CQ2: Has Decision D caused side effects on the
+do not detect it in time, it may cause irreparable damage
+patient?
+to the patient.
+CQ3: Can Goal G be achieved by completing the
+• We We perform an extensive evaluation of ArgMed- Decision D?
+Agents, which demonstrate the accuracy, explainability
+CQ4: Are there alternative Decision to achieve
+and safety benefits in clinical decision support of our
+the same goal G?
+method.
+Fig. 1: An example of Argumentation Scheme for Decision Making
+II. PRELIMINARIES
+A. Argumentation Scheme for Clinical Discussion
+III. METHOD
+Ourapproachutilisesthenotionofcomputationalargumen-
+In this section, we propose a multi-agent framework called
+tation for to support reasoning. Abstract Argumentation (AA)
+ArgMed-Agents, which supports the seamless integration of
+[26] are pair ⟨A,R⟩ composed of two components: a set of
+prompt strategy designed based on argumentation scheme
+abstractargumentsA,andabinaryattackrelationR.Givenan
+for clinical discussion into agent interactions. Our approach
+AA framework ⟨A,R⟩, a,b∈A and (a,b)∈R indicates that
+enhances LLMs to be able to perform explainable clinical
+a attacks b. In this framework, there exist a∈A is acceptable
+decision reasoning without the need for expert involvement
+if and only if:
+in knowledge encoding.
+• not exist b∈A such that (b,a)∈R;
+• there exist b,c∈A such that (b,a)∈R and (c,b)∈R; A. ArgMed-Agents: a Multi-LLM-Agents Framework
+On top of this, numerous studies [9], [12], [27] have ArgMed-Agents framework includes three distinct types of
+explored the application of argumentation in the clinical LLMs agent:
+domain. In this section, we provide a summary of these • Generator(s): Generate arguments based on the current
+endeavors, focusing on Argumentation Schemes for Clinical situation.
+Discussion (ASCD). The concept of Argumentation Scheme • Verifier: Whenever a new argument is generated, the
+(AS) originated within the domain of informal logic, stem- verifier checks the accuracy of the argument by asking
+ming from the seminal works of [28], [29]. Argumentation and answering CQs in a self-questioning manner. When
+Scheme serves as a semi-formalized framework for capturing the CQ validation is rejected, the reason why the CQ
+and analyzing human reasoning patterns. Formally defined as was rejected is returned to the generator, which proposes
+AS = ⟨P,c,V⟩, it comprises a collection of premises (P), a anewargumentbasedonthatCQ.Thisprocessisiterated
+conclusion (c) substantiated by these premises, and variables until no more arguments are generated.
+Question
+Premise - Given the patient Fact F [A 40-year-old woman with symptoms of
+A 40-year-old woman presents with difficulty falling asleep, diminished depression including difficulty falling asleep, diminished appetite, Premise - Given the Decisions Trazodone and
+appetite, and tiredness for the past 6 weeks. She says that, despite going tiredness, irritability, feelings of hopelessness, diminished Paroxetine
+to bed early at night, she is unable to fall asleep. She denies feeling concentration and interest, and weight loss.]
+a f a n a s x l l i l e o e u a p s s . l o e S r e h p e h , a s v s a i h y n e s g w s d a h i k e s e t s h u a r u s b p i g n e r g a o r w t l n h y o i u i n g n c h r t t e s h a e s w i h m n i o g l r l e n y i i n i n g r r b a i e n t d d a . b i l E s e v e u a n n n a d w b h l f e e e n e t l s o s h e f i a n m l c a l r n e a b a g a s e c i s k n g t l o y Gener A ator Premise - To achieve Goal G [G: Treat the patient's condition] P E B r f o e f t m e h i c s t e i T v r e - a n z e o s d s o n i e n Tr a e n a d t in P g a r D o e x p e r t e i s n s e i on: have evidence Gener D ator
+hopeless, and her concentration and interest at work have diminished. The Premise - Paroxetine promotes the goal G [Paroxetine is a selective supporting their effectiveness in treating
+patient denies thoughts of suicide or death. Because of her diminished serotonin reuptake inhibitor (SSRI) antidepressant known to effectively depression.
+appetite, she has lost 4 kg (8.8 lb) in the last few weeks and has started treat depression by increasing serotonin levels in the brain.]
+drinking a glass of wine every night instead of eating dinner. She has no Side Effect Profile:
+s f i o g l n l i o f w i i c n a g n t i s p a t s h t e m b e e d s i t c a c l o u h r i s s e t o o r f y t a r n e d a t i m s e n n t o t i n o n t h a i n s y pa m t e i d e i n c t a ? tions. Which of the Conclusion: Paroxetine should be considered T f r e a w z e o r d o s n e e x ua m l a y si b d e e m e o f r f e e c s t e s d a c t o i m n p g a r b e u d t t g o e n P e a r r a o l x l e y t i h n a e s .
+However, both medications have their own set of
+Options: (a) Diazepam (b) Paroxetine (c) Zolpidem (d) Trazodone CQ1: Is there any evidence to support Decision D (Paroxetine) promote potential adverse effects.
+g Y o E a S l G? S B y o m t p h t om m e R d e i l c i a e t f i : ons can potentially address the
+Ar F g r u a me m n ew t o a r t k ion C Y Q E 2 S :Has Decision D (Paroxetine) caused side effects on the patient? Verifier p s a p t e i c e i n f t i ' c s a ll s y y m t p a t r o g m e s t , e d b t u o t w ar T d r s a z s o l d e o e n p e di m s a t y u rb b a e n ce m s o . re
+CQ3:Can Goal G be achieved by completing the Decision D (Paroxetine)? Conclusion: Trazodone should be considered
+A YES
+C C sa Q4 m : e g A o r a e l th G e ? re alternative Decision of (Paroxetine) to achieve the CQ1: Is there any evidence to support Decision D2
+YES (Trazodone) better than Decision D1 (Paroxetine)
+for Goal G?
+YES
+B P d r i e f m f i i s c e u lt - y T f h a e l l p i a n t g i e a n s t l e i e s p , e x d p i e m r i i n e i n s c h i e n d g a s p y p m e p t t i o t m e s , o t f i r d e e d p n r e e s s s s , i o i n r , r it i a n b c i l l u i d t i y n , g Verifier
+hopelessness, diminished concentration, and loss of interest in work.
+D She has also lost weight due to decreased appetite and has started using
+Gener B ator a P r l r e c e u o m p h i t o s a l e k e a - s i n a h T i h c b e o i p t d i o e n r c g i ( s m S i e S o c R n h I a ) n t i o c s o m p m . r m e o s n c l r y i b u e s e P d a r t o o x e t t r i e n a e t , d a e pr s e e s l s e i c o t n i ve a nd s e a r n o x t i o e n t i y n C ( Y P Q E a 1 S : ro x I e s t t i h ne er ) e r a e n s y u l e t v s i d i e n n c s e i d t e o e s f u f p e p c o t r t S E D ? ecision D
+disorders, is considered as a potential course of treatment. CQ2:Is this side effect SE not acceptable? Verifier
+Premise - Paroxetine, like many medications, can have side effects. NO
+C d A s o r d u y d i m i c m t i o i d n m o a o n l s u a i t l d h t l e , h y o , e u f s g f m w h e o e t c r a s t e t s i n o o s g r f e , r P i b a o e b r u h l o s a u x v r e i s r t o i e i r d d n , e e i v e a n i f n c s f d l i e u o c d n w t e , i s t n h s a d c u u r o c s a n h e w s a a t , l i a p s d a r s t o y i s w m o e s p n r i t , o n o t e m o s s n o s i r , n c a d s h n i y e z n a z d o d i r c a n o c c e m u h s e r e s , , . , C o N Q b O 3 s : e rv A e r d e ? there ways of ameliorating the side effects
+although they are less common.
+Symbolic
+Solver C e m o f a n f d c e e l c u t w s s i i t o h o n f : c a P u a C t r o i o n o x s n e i . t d i e n r e i , n g th t e h e d e p c a i t s i i e o n n t ' t s o s p y r m e p s t c o r m i s b e a P n a d r o t x h e e t in p e ot e n n e t e i d a s l to s id b e e C ( Y T Q E r 1 S : az o I d s o t n h e e ) r e p r a o n m y o t e e v i g d o e a n l c e G ? to support Decision D
+C p Q at 2 i : e H n a t s ? Decision D (Trazodone) caused side effects on the Verifier
+Reasoner P o r f e m d i e s p e r es - s i G o i n v e i n n c t l h u e d i p n a g t i d e i n f t f i F c a u c l t t y F f [ a A l l 4 i 0 n - g y e a a s r l - e o e l p d , w d o i m m a i n n i w s i h t e h d symptoms YES
+appetite, tiredness, irritability, feelings of hopelessness, CQ3:Can Goal G be achieved by completing the Decision D
+diminished concentration and interest, and weight loss.] (Trazodone)?
+Gener C ator Premise - To achieve Goal G [G: Treat the patient's condition] YES
+CQ4: Are there alternative Decision of (Paroxetine,
+Premise - Trazodone promotes the goal G [Trazodone is primarily Trazodone) to achieve the same goal G?
+Decision prescribed as an antidepressant due to its serotonin modulating YES
+properties and its sedative effects, which can help with sleep
+Trazodone should be considered as treatment disturbances associated with depression.] / r / e T j h e e c t i e t d e b r u a t ti o i n s w n i o l t l s h c o o w n n t i h n e u r e e s b d e u c e a u t s o e s p t a hi c s e C c Q o 2 n s a t n r d a i C n Q t 4 s are
+Conclusion: Trazodone should be considered
+Fig. 2: An example from the MedQA USMLE dataset, with the entire process of ArgMed-Agents reasoning about the clinical problem.
+Notably, the letters in the argumentation framework correspond to the serial numbers of the four generators on the right, representing the
+premises and conclusion generated by that generator. In the argumentation framework, the red nodes (A and C) represent arguments in
+support of the decision and the yellow nodes (B and D) represent arguments in support of the beliefs.
+• Reasoner: It is an LLM agent equipped with a symbolic Studies have shown that LLM performs reasonably well for
+solver for computational argumentation. The reasoner simple reasoning, single-step reasoning problems, however,
+records the complete process of iteration and identi- as the number of reasoning steps rises, the rate of correct
+fies semantic relationships between arguments (attack reasoning decreases in a catastrophic manner [30]. Thus, we
+or support). At the end of the iteration, all arguments consider that LLM is primed with logical intuition, but lacks
+form a complete abstract argumentation framework. The true logical reasoning ability.
+reasoner searches for a set of coherent and plausible
+In light of this, ArgMed-Agents framework guides LLM
+arguments through the symbolic solver as a support for
+in a recursive form to generate a series of casual reasoning
+decision making.
+steps as a tentative conclusion, with any further evidence
+In ArgMed-Agents, it do not expect single generation or withdrawing their conclusion. The process ultimately leads
+single verification to be correct. ArgMed-Agents uses gen- to a directed graph representing the disputed relationships.
+eration as a assumption to recursively prompt the model Moreover, our method performs graphinference with the help
+with critical questions, identifying conflicting and erroneous ofsymbolicsolvers,whichavoidsthecumulativeerrorofLLM
+arguments in an iterative process. Ultimately, such mutually inference. LLM can be viewed as a large knowledge base
+attacking arguments are converted into a formal framework containing a large amount of conflicting knowledge. ArgMed-
+that solves for a subset of reasonably coherent arguments Agentsprovidesaformalmethodfordiscoveringconflictsand
+via Reasoner. Figure 2 depicts how multi-agents interacts solving for consistent reasoning results, which facilitates the
+to simulate clinical discussion. In the example of Figure 2, LLM’s ability to gradually come up with new knowledge to
+the generator first proposes Proxetine as a therapeutic drug. use in revising its own initial conclusion.
+However, after several rounds of discussion, ArgMed-Agents Within the ArgMed-Agents framework, agents endowed
+raisedargumentsaboutProxetine’ssideeffects,andeventually with various LLM roles engage in collaborative interactions
+settled on the more effective therapeutic drug as Trazodone. throughaformalizedprocessthatsimulateclinicaldiscussion.
+The theoretical motivation for our method stems from This design not only facilitates LLMs’ engagement in clinical
+non-monotonic logic, logical intuition and cognitive clinical. reasoning through a critical-thinking approach, aligning their
+cognitive processes with those of clinicians to enhance de- Definition4describeshowArgMed-Agentsidentifiesoptional
+cision explainability, but also enables the effective extraction decisionsandtheconceptofanexplanationsetforadecision.
+and highlighting of implicit knowledge within LLMs that is
+Definition 4. Given an AF for ArgMed-Agents ⟨A,R⟩, if
+not easily accessible through traditional prompts.
+and only if a decision d ∈ Args (A) is acceptable then
+d
+this decision is optional decision. A set of decision support
+B. Formal Computational Models & Theorems
+explanation E include:
+In this section, we describe how ArgMed-Agents performs
+• There exist an decision d = Args d (E) is optional
+formal reasoning and explains decisions. First, we define the
+decision.
+ArgMed-Agents interaction model
+• All arguments a∈E is acceptable and confict-free.
+Definition1(ArgMed-AgentsInteraction). InArgMed-Agents, • Among the sets that satisfy the above two conditions, E
+interaction is a series of dialogues D = {s ,...,s |n > 1} is the set that contains maximal elements.
+1 n
+involving generator agent g and verifier agent v, and the
+Next, we use an example from MedQA to illustrate how
+following conditions hold:
+Definition 4 is applied in ArgMed-Agents.
+• s i =⟨g,a⟩ is an arguments presented by generator g.
+• s k =⟨v,cq⟩ is an critical question cq ∈CQs presented Example 1 (From MedQA). An 18-year-old woman presents
+by verifier v. with recurrent headaches. The pain is usually unilateral, pul-
+• If there exist s i and s i+2 from the generator then s i+1 satileincharacter,exacerbatedbylightandnoise,andusually
+from the verifier such that s attack s . lasts for a few hours to a full day. The pain is sometimes
+i+2 i
+triggered by eating chocolates. These headaches disturb her
+In ArgMed-Agents, we define the argument is presented daily routine activities. The physical examination was within
+by the generator and the verifier constructs an attack relation normal limits. She also has essential tremors. Which drug is
+between the argument. Specifically, when the verifier rejects suitable in her case for the prevention of headaches?
+an argument, it leads to a new argument and this argument
+After several rounds of discussion, ArgMed-Agents presented
+attacks the original argument; when the verifier accepts an
+fivearguments,includingthreedecisionsabouttreatmentsand
+argument,theroundofdialogueends.Inthisway,thereasoner
+two pieces of evidence about side effect, and they formed the
+can connect the semantic relations of all the arguments and
+following Argumentation framework:
+construct an argumentation framework. Next, we define the
+argumentation framework for ArgMed-Agents:
+Definition 2 (Argumentation in ArgMed-Agents). An Argu- D E A:Valproic acidshould be considered. Valproic acid is an anticonvulsant and
+mood-stabilizing drug that ...
+mentationFrameworkAFforArgMed-Agentsisapair⟨A,R⟩ B:Propranololshould be considered. Because Propranolol is a beta-blocker that ...
+A
+such that: C:Verapamilshould be considered. Verapamil is a calcium channel blocker that ...
+D: Given the potential risk of significant side effects, including liver toxicity and
+• Aisargumentssetconstructedbys i ⊆Dfromgenerator teratogenicity.
+and R is a set of binary attack relation. B C E va : l P p a ro ti i e c n a t' c s i d e , x t i h s e tin d g e e ci s s s io e n n t t i o a l u tr s e e m V o a r l s p r w o h ic i c a h c i c d o a u s ld a p p o r te ev n e ti n a t ll i y ve b t e r e e a x t a m c e e n rb t a fo te r d h e b r y
+• A = Args d (A) ∪ Args b (A) such that arguments in headaches needs to be made with caution.
+argument set A are distinguished between two types of
+arguments: arguments in support of decisions Args (A) Based on the definitions, we can obtain the following reason-
+d
+and arguments in support of beliefs Args (A). ing results:
+b
+• Optional decisions: B (Propranolol) or C (Verapamil);
+We divided ArgMed-Agents’ arguments into two types: ar- • Explaination set E ={{B,D,E},{C,D,E}};
+guments in support of decisions Args (A) and arguments in
+d Notably, although two decisions are optional, we define the
+support of beliefs Args (A). These two types of arguments
+b exclusivity of the decisions so that they do not appear in
+play different roles, Args (A) build on beliefs and goals and
+d the decision support at the same time (this avoids duplicate
+trytojustifychoices,whileArgs (A)alwaystrytoundermine
+b medication).
+decision arguments. In addition, we made the following setup
+With this formal model, we present a conjecture about
+for both arguments: First, arguments in support of different
+ArgMed-Agents’ theoretical guarantee:
+decisions are in conflict with each other; Second, arguments
+Given an AF for ArgMed-Agents ⟨A,R⟩ and E
+in support of decisions are not allowed to attack arguments in
+is its decisions support. There are errors in the
+support of beliefs. Formalized as:
+clinical reasoning of ArgMed-Agents in this case iff
+Definition 3. Given an AF for ArgMed-Agents ⟨A,R⟩, R ⊆ Args (E)=∅.
+d
+Args (A)×Args (A) such that:
+d b Clinical reasoning errors are discussed in [22]. They con-
+• For all a 1 ,a 2 ∈ Args d (A) such that a 1 ̸= a 2 , sider that most clinical reasoning errors in LLMs are due
+(a ,a ),(a ,a )∈R. to confusion about domain knowledge. On the other hand,
+1 2 2 1
+• Not exists (arg 1 ,arg 2 ) ∈R such that arg 1 ∈Args d (A) researchby[3]pointsoutthatLLMsmayproducecompelling
+and arg ∈Args (A). misinformation about medical treatment, so it is crucial to
+2 b
+recognizethisillusion,whichisdifficultforhumanstodetect. Model Method MedQA PubMedQA
+For this purpose, We conjecture that the relevant mechanisms Direct 52.7 68.4
+foridentifyingclinicalreasoningerrorsinArgMed-Agentsare GPT-3.5-turbo CoT 48.0 71.5
+as follows: When any decision in the AF for ArgMed-Agents ArgMed-Agents 62.1 78.3
+is not accepted, we consider there are errors in the reasoning
+Direct 67.8 72.9
+by LLM and LLM’s knowledge reserves are insufficient to
+GPT-4 CoT 71.4 77.2
+address this issues. This mechanism assists ArgMed-Agents
+ArgMed-Agents 83.3 81.6
+in identifying the capability boundaries of LLMs which helps
+toavoidtherisksassociatedwithadoptingerroneousdecisions TABLE I: Results of the accuracy of various clinical reasoning
+methods on MedQA and PubMedQA datasets.
+andachievingmorerobustandsafeclinicalreasoning.Webase
+this conjecture on the following: ArgMed-Agents bootstrap
+the internal implicit knowledge of LLMs by iterating over
+of PubMedQA is to answer yes/no/maybe research ques-
+them, which may be conflicting (possibly due to dirty data
+tionsusingthecorrespondingabstracts(e.g.,Dopreoper-
+or timing conflicts). When there is only a small amount of
+ativestatinsreduceatrialfibrillationaftercoronaryartery
+conflicting knowledge, ArgMed-Agents can reason out the
+bypass graft surgery).
+correct decision by non-monotonic reasoning; When there is
+a large amount of conflicting knowledge, the argumentation C. Accuracy
+frameworkwillbeverylarge(containingerroneousarguments In accuracy evaluation, we rigorously curated datasets by
+generated by hallucinatory phenomena), and the logical errors randomly selecting 300 examples from each, ensuring a
+in this may lead ArgMed-Agents to be unable to reason out balanced representation for robust analysis. To establish a
+any correct decisions. We therefore consider this situation as baseline for comparison, we employed GPT direct generation
+the boundary of the LLM’s capabilities. alongsideChainofThought(CoT)asoutlinedin[31].Notably,
+our primary focus centered on evaluating the efficacy of
+IV. EXPERIMENTS ArgMed-Agents within the domain of clinical decision rea-
+soning. It is pertinent to highlight that while datasets such as
+In this section, we demonstrate the potential of ArgMed-
+MedQAandPubMedQAcontainedbiomedicalgeneralknowl-
+Agents in clinical decision reasoning by evaluating the accu-
+edgequiz-typequestions,weintentionallyexcludedthissubset
+racy and explainability.
+duringtheexampleselectionprocess.Thisdeliberateexclusion
+aimed to maintain the integrity of our evaluation specifically
+A. Settings
+withintherealmofclinicaldecision-making,therebyensuring
+We implemented different types of agents in ArgMed- a targeted assessment of ArgMed-Agents’ performance.
+Agents using the APIs GPT-3.5-turbo and GPT-4 provided Table I presents the accuracy outcomes for MedQA and
+by OpenAI [1], and according to our setup, the LLM Agents PubMedQA, contrasting ArgMed-Agents with various base-
+are implemented with the same LLM and different few-shot lines under direct generation and Chain of Thought (CoT)
+prompts. Each agent is configured with specific parameters: configurations. Notably, evaluations employing GPT-3.5-turbo
+the temperature is set to 0.0, as well as a dialogue limit of 8 andGPT-4modelsrevealedthatourproposedArgMed-Agents
+and the maximum number of decisions allowed for ArgMed- notably enhanced accuracy in clinical decision reasoning
+Agents to generate limit of 4 (because the MedQA dataset is tasks compared to CoT and other baselines. This finding
+multiplechoicewithonlyfouroptions),whichistopreventthe underscores the efficacy of ArgMed-Agents in augmenting
+agents from getting into loops with each other. On the other the clinical reasoning capabilities of Language Model (LLM)
+hand, we using python3 to implemente a symbolic solver of systems.Intriguingly,throughmultipleexperimentrepetitions,
+our formal model. we observed instances where integrating CoT resulted in an
+unexpected decline in performance. This phenomenon might
+B. Datasets stem from the propensity of LLMs to experience hallucina-
+tory behaviors, exacerbated by CoT’s potential to perpetuate
+Thefollowingtwodatasetswereusedtoassesstheaccuracy
+such hallucinations indefinitely. In contrast, ArgMed-Agents
+and explainability of ArgMed-Agents clinical reasoning:
+corrects initial erroneous conclusions by means of iterative
+• MedQA [24]:Answering multiple-choice questions de- argumentation, effectively mitigates this issue.
+rived from the United States Medical License Exams
+D. Explainability
+(USMLE). This dataset is sourced from official medical
+board exams and encompasses questions in English, The main focus of Explainable AI (XAI) is usually the
+simplified Chinese, and traditional Chinese. The total reasoning behind decisions or predictions made by AI that
+question counts for each language are 12,723, 34,251, become more understandable and transparent. In the context
+and 14,123, respectively. of XAI, Explainability is defined as follows [32]:
+• PubMedQA [25]: A biomedical question and answer ...level of understanding how the AI-based system
+(QA) dataset collected from PubMed abstracts. The task came up with a given result.
+Model Method Pre. sions. To provide a preliminary proof, we analyzed instances
+Direct 0.53 where ArgMed-Agents failed to produce acceptable decisions
+GPT-3.5-turbo CoT 0.59 and correlated these instances with the observed errors. Our
+ArgMed-Agents 0.87 data indicates that in 63% of cases where ArgMed-Agents
+failed to yield an acceptable decision set, there were identifi-
+Direct 0.68
+ableclinicalreasoningerrors.Theseerrorswereprimarilydue
+GPT-4 CoT 0.73
+to the presence of extensive conflicting knowledge within the
+ArgMed-Agents 0.91
+AF, which prevented the system from arriving at a coherent
+Knowledge-basedCDSS 0.95
+decision. Specifically, 76% of these errors were linked to
+TABLEII:Predictaccuracy(Pre.)withreasoningrecordofdifferent confilctknowledge,while24%wereduetoinsufficientdomain
+models and methods in 100 MedQA examples. knowledge.
+Our analysis suggests that the capacity of ArgMed-Agents
+to navigate and resolve conflicts in medical knowledge is a
+Based on this criterion, we define measures of LLM’s
+criticaldeterminantofitseffectiveness.Thisisconsistentwith
+explanability:
+the assumption as follows: for a given input (e.g., a clinical
+• How far do the explanations given by LLM help users to reasoning problem), when only a small amount of conflicting
+predict LLM’s decisions? knowledge exists in the LLM, ArgMed-Agents can reason
+Our team has produced a fully functional knowledge-based out the correct treatment plan by vetoing out the erroneous
+clinicaldecisionsupportsystem(CDSS)[33]atanearlystage arguments through further argumentation. When there is a
+that can be used to assist in treatment decisions for complex large amount of inconsistent knowledge in the LLM, these
+diseases such as cancer, neurological disorders, and infectious conflicts lead to a complex system that prevents the LLM
+diseases. This CDSS consist of computer-interpretable guide- from maintaining logical consistency in its generation (i.e.,
+lines in the form of Resource Description Framework (RDF) the phenomenon of hallucination), thus hindering effective
+[34] and the corresponding inference engine. Knowledge- decision-making.
+based CDSS can be viewed as explainable systems. The advantage of ArgMed-Agents over similar existing
+With this, our experimental setup is as follows: We set techniques is that the conditions under which LLM reasoning
+the direct generation explanation and COT as the baseline fails(i.e.whenfacedwithalargeamountofconflictingknowl-
+and the knowledge-based CDSS as the benchmark of what edge or insufficient domain knowledge) can be recognised
+we expect explainability of ArgMed-Agents to be close to. through formal arguments, allowing us to better understand
+We documented the input (i.e., questions) and reasoning and predict the limitations of LLM in clinical applications.
+process for 100 examples in MedQA (e.g., COT’s chain of Thisunderstandingiscriticaltomitigatingtherisksassociated
+reasoning, RDF inference nodes in knowledge-based CDSS with poor decision-making in healthcare settings.
+and the complete dialogue between ArgMed-Agents and the In addition to this, we analyse the traceability of ArgMed-
+corresponding argumentation framework). For evaluation, We Agents reasoning. We find that the reasoning process by
+fine-tuned an LLM to act as an evaluator, causing it to predict which the CoT method arrives at an answer is usually log-
+the corresponding decision based on the inference record. We ically incomplete, whereas the reasoning process of ArgMed-
+considered the accuracy of the evaluator’s predictions as an Agents is much more refined. Interestingly, we found that the
+indicator of interpretability (i.e., how well the reasoning pro- reasoning of the knowledge-based CDSS on many examples
+cess helps the user understand the decision). The knowledge- can be regarded as a reasoning subgraph of ArgMed-Agents,
+basedCDSSachievedthehighestpredictiveaccuracy(0.95)as probably because ArgMed-Agents traverses all the reasoning
+the benchmark for explainability. Among the tested methods, paths in a randomly generatedmanner, and thus the reasoning
+ArgMed-Agents demonstrated significantly higher predictive graph includes not only the reasoning paths of the correct
+accuracy compared to direct and CoT methods in both GPT- decisions, but also the explanations of the incorrect decisions.
+3.5-turbo and GPT-4 models. ArgMed-Agents with GPT-4 This finding provides further evidence of the explainability
+achieved 0.91 predictive accuracy, closely approaching the of ArgMed-Agents. In many clinical decision cases, patients
+knowledge-based CDSS’s level of explainability. maywanttounderstandnotjustwhyaparticulardecisionwas
+The study demonstrates that ArgMed-Agents significantly taken, but why another decision could not be adopted.
+enhance the explainability of LLMs, enabling users to bet-
+V. RELATEDWORK
+ter understand and predict the models’ decisions. This sug-
+A. LLM-based Clinical Decision Support System
+gests that employing advanced argumentation frameworks
+can bridge the gap between black-box AI models and fully ExtensiveresearchunderscoresthepotentialutilityofLarge
+transparent, knowledge-based systems like the CDSS. Language Models (LLMs) in medical applications [35]–[37].
+However, these models encounter challenges in making re-
+E. Discussion
+liable decisions when faced with complex clinical scenarios
+Conjecture1positsthaterrorsinclinicalreasoningoccurin that demand advanced medical expertise and robust reasoning
+ArgMed-Agents if the AF does not yield any acceptable deci- skills [3]. Consequently, significant efforts have been initiated
+to augment the clinical reasoning capabilities of LLMs. [22] and coherent arguments in this framework as decision support
+introducesaMulti-disciplinaryCollaboration(MC)framework and explaintion. The experimental results indicate that, com-
+employing LLM-based agents in simulated role-playing sce- pared to different baselines, using ArgMed-Agent for clini-
+narios,facilitatingcollaborative,iterativediscussionsaimedat cal decision-making reasoning achieves greater accuracy and
+consensusbuilding.Despiteyieldingpromisingoutcomes,this provides inherent explanations for its inferences. In addition
+approach struggles to formalize iterative results effectively to to this, the analyses in our discussion show that ArgMed-
+enhance the inference performance of LLMs using dedicated Agents are able to identify their own reasoning errors and
+inference tools. ability boundaries to a large extent. This means that ArgMed-
+Another approach, proposed by [38], leverages diagnostic Agents provides safer decisions compared to other state-of-
+reasoning prompts to enhance clinical reasoning and inter- the-artmethods.Ourgoalinthisworkistoprovidehealthcare
+pretability in LLMs. However, this approach improves ex- professionals with powerful tools to enhance their decision-
+plainability through templates designed for specific diseases, making process and ultimately improve patient outcomes.
+whereas ArgMed-Agents is more automated. In addition to Despite the success of ArgMed-Agents, there are still some
+this,ArgMed-Agentsprovidesexplanationsforwhyadecision limitations. We suggest the following future directions for
+would not have been chosen. the linmitations: (1) While we used abstract argumentation
+Additionally, research efforts such as those by [39], [40] to formalise the results of the ArgMed-Agents clinical dis-
+involve fine-tuning LLMs using extensive datasets sourced cussion, extension to more expressive logics (e.g., first-order
+from medical and biomedical literature. In contrast to these logic, descriptive logic, modal logic, or probabilistic logic)
+approaches, our method focuses on exploiting latent medical would allow for more sophisticated reasoning and argument
+knowledge inherently present within LLMs to enhance their generation. (2) Adaptive approaches that tailor arguments to
+reasoning abilities in a training-free setting. the needs and preferences of individual users can further im-
+provetheeffectivenessandexplainabilityofclinicaldecisions.
+B. Logical Reasoning with LLMs
+Futureworkcouldexploreinteractiveclinicaldecisionsupport
+An extensive body of research has been dedicated to uti- systems based on patient/physician feedback.
+lizing symbolic systems to augment reasoning, which en-
+compasses a variety of methodologies including code en- REFERENCES
+vironments, knowledge graphs, and formal theorem provers
+[1] OpenAI,“Gpt-4technicalreport,”2023.
+[21], [41], [42]. In the study conducted by Jung et al. [43], [2] A. Nayak, M. S. Alkaitis, K. Nayak, M. Nikolov, K. P. Weinfurt, and
+reasoning is framed as a satisfiability problem of its logical K. Schulman, “Comparison of history of present illness summaries
+generated by a chatbot and senior internal medicine residents,” JAMA
+relations through the application of inverse causal reasoning.
+InternMed,vol.183,no.9,pp.1026–1027,Sep2023.
+This approach leverages SAT solvers to enhance consistent
+[3] K. Singhal, S. Azizi, T. Tu, S. S. Mahdavi, J. Wei, H. W. Chung,
+reasoning and thereby improves the reasoning capabilities of N. Scales, A. Tanwani, H. Cole-Lewis, S. Pfohl, P. Payne, M. Senevi-
+Large Language Models (LLMs). ratne, P. Gamble, C. Kelly, N. Scharli, A. Chowdhery, P. Mansfield,
+B. A. y Arcas, D. Webster, G. S. Corrado, Y. Matias, K. Chou,
+Zhang et al.’s work [18] takes a different approach by J. Gottweis, N. Tomasev, Y. Liu, A. Rajkomar, J. Barral, C. Semturs,
+employing cumulative reasoning to break down tasks into A.Karthikesalingam,andV.Natarajan,“Largelanguagemodelsencode
+smaller, more manageable components, which simplifies the clinicalknowledge,”2022.
+[4] J.W.Ayers,A.Poliak,M.Dredze,E.C.Leas,Z.Zhu,J.B.Kelley,D.J.
+problem-solving process and boosts overall efficiency. In an-
+Faix,A.M.Goodman,C.A.Longhurst,M.Hogarth,andD.M.Smith,
+other study, Xiu et al. [16] explore the non-monotonic rea- “Comparing Physician and Artificial Intelligence Chatbot Responses
+soning capabilities of LLMs. However, despite the promising to Patient Questions Posted to a Public Social Media Forum,” JAMA
+Internal Medicine, vol. 183, no. 6, pp. 589–596, 06 2023. [Online].
+initial results demonstrated by LLMs, their performance is
+Available:https://doi.org/10.1001/jamainternmed.2023.1838
+notably inadequate in terms of generalization and proof-based [5] A. Pal, L. K. Umapathi, and M. Sankarasubbu, “Med-halt: Medical
+traceability,withamarkeddeclineineffectivenessasthedepth domainhallucinationtestforlargelanguagemodels,”2023.
+[6] E. Eigner and T. Ha¨ndler, “Determinants of llm-assisted decision-
+of reasoning increases.
+making,”2024.
+Consistent with our findings, recent studies have begun to [7] E. Dietz, A. Kakas, and L. Michael, “Argumentation: A calculus
+investigate the potential for enhancing argumentative reason- for human-centric ai,” Frontiers in Artificial Intelligence, vol. 5,
+2022. [Online]. Available: https://www.frontiersin.org/articles/10.3389/
+ing in LLMs [14]. These efforts aim to bolster the argumen-
+frai.2022.955579
+tative reasoning abilities of LLMs, as evidenced by the work [8] ——,“Computationalargumentationandcognition,”2021.
+of Dewynter et al. [44] and Castagna et al. [15], which strive [9] M. A. Qassas, D. Fogli, M. Giacomin, and G. Guida, “Analysis
+of clinical discussions based on argumentation schemes,” Procedia
+to further develop this aspect of LLM performance.
+Computer Science, vol. 64, pp. 282–289, 2015, conference on
+ENTERprise Information Systems/International Conference on Project
+VI. CONCLUSION MANagement/Conference on Health and Social Care Information
+Systems and Technologies, CENTERIS/ProjMAN / HCist 2015
+In this work, We propose a novel medical multi-agent
+October7-9,2015.[Online].Available:https://www.sciencedirect.com/
+interaction framework called ArgMed-Agents, which inspires science/article/pii/S1877050915026265
+agents of different roles to simulate the process of clinical [10] S.Hong,L.Xiao,andJ.Chen,“Aninteractionmodelformergingmulti-
+agentargumentationinsharedclinicaldecisionmaking,”in2023IEEE
+discussion, iterating through argumentation and critical ques-
+International Conference on Bioinformatics and Biomedicine (BIBM),
+tioning.Finally,Reasoneragenttoidentifyasetofreasonable 2023,pp.4304–4311.
+[11] Z.Zeng,Z.Shen,B.T.H.Tan,J.J.Chin,C.Leung,Y.Wang,Y.Chi,and [33] M. Liu, L. Xiao, Q. Wang, Z. Liu, R. Zhu, and M. He, “A study
+C.Miao,“ExplainableandArgumentation-basedDecisionMakingwith of medical decision recommendation generation and similarity fusion
+QualitativePreferencesforDiagnosticsandPrognosticsofAlzheimer’s based on cdss and chatgpt-4,” in 2023 IEEE International Conference
+Disease,” in Proceedings of the 17th International Conference on onBioinformaticsandBiomedicine(BIBM),2023,pp.873–878.
+Principles of Knowledge Representation and Reasoning, 9 2020, pp. [34] G.KlyneandJ.J.Carroll.(2004)Resourcedescriptionframework(rdf):
+816–826.[Online].Available:https://doi.org/10.24963/kr.2020/84 Concepts and abstract syntax. W3C Recommendation. W3C. [Online].
+[12] I. Sassoon, N. Ko¨kciyan, S. Modgil, and S. Parsons, “Argumentation Available:http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/
+schemes for clinical decision support,” Argument and Computation, [35] Z.Bao,W.Chen,S.Xiao,K.Ren,J.Wu,C.Zhong,J.Peng,X.Huang,
+vol.12,no.3,pp.329–355,Nov.2021. andZ.Wei,“Disc-medllm:Bridginggenerallargelanguagemodelsand
+[13] K.Cˇyras,B.Delaney,D.Prociuk,F.Toni,M.Chapman,J.Dom´ınguez, real-worldmedicalconsultation,”2023.
+andV.Curcin,“Argumentationforexplainablereasoningwithconflicting [36] H.Nori,Y.T.Lee,S.Zhang,D.Carignan,R.Edgar,N.Fusi,N.King,
+medical recommendations,” CEUR Workshop Proceedings, vol. 2237, J. Larson, Y. Li, W. Liu, R. Luo, S. M. McKinney, R. O. Ness,
+Jan. 2018, 2018 Joint Reasoning with Ambiguous and Conflicting H.Poon,T.Qin,N.Usuyama,C.White,andE.Horvitz,“Cangeneralist
+Evidence and Recommendations in Medicine and the 3rd Interna- foundation models outcompete special-purpose tuning? case study in
+tionalWorkshoponOntologyModularity,Contextuality,andEvolution, medicine,”2023.
+MedRACER+WOMoCoE2018;Conferencedate:29-10-2018. [37] Q. Jin, Y. Yang, Q. Chen, and Z. Lu, “Genegpt: Augmenting large
+[14] G.Chen,L.Cheng,L.A.Tuan,andL.Bing,“Exploringthepotential languagemodelswithdomaintoolsforimprovedaccesstobiomedical
+oflargelanguagemodelsincomputationalargumentation,”2023. information,”2023.
+[15] F.Castagna,N.Kokciyan,I.Sassoon,S.Parsons,andE.Sklar,“Com- [38] T. Savage, A. Nayak, R. Gallo, and et al., “Diagnostic reasoning
+putationalargumentation-basedchatbots:asurvey,”2024. prompts reveal the potential for large language model interpretability
+[16] Y. Xiu, Z. Xiao, and Y. Liu, “LogicNMR: Probing the non-monotonic in medicine,” npj Digital Medicine, vol. 7, p. 20, 2024. [Online].
+reasoning ability of pre-trained language models,” in Findings of the Available:https://doi.org/10.1038/s41746-024-01010-1
+AssociationforComputationalLinguistics:EMNLP2022,Y.Goldberg, [39] K.Singhal,T.Tu,J.Gottweis,R.Sayres,E.Wulczyn,L.Hou,K.Clark,
+Z. Kozareva, and Y. Zhang, Eds. Abu Dhabi, United Arab Emirates: S.Pfohl,H.Cole-Lewis,D.Neal,M.Schaekermann,A.Wang,M.Amin,
+AssociationforComputationalLinguistics,Dec.2022,pp.3616–3626. S. Lachgar, P. Mansfield, S. Prakash, B. Green, E. Dominowska,
+[Online].Available:https://aclanthology.org/2022.findings-emnlp.265 B. A. y Arcas, N. Tomasev, Y. Liu, R. Wong, C. Semturs, S. S.
+Mahdavi, J. Barral, D. Webster, G. S. Corrado, Y. Matias, S. Azizi,
+[17] J.Xie,K.Zhang,J.Chen,T.Zhu,R.Lou,Y.Tian,Y.Xiao,andY.Su,
+A. Karthikesalingam, and V. Natarajan, “Towards expert-level medical
+“Travelplanner: A benchmark for real-world planning with language
+questionansweringwithlargelanguagemodels,”2023.
+agents,”2024.
+[40] C.Li,C.Wong,S.Zhang,N.Usuyama,H.Liu,J.Yang,T.Naumann,
+[18] Y.Zhang,J.Yang,Y.Yuan,andA.C.-C.Yao,“Cumulativereasoning
+H.Poon,andJ.Gao,“Llava-med:Trainingalargelanguage-and-vision
+withlargelanguagemodels,”2023.
+assistantforbiomedicineinoneday,”2023.
+[19] L.Wang,C.Ma,X.Feng,Z.Zhang,H.Yang,J.Zhang,Z.Chen,J.Tang,
+[41] S. Pan, L. Luo, Y. Wang, C. Chen, J. Wang, and X. Wu, “Unifying
+X.Chen,Y.Lin,W.X.Zhao,Z.Wei,andJ.-R.Wen,“Asurveyonlarge
+large language models and knowledge graphs: A roadmap,” IEEE
+languagemodelbasedautonomousagents,”2023.
+Transactions on Knowledge and Data Engineering, p. 1–20, 2024.
+[20] W. Shi, R. Xu, Y. Zhuang, Y. Yu, J. Zhang, H. Wu, Y. Zhu, J. Ho,
+[Online].Available:http://dx.doi.org/10.1109/TKDE.2024.3352100
+C.Yang,andM.D.Wang,“Ehragent:Codeempowerslargelanguage
+[42] Q.Wu,G.Bansal,J.Zhang,Y.Wu,B.Li,E.Zhu,L.Jiang,X.Zhang,
+models for few-shot complex tabular reasoning on electronic health
+S. Zhang, J. Liu, A. H. Awadallah, R. W. White, D. Burger, and
+records,”2024.
+C.Wang,“Autogen:Enablingnext-genllmapplicationsviamulti-agent
+[21] L. Pan, A. Albalak, X. Wang, and W. Y. Wang, “Logic-lm: Empow-
+conversation,”2023.
+ering large language models with symbolic solvers for faithful logical
+[43] J. Jung, L. Qin, S. Welleck, F. Brahman, C. Bhagavatula, R. L. Bras,
+reasoning,”2023.
+andY.Choi,“Maieuticprompting:Logicallyconsistentreasoningwith
+[22] X. Tang, A. Zou, Z. Zhang, Z. Li, Y. Zhao, X. Zhang, A. Cohan, and recursiveexplanations,”2022.
+M. Gerstein, “Medagents: Large language models as collaborators for [44] A.deWynterandT.Yuan,“Iwishtohaveanargument:Argumentative
+zero-shotmedicalreasoning,”2024. reasoninginlargelanguagemodels,”2023.
+[23] K. Gandhi, D. Sadigh, and N. D. Goodman, “Strategic reasoning with
+languagemodels,”2023.
+[24] D. Jin, E. Pan, N. Oufattole, W.-H. Weng, H. Fang, and P. Szolovits,
+“Whatdiseasedoesthispatienthave?alarge-scaleopendomainquestion
+answeringdatasetfrommedicalexams,”2020.
+[25] Q. Jin, B. Dhingra, Z. Liu, W. W. Cohen, and X. Lu, “Pubmedqa: A
+datasetforbiomedicalresearchquestionanswering,”2019.
+[26] P. M. Dung, “On the acceptability of arguments and its fundamental
+role in nonmonotonic reasoning, logic programming and n-person
+games,” Artificial Intelligence, vol. 77, no. 2, pp. 321–357, 1995.
+[Online]. Available: https://www.sciencedirect.com/science/article/pii/
+000437029400041X
+[27] T. Oliveira, J. Dauphin, K. Satoh, S. Tsumoto, and P. Novais, “Argu-
+mentationwithgoalsforclinicaldecisionsupportinmultimorbidity,”in
+Proceedingsofthe17thInternationalConferenceonAutonomousAgents
+andMultiAgentSystems,2018,2031–2033.
+[28] D.Walton,C.Reed,andF.Macagno,ArgumentationSchemes,C.Reed
+andF.Macagno,Eds. NewYork:CambridgeUniversityPress,2008.
+[29] D. Walton, Argumentation Schemes for Presumptive Reasoning,
+1st ed. Routledge, 1996. [Online]. Available: https://doi.org/10.4324/
+9780203811160
+[30] A.Creswell,M.Shanahan,andI.Higgins,“Selection-inference:Exploit-
+inglargelanguagemodelsforinterpretablelogicalreasoning,”2022.
+[31] J.Wei,X.Wang,D.Schuurmans,M.Bosma,B.Ichter,F.Xia,E.Chi,
+Q. Le, and D. Zhou, “Chain-of-thought prompting elicits reasoning in
+largelanguagemodels,”2023.
+[32] “ISO, IEC: AWI TS 29119-11: Software and systems engineering -
+software testing - part 11: Testing of AI systems,” Tech. Rep., 2020.
+[Online].Available:https://www.iso.org/standard/84127.html

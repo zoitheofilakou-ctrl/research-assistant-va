@@ -2,11 +2,12 @@ import streamlit as st
 import json
 import os
 from dotenv import load_dotenv
+from project_paths import FILTERED_PAPERS_PATH, RAG_STORE_DIR, ensure_parent_dir
 
 load_dotenv()
 
 try:
-    from ingestion.scripts.updated_scraper import fetch_rehabilitation_papers
+    from data_acquisition.scraper import fetch_rehabilitation_papers
     from llm.rag_generator import generate_rag_answer
 except Exception as e:
     st.error(f"Import error: {e}")
@@ -171,8 +172,8 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### Pipeline status")
 
-    rag_store_ok = os.path.exists("rag_store")
-    filtered_ok  = os.path.exists("data/processed/filtered_papers.json")
+    rag_store_ok = os.path.exists(RAG_STORE_DIR)
+    filtered_ok  = os.path.exists(FILTERED_PAPERS_PATH)
 
     if rag_store_ok:
         st.success("Vector index ready")
@@ -274,8 +275,8 @@ with tab_search:
                 if not selected_papers:
                     st.warning("Select at least one paper first.")
                 else:
-                    os.makedirs("data/processed", exist_ok=True)
-                    with open("data/processed/filtered_papers.json", "w", encoding="utf-8") as f:
+                    ensure_parent_dir(FILTERED_PAPERS_PATH)
+                    with open(FILTERED_PAPERS_PATH, "w", encoding="utf-8") as f:
                         json.dump(selected_papers, f, indent=2)
                     st.success(f"{len(selected_papers)} papers saved to corpus.")
 
@@ -301,7 +302,7 @@ with tab_ask:
         "It does not use external knowledge and does not provide clinical recommendations."
     )
 
-    if not os.path.exists("rag_store"):
+    if not os.path.exists(RAG_STORE_DIR):
         st.warning("No vector index found. Build the index before asking questions.")
 
     # Chat history

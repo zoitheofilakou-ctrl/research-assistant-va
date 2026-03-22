@@ -1,0 +1,324 @@
+www.nature.com/npjdigitalmed
+PERSPECTIVE OPEN
+Collaborative Intelligence to catalyze the digital
+transformation of healthcare
+AmiB. Bhatt1✉ and JenniferBae2
+Collaborativeintelligence reflects thepromise andlimits of leveraging artificial intelligence (AI)technologies inclinical care.It
+involvestheuseofadvanced analyticsand computingpower with anunderstanding that humansbearresponsibility for the
+accuracy,completenessandanyinherentbiasfoundinthetrainingdata.Cliniciansbenefitfromusingthistechnologytoaddress
+increasedcomplexityandinformationoverload,supportcontinuouscareandoptimizedresourceallocation,andtoenacteffortsto
+eradicatedisparities in healthcare accessand quality. Thisrequiresactive clinicianengagement with thetechnology,a general
+understandingofhowthemachineproduceditsinsight,thelimitationsofthealgorithms,andtheneedtoscreendatasetsforbias.
+Importantly,byinteracting,theclinicianandtheanalyticswillcreatetrustbasedontheclinician’scriticalthinkingskillsleveragedto
+discernvalueofmachineoutputswithinclinicalcontext.Utilizationofcollaborativeintelligenceshouldbestagedwiththelevelof
+understandingandevidence.Itisparticularlywellsuitedtolow-complexitynon-urgentcareandtoidentifyingindividualsatrising
+riskwithina population. Clinician involvement inalgorithm development andtheamassing of evidence tosupport safetyand
+efficacywillpropeladoption.Utilizationofcollaborativeintelligencerepresentsthenaturalprogressionofhealthcareinnovation,
+andifthoughtfullyconstructedandequitablydeployed,holdsthepromisetodecreaseclinicianburdenandimproveaccesstocare.
+npjDigital Medicine (2023) 6:177 ; https://doi.org/10.1038/s41746-023-00920-w
+VISIONOF COLLABORATIVE INTELLIGENCE intelligence offers a novel philosophy of how medicine can
+Collaborative intelligence is the use of advanced analytics and embracedatatechnologiesandhasthepotentialtobedeveloped
+computing power with an understanding that humans bear into a true method for approaching the digital transformation of
+responsibility for the accuracy, completeness and any inherent healthcare while keeping the clinician-patient relationship at the
+bias found in the training data1. Artificial intelligence refers to center ofthenovel pyramid ofcare delivery.
+when computer systems perform tasks that normally require
+human intelligence2. In collaborative intelligence, human users
+workinconcertwithalgorithms,interpretingartificialintelligence WHYCOLLABORATIVE INTELLIGENCE HAS EMERGED
+outputs, with the intention of together, becoming more intelli- Why adopt collaborative intelligence? The increasing burden of
+gent. In the next 12 to 18 months, collaborative intelligence will disease4 cannot be managed in a one-to-one relationship by the
+transformclinicaldatamanagementviatheanalysisofmillionsof decreasing clinical workforce5,6. The current healthcare challenge
+clinical data points. Radiology has already been transformed by has three components: accelerating complexity and exponential
+this technology and the advent of collaborative intelligence will informationoverload7,atransitiontocontinuouscaremodelsand
+allow the ingestion of information beyond imaging to be optimized resource allocation8, and a mandate to eradicate
+integrated into clinical care across multiple specialties3. Impor- disparities in access and quality9. Implementing data analytics
+tantly, collaborative intelligence is different than human-in-the- and artificial intelligence addresses these challenges and opti-
+loop machine learning, which refers to leveraging the rapid mizes patient care.
+detection and computing power of AI while having humans
+involved in the algorithm development process to fill in gaps
+where machine learning may fall short. Therefore, human in the ADDRESSINGACCELERATING COMPLEXITY AND
+loop utilizes humans in the service of improving the algorithm. EXPONENTIAL INFORMATION OVERLOAD
+Conversely, collaborative intelligence is the use of algorithms in Patientdatahashistoricallybeendisparateanddisconnectedina
+theserviceof improving, butnot replacing, humanacumen. clinical setting. Patient-generated data from multiple sources
+Weseecollaborativeintelligenceaspartofacompellingvision compounds this problem. We have a greater opportunity than
+of the near future of healthcare where clinical acumen interacts ever before to create a comprehensive picture of a patient, but
+with technology to finally optimize the care of patients. Here we that can only be realized with the application of AI to assemble
+share the definition of collaborative AI, why it has emerged, the relevant patient and population data to achieve high-quality
+challengesitposes,andhowweharnessitspower.Wepresenta care10. To create the infrastructure necessary to utilize collabora-
+theory for how physician responsibility and interactivity with tive intelligence effectively and ethically, it is imperative to
+technologycanyieldtrustandcreatearoadmapofthefuturefor systematically create standardized and transparent data. Colla-
+howthesetechnologiespresentinpractice.Weofferataxonomy borative intelligence increases the value of electronic health
+of applications/technology, which might serve as shorthand for recordsviasummarization,riskpredictionandpatternrecognition,
+how/when/why clinicians should trust them. Collaborative and data abstraction for quality metrics and registries11. Clinical
+1ChiefInnovationOfficer,AmericanCollegeofCardiology,AssociateProfessor,HarvardMedicalSchool,Washington,USA.2ExecutiveDirectorofGlobalInnovation,American
+✉
+CollegeofCardiology,Washington,USA. email:abhatt@acc.org
+PublishedinpartnershipwithSeoulNationalUniversityBundangHospital
+;,:)(0987654321
+A.B.BhattandJ.Bae
+2
+decision support harnesses the power of patient level data and flowing communication between clinical teams and patients.
+guidelines to optimize care. With the sheer volume of data— Blended care, the combination of in person and virtual
+patient-reported outcomes, wearables, medical-grade remote synchronous visits, whether by telephone or video, increases the
+monitoring, soon perhaps ambient continuous data, combined convenienceofcare,decreasesthecostofobtainingmedicalcare,
+withtherapidpaceofscientificadvances,guidelines,andtrials— and allows individuals to consume care in non-threatening
+delivering the highest quality care remains in reach only with environments16. The wide adoption of digital tracking and
+support from advanced computing1. Many health organizations wearables and increased availability of medical grade devices
+have moved beyond harvesting data solely from health records provides essential support for screening, monitoring, and treat-
+and toward the creation of institutional data lakes that link a ment for effective remote cardiovascular care. Lastly, patients
+varietyofclinicalandoperationaldatasets,allinpursuitofbetter engage with digital devices and present data to clinicians for
+care and operational performance12. Such data aggregation interpretation and follow up.
+provides more opportunity to apply AI-enabled solutions. Technology enabled care, including digital health technology
+Incorporation of social determinants of health data further with “AI inside,” expands the reach of a limited number of
+supports clinicians and leading health systems in human- clinicians to the communities where people live and, if thought-
+centereddesignofsolutionstoincreaseaccesstoandcontinuity fully deployed, improves health equity through greater access to
+of care. To best manage these multiple streams of patient standardized high-quality care17. The management of chronic
+information, data analytics are essential to the future practice of disease using AI-enabled digital screening mechanisms supports
+healthcare. earlier identification of disease progression, optimizing clinical
+Once the above-mentioned data are assembled, the scientific workflows to serve patients in a timely manner with the
+advancesofthelastseveraldecadescannowbeincorporatedinto appropriate resources18. Those individuals who need chronic
+treatingpatientswiththefullrigoravailableintheliterature.Data
+management can be managed at home using many of the
+analyticsandcollaborative intelligenceoffer theunique opportu-
+systemsjustdiscussed.Thisallowspatientstopartnerintheircare
+nity to elevate the foundation of medical care and apply
+whileremaininglocal.Additionally,whenthesesystemsrecognize
+scientifically rigorous clinical knowledge during the clinician
+that individuals have rising risk, and analytic infrastructure can
+patient encounter. Guideline directed medical therapy (GDMT),
+identifypotentialprogressionofillness,patientscanbebroughtto
+althoughavailable,hasyettoreachitsfullpotentialaswell13.With
+attention more promptly19. In those situations where patients
+theincreasingburdenandcomplexityofdisease14andadeclining
+cannot be managed with remote or virtual care, or require
+clinicalworkforce6,15,operationalsustainabilitydemandsengage-
+intervention at tertiary centers, the mechanism of utilizing AI
+ment with AI to routinely achieve appropriate standards of care
+allows clinicians to have the knowledge to orient patients to the
+andoffernovelinnovativetreatmentsforpatientsunderourcare.
+rightnexttest,correctclinicalteam,andmostappropriatelocation
+To address the rising administrative burden in healthcare,
+of care17. In this manner, continuous analysis of data offers
+generative AI deserves special comment. Generative AI refers to
+population health feedback, earlier screening and diagnosis and
+the use of large language models that read and search text to
+appropriate resource utilization for the most urgent or complex
+producetextualresultstofocusquestions.Theusesofgenerative
+patients.
+AIinmedicineabound,butwillstartwithadministrativetaskslike
+documentation, letters, forms, and reminders whether via
+electronic health records, independent applications or chatbots,
+MANDATETOERADICATE DISPARITIES INACCESSAND
+but may eventually be useful as an improved search tool for
+QUALITY
+clinical information at the point of care to enhance clinical care.
+Population health analytics enable clinicians to understand the
+While safety and responsibility are essential to building this
+burden of disparities within a community20. Linked datasets, as
+frameworkforgenerativeAIuseinclinicalmedicine,thereisarole
+describedabove,forindividualpatientscanalsobelinkedacross
+forongoingpilotstudiestobetterassessthecapabilitiesandrisks
+populations of patients. AI then becomes a powerful tool for
+ofgenerativeAI.
+identifyingpatternswithinthosedatasets,includingassessmentof
+Thisisuniqueforatechnology,becauseunlikepriortechnology
+outcomeswithinthegroupforthepurposeofidentifyingoutliers;
+advances, generative AI needs to be used for the technology to
+adherence to GDMT; and, where appropriate, adherence to
+evolve.Untilnow,wehavebeencautioustonotletconsumersor
+lay people see “unfinished” tech work. However, the field of guidelines specific to certain communities with unique risk
+profiles20. Understanding outcomes supports the replication of
+technology is changing. What we want from ChatGPT and other
+bestpracticesandallowsinterrogationoftheunderlyingcausesof
+generative AI models is the truth, however, if we do not allow
+technologyuseintherealworld,wecannotiterateonittomakeit poorer outcomes. Detecting patients who fall out of alignment
+“safe”. Therefore, an understanding that AI can serve as a with GDMT becomes the first step in closing gaps. Finally, this
+collaborator in helping us investigate new ideas, compose suiteoftoolsallowsforacloserlookatsubpopulationsatelevated
+thoughts on a subject, plan a dinner party, or create new risk for disease based on demographic, ethnic or lifestyle factors,
+hypothesestotestiswhatcreatesthepowerofthetechnology.Its tobring theminto better clinical management21.
+power lies not in the massive amounts of computing and Forthesesystemstoworkoptimally,wemustassureequitable
+assessment it can do, rather in its ability to offer that up for access to technologies at the individual level. Digitally enabled
+humanintelligencetoassessandthen…therealtestiswhetherit care can include direct access to technology and access to the
+cansuccessfullyintegratethenewinformationanditerateitsown benefits of technology-enhanced data analytics and population
+processes.Theonlywaytogaugethepowerofthesetechnologies health efforts. Access at the individual level in underserved
+istousethemwhilerecognizingourresponsibilitytodesignand communities is complex and multifaceted. It will require
+test its use for exponential information overload with the lens of interventions including improved connectivity, devices, and
+collaborative intelligence. accesstolow-techsolutionsthatallowthedeliveryofvirtualcare
+without local infrastructure. In designing for digitally enhanced
+care,caregiversmustnotassumethatcertaincommunitiescannot
+CONTINUOUSCAREANDOPTIMIZEDRESOURCEALLOCATION utilizedevicesortechnology21.Whilesystemlevelaccessisoften
+Episodic clinical care does not align with patients’ continuous necessaryfordigitaladoptionatthecommunitylevel,broadband
+experienceofdisease.Asynchronouscommunicationwithpatient access is not the only impediment to engaging with technol-
+reported outcome measures and patient portals allow for free- ogy22,23.Lowertechsolutionshavearoletoplayinstrengthening
+npjDigitalMedicine(2023) 177 PublishedinpartnershipwithSeoulNationalUniversityBundangHospital
+;,:)(0987654321
+A.B.BhattandJ.Bae
+3
+accessandshouldnotprecludetheabilitytobenefitfrominsights CLINICALAPPLICATIONS OFCOLLABORATIVE INTELLIGENCE
+derivedfrom data22. The implementation of collaborative intelligence will evolve as
+Finally, for health systems to usethe power of AI to scale care clinicians gain trust and systems create infrastructure. Clinicians
+deliverywithoutamplifyinginequities,wemusthaveaframework needtounderstandwhatpartoftheprocessornarrowoutcome
+to perform active surveillance for bias24. The development of the AI aims to address. Interpretability and familiarity with
+software for AI demands fairness, operational tolerances, and collaborative intelligence systems helps users learn the system,
+surveying for reinforcement of systemic bias24. When these but also helps the system align better with clinical intuition.
+mechanisms involve an assessment of influences on vulnerable Clinicians require both experiential and didactic training to
+populations, we can limit bias upstream24. Everyone involved in appropriately engage with AI in clinical care. The wisdom to
+the process has a responsibility to promote ethical models, “start small” applies well in this context. Users will develop
+including clinicians, health systems, vendors in the technology appropriate trust in these systems once they utilize collaborative
+sector and regulatory authorities24. Importantly, recognizing that intelligence for low complexity, non-urgent care and understand
+socialdeterminantsofhealtharenotstaticandmaychangeover how the systems make their decisions. With success in low
+timewillrequireiterativeassessment24.Infrastructurewillthenbe complexity and nonurgent settings, attention can be turned to
+designedtobe agileand contextually relevant. higherriskand moreurgentmatters.
+AI-drivenhealthsolutionsinpracticehaveprovenmoreefficient
+and effective, though the challenge remains in scaling up these
+technologies.Forexample,astudyofsafetyandefficacyofAIfor
+PHYSICIANRESPONSIBILITY ANDINTERACTIVITY WITH
+left ventricular ejection fraction assessed AI decision support vs
+TECHNOLOGY
+sonographerreadingontimingandaccuracyofechoassessment.
+For the promise of collaborative intelligence to be in reach, Designed as a randomized single group assignment of 3,495
+clinicians must become active in understanding the role of patients,theresearchersfoundthatcardiologistsneededtorevise
+algorithms and artificial intelligence in healthcare. A myriad of interpretations more often with sonographer assessed scans
+solutions already exist in market, used either directly by the (27.2% of the time) compared to the need to change the report
+consumer, large companies in healthcare, or early adopters22. withAI assessed initialscans (16.8% ofthe time)25.
+There has been, and will continue to be, a rapid rise in novel To create collaborative intelligence that provides clinical
+technologies which utilize collaborative intelligence to increase support at the point of care, there must be clinicians involved in
+theaccuracyandpowerofdiseasedetectionandriskstratification. algorithmdevelopmentandpeer-reviewedclinicalguidancemust
+The digital transformation of healthcare using AI demands that be incorporated. The clinician’s acumen may be challenged at
+clinicians offer rapid feedback to ensure safety. The systematic times as the AI notes new trends, data, or research, but at other
+interactionbetweenclinicalpractitionersandAIintheconstructof times, their nuanced knowledge will supersede the AI’s ability. If
+collaborativeintelligenceprovidescriticalinputstomaintainsafe, the AI-enabled clinician understands that both scenarios are
+high quality, optimal patient care as the pace of healthcare within the realm of appropriate responses, they can engage in
+innovation accelerates. process improvement to iterate and improve upon the technol-
+Successful implementation of these technologies will fail ogy. Iterative interaction enables further training of algorithms,
+without trust. A paradox exists in clinical care today: technology supports unlearning parts of AI that do not fit a given situation,
+has played an assistant role in health care for decades, but
+identificationofbiasorincorrectassumptions,andlearningabout
+patientsandendusersexperiencereluctanceinusingAIincare23. novel groupings which may lead to clinical insights1. Engaging
+with collaborative intelligence requires AI awareness, not exper-
+To mitigate the risk of blindly following computing outputs, AI-
+tise. Importantly, if employing collaborative intelligence in the
+enabled clinicians must understand their responsibility in ethical
+clinical arena, human design centered processes are essential to
+use of AI. AI should not be evaluated in a vacuum, but instead
+createseamless experiencesfor alreadyoverwhelmed clinicians.
+within the context of the use of the technology by the clinician,
+At the population level, the application of collaborative
+system, or business. To gain the trust required for broader
+intelligence in practice aids in identifying rising risk individuals
+adoption,collaborativeintelligencedependsonresponsibleuseof
+todirect them to timelycarein theappropriate location. Inboth
+data and algorithms, an AI-enabled workforce, and transparency
+the outpatient and inpatient setting, data-driven collaborative
+around technology’slimitations.
+intelligence can help meet quality and safety measures such as
+Critical thinking skills must be deployed to evaluate the AI-
+response times to changing patterns26. Finally, AI has the power
+sourced and created information and make informed decisions.
+and speed that surpasses the human brain. The clinician guides
+Clinicians and hospitals require tools and resources to verify
+careprocessesattheindividualandpopulationlevelbyreviewing
+information, such as links to credible sources, to continuously
+the continuously improving analytics offered by collaborative
+monitorandtrainAImodelsandcorrectinaccuraciesorbiasesas
+intelligence and guiding its direction as a conductor would a
+needed22. Vast real-world datasets play an essential role to train
+symphony. Final implementation of care always lies with the
+accurateAImodelsandretrainasneeded.AI-generatedresponses
+clinicalteamwith shareddecision makingwith thepatient.
+can be labeled such that users understand the need to validate The study of the impact and limitations of AI in care is an
+AI’sfindings22.
+essentialultimatestepinthecycleofapplicationofcollaborative
+AsAIinclinicaldecisionmakingevolves,explainabilityistouted intelligence. Safe and high-quality outputs from AI require the
+as one mechanism to increase transparency and trust in AI. developer and end user to agree upon and define acceptable
+Explainable machine learning offers insights into the behavior of margins of error for collaborative intelligence models since the
+AImodels. Although machinelearningengineers use avariety of clinician enabled by AI computing power can amplify success as
+techniques to understand how a model behaves and improve wellaserrors.Observedefficienciesandbenefitstoonegroupof
+upon it, in its current form, explainable AI is not designed to be patientsmayadverselyaffectothersegmentsofthepopulationor
+used by clinician end users at the point of care. Until there are system,thereforemeasuringoutputsrequiresacomplexsystema-
+organizational frameworks for deciding when we need an ticreviewofdownstreameffectsandaninfrastructureforiterative
+explanation, and why, explainable machine learning remains assessment and correction. Openly stating the limitations of
+mostuseful to theengineers creatingtheAI models. digital data and AI in healthcare can help breed trust in new
+PublishedinpartnershipwithSeoulNationalUniversityBundangHospital npjDigitalMedicine(2023) 177
+A.B.BhattandJ.Bae
+4
+systems just beginning to prove their ability to meet basic 13. Cheng, A. T. et al. Treatment gaps in guideline-directed medical therapy for
+healthcare competency. patientsundergoinghigher-riskpercutaneouscoronaryintervention.Circ15,6
+(2022).
+14. Boersma,P.,Black,L.I.&Ward,B.W.Prevalenceofmultiplechronicconditions
+CONCLUSION amongUSadults,2018.Prev.ChronicDis.17,200130(2020).
+15. Robezneiks,A.Doctorshortagesarehere—andthey’llgetworseifwedon’tact
+Thoughtfully created and equitably deployed collaborative
+fast.AmericanMedicalAssociation,(2022).
+intelligence is a natural progression of innovation in healthcare.
+16. Krishnamurthy,Y.,Pagliaro,J.A.,Grady,C.B.,Katz,N.,Bunn,D.&Bhatt,A.B.
+The dichotomous concept of technology vs technology-free care
+Patient evaluation of a virtual visit program for adults with congenital heart
+has not existed in practice. Clinicians regularly engage with disease.Am.HeartJ.242,138–145(2021).
+technology while providing patient care. Therefore, technology 17. Corliss,J.Hospitalathome:amovementwhosetimehascome.HarvardHealth
+shouldnotbeevaluatedonitsown,butinsteadwithinthecontext Publishing,(2023).
+of the clinical environment, system, or business in which it 18. Patel,B.&Makaryus,A.N.ArtificialIntelligenceAdvancesintheWorldofCar-
+operates.AIholdsthepromisetotransformtheabilityofhumans diovascularImaging.Healthc.(Basel)10,154(2022).
+to interpret substantial amounts of data which the brain has not 19. Carroll,J.etal.ImprovingRiskStratificationUsingAIandSocialDeterminantsof
+Health.Am.J.ManagedCare28,11(2022).
+previously been able to process. AI enabled improvements to
+accessing information create efficiencies in clinical practice and 20. Caraballo, C. et al. Trends in racialand ethnic disparities in barriers to timely
+medical care among adults in the US, 1999 to 2018. JAMA Health Forum 3,
+empowerpatients withmore curated information.
+e223856(2022).
+NeitherahumanbrainnoranAIalgorithmcanachieveperfect 21. Knowles,M.,Krasniansky,A.,&Naggapan,A.Consumeradoptionofdigitalhealth
+accuracy and precision. Human operators can program systems in2022:movingatthespeedoftrust.RockHealth,(2022).
+with unbiased, fair data to generate insights and then use 22. Frye, I. P. The impact on underserved communities in times of crisis. HIMSS
+individualjudgementtodecidewhatcomesnext.Endusersmust (2020).
+acknowledgethepromiseandlimitsofAI,recognizeitwillnever 23. Tyson, A., Pasquini, G., Spencer A. & Funk, C. 60% of Americans would be
+haveamoralcompass,andtakeresponsibilityforthedatausedto uncomfortablewithproviderrelyingonAIintheirownhealthcare.PewResearch
+Center,(2023).
+train algorithms while interpreting the outputs fairly. Standards
+24. Challen,R.,Denny,J.,Pitt,M.,Gompels,L.,Edwards,T.&Tsaneva-Atanasova,K.
+governingtheuseandprotectingfrommisuseandharmresulting
+Artificialintelligence,biasandclinicalsafety.BMJQual.Saf.28,231–237(2019).
+fromthistechnologymustbedevelopedandusedinclinicalcare.
+25. Ouyang,D.etal.presentedatEuropeanSocietyofCardiology,(2022).
+By recognizing the limitations of AI-enabled technologies, 26. Hanson, C. W. 3rd & Marshall, B. E. Artificial intelligence applications in the
+cliniciansandpatients canunlockthehelpfulusecasesforthese intensivecareunit.Crit.CareMed.29,427–435(2001).
+technologies tosupport better quality, moreequitable care.
+AUTHORCONTRIBUTIONS
+DATAAVAILABILITY A.B.:writingandediting.J.B.:writingandediting.
+Notapplicable.
+COMPETINGINTERESTS
+Received:17April 2023; Accepted: 6September 2023;
+Theauthorsdeclarenocompetinginterests.
+ADDITIONAL INFORMATION
+REFERENCES CorrespondenceandrequestsformaterialsshouldbeaddressedtoAmiB.Bhatt.
+1. Bhatt,A.&Bae,J.InnovatingHealthCare|TheRiseofCollaborativeIntelligence:
+HowDoWeInstillTrustinaNonhuman‘Brain’?CardiologyMagazine.(2022). Reprints and permission information is available at http://www.nature.com/
+2. ArtificialIntelligence.OxfordDictionaryofPhraseandFable(2ndedition),https:// reprints
+doi.org/10.1093/acref/9780198609810.001.0001(2006).
+Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaims
+3. Liu,D.S.,Abu-Shaban,K.,Halabi,S.S.&Sundaram,C.T.Changesinradiologydue
+toartificialintelligencethatcanattractmedicalstudentstothespecialty.JMIR
+inpublishedmapsandinstitutionalaffiliations.
+MedEduc.9,e43415(2023).
+4. A.CivilSocietyGuidetoAdvanceNCDPreventionPolicies.TheNCDAlliance,(2023).
+5. PopowitzE.AddressingtheHealthCareStaffingShortage.DefinitiveHealthcare,
+Open Access This article is licensed under a Creative Commons
+(2022).
+6. NCSBN Research Projects Significant Nursing Workforce Shortages and Crisis. Attribution 4.0 International License, which permits use, sharing,
+adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+NationalCouncilofStateBoardsofNursing,(2023).
+appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+7. Bae,J.&Bhatt,A.Toomanydashboards,notenoughinsight.MedCityNews,
+Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+(2023).
+8. “TeladocHealthLaunchesFullyIntegratedWhole-PersonCareExperiencewith
+materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+NewApp”.GlobalNewswire,(2023). indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+9. ReducingDisparitiesinHealthCare.AmericanMedicalAssociation.
+10. Hinkel, J. Across Healthcare, Companies Are Profiting From Data. When Will regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectly
+from the copyright holder. To view a copy of this license, visit http://
+ProvidersandPatientsGetTheirShareoftheWinnings?MedCityNews,(2023).
+11. “AdvancingHealthcare:theroleofpatientregistries”.CartaHealthcarewhitepaper. creativecommons.org/licenses/by/4.0/.
+12. Zaino,J.&VanWagenen,J.DataLakesTakeHealthcareAnalyticstotheNext
+Level.HealthTechMagazine,(2019).
+©TheAuthor(s)2023
+npjDigitalMedicine(2023) 177 PublishedinpartnershipwithSeoulNationalUniversityBundangHospital
