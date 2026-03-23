@@ -1,0 +1,50 @@
+[
+    {
+        "paperId": "7f17462599930c82c7796ea3bb03e94a0c548e64",
+        "title": "Automatic Structuring of Radiology Reports of Chest X-Ray Images Using Large Language Model",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses on the automatic structuring of radiology reports and evaluates a large language model's performance, which primarily relates to AI systems for clinical decision-making rather than the use of knowledge or information by healthcare professionals in practice."
+    },
+    {
+        "paperId": "c2d0602e1a0d2508f2be44b6791501290a48873b",
+        "title": "A RAG Chatbot for Precision Medicine of Multiple Myeloma",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses the development of a chatbot for precision medicine in Multiple Myeloma, focusing on patient-specific treatment recommendations and genomic data, which falls under the category of evaluating patient outcomes and treatment effectiveness."
+    },
+    {
+        "paperId": "7da63ff076c48172dd186ef7a314c8ed6e544fbe",
+        "title": "Development of a Large Language Model-based Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on the development and evaluation of a clinical decision support system for emergency care, which involves actionable care and treatment planning for patients, thus falling under the exclusion criteria related to patient outcomes and treatment delivery."
+    },
+    {
+        "paperId": "6c89d6d4f92b13fcd77350ad8d4cf4e512b9ded1",
+        "title": "Large language model non-compliance with FDA guidance for clinical decision support devices",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the use of large language models in the context of clinical decision support, which relates to healthcare professionals' use of digital tools and knowledge management in healthcare settings."
+    },
+    {
+        "paperId": "362c2fcd550d658e7bc935292ce10c1b7bcd199c",
+        "title": "Artificial Intelligence Revolutionizing Plastic Surgery Scientific Publications",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses the application of AI in plastic surgery, focusing on improving surgical planning and patient care, which falls under treatment delivery and clinical procedures performed on patients."
+    },
+    {
+        "paperId": "2aacbb9352e5c613eb1b7dde170e1becfec88387",
+        "title": "Currently Available Large Language Models Do Not Provide Musculoskeletal Treatment Recommendations That are Concordant With Evidence-Based Clinical Practice Guidelines.",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the use of large language models (LLMs) in providing treatment recommendations in the context of evidence-based clinical practice guidelines, which relates to healthcare professionals' application of knowledge and decision-making in healthcare."
+    },
+    {
+        "paperId": "32d690efaf4b70c61bc3a780747f95e265ca92bc",
+        "title": "Diagnostic accuracy of automation and non-automation techniques for identifying Burkholderia pseudomallei: A systematic review and meta-analysis.",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on diagnostic accuracy and laboratory identification methods for a specific pathogen, which relates to clinical procedures and treatment delivery rather than the use of knowledge or information within professional healthcare contexts."
+    },
+    {
+        "paperId": "26055b893713a2b144fedab9bb601a21ac989d89",
+        "title": "Policy, Regulation, and Patient Safety: A Review of Global Efforts to Improve Healthcare Quality",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses patient safety and hospital protocols, which relates to treatment delivery and patient outcomes, thus falling under the exclusion criteria."
+    }
+]

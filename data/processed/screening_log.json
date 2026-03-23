@@ -6,16 +6,16 @@
         "decision": "EXCLUDE",
         "justification": "The paper primarily addresses patient queries and the impact of patient messaging on clinician burnout, which falls under patient-facing applications and does not focus on healthcare professionals' use or management of knowledge or information systems.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper does not focus on healthcare professionals' use or management of knowledge or information systems, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria by stating that the paper does not focus on healthcare professionals' use or management of knowledge or information systems."
     },
     {
         "paperId": "2804f6ee0b04bcda32b7fc181abad4602d4c56b5",
         "paper_index": 2,
         "title": "MediSage: An AI Assistant for Healthcare via Composition of Neural-Symbolic Reasoning Operators",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily discusses an AI decision support assistant that focuses on predicting patient outcomes and providing healthcare recommendations, which falls under the exclusion criteria related to evaluating AI systems for diagnosis and clinical decision-making.",
+        "justification": "The paper primarily discusses an AI system for decision support that predicts patient outcomes and provides healthcare recommendations, which falls under the exclusion criteria related to evaluating AI systems for diagnosis and clinical decision-making.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper's focus on predicting patient outcomes and providing healthcare recommendations aligns with the exclusion criteria regarding AI systems for diagnosis and clinical decision-making."
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper discusses an AI system for decision support, which aligns with the exclusion criteria."
     },
     {
         "paperId": "5bd4628b5a2b8d27cd8358ce5782af79d9e44bdf",
@@ -33,7 +33,7 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of a generative AI system to streamline administrative processes in healthcare, which relates to healthcare professionals' use of digital tools and information systems in a professional healthcare context.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the use of digital tools in a professional healthcare context, aligning with the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria regarding the use of digital tools in a healthcare context."
     },
     {
         "paperId": "0ee861e204cfee23d6528fee4a749fe1b5329261",
@@ -76,9 +76,9 @@
         "paper_index": 9,
         "title": "Revolutionising patient care: the role of AI-generated avatars in healthcare consultations",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily discusses the development and implementation of AI-generated avatars for conducting patient consultations, which falls under the category of patient-facing applications and treatment delivery, thus not aligning with the inclusion criteria.",
+        "justification": "The paper primarily discusses the development and implementation of AI-generated avatars for conducting patient consultations, which falls under the category of patient-facing applications and does not focus on healthcare professionals' use or management of knowledge in professional contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper's focus on patient-facing applications does not align with the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper focuses on patient-facing applications, aligning with the exclusion criteria regarding the use or management of knowledge by healthcare professionals."
     },
     {
         "paperId": "386cf16acea8354522e3862dab34fdbe5de6ac9c",
@@ -87,16 +87,16 @@
         "decision": "EXCLUDE",
         "justification": "The paper primarily discusses the applications of AI and voice assistants in healthcare without focusing on healthcare professionals' use or management of knowledge, and it mentions patient care in a way that suggests a focus on treatment delivery and patient-facing applications.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper does not focus on healthcare professionals' use or management of knowledge, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not focus on healthcare professionals' use or management of knowledge, aligning with the exclusion criteria."
     },
     {
         "paperId": "5062b5b11fa9a528a3ae31da099c51555b8c6a0f",
         "paper_index": 11,
         "title": "A Systematic Review and Meta-Analysis of Artificial Intelligence Tools in Medicine and Healthcare: Applications, Considerations, Limitations, Motivation and Challenges",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the applications of AI tools in healthcare, focusing on their implications for healthcare professionals and the healthcare system, which aligns with the inclusion criteria related to knowledge management and digital health technologies.",
+        "justification": "The paper discusses the applications of AI tools in healthcare, focusing on their impact on healthcare professionals and practices, which aligns with the inclusion criteria related to healthcare research and the use of digital tools in professional healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to knowledge management and digital health technologies."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare research and the use of digital tools in professional healthcare contexts."
     },
     {
         "paperId": "d750928ede2438b495d482dc8cb4f2be7bafcf62",
@@ -105,7 +105,7 @@
         "decision": "EXCLUDE",
         "justification": "The paper primarily evaluates the use of large language models for patient identification and diagnostic processes, which falls under the exclusion criteria related to evaluating AI systems for diagnosis and clinical decision-making.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper evaluates AI systems for diagnosis, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper evaluates AI systems for diagnosis and clinical decision-making, aligning with the exclusion criteria."
     },
     {
         "paperId": "9adc20c7bebb18cce97fef6004a9566b6ff69832",
@@ -121,36 +121,36 @@
         "paper_index": 14,
         "title": "Medibot: Personal Medical Assistant",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily discusses a healthcare conversational robot that assists users with medical information and symptom identification, which falls under patient-facing applications rather than focusing on healthcare professionals' use or management of knowledge in professional contexts.",
+        "justification": "The paper primarily discusses a healthcare conversational robot designed for patient interaction and symptom identification, which falls under the exclusion criteria of being directly addressed to patients and evaluating patient-facing applications.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper focuses on patient-facing applications, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper discusses a patient-facing application, aligning with the exclusion criteria."
     },
     {
         "paperId": "5194d23abfb67b791628368f8193f4b5b8242ef4",
         "paper_index": 15,
         "title": "AI-Based and Digital Mental Health Apps: Balancing Need and Risk",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily discusses digital mental health applications and chatbots, which are directed towards patient engagement and self-assessment, rather than focusing on healthcare professionals' use or management of knowledge or information systems in a professional context.",
+        "justification": "The paper primarily discusses digital mental health applications and chatbots, focusing on their implications rather than on healthcare professionals' use or management of knowledge or evidence in a professional context.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper does not focus on healthcare professionals' use or management of knowledge or information systems, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not focus on healthcare professionals' use or management of knowledge, aligning with the exclusion criteria."
     },
     {
         "paperId": "9e9249d77fabcb704b9fff782bc6e1663248addb",
         "paper_index": 16,
         "title": "Development of a Digital Research Assistant for the Management of Patients’ Enrollment in Oncology Clinical Trials within a Research Hospital",
-        "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on the development of a digital tool for managing patient enrollment in clinical trials, which involves treatment delivery and patient outcomes, thus falling under the exclusion criteria related to actionable care and patient-focused applications.",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the development of a digital tool (Digital Research Assistant) aimed at supporting healthcare professionals in managing patient enrollment in oncology clinical trials, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and information systems in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on actionable care and patient-focused applications, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of digital tools by healthcare professionals."
     },
     {
         "paperId": "3b1c8684759c1b845c21ef0187e34be3a1cb4c56",
         "paper_index": 17,
         "title": "Robot for the Treatment of Communicable Diseased Patients using AI & ML",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily discusses the development and implementation of autonomous robots for patient treatment, which falls under the category of treatment delivery and clinical procedures performed on patients, thus not aligning with the inclusion criteria.",
+        "justification": "The paper primarily discusses the development and implementation of autonomous robots for patient treatment, which falls under the category of evaluating treatment delivery and clinical procedures performed on patients, thus not aligning with the inclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper's focus on treatment delivery does not align with the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not align with the inclusion criteria by focusing on treatment delivery and clinical procedures."
     },
     {
         "paperId": "89a9b1e6fdf399fd685c51fed767d4db8c6d6c60",
@@ -175,7 +175,7 @@
         "paper_index": 20,
         "title": "A Comparison of Artificial Intelligence and Human Doctors for the Purpose of Triage and Diagnosis",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily evaluates an AI system for triage and diagnosis, which falls under the exclusion criteria related to the evaluation of AI systems for diagnosis and clinical decision-making.",
+        "justification": "The paper primarily evaluates an AI system for triage and diagnosis, which falls under the exclusion criteria related to proposing or evaluating AI systems for diagnosis and clinical decision-making.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper evaluates an AI system for diagnosis, aligning with the exclusion criteria."
     },
@@ -184,45 +184,45 @@
         "paper_index": 21,
         "title": "Leveraging Large Language Model as Simulated Patients for Clinical Education",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of Large Language Models in clinical medical education, which relates to healthcare professionals' use of digital tools and knowledge in professional practice. It focuses on enhancing clinical inquiry skills, aligning with evidence-based practice and professional education criteria.",
+        "justification": "The paper discusses the use of Large Language Models in clinical education, which relates to healthcare professionals' use of digital tools and knowledge in a healthcare context. It focuses on enhancing clinical inquiry skills, aligning with evidence-based practice and professional education.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare professionals' use of digital tools in education."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the criteria by discussing the relevance of the paper to healthcare education and evidence-based practice."
     },
     {
         "paperId": "b80f0f8afa74d103622dd9a1cb22a812d00d129c",
         "paper_index": 22,
         "title": "Large language model use in clinical oncology",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of large language models in clinical oncology, which relates to healthcare professionals' application of digital tools and knowledge in a healthcare context, aligning with the inclusion criteria.",
+        "justification": "The paper discusses the use of large language models in clinical oncology, which relates to healthcare professionals' application of digital tools and technologies in a healthcare context, aligning with the inclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the relevance of the paper to healthcare and digital tools."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the relevance of large language models in a healthcare context."
     },
     {
         "paperId": "6799808c449fa70ae4abf5348d3d711f0e605e0e",
         "paper_index": 23,
         "title": "Large Language Model Influence on Diagnostic Reasoning",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily evaluates the effectiveness of a large language model in enhancing diagnostic reasoning performance among physicians, which falls under the evaluation of clinical efficacy and treatment effectiveness, thus meeting the exclusion criteria.",
+        "justification": "The paper evaluates the effectiveness of a large language model in improving diagnostic reasoning performance among physicians, which falls under the exclusion criteria of evaluating clinical efficacy and decision-making tools for diagnosis.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper evaluates clinical efficacy, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper evaluates clinical efficacy, aligning with the exclusion criteria."
     },
     {
         "paperId": "5d88d82fb4843783d827b67be5192280dc5ac4a9",
         "paper_index": 24,
         "title": "The Potential Clinical Utility of the Customized Large Language Model in Gastroenterology: A Pilot Study",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily evaluates the performance of large language models in answering clinical questions, which falls under the evaluation of AI systems for clinical decision-making rather than focusing on healthcare professionals' use or application of knowledge in practice.",
+        "justification": "The paper primarily evaluates the performance of large language models in answering clinical questions, which focuses on AI systems for clinical decision-making rather than on healthcare professionals' use or application of knowledge in practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper evaluates AI systems rather than the application of knowledge by healthcare professionals, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on AI systems rather than the application of knowledge by healthcare professionals, aligning with the exclusion criteria."
     },
     {
         "paperId": "f87183549c5e81d67d2521101cfd9eb80305cd28",
         "paper_index": 25,
         "title": "Performance of a trained large language model to provide clinical trial recommendation in a head and neck cancer population.",
         "decision": "EXCLUDE",
-        "justification": "The paper evaluates an AI system for clinical decision-making related to patient treatment recommendations, which falls under the exclusion criteria regarding the evaluation of AI systems for diagnosis or clinical outcomes.",
+        "justification": "The paper primarily evaluates the performance of an AI system (GPT-4) in providing clinical trial recommendations, which falls under the exclusion criteria related to evaluating AI systems for clinical decision-making.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper evaluates an AI system for clinical decision-making, which aligns with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding the evaluation of AI systems for clinical decision-making."
     },
     {
         "paperId": "e6381b87db019a0cdd7fcfca4044f40117a0ab25",
@@ -237,19 +237,19 @@
         "paperId": "5c5b84637eee0a21cc77f56f5dd0095f016c9cc9",
         "paper_index": 27,
         "title": "CancerLLM: A Large Language Model in Cancer Domain",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses a large language model tailored for cancer phenotyping and diagnosis, which relates to healthcare professionals' use of digital tools and knowledge in clinical research and practice.",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily focuses on the development and evaluation of a large language model for cancer diagnosis and phenotyping, which falls under the category of AI systems for diagnosis and clinical decision-making, thus not aligning with the inclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates the paper's focus on a large language model for cancer to healthcare professionals' use of digital tools in clinical research and practice, aligning with the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper's focus on AI systems for diagnosis does not align with the inclusion criteria."
     },
     {
         "paperId": "5038da24b44d6f8dc1af29a7d9e268d4c6d111c0",
         "paper_index": 28,
         "title": "Fine-tuning a local LLaMA-3 large language model for automated privacy-preserving physician letter generation in radiation oncology",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on the development and evaluation of an AI system for generating physician letters, which falls under the exclusion criteria related to evaluating AI systems for clinical decision-making and does not address healthcare professionals' use of knowledge or information in a broader context.",
+        "justification": "The paper primarily focuses on the development and evaluation of an AI system for generating physician letters, which falls under the exclusion criteria related to evaluating AI systems for clinical decision-making and does not address healthcare professionals' use or management of knowledge in a broader context.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper focuses on evaluating an AI system for generating physician letters, which aligns with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding the focus on evaluating AI systems for clinical decision-making."
     },
     {
         "paperId": "b0295108ebff431c843a5ca0772f1d7e50706756",
@@ -258,23 +258,23 @@
         "decision": "EXCLUDE",
         "justification": "The paper primarily focuses on a journaling app for psychiatric patients and evaluates its impact on patient behavior and clinical care, which falls under the exclusion criteria related to patient-facing applications and treatment delivery.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on a patient-facing application, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding patient-facing applications and treatment delivery."
     },
     {
         "paperId": "5b4811b69db31537d188e6f18764073e913f2728",
         "paper_index": 30,
         "title": "Med-2E3: A 2D-Enhanced 3D Medical Multimodal Large Language Model",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on the development of a multimodal large language model for 3D medical image analysis, which primarily relates to AI systems and does not address the use or application of knowledge by healthcare professionals in practice.",
+        "justification": "The paper focuses on the development of a multimodal large language model for 3D medical image analysis, which primarily addresses AI systems for clinical decision-making rather than the use of knowledge or information by healthcare professionals in practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper does not address the application of knowledge by healthcare professionals, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper's focus is on AI systems for clinical decision-making rather than the use of knowledge by healthcare professionals, aligning with the exclusion criteria."
     },
     {
         "paperId": "6f9e9753033f3397405dd29447bbc4b2b33e54cd",
         "paper_index": 31,
         "title": "Evaluating the Accuracy of Large Language Model (ChatGPT) in Providing Information on Metastatic Breast Cancer",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on evaluating the accuracy of an AI system (ChatGPT) in providing information to patients about breast cancer, which falls under the exclusion criteria related to patient-facing applications and patient education.",
+        "justification": "The paper primarily focuses on evaluating the accuracy of an AI system (ChatGPT) in providing information to patients about metastatic breast cancer, which falls under the exclusion criteria related to patient-facing applications and patient education.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on patient education, aligning with the exclusion criteria."
     },
@@ -283,18 +283,18 @@
         "paper_index": 32,
         "title": "Assessing the utility of ChatGPT as an artificial intelligence‐based large language model for information to answer questions on myopia",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily evaluates the accuracy of ChatGPT in providing information on myopia, which relates to patient care and treatment rather than focusing on healthcare professionals' use or application of knowledge in a professional context.",
+        "justification": "The paper primarily focuses on evaluating the accuracy of ChatGPT in providing information about myopia, which relates to patient outcomes and treatment effectiveness, thus falling under the exclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper does not focus on healthcare professionals' use of knowledge, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper falls under the exclusion criteria due to its focus on evaluating ChatGPT's accuracy in relation to patient outcomes and treatment effectiveness."
     },
     {
         "paperId": "e37bce2e0ce6e176e9afbb96d9b97cd000bf16f7",
         "paper_index": 33,
         "title": "Citation screening using large language models for creating clinical practice guidelines: A protocol for a prospective study",
         "decision": "INCLUDE",
-        "justification": "The title indicates a focus on using large language models in the context of creating clinical practice guidelines, which relates to healthcare professionals' use of digital tools and knowledge management in healthcare contexts.",
+        "justification": "The title indicates a focus on clinical practice guidelines, which relates to healthcare professionals' use of knowledge and information systems in healthcare contexts. The mention of large language models suggests a connection to digital health technologies relevant to professional practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification aligns with the inclusion criteria related to healthcare and digital tools."
+        "validation_raw": "Validation: VALID  \nReason: The justification logically supports the inclusion based on the relevance to clinical practice guidelines and digital health technologies."
     },
     {
         "paperId": "3505cf18fc68181978576c4841a58cd83580b383",
@@ -319,45 +319,45 @@
         "paper_index": 36,
         "title": "Automatic Structuring of Radiology Reports of Chest X-Ray Images Using Large Language Model",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on the automatic structuring of radiology reports and evaluates the performance of a large language model, which does not directly relate to healthcare professionals' use of knowledge or information in practice, nor does it discuss evidence-based practice or decision-making in a professional healthcare context.",
-        "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper does not relate to the specified criteria regarding healthcare professionals' use of knowledge or evidence-based practice."
+        "justification": "The paper focuses on the automatic structuring of radiology reports and evaluates a large language model's performance, which primarily relates to AI systems for clinical decision-making rather than the use of knowledge or information by healthcare professionals in practice.",
+        "validation": "INVALID",
+        "validation_raw": "Validation: INVALID  \nReason: The justification incorrectly states that the paper primarily relates to AI systems for clinical decision-making, which does not align with the focus on structuring radiology reports."
     },
     {
         "paperId": "5694a171cb93fe9b9932c236bcba1351c2d5af53",
         "paper_index": 37,
         "title": "All You Need Is Context: Clinician Evaluations of various iterations of a Large Language Model-Based First Aid Decision Support Tool in Ghana",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the application of a decision support tool using Large Language Models in healthcare contexts, specifically focusing on clinician evaluations, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and evidence-based practice.",
+        "justification": "The paper discusses the application of a decision support tool using Large Language Models in a healthcare context, focusing on clinician evaluations and the use of AI in professional healthcare practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare professionals' use of digital tools and evidence-based practice."
+        "validation_raw": "Validation: VALID  \nReason: The justification aligns with the criteria by discussing the relevant application of AI in healthcare, which supports the inclusion decision."
     },
     {
         "paperId": "c36ff5acb42f3e8dd51947a329edb667cc16ef1c",
         "paper_index": 38,
         "title": "Investigating large language model (LLM) performance using in-context learning (ICL) for interpretation of ESMO and NCCN guidelines for lung cancer.",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily discusses the performance of large language models (LLMs) in interpreting clinical guidelines and improving decision support, but it focuses on the technology's application rather than the healthcare professionals' use or management of knowledge in practice. Additionally, it evaluates AI systems for clinical decision-making, which falls under the exclusion criteria.",
+        "justification": "The paper primarily discusses the performance of large language models (LLMs) in interpreting clinical guidelines and improving decision support, but it focuses on the technology's application rather than the healthcare professionals' use or management of knowledge in practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper focuses on technology application rather than healthcare professionals' use, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper focuses on technology application rather than healthcare professionals' use, aligning with exclusion criteria."
     },
     {
         "paperId": "16acee481465f6b8ca7a9d9ac956d56003f01b7f",
         "paper_index": 39,
         "title": "Leveraging a Large Language Model to Assess Quality-of-Care: Monitoring ADHD Medication Side Effects",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on assessing the quality of care related to ADHD medication side effects, which involves evaluating treatment delivery and clinical procedures rather than the use of knowledge or information systems by healthcare professionals.",
-        "validation": "INVALID",
-        "validation_raw": "Validation: INVALID  \nReason: The justification incorrectly states that the paper does not involve knowledge or information systems, while it clearly assesses the use of a large language model in monitoring ADHD medication side effects."
+        "justification": "The paper primarily focuses on assessing the quality of care and monitoring medication side effects in children with ADHD, which involves treatment delivery and patient outcomes, thus falling under the exclusion criteria.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on treatment delivery and patient outcomes, aligning with the exclusion criteria."
     },
     {
         "paperId": "b63e1f20244bece3ef3c5595444126092c338649",
         "paper_index": 40,
         "title": "Participatory Assessment of Large Language Model Applications in an Academic Medical Center",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the application of Large Language Models in a healthcare context, focusing on the needs and expectations of healthcare professionals regarding their use, which aligns with the inclusion criteria related to healthcare professionals' use and application of knowledge and technology in healthcare.",
+        "justification": "The paper discusses the application of Large Language Models in a healthcare context, focusing on the needs and expectations of healthcare professionals regarding their use, which aligns with the inclusion criteria related to healthcare professionals' use and application of digital tools in professional practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare professionals' use and application of technology in healthcare."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare professionals' use and application of digital tools."
     },
     {
         "paperId": "86d40130d1429aa59a73bf6784cd41cab842f8f4",
@@ -366,16 +366,16 @@
         "decision": "EXCLUDE",
         "justification": "The paper primarily focuses on predicting post-discharge complications and optimizing remote patient monitoring resources, which involves evaluating patient outcomes and treatment effectiveness, thus falling under the exclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper falls under the exclusion criteria by focusing on post-discharge complications and remote patient monitoring."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper falls under the exclusion criteria by focusing on post-discharge complications and treatment effectiveness."
     },
     {
         "paperId": "acc50b140c9e93cbbb8553d84912e21c1ce46961",
         "paper_index": 42,
         "title": "Neurosurgical aspects of Noonan syndrome",
         "decision": "EXCLUDE",
-        "justification": "The title suggests a focus on a specific medical condition and its neurosurgical aspects, which likely pertains to treatment delivery or clinical procedures rather than healthcare professionals' use of knowledge or evidence-based practice.",
+        "justification": "The title and lack of an abstract suggest a focus on a specific medical condition and its neurosurgical aspects, which likely pertains to treatment delivery or clinical procedures rather than healthcare professionals' use of knowledge or evidence-based practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper's focus does not align with the inclusion criteria related to healthcare professionals' use of knowledge or evidence-based practice."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains how the paper's focus does not align with the inclusion criteria regarding healthcare professionals' use of knowledge or evidence-based practice."
     },
     {
         "paperId": "f772d664ca818aef21e2fc9616a3b60bf3b9edff",
@@ -391,43 +391,43 @@
         "paper_index": 44,
         "title": "Streamlining systematic reviews with large language models using prompt engineering and retrieval augmented generation",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of large language models in the context of systematic reviews, which relates to healthcare research and the application of digital tools in professional healthcare practice.",
+        "justification": "The paper discusses the use of large language models and digital tools in the context of systematic reviews, which relates to healthcare professionals' use of information systems and evidence-based practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to healthcare research and the application of digital tools, aligning with the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the use of information systems in systematic reviews, aligning with the inclusion criteria."
     },
     {
         "paperId": "87dd7ac19241aff3a02a347045412c803519e452",
         "paper_index": 45,
         "title": "A review of medical wearables: materials, power sources, sensors, and manufacturing aspects of human wearable technologies",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on the materials, power sources, and manufacturing aspects of wearable technologies without a clear connection to healthcare professionals' use or application of these technologies in a healthcare context.",
+        "justification": "The paper focuses on the materials, power sources, and manufacturing aspects of wearable technologies without clear relevance to healthcare professionals' use or application of these technologies in a healthcare context.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not connect to healthcare professionals' use of wearable technologies, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states the lack of relevance to healthcare professionals' use, aligning with the exclusion criteria."
     },
     {
         "paperId": "8f9dd6df0cffb9b0a41f8a9e6419fe754de6266c",
         "paper_index": 46,
         "title": "CancerBot: A Retrieval-Augmented Generation based Cancer Chatbot Using Large Language Models",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on a chatbot designed for patient engagement and providing information, which falls under the exclusion criteria as it is directly addressed to patients and studies patient-facing applications.",
+        "justification": "The paper primarily focuses on a chatbot designed for patient engagement and providing information to patients, which falls under the exclusion criteria related to patient-facing applications.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding patient-facing applications."
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies the paper's focus on a patient-facing application, aligning with the exclusion criteria."
     },
     {
         "paperId": "8c64fd3a345e26f079ab1304c08d28586a7fb89a",
         "paper_index": 47,
         "title": "Large language models for precision oncology: Clinical decision support through expert-guided learning.",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses the use of large language models in clinical decision support for precision oncology, which relates to healthcare professionals' application of digital tools and knowledge in a healthcare context.",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses the development and evaluation of a large language model for clinical decision support in oncology, which falls under the exclusion criteria as it proposes an AI system for decision-making in clinical contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the paper's focus on clinical decision support in healthcare, aligning with the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper discusses an AI system for clinical decision-making, aligning with the exclusion criteria."
     },
     {
         "paperId": "e0b442e7cc71423e06b74f6a9a630afd1c77b4e4",
         "paper_index": 48,
         "title": "TRADITIONAL DIET RECIPES OF INDIA AND ITS IMPORTANCE IN AYURVEDAA REVIEW",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on traditional diet recipes and their importance in Ayurveda, which does not directly relate to healthcare professionals' use of knowledge or evidence-based practice in a professional healthcare context.",
+        "justification": "The paper primarily focuses on traditional diet recipes and their nutritional value, which does not relate to healthcare professionals' use of knowledge or evidence-based practice in a professional healthcare context.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not relate to healthcare professionals' use of knowledge or evidence-based practice, aligning with the exclusion criteria."
     },
@@ -445,7 +445,7 @@
         "paper_index": 50,
         "title": "Exploring generative AI in higher education: a RAG system to enhance student engagement with scientific literature",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on the use of an AI-powered learning environment for university students, which does not relate to healthcare professionals or healthcare contexts, thus falling outside the inclusion criteria.",
+        "justification": "The paper focuses on an AI-powered learning environment for university students, which does not relate to healthcare professionals or healthcare contexts, thus falling outside the inclusion criteria.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper does not relate to healthcare professionals or contexts, aligning with the exclusion criteria."
     },
@@ -454,9 +454,9 @@
         "paper_index": 51,
         "title": "TC-RAG:Turing-Complete RAG's Case study on Medical LLM Systems",
         "decision": "INCLUDE",
-        "justification": "The paper discusses a novel framework for enhancing knowledge retrieval in the medical domain using Large Language Models, which relates to healthcare professionals' use of digital tools and information systems in healthcare contexts.",
+        "justification": "The paper discusses a novel framework for enhancing knowledge retrieval in the medical domain using advanced AI systems, which relates to healthcare professionals' use of digital tools and information systems in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria of discussing digital tools and information systems in healthcare contexts."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria of discussing advanced AI systems in healthcare contexts."
     },
     {
         "paperId": "3d297441afbc2124bc805f2a9a4d3db3e21ae217",
@@ -486,17 +486,8 @@
         "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on patient experiences rather than healthcare professionals' knowledge application, aligning with the exclusion criteria."
     },
     {
-        "paperId": "f3b01b1102691e2f06cd8e5305ff327391687f81",
-        "paper_index": 55,
-        "title": "Development of a Reliable Information System for Medical Device Inventory in Hospitals: A Systematic Literature Review",
-        "decision": "INCLUDE",
-        "justification": "The paper concerns the development of an information system for medical device inventory in hospitals, which relates to healthcare professionals' management and application of information systems in healthcare contexts. It discusses improving operational efficiency and resource management in a healthcare setting.",
-        "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the criteria by addressing the relevance of the paper to healthcare information systems and operational efficiency in hospitals."
-    },
-    {
         "paperId": "aeb5a82400a2ea187d74d60d53cb000a06f8e881",
-        "paper_index": 56,
+        "paper_index": 55,
         "title": "Use of Artificial Intelligence for Medical Literature Search: Randomized Controlled Trial Using the Hackathon Format",
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of an AI search engine in the context of literature searches related to a specific medical topic, which aligns with the inclusion criteria regarding the application of digital tools in healthcare research.",
@@ -505,16 +496,16 @@
     },
     {
         "paperId": "10e889b6d4a77088aadc1e3714295351025f9cd0",
-        "paper_index": 57,
+        "paper_index": 56,
         "title": "Medical Education Reform in China in the 21st Century: A Literature Review",
         "decision": "INCLUDE",
         "justification": "The paper discusses medical education reform in China, which is relevant to healthcare professional education and the management of knowledge within healthcare contexts. It addresses the standardization of medical education, aligning with the inclusion criteria related to professional healthcare practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to professional healthcare practice and medical education reform."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to professional healthcare practice and education reform."
     },
     {
         "paperId": "ffc3e3f936eb54c62066d00d4fbd2a2812d2a4ed",
-        "paper_index": 58,
+        "paper_index": 57,
         "title": "Electronic Medical Record and Smoking Cessation Activities: Literature Review",
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of electronic medical records (EMRs) in relation to healthcare professionals' activities and interventions aimed at smoking cessation, which aligns with the inclusion criteria regarding healthcare practice and the application of information systems in healthcare contexts.",
@@ -522,47 +513,56 @@
         "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare practice and information systems in healthcare contexts."
     },
     {
-        "paperId": "00feceeef17951e02e499517031182623bd73b20",
-        "paper_index": 59,
-        "title": "Towards Interpretable Radiology Report Generation via Concept Bottlenecks using a Multi-Agentic RAG",
-        "decision": "EXCLUDE",
-        "justification": "The paper focuses on the development and evaluation of an AI system for generating radiology reports, which falls under the exclusion criteria related to proposing or evaluating AI systems for clinical decision-making.",
+        "paperId": "4df5f9c186f3be6a3ac53e81f3fe4c85c7ad4884",
+        "paper_index": 58,
+        "title": "Facilitating Active Collaborative Learning in Medical Education; a Literature Review of Peer Instruction Method",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses educational methods in medical education, which relates to professional healthcare practice and the use of knowledge in healthcare contexts. It focuses on the application of Peer Instruction in training healthcare professionals, aligning with the inclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper proposes an AI system for clinical decision-making, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by discussing educational methods relevant to healthcare practice."
     },
     {
-        "paperId": "4df5f9c186f3be6a3ac53e81f3fe4c85c7ad4884",
-        "paper_index": 60,
-        "title": "Facilitating Active Collaborative Learning in Medical Education; a Literature Review of Peer Instruction Method",
+        "paperId": "c2d0602e1a0d2508f2be44b6791501290a48873b",
+        "paper_index": 59,
+        "title": "A RAG Chatbot for Precision Medicine of Multiple Myeloma",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on educational methods in medical education rather than on healthcare professionals' use of knowledge or evidence-based practice in a professional healthcare context.",
+        "justification": "The paper primarily discusses the development of a chatbot for precision medicine in Multiple Myeloma, focusing on patient-specific treatment recommendations and genomic data, which falls under the category of evaluating patient outcomes and treatment effectiveness.",
+        "validation": "INVALID",
+        "validation_raw": "Validation: INVALID  \nReason: The justification contradicts the criteria by stating the paper evaluates patient outcomes, which is not aligned with the exclusion decision."
+    },
+    {
+        "paperId": "a70963851edb010839f4c81c28a9c9bb0e784fbd",
+        "paper_index": 60,
+        "title": "On the issue of describing the system of medical support for suspects, accused and convicted in periodical literature",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily addresses medical support for suspects, accused, and convicted individuals, focusing on issues related to the penitentiary system rather than healthcare professionals' use or application of knowledge in a broader healthcare context.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not focus on healthcare professionals' use of knowledge or evidence-based practice, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper focuses on the penitentiary system rather than broader healthcare contexts, aligning with the exclusion criteria."
     },
     {
         "paperId": "79f5266c7f92e90c7eda967b652bb3f5819be113",
         "paper_index": 61,
         "title": "An LLM's Medical Testing Recommendations in a Nigerian Clinic: Potential and Limits of Prompt Engineering for Clinical Decision Support",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of a large language model into clinical decision support for healthcare professionals, focusing on its application in a primary care setting, which aligns with the inclusion criteria related to healthcare practice and the use of digital tools in professional contexts.",
+        "justification": "The paper discusses the integration of a large language model into clinical decision support for healthcare professionals, focusing on its application in a primary care setting, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and evidence-based practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and the use of digital tools."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of digital tools in healthcare."
     },
     {
         "paperId": "8b8cd77658847c0674e545fe0ad88681bbba3b6d",
         "paper_index": 62,
         "title": "Evaluating the Impact of a Specialized LLM on Physician Experience in Clinical Decision Support: A Comparison of Ask Avo and ChatGPT-4",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of a specialized large language model (LLM) in clinical decision support, focusing on healthcare professionals' experiences and the application of digital tools in healthcare contexts, which aligns with the inclusion criteria.",
+        "justification": "The paper discusses the use of a specialized large language model (LLM) in clinical decision support, focusing on healthcare professionals' experiences and the application of digital health technologies in a healthcare context.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by discussing the application of a specialized LLM in clinical decision support and healthcare professionals' experiences."
+        "validation_raw": "Validation: VALID  \nReason: The justification aligns with the criteria by discussing the application of a specialized LLM in clinical decision support, which is relevant to the inclusion criteria."
     },
     {
         "paperId": "e67e3a374615e554f64ce412db4a075398d2d5a4",
         "paper_index": 63,
         "title": "Initial-LLM: A Large Language Model-Guided Metaheuristic Framework for Enhanced Feature Selection in Clinical Decision Support Systems",
         "decision": "EXCLUDE",
-        "justification": "The title suggests a focus on a framework for feature selection in clinical decision support systems, which may imply a technical evaluation of AI systems without clear relevance to healthcare professionals' use or application of knowledge in practice.",
+        "justification": "The title suggests a focus on a large language model for feature selection in clinical decision support systems, which may imply a technical evaluation of AI systems without clear relevance to healthcare professionals' use or application of knowledge in practice.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification clearly explains the lack of relevance to healthcare professionals' use, aligning with the exclusion criteria."
     },
@@ -570,46 +570,46 @@
         "paperId": "1202e6b90da8c50b77dc2b7e8a3a3cb98f8cc883",
         "paper_index": 64,
         "title": "Data sources (LLM) for a Clinical Decision Support Model (SSDC) using a Healthcare Interoperability Resources (HL7-FHIR) platform for an ICU Ecosystem",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses a Clinical Decision Support System (CDSS) model and its application within an ICU ecosystem, which relates to healthcare professionals' use of digital tools and information systems in a healthcare context.",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses on a clinical decision support model and data mining in an ICU context, but it does not address the use or understanding of knowledge by healthcare professionals, nor does it relate to evidence-based practice or professional education.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the paper's focus on a Clinical Decision Support System in a healthcare context, aligning with the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not address the required topics of knowledge use by healthcare professionals or evidence-based practice, aligning with the exclusion criteria."
     },
     {
         "paperId": "47dbce63f439fff0d9b12dc09ae938c2ad3e96b2",
         "paper_index": 65,
         "title": "Human-Algorithmic Interaction Using a Large Language Model-Augmented Artificial Intelligence Clinical Decision Support System",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of AI into clinical decision support systems in relation to healthcare professionals' interactions and decision-making processes, which aligns with the inclusion criteria regarding the use of digital tools and knowledge in healthcare contexts.",
+        "justification": "The paper discusses the integration of AI into clinical decision support systems and examines healthcare professionals' interactions with these systems, which aligns with the inclusion criteria related to healthcare practice and the use of digital tools in professional contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of digital tools and knowledge in healthcare contexts."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare practice and the use of digital tools."
     },
     {
         "paperId": "d3e3ad3f2156bb41b86dc5d19941e5844a49b531",
         "paper_index": 66,
         "title": "Bias patterns in the application of LLMs for clinical decision support: A comprehensive study",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the application of Large Language Models (LLMs) in clinical decision support, focusing on their implications for healthcare professionals and decision-making processes, which aligns with the inclusion criteria related to healthcare research and digital health technologies.",
+        "justification": "The paper discusses the application of Large Language Models (LLMs) in clinical decision support, focusing on their use in healthcare contexts and the implications for healthcare professionals, which aligns with the inclusion criteria related to digital health technologies and decision-making in professional healthcare practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare research and digital health technologies."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding digital health technologies and decision-making in healthcare."
     },
     {
         "paperId": "7295c1406edcbfea1b0464fb718d8eb62f0a5c83",
         "paper_index": 67,
         "title": "Development and Testing of a Novel Large Language Model-Based Clinical Decision Support Systems for Medication Safety in 12 Clinical Specialties",
-        "decision": "EXCLUDE",
-        "justification": "The paper evaluates an AI system for clinical decision-making related to medication safety, which falls under the exclusion criteria for proposing or evaluating AI systems for diagnosis or clinical decision-making.",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses a Clinical Decision Support System (CDSS) that utilizes a large language model to enhance medication safety, which relates to healthcare professionals' use of digital tools and knowledge management in clinical practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper evaluates an AI system for clinical decision-making, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria regarding the use of digital tools in clinical practice."
     },
     {
         "paperId": "89569f1b152edd63645efdb4f275364d0c5ff9e9",
         "paper_index": 68,
         "title": "Expert-Guided Large Language Models for Clinical Decision Support in Precision Oncology",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on the evaluation of an AI system (MEREDITH) for clinical decision support in oncology, which falls under the exclusion criteria related to the evaluation of AI systems for diagnosis or clinical decision-making.",
+        "justification": "The paper primarily focuses on the development and evaluation of an AI system for clinical decision support in oncology, which falls under the exclusion criteria related to evaluating AI systems for diagnosis and clinical decision-making.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper evaluates an AI system for clinical decision support, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding the evaluation of AI systems for clinical decision-making."
     },
     {
         "paperId": "df591b3d26e94f1101e29647ee6703d56ae2f714",
@@ -618,16 +618,16 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses a framework for using large language models in clinical decision reasoning, which relates to healthcare professionals' use of digital tools and knowledge management in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria of discussing the use of large language models in clinical decision-making within healthcare contexts."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the paper's focus on healthcare and digital tools, aligning with the inclusion criteria."
     },
     {
         "paperId": "7da63ff076c48172dd186ef7a314c8ed6e544fbe",
         "paper_index": 70,
         "title": "Development of a Large Language Model-based Multi-Agent Clinical Decision Support System for Korean Triage and Acuity Scale (KTAS)-Based Triage and Treatment Planning in Emergency Departments",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on the development and evaluation of an AI system for clinical decision support, which falls under the exclusion criteria related to evaluating AI systems for clinical decision-making.",
-        "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper evaluates an AI system for clinical decision-making, aligning with the exclusion criteria."
+        "justification": "The paper primarily focuses on the development and evaluation of a clinical decision support system for emergency care, which involves actionable care and treatment planning for patients, thus falling under the exclusion criteria related to patient outcomes and treatment delivery.",
+        "validation": "INVALID",
+        "validation_raw": "Validation: INVALID  \nReason: The justification incorrectly states that the paper falls under exclusion criteria related to patient outcomes and treatment delivery, while the content indicates a focus on clinical decision support rather than direct patient outcomes."
     },
     {
         "paperId": "26f3281c7e87d2a6ed1b3eba4469b2b0a1ac39ba",
@@ -636,14 +636,14 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of Large Language Models as clinical decision support tools in the context of healthcare, specifically for managing colon cancer, which relates to healthcare professionals' application of knowledge and digital tools in professional practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare applications of Large Language Models."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the criteria by addressing the relevance of the paper to healthcare and clinical decision support tools."
     },
     {
         "paperId": "ba4ab5ee223e4bdf4007275e1eb3c225c397fe28",
         "paper_index": 72,
         "title": "Exploring the role of artificial intelligence, large language models: Comparing patient‐focused information and clinical decision support capabilities to the gynecologic oncology guidelines",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on evaluating AI systems (large language models) for providing information to patients and caregivers regarding gynecologic cancer management, which falls under the exclusion criteria related to patient-facing applications and treatment delivery.",
+        "justification": "The paper primarily focuses on evaluating AI systems (large language models) for providing information to patients and caregivers regarding gynecologic cancer management, which falls under the exclusion criteria related to patient-facing applications.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on patient-facing applications, aligning with the exclusion criteria."
     },
@@ -652,18 +652,18 @@
         "paper_index": 73,
         "title": "A large language model-based clinical decision support system for syncope recognition in the emergency department: A framework for clinical workflow integration.",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on the development and evaluation of a clinical decision support system for diagnosing syncope, which falls under the category of evaluating clinical efficacy and decision-making tools rather than addressing healthcare professionals' use or management of knowledge in a broader context.",
+        "justification": "The paper focuses on the development and evaluation of a clinical decision support system using AI for diagnosing syncope, which falls under the exclusion criteria related to evaluating AI systems for diagnosis and clinical decision-making.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper focuses on clinical decision support systems rather than the broader context of healthcare professionals' knowledge management, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper evaluates an AI system for clinical decision-making, aligning with the exclusion criteria."
     },
     {
         "paperId": "6c89d6d4f92b13fcd77350ad8d4cf4e512b9ded1",
         "paper_index": 74,
         "title": "Large language model non-compliance with FDA guidance for clinical decision support devices",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of large language models in the context of clinical decision support, which relates to healthcare professionals' application of digital tools and knowledge in healthcare practice.",
+        "justification": "The paper discusses the use of large language models in the context of clinical decision support, which relates to healthcare professionals' use of digital tools and knowledge management in healthcare settings.",
         "validation": "INVALID",
-        "validation_raw": "Validation: INVALID  \nReason: The justification does not address the paper's focus on non-compliance with FDA guidance, which contradicts the inclusion criteria related to authorized clinical decision support."
+        "validation_raw": "Validation: INVALID  \nReason: The justification does not align with the paper's focus on non-compliance with FDA guidance, which contradicts the inclusion criteria related to authorized clinical decision support."
     },
     {
         "paperId": "cffd0878033d6adb0c71ca85c830746e6313e39a",
@@ -679,9 +679,9 @@
         "paper_index": 76,
         "title": "Explainability of Agent Behavior in Clinical Decision Support Systems",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on the explainability of AI systems in clinical decision support, which falls under the exclusion criteria as it evaluates AI systems for decision-making without a clear emphasis on healthcare professionals' use or application in practice.",
+        "justification": "The paper primarily focuses on the explainability of AI systems in clinical decision support without a clear emphasis on healthcare professionals' use or application of knowledge, which falls outside the inclusion criteria. Additionally, it discusses patient behavior characteristics, which aligns with exclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding the focus on AI systems without a clear emphasis on healthcare professionals' use."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not meet the inclusion criteria by focusing on explainability without addressing healthcare professionals' application of knowledge, and it aligns with the exclusion criteria regarding patient behavior characteristics."
     },
     {
         "paperId": "387e6087b93064e5bb03a5c13937cfca2d95781a",
@@ -699,7 +699,7 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of large language models in clinical decision support, which relates to healthcare professionals' application of digital tools and knowledge in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the paper's focus on large language models in clinical decision support, aligning with the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification aligns with the criteria by discussing the relevance of large language models in clinical decision support within healthcare contexts."
     },
     {
         "paperId": "fc664318582e0494d86f64d9c8c96ed80c169951",
@@ -715,9 +715,9 @@
         "paper_index": 80,
         "title": "The Implications of Artificial Intelligence in Pedodontics: A Scoping Review of Evidence-Based Literature",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on the applications of AI in pediatric dentistry, which involves patient care and treatment delivery, thus falling under the exclusion criteria related to actionable care and patient outcomes.",
+        "justification": "The paper primarily focuses on the applications of AI in pediatric dentistry, which involves treatment delivery and clinical procedures performed on patients, thus falling under the exclusion criteria related to patient outcomes and treatment effectiveness.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on actionable care and patient outcomes, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding patient outcomes and treatment effectiveness."
     },
     {
         "paperId": "6e8a6ff7d0929300e4c69a80982e7a86af32ffad",
@@ -751,18 +751,18 @@
         "paper_index": 84,
         "title": "A Comprehensive Review on Synergy of Multi-Modal Data and AI Technologies in Medical Diagnosis",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on AI technologies for medical diagnosis and treatment, which falls under the exclusion criteria of evaluating AI systems for diagnosis and clinical decision-making.",
-        "validation": "INVALID",
-        "validation_raw": "Validation: INVALID  \nReason: The justification contradicts the criteria by stating the paper evaluates AI systems for diagnosis, which is the focus of the exclusion criteria."
+        "justification": "The paper primarily focuses on AI technologies for medical diagnosis and treatment, which falls under the exclusion criteria of evaluating AI systems for diagnosis and clinical decision-making rather than addressing healthcare professionals' use or management of knowledge in practice.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding the focus on AI systems for diagnosis rather than healthcare professionals' use or management of knowledge."
     },
     {
         "paperId": "f6f81b149b64e11993e6c506badae13a0982a20c",
         "paper_index": 85,
         "title": "The Integration of AI-Driven Decision Support Systems in Healthcare: Enhancements, Challenges, and Future Directions",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses AI-driven Decision Support Systems in healthcare, focusing on their integration, challenges, and implications for healthcare professionals, which aligns with the inclusion criteria related to the use of digital tools and knowledge in professional healthcare contexts.",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses AI-driven decision support systems in relation to diagnostic accuracy and patient management, which falls under the exclusion criteria as it evaluates AI systems for clinical decision-making and focuses on patient outcomes.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of digital tools in professional healthcare contexts."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding the focus on AI systems for clinical decision-making and patient outcomes."
     },
     {
         "paperId": "3d7ff6952d4882419d70eac83319593d82a0d889",
@@ -778,7 +778,7 @@
         "paper_index": 87,
         "title": "Moving Forward to New Educational Realities in the Digital Era: An International Perspective",
         "decision": "EXCLUDE",
-        "justification": "The title and lack of an abstract do not indicate a focus on healthcare, professional practice, or the use of knowledge in healthcare contexts, and there is no clear relevance to the inclusion criteria.",
+        "justification": "The title and lack of an abstract do not indicate a focus on healthcare, professional practice, or the use of knowledge in healthcare contexts, and there is no clear relevance to the specified inclusion criteria.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not meet the inclusion criteria related to healthcare focus."
     },
@@ -787,9 +787,9 @@
         "paper_index": 88,
         "title": "Artificial Intelligence Revolutionizing Plastic Surgery Scientific Publications",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily discusses the application of AI in plastic surgery, focusing on improving patient care and surgical outcomes, which falls under the exclusion criteria related to patient outcomes and treatment delivery.",
+        "justification": "The paper primarily discusses the application of AI in plastic surgery, focusing on improving surgical planning and patient care, which falls under treatment delivery and clinical procedures performed on patients.",
         "validation": "INVALID",
-        "validation_raw": "Validation: INVALID  \nReason: The justification contradicts the criteria by stating the paper focuses on patient care and outcomes, which are excluded."
+        "validation_raw": "Validation: INVALID  \nReason: The justification does not align with the criteria, as it discusses relevant applications of AI in plastic surgery rather than excluding it based on the criteria."
     },
     {
         "paperId": "6fa4e761cf312b29c3423d828e6c9587b41daabc",
@@ -798,16 +798,16 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of agent-based modeling in implementation research related to evidence-based smoking cessation practices for persons with serious mental illness, which aligns with healthcare research and the application of knowledge in professional healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria of healthcare research and the application of knowledge in professional healthcare contexts."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare research and the application of knowledge in professional healthcare contexts."
     },
     {
         "paperId": "f78da58b10f892833220837e0638c70720fa8fda",
         "paper_index": 90,
         "title": "Perceived Effectiveness of Artificial Intelligence based Decision Support System in a Clinical Setting: A Systematic Literature Review (Preprint)",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the effectiveness of AI-based decision support systems in clinical settings and their influence on clinician decision-making, which relates to healthcare professionals' use and application of knowledge and digital tools in healthcare contexts.",
+        "justification": "The paper discusses the application of AI-based decision support systems in a clinical setting and their influence on clinician decision-making, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and evidence-based practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification aligns with the criteria by discussing the application of AI-DSS in clinical settings and its impact on clinician decision-making."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the application of AI-based decision support systems in clinical settings."
     },
     {
         "paperId": "d71bf53a32f485c30166f3eb1b07e1da5ce36130",
@@ -832,36 +832,36 @@
         "paper_index": 93,
         "title": "Use of the Template for Intervention Description and Replication (Tidier) Checklist in Social Work Research.",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on social work research and the use of a reporting checklist, which does not directly relate to healthcare professionals' use of knowledge or information within professional healthcare contexts. It primarily addresses research practices rather than healthcare-specific applications.",
+        "justification": "The paper focuses on social work research and the use of a reporting checklist, which does not directly relate to healthcare professionals' use of knowledge or information within professional healthcare contexts. It primarily addresses research methodology rather than healthcare practice or evidence-based applications in a clinical setting.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper does not relate to healthcare professionals' use of knowledge within healthcare contexts, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper does not relate to healthcare professionals' use of knowledge in clinical settings, aligning with the exclusion criteria."
     },
     {
         "paperId": "44cb78dadfcc044a57d218cf3c05d70e19808a6c",
         "paper_index": 94,
         "title": "Evaluation of an evidence-based practice education workshop focused on critical appraisal for advanced practice nurses: A before-after intervention study",
         "decision": "INCLUDE",
-        "justification": "The paper discusses an evidence-based practice education workshop for advanced practice nurses, focusing on their use and understanding of critical appraisal in healthcare, which aligns with the inclusion criteria related to professional healthcare practice and education.",
+        "justification": "The paper discusses an educational intervention aimed at improving advanced practice nurses' critical appraisal skills related to evidence-based practice, which aligns with the inclusion criteria concerning healthcare professionals' use and understanding of knowledge in professional healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to professional healthcare practice and education."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare professionals' use and understanding of knowledge in professional healthcare contexts."
     },
     {
         "paperId": "165e759ffcb3db89b80d402116ffbc1cf7ab74ff",
         "paper_index": 95,
         "title": "Barriers to adopting evidence-based practice: A cross-sectional study among undergraduate nursing students in Vietnam",
-        "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on barriers to adopting evidence-based practice among nursing students, which is directed towards education and training rather than the use of knowledge or information within professional healthcare contexts.",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare education and the barriers to adopting evidence-based practice among nursing students, which relates to the use and understanding of knowledge in a professional healthcare context.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on education and training barriers rather than professional healthcare contexts, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria of healthcare education and the understanding of knowledge in a professional healthcare context."
     },
     {
         "paperId": "759d76d2617cf531b0db886fbc8187a8fb5afed0",
         "paper_index": 96,
         "title": "Towards evidence-based practice 2.0: leveraging artificial intelligence in healthcare",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of artificial intelligence in healthcare to improve evidence-based practice, which relates to healthcare professionals' use and application of knowledge and digital tools in clinical decision-making.",
+        "justification": "The paper discusses the integration of artificial intelligence in healthcare to improve evidence-based practice, focusing on healthcare professionals' decision-making and the challenges they face, which aligns with the inclusion criteria related to healthcare practice and knowledge application.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the integration of AI in healthcare, aligning with the inclusion criteria focused on evidence-based practice."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and knowledge application."
     },
     {
         "paperId": "8806d7e84401ba0f595b8c1e40e089849f4e279d",
@@ -879,25 +879,25 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses the knowledge, skills, attitudes, beliefs, and implementation of evidence-based practice among nurses in low- and middle-income countries, which relates to healthcare professionals' use and understanding of research evidence in a healthcare context.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria regarding healthcare professionals' use and understanding of research evidence."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by discussing the knowledge, skills, attitudes, beliefs, and implementation of evidence-based practice among nurses in low- and middle-income countries."
     },
     {
         "paperId": "2aacbb9352e5c613eb1b7dde170e1becfec88387",
         "paper_index": 99,
         "title": "Currently Available Large Language Models Do Not Provide Musculoskeletal Treatment Recommendations That are Concordant With Evidence-Based Clinical Practice Guidelines.",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of large language models (LLMs) in providing treatment recommendations in the context of evidence-based clinical practice guidelines, which relates to healthcare professionals' application of knowledge and decision-making in clinical practice.",
+        "justification": "The paper discusses the use of large language models (LLMs) in providing treatment recommendations in the context of evidence-based clinical practice guidelines, which relates to healthcare professionals' application of knowledge and decision-making in healthcare.",
         "validation": "INVALID",
-        "validation_raw": "Validation: INVALID  \nReason: The justification does not clearly support the inclusion decision, as it does not address the paper's findings of significant errors in LLM recommendations."
+        "validation_raw": "Validation: INVALID  \nReason: The justification states that the paper discusses LLMs providing treatment recommendations, but the conclusion indicates that LLMs do not reliably align with evidence-based guidelines, which contradicts the inclusion criteria."
     },
     {
         "paperId": "2419d6b5e83d6175d31772e40cedbac1936da541",
         "paper_index": 100,
         "title": "An overview of clinical decision support systems: benefits, risks, and strategies for success",
         "decision": "INCLUDE",
-        "justification": "The paper discusses clinical decision support systems (CDSS) in relation to healthcare professionals' decision-making processes and provides evidence-based recommendations, aligning with the inclusion criteria regarding the use of knowledge and information systems in healthcare contexts.",
+        "justification": "The paper discusses clinical decision support systems (CDSS) in relation to healthcare professionals' decision-making processes and provides evidence-based recommendations, aligning with the inclusion criteria regarding the use of digital tools and evidence-based practice in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding knowledge and information systems in healthcare contexts."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding digital tools and evidence-based practice in healthcare."
     },
     {
         "paperId": "58eb2579a1a3599ce0a571e40ac7f2930ca7698d",
@@ -913,18 +913,18 @@
         "paper_index": 102,
         "title": "Effectiveness of Artificial Intelligence (AI) in Clinical Decision Support Systems and Care Delivery",
         "decision": "EXCLUDE",
-        "justification": "The title suggests a focus on clinical decision support systems and care delivery, which may imply an evaluation of AI systems for diagnosis or treatment delivery, thus falling under the exclusion criteria.",
+        "justification": "The title suggests a focus on clinical decision support systems and care delivery, which may imply an evaluation of AI systems for diagnosis or clinical decision-making, thus falling under the exclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding the focus on AI systems for diagnosis or treatment delivery."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria based on the title's focus."
     },
     {
         "paperId": "dc3d01368bf4a77f61ac1b4e040e431a5c0977e0",
         "paper_index": 103,
         "title": "Artificial Intelligence-Based Clinical Decision Support Systems in Cardiovascular Diseases",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on AI-based clinical decision support systems for cardiovascular diseases, which primarily relates to diagnosis and treatment optimization, thus falling under the exclusion criteria regarding the evaluation of AI systems for clinical decision-making.",
+        "justification": "The paper primarily discusses AI-based clinical decision support systems in the context of cardiovascular diseases, focusing on patient care and decision-making processes that directly relate to treatment and diagnosis, which falls under the exclusion criteria regarding patient outcomes and clinical interventions.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper's focus on AI systems for clinical decision-making aligns with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper discusses patient outcomes and clinical interventions, aligning with the exclusion criteria."
     },
     {
         "paperId": "498ff678c497ed57c80794a73d101d6213c7bb09",
@@ -963,17 +963,8 @@
         "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by discussing the ethical implications of AI in healthcare, which is relevant to the use and management of knowledge and digital tools in professional healthcare contexts."
     },
     {
-        "paperId": "fa960683099e55446b39b57c3d4d77fb07473014",
-        "paper_index": 108,
-        "title": "The use of artificial intelligence to optimize medication alerts generated by clinical decision support systems: a scoping review",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses the use of AI to optimize medication alerts generated by clinical decision support systems in a hospital setting, which relates to healthcare professionals' use of digital tools and information systems in healthcare contexts.",
-        "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria regarding the use of AI in healthcare contexts."
-    },
-    {
         "paperId": "c333cc598bd393c2081a8627ae46b8285c281a43",
-        "paper_index": 109,
+        "paper_index": 108,
         "title": "Exploring the role of professional identity in the implementation of clinical decision support systems—a narrative review",
         "decision": "INCLUDE",
         "justification": "The paper discusses the implementation of clinical decision support systems (CDSSs) in healthcare, focusing on the impact on professional identity among healthcare professionals, which aligns with the inclusion criteria related to healthcare professionals' use and understanding of digital tools in professional practice.",
@@ -981,31 +972,40 @@
         "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare professionals' use and understanding of digital tools in professional practice."
     },
     {
+        "paperId": "fa960683099e55446b39b57c3d4d77fb07473014",
+        "paper_index": 109,
+        "title": "The use of artificial intelligence to optimize medication alerts generated by clinical decision support systems: a scoping review",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the use of AI in optimizing medication alerts generated by clinical decision support systems, which relates to healthcare professionals' use of digital tools and information systems in a healthcare context.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the paper's focus on AI in healthcare, aligning with the inclusion criteria."
+    },
+    {
         "paperId": "4073221c92000ff555ae207c436e7627de79ff3f",
         "paper_index": 110,
         "title": "XAI-Based Clinical Decision Support Systems: A Systematic Review",
-        "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on the development and evaluation of clinical decision support systems (CDSSs) using AI, which falls under the exclusion criteria as it proposes and evaluates AI systems for decision-making rather than addressing healthcare professionals' use or understanding of knowledge in practice.",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses clinical decision support systems (CDSSs) in relation to healthcare professionals and their decision-making processes, which aligns with the inclusion criteria regarding the use of digital tools and knowledge in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria by stating that the paper focuses on the development and evaluation of AI systems rather than the use or understanding of knowledge by healthcare professionals."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of digital tools in healthcare contexts."
     },
     {
         "paperId": "19923458a40496d4fe1259662a0e2deea4465957",
         "paper_index": 111,
         "title": "Current Challenges and Future Opportunities for XAI in Machine Learning-Based Clinical Decision Support Systems: A Systematic Review",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the application of Explainable AI (XAI) in Clinical Decision Support Systems (CDSS), which relates to healthcare professionals' use of digital tools and knowledge management in clinical decision-making contexts.",
+        "justification": "The paper discusses the application of Explainable AI (XAI) in Clinical Decision Support Systems (CDSS), which relates to healthcare professionals' use of digital tools and knowledge management in clinical decision-making, aligning with the inclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria of discussing XAI in CDSS, aligning with the decision to include the paper."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by discussing the application of XAI in CDSS, which is relevant to healthcare professionals' use of digital tools in clinical decision-making."
     },
     {
         "paperId": "607d560ae41454dd01c2ae83b08540e80defbcfb",
         "paper_index": 112,
         "title": "Harnessing the power of clinical decision support systems: challenges and opportunities",
         "decision": "INCLUDE",
-        "justification": "The paper discusses clinical decision support systems (CDSS) in healthcare settings, focusing on their implementation and the challenges faced by healthcare professionals, which aligns with the inclusion criteria related to the use of knowledge and information systems in professional healthcare contexts.",
+        "justification": "The paper discusses clinical decision support systems (CDSSs) in healthcare settings, focusing on their implementation and the challenges faced by healthcare professionals, which aligns with the inclusion criteria related to healthcare professionals' use and management of information systems.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding knowledge and information systems in healthcare."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare professionals' use and management of information systems."
     },
     {
         "paperId": "e7be32c77dafda1699a25acb9898f4c1bca3c737",
@@ -1014,16 +1014,16 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of AI-based clinical decision support systems (CDSSs) in healthcare, focusing on the challenges and barriers faced by healthcare professionals, which aligns with the inclusion criteria related to healthcare professionals' use and management of knowledge and digital tools in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare professionals' use and management of digital tools."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare professionals' use and management of knowledge and digital tools."
     },
     {
         "paperId": "97c8e253627648d55511a33f59aa9274c21b023b",
         "paper_index": 114,
         "title": "Identifying barriers and facilitators to successful implementation of computerized clinical decision support systems in hospitals: a NASSS framework-informed scoping review",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the implementation of computerized clinical decision support systems (CDSS) in hospitals, focusing on healthcare professionals' attitudes and the barriers and facilitators to their use, which aligns with the inclusion criteria related to healthcare practice and knowledge management.",
+        "justification": "The paper discusses the implementation of computerized clinical decision support systems (CDSS) in hospitals, focusing on barriers and facilitators relevant to healthcare professionals, which aligns with the inclusion criteria related to healthcare practice and the use of information systems.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and knowledge management."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and information systems."
     },
     {
         "paperId": "55e517b2edf8ad05826f0ee3ea40aae146e05e65",
@@ -1039,9 +1039,9 @@
         "paper_index": 116,
         "title": "Designing Clinical Decision Support Systems (CDSS)—A User-Centered Lens of the Design Characteristics, Challenges, and Implications: Systematic Review",
         "decision": "INCLUDE",
-        "justification": "The paper discusses clinical decision support systems (CDSS) in relation to healthcare professionals, focusing on design characteristics, usability, and user experience, which aligns with the inclusion criteria regarding the use of knowledge and information systems in healthcare contexts.",
+        "justification": "The paper discusses clinical decision support systems (CDSS) in the context of healthcare professionals, focusing on design characteristics, usability, and user experience, which aligns with the inclusion criteria related to healthcare practice and the use of digital tools in professional contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding knowledge and information systems in healthcare contexts."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and the use of digital tools."
     },
     {
         "paperId": "67a6f9678537221edffcd02818af9af484944bb0",
@@ -1057,7 +1057,7 @@
         "paper_index": 118,
         "title": "Understanding the impact of explanations on advice-taking: a user study for AI-based clinical Decision Support Systems",
         "decision": "INCLUDE",
-        "justification": "The paper discusses AI-based Clinical Decision Support Systems in relation to healthcare providers' judgment and decision-making, aligning with the inclusion criteria regarding the use of digital tools and knowledge processes in healthcare contexts.",
+        "justification": "The paper discusses AI-based Clinical Decision Support Systems in relation to healthcare providers' judgment and decision-making, which aligns with the inclusion criteria regarding the use of digital tools and knowledge processes in healthcare contexts.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of digital tools in healthcare contexts."
     },
@@ -1066,18 +1066,18 @@
         "paper_index": 119,
         "title": "Are ChatGPT and large language models “the answer” to bringing us closer to systematic review automation?",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of AI-assisted technologies, specifically ChatGPT, in the context of systematic reviews, which relates to healthcare professionals' use and application of knowledge and information systems in healthcare research.",
+        "justification": "The paper discusses the use of AI-assisted technologies, specifically ChatGPT, in the context of systematic reviews, which relates to healthcare research and the application of knowledge in professional healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria regarding AI-assisted technologies in healthcare research."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria of discussing AI in healthcare research."
     },
     {
         "paperId": "41a34d9a0df417d84e98da33fc6e3529e10ef8c7",
         "paper_index": 120,
         "title": "Systematic review automation tools improve efficiency but lack of knowledge impedes their adoption: a survey.",
-        "decision": "EXCLUDE",
-        "justification": "The title suggests a focus on systematic review automation tools, which may not directly relate to healthcare professionals' use or application of knowledge in a healthcare context, and lacks sufficient information to determine relevance.",
-        "validation": "INVALID",
-        "validation_raw": "Validation: INVALID  \nReason: The justification is insufficient and vague, failing to clearly connect the decision to the inclusion/exclusion criteria."
+        "decision": "INCLUDE",
+        "justification": "The title indicates a focus on systematic review automation tools, which relates to the use of digital tools and information systems in healthcare contexts, aligning with the inclusion criteria regarding healthcare professionals' use and management of knowledge.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification logically connects the title's focus to the inclusion criteria regarding healthcare professionals' use of digital tools."
     },
     {
         "paperId": "3eff0e1187dbd60f12dd06c5f3291b1eb6858c1a",
@@ -1092,10 +1092,10 @@
         "paperId": "f7ab9f6edc7dec9a9e8bb95bb400e749bded3d68",
         "paper_index": 122,
         "title": "Trustworthiness of Systematic Review Automation - An interview at Coventry University",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses the use of automated tools in systematic reviews, which relates to healthcare professionals' understanding and application of digital tools in research contexts, aligning with the inclusion criteria.",
+        "decision": "EXCLUDE",
+        "justification": "The paper focuses on the trustworthiness of systematic review automation tools and their acceptance among human reviewers, which does not directly relate to healthcare professionals' use or application of knowledge in a healthcare context.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly connects the paper's focus on automated tools in systematic reviews to the inclusion criteria related to healthcare professionals' understanding and application of digital tools."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper does not relate to healthcare professionals' use or application of knowledge in a healthcare context, aligning with the exclusion criteria."
     },
     {
         "paperId": "c015960ff9d3255b5dc16cd44afcc9d6e8538177",
@@ -1104,16 +1104,16 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of weak supervision and natural language processing for PICO entity extraction in the context of evidence-based medicine, which relates to healthcare professionals' use of information systems in healthcare research.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the criteria of relevance to healthcare research and the use of information systems."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria of discussing healthcare information systems in the context of evidence-based medicine."
     },
     {
         "paperId": "4a020c1daeb52f8a9e0f80312f301b5691c4cea0",
         "paper_index": 124,
         "title": "Outcome-based Evaluation of Systematic Review Automation",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on systematic review automation and evaluation methods, which do not directly relate to healthcare professionals' use or application of knowledge or evidence in healthcare contexts, nor does it discuss evidence-based practice or professional healthcare practice.",
+        "justification": "The paper focuses on systematic review automation and evaluation methods, which do not directly relate to healthcare professionals' use of knowledge or evidence-based practice in a healthcare context. It does not address healthcare delivery, patient outcomes, or professional practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper does not relate to healthcare professionals' use of knowledge or evidence in healthcare contexts, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not relate to healthcare delivery or evidence-based practice, aligning with the exclusion criteria."
     },
     {
         "paperId": "e189f31d2c16bf7110330756c26987b9cc6345b3",
@@ -1129,9 +1129,9 @@
         "paper_index": 126,
         "title": "Systematic review automation tool use by systematic reviewers, health technology assessors and clinical guideline developers: tools used, abandoned, and desired",
         "decision": "INCLUDE",
-        "justification": "The paper concerns the use of systematic review automation tools by healthcare professionals involved in evidence synthesis and guideline development, which relates to the management and application of knowledge in healthcare contexts.",
+        "justification": "The paper concerns the use of systematic review automation tools by healthcare professionals involved in evidence synthesis and guideline development, aligning with the inclusion criteria related to the application of knowledge and information systems in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the management and application of knowledge in healthcare, aligning with the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the application of knowledge and information systems in healthcare contexts."
     },
     {
         "paperId": "4cda430d60d05ba095c0329bc21d0d872058aa83",
@@ -1140,25 +1140,25 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses the development of tools for information specialists in the context of systematic reviews in healthcare, which relates to the use and management of information systems in professional healthcare practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria regarding the development of tools for information specialists in healthcare systematic reviews."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria regarding the development of tools for information specialists in systematic reviews in healthcare."
     },
     {
         "paperId": "428b275f9964261b0bf9654a023f49bc7ac3ec4d",
         "paper_index": 128,
         "title": "Systematic review automation methods",
         "decision": "EXCLUDE",
-        "justification": "The title does not indicate a clear relevance to healthcare, professional practice, or the use of knowledge in healthcare contexts, and the absence of an abstract limits the ability to assess its relevance further.",
+        "justification": "The title does not indicate a clear relevance to healthcare, professional practice, or the use of knowledge in healthcare contexts, and the absence of an abstract limits the ability to assess its alignment with the inclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains the lack of relevance to the inclusion criteria due to the title and absence of an abstract."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains the lack of relevance to healthcare and the absence of an abstract, aligning with the exclusion criteria."
     },
     {
         "paperId": "c67c41c5154f563d3a3f82146a5fe2f63d32ebd4",
         "paper_index": 129,
         "title": "Systematic review automation methods. (Méthodes d'automatisation des revues systématiques)",
         "decision": "EXCLUDE",
-        "justification": "The title does not indicate a direct relevance to healthcare, professional practice, or the use of knowledge in healthcare contexts, and without an abstract, it is unclear if it meets the inclusion criteria.",
-        "validation": "INVALID",
-        "validation_raw": "Validation: INVALID  \nReason: The justification is insufficient as it does not clearly explain how the title fails to meet the inclusion criteria."
+        "justification": "The title and lack of an abstract do not provide sufficient information to determine relevance to healthcare research or professional practice, and it may not pertain to the specified inclusion criteria.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the title and absence of an abstract do not meet the inclusion criteria for relevance to healthcare research."
     },
     {
         "paperId": "4be46ae53206440cfa6cab48f7523df5a701a65f",
@@ -1167,16 +1167,16 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of large language models for systematic review screening, which relates to healthcare research and the application of digital tools in professional healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the criteria of relevance to healthcare research and the application of digital tools in systematic review screening."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the criteria of healthcare research and the application of digital tools in systematic review screening."
     },
     {
         "paperId": "272c4aff7d59e0822a14488113157dfb864bfc54",
         "paper_index": 131,
         "title": "Artificial Intelligence Models for the Automation of Standard Diagnostics in Sleep Medicine—A Systematic Review",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on the automation of diagnostics using AI models in sleep medicine, which relates to the evaluation of AI systems for diagnosis and clinical decision-making, thus falling under the exclusion criteria.",
-        "validation": "INVALID",
-        "validation_raw": "Validation: INVALID  \nReason: The justification incorrectly states that the paper falls under the exclusion criteria, while it discusses AI in diagnostics, which may not necessarily align with the exclusion criteria."
+        "justification": "The paper primarily focuses on the automation of diagnostics using AI in sleep medicine, which falls under the evaluation of AI systems for diagnosis and does not address healthcare professionals' use or application of knowledge in a professional context.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not address the application of knowledge by healthcare professionals, aligning with the exclusion criteria."
     },
     {
         "paperId": "6d4260adc4fc09dff70604e36cd5fae59fd562a7",
@@ -1201,9 +1201,9 @@
         "paper_index": 134,
         "title": "Improving HIV preexposure prophylaxis uptake with artificial intelligence and automation: a systematic review",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on the use of AI and automation in HIV preexposure prophylaxis (PrEP) interventions, which involves treatment delivery and patient outcomes, thus falling under the exclusion criteria related to actionable care and evaluating treatment effectiveness.",
+        "justification": "The paper primarily focuses on the use of AI and automation in HIV preexposure prophylaxis (PrEP) interventions, which involves treatment delivery and patient outcomes, thus falling under the exclusion criteria related to actionable care and patient-facing applications.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on actionable care and treatment effectiveness, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding actionable care and patient-facing applications."
     },
     {
         "paperId": "07d48d1812126cbf70c241b91be3af9b1f3abba3",
@@ -1230,7 +1230,7 @@
         "decision": "EXCLUDE",
         "justification": "The paper primarily focuses on diagnostic accuracy and laboratory identification methods for a specific pathogen, which relates to clinical procedures and treatment delivery rather than the use of knowledge or information within professional healthcare contexts.",
         "validation": "INVALID",
-        "validation_raw": "Validation: INVALID  \nReason: The justification incorrectly states that the paper relates to clinical procedures rather than professional healthcare contexts, which contradicts the inclusion criteria."
+        "validation_raw": "Validation: INVALID  \nReason: The justification incorrectly states that the paper relates to clinical procedures rather than professional healthcare contexts, which contradicts the focus on diagnostic accuracy relevant to healthcare."
     },
     {
         "paperId": "5ca0fa99e023101345155ff2f09be603503c957d",
@@ -1248,7 +1248,7 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of retrieval-augmented generation (RAG) systems in the context of medical question answering, which relates to healthcare professionals' use of digital tools and information systems in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates the paper's content to healthcare professionals' use of digital tools, aligning with the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the paper's focus on healthcare and digital tools, aligning with the inclusion criteria."
     },
     {
         "paperId": "64fed9e0be009f064b72cdcb7d1fadeb28bea3b0",
@@ -1264,16 +1264,16 @@
         "paper_index": 141,
         "title": "Optimization of hepatological clinical guidelines interpretation by large language models: a retrieval augmented generation-based framework",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of large language models into healthcare, specifically focusing on improving clinical decision support systems, which relates to the use of digital tools and knowledge management in professional healthcare contexts.",
+        "justification": "The paper discusses the integration of large language models into healthcare, specifically focusing on improving clinical decision support systems, which relates to healthcare professionals' use of digital tools and knowledge management in a professional healthcare context.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the criteria by discussing the relevance of the paper to digital tools and knowledge management in healthcare."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the criteria by discussing the paper's relevance to healthcare professionals and digital tools in clinical decision support systems."
     },
     {
         "paperId": "2bb9a87bdfc8a35bc1813e5a88180f43615785a8",
         "paper_index": 142,
         "title": "Improving Retrieval-Augmented Generation in Medicine with Iterative Follow-up Questions",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of large language models and iterative follow-up questions in the context of medical question-answering, which relates to healthcare professionals' use of digital tools and knowledge management in healthcare contexts.",
+        "justification": "The paper discusses the use of large language models and Retrieval-Augmented Generation in the context of medical question-answering, which relates to healthcare professionals' use of digital tools and knowledge management in healthcare contexts.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification clearly relates the paper's content to healthcare professionals' use of digital tools, aligning with the inclusion criteria."
     },
@@ -1282,36 +1282,36 @@
         "paper_index": 143,
         "title": "Rationale-Guided Retrieval Augmented Generation for Medical Question Answering",
         "decision": "INCLUDE",
-        "justification": "The paper discusses a framework for enhancing the reliability of retrieval-augmented generation in biomedical contexts, which relates to the use of digital tools and information systems in healthcare. It focuses on improving the performance of language models in medical question answering, relevant to healthcare professionals and research.",
+        "justification": "The paper discusses a framework for enhancing the reliability of retrieval-augmented generation in biomedical contexts, which relates to the use of digital tools and information systems in healthcare. It focuses on improving the performance of large language models in medical question answering, relevant to healthcare professionals and research.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the use of digital tools and information systems in healthcare, aligning with the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the criteria by discussing the relevance of the paper to healthcare and digital tools in biomedical contexts."
     },
     {
         "paperId": "09022e0e75fa472e9a1f6b743223c016a5ec35e2",
         "paper_index": 144,
         "title": "Systematic Analysis of Retrieval-Augmented Generation-Based LLMs for Medical Chatbot Applications",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily focuses on the evaluation of AI systems (specifically LLMs and chatbots) in a technical context, without clear relevance to healthcare professionals' use or application of knowledge in practice.",
+        "justification": "The paper primarily focuses on the development and evaluation of AI systems (specifically LLMs and chatbots) for medical applications, which falls under the exclusion criteria related to evaluating AI systems for diagnosis or clinical decision-making.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper lacks relevance to healthcare professionals' practical application, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper's focus on AI systems for medical applications aligns with the exclusion criteria."
     },
     {
         "paperId": "d7e70b562784659721e9c12e162c3b0b1a023b6d",
         "paper_index": 145,
         "title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of large language models in nephrology, focusing on their application in healthcare, medical research, and education, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and knowledge in professional practice.",
+        "justification": "The paper discusses the integration of large language models in healthcare, specifically in nephrology, focusing on their application in medical research and education, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and knowledge management.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of digital tools in healthcare practice."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of digital tools in healthcare."
     },
     {
         "paperId": "7423e5c903fb2befaf471cae64e2530f7c1d0404",
         "paper_index": 146,
         "title": "Development and Testing of Retrieval Augmented Generation in Large Language Models - A Case Study Report",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the development and evaluation of a large language model tailored for healthcare applications, focusing on preoperative medicine, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and knowledge management in healthcare contexts.",
+        "justification": "The paper discusses the development and evaluation of a Large Language Model tailored for healthcare applications, specifically in preoperative medicine, which relates to the use of digital tools and knowledge management in professional healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare applications and digital tools."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria of discussing digital tools in healthcare contexts."
     },
     {
         "paperId": "eb490e037a9efaecad63e1abba5795bb6d547d7b",
@@ -1329,25 +1329,25 @@
         "decision": "EXCLUDE",
         "justification": "The paper primarily focuses on enhancing large language models for diabetes education, which is directed towards patient education and self-management, thus falling under the exclusion criteria related to patient-facing applications.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on patient education, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper's focus on patient education aligns with the exclusion criteria."
     },
     {
         "paperId": "adef29a0783caab56fd9e599557c24a281399945",
         "paper_index": 149,
         "title": "Understanding the Impact of Confidence in Retrieval Augmented Generation: A Case Study in the Medical Domain",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the application of Retrieval Augmented Generation (RAG) in the medical domain, focusing on the use of AI systems and their impact on healthcare professionals' confidence in information retrieval, which aligns with the inclusion criteria related to healthcare contexts and digital health technologies.",
+        "justification": "The paper discusses the application of Retrieval Augmented Generation (RAG) in the medical domain, focusing on how it impacts the confidence of outputs from Large Language Models (LLMs), which relates to healthcare professionals' use of digital tools and information systems in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare contexts and digital health technologies."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria regarding the application of RAG in the medical domain."
     },
     {
         "paperId": "99b364eaf55295f53f6afaf6fce7c61dcd567eb9",
         "paper_index": 150,
         "title": "Generating Is Believing: Membership Inference Attacks against Retrieval-Augmented Generation",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on privacy risks associated with a technical aspect of Retrieval-Augmented Generation (RAG) and does not relate to healthcare professionals' use of knowledge or information in healthcare contexts, nor does it discuss evidence-based practice or professional healthcare practice.",
+        "justification": "The paper focuses on privacy risks associated with a technical aspect of Retrieval-Augmented Generation and does not relate to healthcare professionals' use or application of knowledge in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not relate to healthcare contexts or practices, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not relate to healthcare professionals' use or application of knowledge in healthcare contexts, aligning with the exclusion criteria."
     },
     {
         "paperId": "52dc1238d373b2b1c7e4797c450d0b70ecf13e78",
@@ -1356,25 +1356,25 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses a framework for enhancing large language models in the medical domain, which relates to the use of digital tools and information systems in healthcare contexts, aligning with the inclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by discussing the application of digital tools in healthcare."
-    },
-    {
-        "paperId": "e6c603d059f3928faf7678b72917858c7538f68f",
-        "paper_index": 152,
-        "title": "EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses the enhancement of predictive modeling in healthcare through the use of multimodal Electronic Health Records and digital tools, which aligns with the inclusion criteria related to healthcare professionals' use of information systems and evidence-based practice.",
-        "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of information systems in healthcare."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by discussing the relevance of the paper to digital tools and information systems in healthcare."
     },
     {
         "paperId": "0554739e9e1df5ef2750099f8ece9243e9c5a654",
-        "paper_index": 153,
+        "paper_index": 152,
         "title": "VISA: Retrieval Augmented Generation with Visual Source Attribution",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on a technical approach to retrieval-augmented generation and visual source attribution, which does not directly relate to healthcare professionals' use or application of knowledge in a healthcare context.",
+        "justification": "The paper focuses on a technical approach to retrieval-augmented generation and visual source attribution, which does not directly relate to healthcare professionals' use of knowledge or information in healthcare contexts, nor does it discuss evidence-based practice or professional healthcare practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not relate to healthcare professionals' use of knowledge, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not relate to healthcare professionals' use of knowledge or evidence-based practice, aligning with the exclusion criteria."
+    },
+    {
+        "paperId": "e6c603d059f3928faf7678b72917858c7538f68f",
+        "paper_index": 153,
+        "title": "EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the enhancement of predictive modeling using multimodal Electronic Health Records (EHR) in a healthcare context, focusing on the application of knowledge and digital tools relevant to healthcare professionals.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by discussing the application of multimodal EHR in a healthcare context."
     },
     {
         "paperId": "006168b63d1d4358bce840b55b76c1cacfb35121",
@@ -1390,7 +1390,7 @@
         "paper_index": 155,
         "title": "MKRAG: Medical Knowledge Retrieval Augmented Generation for Medical Question Answering.",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on improving the performance of large language models for medical question answering, which primarily relates to AI systems and does not address healthcare professionals' use or application of knowledge in a professional context.",
+        "justification": "The paper focuses on the development and evaluation of a language model for medical question answering, which primarily involves AI systems and does not address healthcare professionals' use or application of knowledge in a professional context.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not address the application of knowledge by healthcare professionals, aligning with the exclusion criteria."
     },
@@ -1416,10 +1416,10 @@
         "paperId": "df89a321b74c3dfbd2eb58779f613ca77bbf9636",
         "paper_index": 158,
         "title": "The limits of explainability & human oversight in the EU Commission’s proposal for the Regulation on AI- a critical approach focusing on medical diagnostic systems",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses the regulation of AI systems in medical diagnostic contexts, focusing on the implications for healthcare professionals and the interaction between doctors and patients, which aligns with the inclusion criteria related to healthcare practice and digital health technologies.",
+        "decision": "EXCLUDE",
+        "justification": "The paper primarily discusses the regulation of AI systems in medical diagnostics and focuses on the interaction between doctors and patients, which falls under the exclusion criteria related to patient-facing applications and treatment delivery.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and digital health technologies."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria regarding patient-facing applications and treatment delivery."
     },
     {
         "paperId": "a2bc761634c6afeb629bfd74ac0ad33895cd1711",
@@ -1435,18 +1435,18 @@
         "paper_index": 160,
         "title": "Integrating Human Factors into Trustworthy AI for Healthcare",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of AI systems within a healthcare context, focusing on organizational trust and the use of AI by healthcare professionals, which aligns with the inclusion criteria related to healthcare practice and knowledge management.",
+        "justification": "The paper discusses the integration of human factors into AI systems within a healthcare context, focusing on organizational trust and the use of AI by healthcare professionals, which aligns with the inclusion criteria related to healthcare practice and the application of digital tools.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and knowledge management."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and the application of digital tools."
     },
     {
         "paperId": "5e38fb3c018d4476549d993d38926db2e5c6032a",
         "paper_index": 161,
         "title": "Ethical Framework for Harnessing the Power of AI in Healthcare and Beyond",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the ethical dimensions of AI technologies specifically within the healthcare domain, focusing on the implications for healthcare professionals and the management of AI in healthcare contexts, which aligns with the inclusion criteria.",
+        "justification": "The paper discusses the ethical dimensions of AI technologies specifically within the healthcare domain, focusing on the implications for healthcare professionals and systems, which aligns with the inclusion criteria related to healthcare practice and the use of digital tools.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria by focusing on ethical dimensions of AI in healthcare."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and the use of digital tools."
     },
     {
         "paperId": "f8cf910db2a9dc664817966cbea93843a7d8e3c9",
@@ -1471,25 +1471,25 @@
         "paper_index": 164,
         "title": "Human-Centered Ethical AI in Healthcare Contact Centers",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of AI in healthcare contact centers, focusing on ethical considerations and the implications for healthcare professionals, which aligns with the inclusion criteria related to healthcare practice and the application of digital tools in professional contexts.",
+        "justification": "The paper discusses the use of AI in healthcare contact centers and addresses the ethical implications and governance frameworks relevant to healthcare professionals, aligning with the inclusion criteria related to digital health technologies and knowledge-related processes in healthcare.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare practice and the application of digital tools."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to digital health technologies and knowledge-related processes in healthcare."
     },
     {
         "paperId": "92d0cb2f0fd2878846b6f82cb527a4faf3276460",
         "paper_index": 165,
         "title": "Generative AI and Patient Care: A Systematic Review Examining Applications, Limitations, and Future Directions for ChatGPT in Healthcare",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily discusses the use of generative AI tools like ChatGPT in clinical decision support and medical education, which falls under the evaluation of AI systems for clinical decision-making, thus excluding it based on the criteria.",
-        "validation": "INVALID",
-        "validation_raw": "Validation: INVALID  \nReason: The justification incorrectly states that the paper is excluded based on its focus on AI systems for clinical decision-making, which contradicts the criteria."
+        "justification": "The paper primarily discusses the use of generative AI tools like ChatGPT in clinical decision support and medical education, which falls under the category of evaluating AI systems for clinical applications rather than focusing on healthcare professionals' use or management of knowledge in professional contexts.",
+        "validation": "VALID",
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper focuses on evaluating AI systems rather than the use or management of knowledge by healthcare professionals, aligning with the exclusion criteria."
     },
     {
         "paperId": "03740f71d52fdc8f40338c28d17df072beccca6b",
         "paper_index": 166,
         "title": "Ensuring Ethical and Responsible Integration of AI Tools in Healthcare",
         "decision": "INCLUDE",
-        "justification": "The title indicates a focus on the integration of AI tools in healthcare, which relates to healthcare professionals' use and application of digital technologies in professional healthcare contexts.",
+        "justification": "The title indicates a focus on the integration of AI tools in healthcare, which relates to healthcare professionals' use and application of digital tools in professional healthcare contexts.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification aligns with the inclusion criteria related to the focus on AI tools in healthcare."
     },
@@ -1498,18 +1498,18 @@
         "paper_index": 167,
         "title": "Human AI Collaboration in Decision-Making Auto Systems With AI",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on the integration of AI in decision-making processes across various industries, including healthcare, but does not specifically address healthcare professionals' use or application of knowledge or information within healthcare contexts.",
+        "justification": "The paper focuses on the integration of AI with human decision-making processes across various industries, including healthcare, but does not specifically address healthcare professionals' use or application of knowledge or information within professional healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not specifically address healthcare professionals' use of knowledge within healthcare contexts, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not specifically address healthcare professionals' use of knowledge within professional healthcare contexts, aligning with the exclusion criteria."
     },
     {
         "paperId": "cc7c0c9f1288f6f8c1b4088373f7fe638b3970b7",
         "paper_index": 168,
         "title": "Gen-AI Perspective in Digital Healthcare: Ownership versus Practicality",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily discusses the implications of AI integration in digital healthcare, focusing on patient data ownership and ethical concerns, which does not align with the inclusion criteria related to healthcare professionals' use or application of knowledge in professional contexts.",
+        "justification": "The paper primarily discusses the implications of AI integration in digital healthcare, focusing on patient data ownership and ethical concerns, which suggests a direct address to patient-related issues rather than healthcare professionals' practices or knowledge management.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not align with the inclusion criteria related to healthcare professionals' use or application of knowledge in professional contexts."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the exclusion criteria by focusing on patient-related issues rather than healthcare professionals' practices."
     },
     {
         "paperId": "a4690aa5820d5d143859b35598a037a9524346be",
@@ -1525,9 +1525,9 @@
         "paper_index": 170,
         "title": "Exploring the Impact of AI on Leadership Styles: A Comparative Study of Human-Driven vs. AI-Assisted Decision-Making in High-Stakes Environments",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on leadership styles and decision-making processes in high-stakes industries, including healthcare, but does not primarily address healthcare professionals' use of knowledge or information within professional healthcare contexts. It also does not discuss evidence-based practice or healthcare research directly.",
+        "justification": "The paper focuses on leadership styles and decision-making processes in high-stakes industries, including healthcare, but does not primarily address healthcare professionals' use of knowledge or information within professional healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not primarily address healthcare professionals' use of knowledge or information within professional healthcare contexts, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper does not primarily address healthcare professionals' use of knowledge or information within professional healthcare contexts, aligning with the exclusion criteria."
     },
     {
         "paperId": "adb6f48603309c6a0ab740ce2d68159c8a965271",
@@ -1543,9 +1543,9 @@
         "paper_index": 172,
         "title": "A Collaborative Human-AI Guided Decision Framework - Gen-Edge-AI",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily discusses a decision-making framework involving AI technologies without a clear focus on healthcare professionals' use or application of knowledge in healthcare contexts, and it does not address healthcare practice directly.",
+        "justification": "The paper primarily discusses a human-AI guided decision framework and its applications across various fields, including healthcare, but does not focus specifically on healthcare professionals' use of knowledge or information systems in a healthcare context.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not focus on healthcare professionals' use or application of knowledge in healthcare contexts, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper does not focus specifically on healthcare professionals' use of knowledge or information systems in a healthcare context, aligning with the exclusion criteria."
     },
     {
         "paperId": "6e96773bac534c87cf0eeaf11c5ba2a596b3380e",
@@ -1561,9 +1561,9 @@
         "paper_index": 174,
         "title": "Evaluating the Human Safety Net: Observational study of Physician Responses to Unsafe AI Recommendations in high-fidelity Simulation",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of AI-driven decision support systems in healthcare, focusing on healthcare professionals' responses to AI recommendations, which aligns with the inclusion criteria related to the application of knowledge and digital tools in professional healthcare contexts.",
+        "justification": "The paper discusses the use of AI-driven decision support systems in healthcare, focusing on healthcare professionals' responses to AI recommendations, which aligns with the inclusion criteria related to the application of knowledge and information systems in professional healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the application of AI in professional healthcare contexts."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the application of knowledge and information systems in professional healthcare contexts."
     },
     {
         "paperId": "b2ac725b883b4a8fda23b3d51de306038f138e70",
@@ -1579,7 +1579,7 @@
         "paper_index": 176,
         "title": "Unlocking the potential of large language models in healthcare: navigating the opportunities and challenges",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the applications of large language models in healthcare, focusing on their use by healthcare professionals and the implications for clinical decision support, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and information systems.",
+        "justification": "The paper discusses the applications of large language models in healthcare, focusing on their use by clinicians and researchers, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and knowledge in professional healthcare contexts.",
         "validation": "VALID",
         "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of digital tools by healthcare professionals."
     },
@@ -1588,9 +1588,9 @@
         "paper_index": 177,
         "title": "Policy, Regulation, and Patient Safety: A Review of Global Efforts to Improve Healthcare Quality",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily discusses patient safety and hospital protocols, focusing on innovations and policies that impact patient care rather than the use of knowledge or information by healthcare professionals in a professional context.",
-        "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper does not focus on the use of knowledge or information by healthcare professionals, aligning with the exclusion criteria."
+        "justification": "The paper primarily discusses patient safety and hospital protocols, which relates to treatment delivery and patient outcomes, thus falling under the exclusion criteria.",
+        "validation": "INVALID",
+        "validation_raw": "Validation: INVALID  \nReason: The justification incorrectly states that the paper falls under the exclusion criteria, while the content suggests it is relevant to healthcare quality and safety."
     },
     {
         "paperId": "734ee5e640664c1f8bd72e3e102f095089609f7f",
@@ -1606,18 +1606,18 @@
         "paper_index": 179,
         "title": "Investigating the Impacts of Information Overload on Psychological Well-being of Healthcare Professionals: Role of COVID-19 Stressor",
         "decision": "INCLUDE",
-        "justification": "The paper concerns healthcare professionals and their psychological well-being in relation to information overload during the COVID-19 pandemic, which aligns with the inclusion criteria regarding the use and management of information in healthcare contexts.",
+        "justification": "The paper concerns healthcare professionals and their psychological well-being in relation to information overload during the COVID-19 pandemic, which aligns with the inclusion criteria regarding the use and management of knowledge in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the psychological well-being of healthcare professionals in the context of information overload during the COVID-19 pandemic."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare contexts and psychological well-being."
     },
     {
         "paperId": "75c98449ddf1ae594be9786710a3a3f6f4f2360c",
         "paper_index": 180,
         "title": "The paradox of convenience: how information overload in mHealth apps leads to medical service overuse",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily addresses the relationship between information overload in mHealth applications and the overuse of medical services, focusing on user behavior rather than the use of knowledge or information by healthcare professionals.",
+        "justification": "The paper primarily addresses the relationship between information overload in mHealth applications and the overuse of medical services, focusing on user behavior rather than healthcare professionals' use or management of knowledge or information in professional contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the paper focuses on user behavior rather than healthcare professionals, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper focuses on user behavior rather than healthcare professionals, aligning with the exclusion criteria."
     },
     {
         "paperId": "27743e853966f019bb632f50026f7e8cc55437b8",
@@ -1626,7 +1626,7 @@
         "decision": "INCLUDE",
         "justification": "The paper concerns healthcare and discusses the use of health information systems (HIS) in relation to mental workload among healthcare professionals, aligning with the inclusion criteria regarding the application of knowledge and information systems in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the application of knowledge and information systems in healthcare contexts."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the application of health information systems in healthcare contexts."
     },
     {
         "paperId": "bf11adc2d91195666c5733902d23c6809625ed96",
@@ -1635,7 +1635,7 @@
         "decision": "EXCLUDE",
         "justification": "The title suggests a focus on health literacy and cancer information overload, which may primarily relate to patient behavior and engagement rather than healthcare professionals' use or application of knowledge in professional contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains that the focus of the paper does not align with the criteria related to healthcare professionals' use of knowledge."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly explains how the paper's focus does not align with the criteria regarding healthcare professionals' contexts."
     },
     {
         "paperId": "6b633df0764173e8bf92a01ef957a28728e201e9",
@@ -1651,9 +1651,9 @@
         "paper_index": 184,
         "title": "Anxiety and work overload perception levels of primary healthcare professionals during the COVID-19 pandemic",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily studies the anxiety and workload perception of healthcare professionals, focusing on patient-related outcomes and experiences during the COVID-19 pandemic, which falls under the exclusion criteria regarding patient behavior and outcomes.",
+        "justification": "The paper primarily studies the anxiety and workload perception of healthcare professionals, focusing on patient-related outcomes and experiences during the COVID-19 pandemic, which falls outside the inclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on patient-related outcomes, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the focus on patient-related outcomes and experiences falls outside the inclusion criteria."
     },
     {
         "paperId": "d2715c47d699be60a903dd2bf33a23a6f2d1c67f",
@@ -1669,18 +1669,18 @@
         "paper_index": 186,
         "title": "Cancer information overload: Discriminant validity and relationship to sun safe behaviors.",
         "decision": "EXCLUDE",
-        "justification": "The paper primarily studies patient behavior and engagement related to cancer information overload and sun safe behaviors, which falls outside the inclusion criteria focused on healthcare professionals and professional practice.",
+        "justification": "The paper primarily studies patient behavior and engagement related to cancer information overload and sun safe behaviors, which falls outside the inclusion criteria focused on healthcare professionals and evidence-based practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies that the paper focuses on patient behavior rather than healthcare professionals, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper's focus on patient behavior and engagement is outside the inclusion criteria, which is logically consistent with the decision to exclude."
     },
     {
         "paperId": "fa053cc2a580778de681f4ed37efe067817ae624",
         "paper_index": 187,
         "title": "The QR code: A treatment for COVID-19 information overload",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the dissemination of information to healthcare teams in an emergency department context, focusing on effective communication strategies during the COVID-19 pandemic, which relates to healthcare professionals' use and management of information in a professional healthcare setting.",
+        "justification": "The paper discusses the dissemination of information to healthcare teams in an emergency department context, focusing on the use of QR codes to improve communication and knowledge management during the COVID-19 pandemic, which aligns with the inclusion criteria related to healthcare professionals' use of information systems.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly relates to the inclusion criteria regarding healthcare professionals' use and management of information in a professional healthcare setting."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding healthcare professionals' use of information systems in an emergency department context."
     },
     {
         "paperId": "fab43211af371a67aad27b2a89076e1653e81bfc",
@@ -1689,7 +1689,7 @@
         "decision": "INCLUDE",
         "justification": "The title indicates a focus on healthcare information exchange, which relates to the management and application of knowledge in healthcare contexts, aligning with the inclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly connects the title's focus on healthcare information exchange to the inclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification logically supports the decision by linking the title to the inclusion criteria related to healthcare information exchange."
     },
     {
         "paperId": "239cf1aa10fb0f24865e37ade031a6bbeb680901",
@@ -1707,16 +1707,16 @@
         "decision": "EXCLUDE",
         "justification": "The paper primarily focuses on the hospital discharge process from the perspectives of patients, caregivers, and healthcare staff, which includes patient behavior and engagement, thus falling under the exclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper falls under the exclusion criteria due to its focus on patient behavior and engagement in the discharge process."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper falls under the exclusion criteria by focusing on patient behavior and engagement in the discharge process."
     },
     {
         "paperId": "0d68973025bba783c97bd9fdef0b85b8784eaf04",
         "paper_index": 191,
         "title": "Relationship Between Cognitive Load Theory, Intrinsic Motivation and Emotions in Healthcare Professions Education: A Perspective on the Missing Link",
         "decision": "INCLUDE",
-        "justification": "The paper concerns healthcare education and discusses the use of cognitive load theory in the context of professional healthcare practice, which aligns with the inclusion criteria related to professional education and knowledge-related processes in healthcare.",
+        "justification": "The paper concerns healthcare education and discusses the use of cognitive load theory in the context of health professional education, which relates to the understanding and application of knowledge in professional healthcare practice.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to professional education and knowledge-related processes in healthcare."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria related to healthcare education and cognitive load theory."
     },
     {
         "paperId": "49b8e290ff3a619f3f69c1dc612a1c46f8ded92c",
@@ -1750,9 +1750,9 @@
         "paper_index": 195,
         "title": "Artificial intelligence to counteract \"KPI overload\" in business process monitoring: the case of anti-corruption in public organizations",
         "decision": "EXCLUDE",
-        "justification": "The paper focuses on business process monitoring and KPI overload in public organizations, without clear relevance to healthcare professionals' use of knowledge or information systems in healthcare contexts.",
+        "justification": "The paper focuses on business process monitoring and KPI overload in public organizations, without clear relevance to healthcare professionals or healthcare practice, thus falling outside the inclusion criteria.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification correctly identifies the lack of relevance to healthcare professionals' use of knowledge or information systems, aligning with the exclusion criteria."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly states that the paper lacks relevance to healthcare professionals or practice, aligning with the exclusion criteria."
     },
     {
         "paperId": "699acba74ab2ea443ddce1664e3ea987b0c622f1",
@@ -1770,6 +1770,6 @@
         "decision": "INCLUDE",
         "justification": "The paper discusses the application of recommender systems in the healthcare domain, focusing on how these systems can assist healthcare professionals in making informed decisions, which aligns with the inclusion criteria related to the use of digital tools and information systems in healthcare contexts.",
         "validation": "VALID",
-        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of digital tools and information systems in healthcare contexts."
+        "validation_raw": "Validation: VALID  \nReason: The justification clearly aligns with the inclusion criteria regarding the use of digital tools in healthcare contexts."
     }
 ]

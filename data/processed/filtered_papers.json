@@ -33,7 +33,13 @@
         "paperId": "5062b5b11fa9a528a3ae31da099c51555b8c6a0f",
         "title": "A Systematic Review and Meta-Analysis of Artificial Intelligence Tools in Medicine and Healthcare: Applications, Considerations, Limitations, Motivation and Challenges",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the applications of AI tools in healthcare, focusing on their implications for healthcare professionals and the healthcare system, which aligns with the inclusion criteria related to knowledge management and digital health technologies."
+        "justification": "The paper discusses the applications of AI tools in healthcare, focusing on their impact on healthcare professionals and practices, which aligns with the inclusion criteria related to healthcare research and the use of digital tools in professional healthcare contexts."
+    },
+    {
+        "paperId": "9e9249d77fabcb704b9fff782bc6e1663248addb",
+        "title": "Development of a Digital Research Assistant for the Management of Patients’ Enrollment in Oncology Clinical Trials within a Research Hospital",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the development of a digital tool (Digital Research Assistant) aimed at supporting healthcare professionals in managing patient enrollment in oncology clinical trials, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and information systems in healthcare contexts."
     },
     {
         "paperId": "89a9b1e6fdf399fd685c51fed767d4db8c6d6c60",
@@ -45,25 +51,19 @@
         "paperId": "e307633481cccadf86b75a220bee522e78572bff",
         "title": "Leveraging Large Language Model as Simulated Patients for Clinical Education",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of Large Language Models in clinical medical education, which relates to healthcare professionals' use of digital tools and knowledge in professional practice. It focuses on enhancing clinical inquiry skills, aligning with evidence-based practice and professional education criteria."
+        "justification": "The paper discusses the use of Large Language Models in clinical education, which relates to healthcare professionals' use of digital tools and knowledge in a healthcare context. It focuses on enhancing clinical inquiry skills, aligning with evidence-based practice and professional education."
     },
     {
         "paperId": "b80f0f8afa74d103622dd9a1cb22a812d00d129c",
         "title": "Large language model use in clinical oncology",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of large language models in clinical oncology, which relates to healthcare professionals' application of digital tools and knowledge in a healthcare context, aligning with the inclusion criteria."
-    },
-    {
-        "paperId": "5c5b84637eee0a21cc77f56f5dd0095f016c9cc9",
-        "title": "CancerLLM: A Large Language Model in Cancer Domain",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses a large language model tailored for cancer phenotyping and diagnosis, which relates to healthcare professionals' use of digital tools and knowledge in clinical research and practice."
+        "justification": "The paper discusses the use of large language models in clinical oncology, which relates to healthcare professionals' application of digital tools and technologies in a healthcare context, aligning with the inclusion criteria."
     },
     {
         "paperId": "e37bce2e0ce6e176e9afbb96d9b97cd000bf16f7",
         "title": "Citation screening using large language models for creating clinical practice guidelines: A protocol for a prospective study",
         "decision": "INCLUDE",
-        "justification": "The title indicates a focus on using large language models in the context of creating clinical practice guidelines, which relates to healthcare professionals' use of digital tools and knowledge management in healthcare contexts."
+        "justification": "The title indicates a focus on clinical practice guidelines, which relates to healthcare professionals' use of knowledge and information systems in healthcare contexts. The mention of large language models suggests a connection to digital health technologies relevant to professional practice."
     },
     {
         "paperId": "3505cf18fc68181978576c4841a58cd83580b383",
@@ -81,31 +81,25 @@
         "paperId": "5694a171cb93fe9b9932c236bcba1351c2d5af53",
         "title": "All You Need Is Context: Clinician Evaluations of various iterations of a Large Language Model-Based First Aid Decision Support Tool in Ghana",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the application of a decision support tool using Large Language Models in healthcare contexts, specifically focusing on clinician evaluations, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and evidence-based practice."
+        "justification": "The paper discusses the application of a decision support tool using Large Language Models in a healthcare context, focusing on clinician evaluations and the use of AI in professional healthcare practice."
     },
     {
         "paperId": "b63e1f20244bece3ef3c5595444126092c338649",
         "title": "Participatory Assessment of Large Language Model Applications in an Academic Medical Center",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the application of Large Language Models in a healthcare context, focusing on the needs and expectations of healthcare professionals regarding their use, which aligns with the inclusion criteria related to healthcare professionals' use and application of knowledge and technology in healthcare."
+        "justification": "The paper discusses the application of Large Language Models in a healthcare context, focusing on the needs and expectations of healthcare professionals regarding their use, which aligns with the inclusion criteria related to healthcare professionals' use and application of digital tools in professional practice."
     },
     {
         "paperId": "190600a3a60b1961936513ccbf3fcfa90e3f2818",
         "title": "Streamlining systematic reviews with large language models using prompt engineering and retrieval augmented generation",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of large language models in the context of systematic reviews, which relates to healthcare research and the application of digital tools in professional healthcare practice."
-    },
-    {
-        "paperId": "8c64fd3a345e26f079ab1304c08d28586a7fb89a",
-        "title": "Large language models for precision oncology: Clinical decision support through expert-guided learning.",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses the use of large language models in clinical decision support for precision oncology, which relates to healthcare professionals' application of digital tools and knowledge in a healthcare context."
+        "justification": "The paper discusses the use of large language models and digital tools in the context of systematic reviews, which relates to healthcare professionals' use of information systems and evidence-based practice."
     },
     {
         "paperId": "51fb89610710d7c4d25ce02de9f563cca4a5fecc",
         "title": "TC-RAG:Turing-Complete RAG's Case study on Medical LLM Systems",
         "decision": "INCLUDE",
-        "justification": "The paper discusses a novel framework for enhancing knowledge retrieval in the medical domain using Large Language Models, which relates to healthcare professionals' use of digital tools and information systems in healthcare contexts."
+        "justification": "The paper discusses a novel framework for enhancing knowledge retrieval in the medical domain using advanced AI systems, which relates to healthcare professionals' use of digital tools and information systems in healthcare contexts."
     },
     {
         "paperId": "3d297441afbc2124bc805f2a9a4d3db3e21ae217",
@@ -118,12 +112,6 @@
         "title": "Implementation and evaluation of an additional GPT-4-based reviewer in PRISMA-based medical systematic literature reviews",
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of an AI system (GPT-4) in the context of systematic literature reviews, which relates to healthcare research and the application of digital tools in professional healthcare practice."
-    },
-    {
-        "paperId": "f3b01b1102691e2f06cd8e5305ff327391687f81",
-        "title": "Development of a Reliable Information System for Medical Device Inventory in Hospitals: A Systematic Literature Review",
-        "decision": "INCLUDE",
-        "justification": "The paper concerns the development of an information system for medical device inventory in hospitals, which relates to healthcare professionals' management and application of information systems in healthcare contexts. It discusses improving operational efficiency and resource management in a healthcare setting."
     },
     {
         "paperId": "aeb5a82400a2ea187d74d60d53cb000a06f8e881",
@@ -144,34 +132,40 @@
         "justification": "The paper discusses the use of electronic medical records (EMRs) in relation to healthcare professionals' activities and interventions aimed at smoking cessation, which aligns with the inclusion criteria regarding healthcare practice and the application of information systems in healthcare contexts."
     },
     {
+        "paperId": "4df5f9c186f3be6a3ac53e81f3fe4c85c7ad4884",
+        "title": "Facilitating Active Collaborative Learning in Medical Education; a Literature Review of Peer Instruction Method",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses educational methods in medical education, which relates to professional healthcare practice and the use of knowledge in healthcare contexts. It focuses on the application of Peer Instruction in training healthcare professionals, aligning with the inclusion criteria."
+    },
+    {
         "paperId": "79f5266c7f92e90c7eda967b652bb3f5819be113",
         "title": "An LLM's Medical Testing Recommendations in a Nigerian Clinic: Potential and Limits of Prompt Engineering for Clinical Decision Support",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of a large language model into clinical decision support for healthcare professionals, focusing on its application in a primary care setting, which aligns with the inclusion criteria related to healthcare practice and the use of digital tools in professional contexts."
+        "justification": "The paper discusses the integration of a large language model into clinical decision support for healthcare professionals, focusing on its application in a primary care setting, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and evidence-based practice."
     },
     {
         "paperId": "8b8cd77658847c0674e545fe0ad88681bbba3b6d",
         "title": "Evaluating the Impact of a Specialized LLM on Physician Experience in Clinical Decision Support: A Comparison of Ask Avo and ChatGPT-4",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of a specialized large language model (LLM) in clinical decision support, focusing on healthcare professionals' experiences and the application of digital tools in healthcare contexts, which aligns with the inclusion criteria."
-    },
-    {
-        "paperId": "1202e6b90da8c50b77dc2b7e8a3a3cb98f8cc883",
-        "title": "Data sources (LLM) for a Clinical Decision Support Model (SSDC) using a Healthcare Interoperability Resources (HL7-FHIR) platform for an ICU Ecosystem",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses a Clinical Decision Support System (CDSS) model and its application within an ICU ecosystem, which relates to healthcare professionals' use of digital tools and information systems in a healthcare context."
+        "justification": "The paper discusses the use of a specialized large language model (LLM) in clinical decision support, focusing on healthcare professionals' experiences and the application of digital health technologies in a healthcare context."
     },
     {
         "paperId": "47dbce63f439fff0d9b12dc09ae938c2ad3e96b2",
         "title": "Human-Algorithmic Interaction Using a Large Language Model-Augmented Artificial Intelligence Clinical Decision Support System",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of AI into clinical decision support systems in relation to healthcare professionals' interactions and decision-making processes, which aligns with the inclusion criteria regarding the use of digital tools and knowledge in healthcare contexts."
+        "justification": "The paper discusses the integration of AI into clinical decision support systems and examines healthcare professionals' interactions with these systems, which aligns with the inclusion criteria related to healthcare practice and the use of digital tools in professional contexts."
     },
     {
         "paperId": "d3e3ad3f2156bb41b86dc5d19941e5844a49b531",
         "title": "Bias patterns in the application of LLMs for clinical decision support: A comprehensive study",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the application of Large Language Models (LLMs) in clinical decision support, focusing on their implications for healthcare professionals and decision-making processes, which aligns with the inclusion criteria related to healthcare research and digital health technologies."
+        "justification": "The paper discusses the application of Large Language Models (LLMs) in clinical decision support, focusing on their use in healthcare contexts and the implications for healthcare professionals, which aligns with the inclusion criteria related to digital health technologies and decision-making in professional healthcare practice."
+    },
+    {
+        "paperId": "7295c1406edcbfea1b0464fb718d8eb62f0a5c83",
+        "title": "Development and Testing of a Novel Large Language Model-Based Clinical Decision Support Systems for Medication Safety in 12 Clinical Specialties",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses a Clinical Decision Support System (CDSS) that utilizes a large language model to enhance medication safety, which relates to healthcare professionals' use of digital tools and knowledge management in clinical practice."
     },
     {
         "paperId": "df591b3d26e94f1101e29647ee6703d56ae2f714",
@@ -204,12 +198,6 @@
         "justification": "The paper discusses the Joanna Briggs Institute clinical fellowship program, which is focused on evidence-based healthcare practices and the role of healthcare professionals in implementing quality improvement initiatives, aligning with the inclusion criteria related to healthcare practice and evidence-based practice."
     },
     {
-        "paperId": "f6f81b149b64e11993e6c506badae13a0982a20c",
-        "title": "The Integration of AI-Driven Decision Support Systems in Healthcare: Enhancements, Challenges, and Future Directions",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses AI-driven Decision Support Systems in healthcare, focusing on their integration, challenges, and implications for healthcare professionals, which aligns with the inclusion criteria related to the use of digital tools and knowledge in professional healthcare contexts."
-    },
-    {
         "paperId": "3d7ff6952d4882419d70eac83319593d82a0d889",
         "title": "Recommendations to improve pharmacy practice research in the Middle Eastern Arab countries",
         "decision": "INCLUDE",
@@ -225,7 +213,7 @@
         "paperId": "f78da58b10f892833220837e0638c70720fa8fda",
         "title": "Perceived Effectiveness of Artificial Intelligence based Decision Support System in a Clinical Setting: A Systematic Literature Review (Preprint)",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the effectiveness of AI-based decision support systems in clinical settings and their influence on clinician decision-making, which relates to healthcare professionals' use and application of knowledge and digital tools in healthcare contexts."
+        "justification": "The paper discusses the application of AI-based decision support systems in a clinical setting and their influence on clinician decision-making, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and evidence-based practice."
     },
     {
         "paperId": "d71bf53a32f485c30166f3eb1b07e1da5ce36130",
@@ -243,13 +231,19 @@
         "paperId": "44cb78dadfcc044a57d218cf3c05d70e19808a6c",
         "title": "Evaluation of an evidence-based practice education workshop focused on critical appraisal for advanced practice nurses: A before-after intervention study",
         "decision": "INCLUDE",
-        "justification": "The paper discusses an evidence-based practice education workshop for advanced practice nurses, focusing on their use and understanding of critical appraisal in healthcare, which aligns with the inclusion criteria related to professional healthcare practice and education."
+        "justification": "The paper discusses an educational intervention aimed at improving advanced practice nurses' critical appraisal skills related to evidence-based practice, which aligns with the inclusion criteria concerning healthcare professionals' use and understanding of knowledge in professional healthcare contexts."
+    },
+    {
+        "paperId": "165e759ffcb3db89b80d402116ffbc1cf7ab74ff",
+        "title": "Barriers to adopting evidence-based practice: A cross-sectional study among undergraduate nursing students in Vietnam",
+        "decision": "INCLUDE",
+        "justification": "The paper concerns healthcare education and the barriers to adopting evidence-based practice among nursing students, which relates to the use and understanding of knowledge in a professional healthcare context."
     },
     {
         "paperId": "759d76d2617cf531b0db886fbc8187a8fb5afed0",
         "title": "Towards evidence-based practice 2.0: leveraging artificial intelligence in healthcare",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of artificial intelligence in healthcare to improve evidence-based practice, which relates to healthcare professionals' use and application of knowledge and digital tools in clinical decision-making."
+        "justification": "The paper discusses the integration of artificial intelligence in healthcare to improve evidence-based practice, focusing on healthcare professionals' decision-making and the challenges they face, which aligns with the inclusion criteria related to healthcare practice and knowledge application."
     },
     {
         "paperId": "8806d7e84401ba0f595b8c1e40e089849f4e279d",
@@ -267,7 +261,7 @@
         "paperId": "2419d6b5e83d6175d31772e40cedbac1936da541",
         "title": "An overview of clinical decision support systems: benefits, risks, and strategies for success",
         "decision": "INCLUDE",
-        "justification": "The paper discusses clinical decision support systems (CDSS) in relation to healthcare professionals' decision-making processes and provides evidence-based recommendations, aligning with the inclusion criteria regarding the use of knowledge and information systems in healthcare contexts."
+        "justification": "The paper discusses clinical decision support systems (CDSS) in relation to healthcare professionals' decision-making processes and provides evidence-based recommendations, aligning with the inclusion criteria regarding the use of digital tools and evidence-based practice in healthcare contexts."
     },
     {
         "paperId": "58eb2579a1a3599ce0a571e40ac7f2930ca7698d",
@@ -300,28 +294,34 @@
         "justification": "The paper discusses the perspectives of healthcare professionals on the ethical implications of AI-driven clinical decision support systems in healthcare resource allocation, which relates to the use and management of knowledge and digital tools in professional healthcare contexts."
     },
     {
-        "paperId": "fa960683099e55446b39b57c3d4d77fb07473014",
-        "title": "The use of artificial intelligence to optimize medication alerts generated by clinical decision support systems: a scoping review",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses the use of AI to optimize medication alerts generated by clinical decision support systems in a hospital setting, which relates to healthcare professionals' use of digital tools and information systems in healthcare contexts."
-    },
-    {
         "paperId": "c333cc598bd393c2081a8627ae46b8285c281a43",
         "title": "Exploring the role of professional identity in the implementation of clinical decision support systems—a narrative review",
         "decision": "INCLUDE",
         "justification": "The paper discusses the implementation of clinical decision support systems (CDSSs) in healthcare, focusing on the impact on professional identity among healthcare professionals, which aligns with the inclusion criteria related to healthcare professionals' use and understanding of digital tools in professional practice."
     },
     {
+        "paperId": "fa960683099e55446b39b57c3d4d77fb07473014",
+        "title": "The use of artificial intelligence to optimize medication alerts generated by clinical decision support systems: a scoping review",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses the use of AI in optimizing medication alerts generated by clinical decision support systems, which relates to healthcare professionals' use of digital tools and information systems in a healthcare context."
+    },
+    {
+        "paperId": "4073221c92000ff555ae207c436e7627de79ff3f",
+        "title": "XAI-Based Clinical Decision Support Systems: A Systematic Review",
+        "decision": "INCLUDE",
+        "justification": "The paper discusses clinical decision support systems (CDSSs) in relation to healthcare professionals and their decision-making processes, which aligns with the inclusion criteria regarding the use of digital tools and knowledge in healthcare contexts."
+    },
+    {
         "paperId": "19923458a40496d4fe1259662a0e2deea4465957",
         "title": "Current Challenges and Future Opportunities for XAI in Machine Learning-Based Clinical Decision Support Systems: A Systematic Review",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the application of Explainable AI (XAI) in Clinical Decision Support Systems (CDSS), which relates to healthcare professionals' use of digital tools and knowledge management in clinical decision-making contexts."
+        "justification": "The paper discusses the application of Explainable AI (XAI) in Clinical Decision Support Systems (CDSS), which relates to healthcare professionals' use of digital tools and knowledge management in clinical decision-making, aligning with the inclusion criteria."
     },
     {
         "paperId": "607d560ae41454dd01c2ae83b08540e80defbcfb",
         "title": "Harnessing the power of clinical decision support systems: challenges and opportunities",
         "decision": "INCLUDE",
-        "justification": "The paper discusses clinical decision support systems (CDSS) in healthcare settings, focusing on their implementation and the challenges faced by healthcare professionals, which aligns with the inclusion criteria related to the use of knowledge and information systems in professional healthcare contexts."
+        "justification": "The paper discusses clinical decision support systems (CDSSs) in healthcare settings, focusing on their implementation and the challenges faced by healthcare professionals, which aligns with the inclusion criteria related to healthcare professionals' use and management of information systems."
     },
     {
         "paperId": "e7be32c77dafda1699a25acb9898f4c1bca3c737",
@@ -333,7 +333,7 @@
         "paperId": "97c8e253627648d55511a33f59aa9274c21b023b",
         "title": "Identifying barriers and facilitators to successful implementation of computerized clinical decision support systems in hospitals: a NASSS framework-informed scoping review",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the implementation of computerized clinical decision support systems (CDSS) in hospitals, focusing on healthcare professionals' attitudes and the barriers and facilitators to their use, which aligns with the inclusion criteria related to healthcare practice and knowledge management."
+        "justification": "The paper discusses the implementation of computerized clinical decision support systems (CDSS) in hospitals, focusing on barriers and facilitators relevant to healthcare professionals, which aligns with the inclusion criteria related to healthcare practice and the use of information systems."
     },
     {
         "paperId": "55e517b2edf8ad05826f0ee3ea40aae146e05e65",
@@ -345,7 +345,7 @@
         "paperId": "79b3bb750c3df8e751b2ce87a9dd9865bf99d558",
         "title": "Designing Clinical Decision Support Systems (CDSS)—A User-Centered Lens of the Design Characteristics, Challenges, and Implications: Systematic Review",
         "decision": "INCLUDE",
-        "justification": "The paper discusses clinical decision support systems (CDSS) in relation to healthcare professionals, focusing on design characteristics, usability, and user experience, which aligns with the inclusion criteria regarding the use of knowledge and information systems in healthcare contexts."
+        "justification": "The paper discusses clinical decision support systems (CDSS) in the context of healthcare professionals, focusing on design characteristics, usability, and user experience, which aligns with the inclusion criteria related to healthcare practice and the use of digital tools in professional contexts."
     },
     {
         "paperId": "67a6f9678537221edffcd02818af9af484944bb0",
@@ -357,25 +357,25 @@
         "paperId": "8a6618c1524e1637ff66037007f0527e32049fcb",
         "title": "Understanding the impact of explanations on advice-taking: a user study for AI-based clinical Decision Support Systems",
         "decision": "INCLUDE",
-        "justification": "The paper discusses AI-based Clinical Decision Support Systems in relation to healthcare providers' judgment and decision-making, aligning with the inclusion criteria regarding the use of digital tools and knowledge processes in healthcare contexts."
+        "justification": "The paper discusses AI-based Clinical Decision Support Systems in relation to healthcare providers' judgment and decision-making, which aligns with the inclusion criteria regarding the use of digital tools and knowledge processes in healthcare contexts."
     },
     {
         "paperId": "d46b60993f4a192ba1a6621592f777f0e156f13d",
         "title": "Are ChatGPT and large language models “the answer” to bringing us closer to systematic review automation?",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of AI-assisted technologies, specifically ChatGPT, in the context of systematic reviews, which relates to healthcare professionals' use and application of knowledge and information systems in healthcare research."
+        "justification": "The paper discusses the use of AI-assisted technologies, specifically ChatGPT, in the context of systematic reviews, which relates to healthcare research and the application of knowledge in professional healthcare contexts."
+    },
+    {
+        "paperId": "41a34d9a0df417d84e98da33fc6e3529e10ef8c7",
+        "title": "Systematic review automation tools improve efficiency but lack of knowledge impedes their adoption: a survey.",
+        "decision": "INCLUDE",
+        "justification": "The title indicates a focus on systematic review automation tools, which relates to the use of digital tools and information systems in healthcare contexts, aligning with the inclusion criteria regarding healthcare professionals' use and management of knowledge."
     },
     {
         "paperId": "3eff0e1187dbd60f12dd06c5f3291b1eb6858c1a",
         "title": "Bio-SIEVE: Exploring Instruction Tuning Large Language Models for Systematic Review Automation",
         "decision": "INCLUDE",
         "justification": "The paper discusses the use of Large Language Models in the context of medical systematic reviews, which relates to healthcare professionals' use of digital tools and information systems in healthcare research."
-    },
-    {
-        "paperId": "f7ab9f6edc7dec9a9e8bb95bb400e749bded3d68",
-        "title": "Trustworthiness of Systematic Review Automation - An interview at Coventry University",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses the use of automated tools in systematic reviews, which relates to healthcare professionals' understanding and application of digital tools in research contexts, aligning with the inclusion criteria."
     },
     {
         "paperId": "c015960ff9d3255b5dc16cd44afcc9d6e8538177",
@@ -393,7 +393,7 @@
         "paperId": "79c814a7e19670a241d8a991590f944ca6a7db3d",
         "title": "Systematic review automation tool use by systematic reviewers, health technology assessors and clinical guideline developers: tools used, abandoned, and desired",
         "decision": "INCLUDE",
-        "justification": "The paper concerns the use of systematic review automation tools by healthcare professionals involved in evidence synthesis and guideline development, which relates to the management and application of knowledge in healthcare contexts."
+        "justification": "The paper concerns the use of systematic review automation tools by healthcare professionals involved in evidence synthesis and guideline development, aligning with the inclusion criteria related to the application of knowledge and information systems in healthcare contexts."
     },
     {
         "paperId": "4cda430d60d05ba095c0329bc21d0d872058aa83",
@@ -429,31 +429,31 @@
         "paperId": "965a0969b460f9246158d88fb28e21c5d80d0a8b",
         "title": "Optimization of hepatological clinical guidelines interpretation by large language models: a retrieval augmented generation-based framework",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of large language models into healthcare, specifically focusing on improving clinical decision support systems, which relates to the use of digital tools and knowledge management in professional healthcare contexts."
+        "justification": "The paper discusses the integration of large language models into healthcare, specifically focusing on improving clinical decision support systems, which relates to healthcare professionals' use of digital tools and knowledge management in a professional healthcare context."
     },
     {
         "paperId": "2bb9a87bdfc8a35bc1813e5a88180f43615785a8",
         "title": "Improving Retrieval-Augmented Generation in Medicine with Iterative Follow-up Questions",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of large language models and iterative follow-up questions in the context of medical question-answering, which relates to healthcare professionals' use of digital tools and knowledge management in healthcare contexts."
+        "justification": "The paper discusses the use of large language models and Retrieval-Augmented Generation in the context of medical question-answering, which relates to healthcare professionals' use of digital tools and knowledge management in healthcare contexts."
     },
     {
         "paperId": "b03cfca7672e60cbe7999853e9c6f833ab20e012",
         "title": "Rationale-Guided Retrieval Augmented Generation for Medical Question Answering",
         "decision": "INCLUDE",
-        "justification": "The paper discusses a framework for enhancing the reliability of retrieval-augmented generation in biomedical contexts, which relates to the use of digital tools and information systems in healthcare. It focuses on improving the performance of language models in medical question answering, relevant to healthcare professionals and research."
+        "justification": "The paper discusses a framework for enhancing the reliability of retrieval-augmented generation in biomedical contexts, which relates to the use of digital tools and information systems in healthcare. It focuses on improving the performance of large language models in medical question answering, relevant to healthcare professionals and research."
     },
     {
         "paperId": "d7e70b562784659721e9c12e162c3b0b1a023b6d",
         "title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of large language models in nephrology, focusing on their application in healthcare, medical research, and education, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and knowledge in professional practice."
+        "justification": "The paper discusses the integration of large language models in healthcare, specifically in nephrology, focusing on their application in medical research and education, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and knowledge management."
     },
     {
         "paperId": "7423e5c903fb2befaf471cae64e2530f7c1d0404",
         "title": "Development and Testing of Retrieval Augmented Generation in Large Language Models - A Case Study Report",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the development and evaluation of a large language model tailored for healthcare applications, focusing on preoperative medicine, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and knowledge management in healthcare contexts."
+        "justification": "The paper discusses the development and evaluation of a Large Language Model tailored for healthcare applications, specifically in preoperative medicine, which relates to the use of digital tools and knowledge management in professional healthcare contexts."
     },
     {
         "paperId": "eb490e037a9efaecad63e1abba5795bb6d547d7b",
@@ -465,7 +465,7 @@
         "paperId": "adef29a0783caab56fd9e599557c24a281399945",
         "title": "Understanding the Impact of Confidence in Retrieval Augmented Generation: A Case Study in the Medical Domain",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the application of Retrieval Augmented Generation (RAG) in the medical domain, focusing on the use of AI systems and their impact on healthcare professionals' confidence in information retrieval, which aligns with the inclusion criteria related to healthcare contexts and digital health technologies."
+        "justification": "The paper discusses the application of Retrieval Augmented Generation (RAG) in the medical domain, focusing on how it impacts the confidence of outputs from Large Language Models (LLMs), which relates to healthcare professionals' use of digital tools and information systems in healthcare contexts."
     },
     {
         "paperId": "52dc1238d373b2b1c7e4797c450d0b70ecf13e78",
@@ -477,7 +477,7 @@
         "paperId": "e6c603d059f3928faf7678b72917858c7538f68f",
         "title": "EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the enhancement of predictive modeling in healthcare through the use of multimodal Electronic Health Records and digital tools, which aligns with the inclusion criteria related to healthcare professionals' use of information systems and evidence-based practice."
+        "justification": "The paper discusses the enhancement of predictive modeling using multimodal Electronic Health Records (EHR) in a healthcare context, focusing on the application of knowledge and digital tools relevant to healthcare professionals."
     },
     {
         "paperId": "006168b63d1d4358bce840b55b76c1cacfb35121",
@@ -492,12 +492,6 @@
         "justification": "The paper discusses the development of a system to improve the retrieval of dietary supplement information, which is relevant to healthcare professionals' use of knowledge and information systems in healthcare contexts. It also addresses the importance of accurate information for informed decision-making in healthcare."
     },
     {
-        "paperId": "df89a321b74c3dfbd2eb58779f613ca77bbf9636",
-        "title": "The limits of explainability & human oversight in the EU Commission’s proposal for the Regulation on AI- a critical approach focusing on medical diagnostic systems",
-        "decision": "INCLUDE",
-        "justification": "The paper discusses the regulation of AI systems in medical diagnostic contexts, focusing on the implications for healthcare professionals and the interaction between doctors and patients, which aligns with the inclusion criteria related to healthcare practice and digital health technologies."
-    },
-    {
         "paperId": "a2bc761634c6afeb629bfd74ac0ad33895cd1711",
         "title": "Integration of Large Language Models in Clinical Decision Support: A Framework for Human-AI Collaboration in Healthcare",
         "decision": "INCLUDE",
@@ -507,13 +501,13 @@
         "paperId": "aa47968509a2954fb7f1a091875ba66160616052",
         "title": "Integrating Human Factors into Trustworthy AI for Healthcare",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the integration of AI systems within a healthcare context, focusing on organizational trust and the use of AI by healthcare professionals, which aligns with the inclusion criteria related to healthcare practice and knowledge management."
+        "justification": "The paper discusses the integration of human factors into AI systems within a healthcare context, focusing on organizational trust and the use of AI by healthcare professionals, which aligns with the inclusion criteria related to healthcare practice and the application of digital tools."
     },
     {
         "paperId": "5e38fb3c018d4476549d993d38926db2e5c6032a",
         "title": "Ethical Framework for Harnessing the Power of AI in Healthcare and Beyond",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the ethical dimensions of AI technologies specifically within the healthcare domain, focusing on the implications for healthcare professionals and the management of AI in healthcare contexts, which aligns with the inclusion criteria."
+        "justification": "The paper discusses the ethical dimensions of AI technologies specifically within the healthcare domain, focusing on the implications for healthcare professionals and systems, which aligns with the inclusion criteria related to healthcare practice and the use of digital tools."
     },
     {
         "paperId": "f8cf910db2a9dc664817966cbea93843a7d8e3c9",
@@ -531,13 +525,13 @@
         "paperId": "f04fd0185d674407973ed6c5211851a08d893125",
         "title": "Human-Centered Ethical AI in Healthcare Contact Centers",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of AI in healthcare contact centers, focusing on ethical considerations and the implications for healthcare professionals, which aligns with the inclusion criteria related to healthcare practice and the application of digital tools in professional contexts."
+        "justification": "The paper discusses the use of AI in healthcare contact centers and addresses the ethical implications and governance frameworks relevant to healthcare professionals, aligning with the inclusion criteria related to digital health technologies and knowledge-related processes in healthcare."
     },
     {
         "paperId": "03740f71d52fdc8f40338c28d17df072beccca6b",
         "title": "Ensuring Ethical and Responsible Integration of AI Tools in Healthcare",
         "decision": "INCLUDE",
-        "justification": "The title indicates a focus on the integration of AI tools in healthcare, which relates to healthcare professionals' use and application of digital technologies in professional healthcare contexts."
+        "justification": "The title indicates a focus on the integration of AI tools in healthcare, which relates to healthcare professionals' use and application of digital tools in professional healthcare contexts."
     },
     {
         "paperId": "a4690aa5820d5d143859b35598a037a9524346be",
@@ -555,7 +549,7 @@
         "paperId": "2447a02f940138c22c8858c0e658506ccfc093df",
         "title": "Evaluating the Human Safety Net: Observational study of Physician Responses to Unsafe AI Recommendations in high-fidelity Simulation",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the use of AI-driven decision support systems in healthcare, focusing on healthcare professionals' responses to AI recommendations, which aligns with the inclusion criteria related to the application of knowledge and digital tools in professional healthcare contexts."
+        "justification": "The paper discusses the use of AI-driven decision support systems in healthcare, focusing on healthcare professionals' responses to AI recommendations, which aligns with the inclusion criteria related to the application of knowledge and information systems in professional healthcare contexts."
     },
     {
         "paperId": "b2ac725b883b4a8fda23b3d51de306038f138e70",
@@ -567,7 +561,7 @@
         "paperId": "bc6b7028ecdd0a81821134adc028a54d205510ab",
         "title": "Unlocking the potential of large language models in healthcare: navigating the opportunities and challenges",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the applications of large language models in healthcare, focusing on their use by healthcare professionals and the implications for clinical decision support, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and information systems."
+        "justification": "The paper discusses the applications of large language models in healthcare, focusing on their use by clinicians and researchers, which aligns with the inclusion criteria related to healthcare professionals' use of digital tools and knowledge in professional healthcare contexts."
     },
     {
         "paperId": "734ee5e640664c1f8bd72e3e102f095089609f7f",
@@ -579,7 +573,7 @@
         "paperId": "775fd60a794807a2c8f3ebcf7d31be90042c04fc",
         "title": "Investigating the Impacts of Information Overload on Psychological Well-being of Healthcare Professionals: Role of COVID-19 Stressor",
         "decision": "INCLUDE",
-        "justification": "The paper concerns healthcare professionals and their psychological well-being in relation to information overload during the COVID-19 pandemic, which aligns with the inclusion criteria regarding the use and management of information in healthcare contexts."
+        "justification": "The paper concerns healthcare professionals and their psychological well-being in relation to information overload during the COVID-19 pandemic, which aligns with the inclusion criteria regarding the use and management of knowledge in healthcare contexts."
     },
     {
         "paperId": "27743e853966f019bb632f50026f7e8cc55437b8",
@@ -597,7 +591,7 @@
         "paperId": "fa053cc2a580778de681f4ed37efe067817ae624",
         "title": "The QR code: A treatment for COVID-19 information overload",
         "decision": "INCLUDE",
-        "justification": "The paper discusses the dissemination of information to healthcare teams in an emergency department context, focusing on effective communication strategies during the COVID-19 pandemic, which relates to healthcare professionals' use and management of information in a professional healthcare setting."
+        "justification": "The paper discusses the dissemination of information to healthcare teams in an emergency department context, focusing on the use of QR codes to improve communication and knowledge management during the COVID-19 pandemic, which aligns with the inclusion criteria related to healthcare professionals' use of information systems."
     },
     {
         "paperId": "fab43211af371a67aad27b2a89076e1653e81bfc",
@@ -615,7 +609,7 @@
         "paperId": "0d68973025bba783c97bd9fdef0b85b8784eaf04",
         "title": "Relationship Between Cognitive Load Theory, Intrinsic Motivation and Emotions in Healthcare Professions Education: A Perspective on the Missing Link",
         "decision": "INCLUDE",
-        "justification": "The paper concerns healthcare education and discusses the use of cognitive load theory in the context of professional healthcare practice, which aligns with the inclusion criteria related to professional education and knowledge-related processes in healthcare."
+        "justification": "The paper concerns healthcare education and discusses the use of cognitive load theory in the context of health professional education, which relates to the understanding and application of knowledge in professional healthcare practice."
     },
     {
         "paperId": "49b8e290ff3a619f3f69c1dc612a1c46f8ded92c",
