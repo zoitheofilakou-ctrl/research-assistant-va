@@ -35,6 +35,7 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
+from console_utils import dump_json_console
 from project_paths import (
     FILTERED_PAPERS_PATH,
     FULLTEXT_DIR,
@@ -1751,7 +1752,7 @@ def cmd_query(user_query: str, k: int, min_score: Optional[float] = DEFAULT_MIN_
     if not out["results"]:
         out["note"] = "No papers passed the hybrid relevance filter. Try lowering --min-score or rebuilding the index."
 
-    print(json.dumps(out, ensure_ascii=False, indent=2))
+    dump_json_console(out, ensure_ascii=False, indent=2)
 
 
 def cmd_suggest(n: int, metadata_file: str, filtered_file: str):
@@ -1782,7 +1783,7 @@ def cmd_suggest(n: int, metadata_file: str, filtered_file: str):
         "filtered_file": filtered_file,
         "suggestions": suggestions[:n],
     }
-    print(json.dumps(out, ensure_ascii=False, indent=2))
+    dump_json_console(out, ensure_ascii=False, indent=2)
 
 
 def main():

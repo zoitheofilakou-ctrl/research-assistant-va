@@ -1,31 +1,144 @@
-import json
-import sys
-import os
 import argparse
+import json
+import os
+import re
+import sys
 
 # Add project root to path so sibling packages can be imported
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
+from console_utils import dump_json_console
 from Retrieval.retrieval import (
     CHROMA_DIR,
-    get_embedding_model,
     get_chroma_collection,
+    get_embedding_model,
     require_retrieval_dependencies,
 )
 from llm.interface import get_llm_provider
 
-# Used to build rules for the model and the answer template
-def _build_prompt(user_query: str, context_text: str, answer_template: str, output_mode: str):
-    base_system = """
+INSUFFICIENT_EVIDENCE_MESSAGE = "Insufficient evidence in the retrieved corpus to answer this question."
+PLACEHOLDER_CITATION_RE = re.compile(r"([\[(])\s*Papers?\s+([0-9,\sand&]+)\s*([\])])", re.IGNORECASE)
+
+
+def _build_context_and_sources(retrieval_result: dict):
+    documents = retrieval_result.get("documents", [[]])[0]
+    metadatas = retrieval_result.get("metadatas", [[]])[0]
+    final_scores = retrieval_result.get("final_scores", [[]])[0]
+
+    sources = []
+    context_blocks = []
+
+    for idx, (doc, meta) in enumerate(zip(documents, metadatas), start=1):
+        meta = meta or {}
+        paper_id = (meta.get("paperId") or "").strip()
+        title = meta.get("title") or "Unknown"
+        url = meta.get("url") or "N/A"
+        year = meta.get("year") or "N/A"
+        text_source = meta.get("text_source") or "unknown"
+        section = meta.get("section") or "unknown"
+        supporting_chunks = meta.get("supporting_chunks") or 1
+        final_score = final_scores[idx - 1] if idx - 1 < len(final_scores) else None
+
+        source = {
+            "title": title,
+            "url": url,
+            "year": year,
+            "paperId": paper_id,
+            "text_source": text_source,
+            "section": section,
+            "supporting_chunks": supporting_chunks,
+        }
+        if final_score is not None:
+            source["final_score"] = final_score
+        sources.append(source)
+
+        context_lines = [
+            f"[Source {idx}]",
+            f"paperId: {paper_id or 'N/A'}",
+            f"title: {title}",
+            f"year: {year}",
+            f"url: {url}",
+            f"text_source: {text_source}",
+            f"section: {section}",
+            f"supporting_chunks: {supporting_chunks}",
+        ]
+        if final_score is not None:
+            context_lines.append(f"final_score: {final_score:.3f}")
+        context_lines.append(f"excerpt:\n{doc}")
+        context_blocks.append("\n".join(context_lines))
+
+    return "\n\n".join(context_blocks), sources
+
+
+def _build_source_index(sources: list) -> str:
+    lines = ["Citations:"]
+    for source in sources:
+        paper_id = source.get("paperId") or "N/A"
+        title = source.get("title") or "Unknown"
+        year = source.get("year") or "N/A"
+        lines.append(f"- paperId: {paper_id} | {title} ({year})")
+    return "\n".join(lines)
+
+
+def _replace_placeholder_citations(answer: str, sources: list) -> str:
+    def repl(match):
+        paper_numbers = [int(num) for num in re.findall(r"\d+", match.group(2))]
+        mapped_ids = []
+        for paper_number in paper_numbers:
+            idx = paper_number - 1
+            if 0 <= idx < len(sources):
+                paper_id = sources[idx].get("paperId")
+                if paper_id and paper_id not in mapped_ids:
+                    mapped_ids.append(paper_id)
+        if not mapped_ids:
+            return match.group(0)
+        mapped_text = ", ".join(f"paperId: {paper_id}" for paper_id in mapped_ids)
+        return f"({mapped_text})"
+
+    return PLACEHOLDER_CITATION_RE.sub(repl, answer)
+
+
+def _answer_has_allowed_citation(answer: str, sources: list) -> bool:
+    allowed_ids = [source.get("paperId") for source in sources if source.get("paperId")]
+    return any(f"paperId: {paper_id}" in answer for paper_id in allowed_ids)
+
+
+def _normalize_text_answer(answer: str, sources: list) -> str:
+    normalized = (answer or "").strip()
+    if not normalized:
+        return INSUFFICIENT_EVIDENCE_MESSAGE
+
+    normalized = _replace_placeholder_citations(normalized, sources)
+    if sources and not _answer_has_allowed_citation(normalized, sources):
+        normalized = f"{normalized}\n\n{_build_source_index(sources)}"
+    return normalized
+
+
+def _build_prompt(
+    user_query: str,
+    context_text: str,
+    answer_template: str,
+    output_mode: str,
+    sources: list,
+):
+    allowed_paper_ids = [source["paperId"] for source in sources if source.get("paperId")]
+    allowed_ids_text = ", ".join(allowed_paper_ids) if allowed_paper_ids else "none"
+
+    base_system = f"""
     - Use ONLY the provided retrieved evidence.
     - Do NOT introduce external knowledge.
     - Do NOT provide clinical recommendations.
     - Do NOT extrapolate beyond the evidence.
-    - Cite paperId after each major claim.
-    - If evidence is insufficient, explicitly state that.
-    
+    - If the retrieved evidence is empty or not directly relevant, respond exactly with: {INSUFFICIENT_EVIDENCE_MESSAGE}
+    - Cite every substantive claim using exact paperId values in parentheses, for example: (paperId: abc123).
+    - Use only the paperId values listed below.
+    - Never cite [Paper N], DOIs, author-year references, or any source that is not in the retrieved corpus.
+
     This system provides AI-assisted literature synthesis only.
-    It does not replace professional judgment."""
+    It does not replace professional judgment.
+
+    Allowed paperId values:
+    {allowed_ids_text}"""
 
     if answer_template == "structured":
         base_system += """
@@ -35,7 +148,9 @@ Use this structure:
 2) Key findings (3-6 bullet points)
 3) Limitations / gaps
 4) Practical implications
-5) Citations used"""
+5) Citations used
+
+Every sentence or bullet with a factual claim in sections 1-4 must include one or more exact paperId citations."""
 
     if output_mode == "json":
         base_system += """
@@ -46,12 +161,12 @@ Return ONLY valid JSON with this schema:
   "key_findings": ["string"],
   "limitations": ["string"],
   "practical_implications": ["string"],
-  "citations_used": ["[Paper N]"]
+  "citations_used": ["paperId: abc123"]
 }"""
 
     prompt = f"""Question: {user_query}
 
-Retrieved papers:
+Retrieved evidence:
 {context_text}
 
 Please synthesize these papers into a coherent answer."""
@@ -72,7 +187,7 @@ def generate_rag_answer(
     1. Retrieve relevant chunks
     2. Build context
     3. Generate answer with LLM
-    
+
     Args:
         user_query: User's question
         provider: "openai" or "ollama"
@@ -80,60 +195,54 @@ def generate_rag_answer(
         answer_template: "default" or "structured"
         output_mode: "text" or "json"
         **kwargs: Additional args for LLM provider
-    
+
     Returns:
         {"answer": str, "sources": list, "query": str}
     """
     if not user_query.strip():
         raise ValueError("Query must not be empty.")
 
-    # Match retrieval.py runtime checks and fail with explicit messages.
     require_retrieval_dependencies()
     if not os.path.exists(CHROMA_DIR):
         raise RuntimeError("No index found. Run: python Retrieval/retrieval.py index")
 
-    # Get LLM
-    llm = get_llm_provider(provider, **kwargs)
-    
-    # Retrieve relevant papers
     print(f"Retrieving {k} relevant papers...")
     collection = get_chroma_collection()
     model = get_embedding_model()
-    
+
     q_emb = model.encode([user_query], convert_to_numpy=True, normalize_embeddings=True).tolist()[0]
-    
-    res = collection.query(
+
+    retrieval_result = collection.query(
         query_embeddings=[q_emb],
         n_results=k,
         query_text=user_query,
-        include=["documents", "metadatas", "distances"]
+        include=["documents", "metadatas", "distances"],
     )
-    
-    # Build context from retrieved chunks
-    sources = []
-    context_text = ""
-    
-    for i, (doc, meta) in enumerate(zip(
-        res.get("documents", [[]])[0],
-        res.get("metadatas", [[]])[0]
-    )):
-        context_text += f"\n[Paper {i+1}] {meta.get('title', 'Unknown')}\n"
-        context_text += f"URL: {meta.get('url', 'N/A')}\n"
-        context_text += f"Year: {meta.get('year', 'N/A')}\n"
-        context_text += f"Text source: {meta.get('text_source', 'unknown')}\n"
-        context_text += f"Excerpt: {doc}\n"
-        
-        sources.append({
-            "title": meta.get("title"),
-            "url": meta.get("url"),
-            "year": meta.get("year"),
-            "paperId": meta.get("paperId"),
-            "text_source": meta.get("text_source"),
-        })
-    
-    # Generate answer
-    system_message, prompt = _build_prompt(user_query, context_text, answer_template, output_mode)
-    
+
+    context_text, sources = _build_context_and_sources(retrieval_result)
+    retrieval_notes = retrieval_result.get("retrieval_notes", [[]])[0]
+
+    if not sources:
+        return {
+            "query": user_query,
+            "answer": INSUFFICIENT_EVIDENCE_MESSAGE,
+            "sources": [],
+            "provider": provider,
+            "template": answer_template,
+            "output_mode": output_mode,
+            "retrieval_notes": retrieval_notes,
+            "insufficient_evidence": True,
+        }
+
+    llm = get_llm_provider(provider, **kwargs)
+    system_message, prompt = _build_prompt(
+        user_query,
+        context_text,
+        answer_template,
+        output_mode,
+        sources,
+    )
+
     print(f"Generating answer with {provider}...")
     raw_answer = llm.generate(prompt, system_message)
 
@@ -145,6 +254,8 @@ def generate_rag_answer(
         except json.JSONDecodeError as exc:
             parse_error = str(exc)
             answer = {"raw_text": raw_answer}
+    else:
+        answer = _normalize_text_answer(raw_answer, sources)
 
     result = {
         "query": user_query,
@@ -153,6 +264,8 @@ def generate_rag_answer(
         "provider": provider,
         "template": answer_template,
         "output_mode": output_mode,
+        "retrieval_notes": retrieval_notes,
+        "insufficient_evidence": False,
     }
 
     if parse_error:
@@ -180,8 +293,18 @@ if __name__ == "__main__":
         default="text",
         help="Output mode",
     )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default=None,
+        help="Explicit model name. For Ollama, examples: qwen3:14b, gemma3:12b.",
+    )
 
     args = parser.parse_args()
+
+    extra_kwargs = {}
+    if args.model:
+        extra_kwargs["model"] = args.model
 
     result = generate_rag_answer(
         args.query,
@@ -189,5 +312,6 @@ if __name__ == "__main__":
         k=args.k,
         answer_template=args.template,
         output_mode=args.output,
+        **extra_kwargs,
     )
-    print(json.dumps(result, indent=2, ensure_ascii=False))
+    dump_json_console(result, ensure_ascii=False, indent=2)

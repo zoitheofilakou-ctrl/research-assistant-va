@@ -167,6 +167,13 @@ with st.sidebar:
     st.markdown("### ⚙️ Settings")
 
     provider = st.selectbox("LLM Provider", ["openai", "ollama"])
+    ollama_model = None
+    if provider == "ollama":
+        ollama_model = st.text_input(
+            "Ollama model",
+            value=os.getenv("OLLAMA_MODEL", "phi"),
+            help="Example: qwen3:14b",
+        )
     k_articles = st.slider("Papers to retrieve", 1, 10, 5)
 
     st.markdown("---")
@@ -328,12 +335,17 @@ with tab_ask:
                         k=k_articles,
                         answer_template="structured",
                         output_mode="text",
+                        **({"model": ollama_model} if provider == "ollama" and ollama_model else {}),
                     )
 
                     answer  = result.get("answer", "No answer generated.")
                     sources = result.get("sources", [])
+                    insufficient_evidence = result.get("insufficient_evidence", False)
 
-                    st.write(answer)
+                    if insufficient_evidence:
+                        st.warning(answer)
+                    else:
+                        st.write(answer)
 
                     if sources:
                         with st.expander(f"Sources ({len(sources)} papers)"):

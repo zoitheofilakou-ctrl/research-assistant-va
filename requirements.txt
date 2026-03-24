@@ -1,0 +1,9 @@
+chromadb
+langdetect
+openai
+pdfplumber
+python-dotenv
+rapidfuzz
+requests
+sentence-transformers
+streamlit
