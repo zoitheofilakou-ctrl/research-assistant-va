@@ -24,20 +24,31 @@ the system does not perform clinical decision-making.
 
 import json
 import os
+import sys
 from openai import OpenAI
 from datetime import datetime
+from dotenv import load_dotenv
 
 
 # ------------------------------ 1. CONFIGURATION ------------------------------ 
 # paths, constants, environment set up
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-METADATA_PATH = os.path.join(BASE_DIR, "data", "hybrede_metadata_v5.json")
-PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
-FILTERED_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "filtered_papers.json")
-SCREENING_LOG_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "screening_log.json")
-AUDIT_LOG_PATH = os.path.join(PROCESSED_DIR, "audit_log.json")
-INVALID_OUTPUT_PATH = os.path.join(PROCESSED_DIR, "invalid_papers.json")
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
+from project_paths import (
+    AUDIT_LOG_PATH,
+    FILTERED_PAPERS_PATH,
+    METADATA_PATH,
+    PROCESSED_DIR,
+    SCREENING_LOG_PATH,
+)
+
+load_dotenv()
+
+FILTERED_OUTPUT_PATH = FILTERED_PAPERS_PATH
+SCREENING_LOG_OUTPUT_PATH = SCREENING_LOG_PATH
 
 # load previous included papers if exists
 if os.path.exists(FILTERED_OUTPUT_PATH):
@@ -117,7 +128,7 @@ If there is uncertainty, output EXCLUDE.
 Your output must follow this exact format:
 
 Decision: INCLUDE or EXCLUDE
-Justification: 1-2 sentences explaining which criteria were applied.
+Justification: 1–2 sentences explaining which criteria were applied.
 
 
 Title:
@@ -302,7 +313,6 @@ client = OpenAI()
 print(f"Total papers loaded: {len(papers)}")
 
 all_screening_results = []
-invalid_papers = []
 
 invalid_cases = 0
 

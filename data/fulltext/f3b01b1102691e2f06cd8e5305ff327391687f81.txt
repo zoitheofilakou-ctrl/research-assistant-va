@@ -1,0 +1,319 @@
+Open Access Indonesian Journal of Medical Reviews Vol 3 Issue 6 2023
+Open Access Indonesian Journal of
+Medical Reviews
+Journal Homepage: https://hmpublisher.com/index.php/OAIJMR
+Development of a Reliable Information System for Medical Device Inventory in
+Hospitals: A Systematic Literature Review
+Suryati1*
+1Nursing Management Study Program, Faculty of Nursing, Universitas Indonesia, Depok, Indonesia
+ARTICLE INFO A B S T R A C T
+Keywords: Developing an information system for medical equipment inventory in
+Development hospitals not only includes technical aspects but also involves an in-depth
+understanding of the operational needs of the hospital itself. By utilizing the
+Hospital equipment
+latest technology, such as the Internet of Things (IoT), and efficient data
+Information
+integration, hospitals can ensure that the information systems developed
+Inventory can adapt to the dynamics of future technological needs and developments.
+System This study aimed to explore the development of a reliable information system
+for inventory of medical equipment in hospitals. The literature search
+process was carried out on various databases (PubMed, Web of Sciences,
+*Corresponding author:
+EMBASE, Cochrane Libraries, and Google Scholar) regarding the
+Suryati development of a reliable information system for the inventory of medical
+devices in hospitals. This study follows the preferred reporting items for
+systematic reviews and meta-analysis (PRISMA) recommendations.
+E-mail address: Developing an information system for medical device inventory in hospitals
+suryatimasaju2@gmail.com is a crucial step in improving the efficiency, availability, and management of
+health resources. Developing an information system for medical device
+inventory in hospitals is not just about recording and monitoring but also
+The author has reviewed and approved the providing a holistic solution to improve operational efficiency and patient
+final version of the manuscript. service.
+https://doi.org/10.37275/oaijmr.v3i6.421
+1. Introduction The reliability of information systems is the main key
+Hospitals are complex health institutions where to ensuring the availability of adequate medical
+managing medical equipment inventory is a critical equipment, reducing the risk of loss or shortage of
+element in providing quality health services. The inventory and ensuring that each medical device can
+correct and efficient use of medical equipment not only be used in optimal conditions.1-3
+supports optimal diagnosis and treatment but also Developing an information system for medical
+ensures patient safety and the operational efficiency of equipment inventory in hospitals not only includes
+the hospital itself. Therefore, the development of an technical aspects but also involves an in-depth
+information system that is relied upon to manage the understanding of the operational needs of the hospital
+inventory of medical equipment in hospitals is an itself. By utilizing the latest technology, such as the
+urgent need. In the era of continuously developing Internet of Things (IoT), and efficient data integration,
+information technology, information systems can be hospitals can ensure that the information systems
+an effective solution for improving medical equipment developed can adapt to the dynamics of future
+inventory management. This system not only technological needs and developments. It is important
+simplifies the recording and monitoring process but to note that the implementation of this information
+also helps make more precise and real-time decisions. system is not only a step toward operational efficiency
+534
+but also an effort to improve health services as a “inventory” AND (2) “medical equipment” OR
+whole. By ensuring the availability of optimal medical “hospital.” The literature is limited to studies and
+equipment, hospitals can provide better care to published in English. The literature selection criteria
+patients, increase medical staff productivity, and are articles published in the form of original articles, a
+ultimately support the hospital's vision and mission as study about the development of a reliable information
+a provider of superior and sustainable health system for inventory of medical equipment in
+services.4-6 This study aimed to explore the hospitals, studies were conducted in a timeframe from
+development of a reliable information system for 2013-2023, and the main outcome was the
+inventory of medical equipment in hospitals. development of a reliable information system relied on
+for inventory of medical equipment in hospitals.
+2. Methods Meanwhile, the exclusion criteria were studies that
+The literature search process was carried out on were not related to the development of a reliable
+various databases (PubMed, Web of Sciences, information system for the inventory of medical
+EMBASE, Cochrane Libraries, and Google Scholar) equipment in hospitals and duplication of
+regarding the development of a reliable information publications. This study follows the preferred
+system for the inventory of medical devices in reporting items for systematic reviews and meta-
+hospitals. The search was performed using the terms: analysis (PRISMA) recommendations.
+(1) “development” OR “system” OR “information” OR
+Identification of studies via databases and registers
+n
+o
+it
+a Records removed before screening:
+c if Records identified from: Duplicate records removed (n =0)
+it Databases (n = 43) Records marked as ineligible by
+n
+e
+d
+automation tools (n = 0)
+I Records removed for other reasons (n = 0)
+Records screened Records excluded
+(n = 22) (n = 21)
+g
+n in Reports sought for retrieval Reports not retrieved
+e (n = 20) (n = 2)
+e
+r
+c
+S
+Reports excluded:
+Full text article exclude (n =5)
+Reports assessed for eligibility Published not in English (n = 6)
+(n = 6) Inappropriate methods (n = 3)
+d e Studies included in review
+d (n = 6)
+u
+lc
+n
+I
+Figure 1. PRISMA flowchart.
+535
+3. Results and Discussion experience in inventory management.7-10
+Identify needs and goals
+Identification of a hospital's specific needs is a Business process analysis
+critical step in the development of an information An in-depth analysis of the business processes
+system for medical device inventory. Conduct associated with medical device inventory management
+interviews with related parties at the hospital, such as involves a comprehensive understanding of how
+warehouse staff, nursing staff, medical personnel, and medical devices are acquired, stored, reordered, and
+operational managers. Ask about the daily challenges managed. The analysis begins by determining the need
+they face in medical device inventory management and for medical equipment based on requests from various
+listen to their expectations and needs for the new departments in the hospital. Identify clinical and
+system. Review internal hospital documents, such as operational factors that influence medical device
+inventory reports, expenditure records, and analysis of selection. Users or related departments submit
+medical equipment needs. Assess weaknesses and requests for purchasing medical devices to the
+potential improvements of existing inventory procurement department. This process includes
+management systems. Conduct direct observations of technical specifications, quantities required, and
+the medical equipment inventory management process reasons for selecting a particular medical device. The
+in various units or departments in the hospital. procurement team evaluates proposals from potential
+Identify manual processes that might be improved vendors. Vendor selection is based on criteria such as
+with information systems. Conduct surveys or quality, price, after-sales support, and regulatory
+distribute questionnaires to hospital staff to gain a compliance. After selecting vendors, medical
+broader view of needs and expectations regarding equipment is purchased, and goods are received.
+medical equipment inventory management. Collect Receiving information, including quantity and
+quantitative and qualitative data to support needs condition of goods, is recorded in the system. Every
+analysis. Conduct benchmarking with other hospitals medical device received is recorded in an inventory
+that have successfully implemented information system, including information such as serial number,
+systems for medical equipment inventory expiration date, and storage location. The use of
+management. Compare best practices and understand barcode or RFID technology can speed up this process.
+whether there are certain features or strategies that Establish optimal storage methods based on medical
+can be adopted. Form a work team consisting of device characteristics, such as storage temperature,
+representatives from various departments in the humidity, or other special requirements. Set storage
+hospital, such as IT, warehouse, nursing, and locations for easy access and organization. Using
+management. Hold regular meetings to discuss and sensor technology or real-time monitoring to ensure
+validate needs. Create a visual mapping of the the condition of medical devices remains optimal
+business processes involved in medical device during storage. Through an information system,
+inventory management. Identify critical points and hospitals can monitor medical equipment supplies in
+areas that can be optimized with information systems. real-time. This monitoring helps identify when medical
+Assess the risks associated with medical device devices need to be reordered. Implementation of an
+inventory management, such as the risk of stock automated ordering system based on minimum
+calculation errors or the risk of losing medical devices. inventory limits or specific requests. Ensure the
+Review compliance with applicable health regulations. availability of medical equipment without excessive
+Hold focus meetings with related parties to deepen human intervention. The procurement team validates
+specific areas that require special attention. Get in- orders to ensure compliance with needs and budget
+depth input and solutions from those with direct availability. The information system tracks the
+536
+lifespan of each medical device to avoid use after a supports high availability and horizontal scalability.
+specified time limit. Provide notifications if a medical Implement caching and load balancing mechanisms to
+device is approaching its useful life limit. Establish improve system performance. Provide a good API to
+preventive maintenance schedules for medical devices enable integration with other systems in the hospital,
+to ensure optimal availability and prevent such as patient management systems or electronic
+breakdowns. The system records the repair and medical records (EMR). Use message queues such as
+replacement history of medical devices. Provides RabbitMQ or Apache Kafka to ensure reliable message
+information for performance evaluation and decision- delivery between modules or systems. Implement
+making regarding equipment replacement or appropriate middleware to unify disparate systems,
+upgrades.11-13 ensuring interoperability between applications and
+software.14,15
+Technology selection
+Choosing the right platform and technology is key System design
+to building an information system for medical Users can submit new orders by filling out an
+equipment inventory in hospitals. For inventory intuitive form. The form should include information
+management, relational databases such as MySQL, such as the name of the medical device, the quantity
+PostgreSQL, or Microsoft SQL Server can be used. ordered, and other specific requirements. There is an
+NoSQL databases such as MongoDB can also be option to choose which vendor to select based on the
+considered, especially if the inventory data has a evaluation of criteria such as price, quality, and
+flexible structure. Design an adequate database delivery time. Users can see the status of their order,
+schema to store information such as medical device whether it is in process, in delivery, or has been
+data, stock status, storage location, and transaction received. Automatic notifications are sent to related
+history. Make wise use of indexes to speed up search parties when order status changes. The system
+and update operations. The choice of programming records order history for each medical device,
+language can depend on the expertise of the including details such as order date, quantity, vendor,
+development team and system requirements. and status. The system connects with automated
+Languages such as Java, Python, or PHP are generally technology (e.g., barcode or RFID) to monitor stock in
+used for web application development. The choice of real time. When there is a change in stock, the system
+web-based technologies such as Node.js or Ruby on automatically updates the information in the
+Rails can also be considered. Use development database. The system sends automatic notifications to
+frameworks such as Django (Python), Spring (Java), or users or warehouse staff when medical equipment
+Laravel (PHP) to speed up development and ensure stock approaches or reaches the specified minimum
+application security. Leverage frontend technologies limit. The system records every stock update,
+such as React, Angular, or Vue.js to create responsive including time, quantity added or reduced, and
+and easy-to-use user interfaces. Choose a hosting responsible users. Users can select the type of report
+service that is reliable and suits your needs, such as they want to create, such as availability, usage,
+AWS, Azure, Google Cloud, or a local-based hosting equipment condition reports, or other custom reports.
+platform such as Kubernetes. Consider using The system supports automatic scheduling of report
+serverless services to reduce infrastructure generation, whether daily, weekly, or monthly reports,
+complexity. Implement security protocols such as to ensure the availability of up-to-date information.
+HTTPS for secure communications. Use firewalls and Reports are presented in the form of data
+authentication mechanisms to protect access to visualizations that are easy to understand, such as
+information systems. Design an architecture that graphs or diagrams, to support decision-making.
+537
+Users can export reports to commonly used formats, using medical devices for a particular patient. This
+such as PDF or Excel, to share with interested parties. information can be provided to financial systems for
+This system is integrated with the inventory overall maintenance cost tracking. The integration
+management module to ensure data consistency enables the creation of financial reports integrated
+between orders, stock updates, and other inventory with inventory data, providing a complete picture of
+information. The system can be integrated with other medical device management costs. Data exchanged
+systems in the hospital, such as patient management between inventory management systems and other
+systems or electronic medical records (EMR), to systems must be protected with a high level of
+support interoperability. The system implements a security. Uses strong encryption and authentication
+strict authorization model to ensure that only protocols to prevent unauthorized access. Implement
+authorized users can access, change, or delete order mechanisms to maintain data consistency between
+data, stock updates, and reports. Use of strong various systems. Use of transaction or data
+security protocols, such as data encryption and access synchronization methods to ensure that information
+control, to protect sensitive information in the system. stored in various systems is always current and
+The system records every user activity, creating an accurate. Provides an open and easily accessible API
+audit log that can be used to track changes or potential to enable integration with other systems. Good API
+security events. With this design, the order documentation makes it easier for developers from
+management, stock updating, and inventory reporting other systems to understand how to interact with the
+systems become integrated, efficient, and responsive inventory management system. Use middleware or
+to hospital needs. Ensuring an intuitive user interface integration hubs to simplify and unify the data
+and clear data visualization will help users use the exchange process between different systems.
+system effectively.16-18 Middleware can facilitate data transformation and
+ensure information alignment. The system can provide
+Integration with other systems notifications to related parties in various departments
+Integration with patient management systems when significant changes in inventory status occur.
+allows information exchange between inventory Notifications can be customized according to recipient
+management systems and patient data. Patient data, preferences. Implement an activity tracking system
+such as health history or certain medical conditions, (audit log) that records every change and interaction
+can influence the need for certain medical devices or between the inventory management system and other
+influence the selection of medical devices needed. The systems. This information can be used for auditing
+integration allows the synchronization of patient care and troubleshooting purposes.19
+data with the inventory of medical devices used during
+treatment. This helps in monitoring and analyzing Monitoring and evaluation
+medical device usage based on the type of treatment System monitoring mechanisms are key to
+or patient condition. Patient management systems can maintaining optimal performance and identifying
+provide notifications to care staff when certain medical areas that require improvement or improvement. Use
+equipment is unavailable or nearing exhaustion, monitoring tools such as Prometheus, Nagios, or
+allowing for quick action. Integration with financial Grafana to monitor server health, including CPU
+systems allows automatic updates to budgets related usage, memory usage, and storage space. Set
+to the procurement and expenditure of medical device threshold limits for notifications to respond quickly to
+inventory. Ordering and purchasing information can potential issues. Implement a good logging system to
+directly affect the status of the available budget. An document important activities and events in the
+inventory management system can track the cost of system. Log analysis can help identify problems or
+538
+system errors that require attention. Use third-party provide to the management team or stakeholders. This
+services such as UptimeRobot or Pingdom to monitor report should include key performance metrics and
+website or application availability. Immediate recommendations for improvement. Implementation of
+notifications if downtime or performance degradation this monitoring mechanism will help manage and
+occurs. Measure application response time for each improve system performance effectively. By detecting
+request with tools such as New Relic or Datadog. problems before they impact end users or hospital
+Identify endpoints or application functions that are operations, IT teams can make fixes or upgrades
+slow or frequently experience increased response quickly, increasing system availability and user
+times. Use analytical tools such as Google Analytics to satisfaction.20
+monitor user behavior and identify the areas of your
+application that are used most often or cause the most 4. Conclusion
+problems. Use tools like Wireshark or PRTG to monitor Developing an information system for medical
+network traffic and identify potential bottlenecks or device inventory in hospitals is a crucial step in
+connection problems. Provides bandwidth monitoring improving the efficiency, availability, and management
+to understand network usage by systems and of health resources. Developing an information system
+applications. Identify unusual or sudden increases in for medical device inventory in hospitals is not just
+bandwidth usage. Use tools such as MySQL about recording and monitoring but also providing a
+performance schema or Oracle Enterprise Manager to holistic solution to improve operational efficiency and
+monitor database performance. Identify slow queries patient service.
+or indexes that need to be optimized. Establish
+capacity monitoring to identify database usage trends 5. References
+and prevent overload. Warning when approaching the 1. Shahram N, Abidi SSR, Li W, Sharifi H. An
+maximum capacity limit. Review system security logs integrated framework for medical device
+to detect suspicious activity or potential attacks. inventory management in hospital information
+Implement SIEM (security information and event systems. Stud Health Technol Inform. 2016;
+management) tools for advanced security log analysis. 219: 173-8.
+Perform regular security scans to identify potential 2. Jones B, Morton M, Korn R. Improving
+security gaps and system weaknesses. Repair or medical equipment management and patient
+improve system security based on findings from scans. safety: a multidisciplinary approach. Jt Comm
+Monitor the availability of external services or APIs J Qual Saf. 2014; 30(12): 709-15.
+used by the system. Get notified if there is a disruption 3. Chen S, Hsiao K, Huang T. Design and
+in third-party services that could affect system implementation of an intelligent medical
+performance. Carefully organize notifications so that inventory management system. J Med Syst.
+the IT team or system manager can respond 2022; 36(4): 2505-16.
+immediately to problems. An effective real-time 4. Islam S, Haque M, Uddin M. An effective
+notification mechanism is key to quickly identifying inventory management system for medical
+and resolving issues. Implement automatic escalation supplies in emergency health: a case study in
+to move issues from a lower priority level to a higher Bangladesh. Int J Environ Res Public Health.
+priority level if they are not resolved within a certain 2019; 16(21): 4241.
+time. Store historical monitoring data for long-term 5. Dehghanimohammadabadi M,
+trend analysis. Compare current performance with Dehghanimohammadabadi A, Shams M.
+previous periods to identify significant changes. Hospital equipment management information
+Generate regular system performance reports to system: a strategy for planning and control.
+539
+Iran J Public Health. 2022; 41(3): 91-9. management in healthcare systems. Health
+6. Martínez Pérez M, García Santaolalla A, Care Manag Sci. 2019; 22(1): 92-114.
+García Jiménez E, Martínez López F. 16. de la Torre-Díez I, López-Coronado M, Vaca C,
+Improving the efficiency of a hospital Aguado JS, de Castro C. Cost-utility and cost-
+pharmacy stock management system through effectiveness studies of telemedicine,
+implementation of an automated information electronic, and mobile health systems in the
+system. Farm Hosp. 2013; 37(2): 119-27. literature: a systematic review. Telemed J E
+7. Bal G, Civaner M, Yavuz E. Medical device Health. 2015; 21(2): 81-5.
+inventory management in hospitals: a 17. Akter S, Ray P. mHealth - An ultimate
+literature review. J Healthc Qual Res. 2017; platform to serve the unserved. Yearb Med
+32(1): 7-13. Inform. 2020; 19(1): 94-100.
+8. Al-Shammary D. Developing a smart hospital 18. Kebede MM, Pischke CR. Popular mobile
+information system architecture based on IoT phone apps for diet and weight loss: a content
+and cloud computing. Int J Adv Comput Sci analysis. JMIR Mhealth Uhealth. 2015; 3(4):
+Appl. 2019; 10(3): 329-36. e102.
+9. Fazli A, Sadoughi F. Information system 19. Wac K, Tsiourti C, Stibe A. Lessons learned
+strategic planning in healthcare: a systematic from deploying a real-time energy
+review. J Res Health Sci. 2018; 18(3): e00417. consumption feedback system in a hospital
+10. Salleh NM, Hussain A, Latif RAA, Mokhtar N. environment. Sensors (Basel). 2015; 15(6):
+Information systems success model for 14366-86.
+healthcare industry: a case study. Procedia 20. Saldaña J. The coding manual for qualitative
+Comput Sci. 2015; 72: 380-7. researchers. Sage; 2015.
+11. Tan JH, Poh KL, Poh MG, Lin J. A web-based
+healthcare inventory management system for
+medical resources optimization. Procedia
+CIRP. 2017; 64: 209-14.
+12. Yazdi-Feyzabadi V, Emami M, Mehrolhasani
+MH. Developing an indicator system for
+assessing hospital information systems: a
+delphi study. J Med Syst. 2016; 40(10): 222.
+13. Miah SJ, Gammack J, Hasan N. Medical
+information system: a framework and case
+study. In: Rocha Á, Correia AM, Adeli H, Reis
+LP, Mendonça Teixeira M, eds. New
+Contributions in Information Systems and
+Technologies. Springer; 2015: 375-85.
+14. Lin J, Zhang H, Tang Y, Chen W. An intelligent
+and real-time monitoring system for medical
+devices. Biomed Res Int. 2018; 2018:
+6873514.
+15. Aslani N, Diaz A. An integrated approach for
+dynamic capacity planning and inventory
+540

@@ -1,0 +1,782 @@
+Bio-SIEVE: Exploring Instruction Tuning Large Language Models for Systematic
+Review Automation
+AmbroseRobinson,1 WilliamThorne,1 BenWu,1 AbdullahPandor,2 MuniraEssat,2 Mark
+Stevenson,1 XingyiSong1
+DepartmentofComputerScience1/SchoolofHealthandRelatedResearch2,TheUniversityofSheffield
+ambroser53@gmail.com,{arobinson10,wthorne1,bpwu1,a.pandor,m.essat,mark.stevenson,x.song}@sheffield.ac.uk
+Abstract beforesatisfactoryperformanceisachieved(Przybyłaetal.
+2018).
+Medicalsystematicreviewscanbeverycostlyandresource
+LanguagemodelslikeBERT(Devlinetal.2019)andT5
+intensive.WeexplorehowLargeLanguageModels(LLMs)
+(Raffel et al. 2019) have been applied to screening priori- can support and be trained to perform literature screening
+whenprovidedwithadetailedsetofselectioncriteria.Specif- tisation (Sadri and Cormack 2022; Yang et al. 2022; Wang
+ically, we instruction tune LLaMA and Guanaco models to et al. 2022) and classification (Moreno-Garcia et al. 2023;
+perform abstract screening for medical systematic reviews. Qinetal.2021).However,modelinputsizehasbeenacom-
+Ourbestmodel,Bio-SIEVE,outperformsbothChatGPTand mon limitation and zero-shot performance severely lacked
+trained traditional approaches, and generalises better across compared to basic trained models like Support Vector Ma-
+medical domains. However, there remains the challenge of chines(SVM)ortraditionalmethodssuchasQueryLikeli-
+adaptingthemodeltosafety-firstscenarios.Wealsoexplore hoodModelling(QLM).Giventhegeneral-purposecapabil-
+theimpactofmulti-tasktrainingwithBio-SIEVE-Multi,in-
+ityofLLMslikeGPT-3.5-turbo(hencereferredtoasChat-
+cluding tasks such as PICO extraction and exclusion rea-
+GPT),studieshaveattemptedtoevaluatetheabilitytoassist
+soning, but find that it is unable to match single-task Bio-
+in screening classification using a zero-shot approach with
+SIEVE’s performance. We see Bio-SIEVE as an important
+step towards specialising LLMs for the biomedical system- promising yet varied results, evoking the need for a spe-
+aticreviewprocessandexploreitsfuturedevelopmentalop- cialisedsolution.
+portunities.Wereleaseourmodels,codeandalistofDOIsto Reviewers must also provide reasons for excluding po-
+reconstructourdatasetforreproducibility. tentiallyrelevantarticles.Automatingthistaskcouldreduce
+workloadasaqualitativefilteringmechanism-wheresensi-
+1 Introduction tivity(recall)isessential,excludedreviewscouldbebriefly
+inspectedtovalidatetheirexclusion.Exclusionreasonscan
+Systematic reviews (SR) are widely used in fields such as
+alsoprovidereviewersusingthesetoolswithaninsightinto
+medicine,publichealthandsoftwareengineeringwherethey
+themodel’sdecisionprocess.
+helptoensurethatdecisionsarebasedonthebestavailable
+Our contribution is a family of instruction fine-tuned
+evidence.However,theyaretime-consumingandexpensive
+Large Language Models, Bio-SIEVE (Biomedical System-
+to create. Expensive specialist time must be spent evaluat-
+atic Include/Exclude reViewer with Explanations), that at-
+ing natural language documents. This is becoming infea-
+tempts to assist in the SR process via classification. By in-
+sible due to the exponentially increasing release of litera-
+corporating the existing and expansive Cochrane Review
+ture,especiallyinthebiomedicaldomain(Zhaoetal.2021).
+knowledge base via instruction tuning, Bio-SIEVE estab-
+MichelsonandReuter(2019)estimatedthattheaverageSR
+lishes a strong baseline for inclusion or exclusion classifi-
+cost$141,194andtakesasinglescientistanaverageof1.72
+cationscreeningofpotentialeligiblestudiesgiventheirab-
+yearstocomplete.
+stractforunseenSRs.Bio-SIEVEishighlyflexibleandable
+Automationapproacheshavebeenintroducedtoassistin
+to consider specific details of a review’s objectives and se-
+alleviatingtheseissues,targetingdifferentstagesofthepro-
+lectioncriteriawithouttheneedtoretrain.
+cess.Themosttargetedstagesaresearching,screeningand
+The task we explore is more challenging than existing
+dataextraction.Itisstandardpracticeforscreeningsolutions
+work as it requires filtering of more subtly irrelevant arti-
+to utilise an active learning approach. A human is ”in the
+cles. Previous work has mainly comprised of screening for
+loop” labelling the model’s least certain samples and rank-
+simple topics or single selection criterion (Syriani, David,
+ingarticlesbyrelevance(SadriandCormack2022;Wallace
+and Kumar 2023; Moreno-Garcia et al. 2023). We filter by
+et al. 2012; Wang et al. 2022). However, stopping criteria
+an arbitrary set of selection criteria and objectives and ex-
+is a common insufficiency, often being left to the end user
+tendthisproblembyintroducingthenovel,challengingtask
+andriskingmissedrelevancy.Regardless,thisdoesnotlead
+ofexclusionreasoning.
+toanout-the-boxsolutionandrequiressignificantscreening
+Weinvestigatetheefficacyofdifferentinstructiontuning
+Preprint.Underreview. methods on our data with an ablation study. Following the
+3202
+guA
+21
+]LC.sc[
+1v01660.8032:viXra
+andWelsh2014;Kloda,Boruff,andCavalcante2020).This,
+along with a preliminary search, helps to establish the re-
+viewsinclusionandexclusioncriteria.
+Oncetheparametersofthestudyaresufficientlydefined,
+a Boolean query is constructed for use in the searching of
+largedatabasesinordermaximisetherecallofasmanyrele-
+vantarticlesaspossibleandisrefinedinaniterativeprocess
+(Wangetal.2023).Inthenextstage,therelevanceofeach
+studytothereviewisassessedviaevaluationofthestudy’s
+titleandabstract.TherecallfromBooleanqueriescanlead
+to massive amounts of documents and the time and cost of
+thisstagecanbefurtherexacerbatedby”double-screening”
+and ”safety-first” approaches that require multiple review-
+ersindependentlycarryingoutthesamerelevancescreening
+(Shemiltetal.2016).Thefollowingstageisfull-textscreen-
+ing where it is hoped that the majority of irrelevant studies
+Figure 1: A simple representation of the systematic review have been discarded since, compared to title and abstract,
+processdepictingthestagewhichBio-SIEVEaimstoassist. obtaining the full-text of studies is not necessarily trivial
+The black funnels are the monotonous and highly resource (Tawfiketal.2019).
+intensivebottlenecksoftheprocess. Thefinalstagesconsistof:addingincludedreviewsbased
+on manual searching; data extraction of relevant info and
+qualitychecking;datacheckinganddoublechecking;anal-
+work of Vu et al. (2020); Sanh et al. (2022), we train a set ysis,andwriting.
+of models on the multi-task paradigm of PICO extraction As depicted in Figure 1, Bio-SIEVE targets the title and
+andexclusionjustificationinanattempttoleveragebenefi- abstract screening phase given the objectives and selection
+cialcross-tasktransfer.AsLongpreetal.(2023)foundthat criteriaofthestudyestablishedbythereviewteamearlierin
+treating generalised instruction tuning as pretraining led to theprocessandtheabstractofthestudybeingscreened.This
+paretoimprovements,wefine-tuneontopofGuanacoinad- phaseisthemostappropriategiventhecurrentcapabilityof
+ditiontoLLaMA.Wefindthatmulti-tasktransferislimited LLMsasfull-textscreeningrequireslongercontextlengths.
+but instruction tuned pretraining caused marginal improve-
+3 RelatedWork
+ments. We also find that training on our dataset leads to
+highly accurate exclusion of inappropriate studies, e.g. ex- Therehavebeenanumberofapproachestoautomatingthe
+cludingmuscletraumastudiesfromoralhealthreviews.Fi- SR process. These works are delineated into classification
+nally,Bio-SIEVE-Multishowspromiseforthetaskofinclu- techniques, which provide a distinct inclusion or exclusion
+sion reasoning but fails to match the performance of Chat- label, and prioritisation techniques, which assist in screen-
+GPTinpreferencerankings. ingbyrankingreviewsbyrelevance.Whereclassifiersaim
+WebelievethatBio-SIEVElaysthefoundationforLLMs todirectlyreducethenumberofmanuallyscreenedstudies,
+specialised for the SR process, paving the way for future rankingstrategiesaimtoallowthereviewertostopscreen-
+developments for generative approaches to SR automation. ingearlybyconsideringthetop-kreturneddocuments.
+Weopen-sourceourcodebase1andthemeanswithwhichto Basic screening techniques have matured, for example
+recreateourdatasets.Wealsoreleaseouradapterweightson Marshalletal.(2018)andWallaceetal.(2017),whicharen-
+HuggingFace2forreuseandfurtherdevelopment. gramclassifiersforrandomisedcontroltrials,withthelatter
+beingintegratedintoCochraneReviews’EvidencePipeline
+2 TheSystematicReviewProcess (How2017).Thesemethodsexcelatsingle,easilygeneral-
+isabletasksbutfarmoredifficultisevaluatingarticlesbased
+Thesystematicreviewprocessisaseriesofstepsmappinga
+ontopicandreview-specificinclusioncriteria.
+comprehensiveplanforthestudyofaspecificresearchfield.
+Other early classifier techniques utilise ensemble SVMs
+Thisresultsinaneffectivesummarisationofresearchmate-
+(Wallace et al. 2010), Random Forest (RF) (Khabsa et al.
+rial in a particular area or to answer a particular question
+2016)orLatentDirichletAllocation(Miwaetal.2014)al-
+withinadomain.
+gorithmswithactivelearningstrategiestocombattheheavy
+Initiallythereviewerestablishesaresearchquestionfrom
+”exclude”classimbalancethatnaturallyoccurs.Manymore
+which a selection criteria is developed that defines the
+recent approaches such as Abstrackr (Wallace et al. 2012),
+scope of the project and therein the criteria for study rele-
+Rayyan(Olofssonetal.2017)andRobotAnalyst(Przybyła
+vance.ThePopulation,Intervention,Comparison,Outcome
+etal.2018)simplytakethisregimeandstreamlineitsusabil-
+(PICO) framework is a tool that can be used to define the
+ity.However,therearesomeclearissueswiththisapproach.
+parameters of a study. Other frameworks also exist such as
+For example, Przybyła et al. (2018) found that RobotAna-
+PICOS and SPIDER (Methley et al. 2014; Cates, Stovold,
+lystrequiredanywherebetween29.26%to93.11%oftheir
+1https://github.com/ambroser53/Bio-SIEVE study collection pool to be manually screened before 95%
+2https://huggingface.co/Ambroser53/Bio-SIEVE recallrelevancewasachieved.
+Qinetal.(2021)wasfirsttoapplytransformerstoclassifi- RLHF to improve the response quality of LLMs and was
+cationinthecontextofSRs,yetfoundfine-tunedBERTwas expanded upon to create ChatGPT which has become the
+outperformed by their Light Gradient Boosting Machine. benchmarkforzero-shotperformance.
+Active learning with transformers was applied to Technol- Since ChatGPT, many open-source instruction tuned
+ogyAssistedReviewtasks(SadriandCormack2022)with LLMs have emerged to try to match its performance. Gua-
+Yangetal.(2022)findingthattheamountofpretrainingbe- naco (Dettmers et al. 2023) is a family of LLaMA-based
+foreactivelearningiscrucial.Wangetal.(2022)evaluated LLMstrainedusing4-bitquantizationandLoRA.Thezero-
+a variety of BERT models for relevance ranking both fine- shot performance of Guanaco-65B on the Vicuna bench-
+tuned and zero-shot, but disregarded the models zero-shot mark(Chiangetal.2023)achieves99.3%theperformance
+capability after poor results. Most recently, Moreno-Garcia ofChatGPT.
+et al. (2023) applied BART ”zero-shot” with input embed- Instructiontuningisamethodoffine-tuningwheretasks
+dingsonsetsofabstractsqueriedwithshortquestionsover arephrasedasnaturallanguagepromptsandhasbeenshown
+a specific selection criterion but saw poor performance un- toimproveLLMperformanceonzero-shottasks.(Weietal.
+lesscombinedwithanRForSVM. 2022) The detailed ablation study carried out by Longpre
+The recent widespread adoption of ChatGPT has invig- et al. (2023) found that treating instruction tuning as pre-
+orated attempts to utilise LMs for classification, especially training before downstream task fine-tuning caused faster
+inthemedicaldomain.Qureshietal.(2023)commentsthat convergenceandoftenprovidedbetterperformanceoverall.
+ChatGPT selected articles when used for relevance screen- Vu et al. (2020) found that transfer learning with multiple
+ing”couldserveasastartingpointforrefinementdepending tasksinthesamedomaincouldimprovetheperformanceof
+onthecomplexityofthequestion”.Wangetal.(2023)quan- thetasksindividually.
+titativelyexploredChatGPTsabilitytoassistinthesearch- Full fine-tuning of LLMs is prohibitively expensive to
+ingprocessbyconstructingBooleanqueriesbutfoundthat non-commercialentities;assuch,techniqueshavebeende-
+althoughprecisionwaspromising,recallwasdisappointing velopedtominimisecomputationalrequirementsandtrain-
+and variability from minor prompt changes and even same ing time while maintaining high performance. Based on
+promptusebroughtthereproducibilityofitsuseintoques- the hypothesis that parameter updates have a low intrin-
+tion.MethodicalstudiesevaluatingChatGPT’seffectiveness sic rank (Aghajanyan, Zettlemoyer, and Gupta 2020), Low
+in classification have started to emerge. Guo et al. (2023) Rank Adaptation (LoRA) (Hu et al. 2021) applies a rank
+reported 91% exclusion recall but only 76% recall of in- decomposition of specified weight matrices while freezing
+cluded articles when screening a dataset of 24k+ total ab- theoriginalnetworktoreducethetrainableparametercount
+stracts where only 538 were inclusion samples. They also whilstdeliveringcomparableperformancetofull-finetuning.
+remarkedonChatGPT’sabilitytogeneratereasoningforex- Combined with 8- or even 4-bit quantization, it is possible
+clusionsandit’spotentialforimprovingSRscreeningqual- to fine-tune 65B parameter models on a single 48GB GPU
+ity. Syriani, David, and Kumar (2023) placed a strong em- (Dettmersetal.2021,2023).
+phasis on reproducibility, setting a temperature of zero to
+ensure a higher level of consistency and found that, when
+4 Methods
+promptedtobemorelenientwithinclusions,ChatGPTcould
+bemoreconservativeandsustainhighrecallofeligibleex- Instruct Cochrane Dataset We gathered a total of 7,330
+amplesgiventhegeneraltopicofthestudyandtheabstract medical SRs from all possible topic areas available on the
+ofthepotentialreference.TheyconcludedthatChatGPTis CochraneReviews3 website.Eachreviewcontainedtheob-
+aviableoption. jectivesandselectioncriteriaalongwithallconsideredstud-
+WearguetheuseofChatGPTunavoidablycompromises ies and whether they were included or excluded from the
+reproducibility. The alteration and retraining of ChatGPT review.Excludedstudieswereaccompaniedbyareasonfor
+overtimeisopaqueasChen,Zaharia,andZou(2023)found exclusion.Outofthese7,330reviewswerederivedatrain-
+that its performance on certain tasks had changed dramati- ingsplitof6,963andanevaluationsplitof367.Eachstudy
+callybetweenMarchandJuneof2023.Furthermore,Chat- istreatedasanindividualdatapoint.Thedistributionsofthe
+GPT’ssizeandconsumptioncostsaresimilarlyopaquebut, separatesplitsaredisplayedinTable1.
+as a generalised model, it can be assumed to be larger Cochranewasselectedforreviewgatheringasthereview
+thananyspecialisedapproach.Thiselicitsthedemandfora formatisstandardised.Thedelineatedobjectivesandselec-
+smallerlanguagemodelspecialisedforthistask,wherethe tion criteria were suitably informative for review specifica-
+exactmodelcanbereferencedandcomputationalresources tion and the exhaustive references were clearly categorised
+disclosed. into included and excluded. In addition, reviews provided
+LLaMA (Touvron et al. 2023) has become a popular justificationforexclusionanddescriptionsofthepopulation,
+foundational model for causal generation as it was made intervention and outcome of considered reviews created a
+openfornon-commercialuseincontrasttotheGPTfamily basisforamulti-taskdataset.Comparisondatawasdifficult
+(Brown et al. 2020; OpenAI 2023) which has been closed- toretrieveandwerenotincludedthusthesetaskswillhence
+source since GPT3. Reinforcement-Learning with Human- bereferredtoasPIOextractiontasks.Topicdistributionof
+Feedback (RLHF) (Christiano et al. 2017) has become a thetrainandtestsetscanbefoundinFigure2.
+popular technique for controlling generated outputs from
+languagemodels.InstructGPT(Ouyangetal.2022)applied 3www.cochranelibrary.com
+Instruction Given the abstract, selection criteria and ob-
+jectivesshouldthestudybeincludedorexcluded?
+Input Abstract: This paper describes the study design,
+methodological considerations, and baseline characteristics
+of a clinical trial to determine if intense 48 weeks, twice
+perweekTaiChipracticecanreducethefrequencyoffalls
+among older adults transitioning to frailty compared to a
+wellness education program. ... Secondary outcome mea-
+surementsinclude...
+Figure 2: The topic distribution of the inclusion/exclusion Objectives:Toassesstheeffectsbenefitsandharmsofexer-
+classification samples in the train and test splits of the In- ciseinterventionsforpreventingfallsinolderpeopleliving
+structCochranedataset. inthecommunity.
+SelectionCriteria:Weincludedrandomisedcontrolledtrials
+RCTsevaluatingtheeffectsofanyformofexerciseasasin-
+Task Train Test Subset S-1st Irre.
+gleinterventiononfallsinpeopleaged60yearslivinginthe
+Inclusion 43,221 576 784 79 -
+community.Weexcludedtrialsfocusedonparticularcondi-
+Exclusion 44,879 425 927 29 780
+tions,suchasstroke.
+Inc/Exc 88,100 1,001 1,711 108 780
+Population 15,501 - - - - Response Included
+Intervention 15,386 - - - -
+Outcome 15,518 - - - - Figure3:ExampleInstructCochranesampleusedininstruc-
+Exc.Reason 11,204 - - - - tiontuning.Wolfetal.(2001)isthestudybeingbeingeval-
+Total 168,842 1,001 1,711 108 780 uatedforinclusioninGillespieetal.(2012).
+Table 1: Number of samples in each split of the Instruct
+Cochranedataset.
+treatedasexclude.Thisresultsinabenchmarkthatrewards
+cautiousmodelswithhighincluderecall.
+Annotation was performed by professional medical sys-
+Duetosizeofthetestsplitandthefactthatweareeval- tematicreviewers,whowereinstructedtochoosefrom3la-
+uatingmanymodelsonmanydifferenttestsets,weinstead bels:’Include’,’Exclude’,or’InsufficientInformation’.For
+chosetouseatruncatedsubsetofthefulltestsplitthatmax- evaluation purposes, we treat ’Insufficient Information’ as
+imised the diversity of topics. This allowed the test set to ’Include’,sincethesewouldbesamplesthatshouldproceed
+remainthebasisofevaluationforthemodel’sgeneralisation tofull-textscreeningphase,inkeepingwithasafety-firstap-
+acrosstopics. proach.
+Instruction Tuning Method Following the work of Overall,therewere11disagreementsbetweenourlabels
+Chung et al. (2022), we utilised instruction fine-tuning in and the labels provided by the original reviewers. Our an-
+order to bolster the efficacy of the fine-tuning process. In- notators labelled 3 samples as ”Include” and 8 samples as
+put data was formatted with natural language instructions ”InsufficientInformation”.IntheInstructCochranedataset,
+for the tasks of inclusion or exclusion classification, PICO thesesampleswerealllabelled,afterfull-textscreening,as
+extraction,andexclusionreasongeneration.Tominimisein- exclude.
+formation loss from truncation, the inputted sections were This issue of label mismatch extends to the larger test
+tokenisedandscaleddownproportionaltotheirlengthuntil set and the training set. However, applying this manual re-
+theyfitwithinthemaxinputtokenlengthof2048.Weutilise annotationproceduretotrainingdataandmoretestingdata
+theAlpacainstructionformat(Taorietal.2023)withallour was infeasible due to costs, especially since professional
+models to match Guanaco and to maintain consistency be- medicalreviewerswereusedasannotators.
+tweentheGuanacoandbaseLLaMAmodels.(SeeFigure3 Review Subsets In order to compare to classifier tech-
+for an example instruction). Full details on our preprocess- niquestrainedforaspecificreview,asubsetofreviewswith
+ingmethodscanbefoundinAppendixC. asufficientnumberofabstractsisrequiredtotrainandeval-
+Safety-First Test Set Since samples could potentially uatewithk-foldcrossvalidation.Forthiswetookthe13re-
+have been excluded during full-text screening with infor- viewsfromtheevaluationsetthathaveover100associated
+mation unavailable in the abstract, the test split labels may abstractsresultinginatotalof1711individualsamples.
+notreflecttheappropriatedecisionsatanabstractscreening Irrelevancy Test Set To ensure that the model is able
+stage.Wecuratedasafety-firsttestsetbymanuallyannotat- to exclude wildly irrelevant submissions, we constructed a
+inginclude/excludedecisionsforasmallsubsetof108sam- evaluationsetofselectioncriteriapairedwithabstractsfrom
+ples from the test split, with each sample consisting of the a completely distinct topic. Starting from the 13 reviews
+objectives and selection criteria for the review and the ab- in the Review Subset, we paired each review with 5 ran-
+stractoftheprospectivestudy.Theresultingsafety-firstset domabstractsfromtheotherreviews.Sinceeachreviewin
+wasbiasedtowardincludewith79samplesand29samples this subset is from a different topic area, each instruction
+prompt formed from this set is guaranteed to be irrelevant the large review subset. We also fine-tuned and evaluated
+(i.e.shouldbeclassifiedas’exclude’). Bio-BERT-MSMinthesamemanner.
+We applied a standard data pre-processing methodology
+5 ExperimentalSetup for logistic regression. Each abstract was lowercased, had
+stopwordsremoved,andwaslemmatizedusingNLTK(Bird,
+5.1 Bio-SIEVEModelDescription
+Klein, and Loper 2009). A new tokenizer was trained for
+Toevaluatethesuitabilityofmulti-tasktransferlearning(Vu each review based on TF.IDF. All training and tokeniza-
+etal.2020;Sanhetal.2022)andinstructiontuningaspre- tion was performed using Scikit-Learn (Pedregosa et al.
+training(Longpreetal.2023)weconductanablation,train- 2011).ForBio-BERT-MSM,onlytheabstractwasprovided
+ingfourBio-SIEVEmodels:single-task/multi-task,Guana- whenfine-tuning.However,whenevaluatingzero-shotper-
+co/LLaMA. formancethereview’sobjectivesandselectioncriteriawere
+WeusedQLoRAfine-tuningtotrainLLaMA7bandGua- also provided utilising the Huggingface Zero-shot Classifi-
+naco7BontheInstructCochraneTrainsplit.Forthemulti- cationPipelineasinMoreno-Garciaetal.(2023).
+task versions, 4 A100 80GB cards were used for 40 hours Exclusion Reasoning We evaluate the multi-task model
+with an effective batch size of 16, whereas the single task variants’exclusionreasonsvia5-starranking.81exclusion
+versionsweretrainedinthesamesetupfor24hours. tasksaretakenfrom3reviewsoutofthe13reviewsubset.
+InordertomaintainconsistencywithGuanaco(Dettmers These are selected to best fit our expertise to speed up the
+etal.2023),wefixthehyperparametersduringQLorafine- process.Allsamplesarevalidatedtoensurethatthejustifi-
+tuning: 4-bit double quantisation to the NF-4 datatype, 0.1 cation could be derived from only the objectives, selection
+LoRA dropout, LoRA alpha of 16, LoRA rank 64, LoRA criteriaandabstract.Outputswithsignificantgenerationar-
+adaptersonalllayersbutwithoutbiasesandalearningrate tifacts are penalised 1 star with a minimum score of zero.
+of2e-4withnowarmuporlearningratedecay.LLaMAbase A rating of 5 represents a perfect match with the original
+modelLoRAweightswererandomlyinitialisedwithseed0. reviewer’sjustification.
+Eachmodelwastrainedfor8epochsandthebestmodelon
+thesafety-firstsetwasselectedforcomparison. 6 Results
+Results for the classification task for each dataset is pre-
+5.2 EvaluationMethodology
+sented in Table 2. Preference results for exclusion reason
+We evaluate inclusion and exclusion performance through generation ranking is provided in Figure 4. Agreement via
+accuracyforanoverviewofmodelunderstanding,andpre- Pearson’s correlation coefficient between our two indepen-
+cisionandrecallfortheinclusionclassasamoredirecteval- dentexpertswasr=.84forourGuanaco7Bvariant,r=.42for
+uationofthemodel’srealworldapplicabilitytoSRautoma- our LLaMA7b variant and r=.62 for ChatGPT generations
+tion.WecomparethedifferentpermutationsofBio-SIEVE andp¡.001.
+to a series of zero-shot baselines and trained models using Our trained models achieve better accuracy scores
+thestandardapproachonthereviewsubset.Eachexperiment thanChatGPTontheTestandSubsetEvalsetsOurbest
+wasranoncewithatemperatureof0andnosampling. performing model, Guanaco7B (Single), achieved 0.82 ac-
+Zero-shot comparisons To establish a baseline for our curacy on the Test Set. By comparison, ChatGPT achieved
+task,wequerythreegeneric,instructiontunedmodels:Chat- 0.6accuracy.Similarly,fortheSubset,Guanaco7b(Single)
+GPT, Guanaco7B, and Guanaco13B. We test Guanaco7B achievedaccuracy0.26higherthanChatGPTwhilstonlyre-
+asitrepresentsthebaselineperformanceoftheGuanaco7B ducinginclusionrecallby0.01.
+versionsofBio-SIEVE,priortofinetuning.ChatGPTisused Our trained models slightly outperform active-
+as the state-of-the-art comparison and Guanaco13B to ob- learningstylemodelsspecialisedforasinglereviewGua-
+servehowmodelscaleaffectszero-shotperformance.Toal- naco7B (Single) achieves 0.81 accuracy on the Subset eval
+terthetasksforevaluationwithChatGPT,weusetheprompt set. The next best model is the Logistic Regression Base-
+designedbySyriani,David,andKumar(2023).Weinclude line,whichachieved0.8.WehighlightthatthisLRbaseline
+additionalinformationontheobjectivesandselectioncrite- hadadataadvantageoverourgeneralisedmodels:separate
+riaoftheSRforadditionalcontextsinceourregulartestset Logistic Regression models were trained for each individ-
+ismorechallenging(SeeFigure6inAppendixB). ual review in the Subset whereas our trained models relied
+Inordertocompareagainstthezero-shotmethoddefined ononlyonesinglefine-tunedLLMforentireSubset.Addi-
+in Wang et al. (2022), we use Bio-BERT (Lee et al. 2019) tionally,thelogisticregressionmodelsused80%ofsamples
+finetuned on the MS MARCO dataset4 (hence Bio-BERT- perSubsetreviewfortrainingdata(5foldcross-validation).
+MSM)(Gao,Dai,andCallan2021;Nguyenetal.2016)and Bycontrast,ourtrainedmodelshadneverseenanyofthere-
+evaluate performance on our Test, Safety-first and Subset viewsorstudiesintheSubsetEvaluationsetduringtraining.
+datazero-shot. ChatGPTisabletobemorelenient,allowingittoper-
+Inclusion Exclusion Baselines To simulate the active form well on the safety-first dataset ChatGPT tended to
+learning approach standard to the field, we applied 5-fold include reviews rather than exclude, leading to high recall
+cross validation using a logistic regression model to deter- at the expense of precision. (Note: this was due to an ex-
+minetheaverageperformanceacrossthe13reviewswithin plicit prompt instruction to ’be lenient’) This means that it
+performed strongly on the safety-first set with an accuracy
+4https://huggingface.co/nboost/pt-biobert-base-msmarco of 0.73. Our best model on this subset, LLaMA7B Single
+Test Subset Safety-first Irre.
+Model
+Pre. Rec. Acc. Pre. Rec. Acc. Pre. Rec. Acc. Acc.
+LogisticRegression* - - - 0.79 0.78 0.80 - - - -
+Bio-BERT-MSM* - - - 0.43 0.30 0.50 - - - -
+ChatGPT†(ZS) 0.59 0.96 0.60 0.50 0.86 0.55 0.79 0.86 0.73 0.98
+Guanaco13B(ZS) 0.58 0.95 0.56 0.47 0.96 0.47 0.71 0.90 0.67 0.03
+Guanaco7B(ZS) 0.57 0.95 0.56 0.46 0.95 0.46 0.73 0.96 0.72 0.02
+Bio-BERT-MSM(ZS) 0.69 0.14 0.54 0.46 0.93 0.47 0.66 0.93 0.64 0.09
+LLaMA7B(Single) 0.77 0.79 0.74 0.65 0.83 0.71 0.88 0.72 0.72 0.96
+LLaMA7B(Multi) 0.88 0.64 0.74 0.85 0.70 0.80 0.91 0.38 0.52 0.97
+Guanaco7B(Single) 0.85 0.82 0.82 0.76 0.85 0.81 0.88 0.62 0.66 0.98
+Guanaco7B(Multi) 0.90 0.64 0.75 0.81 0.69 0.78 0.95 0.46 0.58 0.99
+Table2:Resultsofinclusion/exclusionclassificationforalogisticregressionbaseline,thezero-shot(L)LMsandtheBio-SIEVE
+variants.Test,SubsetandSafety-firstmetricsareprecision,recallandaccuracy.Singlevariantswereonlytrainedonthetask
+ofinclude/excludeclassification.MultimodelswerealsotrainedonPIOextractionandexclusionreasoning.*indicatesresults
+whentrained/fine-tunedwith5-foldcrossvalidationontheReviewSubset.†ChatGPTversionasof27/07/23
+achievedhigherprecision(0.88)butslightlyloweraccuracy parison to 2.4 and 2.0 for the Guanaco7B and LLaMA7B
+(0.72). We did not experiment with leniency prompting or Bio-SIEVE-Multi variants and we therefore treat ChatGPT
+thresholding for our trained models but anticipate that this as the current state-of-the-art for this exclusion reasoning
+wouldfurtherimproveresults. task.Bio-SIEVE-Multivariantsmanagedtomatchthequal-
+Single-task training was more effective than multi- ityofChatGPTfor45%ofsamplesbuttherewereminimal
+task training The single-task models tended to be include examplesofBio-SIEVEexceedingitsquality(6-7%).Over-
+recallorientedandhigherperformingwiththeGuanaco7B- all,thequalityofexclusionreasonsremainspoor:ChatGPT
+Singlevariantoutperformingallourothermodelsbyatleast generatedsubparorincorrectreasonsfor83%ofsamples.
+0.07accuracywhilstpreservingthehighestinclusionrecall
+of0.82and0.85onTestandSubsetrespectively. 7 Discussion
+Irrelevancy test: open-source LLMs must be fine-
+ModelComparisonBio-SIEVEtakesamorebalancedap-
+tuned in order to be effective systematic reviewers Both
+proach to classification as shown by its consistently higher
+ChatGPT and our trained models perform very well on the
+precision but relatively small decrease in recall. This sug-
+irrelevancytest,demonstratingthatthesemodelsareableto
+gests a greater ability to reason over the selection criteria.
+effectivelyexcludeoff-topicabstracts.However,otherzero-
+In contrast, ChatGPT, using the prompt format of (Syriani,
+shotmodelsperformverypoorly(Guanaco7Bachievesonly
+David, and Kumar 2023), tends to be overly lenient and
+0.02), revealing that these open-source models are unsuit-
+overlyinclusive.Thisisdemonstratedwhenevaluatingper-
+able for use in the zero-shot setting as they include many
+formancebrokendownpertopic,asshowninFigure5.
+highlyirrelevantabstracts.
+Our models perform consistently across review topics
+whereasChatGPTperformancevariesgreatly.For”Genetic
+Disorders” ChatGPT results are significantly below other
+models;for”Heart&Circulation”and”InfectiousDisease”
+topics,itpredicted”Include”forallsamplesandnever”Ex-
+clude”. This draws into question the extent of ChatGPT’s
+generality and underscores the necessity to assess model
+blind spots prior to their endorsement for real world appli-
+cation.
+Other zero shot model suffer this problem to an even
+greater extent. They tend to include everything, even ab-
+stracts from unrelated topics, as shown in the Irrelevancy
+column of 4. Therefore, despite high include recall per-
+formance on all three evaluation sets, they do not serve
+any practical benefit to reviewers. This shows that, de-
+spiteclaims ofperformancematching ChatGPTon chatbot
+Figure 4: Statistics for model generated exclusion reasons benchmarks like Vicuna (Chiang et al. 2023), open-source
+whenscoredbytwoexpertsindependentlygiventheoriginal models (when they are not fine-tuned to a task) are still a
+author’sexclusionjustification. longwayoffreachingsimilarzero-shotcapabilities.
+Bio-SIEVEoutperformingtheactivelearningstyleLogis-
+ChatGPTprovidesthebestexclusionreasonsChatGPT ticRegressionmodelsisalsoanachievement.Thisvalidates
+managed an average score of 3.4 in our rankings in com- that LLMs can facilitate reasoning of SR criteria with lan-
+Figure5:PerformancemeasuredbyF1-scoreforeachmetricforallmodelscomparedtoChatGPTondifferentmedicaldomain
+topicswithinthetestset.ChatGPTexcludednosamplesfortopicswherenoexcludebarispresent.
+guage, a far more accessible and cost effective method of is in addition to reproducibility concerns arising from the
+automation when compared to the training of models that opacityofclosed-sourcemodels.
+learn the criterion of individual SRs which has been the de Bio-SIEVE also outperforms traditional active-learning
+factoapproachforoveradecade. models that are specialised for an individual review. This
+Effect of Training Data Training data topic imbalance demonstratesthepromisingcapabilityofLLMstoassistin
+hadnonoticeableeffectongeneralisation.Forexample,over theSRprocess:asinglemodelcanbewidelydeployedfor
+half the training samples were in the ”Child Health” topic anentireSRdomain,withouttheneedforre-trainingperre-
+yet Bio-SIEVE obtained similar if not better results on view task. Though we focused on biomedical applications
+”Heart & Circulation” samples, which made up only 4.5% of this technology, our models and training process could
+of the training data. ”Genetic Disorder” topic performance beappliedtootherdomainssuchassoftwareengineeringor
+isstrongdespiteonlymakingup1.2%ofthetrainingdata. scientific systematic reviews. Our model is a first step to-
+We generally find that for multi-task models, cross-task wardsthisobjectiveandwesetabenchmarkforgenerative
+transferbetweenPIO,ExclusionreasoningandInclude/Ex- languagemodelsolutions.
+clude classification harms performance. We speculate two The performance of Bio-SIEVE could be further im-
+reasons for this 1) Dataset Imbalance: PIO data was only proved by including few-shot prompting: both in training
+available for included studies which may have resulted in dataaswellasduringinference.Wedidnotexperimentwith
+tasks concentrated around a smaller subset of topics with few-shot prompts due to the limitations of model context
+reducedvariation2)Hallucinations-exclusionreasonsand window: the length of each sample makes it difficult to in-
+PIO information often relied on information from full-text clude additional examples in the prompt. However, using a
+screening. Training the model to extract this information mixofzero-shotandappropriatelyselectedfew-shotexam-
+from the abstract when not present may have encouraged plesislikelytoleadtoimprovedperformance,asdiscussed
+ittohallucinateand/oroverfittothetrainingdata. in(Longpreetal.2023).
+Finally,wehighlightthecurrentshortcomingsofourap-
+proach.Namely,thattheexclusionreasonsgeneratedbyour
+8 ConclusionandFurtherWork
+Bio-SIEVE-MultivariantswereoutperformedbyChatGPT.
+In this paper, we demonstrate the effectiveness of train- Inourcase,multi-tasktrainingwasnecessarytoenableex-
+ing open-source LLMs to perform biomedical title/abstract clusion reasoning capability, but this worsened inclusion-
+screening. Our trained models achieve significant accuracy exclusion performance. For future work, we plan to ex-
+improvements over ChatGPT, and are specialised for the plore better methods of achieving multi-task capability in
+healthcare domain. Our results also reveal the dangers of Bio-SIEVE,suchasusingaMixture-of-Expertsarchitecture
+relying on ChatGPT’s zero-shot performance: its accuracy (Shazeeretal.2017).Wehopethataddingagreatervariety
+is very uneven across healthcare topics, performing partic- of tasks will eventually improve the model’s reasoning ca-
+ularly poorly on Genetic Disorders and being excessively pabilities and extend its functionality to form an effective
+lenientforInfectiousDiseaseandHeart&Circulation.This generalisedassistantforeverystageoftheSRprocess.
+Acknowledgements forComputationalLinguistics:HumanLanguageTechnolo-
+gies, Volume 1 (Long and Short Papers), 4171–4186. Min-
+We’d like to thank Ruth Wong at ScHARR for their input
+neapolis, Minnesota: Association for Computational Lin-
+andfacilitatingtheinvaluablecollaborationwithScHARR.
+guistics.
+References Gao, L.; Dai, Z.; and Callan, J. 2021. Rethink Train-
+ing of BERT Rerankers in Multi-Stage Retrieval Pipeline.
+2017. How Cochrane Is Using Microsoft Technology arxiv:2101.08751.
+to Improve the Efficiency of Systematic Review Produc-
+Gillespie, L. D.; Robertson, M. C.; Gillespie, W. J.; Sher-
+tion. https://www.cochrane.org/news/how-cochrane-using-
+rington, C.; Gates, S.; Clemson, L.; and Lamb, S. E. 2012.
+microsoft-technology-improve-efficiency-systematic-
+InterventionsforPreventingFallsinOlderPeopleLivingin
+review-production. Accessed:2023-05-07.
+theCommunity. CochraneDatabaseofSystematicReviews,
+Aghajanyan,A.;Zettlemoyer,L.;andGupta,S.2020.Intrin- (9).
+sic Dimensionality Explains the Effectiveness of Language
+Guo, E.; Gupta, M.; Deng, J.; Park, Y.-J.; Paget, M.; and
+ModelFine-Tuning. arXiv:2012.13255.
+Naugler,C.2023. AutomatedPaperScreeningforClinical
+Bird, S.; Klein, E.; and Loper, E. 2009. Natural language ReviewsUsingLargeLanguageModels. arxiv:2305.00844.
+processingwithPython:analyzingtextwiththenaturallan- Hu,E.J.;Shen,Y.;Wallis,P.;Allen-Zhu,Z.;Li,Y.;Wang,
+guagetoolkit. ”O’ReillyMedia,Inc.”. S.;Wang,L.;andChen,W.2021. LoRA:Low-RankAdap-
+Brown,T.B.;Mann,B.;Ryder,N.;Subbiah,M.;Kaplan,J.; tationofLargeLanguageModels. arXiv:2106.09685.
+Dhariwal,P.;Neelakantan,A.;Shyam,P.;Sastry,G.;Askell, Khabsa, M.; Elmagarmid, A.; Ilyas, I.; Hammady, H.; and
+A.; Agarwal, S.; Herbert-Voss, A.; Krueger, G.; Henighan, Ouzzani, M. 2016. Learning to Identify Relevant Studies
+T.; Child, R.; Ramesh, A.; Ziegler, D. M.; Wu, J.; Winter, forSystematicReviewsUsingRandomForestandExternal
+C.; Hesse, C.; Chen, M.; Sigler, E.; Litwin, M.; Gray, S.; Information. MachineLearning,102(3):465–482.
+Chess, B.; Clark, J.; Berner, C.; McCandlish, S.; Radford, Kloda, L. A.; Boruff, J. T.; and Cavalcante, A. S. 2020. A
+A.; Sutskever, I.; and Amodei, D. 2020. Language Models ComparisonofPatient,Intervention,Comparison,Outcome
+areFew-ShotLearners. arXiv:2005.14165. (PICO)toaNew,AlternativeClinicalQuestionFramework
+Cates, C. J.; Stovold, E.; and Welsh, E. J. 2014. How to forSearchSkills,SearchResults,andSelf-Efficacy:ARan-
+Make Sense of a Cochrane Systematic Review. Breathe, domized Controlled Trial. Journal of the Medical Library
+10(2):134–144. Association:JMLA,108(2):185–194.
+Chen,L.;Zaharia,M.;andZou,J.2023. HowIsChatGPT’s Lee,J.;Yoon,W.;Kim,S.;Kim,D.;Kim,S.;So,C.H.;and
+BehaviorChangingoverTime? arxiv:2307.09009. Kang,J.2019.BioBERT:apre-trainedbiomedicallanguage
+representationmodelforbiomedicaltextmining. Bioinfor-
+Chiang,W.-L.;Li,Z.;Lin,Z.;Sheng,Y.;Wu,Z.;Zhang,H.;
+matics,36(4):1234–1240.
+Zheng,L.;Zhuang,S.;Zhuang,Y.;Gonzalez,J.E.;Stoica,
+Longpre, S.; Hou, L.; Vu, T.; Webson, A.; Chung, H. W.;
+I.;andXing,E.P.2023. Vicuna:AnOpen-SourceChatbot
+Tay,Y.;Zhou,D.;Le,Q.V.;Zoph,B.;Wei,J.;andRoberts,
+ImpressingGPT-4with90%*ChatGPTQuality.
+A.2023. TheFlanCollection:DesigningDataandMethods
+Christiano,P.F.;Leike,J.;Brown,T.;Martic,M.;Legg,S.;
+forEffectiveInstructionTuning. arxiv:2301.13688.
+and Amodei, D. 2017. Deep reinforcement learning from
+Marshall, I. J.; Noel-Storr, A.; Kuiper, J.; Thomas, J.; and
+human preferences. Advances in neural information pro-
+Wallace,B.C.2018.MachineLearningforIdentifyingRan-
+cessingsystems,30.
+domizedControlledTrials:AnEvaluationandPractitioner’s
+Chung,H.W.;Hou,L.;Longpre,S.;Zoph,B.;Tay,Y.;Fe- Guide. ResearchSynthesisMethods,9(4):602–614.
+dus,W.;Li,Y.;Wang,X.;Dehghani,M.;Brahma,S.;Web-
+Methley,A.M.;Campbell,S.;Chew-Graham,C.;McNally,
+son, A.; Gu, S. S.; Dai, Z.; Suzgun, M.; Chen, X.; Chowd-
+R.; and Cheraghi-Sohi, S. 2014. PICO, PICOS and SPI-
+hery, A.; Castro-Ros, A.; Pellat, M.; Robinson, K.; Valter,
+DER: A Comparison Study of Specificity and Sensitivity
+D.; Narang, S.; Mishra, G.; Yu, A.; Zhao, V.; Huang, Y.;
+in Three Search Tools for Qualitative Systematic Reviews.
+Dai,A.;Yu,H.;Petrov,S.;Chi,E.H.;Dean,J.;Devlin,J.;
+BMCHealthServicesResearch,14:579.
+Roberts,A.;Zhou,D.;Le,Q.V.;andWei,J.2022. Scaling
+Michelson,M.;andReuter,K.2019.TheSignificantCostof
+Instruction-FinetunedLanguageModels. arxiv:2210.11416.
+SystematicReviewsandMeta-Analyses:ACallforGreater
+Dettmers, T.; Lewis, M.; Shleifer, S.; and Zettlemoyer, L. InvolvementofMachineLearningtoAssessthePromiseof
+2021. 8-bit optimizers via block-wise quantization. arXiv ClinicalTrials. ContemporaryClinicalTrialsCommunica-
+preprintarXiv:2110.02861. tions,16:100443.
+Dettmers, T.; Pagnoni, A.; Holtzman, A.; and Zettlemoyer, Miwa, M.; Thomas, J.; O’Mara-Eves, A.; and Ananiadou,
+L.2023. QLoRA:EfficientFinetuningofQuantizedLLMs. S. 2014. Reducing Systematic Review Workload through
+ArXiv:2305.14314[cs]. Certainty-Based Screening. Journal of Biomedical Infor-
+Devlin,J.;Chang,M.-W.;Lee,K.;andToutanova,K.2019. matics,51:242–253.
+BERT:Pre-trainingofDeepBidirectionalTransformersfor Moreno-Garcia, C. F.; Jayne, C.; Elyan, E.; and Aceves-
+LanguageUnderstanding. InProceedingsofthe2019Con- Martins,M.2023. ANovelApplicationofMachineLearn-
+ference of the North American Chapter of the Association ing and Zero-Shot Classification Methods for Automated
+Abstract Screening in Systematic Reviews. Decision Ana- Layer. In5thInternationalConferenceonLearningRepre-
+lyticsJournal,6:100162. sentations, ICLR 2017, Toulon, France, April 24-26, 2017,
+Nguyen, T.; Rosenberg, M.; Song, X.; Gao, J.; Tiwary, S.;
+ConferenceTrackProceedings.OpenReview.net.
+Majumder, R.; and Deng, L. 2016. MS MARCO: A Hu- Shemilt, I.; Khan, N.; Park, S.; and Thomas, J. 2016. Use
+manGeneratedMAchineReadingCOmprehensionDataset. ofCost-EffectivenessAnalysistoComparetheEfficiencyof
+CoRR,abs/1611.09268. Study Identification Methods in Systematic Reviews. Sys-
+tematicReviews,5(1):140.
+Olofsson, H.; Brolund, A.; Hellberg, C.; Silverstein, R.;
+Stenstro¨m,K.;O¨sterberg,M.;andDagerhamn,J.2017. Can Syriani, E.; David, I.; and Kumar, G. 2023. Assessing the
+AbstractScreeningWorkloadBeReducedUsingTextMin- Ability of ChatGPT to Screen Articles for Systematic Re-
+ing? User Experiences of the Tool Rayyan. Research Syn- views.
+thesisMethods,8(3):275–280. Taori, R.; Gulrajani, I.; Zhang, T.; Dubois, Y.; Li, X.;
+OpenAI.2023.GPT-4TechnicalReport.arXiv:2303.08774. Guestrin,C.;Liang,P.;andHashimoto,T.B.2023.Stanford
+Alpaca: An Instruction-following LLaMA model. https:
+Ouyang,L.;Wu,J.;Jiang,X.;Almeida,D.;Wainwright,C.;
+//github.com/tatsu-lab/stanford alpaca.
+Mishkin, P.; Zhang, C.; Agarwal, S.; Slama, K.; Ray, A.;
+etal.2022. Traininglanguagemodelstofollowinstructions Tawfik,G.M.;Dila,K.A.S.;Mohamed,M.Y.F.;Tam,D.
+withhumanfeedback. AdvancesinNeuralInformationPro- N. H.; Kien, N. D.; Ahmed, A. M.; and Huy, N. T. 2019.
+cessingSystems,35:27730–27744. AStepbyStepGuideforConductingaSystematicReview
+andMeta-AnalysiswithSimulationData.TropicalMedicine
+Pedregosa, F.; Varoquaux, G.; Gramfort, A.; Michel, V.;
+andHealth,47(1):46.
+Thirion,B.;Grisel,O.;Blondel,M.;Prettenhofer,P.;Weiss,
+R.;Dubourg,V.;etal.2011. Scikit-learn:Machinelearning Touvron,H.;Lavril,T.;Izacard,G.;Martinet,X.;Lachaux,
+in Python. Journal of machine learning research, 12(Oct): M.-A.; Lacroix, T.; Rozie`re, B.; Goyal, N.; Hambro, E.;
+2825–2830. Azhar, F.; et al. 2023. Llama: Open and efficient founda-
+tionlanguagemodels. arXivpreprintarXiv:2302.13971.
+Przybyła,P.;Brockmeier,A.J.;Kontonatsios,G.;LePogam,
+M.-A.; McNaught, J.; von Elm, E.; Nolan, K.; and Anani- Vu,T.;Wang,T.;Munkhdalai,T.;Sordoni,A.;Trischler,A.;
+adou, S. 2018. Prioritising References for Systematic Re- Mattarella-Micke, A.; Maji, S.; and Iyyer, M. 2020. Ex-
+viewswithRobotAnalyst:AUserStudy.ResearchSynthesis ploringandPredictingTransferabilityacrossNLPTasks. In
+Methods,9(3):470–488. Proceedingsofthe2020ConferenceonEmpiricalMethods
+inNaturalLanguageProcessing(EMNLP),7882–7926.On-
+Qin, X.; Liu, J.; Wang, Y.; Liu, Y.; Deng, K.; Ma, Y.; Zou,
+line:AssociationforComputationalLinguistics.
+K.;Li,L.;andSun,X.2021. NaturalLanguageProcessing
+WasEffectiveinAssistingRapidTitleandAbstractScreen- Wallace,B.C.;Noel-Storr,A.;Marshall,I.J.;Cohen,A.M.;
+ingWhenUpdatingSystematicReviews.JournalofClinical Smalheiser, N. R.; and Thomas, J. 2017. Identifying Re-
+Epidemiology,133:121–129. ports of Randomized Controlled Trials (RCTs) via a Hy-
+bridMachineLearningandCrowdsourcingApproach.Jour-
+Qureshi, R.; Shaughnessy, D.; Gill, K. A. R.; Robinson,
+naloftheAmericanMedicalInformaticsAssociation,24(6):
+K. A.; Li, T.; and Agai, E. 2023. Are ChatGPT and Large
+1165–1168.
+Language Models “the Answer” to Bringing Us Closer to
+SystematicReviewAutomation?SystematicReviews,12(1): Wallace, B. C.; Small, K.; Brodley, C. E.; Lau, J.; and
+72. Trikalinos, T. A. 2012. Deploying an Interactive Machine
+LearningSysteminanEvidence-BasedPracticeCenter:Ab-
+Raffel, C.; Shazeer, N.; Roberts, A.; Lee, K.; Narang, S.;
+strackr.
+Matena,M.;Zhou,Y.;Li,W.;andLiu,P.J.2019. Exploring
+theLimitsofTransferLearningwithaUnifiedText-to-Text Wallace, B. C.; Trikalinos, T. A.; Lau, J.; Brodley, C.;
+Transformer. CoRR,abs/1910.10683. and Schmid, C. H. 2010. Semi-Automated Screening of
+BiomedicalCitationsforSystematicReviews. BMCBioin-
+Sadri, N.; and Cormack, G. V. 2022. Continuous Active
+formatics,11(1):55.
+LearningUsingPretrainedTransformers.arxiv:2208.06955.
+Wang, S.; Scells, H.; Koopman, B.; and Zuccon, G. 2022.
+Sanh,V.;Webson,A.;Raffel,C.;Bach,S.H.;Sutawika,L.;
+Neural Rankers for Effective Screening Prioritisation in
+Alyafeai,Z.;Chaffin,A.;Stiegler,A.;Scao,T.L.;Raja,A.;
+MedicalSystematicReviewLiteratureSearch. InProceed-
+Dey, M.; Bari, M. S.; Xu, C.; Thakker, U.; Sharma, S. S.;
+ingsofthe26thAustralasianDocumentComputingSympo-
+Szczechla,E.;Kim,T.;Chhablani,G.;Nayak,N.;Datta,D.;
+sium,1–10.
+Chang,J.;Jiang,M.T.-J.;Wang,H.;Manica,M.;Shen,S.;
+Yong,Z.X.;Pandey,H.;Bawden,R.;Wang,T.;Neeraj,T.; Wang, S.; Scells, H.; Koopman, B.; and Zuccon, G. 2023.
+Rozen, J.; Sharma, A.; Santilli, A.; Fevry, T.; Fries, J. A.; CanChatGPTWriteaGoodBooleanQueryforSystematic
+Teehan, R.; Bers, T.; Biderman, S.; Gao, L.; Wolf, T.; and ReviewLiteratureSearch? arxiv:2302.03495.
+Rush, A. M. 2022. Multitask Prompted Training Enables Wei,J.;Bosma,M.;Zhao,V.Y.;Guu,K.;Yu,A.W.;Lester,
+Zero-ShotTaskGeneralization. arxiv:2110.08207. B.;Du,N.;Dai,A.M.;andLe,Q.V.2022. FINETUNED
+Shazeer, N.; Mirhoseini, A.; Maziarz, K.; Davis, A.; Le, LANGUAGEMODELSAREZERO-SHOTLEARNERS.
+Q.V.;Hinton,G.E.;andDean,J.2017. OutrageouslyLarge Wolf, S. L.; Sattin, R. W.; O’Grady, M.; Freret, N.; Ricci,
+Neural Networks: The Sparsely-Gated Mixture-of-Experts L.;Greenspan,A.I.;Xu,T.;andKutner,M.2001. AStudy
+Design to Investigate the Effect of Intense Tai Chi in Re- Iamscreeningpapersforasystematicliteraturereview.
+ducing Falls among Older Adults Transitioning to Frailty. Thetopicofthesystematicreviewis{TOPIC}.
+ControlledClinicalTrials,22(6):689–704. The objectives of the systematic review are
+{OBJECTIVES}
+Yang, E.; MacAvaney, S.; Lewis, D. D.; and Frieder, The selection criteria of the review is {SELECTION
+O. 2022. Goldilocks: Just-Right Tuning of BERT for CRITERIA}
+Technology-AssistedReview. arxiv:2105.01044. Thestudyshouldfocusexclusivelyonthistopic.
+Decide if the article should be included or excluded from
+Zhao, S.; Su, C.; Lu, Z.; and Wang, F. 2021. Recent Ad- thesystematicreview.
+vancesinBiomedicalLiteratureMining. BriefingsinBioin- Igivethetitleandabstractofthearticleasinput.
+formatics,22(3):bbaa057. OnlyanswerIncludedorExcluded.
+Belenient.Ipreferincludingpapersbymistakeratherthan
+excludingthembymistake.
+Title:{TITLE}
+A RuntimeInferenceAnalysis Abstract:{ABSTRACT}
+Figure6:PromptusedtoqueryChatGPTasdefinedinSyr-
+BatchSize MemoryUsage(GB) Time/Sample(s) iani, David, and Kumar (2023). To fit the specificity of our
+task we also provide the additional information of the Ob-
+1 12.8 1.39
+jectivesandSelectionCriteriaforthesystematicreview.
+2 18.0 1.39
+3 23.1 1.13
+Table 3: Metrics for runtime efficiency of our instruction
+Iamscreeningpapersforasystematicliteraturereview.
+pretrained,singletaskmodelwithmultiplebatchsizes,av-
+Thetopicofthesystematicreviewis{TOPIC}.
+eragedacross100samples.Alltestswerecarriedoutonthe
+The objectives of the systematic review are
+sameRTX3090.
+{OBJECTIVES}
+The selection criteria of the review is {SELECTION
+CRITERIA}
+Bio-SIEVEisnotusefulifitisnoteasilyaccessibleand
+efficient for reviewers to utilise. We ran performance anal- The study should focus exclusively on this topic and be
+ysis for our most promising model, the Guanaco7b Single withinthisselectioncriteria.
+variant,onanRTX3090.Asallmodelshavethesamenum- Thefollowingarticlehasbeenexcluded.Pleaseprovidethe
+berofparametersandarchitecture,thisevaluationwilltrans- reasonwhyithasbeenexcludedasbestyoucan.
+fertoallvariants.Inferencewascarriedoutwith1beam,no Igivetheabstractofthearticleasinput.
+samplingandatemperatureof0witheachsampleusingthe OnlyanswerIncludedorExcluded.
+entire 2048 tokens in the LLaMA context length, therefore Beconciseandonlyprovideasinglereason.
+representing the worst case scenario. We measured maxi-
+Abstract:{ABSTRACT}
+mummemoryusageandtimetakenpersampleforabatch
+size of 1, 2 and 3, averaging for each over 100 samples.
+Figure7:PromptusedtoqueryChatGPTforexclusionrea-
+Notethatx-formerswasalsoinstalledwhichimprovesper-
+soning.
+formanceoftheattentionmechanism.Resultscanbefound
+inTable3.
+Wefindthatthemodelperformswithsatisfactoryspeeds C DataPreprocessing
+to apply on the scale of SR, with only minimal improve-
+mentswithincreasedbatchsize.Memoryusageshowsthat Refer to Algorithm 1 for the strategy for tokenisation and
+Bio-SIEVEwillfitontothememoryofmid-endcardssuch preprocessingofpromptsfortheInstructCochranedataset.
+astheRTX2080tibutwillneedareducedcontextlengthto
+ensureitdoesnotgoover12GBmemoryusage.Forhigher- D Prompt-SectionTokenLengthAnalysis
+endconsumercardsthisshouldnotbecomeaproblem.
+SeeTable4foradetailedbreakdownoftheminimum,max-
+imumandaveragetokenlengthforeachdifferentsectionrel-
+evantandobtainablefromthecochranelibraryforeachre-
+B ChatGPTPrompts
+view.WeultimatelyutilisedObjectivesShort,SelectionCri-
+teriaShortandStudyAbstractbuttheanalysisofothersec-
+Refer to Figure 6 for the prompt used for querying Chat- tionsinthepromptcouldpotentiallyimproveperformance,
+GPTfortheinclusion/exclusionclassificationtask.Alsosee especiallywithgreatercrossoverwithPICOS.However,we
+Figure7forexclusionreasoning.Bothpromptsareadapted chosenottousethemastheyweregenerallynoisierandin-
+fromSyriani,David,andKumar(2023). volvedmoretruncation.
+Algorithm1:InstructCochranePreprocessing
+Input:ReviewwithassociatedIncluded&Excludedstudies
+Parameter: Max token length m, Prompt template token
+lengthp,Instructiontemplatetokenlengthl,TokeniserT
+Output: list of Instructions, Inputs & Outputs
+sets
+1: SetS toEMPTYLIST
+2: AssumevalidObjectiveso&SelectionCriterias
+3: forallstudiesdo
+4: AssumevalidAbstracta
+5: Removecolons
+6: Tokeniseo,sandawithT
+7: Concatenateo,sandaintox
+8: while|x|+p+l>mdo
+9: z :=max(|o|,|s|,|a|)
+10: ifthelastthirdofzcontainsafullstopthen
+11: Truncateonfullstop
+12: else
+13: Naivelytruncate
+14: endif
+15: endwhile
+16: Constructinputifromprompttemplate
+17: Constructtaskspecificoutputy
+18: Appendinstruction,iandytoS
+19: endfor
+20: returnS
+E DetailedTopicDistributions
+Refer to Table 5 for an exact breakdown of the number of
+samplesineachtopicontheCochraneLibraryforboththe
+Train and Test splits. Table 6 shows the more fine-grained
+topicofeachofthe13reviewswithinSubset.
+F TrainingAnalysis
+TrainingAnalysisFollowingtheworkinYangetal.(2022),
+wecarriedoutananalysisofthemodelsperformanceacross
+epochs in order to select ”just right” fine-tuning amount to
+sustain generalisation. Figure 8 depicts the performance of
+eachofthemodelvariantsoverall8epochsfortheTestset
+whilst Figure 9 shows similar performance on the Safety-
+firstset.Trendsareconsistentbetweensetsbutnotableisthe
+generally higher variance between include and exclude on
+the Safety-first set. Also the third epoch of the Guanaco7B
+single variant showing a sacrifice in Test set performance
+increasingleniencyandimprovingSafety-firstperformance.
+We used this method to pick our ”just right” tuning for
+each model based on safety-first performance. This meant
+we chose epoch 8 for LLaMA7B Multi and Guanaco7B
+Multi, epoch 3 for LLaMA7B Single and epoch 7 for
+Guanaco7B Single. Interestingly we found that single task
+training overfit without instruction pretraining but did not
+with instruction pretraining. Additionally, multi-task train-
+ingtendedtoresultinlargerfluctuationinperformancebe-
+tweenepochswhichwehypothesistobethemodelchanging
+prioritybetweentasks.
+Objectives SelectionCriteria Study
+Title
+Short Long Short Studies Pop. Intervention Outcome Title Abstract
+Mean 20.83 56.41 93.49 80.20 102.03 145.75 271.12 224.12 31.76 447.21
+Max 77 481 3,227 394 1,624 2,474 4,351 9,956 151 68,340
+Min 5 13 12 8 0 0 0 0 2 1
+Table4:LengthofdatasetfieldsaccordingtotokenizedlengthusingtheLLaMAtokenizer.Thefinalpromptonlyutilisedthe
+short Objectives and Selection Criteria plus the study’s Abstract. We leave utilisation of the other fields in the extension and
+alterationoftheprompttofurtherwork.
+Topic Train Test
+ChildHealth 45488 267
+Cancer 10184 155
+Lungs&Airways 4968 93
+Heart&Circulation 3915 74
+InfectiousDisease 3487 59
+Gynaecology 2592 38
+Allergy&Intolerance 1792 13
+Tobacco,Drugs&Alcohol 1497 66
+GeneticDisorders 1401 44
+Endocrine&Metabolic 1145 6
+Dentistry&OralHealth 1108 4
+Gastroenterology&Hepatology 1073 24
+Pain&Anaesthesia 785 -
+MentalHealth 759 8
+EffectivePractice&HealthSystems 728 20
+Pregnancy&Childbirth 699 5
+Consumer&CommunicationStrategies 680 19
+Developmental,Psychosocial&LearningProblems 634 35
+Eyes&Vision 577 10
+Neurology 507 -
+Ear,Nose&Throat 443 5
+Complementary&AlternativeMedicine 421 5
+NeonatalCare 328 1
+InsuranceMedicine 325 1
+Orthopaedics&Trauma 261 24
+Rheumatology 232 5
+SkinDisorders 216 1
+Urology 199 5
+Reproductive&SexualHealth 190 -
+PublicHealth 178 -
+KidneyDisease 160 1
+Diagnosis 140 15
+Wounds 119 4
+Health&SafetyatWork 82 -
+HealthProfessionalEducation 40 -
+Methodology 12 -
+BloodDisorders 10 -
+Table5:Numberofsamplesforeachtopicinthetrainandtestsets.
+No. SpecificTopic DOI
+0 OralHealth https://doi.org/10.1002/14651858.CD012213.pub2
+1 PublicHealth https://doi.org/10.1002/14651858.CD011677.pub2
+2 Developmental,PsychosocialandLearningProblems https://doi.org/10.1002/14651858.CD012955.pub2
+3 Bone,JointandMuscleTrauma https://doi.org/10.1002/14651858.CD012424.pub2
+4 Urology https://doi.org/10.1002/14651858.CD011673.pub2
+5 Developmental,PsychosocialandLearningProblems https://doi.org/10.1002/14651858.CD008524.pub4
+6 GynaecologyandFertility https://doi.org/10.1002/14651858.CD012165
+7 Gynaecological,Neuro-oncologyandOrphanCancer https://doi.org/10.1002/14651858.CD013261.pub2
+8 Haematology https://doi.org/10.1002/14651858.CD010981.pub2
+9 EffectivePracticeandOrganisationofCare https://doi.org/10.1002/14651858.CD009149.pub3
+10 DrugsandAlcohol https://doi.org/10.1002/14651858.CD003020.pub3
+11 CysticFibrosisandGeneticDisorders https://doi.org/10.1002/14651858.CD002008.pub5
+12 Stroke/Heart https://doi.org/10.1002/14651858.CD013650.pub2
+Table6:ListofReviewswithintheReviewSubsetwiththeirSpecificTopicareasandDOIs
+Figure8:Thef1-scoreperformancefordifferentmetricsofthedifferentmodeltrainingregimesacrossepochsontheTestset.
+Figure9:Thef1-scoreperformancefordifferentmetricsofthedifferentmodeltrainingregimesacrossepochsontheSafety-
+firstset.

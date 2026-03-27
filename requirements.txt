@@ -1,25 +1,9 @@
-Set-Content requirements.txt @"
-# Core LLM
-openai==2.24.0
-
-# Retrieval
-chromadb==1.5.1
-sentence-transformers==5.2.3
-rank-bm25
-
-# UI
-streamlit==1.55.0
-
-# Data acquisition
-requests==2.32.5
-
-# PDF processing
-pdfplumber==0.11.9
-
-# Environment
-python-dotenv==1.2.1
-
-# Optional: Local LLM (Ollama)
-# Install Ollama separately from https://ollama.com
-# Then run: ollama pull phi
-"@
+chromadb
+langdetect
+openai
+pdfplumber
+python-dotenv
+rapidfuzz
+requests
+sentence-transformers
+streamlit

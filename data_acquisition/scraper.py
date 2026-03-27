@@ -2,8 +2,14 @@ import requests
 import time
 import json
 import os
-from dotenv import load_dotenv
-load_dotenv()
+import sys
+
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
+from project_paths import METADATA_PATH, ensure_parent_dir
+
 #ROLE: Data Acquisition Group
 #PURPOSE: Automated Metadata Collection from Semantic Scholar API
 
@@ -53,7 +59,7 @@ def fetch_rehabilitation_papers(search_query, result_limit=10):
             print(f"[!] Error Message: {response.text}")
             return []
             
-    except requests.exceptions.RequestException as error:
+    except Exception as error:
         print(f"[!] An unexpected system error occurred: {error}")
         return []
 
@@ -93,13 +99,11 @@ if __name__ == "__main__":
 
     print(f"[*] After dedup: {len(unique_papers)} unique papers (from {len(all_collected_papers)} total)")
     all_collected_papers = unique_papers
-        
+
     #2.Export the combined data to the V3 version JSON file
     if all_collected_papers:
-        output_path = os.path.join(BASE_DIR, '..', 'data')
-        os.makedirs(output_path, exist_ok=True)
-
-        output_filename = os.path.join(output_path, 'hybrede_metadata_v5.json')
+        output_filename = METADATA_PATH
+        ensure_parent_dir(output_filename)
         with open(output_filename, 'w', encoding='utf-8') as json_file:
             json.dump(all_collected_papers, json_file, ensure_ascii=False, indent=4)
         

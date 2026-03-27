@@ -1,0 +1,809 @@
+www.nature.com/npjdigitalmed
+REVIEW ARTICLE OPEN
+fi
+An overview of clinical decision support systems: bene ts,
+risks, and strategies for success
+ReedT.Sutton 1, David Pincock2,Daniel C. Baumgart1,Daniel C. Sadowski1, Richard N.Fedorak1 and KarenI. Kroeker1*
+Computerizedclinicaldecisionsupportsystems,orCDSS,representaparadigmshiftinhealthcaretoday.CDSSareusedtoaugment
+cliniciansintheircomplexdecision-makingprocesses.Sincetheirfirstuseinthe1980s,CDSShaveseenarapidevolution.Theyare
+nowcommonly administered through electronic medical records andother computerized clinicalworkflows,which hasbeen
+facilitated byincreasing global adoption ofelectronic medical records withadvancedcapabilities. Despite these advances, there
+remainunknownsregardingtheeffectCDSShaveontheproviderswhousethem,patientoutcomes,andcosts.Therehavebeen
+numerouspublishedexamplesinthepastdecade(s)ofCDSSsuccessstories,butnotablesetbackshavealsoshownusthatCDSS
+arenot without risks.In this paper,weprovide astate-of-the-art overview ontheuseof clinicaldecision supportsystems in
+medicine,includingthedifferenttypes,currentusecaseswithprovenefficacy,commonpitfalls,andpotentialharms.Weconclude
+withevidence-based recommendations forminimizing risk inCDSS design,implementation, evaluation,and maintenance.
+npjDigital Medicine (2020) 3:17 ; https://doi.org/10.1038/s41746-020-0221-y
+INTRODUCTION:WHAT ISA CLINICALDECISION SUPPORT literature-based, practice-based, or patient-directed evidence.2
+SYSTEM? CDSS that are non-knowledge based still require a data source,
+A clinical decision support system (CDSS) is intended to improve but the decision leverages artificial intelligence (AI), machine
+healthcaredeliverybyenhancingmedicaldecisionswithtargeted learning(ML),orstatisticalpatternrecognition,ratherthanbeing
+clinicalknowledge,patientinformation,andotherhealthinforma- programmed to follow expert medical knowledge.7 Non-
+tion.1AtraditionalCDSSiscomprisedofsoftwaredesignedtobea knowledge based CDSS, although a rapidly growing use case
+direct aidto clinical-decision making, inwhich thecharacteristics for AI in medicine, are rife with challenges including problems
+of an individual patient are matched to a computerized clinical understanding the logic that AI uses to produce recommenda-
+knowledge base and patient-specific assessments or recommen- tions (black boxes), and problems with data availability.9 They
+dationsarethenpresentedtotheclinicianforadecision.2CDSSs
+have yet to reach widespread implementation. Both types of
+today are primarily used at the point-of-care, for the clinician to CDSS have common components with subtle differences,
+combine their knowledge with information or suggestions illustrated in Fig. 1.
+provided by the CDSS. Increasingly however, there are CDSS CDSShavebeenendorsedbytheUSGovernment’sHealthand
+being developed with the capability to leverage data and Medicare acts, financially incentivizing CDS implementation into
+observations otherwise unobtainable or uninterpretable by EHRs.10 In 2013, an estimated 41% of U.S. hospitals with an EHR,
+humans.
+alsohadaCDSS,andin2017,40.2%ofUShospitalshadadvanced
+Computer-basedCDSSscanbetracedtothe1970s.Atthetime, CDS capability (HIMSS Stage 6).11 Elsewhere, adoption rates of
+they had poor system integration, were time intensive and often
+EMRs have been promising, with approximately 62% of practi-
+limited to academic pursuits.3,4 There were also ethical and legal tioners in Canada in 2013.12 Canada has had significant
+issuesraisedaroundtheuseofcomputersinmedicine,physician
+endorsement from the government level, as well as Infoway, a
+autonomy, and who would be at fault when using the
+recommendation of a system with imperfect ‘explainability’.5
+not-for-profitcorporation.13Englandhasalsobeenaworldleader
+in healthcare IT investment, with up to 20 billion euros invested
+Presently,CDSSoftenmakeuseofweb-applicationsorintegration
+back in 2010.13 Several countries have also managed to
+with electronic health records (EHR) and computerized provider
+implement national health records, at least for patient-facing
+order entry (CPOE) systems. They can be administered through
+data,including Denmark, Estonia, Australia, andothers.14
+desktop, tablet, smartphone, but also other devices such as
+The scope of functions provided by CDSS is vast, including
+biometric monitoring and wearable health technology. These
+diagnostics, alarm systems, disease management, prescription
+devicesmayormaynotproduceoutputsdirectlyonthedeviceor
+belinked into EHRdatabases.6 (Rx), drug control, and much more.15 They can manifest as
+CDSSs have been classified and subdivided into various computerized alerts and reminders, computerized guidelines,
+categories and types, including intervention timing, and whether order sets, patient data reports, documentation templates, and
+they have active or passive delivery.7,8 CDSS are frequently clinical workflow tools.16 Each CDSS function will be discussed in
+classified as knowledge-based or non-knowledge based. In detail throughout this review, with the potential and realized
+knowledge-basedsystems,rules(IF-THENstatements)arecreated, benefits of these functions, as well as unintended negative
+with the system retrieving data to evaluate the rule, and consequences, and strategies to avoid harm from CDSS. Metho-
+producing an action or output7; Rules can be made using dologyused to informthe reviewisshown inBox 1.
+1DepartmentofMedicine,DivisionofGastroenterology,UniversityofAlberta,Edmonton,Canada.2ChiefMedicalInformationOffice,AlbertaHealthServices,Edmonton,Canada.
+*email:kkroeker@ualberta.ca
+ScrippsResearchTranslationalInstitute
+;,:)(0987654321
+R.T.Suttonetal.
+2
+Knowwleddge baasedd single systemm CDDSSS
+User CChoicees
+Non--knowwleddge baasedd singlle systtemm CDDSSS
+User CChoicees
+Fig.1 Diagramofkeyinteractionsinknowledge-basedandnon-knowledgebasedCDSS.Theyarecomposedof(1)base:therulesthatare
+programmed into the system (knowledge-based), the algorithm used to model the decision (non-knowledge based), as well as the data
+available,(2)inferenceengine:takestheprogrammedorAI-determinedrules,anddatastructures,andappliesthemtothepatient’sclinical
+data to generate an output or action, which is presented to the end user (eg. physician) through the (3) communication mechanism: the
+website,application,orEHRfrontendinterface,withwhichtheenduserinteractswiththesystem9.
+deployment in CDSS’ of other countries including the U.K.,
+Box 1.Methods andsources used for this overview Belgium, and Korea.20,21,23
+Other systems targeting patient safety include electronic drug
+dispensing systems (EDDS), and bar-code point-of-care (BPOC)
+● MEDLINEsearch1980-January2018.Keywords:CDSS,diagnosticdecision medication administration systems.24 These are often implemen-
+support system/DDSS, personal health record/PHR decision support, EHR ted together to create a ‘closed loop’, where each step of the
+decisionsupport
+● Handsearchesofthereferencesofretrievedliterature process (prescribing, transcribing, dispensing, administering) is
+● Universitylibrariessearchingfortextsonclinicaldecisionsupportsystems computerized and occurs within a connected system. At admin-
+andotherkeywordsmentionedabove istration,themedicationisautomaticallyidentifiedthroughradio-
+● Personal and local experience working with healthcare technology and frequencyidentification(RFID)orbarcodesandcrosscheckedwith
+decisionsupportsystems
+patientinformationandprescriptions.Thispresentsanothertarget
+forCDSSandthepotentialbenefitisthepreventionofmedication
+administration errors occurring at the ‘bedside’ (opposed to
+further upstream). Adoption is relatively low, partly due to high
+FUNCTIONSANDADVANTAGES OFCDSS technology requirements and costs.25 However; studies show
+Patientsafety good efficacy for these systems in reducing errors.26 Mohoney
+etal.showedthat manyofthesesystemscanbecombinedwith
+Strategies to reduce medication errors commonly make use of
+CPOE and CDSS simultaneously, with reduced prescribing error
+CDSS(Table1).Errorsinvolvingdrug-druginteractions(DDI)are
+ratesfordrugallergydetection,excessivedosing,andincomplete
+citedascommonandpreventable,withupto65%ofinpatients
+orunclearordering.24AswithmostCDSS,errorscanstillbemade
+being exposed to one or more potentially harmful combina-
+ifproviders omitor deliberatelywork around thetechnology.27
+tions.17 CPOE systems are now designed with drug safety
+CDSSalsoimprovepatientsafetythroughremindersystemsfor
+software that has safeguards for dosing, duplication of
+other medical events, and not just those that are medication
+therapies, and DDI checking.18 The types of alerts generated
+related. Among numerous examples, a CDSS for blood glucose
+by these systems are among the most disseminated kind of
+measurement in the ICU was able to decrease the number of
+decisionsupport.19However,studieshavefoundahighlevelof
+hypoglycemiaevents.28ThisCDSSautomaticallypromptednurses
+variability between how alerts for DDIs are displayed (e.g.,
+to take a glucose measurement according to a local glucose
+passive or active/disruptive), which are prioritized,20,21 and in monitoring protocol, which specified how often measurements
+the algorithms used to identify DDIs.18,22 Systems often have should be done according to specific patient demographics and
+varying degrees of irrelevant alerts presented, and there is no previousglucose levels/trends.28
+standard for how best to implement which alerts to providers. Overall,CDSStargetingpatientsafetythroughCPOEandother
+TheUSOfficeoftheNationalCoordinatorforHealthInformation systems have generally been successful in reducing prescribing
+Technologyhasdevelopedalistof‘high-priority’listofDDIsfor anddosingerrors,contraindicationsthroughautomatedwarnings,
+CDS, which has reached various levels of endorsement and drug-event monitoring and more.29 Patient safety can be
+npjDigitalMedicine(2020) 17 ScrippsResearchTranslationalInstitute
+;,:)(0987654321
+R.T.Suttonetal.
+3
+Table1. Benefitsofclinicaldecisionsupportsystems(CDSS),possibleharms,andevidence-basedmitigationstrategies.
+1.Functionsandadvantages 2A.PotentialharmofCDSS 2B.Solution(s)tomitigateharm 2C.Explanationofsolution(s)
+ofCDSS
+PatientSafety Alertfatigue Prioritizecriticalalerts,minimizeuse Alertfatiguemightbethwartedby
+Reducingincidenceof Aphenomenonwheretoomany ofdisruptivealertsfornon-critical prioritizingandselectingalertsthat
+medication/prescribingerrors insignificantalertsorCDSS indications. arecriticallyimportant,thatwillhave
+andadverseevents. recommendationsarepresented, thegreatestimpact,andbytailoring
+andprovidersstarttodismissthem alertstospecificspecialtiesand
+regardlessofimportance. severities(personalization).109
+DDItestingsoftwareshouldideally
+beprogrammedwithanalgorithm
+thatincorporatesconcomitant
+medication,labvalues,patient
+demographics,andadministration
+times,tobeasspecificaspossible.18
+Clinicalmanagement Negativeimpactonuserskills Avoidprescriptivenessinsystem Systemsshouldbesetuptobe
+Adherencetoclinicalguidelines, Oneexampleisrelianceon,or design.Evaluatesystemimpacton usefultoclinicians,without
+follow-upandtreatment excessivetrustintheaccuracyofa anongoingbasis. jeopardizingautonomyorbeingtoo
+reminders,etc. system. ‘prescriptive’anddefinitive.Itis
+importanttoconductanalysistosee
+howthesystemisbeingusedinthe
+longterm,afterimplementation.If
+accuracyisanissue,designchanges
+mightneedtobetakentoprompt
+extrachecksorconfirmationof
+orders.85
+Costcontainment Financialchallenges Designandplanforlongitudinalcost Ananalysisshouldbedoneto
+Reducingtestandorder Setupcanbeexpensive(capitalor analysisattheoutset.Specify determineifthecostsarejustified
+duplication,suggestingcheaper humanresource),andlong-term measurementsfornon-financial andifthereisagoodreturnon
+medicationortreatmentoptions, cost-effectivenessisnot benefitswherepossible. investment.110Costanalysisis
+automatingtediousstepsto guaranteed. notoriouslymissingintheliterature,
+reduceproviderworkload,etc. butexamplescanbefound.107,111,112
+Payersmaybemorewillingto
+supportCDSSifcost-savingscanbe
+shownelsewhereinthesystem/
+process.Thismeanslookingatmore
+thanjustdirectcostsausingmetrics
+suchaspatientoutcomesorquality-
+adjustedlifeyears(QALY).
+Administrativefunction/ Systemandcontentmaintenance (1)KnowledgeManagement(KM) (1)Facilitatesscheduledreview,
+automation challenges Serviceinplace,withafocuson methodsforacquiringand
+Diagnosticcodeselection, Aspracticechanges,therecanbe translationtoCDSSsystems. implementingnewknowledge,and
+automateddocumentationand difficultykeepingthecontentand (2)Systemformeasurementand streamlinedprocessesforgathering
+noteauto-fill. knowledgerulesthatpowerCDSS analysisofCDSSperformance. physicianfeedbackonthesystemas
+uptodate. wellastrainingusersonwhycertain
+dataentryandstandardizationof
+dataentrypractices.Standardsfor
+organizingKMmanagementhave
+beenpublished.113,114
+(2)Itisimportanttoidentifychanges
+inperformanceanduseovertime.In
+addition,thequalityofthedata
+repositoryshouldbemonitoredand
+itisalsoimportanttoensurethat
+conclusionsarenotbeingmadeon
+corruptedorpoorqualitydata
+beforehand.115
+Diagnosticssupport UserdistrustofCDSS Referenceexpertknowledge— Toprovideaverifiablesourceof
+Providingdiagnosticsuggestions Usersmaynotagreewiththe includescientificreferencesin informationtotheuseronwhythe
+basedonpatientdata, guidelineprovidedbytheCDSS. messageswhereappropriate. recommendationexists.116In
+automatingoutputfromtest additiontoincreasingtrust,thismay
+results. providedirectionforuserstoupdate
+theirknowledgeincasetheywere
+notawareoftherecommendation.
+Manysystemsalsoqueryreasonsfor
+notfollowingarecommendationin
+ordertoelucidatethesourceof
+mistrust.117Thisisagoodidea,but
+shouldnotbemandatoryor‘bulky’
+indesign.
+ScrippsResearchTranslationalInstitute npjDigitalMedicine(2020) 17
+R.T.Suttonetal.
+4
+Table1continued
+1.Functionsandadvantages 2A.PotentialharmofCDSS 2B.Solution(s)tomitigateharm 2C.Explanationofsolution(s)
+ofCDSS
+DiagnosticsSupport:Imaging, Transportability/interoperability (1)Adoptionofindustrystandards. Majoropenstandardsforstructural
+Laboratory,andPathology CDSSfacechallengesregarding (2)Securecloudservicesand andsemanticinteroperabilityand
+Augmentingtheextraction, integrationwithotherhospitalsor blockchain. exchangecontinuetobedeveloped
+visualization,andinterpretation systems,makingitinefficientfor andimprovedbyorganizationssuch
+ofmedicalimagesand otherwisehigh-qualitysystemsto asHealthLevel7International
+laboratorytestresults. bedisseminatedandscaled. (HL7),118SNOMEDInternational,119
+DigitalImagingand
+Communications(DICOM)for
+imagingstandards,andmany
+others.120Asmuchaspossible,these
+standardsshouldbeadoptedatall
+levelswithinthehealthcare
+organization,andwiththeexternal
+systemsbeingused.
+Cloud-basedEHRarchitectureallows
+formoreopenarchitecture,and
+flexibleconnectivitybetween
+systems.Aswithanymedicalsystem,
+securitymustbeassuredthrough
+compliancewithlegislationsuchas
+HealthInsurancePortabilityand
+AccountabilityAct(HIPAA)inthe
+USA,PersonalInformationProtection
+andElectronicDocumentsAct
+(PIPEDA)inCanada,andtheData
+ProtectionDirectiveandGeneral
+DataProtectionRegulation(GDPR)in
+Europe.Inthefuture,wemayalso
+seeblockchainusedtoenable
+greaterinteroperabilityandimprove
+securityforhealthinformation
+exchange(HIE).121,122
+Patientdecisionsupport Dependencyoncomputerliteracy (1)Conformtoexistingfunctionality. (1)Maintainingconsistencywiththe
+Decisionsupportadministered CDSSmayrequireaveryhigh (2)Adequatetrainingmadeavailable userinterfaceofthepre-existing
+directlytopatientsthrough technologicalproficiencytouse atlaunch. system(ifthereisone)iscrucialto
+personalhealthrecords(PHR) ensureusersdon’thaveasteep
+andothersystems. learningcurvetousethesystem.
+(2)Adequatetrainingshouldbe
+availableandeasilyaccessiblefor
+users.Trainingshouldideallybe
+doneinpersonbyaclinicianleader
+withvastEHRexperiencetogenerate
+buy-in.123Trainingneedstobe
+availableonanongoingbasis,as
+newstaffandusersjoin.One
+strategyistohaveon-siteteam
+membersdesignatedaseliteusers,
+andcapableofprovidingtraining
+sessions.
+BetterDocumentation Inaccurateandpoor-qualitydata/ (1)ExpertKnowledgeofinterlinked Theteamneedstobefamiliarand
+documentation systems. haveexpertknowledgeofall
+CDSSmayaggregatedatafrom (2)ITtesting/debuggingduring externalsystemsthatfeeddatainto
+multiplesourcesthatarenot developmentand thedatabaseusedbytheCDSS.
+syncedproperly.Usersmaydevelop implementationstage. Expertsrecommendtestingclinical
+manualworkaroundsthat rulesforPPVandNPVduringthe
+compromisedata. processofdevelopmentand
+implementation.109Ifusergenerated
+dataisanissue,itmaybethat
+physicianshavenotreceivedthe
+propertrainingonhowtoread,
+interpretandrespondtoalerts,or
+aredependingonpharmaciststo
+checkmedicationordersbefore
+dispensation.124,125
+Workflowimprovement Disrupted/fragmentedworkflow (1)Usabilityevaluation. (1)Rigorousanditerativeusability
+CDSScanimproveandexpedite CDSScanalsodisruptexisting (2)Workflowmodeling. evaluationsandpilottestingshould
+anexistingclinicalworkflowin workflowsiftheyrequireinteraction beconductedonCDSSbeforeusing
+anEHRwithbetterretrievaland externaltotheEHR,ordon’tmatch theminclinicalsettings.Many
+presentationofdata. usabilityassessmenttoolsare
+npjDigitalMedicine(2020) 17 ScrippsResearchTranslationalInstitute
+R.T.Suttonetal.
+5
+Table1continued
+1.Functionsandadvantages 2A.PotentialharmofCDSS 2B.Solution(s)tomitigateharm 2C.Explanationofsolution(s)
+ofCDSS
+theproviders’realworld available,alongwithother
+informationprocessingsequences. quantitativemethodsand
+frameworks.126–129
+(2)UnlessagoaloftheCDSSisto
+changethecareprocess,theCDSS
+shouldbedesignedtofitwithinor
+conformtothecurrentuser
+workflows.
+considered a secondary objective (or requirement) of almost all admission coding (ICD is International Statistical Classification of
+types of CDSS, no matter the primary purpose for their Diseases, standardized codes used to represent diseases and
+implementation. diagnoses).42Thetoolusedananatomographicalinterface(visual,
+interactiverepresentationofthehumanbody)linkedtoICDcodes
+Clinical management tohelpEDphysicians accuratelyfinddiagnostic admissioncodes
+faster.
+Studies have shown CDSS can increase adherence to clinical
+CDSScandirectlyimprovequalityofclinicaldocumentation.An
+guidelines.30 This is significant because traditional clinical guide-
+obstetric CDSS featured an enhanced prompting system, sig-
+lines and care pathways have been shown to be difficult to
+nificantly improving documentation of indications for labor
+implement in practice with low clinician adherance.31,32 The
+induction and estimated fetal weight, compared to control
+assumptionthatpractitionerswillread,internalize,andimplement
+hospital.43 Documentation accuracy is important because it can
+new guidelines has not held true.33 However, the rules implicitly
+directly aid clinical protocols. For example, a CDSS was
+encoded in guidelines can be literally encoded into CDSS. Such
+implemented to ensure patients were properly vaccinated
+CDSScantakeavarietyofforms,fromstandardizedordersetsfor
+followingsplenectomy,tocombattheincreasedriskofinfections
+a targeted case, alerts to a specific protocol for the patients it
+(includingpneumococcal,Haemophilusinfluenzae,meningococcal,
+pertains to, reminders for testing, etc. Furthermore, CDSS can
+etc.)thatcomeswithspleenremoval.However,theauthorsfound
+assist with managing patients on research/treatment protocols,34
+that71%ofpatientswiththeterm‘splenectomy’intheirEHRdid
+tracking and placing orders, follow-up for referrals, as well as
+not have it documented on their problem list (which was what
+ensuringpreventative care.35
+triggers the CDSS alert).44 A supplemental CDSS was then
+CDSScanalsoalertclinicianstoreachouttopatientswhohave
+developed to enhance problem list documentation of splenect-
+not followed management plans, or are due for follow-up, and
+omy,45 and improvethe utility oftheoriginal vaccinationCDSS.
+help identify patients eligible for research based on specific
+criteria.36 A CDSS designed and implemented at Cleveland Clinic
+provides a point-of-care alert to physicians when a patient’s Diagnostics support
+record matches clinical trial criteria.37 The alert prompts the user CDSS for clinical diagnosis are known as diagnostic decision
+to complete a form which establishes eligibility and consent-to- support systems (DDSS). These systems have traditionally
+contact,forwardsthepatient’scharttothestudycoordinator,and provided a computerized ‘consultation’ or filtering step, whereby
+prints aclinicaltrial patient informationsheet. they might be provided data/user selections, and then output a
+listofpossibleorprobablediagnoses.46Unfortunately,DDSShave
+nothadasmuchinfluenceasothertypesofCDSS(yet)forreasons
+Costcontainment
+including negative physician perceptions and biases, poor
+CDSS can be cost-effective for health systems, through clinical
+accuracy(oftenduetogapsindataavailability),andpoorsystem
+interventions,38 decreasing inpatient length-of-stay, CPOE-
+integration requiring manual data entry.47,48 The latter is
+integratedsystemssuggestingcheapermedicationalternatives,39
+improving with better EHR-integration and standardized vocabu-
+or reducing test duplication. A CPOE-rule was implemented in a
+lary likeSnomed Clinical Terms.
+pediatric cardiovascular intensive care unit (ICU) that limited the
+AgoodexampleofaneffectiveDDSSisonewhichwascreated
+schedulingofbloodcount,chemistryandcoagulationpanelstoa
+byKunhimangalametal.49fordiagnosisofperipheralneuropathy
+24-hinterval.40Thisreducedlaboratoryresourceutilizationwitha
+usingfuzzylogic.Through24inputfieldswhichincludesymptoms
+projected cost savings of $717,538 per year, without increasing
+and diagnostic test outputs, they achieved 93% accuracy
+lengthofstay(LOS), ormortality.
+compared to experts at identifying motor, sensory, mixed
+CDSS can notify the user of cheaper alternatives to drugs, or
+neuropathies, or normal cases. While this has great utility,
+conditionsthatinsurancecompanieswillcover.InGermany,many
+especially in countries with less access to established clinical
+inpatients are switched to drugs on hospital drug formularies.
+experts, there is also a desire for systems that can supplement
+After finding that 1 in 5 substitutions were incorrect, Heidelberg
+specialist diagnostics. DXplain is an electronic reference based
+hospitaldevelopedadrug-switchalgorithmandintegrateditinto
+DDSS that provides probable diagnosis based on clinical
+theirexistingCPOEsystem.41TheCDSScouldswitch91.6%of202
+manifestations.50Inarandomizedcontroltrialinvolving87family
+medicationconsultationsautomatically,withnoerrors,increasing
+medicineresidents, thoserandomizedtousethesystemshowed
+safety,reducing workload and reducing cost forproviders.
+significantly higher accuracy (84% vs. 74%) on a validated
+diagnosistestinvolving 30clinicalcases.50
+Administrative functions Given the known incidence of diagnostic errors, particularly in
+CDSSprovidesupportforclinicalanddiagnosticcoding,ordering primarycare,51thereisalotofhopeforCDSSandITsolutionsto
+of procedures and tests, and patient triage. Designed algorithms bringimprovementstodiagnosis.52Wearenowseeingdiagnostic
+cansuggestarefinedlistofdiagnosticscodestoaidphysiciansin systems being developed with non-knowledge-based techniques
+selecting the most suitable one(s). A CDSS was conceived to likemachinelearning,whichmaypavethewayformoreaccurate
+address inaccuracy of ICD-9 emergency department(ED) diagnosis.TheBabylonAIpoweredTriageandDiagnosticSystem
+ScrippsResearchTranslationalInstitute npjDigitalMedicine(2020) 17
+R.T.Suttonetal.
+6
+intheU.K.isagoodexampleofthepotential,butalsoofthework Pathologyreportsarecrucialasdecisionpointsformanyother
+that still has to be done before these systems are ready for medicalspecialties.SomeCDSScanbeusedforautomatedtumor
+primetime.53,54 grading. This was done for urinary bladder tumor grading and
+estimating recurrence, with up to 93% accuracy.72 The same has
+Diagnostics support: imaging. Knowledge-based imaging CDSS beendoneforbraintumorclassificationandgrading.73Thereare
+are typically used for image ordering, where CDSS can aid many other examples including computerized ECG analysis,
+radiologists in selecting the most appropriate test to run, automated arterial blood gas interpretation, protein electrophor-
+providing reminders of best practice guidelines, or alerting esisreports, and CDSS forbloodcell counting.46
+contraindications to contrast, for example.55 An interventional
+CDS for image ordering at Virginia Mason Medical Center was Patient-facingdecision support
+showntosubstantiallydecreasetheutilizationrateoflumbarMRI
+With the advent of the ‘Personal Health Record’ (PHR), we are
+for low back pain, head MRI for headache, and sinus CT for
+seeing CDS functionality integrated, similar to EHRs, with the
+sinusitis.56TheCDSrequiredaseriesofquestionstobeanswered
+patient as the end user or ‘manager’ of the data. This is a great
+byproviderspriortoimageordering(POC),toverifyappropriate-
+step towards patient-focused care, and CDS-supported PHRs are
+ness. Importantly, if an image was denied, an alternative was
+the ideal tool to implement shared decision-making between
+suggested by the system. Another commercialized example is
+RadWise®, which guides clinicians to the most relevant imaging
+patientandprovider,specificallybecauseCDSScanremovea‘lack
+ofinformation’asabarriertoapatient’sparticipationintheirown
+orderby analyzing patient symptoms and matchingthem witha
+care.74 PHRs are frequently designed as an extension of
+largedatabaseofdiagnoses,whilealsoprovidingappropriateuse
+recommendationsat thepoint ofcare.57 commercial EHR software, or as standalone web-based or
+mobile-based applications.75 When connected to EHRs, PHRs can
+There is great interest in non-knowledge based CDS for
+enhancedimagingandprecisionradiology(‘radiomics’).58,59With haveatwowayrelationship,wherebyinformationentereddirectly
+by the patient can be available to their providers, and also
+images accounting for increasing amounts of medical data, but
+informationintheEHRcanbetransmittedtothePHRforpatients
+requiring extensive manual interpretation, providers need tech-
+nologiestoaidtheminextracting,visualizing,andinterpreting.60
+toview.76
+One of the earliest PHRs, the “Patient Gateway”, was simply a
+AI technologies are proving capable of providing insights into
+data beyond what humans can.61 To do so, these technologies dashboard for patients to view medications and labs, and
+make use of advanced pixel recognition and image classification communicate with their physicians.77 This has expanded and
+algorithms, most prominently: deep learning (DL).62 IBM Watson some systems now allow patients to modify their own record of
+care, effecting the EHR data as well.78 Another example is
+Health, DeepMind, Google, and other companies are at the
+forefront, developing products for use in tumor detection,63 Vanderbilt University’s MyHealthAtVanderbilt, a PHR fully inte-
+medical imaging interpretation,64 diabetic retinopathy diagno- grated into the institutional EHR. In addition to disease-targeted
+sis,65Alzheimer’sdiagnosisthroughmultimodalfeaturelearning,62 delivery of patient educational materials, they incorporated a Flu
+andcountlessmore.IBMWatson’s‘EyesofWatson’,hasbeenable
+Toolforpatientswithflu-likesymptomstodecidethelevelofcare
+they need and then help them seek treatment.79 Symptom
+to combine image recognition of a brain scan with text
+trackingisausefulandcommonfeatureofPHRs,butthevarietyof
+recognition of case descriptions to provide comprehensive
+decision support (or what IBM describes as a ‘cognitive collected data is virtually limitless, from allergies to insurance
+assistant’).60 coverage to prescription and medication information.80 Further-
+more, PHRs and other patient monitoring applications can be
+Several projects have been able to demonstrate performance
+that is disputably ‘on par’ with human experts.65–68 For example, designed to collect information from health devices and other
+Google’steamtrainedadeepconvolutionalneuralnetwork(CNN) wearables,tocreateactionableinsightsforproviders.Anexcellent
+exampleexistsindiabetescare.Manysystemsarealreadyinuse,81
+to detect diabetic retinopathy (blood vessel damage in the eye)
+but one in particular pioneered by the Stanford School of
+from a dataset of 130,000 retinal images with a very high
+sensitivity and specificity.65 The algorithms performance was on Medicine uses a wearable glucose monitor which transmits data
+par with US board certified ophthalmologists. Another study just to an Apple device (HealthKit).82 Apple has made HealthKit
+interoperable with the Epic EHR and Epic PHR, “MyChart”. This
+recentlypublishedbytheStanfordgroupdemonstratedaCNNfor
+detecting arrhythmias on electrocardiogram that exceeded the successfully allows providers to monitor glucose trends in their
+accuracy (F1 and sensitivity with matched specificity) of the patientsinbetweenvisits,andcontactthemthroughMyChartfor
+averagecardiologistonallrhythmclasses.68Withthecurrentrate follow up or urgent recommendations. The pilot study demon-
+ofprogress, someexperts controversially speculate that in15–20 strated improved provider workflow, communication with
+years, the majority of diagnostic imaging interpretation will be patients, and ultimately quality of care.82 Various other medical
+done (or at least pre-processed) by computers.69 For the time fieldsaredeployingsimilarsystemsformonitoringthatcombines
+being however, we should think of these early systems as an PHR/EHR, wearable technologies, and CDSS, including but not
+additionor augmentationto aclinician’savailabletoolset. limited to heart failure (cardiology), hypertension, sleep apnea,
+palliative/elder care,and more.
+Diagnosticssupport:laboratoryandpathology. Anothersubsetof It is worth noting that as PHRs have become more advanced
+diagnostics where CDSS can be useful is laboratory testing and with CDSS capabilities, there has also been increasing emphasis
+interpretation. Alerts and reminders for abnormal lab results are on the design of these systems to serve shared decision making
+simpleandubiquitousinEHRsystems.CDSScanalso extendthe betweenpatientandprovider,andtobeinteractivetoolstomake
+utility of lab-based tests for the purpose of avoiding riskier or patients more knowledgeable/involved in their own care. PHRs
+more invasive diagnostics. In Hepatitis B and C testing, liver thatonlyserveasarepositoryforhealthinformationarenowseen
+biopsies are considered the gold standard for diagnosis, while asmissingthe mark,particularly by patientsthemselves.75
+non-invasive lab tests are not accurate enough to be accepted.
+However; AI models are being developed that combine multiple
+PITFALLS OFCDSS
+tests (serum markers, imaging, and gene tests) to produce much
+greater accuracy.70 There is also application for CDSS as an Fragmentedworkflows
+interpretation tool where a test’s reference ranges are highly CDSS can disrupt clinician workflow, especially in the case of
+personalized, for exampleage,sex,ordisease subtypes.71 stand-alonesystems. ManyearlyCDSS weredesignedassystems
+npjDigitalMedicine(2020) 17 ScrippsResearchTranslationalInstitute
+R.T.Suttonetal.
+7
+that required the provider to document or source information systems, applications and databases that power the CDSS.
+outside their typical workspace. CDSS also disrupt workflow if Another challenge is the maintenance of knowledge-base and
+designedwithouthumaninformationprocessingandbehaviorsin itsrules,whichmustkeepapacewiththefast-changingnatureof
+mind. In response, CDSS have been designed using the ‘think- medicalpracticeandclinicalguidelines.Eventhemostadvanced
+aloud’ method to model practitioners’ workflow and create a healthcareinstitutionsreportdifficultykeepingtheirsystemsupto
+system withbetter usability.83 date as knowledge inevitably changes.85 Order sets and the
+Disruptedworkflowcanleadtoincreasedcognitiveeffort,more algorithmic rules behind the CDSS have been identified as
+time required to complete tasks, and less time face-to-face with particularlydifficult.85
+patients. Even when CDSS are well integrated within existing
+information systems, there can be disconnect between face-to- Operationalimpactof poor dataquality and incorrectcontent
+face interactions and interaction with a computer workstation.
+EHRsandCDSSsrelyondatafromexternal,dynamicsystemsand
+Studies have found that practitioners with more experiential
+this can create novel deficiencies. As an example, some CDSS
+knowledge are less likely to use, and more likely to override
+modulesmightencourageorderingevenwhenthehospitallacks
+CDSS.84
+adequatesupplies.InastudybyAshetal.85,anumberofexperts
+indicatedthatattheirhospital,Hemocculttestsorpneumococcal
+Alertfatigue and inappropriate alerts vaccineinventoriesrunoutquickly,butthisisnotcommunicated
+Studieshavefoundupto95%ofCDSSalertsareinconsequential, totheCDSS.
+andoftentimesphysiciansdisagreewithordistrustalerts.85Other Medication and problem lists can be problematic, if not
+timestheyjustdonotreadthem.Ifphysiciansarepresentedwith updated or used appropriately. At one site, the medication list
+excessive/unimportant alerts,theycan suffer from alert fatigue.86 mightbealistofdispensations,whichmeanspatientsmayormay
+Disruptive alerts should be limited to more life-threatening or not be taking them(and thus must still be asked in person).85
+consequential contraindications, such as serious allergies. How- OthermedicationlistsaregeneratedfromCPOEordersonly,thus
+ever;evenallergyalertscanbeincorrect,andclinicianswilloften still requiring manual confirmation that patients are taking the
+verifythemselves,especiallyifthesourceisanothersite/hospital/ medication. Systems that make it easy to distinguish these are
+practitioner.85,87 Medication alerts can also be specialty specific, ideal.ItisalsoamajorareawherePHRscouldcreateasolution,by
+but irrelevant when taken out of context. For example, an alert collectingmedication adherencedatadirectly from patients.
+againstusingbroad-spectrumantibioticssuchasvancomycinmay In poorly designed systems, users may develop workarounds
+be inappropriate in ICU.85 An alert against duplicate medications that compromise data, such as entering generic or incorrect
+may be inappropriate in inflammatory bowel disease clinics, data.85 The knowledge base of CDSS is dependent on a
+where the same class of drug can be applied through different centralized, large clinical data repository. Quality of data can
+administrationroutes for increasedeffect. affect quality of decision support. If data collection or input into
+the system is unstandardized, the data is effectively corrupted.
+You may design a system for use at the point-of-care, but when
+Impacton user skill
+applied to real world environments and data, will not be utilized
+Prior to CPOE and CDSS, healthcare providers, pharmacists, and
+properly.Theimportanceofusinginformationalstandardssuchas
+nurseswererelieduponexclusivelytodouble-checkorders.CDSS
+ICD,SNOMED, and others, cannotbe understated.
+cancreatetheimpressionthatverifyingtheaccuracyofanorderis
+unnecessary orautomatic.85 Thisis an importantmyth to dispel.
+Itisalsoimportanttoconsiderthepotentiallong-termeffectof Lackof transportability and interoperability
+aCDSSonusers.OvertimeaCDSScanexertatrainingeffect,so Despite ongoing development for the better part of three
+thattheCDSSitselfmaynolongerberequired.Coinedthe“carry- decades, CDSS (and even EHRs in general) suffer from interoper-
+over effect”, it is most likely with CDSS that are educational in ability issues. Many CDSS exist as cumbersome stand-alone
+nature.88Conversely,providersmaydeveloptoomuchrelianceor systems,orexistinasystemthatcannotcommunicateeffectively
+trust on a CDSS for a specific task.89 This could be compared to withother systems.
+usingacalculatorformathematicaloperationsoveralongperiod What makes transportability so difficult to achieve? Beyond
+oftime,andthenhavingpoorermentalmathskills.Itispotentially programmingcomplexitiesthatcanmakeintegrationdifficult,the
+problematic as the user has less independence and will be less diversity of clinical data sources is a challenge.96 There is a
+equipped for that task should they switch to an environment reluctanceorperceivedriskassociatedwithtransportingsensitive
+without theCDSS. patient information. Positively, interoperability standards are
+continuously being developed and improved, such as Health
+CDSS maybe dependenton computerliteracy Level 7 (HL7) and Fast Healthcare Interoperability Resources
+(FHIR). These are already being utilized in commercial EHR
+Lack of technological proficiency can be hindering when
+vendors.97 Several government agencies, medical organizations
+engaging with a CDSS.90,91 This can vary by the design details
+and informatics bodies are actively supporting and some even
+of the CDSS, but some have been found to be overly complex,
+mandating the use of these interoperability standards in health
+relyingtoomuchonuserskill.90,92Systemsshouldaimtostayas
+systems.98–100
+close to the core functionality of the pre-existing system as
+Thecloudalsooffersapotentialsolutiontointeroperability(and
+possible.Regardless,allnewsystemshavealearningperiod,and
+otherEHRailmentssuchasdatasync,softwareupdating,etc.101).
+so baseline evaluations of users’ technological competence may
+Cloud EHRs have open architecture, newer standards, and more
+beappropriate.Furthertrainingcanthenbeprovidedtofacilitate
+flexible connectivity to other systems.102 It is also a common
+full use of CDSS capabilities,93 or more explicit guidance
+misconceptionthatdatastoredonacloudismorevulnerable.This
+incorporatedintotheCDSS’recommendationsthemselves.94This
+isnotnecessarilytrue.Web-basedEHRsarerequiredtostoredata
+information could be implemented as info buttons to be non-
+inhigh-levelstoragecenterswithadvancedencryptionandother
+disruptive.95
+safeguards. They must comply with national data security
+standardsincludingtheHealthInsurancePortabilityandAccount-
+Systemand content maintenance abilityAct(HIPAA)intheUSA,PersonalInformationProtectionand
+MaintenanceofCDSSisanimportantbutoftenneglectedpartof Electronic Documents Act (PIPEDA) in Canada, or the Data
+the CDSS life-cycle. This includes technical maintenance of Protection Directive and General Data Protection Regulation
+ScrippsResearchTranslationalInstitute npjDigitalMedicine(2020) 17
+R.T.Suttonetal.
+8
+(GDPR) in Europe, to name a few.103 They can be just as safe (or 11. Electronic medical record adoption model requirements. https://www.
+just as vulnerable) as traditional, server-based architecture.103 In himssanalytics.org/emram,Accessed25Aug2019(2017).
+fact, there are often fewer people who have access to 12. Chang,F.&Gupta,N.ProgressinelectronicmedicalrecordadoptioninCanada
+unencrypted data in cloud storage centers vs. server-based Recherche Les progrès dans l’ adoption du dossier médical électronique au
+records.103 Canada.CanadianFamilyPhysician.61,1076–1084(2015).
+13. HealthcareInformationandManagementSystemsSociety(HIMSS).Electronic
+Health Records: A Global Perspective, 2nd edn. https://s3.amazonaws.com/
+Financialchallenges rdcms-himss/files/production/public/HIMSSorg/Content/files/Globalpt1-edited
+Up to 74% of those with a CDSS said that financial viability %20final.pdf(2010).
+remains a struggle.104 Outset costs to set up and integrate new 14. Nøhr, C. et al. Nationwide citizen access to their health data: analysing and
+comparingexperiencesinDenmark,EstoniaandAustralia.1–11.https://doi.org/
+systemscanbesubstantial.Ongoingcostscancontinuetobean
+issue indefinitely as new staff need to be trained to use the 10.1186/s12913-017-2482-y(2017).
+15. Omididan,Z.&Hadianfar,A.Theroleofclinicaldecisionsupportsystemsin
+system, and system updates are required to keep pace with
+healthcare (1980-2010): a systematic review study. Jentashapir Sci.-Res Q. 2,
+currentknowledge. 125–134(2011).
+ResultsfromcostanalysesofCDSSimplementationsaremixed, 16. Kabane,S.M.Healthcareandthe EffectofTechnology:Developments,Chal-
+controversial, and sparse.105–108 Whether an intervention is cost- lenges and Advancements: Developments, Challenges and Advancements.
+effective depends on a wide range of factors, including those MedicalInformationScienceReference(2010).
+specific to the environment, both political and technological.105 17. Vonbach,P.,Dubied,A.,Krähenbühl,S.&Beer,J.H.Prevalenceofdrug-drug
+Cost benefit assessment in itself can be limited, with challenges interactions athospital entryandduringhospital stayofpatients ininternal
+such as a lack of standardized metrics.107 This is an emerging
+medicine.Eur.J.Intern.Med.19,413–420(2008).
+18. Helmons,P.J.,Suijkerbuijk,B.O.,NannanPanday,P.V.&Kosterink,J.G.W.Drug-
+research area and much work needs to be done to advance our
+drug interaction checking assisted by clinical decision support: a return on
+understanding ofthefinancialeffectsof CDSS. investmentanalysis.J.Am.Med.Inf.Assoc.Jamia.22,764–772(2015).
+19. Koutkias, V. & Bouaud, J. Contributions from the 2017 Literature on Clinical
+DecisionSupport.Yearb.Med.Inf.27,122–128(2018).
+CONCLUSION 20. Phansalkar,S.etal.High-prioritydrug–druginteractionsforuseinelectronic
+CDSS have been shown to augment healthcare providers in a healthrecords.J.Am.Med.Inform.Assoc.19,735–743(2012).
+varietyofdecisionsandpatientcaretasks,andtodaytheyactively 21. Cornu,P.,Phansalkar,S.,Seger,D.L.,Cho,I.&Pontefract,S.InternationalJournal
+and ubiquitously support delivery of quality care. Some applica-
+ofMedicalInformaticsHigh-priorityandlow-prioritydrug–druginteractionsin
+differentinternationalelectronichealthrecordsystems:acomparativestudy.
+tionsofCDSShavemoreevidencebehindthem,especiallythose
+Int.J.Med.Inf.111,165–171(2018).
+basedonCPOE.SupportforCDSScontinuestomountintheage
+22. McEvoy,D.S.etal.Variationinhigh-prioritydrug-druginteractionalertsacross
+oftheelectronicmedicalrecord,andtherearestillmoreadvances institutionsandelectronichealthrecords.J.Am.Med.Inf.Assoc.24,331–338
+to be made including interoperability, speed and ease of (2017).
+deployment, and affordability. At the same time, we must stay 23. Cho,I.,Lee,J.,Choi,J.,Hwang,H.&Bates,D.W.Nationalrulesfordrug-drug
+vigilantforpotentialdownfallsofCDSS,whichrangefromsimply interactions:aretheyappropriatefortertiaryhospitals?.J.KoreanMed.Sci.31,
+not working and wasting resources, to fatiguing providers and 1887–1896(2016).
+compromising quality of patient care. Extra precautions and 24. Mahoney,C.D.,Berard-Collins,C.M.,Coleman,R.,Amaral,J.F.&Cotter,C.M.
+conscientious design must be taken when building, implement- Effectsofanintegratedclinicalinformationsystemonmedicationsafetyina
+multi-hospitalsetting.Am.J.HealthSyst.Pharm.64,1969–1977(2007).
+ing,andmaintainingCDSS.Aportionoftheseconsiderationswere
+25. Peris-Lopez, P.,Orfila,A.,Mitrokotsa,A. &van derLubbe,J. C.A.Acompre-
+covered in this review, but further review will be required in
+hensiveRFIDsolutiontoenhanceinpatientmedicationsafety.Int.J.Med.Inf.80,
+practice, especially as CDSS continue to evolve in complexity 13–24(2011).
+throughadvancesinAI,interoperability,andnewsourcesofdata. 26. Levtzion-korach,O.etal.Effectofbar-codetechnologyonthesafetyofmedi-
+cationadministration.N.Engl.J.Med.362,1698–1707(2010).
+Received:21February2019; Accepted: 19December2019; 27. van der Veen, W. et al. Association between workarounds and medication
+administrationerrorsinbar-code-assistedmedicationadministrationinhospi-
+tals.J.Am.Med.Inf.Assoc.25,385–392(2018).
+28. Eslami,S.etal.Effectsoftwodifferentlevelsofcomputerizeddecisionsupport
+onbloodglucoseregulationincriticallyillpatients.IntJ.Med.Inf.81,53–60
+(2012).
+REFERENCES
+29. Jia,P.,Zhang,L.,Chen,J.,Zhao,P.&Zhang,M.Theeffectsofclinicaldecision
+1. Osheroff,J.etal.ImprovingOutcomeswithClinicalDecisionSupport:AnImple- supportsystemsonmedicationsafety:anoverview.PLoSONE11,1–17(2016).
+menter’sGuide.(HIMSSPublishing,2012). 30. Kwok,R.,Dinh,M.,Dinh,D.&Chu,M.Improvingadherencetoasthmaclinical
+2. Sim,I.etal.Clinicaldecisionsupportsystemsforthepracticeofevidence-based guidelines and discharge documentation from emergency departments:
+medicine.J.Am.MedInf.Assoc.Jamia.8,527–534(2001). Implementationofadynamicandintegratedelectronicdecisionsupportsys-
+3. DeDombal,F.Computers,diagnosesandpatientswithacuteabdominalpain. tem.Emerg.Med.Australas.21,31–37(2009).
+Arch.Emerg.Med.9,267–270(1992). 31. Davis,D.A.&Taylor-Vaisey,A.Translatingguidelinesintopractice:asystematic
+4. Shortliffe,E.H.&Buchanan,B.G.Amodelofinexactresoninginmedicine.Math. reviewoftheoreticconcepts,practicalexperienceandresearchevidenceinthe
+Biosci.379,233–262(1975). adoptionofclinicalpracticeguidelines.Can.Med.Assoc.J.157,408–416(1997).
+5. Middleton, B., Sittig, D. F. & Wright, A. Clinical decision support: a 25 year 32. Michael, C., Rand, C. S., Powe, N. R., Wu, A. W. & Wilson, M. H. Why don’ t
+retrospective and a 25 year vision. Yearb. Med. Inform. 25(S 01), S103–S116 physicians follow clinical practice guidelines? a framework for improvement.
+(2016). Jama,.282,1458–1465(1999).
+6. Dias,D.Wearablehealthdevices—vitalsignmonitoring,systemsandtechnol- 33. Shortliffe,T.Medicalthinking:whatshouldwedo?http://www.openclinical.org/
+ogies.https://doi.org/10.3390/s18082414(2018). medicalThinking2006Summary2.html(2006).
+7. Berner, E. S. (Ed.). Clinical Decision Support Systems (Springer, New York, NY, 34. Lipton, J. A. et al. Impact of an alerting clinical decision support system for
+2007). glucosecontrolonprotocolcomplianceandglycemiccontrolintheintensive
+8. Osheroff,J.,Pifer,E.,Teigh,J.,Sittig,D.&Jenders,R.ImprovingOutcomeswith cardiaccareunit.DiabetesTechnol.Ther.13,343–349(2011).
+ClinicalDecisionSupport:AnImplementer’sGuide.(HIMS,2005). 35. Salem,H.etal.Amulticentreintegrationofacomputerledfollowupinsurgical
+9. Deo,R.C.Machinelearninginmedicine.Circulation132,1920–1930(2015). oncologyisvalidandsafe.BJUInt.https://doi.org/10.1111/bju.14157(2018).
+10. HITECH Act Enforcement Interim Final Rule. https://www.hhs.gov/hipaa/for- 36. HealthInformationTechnologyFoundationsModule28:ClinicalDecisionSupport
+professionals/special-topics/HITECH-act-enforcement-interim-final-rule/index. Basics.CarnegieMellonUniversityOpenLearningInitiative.https://oli.cmu.edu/
+html. jcourse/workbook/activity/page?context=e6f7c0b180020ca600c0f4e5957d6f8c.
+npjDigitalMedicine(2020) 17 ScrippsResearchTranslationalInstitute
+R.T.Suttonetal.
+9
+37. Embi,P.J.,Jain,A.,Clark,J.&Harris,C.M.Developmentofanelectronichealth 66. Esteva,A.etal.Dermatologist-levelclassificationofskincancerwithdeepneural
+record-basedClinicalTrialAlertsystemtoenhancerecruitmentatthepointof networks.Nature542,115(2017).
+care.AMIAAnnu.Symp.Proc.2005,231–235(2005). 67. Rajpurkar,P.etal.Chexnet:Radiologist-levelpneumoniadetectiononchestx-
+38. Calloway,S.,Akilo,H.&Bierman,K.Impactofaclinicaldecisionsupportsystem rayswithdeeplearning.arXivpreprintarXiv:1711.05225(2017).
+on pharmacy clinical interventions, documentation efforts, and costs. Hosp. 68. Hannun,A.Y.etal.FOCUS|LettersFOCUS|LettersCardiologist-levelarrhythmia
+Pharm.48,744–752(2013). detection and classification in ambulatory electrocardiograms using a deep
+39. McMullin,S.T.etal.Impactofanevidence-basedcomputerizeddecisionsup- neural network letters | FOCUS letters | FOCUS. Nat. Med. https://doi.org/
+port system on primary care prescription costs. Ann. Fam. Med. 2, 494–498 10.1038/s41591-018-0268-3(2019).
+(2004). 69. Erickson, B. J. Machine Intelligence in Medical Imaging (Society for Imaging
+40. Algaze,C.A.etal.Useofachecklistandclinicaldecisionsupporttoolreduces Informatics,SIIM,2016).
+laboratoryuseandimprovescost.Pediatrics137,e20143019(2016). 70. Keltch,B.,Lin,Y.&Bayrak,C.ComparisonofAItechniquesforpredictionofliver
+41. Pruszydlo,M.G.,Walk-Fritz,S.U.,Hoppe-Tichy,T.,Kaltschmidt,J.&Haefeli,W.E. fibrosisinhepatitispatientspatientfacingsystems.J.Med.Syst.https://doi.org/
+Developmentandevaluationofacomputerisedclinicaldecisionsupportsystem 10.1007/s10916-014-0060-y(2014).
+for switching drugs at the interface between primary and tertiarycare.BMC 71. Mørkrid,L.etal.Continuousage-andsex-adjustedreferenceintervalsofurinary
+Med.Inf.Decis.Mak.12,1(2012). markersforcerebralcreatinedeficiencysyndromes:anovelapproachtothe
+42. Bell,C.M.,Jalali,A.&Mensah,E.AdecisionsupporttoolforusinganICD-10 definitionofreferenceintervals.Clin.Chem.61,760–768(2015).
+anatomographer to address admission coding inaccuracies: a commentary. 72. Spyridonos,P.,Cavouras,D.,Ravazoula,P.&Nikiforidis,G.Acomputer-based
+OnlineJ.PublicHealthInform.5,222(2013). diagnosticandprognosticsystemforassessingurinarybladdertumourgrade
+43. Haberman,S.etal.Effectofclinical-decisionsupportondocumentationcom- andpredictingcancerrecurrence.Med.Inf.InternetMed.27,111–122(2002).
+plianceinanelectronicmedicalrecord.Obstet.Gynecol.114,311–317(2009). 73. Tsolaki,E.etal.Fastspectroscopicmultipleanalysis(FASMA)forbraintumor
+44. Turchin,A.,Shubina,M.&Gandhi,T.NLPforpatientsafety:splenectomyand classification:aclinicaldecisionsupportsystemutilizingmulti-parametric3TMR
+pneumovax.InProc.AMIA2010AnnualSymposium(2010). data.Int.J.Comput.AssistRadio.Surg.10,1149–1166(2015).
+45. McEvoy,D.,Gandhi,T.K.,Turchin,A.&Wright,A.Enhancingproblemlistdoc- 74. Davis,S.,Roudsari,A.,Raworth,R.,Courtney,K.L.&Mackay,L.Shareddecision-
+umentationin electronic health records using two methods: the example of making using personal health record technology: a scoping review at the
+prior splenectomy. BMJ Qual Saf. https://doi.org/10.1136/bmjqs-2017-006707 crossroads.J.Am.Med.Inf.Assoc.24,857–866(2017).
+(2017). 75. Fuji,K.T.etal.StandalonepersonalhealthrecordsintheUnitedStates:meeting
+46. BernerE.ClinicalDecisionSupportSystems:TheoryandPractice3rdedn.https:// patientdesires.HealthTechnol.2,197–205(2012).
+doi.org/10.1007/978-0-387-38319-4(2016). 76. Tang,P.C.,Ash,J.S.,Bates,D.W.,Overhage,J.M.&Sands,D.Z.Personalhealth
+47. Berner,E.S.Diagnosticdecisionsupportsystems:whyaren’ttheyusedmore records:definitions,benefits,andstrategiesforovercomingbarrierstoadop-
+andwhatcanwedoaboutit?AMIAAnnu.Symp.Proc.2006,1167–1168(2006). tion.J.Am.Med.Inf.Assoc.13,121–126(2006).
+48. Segal, M. M. et al. Experience with integrating diagnostic decision support 77. Wald,J.S.etal.Apatient-controlledjournalforanelectronicmedicalrecord:
+software with electronic health records: benefits versus risks of information issuesandchallenges.Stud.HealthTechnol.Inform.107(Pt2),1166–1170(2004).
+sharing.EGEMsGener.Evid.MethodsImprov.PatientOutcomes5,23(2017). 78. Hanauer, D. A., Preib, R., Zheng, K. & Choi, S. W. Patient-initiated electronic
+49. Kunhimangalam,R.,Ovallath,S.&Joseph,P.K.Aclinicaldecisionsupportsys- healthrecordamendmentrequests.J.Am.Med.Inf.Assoc.21,992–1000(2014).
+temwithanintegratedEMRfordiagnosisofperipheralneuropathy.J.Med.Syst. 79. Rosenbloom,S.T.etal.Triagingpatientsatriskofinfluenzausingapatient
+38,38(2014). portal.J.Am.Med.Inf.Assoc.19,549–554(2012).
+50. Martinez-Franco,A.I.etal.Diagnostic accuracy inFamilyMedicineresidents 80. Roehrs,A.,DaCosta,C.A.,DaRosaRighi,R.&DeOliveira,K.S.F.Personalhealth
+usingaclinicaldecisionsupportsystem(DXplain):arandomized-controlledtrial. records: A systematic literature review. J. Med. Internet Res. https://doi.org/
+Diagn.Berl.Ger.5,71–76(2018). 10.2196/jmir.5876(2017).
+51. Singh,H.,Schiff,G.D.,Graber,M.L.,Onakpoya,I.&Thompson,M.J.Theglobal 81. Benhamou, P. Y. Improving diabetes management with electronic health
+burdenofdiagnosticerrorsinprimarycare.BMJQual.Saf.26,484–494(2017). records and patients’ health records. Diabetes Metab. 37(Suppl. 4), S53–S56
+52. Singh,H.,Meyer,A.N.D.&Thomas,E.J.Thefrequencyofdiagnosticerrorsin (2011).
+outpatientcare:EstimationsfromthreelargeobservationalstudiesinvolvingUS 82. Kumar,R.B.,Goren,N.D.,Stark,D.E.,Wall,D.P.&Longhurst,C.A.Automated
+adultpopulations.BMJQual.Saf.23,727–731(2014). integrationofcontinuousglucosemonitordataintheelectronichealthrecord
+53. Razzaki,S.etal.Acomparativestudyofartificialintelligenceandhumandoctors usingconsumertechnology.J.Am.Med.Inf.Assoc.23,532–537(2016).
+forthepurposeoftriageanddiagnosis.arXivpreprintarXiv:1806.10698(2018). 83. Kilsdonk, E., Peute, L. W., Riezebos, R. J., Kremer, L. C. & Jaspers, M. W. M.
+54. Fraser, H., Coiera, E. & Wong, D. Safety of patient-facing digital symptom Uncovering healthcare practitioners’ information processing using the think-
+checkers.Lancet392,2263–2264(2018). aloudmethod:Frompaper-basedguidelinetoclinicaldecisionsupportsystem.
+55. Georgiou, A., Prgomet, M., Markewycz, A., Adams, E. & Westbrook, J. I. The Int.J.Med.Inf.86,10–19(2016).
+impact of computerized provider order entry systems on medical-imaging 84. Dowding,D.etal.Nurses’useofcomputerisedclinicaldecisionsupportsystems:
+services:asystematicreview.J.Am.Med.Inf.Assoc.18,335–340(2011). Acasesiteanalysis.J.Clin.Nurs.18,1159–1167(2009).
+56. Blackmore, C. C., Mecklenburg, R. S. & Kaplan, G. S. Effectiveness of clinical 85. Ash,J.S.,Sittig,D.F.,Campbell,E.M.,Guappone,K.P.&Dykstra,R.H.Some
+decisionsupportincontrollinginappropriateimaging.JACR8,19–25(2019). unintended consequences of clinical decision support systems. AMIA Annu
+57. DSS Inc. Radiology Decision Support (RadWise®). https://www.dssinc.com/ Symp.Proc.AMIASymp.AMIASymp.2007,26–30(2007).
+products/integrated-clinical-products/radwise-radiology-decision-support/. 86. Khalifa,M.&Zabani,I.Improvingutilizationofclinicaldecisionsupportsystems
+58. Giardino,A.etal.Roleofimagingintheeraofprecisionmedicine.Acad.Radiol. byreducingalertfatigue:Strategiesandrecommendations.Stud.HealthTech-
+24,639–649(2017). nol.Inform.226,51–54(2016).
+59. Oakden-rayner,L.etal.PrecisionRadiology:predictinglongevityusingfeature 87. VanLaere,S.etal.Clinicaldecisionsupportsystemsfordrugallergychecking:
+engineering and deep learning methods in a radiomics framework. Sci. Rep. systematicreview.https://doi.org/10.2196/jmir.8206(2018).
+https://doi.org/10.1038/s41598-017-01931-w(2017). 88. Wyatt,J.&Spiegelhalter,D.Fieldtrialsofmedicaldecision-aids:potentialpro-
+60. From Invisible to Visible: IBM Demos AI to Radiologists. https://www-03.ibm. blemsandsolutions.AmericanMedicalInformaticsAssociation.3–7.https://www.
+com/press/us/en/pressrelease/51146.ws.AccessedAug2019(2016). ncbi.nlm.nih.gov/pmc/articles/PMC2247484/(1991).
+61. Greenspan,H.,Ginnekenvan,B.&Summers,R.M.Guesteditorialdeeplearning 89. Goddard,K.,Roudsari,A.&Wyatt,J.Automationbias-Ahiddenissueforclinical
+inmedicalimaging:overviewandfuturepromiseofanexcitingnewtechnique. decisionsupportsystemuse.Stud.HealthTechnol.Inform.164,17–22(2011).
+IEEETrans.Med.Imaging35,1153–1159(2016). 90. Devaraj,S.,Sharma,S.K.,Fausto,D.J.,Viernes,S.&Kharrazi,H.Barriersand
+62. Suzuki, K. & Chen, Y. Artificial intelligence in decision support systems for facilitatorstoclinicaldecisionsupportsystemsadoption:asystematicreview.J.
+diagnosis in medical imaging. https://doi.org/10.1007/978-3-319-68843-5 BusAdm.Res.https://doi.org/10.5430/jbar.v3n2p36(2014).
+(2018). 91. Leslie,S.J.etal.Clinicaldecisionsupportsoftwareformanagementofchronic
+63. IBM Watson Health - IBM Watson for Oncology. https://www.ibm.com/ heart failure: Development and evaluation. Comput Biol. Med. 36, 495–506
+watson/health/oncology-and-genomics/oncology/. Accessed 25 Aug 2019 (2006).
+(2018). 92. Murray,E.etal.Whyisitdifficulttoimplemente-healthinitiatives?Aqualitative
+64. LunitInc.https://lunit.io/en/.AccessedAug2019(2018). study.ImplementSci.6,6(2011).
+65. Gulshan,V.etal.Developmentandvalidationofadeeplearningalgorithmfor 93. Lai,F.,Macmillan,J.,Daudelin,D.H.&Kent,D.M.Thepotentialoftrainingto
+detectionofdiabeticretinopathyinretinalfundusphotographs.JAMA-J.Am. increase acceptance and use of computerized decision support systems for
+Med.Assoc.316,2402–2410(2016). medicaldiagnosis.Hum.FactorsJ.Hum.FactorsErg.Soc.48,95–108(2006).
+ScrippsResearchTranslationalInstitute npjDigitalMedicine(2020) 17
+R.T.Suttonetal.
+10
+94. Ojeleye,L.Ensuringeffectivecomputerisedclinicaldecisionsupport.Prescriber 120. Marco-Ruiz, L. & Bellika, J. G. Semantic Interoperability in Clinical Decision
+27,54–56(2016). SupportSystems:ASystematicReview.Stud.HealthTechnol.Inf.216,958(2015).
+95. Cook,D.A.,Teixeira,M.T.,Heale,B.S.E.,Cimino,J.J.&DelFiol,G.Context- 121. Angraal,S.,Krumholz,H.M.&Schulz,W.L.Blockchaintechnology:applications
+sensitive decision support (infobuttons) in electronic health records: a sys- in health care. Circ. Cardiovasc. Qual. Outcomes https://doi.org/10.1161/
+tematicreview.J.Am.MedInf.Assoc.24,460–468(2017). CIRCOUTCOMES.117.003800(2017).
+96. Sujansky, W. Heterogeneous database integration in biomedicine. J. Biomed. 122. Ivan,D.Movingtowardablockchain-basedmethodforthesecurestorageof
+Inform.34,285–298(2001). patient records. ONC/NIST Use of Blockchain for Healthcare and Research
+97. Index-FHIRv3.0.1.(2018).https://www.hl7.org/fhir/index.html.AccessedJuly Workshop.Gaithersburg,Maryland,UnitedStates:ONC/NIST(2016).
+2019. 123. Eichner,J.&Das,M.ChallengesandBarrierstoClinicalDecisionSupport(CDS)
+98. Katehakis,D.G.TowardstheDevelopmentofaNationaleHealthInteroperability DesignandImplementationExperiencedintheAgencyforHealthcareResearch
+FrameworktoAddressPublicHealthChallengesinGreece.Proceedingsofthe andQualityCDSDemonstrations.AgencyHealthcRes.Qual.Website.29.https://
+First International Workshop on Semantic Web Technologies for Health Data healthit.ahrq.gov/sites/default/files/docs/page/CDS_challenges_and_barriers.
+Management,SWH@ISWC.2164,1–9(2018). pdf(2010).
+99. EHRIntelligence.5WaysStatesMandateHealthInformationExchange.https:// 124. Khalifa,M.Clinicaldecisionsupport:strategiesforsuccess.ProcediaComput.Sci.
+ehrintelligence.com/news/5-ways-states-mandate-health-information-exchange. 37,422–427(2014).
+AccessedAug2019(2015). 125. Sittig,D.F.ElectronicHealthRecords:ChallengesinDesignandImplementation.
+100. European Commission Report. Commission Recommendation on a European (CRCPress,2014).
+Electronic Health Record Exchange Format (C(2019)800) of 6 February 2019. 126. Harper,B.D.&Norman,K.L.ImprovingUserSatisfaction:TheQuestionnairefor
+https://ec.europa.eu/digital-single-market/en/news/recommendation- User Interaction Satisfaction Version5.5.Proceedings ofthe1stAnnualMid-
+european-electronic-health-record-exchange-form(2019). AtlanticHumanFactorsConference,(pp.224–228),VirginiaBeach,VA.(1993).
+101. Bresnick, J. HealthITAnalytics. Interoperability, Low Costs Make Cloud-Based 127. Lewis, J. R. The system usability scale: past, present, and future. Int J.Hum.-
+EHRs a Favorite. https://healthitanalytics.com/news/interoperability-low-costs- Comput.Interact.34,577–590(2018).
+make-cloud-based-ehrs-a-favorite.AccessedJuly2019(2015). 128. Lewis, J. R. IBM computer usability satisfaction questionnaires: psychometric
+102. Fernández-Cardeñosa,G.,DeLaTorre-Díez,I.,López-Coronado,M.&Rodrigues, evaluationandinstructionsforuse.IntJ.Hum.-Comput.Interact.7,57–78(1995).
+J.J.P.C.Analysisofcloud-basedsolutionsonEHRssystemsindifferentsce- 129. Lewis, J. R. Measuring perceived usability: the CSUQ, SUS, and UMUX. Int J.
+narios.J.Med.Syst.36,3777–3782(2012). Hum.-ComputInteract.34,1148–1156(2018).
+103. Rodrigues,J.J.P.C.,delaTorre,I.,Fernández,G.&López-Coronado,M.Analysis
+of the security and privacy requirements of cloud-based electronic health
+recordssystems.J.Med.InternetRes.15,e186(2013). ACKNOWLEDGEMENTS
+104. Kabachinski, J. A look at clinical decision support systems. Biomed. Instrum. The author’s (R.T.S.) work was supported by a Canada Institute of Health (CIHR)
+Technol.47,432–434(2013).
+ResearchGraduateScholarship(CGS-M).ThankyoutoNathanSternfordiscussion
+105. O’Reilly,D.,Tarride,J.-E.,Goeree,R.,Lokker,C.&McKibbon,K.A.Theeconomics
+andinitialreviewofthemanuscript.
+of health information technology in medication management: a systematic
+reviewofeconomicevaluations.J.Am.Med.Inf.Assoc.19,423–438(2012).
+106. Bright,T.J.etal.Effectofclinicaldecision-supportsystems:asystematicreview. AUTHORCONTRIBUTIONS
+Ann.InternMed.157,29–43(2012).
+107. Jacob,V.etal.Costandeconomicbenefitofclinicaldecisionsupportsystems R.T.S.reviewedtheliterature,draftedandrevisedthemanuscript.D.P.,D.C.S.,D.C.B.,
+(CDSS) for cardiovascular disease prevention: a community guide systematic K.I.K.,andR.N.F.providedcriticalinput,discussion,andrevisionofthemanuscript.All
+review.J.Am.Med.Inf.Assoc.Jamia.24,669–676(2017). authorsapprovedthefinalsubmittedversionofthemanuscript.
+108. Main,C.etal.Computeriseddecisionsupportsystemsinordercommunication
+fordiagnostic,screeningormonitoringtestordering:systematicreviewsofthe
+effectsandcost-effectivenessofsystems.HealthTechnol.Assess.14,1–227(2010). COMPETINGINTERESTS
+109. Scheepers-Hoeks, A. M., Grouls, R. J., Neef, C. & Korsten, H. H. Strategy for Theauthorsdeclarenocompetinginterests.
+implementationandfirstresultsofadvancedclinicaldecisionsupportinhos-
+pitalpharmacypractice.Stud.HealthTechnol.Inform.148,142–148(2009).
+110. Edlin,R.,McCabe,C.,Hulme,C.,Hall,P.&Wright,J.Costeffectivenessmodellingfor ADDITIONAL INFORMATION
+healthtechnologyassessment.https://doi.org/10.1007/978-3-319-15744-3(2015).
+CorrespondenceandrequestsformaterialsshouldbeaddressedtoK.I.K.
+111. Vermeulen,K.M.etal.Cost-effectivenessofanelectronicmedicationordering
+system(CPOE/CDSS)inhospitalizedpatients.IntJ.Med,Inf.83,572–580(2014).
+Reprints and permission information is available at http://www.nature.com/
+112. Okumura,L.M.,Veroneze,I.,Burgardt,C.I.&Fragoso,M.F.Effectsofacom- reprints
+puterized provider order entry and a clinical decision support system to
+improve cefazolin use in surgical prophylaxis: a cost saving analysis. Pharm. Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaims
+Pract.14,1–7(2016).
+inpublishedmapsandinstitutionalaffiliations.
+113. Osheroff,J.A.etal.Aroadmapfornationalactiononclinicaldecisionsupport.J.
+Am.Med.Inf.Assoc.14,141–145(2007).
+114. Greenes,R.A.ClinicalDecisionSupport2ndedn.TheRoadtoBroadAdoption
+https://doi.org/10.1016/B978-0-12-398476-0.00035-X(2014). Open Access This article is licensed under a Creative Commons
+115. Bonney,W.Impactsandrisksofadoptingclinicaldecisionsupportsystems.In: Attribution 4.0 International License, which permits use, sharing,
+Efficient Decision Support Systems - Practice and Challenges in Biomedical
+adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+RelatedDomain.IntechOpenhttps://doi.org/10.5772/711(2011).
+appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+116. Bates,D.W.etal.Tencommandmentsforeffectiveclinicaldecisionsupport:
+Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+makingthepracticeofevidence-basedmedicineareality.J.Am.Med.Inf.Assoc. materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+10,523–530(2003).
+indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+117. Kawamoto, K. Improving clinical practice using clinical decision support sys- article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+tems:asystematicreviewoftrialstoidentifyfeaturescriticaltosuccess.Bmj
+regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectly
+330,765–0(2005).
+fromthecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.
+118. HealthLevelSevenInternational-Homepage.http://www.hl7.org/.Accessed29
+org/licenses/by/4.0/.
+Aug2019(2018).
+119. IHTSDO.HistoryofSNOMEDCT.Ihtsdo.http://www.ihtsdo.org/snomed-ct/what-
+is-snomed-ct/history-of-snomed-ct(2015). ©TheAuthor(s)2020
+npjDigitalMedicine(2020) 17 ScrippsResearchTranslationalInstitute

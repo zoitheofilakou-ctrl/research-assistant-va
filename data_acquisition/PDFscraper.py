@@ -1,9 +1,16 @@
 import os
 import json
 import time
+import sys
 import requests
 import pdfplumber
 from langdetect import detect, DetectorFactory
+
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
+from project_paths import HARVESTED_PDFS_DIR, METADATA_PATH, ensure_dir
 
 # Set a fixed seed for langdetect to ensure deterministic results across different runs
 DetectorFactory.seed = 0
@@ -50,7 +57,7 @@ def is_valid_pdf(file_path):
     except Exception as e:
         return False, f"Integrity check failed: {str(e)}"
 
-def download_paper_pdfs(json_file_path="../data/hybrede_metadata_v5.json", output_folder="../data/harvested_pdfs"):
+def download_paper_pdfs(json_file_path=METADATA_PATH, output_folder=HARVESTED_PDFS_DIR):
     """
     Orchestrates the metadata-driven download process. 
     Implements filename truncation to prevent OS-level path length errors in the RAG module.
@@ -63,7 +70,7 @@ def download_paper_pdfs(json_file_path="../data/hybrede_metadata_v5.json", outpu
 
     # Initialization: Create the target data directory if it does not exist
     if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+        ensure_dir(output_folder)
         print(f"[*] Initializing directory: {output_folder}")
 
     # Data Loading: Parse the metadata 'Source of Truth'

@@ -1,0 +1,439 @@
+npj | digita l medicine Article
+PublishedinpartnershipwithSeoulNationalUniversityBundangHospital
+https://doi.org/10.1038/s41746-024-01091-y
+Optimization of hepatological clinical
+guidelines interpretation by large
+language models: a retrieval augmented
+generation-based framework
+Checkforupdates
+SimoneKresevic1,2,4 ,MauroGiuffrè 2,4 ,MilosAjcevic1,AgostinoAccardo1,LoryS.Crocè3&
+DennisL.Shung2
+Largelanguagemodels(LLMs)canpotentiallytransformhealthcare,particularlyinprovidingtheright
+informationtotherightproviderattherighttimeinthehospitalworkflow.Thisstudyinvestigatesthe
+integrationofLLMsintohealthcare,specificallyfocusingonimprovingclinicaldecisionsupport
+systems(CDSSs)throughaccurateinterpretationofmedicalguidelinesforchronicHepatitisCVirus
+infectionmanagement.UtilizingOpenAI’sGPT-4Turbomodel,wedevelopedacustomizedLLM
+frameworkthatincorporatesretrievalaugmentedgeneration(RAG)andpromptengineering.Our
+frameworkinvolvedguidelineconversionintothebest-structuredformatthatcanbeefficiently
+processedbyLLMstoprovidethemostaccurateoutput.Anablationstudywasconductedtoevaluate
+theimpactofdifferentformattingandlearningstrategiesontheLLM’sanswergenerationaccuracy.
+ThebaselineGPT-4Turbomodel’sperformancewascomparedagainstfiveexperimentalsetupswith
+increasinglevelsofcomplexity:inclusionofin-contextguidelines,guidelinereformatting,and
+implementationoffew-shotlearning.Ourprimaryoutcomewasthequalitativeassessmentof
+accuracybasedonexpertreview,whilesecondaryoutcomesincludedthequantitativemeasurement
+ofsimilarityofLLM-generatedresponsestoexpert-providedanswersusingtext-similarityscores.The
+resultsshowedasignificantimprovementinaccuracyfrom43to99%(p<0.001),whenguidelines
+wereprovidedascontextinacoherentcorpusoftextandnon-textsourceswereconvertedintotext.In
+addition,few-shotlearningdidnotseemtoimproveoverallaccuracy.Thestudyhighlightsthat
+structuredguidelinereformattingandadvancedpromptengineering(dataqualityvs.dataquantity)
+canenhancetheefficacyofLLMintegrationstoCDSSsforguidelinedelivery.
+Largelanguagemodels(LLMs)havethepotentialtoimprovehealthcaredue andcurrentevidencefromclinicaltrialsandareusedtodriveimprovements
+to their capability to parse complex concepts and generate appropriate inpatientoutcomesthroughbestpractices6,7.
+responses.LLMshavedemonstratedproficiencyintasksacrossthespec- LLMshaveenjoyedwidepublicuptake,especiallyOpenAI’sChatGPT
+trumofclinicalactivity,suchasmedicalinquiryresponses,dialoguesys- (https://openai.com/blog/chatgpt),whichenrolledover100millionusers
+tems,andthesynthesisandcompletionofclinicalreports1–5.Onepotential withintwomonthsofitsrelease8,9.ThewidespreaduseofChatGPTallowed
+high-valueareaforLLMsistheabilitytopromoteevidence-basedpractice simpleanduser-friendlyuseofgenerativeartificialintelligenceforreal-life
+throughprovidingclinicaldecisionsupportsystems(CDSSs)accordingto scenariosandacademicresearch.However,aprimaryconcernforLLMs
+currentmedicalguidelines,whicharedistillationsofbothexpertopinion applicationinhealthcareisthepotentialriskofinaccurateresponses(e.g.,
+1DepartmentofEngineeringandArchitecture,UniversityofTrieste,Trieste,Italy.2DepartmentofMedicine(DigestiveDiseases),YaleSchoolofMedicine,Yale
+University,NewHaven,CT,USA.3DepartmentofMedical,Surgical,andHealthSciences,UniversityofTrieste,Trieste,Italy.4Theseauthorscontributedequally:
+SimoneKresevic,MauroGiuffrè. e-mail:simone.kresevic@phd.units.it;mauro.giuffre@yale.edu
+npjDigitalMedicine| ( 2024) 7:102 1
+;,:)(0987654321 ;,:)(0987654321
+https://doi.org/10.1038/s41746-024-01091-y Article
+“hallucinations”)thatmayleadtopatientharm10.Inclinicalapplications,a promptengineeringledtoanimprovementinaccuracyof99.0%(vs.43.0%;
+proposedframeworkforutilizingLLMsisbasedonadherencetothethree p<0.001),withnofurtherimprovementdespitefew-shotlearningwith54
+principles of Honesty, Helpfulness, and Harmlessness (the HHH question-answerpairs(Table1,Fig.1).
+principle)11.ToalignLLMstotheHHHprinciple,specificstrategiesmustbe Fortext-basedquestions,thecustomizedframeworkachieved100%
+undertakentobindtheirresponsestoaspecificsetofdomainknowledge, overall accuracy, which was better than GPT-4 Turbo alone (100% vs.
+suchasretrievalaugmentedgeneration(RAG)12orsupervisedfine-tuning 62.0%;p<0.001).Incorporatingin-contextguidelinesimprovedaccuracy
+(SFT) followed by Reinforcement Learning with Human Feedback (86.0%vs.62.0%;p=0.01);aftercleaningthetextandconversionoftables
+(RLHF)13. Both RAG and SFT guide output generation according to a fromimagesto.csv,furtherimprovementinaccuracywasachievedwithno
+domain-specificdatasetofinformationthat,forclinicalapplications,could furtherimprovementafterformattingthetextintoaconsistentstructure
+be represented by medical guidelines. However, the format of clinical and converting tables into text-based lists (90.0% vs. 62.0%; p=0.002).
+guidelinesissubjecttobroadvariations(e.g.,generalstructure,locationof Addingcustompromptengineeringresultedin100%accuracy(100%vs.
+recommendations,tableformat,andflowcharts)thatcanaffecttheproper 62.0%;p<0.001)withequivalentperformanceafterfew-shotlearningwith
+interpretationorretrievalofrelevantinformation. 54question-answerpairs(100%vs.62.0%;p<0.001).
+While the integration of LLMs in healthcare shows promise, the Fortable-basedquestions,thecustomizedframeworkachieved96.0%
+challengeofensuringaccurateinterpretationofclinicalguidelinesbecomes overall accuracy, which was better than GPT-4 Turbo alone (96.0% vs.
+particularlyrelevantinthecontextofmanagingwidespreadchronicdiseases 28.0%;p<0.001).Incorporatingin-contextguidelinesimprovedaccuracy
+suchasHepatitisCVirus(HCV)infection.Newantiviraltherapiessuc- (44.0%vs.28.0%;p=0.38);aftercleaningthetextandconversionoftables
+cessfullyeradicatethedisease,withmultipleregimensdemonstrating>90% fromimagesto.csv,accuracyreached60.0%(vs.28.0%;p=0.046)witha
+efficacyandeffectiveness14.HCVmanagementhasbeencodifiedinmultiple substantialimprovementafterconvertingtablesinto text-basedlistsand
+guidelinesthatdistilltheresultsfromtheavailablerandomizedcontrolled formattingthetextintoaconsistentstructure(96.0%vs.28.0%;p<0.001)
+trialstorecommendbestpracticesinchronicHCVdiagnosisandtreatment. withsimilarperformanceinExperiments4and5asreportedinTable1.
+However,adherencetoguidelinesrangesfrom36–54%forscreeningand Thecustomizedframeworkachieved100%overallaccuracyforclinical
+managing chronic HCV infection15,16. There is a need for scalable and scenarios, which was better than GPT-4 Turbo alone (100% vs. 20.0%;
+reliablesolutionstoprovideguideline-recommendedcareandbridgethe p<0.001).Incorporatingin-contextguidelinesimprovedaccuracy(52.0%
+gapinadherence,especiallyconsideringtheWorldHealthOrganization’s vs.20.0%;p=0.039);aftercleaningthetextandconversionoftablesfrom
+goaltoeliminateHepatitisCby203017. imagesto.csv,accuracyreached72.0%(vs.20.0%;p<0.001)withasub-
+WepresentanovelLLMframeworkintegratingclinicalguidelineswith stantialimprovementafterconvertingtablesintolistsandformattingthe
+RAG,promptengineering,andtextreformattingstrategiesforaugmented text into a consistent structure (84.0% vs. 20.0%; p<0.001). Finally, the
+textinterpretationthatsignificantlyoutperformsthebaselineLLMmodelin addition of custom prompt engineering achieved an accuracy of 100%
+producingaccurateguideline-specificrecommendations,withtheprimary (vs. 20.0%; p<0.001), with no further improvement despite few-shot
+outcome of qualitatively measuring accuracy based on manual expert learningwith54question–answerpairs.
+review.Wealsoapplyquantitativetext-similaritymethods18–21tocompare Wheninaccurateoutputswerereviewedforhallucinations,wefound
+thesimilarityoftheLLMoutputtoexpert-generatedresponses. 112 (90.3%) fact-conflicting hallucinations (FCH) and 12 (9.7%) input-
+conflictinghallucinations(ICH)acrossallexperiments.Hallucinationtype
+Results anddistributionacrosseachexperimentarereportedinTable2.Wedidnot
+Outputaccuracyanalysis findcontextual-conflictinghallucinations(CCH)inanyofourexperiments.
+ThecustomizedLLMframeworkachieved99.0%overallaccuracy,which
+was significantly better than the GPT-4 Turbo alone (99.0% vs. 43.0%; Text-similarityanalysis
+p<0.001).Incorporatingin-contextguidelinesimprovedaccuracy(67.0% Forthesecondaryoutcomes,wefounddifferencesinthecustomizedLLM
+vs. 43.0%; p=0.001). When the in-context guidelineswere cleaned, and frameworkcomparedtothebaselineacrosssimilarityscores(BLEUscore,
+tableswereconvertedfromimagesto.csvfiles,accuracyimprovedto78.0% ROUGE-LCSF1,METEORScoreF1,andourCustomOpenAIScore)forall
+(vs.43.0%;p<0.001);aftertheguidelineswereformattedwithaconsistent questions(Table3).Thescoreaveragevaluesfortext-basedandtable-based
+structureandtableswerere-formattedtotext-basedlists,accuracyfurther questions,clinicalscenarios,andgraphicaldistributionsofeachscoreare
+improvedto90.0%(vs.43.0%;p<0.001).Finally,theadditionofcustom reportedinSupplementaryTable2andSupplementaryFig.1,respectively.
+Table1|Qualitativeevaluationofaccuracybasedonhumanexpertgradingofeachansweracrossallexperimentalsettings
+Metrics Baseline Experiment1 Experiment2 Experiment3 Experiment4 Experiment5
+Allquestions:
+Accuracy 43.0% 67.0% 78.0% 90.0% 99.0% 99.0%
+StatisticalSignificance p=0.001 p<0.001 p<0.001 p<0.001 p<0.001
+Text-basedquestions:
+Accuracy 62.0% 86.0% 90.0% 90.0% 100.0% 100.0%
+Statisticalsignificance p=0.012 p=0.002 p=0.002 p<0.001 p<0.001
+Table-basedquestions:
+Accuracy 28.0% 44.0% 60.0% 96.0% 96.0% 96.0%
+Statisticalsignificance p=0.377 p=0.046 p<0.001 p<0.001 p<0.001
+Clinicalscenariosquestions:
+Accuracy 20.0% 52.0% 72.0% 84.0% 100.0% 100.0%
+Statisticalsignificance p=0.039 p<0.001 p<0.001 p<0.001 p<0.001
+Statisticaltestingisbasedonpairwisecomparison(Chi-SquaredTest)betweeneachexperimentalsettingandthebaseline.
+npjDigitalMedicine| ( 2024) 7:102 2
+https://doi.org/10.1038/s41746-024-01091-y Article
+Fig.1|Qualitativeevaluationofaccuracyamongallexperimentsfrombaseline. testingisbasedonpairwisecomparison(Chi-SquaredTest)betweeneachexperi-
+aAccuracyforallquestions.bAccuracyonlyfortext-basedquestions.cAccuracyfor mentalsettingandthebaseline.
+table-basedquestions.dAccuracyforclinicalscenario-basedquestions.Statistical
+Discussion friendly clinical guidelines that achieves near-perfect accuracy and out-
+Integrating LLMs into CDSSs may revolutionize healthcare delivery by performsGPT-4Turboaloneforansweringquestionsaboutthemanage-
+leveragingnaturallanguageprocessingtointerpretclinicaldocumentation, ment of HCV infection. The baseline GPT-4 Turbo showed an overall
+aligningLLM-generatedrecommendationswithcurrentmedicalresearch accuracyof43.0%,consistentwithotherstudiesqueryingLLMsforman-
+andbestpractices22,23(Fig.2).Forinstance,alocallyhostedLLMmightbe agement questions related to gastroenterology and hepatology, ranging
+grantedaccesstopatient-specificdata.Thisdatacanbeintegratedintoa from25to90%24–37.Thissuggestedthatthemodel’sbaseknowledgewas
+tailoredpromptdesignedtoidentifythemostappropriatetreatmentplan imperfectdespitehavingaccesstoinformationuptoApril202338.
+for a specific patient. The LLM, will have contemporary access to the OurfindingsalsohighlightthedifficultyofLLMstoparsetables,witha
+guidelinesandprovidearecommendationontreatmentbasedonguideline clearimprovementinperformanceaftertableswereconvertedtotext-based
+knowledge.However,beforehavingLLM-aidedCDSSs,itisnecessaryto lists,suggestingthatinformationcannotberetrievedaccuratelyfromnon-
+definethebestguidelinesformatthatcanmaximizeoutputaccuracy. textsources.ThedifficultyofLLMstoparsetablesisaknownlimitation39,
+We demonstrate the performance of our proposed framework in a and acritical technicalissue that should be addressed since the medical
+subsetofthepotentialquestionsthatcouldbeaskedbyphysiciansmanaging literatureoftencontainstableswithimportantinformationforclinicians.
+patientswithchronicHCV.WeidentifiedanoptimalframeworkforLLM- Modern LLMs such as GPT-4, according to their multimodal cap-
+abilitiesandcontextsensitivity,caninterpretinputsfrombothimagesand
+textualelements40.OpenAIhasnotedthatGPT-4wastestedondifferent
+Table2|Hallucinationstypeanddistributionacrossall benchmarksontextual,graphical,andvisualelements(ChartQA41,AI2D42,
+experiments DocVQA43, Infographic VQA44) with an accuracy range from 75.1% to
+88.4% redefined the previously best models in these benchmarks which
+Hallucination Total Fact- Input- Contextual-
+conflicting conflicting conflicting
+rangedfrom61.2%to88.4%40.DespiteGPT-4becomingstateoftheartin
+graphical-contextinterpretation,wedemonstratethatitcannotinterpret
+BASELINE 57 48(84.2%) 9(15.8%) -
+thenon-textsourcesreportedintheHCVguidelines,showing16.0%overall
+Experiment1 33 30(90.9%) 3(9.1%) -
+accuracy in extracting pertinent information (as described in detail in
+Experiment2 22 22(100%) - - SupplementaryNote1).Inaccuraciesingraphicalelementsinterpretation
+Experiment3 10 10(100%) - - canresultinthelossofcriticalinformationandcontextwhenconverting
+non-textsourcesintoareadableformatforLLMs,whichlikelyaffectedthe
+Experiment4 1 1(100%) - -
+GPT-4Turbo’sabilitytoaccuratelyinterpretandreasonwiththeinfor-
+Experiment5 1 1(100%) - -
+mationcontainedinnon-textsources.Thisfactor,coupledwiththechal-
+Interestingly,thetwogradersdidnotfindanycontextual-conflictinghallucinationinanyLLM-
+lengeofcontextretentionacrossthesegmenteddatainnon-textsources,
+generatedoutputs. could have contributed to the lower performance in “reasoning and
+npjDigitalMedicine| ( 2024) 7:102 3
+https://doi.org/10.1038/s41746-024-01091-y Article
+Table3|Evaluationoftext-to-text-similaritybetweenLLM-generatedoutputsandhumanexpert-providedanswersusedasthe
+goldstandardacrossallquestions
+Metrics Baseline Experiment1 Experiment2 Experiment3 Experiment4 Experiment5
+BLEUscore:
+Mean(±SD) 0.025(±0.023) 0.095(±0.088) 0.111(±0.143) 0.101(±0.094) 0.140(±0.119) 0.124(±0.073)
+Significance p<0.001 p<0.001 p<0.001 p<0.001 p<0.001
+ROUGE-LCSF1:
+Mean(±SD) 0.201(±0.053) 0.334(±0.120) 0.347(±0.138) 0.336(±0.114) 0.345(±0.119) 0.359(±0.095)
+Significance p<0.001 p<0.001 p<0.001 p<0.001 p<0.001
+METEORscoreF1:
+Mean(±SD) 0.308(±0.059) 0.417(±0.104) 0.429(±0.126) 0.408(±0.101) 0.428(±0.115) 0.421(±0.081)
+Significance p<0.001 p<0.001 p<0.001 p<0.001 p<0.001
+CustomOpenAIScore:
+Mean(±SD) 0.939(±0.016) 0.954(±0.017) 0.956(±0.018) 0.956(±0.016) 0.957(±0.013) 0.958(±0.017)
+Significance p<0.001 p<0.001 p<0.001 p<0.001 p<0.001
+Statisticaltestingisbasedonpairwisecomparison(Mann–WhitneyUTest)betweeneachexperimentalsettingandthebaseline.
+Fig.2|Exampleofaclinicaldecisionsupportsystemintegratedwithlarge EHR.Afterward,thestandardizedpromptisqueriedtotheLLM,whichhasaccessto
+languagemodels.WhenapatientisbeingevaluatedforHCVtreatment,thedoctor therelevantguidelinestorecommendthemostappropriatetreatment.HCV
+prescribesseveraltests(laboratoryandimaging),whoseresultsarestoredinthe HepatitisCvirus,EHRelectronichealthrecord,RAGretrievalaugmentedgenera-
+institutionalEHRsystem.ThelocallyhostedLLMhasastandardizedclinicalsce- tion,LLMlargelanguagemodel.
+nariopromptwithlaboratoryandimagingvaluesthataredirectlyextractedfrom
+interpretation”tasks.Theseresultsimplythattheinformationpresentinthe withexpert-gradedqualitativeaccuracy.Thishasalsobeenreportedinother
+guidelinesshouldbepresentedastext(i.e.,inLLM-friendlyformat)tobe studies18–21,48 and may be explained by the fact that these scores were
+efficientlyandaccuratelyretrievedandinterpretedbyLLMs. developed to measure word overlap, sentence structure similarity, and
+Wefoundthatthesimilarityscores(BLEU45,ROUGE-L46,METEOR47, semantic coherence and not factual correctness. For clinical questions,
+andacustomOpenAIscore)calculatedbetweenoutputgeneratedbyGPT-4 factual correctness is the most important feature. This is an important
+Turboandthefreetextexpertanswersdonotnecessarilyreflectdifferences challengethatshouldbeaddressedsincecurrentresponsescouldappear
+in expert-graded qualitative accuracy. We found statistically significant lexicallycomparabletoareferenceanswerbutfailtocapturethefactual
+differencesacrossallsimilaritymetricswhentheoutputsofthein-context informationnecessarytoguideclinicalcare.Thiscanresultinhighscores
+guidelineexperimentswerecomparedtothebaselineoutputsasreportedin forresponsesthatarefactuallyincorrect(falsepositives)orlowscoresfor
+Table3.Importantly,whenweevaluatedthein-contextguidelineexperi- accurate responses that are phrased differently than the reference (false
+ments,wefoundnoclearcorrelationwiththechangeinsimilaritymetrics negatives).Whileusefulforcertainaspectsofevaluation,thesemetricsfailto
+npjDigitalMedicine| ( 2024) 7:102 4
+https://doi.org/10.1038/s41746-024-01091-y Article
+capture the nuances of medical relevance, completeness, and contextual Standardizedpromptscreation
+correctnessintheanswersprovidedbytheLLM.Thislimitationunder- Two expert hepatologists (M.G. and L.S.C.) drafted 20 representative
+scoresthepersistentneedforexpertphysicianoversightintheevaluation questions(Table4).Fifteenquestionsaddressedscreeningandmanagement
+process (i.e., human-in-the-loop), with automated grading of LLM- recommendationsfromeachofthemajorsections,includingtheguideline
+generatedresponsesstillbeinganunresolvedchallenge. maintext(10questions)andgraphicaltables(5questions).Tablesarea
+Wealsofoundthatfew-shotlearningdidnotimproveperformance standardfeatureofclinicalguidelinesandsummarizerecommendationsin
+aboveandbeyondin-contextlearning,textformatting,tableconversion, specific ways that may not be reflected in the text. In addition, the two
+andpromptengineering(Fig.1).Thissuggeststhatthemodel’szero-shot expertsdraftedfivecomprehensiveclinicalcases,eachreflectingdifferent
+queryingcapabilitieswerealreadyrobustwithoutrequiringfew-shotstra- HCV-related management strategies, including best treatment selection,
+tegies,whichwaspreviouslydescribedbyreportingdifferentone-shotvs. drug–drug interaction, and management of treatment severe adverse
+few-shot49,50. reactions.Allthequestionsarestructuredtotestreasoningandcompre-
+Ourworkislimitedbyseveralfactors.Firstly,weonlyinvestigatethe hensionfromboththemaintextandtables.
+applicationofLLMinthescreening,diagnosis,andmanagementofone
+diseaseacrossthespectrumofhepatology.However,ourquestionswere Ablationstudy:customizedLLMframework
+representativeofeverysectionintheguideline,coveringeachmajorareaof WeusedacombinationofRAGusingEASLHCVguidelines,indifferent
+clinicalmanagement.Secondly,weraneachquestionforalimitednumber experimental settings with increasing degrees of complexity regarding
+of iterations, with the performance being consistently excellent across guidelinereformatting,promptarchitecture,andfew-shotlearningtocreate
+multipleexperiments.Wedonotvarythetemperaturesettingforeachofthe acustomizedframeworkappliedtotheGPT-4Turbomodel(releasedby
+questionsandstagesoftheablationstudy.Wehadlimitedresourcestotest OpenAI,inNovember2023withknowledgeupdateduntilApril202338).
+theframework,thoughweacknowledgethattheperformancemaydiffer ExperimentswiththeOpenAI’sApplicationProgrammingInterface(API)
+withchangesinthetemperatureparameter.Finally,wedonotevaluatethe v.1.17cannotdirectlyretrieveinformationfrom.pdffiles.Therefore,the
+performance of our framework with other LLMs, such as LlaMA51 or originalpdfguidelinesdocumentwasconvertedtoa.txtfilewithUTF-8
+PaLM52.Whiletheseothermodelsareusedformanytasks,moststudies encodingusingthePython(v.3.11)libraryPyPDF2v3.0.
+usingLLMingastroenterologyandhepatologyhaveemployedGTP3.5and Wecarriedoutanablationstudyfromthebaseline(Experiments1
+GPT-4.024–37. through5)toinvestigatehowdifferentsettingsinguidelinereformat-
+In a recent study, Jin et al. developed LiVersa53, a liver disease- ting,promptarchitecture,andfew-shotlearningimpacttheaccuracy
+specificLLMusingRAGandguidelinesfromtheAmericanAssociation androbustnessofLLMoutputs(Fig.3).Itisstillunknownhownon-text
+fortheStudyoftheLiver(AASLD),whichshowednotablelimitationsin sources(e.g.,graphicaltablesandflowcharts)areprocessedbyLLMs
+providing completely accurate answers, especially in complex clinical andwhethertheinformationextractedisaccurate.Therefore,weper-
+scenarios. Also, from their methodology, it is unclear how they con- formedpreliminaryexperimentstotesttheaccuracyoftheGPTimage
+verted guidelines into text, the chunking strategy (which we do not conversionprocess(SupplementaryNote1)andfoundverylowaccu-
+employinourframework),andtheiraccuracyassessmentsandlackof racy(16.0%)inextractingpertinenttableinformation,withaccuracy
+dataonoutputaccuracyrates.Therefore,despitethesimilaraims,we rangingfrom0%(graphicaltables)to48.0%(onlytexttables).Inlightof
+cannotcompareourstudyfindings. these findings, we introduced text conversion of tables (non-text
+WepresentanovelLLMframeworktogenerateanswerstocomplex sources) into text-based lists and tested their impact on accuracy in
+clinicalquestionswithhighaccuracy,drawingfromestablishedguidelines Experiments3,4,and5.
+forHCVmanagement.WehighlightthecurrentlimitationsinLLMnon-
+text sources interpretation and the benefit of in-context structured re- Baseline.UseofthefoundationalGPT-4Turbowithoutanycontext.For
+formatted guidelines with accompanied prompt engineering to guide this experiment, we only provided the questions without any further
+understandingoftheunderlyingtextstructure. instruction.
+Inconclusion,ourresultssuggestthatLLMslikeGPT-4Turbo are
+suitableforparsingclinicalguidelines,butthattheireffectivenesscanbe Experiment 1. Use of the foundational GPT-4 Turbo with guidelines
+enhancedbystructuredformattingstrategies,promptengineering,andtext uploaded in context after pdf-to-text conversion in UTF-8 encoding
+conversionofnon-textsources.Moreover,ourfindingssuggestthatwith withoutanyadditionaltextcleaningprocesses.
+appropriate reformatting, few-shot learning may not increase overall
+accuracy. We highlight the need for further research to enhance LLM’s Experiment 2. Use of the foundational GPT-4 Turbo with guidelines
+abilitytoparsenon-textsourcesandvalidatenewmetricstoevaluatenot uploadedincontextafterbeingmanually cleanedwiththeremovalof
+onlysimilaritybutalsoaccuracyforclinicalLLMapplications. non-informativedata(e.g. pageheader andbibliography). Tablespre-
+sentedasimagesintheoriginaltextweremanuallyconvertedinto.csv
+Methods filesandthenprovidedascontext.
+Guidelinesselection
+WeanalyzedthecurrentHCVguidelinesfromtheprominentNorthern Experiment 3. Use of the foundational GPT-4 Turbo with guidelines
+AmericanandEuropeanliverassociations.Amongthese,weselectedthe uploadedascontextthatwerecleanedandformattedtoprovideacon-
+EuropeanAssociationfortheStudyoftheLiver(EASL)ontheHepatitis sistent structure alongside the whole document. In addition, we con-
+CVirus,entitled“EASLrecommendationsontreatmentofhepatitisC: vertedalltablesfrom.csvfilesintotext-basedlistsandincludedthemin
+Finalupdateoftheseries”publishedin202054,toexploreourframework. themaintext.Eachparagraphtitlewasprecededby“ParagraphTitle”.All
+The selected guideline comprised the most complex corpus of text theparagraphrecommendationswerecollectedandorganizedintoalist
+containingbroadrecommendationsonscreeningandmanagement.In precededby“ParagraphRecommendations”.Evidencereportedinthe
+addition,thedocumentcontainedin-depthinformationondrug-drug maintextwasorganizedandprecededby“ParagraphText”.
+interactions, which was not reported in the Northern American55,56
+guidelines.Wealsotestedourframeworkonspecificquestionsthatwere Experiment 4. Use of the foundational GPT-4 Turbo with guidelines
+not addressed in the European guidelines using the most up-to-date uploadedascontextthatwerecleanedandformatted,withtablescon-
+Northern American HCV guidelines (as reported in Supplementary vertedintotext-basedlists.Wealsoprovidedaseriesofprompts(i.e.,
+Note3,SupplementaryTable3,SupplementaryTable4,Supplementary promptengineering)thatinstructedthemodelonhowtointerpretthe
+Fig.3,SupplementaryFig.4). structuredguidelines(SupplementaryTable1).
+npjDigitalMedicine| ( 2024) 7:102 5
+https://doi.org/10.1038/s41746-024-01091-y Article
+Table4|Listofquestions
+Text-basedquestions
+1. AscreeningbloodtestbeforeakneereplacementsurgeryrevealedapositiveHCVantibody—whattestshouldbeperformedtoconfirmHCVinfection?
+2. WhenapatientwithHCVcanbeconsideredcuredafterHCVtherapy?
+3. IsthereanymajorcontraindicationtoHCVtherapy?
+4. Isitpossibletoapplytreatmentwithoutdetermininggenotypeusinggrazoprevir/elbasvir?
+5. WhataretherecommendedtreatmentregimensanddurationforapatientwithHCVgenotype3andnocirrhosis?
+6. ApatientonthetransplantationlistforHCCanddecompensatedlivercirrhosisshouldbetreatedbeforeoraftertransplantation.
+7. ShouldpatientswithHCV-positivepatientsbelistedforkidneytransplanttreated?Ifyes,why?
+8. PatientswithfibrosisF3,accordingtoelastography,shouldbecontinuingHCCscreeningaftersuccessfulHCVeradication?
+9. IsHCVtreatmentduringpregnancyrecommended?
+10. WhenshouldchildrenbornbyanHCV-positivemotherbetestedforHCVinfection?
+Table-basedquestions
+11. Whattestcanbeusedtoassesstheliverdiseaseseveritybeforetreatment?
+12. IsthereanyinteractionbetweencyclosporineandDAAs?
+13. IsthereanyinteractionbetweenapixabanandDAAs?
+14. AmonganticoagulantsandantiplateletswhichistheonemedicationwiththelowestriskofinteractionswithDAAs?
+15. WhatanticonvulsantsareathigherriskofinducingdruginteractionswithDAAs?
+Clinicalscenarios
+16. A45-year-oldmalewithanunremarkablemedicalhistorywasscheduledforaroutineinguinalherniasurgery.Aspartofthepreoperativeevaluation,hewastestedfor
+hepatitisCvirus(HCV)antibodies,whichreturnedpositive.SubsequentHCVRNAtestingconfirmedactiveinfection,andgenotypingidentifiedthevirusasHCV
+genotype1a.ThepatienthadnopriorknowledgeofhisHCVstatusandhadneverbeentestedortreatedforhepatitisC.Beforeinitiatingtreatment,aliverelastography
+wasperformedtoassessliverhealth,yieldingaliverstiffnessmeasurementof5kPa.Whatistherecommendedtreatmentforthispatient(drugsandduration)?
+17. A55-year-oldpatient,previouslylosttofollow-up,returnstotheliverclinicwithahistoryoffailedinterferon-basedtherapyforHCVgenotype3.Recentlaboratory
+testsconfirmactiveHCVinfectionwithgenotype3,accompaniedbyelevatedliverenzymes(AST:100IU/L,ALT:150IU/L).Additionallaboratoryresultsinclude
+bilirubinat1.2mg/dL,creatinineat0.87mg/dL,albuminat3.9g/dL,andanINRof1.10.Liverelastographyshowsaliverstiffnessmeasurementof15kPa,without
+clinicalsignsofliverdecompensation,asobservedinthephysicalexamination.Whatistherecommendedtherapyforthispatient?
+18. A60-year-oldpatientwithadvancedchronickidneydisease(CKD)atstage4isdiagnosedwithHepatitisCvirus(HCV)infection.Thepatient’scurrentrenalfunction
+parametersincludeacreatinineclearanceof28mL/min.Additionally,thepatientpresentswithdecompensatedlivercirrhosis,classifiedasChild-PughClassB8,
+indicatingsignificantliverdysfunction.Whatistherecommendedtherapyforthispatient?
+19. A60-year-oldfemalepatientdiagnosedwithHepatitisCvirus(HCV)genotype1a,whodoesnothavelivercirrhosis,wasrecentlyprescribeda12-weekcourseof
+Sofosbuvir(400mg)/Velpatasvir(100mg).Thepatienthasasignificantmedicalhistoryofatrialfibrillation,forwhichsheisbeingtreatedwithamiodarone.Duringthe
+initialassessmentwiththehepatologist,thepatientinadvertentlyomittedmentioningtheiramiodaronetreatment.Asofnow,thepatienthasnotcommencedtheHCV
+treatment.IsitadvisableforthepatienttopromptlyinformherhepatologistabouttheamiodaronetreatmentbeforestartingtheHCVtherapy?
+20. A70-year-oldfemalewitharecentdiagnosisofHepatitisCVirus(HCV)genotype1a,confirmedtohavenoevidenceoflivercirrhosis,commencedatreatmentregimen
+consistingofa12-weekcourseofSofosbuvir(400mg)combinedwithVelpatasvir(100mg)daily.Thepatient’sbaselineliverfunctiontestswerewithinnormallimits,
+withanAlanineAminotransferase(ALT)levelof45IU/L(normalrange:30–45IU/L).However,uponre-evaluation4weekspost-treatmentinitiation,herALTlevelshad
+markedlyelevatedto1123IU/L.ShouldtheprescribedHCVtreatmentbediscontinuedinlightofthissignificantALTelevation?
+Twoexperthepatologistsdrafted20questionsthatspecificallyrefertoinformationaboutmanagementrecommendationsaddressinginformationcontainedintheguidelinemaintext(10questions),
+graphicaltables(5questions),andclinicalscenarios(5questions).
+Experiment 5. Use of the foundational GPT-4 Turbo with guidelines
+eachresponse.Thetwograderswereblindtoeachotherandtowardsthe
+uploadedascontextthatwerecleanedandformatted,withtablescon-
+experimental setting when labeling answers. Disagreements in grading
+verted into text-based lists. We included the series of prompts (i.e.,
+occurredfor5.0%ofoutputsandweresolvedbyconsensusbetweenthetwo
+promptengineering)andaddedaseriesof54question-answerpairs(i.e.
+graders.
+few-shotlearning)(SupplementaryTable1).
+Whenoutputsareconsideredinaccurate,theinaccuracyiscausedby
+TheexperimentsaresummarizedinFig.3andwereconductedona
+hallucinations (i.e., the production of plausible sounding but potentially
+local Python environment with OpenAI API access. Instructions, when unverifiedorincorrectinformation)57,58.Accordingtotherecentdefinitions
+provided,aresummarizedinSupplementaryTable1.Weusedfoundational of Zhang et al., we defined three types of hallucinations: FCH, ICH,
+model default parameters, selecting a temperature of 0.9, and setting a
+andCCH59.
+maximumnumberoftokensinoutputequivalentto800.
+Secondaryoutcome
+Primaryoutcome OursecondaryoutcomewastoevaluatethesimilarityofLLM-generated
+Our primary outcome was to evaluate qualitative rates of accuracy responsestothehumanexpert-providedanswersusedasthegoldstandard.
+accordingtoexpertgradingbasedontheinformationreportedinEASL Inparticular,anexperthepatologist(M.G.)providedasingleanswerfor
+guidelines54.Werepeatedthequery5timeseachforthe20questionsfor eachofthe20questions,whichwasreviewedandapprovedbythesecond
+each experimental setting and reported the proportion of accurate expert hepatologist (L.S.C.), and then used as the gold standard expert
+responses.Eachanswerwasgradedwithascoreof1ifthetextcontained responsetowhichLLMresponseswerecomparedintext-similarityusing
+completelyaccurateinformationor0otherwise.Twoexperthepatologists Recall-OrientedUnderstudyforGistingEvaluation(ROUGE)46,Bilingual
+(M.G.,withfouryearsofexperienceintreatingHCVpatients,andL.S.C., EvaluationUnderstudy(BLEU)45,MetricforEvaluationofTranslationwith
+withthirtyyearsofexperienceintreatingHCVpatients)manuallygraded ExplicitOrdering(METEOR)47,andaCustomOpenAIscore(forin-depth
+npjDigitalMedicine| ( 2024) 7:102 6
+https://doi.org/10.1038/s41746-024-01091-y Article
+Fig.3|DepictionofAblationStudyexperimentalsettings(Experiment1throughExperiment5)toinvestigatehowguidelinereformatting,promptarchitecture,andfew-
+shotlearningimpacttheaccuracyandrobustnessofLLMoutputs.
+explanationseeSupplementaryNote2).TheCustomOpenAIscoreisbased byexperts.Allthesescoresareexpressedonascalefrom0to1,whereascore
+oncosinesimilarity,whiletheotherscoresarebasedonwordoverlapand of1denotesperfectalignmentbetweentwocomparedtextsources.The
+semanticcoherencebetweentwotextsources.Weevaluatedthesimilarity mean and standard deviation of the similarities were estimated after
+bycomparingLLM-generatedanswerstothecorrespondingonesprovided repeatingthequery5timeseachforthe20questions.
+npjDigitalMedicine| ( 2024) 7:102 7
+https://doi.org/10.1038/s41746-024-01091-y Article
+Statisticalanalysis 19. Tang,L.etal.Evaluatinglargelanguagemodelsonmedicalevidence
+We employed the Chi-Square Test to compare accuracy among experi- summarization.NPJDigit.Med.6,158(2023).
+mentsqualitatively.WeemployedtheMann-WhitneyUTesttocompare 20. Blagec,K.etal.Aglobalanalysisofmetricsusedformeasuring
+differencesamongcontinuousscoringforautomaticevaluationofanswers. performanceinnaturallanguageprocessing.InProc.NLPPower!The
+Weconsideredstatisticallysignificantatwo-tailedp-value<0.05.Tocon- FirstWorkshoponEfficientBenchmarkinginNLP52–63(Association
+ducttheanalysis,weusedPythonv3.11andSciPyv1.11. forComputationalLinguistics,Stroudsburg,PA,USA,2022).https://
+doi.org/10.18653/v1/2022.nlppower-1.6.
+Dataavailability 21. Fabbri,A.R.etal.SummEval:re-evaluatingsummarization
+All LLMs prompts are included in the Summary Information with the evaluation.Trans.Assoc.ComputLinguist9,391–409(2021).
+prompts used. For anyadditional information, please contact the corre- 22. Mahadevaiah,G.etal.Artificialintelligence‐basedclinicaldecision
+spondingauthors. supportinmodernmedicalphysics:Selection,acceptance,
+commissioning,andqualityassurance.Med.Phys.47,
+Codeavailability e228–e235(2020).
+Codecanbeprovidedbasedonpersonalrequests,pleasecontactthecor- 23. Golden,G.etal.Applyingartificialintelligencetoclinicaldecision
+respondingauthors. supportinmentalhealth:whathavewelearned?HealthPolicy
+Technol,100844https://doi.org/10.1016/j.hlpt.2024.100844(2024).
+Received:29November2023;Accepted:29March2024; 24. Tariq,R.etal.Evolvinglandscapeoflargelanguagemodels:an
+evaluationofChatGPTandbardinansweringpatientquerieson
+colonoscopy.Gastroenterology166,220–221(2024).
+References 25. Lahat,A.etal.Evaluatingtheutilityofalargelanguagemodelin
+1. Peng,C.etal.Astudyofgenerativelargelanguagemodelformedical answeringcommonpatients’gastrointestinalhealth-related
+researchandhealthcare.NPJDigit.Med.6,210(2023). questions:arewethereyet?Diagnostics13,1950(2023).
+2. Thirunavukarasu,A.J.etal.Largelanguagemodelsinmedicine.Nat. 26. Lee,T.-C.etal.ChatGPTanswerscommonpatientquestionsabout
+Med.29,1930–1940(2023). colonoscopy.Gastroenterology165,509–511.e7(2023).
+3. Meskó,B.etal.Theimperativeforregulatoryoversightoflarge 27. Gorelik,Y.etal.languagemodelsforstreamlinedpostcolonoscopy
+languagemodels(orgenerativeAI)inhealthcare.NPJDigit.Med.6, patientmanagement:anovelapproach.Gastrointest.Endosc.98,
+120(2023). 639–641.e4(2023).
+4. Singhal,K.etal.Largelanguagemodelsencodeclinicalknowledge. 28. Henson,J.B.etal.Evaluationofthepotentialutilityofanartificial
+Nature620,172–180(2023). intelligencechatbotingastroesophagealrefluxdiseasemanagement.
+5. Webster,P.Sixwayslargelanguagemodelsarechanginghealthcare. Am.J.Gastroenterol.118,2276–2279(2023).
+Nat.Med.29,2969–2971(2023). 29. Emile,S.H.etal.Howappropriateareanswersofonlinechat-based
+6. Nagulu,I.etal.Clinicalguidelinesandbestpractices.Glob.J.Res. artificialintelligence(ChatGPT)tocommonquestionsoncolon
+Anal.12,17–20(2023). cancer?Surgery174,1273–1275(2023).
+7. Mignini,L.Reviewofclinicalpracticeguidelines.InSystematic 30. Moazzam,Z.etal.QualityofChatGPTresponsestoquestionsrelated
+ReviewstoSupportEvidence-BasedMedicine165–170(CRCPress, topancreaticcanceranditssurgicalcare.Ann.Surg.Oncol.30,
+BocaRaton,2022).https://doi.org/10.1201/9781003220039-15. 6284–6286(2023).
+8. Liu,Y.etal.SummaryofChatGPT-Relatedresearchandperspective 31. Cankurtaran,R.E.etal.ReliabilityandusefulnessofChatGPTfor
+towardsthefutureoflargelanguagemodels.Meta-Radiol.1, inflammatoryboweldiseases:ananalysisforpatientsandhealthcare
+100017(2023). professionals.Cureushttps://doi.org/10.7759/cureus.46736(2023).
+9. Mesko,B.TheChatGPT(GenerativeArtificialIntelligence)revolution 32. Levartovsky,A.etal.TowardsAI-augmentedclinicaldecision-
+hasmadeartificialintelligenceapproachableformedical making:anexaminationofChatGPT’sutilityinacuteulcerativecolitis
+professionals.J.Med.InternetRes.25,e48392(2023). presentations.Am.J.Gastroenterol.118,2283–2289(2023).
+10. Nori,H.etal.CapabilitiesofGPT-4onmedicalchallengeproblems. 33. Patil,N.S.etal.Usingartificialintelligencechatbotsasaradiologic
+arxivhttps://arxiv.org/abs/2303.13375(2023). decision-makingtoolforliverimaging:dochatgptandbard
+11. Scheurer,J.etal.Technicalreport:largelanguagemodelscan communicateinformationconsistentwiththeACRappropriateness
+strategicallydeceivetheiruserswhenputunderpressure.arxiv criteria?J.Am.Coll.Radiol.20,1010–1013(2023).
+https://arxiv.org/abs/2311.07590(2023). 34. Pugliese,N.etal.Accuracy,reliability,andcomprehensibilityof
+12. Lewis,P.etal.Retrieval-augmentedgenerationforknowledge- chatgpt-generatedmedicalresponsesforpatientswithnonalcoholic
+intensiveNLPtasks.arxivhttps://arxiv.org/abs/2005.11401(2020). fattyliverdisease.Clin.Gastroenterol.Hepatol.https://doi.org/10.
+13. Ouyang,L.etal.Traininglanguagemodelstofollowinstructionswith 1016/j.cgh.2023.08.033(2023).
+humanfeedback.arxivhttps://arxiv.org/abs/2203.02155(2022). 35. Endo,Y.etal.QualityofChatGPTresponsestoquestionsrelatedto
+14. Falade-Nwulia,O.etal.Oraldirect-actingagenttherapyforhepatitisC livertransplantation.J.Gastrointest.Surg.27,1716–1719(2023).
+virusinfection.Ann.Intern.Med.166,637(2017). 36. Cao,J.J.etal.AccuracyofinformationprovidedbyChatGPT
+15. Moore,J.D.etal.Physician-leveldeterminantsofHCVscreening regardinglivercancersurveillanceanddiagnosis.Am.J.Roentgenol.
+duringpregnancyinaU.S.sample.Arch.Gynecol.Obstet.https://doi. 221,556–559(2023).
+org/10.1007/s00404-023-07146-x(2023). 37. Yeo,Y.H.etal.AssessingtheperformanceofChatGPTinanswering
+16. Southern,W.N.etal.PhysiciannonadherencewithahepatitisC questionsregardingcirrhosisandhepatocellularcarcinoma.Clin.
+screeningprogram.Qual.Manag;HealthCare23,1–9(2014). Mol.Hepatol.29,721–732(2023).
+17. Eliminationofhepatitisby2030.https://www.who.int/health-topics/ 38. OpenAI.NewmodelsanddeveloperproductsannouncedatDevDay.
+hepatitis/elimination-of-hepatitis-by-2030#tab=tab_1. https://openai.com/blog/new-models-and-developer-products-
+18. Chen,A.etal.EvaluatingQuestionAnsweringEvaluation.InProc.2nd announced-at-devday.
+WorkshoponMachineReadingforQuestionAnswering119–124 39. Sui,Y.etal.TablemeetsLLM:canlargelanguagemodelsunderstand
+(AssociationforComputationalLinguistics,Stroudsburg,PA,USA, structuredtabledata?Abenchmarkandempiricalstudy.arxivhttps://
+2019).https://doi.org/10.18653/v1/D19-5817. arxiv.org/abs/2305.13062(2023).
+npjDigitalMedicine| ( 2024) 7:102 8
+https://doi.org/10.1038/s41746-024-01091-y Article
+40. OpenAIetal.GPT-4technicalreport.https://arxiv.org/abs/2303. 57. Giuffrè,M.etal.L.EvaluatingChatGPTinmedicalcontexts:the
+08774(2023). imperativetoguardagainsthallucinationsandpartialaccuracies.Clin.
+41. Masry,A.etal.ChartQA:abenchmarkforquestionansweringabout Gastroenterol.Hepatol.https://doi.org/10.1016/j.cgh.2023.09.
+chartswithvisualandlogicalreasoning.arxivhttps://arxiv.org/abs/ 035(2023).
+2203.10244(2022). 58. Giuffrè,M.etal.ScrutinizingChatGPTApplicationsin
+42. Kembhavi,A.etal.Adiagramisworthadozenimages.in235–251. gastroenterology:acallformethodologicalrigortodefineaccuracy
+https://doi.org/10.1007/978-3-319-46493-0_15(2016). andpreserveprivacy.Clin.Gastroenterol.Hepatol.https://doi.org/10.
+43. Mathew,M.etal.DocVQA:adatasetforVQAondocumentimages. 1016/j.cgh.2024.01.024(2024).
+arxivhttps://arxiv.org/abs/2007.00398(2020). 59. Zhang,Y.etal.Siren’ssongintheaiocean:asurveyonhallucinationin
+44. Mathew,M.etal.InfographicVQA.In2022IEEE/CVFWinter largelanguagemodels.arxivhttps://arxiv.org/abs/2309.01219(2023).
+ConferenceonApplicationsofComputerVision(WACV)2582–2591
+(IEEE,2022).https://doi.org/10.1109/WACV51458.2022.00264. Authorcontributions
+45. Papineni,K.etal.BLEU:amethodforautomaticevaluationof S.K.,M.G.,M.A.,A.A.,L.S.C,D.S.,conceivedanddesignedtheanalysis;
+machinetranslation.InProc.40thAnnualMeetingoftheAssociation S.K.andM.G.collectedthedata;S.K.,M.G.andS.D.performedthe
+forComputationalLinguistics311–318(AssociationofComputational analysis.Allauthorswereinvolvedinwriting,editing,andapprovingthefinal
+Machinery,2002). versionofthemanuscript.
+46. Lin,C.-Y.Rouge:apackageforautomaticevaluationofsummaries.
+In:Textsummarizationbranches,74–82(2004). Competinginterests
+47. Banerjee,S.etal.METEOR:anautomaticmetricforMTevaluation Theauthorsdeclarenocompetinginterests.
+withimprovedcorrelationwithhumanjudgments.InProc.ACL
+WorkshoponIntrinsicandExtrinsicEvaluationMeasuresforMachine Additionalinformation
+Translationand/orSummarization.65–72(2005). SupplementaryinformationTheonlineversioncontains
+48. Zhang,T.etal.BERTScore:evaluatingtextgenerationwithBERT. supplementarymaterialavailableat
+arxivhttps://arxiv.org/abs/1904.09675(2019). https://doi.org/10.1038/s41746-024-01091-y.
+49. Agrawal,M.etal.Largelanguagemodelsarefew-shotclinical
+informationextractors.arxivhttps://arxiv.org/abs/2205.12689(2022). Correspondenceandrequestsformaterialsshouldbeaddressedto
+50. Hu,Y.etal.Improvinglargelanguagemodelsforclinicalnamedentity SimoneKresevicorMauroGiuffrè.
+recognitionviapromptengineering.arxivhttps://arxiv.org/abs/2303.
+16416(2023). Reprintsandpermissionsinformationisavailableat
+51. Touvron,H.etal.Llama2:openfoundationandfine-tunedchat http://www.nature.com/reprints
+models.arxivhttps://arxiv.org/abs/2307.09288(2023).
+52. Anil,R.etal.PaLM2TechnicalReport.arxivhttps://arxiv.org/abs/ Publisher’snoteSpringerNatureremainsneutralwithregardto
+2305.10403(2023). jurisdictionalclaimsinpublishedmapsandinstitutionalaffiliations.
+53. GeJ.etal.Developmentofaliverdisease-specificlargelanguage
+modelchatinterfaceusingretrievalaugmentedgeneration.https:// OpenAccessThisarticleislicensedunderaCreativeCommons
+doi.org/10.1101/2023.11.10.23298364(2023). Attribution4.0InternationalLicense,whichpermitsuse,sharing,
+54. Pawlotsky,J.-M.etal.EASLrecommendationsontreatmentof adaptation,distributionandreproductioninanymediumorformat,aslong
+hepatitisC:finalupdateoftheseries✰.J.Hepatol.73, asyougiveappropriatecredittotheoriginalauthor(s)andthesource,
+1170–1218(2020). providealinktotheCreativeCommonslicence,andindicateifchanges
+55. Bhattacharya,D.etal.HepatitisCguidance2023update:american weremade.Theimagesorotherthirdpartymaterialinthisarticleare
+associationforthestudyofliverdiseases–infectiousdiseasessociety includedinthearticle’sCreativeCommonslicence,unlessindicated
+ofamericarecommendationsfortesting,managing,andtreating otherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+hepatitiscvirusinfection.Clin.Infect.Dis.https://doi.org/10.1093/ article’sCreativeCommonslicenceandyourintendeduseisnotpermitted
+cid/ciad319(2023). bystatutoryregulationorexceedsthepermitteduse,youwillneedto
+56. Ghany,M.G.etal.HepatitisCguidance2019update:american obtainpermissiondirectlyfromthecopyrightholder.Toviewacopyofthis
+associationforthestudyofliverdiseases–infectiousdiseasessociety licence,visithttp://creativecommons.org/licenses/by/4.0/.
+ofamericarecommendationsfortesting,managing,andtreating
+hepatitisCvirusinfection.Hepatology71,686–721(2020). ©TheAuthor(s)2024
+npjDigitalMedicine| ( 2024) 7:102 9

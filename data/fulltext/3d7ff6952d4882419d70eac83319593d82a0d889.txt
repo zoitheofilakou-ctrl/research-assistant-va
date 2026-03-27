@@ -1,0 +1,147 @@
+Obaid et al. J of Pharm Policy and Pract (2021) 14:68
+https://doi.org/10.1186/s40545-021-00357-0
+COMMENTARY Open Access
+Recommendations to improve pharmacy
+practice research in the Middle Eastern Arab
+countries
+Daneh Obaid1, Faris El‑Dahiyat1* and Zaheer‑Ud‑Din Babar2
+Abstract
+The expansion of the pharmacist‑led services has resulted in increased demand to have evidence in terms of neces‑
+sity, efficacy, and cost. Evidence‑based practice is crucial to provide the best patient health outcomes and pharmacy
+practice research can play a key role in this regard. This commentary provides a background of pharmacy practice
+research, and then, it highlights three key recommendations based on a systematic review of the literature. The
+systematic review of the literature on pharmacy practice research has been conducted in 12 Middle Eastern Arab
+Countries. The three key recommendations include (a) identification of research priorities by health authorities in each
+country; (b) pharmacy practice research culture to be nurtured and promoted with academic researchers and practi‑
+tioners; and (c) shifting pharmacy practice research towards applied, interventional, and implementation studies
+Keywords: Pharmacy practice research, Evidence‑based practice, Middle East, Arab countries, Recommendation
+Introduction vital and it is a key in the countries with developing
+Pharmacy practice research can generate evidence health systems [6]. Pharmacy education and pharmacy
+to inform policymakers. It also conveys the value for practice in the Arab Middle Eastern countries continues
+potential new roles and services [1, 2]. There is a varied to evolve. Currently, there is no published comprehen-
+definition of pharmacy practice or pharmacy practice sive review that outlines the overall status of pharmacy
+research [3]. The FIP definition states pharmacy practice practice research in this region. Hence, a review was con-
+research as a “component of health services research that ducted recently to gauge the status of pharmacy practice
+emphasizes the impact of the practice of pharmacy on research published literature in the 12 Arabic-speaking
+the healthcare systems, medicines use, and patient care Middle Eastern Countries [7].
+[4]. Its scope has expanded over the past few decades Medline/PubMed and Scopus were used to screen and
+to encompass aspects such as the clinical, behavioural, retrieve the articles. The articles published in the Eng-
+economic and humanistic implications of the pharmacy lish language related to any aspect of pharmacy practice
+practice as well as practice change and implementation of in 12 countries Bahrain, Iraq, Kingdom of Saudi Arabia,
+new services in routine practice” [4]. Kuwait, Lebanon, Oman, Palestine, Qatar, Syria, United
+Pharmacy practice is an important component in the Arab Emirates, Yemen, and Jordan during 2009–2019
+health system of high-income countries [5]. However, were included.
+to improve medicines use, practice research has proven Seven themes came out from these selected arti-
+cles. Medication use was the predominant 30.78% (302)
+theme, followed by pharmacy practice and pharma-
+*Correspondence: faris.dahiyat@aau.ac.ae cist services 22.73% (223), pharmacy education 16.61%
+1 College of Pharmacy, Al Ain University, P.O Box 64141, Al Ain, UAE
+(163), medication safety and pharmacovigilance 13.56%
+Full list of author information is available at the end of the article
+© The Author(s) 2021. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat ivec o
+mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Obaid et al. J of Pharm Policy and Pract (2021) 14:68 Page 2 of 3
+(133), pharmacoeconomics and pharmaceutical market- nature showing multidisciplinary and cross-disciplinary
+ing 8.22% (77), clinical research 6.73% (66), medicines collaboration.
+information, and public health promotion1.81% (17). The
+Acknowledgements
+Kingdom of Saudi Arabia (KSA), Jordan, Qatar, and the Special thanks to the invited reviewers.
+UAE were the leading countries to publish research.
+Authors’ contributions
+Studies are scarce regarding the implementation of phar-
+DO, FD, and ZB conceptualized and prepared the original draft. All authors
+macy services. Following is a key set of recommendations read and approved the final manuscript.
+based on these findings [7].
+Funding
+Not applicable.
+Recommendations to improve pharmacy practice
+Availability of data and materials
+research in the Middle East
+Not applicable.
+Identification of research priorities by health authorities
+in each country
+Declarations
+Planning and setting an agenda for pharmacy practice
+Ethics approval and consent to participate
+research are needed. This agenda-setting needs to be
+Not applicable.
+done by the Ministries of Health in these countries. It
+will maximize the value of the studies and will also help Consent for publication
+All authors agreed the publication of this manuscript.
+bridge the gaps in the pharmacy practice research. This
+can also help in avoiding the repetition of ideas and Competing interests
+resources. Girolamo and Reynders (2020) and Dawoud, The authors declare no competing interest.
+D. et. Al., also emphasized the need to have a pharmacy
+Author details
+practice research priorities related to the COVID-19 pan- 1 College of Pharmacy, Al Ain University, P.O Box 64141, Al Ain, UAE. 2 Depart‑
+demic [8, 9]. ment of Pharmacy, School of Applied Sciences, University of Huddersfield,
+Huddersfield HD1 3DH, West Yorkshire, UK.
+Pharmacy practice research culture to be nurtured Received: 8 June 2021 Accepted: 30 June 2021
+and promoted with academic researchers and practitioners
+Universities and academic institutions are proposed to
+take the lead and creating a national health research hub.
+References
+A network of researchers can help build large-scale stud-
+1. Kenningtone RR. Pharmacy practice research has an impact on each and
+ies. The combination of knowledge, skills, and resources every pharmacist. Pharm J. 2010;284(7593):267–8.
+that will be accessible in the research networks collec- 2. Ambler S, Sheldrake L. Pharmacy practice research: challenges and
+opportunities. Prim Health Care Res Dev. 2009;10(1):4–6.
+tively will promote the research outcomes with valid and
+3. Hasan SS, Thiruchelvam K, Kairuz T, Abbas N, Babar ZUD. Pharmacy prac‑
+reliable results. This practice had a remarkable influence tice and its research: Evolution and definitions. Encyclopedia of Pharmacy
+in several developed countries, and therefore, it is sug- Practice and Clinical Pharmacy. Elsevier. 2019;1‑6. https:// doi. org/ 10. 1016/
+B978‑0‑ 128‑ 12735‑3. 00149‑7.
+gested that a similar approach could be used in the Mid-
+4. Fip.org. 2021. Pharmacy practice research—FIP—International Pharma‑
+dle East countries too [10–12]. Currently, it was observed ceutical Federation. https:// www. fip. org/ pharm acy‑ pract ice‑ resea rch.
+that a large number of smaller studies are being con- Accessed 30 May 2021.
+5. Babar ZUD, Scahill S, Nagaria R, Curley L. The future of pharmacy
+ducted. It is hoped that international collaborations will
+practice research—perspectives of academics and practitioners from
+facilitate conducting large-scale projects [13]. Australia, NZ, United Kingdom, Canada and USA. Res Social Adm Pharm.
+2018;14(12):1163–71. https:// doi. org/ 10. 1016/j. sapha rm. 2018. 01. 004
+(Epub 2018 Jan).
+Shifting pharmacy practice research towards applied, 6. Babar ZUD. Ten recommendations to improve pharmacy practice in low
+interventional, and implementation studies and middle‑income countries (LMICs). J Pharm Policy Pract. 2021;14:6.
+https:// doi. org/ 10. 1186/ s40545‑ 020‑ 00288‑2.
+In the recent review of the literature, it was observed that 7. Obaid D. Systematic review of pharmacy practice researches in the Mid‑
+there was a lack of interventional studies assessing phar- dle East. Master Thesis. UAE, Al‑Ain University; 2021.
+8. Di Girolamo N, Meursinge RR. Characteristics of scientific articles on
+macy services. The literature was also scant on the devel-
+COVID‑19 published during the initial 3 months of the pandemic. Scien‑
+opment of new services [7]. Pharmacy practice research tometrics. 2020;125(1):795–812.
+has the potential to develop interventions by evaluating 9. Dawoud D, Chen A, Rossing C, Garcia‑Cardenas V, Law A, Aslani P, et al.
+Pharmacy practice research priorities during the COVID‑19 pandemic:
+practice requirements, and also by assessing the effec-
+recommendations of a panel of experts convened by FIP Pharmacy
+tiveness of these interventions. Practice Research Special Interest Group. Res Social Adm Pharm.
+A health system can only be strengthened by applying 2021;17(1):1903–7.
+10. Koster E, Blom L, Philbert D, Rump W, Bouvy M. The Utrecht Phar‑
+evidence-based practice hence robust studies are needed
+macy Practice network for Education and Research: a network of
+which are large scale, and of applied, interventional
+O baid et al. J of Pharm Policy and Pract (2021) 14:68 Page 3 of 3
+community and hospital pharmacies in the Netherlands. Int J Clin Pharm. 13. Garcia‑Cardenas V, Rossing C, Fernandez‑Llimos F, Schulz M, Tsuyuki R,
+2014;36(4):669–74. Bugnon O, et al. Pharmacy practice research—a call to action. Res Social
+11. Kuo G, Steinbauer J, Spann S. Conducting medication safety research pro‑ Adm Pharm. 2020;16(11):1602–8.
+jects in a primary care physician practice‑based research network. J Am
+Pharm Assoc. 2008;48(2):163–70.
+Publisher’s Note
+12. Pruchnicki M, Rodis J, Beatty S, Clark C, McAuley J, Mehta B, et al. Practice‑
+based research network as a research training model for community/ Springer Nature remains neutral with regard to jurisdictional claims in pub‑
+ambulatory pharmacy residents. J Am Pharm Assoc. 2008;48(2):191–202. lished maps and institutional affiliations.
+RReeaaddyy ttoo ssuubbmmiitt yyoouurr rreesseeaarrcchh ?? CChhoooossee BBMMCC aanndd bbeenneeffiitt ffrroomm::
+• fast, convenient online submission
+• thorough peer review by experienced rese archers in your field
+• rapid publication on acceptance
+• support for research data, including large and complex data types
+• gold Open Access which fosters wider collaboration and increased citations
+• maximum visibility for your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more biomedcentral.com/submissions

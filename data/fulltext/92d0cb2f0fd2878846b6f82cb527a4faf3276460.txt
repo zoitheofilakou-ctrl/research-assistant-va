@@ -1,0 +1,421 @@
+Journal of Quality in Health care & Economics
+MEDWIN PUBLISHERS
+Committed to Create Value for Researchers ISSN: 2642-6250
+Generative AI and Patient Care: A Systematic Review Examining
+Applications, Limitations, and Future Directions for ChatGPT in
+Healthcare
+Etli D*
+Review Article
+Volume 7 Issue 1
+Received Date:
+Purdue Global University, USA
+*Corresponding author: Published Date: January 26, 2024
+February 12, 2024
+Dominic Etli, Purdue Global University, USA, Email: detli@roseman.
+DOI: 10.23880/jqhe-16000361
+edu
+Abstract
+Background:
+Generative artificial intelligence (AI) tools like ChatGPT have emerged as potentially valuable technologies
+to augment human expertise in healthcare. However, uncertainties remain regarding appropriate clinical applications and
+limitations. This review synthesizes current evidence on using generative AI for clinical decision support, patient data
+Methods:
+processing, and medical education.
+A systematic search of Web of Science, Scopus, and ProQuest databases identified 33 relevant studies published in
+2023 examining ChatGPT for healthcare uses. Two reviewers extracted data on study characteristics, AI system details, key
+Results:
+results, and authors' conclusions. Evidence was synthesized qualitatively using a comparative analysis approach.
+Supervised use of ChatGPT-generated simulations appeared beneficial for clinical training, but oversight was
+critical. Numerous studies found risks in relying on ChatGPT's clinical suggestions given frequent factual errors, outdated
+recommendations, and inappropriate advice. However, ChatGPT demonstrated potential for enhancing workflows via medical
+Conclusions:
+documentation automation.
+While showing promise for constrained uses like supervised education and documentation, findings caution
+against open-ended ChatGPT integration in clinical practice currently. Additional large-scale comparative effectiveness
+research is imperative to establish evidence-based implementation guidance. Responsible translation requires governance,
+validation against literature, and focus on human-AI collaboration versus replacement. Further inquiry can illuminate best
+practices for balancing innovation and safety.
+Keywords:
+Generative Artificial Intelligence; Chatgpt, Clinical Decision Support; Patient Care; Medical Education
+Introduction
+systematic reviews have synthesized this rapidly growing
+body of literature to evaluate the capabilities and limitations
+Artificial intelligence (AI) tools like ChatGPT have of AI in healthcare.
+emerged as potentially valuable technologies to assist
+healthcare professionals. Recent studies have explored their This review aims to examine the current peer-reviewed
+applications in areas like clinical reasoning, patient record evidence on generative AI systems for healthcare published in
+analysis, diagnosis, and treatment planning. However, no 2023. Using three major databases (Web of Science, Scopus,
+Generative AI and Patient Care: A Systematic Review Examining Applications, Limitations, and J Qual Healthcare Eco
+Future Directions for ChatGPT in Healthcare
+Journal of Quality in Health care & Economics
+2
+and ProQuest), recent studies on AI-driven approaches for has bidirectional effects on clinical workflows, human
+patient record review, disease diagnosis and monitoring, and behaviors, and patient outcomes [4]. Factors like trust,
+developing customized treatment plans were reviewed. usability, and transparency are vital for safe and effective
+human-AI collaboration. The ethical AI framework posits
+A recent scoping review by Yu et al. specifically examined that AI systems should be designed and evaluated based on
+best practices for integrating generative AI and large language principles of justice, beneficence, and non-maleficence [5].
+models into healthcare contexts [1]. Through a systematic Applied to healthcare, this entails ensuring equitable access,
+search, the authors identified key applications in areas like promoting patient wellbeing, and avoiding harms through
+clinical decision support and patient outcome improvement. rigorous testing.
+Their review highlighted considerations around evaluation
+frameworks, human-AI collaboration principles, and ethical • TClhiinsi craelv ideewc isfoiocnus seus popno rttwo primary applications of
+AI design. Yu et al. also outlined a comprehensive roadmap to generative AI in healthcare:
+guide responsible adoption, including controlled deployment – Providing clinicians with
+and interdisciplinary co-design. They emphasized the need patient-specific assessments, diagnoses, or treatment
+for ongoing innovation, ethical alignment, and real-world • rPeactoiemnmt eonudtactoimones itmo penrohvaenmcee mntedical decision-making
+piloting to translate these technologies effectively while [6].
+upholding ApaI’tsi epnot tevnaltuiaesl . inT hhies arltehvcieawre pwrohvilied ems ivtiagluataibnlge – Using AI to directly
+rinisskigsh.ts to complement the current analysis on harnessing improve metrics like mortality, readmission rates, or
+generative recovery times that reflect patient health results [7].
+Additionally, the emerging techniques of visual computing
+and natural language processing for analyzing medical
+While some initial findings suggest ChatGPT can generate images and generating written content were reviewed [8,9].
+clinical guidelines and workflow improvements, questions Overall, this review synthesizes the current evidence on
+remain about its reliability for medical decision-making. A generative AI in healthcare through the theoretical lenses of
+key gap is whether AI can enhance medical education and human-AI collaboration and ethically aligned design. The aim
+training by improving healthcare professionals’ knowledge is to provide data-driven insights on capabilities, limitations,
+and skills through computer vision and natural language and Mkeye tchonosdidoelroatgioyns for translational efforts.
+processing. Additional concerns exist around the responsible
+and ethical use of generative AI tools in patient care. Literature Search Strategy
+The primary objective of this review is to synthesize
+the latest evidence on the potential for AI algorithms like
+ChatGPT to assist with clinical decision support, treatment A systematic search was conducted of the Web of Science,
+planning, and processing large amounts of patient data. It is Scopus, and ProQuest databases to identify relevant studies
+also important to critically examine risks and limitations to p• ublished in 2023. The search strategy involved three search
+inform responsible AI adoption in healthcare going forward. themes using the terms:
+By taking a rigorous, comprehensive approach, this review “generative artificial intelligence” or “chatgpt” or “large
+will provide key insights and guidance for integrating • language models” or “generative ai” or “chatbot” or
+generative AI technologies into clinical practice. • “conversational agents”
+Theoretical Concepts
+“healthcare system” OR “clinical decision support”
+• “patient record analysis” OR “disease diagnosis” OR
+“treatment planning”
+Generative AI refers to a class of artificial intelligence The final search strategy was: (“generative artificial
+systems that can generate new content like text, images, or intelligence” OR “ChatGPT”) AND (“healthcare system”
+video, rather than solely analyzing existing data [2]. This OR “clinical decision support”) AND (“patient record
+distinguishes them from traditional predictive or analytical analysis” OR “disease diagnosis” OR “treatment
+AI. One example is ChatGPT, a large language model p S l t a u n d n y in S g e ”) l . ection
+developed by OpenAI to produce human-like text through
+reinforcement learning techniques [3].
+Key theoretical frameworks guiding this review include The database search yielded 191 articles. Studies were
+human-AI interaction and ethical AI design. The human-AI included if they: (1) were published in 2023, (2) were
+interaction framework recognizes that AI systems do not original research or review articles, (3) were in English,(4)
+operate in isolation – their integration in healthcare settings examined applications of generative AI in healthcare.
+Etli D. Generative AI and Patient Care: A Systematic Review Examining Applications, Limitations, Copyright© Etli D.
+and Future Directions for ChatGPT in Healthcare. J Qual Healthcare Eco 2024, 7(1): 000361.
+Journal of Quality in Health care & Economics
+3
+Editorials, books, conference proceedings, and non-English studies remained for inclusion in the review (Figure 1).
+studies were excluded from the review. After screening, 37
+Figure 1:
+Prisma Diagram.
+Data Extraction Data Synthesis
+Each study was reviewed to consider the review’s Given the diverse study designs, a quantitative meta-
+research questions and an extraction tool was built covering analysis was not feasible. Instead, a qualitative comparative
+key variables like study design, demographics, AI system analysis approach was used to synthesize findings, identify
+details, and outcomes. Drawing from existing frameworks, themes, and evaluate the overall strength of evidence. Tables
+both quantitative and qualitative fields were included. Before and narrative descriptions summarize the evidence.
+ChatGPT for Clinical Training
+extracting data from all studies, a pilot test of the tool on a
+sample was performed, finding areas needing clarification or
+new fields, like AI model type. Refining the tool accordingly
+made it more comprehensive. Some studies explored supervised use of ChatGPT
+for training clinicians. Chervenak J, et al. [7] described
+For each study, data was extracted in passes, starting using ChatGPT to generate detailed case simulations for
+with general info before capturing more details. To minimize surgical training, providing exposure to complex scenarios
+errors, data was thoroughly reviewed, revisiting studies when learners may not frequently encounter. With oversight from
+needed to ensure understanding of methods or outcomes. A experienced clinicians, this application appeared beneficial
+structured data handling approach was designed, entering for building clinical reasoning skills. Temsah MH, et al. [10]
+extractions into a secure spreadsheet with quality checks. I found that ChatGPT could efficiently generate novel practice
+reviewed each study’s data a minimum of three times. cases across medical disciplines, though they advised careful
+Quality Assessment
+review to catch any potential inaccuracies.
+In a survey of surgical trainees, Karabacak M, et al. [11]
+Multiple tools assessed the methodological quality and found 70% viewed ChatGPT-assisted learning positively,
+r•i sk of bias of included studies: reporting it improved their medical knowledge. However,
+• they noted the importance of governance frameworks to
+• AXIS for cross-sectional studies avoid misuse. Zumsteg JM, et al. [12] similarly concluded that
+ROBIS for systematic reviews ChatGPT showed promise as an adjunctive training tool in
+JBI checklists for other study designs surgical specialties but emphasized the need for supervisor
+Etli D. Generative AI and Patient Care: A Systematic Review Examining Applications, Limitations, Copyright© Etli D.
+and Future Directions for ChatGPT in Healthcare. J Qual Healthcare Eco 2024, 7(1): 000361.
+Journal of Quality in Health care & Economics
+4
+guidance to mitigate risks to patients. Overall, findings advised thorough review of ChatGPT’s responses against
+indicate supervised ChatGPT use could provide valuable current medical literature before considering acting on any
+training opportunities, but direct oversight is critical to avoid recommendations.
+potential harm.
+ChatGPT for Clinical Decision Support
+Mello MM, et al. [14] evaluated ChatGPT’s responses
+to 180 test clinical cases across diverse specialties.
+While responses were articulate and sounded plausible,
+Several studies evaluated the risks around using ChatGPT approximately one-third contained serious errors that could
+for clinical decision-making. Chavez MR, et al. [6] found that lead to patient harm if used for decision-making without
+while ChatGPT could generate diagnostic and treatment oversight. The lack of transparency around how ChatGPT
+suggestions for clinical scenarios, the outputs contained draws conclusions further complicates use in practice.
+concerning factual errors, inaccurate or outdated guidelines, Şendur HN, et al. [15] similarly found that while ChatGPT
+and inappropriate recommendations. They concluded that could provide coherent responses to clinical queries,
+ChatGPT’s lack of medical training precludes independent only 65% were fully accurate and appropriate for guiding
+use for clinical decision support until the technology treatment decisions. Taken together, these findings indicate
+matures. Xiao D, et al. [13] systematically reviewed ChatGPT’s significant risks if ChatGPT outputs are applied clinically
+responses to complex medical questions and concluded the without proper validation (Table 1).
+information was often incomplete or partially incorrect. They
+% Accurate Diagnostic % Inaccurate % Concordance with
+Study
+Suggestions Treatment Plans Physician Review
+Mello MM, et al. [14] 91% 8% 41%
+Rahsepar AA, et al. [16] 70.80% 17.50% 92%
+Table 1:
+Chervernak J, et al. [7] 84% 3.50% 82%
+Errors in AI Outputs for Clinical Documentation.
+ChatGPT for Patient Communication
+exemplified in human clinical conversations.
+A small number of studies have examined ChatGPT’s This technology shows promising competence in
+potential for simulating patient communication scenarios. rudimentary patient education tasks, however, ChatGPT has
+Cadamuro J, et al. [5] and Xie Y, et al. [17] found that ChatGPT important limitations in replicating multifaceted patient-
+could clearly explain complex medical procedures, risks, provider discussions. Early studies provide preliminary
+and benefits when prompted, showing an ability to simplify support for its potential uses in simplified communication
+healthcare jargon. Other research by Giannos P, et al. [18] scenarios, but further rigorous evaluation is needed across
+and Mallio CA, et al. [19] demonstrated ChatGPT’s capacity diverse settings and interaction types to fully determine
+for providing coherent, appropriate responses to common ChatGPT’s capabilities and real-world utility for enhancing
+patient questions in simulated digital clinic interfaces. patient care through improved communication.
+ChatGPT for Medical Guidance and Education
+However, more advanced patient-provider discussions
+involving empathy, sensitivity, and personalized care
+recommendations proved challenging for the current AI
+system. Mondal H, et al. [20] concluded significant work is Some studies explored ChatGPT’s potential to enhance
+still required to achieve the nuanced bidirectional dialogue medical guidance and education (Table 2).
+Key Finding Description Supporting Studies
+ChatGPT could provide helpful answers to medical
+Provided timely, high-quality Altamimi I, et al. [3];
+questions that could assist clinicians in remote or
+responses to medical questions Johnson SB, et al. [21]
+underserved areas
+Demonstrated potential for public ChatGPT showed promise for tailored public health Levin G, et al. [22];
+health education education content adapted to local contexts Rawashdeh B, et al. [23]
+Risks of reliance on potentially Concerns raised about risks of relying on ChatGPT’s
+Table 2: Morath B, et al. [24]
+inaccurate information medical guidance given potential inaccuracies
+Summary of Findings on ChatGPT for Medical Guidance and Education.
+Etli D. Generative AI and Patient Care: A Systematic Review Examining Applications, Limitations, Copyright© Etli D.
+and Future Directions for ChatGPT in Healthcare. J Qual Healthcare Eco 2024, 7(1): 000361.
+Journal of Quality in Health care & Economics
+5
+ChatGPT for Diagnosis and Triage Support
+Several studies assessed ChatGPT’s diagnostic
+capabilities (Table 3).
+Key Finding Description Supporting Studies
+Showed promising accuracy ChatGPT demonstrated decent accuracy in analyzing Biswas SS [4]; Kim JK, et
+generating differential diagnoses patient data to produce differential diagnoses al. [25]
+Provided useful triage support by ChatGPT could support triage by clarifying patient Darkhabani M, et al. [8];
+clarifying symptoms symptoms Juhi A, et al. [26]
+Limitations like errors and inconsistencies in diagnostic
+TaEbrlreo r3s: and inconsistencies observed Rahsepar AA, et al., [16]
+outputs indicated need for caution and validation
+Summary of Findings on ChatGPT for Diagnosis and Triage Support.
+ChatGPT for Clinical Documentation
+Some studies focused on administrative use cases (Table
+4).
+Key Finding Description Supporting Studies
+Demonstrated potential for automating ChatGPT showed promise for automating clinical Grünebaum A, et al. [27]; Ravi,
+clinical documentation documentation like progress notes et al. [28]
+Could summarize patient records into ChatGPT was able to summarize patient records Mohammed M, et al. [29];
+coherent narratives into coherent narratives Thurzo A, et al. [30]
+Risks of erroneous output highlight Concerns about potential erroneous outputs
+Table 4: Grünebaum A, et al. [27]
+need for human review indicates importance of human review
+Summary of Findings on ChatGPT for Clinical Documentation.
+While promising for streamlining certain data when given patient data.
+management tasks, findings reinforce the importance of b) But other analyses revealed high rates of factual
+governance and validation of ChatGPT-generated outputs to errors, outdated information, and potentially harmful
+avoid potential patient harm. Further rigorous inquiry into recommendations from ChatGPT.
+the contextual factors driving variability in performance is c) Vetting of ChatGPT outputs against medical literature
+warr S a y n n te o d p . sis of Research • iMs ecduircraeln Etdlyu caadtviiosned a nbde fTorraei ncilningical application given
+a) variable accuracy.
+b) Supervised use of ChatGPT-generated case simulations
+• TClhiinsi csayls tDeomcautmic ernevtaietwio no fa n3d3 Dstautdai eMs afnoacugseemde onnt three appears beneficial for building clinical reasoning skills.
+key potential applications of generative AI in healthcare: However, oversight by experienced clinicians remains
+critical to avoid potential patient harm through incorrect
+a) Generative AI like ChatGPT shows promise for training content.
+automating clinical documentation tasks, such as
+synthesizing patient records into coherent summaries Areas like clinical documentation automation appear
+or generating procedure notes. promising for near-term, controlled implementation,
+b) However, risks of erroneous outputs reinforce that findings reinforce that ChatGPT requires significant
+• hCulimniacna lo Dveercsisigiohnt iSsu npepcoerstsary when implementing for improvement and governance before safely integrating for
+clinical uses. direct decision support or independent use in clinical care.
+Ongoing advances in AI may expand applications, but human
+a) Some studies found ChatGPT could provide appropriate expertise remains essential in healthcare.
+evidence-based diagnostic and treatment suggestions
+Etli D. Generative AI and Patient Care: A Systematic Review Examining Applications, Limitations, Copyright© Etli D.
+and Future Directions for ChatGPT in Healthcare. J Qual Healthcare Eco 2024, 7(1): 000361.
+Journal of Quality in Health care & Economics
+6
+Discussion
+translation into practice.
+•
+This systematic review synthesizes the current evidence Several crucial insights emerge:
+on the applications of generative AI systems, particularly ChatGPT can efficiently generate coherent guidelines,
+ChatGPT, in healthcare settings. Our findings align with summaries, and educational materials. However,
+prior literature indicating the potential for AI technologies risks of relying on its outputs clinically without
+to enhance clinical decision-making and workflows. Several oversight are apparent. Factual inaccuracies, outdated
+included studies demonstrated ChatGPT’s ability to generate • recommendations, and inappropriate advice were
+clinical guidelines and simulated cases that could improve commonly reported across studies.
+clinician training and practice in learning health systems For clinical decision support, ChatGPT’s performance
+[2,7]. remains variable. Though it provided some accurate
+diagnostic and treatment suggestions, error rates were
+However, the review also highlights significant limitations • high in many analyses. Vetting outputs against medical
+and risks associated with real-world deployment of ChatGPT literature is advised given inconsistency.
+for clinical uses absent proper governance. High variability For patient communication, ChatGPT demonstrated
+was found in output accuracy across contexts, with multiple competence explaining basic medical concepts but
+studies reporting factual errors, outdated information, and struggled with nuanced care conversations involving
+inappropriate recommendations that could lead to patient • empathy and sensitivity. Further testing across diverse
+harm if used unchecked in care delivery [6,13,14]. The lack of interaction settings is warranted.
+transparency around ChatGPT’s reasoning processes further The most promising near-term applications appear
+complicates clinical integration and trust. to be constrained use cases like automated clinical
+• documentation, where risks of error are lower. But
+These findings corroborate recent analyses showing governance frameworks for validation are still crucial.
+that while AI technologies like ChatGPT exhibit promise For direct clinical decision-making, ChatGPT is likely
+in certain structured tasks, such as visual diagnosis, they premature pending significant advancement. Oversight
+require careful oversight by human clinicians regarding any from human expertise remains essential to prevent
+direct patient care recommendations or decision-making potential patient harm.
+[16,21]. Potential liabilities from integrating AI too broadly
+into clinical workflows without sufficient guardrails are While generative AI innovations hold much promise,
+increasingly apparent. translating these tools into healthcare practice requires a
+measured, evidence-based approach. Rather than open-
+There are clearly emerging roles for AI tools in enhancing ended implementation, controlled deployment in targeted
+clinical team efficiency, including automating documentation use cases with governance is prudent at this stage.
+and patient data processing [27,28]. Targeted applications
+in defined use cases appear more prudent at ChatGPT’s This review provides a framework for stakeholders to
+current stage of development compared to open-ended align technology adoption with patient safety and ethical
+clinical deployment. More rigorous controlled studies principles. Continued rigorous research, grounded in the
+across diverse contexts are vital to establish evidence-based realities of clinical practice, can further elucidate appropriate
+implementation guidance. applications as AI systems rapidly evolve. But human
+clinical skills will remain the bedrock of quality care. The
+The need to align AI development and translation wise integration of emerging tools like ChatGPT must stay
+with principles of trust and safety. Advancing human-AI centered on enhancing, not supplanting, human expertise
+collaboration in healthcare requires cultivating appropriate and Lreismpointasitbiiolintys.
+expectations, developing governance to mitigate risks, and
+designing systems focused on enhancing (not replacing)
+human expertise. ChatGPT offers intriguing possibilities but
+warrants cautious, iterative evaluation. The wise integration This review has several limitations to acknowledge. The
+of AI in clinical care remains a journey to be charted inclusion of only studies published in 2023 and indexed in
+thouCghotnfuclllyu tsoigoenther [30-34]. selected databases means relevant prior research may have
+been omitted. The scope was also restricted to original
+research and reviews, excluding potentially useful sources
+like editorials and conference proceedings. Additional
+While findings reveal promising capabilities, they limitations include the qualitative synthesis approach, which
+also highlight significant limitations requiring prudent precludes quantitative comparisons, and the lack of quality
+Etli D. Generative AI and Patient Care: A Systematic Review Examining Applications, Limitations, Copyright© Etli D.
+and Future Directions for ChatGPT in Healthcare. J Qual Healthcare Eco 2024, 7(1): 000361.
+Journal of Quality in Health care & Economics
+7
+appraisal of individual studies. et al. (2023) Artificial Intelligence and Public Health:
+Evaluating ChatGPT Responses to Vaccination Myths and
+While providing a comprehensive snapshot of the Misconceptions. Vaccines 11(7): 1217.
+current evidence, the narrow publication timeframe indicates
+findings may not fully capture longitudinal developments in 10. Temsah MH, Aljamaan F, Malki KH, Alhasan K, Altamimi
+AI capabilities. The focus on a specific AI system, ChatGPT, I, et al. (2023) ChatGPT and the Future of Digital Health:
+also limits generalizability to the broader ecosystem of A Study on Healthcare Workers’ Perceptions and
+emeRrgeenfet rgeennecreatsive AI tools for healthcare. Expectations. Healthcare 11(13): 1812.
+11. Karabacak M, Ozkara BB, Margetis K, Wintermark M,
+Bisdas S (2023) The Advent of Generative Language
+Models in Medical Education. JMIR Medical Education 9:
+1. Yu P, Xu H, Hu X, Deng C (2023) Leveraging Generative AI
+e48163.
+and Large Language Models: A Comprehensive Roadmap
+for Healthcare Integration. Healthcare 11(20): 2776.
+12. Zumsteg JM, Junn C (2023) Will ChatGPT Match to Your
+Program. American Journal of Physical Medicine &
+2. Abd-alrazaq A, AlSaad R, Alhuwail D, Ahmed A, Healy
+Rehabilitation 102(6): 545-547.
+PM, et al. (2023) Large Language Models in Medical
+Education: Opportunities, Challenges, and Future
+13. Xiao D, Meyers P, Upperman JS, Robinson JR (2023)
+Directions. JMIR Medical Education 9: e48291.
+Revolutionizing Healthcare with ChatGPT: An Early
+Exploration of an AI Language Model’s Impact on
+3. Altamimi I, Alhumimidi AS, Temsah MH, Altamimi A,
+Medicine at Large and its Role in Pediatric Surgery.
+Abdulaziz A (2023) Snakebite Advice and Counseling
+Journal of Pediatric Surgery 58(12): 2410-2415.
+from Artificial Intelligence: An Acute Venomous
+Snakebite Consultation with ChatGPT. Cureus 15(6):
+14. Mello MM, Guha N (2023) ChatGPT and Physicians’
+e40351.
+Malpractice Risk. JAMA Health Forum 4(5): e231938.
+4. Biswas SS (2023) Role of ChatGPT in Radiology with
+15. Şendur HN, Şendur AB, Cerit MN (2023) ChatGPT
+a Focus on Pediatric Radiology: Proof by Examples.
+from Radiologists’ Perspective. The British Journal of
+Pediatric Radiology 53(5): 818-822.
+Radiology 96(1148): 20230203.
+5. Cadamuro J, Cabitza F, Debeljak Z, De Bruyne S, Frans
+16. Rahsepar AA, Tavakoli N, Kim GHJ, Hassani C, Abtin F, et
+G, et al. (2023) Potentials and Pitfalls of ChatGPT and
+al. (2023) How AI Responds to Common Lung Cancer
+Natural-Language Artificial Intelligence Models for the
+Questions: ChatGPT versus Google Bard. Radiology
+Understanding of Laboratory Medicine Test Results.
+307(5): e230922.
+AnAssessment by the European Federation of Clinical
+Chemistry and Laboratory Medicine (EFLM) Working 17. Xie Y, Seth I, Hunter-Smith DJ, Rozen WM, Ross R, et al.
+Group on Artificial Intelligence (WG-AI). Clinical (2023) Aesthetic Surgery Advice and Counseling from
+Chemistry and Laboratory Medicine 61(7): 1158-1166. Artificial Intelligence: A Rhinoplasty Consultation with
+ChatGPT. Aesthetic Plastic Surgery 47(5): 1985-1993.
+6. Chavez MR, Butler TS, Rekawek P, Heo H, Kinzler WL
+(2023) Chat Generative Pre-trained Transformer: Why 18. Giannos P, Delardas O (2023) Performance of ChatGPT
+We Should Embrace This Technology. American Journal on UK Standardized Admission Tests: Insights From the
+of Obstetrics and Gynecology 228(6): 706-711. BMAT, TMUA, LNAT, and TSA Examinations. JMIR Medical
+Education 9: e47737.
+7. Chervenak J, Lieman H, Blanco-Breindel M, Jindal S
+(2023) The Promise and Peril of Using a Large Language 19. Mallio CA, Sertorio AC, Bernetti C, Beomonte Zobel B
+Model to Obtain Clinical Information: 166 ChatGPT (2023) Large Language Models for Structured Reporting
+Performs Strongly as a Fertility Counseling Tool with in Radiology: Performance of GPT4, ChatGPT-3.5,
+Limitations. Fertility and Sterility 120: 575-583. Perplexity and Bing. La radiologia medica 128: 808-812.
+8. Darkhabani M, Alrifaai MA, Elsalti A, Dvir YM, Mahroum 20. Mondal H, Mondal S, Podder I (2023) Using ChatGPT
+N (2023) ChatGPT and Autoimmunity – A New Weapon for Writing Articles for Patients’ Education for
+in the Battlefield of Knowledge. Autoimmunity Reviews Dermatological Diseases: A Pilot Study. Indian
+22(8): 103360. Dermatology Online Journal 14(4): 482-486.
+9. Deiana G, Dettori M, Arghittu A, Azara A, Gabutti G, 21. Johnson SB, King AJ, Warner EL, Aneja S, Kann BH, et
+Etli D. Generative AI and Patient Care: A Systematic Review Examining Applications, Limitations, Copyright© Etli D.
+and Future Directions for ChatGPT in Healthcare. J Qual Healthcare Eco 2024, 7(1): 000361.
+Journal of Quality in Health care & Economics
+8
+al. (2023) Using ChatGPT to Evaluate Cancer Myths Doctors. ATS Scholar 4(3): 282-292.
+and Misconceptions: Artificial Intelligence and Cancer
+Information. JNCI Cancer Spectrum 7(2): pkad015. 29. Mohammed M, Kumar N, Zawiah M, Al-Ashwal FY, Bala AA,
+et al. (2023) Psychometric Properties and Assessment
+22. Levin G, Brezinov Y, Meyer R (2023) Exploring the Use of of Knowledge, Attitude, and Practice towards ChatGPT
+ChatGPT in OBGYN: A Bibliometric Analysis of the First in Pharmacy Practice and Education: A Study Protocol.
+ChatGPT-related Publications. Archives of Gynecology Journal of Racial and Ethnic Health Disparities 10(4):
+and Obstetrics 308(6): 1785-1789. 1-10.
+23. Rawashdeh B, Kim J, AlRyalat SA, Prasad R, Cooper 30. Thurzo A, Strunga M, Urban R, Surovková J, Afrashtehfar
+M (2023) ChatGPT and Artificial Intelligence in KI(2023) Impact of Artificial Intelligence on Dental
+Transplantation Research: Is It Always Correct. Cureus Education: A Review and Guide for Curriculum Update.
+15(7): e42150. Education Sciences 13(2): 150.
+24. Morath B, Chiriac U, Jaszkowski E, Deiß C, Nürnberg H, 31. Duncan G (2022) Motion Planning and Remote Sensing
+et al. (2023) Performance and Risks of ChatGPT Used in Algorithms, Predictive Geospatial Modeling and Deep
+Drug Information: An Exploratory Real-World Analysis. Learning Artificial Intelligence Tools, and Machine
+European Journal of Hospital Pharmacy. Perception and Image Recognition Technologies in
+the Blockchain-based Virtual Economy. Analysis and
+25. Kim JK, Chua M, Rickard M, Lorenzo A (2023) ChatGPT Metaphysics 21: 193-209.
+and Large Language Model (LLM) Chatbots: The Current
+State of Acceptability and a Proposal for Guidelines on 32. Vaishya R, Misra A, Vaish A (2023) ChatGPT: Is This
+Utilization in Academic Medicine. Journal of Pediatric Version Good for Healthcare and Research. Diabetes &
+Urology 19(5): 598-604. Metabolic Syndrome: Clinical Research & Reviews 17(4):
+102744.
+26. Juhi A, Pipil N, Santra S, Mondal S, Behera JK, et al. (2023)
+The Capability of ChatGPT in Predicting and Explaining 33. Wagner MW, Ertl-Wagner BB (2023) Accuracy of
+Common Drug-Drug Interactions. Cureus 15(3): e36272. Information and References Using ChatGPT-3 for
+Retrieval of Clinical Radiological Information. Canadian
+27. Grünebaum A, Chervenak J, Pollet SL, Katz A, Chervenak Association of Radiologists Journal.
+FA (2023) The Exciting Potential for ChatGPT in
+Obstetrics and Gynecology. American Journal of 34. Wen J, Wang W (2023) The Future of ChatGPT in
+Obstetrics and Gynecology 228(6): 696-705. Academic Research and Publishing: A Commentary
+for Clinical and Translational Medicine. Clinical and
+28. Ravi A, Neinstein A, Murray SG (2023) Large Language Translational Medicine 13(3): e1207.
+Models and Medical Education: Preparing for a Rapid
+Transformation in How Trainees Will Learn to Be
+Etli D. Generative AI and Patient Care: A Systematic Review Examining Applications, Limitations, Copyright© Etli D.
+and Future Directions for ChatGPT in Healthcare. J Qual Healthcare Eco 2024, 7(1): 000361.

@@ -1,5 +1,23 @@
-# Environment
-.env
+data/raw/*
+!data/processed/screening_log.json
+!data/processed/audit_log.json
+rag_store/
+
+
+# =====================
+# PyCharm / JetBrains
+# =====================
+.idea/
+*.iml
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
 
 # Virtual environments
 .venv/

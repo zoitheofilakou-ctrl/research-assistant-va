@@ -1,0 +1,814 @@
+Abelsson et al. BMC Primary Care (2024) 25:13 BMC Primary Care
+https://doi.org/10.1186/s12875-023-02237-9
+RESEARCH Open Access
+The dilemma of the split between theory
+and reality as experienced by primary
+healthcare professionals: a mixed methods
+study of evidence-based practice in a primary
+care context
+Tobias Abelsson1,3*, Ann-Kristin Karlsson1, Helena Morténius1,2, Amir Baigi1,3 and Stefan Bergman1,4,5
+Abstract
+Background Primary care depends upon a good information flow across professional and structural boundaries
+to provide the best care for patients. Previous research has mainly focused on Evidence-Based Practice (EBP) within
+specific professions. Mapping of pan-professional experiences of and attitudes to EBP in publicly funded clinical
+practice is necessary to deepen the understanding of EBP and its implementation. Thus, this study aimed to
+investigate healthcare professionals’ experiences of and attitudes towards working in accordance with EBP in primary
+care.
+Methods The study used a convergent mixed methods design divided into two strands: a quantitative enquiry
+tool (Evidence-Based Practice Attitude Scale, EBPAS) and a set of qualitative interviews analysed by means of
+qualitative content analysis. Both strands included all primary care employees with patient interaction in the studied
+county (n = 625), including doctors, nurses, physiotherapists, psychologists and assistant nurses. Out of the original
+625 healthcare professionals, 191 finished the first strand and 8 volunteered for the second strand (2 nurses, 2
+physiotherapists, 1 psychiatrist and 3 doctors).
+Results The EBPAS value of 2.8 (max 4) indicated a generally positive attitude towards EBP amongst the population,
+which was also evident in the interviews. However, there were additional experiences of not having the ability or
+resources to engage in EBP. This was illustrated by the theme that emerged from the qualitative content analysis: “The
+dilemma of the split between theory and reality”. Due to the organisational and managerial focus on efficiency rather
+than quality of care, there were few or no incentives for promoting individual educational or research development.
+Conclusions Although the general attitude towards EBP is positive, experiences of practising it differ. There is a
+need to increase knowledge of EBP concepts, requirements and implementation in the clinical setting. The absence
+*Correspondence:
+Tobias Abelsson
+Tobias.Abelsson@gu.se
+Full list of author information is available at the end of the article
+© The Author(s) 2023. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use,
+sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and
+the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The
+Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available
+in this article, unless otherwise stated in a credit line to the data.
+Abelsson et al. BMC Primary Care (2024) 25:13 Page 2 of 11
+of opportunities to do research and collegial debate about new ways of finding and implementing research-based
+evidence results might influence the quality of care.
+Keywords EBM, EBP, Healthcare professionals, Mixed method, Experience, Perception
+Background
+an important factor in EBP practice and implementation
+Evidence-Based practice (EBP) is defined as merging [3, 20, 25, 30]. Their attitudes have been investigated in
+patients’ values and preferences with clinical expertise previous studies employing the verified Evidence-Based
+and best available evidence to provide the highest qual- Practice Attitude Scale (EBPAS) [26, 31, 32].
+ity care possible to patients [1, 2]. EBP is recognised as a The above leads to the conclusion that there seems to
+core skill by the World Health Organisation and health- be a general knowledge gap concerning the attitudes of
+care professionals (HPs) in primary care (PC) [3–5]. The all HP categories towards use of the new research-based
+need for a common understanding of EBP and its appli- methods described by the EBP guidelines/protocol. Thus,
+cation was identified about two decades ago [6]. Never- the aim of this study was to investigate HPs’ attitudes
+theless, the need for a common, non-profession-specific towards and experiences of working according to EBP in
+definition of EBP and the skills required to practise it still PC. To obtain a more comprehensive result, the present
+seems to exist [1, 3, 4, 7–13]. Complete understanding study will apply a mixed methods design involving both
+and practice of the EBP process are dependent on a range qualitative and quantitative methodologies.
+of factors from individual to organisational [6]. Of these
+Methods
+factors, information management skills such as critical
+thinking and analysis of complex information are vital [3, Design and setting
+4, 6, 8, 11]. The study used a convergent mixed methods design as
+The PC mission is to be the first line of healthcare pro- described by Creswell [33]. Two study strands, a quanti-
+vision for treating every type of illness in all segments of tative and a qualitative, were merged into a single result
+the population [7, 14, 15]. To handle this huge mission [33]. The first strand was based on the responses to a
+and deliver the best available care, the principles of EBP validated EBPAS instrument about attitudes towards EBP
+are adhered to [7, 8]. completed by PC HPs in a Swedish healthcare region
+The research of attitudes towards EBP and its practical [31]. The second consisted of a qualitative content analy-
+use has so far generally focused on three major areas: (1) sis of interviews with different professional categories
+Case studies and meta-analyses covering specific stake- within PC [34].
+holder groups, such as patients in need of information
+during certain therapies [16–18]. (2) Information dis- The quantitative strand
+semination and use of EBP within and between clinical Recruitment and study population
+professions [4, 5, 19–21]. (3) EBP usage on strategic levels The quantitative data collection took place online with
+within organisations [8, 22, 23]. the aim of recruiting HPs in all public PC centres in the
+Few articles addressing nursing staff members’ atti- chosen healthcare region, in total 625 individuals. Inclu-
+tudes towards EBP and their willingness to engage in sion criteria were HPs with experience of patient contact.
+research activities have been found [24, 25]. However, The exclusion criterion was being employed in a manage-
+some systematic reviews on the attitudes and compe- rial position.
+tencies related to EBP practice and implementation The addresses of all eligible HPs were received from the
+have been identified [3, 4]. These conclude that EBP can central PC management in the studied region. An e-mail
+enhance healthcare safety and patient outcomes as well with a link to the survey was sent to all eligible HPs. One
+as increase economic gain [3, 4, 25]. week after the initial invitation, a reminder was sent to
+Despite earlier research, barriers to achieving a fully those who had not yet completed the survey. This pro-
+integrated healthcare organisation that implements EBP cess was repeated on two further occasions, so that each
+in its truest sense still exist [3, 20, 25, 26]. The results of HP who had not responded received a maximum of four
+these studies identified lack of time and resources on all invitations to take part in the survey.
+levels as the largest barriers that prevent HPs from fully
+practising EBP [7, 8, 25, 27–29]. Such barriers ultimately Questionnaire design and construction
+resulted in ethical stress amongst managers [16], whose The questionnaire used was the validated EBPAS instru-
+attitudes towards EBP have also been proven to influ- ment (Appendix 1), previously shown to have high overall
+ence the local organisational implementation of EBP [3, reliability [32]. The instrument was created and validated
+4, 7, 8]. Besides organisational and managerial influence, in English, after which it was translated into Swedish.
+the individual attitudes of HPs have been identified as Although originally constructed for use in a psychiatric
+Abelsson et al. BMC Primary Care (2024) 25:13 Page 3 of 11
+staff context, the instrument was considered appropriate represented most of the major professional groups (doc-
+for all personnel who are obliged to work in accordance tors, psychologists, physiotherapists and nurses).
+with EBP. EBPAS encircles four domains of psychomet-
+ric measurement to describe attitudes towards adopting Study setting and data collection
+EBP [31]. This is done in four dimensions; Required to An invitation was sent by e-mail to the same recipients
+work according to EBP (Requirements), Intuitive appeal as in the quantitative strand, inviting them to attend the
+(Appeal), Openness to new practice (Openness) and interviews. A reminder was sent after one week. All but
+finally perceived divergence (Divergence) from estab- one interview, which was conducted face to face with two
+lished EBP-practice [31]. In addition to the instrument, participants, were performed via telephone or video. The
+five questions of a demographic nature were added; interviews, the duration of which was 30 to 50 min, were
+age, sex, education, number of years employed and performed by the first author using open-ended ques-
+profession. tions, the responses to which were deepened by follow-
+Data were normalised and prepared for use according up questions. The interviews began with an introduction
+to the EBPAS instructions for items and scoring devel- covering the background and aim of the study. An inter-
+oped by Aarons [31, 32]. More specifically, this meant view guide (Appendix 2) was used to collect information
+that each item was ordered on a numeric scale from 0 on themes from the EBPAS questionnaire. The resulting
+to 4 (0 = not at all, 1 = to a slight extent, 2 = to a moder- data were then transcribed verbatim by the first author.
+ate extent, 3 = to a great extent, 4 = to a very great extent)
+[31]. Each of the 15 items in the questionnaire was then Qualitative data analysis
+grouped into four subscales labelled: Requirements, The data in the qualitative strand were analysed using the
+Appeal, Openness and Divergence, the content of which qualitative content analysis method presented by Grane-
+is illustrated in Table 1. A change in the scoring was heim and Lundman in 2004 [34] with additional insights
+made for the divergence subscale, where all items were from Lindgren, Lundgren and Graneheim in 2020, such
+scored in reverse when calculating the total mean score as the division of the process into five steps [35]:
+for the domain [31].
+De-contextualisation phase 1. Immersion of
+Statistical analyses manifest data: All available verbatim transcripts
+The statistical analyses were performed using IBM SPSS were read through until a full understanding of the
+Version 28.0. Descriptive data were presented with per- text was achieved. This was done by four of the
+centages, means and standard deviations (SD). Main co-authors in the research group.
+dependent variables were the EBPAS total and subdo- 2. Meaning units relevant to the aim of the study were
+main scores. Independent explanatory variables were age, identified by the four co-authors and discussed until
+sex, experience, education and occupation. Differences consensus was achieved.
+in mean values for each independent variable were ana- 3. Meaning units were condensed and coded. This
+lysed with Student´s t-test. Significance level was set to was done by the first author. Their relevance was
+p < 0.05. discussed within the group until consensus was
+achieved.
+The qualitative strand
+Study procedure Re-contextualisation phase 4. The codes were
+The same HPs who received the EBPAS instrument then grouped into subcategories and categories in
+were invited to participate in the qualitative strand, accordance with the similarities and differences
+which comprised six individual interviews via telephone in their content. The authors discussed the
+or video call and one interview carried out face to face subcategories and categories until agreement was
+with two participants, giving a total of eight participants. reached.
+The participants recruited for the qualitative strand 5. Abstraction of the latent content: the latent meaning
+contained in the resulting categories was discussed
+amongst the authors resulting in an overarching
+Table 1 Means of the EBPAS subdomains theme.
+Mean (max = 4) SD
+Requirements 2.8 0.9 The goal of the parallel qualitative analyses conducted
+Appeal 3.1 0.6 by the co-authors during the analysis process was to
+Openness 2.9 0.6 enhance reliability and ensure quality.
+Divergence 1.5 0.6
+Total 2.8 0.5
+Abelsson et al. BMC Primary Care (2024) 25:13 Page 4 of 11
+The convergent mixed methods analysis dataset (Table 1). Differences in mean values for each
+The purpose of the convergent design was to merge data independent variable are presented in Table 1. There
+from the two different strands into a comprehensive were four subdomains: Requirement, Appeal, Openness
+result, in order to identify complementary aspects of the and Divergence (overall Cronbach’s alpha = 0.76).
+data and increase the understanding of EBP in PC. The In the subdomain Requirement, significant differences
+convergent analysis was performed in four steps in accor- were found between sex and length of professional expe-
+dance with Creswell’s description of the process [36]. rience. Females scored higher than males, as did those
+The first two steps involved collecting and analysing the with over ten years of professional experience (Table 3).
+qualitative and quantitative data separately in accordance In the subdomains Appeal and Openness, no statisti-
+with each of the chosen methods. The third step, “Inter- cally significant differences in mean values were observed
+face”, consisted of creating a joint table that illustrated for any of the independent variables. In the Divergence
+the quantitative EBPAS subdomains within the catego- subdomain, there were significant differences between
+ries created in the qualitative analysis. In the fourth step, age, length of professional experience and educational
+the results from the EBPAS, total score and occurrence level. Participants older than 40 years had a higher score
+of individual subdomains in the quantitative results were than younger participants, indicating greater divergence
+merged with the qualitative results and discussed as a regarding EBP, which was also the case for those with
+unit. longer professional experience and low educational level
+(High school level) (Table 3). In terms of the total score,
+Results
+there were significant differences in age and sex, with
+The quantitative strand females 40 years or under having higher scores (Table 3).
+Of the 190 participants, 79.5% were female and 20.5% Mean values for the four subdomains and total scores
+male. Most were within the 31 to 40-year age cohort and concerning occupation are presented in Table 4. Of par-
+had a master’s degree (Table 2). The means for the EBPAS ticular interest is the comparison of specialist doctors,
+total and subdomain scores were calculated for the whole interns and residents, as they have the same educational
+background but different lengths of professional experi-
+ence. Statistically significant differences were only seen
+Table 2 Descriptive statistics of the background variables.
+for the subdomain Requirements (p = 0.004) and for the
+N = 190
+total score (p = 0.047), where interns and residents scored
+N %
+higher than specialists.
+Sex Male 39 20.5
+Female 151 79.5
+Qualitative strand
+Age 21–30 21 11.1
+The final number of participants in the qualitative strand
+31–40 53 27.9
+was eight individuals (two males and six females) with
+41–50 44 23.2
+varied professional experience and age, comprising two
+51–60 47 24.7
+physiotherapists, two registered nurses, one psychologist
+61- 25 13.2
+and three doctors. The analysis process resulted in two
+Experience -5 52 27.4
+6–10 36 18.9 categories: Managing EBP in PC and Embracing EBP in
+11–15 31 16.3 PC, based on seven subcategories. A theme labelled “The
+16–19 16 8.4 dilemma of the split between theory and reality” emerged
+20- 55 28.9 from the concluding abstraction of the manifest result
+Education High school 19 10 derived from the meaning units, subcategories and cat-
+Candidate 69 36.3 egories. The complete theme structure and analysis pro-
+Master 74 38.6 cess are illustrated in Tables 5 and 6.
+PhD 3 1.6
+Other 25 13.2 Managing EBP in PC
+Occupation Occupational therapist 13 6.8 This category comprises four subcategories describing
+Assistant nurse 23 12.1 experiences of when and how to use EBP as clinical guid-
+Registered nurse 66 34.7 ance in everyday clinical practice: The patient encounter,
+Medical specialist 21 11.1 Evidence versus experience, Availability of evidence and
+Psychologist 15 7.9 Barriers to using EBP.
+Physiotherapist 27 14.2
+Intern and resident 17 8.9 The patient encounter This subcategory contains state-
+Medical social worker 7 3.7 ments that indicate how the participants relate to evidence
+Rehabilitation ass. 1 0.5 in patient encounters, including gathering, evaluating and
+Abelsson et al. BMC Primary Care (2024) 25:13 Page 5 of 11
+conveying evidence-based information to the patient.
+Other factors mentioned are the difficulty adapting evi-
+dence to an individual patient’s unique case and the fact
+that evidence is presented on group level, thus ignoring
+each patient’s individuality and unique anamnesis.
+“It often feels as if we don’t give the best treatment
+because the resources are lacking; instead, we give
+the least bad treatment. Because there is no room
+to use the evidence efficiently, even if it does exist.”
+(Participant 1).
+“Evidence is very much at group level, while we only
+focus on the individual.” (Participant 3).
+Evidence versus experience Evidence vs. experience
+covers the issue of when and how to use evidence. State-
+ments concern the question of when it is necessary to
+take account of more than just evidence. The subcategory
+describes how to navigate between as well as trusting evi-
+dence and experience as the basis for clinical decision-
+making.
+“I have only been a registered nurse for a year, so I
+am more inclined to trust the evidence as I have not
+yet gained much experience.” (participant 8).
+“Sometimes experience is a substitute for evidence,
+but often it´s like a complement.” (Participant 6).
+Availability of evidence The main content of this sub-
+category is the ease of finding and accessing evidence. The
+availability of evidence seemed to vary in PC depending
+on the nature of the diagnosis. In general, the participants
+considered that relevant evidence was hard to find or
+interpret. The preferred form of evidence was a review of
+original research articles. Evidence-based internal guide-
+lines were requested for a greater number of areas, as well
+as more rapid updating of existing guidelines when new
+evidence emerged.
+“I would like to say that it depends… The availabil-
+ity of evidence differs depending on speciality. Both
+in terms of accessibility and trustworthiness.” (Par- ticipant 5).
+“I frequently read guidelines and PMs, less often
+research articles, as their content reaches us in sum-
+marised form after review by the county.” (Partici-
+pant 7).
+Barriers to using EBP This subcategory contains the
+main barriers to using EBP as described by the partici-
+pants. The most frequently mentioned barrier was lack of
+time, i.e., time with patients and for keeping updated on
+hgih
+=
+noitacude
+woL.scilati
+dlob
+yb
+detacidni
+era
+seulav
+naem
+ni
+secnereffid
+tnacfiingis
+yllacitsitatS
+.sniamodbus
+SAPBE
+eht
+ot
+detaler
+selbairav
+cihpargomed
+tnednepednI
+3
+elbaT
+rehgih
+dna
+setaudarg
+etadidnac
+= noitacude
+hgih
+,rewol
+dna
+loohcs
+latoT
+ecnegreviD
+ssennepO
+laeppA
+stnemeriuqeR
+P
+DS
+naeM
+P
+DS
+naeM
+P
+DS
+naeM
+P
+DS
+naeM
+P
+DS
+naeM
+N
+040.0
+5.0
+8.2
+010.0
+6.0
+6.1
+433.0
+6.0
+8.2
+380.0
+6.0
+1.3
+656.0
+8.0
+8.2
+611
+04
+>
+egA
+4.0
+9.2
+6.0
+4.1
+6.0
+9.2
+6.0
+2.3
+9.0
+8.2
+47
+04
+≤
+170.0
+5.0
+7.2
+631.0
+6.0
+4.1
+790.0
+8.0
+7.2
+121.0
+6.0
+0.3
+400.0
+8.0
+4.2
+93
+M
+xeS
+4.0
+9.2
+6.0
+6.1
+6.0
+9.2
+6.0
+2.3
+9.0
+9.2
+151
+F
+416.0
+5.0
+8.2
+020.0
+6.0
+7.1
+978.0
+6.0
+9.2
+333.0
+6.0
+1.3
+320.0
+8.0
+9.2
+201
+01
+>
+ecneirepxE
+5.0
+8.2
+6.0
+4.1
+6.0
+9.2
+6.0
+2.3
+9.0
+6.2
+88
+01
+≤
+017.0
+5.0
+8.2
+500.0
+6.0
+9.1
+067.0
+6.0
+9.2
+531.0
+6.0
+2.3
+951.0
+8.0
+8.2
+171
+hgiH
+noitacudE
+5.0
+6.2
+6.0
+5.1
+6.0
+6.2
+8.0
+9.2
+0.1
+1.3
+91
+woL
+Abelsson et al. BMC Primary Care (2024) 25:13 Page 6 of 11
+Table 4 Professional category and mean variables related to the EBPAS subdomains
+Requirements Appeal Openness Divergence Total
+N Mean SD Mean SD Mean SD Mean SD Mean SD
+Occupational therapist 13 3.4 0.6 3.4 0.5 3.1 0.5 1.3 0.5 3.1 0.4
+Assistant nurse 23 3.1 0.9 2.9 0.7 2.9 0.5 1.8 0.6 2.7 0.5
+Registered nurse 66 2.9 0.8 3.1 0.6 2.9 0.6 1.6 0.6 2.8 0.5
+Specialist doctor 21 2.2 0.7 3.0 0.6 2.6 0.5 1.4 0.5 2.7 0.4
+Psychologist 15 2.2 0.8 2.9 0.7 2.9 0.8 1.7 0.7 2.6 0.5
+Physiotherapist 27 2.8 0.8 3.3 0.6 3.1 0.6 1.4 0.6 2.9 0.4
+Intern and Resident doctor 17 3.0 0.9 3.3 0.5 2.6 0.8 1.2 0.5 2.9 0.5
+Reg. healthcare counsellor 7 2.2 0.4 3.1 0.5 2.9 0.6 1.5 0.4 2.7 0.3
+Rehabilitation coordinator 1 3.7 --- 4.0 --- 3.8 --- 1.0 --- 3.6 ---
+Total: 190 2.8 0.9 3.1 0.6 2.9 0.6 1.5 0.6 2.8 0.5
+Table 5 Illustration of the analysis process
+Meaning unit Condensation Code Subcategory Category
+“If you want to change something you may have to challenge a senior col- Difficult to change Difficulty challeng- Collegial Embracing
+league, not everyone wants to do that.” established ing norms dialogue EBP in PC
+practices
+“I believe that there is less micromanagement in PC compared to specialist care. Less microman- Less Reliance on Embracing
+Less guidelines and such.” agement in PC micromanagement evidence EBP in PC
+“Evidence is very much on group level, while we only focus on the individual.” Group level evi- Evidence not The patient Managing
+dence instead of tailored to the encounter EBP in PC
+individual individual
+“A strange thing is the opinion that clinical experience is looked upon as Clinical experience Clinical experience is Collegial Embracing
+the norm when it comes to what works and what doesn’t… It might be most valued the norm dialogue EBP in PC
+generational.”
+“My experience is that we have an increased awareness of the sheer volume of More information, More information, Barriers to EBP Managing
+knowledge that you are supposed to possess while simultaneously we have less less time less time EBP in PC
+time to collect this knowledge.”
+Table 6 Qualitative analysis result structure Embracing EBP in PC The category “Embracing EBP
+Subcategory Category Theme in PC” comprises three subcategories: Research climate,
+The patient encounter Managing EBP in PC The di- Collegial dialogue and Reliance on evidence. The similar-
+Evidence vs. Experience lemma ity between these subcategories is that they describe the
+of the
+Availability of evidence opportunities to embrace the concept and practice of EBP
+split
+Barriers to using EBP in the clinical setting by outlining the research climate in
+be-
+Research climate Embracing EBP in PC tween PC in general, the collegial dialogue about evidence and
+Collegial dialogue theory new knowledge, and finally, how to know when to rely on
+Reliance on evidence and evidence in daily practice.
+reality
+Research climate This subcategory comprises state-
+research to gain a better understanding of the situation. ments outlining attitudes towards research per se as well
+The underlying reason for lack of time seems to be the as conducting and utilising it. The general attitude in rela-
+perceived pressure to keep up with the volume of work. tion to research was that it is necessary, especially in PC
+due to its large size. Attitudes pertaining to the impact of
+“You are supposed to have the time to thoroughly
+research in daily clinical practice are also described.
+read and evaluate new evidence and whether the
+methods are sound, but that time is not included in “People don’t see the possibility. There are few aca-
+the clinical reality.” (Participant 4). demic supervisors available, and you are not offered
+“My experience is that we have an increased aware- the opportunity to conduct research. If you want to,
+ness of the sheer volume of knowledge that you are you must fight pretty hard for it.” (Participant 1).
+supposed to possess, while simultaneously having “Primary care needs more research but it [the man-
+less time to collect it.” (Participant 2). agement] does not understand that conducting
+research must be rewarding.” (participant 2).
+Abelsson et al. BMC Primary Care (2024) 25:13 Page 7 of 11
+Collegial dialogue This subcategory encompasses the Overarching theme: The dilemma of the split between
+perceptions of being able to discuss evidence in the PC theory and reality
+centre as experienced and expressed by the participants The overarching theme was formulated out of interview
+and their colleagues. The general impression is one of data formed into categories, subcategories and codes,
+interest in discussing evidence amongst colleagues but all following a “red thread” connecting the manifest text
+lacking real opportunities to do so. Some also stated that to the analysed latent meaning. The theme of being torn
+collegial dialogue is difficult to achieve due to a few col- between two realities that seems hard to overbridge. In
+leagues’ lack of interest in discussing therapies and evi- the interviews, the participants stated that they had
+dence. knowledge of EBP and generally expressed a positive
+attitude towards it, adding that they knew they were
+“Of course, you discuss it [evidence], but it is hard
+supposed to base every decision on evidence. However,
+to discuss the quality of the articles.” (Participant 1).
+barriers in the form of a lack of resources, perceived dis-
+“If you want to change something, you may have to
+interest from colleagues in discussing and sometimes
+challenge a senior colleague; not everyone wants to
+implementing evidence and tardiness of information dis-
+do that.” (Participant 4).
+semination in the organisation made compliance with
+and implementation of EBP seem like an extra task on
+top of an already heavy workload.
+Reliance on evidence The subcategory contains our par-
+ticipants’ statements on the value of evidence and their Convergent result
+trust in it. Evidence is generally seen as something that On an item level, the content of each EBPAS subdo-
+represents knowledge, security and the gold standard for main was found to correspond with one or more subcat-
+clinical decisions in everyday practice. Nevertheless, some egories in the qualitative content analysis, as illustrated
+statements diverged from the commonly expressed con- by the conjunction table below (Table 7). The EBPAS is
+sensus, with participants stating that evidence decreases designed to quantitatively describe attitudes towards EBP
+in value when one’s professional experience increases. that could be translated into qualitative terms in the form
+of a single mean value. In turn, the overarching theme
+“In education it is stressed that everything should
+and underlying categories and subcategories lend them-
+be evidence-based: you should be able to build your
+selves to interpretation based on the defined EBPAS sub-
+choice of theory and methods on the basis of evi-
+domain. When combined, these two findings form new
+dence. But how this is fulfilled in practice seems to
+aspects of the results. Figure 1 illustrates the convergent
+be a completely different story.” (Participant 4).
+result and its inherent parts.
+“I believe that there is less micromanagement in pri-
+mary care compared to specialist care. Less guide- Discussion
+lines and such.” (Participant 6).
+This mixed methods study revealed that HPs’ attitudes to
+EBP in PC were generally positive, which is in line with
+the results of earlier research [3, 5, 7, 20, 24, 25]. How-
+ever, it is important to bear the self-reported nature of
+the qualitative data in mind. The positive attitude might
+Table 7 The content of EBAS domains in each qualitative
+be a “politically correct” answer due to the fact that EBP
+subcategory
+is firmly anchored in modern medicine and legislation
+Qualitative Requirements Appeal Openness Diver-
+subcategory gence [15, 21]. In view of this, there ought to be a conformity
+The patient X X X bias that influences the respondents. For example, in a
+encounter and study performed in 2021, 68% stated the obligation to fol-
+EBP low guidelines, while at the same time exhibiting a neu-
+Evidence versus X X X tral or low level of enthusiasm for EBP [21]. The same
+experience
+influence of legislation or policies can be seen in Swedish
+Availability of X X X
+primary care, as our earlier research of EBP knowledge
+evidence
+amongst primary care managers shows [8].
+Barriers to using X X X X
+EBP When practising EBP, there might also be a problem
+Research climate X regarding familiarity with the EBP concept and the ability
+Collegial X X X to understand crucial terminology [3, 5]. The degree of
+dialogue understanding of concepts could be seen as being either a
+Reliance on X X X result of educational or clinical exposure or professional
+evidence experience [5]. This is supported by the quantitative
+Abelsson et al. BMC Primary Care (2024) 25:13 Page 8 of 11
+Fig. 1 Illustration of the convergent result
+results (Table 3); experience leads to the ability to choose co-workers [7], thus contributing to the lack of opportu-
+when to practise EBP. nities to practise EBP. In the long term, this will influence
+The results from our study and the literature [3] reveal the quality of care in PC [3, 4, 7].
+a high level of self-reported familiarity with EBP and its A scarcity of mainly non-existent information
+concepts that is failing when implemented into clinical resources in the form of databases and applications was
+action [3]. Moreover, the same review, as well as several also mentioned by HPs as a hindrance to the practise of
+others, also indicates some confusion about and dis- EBP [5, 21]. The specific lack of informational resources
+parities in the definition of EBP and its concepts [3, 5, 6, was not mentioned by the participants, although the
+20]. Our participants stated that EBP is primarily used lack of knowledge about where to find evidence might
+to justify clinical decisions. When asked what evidence be a result of this. It would appear that PC has a supply
+was used, most of the participants referred to scientific problem regarding evidence adapted to the PC setting
+articles. This contradiction can be seen as evidence of a with comorbidities and the complex context that exists
+belief in using EBP. Although merely supporting clinical within PC [30]. This was also an opinion voiced by our
+decisions based on guidelines or article reviews. Conse- participants. Apart from the perceived lack of research,
+quently, it can contribute to upholding clinical traditions the desire for evidence could depend on several other
+and customs of what in essence is an opinion-based prac- factors, such individual research skills, lack of technology
+tice [3]. It is our interpretation that divergence from EBP and education [20, 21, 30].
+may be the ultimate outcome of a lack of education and Focusing upon the quantitative strand, some interest-
+clinical experience, resulting in a more pragmatic way of ing associations were found. For instance, the variables
+practising EBP with the help of colleagues, guidelines, “education” and “experience” were comparable with the
+policies etc. In this way, the efficiency and reliability of EBPAS subdomain of divergence (Table 3). This could
+EBP and its concepts may be impaired and made even indicate that HPs with lower education seem more likely
+worse by the misconceptions of EBP and how to integrate to deviate from evidence (Table 3). A similar association
+it in clinical practice, thus contributing to an ineffective could be seen in terms of divergence and education, yield-
+and potential degradation of care quality [3]. ing an increased divergence score with growing profes-
+Most frequently, the lack of time to evaluate the infor- sional experience. For example, we can see that assistant
+mation pertaining to each patient was stated to be of nurses, a group with relatively low educational require-
+increasing importance both in the literature and in our ments, have a higher total EBPAS score than most other
+interviews [3, 5, 7, 8, 20, 25, 27]. In addition, the lack occupations. This is interesting as most of these partici-
+of time to practise EBP in an appropriate manner was pants had less than five years of education. Thus, both the
+repeatedly mentioned and has been shown to affect lowest and one of the most highly educated professions
+PHC management [7]. Worth mentioning in this con- had the highest total EBPAS scores, but educational value
+text is the connection between managerial ethical stress could be traced when scrutinising the divergence subdo-
+that occurs when the knowledge of the impact of lack- main. The attitude towards practising EBP can thus be
+ing resources clashes with the wish to allow co-workers seen as influenced by at least two factors: exposure and
+enough time, on the one hand, and financial resources to education. The high EBPAS score of our assistant nurses
+be able to fully practise EBP, on the other [7]. This lack could be the result of the same phenomenon described
+of time and economic resources to be able to practise by a study in 2021 [21]. That is, occupational experience
+EBP could be seen as being passed on from manage- provides more exposure to EBP and EBP-related think-
+ment to all co-workers. The time resource may thus be, at ing, in turn influencing the attitude towards it [21]. In
+least perceived, to be set and beyond the control of most 2004 Aarons et al. mentioned education as an influential
+Abelsson et al. BMC Primary Care (2024) 25:13 Page 9 of 11
+factor for how HPs perceive EBP [31]. More education Strengths and weaknesses of the study
+could mean that an individual HP considers EBP less The convergent mixed methods design was chosen due to
+burdensome compared to colleagues with a lower educa- being the most appropriate way to describe our results,
+tional level [31]. bearing in mind that the data collection in both strands
+The attitude towards research and EBP among mana- was performed separately and sequentially. The prag-
+gerial staff has been found to be of great importance [7]. matic triangulation enabled by this method is optimal for
+A positive attitude towards research and its utilisation describing and merging the qualitative and quantitative
+should permeate from the managerial down to the bot- research paradigms employed.
+tom level of the hierarchy [25]. In this way, managers can The original EBPAS (EBPAS-15) was chosen for the
+influence the local research culture, which in turn creates quantitative strand. The EBPAS-50 and EBPAS-36 are
+an incentive to use and conduct research [7, 21, 25]. both based on the EBPAS-15. The reason for the choice
+Participants in the present study described a research of the original tool was that it has good psychometric
+climate that is perceived as tough for creating the oppor- coverage, is validated and furthermore, is the only one
+tunity to conduct research or keep abreast of published that has been subjected to confirmative factor analysis in
+research. This is also an acknowledged problem amongst a Swedish setting [32]. The EBPAS 36 is a reduced version
+HPs internationally [5, 21, 37]. The unwillingness to risk of the EBPAS 50 scale used in Norwegian and US settings
+confrontation with colleagues when trying to discuss EBP [26].
+or suggest a change of practice seemed daunting enough The conclusion from earlier research employing the
+to prevent the participants from discussing the topic with EBPAS is that while there are less robust results in the
+colleagues. The social climate is ultimately a result of the Divergence subscale [32], the total psychometric reliance
+management of the PHC, which has been shown in ear- is good. To remedy this lack of utility in the subdomains,
+lier studies [7–10]. the present study was designed as a convergent mixed
+The split between theory and reality was also sup- methods study in order to strengthen the EBPAS analy-
+ported by the EBPAS scores, especially the presence of sis by the addition of interviews analysed by means of
+divergence in all categories identified by the content qualitative content analysis. This contributes to increased
+analysis. In line with the HPs’ statements, divergence is knowledge of divergence because its presence in all quali-
+the subdomain that most clearly relates to their tendency tative subcategories could be interpreted as confirming
+to adhere or not adhere to evidence. Our results showed the validity of the EBPAS subdomain (Table 7; Fig. 1).
+less divergence among participants with a higher educa- In qualitative research, trustworthiness is measured in
+tion. However, the divergence seemed to increase in line different ways. Graneheim and Lundman present trust-
+with experience and the number of years in the profes- worthiness as a compound of the following concepts [34]:
+sion (Table 3). The comparison between our two groups Credibility (focus of the research and how well data and
+of doctors (interns and specialists) supports the find- analysis meet the aim), Dependability (degree of data
+ing that increased experience results in more autonomy change over time and influence of researcher bias dur-
+in relation to evidence and guidelines (Table 4). Thus, ing the analysis process) and finally, transferability (how
+there is a conflict between following guidelines that may well the findings can be transferred to other groups and
+be outdated or unavailable and following one’s own pro- populations) [34]. In our study these factors have been
+fessional experience and established anecdotal therapy included in the study design, for instance in choosing
+methods. In order to advance the understanding and participants, describing the qualitative analysis process
+acceptance of EBP in PC at all levels, there seems to be a as clearly as possible and finally discussing the strengths
+great need for collegial and organisational dialogue about and weaknesses of the study.
+evidence and its use. According to the participants in our The unequal conditions for the qualitative interviews
+study, this need appears to be largely unmet. are not ideal. Although efforts were made to recruit two
+Previous studies have reported resistance towards the focus groups, there was simply no way to arrange for the
+implementation of EBP due to a lack of individual moti- participants to meet at the same location. As there was
+vation, organisational support and external motivation [5, no managerial support, participants had to take part in
+20, 21, 25, 30]. It is safe to say that our study confirms this our study in their free time. This underlines the fact that
+description and underlines the need for further research participation in research is considered extracurricular
+relating to the role of individual HPs in providing qual- and something to be done in one’s own spare time.
+ity care despite the organizational climate. Such research The qualitative content analysis moves between the
+can even be considered vital for ensuring high-quality manifest and the latent content. This means that the pro-
+care in the future. cess of turning verbatim text into increasingly abstract
+codes, categories and a final theme is always subject to
+the researchers’ interpretation [35]. The interpretative
+Abelsson et al. BMC Primary Care (2024) 25:13 Page 10 of 11
+Supplementary Information
+nature of this process implies that the method could
+The online version contains supplementary material available at https://doi.
+result in different outcomes depending on the perspec-
+org/10.1186/s12875-023-02237-9.
+tives of the researchers performing the analysis. This
+might be visible in the abstraction process and the over- Appendix 1: EBPAS-Subscales, items and plain text question
+arching theme and is also the reason a thorough descrip-
+Appendix 2: Interview guide
+tion of the research team and the process is provided.
+The strengths of the study rest upon the merged results
+Acknowledgements
+of a validated instrument (EBPAS) and in-depth inter-
+Not applicable.
+views with HPs. The convergent mixed method analysis
+of quantitative EBPAS results and qualitative interview Author contributions
+TA contributed to the conception of the study, collected and transcribed the
+data helps to deepen the understanding of the complexity
+data in both strands, as well as analysing them and writing the article. AKK
+of evidence-based medicine in primary care praxis. contributed to the conception of the study, analysis of the qualitative data
+This combination of quantitative psychometric mea- in the second strand and proofreading. HM contributed to the conception
+of the study, the analysis of the qualitative data in the second phase and
+sures coupled with results from the qualitative content
+proofreading. AB contributed to the conception of the study, the analysis of
+analysis provides a fuller image of HPs’ experiences of the quantitative data in the second strand and proofreading. SB contributed
+working in accordance with EBP. In addition, the results during the conception of the study, the analysis of the data and was involved
+in the proofreading of the final version of the manuscript, which was read and
+shed light on the complicated process of managing infor-
+approved by all authors.
+mation and implementing the EBP process in a complex
+organisation. Funding
+Open access funding provided by University of Gothenburg. The study
+One weakness of the study might be the somewhat
+was made possible by funding from Region Halland and the University of
+small sample size. However, this may not necessarily be Gothenburg. Funding was received in the form of APC and wages. None of
+a hindrance due to the willingness of each participant the funding bodies were involved in the interpretation or performance of the
+study.
+to share information and the rich content of the inter-
+Open access funding provided by University of Gothenburg.
+views. Even a small sample might be deemed adequate if
+selected with care and the data are considered sufficiently Data Availability
+The datasets used and analysed during the present study are available from
+valid. Although the participants’ responses revealed a
+the corresponding author on reasonable request.
+degree of saturation, the inclusion of more participants
+would probably have strengthened the reliability of the Declarations
+study. However, interest in participation was low, as the
+formal invitation to participate was sent to the whole Ethical approval and consent to participate
+The study was submitted to the Swedish ethical review authority in autumn
+population of 625 individuals and only 190 expressed
+2021. The same authority deemed it unnecessary for approval (Reg. no: 2021-
+an interest. This might also be a result of lack of time, as 05583-01). Approval from an ethical board is not needed if consent is obtained
+HPs may feel the need to prioritise patients rather than from the participants and the study does not involve a physical intervention
+or affect a person physically or psychologically. Furthermore, participation was
+research, which once again highlights the frequently
+voluntary, and confidentiality was guaranteed. The participants were informed
+mentioned time constraints. about the aim and structure of the study, after which they provided informed
+written consent.
+Conclusions In addition to the ethical trial, all methods used in the present study were
+carried out in accordance with relevant guidelines and regulations.
+Successful implementation of EBP is dependent on com-
+mon definitions and practices on individual, organisa- Consent for publication
+Not applicable.
+tional and external levels. Some degree of education, be it
+theoretical or practical, is necessary to be able to practise Competing interests
+and discuss EBP. A positive research climate enhances The authors declare no competing interests.
+collegial debate about EBP as well as its effective use and
+Author details
+growth. Ineffective use of EBP due to barriers in either of 1Primary Healthcare Unit, Department of Public Health and Community
+these factors is a severe hindrance to its growth. This in Medicine, Institute of Medicine, The Sahlgrenska Academy, University of
+Gothenburg, Gothenburg, Sweden
+turn poses a serious threat to the quality of care and, ulti- 2Department of Child and Adolescent Mental Health, Child and
+mately, patient outcomes. Adolescent Psychiatry, Region Halland, Halmstad, Sweden
+3Department of Research and Development, Region Halland, Halmstad,
+List of Abbreviations Sweden
+EBP Evidence–Based Practice 4Spenshult Research and Development Centre, Halmstad, Sweden
+EBPAS Evidence–Based Practice Attitude Scale 5Primary Healthcare Centre Bäckagård, Region Halland, Halmstad,
+HP Healthcare professional Sweden
+PC Primary healthcare
+SD Standard deviation
+Received: 16 February 2023 / Accepted: 11 December 2023
+Abelsson et al. BMC Primary Care (2024) 25:13 Page 11 of 11
+References 21. Zanaridah MN, Norhayati MN, Rosnani Z. Knowledge, attitude and practice
+1. Sackett DEa. Evidence based medicine- what it is and what it isn´t. The BMJ. of evidence-based medicine among primary care practitioners in Malaysia: a
+1996;312(7023):71–2. cross-sectional study. BMJ Open. 2021;11(6):e044372.
+2. Straus SE, Glasziou P, Richardson SW, Haynes BR, Edinburgh. London, New 22. Gifford WA, Squires JE, Angus DE, Ashley LA, Brosseau L, Craik JM, et al.
+York, Oxford, Philadelphia, St Louis, Sydney: Elsevier; 2019. 324. Managerial leadership for research use in nursing and allied health care
+3. Saunders H, Gallagher-Ford L, Kvist T, Vehvilainen-Julkunen K. Practicing professions: a systematic review. Implement Sci. 2018;13(1):127.
+Healthcare professionals’ evidence-based practice competencies: an over- 23. Van der zijpp TJ, Niessen T, Eldh AC, Hawkes C, McMullan C, Mockford C et al.
+view of systematic reviews. Worldviews Evid Based Nurs. 2019;16(3):176–85. A bridge over turbulent waters: Illustrating the interaction between manage-
+4. Li S, Cao M, Zhu X. Evidence-based practice: knowledge, attitudes, imple- rial leaders and facilitators when implementing research. Worldviews on
+mentation, facilitators, and barriers among community nurses-systematic Evidence-Based Nursing. 2016;2016.
+review. Med (Baltim). 2019;98(39):e17209. 24. Bjorkstrom ME, Hamrin EK. Swedish nurses’ attitudes towards research and
+5. Lruwaili B, Thirunavukkarasu A, Alsaidan AA, Al-Ruwaili AM, Alanazi RBS, Alru- development within nursing. J Adv Nurs. 2001;34(5):706–14.
+waili AMB et al. Knowledge, attitude, and practice towards evidence-based 25. Bonner A, Sando J. Examining the knowledge, attitude and use of research by
+Medicine among Northern Saudi Primary Care Physicians: a cross-sectional nurses. J Nurs Manag. 2008;16(3):334–43.
+study. Healthc (Basel). 2022;10(11). 26. Rye M, Torres EM, Friborg O, Skre I, Aarons GA. The evidence-based practice
+6. Dawes M, Summerskill W, Glasziou P, Cartabellotta A, Martin J, Hopayian K, et attitude Scale-36 (EBPAS-36): a brief and pragmatic measure of attitudes to
+al. Sicily statement on evidence-based practice. BMC Med Educ. 2005;5(1):1. evidence-based practice validated in US and Norwegian samples. Implement
+7. Abelsson T, Karlsson A-K, Morténius H. A feeling of ambiguity: a qualitative Sci. 2017;12(1):44.
+content analysis of managers’ experiences of evidence-based practice in 27. Andrews J. Time, cost, information seeking skills and Format of resources
+Swedish primary care. J Healthc Leadersh. 2022;14:143–53. Present barriers to Information seeking by Primary Care Practitioners in a
+8. Abelsson T, Mortenius H, Karlsson AK, Bergman S, Baigi A. Evidence-based Research Environment. Evid Based Libr Inform Pract. 2007;2(3):3.
+practice in primary healthcare from the managerial point of view - a national 28. Flodgren G, Rojas-Reyes MX, Cole N, Foxcroft DR. Effectiveness of organisa-
+survey. BMC Health Serv Res. 2021;21(1):1014. tional infrastructures to promote evidence-based nursing practice. Cochrane
+9. Bianchi M, Bagnasco A, Bressan V, Barisone M, Timmins F, Rossi S, et al. A Database Syst Rev. 2012;2:CD002212.
+review of the role of nurse leadership in promoting and sustaining evidence- 29. Hasanpoor Eea. Nursing managers’ perspectives on the facilitators and bar-
+based practice. J Nurs Manag. 2018;26(8):918–32. riers to implementation of evidence- based management. Worldviews Evid
+10. Birken S, Clary A, Tabriz AA, Turner K, Meza R, Zizzi A, et al. Middle managers’ Based Nurs. 2019;16(4):255–62.
+role in implementing evidence-based practices in healthcare: a systematic 30. Pather MK, Mash R. Family physicians’ experience and understanding
+review. Implement Sci. 2018;13(1):149. of evidence-based practice and guideline implementation in primary
+11. Gopalakrishnan S, Ganeshkumar P. Systematic reviews and Meta-analysis: care practice, Cape Town, South Africa. Afr J Prim Health Care Fam Med.
+understanding the best evidence in primary Healthcare. J Family Med Prim 2019;11(1):e1–e10.
+Care. 2013;2(1):9–14. 31. Aarons GA. Mental Health Provider attitudes toward adoption of evidence
+12. Jacobs SK, Rosenfeld P, Haber J. Information literacy as the foundation for based practice: the evidence-based practice attitude scale (EBPAS). Ment
+evidence-based practice in graduate nursing education: a curriculum-inte- Health Services Research. 2004;6(2):61–74.
+grated approach. J Prof Nurs. 2003;19(5):320–8. 32. Santesson AHE, Bäckström M, Holmberg R, Perrin S, Jarbin H. Confirmatory
+13. Mortenius H, Baigi A, Palm L, Fridlund B, Bjorkelund C, Hedberg B. Impact factor analysis of the evidence-based practice attitude scale (EBPAS) in a large
+of the organisational culture on primary care staff members’ inten- and representative Swedish sample: is the use of the total scale and subscale
+tion to engage in research and development. J Health Organ Manag. scores justified? BMC Med Res Methodol. 2020;20(1):254.
+2015;29(2):234–51. 33. Creswell JW, Plano Clark VL. Designing and conducting mixed methods
+14. About the Swedish healthcare system: The Swedish national board research. Los Angeles: SAGE; 2017.
+of health and wellfare. 2020 [updated 20200901; cited 2023 230925]. 34. Graneheim UH, Lundman B. Qualitative content analysis in nursing research:
+Available from: https://www.socialstyrelsen.se/en/about-us/ concepts, procedures and measures to achieve trustworthiness. Nurse Educ
+healthcare-for-visitors-to-sweden/about-the-swedish-healthcare-system/. Today. 2004;24(2):105–12.
+15. Healthcare act. SFS 2017:30 (2017). 35. Lindgren BM, Lundman B, Graneheim UH. Abstraction and interpretation dur-
+16. Abelsson T, Mortenius H, Bergman S, Karlsson AK. Quality and availability ing the qualitative content analysis process. Int J Nurs Stud. 2020;108:103632.
+of information in primary healthcare: the patient perspective. Scand J Prim 36. Creswell JW, Vicki L, Plano C. Designing and conducting mixed methods
+Health Care. 2020;38(1):33–41. research. Los Angeles2018.
+17. Andersson V, Otterström-Rydberg E, Karlsson A-K. The importance of Written 37. Wang X, Jiang R, Li J, Chen J, Burström B, Burström K. What do patients care
+and Verbal Information on Pain Treatment for patients Undergoing Surgical most about in China’s public hospitals? Interviews with patients in Jiangsu
+interventions. Pain Manage Nurs. 2015;16(5):634–41. Province. BMC Health Serv Res. 2018;18(1):97.
+18. Berendsen AJ, De Jong GM, Schuling J, Bosveld HEP, De Waal MWM, Mitchell
+GK, et al. Patient’s need for choice and information across the interface
+between primary and secondary care: a survey. Patient Educ Couns.
+Publisher’s Note
+2010;79(1):100–5.
+19. Sibbald SL, Wathen CN, Kothari A, Day AM. Knowledge flow and exchange in Springer Nature remains neutral with regard to jurisdictional claims in
+interdisciplinary primary health care teams (PHCTs): an exploratory study. J published maps and institutional affiliations.
+Med Libr Assoc. 2013;101(2):128–37.
+20. Zhao Y, Zhao X, Liu Y, Wei Y, Jin G, Shao S, et al. Perceptions, behaviours,
+barriers and needs of evidence-based medicine in primary care in Beijing: a
+qualitative study. BMC Fam Pract. 2019;20(1):171.

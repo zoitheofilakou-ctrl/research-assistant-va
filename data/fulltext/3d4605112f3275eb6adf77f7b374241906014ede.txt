@@ -1,0 +1,826 @@
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+Artificial Intelligence in Medicine
+Muath Aldergham1, Areeg Alfouri2, Rasha Al Madat3
+1Al- Balqa Applied University- Faculty of Medicine- muath.aldergham@bau.edu.jo. https://orcid.org/0009-0007-5414-042X.
+2Al- Balqa Applied University- Faculty of Medicine- Areeg.alfouri@bau.edu.jo. https://orcid.org/0000-0003-3118-8969
+3Jordanian Royal Medical Services- r.maadat@gmail.com
+KEYWORDS ABSTRACT
+Intelligence Artificial intelligence in medicine refers to the use of machine learning models to help process medical data
+and provide medical professionals with important insights, improving health outcomes and patient experience.
+Thanks to recent advances in computer science and informatics, artificial intelligence (AI) is rapidly becoming
+an integral part of modern healthcare. Therefore, artificial intelligence algorithms and other AI-powered
+applications are now used to support medical professionals in clinical settings and in ongoing research.
+There are several applications of Artificial intelligence in medicine, including applications to help detect and
+diagnose diseases; applications to treat diseases with the help of an AI-powered virtual assistant; AI applications
+in medical imaging; applications to increase the efficiency of clinical trials; and applications to accelerate drug
+development. The benefits of Artificial intelligence in medicine can be summarized in providing informed
+patient care, reducing errors, reducing care costs, and increasing doctor-patient engagement.
+1. Introduction
+It can be said that emerging computer-based technologies are growing exponentially. Digital healthcare
+provides many opportunities to reduce human error, improve clinical outcomes, and track data over
+time. AI methods, including machine learning (ML) and deep learning (DL) algorithms, are widely
+used in predicting and diagnosing many diseases, especially those whose diagnosis is based on imaging
+or signal analysis (1) (2). Artificial intelligence can also help identify demographics or environmental
+areas where diseases or high-risk behaviors are prevalent. For example, facial recognition is also
+achieved through a process consisting of an encoder and a decoder, where the encoder compresses the
+input facial image vector x into a lower-dimensional space, while the decoder reconstructs it into its
+original form (54). Machine learning techniques have also achieved great success in analyzing medical
+images due to advanced algorithms that enable automated extraction of enhanced features. Machine
+learning is based on learning methods and can be divided into three categories: supervised
+(classification, regression, and composition), unsupervised (association, clustering, and dimensions),
+and reinforced learning (7) (46).
+Human intelligence is completely different from artificial intelligence. Human intelligence refers to the
+sum of many cognitive abilities including abstract reasoning, problem solving, communication,
+learning, and understanding. Human intelligence also includes many complex emotions that cannot be
+simulated by a computer, such as love, empathy, happiness, sadness, fear, and embarrassment. Other
+uniquely human characteristics include common sense, creativity, curiosity, and imagination.
+Therefore, human decision-making integrates information from all of our senses (36).
+Generative Artificial intelligence (GenAI) is a technology that autonomously produces new original
+outputs based on the large-scale multimodal input data it has been trained on. These include text,
+images, speech, video, symbols, molecular structures, chemical data, and other types of data (21).
+GenAI is a subset of the broader Artificial intelligence umbrella that enables computers to learn from
+the structures and patterns inherent in data, enabling subsequent decision-making (Figure 1) (12).
+Deep learning (DL) is a more complex iteration of machine learning (ML), inspired by the architecture
+of the human brain, using layers of neural networks to assimilate and learn from large amounts of data.
+Large language models (LLMs) are products of deep learning and have the ability to understand and
+create texts like human. These LLMs use natural language processing (NLP), a field at the intersection
+of computer science, artificial intelligence, and linguistics that enables computers to understand,
+774 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+interpret, and generate human language in a meaningful and useful way. GenAI also has applications
+in the field of computer vision, where generative adversarial networks (GANs) have been implemented
+to generate many forms of medical images, ranging from pathology slides to ultrasound and MRI (53).
+Conversely, discriminative AI models (sometimes referred to as predictive models) classify input data,
+predicting labels based on the information provided (12).
+Hence comes the term natural language processing, which includes specific applications of natural
+language processing such as speech recognition, text analysis, translation, and other language-related
+purposes. It is used to create, understand, and classify clinical documents and other reported research
+data. It is useful in analyzing unstructured clinical notes and reporting from these data (41).
+As deep learning models scale to large datasets - in part because they can run on specialized computing
+hardware - they continue to improve with more data, enabling them to outperform many classical
+machine learning approaches. Deep learning systems can also accept multiple types of data as input -
+an aspect of particular importance for heterogeneous healthcare data. The most common models are
+trained using supervised learning, where datasets consist of input data points (e.g., images of skin
+lesions) and corresponding output data labels (e.g., “benign” or “malignant”) (50). Reinforced learning
+(RL), where computational agents learn by trial and error or through expert demonstration (18), has
+advanced with the adoption of deep learning, achieving remarkable achievements. RL can be useful in
+healthcare when learning requires demonstration by a physician, for example in learning how to suture
+wounds in robot-assisted surgeries (16)(37). Machine vision, coupled with artificial intelligence,
+enables robotic systems to interpret images during surgery in real time, ensuring precise navigation,
+tissue identification, and execution of surgical tasks. Moreover, predictive modeling and decision
+support systems for personalized surgery play a crucial role in personalized surgery by predicting
+potential complications and recommending optimal surgical approaches tailored to individual patient
+characteristics. These models enhance the accuracy of surgical interventions and reduce the risk of
+adverse outcomes.
+Many calculations and operations are performed on the input data through machine learning
+algorithms. Data preprocessing is the first essential step to reduce false predictions or incorrect results,
+speed up data processing, and ultimately improve the overall data quality. Then, the data is processed
+and the crucial features are extracted and implemented according to the specific machine learning or
+deep learning model for image classification (42).
+Machine learning allows computers to perform the tasks of medical professionals and has a widely
+used subfield in medical image recognition called Deep Learning, which is a method of designing a
+machine learning algorithm where simple concepts are built on top of each other to form a deep
+structure with many processing layers. In other words, deep learning is the development of machine
+learning for analyzing big data. It replaces the classic manual method of designing and extracting
+patterns used for classification with an automated strategy that allows the computer to identify essential
+features by training it on a dataset (2). While machine learning is not a new concept, the processing of
+big data and the increase in computing power have made machine learning successful and popular in
+recent years.
+Deep learning has outperformed previous advanced algorithms in many visual recognition tasks, and
+its performance has improved dramatically. The ImageNet visual recognition competition is the largest
+annual object recognition competition. Researchers classified 1.3 million high-resolution images using
+a deep learning-based CNN model; they significantly improved the model’s performance by achieving
+error rates of 39.7% and 18.9%, winning the challenge. Deep learning algorithms have become more
+popular since then. A deep learning algorithm is a deep artificial neural network (ANN) inspired by
+human brain cells and consists of several simple processing units that combine to form a more complex
+structure (8). These units are grouped into layers in each algorithm and are referred to as neurons. Input
+signals are combined and transmitted to other cells if their value is higher than a threshold value. In the
+artificial type, the signals are replaced by a sum and activation function that combine to create more
+775 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+complex relationships (17), similar to the human brain through a network. The threshold value is a term
+used in signal processing and image processing. It is a value that represents the minimum signal that
+needs to be processed. If the signal is less than the threshold value, it is given the value 0 while if the
+signal is greater than the threshold value, the signal is either taken according to its value or, in most
+cases, given the value 1.
+The convolutional neural network can be defined as a special type of feed forward neural network that
+derives its inspiration from the biological processes that occur in the optic lobe specifically in the brain
+of living organisms; is is considered a solution to many computer vision problems in artificial
+intelligence such as image and video processing (4) (6). It is a successful approach to image analysis
+and classification and is a supervised deep learning model. It consists of fully connected layers with
+standard weights that result in fewer parameters for training features through the backpropagation
+process. It is designed to extract spatial information from input images and aims to learn hierarchical
+features adaptively, classify image data, and extract their features automatically. The main advantage
+of this algorithm is to learn highly abstract features with few parameters and simple preprocessing (8).
+The initialization of the neural network and the order of samples during the training phase are usually
+random. However, when the training is over, nothing unexpected happens to the neural network.
+They involve well-defined computations, but their complex and deep structure often makes them
+incomprehensible to humans. Therefore, the training method is usually not mentioned in explaining
+the behavior of networks, and the trained network can be understood usually from the characteristics
+of the dataset used for training (8).
+Researchers use multiple scenarios based on machine learning and deep learning models to predict
+conditions such as liver diseases, heart diseases, Alzheimer’s, mental illness (47), dentistry,
+gastroenterology, intensive care (56), and various types of cancers where early detection is vital for
+treatment (27). Some researchers have also used deep learning techniques to diagnose and identify
+bacterial pneumonia using chest X-rays for children (4). Significant efforts have been made to identify
+different features of chest CT scan characteristics for different diseases, and new hybrid models based
+on case-based reasoning have been proposed to diagnose different skin diseases in different studies
+(20). The proposal of real-time personal monitoring systems based on artificial neural network
+techniques is widely used in healthcare to receive vital information about the body; this device can help
+patients manage their health, especially in critical cases, as researchers have applied artificial neural
+network models to predict diabetes and achieved 91% accuracy.
+Artificial intelligence methods go hand in hand with the Internet of Things (IoT) in the healthcare
+system in treatment procedures and healthcare technology (13)(48). A reliable IoT-based system using
+machine learning algorithms for healthcare is proposed to monitor human activities and the
+surrounding environment through a body sensor network (5). Studies proposed a hybrid IoT model
+using healthcare monitoring system and random forest technique to predict type 2 diabetes (55) (4).
+Thus, edge computing emerged, which is a key technology for processing and analyzing massive
+amounts of IoT data, requiring decision-making to offload computational tasks to edge servers.
+Currently, deep reinforced learning (DRL) has been used to solve a number of difficult sequential
+decision problems by combining reinforced learning (RL) and deep learning (DL) (61).
+Researchers have also achieved impressive results in mitigating the risk of type 2 diabetes among
+people based on their personal lifestyle information and achieved high accuracy using a random forest
+classifier, which outperformed other algorithms. A mobile-based platform has been developed to detect
+tuberculosis antibodies in real time using a random forest classifier and achieved an accuracy of 98.4%.
+A research study proposed an AI-based framework to classify multiple gastrointestinal (GI) diseases,
+colon cancer, and rectal cancer (58) using recurrent neural networks (RNNs), which are recurrent neural
+networks or feedback neural networks (RNNs), which are in contrast to feedforward networks (1). The
+most important feature of RNNs is that the connections between neurons are in one layer and the
+neurons in the same or previous layer. This is the best way to connect neural networks, especially in
+776 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+the neocortex (8). In artificial neural networks, the recurrent association of typical neurons is used to
+discover time-coded information in data. Examples of these recurrent neural networks include the
+Hopfield fully connected neural network. As well as the Long short-term memory (LSTM) and
+achieved an accuracy of 97.057%.
+Fully Connected Neural Networks (FCNNS) consist of neurons and model layers, where the inputs of
+each layer are connected to each neuron in the layer below. The most straightforward way to understand
+neurons is to think of them as linear regression models, where each neuron uses input data (x), weights
+(y), and bias (z) to generate an output (y). If the result after the activation function is zero, the neuron
+in that particular state is removed. The value of the neuron must pass through the activation function.
+In any other case, the value will be sent to the next layer of the network. Depending on the type of
+activation function used, the output value changes. For example, the output of a sigmoid activation
+function will have an S-shaped curve and range between 0 and 1. The Rectified Linear Unit (ReLU)
+activation function is another example; for values greater than 0, it has a linear shape, while for values
+less than or equal to 0, it has a 0 (59).
+The global healthcare AI market is expected to reach nearly $188 billion by 2030. This growth comes
+at a critical juncture in healthcare, with an expected shortage of nearly 10 million doctors, nurses, and
+midwives worldwide by 2030, at the same time as we face the growing needs of an aging population
+(32). AI offers practical solutions that can help organizations worldwide overcome these challenges,
+improve outcomes, enhance care, and promote health equity. However, the potential of generative AI
+in healthcare, estimated to be worth $17 billion by 2032, is still hard to ignore, with most of it related
+to medical imaging and drug discovery (9).
+Arguably, the most common roles of Artificial intelligence in medical settings are clinical decision
+support and imaging analysis. Clinical decision support tools can help providers make decisions about
+treatments, medications, mental health, and other patient needs (4) by providing them with quick access
+to information or research relevant to their patients. In medical imaging (3), AI tools are used to analyze
+CT scans, X-rays, MRIs, and other images for lesions or other findings that a human radiologist might
+miss (4).
+Controlling and hypertensive patients and educating them about healthcare are the two most important
+points to reduce stroke and cardiovascular diseases (5). Researchers have evaluated digital healthcare
+technologies and artificial intelligence in this regard and proposed a privacy protection system to
+collect and store individuals’ data (9). Moreover, many researchers have conducted studies on disease
+prediction to identify and predict diseases in their early stages; a new hybrid machine learning model
+based on the Internet of Things was proposed to detect diseases in the early stages with an accuracy of
+100% and 99.50%. Researchers also proposed an approach to predict cardiovascular diseases according
+to different characteristics. The challenges created by the COVID-19 pandemic for many healthcare
+systems have led many healthcare organizations around the world to start field test new technologies
+supported by artificial intelligence, such as algorithms designed to help monitor patients and AI-
+powered tools to screen COVID-19 patients (1) (4). Hence, it can be asserted that there is no doubt that
+artificial intelligence will become an essential part of digital health systems that shape and support
+modern medicine (28).
+An important question is whether there is gender or racial bias in the images produced by Artificial
+intelligence programs such as ChatGPT. It can be said that many AI models generate images based on
+the data they were trained on. This data reflects the diversity and biases present in cultural content and
+the broader internet (38), which brings forth another important question on the gender and racial
+stereotypes that AI programs amplify.
+Artificial intelligence models like DALL¢E can unintentionally amplify gender and racial stereotypes
+present in the data they are trained on. These stereotypes are reflections of societal biases and historical
+representations in media, literature, and online content. The following are some examples of
+stereotypes that can be amplified (18):
+777 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+• Occupational stereotypes: Some occupations may be portrayed as male- or female-dominated. For
+example, technical roles may be portrayed as male characters, while caring or nurturing roles may
+feature primarily women.
+• Racial stereotypes: Certain racial groups may be overrepresented in specific contexts, reinforcing
+narrow or stereotypical portrayals. For example, racial diversity may be underrepresented in
+professional or heroic roles (9).
+• Cultural representation: Depictions of cultural elements may tend toward stereotypes, such as clothes
+or traditional roles, without reflecting the true diversity and modern aspects of those cultures.
+• Physical appearance: Stereotypes related to beauty standards, body types, and physical attributes can
+be reinforced, such as the portrayal of idealized or exaggerated features based on gender or race.
+• Activities and roles: The model may associate certain activities or roles with certain genders or ethnic
+groups, such as sports, hobbies, or household chores, based on stereotypes in the media (9).
+The Effective Role of Artificial Intelligence Technologies in Identifying and Predicting Human
+Disorders and Diseases
+Learning algorithms and big data derived from medical records or devices are the most vital tools to
+efficiently implement Artificial intelligence methods in the healthcare system to improve disease
+diagnosis and classification, decision-making activities, performance of walking aids, provide optimal
+treatment options, and ultimately help people have safe and long lives (1) (5). AI is used to improve
+medical analysis and diagnosis in a short time. For example, this technology can detect dangerous
+tumors in medical images (4), allowing pathologists to diagnose and treat the disease at an early stage
+instead of sending tissue samples or lesions to the laboratory for long-term investigation (4). AI-based
+algorithms are also an effective tool for identifying undiagnosed or underdiagnosed patients and
+uncoded and rare diseases (23).
+In the field of surgical preparation, GenAI could revolutionize organ transplant procedures by
+facilitating the creation of 3D visualization models from 2D images, thereby improving the accuracy
+and efficiency of surgical planning for organ transplantation (12). GenAI can also improve education
+for transplant providers, from physicians to nurses and surgery coordinators, by creating personalized
+educational materials that target learners’ levels, training backgrounds, and different knowledge gaps.
+Additionally, GenAI’s ability to create realistic simulations holds promise for complex surgical training
+in organ transplantation (12).
+There are three major barriers to deploying generative Artificial intelligence in the clinical field today:
+concerns about inaccurate data, transparency of AI models, and regulation of medical data integrity
+(18). In addition to ensuring transparency, interpretability, and clarity, AI must be understandable to
+developers, users, and regulators. Achieving transparency requires providing sufficient information,
+which must be documented or made available before designing and implementing AI technology. This
+commitment to transparency not only enhances the overall quality of the system, but also serves as a
+preventive measure for patient safety and public health. For example, system evaluators rely on
+transparency to identify and correct errors, and government regulators rely on it to provide effective
+oversight (34).
+Challenges, potential solutions, and future prospects of AI methods
+Artificial intelligence plays a broad role in healthcare systems for diagnosis, prediction, and prevention
+purposes. However, there are several challenges in using deep learning and machine learning
+techniques in disease diagnosis and prediction. One significant challenge in AI algorithms is the need
+for massive data in the training phases, which is not always practical for most diseases. Another
+challenge is data labeling, which requires expertise, is time-consuming, and is very expensive. This
+can make it difficult to develop accurate models for rare or new diseases. One potential solution to the
+778 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+lack of labeled data is to use techniques such as data augmentation, which can be used to artificially
+increase the size of a dataset (19).
+The computational and architectural complexity of deep learning-based models is another challenge in
+this field. One potential solution to reduce the computational and architectural complexity of deep
+learning models is to use model compression techniques such as pruning, quantization, and low-rank
+factorization. These techniques can help reduce the required number of parameters and computational
+resources while maintaining good performance. Analyzing low-contrast images is also a challenging
+task for examining patterns and features (22). Histogram equalization is a technique used in digital
+image processing, where the image contrast is modified and its histogram is made as flat and distributed
+as possible. One of the enhancement techniques used to enhance the contrast is to propose a supervised
+method by machine learning based on the selection of hyperparameters through HE technology to
+improve the visual appearance and increase the image contrast while maintaining its natural aspect (6).
+Other researchers have also proposed a new approach to enhance contrast based on HE in cancer
+diagnosis using medical ultrasound imaging. Medical image compression technology is also used to
+reduce the transmission bandwidth requirements and storage size (43). Moreover, ultrasound ECG
+images based on XGBoost algorithm enhancement have been adopted for screening and diagnosis of
+hypertensive patients during pregnancy in this field. The results found that XGBoost algorithm can
+obtain clearer and more accurate ECG images and data for patients quickly and effectively compared
+with normal healthy pregnant women (60).
+Artificial Intelligence Applications in Medicine
+The future of "standard" medical practice may be closer than anticipated, where a patient might see a
+computer before seeing a doctor. With advancements in artificial intelligence, it seems possible that the
+days of misdiagnosis and treating symptoms rather than the underlying cause could soon be gone.
+While some algorithms can rival doctors and sometimes outperform them in a variety of tasks, they
+have not yet been fully integrated into daily medical practice because although these algorithms can
+significantly impact medicine and enhance the power of medical interventions, there are many
+regulatory concerns that need to be addressed first.
+What makes an algorithm intelligent?
+Similar to the way doctors learn through years of medical study, performing duties and practical tests,
+obtaining grades, and learning from mistakes, AI algorithms must also learn how to perform their tasks.
+In general, they can perform tasks that require human intelligence to complete, such as pattern and
+speech recognition, image analysis, and decision-making (5). However, humans still need to explicitly
+tell the computer what exactly to look for in the image provided to the algorithm, for example. Thus,
+AI algorithms are great for automating tedious tasks, and can sometimes outperform humans in tasks
+they have been trained to perform (4) (10).
+In order to create an effective Artificial intelligence algorithm, computer systems are first fed with data
+that is usually structured, meaning that each data point has a label or comment that the algorithm can
+recognize. The algorithm is exposed to sufficient sets of data points and their labels, and performance
+is analyzed to ensure accuracy, much like students are given tests.
+There are many different algorithms that can learn from data. Most AI applications in medicine read
+some type of data: numerical (such as heart rate or blood pressure) (5) or image-based (such as MRI
+scans or images of biopsy tissue samples) as input. The algorithms then learn from the data and produce
+either a probability or a classification. For example, an actionable outcome might be the probability of
+an arterial clot given heart rate and blood pressure data, or the classification of an imaged tissue sample
+as cancerous or non-cancerous (29). In medical applications, the algorithm’s performance on a
+diagnostic task is compared to that of a physician to determine its ability and value in the clinic (27).
+Advances in computational power coupled with the massive amounts of data generated in healthcare
+systems make many clinical problems ready for AI applications. There are two recent applications of
+779 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+accurate, clinically relevant algorithms that could benefit both patients and clinicians by making
+diagnoses clearer. The first is one of several existing examples of an algorithm outperforming doctors
+on image classification tasks. In the fall of 2018, researchers at Seoul National University Hospital and
+College of Medicine developed an AI algorithm called DLAD (deep learning based automatic
+detection) to analyze chest X-ray images and detect abnormal cell growth, such as potential cancers.
+The algorithm’s performance was compared to the detection abilities of several doctors on the same
+images and outperformed 17 of 18 doctors. It also detected several diseases such as lung
+nodules/masses, pneumothorax, pulmonary tuberculosis (39), thyroid cancer (57), and bone fractures
+(44).
+The second algorithm comes from researchers at Google Artificial Intelligence Healthcare, also in the
+fall of 2018, who created the YmphNode Assistant (LYNA) algorithm, which analyzes tissue slides
+(stained tissue samples) to identify metastatic breast cancer tumors from lymph node biopsies (3) (4).
+This isn’t the first application of AI to attempt tissue analysis, but it’s interesting that this algorithm
+can identify suspicious areas that are indistinguishable to the human eye in submitted biopsy samples.
+Recently, other imaging-based algorithms have shown similar potential to boost physician accuracy. In
+the short term, doctors could use these algorithms to help double-check their diagnoses and interpret
+patient data faster without sacrificing accuracy (4). But in the long term, government-approved
+algorithms could operate autonomously in clinics, allowing doctors to focus on cases that computers
+can’t solve. LYNA and DLAD are prime examples of algorithms that complement doctors’
+classifications of healthy and diseased specimens by highlighting salient features of images that should
+be studied more closely. These works illustrate the potential strengths of algorithms in medicine.
+Regulatory implications and limits of algorithms in the future
+So far, algorithms in medicine have shown many potential benefits for both doctors and patients.
+However, regulating these algorithms is a difficult task. The US Food and Drug Administration has
+approved some assistive algorithms, but there are currently no universal approval guidelines.
+Moreover, the people who create algorithms for use in the clinic are not always the doctors’ treating
+patients; thus, in some cases, computational scientists may need to know more about medicine while
+doctors may need to know which tasks a particular algorithm is or is not suitable for. While AI can
+assist with diagnosis and basic clinical tasks, it is difficult to imagine automated brain surgeries, for
+example, where doctors sometimes have to change their approach on the spot once they see a patient.
+In these and other ways, the capabilities of AI in medicine currently outpace those of AI for patient
+care. However, clear guidance from the FDA could help define requirements for algorithms and could
+lead to an increase in the number of algorithms used clinically (18).
+Furthermore, the FDA imposes strict standards for approval of clinical trials, requiring extreme
+transparency around scientific methods. Many algorithms rely on extremely complex and difficult-to-
+untangle mathematics, sometimes called “black boxes,” to get from input data to final results. Perhaps,
+the inability to “black box” an algorithm and explain its inner workings affects the likelihood of FDA
+approval of an AI trial. Understandably, researchers, companies, and entrepreneurs may be reluctant to
+disclose their proprietary methods to the public, at the risk of losing money by having their ideas taken
+and implemented by others. If patent laws were to change from their current state, where an algorithm
+can technically only be patented if it is part of a physical machine, the mystery surrounding the
+algorithm’s details might diminish. In either case, greater transparency in the near term is necessary to
+prevent patient data from being mishandled or mislabeled (4)(5), and thus it might be easier to
+determine whether an algorithm will be accurate enough in the clinic.
+Hence, it can be argued that a correct understanding of the limitations of algorithms by clinicians and
+a correct understanding of clinical data by programmers is the essential key to creating algorithms that
+can be used in the clinic. It may be necessary for companies to sacrifice the secrecy of their algorithms’
+functionality so that a broader audience can examine the methods and point out sources of error that
+780 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+could ultimately affect patient care. Thus, it seems that we are still far from algorithms that operate
+autonomously in the clinic, especially in the absence of a clear path to clinical approval.
+Companies like Google, Enlitic, and many other startups are developing algorithms to interpret AI-
+derived images. Jvion offers a “clinical success machine” that identifies patients at high risk as well as
+those most likely to respond to treatment protocols. Each of these machines could provide decision
+support to doctors seeking to find the best diagnosis and treatment for patients. There are also several
+companies focusing specifically on making diagnosis and treatment recommendations for certain
+cancers based on their genetic profiles (11).
+How to use artificial intelligence in medicine:
+1. Artificial Intelligence in Disease Detection and Diagnosis
+Unlike humans, AI never needs to sleep. Therefore, machine learning models can be used to monitor
+the vital signs of critically ill patients and alert doctors if certain risk factors increase. While medical
+devices such as heart monitors can track vital signs (5), AI can collect data from those devices and look
+for more complex conditions, such as sepsis (sepsis is a potentially life-threatening condition caused
+by the body destroying its own tissues in response to an infection. When the body’s infection-fighting
+processes go awry, it can cause organs to stop functioning properly.) An IBM client has developed a
+predictive AI model for premature babies that is 75% accurate at detecting severe sepsis. Preterm birth
+is the birth of a baby at less than 37 weeks of gestation. These babies are known as premature babies.
+Accurate diagnosis of diseases is crucial for treatment planning and ensuring patient’s well-being.
+However, human errors limit the accuracy and efficiency of diagnosis (4), especially in general clinical
+practice and rural areas, where interpreting medical knowledge is a complex and cognitively
+challenging task. AI techniques, such as convolutional neural networks (30), knowledge graphs, and
+transformers, have been validated as powerful and promising tools to help improve the diagnosis and
+even treatment of various diseases (14). Therefore, the application of AI within the diagnostic process
+supports medical professionals to improve the accuracy and efficiency of diagnosis and provide
+emerging digital healthcare services.
+2. Treating diseases with the help of an AI-powered virtual assistant
+Precision medicine could be made easier with the help of virtual AI. Because AI models can learn and
+retain preferences, AI has the potential to make personalized recommendations in real time to patients
+around the clock (4). Thus, a new term has emerged: precision medicine or personalized medicine.
+That’s because even the world’s best scientists and doctors don’t yet fully understand how different
+people get sick and respond to treatments. The result is a “one-size-fits-all” approach to medicine that
+relies on broad population averages. This traditional practice often fails because each person’s genetic
+makeup is slightly different from everyone else’s (21). The advent of precision medicine is bringing us
+closer to more accurate, predictable, powerful, and personalized healthcare for the individual patient.
+Our growing understanding of genetics and genomics - and how they drive health, disease, and drug
+responses in each person - enables doctors to provide better disease prevention, more accurate
+diagnoses, safer drug prescriptions, and more effective treatments for many diseases and conditions.
+Tailoring health care to each person's unique genetic makeup is the promising idea behind precision
+medicine, also known as individualized medicine, personalized medicine, or genomic medicine (4).
+Historically, the practice of medicine has been largely reactive. Even today, we typically have to wait
+for diseases to appear and then try to treat them. Because we do not fully understand the genetic and
+environmental factors that cause serious diseases such as cancer, Alzheimer’s, and diabetes (4) (49),
+technology increasingly allows health care providers to shift the focus of medicine from reactive to
+preventive; predict disease susceptibility (4); improve disease detection; anticipate disease progression;
+personalize disease prevention strategies; prescribe more effective medications; avoid prescribing
+medications with predictable side effects; reduce the time, cost, and failure rate of clinical drug trials
+781 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+(4); and eliminate the inefficient trial and error that inflates health care costs and undermines patient
+care.
+Interactions between hundreds of genes and gene networks, along with external factors such as diet
+and exercise, determine our biological traits like hair color, eye color (4), cholesterol levels, and our
+health status. Systems genetics constitutes a comprehensive approach to studying and understanding
+this biological complexity (21).
+3. Artificial Intelligence in Medical Imaging
+The application of AI is one of the most promising areas in health innovation, especially in medical
+imaging such as magnetic resonance imaging and computed tomography (4), where it could contribute
+to predicting the diagnosis of cancerous lesions in oncology patients using texture analysis and other
+advanced methods (20); predicting the treatment response to oncology-specific therapies, such as intra-
+arterial therapy for hepatocellular carcinoma; assessing the biological significance of borderline cases
+diagnosed in pathology through needle biopsy of mammography findings (4); estimating functional
+parameters, such as fractional flow reserve from coronary angiography using deep learning; detecting
+perfusion and ischemia defects (5), for example in the case of perfusion defects resulting from
+myocardial stress and induced ischemia; and segmentation and morphological modeling, such as brain
+tumor segmentation or, more generally, brain structure segmentation (35).
+4. Clinical Trial Efficiency
+A lot of time is spent assigning medical codes to patient outcomes and updating relevant datasets during
+clinical trials. AI can help speed up this process by providing faster, smarter medical code searches.
+Two IBM Watson Health customers recently discovered that they could reduce the number of medical
+code searches by more than 70%. Clinical trials are a critical tool for creating new knowledge about
+how to help patients heal. Nevertheless, despite the efforts to accelerate this work, clinical trials remain
+inefficient, expensive, slow, and unequal. There are several reasons behind the complexity of clinical
+trials, which including:
+• To ensure that trials focus on benefiting specific diseases and/or groups of patients, detailed
+“inclusion” and “exclusion” criteria are developed. This means that only a small proportion of patients
+with a disease are eligible to enroll in a research study. For example, a study of a new chemotherapy
+treatment for breast cancer might exclude patients with hypertension, diabetes, or allergies and might
+also set limits on the age of eligible patients or the type of breast cancer (26).
+• There are many regulations and multiple bodies that provide oversight of experiments, which can
+lead to an enormous amount of administrative burden.
+• The end result of these and other imbalances is that it takes more money and time to study and approve
+new drugs and devices to help our patients. This is a major reason that the average cost of developing
+a new drug can be close to a billion dollars.
+5. Accelerating Drug Development
+Drug discovery is often one of the longest and most expensive phases of drug development. AI can
+help reduce the cost of developing new drugs in two primary ways: by creating better drug designs and
+finding promising new drug combinations. With AI, many of the big data challenges facing the life
+sciences industry can be overcome. The biopharma industry is on the verge of a revolution, with AI
+emerging as a transformative force in drug development. AI’s ability to reduce the time and cost of
+bringing new drugs to market is not just a promise; it’s a reality. It can reshape drug development,
+analyzing the mechanisms behind each approach and its future potential and ranking them by their
+overall impact on the industry.
+Drug formulation, a critical step in drug development, involves determining the appropriate chemical
+structure and composition of a new drug. AI algorithms can predict the solubility and stability of
+solutions, facilitating more efficient drug formulation (2). An example is the AI-powered Schrödinger
+782 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+platform, which uses predictive modeling to optimize the molecular structure of drugs. AI is expected
+to begin incorporating more advanced simulation techniques (7), such as quantum computing (an
+interdisciplinary field that includes aspects of computer science, physics, and mathematics and uses
+quantum mechanics to solve complex problems more quickly than conventional computers), to predict
+molecular behavior more accurately. This advance will reduce the time required to formulate drugs.
+Despite its importance, this aspect ranks third in terms of overall impact. Optimizing drug formulation
+is more about improving existing processes than revolutionizing them, but it significantly reduces
+development timelines.
+6. Informed Patient Care
+Integrating medical AI into physician workflows can give providers valuable context as they make care
+decisions. A trained machine learning algorithm can help reduce research time by giving physicians
+valuable research results with evidence-based insights into treatments and procedures while the patient
+is still in the treatment room (11). By streamlining healthcare workflows through incorporating AI as
+part of diagnostic services, healthcare organizations facilitate faster diagnoses and treatment decisions,
+improving patient outcomes (4).
+Sophisticated AI algorithms support radiologists, who read hundreds of medical images every day,
+helping them analyze images such as X-rays and MRIs faster and more accurately (51). This allows
+care teams to prioritize complex and urgent cases and detect cases that may require additional testing.
+It also alleviates staff burnout and supports staffing needs. In fact, time-consuming but necessary
+administrative tasks overburden staff and keep doctors away from the patient’s bedside. New AI tools
+can help alleviate burnout and free staff to focus on patients by automating manual and repetitive tasks
+such as entering data into electronic health records and submitting prior authorization applications to
+insurance companies (11). In addition to supporting staff in their daily work, AI helps address staffing
+needs. Historically, hiring nurses has been a highly manual process that relies on phone calls, text
+messages, and spreadsheets. Today, we increasingly use AI analytics to streamline this process,
+including pairing team members who have previously collaborated because research shows that it
+positively impacts productivity (24).
+Furthermore, robotic process automation (RPA) performs organized digital tasks for administrative
+purposes, i.e. those involving information systems, as if they were a human user following a script or
+rules. Compared to other forms of AI, it is inexpensive, easy to program, and transparent in its actions.
+RPA does not only involve robots but also computer programs on servers. It relies on a combination of
+workflow, business rules, and the integration of the “presentation layer” with information systems to
+act like a semi-intelligent user of systems in healthcare (11) (15).
+7. Increasing physician-patient engagement
+Many patients think of questions outside of regular working hours. AI can provide round-the-clock
+support through chatbots that can answer basic questions and provide patients with resources when the
+healthcare provider's office is closed. AI can also be used to triage questions and flag information for
+further review, potentially helping alert providers to health changes that require additional attention.
+The following are the most important tools used to increase doctor-patient participation and increase
+effectiveness and partnership:
+• Intelligent virtual assistants (chatbots)
+Patients reach out to healthcare providers to seek medical help, find the right provider/doctor, schedule
+appointments, and address various other needs. However, healthcare providers may not have the staff
+to adequately assist customers with their queries. To ensure ongoing support, healthcare providers can
+implement AI-powered intelligent virtual assistants (chatbots) to automate responses to patients’ simple
+queries and requests (37).
+783 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+Patients can interact with these bots through their preferred digital channel and receive quick answers.
+These bots efficiently manage and resolve patient queries, reduce manual intervention, and gather
+relevant patient information for appropriate decisions. In cases where virtual conversations require
+escalation, patients can be seamlessly directed to the most appropriate channel and form of care. This
+allows healthcare providers to scale their services, especially during high-volume patient consultations.
+Generative AI, powered by advanced natural language processing, takes the capabilities of AI chatbots
+to the next level, enabling more nuanced conversations and allowing healthcare organizations to
+provide personalized and accurate information to patients (4).
+• Patient self-service portals
+Creating self-service patient portals is pivotal to addressing today’s patients who use digital technology
+and expect healthcare services to be readily available. Historical health records and lab reports, past
+appointment data, no-show/lateness records, discharge summaries, childhood immunization and
+vaccination histories (32), and healthcare provider notes (4), enable patients to access relevant
+information and avail healthcare services from any connected device at any time. By incorporating
+advanced AI-powered features into these portals, healthcare providers can increase patient engagement,
+streamline processes, and enhance the overall patient experience. Modern self-service portals offer the
+user the following features:
+• Appointment Alerts: Alerting the patient to the next upcoming appointment.
+• Appointment Scheduling: Enabling patients to book, change, or cancel appointments anytime
+and anywhere.
+• Doctor Recommendations: Recommending the most suitable and nearest doctors for patients
+to consult and automatically offer them a choice of time slots.
+• Cost Estimation: Giving patients an estimate of the cost involved in consultations and other
+medical interventions.
+• Payment and Claims Information: Helping patients be prepared with payment information to
+file claims.
+• Personalized Insights: Providing personalized insights into patients’ health management by
+analyzing their health data.
+• Comprehensive view of the patient
+The healthcare industry is one of the most data-driven industries. Data in healthcare is generated
+through various channels such as patient registration, electronic medical record systems, physician
+consultation notes, patient feedback, and patient claims details (5). Integrating patient data from
+multiple source systems is crucial for healthcare providers to get a holistic view of the patient. AI
+enables healthcare providers to get this holistic view of patients and provide relevant and timely
+services to patients through the following:
+• Examining large amounts of consolidated patient data to gain insights.
+• Tracking a patient’s history across all services they have requested and better meet their needs.
+• Gaining additional information about patients in terms of improving future patient engagement.
+• Using patient feedback to proactively address issues for other patients (5).
+• Improve operational efficiency inside the organization.
+• Risk assessment for preventive care
+784 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+AI-powered solutions offer valuable insights to healthcare providers, especially in the early detection
+of diseases such as cancer, diabetes, and coronary artery disease (4). By analyzing data from various
+sources, including X-rays and medical images, AI can help identify patterns associated with the onset
+of such diseases. Furthermore, the integration of AI with smart devices, such as wearable smart
+bracelets, enables continuous monitoring of patients’ heart rates (5). This enables proactive health
+management and acts as a warning system, alerting doctors, caregivers, or patients about an impending
+heart attack or stroke and saving lives.
+• Improving the healthcare workforce
+Patient experience suffers when there are delays and waiting time. By leveraging advanced analytics
+and AI, providers can manage their resources more efficiently and address this challenge (31). By
+leveraging these technologies, healthcare professionals can identify specific areas of delay and identify
+bottlenecks that may be hindering patient satisfaction. With a smart and data-driven solution, staff can
+efficiently allocate available physicians and deliver timely consultations (4). Additionally, integrating
+an AI-powered workflow management platform can enable healthcare coordinators to automate
+workflows and reduce manual interventions. From follow-ups and consultation scheduling to
+medication dosing advice, these systems can automate patient care processes from end-to-end for a
+comprehensive transformation of the patient experience (25).
+• Automating medical coding and billing processes
+Spelling mistakes, abbreviations, and other ambiguities make medical coding time-consuming and
+resource-intensive. This is where AI-assisted medical coding solutions can be a game-changing asset
+for healthcare entities, automating medical coding tasks to achieve the highest levels of accuracy and
+speed. This extraordinary improvement in speed translates into faster reimbursements and reduces
+financial stress for both providers and patients (11). Fewer mistakes reduce the likelihood of billing
+disputes, fostering a relationship of transparency and trust between the provider and patients (5). More
+importantly, improved accuracy and efficiency of medical coding improves health outcomes as
+physicians can rely on a more complete and reliable understanding of a patient’s medical history, past
+treatments, and ongoing health issues to make informed decisions. This reduces the likelihood of
+missed treatments and also allows for a more personalized approach to patient care (4).
+• Managing Patient No-Shows or delays
+Patient no-shows cost the healthcare industry millions of dollars, and duplicate appointment scheduling
+practices lead to resource wasting, operational inefficiencies, and poor decisions. All of these gaps
+ultimately impact the patient experience. A web application with AI and data analytics capabilities to
+streamline various patient management processes such as appointment scheduling, patient registration,
+and EHR/EMR management can be one of the most important uses of AI in healthcare. For example,
+modern appointment management systems with predictive analytics capabilities can anticipate patient
+no-shows or lateness, enabling providers to take proactive measures such as automatically placing
+patients on a waiting list. This reduces average waiting time, reduces the number of missed
+appointments, and ensures a smoother, more patient-centered care experience (11).
+• Automated Summarization of Physician Notes
+Another interesting use for AI in healthcare is in mental and behavioral health, where healthcare
+practices often face the challenge of manually summarizing large volumes of physician notes that flow
+into their EMR system (3). This challenge can be addressed with a transformative AI model that can
+be easily integrated into the EMR system. The AI model can adeptly assimilate and process large
+volumes of detailed physician-patient conversations from their question-and-answer sessions and
+automatically generate clear and comprehensive summaries of the conversations in real time (52). This
+improved efficiency and effectiveness of physician note summarization extends beyond administrative
+efficiency and becomes a critical step in enabling providers to quickly extract key information from
+785 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+voluminous notes and accelerate decision-making. Additionally, healthcare professionals can detect
+patterns, track progress, and proactively assess potential mental health concerns (4), thereby improving
+the quality of patient care and experience.
+Ethical Implications
+Finally, there are also a variety of ethical implications about the use of AI in health care. Health care
+decisions were made almost exclusively by humans in the past, and using intelligent machines to make
+or assist in those decisions raises issues of accountability, transparency, consent, and privacy (18).
+Transparency is perhaps the most difficult issue to address with today’s technologies. Many AI
+algorithms, particularly deep learning algorithms used to analyze images, are nearly impossible to
+interpret or explain. If a patient is told that an image has led to a cancer diagnosis, they will likely want
+to know why, and deep learning algorithms, even doctors who are generally familiar with their
+operation, may not be able to provide an explanation (11).
+Justice in medical ethics emphasizes the equitable distribution of health care resources, treatments, and
+opportunities, addressing disparities and ensuring universal access. Integrity and confidentiality
+highlight the importance of honest and transparent communication while protecting patient privacy
+(34).
+Professional fidelity emphasizes the commitment of health care professionals to fulfill their duties and
+obligations and to maintain trust through the doctor-patient relationship and the broader health care
+system. Together, these principles form the ethical compass that guides decision-making in medicine,
+ensuring a balance between individual rights, societal equality, and the integrity of the medical
+profession (40).
+AI systems will undoubtedly make mistakes in diagnosing and treating patients, and accountability for
+these mistakes may be difficult to establish. Incidents are also likely to occur in which patients receive
+medical information from AI systems that they would rather receive from a human doctor. Machine
+learning systems in healthcare may also be subject to algorithmic bias, perhaps predicting a higher
+likelihood of disease based on gender or race when these factors are not actually causal (11).
+We are likely to face many ethical, medical, professional, and technological changes with AI in
+healthcare. It is important that healthcare organizations and government and regulatory bodies establish
+structures to monitor key issues, respond responsibly, and establish governance mechanisms to mitigate
+negative impacts. This is one of the most powerful and impactful technologies on human societies,
+which requires continued attention and thoughtful policy for many years.
+The biggest challenge for AI in these healthcare settings is not whether the technologies will be
+powerful enough to be useful, but ensuring that they are adopted into everyday clinical practice. For
+these systems to be widely adopted, they need to be approved by regulators, integrated into electronic
+health records systems, standardized enough that similar products work the same way, taught to
+clinicians, paid for by public or private organizations, and updated over time in the field. These
+challenges will eventually be overcome, but it will take much longer than it took for the technologies
+themselves to mature. As a result, we expect to see limited use of AI in clinical practice within 5 years
+and more widespread use within 10 years.
+It is increasingly clear that AI systems cannot replace human doctors on a large scale, but rather
+augment their efforts to care for patients. Over time, human doctors may move toward tasks and job
+designs that rely on uniquely human skills such as empathy, persuasion, and holistic integration. The
+only health care providers who may lose their jobs over time may be those who refuse to work alongside
+AI.
+Medical Data Integrity
+Since GenAI relies on large and extensive datasets often derived from electronic health records, there
+is an inherent risk of inadvertent disclosure/breach. PHI must be protected at all costs and cannot be
+786 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+loosely used or combined with publicly available LLMs. In fact, many healthcare organizations have
+now started using PHI-compatible versions of GPT and LLaMA for clinical integration of GenAI tools.
+Although patient data de-identification is practiced, challenges remain in ensuring that personally
+identifiable information is completely removed. Finding a balance between the usefulness of the data
+for model training and maintaining patient privacy requires strong encryption methods, secure storage
+protocols, and adherence to strict regulatory frameworks such as the Health Insurance Portability and
+Accountability Act (HIPAA) (12).
+As for the ethical and disciplinary aspects of AI in healthcare, four main groups of ethical and
+disciplinary conflicts can be distinguished: confidentiality and data protection, safety, responsibility
+(34), and impact on the doctor-patient relationship. Regarding confidentiality and data protection, the
+use of AI and machine learning in medicine requires access to large health databases. A crucial ethical
+issue concerns the access to and use of this data, particularly with regard to privacy, confidentiality,
+and secrecy. The European Union has promoted a pioneering law on AI, known as the AI Act, which
+includes references to the collection and processing of health data, with consent at its core. Patients
+must know and expressly agree to the use of their correct data. In addition, strategies for controlling
+access, anonymizing patient data, and protecting patient data are essential to ensure the ethical use of
+patient data. Patient data will also be regulated in another draft, and there is already a proposal for the
+regulation of the European Health Data Space (EHDS) (15).
+This project aims to create health data (for primary use) in all Member States, both for primary and
+secondary uses, such as research and innovation, by promoting interoperability. Some analyses of this
+proposal consider that more attention should be paid to privacy and data protection issues, especially
+with regard to the provisions for voluntary subscription to healthcare applications. The EHDS would
+also enable interoperability between wellness and lifestyle devices (such as smartwatches or IoT
+devices) with computerized health records through a self-proclaimed labeling scheme. This regulation
+has a potential impact on the market, where large technology companies, such as Amazon, Google or
+Apple, have entered.
+Reference
+[1] Abbaoui, Wafae, et al. "Towards revolutionizing precision healthcare: A systematic literature review of artificial
+intelligence methods in precision medicine." Informatics in Medicine Unlocked (2024): 101475.
+[2] Adigwe, Obi Peter, Gods power Onavbavba, and Saheed Ekundayo Sanyaolu. "Exploring the matrix: knowledge,
+perceptions and prospects of artificial intelligence and machine learning in Nigerian healthcare." Frontiers in Artificial
+Intelligence 6 (2024): 1293297.
+[3] Alam, MdZahangir, M. Saifur Rahman, and M. Sohel Rahman. "A Random Forest based predictor for medical data
+classification using feature ranking." Informatics in Medicine Unlocked 15 (2019): 100180.
+[4] Alowais, Shuroug A., et al. "Revolutionizing healthcare: the role of artificial intelligence in clinical practice." BMC medical
+education 23.1 (2023): 689.
+[5] Bignami, Elena, LuiginoJalaleDarhour, and Valentina Bellini. "Artificial intelligence in extended perioperative
+medicine." Trends in Anaesthesia and Critical Care (2024): 101376.
+[6] Le Brigant, Alice, et al. "Classifying histograms of medical data using information geometry of beta distributions." IFAC-
+PapersOnLine 54.9 (2021): 514-520.
+[7] Cascella, Marco, et al. "Envisioning gamification in anesthesia, pain management, and critical care: basic principles,
+integration of artificial intelligence, and simulation strategies." Journal of Anesthesia, Analgesia and Critical Care 3.1
+(2023): 33.
+[8] Cheng, Yu, et al. "A survey of model compression and acceleration for deep neural networks." arXiv preprint
+arXiv:1710.09282 (2017).
+[9] Currie, Geoffrey M., K. Elizabeth Hawk, and Eric M. Rohren. "Generative Artificial Intelligence Biases, Limitations and
+Risks in Nuclear Medicine: An Argument for Appropriate Use Framework and Recommendations." Seminars in Nuclear
+Medicine. WB Saunders, 2024.
+[10] Currie, G. M., K. E. Hawk, and E. M. Rohren. "The potential role of artificial intelligence in sustainability of nuclear
+medicine." Radiography (2024).
+787 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+[11] Davenport, Thomas, and Ravi Kalakota. "The potential for artificial intelligence in healthcare." Future healthcare
+journal 6.2 (2019): 94-98.
+[12] Deeb, Maya, et al. "The Emerging Role of Generative Artificial Intelligence in Transplant Medicine." American Journal
+of Transplantation (2024).
+[13] Ding, Haohan, et al. "The application of artificial intelligence and big data in the food industry." Foods 12.24 (2023): 4511.
+[14] Dreizin, David, et al. "Artificial intelligence CAD tools in trauma imaging: a scoping review from the American Society
+of Emergency Radiology (ASER) AI/ML Expert Panel." Emergency radiology 30.3 (2023): 251-265.
+[15] Esquerda, Montse, and FrancescPifarré-Esquerda. "Artificial intelligence in medicine: Ethical, deontological aspects and
+the impact on the doctor-patient relationship." MedicinaClínica (English Edition) (2024).
+[16] Esteva, Andre, et al. "A guide to deep learning in healthcare." Nature medicine 25.1 (2019): 24-29.
+[17] Gousiadou, Chrysoula, Philip Doganis, and HaralambosSarimveis. "Development of artificial neural network models to
+predict the PAMPA effective permeability of new, orally administered drugs active against the coronavirus SARS-CoV-
+2." Network Modeling Analysis in Health Informatics and Bioinformatics 12.1 (2023): 16.
+[18] Grzybowski, Andrzej, Kai Jin, and Hongkang Wu. "Challenges of artificial intelligence in medicine and
+dermatology." Clinics in dermatology 42.3 (2024): 210-215.
+[19] Gupta, Nancy Sanjay, and Pravir Kumar. "Perspective of artificial intelligence in healthcare data management: A journey
+towards precision medicine." Computers in Biology and Medicine 162 (2023): 107051
+[20] Gwillim, Eran C., Soraya Azzawi, and Alyx Rosen Aigen. "Underserved Populations and Health Equity in Dermatology:
+Digital Medicine and the Role of Artificial Intelligence." Clinics in Dermatology (2024).
+[21] He, Xiujing, et al. "Artificial intelligence-based multi-omics analysis fuels cancer precision medicine." Seminars in Cancer
+Biology. Vol. 88. Academic Press, 2023.
+[22] Hu, Shengkun. "Deep Learning in Healthcare." Highlights in Science, Engineering and Technology 57 (2023): 279-285.
+[23] Ibrahim, Bilal, et al. "Spinal Subdural Hematoma Secondary to Ruptured Internal Carotid Artery Ophthalmic Segment
+Aneurysm: A Case Report and Narrative Review." Cureus 16.8 (2024).
+[24] Inam, Maha, et al. "A review of top cardiology and cardiovascular medicine journal guidelines regarding the use of
+generative artificial intelligence tools in scientific writing." Current Problems in Cardiology (2024): 102387.
+[25] Jin, David, et al. "Independent assessment of a deep learning system for lymph node metastasis detection on the Augmented
+Reality Microscope." Journal of Pathology Informatics 13 (2022): 100142.
+[26] Kao, Chia-Hung. "The performance of artificial neural network, logistic regression, and random forest models to predict
+breast cancer in patients with type 2 diabetes mellitus." Interactive Journal of Medical Research (2019).
+[27] Lewin, Stephen, et al. "Ethical challenges and opportunities in applying artificial intelligence to cardiovascular
+medicine." Canadian Journal of Cardiology (2024).
+[28] Li, Lin, et al. "Artificial intelligence distinguishes COVID-19 from community acquired pneumonia on chest
+CT." Radiology (2020).
+[29] Li, Mingyang, et al. "Deep learning in bladder cancer imaging: A review." Frontiers in Oncology 12 (2022): 930917
+[30] Litjens, Geert, et al. "A survey on deep learning in medical image analysis." Medical image analysis 42 (2017): 60-88.
+[31] Long, Ping, et al. "Intelligent selection of healthcare supply chain mode–an applied research based on artificial
+intelligence." Frontiers in Public Health 11 (2023): 1310016.
+[32] Malik, Paras, Monika Pathania, and Vyas Kumar Rathaur. "Overview of artificial intelligence in medicine." Journal of
+family medicine and primary care 8.7 (2019): 2328-2331.
+[33] McGrow, Kathleen. "Artificial intelligence: Essentials for nursing." Nursing2023 49.9 (2019): 46-49.
+[34] Mennella, Ciro, et al. "Ethical and regulatory challenges of AI technologies in healthcare: A narrative
+review." Heliyon (2024).
+[35] Mijwil, Maad M., et al. "MobileNetV1-based deep learning model for accurate brain tumor classification." Mesopotamian
+Journal of Computer Science 2023 (2023): 29-38.
+[36] Monteith, Scott, et al. "Differences between human and artificial/augmented intelligence in medicine." Computers in
+Human Behavior: Artificial Humans (2024): 100084.
+[37] Morris, Miranda X., et al. "Current and future applications of artificial intelligence in surgery: implications for clinical
+788 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+practice and research." Frontiers in Surgery 11 (2024): 1393898.
+[38] Morrow, Elizabeth, et al. "Artificial intelligence technologies and compassion in healthcare: A systematic scoping
+review." Frontiers in Psychology 13 (2023): 971044.
+[39] Nam, Ju Gang, et al. "Development and validation of a deep learning algorithm detecting 10 common abnormalities on
+chest radiographs." European Respiratory Journal 57.5 (2021).
+[40] Ng, Jeremy Y., et al. "Traditional, complementary, and integrative medicine and artificial intelligence: Novel opportunities
+in healthcare." Integrative Medicine Research (2024): 101024.
+[41] Pallavi, T., et al. "Artificial Intelligence: Applications in Healthcare Industry." International Journal of Research in
+AYUSH and Pharmaceutical Sciences (2022): 622-627.
+[42] Pareek, Ayoosh, JónKarlsson, and R. Kyle Martin. "Machine learning/artificial intelligence in sports medicine: state of the
+art and future directions." Journal of ISAKOS (2024).
+[43] Paul, Raj Kumar, and SaravananChandran. "A health care image compression scheme using discrete wavelet transform
+and convolution neural network." J Eng Res. https://doi. org/10.36909/jer. ICMET 17163 (2022).
+[44] Pauling, Cato, et al. "Commercially available artificial intelligence tools for fracture detection: the evidence." BJR|
+Open 6.1 (2024): tzad005.
+[45] Ranard, Benjamin L., et al. "Minimizing bias when using artificial intelligence in critical care medicine." Journal of
+Critical Care 82 (2024): 154796.
+[46] Rayan, Rehab A. "Machine learning for smart health care." Machine Learning Algorithms and Applications in Engineering.
+CRC Press, 2023. 1-16.
+[47] Roppelt, Julia Stefanie, Dominik K. Kanbach, and Sascha Kraus. "Artificial intelligence in healthcare institutions: A
+systematic literature review on influencing factors." Technology in society (2023): 102443.
+[48] Salunke, Tanmay, et al. "Heart Disease Detection using Hybrid Machine Learning and IoT (Software Based)." (2023)
+[49]
+[50] Salybekov, Amankeldi A., et al. "Artificial Intelligence Reporting Guidelines’ Adherence in Nephrology for Improved
+Research and Clinical Outcomes." Biomedicines 12.3 (2024): 606.
+[51] Sarojini, Sharon, et al. "DETECTION OF SKIN DISEASE IN PERVASIVE HEALTH CARE USING CONVOLUTION
+NEURAL NETWORK." Proceedings of the First International Conference on Advanced Scientific Innovation in Science,
+Engineering and Technology, ICASISET 2020, 16-17 May 2020, Chennai, India. 2021.
+[52] Shaikh, KhushbooAnsarul-Haque. "A survey on medical image analysis using deep reinforcement learning
+approach." World Journal of Advanced Research and Reviews 21.2 (2024): 041-054
+[53] Shi, Wenzhe, et al. "Real-time single image and video super-resolution using an efficient sub-pixel convolutional neural
+network." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
+[54] Shorten, Connor, and Taghi M. Khoshgoftaar. "A survey on image data augmentation for deep learning." Journal of big
+data 6.1 (2019): 1-48.
+[55] Solomon, Enoch, Abraham Woubie, and Eyael Solomon Emiru. "Unsupervised Deep Learning Image Verification
+Method." arXiv preprint arXiv:2312.14395 (2023).
+[56] Thirunavukarasu, Arun James, et al. "Democratizing artificial intelligence imaging analysis with automated machine
+learning: tutorial." Journal of Medical Internet Research 25 (2023): e49949.
+[57] Vodanović, Marin, et al. "Artificial intelligence in forensic medicine and forensic dentistry." The journal of forensic
+odonto-stomatology 41.2 (2023): 30.
+[58] Xu, Nuo, et al. "Application of artificial intelligence in modern medicine." Clinical eHealth (2023).
+[59] Xu, Zishan, et al. "Precision medicine in colorectal cancer: Leveraging multi-omics, spatial omics, and artificial
+intelligence." ClinicaChimicaActa (2024): 119686.
+[60] Zargar, Hasan Hejbari, SahaHejbariZargar, and RaziyeMehri. "Review of deep learning in healthcare." arXiv preprint
+arXiv:2310.00727 (2023).
+[61] Zhang, Xia, Xi Liang, and Wen Cao. "[Retracted] Evaluation of Cardiac Function of Pregnant Women with High Blood
+Pressure during Gestation Period and Coupling of Hearts with Peripheral Vessels by Ultrasonic Cardiogram under Artificial
+Intelligence Algorithm." Computational and Mathematical Methods in Medicine 2022.1 (2022): 5019153.
+[62] Zhu, Xiaojuan, et al. "Deep reinforcement learning-based edge computing offloading algorithm for software-defined
+789 | P a g
+e
+Artificial Intelligence in Medicine.
+SEEJPH 2024 Posted: 12-07-2024
+IoT." Computer Networks 235 (2023): 110006.
+790 | P a g
+e

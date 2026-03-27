@@ -1,0 +1,1633 @@
+Journal of Intelligent Information Systems (2021) 57:171–201
+https://doi.org/10.1007/s10844-020-00633-6
+Recommendersystemsinthehealthcaredomain:
+state-of-the-artandresearchissues
+ThiNgocTrangTran1 ·AlexanderFelfernig1·ChristophTrattner2·
+AndreasHolzinger3
+Received:4June2020/Revised:18November2020/Accepted:19November2020/
+Published online: 17December 2020
+©TheAuthor(s)2020
+Abstract
+Nowadays,avastamountofclinicaldatascatteredacrossdifferentsitesontheInternethin-
+dersusersfromfindinghelpfulinformationfortheirwell-beingimprovement.Besides,the
+overloadofmedicalinformation(e.g.,ondrugs,medicaltests,andtreatmentsuggestions)
+have brought many difficulties to medical professionals in making patient-oriented deci-
+sions.Theseissuesraisetheneedtoapplyrecommendersystemsinthehealthcaredomain
+tohelpboth,end-usersandmedicalprofessionals,makemoreefficientandaccuratehealth-
+related decisions. In this article, we provide a systematic overview of existing research
+onhealthcarerecommendersystems.Differentfromexistingrelatedoverviewpapers,our
+articleprovidesinsightsintorecommendationscenariosandrecommendationapproaches.
+Examples thereof are food recommendation, drug recommendation, health status predic-
+tion, healthcare service recommendation, and healthcare professional recommendation.
+Additionally,wedevelopworkingexamplestogiveadeepunderstandingofrecommenda-
+tion algorithms. Finally, we discuss challenges concerning the development of healthcare
+recommendersystemsinthefuture.
+Keywords Healthrecommendersystems·Foodrecommendation·Drug
+recommendation·Healthstatusprediction·Healthcareservicerecommendation·
+Healthcareprofessionalsrecommendation
+1 Introduction
+In the past decades, a considerable amount of clinical data representing patients’ health
+status (e.g., medical reports, laboratory results, and disease treatment plans) have been
+collected.Thishasremarkablyincreaseddigitalinformationavailableforpatient-oriented
+decision making. Such digital information is often scattered across different sites, which
+hinders users from finding useful information for their well-being improvement. Besides,
+(cid:2) ThiNgocTrangTran
+ttrang@ist.tugraz.at
+Extendedauthorinformationavailableonthelastpageofthearticle.
+172 Journal of Intelligent Information Systems (2021) 57:171–201
+more drugs, tests, and treatment recommendations are available for medical staff daily,
+whichtriggersdifficultiesindecidingappropriateremediesforpatients(Starketal.2019;
+Wiesner and Pfeifer 2014). In this context, recommender systems for medical use should
+beimplementedtobridgethesegapsandsupportboth,patientsandmedicalprofessionals,
+to make better healthcare-related decisions. Recommender systems have been integrated
+intoonlineretailers,streamingservices,andsocialnetworkstofacilitateusers’itemselec-
+tionprocess(FelfernigandGula2006;Tranetal.2018).Recently,thesesystemshavebeen
+widelyappliedtothehealthcaredomain(so-calledHealthRecommenderSystems-HRS)to
+bettersupportmedicalsuggestions.Differentfromtheprecursorsinthesamedomain(e.g.,
+medical expert systems), HRS offer a better personalization that increases the details of
+providedrecommendationsandimprovesusers’understandingoftheirmedicalcondition.
+These systems also provide patients with a better experience, improve their health condi-
+tion,andmotivatethemtofollowahealthierlifestyle.Moreover,theyalsoassisthealthcare
+professionalswithdiseasepredictions/treatments(Holzingeretal.2016;Pincayetal.2019;
+Sahoo et al. 2019; Scha¨fer et al. 2017; Wiesner and Pfeifer 2014). HRS should analyze
+patients’ health status and recommend personalized diets, exercise routines, medications,
+diseasediagnoses,orotherhealthcareservices.HRS’sgreatconcernistosendthenecessary
+information topatientsattherighttime whileensuringtheaccuracy,trustworthiness,and
+privacyofpatientinformation(Sahooetal.2019).Moreover,thesesystemsareexpectedto
+minimizethecostofthehealthcare-relateddecisionmakingprocess(intermsoftimeand
+effort)(Valdezetal.2016).
+AlthoughseveralstudieshavebeencarriedoutonHRS,theytargetaspecificdiseaseor
+recommendationcontext.Thisraisesaneedforacomprehensiveoverviewthatprovidesa
+“full landscape”of recommendation scenariossupportedby HRS (Pincayet al.2019). In
+thecurrentliterature,onlyafewendeavorssummarizecurrentapproachestodesigningand
+implementingHRS.Forinstance,SezginandO¨zkan(SezginandO¨zkan2013)andWies-
+nerandPfeifer(WiesnerandPfeifer2014)discussedsomerecommendationscenarios(e.g.,
+drugrecommendations,medicalinformationsuggestions,anddiseasepredictions)andvar-
+iousmethodstoevaluatetheeffectivenessofHRS.CaleroValdezetal.(Valdezetal.2016)
+provided a literature review, in which a framework to develop HRS was proposed. Stark
+et al. (Stark et al. 2019) analyzed 13 existing studies and categorized them according to
+criteria,suchasdisease,datastorage,interface,datacollection,datapreparation,andrec-
+ommendationtechniques.Finally,Pincayetal.(Pincayetal.2019)presentedanoverviewof
+themethodsandtechniquesusedtodesignandimplementHRS.Comparedtothementioned
+relatedwork,ourarticlepresentsabroaderpictureofrecommendationscenariossupported
+by HRS with a different set of considered studies. The discussed scenarios focus on two
+types of users: end-users (healthy users and patients) and healthcare professionals (e.g.,
+doctors, nurses, clinicians, or physicians). For end-users, HRS provide nutritional infor-
+mation,medications,treatmentplans,diagnoses/diseasepredictions,physicalactivitiesor
+otherhealthcareservices(e.g.,findinggooddoctorsorpropermedicalservicesforpatients)
+(Wiesner and Pfeifer 2014). For healthcare professionals, HRS use medical resources to
+assist them in creating more precise suggestions for patients. For each recommendation
+scenario, we summarize recommendation algorithms and develop corresponding working
+examples. Besides analyzing existing studies, we discuss research challenges as well as
+potential directions for future HRS. The remainder of the article is structured as follows.
+In Section 2, we present the used methodology for our literature analysis. In Section 3,
+we discuss basic approaches that are frequently used in recommender systems and nec-
+essary adaptations to apply these in the healthcare domain. In Section 4, we present
+Journal of Intelligent Information Systems (2021) 57:171–201 173
+recommendation scenarios supported by HRS and used recommendation techniques. In
+Section 5, we summarize evaluation methods employed in the mentioned approaches.
+Finally, we discuss open issues for future work in Section 6 and conclude the article in
+Section7.
+2 Researchmethodology
+This study was performed based on a bibliographic review method, which provides a
+systematicalanalysisofdomain-specificknowledge.Wefirstcollectedasetofstudiescon-
+cerning HRS using the following keywords: “health recommender systems”, “medicine
+recommender systems”, “recommender systems in the wellness domain”, and“e-Health
+systems”. To have a deeper look at recommendation scenarios in the healthcare domain,
+we searched for references using additional keywords: “food recommendation”, “nutri-
+tion recommendation”, “drug recommendation”, “heath status prediction”, “healthcare
+servicerecommendation”,“physicalactivityrecommendation”,and“doctorrecommenda-
+tion”.Besides,toensurethequalityofthereferences,weselectedthepapersusingsome
+criteria proposed by Stark et al. (Stark et al. 2019): (i) published from 2000 onward; (ii)
+wellreferencedwithmorethan15sources,(iii)providinglogicalandreasonablefindings
+ofthedomain,and(iv)presentingadetaileddiscussiononrecommendationtechniques.We
+searchedforreferencesinwell-knowndigitallibraries,suchasGoogleScholars1,Springer2,
+ACM3,ResearchGate4,ScienceDirect5,andPubMed6.Inthiscontext,wecheckedthetitle,
+keywords,abstract,conclusion,tables,andfiguresofthecollectedpapers.Finally,wefil-
+teredout98papersthatmeetthementionedcriteriaandhaveastrongrelationshipwithour
+work.Fromthese,weselectedandanalyzed37studies,whichprovidedetaileddiscussions
+on recommendation approaches in the healthcare domain. These studies are summarized
+inSection4:eight papersrelatedtofoodrecommendation,18papersondrugrecommen-
+dation, three papers related to health status prediction, four papers on physical activity
+recommendation, and four papers on healthcare professional recommendation. Addition-
+ally, we analyzed 32 papers to find out open issues for HRS and potential directions for
+future work. The remaining papers are cited in other sections of this article. Most papers
+citedinourworkwerepublishedinprestigiousconferences,suchasACMConferenceon
+RecommenderSystems,ACMConferenceonUserModelling,AdaptationandPersonaliza-
+tion,IEEEInternationalConferenceone-HealthNetworking,andInternationalConference
+onSoftwareEngineeringandKnowledgeEngineering.Forjournalarticles,weselectedthe
+ones published in journals on computer science (e.g., Journal of Computer Applications,
+JournalofExpertSystemApplications,JournalofComputingSciencesinColleges,Journal
+ofDataMiningandKnowledgeDiscovery,andJournalofEngineeringandTechnology)and
+onmedicine(e.g.,JournalofScienceTranslationalMedicine,InternationalJournalofBasic
+Science in Medicine, and Journal of Biomedical Semantics, and Journal of Biomedical
+Informatics).
+1https://scholar.google.at/
+2https://link.springer.com/
+3https://dl.acm.org/
+4https://www.researchgate.net/
+5https://www.sciencedirect.com/
+6https://pubmed.ncbi.nlm.nih.gov/
+174 Journal of Intelligent Information Systems (2021) 57:171–201
+3 Basictechniquesinrecommendersystems
+Collaborative filtering (Aberg 2006; Bankhele et al. 2017; Berkovsky and Freyne 2010;
+Davis et al. 2009; Dharia et al. 2016; Han et al. 2018; Narducci et al. 2015; Nasiri et al.
+2016;Starketal.2017;Zhangetal.2016),content-based(Aberg2006;Dhariaetal.2016;
+Han et al. 2018), knowledge-based (Ali et al. 2018; Doulaverakis et al. 2012; Mahmoud
+andElbeh2016),andhybridapproaches(Aberg2006;Dhariaetal.2016;Hanetal.2018)
+are the basic recommendation techniques that can be used in HRS. Besides, other algo-
+rithmsarealsoappliedtogeneraterecommendationsinthehealthcaredomain,suchasant
+colonyalgorithm(Rehmanetal.2017),classification(Husseinetal.2012;Shimadaetal.
+2005), clustering (Rokicki et al. 2015), decision tree (Bresso et al. 2013), logistic regres-
+sion (Huang et al. 2011), natural language processing (Gujar et al. 2018), inductive logic
+programming(Bressoetal.2013),ontologies(Chenetal.2011;Chenetal.2012;Donciu
+etal.2011;Doulaverakisetal.2012;Faizetal.2014;MahmoudandElbeh2016),sparse
+canonicalcorrelation(Yamanishietal.2012),supportvectormachines(Huangetal.2011),
+semantictechnologies(Donciuetal.2011;Faizetal.2014;Medvedevaetal. 2007),multi-
+criteriadecisionmaking(Chenetal.2011;Chenetal.2012),graph-basedrecommendations
+(Starketal.2017),context-awarerecommendation(Alietal.2018),andmatrixfactorization
+(Zhangetal.2015).Inthissection,wepresentbasicrecommendationtechniquesappliedin
+thehealthcaredomain.OthertechniqueswillbediscussedinSection4.
+3.1 Aspectsofrecommendersystems
+There are three main aspects that need to be considered in recommender systems: usage
+context,users,anditems (Sa´nchez-Bocanegraetal.2015).Usagecontextdescribestheenvi-
+ronment where all elements (e.g., items, users, and their relationship) interact with each
+other. Users are the end-users of recommender systems, and items are the elements that
+usersarelookingfor.Inthehealthcaredomain,additionalaspectsconcerningthementioned
+elementsshouldbeconsideredtogeneratemorepreciserecommendations.
+Usagecontext TheusagecontextinHRSconsistsofcontextualfactorsandmulti-factorial
+goal settings that can influence on how items are recommended or presented. Contextual
+factorsindicatedynamicattributeswhichmightaffectaspecificactivity(e.g.,timetotake
+medicine-theoptimaltimetotakefat-solublevitaminsiswithdinner)anddynamicfactors
+fromusers(suchasemotionalstates).Theinclusionofsuchcontextualinformationinthe
+sequenceofrecentcontextsofausercanhelptobetterunderstandcontextsthatledtothe
+user’scurrentbehaviorandpreferences.Formulti-factorialgoalsettings,differentdomain-
+specific criteria should be considered when evaluating an item. In e-commerce domains,
+people might naively think that the “most preferred items” are more likely to be recom-
+mendedtousers.However,thisideaneedstobereconsideredinthehealthcaredomainsince
+itemsthatarethebestforthisusermightnotbegoodforothers(Valdezetal.2016).For
+instance, although diuretics and blood pressure-lowering medicines are good for patients
+suffering from hypertension, these drugs can be dangerous for diabetes or gout patients.
+Besides,evenpatientshavethesamediseases,remediesforthispatientcouldnotalwaysbe
+suggestedtootherssincetheymighthavedifferenthealthconditions.
+Users HRSareabletosupporttwotypesofusers:end-usersandhealthcareprofessionals.
+End-users could be healthy users or patients. For each end-user, the system has to save a
+userprofiledescribinghis/herhealthcondition.Forinstance,theprofileofacardiovascular
+Journal of Intelligent Information Systems (2021) 57:171–201 175
+patientincludesthefollowinginformation:name,birthday,weight,height,cardiovascular
+type, and blood pressure measurement. This information helps HRS identify appropriate
+medicationsfortheuser.Healthcareprofessionalscanbedoctors,nurses,physicians,clini-
+cians,orpharmacists.Besides,medicalresearchersandpolicymakerscanalsobenefitfrom
+HRS(Valdezetal.2016).
+Items HRS can offer recommendations concerning different categories, such as diets to
+optimizenutrition,physicalactivities/sportsthatmatchtheuser’srequirementsandneeds,
+recommendeddiagnosesofpatientstodoctorsornurses,treatments/medicationsforaspe-
+cific disease, and medical information/sources that motivate(s) users to follow a healthy
+lifestyleandimprovetheirwell-being(Valdezetal.2016).
+3.2 Basicrecommendationtechniques
+The information of the mentioned elements can be the input of algorithms that generate
+personalizedrecommendationstopatients.
+CollaborativeFiltering(CF) CFrecommendsitemstoauserbasedonthefollowingidea:
+“Ifuserssharedthesameinterestsinthepast,thentheywouldhavesimilartastes”(Jannach
+2011).InthecontextofHRS,thisapproachcanbeinterpretedasfollows:“Ifpatientsshare
+similardiseaseprofiles/healthconditions,thentheywouldhavesimilartreatments/health-
+careservices”.
+Content-basedFiltering(CB) Thisapproachlooksforitemssimilartothosethattheuser
+likedinthepastandmatchtheuserprofile(Lopsetal.2011;Riccietal.2010;Sa´nchez-
+Bocanegraetal.2015).InHRS,thisapproachsuggestshealthcareservicesthatfitthepatient’s
+healthcondition/diseasesituationandaresimilartothoseassignedtohim/herinthepast.
+Knowledge-basedRecommendation(KB) Thisapproachisappliedtodomainswherethe
+quantityofavailableitemratingsisquitelimited(e.g.,cars,apartments,andfinancialser-
+vices)orwhentheuserwantstodefinehis/herrequirementsforitemsexplicitly(e.g.,“the
+foodshouldnotcontaincheesesinceIamallergictomilkproducts”).Thisapproachcreates
+recommendationsbasedonknowledgeabouttheitems,explicituserpreferences,andaset
+ofconstraintsdescribingthedependenciesbetweenusers’preferencesanditems’properties
+(FelfernigandBurke2008).
+HybridRecommendation(HyR) The idea of this approach is to combine the aforemen-
+tionedrecommendationtechniquestomakeuseoftheadvantagesofoneapproachandfix
+thedisadvantagesofanotherapproach(Riccietal.2010).Forinstance,CFusuallyfacesa
+cold-start problemtriggeredwhenanewitemisaddedtothesystemandhasnouserrat-
+ings,whereasCBcantacklethisissuesincethepredictionfornewitemsisgenerallybased
+onavailabledescriptionsoftheseitems.
+4 Recommendationscenariosinthehealthcaredomain
+HRS offer users various types of recommendations that help to improve their well-being.
+Thesesystemsalsoassisthealthcareprofessionalsinmakingmoreprecisepatient-oriented
+176 Journal of Intelligent Information Systems (2021) 57:171–201
+decisions.Inthefollowingsubsections,weprovideadetaileddiscussiononrecommenda-
+tionscenariosandcorrespondingrecommendationapproaches(seealsoTable1).
+4.1 Foodrecommendation
+Due to the extensive growth of food variety and busy lifestyles, people have been facing
+theissueofmakinghealthyfooddecisionstoreducetheriskofchronicdiseases(Geetal.
+2015;Robertsonetal.2004).Inthiscontext, foodrecommendersystemscanmotivateusers
+tochangetheireatingbehaviorsorsuggesthealthierfoodchoices(Tranetal. 2018;Trat-
+tnerandElsweiler2017;Yangetal.2017).Inthefollowing,wesummarizescenarioswhere
+food recommender systems support users in optimizing their nutrition intake. Studies on
+foodrecommendationwerepresentedinourearliersurvey(Tranetal.2018).However,dif-
+ferentfrom(Tranetal.2018)wherethesestudiesweregroupedbasedonrecommendation
+techniques,inthisarticle,theyaregroupedaccordingtodietaryneeds.Besides,weinclude
+additionalstudieson“food-substitutessuggestions”toincreasethecoverageofthearticle.
+Forthestudiesalreadypresentedinourearliersurvey,weshortlymentionthegeneralidea
+ofrecommendationalgorithms,andforfurtherdetails,wereferto(Tranetal.2018).
+Recommendproperdiets Many people are suffering from health problems concerning
+inappropriateeatinghabits.Thus,oneofthemainfunctionsoffoodrecommendersystems
+istounderstandtheeatingbehaviorandrecommendproperdietstousers.Thereexistinthe
+currentliteraturesomesystemsthatfulfillthisfunction.Forinstance,Abergetal.(Aberg
+2006)developedamenu-planningtooltodealwiththemalnutritionoftheelderly.Rehman
+et al. (Rehman et al. 2017) highlighted the appropriateness of selected diets by propos-
+ing a cloud-based food recommender system so-called DIET-RIGHT. This system uses an
+antcolonyalgorithmtogenerateanoptimalfoodlistandtosuggestproperfoodforusers
+accordingtotheirpathologicalreports.
+Prevent/CureFood-basedIllness Lackingthenutritionalunderstandingofusersleadsto
+poor selections of ingredients and causes food-related diseases. To prevent these issues,
+foodrecommendersystemshavebeendevelopedtoprovidenutritionrecommendationsthat
+consider both the preferences and health conditions of patients. For instance, Rokicki et al.
+(Rokickietal.2015)suggestedmenusthatbestmatchthepatients’tastesanddietaryrestric-
+tions. Ueta et al. (Ueta et al. 2011) proposed a goal-oriented recipe recommendation to
+provideauserwithanutrientlistfortreatinghis/herhealthproblem.
+SuggestFoodSubstitutes Anotherapproachoffoodrecommendersystemsistoidentify
+a substitute relationship between food pairs as the first step towards “similar but health-
+ier” foodrecommendations(AchananuparpandWeber2016).In this approach,foods are
+assumed to be similar dietarily if they are consumed in similar contexts. For instance, “a
+chickensandwichcanbeasubstituteforaturkeysandwichiftheyarebothconsumedwith
+frenchfriesandsalad”(AchananuparpandWeber2016).Thisapproachanalyzesthereal-
+worldself-reportedfoodconsumptionofuserscreatedbytheMyFitnessPal7.Theconsumed
+food items and corresponding contexts are represented in a food-context matrix, in which
+therowsrepresentfooditems,andthecolumnsrepresentacontext.Thesimilaritybetween
+twofooditemsismeasuredusingtheCosinesimilaritybetweenthecorrespondingrowvec-
+torsinthematrix.Thehigherthesimilarityscore,thehighertheprobabilityoffoodpairsto
+7https://en.wikipedia.org/wiki/MyFitnessPal
+elcitraehtnidessucsidseidutsyekfoyrammusA
+1elbaT
+seitilanoitcnuF
+seuqinhcet.ceR
+srepaP
+soiranecs.ceR
+eht
+fo
+noitcnuflam
+eht
+sevloser
+BC,FC
+)6002grebA(
+noitadnemmocerdooF
+ylredle
+sresurofdoofyhtlaehsesoporp
+.cerdesab-txetnoc
+)6102rebeWdnaprapunanahcA(
+otsnoitadnemmocerdoofsetareneg
+.cerpuorg,FC
+)4102.lateihalE;0102enyerFdnayksvokreB(
+ylimafa
+reihtlaeh
+tub
+ralimis
+setareneg
+krowtentneidergni
+)7102.latereliewslE(
+stnemecalperepicer
+rof
+stsil
+doof
+lamitpo
+setareneg
+mhtiroglaynoloctna
+)7102.latenamheR(
+sresu
+ot
+sunem
+yhtlaeh
+sdnemmocer
+gniretsulc
+)5102.lateikcikoR(
+sresu
+ataertottneirtunelbatiussedivorp
+.cerepicerdetneiro-laog
+)1102.lateateU(
+smelborphtlaehs’resu
+setebaid
+ot
+sgurd
+reporp
+stseggus
+FC
+)7102.lateelehknaB(
+noitadnemmocergurD
+stneitap
+fo
+seliforp
+tceffe-edis
+seificeps
+-orpcigolevitcudni,seertnoisiced
+)3102.lateosserB(
+sgurd
+gnimmarg
+stceffe-edisgurdetaruccasedivorp
+skrowteNytefasocamrahP
+)8102oranaccaPdnaonaelaG;1102.lateimaC(
+snoitciderp
+-mocergurdcitebaid-itnasesoporp
+noisiced
+airetirc-itlum
+,seigolotno
+)2102.latenehC;1102.latenehC(
+snoitadnem
+gnikam
+sgurdreporpsdnemmocer
+.cerdesab-elur,seigolotno
+)4102
+;2102.latesikarevaluoD(
+stceffeedisgurdstciderp
+-porp
+-
+erutcurts
+,ytivitca-erutcurts
+)9002.lateikazukuF;6002.lateirilF(
+spihsnoitalerytre
+stceffeedisgurdstciderp
+citsigol
+,enihcam
+rotcev
+troppus
+)1102.lategnauH(
+noisserger
+Journal of Intelligent Information Systems (2021) 57:171–201 177
+)deunitnoc(
+1elbaT
+seitilanoitcnuF
+seuqinhcet.ceR
+srepaP
+soiranecs.ceR
+-erp
+esod
+htiw
+senicidem
+stseggus
+noisiced
+desab-elur
+,seigolotno
+)6102heblEdnaduomhaM(
+snoitpircs
+gnikam
+-taertgnizimitponisrotcodstsissa
+metsyslaveirterytiralimis-esac
+)7002.lateavedevdeM(
+stneitapriehtrofstnem
+laehotsgurdhtiwstneitapsedivorp
+bewcitnames
+)9002.latezeug´ırdoR(
+ygolohtapa
+enil-tsrifgnitcelesnisrotcodstsissa
+noitacifissalclevel-ksir
+)5002.lateadamihS(
+sgurd
+-eniargimotsgurdesicerpsedivorp
+.cerdesab-hparg,FC
+)7102.latekratS(
+stneitapesaesid
+-orp
+tceffe-edis
+laitnetop
+stciderp
+noitalerroclacinonacesraps
+)2102.lateihsinamaY(
+selucelometadidnacgurdfoselif
+fo
+stceffe
+edis
+gnissim
+stciderp
+BC
+)6102.lategnahZ(
+sgurddevorppa
+178 Journal of Intelligent Information Systems (2021) 57:171–201
+)deunitnoc(
+1elbaT
+seitilanoitcnuF
+seuqinhcet.ceR
+srepaP
+soiranecs.ceR
+stneitapfosksiresaesidstciderp
+noitacifissalctserofmodnar
+)2102.lateniessuH(
+noitciderpsutatshtlaeH
+-cinorhc
+fo
+srotcaf
+ksir
+stciderp
+FC
+)6102.lateirisaN;9002.latesivaD(
+stneitapesaesid
+lacisyhp
+htiw
+stneitap
+sedivorp
+-egdelwonk
+,.cer
+erawa-txetnoc
+)8102.lateilA(
+noitadnemmocerytivitcalacisyhP
+seitivitca
+.cerdesab
+dezilanosrep
+stseggus
+BC,FC
+)6102.lateairahD(
+snoitadnemmocernoisses-tuokrow ot
+sesicrexe
+reporp
+sdnemmocer
+seigolonhcetscitnames,seigolotno
+)4102.lateziaF;1102.lateuicnoD(
+sresu
+snoitadnemmocerrotcodsetareneg
+seuqinhcetPLNeroc
+)8102.laterajuG(
+-mocer
+slanoisseforp
+erachtlaeH
+stneitapot
+noitadnem
+ot
+rotcod-ylimaf
+sdnemmocer
+BC,FC
+)8102.latenaH(
+stneitap
+slatipsoh
+dna
+srotcod
+stseggus
+FC
+)5102.lateiccudraN(
+eliforps’tneitapehtotgnidrocca
+rof
+srotcod
+fo
+gnitar
+eht
+stciderp
+noitazirotcafxirtamdirbyh
+)6102.lategnahZ(
+stneitap
+Journal of Intelligent Information Systems (2021) 57:171–201 179
+180 Journal of Intelligent Information Systems (2021) 57:171–201
+besuitablesubstitutesforeachother.Elsweileretal.(Elsweileretal.2017)investigatedthe
+feasibilityofreplacingrecipesconsumedbyauserwithsimilarandhealthieralternatives.
+Tofindappropriaterecipesubstitutions,theauthorsappliedaningredient-networkapproach
+(Tengetal.2012)toestablishrecipepairsbasedontheirpairwisesimilarities.Thereafter,
+theylookedatthedistributionofhealthfeaturesacrosspairstoidentifyhealthierreplace-
+ments.Finally,theratingdistributionswithinpairswereconsideredtofindoutreplacements
+withhigherratingsthantheoriginalrecipes’rating.
+FoodRecommendationforGroups Inmanyreal-worldscenarios,foodconsumptionisa
+goodexampleofagroupactivity,forinstance,decidingonthemenuforabirthdaypartywith
+friendsordailymealswithfamilymembers(Elahietal.2014;Felfernigetal.2018).Inthese
+scenarios, recommendations should be tailored in such a way that assures the maximum
+satisfactionofeachmemberandthegroupasawhole(O’Connoretal.2001).Berkovsky
+andFreyne(BerkovskyandFreyne2010)examinedtheapplicabilityofCFstrategiestodis-
+coverthebeststrategyforgrouprecommendations.Theauthorsdiscussedtwogroup-based
+recommendation strategies: aggregated models strategy and aggregated prediction strat-
+egy8.Thesestrategiesrecommendalistofrecipestothewholefamilybyconsideringthe
+taskofrecommendingtop-krecipes.SimilarworkwasconductedbyElahietal.(Elahietal.
+2014),whereanovelinteractiveenvironmentforgroupswasdevelopedinplanningmeals
+throughaconversationalprocessbasedoncritiquing(ChenandPu2012).Foranexample
+offoodrecommendationforgroups,werefertoourearliersurvey(Tranetal.2018).
+4.2 Drugrecommendation
+4.2.1 Drugrecommendationforcuringdiseases
+Medication errors are one of the most serious medical errors that could threaten patients’
+life (CharkhatGorgichetal.2015).Morethan42%oftheseerrorsarecausedbydoctors
+whohavelimitedexperiences/knowledgeaboutdrugsanddiseases(BaoandJiang2016).
+Another reason lies in the increasing number of available drug information, which has
+broughtobstaclesconcerningthediscoveryofrelevantdrugsanddrug-diseaseinteractions
+(Doulaverakisetal.2012).Inthiscontext,drugrecommendersystemshavebeendeveloped
+to assist end-users and healthcare professionals in identifying accurate medications for a
+specificdisease.
+Diabetesdisease Diabetes is one of the most popular diseases caused by busy lifestyles
+withalackofphysicalactivitiesandunhealthyeatinghabits(Bankheleetal.2017;Mah-
+moudandElbeh2016).Plentyofdrugrecommendersystemshavebeendevelopedtohelp
+end-users effectively control diabetes and avoid future complications. These systems also
+assistmedicalprofessionalsingivingprecisemedicinerecommendationstopatients.Chen
+etal.(Chenetal.2011)createdanti-diabeticdrugrecommendationsbasedonpatientontol-
+ogyknowledgeandmulti-criteriadecisionmaking.Mahmoudetal.(MahmoudandElbeh
+2016)utilizedontologiestorepresentknowledgeaboutpatients’profilesandanti-diabetes
+drugs. This system additionally combines ontologies with rule-based decision making to
+provide restrictions on target treatment goals and medicines with dose prescription. The
+defined rules select drugs for each patient based on his/her profile. An example rule of
+selectingdrugscanbedescribedasfollows:“Ifapatientisunder60yearsold,sufferinga
+8Fordetailsofthesestrategies,wereferto(Felfernigetal.2018;Tranetal.2018).
+Journal of Intelligent Information Systems (2021) 57:171–201 181
+liverproblem,andusedSulfonzlureas(Glipizide),thenstartingdoseshouldbe2.5mgdaily”
+(MahmoudandElbeh2016).Medvedevaetal.(Medvedevaetal.2007)developedaweb-
+basedcase-similarityretrievalsystemtoenabledoctorstosharetheirknowledgewiththe
+communityandtooptimizediseasetreatmentsfortheirpatients.Inthissystem,patienthis-
+toriesareutilizedbydoctorstoselectsuitabletreatmentplansforpatients.Bankheleetal.
+(Bankheleetal.2017)proposedarecommendationapproachbasedontheCFtechniqueto
+suggestpropermedicationstodiabetespatients.Apatienthastoregisterinthesystemand
+thenentersapredefinedsetofattributes,suchasage,insulin,glucose,BMI,BP,and triceps
+thickness,whicharethenanalyzedtocreatepersonalizedrecommendations.Auser-based
+CFisappliedtofindpatientswhoseattributesbestmatchtheactivepatient’sattributes.This
+matchingisdoneusingFormula(1),whereP istheattributesetofpatientsaandb;r is
+a,p
+thevalueofpatienta forattributepwithr asthemeanoversetP ofattributesp;r is
+a b,p
+thevalueofpatientbfortheattributepwithr asthemeanoversetP ofattributesp.
+b
+(cid:2)
+(r −r )(r −r )
+sim(a,b)= (cid:3) (cid:2) p∈P a (cid:3)a (cid:2) b b (1)
+((r −r )2) ((r −r )2)
+p∈P a a p∈P b b
+Example1 Fordemonstrationpurposes,weintroduceanexampledescribingthedrugrec-
+ommendationprocessusingtheapproachpresentedin(Bankheleetal.2017).Assume,Tom
+isanactivepatientwhohasenteredtothesystemsomeattributesofhishealthstatus(see
+Table2).ThedataofpatientswhosharesimilarattributeswithTom(patient ...patient )is
+1 4
+summarizedinTable2.BasedonFormula(1),thesimilarityscoresofpatientswithregard
+tocurrentuserattributesarecalculatedasfollows:
+sim(Tom,patient )=0.86(cid:2);sim(Tom,patient )=0.51
+1 2
+sim(Tom,patient )=0.49;sim(Tom,patient )=0.04
+3 4
+The calculations show that patient is the most similar to Tom. Thus, the drugs
+1
+prescribedforthispatientcanberecommendedtoTom.
+MigraineDisease Stark et al. (Stark et al. 2017) proposed a drug recommender system
+assistingdoctorsinwritingmoreappropriateandaccurateprescriptionstomigraine-disease
+patients.Thissystemusesagraphdatabasetostorepatients’information.Thedatabaseis
+organized as nodes and edges. Nodes represent patients’ information, diseases, allergies,
+anddrugs,whereasedgesrepresenttherelationshipsbetweennodes.UsingaCFapproach,
+drugrecommendationsarecreatedasfollows:
+- Filteroutpatientswhoaresimilartotheactivepatientintermsofgender(male/female),
+aura(yes/no),andthetypeofmigraine(acute/chronic).
+- Calculate the similarity level between each neighbor and the active patient according
+to the following features: age, allergies, disease history, preexisting conditions, cur-
+rent drug prescription, and blood pressure. Each feature is weighted depending to its
+importance. For instance, age and disease history are more important than other fea-
+tures. Therefore, these features have a higher weight compared to others: w =
+age
+w =3andw =w =w =1.
+diseaseHistory allergies preexistingConditions bloodPressure
+- Sumupallfeatures’scores.Onlydrugsconsumedbythepatientswhoareatleast80%
+similartothecurrentpatientwillbeincludedintherecommendation.
+InfectiousDiseases Shimadaetal.(Shimadaetal.2005)developedarecommendersys-
+tem that helps doctors select proper first-line drugs for patients suffering from infectious
+diseases.Beforegivingsuggestions,doctorshavetoknowtheabilityofpatientstoprotect
+esabatadehtnistneitaprehtodna)tneitapevitca(moTfosetubirttatupniehT-1elpmaxE
+2elbaT
+ssenkcihtspecirt
+PB
+IMB
+esoculg
+nilusni
+ega
+32
+76
+9.72
+0.68
+4.52
+52
+)tneitapevitca(moT
+91
+27
+8.52
+661
+9.52
+72
+1tneitap
+14
+28
+64
+811
+33
+84
+2tneitap
+02
+07
+13
+98
+82
+72
+3tneitap
+54
+7.96
+7.03
+591
+2.34
+35
+4tneitap
+182 Journal of Intelligent Information Systems (2021) 57:171–201
+Journal of Intelligent Information Systems (2021) 57:171–201 183
+themselvesfromriskfactors.Forthis,arisk-levelclassificationmethodthatutilizesclinical
+informationofpatientsisapplied.Thismethodassignseachriskfactortoascorerepresent-
+ing its impact degree on the patient. Besides, a knowledge base consisting of risk factors
+andtheirimpactdegreesarealsoconstructed.Thesystemreturnsrisklevelsthatarehelpful
+for precisely predicting the patient’s health condition and then recommending to him/her
+appropriatedrugs.
+Other Diseases Besides drug recommendations for specific diseases, plenty of recom-
+mender systems have been developed for undefined diseases. For instance, GALENOWL
+(Doulaverakisetal.2012)allowsdoctorstosearchfordruginformationandrecommends
+suitabledrugstopatientsbasedontheirdisease,allergies,anddruginteractionsinthepast.
+ThissystemusesontologiesandICD-codestostorerulesaboutdrugsandtheirinteractions.
+Theserulesarethesysteminputtogeneratethemostfittingdrugsforpatients.Basedonthe
+GALENOWLsystem,asemanticframeworkso-calledPANACEA(Doulaverakisetal.2014)
+was developed to assist physicians in prescribing drugs according to drugs’ active sub-
+stanceindicationsandcontraindications.PANACEAgeneratesdrugrecommendationsbased
+on standardized medical terminologies and rules describing drug-drug and drug-disease
+interactions. This system outperforms GALENOWL while guaranteeing the same recom-
+mendationquality.SimilartoPANACEA,SEMMED(Rodr´ıguezetal.2009)wasdeveloped
+basedonsemanticwebtechnologies.Thissystemprovidespatientswithcorrectdrugsand
+treatmentrecommendationsthatarepropertohealaconcretepathology.Besides,ithelps
+healthcareprofessionalsavoidmistakesinthedruginteractionprocessanddiscardfactors
+causingriskstopatients,suchasdrugallergiesorcontraindications.
+4.2.2 Predictdrugsideeffects
+Drugsideeffectsoradversedrugreactions(ADR)areoneoftheleadingcausesofmorbidity
+and mortality in health care (Galeano and Paccanaro 2018). As reported by the Ameri-
+can Institute of Medicine, unexpected drug side effects cause 100,000 deaths annually in
+the USA (Gurwitz et al. 2003). Thus, medical researchers have taken heed of developing
+systemsfordrugdiscovery(Zhangetal.2016).Oneofthefirstideasofdrugside-effectpre-
+dictions is to utilize structure-activity or quantitative structure-property relationships. For
+instance,Flirietal.(Flirietal.2006)translatedadverseeffectdataderivedfrom1,045pre-
+scriptiondruglabelsintoeffectspectra,andthenshowedtheirutilityfordiagnosinginduced
+effectsofdrugs.Fukuzakietal.(Fukuzakietal.2009)designedamodeltolistdrugside
+effectsbysearchingforcooperativepathwayssharedamonggeneexpressionprofiles.The
+generalideaofthisworkis:“Adrugisproducedtoaffectaspecificgene.However,ifthe
+druginadvertentlyactivatesothergenes,thenitmightcausesideeffects”.Inthisapproach,
+eachpathwayisrepresentedasagraphwithvertexesandedges.Eachvertexrepresentsa
+genethatindicatesanitem-setshowingasetofdrugsorconditionsactivatingthegene.Each
+edgeindicatesageneinteraction.Basedonthisgraph,sub-pathwaysshowingsideeffects
+canbefoundbasedontheitem-sets(i.e.,activationconditions)sharedbetweenthem.
+Recently, some methods based on machine-learning have been employed to predict
+potentialsideeffectsofdrugs.“Insilico”isthemostcommonmethodwhichcreatesside-
+effect predictions based on the structure chemistry and biological features of drugs, such
+astargetproteins,protein-proteininteractions,orgeneontologyannotations(Zhangetal.
+2015).Bressoetal.(Bressoetal.2013)usedthismethodtocharacterizeside-effectprofiles
+sharedbyseveraldrugs.Huangetal.(Huangetal.2011)utilizedthedrugtargets,protein-
+proteininteractions,andgeneontologyannotations,andafterthatappliedthesupportvector
+184 Journal of Intelligent Information Systems (2021) 57:171–201
+machineandlogisticregressiontechniquestocreatepredictions.Yamanishietal.(Yaman-
+ishietal.2012)combineddrugstructures(fromchemicalprofiles)andtargetproteins(from
+biologicalprofiles)andthenadoptedtheSparseCanonicalCorrelationtopredictpotential
+side-effectprofilesofdrugcandidatemolecules.
+Thepredictionmethodsmentionedabovefacesomelimitationsconcerningtheavailabil-
+ityofchemistrystructures,considerablerequiredcomputationalpower,andahighamount
+of false positives (Deshpande and Butte 2011). Besides, they are usually done in clinical
+trials,wheremanysideeffectscouldnotbedetecteduntildrugsareapproved.Thisraisesa
+criticalneedtopredictpotentialormissingsideeffectsfordrugs(Zhangetal.2016).Afew
+drugrecommendersystemsweredevelopedtoaddressthisneed.Oneexamplethereofwas
+proposedbyZhangetal.(Zhangetal.2016),inwhichthepotentialside-effectprediction
+isformedasarecommendationtask.Anintegratedneighborhood-basedmethodisapplied
+tomakepredictions.Thismethodisanextensionoftheclassicneighborhood-basedrecom-
+mendation,whichutilizesknownsideeffectsofsimilardrugs.Wewillpresentthedetailof
+thisrecommendationmethodusingthefollowingexample.
+Example2 Givenatargetdrugd,alistoffourapproveddrugs{d ,d ,d ,d },andcorre-
+1 2 3 4
+spondingsideeffectsasshowninTable3,wepredicttheprobabilityofs ands tobethe
+5 6
+sideeffectsofdrugd.Thepredictionisformulatedasarecommendationproblem,inwhich
+drugs,sideeffects,anddrug-sideeffectsassociationsarecombined.Thepredictionprocess
+isconductedinthefollowingsteps:
+- Step 1: Calculate drug-drug similarity based on side effect profiles. Given two drugs
+d and d whose side effect profiles are S and S , theJaccard similarity is used to
+i k i k
+calculatetheirsimilaritysim(i,k)(seeFormula(2)).
+|S ∩S |
+sim(i,k)= i k (2)
+|S ∪S |
+i k
+sim(d,d )= 2 =0.5(cid:2);sim(d,d )= 1 =0.25
+1 4 2 4
+sim(d,d )= 3 =0.75(cid:2);sim(d,d )= 1 =0.25
+3 4 4 4
+- Step2:Asetofneighbordrugsofthetargetdrugdaredeterminedbyfilteringsimilarity
+scores with a pre-defined threshold θ. In this example, we assume θ = 0.5, which
+meansonlydrugsd andd areselectedtobetheneighborsofd.
+1 3
+Table3 Example2-Anexampleofdrugsandcorrespondingsideeffects.Values‘0’or‘1’representsthe
+absenceorpresenceofsideeffectssj fordrugdi
+Drugs Sideeffects
+s1 s2 s3 s4 s5 s6
+d(targetdrug) 1 1 0 0 ? ?
+d1 0 1 0 1 0 1
+d2 1 0 1 1 0 1
+d3 1 1 0 1 1 1
+d4 0 1 1 1 0 1
+Journal of Intelligent Information Systems (2021) 57:171–201 185
+- Step 3: Calculate the probability of drug d inducing side effect s - prob(d ,s ) by
+i j i j
+aggregatingtheknownsideeffects ofitsneighbors(seeFormula(3)).
+j
+(cid:2)
+n M ×sim(i,k)
+prob(d,sj)=
+k= (cid:2)1,k(cid:5)=i,Sk,i ≥θ k,j
+(3)
+n sim(i,k)
+k=1,k(cid:5)=i,Sk,i ≥θ
+prob(d,s )= 0×0.5+1×0.75 =0.6;prob(d,s )= 1×0.5+1×0.75 =1(cid:2)
+5 0.5+0.75 6 0.5+0.75
+The probability prob(d,s ) = 1 > prob(d,s ), meaning that s is chosen as the
+6 5 6
+potentialsideeffectofthetargetdrugd.
+4.3 Healthstatusprediction
+Inthepastdecades,predictingrisksconcerningspecificdiseaseshasbecomeanintensive
+research topic (Davis et al. 2009), where the number of related studies for chronic dis-
+easeshasbeenincreasingsignificantly.Thereasonliesintherapidgrowthofthesediseases
+worldwide(Husseinetal.2012).Long-termdiseasespreventpatientsfromphysicalactiv-
+itiesandtriggerburdensconcerningtimeandmoneyofthetreatmentprocess(Nasirietal.
+2016). To help patients avoid these diseases, HRS have been developed to detect disease
+symptomsasearlyaspossible.Moreover,theycanassisthealthcareprofessionalsinmaking
+propertreatmentplansforpatients.Davisetal.(Davisetal.2009)andNasirietal.(Nasiri
+etal.2016)proposedrecommendersystemstopredictriskfactors(e.g.,potentialcompli-
+cations or further diseases) that a target patient with a chronic disease would face in the
+future.ThesesystemsappliedCF,whichisbasedontheintuitiveassumption“patientswho
+sharesimilardiseasesandhealthstatusmightfacethesameriskfactors”.Predictionsofdis-
+easeriskscanbegeneratedbasedonasetofsimilarpatients’information.Thetraditional
+CFtechniqueismodifiedtomakeitsuitableforthehealthcaredomain.Thereasonforthis
+modificationliesintheratingvaluesofitems.Thepatients’ratingsarenon-ordinalvalues;
+theyarebinary(1/0-thepatientisfacing/notfacingariskfactorj).Forthisapproach,given
+anactivepatienta,asetofpatientsI,andasetofriskfactorsJ,theriskfactorprediction
+isgeneratedinthefollowingsteps:
+- Step1:Calculatethesimilaritybetweenpatientaandeachpatienti ∈I usingFormula
+(4),wherev isthevoteofpatientaforriskfactorj:
+a,j
+(cid:4)
+v v
+w(a,i)= (cid:3) (cid:2) a,j (cid:3) (cid:2) i,j (4)
+j∈J k∈Ja v a 2 ,k k∈Ji v i 2 ,k
+- Step2:Findthemostsimilarpatientstopatienta basedonthesimilarityscores.The
+mostsimilarpatienthasthegreatestsimilarityscore.
+- Step3:Calculatethepredictionscoreofariskfactorj whichhavenotbeenfacedby
+patientausingFormulae(5)-(7),wherep(a,j)isthepredictionscoreforthepatient
+a on risk factor j, v is the average vote of all patients who have faced risk factor
+j
+j,w(a,i)isthesimilaritybetweenpatientsa andi (seeFormula(4)),and|I |isthe
+j
+numberofpatientswhohavefacedriskfactorj.Thenormalizedconstantkensuresthe
+predictionscorewithintherangeofpossiblevotes.
+(cid:4)
+p(a,j)=v +k (1−v ) w(a,i) (5)
+j a j
+i∈Ij
+186 Journal of Intelligent Information Systems (2021) 57:171–201
+|I |
+v = j (6)
+j |I|
+1
+k = (cid:2) (7)
+a
+w(a,i)
+i∈I
+Example3 Forabetterunderstanding,weexemplifythementionedapproachusingaspe-
+cificexample.AssumeMariaisanactivepatientsufferingfromthediabetesdisease.Sheis
+nowfacingsomeriskfactors,suchasnervedamage,eyedamage,slowhealing,skinissues.
+p ...p arethepatientswhosharesimilarprofilestoMaria(seeTable4).Topredictwhich
+1 4
+riskfactorsthatMariamightfaceinthefuture,thepredictionscoresforthenot-been-faced
+riskfactorsarecalculated:p(Maria,kidneyDamage)=0.89,p(Maria,hearingImpairment)
+=0.90,p(Maria,heartDisease)=0.69.ThisshowsMariamightface“hearingimpairment”
+inthenearfuture.
+Besidesrecommendationtechniques,machinelearningapproacheshavebeenemployed
+to generate disease predictions. For instance, Lafta et al. (Lafta et al. 2015) proposed an
+innovativetimeseriespredictionalgorithmtosupportthedecisionmakingprocessofheart-
+diseasepatients.Particularly,thealgorithmhelpstodecidewhetheramedicalmeasurement,
+suchasaheart-ratetest,needstobetakentodaybasedonthepatient’smeasurementread-
+ingsforthepastk days.Husseinetal.(Husseinetal.2012)presentedaChronicDisease
+Diagnosis(CDD)recommendersystemusingtheRandomForest-RFclassificationmodel
+(O¨zcift 2011).9 This system requires three types of input information to build up predic-
+tionsforundiagnosedpatients:(1)trainingdataconsistingofmedicalrecordsofprevious
+diabetic patients; (2) demographic data showing the patient’s profile, such as name, age,
+and education level; and (3)the medical data of active patient referring to two types of
+tests:home-tests(e.g.,bloodsugarlevel,bloodpressure,andweight)andlab-testsfromthe
+laboratory.Thesystem’soutputinformationincludesapredictionrepresentingthepatient’s
+disease risks and a recommendation showing disease risk status acknowledgment that the
+patientislookingfor.
+4.4 Physicalactivityrecommendation
+Besides recommendations of disease treatment plans, suggestions on physical activities
+have become another focus of HRS. Physical-activity recommendations help to decrease
+theprobabilityofbecomingfrailofpatientsandpreventthemfromfurtherhealthcompli-
+cations(Valdezetal.2016).Moreover,theyalsoencourageuserstofollowdailyactivities
+that meet their calorie-burn goals. RUNNER (Donciu et al. 2011) and SHADE (Faiz et al.
+2014)provideuserswithfoodandexerciserecommendationstokeepthemstayhealthily.
+These studies generate a recommendation based on the fact that “what and when you eat
+duringandafterexercisecanbejustasimportant”(Donciuetal.2011).Theserecommen-
+dationsaretailoredbasedonusers’healthstatus,goals,andpreferences,whichareusually
+collectedfromdifferentsources,suchasfoods,physicalactivities,elderly/diabetes/runner
+domains,user-healthstate,anduserpreferences.Therefore,ontologiesandsemanticstech-
+nologies(OrgunandVu2006)areutilizedtoaddresstheheterogeneousissuesofuserdata.
+The recommendation process can be done as follows: First, an initial set of exercises for
+9OtherdecisiontreeclassificationmodelssuchasJ48(KaurandRaghava2003),DecisionStump(Nohetal.
+2003),REPtree(Parketal.2006)havebeenappliedtopredicttheriskfactorsofchronicdiseases.
+ninwohssitneitaphcaednaairaMneewtebytiralimisehT.morfgnireffuserastneitapralimisdna)tneitapevitca(airaMtahtsrotcafksirfoyrammusA-3elpmaxE
+4elbaT
+nmuloctsaleht
+)ip,airaM(w
+traeh
+gniraeh
+yendik
+niks
+wols
+eye
+evren
+ralimis
+esaesid
+tnemriapmi
+egamad
+seussi
+gnilaeh
+egamad
+egamad
+stneitap
+?
+?
+?
+1
+1
+1
+1
+airaM
+28.0
+0
+0
+1
+1
+1
+1
+1
+1p
+98.0
+0
+1
+0
+1
+1
+1
+1
+2p
+28.0
+1
+1
+1
+1
+1
+1
+1
+3p
+67.0
+1
+1
+1
+1
+1
+1
+1
+4p
+Journal of Intelligent Information Systems (2021) 57:171–201 187
+188 Journal of Intelligent Information Systems (2021) 57:171–201
+theuserisselectedbasedonhis/herphysicalhealthstatusandexercisegoal.Thereafter,the
+usagehistoryandpriorfeedbackregardingdifficultyandenjoymentlevelsareusedtoadapt
+theselectedexercisesbeforesendingittotheuser.
+Dharia et al. (Dharia et al. 2016) proposed a system to suggest personalized workout
+sessionrecommendationsbasedonthecontextualdataofusers,suchaspastactivities,pref-
+erences,andphysicalstate.Therecommendationprocessisperformedasfollows.Theuser
+firstentershis/hercontextualdata.Thereafter,thesystemcollectsallthecontactsandcal-
+endarseventsfromtheuser’sdeviceandemploysahybridapproachtorecommendfitness
+sessions to the user. This approach combines CB and CF recommendations, in which the
+CBconsiderstheuser’spreferences,andtheCFconsidersthepreferencesofsimilarusers.
+Thesystemalsooffersavailableslotsintheuser’scalendarsothathe/shecanre-schedule
+sessionsanytime.
+Imran Ali et al. (Ali et al. 2018) developed a hybrid framework that provides physi-
+calactivityanddietrecommendationsusingcontext-awarerecommendation(Verbertetal.
+2012) and knowledge-based recommendation (Burke 2000). The proposed framework
+consistsofamulti-stagerecommendersystemwhichsupportsthefollowingmodules:
+- Module1(Dataacquisitionandprocessing),whichstoresthedemographicinformation
+andpreferredactivitiesofuserscollectedfromsensorydevices.
+- Module 2 (Context generation), which saves the current activity, location, weather
+conditions,andemotionalstateoftheuser.
+- Module 3 (Expert knowledge repository), which represents rules as IF-THEN form,
+whicharethenadoptedtocreaterecommendations.Forinstance,“IFapatientispreg-
+nantandfacingthegestationaldiabetesmellitus,THENsheshoulddoa20-30minute
+moderate-intensityexerciseonalmosteverydayoftheweek”(Colbergetal.2016).
+- Module 4 (Multi-stage recommender), which utilizes the user information collected
+fromModules1and2tocreateacomprehensiverecommendationtotheuser.Therec-
+ommendationprocessisdoneintwostages.InStage1,thesystemcalculatestheuser’s
+calorie-burn, in-take targets, and a generic set of physical activity recommendations.
+Additionally,acase-basedreasoningmechanismisusedtoinferthemostrelevantrules
+from the knowledge-base. In Stage 2, the recommendations generated in Stage 1 are
+refinedinapersonalizedmanner.Acontextualmatrixiscreatedtorecommendsuitable
+activitiestotheuseratagiventime.Thismatrixiscalculatedbasedontheuser’ssur-
+veyedresultstofilteroutproperphysicalactivitiesindifferentcontexts.Forinstance,
+“sincetheuserisnowstayingathome,stretchingseemstobemoreappropriateforhim
+thanrunning”.
+- Module5(Explanationsofsuggestedactivities),whicharesenttogetherwithrecom-
+mendationstodescribeastowhyaspecificphysicalactivityhasbeenrecommendedto
+theuser.Forinstance,“youshouldrunatleastonehourdailytoimproveyourcurrent
+health condition and meet one of your calorie-burn targets”. Additional explanations
+basedonthecontextcanalsobeprovided,e.g.,“itisquitecoldtoday,henceconsider
+tobringasportsjacketwithyoubeforegoingout”.
+4.5 Healthcareprofessionalrecommendations
+In recent years, there has been a significant increase in the amount of available medi-
+calinformation,whichresultsinsomedifficultiesforpatientswhensearchingforsuitable
+doctors.Whatconcernspatientsgreatlyishowtofindmedicalprofessionalswiththebest
+expertiseforresolvingtheirhealthissues(Hoensetal.2010;Narduccietal.2015).Most
+Journal of Intelligent Information Systems (2021) 57:171–201 189
+existing healthcare providers do not provide patients with full infrastructure or service
+design implementations that assist them in fulfilling this task. This gap raises an open
+topiconpatient-doctormatchmaking,inwhichpatientscanfindtherightdoctorstobuild
+a trust relationship (Han et al. 2018). Han et al. (Han et al. 2018) proposed a hybrid rec-
+ommender system,in which family-doctor recommendationsare made basedonthe level
+of available information about users. The authors discussed three use cases of generating
+recommendations:
+- Use case 1 (New patient): The patient has recently joined the network, and only
+basicdemographicinformationisavailable.TheCBrecommendationisusedtocreate
+recommendationsbasedonsimilardemographicprofiles.
+- Usecase2(Existingpatientwithnointeractionswithprimarycaredoctors):Thepatient
+hasalreadyvisitedspecialistsorhospitals,buthasnotvisitedfamilydoctorsyet.The
+activitiesofotherpatientsinpreviousvisitsareutilizedtonarrowdownthedoctorlist.
+Besides,acomplementarydatasetdescribinghospitalinpatientproceduresandcertain
+types of diseases of patients are used to create the patient profiles and then generate
+recommendationsusingtheCBrecommendationapproach.
+- Usecase3(Existingpatientwithpriorinteractionswithprimarycaredoctors):TheCF
+recommendationapproachisappliedtolookfordoctorsvisitedbysimilarpatients(i.e.,
+patientswhohavevisitedthesamedoctorsearlier).
+Zhangetal.(Zhangetal.2016)proposedaniDoctorsystemtoprovideuserswithper-
+sonalizeddoctorrecommendations.Thissystemexplorestheemotionsandpreferencesof
+users about doctors through their ratings and reviews. Three modules are integrated into
+thesystem:sentimentanalysis,topicmodeling,andhybridmatrixfactorization.Thesenti-
+mentanalysismodulecalculatestheemotionaloffsetfromuserreviews.Thetopicmodeling
+module extracts user preferences and doctor features (e.g., specialty, fee range, and pre-
+scribinghabits)fromuserreviews.Theextractedinformationisusedinthehybridmatrix
+factorizationmoduletopredicttheratingfordoctors.
+Gujaretal.(Gujaretal.2018)proposedarecommendationapproachbasedonthe“word
+ofmouth”recommendation(e.g.,askingfriendsorrelatives),whichisoftenusedinreal-
+itytofinddoctors.Theauthorsdevelopedarecommendersystemtoidentifythelocation,
+contact, and other necessary information of medical specialists. They used the CoreNLP
+techniquetogeneratedoctorrecommendationsbasedonthereviewofprevioususers.The
+recommended doctors are filtered out based on some criteria, such as fewer fees, more
+experienced,nearestlocation,andfeedbackreviewsofdoctors.Differentfromthestudies
+discussedearlier,thissystemallowspatientstogivetheirfeedbackonrecommendeddoc-
+tors, which are then used to improve the quality of future recommendations. Based on a
+similar recommendation mechanism as mentioned in (Gujar et al. 2018), Narducci et al.
+(Narduccietal.2015)presentedasocialnetworkso-calledHEALTHNET,wherearecom-
+mendationcomponentisintegratedtosuggestdoctorsandhospitalswhichbestfitaspecific
+patient profile. In HEALTHNET, a patient enters his/her health data, such as conditions,
+treatments(drugs,surgeries,orsideeffects),healthindicators(bloodpressure,bodyweight,
+laboratoryanalysis,etc.),consulteddoctors,andhospitalizations.Basedontheinputdata,
+the system search for similar patients stored in the database. The similarity between the
+(cid:7)
+activepatientpandanotherpatientp inthedatabaseisestimatedusingFormula(8),where:
+(cid:7)
+- kandnarethenumbersofconditionsofpatientspandp respectively.
+(cid:7)
+- zandr arethenumbersoftreatmentsofpatientspandp respectively.
+(cid:7) (cid:7)
+- p andp aretheconditionsofpatientspandp respectively.
+c c
+190 Journal of Intelligent Information Systems (2021) 57:171–201
+(cid:7) (cid:7)
+- p andp arethetreatmentsofpatientspandp respectively.
+t t
+(cid:7)
+- s (p ,p )isthesimilarityscorebetweentheconditionc ofpatientpandthecondi-
+c ci cj i
+(cid:7)
+tionc ofpatientp (seeFormula(9)).Ifthesetwoconditionsarethesame,thenthis
+j
+score is the logarithm of the ratio between the number of conditions in the database
+(#C)andthenumberofpatientsaffectedbythatcondition(P ).Otherwise,thes is
+ci c
+computedasthenumberofedgesintheshortestpaths ,whichconnectsthetwocon-
+p
+ditions in the disease hierarchy10. The idea of this rule is to figure out whether two
+patientsareaffectedbysimilardiseaseconditions.Forinstance,dilatedcardiomyopa-
+thy and coronary artery conditions of two patients can be considered the same since
+they both refer to heart-muscle failures. In this context, the experiences of consulted
+doctors/hospitalsofthispatientcouldbeusefulforanother(Narduccietal.2015).
+(cid:7)
+- s (p ,p )isthesimilarityscorebetweenthetreatmentt ofpatientpandthetreatment
+t ti tj i
+(cid:7)
+t ofpatientp (seeFormula(10)).
+j
+- αreferstothecontributionofconditionsandtreatmentstopatients’similarity.
+- β indicatestheweightofthecommunity(patients)andtheministryindicator.
+(cid:2) (cid:2) (cid:2) (cid:2)
+k n s (p ,p (cid:7) ) z r s (p ,p (cid:7) )
+s(p,p (cid:7) )=α i=1 j=1 c ci cj +(1−α) i=1 j=1 t ti tj (8)
+k+n
+(cid:5) (cid:6)
+z+r
+log #C , ifc =c
+s
+c
+(p
+ci
+,p
+c
+(cid:7)
+j
+)=
+1
+#pci
+, oth
+i
+erwis
+j
+e
+(9)
+s(cid:7)p(ci,cj) (cid:8)
+s (p ,p (cid:7) )= 1, ift i =t j (10)
+t ti tj 0, otherwise
+Given an active patient p , the relevant doctors and hospitals for this patient can be
+i
+estimatedusingFormulae(11)and(12).
+(cid:4)pi
+scoreDoctor(d ,p )= s(p ,p ).r (d ) (11)
+z i i j j z
+j=1
+⎛ ⎞
+(cid:4)p
+scoreHospital(h ,p )=β ⎝ s(p ,p )∗r (h ) ⎠+(1−β).q (h ) (12)
+m i i j j m i m
+j=1
+Example4 For the demonstration purposes, we present a simple example to show how
+relevantdoctorsandhospitalscanbesuggestedtothepatientusingthementionedapproach.
+Assumeanactivepatientp ishavingheartdiseaseandsufferingfromconditioncso-called
+i
+dilatedcardiomyopathy.Thispatientwasappliedthetreatmentt -nitrates.Now,heneeds
+doctorandhospitalrecommendationsthatcaneffectivelyresolvehishealthproblems.These
+recommendationscanbegeneratedbasedontherelevantinformationfromotherpatientsin
+thesystem.Assumetwoheart-diseasepatients(p andp )havevisiteddoctorsXandY from
+1 2
+hospitalsAandBrespectively.TheinformationofthesepatientsissummarizedinTable5.
+Patientp hasahighersimilardiseaseconditiontopatientp comparedtopatientp (p
+1 i 2 i
+andp havetroublewithheartmusclefailures).Therefore,weassumethedistanceinthe
+1
+diseasehierarchytreebetweenp andp is2andbetweenp andp is3.BasedonFormula
+i 1 i 2
+(9),theconditionsimilaritieswouldbes (c ,c ) = 1/2ands (c ,c ) = 1/3.Weassume
+p i 1 p i 2
+disease conditions and treatments have the same impacts on the patient similarity scores
+10http://apps.who.int/classifications/icd10/browse/2010/en
+Journal of Intelligent Information Systems (2021) 57:171–201 191
+Table5 Example4-Theinformationofthepatientswhoaresufferingheartdiseasestoredinthesystem
+consulteddoctor visitedhospital
+patient condition treatment name rating name rating
+p1 coronaryartery statins X 4.1 A 4.2
+p2 mitralregurgitation surgery Y 4.9 B 4.3
+(i.e.,α =0.5),andthecommunityandministryhavethesameweights(i.e.,β=0.5).The
+ratingsoftheministryforhospitalsAandB areq(A) = 4.0andq(B) = 4.5respectively.
+Thenecessarycalculationsarepresentedbelow,whichshowthatdoctorX andhospitalA
+arerecommendedtopatientp .
+i
+s (p ,p )=1/2;s (p ,p )=1/3;s (p ,p )=0;s (p ,p )=0
+c i 1 c i 2 t i 1 t i 2
+s(p ,p )=(0.5∗0.5)/2=0.125;s(p ,p )=(0.5∗0.33)/2=0.083
+i 1 i 2
+scoreDoctor(X,p )=0.125∗4.1=0.513(cid:2)
+i
+scoreDoctor(Y,p )=0.083∗4.5=0.375
+i
+scoreHospital(A,p )=0.5∗0.125∗4.2∗0.5∗4=0.525(cid:2)
+i
+scoreHospital(B,p )=0.5∗0.083∗4.8∗0.5∗4.5=0.45
+i
+5 Evaluatinghealthrecommendersystems
+The most common evaluation method applied in the aforementioned recommendation
+approachesisofflineevaluation(Trattneretal.2018),estimatingthepredictionqualityof
+a recommendation approach using existing data sets. With this method, accuracy metrics
+areusedtocomparerecommendationsdeterminedbyarecommendersystemwithaprede-
+finedsetofreal-worlduseropinions(alsoknownasgroundtruth(ShaniandGunawardana
+2011)). For instance,Achananuparpet al. (AchananuparpandWeber 2016) constructeda
+real-worldfoodconsumptionfromMyFitnessPal’spublicfooddiaryentries11andobtained
+grouptruthjudgmentsoffoodsubstitutesfromacrowdsourcingservice.Theauthorsused
+classificationmetrics“precision”,“meanaverageprecision”,and“normalizeddiscounted
+cumulativegain”tomeasurethemethodaccuracy.Similarevaluationmethodswereapplied
+in (Galeano and Paccanaro 2018; Hussein et al. 2012; Ueta et al. 2011; Yamanishi et al.
+2012;Zhangetal.2016),wheremetrics“precision”and“recall”wereusedtoevaluateand
+comparethepredictionperformanceoftherecommendationalgorithms.Besidesclassifica-
+tionmetrics,errormetrics(Trattneretal.2018)werealsoemployedtomeasuretheerror
+made by a recommender system when predicting an item rating (Galeano and Paccanaro
+2018;Husseinetal.2012;Narduccietal.2015;Zhangetal.2016).Forinstance,Narducci
+etal.(Narduccietal.2015)carriedoutapreliminaryevaluation,wherethe“MeanAbsolute
+Error”wascomputedtocomparetheirsemanticapproachbasedonthediseasehierarchy
+toasimplestringmatchingbaseline.Anotherofflineevaluationapproachwascrossvalida-
+tion(Dubitzky2009)thatallowstoevaluatetheperformanceofrecommendationalgorithms
+(Bresso et al. 2013; Elsweiler et al. 2017; Han et al. 2018; Zhang et al. 2016). Han et al.
+(Han et al. 2018) determined hyper-parameters for their model by performing a temporal
+cross-validation,whichchronologicallysplitsthedataintotrainandtestsetsovertheyears.
+To consider item relevance and item position in a recommendation list, Achananuparp et
+11https://www.myfitnesspal.com
+192 Journal of Intelligent Information Systems (2021) 57:171–201
+al. (Achananuparp and Weber 2016) computed the “discounted cumulative gain (DCG)”
+metric based on the idea that items appearing lower in a recommendation list should be
+personalizedbydowngradingrelevancevalueslogarithmically(Trattneretal.2018).
+Comparedtoofflineevaluation,muchlessernumberofstudiesemployedonlineevalu-
+ation to test recommendationalgorithms’ accuracyin HRS(Berkovsky andFreyne 2010;
+Donciu et al. 2011; Ueta et al. 2011). The idea of online evaluation is to use A/B testing
+orlaboratorystudiestoevaluateanalgorithm,auserinterface,orthewholesystem(Trat-
+tner et al. 2018). For instance, using a dataset of explicit recipe ratings, Berkovsky et al.
+(BerkovskyandFreyne2010)conductedauserstudytoobservefamilies’interactionwith
+anexperimentaleHealthportal.Thisstudyaimedtouncoverarecommendationstrategythat
+couldbemostsuitableforimplementinganaggregationstrategyinagrouprecommender
+system.Anotherapproachwas“directtest”,whichwasemployedinsomestudiesondrug
+recommendations(Doulaverakisetal.2012;MahmoudandElbeh2016).Thesetestswere
+conductedwithmedicalexperts(e.g.,doctors,clinicians,physicians,ornurses),wherethey
+wereaskedforfeedbackontheprecisenessofrecommendationoutcomes.Mahmoudetal.
+(MahmoudandElbeh2016)carriedoutastudyinwhichexpertsevaluatedrecommendation
+results of the developed recommender system using a specific number of data sets. After
+collecting experts’ feedback, the precision was calculated. This value indicates the exact-
+ness or the quality of recommendation results. A true positive rate shows that the expert
+agreedwiththerecommendationresult.Incontrast,afalsepositiverateindicatesthatthe
+expertdisagreedwiththerecommendationresult(MahmoudandElbeh2016).
+Insummary,mostoftheexistingstudiesdiscussedinthisarticleuseevaluationmethods
+that have been previously developed in traditional recommendation domains and mainly
+focus on evaluating the accuracy of recommendation algorithms. However, the quality of
+HRSshouldbefurtherevaluatedaccordingtootherfeaturesbeyondtheaccuracy,suchas
+trust, causability, robustness, privacy, ethics, user satisfaction, uncertainty, effectiveness,
+andin-situevaluation.Uptonow,howtoemployevaluationmethodsconsideringthemen-
+tioned evaluation perspectives has remained an open issue. For further discussion on the
+mentionedperspectives,seeSection6.4.
+6 Openissuesforfuturework
+Although the current literature has shown many benefits of HRS to improve their health
+conditions,therestillexistsomegapsregardingdevelopingandevaluatingHRSthatneed
+to be bridged. In the following, we discuss some research challenges that HRS face and
+correspondingsolutionstotacklethem.
+6.1 Constructinguserprofiles
+InHRS,besidesuserpreferencesthataretypicallyusedinrecommendersystems,further
+user information should be collected to obtain relevant, diverse, and precise recommen-
+dations.Thereofaredemographicinformation,currenthealthcondition,diseases/allergies,
+treatments/surgeries/diagnosesexperiencedinthepast,physicalactivities,nutritionneeds,
+eating habits, feelings, and experiences. Although many sources exist to accumulate this
+information, recording such information could not avoid faults (Mika 2011). Hence, it is
+criticaltorequireastandardconcerningdataformats,theauthenticityofdatasources,and
+automated update intervals (Scha¨fer et al. 2017) to ensure the quality of obtained infor-
+mation. Besides, the user profile parameters could be conflict with each other (e.g., user
+Journal of Intelligent Information Systems (2021) 57:171–201 193
+preferencesvs.healthconditions).Toguaranteeoptimalsuggestionsintermsofbalancing
+betweenusersatisfactionandhealthiness,parametersintheuserprofileneedtobedeemed
+whollyandappropriately.Insomecases,theparametersregardinghealthconditionsshould
+be taken precedence over those concerning user preferences. For instance, a user diag-
+nosedwithahighriskofhavingdiabetesshouldnotberecommendedanyfoodcontaining
+trans-fats,eventhisrecommendationgoesagainsthispreference.
+6.2 Earlydiseasedetection
+Many reports show that patients suffering from chronic diseases or cancers are often not
+well perceived about their disease or treatment options until the disease situations fall in
+late stages (Scha¨fer et al. 2017). The late detection of such diseases causes a low prob-
+ability of completely curing the disease, and in some cases, this could threaten patients’
+lives (e.g., the late stage of cancers). In such a context, besides assisting patients in find-
+ing suitable treatment methods (Davis et al. 2009; Nasiri et al.2016), HRS should offer
+usersahealtheducationfunctionalitythathelpstoimprovetheperceptionofusersconcern-
+ingthediseases.Stettingeretal.(Stettingeretal.2020)developedane-learingapplication
+so-calledKNOWLEDGECHECKR 12,whichprovidesintuitivelearningcontentsandsuggests
+learningunitsinapersonalizedfashion.Withthisapplication,helpfulinformationconcern-
+ing disease descriptions and related symptoms can be transferred to patients. Moreover,
+HRSshouldanalyzetheunderlyinghealthconditionofpatientsandpredictearlydiseases
+that users might face in the near future. Also, necessary diagnoses and information of
+correspondinghealthcareprofessionalsshouldbedeliveredtopatients.Forchronicandlife-
+threateningdiseases,suchearlydiseasedetectioncanminimizediseasecomplicationsand
+thetreatmentprocess’burdens.
+6.3 Persuasiverecommendations
+OnefocusofHRSistotrackusers’dailyactivitiesandmotivatethemtoadjusttheirrou-
+tines or habits positively. However, it seems to be a big challenge to change habits that
+havebecomesodeeplyentrenchedovertheyears(Tranetal.2018).Therefore,researchers
+have recently paid attention to develop persuasive systems, in which various strategies
+andpersuasionprinciplesarediscoveredtoencourageuserstoadoptandmaintainbenefi-
+cialbehaviorsandattitudes.Forinstance,Thomasetal.(Thomasetal.2017)investigated
+argument-basedapproachesinwhichmotivatingargumentsarecreatedtochangetheeat-
+inghabitofusershealthily.Thesestudiesindicatethatitisnecessarytoproducepersuasive
+arguments based on user attributes such as age, gender, or personality. Although these
+studiesshowpositiveeffectsonthebehaviorchangingofusers,itdoesnotguaranteefull
+acceptance of changes. The argumentation-based approaches have been proved to be suf-
+ficientlyeffectiveforpatientsinthelatestagesofthedisease,whereastheyshowalower
+effect for the patients in the early stages of the disease (Nguyen and Masthoff 2008).
+This raises an open issue of developing arguments that are strong, relevant, and convinc-
+ing enough to bring actual changes for those in the early phases of health risks. Besides,
+whilemanyeffortshavebeenconductedtoestimatethearguments’perceivedpersuasive-
+ness,measuringtheactualpersuasivenessofargumentsisstillanopenissue.Infact,what
+people perceive to be persuasive is not necessarily what will persuade them to act. In the
+12https://www.knowledgecheckr.com
+194 Journal of Intelligent Information Systems (2021) 57:171–201
+healthcare domain, this can be interpreted that users might be unwilling to change their
+behavior, even though they are aware of the risks triggered by unhealthy habits (Nguyen
+andMasthoff2008).Forinstance,althoughsomepeoplemayperceivetheharmfuleffects
+ofsmoking,theyarenotreadytogiveitup.Ontheotherhand,changingusers’behavior
+orattitudeisalong-termprocesswithplentyofsteps.Inthiscontext,thequestionis“how
+togeneratepersuasiveargumentsthatmotivateusersasmuchaspossible”.Inthehealthy
+fooddomain,theanswertothisquestioncouldbetodevelopfoodrecommendersystems,
+where theories from health psychology are integrated to stimulate users to comply with
+healthyeatingbehaviors(Scha¨ferandWillemsen2019).Oneapproachistoapplyasimple
+changeataspecifictimeuntiltheuserbehaviorbecomeshabitual.Anotherapproachisto
+compare nutrients consumed by the user to the ones acquired from reliable sources (e.g.,
+USDA,DACH13)(Snooks2009).
+6.4 Furtheraspectsforevaluatinghealthrecommendersystems
+Typically,theevaluationofrecommendersystemsemphasizestheaccuracymetrics(Pow-
+ers2011)(seealsoSection5).However,inthehealthcaredomain,recommendersystems’
+qualityneedstobemeasuredbasedonaspectsbeyondtheaccuracyobjectives(Valdezetal.
+2016).
+Trust is one of the most important criteria that should be considered when evaluating
+recommendersystems(O’DonovanandSmyth2005).ThisisevenmorecriticalforHRSto
+convincepatientstofollowhealth-relatedrecommendations.Thisaspectcanbeenhanced
+byprovidingexplanationsforrecommendations(Tranetal.2019).Similartootherdomains,
+explanationsinthehealthcaredomainshouldshowhowasuggestionhasbeencreatedfor
+theuser(Elahietal.2014),e.g.,“Accordingtothetestsyoudidlastweek,wehavedetected
+thatthelevelofuricacidinyourbloodisstillreallyhigh.Therefore,r seemstobethemost
+i
+appropriaterecipeforyousinceithasnoingredientscontainingpurines”.Besides,effective
+visualizations should be included in HRS to further explain recommended items (Valdez
+etal.2016).Forinstance,infoodrecommendersystems,atableshowingthedescriptionof
+thenutritionvalueoffooditemsshouldbeprovidedtotheuserstoemphasizethehealthiness
+ofarecommendedrecipe(Tranetal.2018).
+Causabilityhelpsusersunderstandwhyspecificrecommendationshavebeenmade.This
+criterionisusefulinmanydomainsandespeciallycrucialinthemedicaldomaintoenhance
+trustintheresultsandenabledomainexpertstoretrace,understand,andexplainwhyapar-
+ticularrecommendationwasgiven.Thisdoesnotnecessarilymeanthateverythingmustbe
+explainedautomatically,butthatadomainexperthasachancetounderstanditondemand.
+To measure the understandability of recommendations, the concept of causability can be
+helpful.Inthesamewaythatusabilityencompassesmeasurementsforthequalityofuse,
+causability encompasses measurements for the quality of explanations (Holzinger et al.
+2019).
+Robustness is related to the trustworthiness of a recommender system. In HRS, some-
+times, end-users could not be differentiated from potential attackers, which causes a
+degradationoftrustintheobjectivityandaccuracyofthesystem(Valdezetal.2016).To
+ensuresecureHRSforusers,futurestudiesshouldmodelpotentialattacksandinvestigate
+theimpactsofsuchattacksonrecommendationalgorithms(Mobasheretal.2007).
+13http://www.sge-ssn.ch.
+Journal of Intelligent Information Systems (2021) 57:171–201 195
+PrivacyisreferredtoastheabilityofHRStopreservepatients’preferencesandmedical
+information. The leak of such information raises the doubts of patients and consequently
+decreases the willingness to share their sensitive medical data with HRS (Valdez et al.
+2016).Themostcommonapproachtoaddresstheprivacyconcernisdataencryptionthat
+provides data confidentiality while utilizing the user data to generate precise recommen-
+dations(Hoensetal.2010).However,thismethodrequireshighlyoverheadcomputation-
+andcommunication-wise,whichsignificantlydecreasestheperformanceofHRS(Verhaert
+et al. 2018). Although there exist some studies to improve the data encryption approach,
+someofthemstillfacetheissueconcerningthelowefficiencyofthesystem(Hoensetal.
+2010; Verhaert et al.2018). Up to now, developing HRS ensuring trade-offs between the
+privacyandthehighperformanceofrecommendationalgorithmsisstillanopenissue.
+Ethicshasbeenraisedinrecommendersystemstohelpuserspickupmorallyappropriate
+items during the post-recommendation process (Tang and Winoto 2016). In HRS, ethics
+shouldbeconsideredmorestrictlytopreventrecommendationsfromdirectionsthatcould
+harmthehealthinessofpatients(Valdezetal.2016).Theprincipleof“firstdonoharm”
+should be kept in mind when developing HRS to minimize potential risks and maximize
+benefits for users. The healthiness of patients is the most crucial criterion when creating
+recommendations,eventhismightbeagainstpatients’preferences(TangandWinoto2016).
+User satisfaction with recommendations can be different depending on user diversity.
+Some studies have been performed recently to have a deep look at modeling user satis-
+faction for the purpose of predicting satisfaction models (Chen et al. 2019; Nguyen et al.
+2017).InHRS,itwouldmakesensetoinvestigatetherelationshipbetweenhealth-related
+recommendationsandusers’satisfactionfromdifferentusergroups,e.g.,patients,doctors,
+nurses,physicians,andmedicalresearchers(Valdezetal.2016).Thedifferencesinexper-
+tise, overview knowledge, and recommendation tasks of these users could influence their
+satisfactionwithrecommendeditems.
+Uncertainty in HRS links to potential risks, such as imprecise predictions since user
+preferencesarenotalwayscapturedwell,ortheinabilitytofindaperfectpatternbecauseof
+incompletedata.Theriskscouldresultinareducedqualityofthepatient’slife.Therefore,
+whendevelopingHRS,systemdesignersshouldfindwaystovisualizeuncertaintyinaset
+ofrecommendations,allowinguserstoevaluatetheoptionadequatelybeforemakingafinal
+decision(Valdezetal.2016).
+Effectiveness is referred to as the ability of HRS to help patients meet their desired
+changes in health. To measure this aspect, we need to consider which health parameters
+tobeassessedorwhichmedicalteststobeemployedtoensuremedicaleffectiveness.For
+instance,inHRSthatsupportthelose-weighttargetsofusers,theeffectivenessshouldbe
+assessedbasedonbothshort-termandlong-termrecommendations.Thereasonisthat,in
+somecases,short-termrecommendationscouldburdenorconflictwithlong-termones.For
+instance,crashdietscouldhelpapatientloseweightquicklysinceitcutsthecaloriestoo
+lowandmakesdrasticchangesregardingfoodtypestobeconsumed.However,thisreduces
+themetabolismofthepatient’sbodyandconsequentlyburdensthelong-termweightloss
+(Valdezetal.2016).
+In-SituEvaluationindicatesreal-lifenon-laboratorysettingsthathavetobeevaluatedto
+provetheworthinessofHRS.Thisevaluationparadigmshouldbeabletopreciselyevaluate
+the ability of HRS to improve the quality of care (concerning accuracy, relevance, and
+early diagnosis) and reduce the cost of care. Besides, it should be capable of evaluating
+the robustnesstofalseinformation andtheability toconsiderpotentialhealthrisksbased
+on various dimensions (e.g., age, culture, ethnicity, etc.). Moreover, long-term behavioral
+196 Journal of Intelligent Information Systems (2021) 57:171–201
+effectsmustalsobeinvestigatedin-situevaluationtoaddressthecomplexityofhealthand
+healthbehaviors(Scha¨feretal.2017).
+6.5 Bundlerecommendation
+Inthehealthyfooddomain,usersmightrequirerecommendationsofacompletemealwith
+thecombinationofmanyrecipesorafoodscheduleformorethanoneday(e.g.,foodsfor
+nextweek).Thisissueisknownasbundlerecommendation,whichisanewresearchbranch
+of recommender systems. The idea here is to recommend a sequence of items instead of
+separatedones.Recommendingacompletemealisquitecomplicatedsincethesystemhas
+toconsidernotonlythepreferencesofusersbutalsootheraspects,suchasthemealvariety,
+weatherandseason,thehealthinessofrecipes,healthproblems,ornutritionneeds.Thus,
+approachestogeneratebundlerecommendationsinthehealthyfooddomainhaveremained
+anopenissue.
+6.6 Groupdecisionmaking
+Forsomescenarios(i.e.,dietrecommendation),recommendeditemscouldinvolvegroups
+ofusersratherthanindividualusers(e.g.,recommendamenuforaChristmasparty).The
+current literature shows a limited number of studies on food recommender systems for
+groups. Therefore, it is still an open topic that needs to be analyzed in future research.
+Grouprecommendersystemsusuallyattachtherequirements/preferencesofdifferentusers
+into group recommendation. This is the crucial idea discussed in many related studies
+(Berkovsky and Freyne 2010; Felfernig et al. 2018; O’Connor et al. 2001). Recommend-
+ingajointmealforagroupofusersisacomplicatedtasksincedifferentgoalsanddietary
+constraintsofgroupmembersshouldbetakenintoaccount.Whilewehaveasolutionfor
+merging the constraints (Atas et al. 2019), a solution for merging goals is still an open
+issue.Besides,recommendationsgeneratedforgroupsshouldassurefairnessamonggroup
+members, which means negotiation and argumentation mechanisms have to be developed
+to support group members in expressing acceptable trade-offs (Felfernig et al. 2014). For
+instance, in a meal plan for a week, users’ preferences ignored in previous meals should
+have a stronger influence on the upcoming meals. On the other hand, although different
+aggregationapproacheshavebeenappliedtogenerategrouprecommendations,theydonot
+ensurethatrecommendeditemsreflectahighagreementlevelamonggroupmembers(Cas-
+troetal.2015).Inthiscontext,aconsensusmakingprocessisneededtobringindividual
+preferencesclosertoeachotherbeforedeliveringgrouprecommendations.Furtherissues
+needtobeconsideredtoacceleratesuchaprocess.Onepromisingsolutionistoenrichuser
+interfaces that allow group members to share their preferences (Nguyen and Ricci 2017).
+Besides, psychological aspects (e.g., personality and emotions) beyond group members’
+preferencesarealsocrucialtobetakenintoaccountingroupdecisionmaking.Thisdraws
+anopentopicregardingtheinfluenceofgroupmembers’personalityandemotionsongroup
+recommendationstrategies(Quijano-Sanchezetal.2013).
+7 Conclusion
+Healthrecommendersystemshaveemergedastoolstosupportpatientsandhealthcarepro-
+fessionalstomakebetterhealth-relateddecisions.Inthisarticle,wehavegiveninsightsinto
+recommendation scenarios offered by these systems, such as food recommendation, drug
+Journal of Intelligent Information Systems (2021) 57:171–201 197
+recommendation, health status prediction, physical activity recommendation, and health-
+careprofessionalrecommendation.Foreachrecommendationscenario,variousalgorithms
+have been employed, which are based on recommendation techniques (e.g., CF, CB, KB,
+HyR,andcontext-basedrecommendations)ormachinelearningtechniques(e.g.,classifica-
+tion,clustering,decisiontree,naturallanguageprocessing,logicprogramming,ontologies,
+and semantic technologies). Although the proposed HRS bring many benefits in terms of
+health-relatedimprovements,therestillexistanumberofchallengesthatneedtobetackled
+forthebetterdevelopmentofthesesystemsinthefuture.
+Funding OpenAccessfundingprovidedbyGrazUniversityofTechnology.
+OpenAccess ThisarticleislicensedunderaCreativeCommonsAttribution4.0InternationalLicense,
+whichpermitsuse,sharing,adaptation,distributionandreproductioninanymediumorformat,aslongas
+yougiveappropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreativeCommons
+licence,andindicateifchangesweremade.Theimagesorotherthirdpartymaterialinthisarticleareincluded
+in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If
+materialisnotincludedinthearticle’sCreativeCommonslicenceandyourintendeduseisnotpermitted
+bystatutoryregulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfromthe
+copyrightholder.Toviewacopyofthislicence,visithttp://creativecommonshorg/licenses/by/4.0/.
+References
+Aberg,J.(2006).Dealingwithmalnutrition:amealplanningsystemforelderly.InAAAISpringsymposium:
+argumentationforconsumersofhealthcare,(pp.1–7).AAAI.
+Achananuparp, P., & Weber, I. (2016). Extracting food substitutes from food diary via distributional
+similarity.InProceedingsofthe.10thACMConferenceonRecommenderSystems,(pp.1–5).
+Ali,S.I.,Amin,M.B.,Kim,S.,Lee,S.(2018).Ahybridframeworkforacomprehensivephysicalactivity
+anddietrecommendationsystem.InMokhtari,M.,Abdulrazak,B.,Aloulou,H.(Eds.)Smarthomesand
+healthtelematics,designingabetterfuture:urbanassistedliving(ICOST2018),(pp101–109).Springer
+InternationalPublishing,Cham.
+Atas,M.,Tran,T.N.T.,Felfernig,A.,Polat-Erdeniz,S.,Samer,R.,Stettinger,M.(2019).Towardssimilarity-
+awareconstraint-basedrecommendation.InAdvancesandtrendsinartificialintelligence,lecturenotes
+incomputerscience,(pp.287–299).Springer.
+Bankhele,S.,Mhaske,A.,Bhat,S.(2017).V.,s.:adiabetichealthcarerecommendationsystem.International
+JournalofComputerApplications,167,14–18.
+Bao,Y.,&Jiang,X.(2016).Anintelligentmedicinerecommendersystemframework.In2016IEEE11Th
+conferenceonindustrialelectronicsandapplications(ICIEA),(pp.1383–1388).
+Berkovsky, S., & Freyne, J. (2010). Group-based recipe recommendations: Analysis of data aggregation
+strategies.InProceedingsoftheFourthACMConferenceonRecommenderSystems,RecSys’10,(pp
+111–118).ACM,NewYork,NY,USA.
+Bresso, E., Grisoni, R., Marchetti, G., Karaboga, A., Souchet, M., Devignes, M.D., Smail, M. (2013).
+Integrative relational machine-learning approach for understanding drug side-effect profiles. BMC
+bioinformatics,14,207.
+Burke, R. (2000). Knowledge-based recommender systems. In Encyclopedia of library and information
+systems,vol.69,(pp.180–200).Marceldekker.
+Cami,A.,Arnold, A.,Manzi,S.,Reis,B.(2011). Predictingadversedrugeventsusingpharmacological
+networkmodels.Sciencetranslationalmedicine,3,114–127.
+Castro,J.,Quesada,F.J.,Palomares,I.,Mart´ınez-Lo´pez,L.(2015).Aconsensus-drivengrouprecommender
+system.InternationalJournalofIntelligentSystems,30(8),887–906.
+CharkhatGorgich,E.A.,Barfroshan,S.,Ghoreishi,G.,Yaghoobi,M.(2015).Investigatingthecausesof
+medicationerrorsandstrategiestopreventionofthemfromnursesandnursingstudentviewpoint.Global
+JournalofHealthScience,8,220.
+Chen,L.,&Pu,P.(2012).Critiquing-basedrecommenders:surveyandemergingtrends.UserModelingand
+User-AdaptedInteraction,22(1-2),125–150.
+198 Journal of Intelligent Information Systems (2021) 57:171–201
+Chen,L.,Yang,Y.,Wang,N.,Yang,K.,Yuan,Q.(2019).Howserendipityimprovesusersatisfactionwith
+recommendations?alarge-scaleuserevaluation.InTheworldwidewebconference,WWW’19,(pp240–
+250).AssociationforComputingMachinery,NewYork,NY,USA.
+Chen,R.C.,Chiu,J.Y.,Bau,C.T.(2011).Therecommendationofmedicinesbasedonmultiplecriteriadeci-
+sionmakinganddomainontology—anexampleofanti-diabeticmedicines.InTheProceedingsofthe
+InternationalConferenceonMachineLearningandCybernetics,vol.1,(pp.27–32).
+Chen,R.C.,Huang,Y.H.,Bau,C.T.,Chen,S.M.(2012).Arecommendationsystembasedondomainontol-
+ogyandSWRLforanti-diabeticdrugsselection.ExpertSystemswithApplications,39(4),3995–4006.
+Colberg,S.,Sigal,R.,Yardley,J.,Riddell,M.,Dunstan,D.,Dempsey,P.,Horton,E.,Castorino,K.,Tate,D.
+(2016).Physicalactivity/exerciseanddiabetes:apositionstatementoftheamericandiabetesassociation.
+DiabetesCare,39,2065–2079.
+Davis,D.A.,Chawla,N.V.,Christakis,N.A.,Baraba´si,A.L.(2009).Timetocare:acollaborativeenginefor
+practicaldiseaseprediction.DataMiningandKnowledgeDiscovery,20,388–415.
+Deshpande,T.,&Butte,A.(2011).Exploitingdrug-diseaserelationshipsforcomputationaldrugreposition-
+ing.Briefingsinbioinformatics,12,303–11.
+Dharia,S.,Jain,V.,Patel,J.,Vora,J.,Chawla,S.,Eirinaki,M.(2016).Pro-fit:apersonalizedfitnessassistant
+framework.InSEKE.
+Donciu,M.,Ionita,M.,Dascalu,M.(2011).Trausan-matu,S.:Therunner-recommendersystemofworkout
+andnutritionforrunners.201113thInternationalSymposiumonSymbolicandNumericAlgorithmsfor
+ScientificComputing(SYNASC),(pp.230–238).
+Doulaverakis, C., Nikolaidis, G., Kleontas, A., Kompatsiaris, I. (2012). Galenowl: Ontology-based drug
+recommendationsdiscovery.Journalofbiomedicalsemantics,3,14.
+Doulaverakis,C.,Nikolaidis,G.,Kleontas,A.,Kompatsiaris,I.(2014).Panacea,asemantic-enableddrug
+recommendationsdiscoveryframework.Journalofbiomedicalsemantics,5,13.
+Dubitzky,W.(2009).Fundamentalsofdataminingingenomicsandproteomics.Berlin:Springer.
+Elahi,M.,Ge,M.,Ricci,F.,Massimo,D.,Berkovsky,S.(2014).Interactivefoodrecommendationforgroups.
+InRECSYS,vol.1247.
+Elsweiler,D.,Trattner,C.,Harvey,M.(2017).Exploitingfoodchoicebiasesforhealthierreciperecommen-
+dation.InProceedingsofthe40thConferenceonResearchandDevelopmentinInformationRetrieval,
+SIGIR’17,(pp575–584).AssociationforComputingMachinery,NY,USA.
+Faiz,I.,Mukhtar,H.,Khan,S.(2014).Anintegratedapproachofdietandexerciserecommendationsfor
+diabetes patients. In IEEE 16th International Conference on e-Health Networking, Applications and
+Services(Healthcom),pp537–542.
+Felfernig, A., Atas, M., Helic, D., Tran, T.N.T., Stettinger, M., Samer, R. (2018). Group Recommender
+systems:AnIntroduction,chap.AlgorithmsforGroupRecommendation,(pp.27–58).Berlin:Springer.
+Felfernig,A.,&Burke,R.(2008).Constraint-basedrecommendersystems:Technologiesandresearchissues.
+InProceedingsofthe10thInternationalConferenceonElectronicCommerce,ICEC’08,(pp.3:1–3:10).
+ACM,NewYork,NY,USA.
+Felfernig, A., & Gula, B. (2006). An empirical study on consumer behavior in the interaction with
+knowledge-basedrecommenderapplications.InThe8thIEEEinternationalconferenceone-commerce
+technology and the 3rd IEEE international conference on enterprise computing, e-commerce, and
+e-services(CEC/EEE’06),(pp.37–37).
+Felfernig, A., Stettinger, M., Ninaus, G., Jeran, M., Reiterer, S., Falkner, A.A., Leitner, G., Tiihonen, J.
+(2014).Towardsopenconfiguration.InProceedingsofthe16thInternationalConfigurationWorkshop,
+NoviSad,Serbia,September25-26,2014.,(pp.89–94).
+Fliri,A.,Loging,W.,Thadeio,P.(2006).Analysisofdrug-inducedeffectpatternstolinkstructureandside
+effectsofmedicines.Naturechemicalbiology,1,389–97.
+Fukuzaki,M.,Seki,M.,Kashima,H.,Sese,J.(2009).Sideeffectpredictionusingcooperativepathways.In
+IEEEInternationalconferenceonbioinformaticsandbiomedicine,(pp.142–147).
+Galeano,D.,&Paccanaro,A.(2018).Arecommendersystemapproachforpredictingdrugsideeffects.In
+IJCNN2018:Internationaljointconferenceonneuralnetworks,(pp.1–7).IEEExplore.
+Ge,M.,Ricci,F.,Massimo,D.(2015).Health-awarefoodrecommendersystem.InProceedingsofthe9th
+ACM Conference on Recommender Systems, RecSys ’15, (pp. 333–334). Association for Computing
+Machinery,NewYork,NY,USA.
+Gujar,D.,Biyani,R.,Bramhane,T.,Bhosale,S.,Vaidya,T.P.(2018).Diseasepredictionanddoctorrec-
+ommendation system. International Research Journal of Engineering and Technology (IRJET), 5,
+3207–3209.
+Gurwitz,J.,Field,T.,Harrold,L.,Rothschild,J.,DeBellis,K.,Seger,A.,Cadoret,C.,Fish,L.,Garber,L.,
+Kelleher,M.,Bates,D.(2003).Incidenceandpreventabilityofadversedrugeventsamongolderpersons
+intheambulatorysetting.JAMA:JournaloftheAmericanMedicalAssociation,289,1107–16.
+Journal of Intelligent Information Systems (2021) 57:171–201 199
+Han,Q.,Ji,M.,Mart´ınezdeRituertodeTroya,I.,Gaur,M.,Zejnilovic,L.(2018).Ahybridrecommender
+systemforpatient-doctormatchmakinginprimarycare.InThe5thIEEEinternationalconferenceon
+datascienceandadvancedanalytics(DSAA),(pp.1–10).
+Hoens, T.R., Blanton, M., Chawla, N.V. (2010). Reliable medical recommendation systems with patient
+privacy.InProceedingsofthe1stACMInternationalHealthInformaticsSymposium,IHI’10,(pp.173–
+182).AssociationforComputingMachinery,NewYork,NY,USA.
+Holzinger,A.,Carrington,A.,Mu˙ller,H.(2019).Measuringthequalityofexplanations:Thesystemcaus-
+abilityscale(scs)-comparinghumanandmachineexplanations.KI-Ku¨nstlicheIntelligenz(German
+JournalofArtificialintelligence)SpecialIssueonInteractiveMachineLearning24(2).
+Holzinger,A.,Valdez,A.C.,Ziefle,M.(2016).Towardsinteractiverecommendersystemswiththedoctor-in-
+the-loop.InWeyers,B.,&Dittmar,A.(Eds.)Menschundcomputer2016–workshopband.Gesellschaft
+fu¨rInformatike.V.,Aachen.
+Huang,L.C.,Wu,X.,Chen,J.(2011).Predictingadversesideeffectsofdrugs.BMCgenomics12Suppl,5,
+S11.
+Hussein,A.S.,Omar,W.M.,Li,X.,Ati,M.(2012).Accurateandreliablerecommendersystemforchronic
+diseasediagnosis.InThefirstinternationalconferenceonglobalhealthchallenges-globalhealth2012,
+(pp.113–118).
+Jannach,D.(2011).Recommendersystems:anintroductionCambridgeUniversityPress.
+Kaur, H., & Raghava, G.P.S. (2003). A neural-network based method for prediction of gamma-turns in
+proteinsfrommultiplesequencealignment.ProteinSociety,12,923–929.
+Lafta,R.,Zhang,J.,Tao,X.,Li,Y.,Tseng,V.S.(2015).Anintelligentrecommendersystembasedonshort-
+termriskpredictionforheartdiseasepatients.In2015IEEE/WIC/ACMInternationalconferenceonweb
+intelligenceandintelligentagenttechnology(WI-IAT),vol.3,(pp.102–105).
+Lops,P.,Gemmis,M.D.,Semeraro,G.(2011).Content-basedRecommendersystems:StateoftheArtand
+Trends,(pp.73–105).Boston:Springer.
+Mahmoud,N.,&Elbeh,H.(2016).IRS-T2D:Individualizerecommendationsystemfortype2diabetesmedi-
+cationbasedonontologyandSWRL.InProceedingsofthe10thInternationalConferenceonInformatics
+andSystems,INFOS’16,(pp.203–209).AssociationforComputingMachinery,NY,USA.
+Medvedeva,O.,Knox,T.,Paul,J.(2007).Diatrack:web-basedapplicationforassisteddecision-makingin
+treatmentofdiabetes.JournalofComputingSciencesinColleges,23,154–161.
+Mika,S.(2011).Challengesfornutritionrecommendersystems.InWorkshopProceedingsonContextAware
+IntelligentAssistance,(pp.25–33).CEUR-WS.org.
+Mobasher,B.,Burke,R.,Bhaumik,R.,Williams,C.(2007).Towardtrustworthyrecommendersystems:An
+analysisofattackmodelsandalgorithmrobustness.ACMTransactionsonInternetTechnology,7(4),
+23–es.
+Narducci,F.,Musto,C.,Polignano,M.,deGemmis,M.,Lops,P.,Semeraro,G.(2015).Arecommender
+system for connecting patients to the right doctors in the healthnet social network. In WWW’2015
+Companion,(pp.81–82).
+Nasiri,M.,Minaei,B.,Kiani,A.(2016).Dynamicrecommendation:Diseasepredictionandpreventionusing
+recommendersystem.InternationalJournalofBasicScienceinMedicine,(pp.13–17).
+Nguyen,H.,&Masthoff,J.(2008).Designingpersuasivedialoguesystems:Usingargumentationwithcare.
+InH.Oinas-kukkonen,p.f.v.hasle,M.Harjumaa,K.Segersta˚hl,P.Øhrstrøm(eds.)PersuasiveTechnol-
+ogy,ThirdInternationalConference,PERSUASIVE2008,Oulu,Finland,June4-6,2008.Proceedings,
+LectureNotesinComputerScience,vol.5033,(pp.201–212).Springer.
+Nguyen, T., Harper, F., Terveen, L., Konstan, J. (2017). User personality and user satisfaction with
+recommendersystems.InformationSystemsFrontiers,20,1–17.
+Nguyen, T.N., & Ricci, F. (2017). A chat-based group recommender system for tourism. Information
+Technology&Tourism,18(2),5–28.
+Noh,H.J.,Kwak,M.J.,Han,I.G.(2003).Handlingincompletedataproblemincollaborativefilteringsystem.
+JournalofIntelligentInformationSystems,9,51–63.
+O’Connor, M., Cosley, D., Konstan, J.A., Riedl, J. (2001). Polylens: a recommender system for groups
+ofusers.InProceedingsoftheSeventhConferenceonEuropeanConferenceonComputerSupported
+CooperativeWork,ECSCW’01,(pp.199–218).KluwerAcademicPublishers,Norwell,USA.
+O’Donovan, J., & Smyth, B. (2005). Trust in recommender systems. In International Conference on
+IntelligentUserInterfaces,ProceedingsIUI,(pp.167–174).
+Orgun,B.,&Vu,J.(2006).Hl7ontologyandmobileagentsforinteroperabilityinheterogeneousmedical
+informationsystems.ComputersinBiologyandMedicine,36(7),817–836.SpecialIssueonMedical
+Ontologies.
+O¨zcift, A. (2011). Random forests ensemble classifier trained with data resampling strategy to improve
+cardiacarrhythmiadiagnosis.Computersinbiologyandmedicine,41,265–71.
+200 Journal of Intelligent Information Systems (2021) 57:171–201
+Park,J.,Tyan,H.,Kuo,C.C.J.(2006).Internettrafficclassificationforscalableqosprovision.In2006IEEE
+Internationalconferenceonmultimediaandexpo,(pp.1221–1224).
+Pincay,J.,Tera´n,L.,Portmann,E.(2019).Healthrecommendersystems:astate-of-the-artreview.In2019
+Sixthinternationalconferenceonedemocracyegovernment(ICEDEG),(pp.47–55).
+Powers,D.M.W.(2011).Evaluation:fromprecision,recallandf-measuretoroc.,informedness,markedness
+&correlation.JournalofMachineLearningTechnologies,2(1),37–63.
+Quijano-Sanchez,L.,Recio-Garcia,J.A.,Diaz-Agudo,B.,Jimenez-Diaz,G.(2013).Socialfactorsingroup
+recommendersystems.ACMTransactionsonIntelligentSystemsandTechnology,4(1),8:1–8:30.
+Rehman, F., Khalid, O., Haq, N., Khan, A.U.R., Bilal, K., Madani, S. (2017). Diet-right: a smart food
+recommendationsystem.KSIIonInternetandInformationSystems,11,2910–2925.
+Ricci,F.,Rokach,L.,Shapira,B.,Kantor,P.B.(2010).Recommendersystemshandbook,1stedn.Berlin:
+Springer.
+Robertson, A., Tirado, M., Lobstein, T., Jermini, M., Knai, C., Jensen, J., Ferro-Luzzi, A., James, W.
+(2004).Foodandhealthineurope:anewbasisforaction.WHOregionalpublications.Europeanseries
+(pp.i–xvi),1.
+Rodr´ıguez, A., Jime´nez, E., Ferna´ndez, J., Eccius, M., Miguel Go´mez, J., Alor-Herna´ndez, G., Posada-
+Go´mez,R.,Laufer,C.(2009).Semmed:Applyingsemanticwebtomedicalrecommendationsystems.
+2009FirstInternationalConferenceonIntensiveApplicationsandServices,(pp.47–52).
+Rokicki,M.,Herder,E.,Demidova,E.(2015).VolWhat’sonmyplate:Towardsrecommendingrecipevaria-
+tionsfordiabetespatients.InCristea,A.I.,Masthoff,J.,Said,A.,Tintarev,N.(Eds.)UMAPWorkshops,
+CEURWorkshopProceedings,vol1388.CEUR-WS.org.
+Sahoo,A.K.,Pradhan,C.,Barik,R.K.,Dubey,H.(2019).Deepreco:Deeplearningbasedhealthrecom-
+mendersystemusingcollaborativefiltering.Computation,7,25.
+Sa´nchez-Bocanegra,C.L.,Sa´nchez-Laguna,F.,Sevillano,J.L.(2015).Introductiononhealthrecommender
+systems.Methodsinmolecularbiology(CliftonN.J.),1246,131–46.
+Scha¨fer,H.,Hors-Fraile,S.,Karumur,R.P.,CaleroValdez,A.,Said,A.,Torkamaan,H.,Ulmer,T.,Trattner,
+C. (2017). Towards health (aware) recommender systems. In Proceedings of the 2017 International
+ConferenceonDigitalHealth,DH’17,(pp.157–161).ACM,NewYork,NY,USA.
+Scha¨fer,H.,&Willemsen,M.(2019).Rasch-basedtailoredgoalsfornutritionassistancesystems.InPro-
+ceedings of the 24th International Conference on Intelligent User Interfaces, IUI ’19, (pp. 18–29).
+AssociationforComputingMachinery,NewYork,NY,USA.
+Sezgin,E.,&O¨zkan,S.(2013).Asystematicliteraturereviewonhealthrecommendersystems.In2013
+E-healthandbioengineeringconference,EHB2013,(pp.1–4).
+Shani,G.,&Gunawardana,A.(2011).Evaluatingrecommendationsystems.InRicci,F.,Rokach,L.,Shapira,
+B.,Kantor,P.B.(Eds.)Recommendersystemshandbook,(pp.257–297).Springer.
+Shimada,K.,Takada,H.,Mitsuyama,S.,Ban,H.,Matsuo,H.,Otake,H.,Kunishima,H.,Kanemitsu,K.,
+Kaku,M.(2005).Drug-recommendationsystemforpatientswithinfectiousdiseases.AnnualSymposium
+proceedings.AMIASymposium,(pp.11–12).
+Snooks,M.(2009).Healthpsychology:Biological,Psychological,andSocioculturalPerspectives,chapter
+5:ApplicationsofHealthPsychologytoEatingbehaviors:Improvinghealththroughnutritionalchanges
+Jones&BartlettLearning.
+Stark,B.,Knahl,C.,Aydin,M.,Elish,K.(2019).Aliteraturereviewonmedicinerecommendersystems.
+Internationaljournalofadvancedcomputerscienceandapplications10(8).
+Stark,B.,Knahl,C.,Aydin,M.,Samarah,M.,Elish,K.O.(2017).Betterchoice:amigrainedrugrecommen-
+dationsystembasedonneo4j.In20172NdIEEEinternationalconferenceoncomputationalintelligence
+andapplications(ICCIA),(pp.382–386).
+Stettinger, M., Tran, T., Pribik, I., Leitner, G., Felfernig, A., Samer, R., Atas, M., Wundara, M. (2020).
+KNOWLEDGECHECKR: Intelligent techniques for counteracting forgetting. In G.d. giacomo, A.
+Catala˙,B.Dilkina,M.Milano,S.Barro,A.Bugar´ın,J.Lang(eds.)ECAI2020-24thEuropeanConfer-
+enceonArtificialIntelligence,29August-8September2020,SantiagodeCompostela,Spain,August29
+-September8,2020-Including10thConferenceonPrestigiousApplicationsofArtificialIntelligence
+(PAIS2020),FrontiersinArtificialIntelligenceandApplications,vol.325,(pp.3034–3039).IOSPress.
+Tang,T.Y.,&Winoto,P.(2016).Ishouldnotrecommendittoyouevenifyouwilllikeit:theethicsof
+recommendersystems.NewReviewofHypermediaandMultimedia,22(1-2),111–138.
+Teng, C.Y., Lin, Y.R., Adamic, L.A. (2012). Recipe recommendation using ingredient networks. In Pro-
+ceedingsofthe4thAnnualACMWebScienceConference,WebSci’12,(pp.298–307).Associationfor
+ComputingMachinery,NewYork,NY,USA.
+Thomas,R.J.,Masthoff,M.,Oren,N.,deVries,P.W.,Oinas-Kukkonen,H.,Siemons,L.,Jong,N.B.,van
+Gemert-Pijnen, L. (2017). Adapting healthy eating messages to personality. In Persuasive Technol-
+ogy:DevelopmentandImplementationofPersonalizedTechnologiestoChangeAttitudesandBehaviors
+Journal of Intelligent Information Systems (2021) 57:171–201 201
+-12thInternationalConference,PERSUASIVE2017,Amsterdam,TheNetherlands,April4-6,2017,
+Proceedings,LectureNotesinComputerScience,vol.10171,(pp.119–132).Springer.
+Tran,T.N.T.,Atas,M.,Felfernig,A.,Le,V.M.,Samer,R.,Stettinger,M.(2019).Towardssocialchoice-
+based explanations in group recommender systems. In Proceedings of the 27th ACM Conference on
+UserModeling,AdaptationandPersonalization,UMAP’19,(pp.13–21).AssociationforComputing
+Machinery,NewYork,NY,USA.
+Tran,T.N.T.,Atas,M.,Felfernig,A.,Stettinger,M.(2018).Anoverviewofrecommendersystemsinthe
+healthyfooddomain.JournalofIntelligentInformationSystems,50(3),501–526.
+Trattner,C.,&Elsweiler,D.(2017).Foodrecommendersystems:Importantcontributions,challengesand
+futureresearchdirections.CoRRabs/1711.02760.
+Trattner,C.,Said,A.,Boratto,L.,Felfernig,A.(2018).EvaluatingGroupRecommenderSystems,(pp.59–
+71).Manhattan:SpringerInternationalPublishingCham.
+Ueta,T.,Iwakami,M.,Ito,T.(2011).Areciperecommendationsystembasedonautomaticnutritioninfor-
+mationextraction.InProceedingsofthe5thinternationalconferenceonknowledgescience,engineering
+andmanagement,KSEM’11,(pp.79–90).Springer:Berlin.
+Valdez,A.C.,Ziefle,M.,Verbert,K.,Felfernig,A.,Holzinger,A.(2016).Recommendersystemsforhealth
+informatics:State-of-the-artandfutureperspectives.LectureNotesinComputerScience,9605.
+Verbert,K.,Manouselis,N.,Ochoa,X.,Wolpers,M.,Drachsler,H.,Bosnic,I.,Duval,E.(2012).Context-
+aware recommender systems for learning: a survey and future challenges. IEEE Transactions on
+LearningTechnologies,5(4),318–335.
+Verhaert,D.,Nateghizad,M.,Zekeriya,E.(2018).Anefficientprivacy-preservingrecommendersystemfor
+e-healthcaresystem.InInternationalconferenceonsecurityandcryptography,(pp.1–12).
+Wiesner,M.,&Pfeifer,D.(2014).Healthrecommendersystems:Concepts,requirements,technicalbasics
+andchallenges.InternationalJournalofEnvironmentalResearchandPublicHealth,11,2580–2607.
+Yamanishi, Y., Pauwels, E., Kotera, M. (2012). Drug side-effect prediction based on the integration of
+chemicalandbiologicalspaces.Journalofchemicalinformationandmodeling,52.
+Yang,L.,Hsieh,C.,Yang,H.,Pollak,J.,Dell,N.,Belongie,S.,Cole,C.,Estrin,D.(2017).Yum-me:Aper-
+sonalizednutrient-basedmealrecommendersystem.ACMTransactionsonInformationSystems36(1).
+Zhang,Q.,Zhang,G.,Lu,J.,Wu,D.(2015).Aframeworkofhybridrecommendersystemforpersonal-
+izedclinicalprescription.In201510Thinternationalconferenceonintelligentsystemsandknowledge
+engineering(ISKE),(pp.189–195).
+Zhang,W.,Zou,H.,Luo,L.,Liu,Q.,Wu,W.,Xiao,W.(2016).Predictingpotentialsideeffectsofdrugsby
+recommendermethodsandensemblelearning.Neurocomputing,173(P3),979–987.
+Zhang,Y.,Chen,M.,Huang,D.,Wu,D.,Li,Y.(2016).idoctor:Personalizedandprofessionalizedmedical
+recommendationsbasedonhybridmatrixfactorization.FutureGenerationComputerSystems,66,30–
+35.
+Publisher’snote SpringerNatureremainsneutralwithregardtojurisdictionalclaimsinpublishedmaps
+andinstitutionalaffiliations.
+Affiliations
+ThiNgocTrangTran1 ·AlexanderFelfernig1·ChristophTrattner2·
+AndreasHolzinger3
+AlexanderFelfernig
+alexander.felfernig@ist.tugraz.at
+ChristophTrattner
+christoph.trattner@uib.no
+AndreasHolzinger
+andreas.holzinger@medunigraz.at
+1 InstituteofSoftwareTechnology,GrazUniversityofTechnology,Graz,Austria
+2 InformationScienceandMediaStudiesDepartment,UniversityofBergen,Bergen,Norway
+3 InstituteforMedicalInformatics,StatisticsandDocumentation,MedicalUniversityofGraz,
+Graz,Austria
