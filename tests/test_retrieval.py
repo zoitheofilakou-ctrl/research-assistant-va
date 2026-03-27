@@ -385,6 +385,40 @@ class RetrievalTests(unittest.TestCase):
 
         self.assertGreater(result["embedding_scores"][0][0], 0.99)
 
+    def test_build_result_row_embeds_score_breakdown_in_metadata(self):
+        row = retrieval.build_result_row(
+            [
+                {
+                    "chunk_id": "p1:0000",
+                    "paperId": "p1",
+                    "title": "Paper One",
+                    "url": "https://example.org/p1",
+                    "year": 2024,
+                    "text_source": "fulltext",
+                    "section": "results",
+                    "supporting_chunks": 2,
+                    "text": "Findings.",
+                    "distance": 0.1,
+                    "embedding_score": 0.91,
+                    "bm25_score": 6.0,
+                    "hybrid_score": 0.84,
+                    "paper_score": 0.88,
+                    "cross_encoder_score": 0.42,
+                    "mmr_score": 0.93,
+                }
+            ],
+            {"query_type": "general"},
+            ["hybrid retrieval"],
+        )
+
+        metadata = row["metadatas"][0]
+
+        self.assertEqual(0.93, row["final_scores"][0])
+        self.assertEqual(0.93, metadata["final_score"])
+        self.assertEqual(0.91, metadata["retrieval_scores"]["embedding_score"])
+        self.assertEqual(6.0, metadata["retrieval_scores"]["bm25_score"])
+        self.assertEqual(0.42, metadata["retrieval_scores"]["cross_encoder_score"])
+
     def test_calibrate_cross_encoder_scores_is_not_relative_minmax(self):
         calibrated = retrieval.calibrate_cross_encoder_scores([0.1, 0.2])
 

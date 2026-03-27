@@ -324,6 +324,38 @@ def distance_to_score(distance: Optional[float]) -> Optional[float]:
     return 1.0 / (1.0 + float(distance))
 
 
+def build_retrieval_score_payload(
+    embedding_score: Optional[float] = None,
+    bm25_score: Optional[float] = None,
+    hybrid_score: Optional[float] = None,
+    paper_score: Optional[float] = None,
+    cross_encoder_score: Optional[float] = None,
+    mmr_score: Optional[float] = None,
+    final_score: Optional[float] = None,
+) -> dict:
+    return {
+        "embedding_score": embedding_score,
+        "bm25_score": bm25_score,
+        "hybrid_score": hybrid_score,
+        "paper_score": paper_score,
+        "cross_encoder_score": cross_encoder_score,
+        "mmr_score": mmr_score,
+        "final_score": final_score,
+    }
+
+
+def enrich_metadata_with_scores(metadata: Optional[dict] = None, **score_values) -> dict:
+    enriched = dict(metadata or {})
+    retrieval_scores = {
+        key: value for key, value in build_retrieval_score_payload(**score_values).items()
+        if value is not None
+    }
+    if retrieval_scores:
+        enriched.update(retrieval_scores)
+        enriched["retrieval_scores"] = retrieval_scores
+    return enriched
+
+
 def semantic_distance_from_embeddings(query_embedding: List[float], candidate_embedding: List[float]) -> Optional[float]:
     if query_embedding is None or candidate_embedding is None:
         return None
@@ -1028,7 +1060,6 @@ class HybridCollectionProxy:
 
             out["ids"].append([row_ids[i] for i in ranked_indices])
             out["documents"].append([row_docs[i] for i in ranked_indices if i < len(row_docs)])
-            out["metadatas"].append([row_metas[i] for i in ranked_indices if i < len(row_metas)])
             out["distances"].append([row_distances[i] for i in ranked_indices if i < len(row_distances)])
             embedding_scores = [
                 row_embedding_scores[i] if i < len(row_embedding_scores) and row_embedding_scores[i] is not None else 0.0
@@ -1038,6 +1069,21 @@ class HybridCollectionProxy:
                 row_final_scores[i] if i < len(row_final_scores) else 0.0
                 for i in ranked_indices
             ]
+            metadata_rows = []
+            for list_idx, row_idx in enumerate(ranked_indices):
+                metadata_rows.append(
+                    enrich_metadata_with_scores(
+                        row_metas[row_idx] if row_idx < len(row_metas) and isinstance(row_metas[row_idx], dict) else {},
+                        embedding_score=embedding_scores[list_idx] if list_idx < len(embedding_scores) else 0.0,
+                        bm25_score=0.0,
+                        hybrid_score=final_scores[list_idx] if list_idx < len(final_scores) else 0.0,
+                        paper_score=final_scores[list_idx] if list_idx < len(final_scores) else 0.0,
+                        cross_encoder_score=None,
+                        mmr_score=final_scores[list_idx] if list_idx < len(final_scores) else 0.0,
+                        final_score=final_scores[list_idx] if list_idx < len(final_scores) else 0.0,
+                    )
+                )
+            out["metadatas"].append(metadata_rows)
             out["embedding_scores"].append(embedding_scores)
             out["bm25_scores"].append([0.0 for _ in ranked_indices])
             out["hybrid_scores"].append(list(final_scores))
@@ -1318,21 +1364,36 @@ def apply_mmr_selection(papers: List[dict], k: int) -> List[dict]:
 
 
 def build_result_row(selected_papers: List[dict], query_analysis: dict, retrieval_notes: List[str]) -> dict:
+    metadatas = []
+    final_scores = []
+    for paper in selected_papers:
+        final_score = paper.get("mmr_score") if paper.get("mmr_score") is not None else paper.get("paper_score", 0.0)
+        final_scores.append(final_score)
+        metadatas.append(
+            enrich_metadata_with_scores(
+                {
+                    "paperId": paper.get("paperId"),
+                    "title": paper.get("title"),
+                    "url": paper.get("url"),
+                    "year": paper.get("year"),
+                    "text_source": paper.get("text_source"),
+                    "section": paper.get("section"),
+                    "supporting_chunks": paper.get("supporting_chunks", 1),
+                },
+                embedding_score=paper.get("embedding_score", 0.0),
+                bm25_score=paper.get("bm25_score", 0.0),
+                hybrid_score=paper.get("hybrid_score", 0.0),
+                paper_score=paper.get("paper_score", 0.0),
+                cross_encoder_score=paper.get("cross_encoder_score"),
+                mmr_score=paper.get("mmr_score"),
+                final_score=final_score,
+            )
+        )
+
     return {
         "ids": [paper["chunk_id"] for paper in selected_papers],
         "documents": [paper["text"] for paper in selected_papers],
-        "metadatas": [
-            {
-                "paperId": paper.get("paperId"),
-                "title": paper.get("title"),
-                "url": paper.get("url"),
-                "year": paper.get("year"),
-                "text_source": paper.get("text_source"),
-                "section": paper.get("section"),
-                "supporting_chunks": paper.get("supporting_chunks", 1),
-            }
-            for paper in selected_papers
-        ],
+        "metadatas": metadatas,
         "distances": [paper.get("distance") for paper in selected_papers],
         "embedding_scores": [paper.get("embedding_score", 0.0) for paper in selected_papers],
         "bm25_scores": [paper.get("bm25_score", 0.0) for paper in selected_papers],
@@ -1340,10 +1401,7 @@ def build_result_row(selected_papers: List[dict], query_analysis: dict, retrieva
         "paper_scores": [paper.get("paper_score", 0.0) for paper in selected_papers],
         "cross_encoder_scores": [paper.get("cross_encoder_score") for paper in selected_papers],
         "mmr_scores": [paper.get("mmr_score") for paper in selected_papers],
-        "final_scores": [
-            (paper.get("mmr_score") if paper.get("mmr_score") is not None else paper.get("paper_score", 0.0))
-            for paper in selected_papers
-        ],
+        "final_scores": final_scores,
         "query_analysis": query_analysis,
         "retrieval_notes": retrieval_notes,
     }

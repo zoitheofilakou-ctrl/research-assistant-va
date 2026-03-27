@@ -61,6 +61,35 @@ class RagGeneratorTests(unittest.TestCase):
         self.assertIn("Citations:", answer)
         self.assertIn("paperId: paper-a | Paper A (2024)", answer)
 
+    def test_build_context_and_sources_propagates_retrieval_score_breakdown(self):
+        context_text, sources = rag_generator._build_context_and_sources(
+            {
+                "documents": [["Evidence excerpt."]],
+                "metadatas": [[{
+                    "paperId": "paper-a",
+                    "title": "Paper A",
+                    "url": "https://example.org/paper-a",
+                    "year": 2024,
+                    "text_source": "fulltext",
+                    "section": "results",
+                    "supporting_chunks": 2,
+                }]],
+                "embedding_scores": [[0.91]],
+                "bm25_scores": [[6.0]],
+                "hybrid_scores": [[0.84]],
+                "paper_scores": [[0.88]],
+                "cross_encoder_scores": [[0.42]],
+                "mmr_scores": [[0.93]],
+                "final_scores": [[0.93]],
+            }
+        )
+
+        self.assertIn("final_score: 0.930", context_text)
+        self.assertEqual(0.93, sources[0]["final_score"])
+        self.assertEqual(0.91, sources[0]["retrieval_scores"]["embedding_score"])
+        self.assertEqual(6.0, sources[0]["retrieval_scores"]["bm25_score"])
+        self.assertEqual(0.42, sources[0]["retrieval_scores"]["cross_encoder_score"])
+
 
 if __name__ == "__main__":
     unittest.main()

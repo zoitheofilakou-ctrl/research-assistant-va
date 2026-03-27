@@ -18,12 +18,47 @@ from llm.interface import get_llm_provider
 
 INSUFFICIENT_EVIDENCE_MESSAGE = "Insufficient evidence in the retrieved corpus to answer this question."
 PLACEHOLDER_CITATION_RE = re.compile(r"([\[(])\s*Papers?\s+([0-9,\sand&]+)\s*([\])])", re.IGNORECASE)
+RETRIEVAL_SCORE_FIELDS = (
+    "embedding_score",
+    "bm25_score",
+    "hybrid_score",
+    "paper_score",
+    "cross_encoder_score",
+    "mmr_score",
+    "final_score",
+)
+
+
+def _get_score_from_result_or_metadata(score_lists: dict, score_name: str, index: int, metadata: dict):
+    values = score_lists.get(score_name) or []
+    if index < len(values) and values[index] is not None:
+        return values[index]
+
+    retrieval_scores = metadata.get("retrieval_scores")
+    if isinstance(retrieval_scores, dict) and retrieval_scores.get(score_name) is not None:
+        return retrieval_scores.get(score_name)
+
+    return metadata.get(score_name)
+
+
+def _build_retrieval_scores(score_lists: dict, index: int, metadata: dict) -> dict:
+    return {
+        score_name: score_value
+        for score_name in RETRIEVAL_SCORE_FIELDS
+        for score_value in [_get_score_from_result_or_metadata(score_lists, score_name, index, metadata)]
+        if score_value is not None
+    }
 
 
 def _build_context_and_sources(retrieval_result: dict):
     documents = retrieval_result.get("documents", [[]])[0]
     metadatas = retrieval_result.get("metadatas", [[]])[0]
-    final_scores = retrieval_result.get("final_scores", [[]])[0]
+    score_lists = {
+        score_name: retrieval_result.get(f"{score_name}s", [[]])[0]
+        for score_name in RETRIEVAL_SCORE_FIELDS
+        if score_name != "bm25_score"
+    }
+    score_lists["bm25_score"] = retrieval_result.get("bm25_scores", [[]])[0]
 
     sources = []
     context_blocks = []
@@ -37,7 +72,8 @@ def _build_context_and_sources(retrieval_result: dict):
         text_source = meta.get("text_source") or "unknown"
         section = meta.get("section") or "unknown"
         supporting_chunks = meta.get("supporting_chunks") or 1
-        final_score = final_scores[idx - 1] if idx - 1 < len(final_scores) else None
+        retrieval_scores = _build_retrieval_scores(score_lists, idx - 1, meta)
+        final_score = retrieval_scores.get("final_score")
 
         source = {
             "title": title,
@@ -48,6 +84,8 @@ def _build_context_and_sources(retrieval_result: dict):
             "section": section,
             "supporting_chunks": supporting_chunks,
         }
+        if retrieval_scores:
+            source["retrieval_scores"] = retrieval_scores
         if final_score is not None:
             source["final_score"] = final_score
         sources.append(source)
@@ -76,7 +114,9 @@ def _build_source_index(sources: list) -> str:
         paper_id = source.get("paperId") or "N/A"
         title = source.get("title") or "Unknown"
         year = source.get("year") or "N/A"
-        lines.append(f"- paperId: {paper_id} | {title} ({year})")
+        final_score = source.get("final_score")
+        score_suffix = f" | score: {final_score:.3f}" if isinstance(final_score, (int, float)) else ""
+        lines.append(f"- paperId: {paper_id} | {title} ({year}){score_suffix}")
     return "\n".join(lines)
 
 

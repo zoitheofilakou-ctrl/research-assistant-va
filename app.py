@@ -13,6 +13,12 @@ except Exception as e:
     st.error(f"Import error: {e}")
     st.stop()
 
+
+def format_score(value):
+    if isinstance(value, (int, float)):
+        return f"{float(value):.3f}"
+    return None
+
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="HybReDe — AI Research Assistant",
@@ -354,9 +360,32 @@ with tab_ask:
                                 year_s  = s.get("year", "")
                                 url_s   = s.get("url", "")
                                 pid     = s.get("paperId", "")
+                                final_score = s.get("final_score")
+                                retrieval_scores = s.get("retrieval_scores") or {}
                                 st.markdown(f"**{title_s}** ({year_s})")
+                                meta_bits = []
                                 if pid:
-                                    st.caption(f"paperId: `{pid}`")
+                                    meta_bits.append(f"paperId: `{pid}`")
+                                formatted_final_score = format_score(final_score)
+                                if formatted_final_score is not None:
+                                    meta_bits.append(f"final_score: `{formatted_final_score}`")
+                                if meta_bits:
+                                    st.caption(" | ".join(meta_bits))
+                                score_labels = [
+                                    ("embedding_score", "embed"),
+                                    ("bm25_score", "bm25"),
+                                    ("hybrid_score", "hybrid"),
+                                    ("paper_score", "paper"),
+                                    ("cross_encoder_score", "cross"),
+                                    ("mmr_score", "mmr"),
+                                ]
+                                score_bits = []
+                                for score_key, score_label in score_labels:
+                                    formatted_score = format_score(retrieval_scores.get(score_key))
+                                    if formatted_score is not None:
+                                        score_bits.append(f"{score_label}: `{formatted_score}`")
+                                if score_bits:
+                                    st.caption("retrieval: " + " | ".join(score_bits))
                                 if url_s:
                                     st.link_button("Open paper", url_s)
                                 st.markdown("---")
