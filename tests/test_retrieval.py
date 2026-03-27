@@ -415,9 +415,8 @@ class RetrievalTests(unittest.TestCase):
 
         self.assertEqual(0.93, row["final_scores"][0])
         self.assertEqual(0.93, metadata["final_score"])
-        self.assertEqual(0.91, metadata["retrieval_scores"]["embedding_score"])
-        self.assertEqual(6.0, metadata["retrieval_scores"]["bm25_score"])
         self.assertEqual(0.42, metadata["retrieval_scores"]["cross_encoder_score"])
+        self.assertEqual({"cross_encoder_score", "final_score"}, set(metadata["retrieval_scores"].keys()))
 
     def test_calibrate_cross_encoder_scores_is_not_relative_minmax(self):
         calibrated = retrieval.calibrate_cross_encoder_scores([0.1, 0.2])

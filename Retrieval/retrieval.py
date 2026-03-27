@@ -325,21 +325,11 @@ def distance_to_score(distance: Optional[float]) -> Optional[float]:
 
 
 def build_retrieval_score_payload(
-    embedding_score: Optional[float] = None,
-    bm25_score: Optional[float] = None,
-    hybrid_score: Optional[float] = None,
-    paper_score: Optional[float] = None,
     cross_encoder_score: Optional[float] = None,
-    mmr_score: Optional[float] = None,
     final_score: Optional[float] = None,
 ) -> dict:
     return {
-        "embedding_score": embedding_score,
-        "bm25_score": bm25_score,
-        "hybrid_score": hybrid_score,
-        "paper_score": paper_score,
         "cross_encoder_score": cross_encoder_score,
-        "mmr_score": mmr_score,
         "final_score": final_score,
     }
 
@@ -1074,12 +1064,7 @@ class HybridCollectionProxy:
                 metadata_rows.append(
                     enrich_metadata_with_scores(
                         row_metas[row_idx] if row_idx < len(row_metas) and isinstance(row_metas[row_idx], dict) else {},
-                        embedding_score=embedding_scores[list_idx] if list_idx < len(embedding_scores) else 0.0,
-                        bm25_score=0.0,
-                        hybrid_score=final_scores[list_idx] if list_idx < len(final_scores) else 0.0,
-                        paper_score=final_scores[list_idx] if list_idx < len(final_scores) else 0.0,
                         cross_encoder_score=None,
-                        mmr_score=final_scores[list_idx] if list_idx < len(final_scores) else 0.0,
                         final_score=final_scores[list_idx] if list_idx < len(final_scores) else 0.0,
                     )
                 )
@@ -1380,12 +1365,7 @@ def build_result_row(selected_papers: List[dict], query_analysis: dict, retrieva
                     "section": paper.get("section"),
                     "supporting_chunks": paper.get("supporting_chunks", 1),
                 },
-                embedding_score=paper.get("embedding_score", 0.0),
-                bm25_score=paper.get("bm25_score", 0.0),
-                hybrid_score=paper.get("hybrid_score", 0.0),
-                paper_score=paper.get("paper_score", 0.0),
                 cross_encoder_score=paper.get("cross_encoder_score"),
-                mmr_score=paper.get("mmr_score"),
                 final_score=final_score,
             )
         )

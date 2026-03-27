@@ -86,9 +86,8 @@ class RagGeneratorTests(unittest.TestCase):
 
         self.assertIn("final_score: 0.930", context_text)
         self.assertEqual(0.93, sources[0]["final_score"])
-        self.assertEqual(0.91, sources[0]["retrieval_scores"]["embedding_score"])
-        self.assertEqual(6.0, sources[0]["retrieval_scores"]["bm25_score"])
         self.assertEqual(0.42, sources[0]["retrieval_scores"]["cross_encoder_score"])
+        self.assertEqual({"cross_encoder_score", "final_score"}, set(sources[0]["retrieval_scores"].keys()))
 
 
 if __name__ == "__main__":

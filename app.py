@@ -372,12 +372,7 @@ with tab_ask:
                                 if meta_bits:
                                     st.caption(" | ".join(meta_bits))
                                 score_labels = [
-                                    ("embedding_score", "embed"),
-                                    ("bm25_score", "bm25"),
-                                    ("hybrid_score", "hybrid"),
-                                    ("paper_score", "paper"),
                                     ("cross_encoder_score", "cross"),
-                                    ("mmr_score", "mmr"),
                                 ]
                                 score_bits = []
                                 for score_key, score_label in score_labels:

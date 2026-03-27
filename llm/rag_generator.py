@@ -19,12 +19,7 @@ from llm.interface import get_llm_provider
 INSUFFICIENT_EVIDENCE_MESSAGE = "Insufficient evidence in the retrieved corpus to answer this question."
 PLACEHOLDER_CITATION_RE = re.compile(r"([\[(])\s*Papers?\s+([0-9,\sand&]+)\s*([\])])", re.IGNORECASE)
 RETRIEVAL_SCORE_FIELDS = (
-    "embedding_score",
-    "bm25_score",
-    "hybrid_score",
-    "paper_score",
     "cross_encoder_score",
-    "mmr_score",
     "final_score",
 )
 
@@ -56,9 +51,7 @@ def _build_context_and_sources(retrieval_result: dict):
     score_lists = {
         score_name: retrieval_result.get(f"{score_name}s", [[]])[0]
         for score_name in RETRIEVAL_SCORE_FIELDS
-        if score_name != "bm25_score"
     }
-    score_lists["bm25_score"] = retrieval_result.get("bm25_scores", [[]])[0]
 
     sources = []
     context_blocks = []
