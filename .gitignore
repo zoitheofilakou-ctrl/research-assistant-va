@@ -1,32 +1,36 @@
-data/raw/*
-data/processed/*
-rag_store/
-
-
-# =====================
-# PyCharm / JetBrains
-# =====================
-.idea/
-*.iml
-
-# =====================
-# Python
-# =====================
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.log
+# Environment
+.env
 
 # Virtual environments
 .venv/
 venv/
 env/
-.venv
-.env
 
-# =====================
-# OS files
-# =====================
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+*.iml
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# RAG vector store (large, generated)
+rag_store/
+
+# Raw data (large files)
+data/raw/
+
+# Ignore large PDF and text files but keep processed JSON outputs
+data/harvested_pdfs/
+data/fulltext/
+
+# Keep processed outputs tracked (do NOT ignore data/processed/)
