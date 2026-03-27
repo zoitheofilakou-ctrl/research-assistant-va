@@ -1,13 +1,20 @@
 import requests
 import time
 import json
-
+import os
+from dotenv import load_dotenv
+load_dotenv()
 #ROLE: Data Acquisition Group
 #PURPOSE: Automated Metadata Collection from Semantic Scholar API
 
 #Global Configuration
-API_KEY = "enNDvnOC1o2JsroJ9Xi2z7TiDYINheFv8uFKDAGe"
+API_KEY = os.getenv("SEMANTIC_SCHOLAR_API_KEY")
 BASE_URL = "https://api.semanticscholar.org/graph/v1"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+if API_KEY is None:
+    raise ValueError("SEMANTIC_SCHOLAR_API_KEY not set")
+
 
 def fetch_rehabilitation_papers(search_query, result_limit=10):
     """
@@ -46,7 +53,7 @@ def fetch_rehabilitation_papers(search_query, result_limit=10):
             print(f"[!] Error Message: {response.text}")
             return []
             
-    except Exception as error:
+    except requests.exceptions.RequestException as error:
         print(f"[!] An unexpected system error occurred: {error}")
         return []
 
@@ -89,7 +96,10 @@ if __name__ == "__main__":
         
     #2.Export the combined data to the V3 version JSON file
     if all_collected_papers:
-        output_filename = '../data/hybrede_metadata_v5.json'
+        output_path = os.path.join(BASE_DIR, '..', 'data')
+        os.makedirs(output_path, exist_ok=True)
+
+        output_filename = os.path.join(output_path, 'hybrede_metadata_v5.json')
         with open(output_filename, 'w', encoding='utf-8') as json_file:
             json.dump(all_collected_papers, json_file, ensure_ascii=False, indent=4)
         
