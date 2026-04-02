@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 retrieval.py - local hybrid retrieval for the HybReDe RAG pipeline.
 
@@ -81,6 +81,7 @@ PAPER_SUPPORT_MAX_BONUS = 0.075
 PAPER_SECTION_DIVERSITY_BONUS = 0.01
 PAPER_SECTION_DIVERSITY_MAX = 0.02
 CROSS_ENCODER_BLEND_WEIGHT = 0.16
+MIN_CROSS_ENCODER_SCORE = 0.50
 
 QUERY_STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "how",
@@ -1349,11 +1350,18 @@ def apply_mmr_selection(papers: List[dict], k: int) -> List[dict]:
 
 
 def build_result_row(selected_papers: List[dict], query_analysis: dict, retrieval_notes: List[str]) -> dict:
+    for paper in selected_papers:
+        ce = paper.get("cross_encoder_score") or 0.0
+        sem = paper.get("embedding_score") or 0.0
+        paper["final_score"] = 0.7 * ce + 0.3 * sem
+    selected_papers.sort(key=lambda x: x["final_score"], reverse=True)
+
     metadatas = []
     final_scores = []
     for paper in selected_papers:
-        final_score = paper.get("mmr_score") if paper.get("mmr_score") is not None else paper.get("paper_score", 0.0)
+        final_score = paper["final_score"]
         final_scores.append(final_score)
+        bm25 = paper.get("bm25_score", 0.0)
         metadatas.append(
             enrich_metadata_with_scores(
                 {
@@ -1364,6 +1372,7 @@ def build_result_row(selected_papers: List[dict], query_analysis: dict, retrieva
                     "text_source": paper.get("text_source"),
                     "section": paper.get("section"),
                     "supporting_chunks": paper.get("supporting_chunks", 1),
+                    "keyword_overlap": "High" if bm25 > 0 else "Low",
                 },
                 cross_encoder_score=paper.get("cross_encoder_score"),
                 final_score=final_score,
@@ -1559,6 +1568,11 @@ def hybrid_query_result(collection, lexical_index: LexicalIndex, raw_vector_resu
         if cross_encoder_note:
             retrieval_notes.append(cross_encoder_note)
 
+        paper_entries = [
+            p for p in paper_entries
+            if (p.get("cross_encoder_score") or 0.0) >= MIN_CROSS_ENCODER_SCORE
+        ]
+
         selected_papers = apply_mmr_selection(paper_entries, k)
         retrieval_notes.append("mmr diversification")
         result_row = build_result_row(selected_papers, query_analysis, retrieval_notes)
@@ -1645,6 +1659,7 @@ def cmd_index(metadata_file: str, filtered_file: str):
                 "year": record["year"],
                 "text_source": record["text_source"],
                 "section": record["section"],
+                "keyword_overlap": "Low",
             })
             embedding_inputs.append(
                 build_embedding_input(
@@ -1766,17 +1781,23 @@ def cmd_query(user_query: str, k: int, min_score: Optional[float] = DEFAULT_MIN_
         "results": [],
     }
     for i, (cid, doc, meta) in enumerate(zip(ids, docs, metas)):
-        final_score = final_scores[i] if i < len(final_scores) else None
         out["results"].append({
             "chunk_id": cid,
-            "score": final_score,
-            "final_score": final_score,
-            "embedding_score": embedding_scores[i] if i < len(embedding_scores) else distance_to_score(dists[i]) if i < len(dists) else None,
-            "bm25_score": bm25_scores[i] if i < len(bm25_scores) else None,
-            "hybrid_score": hybrid_scores[i] if i < len(hybrid_scores) else None,
-            "paper_score": paper_scores[i] if i < len(paper_scores) else None,
-            "cross_encoder_score": cross_encoder_scores[i] if i < len(cross_encoder_scores) else None,
-            "mmr_score": mmr_scores[i] if i < len(mmr_scores) else None,
+            "rank": i + 1,
+            "semantic_similarity": (
+                embedding_scores[i]
+                if i < len(embedding_scores)
+                else distance_to_score(dists[i]) if i < len(dists) else None
+            ),
+            "cross_encoder_score": (
+                cross_encoder_scores[i]
+                if i < len(cross_encoder_scores)
+                else None
+            ),
+            "keyword_overlap": (
+                "High" if (i < len(bm25_scores) and bm25_scores[i] > 0)
+                else "Low"
+            ),
             "paperId": meta.get("paperId"),
             "title": meta.get("title"),
             "url": meta.get("url"),
@@ -1787,7 +1808,11 @@ def cmd_query(user_query: str, k: int, min_score: Optional[float] = DEFAULT_MIN_
             "text": doc,
         })
 
-    if not out["results"]:
+    insufficient_evidence = len(out["results"]) == 0
+    out["insufficient_evidence"] = insufficient_evidence
+    if insufficient_evidence:
+        retrieval_notes.append("insufficient evidence: no results above threshold")
+        out["retrieval_notes"] = retrieval_notes
         out["note"] = "No papers passed the hybrid relevance filter. Try lowering --min-score or rebuilding the index."
 
     dump_json_console(out, ensure_ascii=False, indent=2)

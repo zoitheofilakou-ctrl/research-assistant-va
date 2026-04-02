@@ -19,8 +19,8 @@ from llm.interface import get_llm_provider
 INSUFFICIENT_EVIDENCE_MESSAGE = "Insufficient evidence in the retrieved corpus to answer this question."
 PLACEHOLDER_CITATION_RE = re.compile(r"([\[(])\s*Papers?\s+([0-9,\sand&]+)\s*([\])])", re.IGNORECASE)
 RETRIEVAL_SCORE_FIELDS = (
+    "embedding_score",
     "cross_encoder_score",
-    "final_score",
 )
 
 
@@ -66,21 +66,21 @@ def _build_context_and_sources(retrieval_result: dict):
         section = meta.get("section") or "unknown"
         supporting_chunks = meta.get("supporting_chunks") or 1
         retrieval_scores = _build_retrieval_scores(score_lists, idx - 1, meta)
-        final_score = retrieval_scores.get("final_score")
 
         source = {
+            "rank": idx,
             "title": title,
             "url": url,
             "year": year,
             "paperId": paper_id,
             "text_source": text_source,
+            "text": doc,
             "section": section,
             "supporting_chunks": supporting_chunks,
+            "semantic_similarity": retrieval_scores.get("embedding_score"),
+            "cross_encoder_score": retrieval_scores.get("cross_encoder_score"),
+            "keyword_overlap": meta.get("keyword_overlap"),
         }
-        if retrieval_scores:
-            source["retrieval_scores"] = retrieval_scores
-        if final_score is not None:
-            source["final_score"] = final_score
         sources.append(source)
 
         context_lines = [
@@ -93,8 +93,6 @@ def _build_context_and_sources(retrieval_result: dict):
             f"section: {section}",
             f"supporting_chunks: {supporting_chunks}",
         ]
-        if final_score is not None:
-            context_lines.append(f"final_score: {final_score:.3f}")
         context_lines.append(f"excerpt:\n{doc}")
         context_blocks.append("\n".join(context_lines))
 
@@ -102,38 +100,55 @@ def _build_context_and_sources(retrieval_result: dict):
 
 
 def _build_source_index(sources: list) -> str:
-    lines = ["Citations:"]
+    lines = ["References:"]
     for source in sources:
-        paper_id = source.get("paperId") or "N/A"
+        rank = source.get("rank", "?")
         title = source.get("title") or "Unknown"
         year = source.get("year") or "N/A"
-        final_score = source.get("final_score")
-        score_suffix = f" | score: {final_score:.3f}" if isinstance(final_score, (int, float)) else ""
-        lines.append(f"- paperId: {paper_id} | {title} ({year}){score_suffix}")
+        lines.append(f"[{rank}] {title} ({year})")
     return "\n".join(lines)
 
 
 def _replace_placeholder_citations(answer: str, sources: list) -> str:
     def repl(match):
         paper_numbers = [int(num) for num in re.findall(r"\d+", match.group(2))]
-        mapped_ids = []
-        for paper_number in paper_numbers:
-            idx = paper_number - 1
-            if 0 <= idx < len(sources):
-                paper_id = sources[idx].get("paperId")
-                if paper_id and paper_id not in mapped_ids:
-                    mapped_ids.append(paper_id)
-        if not mapped_ids:
+        valid_numbers = [n for n in paper_numbers if 1 <= n <= len(sources)]
+        if not valid_numbers:
             return match.group(0)
-        mapped_text = ", ".join(f"paperId: {paper_id}" for paper_id in mapped_ids)
-        return f"({mapped_text})"
+        return "[" + ", ".join(str(n) for n in valid_numbers) + "]"
 
     return PLACEHOLDER_CITATION_RE.sub(repl, answer)
 
 
-def _answer_has_allowed_citation(answer: str, sources: list) -> bool:
-    allowed_ids = [source.get("paperId") for source in sources if source.get("paperId")]
-    return any(f"paperId: {paper_id}" in answer for paper_id in allowed_ids)
+def _answer_has_allowed_citation(answer: str) -> bool:
+    return bool(re.search(r"\[\d+\]", answer))
+
+
+REF_SECTION_RE = re.compile(
+    r"((?:^|\n)[ \t]*(?:\d+[\.\)]\s*)?References[ \t]*\n)(.*?)$",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def _rebuild_references_section(answer: str, sources: list) -> str:
+    """Replace the bare-numbered References section with titled entries."""
+    match = REF_SECTION_RE.search(answer)
+    if not match:
+        return answer
+
+    body = answer[: match.start()]
+    cited = sorted(set(int(n) for n in re.findall(r"\[(\d+)\]", body)))
+
+    header = match.group(1).rstrip()
+    entries = []
+    for n in cited:
+        idx = n - 1
+        if 0 <= idx < len(sources):
+            title = sources[idx].get("title") or "Unknown"
+            year = sources[idx].get("year") or "N/A"
+            entries.append(f"[{n}] {title} ({year})")
+
+    return body + header + "\n\n" + "\n\n".join(entries)
 
 
 def _normalize_text_answer(answer: str, sources: list) -> str:
@@ -142,7 +157,9 @@ def _normalize_text_answer(answer: str, sources: list) -> str:
         return INSUFFICIENT_EVIDENCE_MESSAGE
 
     normalized = _replace_placeholder_citations(normalized, sources)
-    if sources and not _answer_has_allowed_citation(normalized, sources):
+    if sources:
+        normalized = _rebuild_references_section(normalized, sources)
+    if sources and not _answer_has_allowed_citation(normalized):
         normalized = f"{normalized}\n\n{_build_source_index(sources)}"
     return normalized
 
@@ -154,8 +171,7 @@ def _build_prompt(
     output_mode: str,
     sources: list,
 ):
-    allowed_paper_ids = [source["paperId"] for source in sources if source.get("paperId")]
-    allowed_ids_text = ", ".join(allowed_paper_ids) if allowed_paper_ids else "none"
+    n_sources = len(sources)
 
     base_system = f"""
     - Use ONLY the provided retrieved evidence.
@@ -163,15 +179,12 @@ def _build_prompt(
     - Do NOT provide clinical recommendations.
     - Do NOT extrapolate beyond the evidence.
     - If the retrieved evidence is empty or not directly relevant, respond exactly with: {INSUFFICIENT_EVIDENCE_MESSAGE}
-    - Cite every substantive claim using exact paperId values in parentheses, for example: (paperId: abc123).
-    - Use only the paperId values listed below.
-    - Never cite [Paper N], DOIs, author-year references, or any source that is not in the retrieved corpus.
+    - Cite every substantive claim using numbered references matching the [Source N] number in the evidence, for example: [1] or [1, 3].
+    - Only use reference numbers between 1 and {n_sources}.
+    - Never use paperId values, DOIs, author-year references, or any other citation format.
 
     This system provides AI-assisted literature synthesis only.
-    It does not replace professional judgment.
-
-    Allowed paperId values:
-    {allowed_ids_text}"""
+    It does not replace professional judgment."""
 
     if answer_template == "structured":
         base_system += """
@@ -181,9 +194,9 @@ Use this structure:
 2) Key findings (3-6 bullet points)
 3) Limitations / gaps
 4) Practical implications
-5) Citations used
+5) References
 
-Every sentence or bullet with a factual claim in sections 1-4 must include one or more exact paperId citations."""
+Every sentence or bullet with a factual claim in sections 1-4 must include one or more numbered citations like [1] or [1, 2]."""
 
     if output_mode == "json":
         base_system += """
@@ -194,7 +207,7 @@ Return ONLY valid JSON with this schema:
   "key_findings": ["string"],
   "limitations": ["string"],
   "practical_implications": ["string"],
-  "citations_used": ["paperId: abc123"]
+  "citations_used": ["[1]", "[2]"]
 }"""
 
     prompt = f"""Question: {user_query}

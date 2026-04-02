@@ -1,8 +1,8 @@
 import streamlit as st
-import json
+import streamlit.components.v1 as components
 import os
 from dotenv import load_dotenv
-from project_paths import FILTERED_PAPERS_PATH, RAG_STORE_DIR, ensure_parent_dir
+from project_paths import FILTERED_PAPERS_PATH, RAG_STORE_DIR
 
 load_dotenv()
 
@@ -14,163 +14,268 @@ except Exception as e:
     st.stop()
 
 
-def format_score(value):
-    if isinstance(value, (int, float)):
-        return f"{float(value):.3f}"
-    return None
+def semantic_label(value):
+    if value is None:
+        return None
+    if value >= 0.50:
+        return "High"
+    elif value >= 0.40:
+        return "Moderate"
+    else:
+        return "Low"
 
-# ── Page config ──────────────────────────────────────────────────────────────
+
+def format_text_source(value):
+    """Translate internal text_source values to researcher-facing labels."""
+    if value == "fulltext":
+        return "full paper"
+    if value == "abstract":
+        return "abstract only"
+    return value or ""
+
+
 st.set_page_config(
-    page_title="HybReDe — AI Research Assistant",
-    page_icon="🔬",
-    layout="wide"
+    page_title="HyBreDe — Evidence Retrieval System",
+    page_icon="⬡",
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
-# ── Custom styling ────────────────────────────────────────────────────────────
+# ── GLOBAL CSS ────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
-    /* Import font */
-    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap');
 
-    html, body, [class*="css"] {
-        font-family: 'IBM Plex Sans', sans-serif;
-    }
+:root {
+    --bg:      #f4efe8;
+    --surface: #faf7f2;
+    --surface2:#f0ece4;
+    --surface3:#ede8df;
+    --ink:     #0d1b2a;
+    --ink2:    #1e3448;
+    --muted:   #4a6377;
+    --pale:    #e8f2f9;
+    --cyan:    #0077aa;
+    --teal:    #007c6e;
+    --gold:    #c08000;
+    --red:     #c0392b;
+    --green:   #1a7a4a;
+    --border:  rgba(13,27,42,0.12);
+    --border2: rgba(13,27,42,0.22);
+    --mono:    'DM Mono', monospace;
+    --sans:    'Inter', sans-serif;
+    --serif:   'DM Serif Display', serif;
+}
 
-    /* Main background */
-    .stApp {
-        background-color: #06101a;
-        color: #d6eeff;
-    }
+*, *::before, *::after { box-sizing: border-box; }
 
-    /* Sidebar */
-    section[data-testid="stSidebar"] {
-        background-color: #091520;
-        border-right: 1px solid rgba(77,216,255,0.1);
-    }
+html, body, [class*="css"],
+.stApp, .main, [data-testid="stAppViewContainer"],
+[data-testid="stMain"], [data-testid="block-container"] {
+    font-family: var(--sans) !important;
+    background-color: #f4efe8 !important;
+    color: #0d1b2a !important;
+}
+.main .block-container {
+    padding-top: 0 !important;
+    max-width: 100% !important;
+    background-color: #f4efe8 !important;
+}
 
-    section[data-testid="stSidebar"] * {
-        color: #9db5c9 !important;
-    }
+/* ── Hide Streamlit toolbar / deploy button / top bar ── */
+[data-testid="stToolbar"],
+[data-testid="stDecoration"],
+[data-testid="stStatusWidget"],
+#MainMenu,
+header[data-testid="stHeader"],
+.stDeployButton,
+[data-testid="stAppDeployButton"] {
+    display: none !important;
+    visibility: hidden !important;
+}
 
-    /* Headings */
-    h1, h2, h3 {
-        font-family: 'IBM Plex Mono', monospace !important;
-        letter-spacing: -0.02em;
-    }
+/* iframe fix */
+iframe { background: transparent !important; color-scheme: light !important; }
+[data-testid="stCustomComponentV1"],
+[data-testid="stCustomComponentV1"] > div,
+[data-testid="stCustomComponentV1"] iframe { background: transparent !important; }
+.element-container iframe { background-color: #f4efe8 !important; }
 
-    h1 { color: #4dd8ff !important; font-size: 1.6rem !important; }
-    h2 { color: #d6eeff !important; font-size: 1.1rem !important; }
-    h3 { color: #d6eeff !important; font-size: 0.95rem !important; }
+/* Scrollbar */
+::-webkit-scrollbar { width: 3px; height: 3px; }
+::-webkit-scrollbar-track { background: var(--surface2); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
 
-    /* Text input */
-    .stTextInput > div > div > input,
-    .stChatInputContainer textarea {
-        background-color: #0d1e2e !important;
-        border: 1px solid rgba(77,216,255,0.2) !important;
-        color: #d6eeff !important;
-        font-family: 'IBM Plex Sans', sans-serif !important;
-        border-radius: 6px !important;
-    }
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: var(--surface) !important;
+    border-right: 1px solid var(--border) !important;
+}
+section[data-testid="stSidebar"] * { color: var(--muted) !important; font-family: var(--sans) !important; }
+section[data-testid="stSidebar"] h3 {
+    font-family: var(--mono) !important;
+    font-size: 0.6rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.2em !important;
+    text-transform: uppercase !important;
+    color: var(--ink) !important;
+    border-bottom: 1px solid var(--border) !important;
+    padding-bottom: 0.5rem !important;
+    margin: 1.2rem 0 0.8rem !important;
+}
+section[data-testid="stSidebar"] label { font-size: 0.78rem !important; font-weight: 500 !important; color: var(--ink2) !important; }
+section[data-testid="stSidebar"] iframe { background-color: #faf7f2 !important; }
 
-    .stTextInput > div > div > input:focus,
-    .stChatInputContainer textarea:focus {
-        border-color: rgba(77,216,255,0.5) !important;
-        box-shadow: 0 0 0 2px rgba(77,216,255,0.1) !important;
-    }
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    background: transparent !important;
+    border-bottom: 2px solid var(--border) !important;
+    gap: 0 !important; padding: 0 !important;
+}
+.stTabs [data-baseweb="tab"] {
+    font-family: var(--mono) !important;
+    font-size: 0.62rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.14em !important;
+    text-transform: uppercase !important;
+    color: var(--muted) !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 1rem 2rem !important;
+    border-bottom: 2px solid transparent !important;
+    transition: color 0.2s !important;
+}
+.stTabs [aria-selected="true"] { color: var(--ink) !important; border-bottom: 2px solid var(--ink) !important; background: transparent !important; }
+.stTabs [data-baseweb="tab"]:hover { color: var(--ink2) !important; }
 
-    /* Buttons */
-    .stButton > button {
-        background-color: transparent !important;
-        border: 1px solid rgba(77,216,255,0.3) !important;
-        color: #4dd8ff !important;
-        font-family: 'IBM Plex Mono', monospace !important;
-        font-size: 0.78rem !important;
-        letter-spacing: 0.08em !important;
-        border-radius: 4px !important;
-        transition: all 0.2s ease !important;
-    }
+/* Text inputs */
+.stTextInput > div > div > input {
+    background: var(--surface) !important;
+    border: 1px solid var(--border2) !important;
+    border-radius: 2px !important;
+    color: var(--ink) !important;
+    font-family: var(--sans) !important;
+    font-size: 0.92rem !important;
+    padding: 0.7rem 1rem !important;
+    transition: border-color 0.2s, box-shadow 0.2s !important;
+}
+.stTextInput > div > div > input::placeholder { color: var(--muted) !important; font-style: italic !important; opacity: 1 !important; }
+.stTextInput > div > div > input:focus { border-color: var(--cyan) !important; box-shadow: 0 0 0 3px rgba(0,119,170,0.1) !important; outline: none !important; }
 
-    .stButton > button:hover {
-        background-color: rgba(77,216,255,0.08) !important;
-        border-color: rgba(77,216,255,0.6) !important;
-    }
+/* Chat input */
+.stChatInputContainer { background: var(--surface2) !important; border-top: 1px solid var(--border) !important; padding: 1rem !important; }
+.stChatInputContainer textarea { background: var(--surface) !important; border: 1px solid var(--border2) !important; border-radius: 2px !important; color: var(--ink) !important; font-family: var(--sans) !important; font-size: 0.9rem !important; }
+.stChatInputContainer textarea:focus { border-color: var(--cyan) !important; box-shadow: 0 0 0 3px rgba(0,119,170,0.1) !important; }
 
-    /* Container / card */
-    [data-testid="stVerticalBlockBorderWrapper"] {
-        background-color: #091520 !important;
-        border: 1px solid rgba(77,216,255,0.12) !important;
-        border-radius: 8px !important;
-        padding: 4px !important;
-    }
+/* Buttons */
+.stButton > button {
+    background: var(--ink) !important;
+    border: 1px solid var(--ink) !important;
+    border-radius: 2px !important;
+    color: #faf7f2 !important;
+    font-family: var(--mono) !important;
+    font-size: 0.62rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.14em !important;
+    text-transform: uppercase !important;
+    padding: 0.65rem 1.5rem !important;
+    transition: all 0.15s !important;
+    cursor: pointer !important;
+}
+.stButton > button:hover { background: var(--ink2) !important; border-color: var(--ink2) !important; box-shadow: 0 2px 8px rgba(13,27,42,0.18) !important; transform: translateY(-1px) !important; }
+.stButton > button:active { transform: translateY(0) !important; }
 
-    /* Expander */
-    .streamlit-expanderHeader {
-        background-color: #0d1e2e !important;
-        color: #5a8aaa !important;
-        font-size: 0.82rem !important;
-        border-radius: 4px !important;
-    }
+/* Link buttons */
+.stLinkButton > a {
+    background: transparent !important;
+    border: 1px solid var(--border2) !important;
+    border-radius: 2px !important;
+    color: var(--cyan) !important;
+    font-family: var(--mono) !important;
+    font-size: 0.6rem !important;
+    letter-spacing: 0.1em !important;
+    text-transform: uppercase !important;
+    padding: 0.35rem 0.8rem !important;
+    text-decoration: none !important;
+    transition: all 0.15s !important;
+}
+.stLinkButton > a:hover { background: rgba(0,119,170,0.06) !important; border-color: var(--cyan) !important; }
 
-    /* Selectbox */
-    .stSelectbox > div > div {
-        background-color: #0d1e2e !important;
-        border: 1px solid rgba(77,216,255,0.2) !important;
-        color: #d6eeff !important;
-    }
+/* Chat messages */
+[data-testid="stChatMessage"] { background: var(--surface) !important; border: 1px solid var(--border) !important; border-radius: 2px !important; margin-bottom: 0.8rem !important; padding: 0.4rem !important; }
+[data-testid="stChatMessage"] p { color: var(--ink) !important; font-family: var(--sans) !important; font-size: 0.9rem !important; line-height: 1.75 !important; }
+[data-testid="stChatMessage"] li { color: var(--ink2) !important; font-size: 0.88rem !important; line-height: 1.7 !important; }
+[data-testid="stChatMessage"] strong { color: var(--ink) !important; font-weight: 600 !important; }
+[data-testid="stChatMessage"] h1,
+[data-testid="stChatMessage"] h2,
+[data-testid="stChatMessage"] h3 { font-family: var(--mono) !important; font-size: 0.62rem !important; font-weight: 500 !important; letter-spacing: 0.16em !important; text-transform: uppercase !important; color: var(--muted) !important; margin-top: 1.4rem !important; margin-bottom: 0.6rem !important; border-bottom: 1px solid var(--border) !important; padding-bottom: 0.4rem !important; }
 
-    /* Slider */
-    .stSlider > div > div > div > div {
-        background-color: #4dd8ff !important;
-    }
+/* Markdown */
+.stMarkdown p { color: var(--ink) !important; font-size: 0.9rem !important; line-height: 1.75 !important; }
+.stMarkdown li { color: var(--ink2) !important; font-size: 0.88rem !important; line-height: 1.7 !important; }
+.stMarkdown strong { color: var(--ink) !important; font-weight: 600 !important; }
+.stMarkdown h1, .stMarkdown h2, .stMarkdown h3 { font-family: var(--mono) !important; font-size: 0.62rem !important; letter-spacing: 0.16em !important; text-transform: uppercase !important; color: var(--muted) !important; border-bottom: 1px solid var(--border) !important; padding-bottom: 0.4rem !important; margin-top: 1.4rem !important; }
 
-    /* Caption / small text */
-    .stCaption, small, caption {
-        color: #5a8aaa !important;
-        font-size: 0.78rem !important;
-    }
+/* Metrics */
+[data-testid="stMetric"] { background: var(--surface) !important; border: 1px solid var(--border) !important; border-radius: 2px !important; padding: 1rem 1.2rem !important; transition: border-color 0.2s, box-shadow 0.2s !important; }
+[data-testid="stMetric"]:hover { border-color: var(--border2) !important; box-shadow: 0 2px 12px rgba(13,27,42,0.08) !important; }
+[data-testid="stMetricLabel"],
+[data-testid="stMetricLabel"] p,
+[data-testid="stMetricLabel"] div,
+[data-testid="stMetricLabel"] span { font-family: var(--mono) !important; font-size: 0.58rem !important; font-weight: 500 !important; letter-spacing: 0.16em !important; text-transform: uppercase !important; color: var(--muted) !important; }
+[data-testid="stMetricValue"],
+[data-testid="stMetricValue"] div,
+[data-testid="stMetricValue"] span,
+[data-testid="stMetricValue"] > div { font-family: var(--mono) !important; font-size: 1.8rem !important; font-weight: 500 !important; color: var(--cyan) !important; letter-spacing: -0.02em !important; }
 
-    /* Chat messages */
-    [data-testid="stChatMessage"] {
-        background-color: #0d1e2e !important;
-        border: 1px solid rgba(77,216,255,0.08) !important;
-        border-radius: 8px !important;
-    }
+/* Expander */
+.streamlit-expanderHeader { background: var(--surface2) !important; border: 1px solid var(--border) !important; border-radius: 2px !important; color: var(--ink2) !important; font-family: var(--mono) !important; font-size: 0.62rem !important; font-weight: 500 !important; letter-spacing: 0.12em !important; text-transform: uppercase !important; padding: 0.85rem 1.1rem !important; transition: background 0.2s !important; }
+.streamlit-expanderHeader:hover { background: var(--surface3) !important; }
+.streamlit-expanderContent { background: var(--surface) !important; border: 1px solid var(--border) !important; border-top: none !important; border-radius: 0 0 2px 2px !important; padding: 1.2rem !important; }
 
-    /* Success / warning / error */
-    .stSuccess { background-color: rgba(46,232,184,0.08) !important; border-color: rgba(46,232,184,0.3) !important; }
-    .stWarning { background-color: rgba(240,180,41,0.08) !important; }
-    .stError   { background-color: rgba(255,107,107,0.08) !important; }
+/* Containers */
+[data-testid="stVerticalBlockBorderWrapper"] { background: var(--surface) !important; border: 1px solid var(--border) !important; border-radius: 2px !important; transition: border-color 0.2s, box-shadow 0.15s !important; }
+[data-testid="stVerticalBlockBorderWrapper"]:hover { border-color: var(--border2) !important; box-shadow: 0 2px 12px rgba(13,27,42,0.08) !important; }
 
-    /* Divider */
-    hr { border-color: rgba(77,216,255,0.1) !important; }
+/* Selectbox */
+.stSelectbox > div > div { background: var(--surface) !important; border: 1px solid var(--border2) !important; border-radius: 2px !important; color: var(--ink) !important; font-family: var(--sans) !important; font-size: 0.88rem !important; }
 
-    /* Spinner */
-    .stSpinner > div { border-top-color: #4dd8ff !important; }
+/* Slider */
+.stSlider > div > div > div > div { background: var(--cyan) !important; }
+[data-testid="stSlider"] [data-testid="stTickBarMin"],
+[data-testid="stSlider"] [data-testid="stTickBarMax"] { font-family: var(--mono) !important; font-size: 0.6rem !important; color: var(--muted) !important; }
 
-    /* Link buttons */
-    .stLinkButton > a {
-        background-color: transparent !important;
-        border: 1px solid rgba(77,216,255,0.2) !important;
-        color: #4dd8ff !important;
-        font-size: 0.75rem !important;
-        border-radius: 4px !important;
-    }
+/* Status */
+.stSuccess { background: rgba(26,122,74,0.07) !important; border: 1px solid rgba(26,122,74,0.25) !important; border-radius: 2px !important; color: #1a7a4a !important; font-family: var(--mono) !important; font-size: 0.72rem !important; }
+.stWarning { background: rgba(192,128,0,0.07) !important; border: 1px solid rgba(192,128,0,0.25) !important; border-radius: 2px !important; color: var(--gold) !important; font-family: var(--mono) !important; font-size: 0.72rem !important; }
+.stError { background: rgba(192,57,43,0.07) !important; border: 1px solid rgba(192,57,43,0.25) !important; border-radius: 2px !important; color: var(--red) !important; }
+
+/* Caption */
+.stCaption, small { font-family: var(--mono) !important; font-size: 0.62rem !important; font-weight: 400 !important; color: var(--muted) !important; letter-spacing: 0.04em !important; }
+
+/* HR / Spinner */
+hr { border-color: var(--border) !important; margin: 1.5rem 0 !important; }
+.stSpinner > div { border-top-color: var(--cyan) !important; }
+
+/* Checkbox */
+.stCheckbox > label > span { color: var(--ink2) !important; font-size: 0.82rem !important; }
+
+/* Footer */
+footer, [data-testid="stFooter"] { background: transparent !important; color: var(--muted) !important; }
 </style>
 """, unsafe_allow_html=True)
 
-# ── Session state ─────────────────────────────────────────────────────────────
-if "results" not in st.session_state:
-    st.session_state.results = []
-
-if "selected_ids" not in st.session_state:
-    st.session_state.selected_ids = set()
-
+# ── Session state
+if "search_results" not in st.session_state:
+    st.session_state.search_results = []
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
-# ── Sidebar ───────────────────────────────────────────────────────────────────
+# ════════════════════════════════════════════════════════════════════════════
+# SIDEBAR
+# ════════════════════════════════════════════════════════════════════════════
 with st.sidebar:
-    st.markdown("### ⚙️ Settings")
+    st.markdown("### ⚙ Configuration")
 
     provider = st.selectbox("LLM Provider", ["openai", "ollama"])
     ollama_model = None
@@ -180,160 +285,157 @@ with st.sidebar:
             value=os.getenv("OLLAMA_MODEL", "phi"),
             help="Example: qwen3:14b",
         )
-    k_articles = st.slider("Papers to retrieve", 1, 10, 5)
+    k_articles = st.slider("Retrieved papers (k)", 1, 10, 5)
 
     st.markdown("---")
-    st.markdown("### Pipeline status")
+    st.markdown("### ◈ Pipeline Status")
 
-    rag_store_ok = os.path.exists(RAG_STORE_DIR)
-    filtered_ok  = os.path.exists(FILTERED_PAPERS_PATH)
-
-    if rag_store_ok:
-        st.success("Vector index ready")
+    if os.path.exists(RAG_STORE_DIR):
+        st.success("✓  Vector index ready")
     else:
-        st.warning("No vector index — run indexing first")
+        st.warning("⚠  No vector index")
 
-    if filtered_ok:
-        st.success("Filtered corpus available")
+    if os.path.exists(FILTERED_PAPERS_PATH):
+        st.success("✓  Screened corpus available")
     else:
-        st.warning("No filtered papers")
+        st.warning("⚠  No screened corpus")
 
     st.markdown("---")
-    st.caption("HybReDe · Turku UAS ICT · 2026")
-
-# ── Header ────────────────────────────────────────────────────────────────────
-st.title("HybReDe — AI Research Assistant")
-st.caption("Governance-aware retrieval-augmented pipeline for healthcare literature pre-screening")
-st.markdown("---")
-
-# ── Tab layout ────────────────────────────────────────────────────────────────
-tab_search, tab_ask = st.tabs(["🔎 Search & Select Papers", "💬 Ask the Assistant"])
-
-# ════════════════════════════════════════════════════════════════════════════
-# TAB 1 — Search
-# ════════════════════════════════════════════════════════════════════════════
-with tab_search:
-
-    st.subheader("Search Research Papers")
-    st.caption("Search Semantic Scholar to discover papers. Select relevant ones to add to the RAG corpus.")
-
-    col_input, col_btn = st.columns([5, 1])
-
-    with col_input:
-        query = st.text_input(
-            "Research topic",
-            placeholder="e.g. evidence-based practice barriers healthcare professionals",
-            label_visibility="collapsed"
-        )
-
-    with col_btn:
-        search_clicked = st.button("Search", use_container_width=True)
-
-    if search_clicked:
-        if not query.strip():
-            st.warning("Enter a search topic first.")
-        else:
-            with st.spinner("Querying Semantic Scholar..."):
-                results = fetch_rehabilitation_papers(query, result_limit=k_articles)
-                st.session_state.results = results
-                st.session_state.selected_ids = set()
-
-    # Results
-    if st.session_state.results:
-        st.markdown(f"**{len(st.session_state.results)} papers found**")
-        st.markdown("---")
-
-        for i, paper in enumerate(st.session_state.results):
-            paper_id   = paper.get("paperId", str(i))
-            title      = paper.get("title", "No title")
-            abstract   = paper.get("abstract", "No abstract available.")
-            year       = paper.get("year", "N/A")
-            url        = paper.get("url", "")
-            authors    = paper.get("authors", [])
-            author_str = ", ".join([a.get("name", "") for a in authors[:4]])
-            if len(authors) > 4:
-                author_str += " et al."
-
-            selected = paper_id in st.session_state.selected_ids
-
-            with st.container(border=True):
-                col_chk, col_content = st.columns([1, 14])
-
-                with col_chk:
-                    if st.checkbox("", value=selected, key=f"chk_{paper_id}"):
-                        st.session_state.selected_ids.add(paper_id)
-                    else:
-                        st.session_state.selected_ids.discard(paper_id)
-
-                with col_content:
-                    st.markdown(f"**{title}**")
-                    st.caption(f"{year}  ·  {author_str if author_str else 'Unknown authors'}")
-                    with st.expander("Abstract"):
-                        st.write(abstract)
-                    if url:
-                        st.link_button("Open paper", url)
-
-        st.markdown("---")
-
-        # Selection controls
-        n_selected = len(st.session_state.selected_ids)
-        col_save, col_clear, col_count = st.columns([2, 2, 4])
-
-        with col_save:
-            if st.button("Add to RAG corpus", use_container_width=True):
-                selected_papers = [
-                    p for p in st.session_state.results
-                    if p.get("paperId", str(id(p))) in st.session_state.selected_ids
-                ]
-                if not selected_papers:
-                    st.warning("Select at least one paper first.")
-                else:
-                    ensure_parent_dir(FILTERED_PAPERS_PATH)
-                    with open(FILTERED_PAPERS_PATH, "w", encoding="utf-8") as f:
-                        json.dump(selected_papers, f, indent=2)
-                    st.success(f"{len(selected_papers)} papers saved to corpus.")
-
-        with col_clear:
-            if st.button("Clear selection", use_container_width=True):
-                st.session_state.selected_ids = set()
-                st.rerun()
-
-        with col_count:
-            st.caption(f"{n_selected} paper{'s' if n_selected != 1 else ''} selected")
-
-    else:
-        st.info("No results yet. Enter a topic and click Search.")
+    components.html("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+    html, body { margin:0; padding:0; background:#faf7f2 !important; background-color:#faf7f2 !important; }
+    .sb-footer { font-family:'DM Mono',monospace; font-size:0.62rem; color:#4a6377; line-height:2.2; padding:0.5rem 0 0.25rem; }
+    .sb-footer .divider { height:1px; background:rgba(13,27,42,0.12); margin-bottom:0.7rem; }
+    .sb-footer .brand { color:#0d1b2a; font-weight:500; }
+    .sb-footer .hl    { color:#0077aa; }
+    .sb-footer .warn  { color:#c08000; font-size:0.58rem; }
+    </style>
+    <div class="sb-footer">
+        <div class="divider"></div>
+        <span class="brand">HyBreDe</span> · Turku UAS ICT · 2026<br>
+        Governance-Aware RAG Pipeline<br>
+        <span class="hl">Evidence-grounded</span> · <span class="warn">No clinical use</span>
+    </div>
+    """, height=100)
 
 # ════════════════════════════════════════════════════════════════════════════
-# TAB 2 — Chat
+# HEADER
 # ════════════════════════════════════════════════════════════════════════════
+components.html("""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap');
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html, body { background:#0d1b2a !important; background-color:#0d1b2a !important; overflow:hidden; }
+body { padding:2.2rem 2.5rem 1.8rem; }
+
+.header { position:relative; padding-bottom:1.8rem; }
+.header::after { content:''; position:absolute; bottom:0; left:0; right:0; height:1px; background:rgba(250,247,242,0.12); }
+
+.project-label {
+    font-family:'DM Mono',monospace; font-size:0.62rem; letter-spacing:0.24em;
+    text-transform:uppercase; color:rgba(250,247,242,0.35); margin-bottom:1rem;
+    opacity:0; animation:fadeUp 0.5s 0.05s forwards;
+}
+
+.title {
+    font-family:'DM Serif Display',serif; font-size:4.8rem; font-weight:400;
+    color:#faf7f2; letter-spacing:-0.02em; line-height:1;
+    opacity:0; animation:fadeUp 0.6s 0.15s forwards;
+}
+.title em { font-style:italic; color:#7ecfea; }
+
+.header-bottom {
+    display:flex; justify-content:space-between; align-items:center;
+    margin-top:1rem;
+}
+
+.subtitle {
+    font-family:'Inter',sans-serif; font-size:0.78rem; color:rgba(250,247,242,0.5);
+    letter-spacing:0.04em; display:flex; gap:1.6rem; flex-wrap:wrap;
+    opacity:0; animation:fadeUp 0.6s 0.25s forwards;
+}
+.subtitle-item { display:flex; align-items:center; gap:0.45rem; transition:color 0.2s; cursor:default; }
+.subtitle-item::before { content:'·'; color:rgba(126,207,234,0.5); }
+.subtitle-item:hover { color:rgba(250,247,242,0.8); }
+
+.logo-wrap {
+    opacity:0; animation:fadeUp 0.6s 0.3s forwards;
+    flex-shrink:0;
+}
+.logo-wrap img {
+    height:44px; width:auto;
+    display:block;
+}
+
+@keyframes fadeUp {
+    from { opacity:0; transform:translateY(10px); }
+    to   { opacity:1; transform:translateY(0); }
+}
+</style>
+<div class="header">
+    <div class="project-label">Healthcare Literature Pre-Screening System &nbsp;·&nbsp; v2026</div>
+    <div class="title">Hyb<em>Re</em>De</div>
+    <div class="header-bottom">
+        <div class="subtitle">
+            <div class="subtitle-item">Governance-Aware RAG Pipeline</div>
+            <div class="subtitle-item">AI-Assisted Evidence Synthesis</div>
+            <div class="subtitle-item">Human Oversight Preserved</div>
+            <div class="subtitle-item">Turku UAS · ICT 2026</div>
+        </div>
+    </div>
+</div>
+""", height=235)
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# TABS
+# ════════════════════════════════════════════════════════════════════════════
+tab_ask, tab_search = st.tabs(["◉  Ask the Assistant", "◇  External Search (Semantic Scholar)"])
+
+
+def section_header(tag, desc):
+    st.markdown(f"""
+    <div style="margin-bottom:1.5rem;">
+        <div style="font-family:'DM Mono',monospace;font-size:0.58rem;font-weight:500;
+        letter-spacing:0.2em;text-transform:uppercase;color:#4a6377;margin-bottom:0.5rem;
+        display:flex;align-items:center;gap:0.5rem;">
+            <span style="display:inline-block;width:16px;height:1px;background:rgba(13,27,42,0.2);"></span>
+            {tag}
+        </div>
+        <div style="font-family:'Inter',sans-serif;font-size:0.88rem;color:#4a6377;line-height:1.75;">{desc}</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+
+# ─── TAB 1 ───────────────────────────────────────────────────────────────────
 with tab_ask:
 
-    st.subheader("Ask the Research Assistant")
-    st.caption(
-        "The assistant retrieves evidence from the pre-screened corpus and generates a grounded response. "
-        "It does not use external knowledge and does not provide clinical recommendations."
+    section_header(
+        "Evidence Synthesis Engine",
+        "The assistant retrieves evidence exclusively from the pre-screened corpus and synthesizes a structured response. "
+        "It does not use external knowledge and does not provide clinical recommendations. "
+        "All responses are grounded in retrieved literature with traceable citations."
     )
 
     if not os.path.exists(RAG_STORE_DIR):
         st.warning("No vector index found. Build the index before asking questions.")
 
-    # Chat history
     for msg in st.session_state.chat_history:
         with st.chat_message(msg["role"]):
-            st.write(msg["content"])
+            st.markdown(msg["content"])
 
-    user_input = st.chat_input("Ask a question about the research corpus...")
+    user_input = st.chat_input("Ask a research question about the pre-screened corpus...")
 
     if user_input:
 
         st.session_state.chat_history.append({"role": "user", "content": user_input})
 
         with st.chat_message("user"):
-            st.write(user_input)
+            st.markdown(user_input)
 
         with st.chat_message("assistant"):
-            with st.spinner("Retrieving evidence and generating response..."):
+            with st.spinner("Retrieving evidence · Generating response..."):
                 try:
                     result = generate_rag_answer(
                         user_input,
@@ -344,63 +446,200 @@ with tab_ask:
                         **({"model": ollama_model} if provider == "ollama" and ollama_model else {}),
                     )
 
-                    answer  = result.get("answer", "No answer generated.")
-                    sources = result.get("sources", [])
+                    answer                = result.get("answer", "No answer generated.")
+                    sources               = result.get("sources", [])
                     insufficient_evidence = result.get("insufficient_evidence", False)
 
+                    # ── ANSWER LOGIC ─────────────────────────────
                     if insufficient_evidence:
-                        st.warning(answer)
+                        st.error(
+                            "No sufficiently relevant evidence found in the screened corpus. "
+                            "The system abstains from generating a grounded answer."
+                        )
+
+                        if sources:
+                            st.caption(
+                                "Retrieved results are shown below for transparency, "
+                                "but none were considered sufficiently relevant for synthesis."
+                            )
+                        else:
+                            st.caption(
+                                "No relevant results were retrieved for this query."
+                            )
                     else:
-                        st.write(answer)
+                        st.markdown(answer)
 
+                    # ── ALWAYS SHOW SOURCES ─────────────────────
                     if sources:
-                        with st.expander(f"Sources ({len(sources)} papers)"):
-                            for s in sources:
-                                title_s = s.get("title", "Unknown")
-                                year_s  = s.get("year", "")
-                                url_s   = s.get("url", "")
-                                pid     = s.get("paperId", "")
-                                final_score = s.get("final_score")
-                                retrieval_scores = s.get("retrieval_scores") or {}
-                                st.markdown(f"**{title_s}** ({year_s})")
-                                meta_bits = []
-                                if pid:
-                                    meta_bits.append(f"paperId: `{pid}`")
-                                formatted_final_score = format_score(final_score)
-                                if formatted_final_score is not None:
-                                    meta_bits.append(f"final_score: `{formatted_final_score}`")
-                                if meta_bits:
-                                    st.caption(" | ".join(meta_bits))
-                                score_labels = [
-                                    ("cross_encoder_score", "cross"),
-                                ]
-                                score_bits = []
-                                for score_key, score_label in score_labels:
-                                    formatted_score = format_score(retrieval_scores.get(score_key))
-                                    if formatted_score is not None:
-                                        score_bits.append(f"{score_label}: `{formatted_score}`")
-                                if score_bits:
-                                    st.caption("retrieval: " + " | ".join(score_bits))
-                                if url_s:
-                                    st.link_button("Open paper", url_s)
-                                st.markdown("---")
+                        with st.expander(f"◈ Evidence Sources · {len(sources)} Top-k Retrieved Results"):
 
-                    st.session_state.chat_history.append({
-                        "role": "assistant",
-                        "content": answer
-                    })
+                            st.caption(
+                                "Top-k results after hybrid retrieval (embedding + lexical + reranking). "
+                                "Signals reflect retrieval alignment (semantic and lexical), "
+                                "not evidence quality, methodological rigor, or clinical validity."
+                            )
+                            st.caption(
+                                "Ranking reflects retrieval relevance, not strength of evidence, study quality, or clinical validity."
+                            )
+                            st.caption("Not all retrieved papers are necessarily used in the final answer; only those selected during generation are cited.")
+                            st.caption("Corpus composition: 27 full-text papers · 80 abstract-only papers")
+
+                            for idx, s in enumerate(sources, start=1):
+                                paper_num       = s.get("rank", idx)
+                                title_s         = s.get("title", "Unknown")
+                                year_s          = s.get("year", "")
+                                url_s           = s.get("url", "")
+                                pid             = s.get("paperId", "")
+                                sem             = s.get("semantic_similarity")
+                                keyword_overlap = s.get("keyword_overlap")
+                                ce              = s.get("cross_encoder_score")
+                                src             = format_text_source(s.get("text_source", ""))
+
+                                if not s.get("text", "").strip():
+                                    st.warning("No textual evidence available for this result.")
+                                    continue
+
+                                st.markdown(f"**Paper {paper_num} — {title_s}**")
+                                st.caption(f"{year_s} · {src}")
+
+                                if src == "abstract only":
+                                    st.warning("Abstract-level evidence: limited detail and lower evidential strength.")
+
+                                col1, col2, col3, col4 = st.columns(4)
+
+                                with col1:
+                                    st.metric(
+                                        "Position in results",
+                                        str(paper_num),
+                                        help="Retrieval rank — lower is more relevant. Not a measure of evidence quality."
+                                    )
+
+                                with col2:
+                                    if sem is not None:
+                                        label = semantic_label(sem)
+                                        st.metric(
+                                            "Semantic similarity",
+                                            f"{sem:.2f} ({label})",
+                                            help="How closely this text's meaning matches your query. High ≥ 0.50 · Moderate ≥ 0.40 · Low < 0.40."
+                                        )
+
+                                with col3:
+                                    st.metric(
+                                        "Keyword overlap",
+                                        keyword_overlap if keyword_overlap else "N/A",
+                                        help="How many of your query terms appear in this text. Shared vocabulary, not guaranteed relevance."
+                                    )
+
+                                with col4:
+                                    st.metric(
+                                        "Relevance (reranker)",
+                                        f"{ce:.2f}" if ce else "N/A",
+                                        help="Fine-grained relevance score from the reranker — the most reliable of the three signals. Still a retrieval metric, not a quality judgment."
+                                    )
+
+                                if pid:
+                                    st.caption(f"ID: {pid}")
+                                if url_s:
+                                    st.link_button("↗ Open", url_s)
+
+                    # ── SAVE CHAT ONLY IF ANSWER EXISTS ─────────
+                    if not insufficient_evidence:
+                        st.session_state.chat_history.append({
+                            "role": "assistant",
+                            "content": answer
+                        })
 
                 except Exception as e:
                     st.error(f"Generation error: {e}")
 
-    # Clear chat
     if st.session_state.chat_history:
         if st.button("Clear conversation"):
             st.session_state.chat_history = []
             st.rerun()
 
-# ── Footer ────────────────────────────────────────────────────────────────────
-st.markdown("---")
-st.caption(
-    "HybReDe · Evidence-grounded · No clinical recommendations · Human oversight preserved · Turku UAS 2026"
-)
+
+# ─── TAB 2 ───────────────────────────────────────────────────────────────────
+with tab_search:
+
+    st.info(
+        "This tab queries Semantic Scholar directly and is not connected to the HyBreDe pipeline. "
+        "Results are unscreened and cannot be used as grounded evidence by the system."
+    )
+
+    section_header(
+        "External Search · Semantic Scholar API",
+        "External search for background reading and orientation. "
+        "Results are not screened, not indexed, and not used for evidence synthesis. "
+        "This tool operates independently of the HyBreDe pipeline."
+    )
+
+    col_input, col_btn = st.columns([5, 1])
+
+    with col_input:
+        search_query = st.text_input("", key="search_query", placeholder="e.g. human oversight automation bias AI clinical decision support", label_visibility="collapsed")
+
+    with col_btn:
+        search_clicked = st.button("Search", use_container_width=True)
+
+    if search_clicked:
+        if not search_query.strip():
+            st.warning("Enter a search topic first.")
+        else:
+            with st.spinner("Querying Semantic Scholar..."):
+                results = fetch_rehabilitation_papers(search_query, result_limit=k_articles)
+                st.session_state.search_results = results
+
+    if st.session_state.search_results:
+        st.markdown(f"""
+        <div style="display:inline-flex;align-items:center;gap:0.6rem;
+        font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.1em;
+        text-transform:uppercase;color:#4a6377;padding:0.4rem 0.9rem;
+        background:#faf7f2;border:1px solid rgba(13,27,42,0.12);border-radius:2px;margin:0.8rem 0;">
+            <span style="color:#0077aa;font-size:0.9rem;font-weight:500;">{len(st.session_state.search_results)}</span>
+            papers retrieved
+        </div>
+        """, unsafe_allow_html=True)
+
+        for i, paper in enumerate(st.session_state.search_results):
+            title      = paper.get("title", "No title")
+            abstract   = paper.get("abstract", "No abstract available.")
+            year       = paper.get("year", "N/A")
+            url        = paper.get("url", "")
+            authors    = paper.get("authors", [])
+            author_str = ", ".join([a.get("name", "") for a in authors[:3]])
+            if len(authors) > 3:
+                author_str += " et al."
+
+            with st.container(border=True):
+                st.markdown(f"**{title}**")
+                st.caption(f"{year}  ·  {author_str if author_str else 'Unknown authors'}")
+                with st.expander("Abstract"):
+                    st.write(abstract)
+                if url:
+                    st.link_button("↗ Open paper", url)
+
+    else:
+        st.markdown("""
+        <div style="text-align:center;padding:5rem 2rem;">
+            <div style="font-family:'DM Mono',monospace;font-size:0.65rem;
+            letter-spacing:0.2em;color:rgba(13,27,42,0.2);margin-bottom:0.6rem;">NO RESULTS</div>
+            <div style="font-family:'Inter',sans-serif;font-size:0.85rem;color:#4a6377;">
+            Enter a research topic above and click Search</div>
+        </div>
+        """, unsafe_allow_html=True)
+
+
+# ── Footer
+st.markdown("""
+<div style="display:flex;justify-content:space-between;align-items:center;
+padding:0.7rem 0;margin-top:0.5rem;
+border-top:1px solid rgba(13,27,42,0.12);
+font-family:'DM Mono',monospace;font-size:0.6rem;color:#4a6377;letter-spacing:0.06em;">
+    <div style="color:#1e3448;">HyBreDe · Turku University of Applied Sciences · ICT 2026</div>
+    <div>
+        <span style="color:#0077aa;">Evidence-grounded</span>
+        <span style="color:rgba(13,27,42,0.3);">&nbsp;·&nbsp; No clinical recommendations &nbsp;·&nbsp;</span>
+        <span style="color:#007c6e;">Human oversight preserved</span>
+    </div>
+</div>
+""", unsafe_allow_html=True)
