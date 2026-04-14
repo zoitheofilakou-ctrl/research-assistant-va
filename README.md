@@ -251,11 +251,3 @@ Tests currently live in:
 Repository status note:
 - all Python files compile successfully
 - the current `unittest` suite is partially stale relative to the latest retrieval and citation behavior
-
-## What To Clean Up Next
-
-If you want to simplify the repository, the highest-value cleanup items are:
-- decide whether `app.py` or `appV2.py` is the real UI and remove/archive the other
-- decouple `app.py` startup from `SEMANTIC_SCHOLAR_API_KEY` so chat can run without external search
-- refresh the tests to match current numbered-reference RAG output and current retrieval filtering logic
-- decide whether `invalid_papers.json`, `tmp_retrieval_query.json`, and `technical_documentation.docx` should stay in the repo
