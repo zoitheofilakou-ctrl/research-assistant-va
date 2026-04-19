@@ -1,34 +1,34 @@
 {
   "script_name": "retrieval_index",
-  "started_at": "2026-03-24T08:28:47.975214+00:00",
-  "finished_at": "2026-03-24T08:29:13.820549+00:00",
+  "started_at": "2026-04-19T09:20:39.883707+00:00",
+  "finished_at": "2026-04-19T09:21:18.579785+00:00",
   "summary": {
     "metadata_path": "data\\hybrede_metadata_v5.json",
     "filtered_path": "data\\processed\\filtered_papers.json",
-    "allowed_papers": 108,
+    "allowed_papers": 107,
     "missing_in_metadata": 0,
-    "fulltext_papers": 30,
-    "abstract_fallback_papers": 78,
-    "total_chunks": 756,
-    "lexical_records": 756,
-    "collection_size": 756
+    "fulltext_papers": 27,
+    "abstract_fallback_papers": 80,
+    "total_chunks": 708,
+    "lexical_records": 708,
+    "collection_size": 708
   },
   "events": [
     {
-      "action": "updated_index",
-      "timestamp": "2026-03-24T08:29:13.778113+00:00",
+      "action": "created_index",
+      "timestamp": "2026-04-19T09:21:18.577487+00:00",
       "path": "rag_store",
       "details": {
         "collection": "hybrede",
-        "chunk_count": 756
+        "chunk_count": 708
       }
     },
     {
-      "action": "updated",
-      "timestamp": "2026-03-24T08:29:13.779108+00:00",
+      "action": "created",
+      "timestamp": "2026-04-19T09:21:18.577487+00:00",
       "path": "rag_store\\lexical_index.json",
       "details": {
-        "record_count": 756
+        "record_count": 708
       }
     }
   ]

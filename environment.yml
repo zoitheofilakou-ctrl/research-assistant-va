@@ -1,0 +1,92 @@
+name: capstone-env
+# ─────────────────────────────────────────────────────────────────────────────
+# Source of truth for the Conda environment.
+# requirements.txt mirrors the pip section for non-Conda users.
+#
+# Clean rebuild:
+#   conda env remove -n capstone-env
+#   conda env create -f environment.yml
+#   conda activate capstone-env
+#   python Retrieval/retrieval.py index   # rebuild ChromaDB (schema resets)
+#
+# After a clean install, regenerate the lock file:
+#   pip freeze > requirements-lock.txt
+# ─────────────────────────────────────────────────────────────────────────────
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # ── Python ──────────────────────────────────────────────────────────────────
+  - python=3.10
+
+  # ── Numerical / ML base (Conda-managed for binary compatibility) ────────────
+  # Pinned to lock-file confirmed versions. These are transitive deps of
+  # sentence-transformers and chromadb but are pinned explicitly because
+  # numpy ABI mismatches are a common source of hard-to-diagnose failures.
+  - numpy=1.26.4
+  - scipy=1.11.4
+  - pandas=2.1.4
+  - scikit-learn=1.3.2
+
+  - pip
+  - setuptools
+  - wheel
+
+  - pip:
+      # ── Embeddings / NLP ────────────────────────────────────────────────────
+      # Verified-compatible set (all versions confirmed from pip freeze):
+      #
+      #   sentence-transformers 2.2.2
+      #     requires transformers  >=4.6.0,  <5.0     → 4.36.2  ✓
+      #     requires huggingface_hub >=0.4.0           → 0.36.2  ✓
+      #     requires torch         >=1.11.0            → 2.11.0  ✓
+      #
+      #   transformers 4.36.2
+      #     requires huggingface_hub >=0.19.3, <1.0   → 0.36.2  ✓
+      #     requires tokenizers     >=0.14,   <0.19   → 0.15.2  ✓
+      #     requires safetensors    >=0.3.1            → 0.7.0   ✓
+      #
+      # tokenizers is pinned explicitly: transformers 4.36.x has an upper bound
+      # <0.19 that pip may not enforce if other packages raise it later.
+      - sentence-transformers==2.2.2
+      - transformers==4.36.2
+      - huggingface_hub==0.36.2
+      - tokenizers==0.15.2
+
+      # ── PyTorch ─────────────────────────────────────────────────────────────
+      # NOTICE: torch==2.11.0 is recorded in the lock file and is pinned here.
+      # This version number is unusually high for PyTorch's normal release cadence
+      # and should be verified after a clean install (run: python -c "import torch;
+      # print(torch.__version__)"). If you need GPU support, install torch
+      # separately from https://pytorch.org before running conda env create,
+      # then update this pin to match.
+      - torch==2.11.0
+
+      # ── Vector DB ───────────────────────────────────────────────────────────
+      # chromadb 0.4.22 is pinned hard: later versions changed the SQLite schema.
+      # Upgrading requires a full index rebuild AND a schema migration.
+      # Do NOT change this version without reading the ChromaDB migration guide.
+      - chromadb==0.4.22
+
+      # ── App / UI ─────────────────────────────────────────────────────────────
+      - streamlit==1.32.2
+
+      # ── LLM API ──────────────────────────────────────────────────────────────
+      # openai 2.x has breaking API changes vs 1.x (different client constructor,
+      # response object shape). The code uses the v2 style (OpenAI() constructor).
+      # Pinned exactly to the version confirmed in the lock file.
+      - openai==2.32.0
+
+      # ── PDF / text processing ─────────────────────────────────────────────
+      # pdfplumber, langdetect, rapidfuzz were absent from the lock file,
+      # meaning the lock was generated before they were added. Versions below
+      # are the latest stable releases known at project time. Pin these to
+      # exact versions after your first clean install via pip freeze.
+      - pdfplumber==0.11.0
+      - langdetect==1.0.9
+      - rapidfuzz==3.6.1
+
+      # ── Utilities ─────────────────────────────────────────────────────────
+      - python-dotenv==1.2.2
+      - requests==2.33.1

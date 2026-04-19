@@ -124,31 +124,43 @@ def _answer_has_allowed_citation(answer: str) -> bool:
     return bool(re.search(r"\[\d+\]", answer))
 
 
-REF_SECTION_RE = re.compile(
-    r"((?:^|\n)[ \t]*(?:\d+[\.\)]\s*)?References[ \t]*\n)(.*?)$",
-    re.IGNORECASE | re.DOTALL,
-)
-
-
 def _rebuild_references_section(answer: str, sources: list) -> str:
-    """Replace the bare-numbered References section with titled entries."""
-    match = REF_SECTION_RE.search(answer)
-    if not match:
+    """Rebuild the References section from every [N] citation found in the answer.
+
+    Scans the full answer text so citations in any section (Limitations,
+    Practical Implications, etc.) are never omitted from the reference list.
+    Handles varied LLM header formats: plain, bold, numbered, double-spaced.
+    """
+    if not sources:
         return answer
 
-    body = answer[: match.start()]
-    cited = sorted(set(int(n) for n in re.findall(r"\[(\d+)\]", body)))
+    # Collect every cited number that has a matching source
+    cited = sorted(
+        set(
+            int(n)
+            for n in re.findall(r"\[(\d+)\]", answer)
+            if 1 <= int(n) <= len(sources)
+        )
+    )
+    if not cited:
+        return answer
 
-    header = match.group(1).rstrip()
-    entries = []
-    for n in cited:
-        idx = n - 1
-        if 0 <= idx < len(sources):
-            title = sources[idx].get("title") or "Unknown"
-            year = sources[idx].get("year") or "N/A"
-            entries.append(f"[{n}] {title} ({year})")
+    # Build the authoritative reference block
+    entries = [
+        f"[{n}] {sources[n - 1].get('title') or 'Unknown'} ({sources[n - 1].get('year') or 'N/A'})"
+        for n in cited
+    ]
+    ref_block = "References\n\n" + "\n\n".join(entries)
 
-    return body + header + "\n\n" + "\n\n".join(entries)
+    # Strip any existing references section (tolerates bold, numbered, extra whitespace)
+    stripped = re.sub(
+        r"\n+[ \t]*(?:\d+[\.\)]\s*)?(?:\*{1,2})?References(?:\*{1,2})?[ \t]*\n.*$",
+        "",
+        answer,
+        flags=re.IGNORECASE | re.DOTALL,
+    ).rstrip()
+
+    return stripped + "\n\n" + ref_block
 
 
 def _normalize_text_answer(answer: str, sources: list) -> str:
@@ -182,6 +194,7 @@ def _build_prompt(
     - Cite every substantive claim using numbered references matching the [Source N] number in the evidence, for example: [1] or [1, 3].
     - Only use reference numbers between 1 and {n_sources}.
     - Never use paperId values, DOIs, author-year references, or any other citation format.
+    - A source is only citable if its excerpt directly addresses the specific question asked. If a source is only tangentially related or does not contain a finding relevant to the question, omit it entirely — do NOT invent or infer a finding to justify including it. Citing fewer sources accurately is always preferable to stretching content from unrelated papers.
 
     This system provides AI-assisted literature synthesis only.
     It does not replace professional judgment."""

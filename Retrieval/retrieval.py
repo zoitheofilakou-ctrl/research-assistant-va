@@ -198,6 +198,15 @@ def require_retrieval_dependencies():
         )
 
 
+def get_chroma_client(path: str):
+    require_retrieval_dependencies()
+    settings_factory = getattr(getattr(chromadb, "config", None), "Settings", None)
+    if settings_factory is None:
+        return chromadb.PersistentClient(path=path)
+    settings = settings_factory(anonymized_telemetry=False)
+    return chromadb.PersistentClient(path=path, settings=settings)
+
+
 @lru_cache(maxsize=1)
 def get_embedding_model():
     require_retrieval_dependencies()
@@ -1583,7 +1592,7 @@ def hybrid_query_result(collection, lexical_index: LexicalIndex, raw_vector_resu
 
 
 def get_chroma_collection(min_score: Optional[float] = DEFAULT_MIN_SCORE, oversample_factor: int = QUERY_OVERSAMPLE_FACTOR):
-    client = chromadb.PersistentClient(path=CHROMA_DIR)
+    client = get_chroma_client(CHROMA_DIR)
     collection = client.get_or_create_collection(name=COLLECTION_NAME)
     lexical_index = LexicalIndex.from_file(LEXICAL_INDEX_FILE)
     return HybridCollectionProxy(collection, lexical_index=lexical_index, min_score=min_score, oversample_factor=oversample_factor)
@@ -1610,7 +1619,7 @@ def cmd_index(metadata_file: str, filtered_file: str):
     allowed_ids = sorted(allowed_set)
 
     model = get_embedding_model()
-    client = chromadb.PersistentClient(path=CHROMA_DIR)
+    client = get_chroma_client(CHROMA_DIR)
     os.makedirs(CHROMA_DIR, exist_ok=True)
 
     try:
