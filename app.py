@@ -459,11 +459,82 @@ with tab_ask:
     if not os.path.exists(RAG_STORE_DIR):
         st.warning("No vector index found. Build the index before asking questions.")
 
+    user_input = st.chat_input("Ask a research question about the pre-screened corpus...")
+
     for msg in st.session_state.chat_history:
         with st.chat_message(msg["role"]):
             st.markdown(msg["content"])
+            if msg["role"] == "assistant" and msg.get("sources"):
+                sources = msg["sources"]
+                with st.expander(f"◈ Evidence Sources · {len(sources)} Top-k Retrieved Results"):
+                    st.caption(
+                        "Top-k results after hybrid retrieval (embedding + lexical + reranking). "
+                        "Signals reflect retrieval alignment (semantic and lexical), "
+                        "not evidence quality, methodological rigor, or clinical validity."
+                    )
+                    st.caption(
+                        "Ranking reflects retrieval relevance, not strength of evidence, study quality, or clinical validity."
+                    )
+                    st.caption("Not all retrieved papers are necessarily used in the final answer; only those selected during generation are cited.")
+                    st.caption("Corpus composition: 27 full-text papers · 80 abstract-only papers")
 
-    user_input = st.chat_input("Ask a research question about the pre-screened corpus...")
+                    for idx, s in enumerate(sources, start=1):
+                        paper_num       = s.get("rank", idx)
+                        title_s         = s.get("title", "Unknown")
+                        year_s          = s.get("year", "")
+                        url_s           = s.get("url", "")
+                        pid             = s.get("paperId", "")
+                        sem             = s.get("semantic_similarity")
+                        keyword_overlap = s.get("keyword_overlap")
+                        ce              = s.get("cross_encoder_score")
+                        src             = format_text_source(s.get("text_source", ""))
+
+                        if not s.get("text", "").strip():
+                            st.warning("No textual evidence available for this result.")
+                            continue
+
+                        st.markdown(f"**Paper {paper_num} — {title_s}**")
+                        st.caption(f"{year_s} · {src}")
+
+                        if src == "abstract only":
+                            st.warning("Abstract-level evidence: limited detail and lower evidential strength.")
+
+                        col1, col2, col3, col4 = st.columns(4)
+
+                        with col1:
+                            st.metric(
+                                "Position in results",
+                                str(paper_num),
+                                help="Retrieval rank — lower is more relevant. Not a measure of evidence quality."
+                            )
+
+                        with col2:
+                            if sem is not None:
+                                label = semantic_label(sem)
+                                st.metric(
+                                    "Semantic similarity",
+                                    f"{sem:.2f} ({label})",
+                                    help="How closely this text's meaning matches your query. High ≥ 0.50 · Moderate ≥ 0.40 · Low < 0.40."
+                                )
+
+                        with col3:
+                            st.metric(
+                                "Keyword overlap",
+                                keyword_overlap if keyword_overlap else "N/A",
+                                help="How many of your query terms appear in this text. Shared vocabulary, not guaranteed relevance."
+                            )
+
+                        with col4:
+                            st.metric(
+                                "Relevance (reranker)",
+                                f"{ce:.2f}" if ce else "N/A",
+                                help="Fine-grained relevance score from the reranker — the most reliable of the three signals. Still a retrieval metric, not a quality judgment."
+                            )
+
+                        if pid:
+                            st.caption(f"ID: {pid}")
+                        if url_s:
+                            st.link_button("↗ Open", url_s)
 
     if user_input:
 
@@ -584,7 +655,8 @@ with tab_ask:
                     if not insufficient_evidence:
                         st.session_state.chat_history.append({
                             "role": "assistant",
-                            "content": answer
+                            "content": answer,
+                            "sources": sources,
                         })
 
                 except Exception as e:

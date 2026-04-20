@@ -1,70 +1,59 @@
-# =====================
-# Environment / Secrets
-# =====================
+# Secrets
 .env
 .env.*
 !.env.example
 
-# =====================
-# Python
-# =====================
+# Python cache / compiled files
 __pycache__/
 *.py[cod]
 *$py.class
-*.pyd
 
-# =====================
-# Virtual Environments
-# =====================
+# Virtual environments
 venv/
 .venv/
 env/
 ENV/
 
-# =====================
-# Testing / Coverage
-# =====================
+# Conda
+.conda/
+conda-meta/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
+.tox/
+.nox/
 
-# =====================
-# Logs
-# =====================
-*.log
+# Jupyter
+.ipynb_checkpoints/
 
-# =====================
-# IDE — JetBrains / PyCharm
-# =====================
-.idea/
-*.iml
-
-# =====================
-# IDE — VS Code
-# =====================
+# IDE / editor
 .vscode/
+.idea/
+*.swp
+*.swo
 
-# =====================
-# OS
-# =====================
+# OS files
 .DS_Store
 Thumbs.db
 
-# =====================
-# Streamlit
-# =====================
+# Streamlit / local app state
 .streamlit/secrets.toml
 
-# =====================
-# RAG / Vector Store (generated, large)
-# =====================
+# Local generated retrieval/index artifacts
 rag_store/
+tmp_retrieval_query.json
 
-# =====================
-# Data — raw / harvested (large, not source)
-# =====================
-data/raw/
-data/harvested_pdfs/
-data/fulltext/
+# Logs
+*.log
 
-# Keep processed outputs tracked (do NOT ignore data/processed/)
+# Optional: generated manifests
+run_manifests/
