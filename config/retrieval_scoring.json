@@ -1,0 +1,171 @@
+{
+  "documentation_status": {
+    "purpose": "Machine-readable record of the fixed retrieval and scoring parameters implemented in the frozen HyBreDE retrieval pipeline.",
+    "loaded_directly_by_pipeline": false,
+    "source_of_truth": "Retrieval/retrieval.py",
+    "frozen_repository_commit": "6ceae1d3678b4a1958330a319ee0f4aa434cac28",
+    "note": "This file documents parameters embedded in the frozen implementation. It was created retrospectively and was not loaded during the reported runs."
+  },
+  "models": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "cross_encoder_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "embedding_normalization": true
+  },
+  "indexing": {
+    "chunk_words": 400,
+    "chunk_overlap_words": 80,
+    "abstract_word_limit": 220,
+    "collection_name": "hybrede"
+  },
+  "query_defaults": {
+    "top_k": 5,
+    "minimum_embedding_score": 0.45,
+    "query_oversample_factor": 3,
+    "hybrid_candidate_pool_minimum": 40,
+    "lexical_candidate_pool_minimum": 25
+  },
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75
+  },
+  "score_normalization": {
+    "candidate_scores": "Min-max normalization performed separately for embedding scores and BM25 scores within the merged candidate set.",
+    "equal_value_rule": "If all values are equal, all scores become 1.0 when the common value is positive; otherwise they become 0.0.",
+    "semantic_distance": "sqrt(max(0, 2 - 2 * cosine_similarity))",
+    "semantic_score": "1 / (1 + semantic_distance)"
+  },
+  "query_type_hybrid_weights": {
+    "general": {
+      "embedding": 0.60,
+      "bm25": 0.40
+    },
+    "instrument": {
+      "embedding": 0.45,
+      "bm25": 0.55
+    },
+    "evidence": {
+      "embedding": 0.55,
+      "bm25": 0.45
+    },
+    "qualitative": {
+      "embedding": 0.50,
+      "bm25": 0.50
+    }
+  },
+  "field_scoring": {
+    "coverage_weights": {
+      "title": 0.34,
+      "abstract": 0.22,
+      "body": 0.14
+    },
+    "exact_phrase_weights": {
+      "title": 0.20,
+      "abstract": 0.14,
+      "body": 0.08
+    },
+    "term_hit_weights": {
+      "title": 0.05,
+      "abstract": 0.035,
+      "body": 0.025
+    },
+    "field_score_caps": {
+      "title": 0.45,
+      "abstract": 0.28,
+      "body": 0.18
+    },
+    "field_hit_caps": {
+      "title": 3,
+      "abstract": 3,
+      "body": 2
+    },
+    "hyphen_normalized_phrase_multiplier": 0.7
+  },
+  "base_section_boosts": {
+    "abstract": 0.12,
+    "introduction": 0.02,
+    "background": 0.02,
+    "methods": 0.05,
+    "results": 0.08,
+    "discussion": 0.05,
+    "conclusion": 0.10,
+    "limitations": 0.01,
+    "body": 0.03
+  },
+  "query_specific_section_boosts": {
+    "general": {
+      "abstract": 0.03,
+      "conclusion": 0.03
+    },
+    "instrument": {
+      "abstract": 0.04,
+      "methods": 0.08,
+      "conclusion": 0.02
+    },
+    "evidence": {
+      "abstract": 0.05,
+      "results": 0.08,
+      "conclusion": 0.08
+    },
+    "qualitative": {
+      "abstract": 0.05,
+      "methods": 0.08,
+      "discussion": 0.08
+    }
+  },
+  "source_boosts": {
+    "fulltext": 0.06,
+    "other": 0.01
+  },
+  "query_type_term_boost": {
+    "per_matched_intent_term": 0.015,
+    "maximum": 0.06,
+    "searched_fields": [
+      "title",
+      "abstract"
+    ]
+  },
+  "chunk_score": {
+    "formula": "hybrid_score + field_score + section_boost + source_boost + query_type_boost",
+    "hybrid_score_formula": "(embedding_weight * normalized_embedding_score) + (bm25_weight * normalized_bm25_score)"
+  },
+  "strict_lexical_rescue": {
+    "minimum_embedding_score": 0.18,
+    "soft_threshold_ratio": 0.70,
+    "minimum_title_hits": 2,
+    "minimum_support_hits": 1,
+    "soft_semantic_floor_formula": "max(0.18, active_minimum_embedding_score * 0.70)"
+  },
+  "paper_aggregation": {
+    "maximum_additional_support_chunks": 3,
+    "minimum_relative_chunk_score": 0.85,
+    "bonus_per_support_chunk": 0.025,
+    "maximum_support_bonus": 0.075,
+    "section_diversity_bonus_per_additional_section": 0.01,
+    "maximum_section_diversity_bonus": 0.02,
+    "paper_score_formula": "best_chunk_score + support_bonus + section_diversity_bonus"
+  },
+  "cross_encoder": {
+    "maximum_papers_reranked": 20,
+    "calibration": "sigmoid(clip(raw_score / 3, -12, 12))",
+    "paper_score_addition_weight": 0.16,
+    "minimum_calibrated_score": 0.50,
+    "input_abstract_word_limit": 120,
+    "input_excerpt_word_limit": 180,
+    "note": "Papers without a cross-encoder score are removed by the minimum-score filter; therefore no more than the first 20 paper candidates can proceed."
+  },
+  "mmr": {
+    "lambda": 0.78,
+    "minimum_candidate_pool": 15,
+    "candidate_pool_formula": "min(max(top_k * 3, 15), number_of_available_papers)",
+    "score_formula": "(0.78 * normalized_paper_relevance) - (0.22 * maximum_cosine_similarity_to_selected_papers)",
+    "representative_text_embedding_normalization": true,
+    "input_abstract_word_limit": 120,
+    "input_excerpt_word_limit": 180
+  },
+  "final_scoring": {
+    "cross_encoder_weight": 0.70,
+    "embedding_weight": 0.30,
+    "formula": "(0.70 * calibrated_cross_encoder_score) + (0.30 * embedding_score)",
+    "note": "The final displayed ranking score does not directly include the BM25, field, section, source, support, or MMR scores. These affect candidate selection and intermediate ranking."
+  }
+}
